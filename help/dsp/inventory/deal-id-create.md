@@ -2,8 +2,8 @@
 title: 手動建立交易ID詳細資訊
 description: 了解如何手動輸入交易ID的詳細資訊。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 2fe1ee7366c84f3a7d770aa3412fdde61829fe46
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 # 手動建立交易ID詳細資訊
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. 在資料表格上方，按一下 **[!UICONTROL Create]**，然後選取 **[!UICONTROL Deal ID]**.
 
 1. 輸入 [交易設定](deal-id-settings.md):
 
    1. 在 [!UICONTROL Deal ID basics] 區段中，指定交易詳細資訊以及可存取交易的廣告商。 對於有保證的交易，您還必須指定計畫的投放日期和估計的曝光次數，僅用於追蹤目的。
+
+      您可以在「詳細目錄>交易」檢視中加入「PG曝光步調」支出欄，以追蹤有保證交易的步調。
 
    1. (僅管理員用戶；選用)在 [!UICONTROL Technical] 區段，視需要編輯預設設定。
 
