@@ -2,8 +2,8 @@
 title: 查看投放位置診斷報告
 description: 了解如何診斷版位設定和步調的問題。
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
    1. 開啟位置設定：
       1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
       1. 按一下促銷活動的名稱，然後按一下 **[!UICONTROL Placements]**.
-      1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. 在右上方，按一下 ![放置診斷](/help/dsp/assets/placement-diagnostics.png) 或 **[!UICONTROL Diagnostic]**.
 1. 執行下列任一操作：
    * 要查看更改日誌，請執行以下操作：

@@ -2,8 +2,8 @@
 title: 檢視您的 [!DNL On Demand] 交易要求與訂閱
 description: 了解如何查看 [!DNL On Demand] 交易要求和訂閱。
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在您請求個別交易或訂閱發佈商的所有交易後，查看發佈商是否已核准或拒絕您的帳戶中每個廣告商的每項交易。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. 篩選可用交易以包含您已請求或訂閱的交易(**[!UICONTROL Currently subscribed to]**)**。
 1. 執行下列任一操作：
    * 若要在 [!UICONTROL Deal] 檢視，按一下 **[!UICONTROL Deal view]**.

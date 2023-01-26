@@ -2,8 +2,8 @@
 title: 將可重複使用對象的區段索引鍵複製到剪貼簿
 description: 了解如何檢視可重複使用對象的設定和對象大小。
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以將對象的英數字元區段索引鍵(ID)複製到剪貼簿。 您可以使用區段鍵 [手動定義區段邏輯](audience-segment-logic-syntax.md) 供其他可重複使用的對象使用。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 將游標停留在對象列上，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

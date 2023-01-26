@@ -2,10 +2,10 @@
 title: 建立對象來源以啟用第一方對象
 description: 了解如何建立來源，將對象匯入您的帳戶或廣告商帳戶。
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >在您為 [!DNL Real-Time CDP]，您需要啟用 [!DNL Real-Time CDP] 對象，透過Adobe的Advertising DSP目的地 [!DNL Real-Time CDP] 開始匯入。 請參閱 [啟動工作流程中的步驟](source-about.md#workflow-sources).
 
-1. 在主功能表中，按一下**[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. 按一下 [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 在Experience Platform中，使用 [!UICONTROL Source Key] 在DSP來源設定中產生。
 
-   如需啟動DSP目的地連線、選取區段及存取控制權限的指示，請參閱[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+如需啟動DSP目的地連線、選取區段及存取控制權限的指示，請參閱[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [對象來源設定](source-settings.md)
 >* [關於從受眾來源啟用已驗證的區段](source-about.md)
 >* [向持久ID合作夥伴啟用已驗證的區段](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [關於Audience Management](/help/dsp/audiences/audience-about.md)
 

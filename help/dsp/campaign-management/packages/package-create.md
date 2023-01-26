@@ -2,8 +2,8 @@
 title: 建立套件
 description: 了解如何建立套件。
 feature: DSP Packages
-exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下您要建立套件之促銷活動的名稱。
-1. 在「套件」標籤上，按一下 **[!UICONTROL Create]>[!UICONTROL Package]**.
+1. 在「套件」標籤上，按一下 **[!UICONTROL Create]** > **[!UICONTROL Package]**.
 1. 輸入 [套件設定](package-settings.md).
 1. 按一下 **[!UICONTROL Save and Close]**.
 
@@ -31,5 +31,5 @@ ht-degree: 0%
 >* [將版位附加到包](package-attach-placement.md)
 >* [查看包的更改日誌](package-change-log.md)
 >* [套件設定](package-settings.md)
->* [影片：如何建立套件](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/package-create.html)
+>* [影片：如何建立套件](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

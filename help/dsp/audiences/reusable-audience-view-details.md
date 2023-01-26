@@ -2,8 +2,8 @@
 title: 檢視可重複使用對象的詳細資訊
 description: 了解如何檢視可重複使用對象的設定和對象大小。
 feature: DSP Audiences
-exl-id: 54e25dcf-cbad-4be2-8d72-b1bb666b82b2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 檢視可重複使用對象的詳細資訊
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 將游標停留在對象列上，然後按一下 **[!UICONTROL View Details]**.
 

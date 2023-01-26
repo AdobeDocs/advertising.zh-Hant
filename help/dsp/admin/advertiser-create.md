@@ -1,10 +1,10 @@
 ---
 title: 建立廣告商帳戶
 description: 了解如何建立廣告商帳戶。
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 組織帳戶中的所有使用者都可使用廣告商。
 
-1. 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. 按一下 **[!UICONTROL Create]**.
 

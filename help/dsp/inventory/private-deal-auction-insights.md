@@ -2,8 +2,8 @@
 title: 檢視私人交易的拍賣分析
 description: 了解如何運用拍賣分析來分析私人交易的交易構成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 「拍賣前瞻分析」是一項疑難排解工具，可讓您分析有保證和無保證私人交易的交易組成。 此工具會使用資料視覺效果，顯示 [關鍵拍賣屬性](#auction-attributes) 特定時段內。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易列中，按一下  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. 在交易列中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->此外，您也可透過配售 [!UICONTROL Inspector] 工具。 為了開啟它們， [開啟投放位置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然後按一下 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行。
+>此外，您也可透過配售 [!UICONTROL Inspector] 工具。 為了開啟它們， [開啟投放位置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然後按一下 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** 在交易行。
 
 ## 拍賣屬性 {#auction-attributes}
 

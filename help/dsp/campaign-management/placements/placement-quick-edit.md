@@ -2,8 +2,8 @@
 title: 快速編輯金鑰位置設定
 description: 了解如何快速變更索引鍵位置設定。
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
-1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. 編輯任何可用 [版位設定](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**，和 **[!UICONTROL Budget]**.
 1. 按一下 **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [暫停或啟動位置](placement-pause-activate.md)
 >* [查看版位的更改日誌](placement-change-log.md)
 >* [版位設定](placement-settings.md)
->* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

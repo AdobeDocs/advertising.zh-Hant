@@ -2,10 +2,10 @@
 title: 接受 [!UICONTROL Deal ID Inbox]
 description: 了解如何接受您已與發佈商商議的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+] (原稱 [!DNL Rubicon])使用「交易ID收件匣」。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >在 [!DNL FreeWheel] 需要額外的權限和步驟。 請參閱「[在FreeWheel中建立程式保證交易概述](freewheel-overview.md)」以取得詳細資訊。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. 在 [!UICONTROL Deals]，按一下藍色列以開啟 [!UICONTROL Deal ID inbox].
 

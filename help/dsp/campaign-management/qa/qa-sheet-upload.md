@@ -2,10 +2,10 @@
 title: 行銷活動的上傳位置設定
 description: 了解如何使用Excel QA試算表，將變更上傳至行銷活動的關鍵位置設定。
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 執行下列任一操作：
 
-   * 在促銷活動名稱旁，按一下 **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * 在促銷活動名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * 按一下促銷活動名稱以檢視促銷活動詳細資訊。 在右上方，按一下 **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * 按一下促銷活動名稱以檢視促銷活動詳細資訊。 在右上方，按一下 **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. 在 [!UICONTROL Edit in Excel] 對話框：
 

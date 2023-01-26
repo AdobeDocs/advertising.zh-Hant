@@ -2,11 +2,11 @@
 title: 將版位附加到包
 description: 了解如何將版位附加至套件。
 feature: DSP Packages
-exl-id: 443aa1a3-c8b9-4949-87be-5a37e67f00a8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 按一下促銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
 
-1. 在套件名稱旁，按一下  **[!UICONTROL ...]> [!UICONTROL Attach a Placement].**
+1. 在套件名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
 1. 執行下列任一操作：
 

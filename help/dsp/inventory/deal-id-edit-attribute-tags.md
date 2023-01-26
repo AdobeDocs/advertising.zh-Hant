@@ -2,10 +2,9 @@
 title: 編輯交易ID的屬性標籤
 description: 了解如何建立和編輯交易ID的屬性標籤。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 您可以建立並指派標籤給交易ID，將類似的交易群組在一起。 當您建立或編輯版位時，可以依標籤名稱搜尋可用的詳細目錄。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. 在交易列中，按一下 ![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 

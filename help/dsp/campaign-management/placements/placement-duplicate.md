@@ -2,10 +2,10 @@
 title: 重複版位
 description: 了解如何複製一或多個版位。
 feature: DSP Placements
-exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 執行下列任一操作：
 
-   * 若要複製一個版位，請按一下  **[!UICONTROL ...]>[!UICONTROL Duplicate]** 包名稱旁邊。
+   * 若要複製一個版位，請按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 包名稱旁邊。
 
    * 若要複製多個版位：
 

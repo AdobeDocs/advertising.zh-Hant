@@ -2,10 +2,10 @@
 title: 建立自訂目標
 description: 建立自訂目標
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. 登入 [!DNL Adobe Advertising Search] at（美國公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他國家/地區的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 請確定您要包含在目標中的量度已受到追蹤、可在產品中使用，且包含顯示名稱：
-   1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 找出量度，並確定 **[!UICONTROL Show in UI and Reports]** 已針對量度啟用。
    1. 如果量度在 **[!UICONTROL Display Name]** 欄，按一下儲存格，輸入顯示名稱，然後按一下 **[!UICONTROL Apply].**
 1. 將自訂目標建立為 *目標*:
-   1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. 在工具列中，按一下 **[!UICONTROL Create objective].**
    1. 輸入目標設定：
       1. 在 **[!UICONTROL Change Objective Name]** 欄位，輸入目標名稱。

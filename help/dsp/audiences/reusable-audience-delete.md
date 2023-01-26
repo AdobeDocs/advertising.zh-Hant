@@ -2,8 +2,8 @@
 title: 刪除可重複使用的對象
 description: 了解如何刪除可重複使用的對象。
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如果目前已使用對象，則您將可以選擇匯出 [!DNL Microsoft Excel] 工作表顯示使用對象的所有版位和對象。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 將游標停留在對象列上，然後按一下 **[!UICONTROL Delete]**.
 

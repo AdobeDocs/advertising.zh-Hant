@@ -1,7 +1,7 @@
 ---
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 （選用）連結至DSP帳戶的其他Experience Cloud產品。 產品必須與中提供的相同Experience Cloud組織ID相關聯， [!UICONTROL Adobe IMS IDs] 區段。
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (廣告商與 [!DNL Adobe Advertising Search] 或使用Adobe廣告轉換像素) [!DNL Search] DSP將與其交換歸因資料的帳戶。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (廣告商與 [!DNL Adobe Advertising Search] 或使用Adobe廣告轉換像素) [!DNL Search] DSP將與其交換歸因資料的帳戶。
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (廣告商與Adobe Analytics;可選；僅適用於使用Adobe廣告轉換追蹤標籤所收集的資料，這些標籤包含 [!DNL EF Redirect] 和代號)一或多個 [!DNL Analytics] DSP將向發佈商和供應方合作夥伴傳送其收集資料的報表套裝。 Analytics也會將其從用戶端網站收集的資料傳送至DSP。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (廣告商與Adobe Analytics;可選；僅適用於使用Adobe廣告轉換追蹤標籤所收集的資料，這些標籤包含 [!DNL EF Redirect] 和代號)一或多個 [!DNL Analytics] DSP將向發佈商和供應方合作夥伴傳送其收集資料的報表套裝。 Analytics也會將其從用戶端網站收集的資料傳送至DSP。
 
 若要讓資料顯示在報表套裝中， [!DNL Search] 廣告商層級設定為「[!UICONTROL Enable tracking for SAINT feeds]」。 此外，廣告商 [!DNL Analytics] 帳戶必須設定為從Adobe廣告接收資料。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 如需與整合的詳細資訊 [!DNL Analytics]，請參閱「[概觀 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (廣告商包含Adobe Audience Manager或Adobe Analytics;選用)Audience Manager或 [!DNL Analytics] DSP將從中提取廣告商所有Adobe對象之區段中繼資料、階層資料和不重複對象資料的帳戶。 這包括下列項目的資料：
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (廣告商包含Adobe Audience Manager或Adobe Analytics;選用)Audience Manager或 [!DNL Analytics] DSP將從中提取廣告商所有Adobe對象之區段中繼資料、階層資料和不重複對象資料的帳戶。 這包括下列項目的資料：
 
 * Audience Manager區段
 * [!DNL Analytics] 發佈至Adobe Experience Cloud的區段

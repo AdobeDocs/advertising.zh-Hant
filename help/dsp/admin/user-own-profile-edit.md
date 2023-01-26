@@ -1,11 +1,11 @@
 ---
 title: 編輯您的使用者設定檔
 description: 了解如何編輯您的使用者設定檔。
-exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 3%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 您的帳戶設定檔包含您的登入認證和其他資訊。 某些使用者角色也可以檢視您組織帳戶的相關資訊，並邀請其他人員在組織帳戶中建立使用者帳戶。
 
-1. 在主功能表中，按一下 **[!UICONTROL Settings]> [!UICONTROL Account].**
+1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
 1. 編輯您的配置檔案設定：
 
@@ -22,7 +22,6 @@ ht-degree: 0%
       1. 在現有 **[!UICONTROL Email address]**，按一下 **[!UICONTROL Edit]**.
 
       1. 輸入新電子郵件地址和用戶帳戶的現有密碼。
-
       1. 按一下 **[!UICONTROL Continue]**.
    * 要編輯用戶帳戶的密碼，請執行以下操作：
 

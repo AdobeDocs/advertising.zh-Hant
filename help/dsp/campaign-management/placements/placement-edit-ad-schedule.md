@@ -2,10 +2,10 @@
 title: 編輯投放位置的廣告排程
 description: 了解如何變更附加至版位之廣告的廣告排程。
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
 
-1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. 執行下列任一操作：
 

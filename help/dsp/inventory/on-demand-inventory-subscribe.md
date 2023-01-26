@@ -2,10 +2,10 @@
 title: 訂閱並要求存取 [!DNL On Demand] 高級庫存交易
 description: 了解如何訂閱及要求存取[!DNL On Demand] 交易。
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 訂閱發佈商的所有交易
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. （選用）依下列任一條件篩選可用的交易或發行者：
 
@@ -36,7 +36,8 @@ ht-degree: 0%
 
    * 交易來源 **[!UICONTROL TV Broadcasters]**
 
-   * 接受「調整」創作者的出版商(**[!UICONTROL Tune-In]**)
+   * 接受「精通」創意的出版商的交易
+      **[!UICONTROL Tune-In]**)
 
    * 發佈商已套用21個以上目標並接受酒精廣告(**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ## 請求個別交易的存取權
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. （選用）依下列任一條件篩選可用的交易或發行者：
 
@@ -64,7 +65,8 @@ ht-degree: 0%
 
    * 交易來源 **[!UICONTROL TV Broadcasters]**
 
-   * 接受「調整」創作者的出版商(**[!UICONTROL Tune-In]**)
+   * 接受「精通」創意的出版商的交易
+      **[!UICONTROL Tune-In]**)
 
    * 發佈商已套用21個以上目標並接受酒精廣告(**[!UICONTROL Legal drinking age]**)
 

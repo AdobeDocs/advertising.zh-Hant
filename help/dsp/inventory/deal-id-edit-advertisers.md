@@ -2,8 +2,8 @@
 title: 編輯可存取私人交易的廣告商
 description: 了解如何指定哪些廣告商可以存取私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6efbc5dc-90d8-46a5-88fe-218990c6336d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >您也可以 [與指定帳戶中的所有廣告商共用並停止共用交易ID](deal-id-share.md).
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在交易列中，按一下  **[!UICONTROL ...]>[!UICONTROL Manage Advertisers]**.
+1. 在交易列中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Manage Advertisers]**.
 
 1. 在交易設定中，選取應該有權存取交易的每個廣告商旁的核取方塊，並清除不應該有存取權的每個廣告商旁的核取方塊。
 

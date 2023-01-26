@@ -1,8 +1,8 @@
 ---
 title: 重新發送待定用戶邀請
 description: 了解如何重新傳送待審的使用者邀請。
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 1. 執行下列任一操作：
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
+   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
 
 1. 在 **邀請** ，按一下 ![重新傳送](/help/dsp/assets/resend.png).
 

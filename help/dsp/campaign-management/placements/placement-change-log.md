@@ -2,8 +2,8 @@
 title: 檢視版位變更記錄
 description: 了解如何檢視對版位所做的變更。
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
-1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

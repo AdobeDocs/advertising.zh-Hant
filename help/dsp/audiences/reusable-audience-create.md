@@ -2,10 +2,10 @@
 title: 建立可重複使用的受眾
 description: 了解如何建立可重複使用的對象，這些對象包含對象區段和其他儲存的對象。
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以儲存和管理可重複使用的對象，這些對象是對象區段群組，甚至是其他已儲存的對象，您可將這些對象用作多個版位的目標或排除項目。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. 在資料表格上方，按一下 **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
       1. 以下列任何方式複製現有對象的區段邏輯：
 
-         * 在「所有對象」檢視中，將游標停留在對象列上方，然後按一下 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 在「所有對象」檢視中，將游標停留在對象列上方，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 在現有對象的設定中，在區段邏輯面板頂端，按一下 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 在現有對象的設定中，在區段邏輯面板頂端，按一下 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * 在文字編輯器中，使用英數字元區段ID手動建立區段邏輯，並 [布林語法](audience-segment-logic-syntax.md)，並複製到剪貼簿。
       1. 按一下 **[!UICONTROL paste in an audience rule to begin building]**，將現有的區段邏輯貼入輸入欄位，然後按一下 **[!UICONTROL Apply]**.

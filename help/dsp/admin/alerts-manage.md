@@ -1,10 +1,10 @@
 ---
 title: 管理警報訂閱
 description: 了解如何管理自動電子郵件警報。
-exl-id: 415c3c60-66dc-436f-b731-78970e0df77c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 新增訂閱
 
-1. 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Notifications]**.
+1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
 
 1. 在通知清單頂端，按一下 **[!UICONTROL Add Subscription]**.
 

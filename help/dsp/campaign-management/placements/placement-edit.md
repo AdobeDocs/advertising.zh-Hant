@@ -2,10 +2,10 @@
 title: 編輯位置
 description: 了解如何編輯版位。
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
 
-1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. 編輯 [版位設定](placement-settings.md).
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 >* [版位設定](placement-settings.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [關於使用試算表更正促銷活動的位置設定](/help/dsp/campaign-management/qa/qa-about.md)
->* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

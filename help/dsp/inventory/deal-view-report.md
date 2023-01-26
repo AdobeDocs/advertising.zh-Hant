@@ -2,10 +2,10 @@
 title: 檢視私人、 [!UICONTROL On Demand]，或 [!UICONTROL Simple Ad Serving] 交易
 description: 了解如何開啟交易層級報表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 交易層級報表包括拍賣次數、競標率、獲勝率、曝光次數、總淨支出、有效CMP(eCPM)和完成率。 您可以依廣告商、行銷活動、版位、廣告類型和網站來檢視其他績效量度。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 在交易列中，按一下 **[!UICONTROL ...]>[!UICONTROL View Report]**.
+1. 在交易列中，按一下 **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
 1. （選用）自訂您要檢視資料的日期範圍。
 

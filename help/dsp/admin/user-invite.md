@@ -1,8 +1,8 @@
 ---
 title: 邀請組織帳戶的新使用者
 description: 了解如何邀請新使用者加入帳戶。
-exl-id: 5394d4e8-e081-4db4-909b-38bd366ce4fc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 1. 執行下列任一操作：
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]>[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
+   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
 
 1. 在 **[!UICONTROL Invitations]** ，按一下 **[!UICONTROL Send Invite]**.
 
