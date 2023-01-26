@@ -3,10 +3,10 @@ title: 將廣告附加至版位
 description: 了解如何將廣告附加至版位。
 feature: DSP Ads
 exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. 按一下 **[!UICONTROL Select an Ad].**
 
       1. 指定廣告：
+
          * 一次新增一個廣告：
 
             1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**

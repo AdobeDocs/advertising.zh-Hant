@@ -2,9 +2,9 @@
 title: 設定Adobe Target中Adobe廣告的A/B測試
 description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search] 廣告。
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 
 ![點進架構](/help/integrations/assets/target-ct-framework.png)
 
-當您將DSP巨集新增至點進URL（使用者點按廣告並到達登錄頁面時顯示的URL）時，DSP會透過包含 ```${TM_PLACEMENT_ID}``` 在點進URL中。 此巨集會擷取英數字元放置金鑰，而非數值放置ID。
+當您將DSP巨集新增至點進URL（使用者點按廣告並到達登錄頁面時顯示的URL）時，DSP會透過包含 `${TM_PLACEMENT_ID}` 在點進URL中。 此巨集會擷取英數字元放置金鑰，而非數值放置ID。
 
 ![點進URL附加至登陸頁面URL](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 
    1. 從 **資料來源** 下拉式功能表，選取 **Ad Cloud**.
 
-   1. 在運算式產生器中，新增 ```d_event``` 在「金鑰」欄位和 ```imp``` 在 **值** 欄位，選擇 **新增規則**，然後儲存特徵。
+   1. 在運算式產生器中，新增 `d_event` 在「金鑰」欄位和 `imp` 在 **值** 欄位，選擇 **新增規則**，然後儲存特徵。
 
    ![規則型特徵的螢幕擷圖](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-下列指示會反白顯示DSP使用案例的相關資訊。 如需完整指示，請參閱[建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)」
+下列指示會反白顯示DSP使用案例的相關資訊。 如需完整指示，請參閱[建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
 
 1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -208,7 +208,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 
 * 在相同的登陸頁面上，確認a)解決方案>目標下Adobe偵錯工具中顯示的主機名稱符合b)中顯示的追蹤伺服器 [!DNL Target] （位於「目標與設定>報表設定」下）。
 
-   [!DNL Analytics For Target] 要求 [!DNL Analytics] 追蹤伺服器以在呼叫中傳送 [!DNL Target] 到 [!DNL Modstats] Analytics的資料收集伺服器。&lt;! — 只「到Analytics？」>
+   [!DNL Analytics For Target] 要求 [!DNL Analytics] 追蹤伺服器以在呼叫中傳送 [!DNL Target] 到 [!DNL Modstats] Analytics的資料收集伺服器。<!-- just "to Analytics?"-->
 
 [Adobe偵錯工具中的主機名稱值](/help/integrations/assets/target-troubleshooting-hostname.png)
 

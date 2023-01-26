@@ -3,9 +3,9 @@ title: 編輯可存取私人交易的帳戶
 description: 了解如何與不同帳戶共用和停止共用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 要共用的每個帳戶：
 
-1. 輸入 **[!UICONTROL Email Address]** 對交易有訪問權限的帳戶。
+   1. 輸入 **[!UICONTROL Email Address]** 對交易有訪問權限的帳戶。
 
-1. 按一下 **[!UICONTROL Share]**.
+   1. 按一下 **[!UICONTROL Share]**.
 
 ## 停止與帳戶共用交易ID
 

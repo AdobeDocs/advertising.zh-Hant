@@ -3,9 +3,9 @@ title: Adobe廣告支援一般資料保護規範
 description: 了解支援的資料請求類型、必要的設定和欄位值，以及使用舊版產品ID和傳回資料欄位的API存取請求範例
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe Experience Platform可讓企業完成下列工作：
 
 ## Adobe廣告JSON請求中的必填欄位值
 
-&quot;&quot;公司上下文&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*您的IMS組織ID值*>

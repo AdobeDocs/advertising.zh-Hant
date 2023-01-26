@@ -3,9 +3,9 @@ title: 設定效能行銷活動的最佳實務
 description: 了解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的刊登版位。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ DSP能以最低的每次贏取成本(CPA)或最高的廣告投入報酬率(ROAS)
 
 ## 步驟3 — 建立套件
 
-最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此套件中所有位置的效能資料會匯集在一起。 因此，將配置分組到具有類似預期效能的包中。
+最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此會收集套件中所有位置的效能資料。 因此，將配置分組到具有類似預期效能的包中。
 
 ![用於探礦和重新定位的單獨包示例](/help/dsp/assets/p-r.png)
 

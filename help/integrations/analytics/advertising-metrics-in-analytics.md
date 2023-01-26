@@ -3,9 +3,9 @@ title: AdobeAnalysis Workspace中的Advertising量度
 description: AdobeAnalysis Workspace中的Advertising量度
 feature: Integration with Adobe Analytics
 exl-id: d740bd19-c643-4917-9cfd-f9cf0affd07e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AMO Views 75% Complete] | 觀看Adobe廣告影片至少75%的檢視次數。 |
 | [!UICONTROL AMO Views 100% Complete] | 觀看100%的Adobe廣告影片的檢視次數。 |
 | [!UICONTROL AMO Viewable Impressions] | 根據放置配置可檢視的測量曝光次數。 |
-| [!UICONTROL AMO Not Viewable Impressions] | 被判斷為無法檢視的曝光次數。 此值的計算方式為([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable ])。 |
+| [!UICONTROL AMO Not Viewable Impressions] | 被判斷為無法檢視的曝光次數。 此值的計算方式為([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable])。 |
 | [!UICONTROL AMO Measurable Impressions] | 已成功初始化可視性檢測的曝光次數。 此值的計算方式為（有工具的曝光次數 — 無法測量的曝光次數）。 |
 
 ## 適用於Adobe廣告的實用自訂計算量度

@@ -3,9 +3,9 @@ title: 行銷活動的上傳位置設定
 description: 了解如何使用Excel QA試算表，將變更上傳至行銷活動的關鍵位置設定。
 feature: DSP Placements
 exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

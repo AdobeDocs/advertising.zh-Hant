@@ -3,9 +3,9 @@ title: 下載行銷活動的版位設定
 description: 了解如何使用Excel QA試算表下載行銷活動的版位設定。
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 執行下列任一操作：
 
-   * 在促銷活動名稱旁，按一下 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 在促銷活動名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * 按一下促銷活動名稱以檢視促銷活動詳細資訊。 在右上方，按一下 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 按一下促銷活動名稱以檢視促銷活動詳細資訊。 在右上方，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    通知訊息會指出檔案何時可供下載。
 

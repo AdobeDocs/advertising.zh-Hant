@@ -3,9 +3,9 @@ title: 建立可重複使用的受眾
 description: 了解如何建立可重複使用的對象，這些對象包含對象區段和其他儲存的對象。
 feature: DSP Audiences
 exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

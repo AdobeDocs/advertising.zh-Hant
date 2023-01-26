@@ -3,9 +3,9 @@ title: 共用可重複使用的受眾
 description: 了解如何與帳戶可用的其他廣告商共用可重複使用的受眾。
 feature: DSP Audiences
 exl-id: 8a5d432b-42d7-4b3b-845f-32a70dd5d1b7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 共用受眾後，就無法停止共用受眾。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 將游標停留在對象列上，然後按一下 **[!UICONTROL Share]**.
 
-1. 選取要 **[!UICONTROL Share with all advertisers in my account ]**.
+1. 選取要 **[!UICONTROL Share with all advertisers in my account]**.
 
 1. 按一下 **[!UICONTROL Save]**.
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Experience Cloud 的整合
 user-guide-description: 了解 Advertising DSP 和 Advertising Search 與其他 Adobe Experience Cloud 產品和服務的整合。
 breadcrumb-title: Experience Cloud 的整合
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

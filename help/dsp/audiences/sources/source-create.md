@@ -3,9 +3,9 @@ title: 建立對象來源以啟用第一方對象
 description: 了解如何建立來源，將對象匯入您的帳戶或廣告商帳戶。
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 在Experience Platform中，使用 [!UICONTROL Source Key] 在DSP來源設定中產生。
 
-如需啟動DSP目的地連線、選取區段及存取控制權限的指示，請參閱[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   如需啟動DSP目的地連線、選取區段及存取控制權限的指示，請參閱[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

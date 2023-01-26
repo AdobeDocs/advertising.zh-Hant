@@ -3,9 +3,9 @@ title: 使用案例
 description: 了解與Audience Manager共用Advertising DSP媒體資料的使用案例
 feature: Integration with Adobe Audience Manager
 exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,23 @@ ht-degree: 0%
 
    例如，若要為特徵命名 `Creative Trait 123`，請使用下列特徵規則：
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. 建立特徵以擷取點按或轉換的使用者。
 
    例如，若要為此特徵命名 `Click and Converter`，請使用下列特徵規則：
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. 建立區段，稱為 `Retarget Users` 填入看到創意內容的使用者 `123` 但未點按或轉換。 使用下列特徵規則：
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. 對應區段 `Retarget Users` 到目的地，並透過創意內容鎖定目的地中的使用者 `456`.
 

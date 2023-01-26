@@ -2,10 +2,10 @@
 title: 編輯您的使用者設定檔
 description: 了解如何編輯您的使用者設定檔。
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 3%
       1. 在現有 **[!UICONTROL Email address]**，按一下 **[!UICONTROL Edit]**.
 
       1. 輸入新電子郵件地址和用戶帳戶的現有密碼。
+
       1. 按一下 **[!UICONTROL Continue]**.
    * 要編輯用戶帳戶的密碼，請執行以下操作：
 
