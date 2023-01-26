@@ -3,9 +3,9 @@ title: 匯入Adobe Audience Manager區段以用於廣告鎖定目標
 description: 了解如何匯入 [!DNL Adobe] Advertising DSP和使用Adobe Audience Manager搜尋對象
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP和 [!DNL Advertising Search] 每個都能提取所有廣告商�
 
 * 發佈至Adobe Analytics的Adobe Experience Cloud區段
 
-* 在Adobe Experience Cloud中建立的區段使用 [!DNL People core service]
+* 使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]
 
 * 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe廣告的區段
 

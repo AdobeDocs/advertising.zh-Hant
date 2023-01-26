@@ -3,9 +3,9 @@ title: Adobe廣告整合Adobe Audience Manager
 description: 了解Adobe廣告與Adobe Audience Manager交換資料的不同方式。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *選擇加入的廣告商 [!DNL Advertising Search] 僅限*
 
-在[!DNL內 [!DNL Search]]您可以建立 [!DNL Google Ads] GoogleAudience Manager會使用您現有的客戶區段來比對來自使用者ID的受眾，這些區段具有 [!UICONTROL Adobe Media Optimizer (HTTP)] 和 [!UICONTROL Adobe Media Optimizer Batch Destination] 作為目的地。 ([!DNL Media Optimizer] 是[!DNL的舊名 [!DNL Search]])。 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及在Adobe Experience Cloud中使用 [!DNL People core service]. 如需詳細資訊，請參閱[!DNL中的產品內說明 [!DNL Search]]。
+在[!DNL內 [!DNL Search]]您可以建立 [!DNL Google Ads] GoogleAudience Manager會使用您現有的客戶區段來比對來自使用者ID的受眾，這些區段具有 [!UICONTROL Adobe Media Optimizer (HTTP)] 和 [!UICONTROL Adobe Media Optimizer Batch Destination] 作為目的地。 ([!DNL Media Optimizer] 是[!DNL的舊名 [!DNL Search]])。 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]. 如需詳細資訊，請參閱[!DNL中的產品內說明 [!DNL Search]]。
 
 [客戶比對來自使用者ID的受眾](https://support.google.com/google-ads/answer/9199250) 類似網站標籤型受眾，但會將非PII ID指派給不重複受眾成員，以獲得比標準客戶比對和網站標籤型受眾更明顯的優點。
 

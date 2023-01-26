@@ -1,9 +1,9 @@
 ---
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Audience Manager區段
 * [!DNL Analytics] 發佈至Adobe Experience Cloud的區段
-* 在Adobe Experience Cloud中建立的區段使用 [!DNL People core service]
+* 使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]
 * 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe廣告的區段
 
 初始同步約需24小時。 之後，資料會即時同步，延遲一至兩秒。
