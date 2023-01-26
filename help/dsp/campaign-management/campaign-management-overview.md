@@ -2,8 +2,8 @@
 title: Advertising DSP中的Campaign Management概觀
 description: 了解行銷活動管理階層和元件。
 feature: DSP Packages, DSP Placements, DSP Ads
-exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -57,5 +57,5 @@ A [刊登](/help/dsp/campaign-management/placements/placement-about.md) 儲存�
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [關於促銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

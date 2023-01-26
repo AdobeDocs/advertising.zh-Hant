@@ -2,10 +2,10 @@
 title: 建立多個第三方廣告
 description: 了解如何一次建立多個第三方廣告。
 feature: DSP Ads
-exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -69,5 +69,5 @@ ht-degree: 0%
 >* [關於廣告管理](ad-about.md)
 >* [廣告規格](ad-specs.md)
 >* [建立單一廣告](ad-create.md)
->* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 

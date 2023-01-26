@@ -2,10 +2,10 @@
 title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
-exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---

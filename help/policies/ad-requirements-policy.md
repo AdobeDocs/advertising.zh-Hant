@@ -2,8 +2,8 @@
 title: Adobe廣告需求政策
 description: 請參閱廣告需求的原則。
 feature: Policies, DSP Ads
-exl-id: 49c990e7-05d7-4fde-a728-d9e8dfb86222
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '2058'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Adobe保留在自行判斷中判斷廣告或廣告重新導向或連結的網站
 
 ## 目標廣告
 
-本服務不得用於將廣告定位給使用者，或排除使用者不予定位，包括根據對您網站或其他線上服務的造訪來重新定位使用者，其方式表示您了解這些廣告的潛在敏感資訊。
+本服務不得用於將廣告定位給使用者，或排除使用者不被定位，包括根據對您網站或其他線上服務的造訪來重新定位使用者，其方式表示您了解這些廣告的潛在敏感資訊。
 
 * **禁止的目標**. 根據下列任一因素（無論已知或推斷），廣告不得鎖定或指向對象：
 

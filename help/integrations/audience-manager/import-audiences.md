@@ -2,10 +2,10 @@
 title: 匯入Adobe Audience Manager區段以用於廣告鎖定目標
 description: 了解如何匯入 [!DNL Adobe] Advertising DSP和使用Adobe Audience Manager搜尋對象
 feature: Integration with Adobe Audience Manager
-exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Advertising DSP和 [!DNL Advertising Search] 每個都能提取所有廣告商�
 
 * 廣告商的網站訪客不包含大量 [!DNL Apple Safari] 使用者。
 
-* (若廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少對每個網頁的呼叫，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集的程式碼，並啟用每個程式的伺服器端轉送 [!DNL Analytics] 報表套裝。 如需詳細資訊，請參閱[伺服器端轉送概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+* (若廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少對每個網頁的呼叫，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集的程式碼，並啟用每個的伺服器端轉送 [!DNL Analytics] 報表套裝。 如需詳細資訊，請參閱[伺服器端轉送概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 * （建議）若要提高匹配率，請僅傳送第一方網站資料至Adobe廣告。 如果廣告商捆綁來自客戶關係管理系統的第三方資料或離線資料，則資料洩漏可能會降低匹配率。
 
@@ -109,7 +109,7 @@ API會自動：
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
-
+ 
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data

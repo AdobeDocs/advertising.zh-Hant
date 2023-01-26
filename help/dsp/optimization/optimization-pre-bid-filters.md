@@ -2,8 +2,8 @@
 title: 版位層級出價前篩選器及其使用方法
 description: 參考可用的版位層級預先出價篩選條件，並了解如何使用。
 feature: DSP Optimization
-exl-id: c699e970-84ca-429b-8062-81804e6c9f21
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

@@ -1,12 +1,12 @@
 ---
-title: '"[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers」'
-description: '"[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers」'
+title: '''[!DNL On Demand] Premium Inventory Publishers in Europe, Middle East, and Africa)一書'
+description: '''[!DNL On Demand] Premium Inventory Publishers in Europe, Middle East, and Africa)一書'
 feature: DSP On Demand Inventory
-exl-id: e56fd637-fb01-4bc0-9125-aa6844eeccc4
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!DNL Future] | 英國 |
 | [!DNL Gameloft] | 英國 |
 | [!DNL Gentside] | 英國 |
-| [!DNL GiveMeSport] | 英國 |
+| [!DNL GiveMeSport ] | 英國 |
 | [!DNL Hearst] | 英國 |
 | [!DNL King] | 英國 |
 | [!DNL Ladbible] | 英國 |

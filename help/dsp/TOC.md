@@ -7,10 +7,11 @@ product: advertising cloud
 user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 5%
+source-wordcount: '881'
+ht-degree: 6%
 
 ---
 
@@ -34,15 +35,8 @@ ht-degree: 5%
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
-   + 支援消費者隱私權 {#privacy}
-      + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
-      + 支援CCPA {#ccpa}
-         + [支援加州消費者隱私法：消費者資料存取和刪除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [支援加州消費者隱私法：消費者選擇退出銷售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
-   + 原則和指導方針 {#policies}
-      + [廣告需求政策](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [可接受的健康區段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management結構概觀](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -85,7 +79,7 @@ ht-degree: 5%
       + [使用建立廣告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [將廣告附加至版位](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [將廣告附加至版位](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [列出與廣告相關聯的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [檢視廣告的詳細報表](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [封存或取消封存廣告](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
@@ -230,6 +224,6 @@ ht-degree: 5%
    + 通知 {#notifications}
       + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud 的整合](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ [Adobe Experience Cloud 的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [客戶支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

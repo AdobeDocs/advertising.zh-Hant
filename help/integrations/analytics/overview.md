@@ -2,10 +2,10 @@
 title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 觀看 [影片簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> 觀看 [影片簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## 將Analytics用於付費媒體報表
 
@@ -94,19 +94,19 @@ Adobe廣告可擷取 [!DNL Analytics] 區段，以用於再行銷目的，以及
 
 ### 在Analysis Workspace中使用Adobe廣告資料
 
-若要了解如何使用Adobe廣告資料在Analysis Workspace中建立視覺化報表，請參閱影片「[工作區和報表簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+若要了解如何使用Adobe廣告資料在Analysis Workspace中建立視覺化報表，請參閱影片「[工作區和報表簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### 建立AdobeAdvertising控制面板
 
-若要了解如何根據您在Analysis Workspace中的目標追蹤Adobe廣告資料，請參閱影片「[使用Adobe Analytics建立AdobeAdvertising控制面板](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+若要了解如何根據您在Analysis Workspace中的目標追蹤Adobe廣告資料，請參閱影片「[使用Adobe Analytics建立AdobeAdvertising控制面板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### 使用Adobe廣告ID進行網站項目分析
 
-若要了解如何建立Adobe廣告網站項目報表，以監控一週中的某天、一天中的某天、瀏覽器以及地理位置的影響，請參閱影片「[建立Adobe廣告網站項目報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+若要了解如何建立Adobe廣告網站項目報表，以監控一週中的某天、一天中的某天、瀏覽器以及地理位置的影響，請參閱影片「[建立Adobe廣告網站項目報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [影片：簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [影片：簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [實作的必要條件和重要資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [AdobeAnalytics使用的Advertising ID](ids.md)
 >* [Analytics for Advertising的JavaScript程式碼](/help/integrations/analytics/javascript.md)

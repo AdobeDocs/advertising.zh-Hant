@@ -1,8 +1,8 @@
 ---
 title: 關於帳戶層級和廣告商層級封鎖的網站清單
 description: 深入了解帳戶或廣告商的已封鎖網站清單。
-exl-id: 1216d671-0cce-4401-a71e-948279a03845
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

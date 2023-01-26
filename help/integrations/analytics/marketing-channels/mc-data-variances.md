@@ -2,8 +2,8 @@
 title: 為何Adobe廣告和 [!DNL Marketing Channels]
 description: 了解為何AMO ID追蹤的管道資料可能與 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,5 +34,5 @@ ht-degree: 0%
 >* [基礎 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
 >* [使用 [!DNL Analytics Marketing Channels] 與Adobe廣告資料](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] AdobeAdvertising報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [影片：使用 [!DNL Marketing Channels] AdobeAdvertising報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 

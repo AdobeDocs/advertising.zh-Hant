@@ -2,10 +2,10 @@
 title: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 description: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 feature: Integration with Adobe Analytics
-exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -153,17 +153,13 @@ Adobe廣告報表只會擷取透過Adobe廣告(付費搜尋， [!DNL Advertising
 
 在 [!DNL Analytics]，是驗證的最簡單方法之一 [!DNL Analytics for Advertising] 追蹤是使用「點按AMO ID例項」計算量度來比較例項的點按次數，計算方式如下：
 
-```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
-```
+```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
 
 [!UICONTROL AMO ID Instances] 代表AMO ID的次數(`s_kwcid` 參數)。 每次點按廣告時， `s_kwcid` 參數會新增至登陸頁面URL。 數量 [!UICONTROL AMO ID Instances]，因此類似於點按次數，可根據實際廣告點按加以驗證。 我們通常會看到 [!DNL Search] 和30%的匹配率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的期望差異可透過預期的流量行為來解釋。 搜尋會擷取目的，因此，使用者通常會從其查詢點選搜尋結果。 但是，看到顯示或線上視訊廣告的使用者更有可能無意中點按廣告，然後從網站跳出或放棄在追蹤頁面活動之前載入的新視窗。
 
 在「Adobe廣告」報表中，您也可以使用「[!UICONTROL ef_id_instances]「 」量度而非 [!UICONTROL AMO ID Instances]:
 
-```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
-```
+```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
 雖然AMO ID與EF ID之間的匹配率應該很高，但是不要期望100%的對等性，因為AMO ID與EF ID基本上會追蹤不同的資料，而這種差異可能會導致總數的細微差異 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 若總計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同於 [!UICONTROL EF ID Instances] 在Adobe廣告中的比例超過1%，但請連絡您的 [!DNL Adobe] 客戶團隊尋求協助。
 
@@ -179,17 +175,13 @@ Clicks to [EF ID Instances = (ef_id_instances / Clicks)
 
 例如，假設我們有下列登陸頁面：
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
 
 其中EF ID為「`test_ef_id`&quot;，而AMO ID為&quot;`test_amo_id`.&quot;
 
 如果發生網站端重新導向，URL的結果可能會如下：
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
 
 其中EF ID為「`test_ef_id`&quot;，而AMO ID為&quot;`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -223,7 +215,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **點進次數：** [!DNL Analytics] 當訪客登陸目的地網站、登陸頁面載入，以及 [!DNL Analytics] 頁面底部的要求會將資料傳送至 [!DNL Analytics].
 
-點進次數和點進次數可能會因為意外廣告點進而大不相同。 我們觀察到，顯示廣告上的大多數點按是意外點按，而這些意外訪客在登陸頁面載入前點擊了「上一步」按鈕，因此 [!DNL Analytics] 無法記錄點進。 對於意外點按較可能發生的廣告，例如行動廣告、視訊廣告和廣告，這些廣告會填滿螢幕，且必須在使用者檢視頁面之前先關閉，則尤其如此。
+點進次數和點進次數可能會因為意外廣告點進而大不相同。 我們觀察到，顯示廣告上的大多數點按是意外點按，而這些意外訪客在登陸頁面載入前點擊了「上一步」按鈕，因此 [!DNL Analytics] 無法記錄點進。 對於意外點按較可能發生的廣告，例如行動廣告、視訊廣告和廣告，這些廣告會填滿螢幕，且必須在使用者檢視頁面之前先關閉，這個情況尤為常見。
 
 在行動裝置上載入的網站也不太可能導致點進，因為頻寬或可用的處理能力較低，導致載入登錄頁面的時間較長。 50%至70%的點按不會導致點進，這種情況並不罕見。 在行動環境中，由於瀏覽器速度較慢，加上使用者在捲動頁面或嘗試關閉廣告時意外點按廣告的可能性較高，差異可能高達90%。
 
@@ -231,7 +223,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 將Adobe廣告流量量度用於非Adobe廣告Dimension
 
-Adobe廣告為Analytics提供 [廣告專用流量量度和 [!DNL DSP] 和 [!DNL Search]](advertising-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
+Adobe廣告為Analytics提供 [DSP和[!DNL]中廣告專用的流量量度及相關維度 [!DNL Search]]](advertising-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
 
 例如，如果您檢視 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 「依帳戶」的量度(此為「Adobe廣告」維度)，您就會看到總計 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 帳戶。
 

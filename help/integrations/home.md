@@ -3,8 +3,9 @@ title: 新增功能
 description: 了解Adobe廣告與Adobe Experience Cloud中其他產品和服務之間整合的更新。
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -23,7 +24,7 @@ ht-degree: 1%
 | 2021年4月19日 | [!DNL Analytics for Advertising] | 了解為何將巨集附加至您的 [!DNL Flashtalking] 將點按資料傳送至Adobe Analytics的廣告標籤。 | 請參閱「[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 2021年10月27日 | [!DNL Analytics for Advertising] | 如果貴組織想從使用舊版Adobe Analytics切換 `visitorAPI.js` 程式庫 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 程式庫(`alloy.js`)資料收集，您必須進行一些變更以啟用ID匯整。 | 請參閱「[使用 [!DNL Last Event Service] JavaScript程式庫與Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 2021年5月26日 | 說明 | 章節「[!DNL Analytics for Advertising]「現在包含關於「在 [!DNL Analytics Marketing Channels].&quot; | 請參閱：&quot;[行銷管道基本知識](/help/integrations/analytics/marketing-channels/mc-overview.md), &quot;[使用Adobe廣告ID來建立 [!DNL Analytics Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md), &quot;[使用 [!DNL Analytics Marketing Channels] 與Adobe廣告資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot;和&quot;[為何Adobe廣告和 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
-| 2021年5月26日 | 說明 | 所有教學課程影片的連結，關於 [!DNL Analytics for Advertising] 已新增。 | [關於Adobe廣告整合的教學課程影片](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html) |
+| 2021年5月26日 | 說明 | 所有教學課程影片的連結，關於 [!DNL Analytics for Advertising] 已新增。 | [關於Adobe廣告整合的教學課程影片](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
 
 {style=&quot;table-layout:auto&quot;}
 

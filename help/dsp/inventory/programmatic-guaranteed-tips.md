@@ -2,8 +2,8 @@
 title: 談判程式保證交易的技巧
 description: 了解就程式化保證(PG)交易進行談判的秘訣，以及購買者和發行者責任清單。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b754f993-b52f-4527-a246-bf232038c7cd
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
