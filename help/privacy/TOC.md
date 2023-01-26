@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Adobe Advertising 對消費者隱私權的支援
 user-guide-description: 了解 Adobe Advertising 為協助廣告商客戶遵守消費者隱私權法所提供的安全性和隱私權控制。
 breadcrumb-title: 支援消費者隱私權
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 56%
