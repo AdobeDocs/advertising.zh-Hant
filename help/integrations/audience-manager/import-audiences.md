@@ -3,9 +3,9 @@ title: 匯入Adobe Audience Manager區段以用於廣告鎖定目標
 description: 了解如何匯入 [!DNL Adobe] Advertising DSP和使用Adobe Audience Manager搜尋對象
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising DSP和 [!DNL Advertising Search] 每個都能提取所有廣告商�
 
 * 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe廣告的區段
 
-若要存取 [!DNL Adobe] DSP或 [!DNL Creative]，您必須將對象匯入DSP。 若要存取 [!DNL Adobe] [!DNL中的對象 [!DNL Search]]，您必須將對象匯入[!DNL [!DNL Search]]。
+若要存取 [!DNL Adobe] DSP或 [!DNL Creative]，您必須將對象匯入DSP。 若要存取 [!DNL Adobe] 對象 [!DNL Search]，您必須將對象匯入 [!DNL Search].
 
 ## 必要條件
 
@@ -109,7 +109,7 @@ API會自動：
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 ### 在 [!DNL Advertising Search]
 
-在[!DNL [!DNL Search]]，當您建立 [!DNL Google] 對象使用 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]從 [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+在 [!DNL Search]，建立 [!DNL Google] 對象使用 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]從 [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 針對每個 [!DNL Google] 您建立的受眾， [!DNL Google] 提供對象大小。
 

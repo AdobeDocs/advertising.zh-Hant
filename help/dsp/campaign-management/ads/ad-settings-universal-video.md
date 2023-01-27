@@ -3,7 +3,7 @@ title: 通用視訊廣告設定
 description: 請參閱通用視訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 檢視促銷活動的詳細報表
 description: 了解如何開啟行銷活動層級的報表，其中包含「地理位置」、「裝置」、「可檢視性」和「對象效能」資料等章節。
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 執行下列任一操作：
-   * 按一下 **... >[!UICONTROL View report]** 的下一頁。
-   * 在促銷活動名稱旁，按一下  **... >[!UICONTROL View report]**.
+   * 按一下 **[!UICONTROL ...]** > **[!UICONTROL View report]** 的下一頁。
+   * 在促銷活動名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

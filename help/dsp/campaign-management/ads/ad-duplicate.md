@@ -3,7 +3,7 @@ title: 複製廣告
 description: 了解如何複製廣告。
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
 
-1. 在廣告名稱旁，按一下  **... >[!UICONTROL Duplicate]**.
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 指定新廣告設定：
 

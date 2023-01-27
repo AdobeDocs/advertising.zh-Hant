@@ -3,9 +3,9 @@ title: 建立版位
 description: 了解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
       1. 縮小閱聽眾範圍。 這包括選取要在版位內定位的對象區段。
 
-         針對 [!DNL] Roku版位，您可以運用 [DSP不重複對象比對 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) 加入一或多個可比對的對象區段 [!DNL Roku] （選擇加入）確定性資料集。
+         針對 [!DNL Roku] 版位，您可以 [DSP不重複對象比對 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) 加入一或多個可比對的對象區段 [!DNL Roku] （選擇加入）確定性資料集。
    1. (適用於具有人員層級跨裝置定位的促銷活動；選用)當版位鎖定一或多個特定對象時，請為版位啟用以人物為基礎的跨裝置鎖定目標。
 
       以人物為基礎的跨裝置鎖定目標由提供 [!DNL LiveRamp] 僅使用美國資料。 此服務以$0.35 CPM的價格提供給所有廣告商，以便透過使用 [!DNL LiveRamp] 裝置圖表（亦即針對在目標受眾區段內找不到的裝置）。
@@ -73,56 +73,56 @@ ht-degree: 1%
    1. 按一下 **[!UICONTROL Attach an ad]**.
 
    1. 執行下列任一操作：
-   * 若要建立新廣告：
 
-      1. 按一下 **[!UICONTROL Create a New Ad].**
+      * 若要建立新廣告：
 
-      1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)，或 [通用視訊廣告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         1. 按一下 **[!UICONTROL Create a New Ad].**
 
-      1. 按一下 **[!UICONTROL Save & Submit for Review]**.
+         1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)，或 [通用視訊廣告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
-      1. （選用）若要針對版位建立其他廣告，請按一下 **[!UICONTROL Attach Another Ad]**，然後重複步驟1-3。
+         1. 按一下 **[!UICONTROL Save & Submit for Review]**.
 
-      1. 如果您不附加任何現有廣告，請按一下 **[!UICONTROL I'm done for now]**.
-   * 若要附加行銷活動中的現有廣告：
+         1. （選用）若要針對版位建立其他廣告，請按一下 **[!UICONTROL Attach Another Ad]**，然後重複步驟1-3。
 
-      1. 按一下 **[!UICONTROL Select an Ad]**.
+         1. 如果您不附加任何現有廣告，請按一下 **[!UICONTROL I'm done for now]**.
+      * 若要附加行銷活動中的現有廣告：
 
-      1. 執行下列任一操作：
-
-         * 一次新增一個廣告：
-
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
-
-            1. （選用）若要附加的每個額外廣告，請按一下 **[!UICONTROL Attach Another Ad]**，然後重複此程式。
-         * 一次最多新增20個廣告：
-
-            1. 選取廣告清單上方的核取方塊。
-
-            1. 選取每個要新增的廣告旁的核取方塊。
-
-            1. 按一下 **[!UICONTROL Attach]**.
-
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select]**.
-      1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
-
-         1. 按一下 **[!UICONTROL Custom Schedule Ads]**.
+         1. 按一下 **[!UICONTROL Select an Ad]**.
 
          1. 執行下列任一操作：
 
-            * 若要新增投放，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+            * 一次新增一個廣告：
 
-            * 若要將現有投放新增至廣告，請按一下 **[!UICONTROL +]** 在「投放」欄的廣告列中。
+               1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
 
-            * 若要從廣告中移除現有投放，請按一下 **[!UICONTROL x]** 在「投放」欄的廣告列中。
+               1. （選用）若要附加的每個額外廣告，請按一下 **[!UICONTROL Attach Another Ad]**，然後重複此程式。
+            * 一次最多新增20個廣告：
 
-            * （當多個廣告具有相同的投放時間時）若要使廣告旋轉不均，請按一下 **[!UICONTROL Even Rotation]** 在「投放」資訊中，然後以百分比輸入要旋轉每個廣告的相對權重。
+               1. 選取廣告清單上方的核取方塊。
 
-               總重量必須等於100。
-         1. 在右上方，按一下 **[!UICONTROL Continue]**.
+               1. 選取每個要新增的廣告旁的核取方塊。
 
-         1. 查看飛行詳細資訊，然後按一下 **[!UICONTROL Save & Finish]**.
+               1. 按一下 **[!UICONTROL Attach]**.
 
+               1. 在廣告名稱旁，按一下 **[!UICONTROL Select]**.
+         1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
+
+            1. 按一下 **[!UICONTROL Custom Schedule Ads]**.
+
+            1. 執行下列任一操作：
+
+               * 若要新增投放，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+
+               * 若要將現有投放新增至廣告，請按一下 **[!UICONTROL +]** 在「投放」欄的廣告列中。
+
+               * 若要從廣告中移除現有投放，請按一下 **[!UICONTROL x]** 在「投放」欄的廣告列中。
+
+               * （當多個廣告具有相同的投放時間時）若要使廣告旋轉不均，請按一下 **[!UICONTROL Even Rotation]** 在「投放」資訊中，然後以百分比輸入要旋轉每個廣告的相對權重。
+
+                  總重量必須等於100。
+            1. 在右上方，按一下 **[!UICONTROL Continue]**.
+
+            1. 查看飛行詳細資訊，然後按一下 **[!UICONTROL Save & Finish]**.
 
 
 
@@ -137,7 +137,6 @@ ht-degree: 1%
 >* [查看版位的更改日誌](placement-change-log.md)
 >* [版位設定](placement-settings.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-
-   >*[效能疑難排解](/help/dsp/optimization/troubleshooting-performance.md)
+>* [效能疑難排解](/help/dsp/optimization/troubleshooting-performance.md)
 >* [影片：如何建立標準顯示版位](https://video.tv.adobe.com/v/340454)
 

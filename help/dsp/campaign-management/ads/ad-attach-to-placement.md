@@ -3,7 +3,7 @@ title: 將廣告附加至版位
 description: 了解如何將廣告附加至版位。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
 
-1. 在廣告名稱旁，按一下  **... >[!UICONTROL Add to Placements]**.
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. 在「位置廣告」畫面中，執行下列其中一項操作：
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
 
-1. 在版位名稱旁，按一下  **... > [!UICONTROL Attach Ads].**
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. 在 [!UICONTROL Add Ad to Placement] 畫面中，執行下列任一操作：
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. 按一下 **[!UICONTROL Select an Ad].**
 
       1. 指定廣告：
+
          * 一次新增一個廣告：
 
             1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**

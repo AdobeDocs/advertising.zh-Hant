@@ -3,7 +3,7 @@ title: 向耐用ID合作夥伴啟用已驗證的區段
 description: 了解如何透過持久ID解決方案啟用已驗證的受眾。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%

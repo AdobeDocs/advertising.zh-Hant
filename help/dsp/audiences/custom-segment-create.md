@@ -3,7 +3,7 @@ title: 建立和實作自訂區段
 description: 了解如何建立和實作自訂區段，以追蹤對廣告公開的使用者或瀏覽您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 返回 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   2. 將游標停留在段行上，然後按一下 **[!UICONTROL Get Pixel]**.
+   1. 將游標停留在段行上，然後按一下 **[!UICONTROL Get Pixel]**.
 
       * 若要追蹤網頁的案頭和行動訪客：
 

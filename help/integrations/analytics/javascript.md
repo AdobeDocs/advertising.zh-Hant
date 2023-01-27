@@ -3,7 +3,7 @@ title: 適用於 [!DNL Analytics for Advertising]
 description: 適用於 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -76,9 +76,9 @@ JavaScript程式庫包含兩行，允許 [!DNL Analytics] 和Adobe廣告，以�
    * 第二列是傳送要求至Adobe廣告的呼叫。 開頭如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
       如果您沒有看見對Adobe廣告的呼叫，則可能不是您造訪的第一個頁面檢視。 為了測試之用，您可以移除Cookie，這樣下次呼叫就會是對應造訪的第一個頁面檢視：
-
-      1. 在「應用程式」標籤上，找到 `adcloud` cookie，並確認cookie包含 `_les_v` （上次造訪），其值為 `y` 以及30分鐘後到期的UTC紀元時間戳記。
+   1. 在「應用程式」標籤上，找到 `adcloud` cookie，並確認cookie包含 `_les_v` （上次造訪），其值為 `y` 以及30分鐘後到期的UTC紀元時間戳記。
       1. 刪除 `ad cloud` cookie並重新整理頁面。
+
 
 1. (使用Experience CloudIdentity Service的實作 `visitorAPI.js` 代碼)篩選 `/b/ss` 來查看Analytics點擊。
 

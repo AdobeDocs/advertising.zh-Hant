@@ -3,9 +3,9 @@ title: Adobe廣告ID：使用者 [!DNL Analytics]
 description: Adobe廣告ID：使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,9 @@ EF ID是唯一代號，Adobe廣告會使用它來將活動與線上點按或廣�
 
 #### [!DNL Google Ads] 搜尋廣告
 
-```{gclid}:G:s```
+```
+{gclid}:G:s
+```
 
 其中：
 
@@ -58,7 +60,9 @@ EF ID是唯一代號，Adobe廣告會使用它來將活動與線上點按或廣�
 
 #### Microsoft Advertising搜尋廣告
 
-```{msclkid}:G:s```
+```
+{msclkid}:G:s
+```
 
 其中：
 
@@ -67,7 +71,9 @@ EF ID是唯一代號，Adobe廣告會使用它來將活動與線上點按或廣�
 
 #### 在其他搜尋引擎上顯示廣告和搜尋廣告
 
-```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
+```
+<Adobe Advertising visitor ID>:<timestamp>:<channel type>
+```
 
 其中：
 
@@ -81,7 +87,7 @@ EF ID是唯一代號，Adobe廣告會使用它來將活動與線上點按或廣�
    * `i` （顯示檢視）以顯示DSP顯示廣告的曝光次數
    * `s` ，以按一下搜尋廣告（搜尋點進）。
 
-範例 `EF `ID:WcmibgAAAHJK1RyY:1551968087687:d
+範例 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
 ### 中的EF IDDimension [!DNL Analytics]
 
@@ -97,7 +103,9 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 
 ### 適用於的AMO ID格式 [!DNL DSP]
 
-```<Channel ID>!<Ad ID>!<Placement ID>```
+```
+<Channel ID>!<Ad ID>!<Placement ID>
+```
 
 其中：
 
@@ -116,7 +124,9 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 
 適用於 [!DNL Search] 對每個搜尋引擎遵循不同格式。 所有搜尋引擎的格式開頭為：
 
-```AL!{userid}!{sid}```
+```
+AL!{userid}!{sid}
+```
 
 其中：
 
@@ -128,7 +138,9 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 
 適用於的AMO ID格式 [!DNL Google Ads]:
 
-```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
+```
+AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
+```
 
 其中：
 
@@ -140,7 +152,9 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 
 適用於的AMO ID格式 [!DNL Microsoft Advertising]:
 
-```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
+```
+AL!{userid}!{sid}!{AdId}!{OrderItemId}
+```
 
 其中：
 

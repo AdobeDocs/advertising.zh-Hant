@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select To Add As Report Headers]:**  要包含在報表中的資料欄或標題。 若要新增欄，請展開類別並選取欄名稱旁的核取方塊。 所有無法使用的量度皆會停用。 可用的資料類別包括：
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] （依廣告商排序）
 * [!UICONTROL Custom Goals] （依廣告商排序）
@@ -142,5 +142,5 @@ ht-degree: 0%
 >* [執行自訂報表](/help/dsp/reports/report-run-now.md)
 >* [自訂報表設定](/help/dsp/reports/report-settings.md)
 >* [關於報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [可用報表欄](/help/dsp/reports/report-columns.md)
 
-* [可用報表欄](/help/dsp/reports/report-columns.md)

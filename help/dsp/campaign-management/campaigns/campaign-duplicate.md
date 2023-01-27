@@ -3,7 +3,7 @@ title: 複製促銷活動
 description: 了解如何複製行銷活動。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 在促銷活動名稱旁，按一下 **... >[!UICONTROL Duplicate]**.
+1. 在促銷活動名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 指定新的促銷活動設定：
 

@@ -3,7 +3,7 @@ title: 檢視廣告的詳細報表
 description: 了解如何開啟含有「概述」、「地理位置」和「可檢視性」資料的廣告層級報表。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
 1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
-1. 在廣告名稱旁，按一下  **... >[!UICONTROL View report]**.
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
