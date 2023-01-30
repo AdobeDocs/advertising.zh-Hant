@@ -3,7 +3,7 @@ title: 向耐用ID合作夥伴啟用已驗證的區段
 description: 了解如何透過持久ID解決方案啟用已驗證的受眾。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -59,6 +59,6 @@ ht-degree: 0%
 >* [關於從受眾來源啟用已驗證的區段](source-about.md)
 >* [建立對象來源以啟用第一方對象](source-create.md)
 >* [對象來源設定](source-settings.md)
->* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [關於Audience Management](/help/dsp/audiences/audience-about.md)
 
