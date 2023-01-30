@@ -3,8 +3,8 @@ title: 建立廣告商帳戶
 description: 了解如何建立廣告商帳戶。
 source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
