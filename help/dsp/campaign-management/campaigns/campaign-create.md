@@ -3,10 +3,10 @@ title: 建立促銷活動
 description: 了解如何建立行銷活動。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,6 @@ ht-degree: 1%
 >* [關於Campaign Management](campaign-about.md)
 >* [複製促銷活動](campaign-duplicate.md)
 >* [編輯促銷活動](campaign-edit.md)
+>* [檢視促銷活動的變更記錄](campaign-change-log.md)
 >* [促銷活動設定](campaign-settings.md)
 

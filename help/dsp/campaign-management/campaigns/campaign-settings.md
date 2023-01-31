@@ -3,9 +3,9 @@ title: 促銷活動設定
 description: 請參閱可用促銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ ht-degree: 0%
 >* [關於Campaign Management](campaign-about.md)
 >* [建立促銷活動](campaign-create.md)
 >* [編輯促銷活動](campaign-edit.md)
+>* [檢視促銷活動的變更記錄](campaign-change-log.md)
 

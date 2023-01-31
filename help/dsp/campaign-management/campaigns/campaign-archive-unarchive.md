@@ -3,7 +3,7 @@ title: 封存或取消封存行銷活動
 description: 了解如何封存或取消封存行銷活動。
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -35,4 +35,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [編輯促銷活動](campaign-edit.md)
-
+>* [檢視促銷活動的變更記錄](campaign-change-log.md)
