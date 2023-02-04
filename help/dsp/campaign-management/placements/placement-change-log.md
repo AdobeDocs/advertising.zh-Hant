@@ -3,16 +3,16 @@ title: 檢視版位變更記錄
 description: 了解如何檢視對版位所做的變更。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 62bebacc05bd5178cc4f5958a395daf54361b3e1
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # 查看版位的更改日誌
 
-變更記錄會顯示在所選日期範圍內對版位所做的變更，包括變更類型、新值和舊值、進行變更的使用者以及日期。
+變更記錄會顯示在所選日期範圍內對版位所做的變更，包括變更類型、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何項目。
 
 您可以依「類型」、「修改者」或「修改日期」欄來排序資料。
 
@@ -20,6 +20,9 @@ ht-degree: 0%
 1. 按一下促銷活動的名稱。
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
 1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. (測試版功能；（可選）要在僅以表格形式查看資料和同時以表格和圖表形式查看資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") 的下一頁。
+1. (測試版功能；可選)要向條目添加註釋，請將游標放在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
+1. (測試版功能；（可選）要查看彈出窗口中某條目的詳細資訊，請將游標放在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
