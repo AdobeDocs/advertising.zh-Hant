@@ -2,7 +2,8 @@
 title: 檢視促銷活動變更記錄
 description: 了解如何檢視對行銷活動所做的變更。
 feature: DSP Campaigns
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
+source-git-commit: 51abdef0c55dab5adb8186eaf424da838ab7cbdd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
