@@ -3,9 +3,9 @@ title: Adobe廣告支援一般資料保護規範
 description: 了解支援的資料請求類型、必要的設定和欄位值，以及使用舊版產品ID和傳回資料欄位的API存取請求範例
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Adobe Experience Platform可讓企業完成下列工作：
    >
    >對某些Adobe Experience Cloud解決方案的請求不需要JavaScript程式庫，但請求AdobeAdvertising則需要它。
 
-   您應將程式庫部署在網頁上，資料主體可從此頁面提交存取和刪除請求，例如您公司的隱私權入口網站。 程式庫可協助您擷取AdobeCookie(命名空間ID: `gsurferID`)，以便您能透過Adobe Experience Platform Privacy Service API提交這些身分資料，以納入存取和刪除請求。
+   您應將程式庫部署在您的資料主體可從其中提交存取和刪除請求的網頁上，例如您公司的隱私權入口網站。 程式庫可協助您擷取AdobeCookie(命名空間ID: `gsurferID`)，以便您能透過Adobe Experience Platform Privacy Service API提交這些身分資料，以納入存取和刪除請求。
 
    當資料主體要求刪除個人資料時，資料庫也會從資料主體的瀏覽器中刪除資料主體的Cookie。
 

@@ -8,10 +8,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -106,8 +106,8 @@ ht-degree: 6%
          + [篩選促銷活動資料](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [排序欄](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [管理資料視覺效果](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + 使用試算表正確行銷活動的版位設定 {#qa-spreadsheet}
-      + [關於使用試算表更正促銷活動的位置設定](/help/dsp/campaign-management/qa/qa-about.md)
+   + 使用電子錶格正確放置設定 {#qa-spreadsheet}
+      + [關於使用電子錶格更正版位設定](/help/dsp/campaign-management/qa/qa-about.md)
       + [下載行銷活動的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [行銷活動的上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 6%
    + [效能疑難排解](/help/dsp/optimization/troubleshooting-performance.md)
 + 對象 {#audiences}
    + [關於Audience Management](/help/dsp/audiences/audience-about.md)
-   + 管理區段 {#segments}
+   + 區段 {#segments}
       + [建立和實作自訂區段](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] 區段 {#ccpa-opt-out-of-sale-segments}
          + [關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 6%
       + [共用或停止共用區段](/help/dsp/audiences/segment-share.md)
       + [檢視區段的追蹤像素](/help/dsp/audiences/segment-view-pixels.md)
       + [刪除區段](/help/dsp/audiences/segment-delete.md)
-   + 管理受眾 {#reusable-audiences}
+   + 對象 {#reusable-audiences}
       + [建立可重複使用的受眾](/help/dsp/audiences/reusable-audience-create.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 6%
       + [刪除可重複使用的對象](/help/dsp/audiences/reusable-audience-delete.md)
       + [對象設定](/help/dsp/audiences/audience-settings.md)
       + [對象區段邏輯語法](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + 管理來源 {#sources}
+   + 來源 {#sources}
       + [關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)
       + [向耐用ID合作夥伴啟用已驗證的區段](/help/dsp/audiences/sources/source-durable-id.md)
       + [建立對象來源以啟用第一方對象](/help/dsp/audiences/sources/source-create.md)

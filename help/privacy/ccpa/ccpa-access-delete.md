@@ -3,9 +3,9 @@ title: Adobe加州消費者隱私法的廣告支援：消費者資料存取和�
 description: 了解支援的資料請求類型、必要的設定和欄位值，以及使用舊版產品ID和傳回資料欄位的API存取請求範例。
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Experience Platform可讓企業完成下列工作：
    >
    >對某些Experience Cloud解決方案的請求不需要JavaScript程式庫，但請求AdobeAdvertising則需要它。
 
-   您應將程式庫部署在網頁上，客戶可從此頁面提交存取和刪除請求，例如您公司的隱私權入口網站。 程式庫可協助您擷取AdobeCookie(命名空間ID: `gsurferID`)，這樣您就可以透過 [!DNL Adobe Experience Platform Privacy Service API].
+   您應將程式庫部署在網頁上，客戶可從該網頁提交存取和刪除請求，例如您公司的隱私權入口網站。 程式庫可協助您擷取AdobeCookie(命名空間ID: `gsurferID`)，這樣您就可以透過 [!DNL Adobe Experience Platform Privacy Service API].
 
    當客戶要求刪除個人資料時，程式庫也會從客戶的瀏覽器中刪除客戶的Cookie。
 
