@@ -3,9 +3,9 @@ title: 查看包更改日誌
 description: 了解如何檢視對套件所做的變更。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: aa27e2ddf284ceae4555c986674d3d7a8919ddce
+source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 除了「新值」和「舊值」之外，您可以依任何欄來排序資料。
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+
 1. 按一下促銷活動的名稱。
+
 1. 在 **[!UICONTROL Packages]** 頁簽，在包名稱旁按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
-1. (測試版功能；（可選）要在僅以表格形式查看資料和同時以表格和圖表形式查看資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") 的下一頁。
-1. (測試版功能；可選)要向條目添加註釋，請將游標放在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
-1. (測試版功能；（可選）要查看彈出窗口中某條目的詳細資訊，請將游標放在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
+
+1. （選用）執行下列任一操作：
+
+   * 要在僅以表單形式查看資料和同時以表和圖表形式查看資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") 的下一頁。
+
+   * 要向條目添加註釋，請將游標停留在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
+
+   * 要查看彈出窗口中某條目的詳細資訊，請將游標放在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年2月15日 | [!UICONTROL Campaigns] | 以圖表形式檢視變更記錄以及為任何項目新增附註的選項不在測試版。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （測試版功能）您現在可以以圖表形式檢視變更記錄，也可以為任何項目新增附註。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年1月25日 | [!UICONTROL Deals] | 「詳細目錄>交易」中新的「PG曝光步調」支出欄，檢視保證交易的報表步調。 | 請參閱「[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2023年1月4日 | [!UICONTROL Campaigns] | 現在，每個促銷活動都可使用變更記錄，其中顯示所選日期範圍內所做的變更。 包和版位已可使用更改日誌。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;。&quot; |
