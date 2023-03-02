@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising, Advertising Cloud
+solution: Advertising
 product: advertising cloud
 user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
+source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 6%
