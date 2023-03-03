@@ -3,9 +3,9 @@ title: Adobe廣告整合Adobe Audience Manager
 description: 了解Adobe廣告與Adobe Audience Manager交換資料的不同方式。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [客戶比對來自使用者ID的受眾](https://support.google.com/google-ads/answer/9199250) 類似網站標籤型受眾，但會將非PII ID指派給不重複受眾成員，以獲得比標準客戶比對和網站標籤型受眾更明顯的優點。
 
-若要建立必要的使用者ID，您必須使用Adobe廣告JavaScript標籤 <!-- with a user ID parameter -->在您的網站上。 請連絡您的 [!DNL Search] 客戶團隊，以了解詳細資訊。
+若要建立必要的使用者ID，您必須使用Adobe廣告JavaScript標籤 <!-- with a user ID parameter -->在您的網站上。 如需詳細資訊，請連絡您的Adobe帳戶團隊。
 
 ![區段建立程式](/help/integrations/assets/ad_search_user_id_pic.png)
 

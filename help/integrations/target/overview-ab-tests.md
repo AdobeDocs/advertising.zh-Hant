@@ -2,9 +2,9 @@
 title: 設定Adobe Target中Adobe廣告的A/B測試
 description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search] 廣告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 
 * [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-請連絡您的DSP帳戶團隊和Advertising解決方案群組(aac-advertising-solutions-group@adobe.com)，以擷取所需的版位金鑰並完成設定，並確保每個點進URL都已填入版位金鑰。
+請連絡您的Adobe帳戶團隊和廣告解決方案群組(aac-advertising-solutions-group@adobe.com)，以擷取所需的版位金鑰並完成設定，並確保每個點進URL都已填入版位金鑰。
 
 ## 步驟2:使用Audience Manager設定閱覽架構 {#view-through-framework}
 
@@ -166,7 +166,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
    * 體驗B:使用 [!DNL Target] 使用者介面，以根據測試中包含的資產（例如標題、復本、按鈕位置和創作元素）來自訂登錄頁面範本。
    >[!NOTE]
    >
-   >例如，創意測試的創意測試使用案例，請連絡您的客戶團隊。
+   >例如，創意測試使用案例，請連絡您的Adobe帳戶團隊。
 
 ## 步驟4:設定您的 [!DNL Analytics for Target] Analysis Workspace [!DNL Analytics]
 
