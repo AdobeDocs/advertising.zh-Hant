@@ -3,9 +3,9 @@ title: 設定效能行銷活動的最佳實務
 description: 了解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的刊登版位。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ DSP能以最低的每次贏取成本(CPA)或最高的廣告投入報酬率(ROAS)
 
 ## 步驟3 — 建立套件
 
-最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此套件中所有位置的效能資料會匯集在一起。 因此，將配置分組到具有類似預期效能的包中。
+最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此會收集套件中所有位置的效能資料。 因此，將配置分組到具有類似預期效能的包中。
 
 ![用於探礦和重新定位的單獨包示例](/help/dsp/assets/p-r.png)
 
@@ -144,7 +144,7 @@ DSP能以最低的每次贏取成本(CPA)或最高的廣告投入報酬率(ROAS)
 
 * **[!UICONTROL Device Targeting]**:
    * 包括 [!UICONTROL Computer], [!UICONTROL Mobile]，和 [!UICONTROL Tablet].
-   * 不定位 [!UICONTROL Firefox] 和 [!UICONTROL Safari] 因為鎖定目標和測量限制。 請連絡您的 [!DNL Adobe] 帳戶團隊，以取得關於 [!DNL Adobe] 支援 [!DNL Safari ITP].
+   * 不定位 [!UICONTROL Firefox] 和 [!UICONTROL Safari] 因為鎖定目標和測量限制。 如需詳細資訊，請連絡您的Adobe帳戶團隊 [!DNL Adobe] 支援 [!DNL Safari ITP].
    * 如果您將行動網站流量作為目標，則停用除 [!UICONTROL Chrome] 和 [!UICONTROL Edge].
 
 ### 品牌安全與媒體品質

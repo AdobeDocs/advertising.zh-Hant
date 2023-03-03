@@ -3,16 +3,16 @@ title: DSP如何最佳化您的行銷活動
 description: 了解DSP如何最佳化行銷活動中的套件。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Advertising DSP如何最佳化您的行銷活動
 
-本頁概述DSP最佳化引擎(由 [!DNL Adobe Sensei]，會最佳化行銷活動中的套件。 如需手動最佳化行銷活動的秘訣和技巧，請連絡您的 [!DNL Adobe] 客戶團隊。 <!-- add link to trading playbook if we add it to help -->
+本頁概述DSP最佳化引擎(由 [!DNL Adobe Sensei]，會最佳化行銷活動中的套件。 如需如何手動最佳化促銷活動的秘訣和技巧，請連絡您的Adobe客戶團隊。 <!-- add link to trading playbook if we add it to help -->
 
 套件最佳化目標分兩個層級運作：
 

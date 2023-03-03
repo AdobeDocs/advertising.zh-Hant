@@ -3,9 +3,9 @@ title: Adobe加州消費者隱私法的廣告支援：消費者選擇退出銷�
 description: 了解擷取消費者選擇退出銷售請求的支援。
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe廣告會產生客戶針對帳戶選擇退出銷售請求所提交的ID每�
 
 此功能適用於使用 [!DNL Trafficking API]. 請參閱 [!DNL Trafficking API] 以取得更多資訊。
 
-如果您的組織未使用 [!DNL Trafficking API] 但對更多資訊感興趣，請 [!DNL Adobe] 客戶團隊。
+如果您的組織未使用 [!DNL Trafficking API] 但有興趣了解更多資訊，請連絡您的Adobe帳戶團隊。
 
 ## 附錄：範例 [!UICONTROL CCPA Opt-Out-of-Sale] 請求Privacy ServiceAPI使用者
 

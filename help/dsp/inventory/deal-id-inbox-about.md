@@ -3,9 +3,9 @@ title: 關於 [!UICONTROL Deal ID Inbox]
 description: 了解 [!UICONTROL Deal ID inbox] 功能，可讓您接受您已與發佈商洽談的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+] (原稱 [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資�
 
 ## 實作 [!UICONTROL Deal ID Inbox]
 
-若要在 [!UICONTROL Deal ID inbox]，您的SSP帳戶必須將貴組織的DSP帳戶對應至SSP帳戶。 DSP會與相關SSP共用組織的帳戶名稱。 請連絡您的 [!DNL Adobe] 客戶團隊以取得指示。
+若要在 [!UICONTROL Deal ID inbox]，您的SSP帳戶必須將貴組織的DSP帳戶對應至SSP帳戶。 DSP會與相關SSP共用組織的帳戶名稱。 請連絡您的Adobe帳戶團隊以取得指示。
 
 在交易洽談期間，請通知發佈商將交易傳送給您的購買者，而非父DSP帳戶。 交易識別碼可以是名稱或ID，視SSP而定。
 

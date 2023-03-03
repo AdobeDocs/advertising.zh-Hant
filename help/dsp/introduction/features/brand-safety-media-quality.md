@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ DSP會維護一個被全域封鎖的網站清單，列出在上執行廣告時�
 
 >[!NOTE]
 >
->您可以啟用「[!UICONTROL Allow unscreened sites]」選項 [版位設定](/help/dsp/campaign-management/placements/placement-settings.md). 如有必要， [!DNL Adobe] 客戶團隊還可以選擇在交易的發佈者設定中停用公開（拍賣層級）交易的網站封鎖。
+>您可以啟用「[!UICONTROL Allow unscreened sites]」選項 [版位設定](/help/dsp/campaign-management/placements/placement-settings.md). 如有必要，Adobe帳戶團隊也可以選擇在交易的發佈商設定中停用公開（拍賣層級）交易的網站封鎖。
 
 #### 帳戶層級和廣告商層級封鎖的網站清單
 
@@ -104,7 +104,7 @@ DSP會維護一個被全域封鎖的網站清單，列出在上執行廣告時�
 
 您可以為每個廣告商設定預設的出價前欺詐封鎖控制項<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然後選擇性 [自訂每個版位的設定](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能時，可能需支付額外費用。
 
-如需功能的詳細資訊，請直接聯絡您偏好的廠商，或聯絡您的 [!DNL Adobe] 客戶團隊。
+如需功能的詳細資訊，請直接聯絡您偏好的廠商，或聯絡您的Adobe客戶團隊。
 
 ![Comscore標誌](/help/dsp/assets/comscore-logo.png) ![DoubleVerify徽標](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science標誌](/help/dsp/assets/ias-logo.png) ![Peer39徽標](/help/dsp/assets/peer39-logo.png)
 
@@ -126,7 +126,7 @@ DSP主題鎖定目標可讓您利用我們領先業界的情境合作夥伴來�
 
 * 建立 [!DNL Comscore] 帳戶和建立自訂區段時，您可以要求登入 [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). 請參閱 [[!DNL Comscore] 協助中心](https://comscoreactivation.zendesk.com/hc/) 以取得設定自訂區段的完整指示。 自訂區段的費用會顯示在 [!DNL Segment Manager] 當您建立時。
 
-* 若要開始使用 [!DNL Oracle Data Cloud]，聯絡 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客戶團隊。
+* 若要開始使用 [!DNL Oracle Data Cloud]，聯絡 [!DNL Oracle Data Cloud] 或您的Adobe帳戶團隊。
 
 ![Comscore標誌](/help/dsp/assets/comscore-logo.png) ![Grapeshot標誌](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -138,7 +138,7 @@ DSP與 [!DNL DoubleVerify] 提供 [!DNL Authentic Brand Safety] 鎖定目標解�
 
 您可以指定 [!DNL DoubleVerify] 每個廣告商的區段ID<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然後選擇性 [啟用或禁用 [!UICONTROL Authentic Brand Safety] 每個版位](/help/dsp/campaign-management/placements/placement-settings.md). DSP會向您的帳戶收取區段ID的使用金額。
 
-如需功能的詳細資訊，請聯絡 [!DNL DoubleVerify] 直接聯繫，或 [!DNL Adobe] 客戶團隊。
+如需功能的詳細資訊，請聯絡 [!DNL DoubleVerify] 請直接聯絡，或聯絡您的Adobe帳戶團隊。
 
 ![DoubleVerify徽標](/help/dsp/assets/doubleverify-logo.png)
 

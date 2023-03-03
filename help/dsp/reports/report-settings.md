@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Add Filters]:** （選用）要篩選資料的其他維度，無論維度是否列在報表中： *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*，和 *[!UICONTROL Package]*.
 
-\* *[!UICONTROL Account]* 只有在貴組織已設定為 [跨帳戶報告](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]，和 [!UICONTROL Conversion]. 請連絡您的 [!DNL Adobe] 帳戶團隊，以取得跨帳戶報告的詳細資訊。
+\* *[!UICONTROL Account]* 只有在貴組織已設定為 [跨帳戶報告](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]，和 [!UICONTROL Conversion]. 如需跨帳戶報告的詳細資訊，請連絡您的Adobe帳戶團隊。
 
 若要套用一或多個篩選器，請執行下列動作：
 

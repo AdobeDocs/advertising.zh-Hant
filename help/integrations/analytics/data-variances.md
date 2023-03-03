@@ -3,9 +3,9 @@ title: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 description: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3282'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->最佳實務是在Adobe廣告和 [!DNL Analytics]. 與您的 [!DNL Adobe] 帳戶團隊，以識別目前的設定並保持設定同步。
+>最佳實務是在Adobe廣告和 [!DNL Analytics]. 視需要與您的Adobe帳戶團隊合作，以識別目前的設定並保持設定同步。
 
 這些相同概念適用於使用不同回顧期間或歸因模型的任何其他類似管道。
 
@@ -88,8 +88,11 @@ ht-degree: 0%
 
 查看 [!DNL Analytics] 歸因模型及其定義 [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-如果您已登入 [!DNL Search]，您可以在
-[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
+如果您已登入 [!DNL Search]，您可以找到清單
+
+* （北美地區使用者） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+
+* （所有其他使用者） [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
 #### Adobe廣告中的事件日期歸因
 
@@ -165,7 +168,7 @@ Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 Clicks to [EF ID Instances = (ef_id_instances / Clicks)
 ```
 
-雖然AMO ID與EF ID之間的匹配率應該很高，但是不要期望100%的對等性，因為AMO ID與EF ID基本上會追蹤不同的資料，而這種差異可能會導致總數的細微差異 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 若總計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同於 [!UICONTROL EF ID Instances] 在Adobe廣告中的比例超過1%，但請連絡您的 [!DNL Adobe] 客戶團隊尋求協助。
+雖然AMO ID與EF ID之間的匹配率應該很高，但是不要期望100%的對等性，因為AMO ID與EF ID基本上會追蹤不同的資料，而這種差異可能會導致總數的細微差異 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 若總計 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同於 [!UICONTROL EF ID Instances] 但是，在Adobe廣告中，超過1%，請聯絡您的Adobe客戶團隊以取得協助。
 
 如需AMO ID和EF ID的詳細資訊，請參閱 [AdobeAnalytics使用的Advertising ID](ids.md).
 
@@ -195,7 +198,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 在此範例中，新增錨點標籤會在AMO ID中新增非預期的字元，導致Analytics無法辨識的值。 此AMO ID不會進行分類，因此與其相關聯的轉換會落在「[!UICONTROL unspecified]&quot;或&quot;[!UICONTROL none]在 [!DNL Analytics] 報表。
 
-幸運的是，雖然這類問題很常見，但通常不會導致高比例的差異。 不過，若您發現 [!DNL Analytics] 和Adobe廣告中的EF ID，請連絡您的 [!DNL Adobe] 客戶團隊尋求協助。
+幸運的是，雖然這類問題很常見，但通常不會導致高比例的差異。 不過，若您發現 [!DNL Analytics] 和Adobe廣告中的EF ID，請聯絡您的Adobe客戶團隊以取得協助。
 
 ## 其他量度考量事項
 

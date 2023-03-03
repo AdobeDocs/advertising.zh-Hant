@@ -3,9 +3,9 @@ title: 擷取消費者選擇退出銷售報表
 description: 了解如何擷取針對選擇退出銷售請求而提交的ID報表。
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以選擇使用DSP擷取消費者選擇退出銷售的報表 [!DNL Trafficking API]. 如需指示，請參閱 [!DNL Trafficking API]. 如果您的組織未使用 [!DNL Trafficking API] 但對更多資訊感興趣，請 [!DNL Adobe] 客戶團隊。
+>您可以選擇使用DSP擷取消費者選擇退出銷售的報表 [!DNL Trafficking API]. 如需指示，請參閱 [!DNL Trafficking API]. 如果您的組織未使用 [!DNL Trafficking API] 但有興趣了解更多資訊，請連絡您的Adobe帳戶團隊。
 
 1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. 在區段清單上方，按一下 **[!UICONTROL Access CCPA Reports]**.

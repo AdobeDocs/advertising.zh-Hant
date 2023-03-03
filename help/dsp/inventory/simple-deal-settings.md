@@ -3,9 +3,9 @@ title: '[!UICONTROL Simple Ad Serving] 交易設定'
 description: 了解 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 1%
 | 參數 | 說明 |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | 此交易的媒體類型： *[!UICONTROL Video],* *[!UICONTROL Display],* 或 *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | 銷售此庫存的發佈商的名稱。 在名稱中至少輸入前兩個字元，以搜尋發佈者。 若要新增未列出的發佈者，請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| **[!UICONTROL Publisher Site Served On]** | 銷售此庫存的發佈商的名稱。 在名稱中至少輸入前兩個字元，以搜尋發佈者。 若要新增未列出的發行者，請連絡您的Adobe帳戶團隊。 |
 | **[!UICONTROL Advertiser]** | 帳戶中可存取此交易的單一廣告商。 也選擇交易可用的促銷活動和（可選）包。 |
 | **[!UICONTROL Media Quality Assessment?]** | （部分使用者）讓廣告可在其他DSP上執行，以進行協力廠商驗證。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 唯一的選項是 *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]:* 為此交易使用現有廣告。</li></ul> |
-| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果您要為交易建立廣告，請根據要求包含廣告大小或持續時間。 可用的選項因介質類型而異。 |
+| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果您要為交易建立廣告，請根據要求包括廣告大小或持續時間。 可用的選項因介質類型而異。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 | 參數 | 說明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每1000次曝光(CPM)的成本，反映在合約的費率卡上。 請連絡您的 [!DNL Adobe] 帳戶團隊取得此值。 <br><br>也指定交易的貨幣。 所有使用者都可以選取美元，或者，如果SSP支援其他貨幣，則可以選取DSP帳戶的貨幣。 |
+| **[!UICONTROL Media CPM]** | 每1000次曝光(CPM)的成本，反映在合約的費率卡上。 如需此值，請聯絡您的Adobe帳戶團隊。 <br><br>也指定交易的貨幣。 所有使用者都可以選取美元，或者，如果SSP支援其他貨幣，則可以選取DSP帳戶的貨幣。 |
 | **[!UICONTROL Third Party Billed Fees]** | （可選）要以不計費成本和交易貨幣來跟蹤的靜態第三方費用。<br><br>所有使用者都可以選取美元，或者，如果SSP支援其他貨幣，則可以選取DSP帳戶的貨幣。 **注意：** 可結算費用反映於 [!UICONTROL Net CPM] 量度。 |
 | **[!UICONTROL Third Party Fee Description]** | （選用）協力廠商費用的說明。 |
 | **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 投放日期必須包含在促銷活動投放日期中。 廣告標籤只會在指定的投放期間傳回回應。<br><br> 最佳實務是建立持續一年的個別簡單廣告服務促銷活動，並在其中建立追蹤像素。 |

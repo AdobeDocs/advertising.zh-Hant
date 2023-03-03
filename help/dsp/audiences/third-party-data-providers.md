@@ -3,9 +3,9 @@ title: Advertising DSP中可用的第三方資料提供者
 description: 查看所有可用第三方資料提供者的清單。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-如需有關為您的帳戶匯入自訂第三方區段的詳細資訊，請連絡您的 [!DNL Adobe] 客戶團隊。
+如需有關匯入帳戶之自訂第三方區段的詳細資訊，請連絡您的Adobe帳戶團隊。
 
 >[!MORELIKETHIS]
 >

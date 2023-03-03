@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
@@ -319,7 +319,7 @@ ht-degree: 0%
    * 若要手動選取間隔，請在儲存格內按一下，並可選擇拖曳以選取間隔。
 1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (可選；可用於配置有 [!DNL Comscore] 和 [!DNL Grapeshot] 區段)特定區段名稱或ID [!DNL Comscore] 和 [!DNL Grapeshot] 包含作為目標。 此功能可能需額外付費。 若要啟用此功能並設定主題區段，請連絡您的 [!DNL Adobe] 客戶團隊。
+**[!UICONTROL Topic Targeting]:** (可選；可用於配置有 [!DNL Comscore] 和 [!DNL Grapeshot] 區段)特定區段名稱或ID [!DNL Comscore] 和 [!DNL Grapeshot] 包含作為目標。 此功能可能需額外付費。 若要啟用此功能並設定主題區段，請連絡您的Adobe帳戶團隊。
 
 要指定主題目標定位：
 

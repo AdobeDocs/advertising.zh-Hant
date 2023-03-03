@@ -3,9 +3,9 @@ title: 跨裝置解決方案
 description: 進一步了解跨裝置功能。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Advertising DSP與 [!DNL LiveRamp] 可讓您將對象延伸至人員的所有已
 
 ### 啟用以人物為基礎的歸因測量
 
-如果您想要啟用跨裝置歸因測量，請連絡您的 [!DNL Adobe] 客戶團隊。
+如果您想要啟用跨裝置歸因測量，請連絡您的Adobe帳戶團隊。
 
 ### 設定跨裝置轉換歸因的轉換報表
 

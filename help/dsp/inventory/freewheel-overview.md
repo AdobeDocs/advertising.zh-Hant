@@ -3,9 +3,9 @@ title: 在中設定PG交易概觀 [!DNL Freewheel]
 description: 了解在以程式設計保證的交易與發佈商之間執行廣告所需的先決條件和額外步驟 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->與您的 [!DNL Adobe] 帳戶團隊，確保您的 [!DNL DSP] 帳戶具有下列權限：
+>與您的Adobe客戶團隊合作，確保您的 [!DNL DSP] 帳戶具有下列權限：
 >
 >* 使用權限 [!DNL FreeWheel] 程式化保證工作流程，需要提交廣告，以便程式化保證交易 [!DNL FreeWheel].
 >

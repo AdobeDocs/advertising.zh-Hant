@@ -3,9 +3,9 @@ title: Adobe廣告ID：使用者 [!DNL Analytics]
 description: Adobe廣告ID：使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ AL!{userid}!{sid}
 * `{userid}` 是Adobe廣告指派給廣告商的唯一數值使用者ID。
 * `{sid}` 是Adobe廣告用於指定廣告網路的數值ID，例如 `3` for [!DNL Google Ads] 或 `10` for [!DNL Microsoft Advertising].
 
-以下為幾個廣告網路的完整AMO ID格式。 如需其他廣告網路的AMO ID格式，請連絡您的 [!DNL Adobe] 客戶團隊。
+以下為幾個廣告網路的完整AMO ID格式。 如需其他廣告網路的AMO ID格式，請連絡您的Adobe帳戶團隊。
 
 適用於的AMO ID格式 [!DNL Google Ads]:
 

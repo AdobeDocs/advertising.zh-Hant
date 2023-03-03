@@ -3,9 +3,9 @@ title: 從Advertising DSP促銷活動收集點按和曝光資料
 description: 了解如何使用Audience Manager像素，從Advertising DSP廣告擷取Cookie型曝光和點擊事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 步驟2:在網頁上實作曝光數和點擊事件像素 {#implement-dsp-pixels}
 
-廣告商可以建立並實作其自有品牌的事件標籤。 如有必要，請連絡您的Adobe Audience Manager顧問或您的 [!DNL Adobe] 客戶經理以尋求支援。
+廣告商可以建立並實作其自有品牌的事件標籤。 如有必要，請聯絡您的Adobe Audience Manager顧問或Adobe客戶團隊以取得支援。
 
 >[!NOTE]
 >

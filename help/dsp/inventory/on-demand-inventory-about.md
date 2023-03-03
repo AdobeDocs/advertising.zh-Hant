@@ -3,9 +3,9 @@ title: 關於 [!DNL On Demand] Premium庫存
 description: 了解DSP與優質發行商合作夥伴預先協商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ DSP premium marketplace可讓您：
 
 * 使用整合的報告跟蹤效能
 
-交易一經核准，即可作為現有版位的目標，並自動納入為所有目標的新版位的目標 [!DNL On Demand] 詳細目錄。 如果交易請求被拒絕，您可以與 [!DNL Adobe] 客戶團隊解決問題，然後重新請求交易。
+交易一經核准，即可作為現有版位的目標，並自動納入為所有目標的新版位的目標 [!DNL On Demand] 詳細目錄。 如果交易請求被拒絕，您可以與Adobe客戶團隊合作以解決問題，然後重新請求交易。
 
 ## 隨選檢視
 

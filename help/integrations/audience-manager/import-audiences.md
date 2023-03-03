@@ -3,9 +3,9 @@ title: 匯入Adobe Audience Manager區段以用於廣告鎖定目標
 description: 了解如何匯入 [!DNL Adobe] Advertising DSP和使用Adobe Audience Manager搜尋對象
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Advertising DSP和 [!DNL Advertising Search] 每個都能提取所有廣告商�
 
 * 廣告商的網站訪客不包含大量 [!DNL Apple Safari] 使用者。
 
-* (若廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少對每個網頁的呼叫，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集的程式碼，並啟用每個的伺服器端轉送 [!DNL Analytics] 報表套裝。 如需詳細資訊，請參閱[伺服器端轉送概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+* (若廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少對每個網頁的呼叫，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集的程式碼，並啟用每個程式的伺服器端轉送 [!DNL Analytics] 報表套裝。 如需詳細資訊，請參閱[伺服器端轉送概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 * （建議）若要提高匹配率，請僅傳送第一方網站資料至Adobe廣告。 如果廣告商捆綁來自客戶關係管理系統的第三方資料或離線資料，則資料洩漏可能會降低匹配率。
 
@@ -48,9 +48,9 @@ Advertising DSP和 [!DNL Advertising Search] 每個都能提取所有廣告商�
 
 此 [!DNL Adobe] 帳戶和資料操作團隊將執行下列步驟。
 
-1. 此 [!DNL Adobe] 帳戶團隊應設定廣告商層級的設定「[!UICONTROL Adobe Analytics Cloud].&quot;
+1. Adobe帳戶團隊應設定廣告商層級的設定「[!UICONTROL Adobe Analytics Cloud].&quot;
 
-1. 此 [!DNL Adobe] 客戶團隊應提交請求<!-- Submit a request as a JIRA task? --> 資料運營團隊<!-- implementation team? --> 若要使用Advertising DSP原生API整合匯入組織的Audience Manager區段。
+1. Adobe帳戶團隊應提交請求<!-- Submit a request as a JIRA task? --> 資料運營團隊<!-- implementation team? --> 若要使用Advertising DSP原生API整合匯入組織的Audience Manager區段。
 
 ### 哪些變更會導致Audience Manager?
 
@@ -76,7 +76,7 @@ API會自動：
 
 [!DNL Adobe] 人員將執行以下大部分或全部步驟。
 
-1. 此 [!DNL Adobe] 客戶團隊應向資料營運團隊提交請求，以設定 [!DNL Search] 和Audience Manager。 包含您要匯出至的Audience Manager區段名稱 [!DNL Search].
+1. Adobe帳戶團隊應向資料操作團隊提交請求，以設定 [!DNL Search] 和Audience Manager。 包含您要匯出至的Audience Manager區段名稱 [!DNL Search].
 
 1. 在Audience Manager中，為 [!DNL Search]:
 

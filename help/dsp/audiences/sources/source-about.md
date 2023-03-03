@@ -3,9 +3,9 @@ title: 關於從受眾來源啟用已驗證的區段
 description: 了解如何從客戶資料平台擷取第一方區段。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ DSP已與 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://exper
 
 1. [設定 [!DNL Real-Time CDP] 目標連接Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
-如需其他支援，請連絡您的 [!DNL Adobe] 帳戶團隊或 `adcloud-support@adobe.com`.
+如需其他支援，請連絡您的Adobe客戶團隊，或 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

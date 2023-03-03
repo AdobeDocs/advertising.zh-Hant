@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 了解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
-任何具有多個DSP帳戶的組織均可根據組織的需求，選擇在自訂報表中啟用跨帳戶資料。 例如，您可以授予帳戶A存取帳戶B的資料，並授予帳戶B存取帳戶C（但不授予帳戶A）的資料。 若要啟用和設定此功能，請連絡您的 [!DNL Adobe] 客戶團隊。
+任何具有多個DSP帳戶的組織均可根據組織的需求，選擇在自訂報表中啟用跨帳戶資料。 例如，您可以授予帳戶A存取帳戶B的資料，並授予帳戶B存取帳戶C（但不授予帳戶A）的資料。 若要啟用並設定此功能，請連絡您的Adobe帳戶團隊。
 
 為貴組織啟用功能後，您就可以 [篩選](report-settings.md) 下列任何報表類型（依帳戶）:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]，和 [!UICONTROL Conversion].
 

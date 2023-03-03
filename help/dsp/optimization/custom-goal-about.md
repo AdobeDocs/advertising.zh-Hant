@@ -3,9 +3,9 @@ title: 關於自訂目標
 description: 了解自訂目標，以在針對最低CPA或最高ROAS最佳化的套件中定義成功事件。
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* [!DNL Analytics] 維度和區段無法用於Adobe廣告最佳化。
->* 若要在DSP中使用Analytics事件，請搭配您的 [!DNL Adobe] 帳戶團隊來設定廣告商層級的整合。
+>* 若要在DSP中使用Analytics事件，請與您的Adobe帳戶團隊合作，設定廣告商層級的整合。
 >* [!DNL Analytics] 自訂事件會遵循此命名慣例： `custom_event_[*event #*]_[*Analytics report suite ID*]`. 範例： `custom_event_16_examplersid`
 
 

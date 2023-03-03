@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe廣告資料，於 [!DNL Analytics]
 
-[!DNL Analytics] 在Analytics點擊內設定Adobe廣告ID(AMO ID)，但以廣告商的eVar持續性設定為限，此設定會同時套用至點進和閱覽。 永續性設定是在Adobe廣告後端設定，而您的 [!DNL Adobe] 客戶團隊可以變更。
+[!DNL Analytics] 在Analytics點擊內設定Adobe廣告ID(AMO ID)，但以廣告商的eVar持續性設定為限，此設定會同時套用至點進和閱覽。 永續性設定是在Adobe廣告後端設定，而您的Adobe帳戶團隊可加以變更。
 
 * [!DNL Analytics for Advertising] eVar過期時間：AMO ID預設為60天
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 * 線上影片
 * 原生
 
-請連絡您的 [!DNL Adobe] 客戶團隊，了解每個管道中最新支援的廣告環境。
+如需各個管道中最新支援的廣告環境，請聯絡您的Adobe客戶團隊。
 
 ## 實作前須知
 
