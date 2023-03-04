@@ -2,9 +2,9 @@
 title: 進階測量解決方案
 description: 請參閱進階測量的可用解決方案清單。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,4 +93,4 @@ ht-degree: 0%
 
 ## 更多資訊
 
-如需所有進階測量解決方案的相關資訊，概述定價資訊以及每個解決方案的可用格式和地區，請連絡您的 [!DNL Adobe] 客戶成功經理。 此外，還可應要求提供解決方案專屬的案例研究。
+如需所有進階測量解決方案的相關資訊，概述定價資訊以及每個解決方案的可用格式和地區，請聯絡您的Adobe客戶團隊。 此外，還可應要求提供解決方案專屬的案例研究。
