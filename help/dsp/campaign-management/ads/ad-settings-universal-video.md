@@ -3,9 +3,9 @@ title: 通用視訊廣告設定
 description: 請參閱通用視訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 通用視訊廣告設定
 
 *開放測試版功能*
+
+>[!NOTE]
+>
+>通用視訊廣告只能附加至通用視訊版位。
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** 潛在詳細目錄的廣告播放器格式： *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*，或 *[!UICONTROL VAST]*. 可視度一律以 [!UICONTROL VPAID]，但 [!UICONTROL VPAID & VAST] 包括不允許檢視度測量的庫存。 如果可檢視性量度對您的促銷活動很重要，請考量此區別。
 
-使用 *[!UICONTROL VAST]*，不允許可視性測量時，針對僅嚴格要求VAST格式的連線電視或詳細目錄(通常來自Google Ad Manager、Appnexus、SpotX和Freewheel等供應來源)。
+使用 [!UICONTROL VAST]，不允許可視性測量時，針對僅嚴格要求VAST格式的連線電視或詳細目錄(通常來自Google Ad Manager、Appnexus、SpotX和Freewheel等供應來源)。 此外，對於先前與標準前段(VAST)或Phone + Tablet Standard前段(VAST)版位/廣告相容的庫存，也可使用此選項。
 
 **[!UICONTROL Clock Number]**:(僅在聯合王國使用；僅限具有權限的使用者使用)用來確保廣告廣播的唯一識別碼。 如果此設定不適用，請將其留空。
 
@@ -72,6 +76,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 >* [關於廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
 >* [列出與廣告相關聯的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)

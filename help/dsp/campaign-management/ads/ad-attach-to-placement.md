@@ -3,14 +3,18 @@ title: 將廣告附加至版位
 description: 了解如何將廣告附加至版位。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 1%
 
 ---
 
 # 將廣告附加至版位
+
+>[!NOTE]
+>
+>通用視訊廣告只能附加至通用視訊版位。
 
 ## 從附加新廣告 [!UICONTROL Ads] 檢視
 
@@ -132,4 +136,5 @@ ht-degree: 0%
 >* [編輯廣告](ad-edit.md)
 >* [列出與廣告相關聯的版位](ad-list-placements.md)
 >* [編輯投放位置的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 

@@ -3,9 +3,9 @@ title: 建立多個第三方廣告
 description: 了解如何一次建立多個第三方廣告。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,15 @@ ht-degree: 0%
 
       1. 按一下 **[!UICONTROL Save & submit for review]**.
 
+>[!NOTE]
+>
+>通用視訊廣告只能附加至通用視訊版位。
+
 >[!MORELIKETHIS]
 >
 >* [關於廣告管理](ad-about.md)
 >* [廣告規格](ad-specs.md)
 >* [建立單一廣告](ad-create.md)
 >* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 

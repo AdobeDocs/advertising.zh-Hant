@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad specs for forecast]:** （僅限視訊廣告格式）廣告持續時間和/或廣告規格，用於計算右側的「預測」投影。 欄位依廣告類型而異。
 
-**[!UICONTROL Environment]:** （僅限通用視訊廣告格式）要納入作為位置目標的裝置環境（案頭、行動裝置、連線電視）。
+**[!UICONTROL Environment]:** （僅限通用視訊廣告格式）要納入作為位置目標的裝置環境（案頭、行動裝置、連線電視）。 至少指定一個。
 
 **[!UICONTROL Placement tags]:** （可選）可協助您找出此位置的關鍵字或暱稱。
 
@@ -468,5 +468,5 @@ ht-degree: 0%
 >* [編輯位置](placement-edit.md)
 >* [查看版位的更改日誌](placement-change-log.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Campaign Management常見問題集](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Campaign Management常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
 
