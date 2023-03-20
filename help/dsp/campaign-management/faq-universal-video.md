@@ -2,9 +2,9 @@
 title: 通用視訊的常見問題集
 description: 深入了解通用視訊廣告。
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 在所需的行銷活動中， [建立通用視訊放置](/help/dsp/campaign-management/placements/placement-create.md)，選取 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
-   您需要指定至少一個要定位的環境（案頭、行動裝置、連線電視）。
+   您必須指定至少一個要定位的環境（案頭、行動裝置、連線電視）。
 
 1. 在與通用視訊版位相同的行銷活動中， [建立單一通用視訊廣告](/help/dsp/campaign-management/ads/ad-create.md) 或 [建立多個通用視訊廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 使用 **[!UICONTROL VAST]** 在下列任一情況下：
 
-* 該位置將針對已連接的電視清單。
-* 此版位將以來自Google廣告管理員、Appnexus、SpotX或Freewheel的視訊詳細目錄為目標。 這些SSP不支援VPAID和VAST視訊格式。
+* 放置目標是連接的電視清單。
+* 此位置會鎖定來自Google廣告管理員、Appnexus、SpotX或Freewheel的視訊詳細目錄。 這些SSP不支援VPAID和VAST視訊格式。
 
 ## 可以將多個通用視訊廣告附加至相同的通用視訊位置嗎？
 
