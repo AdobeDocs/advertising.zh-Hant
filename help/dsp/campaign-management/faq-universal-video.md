@@ -2,14 +2,14 @@
 title: 通用視訊的常見問題集
 description: 深入了解通用視訊廣告。
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# #通用視訊常見問題集
+# 通用視訊的常見問題集
 
 ## 如何建立通用視訊版位和廣告？
 
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 1. 在與通用視訊版位相同的行銷活動中， [建立單一通用視訊廣告](/help/dsp/campaign-management/ads/ad-create.md) 或 [建立多個通用視訊廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   如果您建立多個廣告，請務必指定「[!UICONTROL Universal Video]」作為 [!UICONTROL Ad Type]. 針對 [!DNL Google] 或 [!DNL Flashtalking] 廣告，上傳檔案後，按一下「[!UICONTROL Review ad types]」步驟並加以編輯。 對於其他類型的廣告標籤，請在您上傳的試算表檔案中指定廣告類型。
+   如果您建立多個廣告，請務必指定「[!UICONTROL Universal Video]」作為 [!UICONTROL Ad Type]:
+
+   * 針對 [!DNL Google] 或 [!DNL Flashtalking] 廣告：在「[!UICONTROL Review ad types]上傳檔案後，按一下 **[!UICONTROL Ad Type]** 欄位和選取 **[!UICONTROL Universal Video]**.
+
+   * 對於其他類型的廣告標籤：在您上傳的試算表檔案中，將每個廣告的「廣告類型」欄位指定為 **[!UICONTROL Universal Video]**.
 
 1. [開啟廣告設定](/help/dsp/campaign-management/ads/ad-edit.md) 針對每個新廣告，並選取適用的視訊格式：
 
