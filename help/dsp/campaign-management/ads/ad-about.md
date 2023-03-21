@@ -3,9 +3,9 @@ title: 關於Advertising DSP中的廣告管理
 description: 了解廣告管理。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP支援透過協力廠商廣告服務標籤(例如Google、Flashtalking或Sizm
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-設定廣告後，您需要將每個廣告附加至版位，其中包括將控制促銷活動傳送方式的定位參數（例如地理、對象、裝置和庫存目標）。 您可以將單一廣告附加至一或多個版位。
+設定廣告後，將每個廣告附加至版位，其中包括可控制促銷活動傳遞方式的定位參數（例如地理、對象、裝置和庫存定位）。 您可以將單一廣告附加至一或多個版位。
 
 ## 可用廣告類型 {#ad-types}
 
@@ -37,7 +37,11 @@ DSP提供下列所有廣告類型。 如需每種廣告類型的完整規格，�
 
 * **連線電視廣告（僅限第三方）**:連接的電視廣告在付費電視視頻內容之前和期間顯示。 所有連接的電視清單都運行在電視設備上，這意味著視頻在觀看者無法跳過的向後全屏環境中自動播放。 連線電視是最接近電視廣告的數位視訊格式。 連接電視的關鍵效能指標包括 [!UICONTROL Completion Rate].
 
-* **通用視訊廣告（僅限第三方）**:通用視訊廣告將連線電視、前段和行動前段廣告（VAST和VPAID）的所有功能結合為一，並在視訊內容之前和期間顯示。 從案頭、行動裝置及連線電視環境定位視訊詳細目錄時，可使用通用視訊廣告，因此可避免建立多個視訊廣告的需求。 通用視訊的關鍵績效指標包括 [!UICONTROL Completion Rate] 和 [!UICONTROL Viewability Rate].
+* **通用視訊廣告（僅限第三方）**:通用視訊廣告可讓您透過單一視訊位置，從案頭、行動裝置和連線電視環境，針對VPAID和VAST詳細目錄鎖定視訊詳細目錄。 它們結合連線電視、前段和行動前段廣告的所有功能，並在影片內容之前和期間顯示。 通用視訊的關鍵績效指標包括 [!UICONTROL Completion Rate] 和 [!UICONTROL Viewability Rate].
+
+   通用視訊廣告只能附加至通用視訊版位。
+
+   請參閱「[通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)」，以取得通用視訊廣告的詳細資訊。
 
 ## DSP廣告核准
 
