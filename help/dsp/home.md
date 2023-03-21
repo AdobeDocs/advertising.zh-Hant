@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年3月20日 | [!UICONTROL Campaigns] | 深入了解開放式測試版功能的通用視訊版位和廣告。 | 請參閱「[通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 以圖表形式檢視變更記錄以及為任何項目新增附註的選項不在測試版。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （測試版功能）您現在可以以圖表形式檢視變更記錄，也可以為任何項目新增附註。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年1月25日 | [!UICONTROL Deals] | 「詳細目錄>交易」中新的「PG曝光步調」支出欄，檢視保證交易的報表步調。 | 請參閱「[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ ht-degree: 0%
 |  | [!DNL Freewheel] 程式保證的交易 | 您現在可以提交廣告，並檢查廣告的狀態 [!DNL Freewheel] 程式保證的交易 [!UICONTROL Ads] 檢視。 以前，您只能透過 [!UICONTROL Deals] 檢視。 | 請參閱「[提交程式化保證交易的廣告以 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 程式化保證交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021年10月7日 | 說明 | 全部 [DSP和其他AdobeAdvertising檔案](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] 現在，機器已翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。<br>![變更語言](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 
