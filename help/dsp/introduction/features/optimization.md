@@ -3,7 +3,7 @@ title: 最佳化
 description: 進一步了解最佳化功能。
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSP會分兩個階段針對您最關心的量度來最佳化。 首先，它會根據套件的最佳化目標，將支出轉向表現最佳的版位或策略。 其次，它即時調整拍賣出價，以反映平衡a)完整交付預算和b)您選擇的KPI的需要的即時經濟價值。 這些最佳化階段可共同確保您的預算能有效率地花費，以達成您的行銷活動目標。
 
-您可以針對每個版位和套件選擇最佳化目標。 可用的最佳化目標包含預設選項，例如「[!UICONTROL Lowest Cost per Click]，」和您已設定為的自訂目標(在 [!DNL Adobe Advertising Search].
+您可以針對每個版位和套件選擇最佳化目標。 可用的最佳化目標包含預設選項，例如「[!UICONTROL Lowest Cost per Click]，」和您已設定為的自訂目標(在 [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >

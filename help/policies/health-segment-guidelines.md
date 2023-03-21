@@ -3,7 +3,7 @@ title: Adobe廣告可接受的健康狀況區段
 description: 請參閱可接受的健康相關受眾區段和策略的准則，以作為鎖定健康相關受眾區段的替代方案。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe廣告可接受的健康狀況區段指引
 
-*針對Adobe廣告DSP和[!DNL Adobe Advertising Search]*
+*針對Adobe廣告DSP和[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 以下准則概述了不可接受的和可接受的與健康相關的受眾群體。 他們也建議使用策略，作為目標定位健康相關受眾區段的替代方案。
 

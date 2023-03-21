@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->轉換路徑包含廣告商曝光數和點按次數，或點按回顧期間(在 [!DNL Adobe Advertising Search]. 點按次數會在轉換歸因期間受到曝光數的偏好。 轉換路徑中的任何點按都會根據歸因規則獲得滿分。 只有在轉換路徑中未追蹤任何點按時，曝光數才會獲得評分。
+>轉換路徑包含廣告商曝光數和點按次數，或點按回顧期間(在 [!DNL Advertising Search, Social, & Commerce]. 點按次數會在轉換歸因期間受到曝光數的偏好。 轉換路徑中的任何點按都會根據歸因規則獲得滿分。 只有在轉換路徑中未追蹤任何點按時，曝光數才會獲得評分。
 
 * *[!UICONTROL Last Event]:* 將轉換歸因於轉換路徑中的上次點按或曝光。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * *[!UICONTROL U-shaped]:* 將轉換歸因於轉換路徑中的所有事件，但賦予第一個和最後一個事件最大的權重，並連續減少對轉換路徑中間事件的權重。
 
-* *[!UICONTROL Display Only]:*  將轉換歸因於轉換路徑中的上次DSP點按或曝光。 這包括視訊和連線電視廣告，並排除點按次數 [!DNL Adobe Advertising Search] 廣告。
+* *[!UICONTROL Display Only]:*  將轉換歸因於轉換路徑中的上次DSP點按或曝光。 這包括視訊和連線電視廣告，並排除點按次數 [!DNL Advertising Search, Social, & Commerce] 廣告。
 
 * *[!UICONTROL Social Only]:* 過時
 

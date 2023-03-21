@@ -3,7 +3,7 @@ title: 關於自訂目標
 description: 了解自訂目標，以在針對最低CPA或最高ROAS最佳化的套件中定義成功事件。
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 關於自訂目標
 
-自訂目標會定義廣告商達成其業務目標所需的成功事件。 每個使用最佳化目標的套件：[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal]「 」必須包含有助於達成整體最佳化目標的自訂目標。 您可以將自訂目標建立為 *目標* in [!DNL Adobe Advertising Search].
+自訂目標會定義廣告商達成其業務目標所需的成功事件。 每個使用最佳化目標的套件：[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal]「 」必須包含有助於達成整體最佳化目標的自訂目標。 您可以將自訂目標建立為 *目標* in [!DNL Advertising Search, Social, & Commerce].
 
 ![自訂目標](/help/dsp/assets/objective-goals.png)
 

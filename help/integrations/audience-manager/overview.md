@@ -3,7 +3,7 @@ title: Adobe廣告整合Adobe Audience Manager
 description: 了解Adobe廣告與Adobe Audience Manager交換資料的不同方式。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## 同步Audience Manager和其他 [!DNL Adobe] 廣告鎖定目標的區段
 
-[!DNL Search] 和DSP可提取廣告商或代理商的所有Audience Manager和其他內容的中繼資料、階層資料和不重複對象資料 [!DNL Adobe] 對象。 此獨特連線僅適用於使用Adobe廣告的行銷人員。 請參閱「[匯入Adobe Audience Manager區段以用於廣告鎖定目標](/help/integrations/audience-manager/import-audiences.md).&quot;
+[!DNL Search, Social, & Commerce] 和DSP可提取廣告商或代理商的所有Audience Manager和其他內容的中繼資料、階層資料和不重複對象資料 [!DNL Adobe] 對象。 此獨特連線僅適用於使用Adobe廣告的行銷人員。 請參閱「[匯入Adobe Audience Manager區段以用於廣告鎖定目標](/help/integrations/audience-manager/import-audiences.md).&quot;
 
 ### 使用Audience Manager和其他 [!DNL Adobe] 要建立的區段 [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
-*選擇加入的廣告商 [!DNL Advertising Search] 僅限*
+*選擇加入的廣告商 [!DNL Advertising Search, Social, & Commerce] 僅限*
 
-內 [!DNL Search]，您可以建立 [!DNL Google Ads] GoogleAudience Manager會使用您現有的客戶區段來比對來自使用者ID的受眾，這些區段具有 [!UICONTROL Adobe Media Optimizer (HTTP)] 和 [!UICONTROL Adobe Media Optimizer Batch Destination] 作為目的地。 ([!DNL Media Optimizer] 是 [!DNL Search].) 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]. 如需詳細資訊，請參閱 [!DNL Search].
+內 [!DNL Search, Social, & Commerce]，您可以建立 [!DNL Google Ads] GoogleAudience Manager會使用您現有的客戶區段來比對來自使用者ID的受眾，這些區段具有 [!UICONTROL Adobe Media Optimizer (HTTP)] 和 [!UICONTROL Adobe Media Optimizer Batch Destination] 作為目的地。 ([!DNL Media Optimizer] 是 [!DNL Search, Social, & Commerce].) 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]. 如需詳細資訊，請參閱 [!DNL Search, Social, & Commerce].
 
 [客戶比對來自使用者ID的受眾](https://support.google.com/google-ads/answer/9199250) 類似網站標籤型受眾，但會將非PII ID指派給不重複受眾成員，以獲得比標準客戶比對和網站標籤型受眾更明顯的優點。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 使用Audience Manager和其他 [!DNL Adobe] 要定位或排除廣告的區段 {#audience-manager-targets}
 
-* (選擇加入的廣告商搭配 [!DNL Search])您可以使用 [!DNL Google Ads] 對象 [使用 [!DNL Adobe] 區段](#audience-manager-google-audiences) 作為促銷活動層級或廣告群組層級的目標或排除 [!DNL Google Ads] 行銷活動。
+* (選擇加入的廣告商搭配 [!DNL Search, Social, & Commerce])您可以使用 [!DNL Google Ads] 對象 [使用 [!DNL Adobe] 區段](#audience-manager-google-audiences) 作為促銷活動層級或廣告群組層級的目標或排除 [!DNL Google Ads] 行銷活動。
 
 * (具有DSP的廣告商)您可以使用現有的 [!DNL Adobe] 區段作為廣告版位的目標。 您可以選擇將區段納入可重複使用的對象中，以用作多個版位的目標或排除。
 

@@ -3,7 +3,7 @@ title: 為何Adobe廣告和 [!DNL Marketing Channels]
 description: 了解為何AMO ID追蹤的管道資料可能與 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    此 [!DNL Analytics] [!UICONTROL Marketing Channel] 因此，維度已設定為擷取及追蹤所有通道。 [!DNL Marketing Channels] 也可以設定來擷取DSP閱覽和點進次數，而這與其他行銷管道相關。
 
-* Adobe廣告AMO ID:Adobe廣告AMO ID資料的主要使用案例是饋送進階 [!DNL Adobe Sensei]競標算法。 這些演算法會自動做出每日數千個微層級的出價決策，以最大化廣告支出並達成 [!DNL DSP] 行銷活動或 [!DNL Search] 作品集。 演算法將促銷活動連結到的轉換資料越多，演算法就越能做出這些競標決策。
+* Adobe廣告AMO ID:Adobe廣告AMO ID資料的主要使用案例是饋送進階 [!DNL Adobe Sensei]競標算法。 這些演算法會自動做出每日數千個微層級的出價決策，以最大化廣告支出並達成 [!DNL DSP] 行銷活動或 [!DNL Search, Social, & Commerce] 作品集。 演算法將促銷活動連結到的轉換資料越多，演算法就越能做出這些競標決策。
 
    若要收集此資料， [!DNL Analytics for Advertising] 整合會傳遞原始AMO ID，這些AMO ID可在Adobe Analytics的AMO ID維度中轉譯為點進和閱覽追蹤代碼，以自訂變數(eVar)或保留變數(rVar)的形式儲存。 其他管道的點進次數不會設定在AMO ID維度中，因此AMO ID維度無法追蹤來自這些其他管道的登入次數。 結果AMO ID會持續存在至 [!DNL Marketing Channels] 登入點。
 

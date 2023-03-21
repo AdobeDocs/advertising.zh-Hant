@@ -1,15 +1,15 @@
 ---
 title: 設定Adobe Target中Adobe廣告的A/B測試
-description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search] 廣告。
+description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search, Social, & Commerce] 廣告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Target中設定A/B測試以用於Advertising DSP和 [!DNL Advertising Search] 廣告
+# 在Adobe Target中設定A/B測試以用於Advertising DSP和 [!DNL Advertising Search, Social, & Commerce] 廣告
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 

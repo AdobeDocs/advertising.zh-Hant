@@ -3,16 +3,16 @@ title: Adobe加州消費者隱私法的廣告支援：消費者資料存取和�
 description: 了解支援的資料請求類型、必要的設定和欄位值，以及使用舊版產品ID和傳回資料欄位的API存取請求範例。
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: bc0015c134406fb020370def45a8588b5032587e
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
 
 # 加州消費者隱私法的Adobe廣告支援：消費者資料存取和刪除支援
 
-*針對 [!DNL Adobe Advertising Search];Adobe廣告DSP;Adobe廣告創意；和Adobe廣告DCO*
+*針對 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe廣告DSP;Adobe廣告創意；和Adobe廣告DCO*
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 身為您的服務提供者，Adobe廣告可支援您的企業履行CCPA所規定的義務，這些義務適用於Adobe廣告產品和服務的使用，包括管理存取和刪除個人資訊的請求，以及管理選擇退出個人資訊銷售的請求。
 
-本檔案說明如何 [!DNL Advertising Search];廣告創意；廣告DSP(Demand Side Platform);和 [!DNL Advertising DCO]  — 作為服務提供商 — 支援消費者使用Adobe訪問和刪除個人資訊的權利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI].
+本檔案說明如何 [!DNL Advertising Search, Social, & Commerce];廣告創意；廣告DSP(Demand Side Platform);和 [!DNL Advertising DCO]  — 作為服務提供商 — 支援消費者使用Adobe訪問和刪除個人資訊的權利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI].
 
 如需Advertising DSP如何支援消費者選擇退出個人資訊銷售權限的相關資訊，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 Adobe Experience Platform可讓企業完成下列工作：
 
-* 在中存取消費者的Cookie層級資料或裝置ID層級資料（適用於行動應用程式中的廣告） [!DNL Search], [!DNL Creative], [!DNL DSP]，或 [!DNL DCO].
-* 刪除儲存在中的Cookie層級資料 [!DNL Search], [!DNL Creative], [!DNL DSP]，或 [!DNL DCO] 使用瀏覽器的消費者；或刪除儲存在 [!DNL DSP] 適用於在行動裝置上使用應用程式的消費者。
+* 在中存取消費者的Cookie層級資料或裝置ID層級資料（適用於行動應用程式中的廣告） [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]，或 [!DNL DCO].
+* 刪除儲存在中的Cookie層級資料 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]，或 [!DNL DCO] 使用瀏覽器的消費者；或刪除儲存在 [!DNL DSP] 適用於在行動裝置上使用應用程式的消費者。
 * 檢查一或所有現有請求的狀態。
 
 ## 傳送Adobe廣告請求的必要設定
@@ -54,7 +54,7 @@ Adobe Experience Platform可讓企業完成下列工作：
 
    >[!NOTE]
    >
-   >刪除個人資料與選擇退出不同，這會停止使用受眾區段來鎖定目標的使用者。 不過，當消費者要求從 [!DNL Creative], [!DNL DSP]，或 [!DNL DCO]，程式庫也會傳送請求給「Adobe廣告」，以選擇讓客戶退出區段鎖定目標。 適用於廣告商 [!DNL Search]，建議您提供客戶的連結 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，說明如何選擇退出對象區段鎖定目標。
+   >刪除個人資料與選擇退出不同，這會停止使用受眾區段來鎖定目標的使用者。 不過，當消費者要求從 [!DNL Creative], [!DNL DSP]，或 [!DNL DCO]，程式庫也會傳送請求給「Adobe廣告」，以選擇讓客戶退出區段鎖定目標。 適用於廣告商 [!DNL Search, Social, & Commerce]，建議您提供客戶的連結 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，說明如何選擇退出對象區段鎖定目標。
 
 1. 識別您的Experience Cloud組織ID，並確認已連結至您的AdobeAdvertising帳戶。
 
@@ -62,7 +62,7 @@ Adobe Experience Platform可讓企業完成下列工作：
 
    >[!IMPORTANT]
    >
-   >請連絡您公司的Adobe廣告代表，確認您組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商 [!DNL Search] 帳戶，和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
+   >請連絡您公司的Adobe廣告代表，確認您組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商 [!DNL Search, Social, & Commerce] 帳戶，和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
 
 1. 使用 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （針對自動請求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （針對臨機請求）代表消費者向Adobe廣告提交存取和刪除個人資訊的請求，以及檢查現有請求的狀態。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform可讓企業完成下列工作：
    當您提交消費者刪除請求時，Cookie ID或裝置ID以及所有與Cookie相關聯的成本、點按和收入資料都會從伺服器中刪除。
 
    >[!NOTE]
-   如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案([!DNL Search], [!DNL Creative], [!DNL DSP]，和 [!DNL DCO])，每個子解決方案各一個帳戶。
+   如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]，和 [!DNL DCO])，每個子解決方案各一個帳戶。
 
 若要獲得Adobe廣告的支援，必須執行上述所有步驟。 如需使用Adobe Experience Platform Privacy Service執行這些及其他相關工作的詳細資訊，以及在何處尋找您需要的項目，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

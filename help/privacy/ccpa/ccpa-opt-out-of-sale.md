@@ -3,7 +3,7 @@ title: Adobe加州消費者隱私法的廣告支援：消費者選擇退出銷�
 description: 了解擷取消費者選擇退出銷售請求的支援。
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 本檔案說明Adobe廣告Demand Side Platform(DSP)身為服務提供者，如何支援消費者選擇退出「個人資訊」的「銷售」權限，因為CCPA已定義每個詞語。 其中包含如何向Advertising傳達退出銷售請求，以及如何擷取貴組織退出銷售請求報表的資訊。
 
-如需如何 [!DNL Advertising Search];廣告創意；和 [!DNL Advertising DCO] 支援消費者的個人資訊存取和刪除權限，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者資料存取和刪除支援](/help/privacy/ccpa/ccpa-access-delete.md).
+如需如何 [!DNL Advertising Search, Social, & Commerce];廣告創意；和 [!DNL Advertising DCO] 支援消費者的個人資訊存取和刪除權限，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者資料存取和刪除支援](/help/privacy/ccpa/ccpa-access-delete.md).
 
 如需CCPAAdobe隱私權服務的詳細資訊，請參閱 [Adobe隱私中心](https://www.adobe.com/privacy/ccpa.html).
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >請連絡您公司的Adobe廣告代表，確認您組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商 [!DNL Search] 帳戶，和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
+   >請連絡您公司的Adobe廣告代表，確認您組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商 [!DNL Search, Social, & Commerce] 帳戶，和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
 
 1. 使用Adobe Experience Platform Privacy Service API [提交退出銷售請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) 代表消費者Adobe廣告，並檢查現有請求的狀態。
 
    如需選擇退出銷售請求的範例，請參閱下方的附錄。
 
    >[!NOTE]
-   如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案([!DNL Search], [!DNL Creative], [!DNL DSP]，和 [!DNL DCO])，每個子解決方案各一個帳戶。
+   如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]，和 [!DNL DCO])，每個子解決方案各一個帳戶。
 
 若要獲得Adobe廣告的支援，必須執行上述所有步驟。 如需使用Adobe Experience Platform Privacy Service執行這些及其他相關工作的詳細資訊，以及在何處尋找您需要的項目，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

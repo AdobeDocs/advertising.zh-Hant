@@ -3,7 +3,7 @@ title: Adobe廣告ID：使用者 [!DNL Analytics]
 description: Adobe廣告ID：使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *廣告商與Adobe廣告 — 僅Adobe Analytics整合*
 
-*適用於Advertising DSP和[!DNL Advertising Search]*
+*適用於Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe廣告使用兩個ID進行站上效能追蹤：the *EF ID* 和 *AMO ID*.
 
@@ -23,7 +23,7 @@ Adobe廣告使用兩個ID進行站上效能追蹤：the *EF ID* 和 *AMO ID*.
 Adobe廣告使用下列條件，來區分網站的點進或閱覽項目：
 
 * 當使用者檢視廣告但未點按廣告後造訪網站時，會擷取閱覽項目。 [!DNL Analytics] 如果符合兩個條件，則記錄閱覽：
-   * 訪客沒有 [!DNL DSP] 或 [!DNL Search] 廣告期間 [點按回顧期間](#lookback-a4adc).
+   * 訪客沒有 [!DNL DSP] 或 [!DNL Search, Social, & Commerce] 廣告期間 [點按回顧期間](#lookback-a4adc).
    * 訪客至少看到一個 [!DNL DSP] 廣告期間 [印象回顧期間](#lookback-a4adc). 最後一次曝光會以閱覽傳遞。
 * 當網站訪客進入網站前點按廣告時，會擷取點進項目。 [!DNL Analytics] 在下列任一情況發生時擷取點進：
    * 此URL包含EF ID和AMO ID，如Adobe廣告所新增至登陸頁面URL。
@@ -112,7 +112,7 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 * &lt;*管道ID*>可能是：
 
    * `AC` = Advertising DSP
-   * `AL` for [!DNL Advertising Search]
+   * `AL` for [!DNL Advertising Search, Social, & Commerce]
 
 * &lt;*廣告ID*>是Adobe廣告產生的廣告唯一識別碼。 它可做為將Adobe廣告實體中繼資料轉譯為可讀的索引鍵 [!DNL Analytics] 維度。
 
@@ -120,9 +120,9 @@ AMO ID也稱為 `s_kwcid`，有時會朗讀為「[!DNL the squid].&quot;
 
 範例AMO ID:AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### 適用於的AMO ID格式 [!DNL Search]
+### 適用於的AMO ID格式 [!DNL Search, Social, & Commerce]
 
-適用於 [!DNL Search] 對每個搜尋引擎遵循不同格式。 所有搜尋引擎的格式開頭為：
+適用於 [!DNL Search, Social, & Commerce] 對每個搜尋引擎遵循不同格式。 所有搜尋引擎的格式開頭為：
 
 ```
 AL!{userid}!{sid}

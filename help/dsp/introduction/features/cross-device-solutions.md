@@ -3,7 +3,7 @@ title: 跨裝置解決方案
 description: 進一步了解跨裝置功能。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Advertising DSP與 [!DNL LiveRamp] 可讓您將對象延伸至人員的所有已
 
 *僅追蹤Adobe廣告轉換的廣告商*
 
-透過以人物為基礎的歸因，您可以歸因發生在媒體曝光所在裝置以外的不同裝置上的轉換。 您可在各DSP中使用以人物為基礎的歸因測量， [!DNL Adobe Advertising Creative]，和 [!DNL Adobe Advertising Search] 若廣告商已在其網站上實作「Adobe廣告轉換像素」。
+透過以人物為基礎的歸因，您可以歸因發生在媒體曝光所在裝置以外的不同裝置上的轉換。 您可在各DSP中使用以人物為基礎的歸因測量， [!DNL Adobe Advertising Creative]，和 [!DNL Adobe Advertising Search, Social, & Commerce] 若廣告商已在其網站上實作「Adobe廣告轉換像素」。
 
 ### 啟用以人物為基礎的歸因測量
 

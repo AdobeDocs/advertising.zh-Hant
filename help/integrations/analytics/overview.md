@@ -3,7 +3,7 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 概觀 [!DNL Analytics for Advertising]
 
-*廣告商與Advertising DSP及[!DNL Advertising Search]*
+*廣告商與Advertising DSP及[!DNL Advertising Search, Social, & Commerce]*
 
 [!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe廣告，以擴充及增強每項產品的功能。
 
@@ -66,7 +66,7 @@ Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)
 
    您可以使用 [!DNL Analytics] 中第一方網站重新定位的區段 [!DNL DSP] 付費搜索廣告。
 
-   ([!DNL Search] 僅限)廣告商 [!DNL Analytics] 但不能Audience Manager也能建立Google網站標籤型對象（再行銷清單）和客戶比對對象（客戶清單），從 [!DNL Analytics] 共用給Experience Cloud的區段。
+   ([!DNL Search, Social, & Commerce] 僅限)廣告商 [!DNL Analytics] 但不能Audience Manager也能建立Google網站標籤型對象（再行銷清單）和客戶比對對象（客戶清單），從 [!DNL Analytics] 共用給Experience Cloud的區段。
 
 ### 網站轉換量度作為競標訊號
 
@@ -82,7 +82,7 @@ Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)
 
 ### 網站重新定位的Analytics區段
 
-Adobe廣告可擷取 [!DNL Analytics] 區段，以用於再行銷目的，以及 [!DNL Search] 廣告，使用的Experience Cloud對象整合 [!DNL Analytics] 和Experience Cloud。
+Adobe廣告可擷取 [!DNL Analytics] 區段，以用於再行銷目的，以及 [!DNL Search, Social, & Commerce] 廣告，使用的Experience Cloud對象整合 [!DNL Analytics] 和Experience Cloud。
 
 若要存取 [!DNL Analytics] 區段，廣告商帳戶需要 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 已啟用。 啟用ID服務時，所有Experience Cloud區段(包括 [!DNL Analytics] 發佈至Experience Cloud、在Adobe Audience Manager中建立的區段、在Experience Cloud中建立的區段，使用 [!DNL People core service]，以及在Adobe Experience Platform中建立並透過Audience Manager傳送至「Adobe廣告」的區段)，一經處理，即可在「Adobe廣告」中使用。
 

@@ -3,7 +3,7 @@ title: 使用案例
 description: 了解與Audience Manager共用Advertising DSP媒體資料的使用案例
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 一旦促銷活動曝光次數和點按資料可在Audience Manager內取得，您就可以建立向特定促銷活動或策略公開或互動之使用者的特徵和區段。 使用 [[!DNL Audience Analytics] 整合](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，您的Audience Manager區段可與 [!DNL Analytics] 供進一步分析。 潛在使用案例包括：
 
-* **DSP與 [!DNL Adobe Advertising Search] 廣告：** 標準 [[!DNL Analytics for Advertising] 整合](/help/integrations/analytics/overview.md) 不提供DSP與 [!DNL Search] 因為這兩個管道都使用遵循AMO ID歸因規則的AMO ID，而搜尋點選會覆寫顯示檢視。 在Audience Manager中建立DSP曝光區段後，您可以使用 [!DNL Audience Analytics] 分析DSP與 [!DNL Search] 廣告 [!DNL Analytics].
+* **DSP與 [!DNL Advertising Search, Social, & Commerce] 廣告：** 標準 [[!DNL Analytics for Advertising] 整合](/help/integrations/analytics/overview.md) 不提供DSP與 [!DNL Search, Social, & Commerce] 因為這兩個管道都使用遵循AMO ID歸因規則的AMO ID，而搜尋點選會覆寫顯示檢視。 在Audience Manager中建立DSP曝光區段後，您可以使用 [!DNL Audience Analytics] 分析DSP與 [!DNL Search, Social, & Commerce] 廣告 [!DNL Analytics].
 
 * **頻率分析：** 您可以根據使用者接觸到特定廣告或促銷活動的次數，在Audience Manager中建立區段。 接著，您可以分析Analytics中不同的曝光區段，以了解使用者行為隨DSP曝光數量而改變的情形。
 

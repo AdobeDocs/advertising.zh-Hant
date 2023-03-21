@@ -3,7 +3,7 @@ title: 建立自訂目標
 description: 建立自訂目標
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 建立自訂目標
 
-您可以將自訂目標建立為 *目標* with [!DNL Adobe Advertising Search].
+您可以將自訂目標建立為 *目標* with [!DNL Advertising Search, Social, & Commerce].
 
-若要建立自訂目標，DSP帳戶必須連結至 [!DNL Search] 帳戶(使用相同的Adobe Experience Cloud組織ID)，從 [!DNL Search] 用戶端設定。 如果您的DSP帳戶未連結至 [!DNL Search] 帳戶，請連絡您的Adobe帳戶團隊。
+若要建立自訂目標，DSP帳戶必須連結至 [!DNL Search, Social, & Commerce] 帳戶(使用相同的Adobe Experience Cloud組織ID)，從 [!DNL Search, Social, & Commerce] 用戶端設定。 如果您的DSP帳戶未連結至 [!DNL Search, Social, & Commerce] 帳戶，請連絡您的Adobe帳戶團隊。
 
 >[!TIP]
 >
 >請參閱 [建立自訂目標的最佳作法](custom-goal-best-practices.md) 以取得如何設定自訂目標的秘訣。
 
-1. 登入 [!DNL Adobe Advertising Search] at（北美洲的使用者） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他使用者） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 登入 [!DNL Advertising Search, Social, & Commerce] at（北美洲的使用者） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他使用者） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 請確定您要包含在目標中的量度已受到追蹤、可在產品中使用，且包含顯示名稱：
    1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 找出量度，並確定 **[!UICONTROL Show in UI and Reports]** 已針對量度啟用。

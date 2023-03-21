@@ -3,7 +3,7 @@ title: 支援的貨幣
 description: 請參閱支援的貨幣清單。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 2d4d04204ac9df86f11a6ffee349d0cb0124b0e4
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe廣告支援下列貨幣。
 >
 > [!DNL DSP] 僅提供以下幣種的開單：CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD和USD。
 
-## [!DNL Adobe Advertising Search]
+## [!DNL Adobe Advertising Search, Social, & Commerce]
 
 支援的搜尋引擎支援的所有貨幣。 這等同於 [受支援者 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

@@ -3,7 +3,7 @@ title: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 description: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 此 [!DNL Analytics for Advertising] 整合使用兩個變數（eVar或rVars \[保留eVars]\）來擷取 [EF ID和AMO ID](ids.md). 這些變數的設定會包含單一回顧期間（點進和閱覽歸因的時間）和歸因模型。 除非另有指定，否則變數的設定將會與「Adobe廣告」中的預設廣告商層級點按回顧期間和歸因模型相符。
 
-不過，回顧期間和歸因模型可在Analytics（透過eVar）和Adobe廣告中設定。 此外，在「Adobe廣告」中，歸因模型不僅可在廣告商層級（針對競標最佳化）設定，也可在個別資料檢視與報表（僅用於報表用途）中設定。 例如，組織可能偏好使用偶數分配歸因模型來進行最佳化，但對Advertising DSP或 [!DNL Advertising Search]. 變更歸因模型會變更歸因轉換的數量。
+不過，回顧期間和歸因模型可在Analytics（透過eVar）和Adobe廣告中設定。 此外，在「Adobe廣告」中，歸因模型不僅可在廣告商層級（針對競標最佳化）設定，也可在個別資料檢視與報表（僅用於報表用途）中設定。 例如，組織可能偏好使用偶數分配歸因模型來進行最佳化，但對Advertising DSP或 [!DNL Advertising Search, Social, & Commerce]. 變更歸因模型會變更歸因轉換的數量。
 
 如果一個產品修改了報表回顧期間或歸因模型，而另一個產品修改了，則來自每個系統的相同報表會顯示不同的資料：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 查看 [!DNL Analytics] 歸因模型及其定義 [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-如果您已登入 [!DNL Search]，您可以找到清單
+如果您已登入 [!DNL Search, Social, & Commerce]，您可以找到清單
 
 * （北美地區使用者） [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ### 中的不同管道歸因 [!DNL Marketing Channels]
 
-Adobe廣告報表只會擷取透過Adobe廣告(付費搜尋， [!DNL Advertising Search] 廣告和顯示廣告)，而 [!DNL Marketing Channels] 報表可追蹤所有數位頻道。 這可能會導致轉換歸屬的管道不一致。
+Adobe廣告報表只會擷取透過Adobe廣告(付費搜尋， [!DNL Advertising Search, Social, & Commerce] 廣告和顯示廣告)，而 [!DNL Marketing Channels] 報表可追蹤所有數位頻道。 這可能會導致轉換歸屬的管道不一致。
 
 例如，付費搜尋和免費搜尋管道通常具有共生關係，而每個管道會互相協助。 此 [!DNL Marketing Channels] 報表會將部分轉換歸因於「Adobe廣告」不會進行的免費搜尋，因為它不追蹤免費搜尋。
 
@@ -160,7 +160,7 @@ Adobe廣告報表只會擷取透過Adobe廣告(付費搜尋， [!DNL Advertising
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] 代表AMO ID的次數(`s_kwcid` 參數)。 每次點按廣告時， `s_kwcid` 參數會新增至登陸頁面URL。 數量 [!UICONTROL AMO ID Instances]，因此類似於點按次數，可根據實際廣告點按加以驗證。 我們通常會看到 [!DNL Search] 和30%的匹配率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的期望差異可透過預期的流量行為來解釋。 搜尋會擷取目的，因此，使用者通常會從其查詢點選搜尋結果。 但是，看到顯示或線上視訊廣告的使用者更有可能無意中點按廣告，然後從網站跳出或放棄在追蹤頁面活動之前載入的新視窗。
+[!UICONTROL AMO ID Instances] 代表AMO ID的次數(`s_kwcid` 參數)。 每次點按廣告時， `s_kwcid` 參數會新增至登陸頁面URL。 數量 [!UICONTROL AMO ID Instances]，因此類似於點按次數，可根據實際廣告點按加以驗證。 我們通常會看到 [!DNL Search, Social, & Commerce] 和30%的匹配率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的期望差異可透過預期的流量行為來解釋。 搜尋會擷取目的，因此，使用者通常會從其查詢點選搜尋結果。 但是，看到顯示或線上視訊廣告的使用者更有可能無意中點按廣告，然後從網站跳出或放棄在追蹤頁面活動之前載入的新視窗。
 
 在「Adobe廣告」報表中，您也可以使用「[!UICONTROL ef_id_instances]「 」量度而非 [!UICONTROL AMO ID Instances]:
 
@@ -234,7 +234,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 ### 將Adobe廣告流量量度用於非Adobe廣告Dimension
 
-Adobe廣告為Analytics提供 [廣告專用流量量度和 [!DNL DSP] 和 [!DNL Search]](advertising-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
+Adobe廣告為Analytics提供 [廣告專用流量量度和 [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
 
 例如，如果您檢視 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 「依帳戶」的量度(此為「Adobe廣告」維度)，您就會看到總計 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 帳戶。
 
