@@ -3,9 +3,9 @@ title: AdobeAnalysis Workspace中的Advertising量度
 description: AdobeAnalysis Workspace中的Advertising量度
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 5dd3772de945660e76321dac935de5ebcab5979a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 >
 >* Adobe廣告會將流量量度和維度傳遞至 [!DNL Analytics] 每日。
 >* [!DNL Analytics] 擷取Adobe廣告即時點進和閱覽。
+   > 針對 [!DNL Search, Social, & Commerce]，則大部分的廣告網路和行銷活動類型都支援此功能。 請參閱 [!DNL Search, Social, & Commerce] 指南，以取得詳細資訊。<!-- add link when that's published in ExL -->
 
 
 ## 來自Adobe廣告的流量量度
@@ -42,6 +43,32 @@ ht-degree: 0%
 | [!UICONTROL AMO Not Viewable Impressions] | 被判斷為無法檢視的曝光次數。 此值的計算方式為([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable])。 |
 | [!UICONTROL AMO Measurable Impressions] | 已成功初始化可視性檢測的曝光次數。 此值的計算方式為（有工具的曝光次數 — 無法測量的曝光次數）。 |
 
+## Adobe廣告Dimension
+
+>[!NOTE]
+>
+>中的所有Adobe廣告維度 [!DNL Analytics] 後面接著「(AMO ID)」。
+
+| Dimension | 適用的Adobe廣告資料 | 說明 |
+| ----------- | ---------- | ---------- |
+| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | Advertising DSP或搜尋引擎名稱 |
+| [!UICONTROL Account (AMO ID] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 帳戶名稱。 |
+| [!UICONTROL Network (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | RTB([!DNL DSP])或廣告網路名稱([!DNL Search, Social, & Commerce]) |
+| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 促銷活動名稱。 |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 套件([!DNL DSP])或產品組合([!DNL Search, Social, & Commerce])名稱。 |
+| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] 資料 | 版位名稱。 |
+| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告群組名稱。 |
+| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 關鍵字。 |
+| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 搜尋符合類型。 |
+| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 關鍵字和符合類型。 |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告類型，例如 `text`, `video`, `display`，或 `native`. |
+| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告類型([!DNL DSP])或廣告標題([!DNL Search, Social, & Commerce])。 |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 廣告說明([!DNL DSP])或廣告內文([!DNL Search, Social, & Commerce])。 |
+| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告中顯示的URL。 |
+| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 廣告的目標URL。 |
+| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search, Social, & Commerce] 資料 | 登錄頁面項目是閱覽或點進。 |
+| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] 資料 | 產品清單廣告的產品目標。 |
+
 ## 適用於Adobe廣告的實用自訂計算量度
 
 請考慮為您的Adobe廣告資料建立下列量度。
@@ -51,32 +78,6 @@ ht-degree: 0%
 * 可檢視曝光率([!UICONTROL AMO Viewable Impressions] / [!UICONTROL AMO Measureable Impressions] * 100)
 * 每次檢視成本([!UICONTROL AMO Cost] / [!UICONTROL AMO Views])
 * 每次點按成本([!UICONTROL AMO Cost] / [!UICONTROL AMO Clicks])
-
-## Adobe廣告Dimension
-
->[!NOTE]
->
->中的所有Adobe廣告維度 [!DNL Analytics] 後面接著「(AMO ID)」。
-
-| Dimension | 適用的Adobe廣告資料 | 說明 |
-| ----------- | ---------- | ---------- |
-| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | Advertising DSP或搜尋引擎名稱 |
-| [!UICONTROL Account (AMO ID] | [!DNL DSP] 和 [!DNL Search] 資料 | 帳戶名稱。 |
-| [!UICONTROL Network (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | RTB([!DNL DSP])或廣告網路名稱([!DNL Search]) |
-| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 促銷活動名稱。 |
-| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 套件([!DNL DSP])或產品組合([!DNL Search])名稱。 |
-| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] 資料 | 版位名稱。 |
-| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search] 資料 | 廣告群組名稱。 |
-| [!UICONTROL Keyword (AMO ID)] | [!DNL Search] 資料 | 關鍵字。 |
-| [!UICONTROL Match Type (AMO ID)] | [!DNL Search] 資料 | 搜尋符合類型。 |
-| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search] 資料 | 關鍵字和符合類型。 |
-| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 廣告類型，例如 `text`, `video`, `display`，或 `native`. |
-| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 廣告類型([!DNL DSP])或廣告標題([!DNL Search])。 |
-| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 廣告說明([!DNL DSP])或廣告內文([!DNL Search])。 |
-| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search] 資料 | 廣告中顯示的URL。 |
-| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search] 資料 | 廣告的目標URL。 |
-| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] 和 [!DNL Search] 資料 | 登錄頁面項目是閱覽或點進。 |
-| [!UICONTROL Product Target (AMO ID)] | [!DNL Search] 資料 | 產品清單廣告的產品目標。 |
 
 >[!MORELIKETHIS]
 >
