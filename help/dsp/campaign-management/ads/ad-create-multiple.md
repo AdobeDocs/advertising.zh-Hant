@@ -3,9 +3,9 @@ title: 建立多個第三方廣告
 description: 了解如何一次建立多個第三方廣告。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 0%
 1. 上傳完成後，按一下 **[!UICONTROL Start Building Ads]**.
 
 1. 檢閱每個廣告的詳細資訊和狀態：
+
+   1. (通用視訊廣告使用 [!DNL Google] 或 [!DNL Flashtalking] 標籤)按一下 **[!UICONTROL Ad Type]** 欄位和選取 **[!UICONTROL Universal Video]**.
+
+   1. （通用視訊廣告）針對每個新廣告，按一下 ![編輯](/help/dsp/assets/edit.png)，請選取 [適用的視訊格式](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)，然後按一下 **儲存**.
 
    1. 檢閱每個廣告的狀態，此狀態以上傳標籤的驗證檢查為基礎。
 
