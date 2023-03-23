@@ -3,9 +3,9 @@ title: Adobe廣告整合Adobe Analytics
 description: 了解Adobe廣告如何與Adobe Analytics交換資料，以及如何在搜尋、社交和商務中使用資料。
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: def6a3a8d1de1f9f80dee6ecd1a18667afc79fd3
+source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 您可以透過下列方式整合Adobe廣告與Analytics。
 
-## 之間交換資料 [!A分析] 和Adobe廣告
+## 之間交換資料 [!DNL Analytics] 和Adobe廣告
 
-### 提取 [!A分析] 資料放入Adobe廣告
+### 提取 [!DNL Analytics] 資料放入Adobe廣告
 
 使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] 和DSP加入：
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[!DNL Analytics]標準、自訂和保留量度**
 
-### 傳送Adobe廣告資料至 [!A分析]
+### 傳送Adobe廣告資料至 [!DNL Analytics]
 
 * **來自Adobe廣告的流量量度**
 
