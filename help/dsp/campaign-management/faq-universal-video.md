@@ -2,7 +2,7 @@
 title: 通用視訊的常見問題集
 description: 深入了解通用視訊廣告。
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 通用視訊的常見問題集
 
-[通用視訊廣告](/help/dsp/campaign-management/ads/ad-about.md) 可讓您透過單一視訊位置，從案頭、行動裝置和連線電視環境，針對VPAID和VAST詳細目錄鎖定視訊詳細目錄。
+[通用視訊廣告](/help/dsp/campaign-management/ads/ad-about.md#ad-types) 可讓您透過單一視訊位置，從案頭、行動裝置和連線電視環境，針對VPAID和VAST詳細目錄鎖定視訊詳細目錄。
 
 ## 如何建立通用視訊版位和廣告？
 
