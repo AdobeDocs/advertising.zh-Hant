@@ -2,20 +2,22 @@
 title: 通用視訊的常見問題集
 description: 深入了解通用視訊廣告。
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # 通用視訊的常見問題集
 
+[通用視訊廣告](/help/dsp/campaign-management/ads/ad-about.md) 可讓您透過單一視訊位置，從案頭、行動裝置和連線電視環境，針對VPAID和VAST詳細目錄鎖定視訊詳細目錄。
+
 ## 如何建立通用視訊版位和廣告？
 
 通用視訊版位只能包含通用視訊廣告，而通用視訊廣告只能附加至通用視訊版位。
 
-以建立其他版位和影片類型的方式建立這些版位：
+建立通用視訊版位和廣告的方式與建立其他版位和視訊類型的方式類似：
 
 1. 在所需的行銷活動中， [建立通用視訊放置](/help/dsp/campaign-management/placements/placement-create.md)，選取 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
