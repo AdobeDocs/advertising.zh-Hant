@@ -3,9 +3,9 @@ title: 適用於 [!DNL Analytics for Advertising]
 description: 適用於 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ JavaScript程式庫包含兩行，允許 [!DNL Analytics] 和Adobe廣告，以�
 
 ### 程式碼的放置位置
 
-此 [!DNL Analytics for Advertising] JavaScript函式必須位於Experience CloudID服務之後，而位於Analytics應用程式測量程式碼之前，以便提供補充ID(`SDID`)或 `[!DNL StitchID]` 可包含在Analytics呼叫中。
+此 [!DNL Analytics for Advertising] JavaScript函式必須在Experience CloudID服務之後，但在Analytics應用程式測量程式碼之前。 這可確保補充ID(`SDID`)或 `[!DNL StitchID]` 包含在Analytics呼叫中。
 
 ![程式碼放置](/help/integrations/assets/a4adc-code-placement.png)
 
