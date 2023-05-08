@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 user-guide-title: Adobe Advertising 原則和指導方針
-user-guide-description: 了解Advertising DSP的原則和准則，以及 [!DNL Advertising Search, Social, & Commerce].
+user-guide-description: 了解 Advertising DSP 和  [!DNL Advertising Search, Social, & Commerce] 的原則和指導方針。
 breadcrumb-title: 原則和指導方針
 index: true
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 39%
+ht-degree: 69%
 
 ---
 
