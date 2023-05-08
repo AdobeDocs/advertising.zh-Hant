@@ -3,17 +3,16 @@ title: 關於從受眾來源啟用已驗證的區段
 description: 了解如何從客戶資料平台擷取第一方區段。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
 # 關於從受眾來源啟用已驗證的區段
 
 <!-- Doesn't specifically explain what you can do in our UI -->
-*測試版功能*
 
 DSP可內嵌由客戶資料平台(CDP)內建的已驗證訊號所組成的第一方區段。 您可以使用擷取的區段作為版位的目標。
 
@@ -26,8 +25,6 @@ DSP已與 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://exper
 如需目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括產品概觀、 [建立目標工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 和 [建立目標連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)，和 [將資料啟用至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 ### 搭配使用DSP整合的工作流程 [!DNL Real-time CDP] {#workflow-sources}
-
-<!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
 1. [允許DSP將客戶資料區段轉譯為 [!DNL LiveRamp RampIDs]](source-durable-id.md) 在可買環境中識別。<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 

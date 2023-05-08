@@ -3,16 +3,14 @@ title: 建立對象來源以啟用第一方對象
 description: 了解如何建立來源，將對象匯入您的帳戶或廣告商帳戶。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
 # 建立對象來源以啟用第一方對象
-
-*測試版功能*
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
@@ -22,7 +20,7 @@ ht-degree: 0%
 >
 >在您為 [!DNL Real-Time CDP]，您需要啟用 [!DNL Real-Time CDP] 對象，透過Adobe的Advertising DSP目的地 [!DNL Real-Time CDP] 開始匯入。 請參閱 [啟動工作流程中的步驟](source-about.md#workflow-sources).
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
+1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. 按一下 [!UICONTROL Add Source].
 
