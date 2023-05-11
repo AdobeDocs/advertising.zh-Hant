@@ -1,9 +1,9 @@
 ---
 title: 常見問題集 [!UICONTROL Household] 報表
 description: 深入了解 [!UICONTROL Household] 報告，包括其他報告和疑難排解的不同之處。
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 重疊和非重疊量度之間有何差異？
 
-下圖顯示三個促銷活動（A、B和C）的三個度量(獨特家庭、增量家庭和增量家庭（重疊）)。
+下圖顯示三個促銷活動（A、B和C）的三個度量(獨特家庭觸及、增量家庭觸及和增量家庭（重疊）)。
 
 ![家庭重疊量度插圖](/help/dsp/assets/household-overlap-metrics-illustration.png "家庭重疊量度插圖")
 
-* 「達到的不重複家庭數」（總計）提供每個促銷活動觸及的不重複家庭數，或每個社交圈的總面積。 在圖中，A所達到的獨特家庭= A +(A+C)+(A+B)+(A+B+C)所達到的增量家庭
+* 「達到的不重複家庭數」（總計）提供每個促銷活動觸及的不重複家庭數，或每個社交圈的總面積。 在圖中，A所達到的獨特家庭= A +(A+B)+(A+C)+(A+B+C)所達到的增量家庭
 
 * Incremental Houdel Receard是僅通過促銷活動觸及的獨特家庭。 在該數字中，A、B、C的增量家庭分別為A、B、C的增量家庭。
 
