@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
+source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '887'
 ht-degree: 6%
 
 ---
@@ -208,6 +208,7 @@ ht-degree: 6%
    + [執行自訂報表](/help/dsp/reports/report-run-now.md)
    + [自訂報表設定](/help/dsp/reports/report-settings.md)
    + [可用報表欄](/help/dsp/reports/report-columns.md)
+   + [常見問題集 [!UICONTROL Household] 報表](/help/dsp/reports/faq-household-report.md)
    + 報表目的地 {#report-destinations}
       + [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

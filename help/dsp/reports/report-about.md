@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 了解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]:** 預設情況下，包括標準量度、媒體淨支出總額和按站點列出的可計費淨支出總額。
 
+   * **[!UICONTROL Household]:** 使用此報表，可根據IP位址，而非裝置/Cookie層級，在家庭層級查看單一維度在不同廣告格式下的曝光數、觸及次數和頻率。 利用這些見解來優化您的媒體組合、改進效能，並發現增量觸及的機會。 請參閱「[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)」以取得詳細資訊。
+
 ## 跨帳戶報告 {#cross-account-reporting}
 
 任何具有多個DSP帳戶的組織均可根據組織的需求，選擇在自訂報表中啟用跨帳戶資料。 例如，您可以授予帳戶A存取帳戶B的資料，並授予帳戶B存取帳戶C（但不授予帳戶A）的資料。 若要啟用並設定此功能，請連絡您的Adobe帳戶團隊。
@@ -87,6 +89,7 @@ ht-degree: 0%
 >
 >* [建立自訂報表](/help/dsp/reports/report-create.md)
 >* [自訂報表設定](/help/dsp/reports/report-settings.md)
+>* [常見問題集 [!UICONTROL Household] 報表](/help/dsp/reports/faq-household-report.md)
 >* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用報表欄](/help/dsp/reports/report-columns.md)
 >* [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

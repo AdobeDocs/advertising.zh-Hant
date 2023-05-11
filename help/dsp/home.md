@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及和頻率。 報表包含九個維度： [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]，以及使用者建立的 [!UICONTROL Tags]. | 請參閱「[關於報表](/help/dsp/reports/report-about.md), &quot;[報表設定](/help/dsp/reports/report-settings.md),&quot;和&quot;[常見問題集 [!UICONTROL Household] 報表](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 深入了解開放式測試版功能的通用視訊版位和廣告。 | 請參閱「[通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 以圖表形式檢視變更記錄以及為任何項目新增附註的選項不在測試版。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023年2月3日 | [!UICONTROL Campaigns] | （測試版功能）您現在可以以圖表形式檢視變更記錄，也可以為任何項目新增附註。 | 請參閱「[檢視促銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)，請參閱「[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
