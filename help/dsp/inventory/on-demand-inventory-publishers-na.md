@@ -1,20 +1,20 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers in North America'
-description: 查看可用 [!DNL On Demand] 北美的進階庫存發行商。
+title: '"[!DNL On Demand] Premium Inventory Publishers in North America'''
+description: 查看可用 [!DNL On Demand] 北美的高級庫存出版商。
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 北美的Premium Inventory Publishers
+# [!DNL On Demand] 北美的高級庫存出版商
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 地理 |
+| 發佈者 | 吉奧 |
 |---------------------------------------------|--------|
 | [!DNL AccuRadio] | 加拿大 |
 | [!DNL BBC] | 加拿大 |
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [!DNL Cue Digital Media] | 加拿大 |
 | [!DNL DAX] | 加拿大 |
 | [!DNL DAZN] ([!DNL Perform Media]) | 加拿大 |
-| [!DNL Dotdash] (原稱 [!DNL About.com]) | 加拿大 |
+| [!DNL Dotdash] （以前） [!DNL About.com]) | 加拿大 |
 | [!DNL EA] | 加拿大 |
 | [!DNL evite] | 加拿大 |
 | [!DNL Expedia] | 加拿大 |
@@ -90,7 +90,7 @@ ht-degree: 1%
 | [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
 | [!DNL Discovery] | U.S. |
 | [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] (原稱 [!DNL About.com]) | U.S. |
+| [!DNL Dotdash] （以前） [!DNL About.com]) | U.S. |
 | [!DNL EA] | U.S. |
 | [!DNL ebay] | U.S. |
 | [!DNL ESI Media] | U.S. |
@@ -173,13 +173,13 @@ ht-degree: 1%
 | [!DNL World Surf League] | U.S. |
 | [!DNL Yahoo] | U.S. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] Premium庫存](on-demand-inventory-about.md)
->* [訂閱並要求存取 [!DNL On Demand] Premium庫存](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 亞太地區的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳大利亞和紐西蘭的Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
+>* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
+>* [訂閱和請求訪問 [!DNL On Demand] 高級庫存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 亞太地區高級庫存出版商](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商](on-demand-inventory-publishers-emea.md)
 

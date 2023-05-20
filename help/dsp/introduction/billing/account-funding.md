@@ -1,6 +1,6 @@
 ---
 title: 帳戶資金
-description: 了解DSP的帳戶資金。
+description: 瞭解帳戶資金DSP。
 feature: DSP Introduction
 exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,22 +10,22 @@ ht-degree: 0%
 
 ---
 
-# Advertising DSP帳戶資金
+# 廣告DSP帳戶資金
 
-DSP會以兩種方式之一，為購買媒體和服務提供客戶帳戶：
+資DSP金客戶通過以下兩種方式之一對媒體和服務進行購買：
 
-* 客戶提交預付金額，在達到零餘額之前，資金用於服務和媒體。
+* 客戶提交預付金額，從中將資金用於服務和媒體，直到達到零餘額。
 * Adobe提供評估的信用額度。
 
-所有客戶在合同執行時由Adobe信用小組評估和分配信用。 DSP預設為分配的貸項層來為客戶帳戶提供資金，除非已交付預付款。 賬戶在建立後24小時內供資。
+所有客戶在合同執行時都由Adobe信用組評估和分配信用。 默DSP認為將客戶帳戶資金分配到分配的信用級別，除非已交付預付款。 帳戶在建立帳戶後24小時內獲得資金。
 
-由於客戶的信用或支付前支出，媒體和服務的資金會根據支出減少，直到達到零餘額。 在支付發票時調整貸項。 任何未清的Adobe發票都可能影響您的DSP資金。 您負責及時支付所有Adobe發票。 如果您需要的資金超過可用餘額，請與DSP合作 [!DNL Client Services] 團隊。
+由於客戶用於抵押其信用或預付款項，媒體和服務的資金會根據支出減少，直到達到零餘額。 在支付發票時調整貸項。 任何未結Adobe發票都會影響DSP您的資金。 您負責及時支付所有Adobe發票。 如果您需要超過可用餘額的資金，請與您的 [!DNL Client Services] 團隊。
 
-客戶帳戶的供資幾乎即時更新(在 [!DNL DSP]. 查看可用餘額，顯示為「[!UICONTROL Usable Funds]」，請前往 [!UICONTROL Settings] > [!UICONTROL Account]. 僅DSP使用者 [!UICONTROL General] 和 [!UICONTROL Admin] 使用者角色可以看到 [!UICONTROL Usable Funds].
+客戶帳戶的資金將在 [!DNL DSP]。 查看可用餘額，顯示為「」[!UICONTROL Usable Funds]&quot;在您的帳戶中購買貨幣，轉到 [!UICONTROL Settings] > [!UICONTROL Account]。 僅DSP具有 [!UICONTROL General] 和 [!UICONTROL Admin] 用戶角色可以查看 [!UICONTROL Usable Funds]。
 
 ![帳戶的可用資金](/help/dsp/assets/account-usable-funds.png)
 
-Adobe保留因包括違反DSP的原因而阻止帳戶在DSP上花費的權利 [廣告需求原則](/help/policies/ad-requirements-policy.md) 或隱私條款。 如果Adobe封鎖您的帳戶，則您的帳戶設定會包含封鎖的通知。 使用您的DSP [!DNL Client Services] 代表，以判斷區塊的原因，以及您如何更正錯誤。
+Adobe保留阻止您的帳戶因DSP包括違反 [ad requirements（安裝要求）](/help/policies/ad-requirements-policy.md) 或隱私條款。 如果Adobe阻止您的帳戶，則帳戶設定將包含阻止的通知。 與您的 [!DNL Client Services] 代表，以確定塊的原因以及如何更正錯誤。
 
 >[!MORELIKETHIS]
 >

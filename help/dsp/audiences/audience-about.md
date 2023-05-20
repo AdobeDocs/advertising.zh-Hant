@@ -1,6 +1,6 @@
 ---
-title: 關於Advertising DSP中的受眾管理
-description: 了解受眾管理功能。
+title: 論廣告中的受眾管DSP理
+description: 瞭解受眾管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,113 +10,113 @@ ht-degree: 0%
 
 ---
 
-# 關於Advertising DSP中的受眾管理
+# 論廣告中的受眾管DSP理
 
-在DSP中，您可以建立和管理受眾區段和受眾集，以用作版位的目標：
+在中DSP，您可以建立和管理受眾段和受眾集，您可以將它們用作您的放置的目標：
 
-* 您可以建立和實作區段，以收集您自己的第一方對象資料。 您之後可以透過廣告重新定位區段中的使用者，或防止區段中的使用者收到廣告。 您可以建立下列類型的區段：
+* 您可以通過建立和實施段來收集自己的第一方受眾資料。 您以後可以將廣告重新定位到網段中的用戶，或阻止網段中的用戶接收廣告。 可以建立以下類型的段：
 
-   * [自訂區段](/help/dsp/audiences/custom-segment-create.md) 追蹤a)從案頭、行動裝置和CTV裝置公開廣告的使用者，以及b)造訪特定網頁的使用者。
+   * [自定義段](/help/dsp/audiences/custom-segment-create.md) 跟蹤a)從案頭、移動和CTV設備上接觸廣告的用戶和b)訪問特定網頁的用戶。
 
-   * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 若要根據加州消費者隱私法(CCPA)，在您的網站上追蹤來自消費者選擇退出銷售請求的使用者ID。 您可以從選擇退出銷售的請求中擷取使用者ID的每月報表。
+   * [CCPA選擇不銷售分部](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 根據《加利福尼亞消費者隱私法》(CCPA)，跟蹤您網站上消費者選擇不可銷售請求的用戶ID。 您可以從選擇退出銷售請求中檢索用戶ID的月度報告。
 
-      如需CCPA選擇退出銷售請求的Adobe廣告支援詳細資訊，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+      有關CCPA選擇不銷售請求的Adobe廣告支援的詳細資訊，請參閱 [Adobe對加利福尼亞消費者隱私法的廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
-* 您可以建立對象庫 [可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md). 已儲存的對象會由任何可用的對象區段和任何其他已儲存的對象組成。 您對儲存的對象所做的任何變更都會自動套用至鎖定或排除對象的所有版位，以及包含儲存對象的所有其他對象。
+* 您可以建立的 [可重用的受眾](/help/dsp/audiences/reusable-audience-create.md)。 已保存的觀眾由任何可用的觀眾段和任何其他已保存的觀眾組成。 您對已保存受眾所做的任何更改將自動應用於所有目標放置或排除受眾的放置，以及包括已保存受眾的所有其他受眾。
 
-   儲存的對象可讓媒體規劃人員視需要將對象分組，方法是使用複雜的布林邏輯包含和排除多個區段。 在您建立受眾時，會指出每個個別區段的大小和總受眾大小。 然後，行銷活動行政人員只需選取一或多個儲存的對象作為版位目標，而非手動設定每個版位的對象目標。
+   通過使用複雜布爾邏輯包括和排除多個段，保存的觀眾允許媒體規劃者根據需要對觀眾進行分組。 在構建受眾時，會指示每個段的大小和總受眾大小。 然後，市場活動執行者可以簡單地選擇一個或多個保存的受眾作為投放目標，而不是為每個投放手動配置受眾目標。
 
-版位鎖定目標也提供其他對象類型。
+此外，還可提供其他受眾類型以進行定位。
 
-## 匯入第一方和第三方資料區段
+## 導入第一方和第三方資料段
 
-DSP可以從您的資料管理平台(DMP)匯入您自己的第一方資料區段，並視需要提供給任何廣告商集合。
+可DSP以從資料管理平台(DMP)導入您自己的第一方資料段，並根據需要將它們提供給任何一組廣告商。
 
-DSP是 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)，可讓您與核准的廣告商和使用者共用已驗證的第一方區段，以便進行促銷活動啟用。 若要深入了解Real-Time CDP整合，請參閱 [來源區段](/help/dsp/audiences/sources/source-about.md).
+DSP是 [這樣 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)允許您與經認證的廣告商和用戶共用經過身份驗證的第一方段，以便激活活動。 要瞭解有關Real-Time CDP整合的更多資訊，請參閱 [「源」部分](/help/dsp/audiences/sources/source-about.md)。
 
-DSP也可匯入自訂第三方區段，包括複雜的第三方區段組合。 您可以視需要將區段提供給任何廣告商集合。
+還可DSP以導入自定義第三方段，包括第三方段的複雜組合。 您可以根據需要向任何一組廣告商提供這些片段。
 
-如需詳細資訊，請連絡您的Adobe帳戶團隊。
+請聯繫您的Adobe客戶團隊以瞭解詳細資訊。
 
-## 可用作版位目標的對象
+## 受眾可用作放置目標
 
-您可以將版位鎖定在下列所有類型的對象。
+您可以將放置目標定位到以下所有類型的受眾。
 
-* 儲存在DSP中的所有使用者建立的對象集。
+* 保存在中的所有用戶建立的受眾集DSP。
 
-* 在DSP中建立的所有使用者建立的受眾區段：
+* 在以下位置建立的所有用戶建立的受眾DSP段：
 
-   * 造訪特定網頁的使用者和曝光特定廣告的使用者的自訂區段。
+   * 針對訪問特定網頁的用戶和接觸特定廣告印象的用戶的自定義段。
 
-   * 根據加州消費者隱私保護法(CCPA)，針對在您的網站上提交選擇退出銷售請求的使用者，提供CCPA選擇退出銷售對象區段。
+   * 根據《加利福尼亞消費者隱私法》(CCPA),CCPA針對在您的網站上提交選擇退出銷售請求的用戶選擇退出銷售受眾群。
 
-* 所有匯入的第一方資料區段。
+* 導入的所有第一方資料段。
 
-* 所有匯入的自訂第三方資料區段。
+* 所有導入的自定義第三方資料段。
 
-* （僅限美國版位） [來自超過30個提供者的DSP客戶可使用的所有協力廠商資料區段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]等。
+* （僅針對美國的配售） [從30多家供應商向客戶提供DSP的所有第三方資料段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom]。 [!DNL Datalogix]。 [!DNL eXelate] ([!DNL Nielsen]) [!DNL Lotame]。 [!DNL Oracle]。 [!DNL Quantcast]，以及更多。
 
-   您可以根據受眾資料來鎖定特定區段，例如具有特定人口統計、興趣或意圖及/或行為設定檔的使用者，來鎖定使用者。 您可以依資料提供者和類別瀏覽、依名稱或區段ID搜尋區段，或依資料提供者、總區段大小、網頁瀏覽器計數或裝置計數來篩選結果。
+   您可以針對特定的網段，這些網段基於受眾資料（例如，具有特定人口結構、興趣或意圖和/或行為配置檔案的用戶）來針對用戶。 您可以按資料提供程式和類別瀏覽、按名稱或段ID搜索段，或按資料提供程式、總段大小、Web瀏覽器計數或設備計數篩選結果。
 
-   第三方區段會產生額外費用，會在每個區段名稱旁顯示。
+   第三方分部產生額外費用，這些費用在每個分部名稱旁邊注明。
 
-* (廣告商，包含Adobe Experience Platform和 [!DNL Real-Time CDP]、僅使用Adobe廣告JavaScript轉換標籤的Adobe Audience Manager或Adobe Analytics)所有在 [!DNL Real-Time CDP]，在Audience Manager中建立，或從Audience Manager發佈至Adobe Experience Cloud [!DNL Analytics].
+* (Adobe Experience Platform和 [!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics，它們只使用Adobe廣告JavaScript轉換標籤)所有可用的第一、第二或第三方受眾段 [!DNL Real-Time CDP]、在Audience Manager中建立，或從Audience Manager或 [!DNL Analytics]。
 
-   使用區段的定價是預先商定的，不會顯示在DSP中。
+   使用分部之定價乃經預先磋商後釐定，且於中不可DSP見。
 
-   區段來自 [!DNL Analytics] 在您建立或發佈為Experience Cloud對象後大約一小時內可用。 區段直接來自Audience Manager或 [!DNL Real-Time CDP] 可在您共用後24小時內取得。
+   段自 [!DNL Analytics] 在建立或發佈它們作為Experience Cloud受眾後大約一小時內可用。 段直接來自Audience Manager或 [!DNL Real-Time CDP] 24小時內可供您分享。
 
    >[!NOTE]
    >
-   >請參閱 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html)，和 [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 以取得在這些解決方案中設定和收集區段資料的相關資訊。
+   >請參閱文檔 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。 [分析](https://experienceleague.adobe.com/docs/analytics.html), [這樣 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 有關為這些解決方案中的段設定和收集資料的資訊。
 
-## 對象大小資料
+## 受眾大小資料
 
-在儲存的受眾設定和版位設定中，您可以看到詳細的受眾大小資料：
+在已保存的受眾設定和放置設定中，您可以查看詳細的受眾大小資料：
 
-* 系統會顯示所有選取區段和儲存之對象的已刪除重複的受眾總數和作用中的大小，而您可以依裝置類型（瀏覽器、行動裝置或連線電視）檢視詳細資訊。
+* 將顯示所有選定段和已保存觀眾的總和和活動的消除重複的觀眾大小，您可以按設備類型（瀏覽器、移動或連接的電視）查看詳細資訊。
 
-   ![合併的受眾規模](/help/dsp/assets/audience-size.png)
+   ![合計觀眾規模](/help/dsp/assets/audience-size.png)
 
-* 對於個別區段和儲存的對象，總對象大小和CPM（若適用）會顯示在區段名稱旁。 您可以檢視區段的更多詳細資訊，包括依裝置類型（瀏覽器、行動裝置或連線電視）的大小。 對於儲存的對象，總大小為去重複化總計。
+* 對於單個節和已保存的觀眾，總觀眾大小和CPM（如果適用）顯示在節名旁邊。 您可以查看有關該段的更多詳細資訊，包括按設備類型（瀏覽器、移動或連接的電視）的大小。 對於已保存的受眾，總大小是消除重複的總大小。
 
-   ![個別區段大小](/help/dsp/assets/audience-size-segment.png)
+   ![單個段大小](/help/dsp/assets/audience-size-segment.png)
 
-## 受眾檢視
+## 觀眾觀
 
-### 「所有對象」檢視
+### 所有受眾視圖
 
-在 [!UICONTROL All Audiences] 檢視或受眾程式庫，您可以儲存和管理可重複使用的受眾，其中包括受眾群組區段，甚至其他已儲存的受眾。 您可以使用對象作為多個版位的目標。 版位名稱旁會顯示每個對象的使用版位數。
+在 [!UICONTROL All Audiences] 查看或訪問群體庫，您可以保存和管理可重用的訪問群體，這些訪問群體包括一組訪問群體，甚至包括其他已保存的訪問群體。 您可以將受眾用作多個放置的目標。 每個受眾使用的放映次數在放置名稱旁邊指示。
 
-您可以編輯、原地複製、刪除、匯出或共用任何對象。
+您可以編輯、克隆、刪除、導出或共用任何受眾。
 
-### 區段檢視
+### 段視圖
 
-在 [!UICONTROL Segments] 檢視，所有使用者都可以建立其他自訂區段。
+在 [!UICONTROL Segments] 視圖，所有用戶都可以建立其他自定義段。
 
-此 [!UICONTROL Segments] 檢視也列出下列區段類型：
+的 [!UICONTROL Segments] 視圖還列出了以下段類型：
 
-* 使用者可使用所有使用者建立的自訂區段。
+* 用戶可用的所有用戶建立的自定義段。
 
-   您可以檢視您建立之任何自訂區段的追蹤標籤，並與其他使用者共用這些區段。 您也可以編輯或刪除您建立的自訂區段。
+   您可以查看您建立的任何自定義段的跟蹤標籤，並與其他用戶共用這些段。 也可以編輯或刪除您建立的自定義段。
 
-   您無法編輯或共用其他使用者已與您共用的自訂區段。
+   您無法編輯或共用其他用戶已與您共用的自定義段。
 
-* 使用者可使用的所有匯入第一方區段。
+* 用戶可用的所有導入的第一方段。
 
-   您無法編輯或共用已與您共用的第一方區段。 如果您需要與其他使用者共用第一方區段，請連絡您的Adobe帳戶團隊。
+   不能編輯或共用與您共用的第一方段。 如果需要與其他用戶共用第一方段，請與Adobe帳戶團隊聯繫。
 
-* 使用者可使用的所有自訂第三方區段。
+* 用戶可用的所有自定義第三方段。
 
-   您無法編輯或共用已與您共用的第三方區段。 如果您需要與其他使用者共用第三方區段，請連絡您的Adobe帳戶團隊。
+   您無法編輯或共用與您共用的第三方段。 如果您需要與其他用戶共用第三方網段，請與Adobe客戶團隊聯繫。
 
 >[!MORELIKETHIS]
 >
->* [建立可重複使用的受眾](reusable-audience-create.md)
->* [對象設定](audience-settings.md)
->* [對象區段邏輯語法](audience-segment-logic-syntax.md)
->* [建立和實作自訂區段](custom-segment-create.md)
->* [建立和實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
->* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [建立可重用的受眾](reusable-audience-create.md)
+>* [受眾設定](audience-settings.md)
+>* [受眾段邏輯的語法](audience-segment-logic-syntax.md)
+>* [建立和實施自定義段](custom-segment-create.md)
+>* [建立和實施 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
+>* [可用的第三方資料提供程式](third-party-data-providers.md)
+>* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

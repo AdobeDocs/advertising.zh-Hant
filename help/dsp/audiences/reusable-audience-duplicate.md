@@ -1,6 +1,6 @@
 ---
-title: 複製可重複使用的對象
-description: 了解如何複製可重複使用的對象。
+title: 複製可重複使用的受眾
+description: 瞭解如何複製可重複使用的受眾。
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# 複製可重複使用的對象
+# 複製可重複使用的受眾
 
-您可以複製現有對象來建立對象。
+您可以通過複製現有受眾來建立受眾。
 
-1. 在主功能表中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. 在主菜單中，按一下 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**。
 
-1. 將游標停留在對象列上，然後按一下 **[!UICONTROL Duplicate]**.
+1. 將游標懸停在觀眾行上並按一下 **[!UICONTROL Duplicate]**。
 
-1. （選用）將預設對象名稱變更為其他唯一名稱。
+1. （可選）將預設受眾名稱更改為其他唯一名稱。
 
-   依預設，新對象稱為「[對象] 複製。」
+   預設情況下，新訪問群體稱為「」[觀眾] 複製。」
 
 1. 按一下 **[!UICONTROL Duplicate]**.
 
-1. （可選） [調整新受眾](reusable-audience-edit.md).
+1. （可選） [優化新受眾](reusable-audience-edit.md)。
 
 >[!MORELIKETHIS]
 >
->* [關於Audience Management](audience-about.md)
->* [建立可重複使用的受眾](reusable-audience-create.md)
->* [編輯可重複使用的對象](reusable-audience-edit.md)
->* [檢視可重複使用對象的詳細資訊](reusable-audience-view-details.md)
+>* [關於受眾管理](audience-about.md)
+>* [建立可重用的受眾](reusable-audience-create.md)
+>* [編輯可重用受眾](reusable-audience-edit.md)
+>* [查看有關可重用受眾的詳細資訊](reusable-audience-view-details.md)
 >* [共用可重複使用的受眾](reusable-audience-share.md)
->* [匯出可重複使用的對象](reusable-audience-export.md)
->* [將可重複使用對象的區段索引鍵複製到剪貼簿](reusable-audience-clipboard.md)
->* [刪除可重複使用的對象](reusable-audience-delete.md)
->* [對象設定](audience-settings.md)
->* [對象區段邏輯語法](audience-segment-logic-syntax.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
+>* [導出可重複使用的受眾](reusable-audience-export.md)
+>* [將可重用受眾的段鍵複製到剪貼簿](reusable-audience-clipboard.md)
+>* [刪除可重用受眾](reusable-audience-delete.md)
+>* [受眾設定](audience-settings.md)
+>* [受眾段邏輯的語法](audience-segment-logic-syntax.md)
+>* [可用的第三方資料提供程式](third-party-data-providers.md)
 

@@ -1,54 +1,54 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] 交易設定'
-description: 了解 [!UICONTROL Simple Ad Serving] 交易。
+title: '"[!UICONTROL Simple Ad Serving] 交易設定'''
+description: 瞭解的可用設定 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Simple Ad Serving] 交易設定
 
-## 新增 [!UICONTROL Simple Ad Serving] 交易
+## 新建 [!UICONTROL Simple Ad Serving] 交易
 
 ### [!UICONTROL Select Ad Source]
 
 | 參數 | 說明 |
 |-----------|-------------|
-| **[!UICONTROL Serving Type]** | 此交易的媒體類型： *[!UICONTROL Video],* *[!UICONTROL Display],* 或 *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | 銷售此庫存的發佈商的名稱。 在名稱中至少輸入前兩個字元，以搜尋發佈者。 若要新增未列出的發行者，請連絡您的Adobe帳戶團隊。 |
-| **[!UICONTROL Advertiser]** | 帳戶中可存取此交易的單一廣告商。 也選擇交易可用的促銷活動和（可選）包。 |
-| **[!UICONTROL Media Quality Assessment?]** | （部分使用者）讓廣告可在其他DSP上執行，以進行協力廠商驗證。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
-| **[!UICONTROL Ad Source]** | 唯一的選項是 *[!UICONTROL Site Serve (Event Pixels)]*. |
-| **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]:* 為此交易使用現有廣告。</li></ul> |
-| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果您要為交易建立廣告，請根據要求包括廣告大小或持續時間。 可用的選項因介質類型而異。 |
+| **[!UICONTROL Serving Type]** | 此交易的媒體類型： *[!UICONTROL Video]。* *[!UICONTROL Display]。* 或 *[!UICONTROL Audio]。* |
+| **[!UICONTROL Publisher Site Served On]** | 銷售此庫存的發佈者的名稱。 通過在名稱中至少輸入前兩個字元來搜索發佈者。 要添加未列出的發佈者，請與Adobe帳戶團隊聯繫。 |
+| **[!UICONTROL Advertiser]** | 可以訪問此交易的客戶中的單個廣告商。 另選市場活動和（可選）交易可用的包。 |
+| **[!UICONTROL Media Quality Assessment?]** | （某些用戶）允許廣告在另一個上運DSP行以進行第三方驗證。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Ad Source]** | 唯一的選擇是 *[!UICONTROL Site Serve (Event Pixels)]*。 |
+| **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]:* 將現有廣告用於此交易。</li></ul> |
+| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果要為交易建立廣告，請根據要求包括廣告大小或持續時間。 可用選項因介質類型而異。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Select Ad(s)]
 
-（當您使用現有廣告時）要包含在交易中的廣告。 選取每個要包含的廣告旁的核取方塊。
+（當您使用現有廣告時）要包含在交易中的廣告。 選中要包括的每個廣告旁邊的複選框。
 
 ### [!UICONTROL Select & Upload [Media Type]]
 
-（僅限新廣告）建立新廣告的畫面 [第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+（僅限新廣告）用於建立新廣告的螢幕 [第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 ### [!UICONTROL Feed Details]
 
 | 參數 | 說明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每1000次曝光(CPM)的成本，反映在合約的費率卡上。 如需此值，請聯絡您的Adobe帳戶團隊。 <br><br>也指定交易的貨幣。 所有使用者都可以選取美元，或者，如果SSP支援其他貨幣，則可以選取DSP帳戶的貨幣。 |
-| **[!UICONTROL Third Party Billed Fees]** | （可選）要以不計費成本和交易貨幣來跟蹤的靜態第三方費用。<br><br>所有使用者都可以選取美元，或者，如果SSP支援其他貨幣，則可以選取DSP帳戶的貨幣。 **注意：** 可結算費用反映於 [!UICONTROL Net CPM] 量度。 |
-| **[!UICONTROL Third Party Fee Description]** | （選用）協力廠商費用的說明。 |
-| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 投放日期必須包含在促銷活動投放日期中。 廣告標籤只會在指定的投放期間傳回回應。<br><br> 最佳實務是建立持續一年的個別簡單廣告服務促銷活動，並在其中建立追蹤像素。 |
-| **[!UICONTROL Impressions]** | （可選）使用此交易預計要執行的曝光次數。 此值僅用於追蹤目的，以及在達到傳送目標時加以標幟；發佈者會控制實際的廣告傳送。 最佳作法是輸入大量曝光數，讓標籤在DSP內保持作用中，以便視需要更新或延長標籤。 |
-| **[!UICONTROL Deal Name]** | 交易名稱。 輸入名稱，或選擇 *[!UICONTROL Auto Generate Deal Name]* 讓DSP根據交易詳細資訊產生名稱。<br><br>自動產生的名稱範例： `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
-| **[!UICONTROL Attached Ads]** | （唯讀）屬於交易一部分的廣告。 若要編輯廣告，請按一下廣告名稱。 若要從交易中移除廣告，請按一下 **[!UICONTROL X]** 廣告名稱旁邊。 |
+| **[!UICONTROL Media CPM]** | 每1000次印數(CPM)的成本，如合同的費率卡中所反映。 請與Adobe帳戶團隊聯繫以瞭解此值。 <br><br>另指定交易的幣種。 所有用戶都可以選擇USD，或者，如果SSP支援其他貨幣，則選擇帳戶的DSP貨幣。 |
+| **[!UICONTROL Third Party Billed Fees]** | （可選）要作為不可開單成本跟蹤的靜態第三方費用和交易幣種。<br><br>所有用戶都可以選擇USD，或者，如果SSP支援其他貨幣，則選擇帳戶的DSP貨幣。 **注：** 計費費用反映於 [!UICONTROL Net CPM] 度量。 |
+| **[!UICONTROL Third Party Fee Description]** | （可選）第三方費用的說明。 |
+| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 航班日期必須包括在促銷航班日期中。 廣告標籤僅在指定飛行期間返迴響應。<br><br> 最好的做法是建立一個單獨的簡單廣告服務市場活動，持續時間為一年，並在其中構建跟蹤像素。 |
+| **[!UICONTROL Impressions]** | （可選）您預計使用此交易運行的印數估計數。 此值僅用於跟蹤目的，用於在達到交付目標時標籤；發佈者控制實際廣告遞送。 最佳做法是輸入大量印數，使標籤保持活動狀態，DSP以便在需要時可以更新或擴展標籤。 |
+| **[!UICONTROL Deal Name]** | 交易名稱。 輸入名稱或選擇 *[!UICONTROL Auto Generate Deal Name]* 以便根DSP據交易詳細資訊生成名稱。<br><br>自動生成的名稱示例： `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
+| **[!UICONTROL Attached Ads]** | （只讀）交易中的廣告。 要編輯廣告，請按一下廣告名稱。 要從交易中刪除廣告，請按一下 **[!UICONTROL X]** 地址欄。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- 
 ## Existing Simple Ad Serving Deals

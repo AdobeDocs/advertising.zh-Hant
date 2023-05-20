@@ -5,6 +5,6 @@ source-wordcount: '1'
 ht-degree: 0%
 
 ---
-# 程式碼片段
+# 片段
 
 ## [!DNL Search, Social, & Commerce]{#search-product-name}

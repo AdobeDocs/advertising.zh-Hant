@@ -1,6 +1,6 @@
 ---
 title: Adobe Advertising 原則和指導方針
-description: 了解Advertising DSP和Advertising Search的原則和准則。
+description: 瞭解有關廣告和廣告搜索DSP的策略和指導。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -13,8 +13,8 @@ ht-degree: 23%
 
 # Adobe Advertising 原則和指導方針
 
-了解Advertising DSP和Advertising Search的原則和准則：
+瞭解有關廣告和廣告搜索的DSP策略和指導：
 
-* [廣告需求政策](/help/policies/ad-requirements-policy.md)
-* [可接受的健康區段指南](/help/policies/health-segment-guidelines.md)
-* [DSP資料使用准則](/help/policies/data-usage-guidelines.md)
+* [廣告需求策略](/help/policies/ad-requirements-policy.md)
+* [可接受的健康部分指南](/help/policies/health-segment-guidelines.md)
+* [數DSP據使用准則](/help/policies/data-usage-guidelines.md)

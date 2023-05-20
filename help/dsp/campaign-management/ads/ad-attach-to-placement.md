@@ -1,6 +1,6 @@
 ---
-title: 將廣告附加至版位
-description: 了解如何將廣告附加至版位。
+title: 將廣告附加到放置
+description: 瞭解如何將廣告附加到位置。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
 source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
@@ -10,117 +10,117 @@ ht-degree: 1%
 
 ---
 
-# 將廣告附加至版位
+# 將廣告附加到放置
 
 >[!NOTE]
 >
->通用視訊廣告只能附加至通用視訊版位。
+>通用視頻廣告只能附在通用視頻放映上。
 
-## 從附加新廣告 [!UICONTROL Ads] 檢視
+## 從 [!UICONTROL Ads] 視圖
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
 
-1. 按一下促銷活動的名稱。
+1. 按一下市場活動的名稱。
 
-1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
+1. 在子菜單中，按一下 **[!UICONTROL Ads]**。
 
-1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**。
 
-1. 在「位置廣告」畫面中，執行下列其中一項操作：
+1. 在「放置廣告」螢幕中，執行下列任一操作：
 
-   * 為廣告建立新位置：
+   * 要為廣告建立新位置：
 
       1. 按一下 **[!UICONTROL Create New Placement]**.
 
-      1. 輸入 [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下 **[!UICONTROL Create Placement]**.
-   * 若要將廣告新增至一或多個現有版位：
+      1. 輸入 [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下 **[!UICONTROL Create Placement]**。
+   * 要將廣告添加到一個或多個現有放置：
 
       1. 按一下 **[!UICONTROL Select a Placement].**
 
       1. 執行下列任一操作：
 
-         * 一次新增一個廣告：
+         * 要一次添加一個廣告，請執行以下操作：
 
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
+            1. 在廣告名稱旁，按一下 **[!UICONTROL Select]。**
 
-            1. （選用）若要附加的每個額外廣告，請按一下 **[!UICONTROL Attach to Other Placement]**. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
-         * 若要一次將廣告附加至最多20個版位：
+            1. （可選）對於要附加的每個附加廣告，按一下 **[!UICONTROL Attach to Other Placement]**。 在廣告名稱旁，按一下 **[!UICONTROL Select]。**
+         * 要一次將廣告附加到最多20個位置，請執行以下操作：
 
-            1. 選取**Bulk Select旁的核取方塊。&quot;
+            1. 選中**批量選擇旁邊的複選框。&quot;
 
-            1. 選取要附加廣告的每個版位旁的核取方塊。
+            1. 選中要將廣告附加到的每個位置旁邊的複選框。
 
             1. 按一下 **[!UICONTROL Attach]**.
-      1. 在「完成和審閱」頁簽上，選擇以下選項之一：
+      1. 在「完成和審閱」(Complete &amp; Review)頁籤上，選擇以下選項之一：
 
-         * 若要返回「廣告」檢視，請按一下 **[!UICONTROL I'm done for now]**.
+         * 要返回到廣告視圖，請按一下 **[!UICONTROL I'm done for now]**。
 
-         * 若要將廣告附加至其他位置，請按一下 **[!UICONTROL Attach To Other Placement]**.
-
-
+         * 要將廣告附加到其他位置，請按一下 **[!UICONTROL Attach To Other Placement]**。
 
 
-## 從附加新廣告或現有廣告 [!UICONTROL Placements] 檢視
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 按一下促銷活動的名稱。
+## 從附加新廣告或現有廣告 [!UICONTROL Placements] 視圖
 
-1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
+1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
 
-1. 在版位名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+1. 按一下市場活動的名稱。
 
-1. 在 [!UICONTROL Add Ad to Placement] 畫面中，執行下列任一操作：
+1. 在子菜單中，按一下 **[!UICONTROL Placements]**。
 
-   * 若要建立新廣告：
+1. 在放置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads]。**
+
+1. 在 [!UICONTROL Add Ad to Placement] 螢幕，執行下列任一操作：
+
+   * 要建立新廣告：
 
       1. 按一下 **[!UICONTROL Create a New Ad]**.
 
-      1. 輸入 [音訊廣告](ad-settings-audio.md), [連接電視](ad-settings-connected-tv.md), [顯示廣告](ad-settings-display.md), [行動廣告](ad-settings-mobile.md), [原生廣告](ad-settings-native.md)，或 [前段廣告](ad-settings-pre-roll.md).
+      1. 輸入廣告設定 [音頻廣告](ad-settings-audio.md)。 [連接電視](ad-settings-connected-tv.md)。 [顯示廣告](ad-settings-display.md)。 [移動廣告](ad-settings-mobile.md)。 [原生廣告](ad-settings-native.md)或 [預卷廣告](ad-settings-pre-roll.md)。
 
       1. 按一下 **[!UICONTROL Save & Submit for Review]**.
 
-         此 [廣告審閱](ad-about.md) 若為新廣告，需要24到48小時，且包含檢查敏感類別、按一下URL功能，以及預覽呈現。 此 [!UICONTROL Status] 欄會指出DSP是否已核准廣告。 中斷的廣告的擱置狀態可能會超過24到48小時，因此您有時間修正錯誤，才會拒絕。
+         的 [審閱](ad-about.md) 對於新廣告，需要24至48個小時並包括對敏感類別的檢查，按一下URL功能，然後預覽呈現。 的 [!UICONTROL Status] 列指DSP示是否已批准廣告。 斷開的廣告可能具有超過24-48小時的掛起狀態，因此您有時間修復錯誤，然後才被拒絕。
 
          >[!NOTE]
          >
-         >只有DSP和SSP都核准創作內容時，才會提供您的廣告。 每個SSP都有自己的核准要求和程式。
-   * 若要選取現有廣告：
+         >只有雙方和SSP都批准DSP了創意，您的廣告才會送達。 每個SSP都有自己的批准要求和流程。
+   * 要選擇現有廣告：
 
       1. 按一下 **[!UICONTROL Select an Ad].**
 
       1. 指定廣告：
 
-         * 一次新增一個廣告：
+         * 要一次添加一個廣告，請執行以下操作：
 
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
+            1. 在廣告名稱旁，按一下 **[!UICONTROL Select]。**
 
-            1. （選用）若要附加的每個額外廣告，請按一下 **[!UICONTROL Add Another Ad]**. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
-         * 一次最多新增20個廣告：
+            1. （可選）對於要附加的每個附加廣告，按一下 **[!UICONTROL Add Another Ad]**。 在廣告名稱旁，按一下 **[!UICONTROL Select]。**
+         * 每次最多添加20個廣告：
 
-            1. 選取旁的核取方塊 **[!UICONTROL Bulk Select]**.&quot;
+            1. 選中旁邊的複選框 **[!UICONTROL Bulk Select]**&quot;
 
-            1. 選取每個要新增的廣告旁的核取方塊。
+            1. 選中要添加的每個廣告旁邊的複選框。
 
             1. 按一下 **[!UICONTROL Attach]**.
-      1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
+      1. （可選）要覆蓋放置中特定廣告的預設飛行時段和廣告輪轉：
 
          1. 按一下 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 執行下列任一操作：
 
-            * 若要新增投放，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+            * 要添加航班，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
 
-            * 若要將現有投放新增至廣告，請按一下 **[!UICONTROL +]** 在「投放」欄的廣告列中。
+            * 要將現有航班添加到廣告，請按一下 **[!UICONTROL +]** 的下界。
 
-            * 若要從廣告中移除現有投放，請按一下 **[!UICONTROL x]** 在「投放」欄的廣告列中。
+            * 要從廣告中刪除現有航班，請按一下 **[!UICONTROL x]** 的下界。
 
-            * （當多個廣告具有相同的投放時間時）若要使廣告旋轉不均，請按一下 **[!UICONTROL Even Rotation]** 在「投放」資訊中，然後以百分比輸入要旋轉每個廣告的相對權重。
+            * （當多個廣告具有相同的飛行時）要使廣告不均勻地旋轉，請按一下 **[!UICONTROL Even Rotation]** 在飛行資訊中，然後輸入每個廣告的相對重量（百分比）。
 
                總重量必須等於100。
-         1. 在右上方，按一下 **[!UICONTROL Continue]**.
+         1. 在右上角，按一下 **[!UICONTROL Continue]**。
 
-         1. 查看飛行詳細資訊，然後按一下 **[!UICONTROL Save & Finish]**.
+         1. 查看航班詳細資訊，然後按一下 **[!UICONTROL Save & Finish]**。
       1. 按一下 **[!UICONTROL I'm done for now]**.
 
 
@@ -131,10 +131,10 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [關於廣告管理](ad-about.md)
->* [建立單一廣告](ad-create.md)
+>* [建立單個廣告](ad-create.md)
 >* [建立多個第三方廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)
->* [列出與廣告相關聯的版位](ad-list-placements.md)
->* [編輯投放位置的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [通用視訊的常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
+>* [列出與廣告關聯的放置](ad-list-placements.md)
+>* [編輯放置廣告計畫](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [關於通用視頻的常見問題](/help/dsp/campaign-management/faq-universal-video.md)
 

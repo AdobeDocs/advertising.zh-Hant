@@ -1,6 +1,6 @@
 ---
 title: 關於 [!UICONTROL Report Destinations]
-description: 了解如何管理自訂報表的傳送位置。
+description: 瞭解如何管理自定義報告的交付位置。
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 關於 [!UICONTROL Report Destinations]
 
-您可以建立和管理傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個自訂報表，以傳送至單一目的地類型的一或多個位置。 儲存報表後，就無法變更目的地類型。
+您可以建立和管理交貨位置，稱為 *[!DNL report destinations]*&#x200B;的子菜單。 配置報告目標後，您可以設定每個自定義報告，將其發送到單個目標類型的一個或多個位置。 保存報告後，無法更改目標類型。
 
 ## 可用 [!UICONTROL Destination Types]
 
@@ -23,19 +23,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您也可以將自訂報表傳送給不需要儲存報表目的地的電子郵件收件者。 您可以在報表設定中指定電子郵件收件者，而非儲存的目的地。
+> 您還可以將自定義報告發送給不需要保存報告目標的電子郵件收件人。 您可以在報告設定中指定電子郵件收件人，而不是保存的目標。
 
-## 此 [!UICONTROL Report Destinations] 檢視
+## 的 [!UICONTROL Report Destinations] 視圖
 
-此 [!UICONTROL Report Destinations] 檢視會顯示您所有現有的目的地以及連結至每個目的地的報表數量。 您可以依目的地類型篩選清單。
+的 [!UICONTROL Report Destinations] 視圖顯示所有現有目標以及連結到每個目標的報告數。 您可以按目標類型篩選清單。
 
-您可以從此檢視建立新目的地，以及編輯和刪除現有的目的地。
+您可以建立新目標，並從此視圖中編輯和刪除現有目標。
 
 >[!NOTE]
 >
->只要憑證有效，更新現有報表目的地的憑證不會中斷報表傳送。
+>只要憑據有效，更新現有報告目標的憑據不會中斷報告傳遞。
 
-![報表目的地](/help/dsp/assets/report-destinations.png)
+![報告目標](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >

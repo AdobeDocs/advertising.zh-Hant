@@ -1,45 +1,45 @@
 ---
-title: 編輯自訂欄檢視
-description: 了解如何編輯自訂欄檢視。
+title: 編輯自定義列視圖
+description: 瞭解如何編輯自定義列視圖。
 feature: DSP Campaign Data Views
 exl-id: 8ff6f09a-e04f-44a1-8a25-03afb28e0dbd
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# 編輯自訂欄檢視
+# 編輯自定義列視圖
 
 >[!NOTE]
 >
 >無法編輯標準（預定義）列視圖。
 
-1. 在檢視選取器中，按一下 ![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下現有的欄檢視名稱。
+1. 在「視圖」選擇器中，按一下 ![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下現有列視圖名稱。
 
-1. 在檢視選取器中，按一下 ![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下 **[!UICONTROL Edit View]**.
+1. 在「視圖」選擇器中，按一下 ![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下 **[!UICONTROL Edit View]**。
 
-1. 編輯要納入檢視的量度：
+1. 編輯要包括在視圖中的度量：
 
-   1. 在可用量度清單中，選取要納入之每個量度旁的核取方塊，並清除要排除之每個量度旁的核取方塊。
+   1. 在可用度量清單中，選中要包括的每個度量旁邊的複選框，並清除要排除的每個度量旁邊的複選框。
 
-   1. 視需要按一下右側面板中的列名稱，並將其拖曳到所需位置，以編輯列順序。
+   1. 根據需要，通過按一下右面板中的列名並將其拖動到所需位置來編輯列順序。
 
-   有些欄位固定，無法移動或移除。
+   某些列具有固定位置，無法移動或刪除。
 
-1. 套用或儲存設定：
+1. 應用或保存設定：
 
-   * 若要暫時套用設定而不將其儲存至檢視，請按一下 **[!UICONTROL Apply].**
+   * 要臨時應用設定而不將它們保存到視圖，請按一下 **[!UICONTROL Apply]。**
 
-   * 若要將設定儲存至新的自訂欄檢視，請按一下 **[!UICONTROL Save As]**. 在 [!UICONTROL Save View] 窗口，輸入新視圖的名稱，然後按一下 **[!UICONTROL Save]**.
+   * 要將設定保存到新的自定義列視圖，請按一下 **[!UICONTROL Save As]**。 在 [!UICONTROL Save View] ，輸入新視圖的名稱，然後按一下 **[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
->* [關於平台內報表](campaign-reports-about.md)
->* [關於促銷活動資料檢視](campaign-data-views-about.md)
+>* [關於平台內報告](campaign-reports-about.md)
+>* [關於市場活動資料視圖](campaign-data-views-about.md)
 >* [更改列視圖](column-view-change.md)
->* [建立自訂欄檢視](column-view-create.md)
->* [篩選促銷活動資料](campaign-data-filter.md)
->* [排序資料欄](campaign-data-sort.md)
+>* [建立自定義列視圖](column-view-create.md)
+>* [篩選市場活動資料](campaign-data-filter.md)
+>* [對資料列排序](campaign-data-sort.md)
 

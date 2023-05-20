@@ -1,6 +1,6 @@
 ---
-title: Advertising DSP中可用的第三方資料提供者
-description: 查看所有可用第三方資料提供者的清單。
+title: 廣告中可用的第三方資料提供DSP商
+description: 請參閱所有可用第三方資料提供程式的清單。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 <!-- feature: audiences -->
 
-# Advertising DSP中可用的第三方資料提供者
+# 廣告中可用的第三方資料提供DSP商
 
-下列第三方資料提供者的資料類別和區段可作為DSP中的位置目標。 這些區段主要適用於美國受眾。
+以下第三方資料提供商的資料類別和資料段可作為放置目標DSP。 這些節目主要面向美國觀眾。
 
-使用每個區段的費用會顯示在版位設定和已儲存對象設定中的區段名稱旁。
+使用每個段的費用顯示在放置設定和保存的受眾設定中段名稱旁邊。
 
 * [!DNL Acxiom]
 * [!DNL Adsquare]
@@ -51,11 +51,11 @@ ht-degree: 0%
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-如需有關匯入帳戶之自訂第三方區段的詳細資訊，請連絡您的Adobe帳戶團隊。
+有關為您的帳戶導入自定義第三方段的詳細資訊，請與Adobe帳戶團隊聯繫。
 
 >[!MORELIKETHIS]
 >
->* [關於Audience Management](audience-about.md)
->* [建立可重複使用的受眾](reusable-audience-create.md)
->* [對象設定](audience-settings.md)
+>* [關於受眾管理](audience-about.md)
+>* [建立可重用的受眾](reusable-audience-create.md)
+>* [受眾設定](audience-settings.md)
 

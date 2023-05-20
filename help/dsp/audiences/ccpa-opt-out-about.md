@@ -1,6 +1,6 @@
 ---
-title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表
-description: 了解如何建立區段以追蹤CCPA選擇退出銷售請求的ID，以及如何擷取ID的報表。
+title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 段和報告
+description: 瞭解如何建立段以跟蹤CCPA選擇退出銷售請求中的ID以及如何檢索ID的報告。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,24 +10,24 @@ ht-degree: 0%
 
 ---
 
-# 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表
+# 關於 [!UICONTROL CCPA Opt-out-of-Sale] 段和報告
 
-您可以根據加州消費者隱私法(CCPA)，在您的網站上追蹤來自消費者選擇退出銷售請求的使用者ID，依 [建立並實作CCPA選擇退出銷售區段](ccpa-opt-out-segment-create.md). 使用者無限期保留在CCPA選擇退出銷售的區段中。
+您可以根據加利福尼亞消費者隱私法(CCPA)，通過 [建立並實施CCPA選擇不可銷售的部門](ccpa-opt-out-segment-create.md)。 用戶無限期地留在CCPA選擇不銷售的部門。
 
-實作區段像素標籤後，Adobe廣告將開始代表廣告商收集一組ID。
+一旦實現段像素標籤，Adobe廣告將開始代表廣告商收集ID池。
 
-## 消費者選擇退出銷售報表
+## 消費者選擇不可銷售報告
 
-Adobe廣告會產生客戶針對帳戶選擇退出銷售請求所提交的ID每月報表。 資料整合了使用在DSP中建立的CCPA選擇退出銷售區段所擷取的請求，以及透過Privacy ServiceAPI提交的任何請求。  報表是在前一個月的每月第一日產生。 例如，6月的每月使用者清單可在7月1日提供。
+Adobe廣告生成客戶已提交的ID的月度報告，這些ID要求客戶選擇不銷售。 資料整合了使用CCPA選擇退出銷售段捕獲的請求，這些請求是在中建立的，DSP以及通過Privacy ServiceAPI提交的任何資料。  在上個月的每月一日生成報告。 例如，6月的月度用戶清單在7月1日可用。
 
-每個報表都以Tab分隔的文字檔壓縮為GZIP格式。 在CCPA選擇退出銷售區段中擷取的使用者ID是由區段和廣告商識別。
+每個報告都可以作為以制表符分隔的文本檔案壓縮為GZIP格式。 在CCPA選擇退出銷售分段中捕獲的用戶ID由分段和廣告商標識。
 
-您可以 [擷取每月報表的連結](ccpa-opt-out-segment-report-retrieve.md) 是在前三個月建立，可在DSP內或透過使用DSP [!DNL Trafficking API]. 每個連結的有效期為7天，但每次客戶嘗試擷取時都會重新整理。
+你可以 [檢索指向每月報告的連結](ccpa-opt-out-segment-report-retrieve.md) 建立的，可從內部建立，DSP也可使用DSP [!DNL Trafficking API]。 每個連結的有效期為七天，但每次客戶嘗試檢索一個連結時都會刷新。
 
 >[!MORELIKETHIS]
 >
->* [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [建立和實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
->* [擷取消費者選擇退出銷售報表](ccpa-opt-out-segment-report-retrieve.md)
->* [關於Audience Management](audience-about.md)
+>* [Adobe對加利福尼亞消費者隱私法的廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [建立和實施 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
+>* [檢索消費者選擇不可銷售報表](ccpa-opt-out-segment-report-retrieve.md)
+>* [關於受眾管理](audience-about.md)
 

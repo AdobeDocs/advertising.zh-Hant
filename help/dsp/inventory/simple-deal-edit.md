@@ -1,6 +1,6 @@
 ---
 title: 編輯 [!UICONTROL Simple Ad Serving] 交易設定
-description: 了解如何編輯 [!UICONTROL Simple Ad Serving] 交易。
+description: 瞭解如何編輯 [!UICONTROL Simple Ad Serving] 成交。
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 # 編輯 [!UICONTROL Simple Ad Serving] 交易設定
 
-您可以編輯 [!UICONTROL Simple Ad Serving] 還沒結束的交易。
+可以編輯某些設定 [!UICONTROL Simple Ad Serving] 還沒結束的交易。
 
-1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. 在主菜單中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]。**
 
-1. 在交易列中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 在交易行中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**。
 
-1. 編輯 [交易設定](simple-deal-settings.md).
+1. 編輯 [交易設定](simple-deal-settings.md)。
 
-   您可以編輯 [!UICONTROL Deal Name], [!UICONTROL Publisher maximum ad length], [!UICONTROL Publisher minimum ad length], [!UICONTROL CPM], [!UICONTROL Flight dates]，和 [!UICONTROL Impressions].
+   可以編輯 [!UICONTROL Deal Name]。 [!UICONTROL Publisher maximum ad length]。 [!UICONTROL Publisher minimum ad length]。 [!UICONTROL CPM]。 [!UICONTROL Flight dates], [!UICONTROL Impressions]。
 
 1. 按一下 **[!UICONTROL Save]**.
 

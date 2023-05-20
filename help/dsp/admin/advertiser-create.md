@@ -1,20 +1,20 @@
 ---
 title: 建立廣告商帳戶
-description: 了解如何建立廣告商帳戶。
+description: 瞭解如何建立廣告商帳戶。
 source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
 # 建立廣告商帳戶
 
-*不適用於只讀用戶*
+*只讀用戶不可用*
 
-組織帳戶中的所有使用者都可使用廣告商。
+廣告主可供組織帳戶中的所有用戶使用。
 
-1. 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
+1. 在主菜單中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**。
 
 1. 按一下 **[!UICONTROL Create]**.
 
@@ -22,12 +22,12 @@ ht-degree: 0%
 
    1. 在 [!UICONTROL General] 設定：
 
-      1. 指定 [!UICONTROL General] 設定。
+      1. 指定 [!UICONTROL General] 的子菜單。
 
-      1. （選用）若要設定DSP與其他Adobe Experience Cloud產品之間的整合，請在 [!UICONTROL Adobe IMS IDs] 區段中，然後在 [!UICONTROL Integrations] 區段。
-   1. （選用）在 [!UICONTROL Targeting] 節，指定每個新位置的預設目標。
+      1. （可選）要配置與其他Adobe Experience Cloud產DSP品之間的整合，請在中輸入廣告商的Experience Cloud組織ID [!UICONTROL Adobe IMS IDs] ，然後在 [!UICONTROL Integrations] 的子菜單。
+   1. （可選）在 [!UICONTROL Targeting] ，為每個新放置指定預設目標。
 
-      您可以覆寫所建立任何版位的預設目標。
+      您可以覆蓋所建立的任何放置的預設目標。
 
 
 1. 按一下 **[!UICONTROL Save]**.

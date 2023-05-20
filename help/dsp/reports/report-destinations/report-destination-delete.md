@@ -1,6 +1,6 @@
 ---
-title: 刪除報表目的地
-description: 了解如何刪除報表目的地。
+title: 刪除報告目標
+description: 瞭解如何刪除報告目標。
 feature: DSP Custom Reports
 exl-id: 4585396e-2a84-4d02-bcb9-c82de1e3638e
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# 刪除報表目的地
+# 刪除報告目標
 
-刪除報表目的地會影響所有連結自訂報表的傳送。
+刪除報告目標會影響所有連結的自定義報告的傳遞。
 
-1. 在主功能表中，按一下 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. 在主菜單中，按一下 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**。
 
-1. 將游標停留在報告目標行上，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Delete]**.
+1. 將游標置於報告目標行上，然後按一下 **[!UICONTROL More]** > **[!UICONTROL Delete]**。
 
-1. 在確認訊息中，按一下 **[!UICONTROL Delete]**.
+1. 在確認消息中，按一下 **[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: 使用 [!DNL Last Event Service] JavaScript程式庫搭配 [!DNL Web SDK]
-description: 了解從使用 [!DNL Analytics] [!DNL visitorAPI] 程式庫 [!DNL Experience Platform] [!DNL Web SDK] 程式庫 [!DNL Analytics for Advertising] 實作。
+title: 使用 [!DNL Last Event Service] JavaScript庫 [!DNL Web SDK]
+description: 瞭解從使用 [!DNL Analytics] [!DNL visitorAPI] 庫到 [!DNL Experience Platform] [!DNL Web SDK] 庫 [!DNL Analytics for Advertising] 執行。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,17 +10,17 @@ ht-degree: 0%
 
 ---
 
-# 使用 [!DNL Last Event Service] JavaScript程式庫與Adobe Experience Platform [!DNL Web SDK]
+# 使用 [!DNL Last Event Service] 帶有Adobe Experience Platform的JavaScript庫 [!DNL Web SDK]
 
-*廣告商與Adobe廣告 — 僅Adobe Analytics整合*
+*具有Adobe廣告的廣告商 — 僅Adobe Analytics整合*
 
-如果貴組織使用舊版Adobe Analytics `visitorAPI.js` 資料收集程式庫，您可以選擇切換至使用 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 程式庫(`alloy.js`)，可讓您透過與各種Experience Cloud服務互動 [!DNL Edge Network].
+如果貴組織使用傳統Adobe Analytics `visitorAPI.js` 用於資料收集的庫，您可以選擇切換到 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 庫(`alloy.js`)，允許您通過 [!DNL Edge Network]。
 
-此 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript程式庫原樣會記錄閱覽和點進事件，並使用補充ID將它們拼接至相關的轉換(`SDID`)。 此 [!DNL Web SDK] 不過，程式庫不提供 [!DNL stitch ID]. 若要使用 [!DNL Web SDK] for [!DNL Analytics for Advertising]，您需要修改1) [!DNL Last Event Service] 標籤，以及 [!DNL Web SDK] `sendEvent` 命令。
+的 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript庫原樣記錄查看和點擊查看事件，並使用補充ID(`SDID`)。 的 [!DNL Web SDK] 但是，庫不提供 [!DNL stitch ID]。 使用 [!DNL Web SDK] 為 [!DNL Analytics for Advertising]，您需要修改1) [!DNL Last Event Service] 在網頁上使用的標籤和2 [!DNL Web SDK] `sendEvent` 命令。
 
-## 步驟1:編輯您的 [!DNL Last Event Service] 要產生的標籤 `[!DNL StitchID]`
+## 步驟1:編輯 [!DNL Last Event Service] 要生成的標籤 `[!DNL StitchID]`
 
-在 [!DNL Analytics for Advertising] [!DNL Last Event Service] 標籤，新增程式碼以產生 `[!DNL StitchID]` 使用程式庫中隨附的隨機ID產生器。
+在 [!DNL Analytics for Advertising] [!DNL Last Event Service] 在網頁上使用的標籤，添加代碼以生成 `[!DNL StitchID]` 使用隨機ID生成器。
 
 **舊標籤：**
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 </script>
 ```
 
-## 步驟2:使用 [!DNL Web SDK] 若要傳送 [!DNL StitchID] 作為的XDM資料 [!DNL Analytics]
+## 步驟2:使用 [!DNL Web SDK] 發送 [!DNL StitchID] 作為XDM資料 [!DNL Analytics]
 
-在您的 [!DNL Web SDK] `sendEvent` 命令 [!DNL StitchID] to [!DNL Experience Edge] as [!DNL Experience Data Model] (XDM)資料 [!DNL Analytics].<!-- The library will send the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 將使用值作為 `SDID`.
+在您的 [!DNL Web SDK] `sendEvent` 命令 [!DNL StitchID] 至 [!DNL Experience Edge] 如 [!DNL Experience Data Model] (XDM)資料 [!DNL Analytics]。<!-- The library will send the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 將值用作 `SDID`。
 
 **要添加的屬性：**
 
@@ -52,7 +52,7 @@ ht-degree: 0%
      }
 ```
 
-**範例：**
+**示例：**
 
 ```
 <script>
@@ -73,6 +73,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [概觀 [!DNL Analytics for Advertising]](overview.md)
->* [適用於 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+>* [概述 [!DNL Analytics for Advertising]](overview.md)
+>* [JavaScript代碼 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
 

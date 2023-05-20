@@ -1,6 +1,6 @@
 ---
-title: 封存或取消封存套件
-description: 了解如何封存或取消封存套件。
+title: 存檔或取消存檔包
+description: 瞭解如何存檔或取消存檔包。
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,32 +10,32 @@ ht-degree: 0%
 
 ---
 
-# 封存或取消封存套件
+# 存檔或取消存檔包
 
-隱藏未用於存檔的包。 對已封存的套件，您只能取消封存它。 封存的套件預設不會顯示，但仍可供報告使用。
+隱藏未通過存檔使用的包。 您對存檔的軟體包唯一可執行的操作是取消存檔。 預設情況下不顯示存檔的包，但仍可用於報告。
 
-您可以隨時取消封存套件以還原其先前狀態。
+您可以隨時取消存檔包以恢復其以前的狀態。
 
-## 封存套件
+## 存檔包
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下促銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
-1. 在套件名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
+1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 按一下市場活動的名稱以開啟 [!UICONTROL Packages] 的子菜單。
+1. 在包名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**。
+1. 在確認消息中，按一下 **[!UICONTROL Archive]**。
 
 >[!NOTE]
 >
->若要檢視已封存的套件，請篩選 [!UICONTROL Packages] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Package status]** 選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
+>要查看已存檔的包，請篩選 [!UICONTROL Packages] 視圖：按一下 ![「篩選」按鈕](/help/dsp/assets/filter.png)按一下 **[!UICONTROL Package status]** 選擇 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply]。**
 
-## 取消封存套件
+## 取消存檔包
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 按一下促銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
-1. 在套件名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
+1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 按一下市場活動的名稱以開啟 [!UICONTROL Packages] 的子菜單。
+1. 在包名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**。
+1. 在確認消息中，按一下 **[!UICONTROL Unarchive]**。
 
 >[!MORELIKETHIS]
 >
->* [編輯套件](package-edit.md)
+>* [編輯包](package-edit.md)
 >* [查看包的更改日誌](package-change-log.md)
 
