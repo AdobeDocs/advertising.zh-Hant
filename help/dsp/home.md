@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年5月29日 | [!UICONTROL Campaigns] | 您現在可以暫停或啟用行銷活動、套件和廣告。 您已經可以暫停並啟用版位。 | 請參閱「[暫停或啟動行銷活動](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)，&quot; &quot;[暫停或啟動封裝](/help/dsp/campaign-management/packages/package-pause-activate.md)，」和「[暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md).」 |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用視訊版位和廣告現已正式推出。 | 請參閱「[通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)，&quot; &quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)，」和「[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
 | 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 會根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及範圍和頻率。 報表包含九個維度： [!UICONTROL Campaign]， [!UICONTROL Package]， [!UICONTROL Placement]， [!UICONTROL Site/Apps]， [!UICONTROL Media Type]， [!UICONTROL Device]， [!UICONTROL Audience]， [!UICONTROL Creative Length]，和使用者建立的 [!UICONTROL Tags]. | 請參閱「[關於報表](/help/dsp/reports/report-about.md)，&quot; &quot;[報表設定](/help/dsp/reports/report-settings.md)，」和「[關於的常見問題集 [!UICONTROL Household] 報告](/help/dsp/reports/faq-household-report.md).」 |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 深入瞭解開放測試版功能的通用視訊版位和廣告。 | 請參閱「[通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md).」 |
