@@ -1,9 +1,9 @@
 ---
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
-source-wordcount: '3637'
+source-wordcount: '3640'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （僅限顯示行銷活動） Search、Social和Commerce已追蹤的估計廣告曝光次數。 此值可能與 [!UICONTROL Impressions] 欄（可用時），顯示廣告網路提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 是否排除競標(<i>[!UICONTROL Yes]</i>)或允許出價(<i>[!UICONTROL No]</i>)適用於相符產品的廣告。 |
 | [!UICONTROL First Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
-| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions/transaction properties] | ([!DNL Google Ads] 搜尋和購物網路上的行銷活動；從帳戶啟用功能之日開始可用的資料) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個獨立的交易屬性：<ul><li>`GGL*` — （追蹤時）關鍵字的轉換值總和，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」前置詞（例如GGL_CT_Purchase）開頭。</li><li>`GGL_XD_CT*` — （轉換型別可用時，追蹤轉換時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每個轉換都會依競標單位和點按日期記錄；無法在事件層級使用。 如果您將「搜尋、社交和商務」中的資料與中的 [!DNL Google Ads]，使用檢視或報表選項來檢視&quot;[!UICONTROL Conversions by:  Click date]「」（非交易日期）。<br><br><b>注意：</b>前一天的資料每天都會提取，並於09前提供:00-10:00 （廣告商的時區）。 [!DNL Google Ads] 最多可在點按後30天內持續更新量度。 如需有關的詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[關於追蹤的常見問題集](/help/search-social-commerce/tracking/faqs-tracking.md).」 |
+| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions/transaction properties] | ([!DNL Google Ads] 搜尋和購物網路上的行銷活動；從帳戶啟用功能之日開始可用的資料) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個獨立的交易屬性：<ul><li>`GGL*` — （追蹤時）關鍵字的轉換值總和，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」前置詞（例如GGL_CT_Purchase）開頭。</li><li>`GGL_XD_CT*` — （轉換型別可用時，追蹤轉換時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每個轉換都會依競標單位和點按日期記錄；無法在事件層級使用。 如果您將「搜尋、社交和商務」中的資料與中的 [!DNL Google Ads]，使用檢視或報表選項來檢視&quot;[!UICONTROL Conversions by:  Click date]「」（非交易日期）。<br><br><b>注意：</b>前一天的資料每天都會提取，並於09前提供:00-10:00 （廣告商的時區）。 [!DNL Google Ads] 最多可在點按後30天內持續更新量度。 如需有關的詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).」 |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 僅限)在自然搜尋結果上方顯示為第一個廣告的廣告曝光次數百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 僅限)顯示在自然搜尋結果上方的廣告曝光次數百分比。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
