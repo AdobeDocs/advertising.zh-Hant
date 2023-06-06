@@ -9,7 +9,7 @@ user-guide-description: 本指南說明管理、最佳化和報告您的搜尋�
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [檢視為廣告商追蹤的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [變更管理檢視和報告中的可用交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [變更交易屬性的顯示名稱](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [取得協助](get-help.md)
-   + [字彙表](glossary.md)
++ [取得協助](get-help.md)
++ [字彙表](glossary.md)
