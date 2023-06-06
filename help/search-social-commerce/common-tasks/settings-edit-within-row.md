@@ -1,7 +1,7 @@
 ---
 title: 直接在列中編輯設定
 description: 瞭解如何在列內的管理檢視中編輯資料。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * （自由格式值）輸入新值，然後按一下 ![儲存](/help/search-social-commerce/assets/select.png "儲存") 或按下 **輸入** 金鑰。
    >[!MORELIKETHIS]
    >
-   >*[使用複製並貼上大量建立和編輯行銷活動資料](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [使用複製並貼上大量建立和編輯行銷活動資料](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
