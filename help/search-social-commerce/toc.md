@@ -9,9 +9,9 @@ user-guide-description: 本指南說明管理、最佳化和報告您的搜尋�
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [檢視自訂警報](/help/search-social-commerce/alerts/alert-view.md)
       + [匯出自訂警報的資料](/help/search-social-commerce/alerts/alert-export-data.md)
    + [檢視變更記錄報告](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Recommendations和發佈商分析 {#recommendations}
+      + [關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [檢視建議記錄 [!DNL Google Ads] 帳戶](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [套用或關閉 [!DNL Google Ads] 推薦](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [搭配產品組合使用發佈者建議和深入分析的最佳實務](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 工具 {#tools}
    + [變更您的密碼](/help/search-social-commerce/tools/password-change.md)
    + 用於建立和解碼追蹤標籤的工具{#tracking}
