@@ -1,7 +1,7 @@
 ---
 title: 必要的大量表單資料 [!DNL Microsoft Advertising] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Microsoft Advertising] 帳戶。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '5147'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | 對象 | 行銷活動或廣告群組的搜尋廣告(RLSA)目標對象的再行銷清單。 |
 | 目標型別 | （僅限RLSA目標）目標型別： <i>包含</i> 或 <i>排除</i>. |
 | 自動鎖定目標運算式 | 廣告群組的動態搜尋目標。 針對所有目標，請使用「所有網頁」。<br><br>若要鎖定最多三個動態搜尋條件，請使用格式 `<category>=<target>`，其中 &lt;category> 可包含下列任何類別。 使用「」聯結個別類別的多個目標`[blank space] and [blank space]`」並使用「」聯結多個類別`[blank space] and [blank space]`「。<br><ul><li><i>類別：</i> 若要針對具有特定Google內容類別的索引頁面顯示動態搜尋廣告。</li><li><i>URL：</i> 顯示具有特定URL之索引頁面的動態搜尋廣告，其中值可能包含在URL內的任何位置。</li><li><i>頁面標題：</i> 顯示索引頁面的動態搜尋廣告，並在頁面標題中顯示特定文字。</li><li><i>頁面內容：</i> 顯示具有特定內容之索引頁面的動態搜尋廣告。</li></ul>範例： url=shoes.example.com和page title=footwear<br>範例：所有網頁 |
-| 位置 | 為行銷活動或廣告群組放置廣告的地理位置；值不區分大小寫。 如果您未輸入任何促銷活動或廣告群組的值，則會鎖定所有位置。 若要鎖定特定位置，請使用Microsoft Advertising位置代碼格式來輸入位置。 若要下載位置清單，請使用您的Microsoft Advertising帳戶憑證登入Microsoft Advertising開發人員入口網站。 <b> 注意：若要排除位置，請在位置代碼前加上減號(`-`)，例如 `-United States`. |
+| 位置 | 為行銷活動或廣告群組放置廣告的地理位置；值不區分大小寫。 如果您未輸入任何促銷活動或廣告群組的值，則會鎖定所有位置。 若要鎖定特定位置，請使用Microsoft Advertising位置代碼格式來輸入位置。 若要下載位置清單，請使用您的Microsoft Advertising帳戶憑證登入Microsoft Advertising開發人員入口網站。 <b>注意：</b> 若要排除位置，請在位置代碼前加上減號(`-`)，例如 `-United States`. |
 | 位置型別 | 位置型別，例如「城市」、「國家/地區」、「MetroArea」、「PostalCode」和「State」。 若要下載位置清單，請使用您的Microsoft Advertising帳戶憑證登入Microsoft Advertising開發人員入口網站。 |
 | 相符型別 | （僅限搜尋網路上的促銷活動）關鍵字比對選項。 這可能包括動態搜尋目標或產品群組的關鍵字比對選項。 值包括： <i>廣泛</i> （新關鍵字的預設值）， <i>精確</i>， <i>片語</i>， <i>內容</i> （當廣告群組鎖定內容網路時，自動設定關鍵字）， <i>負面</i> （在內容網路上排除關鍵字）， <i>動態廣告目標</i> （新動態搜尋目標的預設值）、 <i>產品群組</i> （新產品群組的預設值），或 <i>負面產品群組</i> （排除產品群組）。  需要相符型別或關鍵字ID的值，才能編輯或刪除具有多個相符型別的關鍵字。<br><br>若為Broad Match修飾詞，請選擇「Broad」並插入 `+` 在必要的關鍵字內的任何字詞之前(例如&quot;`+red +shoes`」以同時要求「紅色」和「鞋子」)。<br><br>變更Microsoft Advertising關鍵字的相符型別不會刪除現有關鍵字。 |
 | 最大CPC | （搜尋網路上的行銷活動）最高每次點按成本(CPC)，這是根據關鍵字、產品群組或動態搜尋目標（無論有否貨幣符號和標點符號）支付廣告點按的最高金額。  對於最佳化產品組合中的現有關鍵字和產品群組記錄，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。 <b>注意：</b> 您無法設定負關鍵字的競標。 |

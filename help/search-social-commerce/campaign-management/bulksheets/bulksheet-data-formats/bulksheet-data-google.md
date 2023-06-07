@@ -1,7 +1,7 @@
 ---
 title: 必要的大量表單資料 [!DNL Google Ads] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Google Ads] 帳戶。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | 欄位 | 說明 |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Platform | （包含在產生的Bulksheet中以供參考）廣告平台。 除非每一列包含實體的「AMO ID」，否則為必要。 |
 | 帳戶名稱 | 可識別廣告網路帳戶的唯一名稱。 除非每一列包含實體的「AMO ID」，否則為必要。 |
 | 行銷活動名稱 | 識別帳戶促銷活動的唯一名稱。 |
