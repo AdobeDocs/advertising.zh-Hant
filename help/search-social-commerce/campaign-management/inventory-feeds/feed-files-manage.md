@@ -1,9 +1,9 @@
 ---
 title: 管理詳細目錄資料摘要檔案
 description: 瞭解如何設定控制摘要資料處理方式的設定。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ shoes<TAB>Clarks<TAB>20
 
 如需詳細資訊，請參閱瀏覽器的線上說明。
 
-## 手動上傳摘要檔案 [#feed-file-upload]
+## 手動上傳摘要檔案 {#feed-file-upload}
 
 >[!NOTE]
 > 如果您將範本與手動上傳的檔案相關聯，但接著透過FTP上傳另一個具有相同名稱、副檔名和文法大小寫的檔案，則當您透過範本傳播資料時會使用FTP檔案。 例如，myfile.csv會取代myfile.csv，但Myfile.CSV則不會。
