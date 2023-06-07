@@ -9,9 +9,9 @@ user-guide-description: 本指南說明管理、最佳化和報告您的搜尋�
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + 工具 {#tools}
    + [變更您的密碼](/help/search-social-commerce/tools/password-change.md)
-   + 追蹤標籤的工具 {#tracking}
-      + [用於建立和解碼畫素式追蹤的工具]{#pixel}
-         + [關於建立和解碼追蹤標籤的工具](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [產生點選追蹤URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [解碼點選追蹤URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [產生Adobe廣告轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + 用於建立和解碼追蹤標籤的工具{#tracking}
+      + [關於建立和解碼追蹤標籤的工具](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [產生點選追蹤URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [解碼點選追蹤URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [產生Adobe廣告轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 上傳轉換資料至廣告網路 {#upload-ad-networks}
       + [上傳轉換量度至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [啟用上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)
