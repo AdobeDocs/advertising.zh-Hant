@@ -1,7 +1,7 @@
 ---
 title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 以下是支援的廣告網路、行銷活動型別和廣告型別，以及每個型別可用的功能。
 
 | 來源 | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 搜尋網路 | 手動 | 文字 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 僅具有手動CPC競標策略的行銷活動 | 廣告層級資料 | Analytics資料至搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | [!DNL Google Ads] | 全部 [!DNL Google] 摘要 | 探索（測試版功能） | 探索（單一影像廣告）<br><br>探索輪播（多影像輪播廣告） | 透過API自動進行 | — | 是 | 僅限混合專案組合<br><br>競標和競標策略目標是在行銷活動層級設定，同時設定適用於最佳化型別的行銷活動預算。 | 廣告層級資料 | 搜尋、社交和商務的廣告層級資料（使用升級版） [s_kwcid追蹤程式碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 |  | 全部 | 標準最高效能（測試版功能） | 所有型別 | 透過API自動進行 | 在行銷活動檢視中的行銷活動設定內建立/編輯行銷活動，並上傳廣告資產<br><br>只有必要的設定可供使用。 如需選擇設定和列出群組，請登入[！DNL [!DNL Google Ads] Ads]編輯器。 | 是 | 僅限混合專案組合<br><br>競標策略目標與行銷活動預算一起設定於行銷活動層級。 | 行銷活動層級資料<br><br>清單群組的資料無法使用，且廣告網路未提供廣告層級資料。 | Analytics資料至搜尋、社交和商務<br><br>從搜尋、Social和Commerce到Analytics的行銷活動層級資料。 需要升級的 [s_kwcid追蹤程式碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
