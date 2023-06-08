@@ -1,9 +1,9 @@
 ---
 title: 必要的大量表單資料 [!DNL Google Ads] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Google Ads] 帳戶。
-source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
+source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
 workflow-type: tm+mt
-source-wordcount: '6630'
+source-wordcount: '8631'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 0%
 | 傳遞方法 | <p>每天顯示行銷活動廣告的速度如何：</p><ul><li><p><i>標準（分散式）</i> （新行銷活動的預設）：將廣告印象分散在一天當中。</p></li><li><p><i>加速：</i> （2019年10月淘汰）在達到預算前儘可能多地顯示廣告。 因此，您的廣告可能不會在當天稍後出現。</p></li></ul> |
 | 頻道型別 | <p>放置廣告的頻道。 指定一或多個選項：</p><ul><li class="p"><p><span style="font-style: italic;"><i>搜尋</i></span> （新行銷活動的預設值）：在Google搜尋網路(包括Google搜尋和Google搜尋合作夥伴網站)上放置廣告，也可選擇在Google顯示網路上放置廣告。 <b>注意：</b> 針對搜尋網路和顯示網路的行銷活動無法新增到產品組合以進行競標最佳化。</p></li><li class="p"><p><span style="font-style: italic;"><i>顯示</i></span>：僅將廣告放置在Google顯示網路上。</p></li><li class="p"><p><span style="font-style: italic;"><i>購物</i></span>：在Google Shopping （位於特定國家/地區）和Google搜尋網路(包括Google搜尋和Google搜尋合作夥伴網站)上放置購物廣告。 若要建立購物廣告，您必須在Google商家中心帳戶中擁有產品，並且 [允許搜尋、社交和商務從帳戶下載資料](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). 請參閱「[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)」以取得建立購物廣告流程的詳細資訊。</p></li></ul> |
 | 網路 | <p>廣告的放置位置。 指定一或多個選項：</p><ul><li class="p"><p><span style="font-style: italic;"><i>Google搜尋</i></span>：僅支援在Google搜尋網路上的搜尋清單。</p></li><li class="p"><p><span style="font-style: italic;"><i>搜尋合作夥伴</i></span>：Google搜尋合作夥伴的贊助搜尋清單。</p></li><li class="p"><p><span style="font-style: italic;"><i>內容</i></span>：對顯示網路清單進行競標。</p></li><li class="p"><p><span style="font-style: italic;"><i>全部</i></span> （新行銷活動的預設值）：目標Google搜尋、搜尋合作夥伴和內容。</p></li></ul> |
-| DSA網域名稱 | <p>（僅限搜尋網路；僅適用於擴充的動態搜尋廣告）廣告網路將用來鎖定動態搜尋廣告之內容的網站的根網域(例如example.com)或子網域(例如shoes.example.com)。<br><br><b>附註：</b></p><ul><li><p>展開動態搜尋廣告的目標是網站內容，而非關鍵字。</p></li><li><p>您的網域必須依廣告網路的自然搜尋索引編制索引，才能定位。</p></li><li><p>如果您未指定網域，則需要建立動態搜尋目標，為每個廣告群組鎖定所有網站頁面或其子集。</p></li></ul> |
+| DSA網域名稱 | <p>（僅限搜尋網路；僅適用於擴充的動態搜尋廣告）廣告網路用來鎖定動態搜尋廣告之內容的網站根網域(例如example.com)或子網域(例如shoes.example.com)。<br><br><b>附註：</b></p><ul><li><p>展開動態搜尋廣告的目標是網站內容，而非關鍵字。</p></li><li><p>您的網域必須依廣告網路的自然搜尋索引編制索引，才能定位。</p></li><li><p>如果您未指定網域，則必須建立動態搜尋目標，針對每個廣告群組鎖定所有網站頁面或其子集。</p></li></ul> |
 | DSA網域語言 | （僅限搜尋網路；僅適用於展開的動態搜尋廣告）指定網站網域的語言。 <b>注意：</b> 如果網域包含多種語言的頁面，而您想要鎖定所有頁面，請針對每種語言建立個別的行銷活動。 |
 | GDN自訂競標層級 | （僅針對顯示網路的行銷活動）競標方式：依據 <span style="font-style: italic;"><i>廣告群組</i></span> （預設）， <span style="font-style: italic;"><i>關鍵字</i></span>， <span style="font-style: italic;"><i>刊登</i></span> （網站），或 <span style="font-style: italic;"><i>無</i></span> （重設現有值）。 其他維度(<span style="font-style: italic;"><i>年齡</i></span>， <span style="font-style: italic;"><i>性別</i></span>， <span style="font-style: italic;"><i>興趣和清單</i></span>， <span style="font-style: italic;"><i>主題</i></span>、和 <span style="font-style: italic;"><i>垂直</i></span>)可從Google Ads介面取得。 如果您已使用Google Ads介面設定其他維度的競標，則會顯示該值，但您無法在這裡選取或輸入這些維度。</p><p><b>注意：</b></p><ul><li><p>當您依據關鍵字競標時，請在關鍵字層級建立追蹤範本。 同樣地，當您依版位競標時，請在版位層級建立追蹤範本。 針對所有其他維度，在廣告層級建立追蹤範本。</p></li><li><p>如果您以不支援的維度（年齡、性別、興趣和清單或主題）競標，搜尋、社交和商務不會最佳化維度的競標，而所有歸因都會套用至廣告群組。</p></li><li><p>搜尋網路上的廣告一律會使用關鍵字競標。</p></li></ul> |
 | 行銷活動優先順序 | <p>（僅限購物行銷活動）當多個行銷活動廣告相同產品時，使用行銷活動的優先順序：  <span style="font-style: italic;"><i>低</i></span> （新行銷活動的預設值）， <span style="font-style: italic;"><i>中</i></span>，或 <span style="font-style: italic;"><i>高</i></span>.</p><p>當相同產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）符合廣告拍賣的資格。 當所有行銷活動具有相同的優先順序時，則符合最高競價的行銷活動條件。 |
 | 商家ID | （僅限連結至商家摘要的購物行銷活動和對象行銷活動）其產品用於行銷活動的商家帳戶的客戶ID。 |  |
 | 銷售國家 | （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動產品銷售的國家/地區。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。 |
 | 產品範圍篩選器 | (僅使用Google購物網路的行銷活動)您的Google商家中心帳戶中的產品，可針對行銷活動建立購物廣告。 您可以使用格式dimension=attribute，輸入最多七個產品維度和屬性組合，以篩選產品。 使用「>>」分隔符號分隔多個篩選器。 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).」</p><p>範例：「CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies」</p><p>若要刪除現有值，請使用值 <span class="Code">[刪除]</span> （包括括弧）。</p> |
-| 語言 | <p>（僅限搜尋和顯示網路）行銷活動中廣告的目標語言。</p><p>如果您沒有為此欄位或新促銷活動的「地理定位」欄位輸入值，則為帳戶指定的貨幣將決定預設語言，但具有未對應至特定語言（例如EUR）之貨幣的促銷活動將鎖定至所有語言。 如果您未輸入此欄位的值，但針對新促銷活動，在「地理定位」欄位中輸入值，則此預設值為 <span style="font-style: italic;"><i>全部</i></span>. 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定所有語言，請輸入 <span style="font-style: italic;"><i>全部</i></span>. 若要鎖定特定語言，請使用下列其中一項，輸入以分號分隔的值： <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">Google的語言名稱</a> (例如 <span style="font-style: italic;"><i>英文；日文</i></span>，此資訊會以正確的數值代碼取代)或數值代碼(例如 <span style="font-style: italic;"><i>1000；1005</i></span>)。 值不區分大小寫。</p> |
+| 語言 | <p>（僅限搜尋和顯示網路）行銷活動中廣告的目標語言。</p><p>如果您沒有為此欄位或新促銷活動的「地理定位」欄位輸入值，則為帳戶指定的貨幣會決定預設語言，但貨幣未對應至特定語言的促銷活動（例如EUR）會鎖定至所有語言。 如果您未輸入此欄位的值，但針對新促銷活動，在「地理定位」欄位中輸入值，則此預設值為 <span style="font-style: italic;"><i>全部</i></span>. 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定所有語言，請輸入 <span style="font-style: italic;"><i>全部</i></span>. 若要鎖定特定語言，請使用下列其中一項，輸入以分號分隔的值： <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">Google的語言名稱</a> (例如 <span style="font-style: italic;"><i>英文；日文</i></span>，此資訊會以正確的數值代碼取代)或數值代碼(例如 <span style="font-style: italic;"><i>1000；1005</i></span>)。 值不區分大小寫。</p> |
 | 位置 | 為促銷活動放置廣告或排除廣告的地理位置。 如果您未針對新促銷活動在此欄位或「語言」欄位中輸入任何值，則為帳戶指定的貨幣會決定預設地點，但貨幣未對應至特定地點的促銷活動（例如EUR）會鎖定至所有地點。 如果您未輸入此欄位的值，但在 [!UICONTROL Languages] 欄位輸入新的促銷活動，則預設為 <i>全部</i>. 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定特定位置，請使用下列其中一項 [Google的位置名稱](https://developers.google.com/adwords/api/docs/appendix/geotargeting) （以正確數字代碼取代）或地點代碼：</p><ul><li><p>國家/地區：輸入國家/地區名稱(例如 <span style="font-style: italic;"><i>美國；日本</i></span>)或數值代碼(例如 <span style="font-style: italic;"><i>2840；2392</i></span>)。</p></li><li><p>州/省/地區：輸入州/省/地區名稱以及相關國家/地區的縮寫(例如 <span style="font-style: italic;"><i>東京，JP；美國紐約</i></span>)或數值代碼(例如 <span style="font-style: italic;"><i>20636；21167</i></span>)。</p></li><li><p>非美國城市：輸入城市名稱、州/省/地區名稱，以及國家/地區縮寫(例如 <span style="font-style: italic;"><i>安達市、東京、JP；北多市、東京、JP</i></span>)或數值代碼(例如 <span style="font-style: italic;"><i>1028850；1009293</i></span>)</p></li><li><p>US metro areas：輸入城市名稱、州名和國家/地區縮寫(例如 <span style="font-style: italic;"><i>Buffalo NY，美國；New York NY，美國</i></span>)或數值代碼(例如 <span style="font-style: italic;"><i>514；501</i></span>)。</p></li></ul><p>若要排除位置，請在位置名稱或程式碼前面加上減號(-)，例如 <span style="font-style: italic;"><i> — 日本</i></span>.</p><p><b>注意：</b> 值不區分大小寫。</p> |
 | 位置型別 | （當您包含位置時） [位置型別](https://developers.google.com/google-ads/api/data/geotargets). |
 | 裝置 | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>智慧型手機</i>， <i>平板電腦</i>，或 <i>案頭</i>. |
@@ -45,7 +45,7 @@ ht-degree: 0%
 | 行動電信業者(Google Adwords) | <p>（僅限舊版促銷活動型別；適用於裝置目標包含「全部」或「智慧型手機」時）智慧型手機可能連線的行動電信業者： <span style="font-style: italic;"><i>全部</i></span>，或一或多個電信業者，由以下專案表示： &lt;c span=&quot;&quot; id=&quot;2&quot; translate=&quot;no&quot; />電信業者代碼</i></span>>，&lt;<span style="font-style: italic;"><i>國家/地區代碼</i></span>> （例如T-Mobile、US）使用 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">Google Ads的可用電信業者和代碼</a>. <span style="font-style: italic;"><i>以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為 <span style="font-style: italic;"><i>全部</i></span>.</p> |
 | 廣告群組名稱 | <p>識別廣告群組的唯一名稱。 長度上限為255個字元；結尾的空白字元不會儲存（例如「廣告群組1」會儲存為「廣告群組1」）。 此欄位不適用於行銷活動層級的網站連結或行銷活動層級的裝置目標。</p> |
 | 廣告群組型別 | <p>廣告群組型別： <span class="Option">探索</span> （僅適用於探索行銷活動）， <span class="Option">顯示</span> （適用於顯示行銷活動）， <span class="Option">搜尋動態</span> （適用於展開的動態搜尋廣告）， <span class="Option">Search Standard</span> （適用於搜尋廣告）、 <span class="Option">購物產品</span> （適用於購物產品廣告）， <span class="Option">購物展示</span> （不支援建立和編輯），或 <span class="Option">未知</span>.</p> |
-| 最大CPC | <p>（僅限CPC行銷活動）最高每次點按成本(CPC)，這是在廣告網路上，無論是否有貨幣符號和標點符號，您為廣告點按會支付的最高金額。 您可以設定廣告群組和關鍵字、產品群組及動態搜尋目標的值。 新關鍵字的預設值繼承自廣告群組層級。 對於產品群組，您可以設定最低產品群組層的值；新層的預設值繼承自父層。</p><p>對於最佳化產品組合中的現有產品群組和動態搜尋目標，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。</p><p><b>注意：</b> 對於版位，請使用「最大版位CPC」欄位。</p> |
+| 最大CPC | <p>（僅限CPC行銷活動）最高每次點按成本(CPC)，這是在廣告網路上為廣告點按支付的最高金額，無論是否包含貨幣符號和標點符號。 您可以設定廣告群組和關鍵字、產品群組及動態搜尋目標的值。 新關鍵字的預設值繼承自廣告群組層級。 對於產品群組，您可以設定最低產品群組層的值；新層的預設值繼承自父層。</p><p>對於最佳化產品組合中的現有產品群組和動態搜尋目標，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。</p><p><b>注意：</b> 對於版位，請使用「最大版位CPC」欄位。</p> |
 | 最大內容CPC | <p>（僅限CPC行銷活動）最高內容每次點按成本(CPC)，這是從顯示網路網站支付廣告點按的最高金額，無論是否有貨幣符號和標點符號。 您可以設定和編輯非定位位置之行銷活動中的廣告群組層級值。</p> |
 | 對象目標方法 | <p>（僅搜尋網路上的行銷活動，以及顯示網路上的現有唯讀Gmail行銷活動）是否：</p><ul><li><p><span style="font-style: italic;"><i>目標與競標</i></span>：只向與目標對象相關聯且滿足廣告群組任何其他目標的使用者顯示廣告。</p></li><li><p><span style="font-style: italic;"><i>僅限競標</i></span>：只要未與目標對象相關聯的使用者符合其他廣告群組層級目標，即可對他們顯示廣告。</p><p>不過，您可以針對特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。</p></li></ul> |
 | 關鍵字 | 關鍵字字串。 長度上限為80個字元且不能超過10個字詞，而且只能包含字母、數字和下列特殊字元：空格 `# $ & _ - " [ ] ' + . / :`</p><p><b>注意：</b></p><ul><li><p>若要在廣告群組或行銷活動層級排除關鍵字，請將「比對型別」設定為 <span style="font-style: italic;"><i>負面</i></span>. 如果列包含廣告群組名稱，則會排除廣告群組的關鍵字。 如果列不包含廣告群組名稱，則會在整個行銷活動中排除關鍵字。</p></li><li><p>變更Google Ads關鍵字或相符型別，會刪除現有關鍵字並建立新關鍵字。</p></li></ul> |
@@ -58,16 +58,16 @@ ht-degree: 0%
 | 第一頁競標 | （包含在產生的Bulksheet中以供參考）在搜尋結果的第一頁放置廣告所需的競標。 此值未發佈到廣告網路。 |
 | 品質分數 | （包含在產生的Bulksheet中以供參考）搜尋引擎已指派給關鍵字的目前品質分數。 此值未發佈到廣告網路。) |
 | 創意偏好裝置 | （文字廣告、展開的動態搜尋廣告和增強型網站連結；選用）您偏好顯示廣告的裝置型別： <span style="font-style: italic;"><i>全部</i></span> （預設）或 <i>行動</i>. 時間 <i>行動</i> 指定，網路會嘗試向行動裝置使用者顯示廣告，而非案頭或平板電腦使用者。 否則，網路會在任何裝置型別上顯示廣告。</p><p><b>注意：</b></p><ul><li><p>僅管理員和 [!DNL Adobe] 帳戶管理員使用者可以編輯此設定。</p></li><li><p>網路不保證會在偏好的裝置型別上顯示廣告。</p></li><li><p>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p></li></ul> |
-| 廣告標題，廣告標題2-15 | （僅限展開的文字廣告和回應式搜尋廣告）廣告的標題，每個標題以垂直垂直垂直垂直線隔開( | )。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂器的值）。</p><p>對於回應式搜尋廣告，廣告標題、廣告標題2和廣告標題3為必填，所有其他廣告標題欄位為選用。 若要刪除非必要欄位的現有值，請使用值 [刪除]</code> （包括括弧）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising： `{CUSTOMIZER.Attribute name:default text}`，例如 `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。 |
-| 廣告標題1-15位置 | <p>（僅限回應式搜尋廣告；選用）釘選對應廣告標題的位置： `[null]` （沒有值，因此廣告標題適用於所有職位）、 <i>1</i>， <i>2</i>，或 <i>3</i>. 例如，如果「廣告標題位置」的值為1，則「廣告標題」將僅出現在「位置1」中。 依預設，所有廣告標題均為Null （沒有值）。</p><p>若要刪除現有值，請使用值 [刪除]</code> （包括括弧）。</p><p><b>注意：</b> 您可以將多個廣告標題釘選至相同位置。 廣告網路將使用已釘選至該位置的其中一個廣告標題。 釘選到位置3的標題可能不會與廣告一起顯示。</p> |
-| 說明第1-4行 | <p>（僅限延展的動態搜尋廣告、延展的文字廣告和回應式搜尋廣告）廣告內文。 每個說明欄位的長度上限為90個字元或45個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂器的值）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising： `{CUSTOMIZER.Attribute name:default text}`，例如 `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>對於展開的動態搜尋廣告，請僅使用「說明第1行」和「說明第2行」。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p><p>對於回應式搜尋廣告，「說明第1行」與「說明第2行」為必要專案，「說明第3行」與「說明第4行」為選擇性專案。 若要刪除現有值，請使用值 [刪除]</code> （包括括弧）。</p> |
-| 說明第1-4行位置 | （僅限回應式搜尋廣告；選用）釘選對應說明的位置： `[null]` （沒有值，因此說明適用於所有職位）、 <i>1</i>， <i>2</i>，或 <i>3</i>. 例如，如果「描述1位置」的值為1，則「描述1」將僅出現在「位置1」中。 依預設，不會將任何說明釘選到位置。</p><p>若要刪除現有值，請使用值 `[delete]` （包括括弧）。</p><p><b>注意：</b> 您可以將多個說明釘選到相同位置。 廣告網路將使用已釘選至位置的其中一個說明。 釘選到位置2的說明可能不會與廣告一起顯示。 |
+| 廣告標題，廣告標題2-15 | （僅限展開的文字廣告和回應式搜尋廣告）廣告的標題，每個標題以垂直垂直垂直垂直線隔開( | )。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂器的值）。</p><p>對於回應式搜尋廣告，廣告標題、廣告標題2和廣告標題3為必填，所有其他廣告標題欄位為選用。 若要刪除非必要欄位的現有值，請使用值 <code>[刪除]</code> （包括括弧）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft® Advertising： `{CUSTOMIZER.Attribute name:default text}`，例如 `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。 |
+| 廣告標題1-15位置 | <p>（僅限回應式搜尋廣告；選用）釘選對應廣告標題的位置： `[null]` （沒有值，因此廣告標題適用於所有職位）、 <i>1</i>， <i>2</i>，或 <i>3</i>. 例如，如果「廣告標題位置」的值為1，則「廣告標題」僅會出現在位置1。 依預設，所有廣告標題均為Null （沒有值）。</p><p>若要刪除現有值，請使用值 <code>[刪除]</code> （包括括弧）。</p><p><b>注意：</b> 您可以將多個廣告標題釘選至相同位置。 廣告網路使用已釘選至該位置的其中一個廣告標題。 釘選到位置3的標題可能不會與廣告一起顯示。</p> |
+| 說明第1-4行 | <p>（僅限延展的動態搜尋廣告、延展的文字廣告和回應式搜尋廣告）廣告內文。 每個說明欄位的長度上限為90個字元或45個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂器的值）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft® Advertising： `{CUSTOMIZER.Attribute name:default text}`，例如 `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>對於展開的動態搜尋廣告，請僅使用「說明第1行」和「說明第2行」。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p><p>對於回應式搜尋廣告，「說明第1行」與「說明第2行」為必要專案，「說明第3行」與「說明第4行」為選擇性專案。 若要刪除現有值，請使用值 <code>[刪除]</code> （包括括弧）。</p> |
+| 說明第1-4行位置 | （僅限回應式搜尋廣告；選用）釘選對應說明的位置： `[null]` （沒有值，因此說明適用於所有職位）、 <i>1</i>， <i>2</i>，或 <i>3</i>. 例如，如果「描述1位置」的值為1，則「描述1」僅出現在「位置1」中。 依預設，不會將任何說明釘選到位置。</p><p>若要刪除現有值，請使用值 `[delete]` （包括括弧）。</p><p><b>注意：</b> 您可以將多個說明釘選到相同位置。 廣告網路使用已釘選至位置的其中一個說明。 釘選到位置2的說明可能不會與廣告一起顯示。 |
 | 顯示URL | 廣告中包含的URL。<br><br>對於展開的動態搜尋廣告，Google Ads會從網站網域動態產生此值，您不需要輸入值。<br><br>對於回應式搜尋廣告，您不需要輸入值。 系統會自動從最終URL的網域中擷取顯示URL。 您可以選擇使用「路徑1」和「路徑2」欄位自訂URL。<br><br>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。<br><br><b>注意：</b> （具有最終URL的帳戶）顯示URL和最終URL中的網域名稱必須相符。</p> |
-| 顯示路徑1 | <p>(展開的文字廣告<span> 和回應式搜尋廣告</span> 僅限)</p><p>（選用）新增至顯示URL的文字，會自動從最終URL擷取。 在URL前面有正斜線(/)。 路徑不能包含正斜線(/)或新行(\n)字元。 長度上限為15個字元或7個雙位元組字元。</p><p>若要插入廣告自訂程式，請使用以下格式，其中 `Default text` 是當摘要檔案未包含有效值時要插入的選用值：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Microsoft Advertising： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>例如，如果顯示路徑1是&quot;deals&quot;，則顯示URL會是&lt;<i>顯示URL</i>>/deals，例如www.example.com/deals。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p> |
-| 顯示路徑2 | 附加顯示路徑；請參閱「顯示路徑1」專案。<br><br>範例：如果顯示路徑1是&quot;deals&quot;，而顯示路徑2是&quot;local&quot;，則顯示URL會是&lt;<i>顯示URL</i>>/deals/local，例如www.example.com/deals/local。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p> |
+| 顯示路徑1 | <p>(展開的文字廣告<span> 和回應式搜尋廣告</span> 僅限)</p><p>（選用）新增至顯示URL的文字，會自動從最終URL擷取。 在URL前面有正斜線(/)。 路徑不能包含正斜線(/)或新行(\n)字元。 長度上限為15個字元或7個雙位元組字元。</p><p>若要插入廣告自訂程式，請使用以下格式，其中 `Default text` 是當摘要檔案未包含有效值時要插入的選用值：</p><ul><li><p>Google Ads： `{CUSTOMIZER.AdCustomizerName:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Microsoft® Advertising： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>例如，如果顯示路徑1是&quot;deals&quot;，則顯示URL會是&lt;<i>顯示URL</i>>/deals，例如www.example.com/deals。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p> |
+| 顯示路徑2 | 第二個顯示路徑；請參閱「顯示路徑1」的專案。<br><br>範例：如果顯示路徑1是&quot;deals&quot;，而顯示路徑2是&quot;local&quot;，則顯示URL會是&lt;<i>顯示URL</i>>/deals/local，例如www.example.com/deals/local。</p><p>您無法建立或編輯文字廣告，但可以刪除展開的文字廣告，Google Ads已於2022年6月棄用。</p> |
 | 促銷行 | (僅適用於Google產品清單廣告)搜尋結果中產品清單所包含的選擇性促銷明細行。 長度上限為45個字元。</p><p>視廣告在頁面上的出現位置而定，促銷明細行可能會出現在與廣告相關的不同位置（例如廣告下方）。 |
 | 連結名稱 | <p>網站連結文字。 最多可包含25個字元。</p><p>若是新的網站連結，您必須在網站連結列中包含行銷活動名稱。 對於廣告群組層級網站連結，您還必須包含廣告群組名稱。</p><p><b>注意：</b> 35個字元的現有文字仍會顯示在桌上型電腦和平板電腦的廣告中，但不會顯示在行動裝置上。</p> |
-| 行動應用程式平台(Google Adwords) | （僅限現有應用程式安裝廣告）行動應用程式執行所在的作業系統： <i>android</i> 或 <i>ios</i>. |
+| 行動應用程式平台(Google Adwords) | （僅限現有應用程式安裝廣告）行動應用程式執行所在的作業系統： <i>Android™</i> 或 <i>ios</i>. |
 | 行動應用程式ID (Google Adwords) | （僅限現有應用程式安裝廣告） <p>應用程式ID或封裝名稱。 |
 | 行動應用程式名稱(Google Adwords) | （僅限現有應用程式安裝廣告）應用程式的名稱。 |
 | 開始日期 | <p>（僅限增強型網站連結）網站連結可能進行競標的第一天（以廣告商的時區及下列格式之一表示）： <span style="font-style: italic;"><i>m/d/yyyy</i></span>， <span style="font-style: italic;"><i>m/d/yy</i></span>， <span style="font-style: italic;"><i>M-d-yyyy</i></span>，或 <span style="font-style: italic;"><i>m-d-yy</i></span>. 新增強型網站連結的預設值為當天。</p><p><b>注意：</b> 新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
@@ -81,7 +81,7 @@ ht-degree: 0%
 | 創意型別 | 廣告格式： <i>文字廣告</i>， <i>展開的文字廣告</i>， <i>動態搜尋廣告</i> （已棄用的廣告型別）， <i>展開的動態搜尋廣告</i>， <i>顯示廣告</i>， <i>應用程式安裝廣告</i> （已棄用）， <i>影像</i> <i>產品廣告</i> （購物廣告），或 <i>回應式搜尋廣告</i>. 新廣告的預設為 <i>文字廣告</i>.<br><br>需要建立或編輯產品廣告的狀態。 |
 | Param1 | <p>的數值 `{param1}` 廣告引數，可包含在Bulksheet檔案中任何廣告的廣告復本或顯示URL中。 長度上限為25個字元，您可以包括下列非數字字元：</p><ul><li><p>值前面或後面可附加貨幣符號或代碼。 例如， `£2.000,00` 和 `2000GBP` 有效。</p></li><li><p>值可包含逗號(`,`)或句點(`.`)做為分隔符號，並加上選填的句號(`.`)或逗號(`,`)以取得小數值。 例如， `1,000.00` 和 `2.000,10` 有效。</p></li><li><p>值可以加上前置詞或百分比符號(`%`)，加號(`+`)或減號(`- `)。 例如， `20%`， `208+`、和 `-42.32` 有效。</p></li><li><p>兩個數字可內嵌於正斜線中。 例如， `4/1` 和 `0.95/0.45` 有效。</p></li></ul><p>若要刪除現有值，請使用值 `[delete]` （包括括弧）。</p> |
 | Param2 | 的數值 `{param2}` 廣告引數，可包含在Bulksheet檔案中任何廣告的廣告復本或顯示URL中。 如需詳細資訊，請參閱Param1專案。 |
-| 對象 | 搜尋廣告(RLSA)目標對象的再行銷清單，或行銷活動或廣告群組的已排除對象。 您將在「目標型別」欄位中指定它是目標還是排除專案。 |
+| 對象 | 搜尋廣告(RLSA)目標對象的再行銷清單，或行銷活動或廣告群組的已排除對象。 在「目標型別」欄位中指定它是目標或排除專案。 |
 | 目標型別 | （指定對象時）指定的對象是否為 <i>包含</i> （目標）或 <i>排除</i>. |
 | 行銷活動狀態 | 行銷活動的顯示狀態： <i>作用中</i>， <i>已暫停</i>， <i>已結束</i> （不可編輯），或 <i>已刪除</i> （僅限現有行銷活動）。 新行銷活動的預設為 <i>作用中</i>. 若要刪除作用中或已暫停的行銷活動，請輸入值 <i>已刪除</i>. |
 | 廣告群組狀態 | 廣告群組的顯示狀態： <i>作用中</i>， <i>已暫停</i>，或 <i>已刪除</i> （僅限現有廣告群組）。 新廣告群組的預設值為「作用中」。 若要刪除作用中或暫停的廣告群組，請輸入值 `Deleted`. |
@@ -99,7 +99,7 @@ ht-degree: 0%
 | 行銷活動ID | 可識別現有行銷活動的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 只有在您變更促銷活動名稱時才需要，除非該列包含促銷活動的「AMO ID」。 |
 | 廣告群組識別碼 | 可識別現有廣告群組的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 只有在您變更行銷活動名稱時才需要，除非該列包含廣告群組的「AMO ID」。 |
 | 關鍵字ID | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 只有在您變更關鍵字時才需要，除非該列包含a)足夠的屬性欄來識別關鍵字或b)「AMO ID」。 |
-| 廣告ID | <p>可識別現有廣告的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 對於回應式搜尋廣告，編輯或刪除廣告資料需要廣告ID或AMO ID。 對於所有其他實體型別，只有在您變更廣告狀態時才需要AMO ID，除非該列包含a)足夠的廣告屬性欄來識別廣告，或b)「AMO ID」。 不過，如果您既不包含廣告ID也不包含AMO ID，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。</p><p><b>注意：</b> 如果您編輯a)廣告屬性欄，但現有廣告的「狀態」除外，或b)回應式搜尋廣告的任何資料，且您既未包含廣告ID也未包含AMO ID，則會建立新廣告，且現有廣告不會變更。</p> |
+| 廣告ID | <p>可識別現有廣告的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 對於回應式搜尋廣告，編輯或刪除廣告資料需要廣告ID或AMO ID。 對於所有其他實體型別，只有在您變更廣告狀態時才需要廣告ID，除非該列包含a)足夠的廣告屬性欄來識別廣告或b)「AMO ID」。 不過，如果您既不包含廣告ID也不包含AMO ID，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。</p><p><b>注意：</b> 如果您編輯a)廣告屬性欄，但現有廣告的「狀態」除外，或b)回應式搜尋廣告的任何資料，且您既未包含廣告ID也未包含AMO ID，則會建立新廣告，且現有廣告不會變更。</p> |
 | 刊登ID | 可識別網站位置的唯一ID。 只有在您變更或刪除位置時才需要，除非該列包含a)足夠的屬性欄來識別位置或b)「AMO ID」。 |
 | 目標ID | 可識別現有自動目標的唯一ID。 只有在您變更或刪除自動目標時才需要，除非該列包含目標的「AMO ID」。 |
 | 產品群組識別碼 | 可識別現有產品群組的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 只有在您變更或刪除產品群組時才需要，除非該列包含a)足夠的屬性欄來識別產品群組或b)「AMO ID」。 |
@@ -143,7 +143,7 @@ ht-degree: 0%
 | \[廣告商特定標籤分類\] | 可選 |
 | 限制 | 可選 |
 | 行銷活動ID | 只有在您變更促銷活動名稱時才需要，除非該列包含促銷活動的「AMO ID」。 |
-| AMO ID | 不適用：建立<br><br>必要/選用：編輯或刪除 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 廣告群組欄位
 
@@ -162,82 +162,257 @@ ht-degree: 0%
 | 廣告群組狀態 | 可選：建立或編輯<br><br>必要：刪除 |
 | \[廣告商特定標籤分類\] | 可選 |
 | 限制 | 可選 |
-| 廣告群組識別碼 | 只有在您變更行銷活動名稱時才需要，除非該列包含廣告群組的「AMO ID」。 |
-| AMO ID | 編輯或刪除資料需要AMO ID，除非您包含實體ID和父實體ID。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| 廣告群組識別碼 | 只有在您變更廣告群組名稱時才需要，除非該列包含廣告群組的「AMO ID」。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
-<!-- 
+### 關鍵字欄位
 
-### Keyword fields
-
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Ad Group Name | Required  |
-| Max CPC | Optional |
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
-Keyword Status
-
-| Field | Required? | Description |
+| 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
-| Base URL/Final URL |  |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 最大CPC | 可選 |
+| 關鍵字 | 必填 |
+| 相符型別 | 可選：建立<br><br>必要/選用：編輯或刪除 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 可選 |
+| 自訂URL引數 | 可選 |
+| Param1 | 可選 |
+| Param2 | 可選 |
+| 關鍵字狀態 | 可選：建立或編輯<br><br>必要：刪除 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 限制 | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 關鍵字ID | 只有在編輯或刪除關鍵字時才需要，除非該列包含a)足以識別關鍵字的屬性欄或b)「AMO ID」。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
-### Placement fields
+### 位置欄位
 
-
-### Text/Product listing fields
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Expanded dynamic search ad
-
-This ad type is now called "dynamic search ad" in [!DNL Google Ads].
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Responsive search ad fields 
-
-This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Dynamic search target (auto target) fields
-
-
-### Shopping product group fields
-
-
-### Campaign-level and ad group-level sitelink fields
-
-
-### Location target fields
-
-| Field | Required? ]
-| ---- | ---- |
-| Location | Required: Create or edit<br><br>Optional: Delete |
-| Location Type | Optional  |
-
-## Campaign-level and ad group-level device target fields
-
-| Field | Required? | Description |
+| 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
-| Device Target Status | Optional |
-| Device Target ID | Required only when you change or delete the target, unless the row includes an &quot;AMO ID&quot; for the target. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 最大版位CPC (Google Adwords) | 可選 |
+| Max Placement CPM (Google Adwords) | 可選 |
+| 位置 | 必填 |
+| 相符型別 | 必填 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 可選 |
+| 自訂URL引數 | 可選 |
+| 位置狀態 | 可選：建立或編輯<br><br>必要：刪除 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 限制 | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 刊登ID | 只有在編輯或刪除位置時才需要，除非該列包含a)足以識別位置的屬性欄或b)「AMO ID」。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
+### 已展開的動態搜尋廣告
 
-## Campaign-level and ad group-level RLSA target/exclusion fields
+此廣告型別現在稱為「動態搜尋廣告」，位於 [!DNL Google Ads]. 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).」
 
--->
+對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 創意偏好裝置 | 可選 |
+| 說明第1-2行 | 建立廣告或編輯說明時需要。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。 |
+| 顯示URL | 必填 |
+| 追蹤範本 | 可選 |
+| 創意型別 | 需要建立或編輯產品廣告的狀態。 |
+| 廣告狀態 | 刪除廣告所需。 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 廣告ID | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄來識別廣告或b)「AMO ID」。 不過，如果您既不包含廣告ID也不包含AMO ID，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 產品清單/購物廣告欄位
+
+如需建立購物廣告的詳細資訊，請參閱&quot;[實施Google Ads購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).」
+
+對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 促銷行 | 可選 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 可選 |
+| 自訂URL引數 | 可選 |
+| 創意型別 | 需要建立或編輯產品廣告的狀態。 |
+| 廣告狀態 | 刪除廣告所需。 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 限制 | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 廣告ID | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄來識別廣告或b)「AMO ID」。 不過，如果您既不包含廣告ID也不包含AMO ID，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 回應式搜尋廣告欄位
+
+對於此廣告型別，請使用「[!UICONTROL Responsive Search Ad]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 | |
+| 廣告標題，廣告標題2-15 | 對於回應式搜尋廣告，廣告標題、廣告標題2和廣告標題3為必填，所有其他廣告標題欄位為選用。 若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。 |
+| 廣告標題1-15位置 | 可選 |
+| 說明第1-4行 | 對於回應式搜尋廣告，「說明第1行」與「說明第2行」為必要專案，「說明第3行」與「說明第4行」為選擇性專案。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| 說明第1-4行位置 | 可選 |
+| 顯示路徑1 | 可選 |
+| 顯示路徑2 | 可選 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 建立廣告所需。 |
+| 自訂URL引數 | 可選 |
+| 創意型別 | 可選 |
+| 廣告狀態 | 刪除廣告所需。 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 廣告ID | 編輯或刪除廣告時，除非該列包含「AMO ID」，否則為必要。 |
+| AMO ID | 除非您包含廣告ID，否則編輯或刪除廣告的必要專案。 |
+
+### 文字廣告欄位
+
+對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+>[!NOTE]
+>
+>擴充的文字廣告已於2022年6月淘汰。 您只能刪除現有的文字廣告。
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 創意偏好裝置 | 唯讀 |
+| 廣告標題，廣告標題2-3 | 唯讀 |
+| 說明第1-2行 | 唯讀 |
+| 顯示URL | 唯讀 |
+| 顯示路徑1 | 唯讀 |
+| 顯示路徑2 | 唯讀 |
+| 追蹤範本 | 唯讀 |
+| 基本URL/最終URL | 唯讀 |
+| 自訂URL引數 | 唯讀 |
+| 創意型別 | 可選 |
+| 廣告狀態 | 必填 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 廣告ID | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄來識別廣告或b)「AMO ID」。 不過，如果您既不包含廣告ID也不包含AMO ID，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 動態搜尋目標（自動鎖定目標）欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 最大CPC | 可選 |
+| 自動鎖定目標運算式 | 未啟用行銷活動設定「使用我的網站內容鎖定我的廣告」時為必要；否則為選用。 |
+| 相符型別 | 可選 |
+| 目標狀態 | 刪除目標所需 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 目標ID | 只有在您變更或刪除自動目標時才需要，除非該列包含目標的「AMO ID」。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 購物產品群組欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 必填 |
+| 最大CPC | 建立產品群組時需要。 |
+| 父級產品群組 | 必填 |
+| 產品群組 | 必填 |
+| 資料分割型別 | 建立產品群組時需要。 |
+| 相符型別 | 可選 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 必填 |
+| 產品群組狀態 | 只有在刪除產品群組時才需要。 |
+| \[廣告商特定標籤分類\] | 可選 |
+| 限制 | 可選 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 產品群組識別碼 | 只有在您變更或刪除產品群組時才需要，除非該列包含a)足夠的屬性欄來識別產品群組或b)「AMO ID」。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 行銷活動層級和廣告群組層級網站連結欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 廣告群組名稱 | 廣告群組層級網站連結的必要專案。 不適用於行銷活動層級的網站連結。 |
+| 創意偏好裝置 | 可選 |
+| 連結名稱 | 必填 |
+| 開始日期 | 可選 |
+| 結束日期 | 可選 |
+| 追蹤範本 | 可選 |
+| 基本URL/最終URL | 必填 |
+| 網站連結狀態 | 只有在刪除網站連結時才需要。 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 可選 |
+| 網站連結ID | 只有在您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄來識別網站連結或b)「AMO ID」。 不過，如果您未包含網站連結廣告ID或AMO ID，而且屬性欄符合多個網站連結，則只有其中一個網站連結的狀態會變更。<br><br><b>注意：</b> 如果您編輯現有網站連結的網站連結屬性欄（狀態除外），而且未包含網站連結ID或AMO ID，則會建立新的網站連結，且現有的網站連結不會變更。 |
+| AMO ID | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+### 位置目標欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 位置 | 需要建立或編輯位置目標。 |
+| 位置型別 | 可選 |
+| 競標調整 | 可選 |
+| 位置狀態 | 只有在刪除位置目標時才需要。 |
+| 行銷活動ID | 可選 |
+| AMO ID | 除非包含行銷活動ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+## 行銷活動層級和廣告群組層級裝置目標欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 裝置 | 需要建立或編輯裝置目標。 |
+| 競標調整 | 可選 |
+| 廣告群組名稱 | 廣告群組層級裝置目標的必要專案。 不適用於行銷活動層級的裝置目標。 |
+| 裝置目標狀態 | 只有在刪除裝置目標時才需要。 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 選用；僅適用於廣告群組層級裝置目標。 |
+| 裝置目標ID | 只有在您變更或刪除目標時才需要，除非列包含目標的「AMO ID」。 |
+| AMO ID | 除非您包含裝置目標ID，否則必須編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+
+## 行銷活動層級和廣告群組層級RLSA目標/排除欄位
+
+| 欄位 | 必填？ | 說明 |
+| ---- | ---- | ---- |
+| 帳戶名稱 | 除非每一列包含實體的「AMO ID」，否則為必要。 |
+| 行銷活動名稱 | 必填 |
+| 競標調整 | 可選 |
+| 廣告群組名稱 | 廣告群組層級目標和排除專案的必要專案。 不適用於行銷活動層級目標和排除。 |
+| 對象 | 建立新目標或排除專案時需要。 |
+| 目標型別 | 建立新目標或排除專案時需要。 |
+| RLSA目標狀態 | 只有在刪除目標或排除專案時才需要。 |
+| 行銷活動ID | 可選 |
+| 廣告群組識別碼 | 選用；僅適用於廣告群組層級目標和排除專案。 |
+| RLSA目標ID | 只有在您變更或刪除目標時才需要，除非列包含目標的「AMO ID」。 |
+| AMO ID | 除非包含RLSA目標ID，否則必須編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 [^1]： [!DNL Excel] 開啟檔案時，會將大型數字轉換為科學記號(例如2.12E+09 for 2115585666)。 若要檢視標準標籤法中的數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
@@ -249,4 +424,3 @@ This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Downloa
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
 >* [的點選追蹤格式 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)
-
