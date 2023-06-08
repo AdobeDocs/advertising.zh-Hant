@@ -1,9 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 位置
 description: 瞭解如何建立和管理可出價刊登版位 [!DNL Google Ads] 廣告群組。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]：** 內容網路上可顯示您廣告的網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在分隔行中輸入。URL不能包含問號(`?`)。 **注意：** 您可以 [排除網站位置](placement-negative-create.md) 從 [!UICONTROL Placements] > [!UICONTROL Negatives] 在廣告群組和行銷活動設定中檢視和。
+**[!UICONTROL Placements]：** 內容網路上可顯示您廣告的網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 URL不能包含問號(`?`)。 **注意：** 您可以 [排除網站位置](placement-negative-create.md) 從 [!UICONTROL Placements] > [!UICONTROL Negatives] 在廣告群組和行銷活動設定中檢視和。
 
 **[!UICONTROL Status]：** 位置的顯示狀態： *作用中* （啟用競標；預設）， *已暫停* （停用競標），或 *已刪除* （刪除版位；僅限現有版位）。
 
@@ -88,4 +88,3 @@ ht-degree: 0%
 >* [關於位置](placement-about.md)
 >* [建立負面版位](placement-negative-create.md)
 >* [變更刊登版位和負面刊登版位的狀態](placement-status-edit.md)
-

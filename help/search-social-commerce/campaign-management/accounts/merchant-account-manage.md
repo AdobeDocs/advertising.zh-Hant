@@ -1,9 +1,9 @@
 ---
 title: 管理商家帳戶
 description: 瞭解如何設定和管理商戶中心帳戶的帳戶詳細資料。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 在 [!UICONTROL Product Source] 功能表，選取商家中心。
 
-   1. (以下專案為必要： [!DNL Google Ads] 帳戶；選擇性的 [!DNL Microsoft Advertising] 帳戶)允許Search、Social和Commerce使用存取帳戶 [[!DNL OAuth] 授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22)：
+   1. (以下專案為必要： [!DNL Google Ads] 帳戶；選擇性的 [!DNL Microsoft Advertising] 帳戶)允許Search、Social和Commerce使用存取帳戶 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/)：
 
       1. ([!DNL Microsoft Advertising] 僅帳戶)選取 **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 **[!UICONTROL Product Source]：** 商家網路。 您無法變更現有帳戶的值。
 
-**[!UICONTROL OAuth Token]：** ([!DNL Google Merchant Center] 僅限帳戶)帳戶的Token，可授權使用 [[!DNL OAuth] 授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]：** ([!DNL Google Merchant Center] 僅限帳戶)帳戶的Token，可授權使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]：** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 僅限)是否授權以下使用者登入帳戶：
 
 * *[!UICONTROL Client login]：* 使用使用者端的登入。
 
-* *[!UICONTROL oAuth]* （預設）：若要使用 [[!DNL OAuth] 授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （預設）：若要使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]：** ([!DNL Microsoft Merchant Center] 僅限)開發人員帳戶使用的存取金鑰。
 
@@ -130,4 +130,3 @@ ht-degree: 0%
 >
 >* [關於廣告網路帳戶](ad-network-account-about.md)
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
-

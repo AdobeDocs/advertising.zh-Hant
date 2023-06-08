@@ -1,9 +1,9 @@
 ---
 title: 管理廣告網路帳戶
 description: 瞭解如何設定和管理廣告網路帳戶的帳戶詳細資料。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. 在 **[!UICONTROL Account Details]** 區段，輸入帳戶詳細資料。
 
-      對於使用登入授權型別的廣告網路」[!UICONTROL oAuth]，」允許Search、Social和Commerce使用存取帳戶 [Oauth授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22)：
+      對於使用登入授權型別的廣告網路」[!UICONTROL oAuth]，」允許Search、Social和Commerce使用存取帳戶 [Oauth授權通訊協定](https://oauth.net/2/)：
 
       1. 輸入 **[!UICONTROL Login]** 帳戶的值，選擇性地輸入密碼，然後按一下 **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ ht-degree: 0%
       1. 在開啟的彈出式視窗中複製驗證字串，並將該字串貼到 **[!UICONTROL oAuth Token]** 欄位。
 
       1. 指定剩餘的帳戶詳細資料。
-   1. 按一下 **[!UICONTROL Set Account Tracking]**，並輸入追蹤設定。
 
+   1. 按一下 **[!UICONTROL Set Account Tracking]**，並輸入追蹤設定。
 
 1. 按一下 **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者角色*
 
-如果Search、Social和Commerce使用存取該帳戶 [Oauth授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) 和帳戶認證變更，或需要其他存取權杖才能支援Search、Social和Commerce的新功能，則您必須取得帳戶的新存取權杖。
+如果Search、Social和Commerce使用存取該帳戶 [Oauth授權通訊協定](https://oauth.net/2/) 和帳戶認證變更，或需要其他存取權杖才能支援Search、Social和Commerce的新功能，則您必須取得帳戶的新存取權杖。
 
 如果您的新功能需要新的Token，您的Adobe帳戶團隊將會通知您。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： \[登入型別\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 僅限)是否授權以下使用者登入帳戶：
 
-* *[!UICONTROL oAuth]* （預設）：若要使用 [[!DNL OAuth] 授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* （預設）：若要使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
 
 * *[!UICONTROL Password]：* 使用使用者端的密碼。
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL Login]：** (所有廣告網路，除了 [!DNL Naver])可啟用帳戶API存取權的登入名稱或ID。
 
-**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled和其他所有網路，除了 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帳戶的Token，可授權使用 [[!DNL OAuth] 授權通訊協定](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled和其他所有網路，除了 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帳戶的Token，可授權使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有廣告網路，除了 [!DNL Naver])帳戶的密碼。 對於上的啟用密碼的帳戶 [!DNL Baidu]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此欄位為必填欄位。 對象 [!DNL oAuth]-enabled帳號，此欄位是選用欄位；當您想要加密並儲存密碼時，請使用該欄位，以便帳號管理員視需要重新整理Token。
 
@@ -172,7 +172,6 @@ ht-degree: 0%
 >
 >* 此欄位未由 [!UICONTROL Auto Upload] 追蹤設定。
 >* 較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同的追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
-
 
 **時區：** (所有廣告網路，但不包括 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])廣告商的時區。 此欄位可編輯，且是新欄位的選用欄位 [!DNL Naver] 帳戶。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告商的搜尋、社交和商務帳戶設定的時區自動填入值。
 
@@ -200,7 +199,6 @@ ht-degree: 0%
 >* 對象 [!DNL Google Ads]，請避免使用巨集，這類巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作來新增巨集。
 >* 最精細層級的追蹤範本會覆寫所有較高層級的值。 例如，如果帳戶設定和關鍵字設定都包含值，則會套用關鍵字值。
 >* 如果您在廣告、網站連結或關鍵字層級更新追蹤範本，則會重新提交相關廣告以供審閱。 您可以在帳戶、行銷活動或廣告群組層級更新追蹤範本，無需重新提交廣告進行核准。
-
 
 **[!UICONTROL Master Account ID]：** ([!DNL Microsoft Advertising] 僅限帳戶)與帳戶相關聯之機構/管理帳戶的ID。
 
@@ -259,4 +257,3 @@ ht-degree: 0%
 >* [關於廣告網路帳戶](ad-network-account-about.md)
 >* [管理商家中心帳戶](merchant-account-manage.md)
 >* [更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](update-skwcid-google.md)
-
