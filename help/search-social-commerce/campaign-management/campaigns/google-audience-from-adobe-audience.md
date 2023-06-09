@@ -1,9 +1,9 @@
 ---
 title: 建立 [!DNL Google Ads] 客戶比對對象來自 [!DNL Adobe] 對象
 description: 瞭解如何建立 [!DNL Google Ads] 客戶會比對來自您現有Adobe Analytics和Audience Manager對象的對象。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. （若要建立使用者ID再行銷清單對象） An [!DNL Adobe] 管理員使用者或帳戶管理員必須選取廣告商層級的設定，以啟用客戶比對受眾。 設定在具有Audience Manager的廣告商和具有 [!DNL Analytics] 僅限。
 
-   1. 實作 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) 2.0版或更新版本。
+   1. 實作 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 2.0版或更新版本。
 
    1. 在廣告商的網頁上儘可能部署以下標籤，並從中追蹤對象
 
@@ -80,11 +80,9 @@ ht-degree: 0%
 >
 >* 另請參閱 [[!DNL Google Ads] 有關customer match如何運作和限制的說明檔案](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [關於對象](audience-about.md)
 >* [建立 [!DNL Google Ads] 來自Adobe Campaign電子郵件清單的客戶比對對象](google-audience-from-campaign-email-list.md)
 >* [使用客戶資料清單管理客戶比對對象](audience-from-customer-data-list.md)
 >* [管理動態再行銷對象](audience-dynamic-remarketing-manage.md)
-
