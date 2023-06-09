@@ -1,9 +1,9 @@
 ---
 title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* 系統會保留下列字元，以指定樣版中的欄位名稱與修正因子名稱，因此禁止在所有屬性欄位中做為文字：  `[ ] < > `
 >* 在 [!DNL Yandex templates]，您可使用動態引數 `{param1}` 和 `{param2}` 僅能在URL中使用，且無法在廣告說明中使用動態價格插入。
-
 
 ## \[在所有索引標籤上方\]
 
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （僅限具有最終/進階URL的帳戶；選用）促銷活動層級追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級的設定，但更精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫此值。
 
-* 針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+* 針對Adobe Advertising轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
 
 * 若要內嵌最終URL：
 
@@ -107,7 +106,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]：* 對贊助商搜尋清單出價。
 
-   ([!DNL Google Ads] 行銷活動)若要將競標納入的清單 [!DNL Google Ads] 搜尋合作夥伴，選取「 」旁的核取方塊 **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] 行銷活動)若要將競標納入的清單 [!DNL Google Ads] 搜尋合作夥伴，選取「 」旁的核取方塊 **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]：* 若要對內容（顯示）網路清單中的位置投標。 **注意：** 您無法使用範本建立版位。 選取此選項時，請使用以下任一專案為每個廣告群組建立版位，並指定顯示網路上要鎖定每個廣告群組的頁面 <!-- insert link --> Bulksheets或 <!-- insert links --> 中的廣告群組和版位設定 [!UICONTROL Search] > [!UICONTROL Campaigns] 檢視。
 
@@ -135,11 +134,11 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （僅限具有最終/進階URL的帳戶）廣告群組層級追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。
 
-針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含「EF重新導向」和「自動上傳」時套用，當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤代碼。
+針對Adobe Advertising轉換追蹤（在行銷活動設定包含「EF重新導向」和「自動上傳」時套用），搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤代碼。
 
 針對協力廠商重新導向與追蹤，請輸入值。 若要指出登入頁面URL：
 
-* 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
+* 適用於Yahoo！ Japan Ads帳戶，使用引數 {lpurl}.
 
 * 如需Microsoft®Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「Tracking template only」引數（在的「可用ValueTrack引數」一節中）。 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
@@ -171,7 +170,7 @@ ht-degree: 0%
 
    * 靜態關鍵字：廣泛比對= `keyword`，廣泛比對修飾元= `+keyword`，或片語比對= `"keyword"`
 
-      您無法在這裡輸入具有完全相符和標準相符語法的靜態關鍵字，因為它們被括弧(`[]`)，例如動態引數。
+     您無法在這裡輸入具有完全相符和標準相符語法的靜態關鍵字，因為它們被括弧(`[]`)，例如動態引數。
 
 * 對象 [!DNL Yandex] 範本：
 
@@ -186,7 +185,6 @@ ht-degree: 0%
 * 不支援負相符專案。
 * Google廣泛比對修飾詞現在與某些語言的短語比對有相同的比對行為，而且您無法建立新的廣泛比對修飾詞關鍵字。 請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/10286719) 以取得詳細資訊。
 
-
 **[!UICONTROL Map Only]：** 將任何新廣告新增至廣告群組（或行銷活動） [!DNL Yandex] (accounts)，而不是建立新的關鍵字。 若要啟用此選項，請選取核取方塊。 啟用此選項後，指定關鍵字中的任何Param 1和Param 2變數都不會套用，因為關鍵字存在。
 
 **[!UICONTROL Keyword Final URL]：** （具有最終/進階URL的帳戶；選用）廣告網路使用者按一下您的廣告時所進入的登陸頁面URL。 它必須包含與顯示URL相同的網域，而且最終URL中的任何引數都必須符合廣告點選後登陸頁面URL中的引數。 其中可能包含登陸頁面網域或子網域內的重新導向，但登陸頁面網域外沒有重新導向。
@@ -194,9 +192,9 @@ ht-degree: 0%
 如果您使用 [!DNL Google Merchant Center] 並將此值包含在「[!DNL Link]&quot;欄，然後插入該欄位中。
 
 >[!NOTE]
+>
 * 如果您在張貼透過範本傳播的資料時產生追蹤URL，追蹤引數會根據帳戶追蹤設定附加至此值。
 * ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作來新增它們。
-
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
@@ -327,27 +325,27 @@ ht-degree: 0%
 如果您使用 [!DNL Google Merchant] 將摘要置中對齊，並將此值包含在&quot;[!UICONTROL Link]&quot;欄，然後插入該欄位中。
 
 >[!NOTE]
+>
 * 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
 * ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作來新增巨集。
 
-
 **[!UICONTROL Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
-針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+針對Adobe Advertising轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
 
 針對協力廠商重新導向與追蹤，請輸入值。 若要指出登入頁面URL：
 
-* 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
+* 適用於Yahoo！ Japan Ads帳戶，使用引數 {lpurl}.
 
 * 如需Microsoft®Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「Tracking template only」引數（在的「可用ValueTrack引數」一節中）。 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
 **\[原始廣告欄位下方的替代廣告欄位\]：** （可選）廣告的替代廣告復本集，可在原始廣告復本中的任何一行超過傳播期間填入資料的任何動態引數允許的最大長度時使用。
 
 >[!NOTE]
+>
 * 如果 [!UICONTROL Prefill] 選項時，則會使用原始欄位預先填入替代欄位，您可以視需要編輯它們。
 * 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題和原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
 * 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
-
 
 **\[元件\] [!UICONTROL Ad Label Classifications] > \[標籤分類和值\]：** （選用）最多5個現有標籤分類的值，可指派給使用範本建立或編輯的廣告變化。 針對您想要指派標籤分類的每個行銷活動元件：
 
@@ -384,10 +382,9 @@ ht-degree: 0%
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
-* [使用詳細目錄摘要管理行銷活動資料的工作流程](../inventory-feeds-workflow.md)
 * [管理修飾元](../modifiers-manage.md)
 * [管理詳細目錄資料摘要檔案](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [透過範本傳播摘要資料](../feed-data-propagate.md)
 * [從詳細目錄摘要張貼促銷活動資料至廣告網路](../propagated-data-post.md)
-

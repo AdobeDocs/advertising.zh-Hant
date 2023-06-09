@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Google Ads] 詳細目錄摘要的購物廣告範本設定」'
 description: 參考設定 [!DNL Google Ads] 詳細目錄摘要的購物廣告範本。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 系統會保留下列字元，以指定樣版中的欄位名稱與修正因子名稱，因此禁止在所有屬性欄位中做為文字：  `[ ] < > `
-
 
 ## \[在所有索引標籤上方\]
 
@@ -115,7 +114,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （選用）廣告群組層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本會覆寫此值。
 
-若為Adobe廣告轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
+若為Adobe Advertising轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
 
 針對協力廠商重新導向與追蹤，請輸入值。
 
@@ -158,9 +157,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
->* [使用詳細目錄摘要管理行銷活動資料的工作流程](../inventory-feeds-workflow.md)
 >* [管理修飾元](../modifiers-manage.md)
 >* [管理詳細目錄資料摘要檔案](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [透過範本傳播摘要資料](../feed-data-propagate.md)
 >* [從詳細目錄摘要張貼促銷活動資料至廣告網路](../propagated-data-post.md)
-

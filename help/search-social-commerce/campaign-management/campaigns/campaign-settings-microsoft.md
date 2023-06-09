@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Microsoft Advertising] campaign設定」'
 description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]：* 僅在搜尋網路上顯示文字廣告。
 
-* *[!UICONTROL Shopping Network]：* 在您的產品中顯示產品廣告和mdashl。 [!DNL Microsoft Merchant Center] 產品目錄 — 在購物網路上
+* *[!UICONTROL Shopping Network]：* 顯示產品廣告 — 針對您產品在 [!DNL Microsoft Merchant Center] 產品目錄 — 在購物網路上
 
 * *[!UICONTROL Audience]：* 在上顯示原生/顯示廣告 [!DNL Microsoft Audience Network]. 您可以a)將行銷活動連結至中的商家中心商店，以自動產生資訊源型廣告。 [!UICONTROL Shopping Settings] 或b)使用文字資產和上傳的影像建立回應式廣告。 這兩個選項都需要您以使用者目標定位來建立廣告群組。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Target CPA]：* （搜尋網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會根據選購專案最佳化出價 **[!UICONTROL Target CPA]** （每次收購成本），這是您要為收購（轉換）支付的30天平均金額。 **注意：** 此選項適用於混合專案組合（而非標準專案組合）中搭配任何支出策略的行銷活動，但下列情況除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
-   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
+  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
 * *[!UICONTROL Target Impression Share]：* （搜尋網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化出價，以實現目標曝光比重和廣告位置。 選擇性地輸入 **[!UICONTROL Target Impression Share]** 以百分比表示 **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次點按成本）。 **注意：** 混合專案組合不支援此選項。
 
 * *[!UICONTROL Target Return on Ad Spend]：*  （搜尋和購物網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會根據您的 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比表示。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 此選項適用於混合專案組合（而非標準專案組合）中搭配任何支出策略的行銷活動，但下列情況除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
-   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
+  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

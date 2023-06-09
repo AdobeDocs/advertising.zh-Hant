@@ -1,7 +1,7 @@
 ---
 title: 管理可競標的關鍵字
 description: 瞭解如何建立和管理搜尋廣告群組的可出價關鍵字。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
 
-您可以在中建立和編輯搜尋廣告群組的關鍵字 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 以搜尋和顯示/原生網路為目標 [已同步的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+您可以在中建立和編輯搜尋廣告群組的關鍵字 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 以內的搜尋和顯示/原生網路為目標 [已同步的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## 建立關鍵字
 
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. 在資料表格上方的工具列中，按一下 ![建立](/help/search-social-commerce/assets/add.png "建立").
+1. 在資料表格上方的工具列中，按一下 ![建立](/help/search-social-commerce/assets/add.png "建立").
 
 1. 選取廣告網路、帳戶、行銷活動和廣告群組，然後按一下 **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ ht-degree: 0%
 >* [[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)
 >* [建立負面關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [變更關鍵字和負關鍵字的狀態](keyword-status-edit.md)
-

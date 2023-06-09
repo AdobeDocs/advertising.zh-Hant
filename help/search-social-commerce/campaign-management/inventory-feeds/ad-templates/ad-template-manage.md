@@ -1,9 +1,9 @@
 ---
 title: 管理詳細目錄摘要的廣告範本
 description: 瞭解如何管理廣告範本，透過這些範本您可以處理詳細目錄資料，以管理帳戶結構和傳送動態廣告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
       1. 選取要複製的範本旁的核取方塊。
 
       1. 在資料表格上方的工具列中，按一下 **[!UICONTROL Create/Clone]**，然後選取適用的廣告網路。
-   * （若要編輯現有範本）按一下範本名稱旁的 ![檢視/編輯設定](/help/search-social-commerce/assets/settings.png "檢視/編輯設定").
 
+   * （若要編輯現有範本）按一下範本名稱旁的 ![檢視/編輯設定](/help/search-social-commerce/assets/settings.png "檢視/編輯設定").
 
 1. 指定「 」的設定 [文字廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft® Advertising] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
 
@@ -66,7 +66,6 @@ ht-degree: 0%
       >* 每個廣告群組最多可包含三個啟用的回應式搜尋廣告。
       >* 您無法編輯現有的標準文字廣告變化，且現有的範本不再產生標準文字廣告。
       >* 如果您變更廣告變數範本，則當您透過範本傳播資料時，可能會刪除現有廣告並建立新廣告。 [視廣告型別和廣告網路而定](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * 若要新增廣告變數，請執行下列動作：
 
@@ -107,6 +106,7 @@ ht-degree: 0%
                >* 您最多可以為每個廣告文案欄位指定四個替代項。
 
          * 若要移除廣告變數，請按一下 **[!UICONTROL Remove ETA Variation]** （適用於擴充/延伸文字廣告）或 **[!UICONTROL Remove RSA Variation]** （適用於回應式搜尋廣告）。
+
    1. （僅限購物範本）按一下 **[!UICONTROL Product Groups]** 標籤，然後指定您要鎖定的產品群組相關資訊。
 
    1. （可選）按一下 **[!UICONTROL Feed Filters]** 標籤，然後指定要在摘要檔案中傳播哪些列。
@@ -120,10 +120,6 @@ ht-degree: 0%
          1. 按一下 **[!UICONTROL Add Label Classification]**.
 
          1. 選取標籤分類，然後選取現有值或輸入新值。
-
-
-
-
 
 1. 儲存範本：
 
@@ -158,9 +154,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
->* [使用詳細目錄摘要管理行銷活動資料的工作流程](../inventory-feeds-workflow.md)
 >* [文字廣告和回應式搜尋廣告範本設定](template-text-rsa.md)
 >* [[!DNL Google Ads] 購物廣告範本設定](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] 購物廣告範本設定](template-microsoft-shopping.md)
 >* [透過範本傳播摘要資料](../feed-data-propagate.md)
-

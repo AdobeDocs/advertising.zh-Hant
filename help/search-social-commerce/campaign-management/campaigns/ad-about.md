@@ -1,9 +1,9 @@
 ---
 title: 管理廣告
 description: 瞭解搜尋、社交和商務中的廣告，包括可用的廣告型別。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ ht-degree: 0%
 
 * **擴充的動態搜尋廣告** （現在僅在廣告網路上稱為「動態搜尋廣告」） [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜尋促銷活動中的動態搜尋廣告群組。 動態搜尋廣告會使用您網站的內容（而非關鍵字）來決定何時顯示您的廣告。 廣告網路會動態產生標題、選擇登陸頁面URL和顯示URL，並自動產生最終URL。
 
-   您可以為廣告群組設定特定的動態搜尋目標，藉此定義網站中其內容用於鎖定動態搜尋廣告的頁面。 對象 [!DNL Google Ads]，您可以在「搜尋」、「社交」和「商務」中建立動態搜尋目標； [!DNL Microsoft® Advertising]，您必須在以下位置建立這些變數： [!DNL Microsoft® Advertising]. 在 [!DNL Google Ads] 行銷活動，您可以選擇在行銷活動的「 」中指定網站網域和語言[!DNL DSA Options]「 」區段，而非建立動態搜尋目標，或是建立動態搜尋目標以外的區段。
+  您可以為廣告群組設定特定的動態搜尋目標，藉此定義網站中其內容用於鎖定動態搜尋廣告的頁面。 對象 [!DNL Google Ads]，您可以在「搜尋」、「社交」和「商務」中建立動態搜尋目標； [!DNL Microsoft® Advertising]，您必須在以下位置建立這些變數： [!DNL Microsoft® Advertising]. 在 [!DNL Google Ads] 行銷活動，您可以選擇在行銷活動的「 」中指定網站網域和語言[!DNL DSA Options]「 」區段，而非建立動態搜尋目標，或是建立動態搜尋目標以外的區段。
 
-   當使用者的搜尋字詞與您其中一個關鍵字型行銷活動中的關鍵字完全相符時，會顯示關鍵字型行銷活動的廣告，而非動態搜尋廣告。 當使用者的搜尋字詞與您其中一個關鍵字相符且您的動態搜尋廣告擁有較高的廣告排名時，廣告網路會顯示動態搜尋廣告，而非以關鍵字為目標的廣告。
+  當使用者的搜尋字詞與您其中一個關鍵字型行銷活動中的關鍵字完全相符時，會顯示關鍵字型行銷活動的廣告，而非動態搜尋廣告。 當使用者的搜尋字詞與您其中一個關鍵字相符且您的動態搜尋廣告擁有較高的廣告排名時，廣告網路會顯示動態搜尋廣告，而非以關鍵字為目標的廣告。
 
-   如需有關的詳細資訊 [!DNL Google Ads] 動態搜尋廣告，請參閱https://support.google.com/google-ads/answer/2471185。 如需有關的詳細資訊 [!DNL Microsoft® Advertising] 動態搜尋廣告，請參閱https://help.ads.microsoft.com/#apex/ads/en/60037/0。
+  如需動態搜尋廣告的詳細資訊，請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2471185) 和 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **多媒體廣告** 的 [!DNL Microsoft® Advertising] 搜尋行銷活動。 多媒體廣告是以顯著的主線和側邊欄位置顯示的大型影像廣告，且每頁只會顯示一個多媒體廣告。 它們可以包含多個文字和影像資產，例如回應式廣告，而廣告網路會使用最有效的廣告元素組合來組合廣告。 多媒體廣告不會取代文字廣告位置。
 
 * 促銷行 **[!DNL Microsoft® Advertising]產品（購物）廣告** 在購物網路上。 購物廣告會使用您現有產品中的產品 [!DNL Microsoft® Merchant Center] 產品摘要（而非關鍵字）將決定顯示廣告的方式和位置。 廣告文案與登入頁面URL會根據摘要中的產品資訊自動產生，但您可以選擇設定促銷明細行，以納入廣告群組。
 
-   您可以控制哪些產品會與一起顯示 [!DNL Microsoft® Advertising] 購物廣告的方法為廣告群組設定個別的產品群組，這些產品群組來自 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 檢視。
+  您可以控制哪些產品會與一起顯示 [!DNL Microsoft® Advertising] 購物廣告的方法為廣告群組設定個別的產品群組，這些產品群組來自 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 檢視。
 
-   如需有關產品/購物廣告工作流程的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft® Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).」  如需有關產品廣告的其他資訊，請參閱 [Microsoft®廣告檔案](https://help.ads.microsoft.com/#apex/3/en/51082).
+  如需有關產品/購物廣告工作流程的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft® Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).」  如需有關產品廣告的其他資訊，請參閱 [Microsoft®廣告檔案](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * 的回應式搜尋廣告 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 搜尋網路上的行銷活動。 廣告網路會動態地從一組廣告標題和說明中組合文字型回應式搜尋廣告，以偏好同時表現良好的組合。 廣告最多包含三個標題、兩個說明，以及來自基本URL和選用的path1和path2欄位的可自訂URL。 您可以選擇將廣告標題和說明釘選至特定職位。
 
@@ -70,4 +70,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理廣告](ad-manage.md)
-

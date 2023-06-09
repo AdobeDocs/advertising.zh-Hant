@@ -1,9 +1,9 @@
 ---
 title: 關於本指南
 description: 瞭解本指南每個章節所涵蓋的內容。
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * 「行銷活動管理」說明如何設定和管理廣告網路帳戶的行銷活動元件。
 
-* 「見解和報表」說明如何產生廣告見解、產生詳細報表和自動化報表製作、建立和監控警報、檢視對廣告商帳戶進行的變更記錄，以及檢視和套用 [!DNL Google Ads] — 為您的帳戶產生的建議。
+* 「深入分析和報告」說明如何產生廣告深入分析、產生詳細報告並自動化報告製作、建立及監控警報、檢視對廣告商帳戶進行的變更記錄，以及檢視並套用廣告網路產生的建議給您的帳戶。
 
 * 「工具」說明如何變更密碼、使用工具產生點選追蹤和轉換追蹤標籤、將轉換量度上傳到 [!DNL Google Ads] 和您的產品組合目標至廣告網路，以進行混合最佳化、上傳量度以追蹤行銷活動，以及復寫您的 [!DNL Google Ads] 行銷活動在您的 [!DNL Microsoft Advertising] 帳戶。
 

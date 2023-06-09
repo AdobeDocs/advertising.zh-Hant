@@ -9,9 +9,9 @@ user-guide-description: 本指南說明管理、最佳化和報告您的搜尋�
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [必要的大量表單資料 [!DNL Yandex] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 使用詳細目錄摘要自動化行銷活動資料 {#inventory-feeds}
          + [關於使用庫存摘要自動化廣告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [使用詳細目錄摘要管理行銷活動資料的工作流程](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [清查摘要何時建立或刪除帳戶元件？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [設定摘要資料設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [管理摘要檔案](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
