@@ -7,9 +7,8 @@ archetype: end-user
 user-guide-title: Advertising Search、Social和Commerce指南
 user-guide-description: 本指南說明管理、最佳化和報告您的搜尋、社交和商務廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search、Social和Commerce指南
-index: false
-hide: true
-source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
