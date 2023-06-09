@@ -1,9 +1,9 @@
 ---
 title: 歸因規則的計算方式
 description: 瞭解Adobe Advertising如何計算每種型別的歸因規則。
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 歸因規則適用於任何頻道中付費廣告的點按次數，以及顯示廣告和社交廣告的曝光數。 它們不適用於付費搜尋廣告的曝光，無法在事件層級追蹤。
->* Adobe廣告一律會在轉換前為每個網路瀏覽者儲存下列事件： a)第一次付費點選； b)每個管道（搜尋、社交或顯示）最多10次點選，包括第一次點選；以及c)最多10次顯示曝光次數。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising一律會在轉換前為每個網路瀏覽者儲存下列事件： a)第一次付費點選； b)每個管道最多10次點選（搜尋、社交或顯示），包括第一次點選；以及c)最多10次顯示曝光次數。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * 在Advertising DSP和Advertising Creative中，跨裝置定義只會考慮所選歸因規則中的事件路徑。<!-- cross-device attribution via LiveRamp only -->
 * 在報表和管理檢視中，為某個值顯示的小數位數會依貨幣而定，但Adobe Advertising會儲存更精確的值。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 #### （僅限搜尋、Social和Commerce）使用10%的預設「曝光覆蓋權重」
 
-由於事件序列同時包含曝光次數和點按次數，因此曝光次數覆寫權數會套用至曝光次數。
+由於事件序列同時包含曝光次數和點按次數，因此曝光次數覆寫權數會套用至曝光。
 
 歸因： Impression 1 = 8 USD、Click 1 = 72 USD、Impression 2 = 4 USD、Click 2 = 36 USD （總計120 USD）
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 當轉換之前只有曝光時，轉換會被視為 *檢視*，此量度會根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
 
-當轉換路徑包含付費點按和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
+當轉換路徑包含付費點按和曝光數時，不同的Adobe廣告產品會以不同的方式處理曝光數：
 
 * 在搜尋、社交和商務中， [印象覆寫權重](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光次數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定的 — 會先套用至曝光次數。
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
 歸因： Impression 1 = 6 USD、Click 1 = 54 USD、Impression 2 = 6 USD、Click 2 = 54 USD （總計120 USD）
 
-#### 使用(僅限Adobe Advertising DSP)無曝光覆寫權重或（僅限搜尋、Social和Commerce） 0%的「曝光覆寫權重」
+#### 使用(僅限AdobeAdvertising DSP)無曝光次數覆寫權數，或（僅限搜尋、Social和Commerce） 0%的「曝光次數覆寫權數」
 
 由於事件序列同時包含曝光次數和點按次數，因此會忽略曝光次數。
 
@@ -295,13 +295,13 @@ ht-degree: 0%
 
 當轉換之前只有曝光時，轉換會被視為 *檢視*，此量度會根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
 
-當轉換路徑包含付費點按和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
+當轉換路徑包含付費點按和曝光數時，不同的Adobe廣告產品會以不同的方式處理曝光數：
 
 * 在搜尋、社交和商務中， [印象覆寫權重](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光次數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定的 — 會先套用至曝光次數。
 
 * 在DSP中，會忽略曝光數，只有點按次數會加權。 DSP不會將曝光次數覆寫權重納入歸因考量。
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![U形歸因百分比](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U形歸因百分比")
 
 <!-- start examples as collapsible content -->
 
