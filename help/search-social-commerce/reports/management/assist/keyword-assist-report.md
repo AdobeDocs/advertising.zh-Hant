@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: 瞭解 [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 以下是每個報表可用的欄。 預設會自動包含預設欄。 您可以從報表設定的「欄」區段中新增可用的自訂欄。
 
 | 欄 | 預設？ | 說明 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] 至 [!UICONTROL 5th Keyword] | 預設 | 轉換路徑中最早發生在廣告商的五個付費搜尋關鍵字或位置點按 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j).<br><br><b>注意：</b> 如果報表包含啟用內容搜尋行銷活動的版位（不包含關鍵字），則這些欄會顯示適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 |
 | [!UICONTROL Path Size] | 預設 | 轉換路徑中發生在廣告商內的關鍵字和/或版位數目 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | 預設 | 轉換路徑中的第一個關鍵字或位置。 |
@@ -51,4 +51,3 @@ ht-degree: 0%
 >* [此 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [協助報表設定](assist-report-settings.md)
 >* [產生協助報告](assist-report-generate.md)
-

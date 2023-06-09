@@ -1,7 +1,7 @@
 ---
 title: 關於通知
 description: 瞭解通知，包括不同的型別和類別。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 從 [!UICONTROL Notification Center] 網頁應用程式，隨即開啟 [!UICONTROL Notification Center] 在Search、Social和Commerce以外的獨立視窗中。
 
-   應用程式載入的速度比一般瀏覽器版本快，而且會自動更新。 您可以安裝應用程式，並使用瀏覽器的應用程式管理員來管理應用程式。
+  應用程式載入的速度比一般瀏覽器版本快，而且會自動更新。 您可以安裝應用程式，並使用瀏覽器的應用程式管理員來管理應用程式。
 
 * 從推播通知到瀏覽器。
 
-   當您啟用推播通知時，它們會根據瀏覽器的通知慣例顯示。
+  當您啟用推播通知時，它們會根據瀏覽器的通知慣例顯示。
 
 您可以檢視通知、將通知標示為已讀或未讀，以及刪除通知。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**： ：通知 [!UICONTROL Landing Page Suffix] 值不正確、遺失或包含不正確的SKWCID範本；或在較低層級被不正確的值覆寫。
 
-   * **[!UICONTROL Manager Account Missing ]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，適用於正確設定重要功能。
+   * **[!UICONTROL Manager Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，適用於正確設定重要功能。
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [編輯您的通知設定](notification-edit.md)
 >* [啟用和停用來自的推播通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [安裝並解除安裝 [!UICONTROL Notification Center] 網頁應用程式](notification-app-install-uninstall.md)
-

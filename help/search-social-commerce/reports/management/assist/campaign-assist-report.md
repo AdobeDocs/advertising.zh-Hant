@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: 瞭解 [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 以下是每個報表可用的欄。 預設會自動包含預設欄。 您可以從報表設定的「欄」區段中新增可用的自訂欄。
 
 | 欄 | 預設？ | 說明 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] 至 [!UICONTROL 5th Campaign] | 預設 | 轉換路徑中最早發生在廣告商內部的五個行銷活動 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j).<br><br>如果您在實體名稱后加入任何報表選項來指出廣告網路、帳戶名稱或事件型別，則行銷活動名稱后會加入該資訊(例如 `"<"campaign name> [Google] [Account1] [impression]`「)。 |
 | [!UICONTROL Path Size] | 預設 | 轉換路徑中在廣告商發生的行銷活動數 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | 預設 | 轉換路徑中的第一個行銷活動。 |
@@ -57,4 +57,3 @@ ht-degree: 0%
 >* [此 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [協助報表設定](assist-report-settings.md)
 >* [產生協助報告](assist-report-generate.md)
-

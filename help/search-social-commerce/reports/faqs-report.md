@@ -1,7 +1,7 @@
 ---
 title: 關於報表的常見問題集
 description: 瞭解效能報告的常見問題解答，包括疑難排解資料問題。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 網站連結的清單為 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
 
-   如果您包含網站連結，也可以識別網站連結。 [!UICONTROL Tracking URL] 欄中找出。 此 [!UICONTROL Tracking URL] （對於sitelink）包含屬性 `&ev_ltx=sl:<link-name>`.
+  如果您包含網站連結，也可以識別網站連結。 [!UICONTROL Tracking URL] 欄中找出。 此 [!UICONTROL Tracking URL] （對於sitelink）包含屬性 `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 * 點按基於日期的資料可能落在指定的日期範圍之外。
 
-   如果您使用報表引數»[!UICONTROL Conversions based on click date]，」則指定的日期範圍會套用至點按的日期，而不是交易的日期。 如果報表也使用歸因規則「第一個事件」或「最後一個事件」，則導致轉換的第一個或最後一個事件可能不在指定的日期範圍內。 例如，假設使用者在4月30日按一下Keyword_1，在5月20日按一下Keyword_2，然後在5月21日轉換。 如果報告使用&quot;[!UICONTROL First Event]&quot;歸因規則和5月1日至21日的日期範圍，則第一個事件（4月30日按一下Keyword_1）不會納入報告中。 如果您使用相同的日期範圍但使用&quot;[!UICONTROL Last Event]&quot;歸因規則，則轉換會包含在報表中，因為上次點按是在指定的日期範圍內。
+  如果您使用報表引數»[!UICONTROL Conversions based on click date]，」則指定的日期範圍會套用至點按的日期，而不是交易的日期。 如果報表也使用歸因規則「第一個事件」或「最後一個事件」，則導致轉換的第一個或最後一個事件可能不在指定的日期範圍內。 例如，假設使用者在4月30日按一下Keyword_1，在5月20日按一下Keyword_2，然後在5月21日轉換。 如果報告使用&quot;[!UICONTROL First Event]&quot;歸因規則和5月1日至21日的日期範圍，則第一個事件（4月30日按一下Keyword_1）不會納入報告中。 如果您使用相同的日期範圍但使用&quot;[!UICONTROL Last Event]&quot;歸因規則，則轉換會包含在報表中，因為上次點按是在指定的日期範圍內。
 
 * 產品組合篩選選擇會排除導致轉換的某些事件。
 
-   如果您針對投資組合的子集製作報表，則可能無法包含行銷活動，其中包含根據某一項歸因規則將轉換歸因於的事件。 例如，假設使用者從Portfolio_1按一下Keyword_1，從Portfolio_2按一下Keyword_2，然後轉換。 如果報告使用&quot;[!UICONTROL First Event]&quot;attribution規則，則Portfolio_1必須包含才能將轉換包含在報表中。 不過，如果報表使用「最後事件」歸因規則，則必須包含Portfolio_2。
+  如果您針對投資組合的子集製作報表，則可能無法包含行銷活動，其中包含根據某一項歸因規則將轉換歸因於的事件。 例如，假設使用者從Portfolio_1按一下Keyword_1，從Portfolio_2按一下Keyword_2，然後轉換。 如果報告使用&quot;[!UICONTROL First Event]&quot;attribution規則，則Portfolio_1必須包含才能將轉換包含在報表中。 不過，如果報表使用「最後事件」歸因規則，則必須包含Portfolio_2。
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 +++報表中缺少收入。
 
-### 使用Adobe廣告轉換標籤的廣告商
+**使用Adobe廣告轉換標籤的廣告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * 已新增關鍵字或廣告，但未在追蹤範本或目的地URL中加上搜尋、社交和商務點選追蹤首碼，或追蹤首碼不正確。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 * 未實作使用者端的收入剖析器。
 
-#### 可能的解決方案或因應措施
+*可能的解決方案或因應措施：*
 
 1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓交易屬性可供報表使用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ ht-degree: 0%
 
    如果客戶尚未啟動或剛啟動，客戶服務就會驗證是否已設定收入剖析器。 如果剖析器已設定，剖析器會驗證Search、Social和Commerce是否收到任何畫素轉換，並疑難排解問題。
 
-### 傳送轉換資料摘要的廣告商
+**傳送轉換資料摘要的廣告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * 摘要檔案未傳遞、未完全剖析，或摘要包含孤立交易。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 >
 >通常在收到摘要後2-4小時，資料才會出現在使用者介面中。
 
-#### 可能的解決方案或因應措施
+*可能的解決方案或因應措施：*
 
 1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓交易屬性可供報表使用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ ht-degree: 0%
 +++
 
 +++有些進階報表並不包含廣告商摘要提供的轉換資料。
-此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用透過Adobe廣告轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。 報表不包含在Adobe廣告轉換追蹤系統之外追蹤的轉換資料。
+此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用透過Adobe廣告轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。 報表不包含在Adobe Advertising轉換追蹤系統之外追蹤的轉換資料。
 +++
 
 +++收入資料與廣告商本身的收入資料不同。
 
-### 使用Adobe廣告轉換標籤的廣告商
+**使用Adobe Advertising轉換標籤的廣告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * Search、Social和Commerce會在Cookie過期或刪除時忽略收入，但廣告商可能會將其視為有效收入。
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 * 未在所有適用網頁上正確實作轉換追蹤標籤或已編輯。
 
-#### 可能的解決方案或因應措施
+*可能的解決方案或因應措施：*
 
 1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 將Search、Social和Commerce收到的交易與廣告商的資料進行比較。
 
@@ -235,13 +235,13 @@ ht-degree: 0%
 
    客戶服務將嘗試識別缺少的交易，然後檢查是否有孤立的交易和非來自廣告的交易（「不相關的轉換」）。
 
-### 具有轉換資料摘要的廣告商，使用 `ef_id` 值
+**具有轉換資料摘要的廣告商，使用 `ef_id` 值**
 
 檢視上述畫素實施的可能原因和解決方案。
 
-### 具有使用交易ID的轉換資料摘要的廣告商
+**具有使用交易ID的轉換資料摘要的廣告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * Search、Social和Commerce會在Cookie過期或被刪除時忽略收入，但廣告商可能會將其視為有效收入。
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 * 發生具有相同交易ID的線上交易之前，已報告離線轉換。 線上交易必須先發生。
 
-#### 可能的解決方案或因應措施
+*可能的解決方案或因應措施：*
 
 1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 比較Search、Social和Commerce收到的交易與廣告商的摘要資料。
 
@@ -259,9 +259,9 @@ ht-degree: 0%
 
    客戶服務將檢查資料剖析錯誤，並且 [孤立交易](/help/search-social-commerce/glossary.md#o-p).
 
-### 具有其他轉換資料摘要型別的廣告商
+**具有其他轉換資料摘要型別的廣告商**
 
-#### 可能的原因
+*可能的原因：*
 
 * Search、Social和Commerce會在Cookie過期或刪除時忽略收入，但廣告商可能會將其視為有效收入。
 
@@ -279,7 +279,7 @@ ht-degree: 0%
 
 * 廣告商的重複資料刪除邏輯與搜尋、社交和商務邏輯不同。
 
-#### 可能的解決方案或因應措施
+*可能的解決方案或因應措施：*
 
 1. 前往 **[!UICONTROL Insights]和[!UICONTROL Reports > Reports]** 並產生 [!UICONTROL Transaction Report]. 將Search、Social和Commerce收到的交易與廣告商的資料進行比較。
 
@@ -311,8 +311,8 @@ ht-degree: 0%
 廣告網路未提供將收入歸因於這些促銷活動的個別廣告所需的識別碼。 因此，廣告層級的成效資料不適用於 [!UICONTROL Ads] 在「 」中檢視或 [!UICONTROL Ad Variation Report]. 預計行銷活動的廣告層級資料總計與行銷活動資料總計之間會不符。
 +++
 
-+++在 [!UICONTROL Transaction Report]，如何知道哪個交易屬性來自資料摘要或由Adobe廣告追蹤畫素追蹤？
-在交易報表中，如果您包含自訂欄「 」，您可以分辨包含的交易屬性是否由Adobe廣告追蹤畫素追蹤[!UICONTROL Tracking URL].」 以AdobeAdvertising追蹤畫素來追蹤URL的開頭為&quot;`http://pixel.everesttech.net`.」
++++在 [!UICONTROL Transaction Report]，如何知道哪個交易屬性來自資料摘要或由Adobe Advertising追蹤畫素追蹤？
+在交易報表中，如果您包含自訂欄，您可以分辨是否有Adobe Advertising追蹤畫素追蹤包含的交易屬性」[!UICONTROL Tracking URL].」 以AdobeAdvertising追蹤畫素來追蹤URL的開頭為&quot;`http://pixel.everesttech.net`.」
 +++
 
 +++我的中的資料 [!UICONTROL Transaction Report] 不符合「 」中的資料 [!UICONTROL Keyword Report].
