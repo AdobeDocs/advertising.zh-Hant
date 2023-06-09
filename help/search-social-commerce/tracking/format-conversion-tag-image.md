@@ -1,7 +1,7 @@
 ---
 title: 影像轉換追蹤標籤的格式
 description: 參考影像轉換追蹤標籤的格式。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,15 +16,11 @@ ht-degree: 0%
 
 * 具有HTTP的網站的非安全標籤：
 
-   ```
-   <img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 * 使用HTTPS的網站的安全標籤：
 
-   ```
-   <img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 其中：
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * `<transid>` 是廣告商產生並傳遞的唯一交易ID （例如實際訂單ID），用於識別交易。 只有在「[!UICONTROL Include unique transaction IDs]「 」選項已選取。
 
-   Search， Social， &amp; Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在 [!UICONTROL Transaction Report]，可用來使用廣告商的資料驗證Adobe廣告中的資料。 **注意：** 如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生唯一ID。
+  Search， Social， &amp; Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在 [!UICONTROL Transaction Report]，可用來使用廣告商的資料驗證Adobe Advertising中的資料。 **注意：** 如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生唯一ID。
 
 <!-- add more links -->
 
@@ -45,4 +41,3 @@ ht-degree: 0%
 >* [關於轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript轉換追蹤標籤第2版的格式](format-conversion-tag-jsv2.md)
 >* [JavaScript轉換追蹤標籤第3版的格式](format-conversion-tag-jsv3.md)
-

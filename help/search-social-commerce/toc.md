@@ -9,9 +9,9 @@ user-guide-description: 本指南說明管理、最佳化和報告您的搜尋�
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: false
 hide: true
-source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
+source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 0%
    + [支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)
    + 與Adobe Experience Cloud整合 {#integrations}
       + [與Adobe Experience Cloud解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入門 {#getting-started}
    + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系統需求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
             + [的點選追蹤格式 [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [的點選追蹤格式 [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [AdobeAdvertising cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)
+      + [Adobe AdvertisingCookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [s_kwcid追蹤引數](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 轉換追蹤 {#conversion-tracking}
       + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)
