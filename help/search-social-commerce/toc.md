@@ -5,12 +5,12 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search、Social和Commerce指南
-user-guide-description: 瞭解Advertising Search、Social和Commerce的最新更新和新功能。
+user-guide-description: 本指南說明管理、最佳化和報告您的搜尋、社交和商務廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search、Social和Commerce指南
 index: true
-source-git-commit: 72dc4d0f193b39c13daf1a0203f54285bff8cc28
+source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
