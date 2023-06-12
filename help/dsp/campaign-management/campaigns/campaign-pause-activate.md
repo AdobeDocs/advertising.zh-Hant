@@ -2,7 +2,7 @@
 title: 暫停或啟動行銷活動
 description: 瞭解如何暫停或啟用即時行銷活動。
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -33,4 +33,3 @@ ht-degree: 0%
 >
 >* [編輯行銷活動](campaign-edit.md)
 >* [封存行銷活動](campaign-archive-unarchive.md)
-
