@@ -2,7 +2,7 @@
 title: 暫停或啟動封裝
 description: 瞭解如何暫停或啟用套件。
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ ht-degree: 0%
 >* [編輯套裝](package-edit.md)
 >* [檢視套裝程式的變更記錄](package-change-log.md)
 >* [封存套件](package-archive-unarchive.md)
-
