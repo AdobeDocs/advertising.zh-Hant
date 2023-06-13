@@ -1,98 +1,97 @@
 ---
-title: 使用Adobe廣告ID建立 [!DNL Marketing Channels] 規則
-description: 瞭解如何使用Adobe廣告ID建立處理規則 [!DNL Analytics Marketing Channels]。
+title: 使用Adobe廣告ID來建立 [!DNL Marketing Channels] 規則
+description: 瞭解如何使用Adobe廣告ID建立處理規則 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# 使用Adobe廣告ID建立 [!DNL Marketing Channels] 處理規則
+# 使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則
 
-*具有Adobe廣告的廣告商 — 僅Adobe Analytics整合*
+*僅具有AdobeAdvertising-Adobe Analytics整合的廣告商*
 
-可以使用Adobe廣告ID([AMO ID和EF ID](../ids.md)) [!DNL Marketing Channels] 在Adobe Analytics處理規則。 將Adobe廣告ID用於特定於Adobe廣告活動的規則。
+您可以使用Adobe廣告ID ([AMO ID和EF ID](../ids.md))以設定 [!DNL Marketing Channels] Adobe Analytics中的處理規則。 使用Adobe AdvertisingID作為Adobe Advertising促銷活動的特定規則。
 
 ## 處理規則中的AMO ID
 
-AMO ID是用於報告Adobe廣告資料的主跟蹤代碼 [!DNL Analytics]。 AMO ID是由Adobe管理的動態值的級聯，用於在 [!DNL Analytics]。 存放在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar維(AMO ID)。 可以在中設定AMO ID [!DNL Analytics] 通過兩種方式：
+AMO ID是主要追蹤程式碼，用來報告Adobe Advertising資料 [!DNL Analytics]. AMO ID是由Adobe管理的動態值串連，可在中提供精細的報表 [!DNL Analytics]. 儲存在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar維度(AMO ID)。 AMO ID可設定於 [!DNL Analytics] 有兩種方式：
 
-* 點擊跟蹤：Adobe廣告設定 `s_kwcid` 查詢連結中的字串參數，和 [!DNL Analytics] 在進行按一下時從登錄頁URL中選取參數。
-* 查看跟蹤([!DNL DSP] 僅):最後一個事件服務在伺服器端檢測到查看，並將AMO ID發送到 [!DNL Analytics]。 在這種情況下，URL不包含 `s_kwcid` 的下界。
+* 點進追蹤：Adobe廣告會將 `s_kwcid` 連結中的查詢字串引數，以及 [!DNL Analytics] 點進發生時，從登陸頁面URL中選取引數。
+* 檢視追蹤([!DNL DSP] 僅限)： Last Event Service會偵測伺服器端的瀏覽次數，並將AMO ID傳送至 [!DNL Analytics]. 在此情況下，URL不包含 `s_kwcid` 引數。
 
-AMO ID中的動態值指示跟蹤的市場營銷渠道：
+AMO ID內的動態值表示所追蹤的行銷管道：
 
-* AMO ID中的前置詞可用於標識內的頂級通道 [!DNL Marketing Channels]。
+* AMO ID中的前置詞可用來識別內的頂層管道 [!DNL Marketing Channels].
 
-* AMO ID正文中的字元短語表示更具體的促銷活動類型。
+* AMO ID內文中的字元短語表示更具體的促銷活動型別。
 
-* 尾碼「vt」存在於 [!DNL DSP] 查看通道流量，可用於建立單獨的點擊通道和查看通道 [!DNL DSP] 頻道。
+* 尾碼「vt」存在於 [!DNL DSP] 檢視流量，並可用來建立個別的點進和檢視 [!DNL DSP] 管道。
 
-可以忽略AMO ID的其餘部分。
+可忽略其餘的AMO ID。
 
-| AMO ID | 頻道 | 規則邏輯 |
+| [!UICONTROL AMO ID] | 頻道 | 規則邏輯 |
 |--------|---------|--------------------|
-| 阿爾！ （前置詞） | [!UICONTROL Paid Search] | 開頭為 |
-| AC! （前置詞） | [!UICONTROL DSP] | 開頭為 |
-| !g! （正文） | [!UICONTROL Google Search] | 包含 |
-| !s! （正文） | [!UICONTROL Search Partner] | 包含 |
-| !d! （正文） | [!UICONTROL Display Network] | 包含 |
-| !u! （正文） | [!UICONTROL Smart Shopping Campaign] | 包含 |
-| !ytv! （正文） | [!UICONTROL YouTube Video Ad] | 包含 |
-| !yts! （正文） | [!UICONTROL YouTube Search Ad] | 包含 |
-| !vp! （正文） | [!UICONTROL Google Video Partners] | 包含 |
-| !vt（尾碼） | [!UICONTROL DSP View-through] | 結尾為 |
+| 艾爾！ （前置詞） | [!UICONTROL Paid Search] | 開頭為 |
+| AC！ （前置詞） | [!UICONTROL DSP] | 開頭為 |
+| ！g！ （內文） | [!UICONTROL Google Search] | 包含 |
+| ！s！ （內文） | [!UICONTROL Search Partner] | 包含 |
+| ！d！ （內文） | [!UICONTROL Display Network] | 包含 |
+| ！u！ （內文） | [!UICONTROL Smart Shopping Campaign] | 包含 |
+| ！ytv！ （內文） | [!UICONTROL YouTube Video Ad] | 包含 |
+| ！yts！ （內文） | [!UICONTROL YouTube Search Ad] | 包含 |
+| ！vp！ （內文） | [!UICONTROL Google Video Partners] | 包含 |
+| ！vt （尾碼） | [!UICONTROL DSP View-through] | 結尾為 |
 
-### 使用AMO ID的處理規則示例
+### 使用AMO ID的處理規則範例
 
-的 [!DNL Marketing Channels] 處理規則 [!UICONTROL Paid Search] channel可能如下所示：
+此 [!DNL Marketing Channels] 的處理規則 [!UICONTROL Paid Search] 管道可能如下所示：
 
-![示例 [!UICONTROL Paid Search] 規則](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
+![範例 [!UICONTROL Paid Search] 規則](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
 
-的 [!DNL Marketing Channels] 處理規則 [!UICONTROL YouTube Video Ads] channel可能如下所示：
+此 [!DNL Marketing Channels] 的處理規則 [!UICONTROL YouTube Video Ads] 管道可能如下所示：
 
-![示例 [!UICONTROL YouTube Video Ads] 規則](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
+![範例 [!UICONTROL YouTube Video Ads] 規則](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
 
 >[!IMPORTANT]
 >
-> 請確保按特定順序運行規則。 如果上述兩條規則按順序運行， [!DNL YouTube] 視頻廣告流量都會被淹沒 [!UICONTROL Paid Search] 因為AMO ID都以&quot;AL!&quot;開頭 並包含&quot;!ytv!&quot;
+> 請務必依照特定順序執行規則。 如果以上兩個規則依序執行， [!DNL YouTube] 視訊廣告流量屬於 [!UICONTROL Paid Search] 頻道，因為AMO ID都會以「AL！」開頭 並包含「！ytv！」。
 
 ## 處理規則中的EF ID
 
-AMO EF ID(EF ID)是在 [!DNL Analytics for Advertising] 整合。 它的主要目的是跟蹤和通過 [!DNL Analytics] 事件資料到Adobe廣告。 每次按一下或查看時，都會生成唯一的EF ID，即使它與同一訪問者的廣告完全相同。 EF ID未在 [!DNL Analytics] 報告用戶介面，因為它通常超過了 [!DNL Analytics]使其無法用於報告。 Adobe廣告度量和元資料不應用於EF ID;它們僅應用於AMO ID。 在Adobe廣告中，市場活動優化需要增加的跟蹤粒度，因此需要兩個ID。
+AMO EF ID (EF ID)是 [!DNL Analytics for Advertising] 整合。 其主要用途是追蹤及通過 [!DNL Analytics] 將事件資料匯入Adobe Advertising。 每次點進或檢視發生時，系統都會產生唯一的EF ID，即使同一位訪客擁有完全相同的廣告。 EF ID未用於 [!DNL Analytics] 報表使用者介面，因為它通常會超過中每個變數50萬個不重複值的限制 [!DNL Analytics]，導致其無法用於報表。 Adobe Advertising量度和中繼資料不會套用至EF ID，只會套用至AMO ID。 Adobe Advertising中的行銷活動最佳化需要新增追蹤粒度，因此兩個ID都是必要的。
 
-雖然EF ID維未直接用於 [!DNL Analytics] 報告時，EF ID在建立市場營銷渠道時非常有用。 EF ID尾碼指示通道（顯示或搜索），以及訪問是由點擊還是查看驅動的。 EF ID中的分隔符是冒號，而不是AMO ID中的感嘆號。
+雖然EF ID維度不會直接用於 [!DNL Analytics] 報表，EF ID可用於建立行銷管道。 EF ID尾碼會指出頻道（顯示或搜尋），以及造訪是由點進還是檢視所驅動。 EF ID中的分隔符號是冒號，而不是AMO ID中的驚歎號。
 
 | EF ID尾碼 | 頻道 |
 |-------|---------|
-| :s | [!UICONTROL Paid Search] |
-| :d | [!UICONTROL Display Click-through] |
-| :i | [!UICONTROL Display View-through] |
+| ：s | [!UICONTROL Paid Search] |
+| ：d | [!UICONTROL Display Click-through] |
+| ：i | [!UICONTROL Display View-through] |
 
-### 使用EF ID的處理規則示例
+### 使用EF ID的處理規則範例
 
-#### 顯示點擊規則
+#### 顯示點進規則
 
-通過僅捕獲點擊提示建立「顯示」點擊直通市場營銷渠道。 由於AMO ID對於按一下檢查和查看檢查是相同的，因此此規則使用EF ID變數和 `ef_id` 查詢字串參數。
+僅擷取點進次數，以建立「顯示」點進行銷管道。 由於點進和檢視的AMO ID相同，因此此規則會使用EF ID變數和 `ef_id` 查詢字串引數。
 
-有時，通過URL（預設）跟蹤點擊瀏覽。 在其它情況下，通過伺服器端的「上次事件服務」跟蹤點擊進度，因此URL不包含 `ef_id` 的下界。 因此，該規則檢查EF ID變數或 `ef_id` 查詢字串參數以「：d」結尾。 使用「」`Any`&quot;運算子，因為您希望為任一條件觸發此規則。
+有時會透過URL （預設）追蹤點進。 在其他情況下，點進次數會透過伺服器端的「上次事件服務」進行追蹤，因此URL不包含 `ef_id` 引數。 因此，規則會檢查EF ID變數或 `ef_id` 查詢字串引數結尾是&quot;：d&quot;。 使用&quot;`Any`」運運算元，因為您想要為任一條件觸發此規則。
 
-![顯示的「點擊」規則示例](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
+![顯示點進規則的範例](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
 
-#### 顯示查看規則
+#### 顯示檢視規則
 
-要建立「顯示」視圖通道，請建立EF ID以「：i」結尾的規則。 由於訪問者沒有按一下廣告，因此查看跟蹤不包括 `ef_id` 或 `s_kwcid` 的子菜單。
+若要建立「顯示」檢視管道，請建立EF ID結尾為&quot;：i&quot;的規則。 由於訪客未點按廣告，瀏覽追蹤不會包含 `ef_id` 或 `s_kwcid` ，因此規則只需要一個條件。
 
-![顯示透視圖規則示例](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
+![顯示瀏覽規則範例](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 
 >[!MORELIKETHIS]
 >
->* [基本 [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [渠道資料為何會因Adobe廣告和 [!DNL Marketing Channels]](mc-data-variances.md)
->* [使用 [!DNL Analytics Marketing Channels] Adobe廣告資料](mc-ac-data.md)
->* [視頻：使用 [!DNL Marketing Channels] 用於Adobe廣告報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [Adobe廣告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
-
+>* [的基礎知識 [!DNL Analytics Marketing Channels]](mc-overview.md)
+>* [為何管道資料可能因Adobe廣告和以下內容而異 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [使用 [!DNL Analytics Marketing Channels] 使用Adobe廣告資料](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] 適用於Adobe廣告報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [使用的Adobe廣告ID [!DNL Analytics]](/help/integrations/analytics/ids.md)

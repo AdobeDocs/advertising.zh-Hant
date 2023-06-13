@@ -1,9 +1,9 @@
 ---
 title: 管理廣告網路帳戶
 description: 瞭解如何設定和管理廣告網路帳戶的帳戶詳細資料。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe廣告點選追蹤的帳戶必須包含廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` (適用於Google)。 與Adobe Analytics整合的帳戶必須使用 `s_kwcid` 引數。 如果帳戶有伺服器端s\_kwcid實施，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 請參閱 [必要的字尾格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的字尾格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+使用Adobe Advertising點選追蹤的帳戶必須包含廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` (適用於Google)。 與Adobe Analytics整合的帳戶必須使用 `s_kwcid` 引數。 如果帳戶有伺服器端s\_kwcid實施，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 請參閱 [必要的字尾格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的字尾格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 * 若要內嵌最終URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 如需指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用ValueTrack引數」一節中的「僅限追蹤範本」引數。 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 如需指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」(在 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 僅限)使用引數 `!{lpurl}` 以指出登入頁面URL。
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid格式** - (現有 [!DNL Google Ads] 具有Advertising-Adobe Analytics整合Adobe且尚未移轉s\_kwcid的廣告商帳戶)
+* **S\_kwcid格式** - (現有 [!DNL Google Ads] 帳戶為Adobe Advertising-Adobe Analytics整合且尚未移轉s\_kwcid的廣告商)
 
 此帳戶使用舊版的s\_kwcid追蹤程式碼格式，可讓Adobe廣告與Adobe Analytics共用帳戶的相關資料。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含行銷活動ID和廣告群組ID的引數，這些引數對於在行銷活動和廣告群組層級準確報告是必要的 [!DNL Google Ads] Analytics中的最高成效行銷活動，以及草稿和實驗行銷活動：
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 
 如需完整指示，請參閱&quot;[更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).」
 
-**報表套裝名稱** - (僅適用於具有權杖的EF重新導向；具有AdobeAdvertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
+**報表套裝名稱** - (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
 若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端s\_kwcid，或(b)將廣告商層級設定為&quot;[!UICONTROL Enable tracking for SAINT feeds]必須啟用「」。 此外，廣告商的Analytics帳戶必須設定為從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶經理。
 

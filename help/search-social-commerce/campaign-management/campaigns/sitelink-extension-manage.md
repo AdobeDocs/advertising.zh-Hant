@@ -1,9 +1,9 @@
 ---
 title: 管理共用的網站連結
 description: 瞭解如何建立和管理共用網站連結擴充功能。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ ht-degree: 0%
 >* ([!DNL Google Ads])行銷活動或廣告群組中的每個網站連結都必須有唯一的登陸頁面，而每個網站連結登陸頁面的內容必須有大約80%的唯一內容。 例如，同一頁面中不能有含有多個錨點連結的網站連結。
 >* ([!DNL Google Ads])避免使用巨集，巨集不會取代啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作來新增它們。
 
-
 **[!UICONTROL Tracking Template]：** （可選）追蹤範本或追蹤URL，這會指定所有離登陸網域重新導向和追蹤引數，也會將最終/登陸頁面URL內嵌在引數中。 範例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重新導向。
 
-* 對於Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含「EF重新導向」和「自動上傳」時套用，當您儲存記錄時，Search、Social和Commerce會自動為其自己的點選追蹤代碼加上前置詞。
+* 針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]&quot;和&quot;自動上傳&quot;、Search、Social和Commerce會在您儲存記錄時自動為其自己的點選追蹤程式碼加上前置詞。
 
-* 如需支援的內嵌最終URL的引數，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用ValueTrack引數」一節中的「僅限追蹤範本」引數。 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+* 如需支援的內嵌最終URL的引數，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」(在 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
 * 您可以選擇加入URL引數及為促銷活動定義的任何自訂引數，以&amp;分隔，例如 `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ ht-degree: 0%
 >* ([!DNL Microsoft Advertising])您可以在任何層級更新追蹤範本，無需重新提交廣告進行核准。
 >* 對象 [!DNL Google Ads]，請避免使用巨集，這類巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作來新增巨集。
 
-
 >[!MORELIKETHIS]
 >
 >* [關於網站連結擴充功能](sitelink-extension-about.md)
 >* [將共用網站連結與帳戶、行銷活動和廣告群組建立關聯](sitelink-extension-associate.md)
-

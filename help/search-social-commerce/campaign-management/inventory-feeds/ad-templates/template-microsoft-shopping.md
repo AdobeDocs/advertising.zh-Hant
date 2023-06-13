@@ -1,9 +1,9 @@
 ---
 title: '"[!DNL Microsoft® Ads] 詳細目錄摘要的購物廣告範本設定」'
 description: 參考設定 [!DNL Microsoft® Ads] 詳細目錄摘要的購物廣告範本。
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]：** （沒有子產品群組的單位；選用）產品群組的追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在ValueTrack引數中。 此範本會覆寫較高層級的範本。
+**[!UICONTROL Tracking Template]：** （沒有子產品群組的單位；選用）產品群組的追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在 [!DNL ValueTrack] 引數。 此範本會覆寫較高層級的範本。
 
-若為Adobe廣告轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
+若為Adobe Advertising轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
 
 針對協力廠商重新導向與追蹤，請輸入值。
 

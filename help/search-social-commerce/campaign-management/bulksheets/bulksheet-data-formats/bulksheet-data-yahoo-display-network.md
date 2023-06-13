@@ -1,9 +1,9 @@
 ---
 title: 大量表單資料 [!DNL Yahoo! Display Network] 帳戶
 description: 請參考已下載大量表單中的標題欄位和資料欄位， [!DNL Yahoo! Display Network] 帳戶。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | 不適用 | 若包含 | 若包含 | 可識別現有廣告群組的唯一ID。 |
 | [!UICONTROL Keyword ID] | 不適用 | 不適用 | 若包含 | 可識別現有關鍵字的唯一ID。 |
 | [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 |
-| [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）用來顯示來自搜尋、社交和商務中有關列中資料的錯誤訊息的預留位置；錯誤訊息包含在EF錯誤檔案中。 |
+| [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中，以供參考之用）用來顯示來自搜尋、社交和商務中有關列中資料之錯誤訊息的預留位置；錯誤訊息包含在 [!UICONTROL EF Errors] 檔案。 |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
-

@@ -1,16 +1,16 @@
 ---
 title: '"更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶」'
 description: 瞭解如何切換到的最新s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶。
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # 更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶
 
-*僅整合Adobe Advertising-Adobe Analytics的廣告商*
+*僅整合AdobeAdvertising-Adobe Analytics的廣告商*
 
 *[!DNL Google Ads]僅限帳戶*
 
@@ -48,8 +48,8 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 開始移轉後，請視需要更新登陸頁面尾碼設定（在某些廣告網路中稱為「最終URL尾碼」）：
 
-   * 當追蹤設定中啟用「自動上傳」功能時，Search、Social和Commerce會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤程式碼。 您不必執行任何動作。
-   * 當「自動上傳」功能未啟用，且您未使用伺服器端s-kwcid時，則必須在登陸頁面尾碼設定中手動更新s\_kwcid引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在Bulksheet中上傳變更來變更。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。
+   * 當 [!UICONTROL Auto Upload]「功能已在追蹤設定中啟用，Search、Social和Commerce會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤代碼。 您不必執行任何動作。
+   * 當 [!UICONTROL Auto Upload]&quot;功能未啟用，且您未使用伺服器端s-kwcid，則您必須手動更新登陸頁面尾碼設定中的s\_kwcid引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在Bulksheet中上傳變更來變更。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。
    * 如果您將s\_kwcid納入任何促銷活動元件的基本URL設定中，請將其移至相關的登入頁面尾碼設定。
 
 1. （建議）在移轉其他帳戶之前，請先在Analytics中驗證此帳戶的資料。
