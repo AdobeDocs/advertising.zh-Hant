@@ -236,7 +236,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] 僅限範本)在標題、文字、顯示URL或最終URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用它的廣告元素長度上限（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：** 具有指定相符型別或廣告型別的每個關鍵字的初始競標。
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：** 具有指定相符型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 
