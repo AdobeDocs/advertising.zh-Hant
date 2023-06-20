@@ -1,7 +1,8 @@
 ---
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -92,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report]， [!UICONTROL Keyword Report])產生點按的網域名稱。 |
 | [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 系統會針對CPM或CPC促銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce指派給行銷活動的數值ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising轉換追蹤服務和&quot;[!UICONTROL EF Redirect]&quot;包含權杖的追蹤方法)點選或轉換的權杖。<ul><li>對象 [!DNL Google Ads] 搜尋廣告，EF ID為 `{gclid}:G:s`，其中包括Google點選ID (GCLID)和網路型別（「s」代表搜尋）。</li><li> 對象 [!DNL Microsoft Advertising] 搜尋廣告，EF ID為 `{msclkid}:G:s`，其中包括Microsoft點選ID (MSCLKID)和網路型別（「s」代表搜尋）。</li><li>對於其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點按時間和網路型別。</li><li>對於顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (使用Adobe廣告轉換追蹤服務和&quot;[!UICONTROL EF Redirect]&quot;包含權杖的追蹤方法)點選或轉換的權杖。<ul><li>對象 [!DNL Google Ads] 搜尋廣告，EF ID為 `{gclid}:G:s`，其中包括Google點選ID (GCLID)和網路型別（「s」代表搜尋）。</li><li> 對象 [!DNL Microsoft Advertising] 搜尋廣告，EF ID為 `{msclkid}:G:s`，其中包括Microsoft點選ID (MSCLKID)和網路型別（「s」代表搜尋）。</li><li>對於其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點按時間和網路型別。</li><li>對於顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；僅供搜尋、社交和商務使用)地理位置的內部ID，用於標準化資料。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social和Commerce指派給廣告網路的數值ID：  <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report])完成交易之使用者的ID。 |
 | [!UICONTROL Through Plays] | ([!DNL Meta] 廣告)觀看整個廣告的檢視次數。 |
 | [!UICONTROL Top of Page CPC] | (僅限Google行銷活動)在指定日期範圍內，出現在搜尋結果頁面頂端的廣告每次點按成本(CPC)。 |
-| [!UICONTROL Tracking URL] | （僅限以搜尋為目標的關鍵字）追蹤範本或內嵌有（適用時）「搜尋」、「社交」和「商務」追蹤程式碼的目標URL。 |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易將貸記至的廣告商特定交易屬性。 |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])將指定交易屬性入帳的時間。 |
-| [!UICONTROL User Account Type] | 已過時 |
-| [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] 廣告)影片播放的平均時間，包括單次曝光所花費的影片重播時間。 |
-| [!UICONTROL Video Plays] | ([!DNL Meta] 廣告)視訊開始播放的次數（不含重播）。 |
-| [!UICONTROL VideoQuartile25Rate]， [!UICONTROL VideoQuartile50Rate]， [!UICONTROL VideoQuartile75Rate]、和 [!UICONTROL VideoQuartile100Rate] | （影片廣告）影片播放達25%、50%、75%或100%的百分比。 |
-| [!UICONTROL View Rate] | （視訊廣告）觀看次數或參與次數除以廣告顯示次數（視訊和縮圖曝光數）。 |
-| [!UICONTROL Views] | （影片廣告）人們觀看或參與您廣告的次數。 |
-| [!UICONTROL ViewThroughConversions] | （對象網路上的廣告）由一或多次曝光但無點按產生的轉換次數。 |
+
+| [!UICONTROL Tracking URL] | （僅限以搜尋為目標的關鍵字）追蹤範本或內嵌有（如適用）搜尋、社交和商務追蹤程式碼的目標URL。 | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易將貸記至的廣告商特定交易屬性。 | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])將指定交易屬性入帳的時間。 | | [!UICONTROL User Account Type] |過時 | | [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] 廣告)影片播放的平均時間，包括單次曝光所花費的影片重播時間。 | | [!UICONTROL Video Plays] | ([!DNL Meta] 廣告)視訊開始播放的次數（不含重播）。 | | [!UICONTROL VideoQuartile25Rate]， [!UICONTROL VideoQuartile50Rate]， [!UICONTROL VideoQuartile75Rate]、和 [!UICONTROL VideoQuartile100Rate] | （影片廣告）影片播放達25%、50%、75%或100%的百分比。 | | [!UICONTROL View Rate] | （視訊廣告）觀看次數或參與次數除以廣告顯示次數（視訊和縮圖曝光次數）。 | | [!UICONTROL Views] | （影片廣告）人們觀看或參與您廣告的次數。 | | [!UICONTROL ViewThroughConversions] | （對象網路上的廣告）因一或多次曝光但沒有點按而產生的轉換次數。 |
 
 <table style="table-layout:auto">
 
