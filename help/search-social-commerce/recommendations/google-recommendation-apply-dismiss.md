@@ -1,9 +1,10 @@
 ---
 title: 套用或關閉 [!DNL Google Ads] 推薦
 description: 瞭解如何檢視 [!DNL Google Ads] 建議以及如何套用或駁回建議。
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ ht-degree: 0%
 
    * 若要套用建議，請按一下 **[!UICONTROL Apply]**.
 
-      根據建議的大小，套用建議可能需要毫秒到幾秒之間的任何時間。
+     根據建議的大小，套用建議可能需要毫秒到幾秒之間的任何時間。
 
    * 若要關閉建議，請按一下 **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [關於發佈者建議和深入分析支援](recommendation-support.md)
+>* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
 >* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
 >* [搭配產品組合使用發佈者建議和深入分析的最佳實務](recommendation-best-practices.md)
-

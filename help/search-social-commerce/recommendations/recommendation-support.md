@@ -1,32 +1,47 @@
 ---
 title: 關於發佈者建議和深入分析支援
 description: 瞭解檢視和管理發布者建議與深入分析的支援。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # 關於發佈者建議和深入分析支援
 
-[!DNL Google Ads] 建議是來自下列專案的建議： [!DNL Google Ads] 協助改善行銷活動的效能和效率。 每項建議都會根據您帳戶的效能記錄、行銷活動設定和趨勢，針對行銷活動的不同效能方面（從新增資產到增加預算）提供自訂建議 [!DNL Google Ads].
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帳戶*
+
+*的Beta版功能 [!DNL Microsoft® Advertising] 帳戶*
+
+[!DNL Google Ads] recommendations和 [!DNL Microsoft® Advertising] 績效深入分析是廣告網路提供的建議，有助於改善行銷活動的績效和效率：
+
+* 每個 [!DNL Google Ads] recommendation會根據您帳戶的效能記錄、您的行銷活動設定和趨勢，針對行銷活動的不同效能方面（從新增資產到增加預算）提供自訂建議 [!DNL Google Ads].
+
+* 每個 [!DNL Microsoft® Advertising] 效能分析會提醒您管理程式帳戶、廣告商帳戶或行銷活動中的重大波動；找出可能的原因，並建議最佳化效能的動作。
+
+## 此 [!UICONTROL Recommendations & Publisher Insights] 檢視
 
 範圍 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]，您可以：
 
-* 檢視尚未針對執行的所有支援建議概覽 [!DNL Google Ads]<!-- or [Microsoft Advertising]--> 帳戶。 每個建議的資訊包括建議詳細資訊、建議型別和類別、實際量度和可執行的量度 [!DNL Google Ads] 預測是否套用建議，以及套用建議時受影響的實體。 量度的預期增加會以綠色標示出來。 您可以檢視任何建議的建議動作。 您也可以選擇依建議類別和型別來篩選清單。
+* 檢視尚未針對執行的所有支援建議概覽 [!DNL Google Ads] 帳戶或過去30天產生的所有效能分析 [Microsoft® Advertising] 帳戶。 每個專案的資訊包括建議/深入分析詳細資訊和受影響的實體。 對象 [!DNL Google Ads] 帳戶，量度的預期增加會以綠色標示。
 
   ![RECOMMENDATIONS UI](/help/search-social-commerce/assets/recommendations-ui.png "RECOMMENDATIONS UI")
 
   當您開啟檢視時，資料可即時使用。 若要重新整理資料，請按一下 ![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理") ，位於頁面左下方。
 
-* 套用和拒絕帳戶建議。
+* 對象 [!DNL Google Ads] 帳戶：
 
-* 檢視套用至帳戶的每個建議記錄，包括套用建議的受影響實體、時間戳記。
+   * 檢視建議詳細資料，並直接套用或駁回建議。
+
+   * 檢視套用至帳戶的每個建議記錄，包括套用建議的受影響實體、時間戳記。
+
+* 對象 [Microsoft® Advertising] 帳戶，開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中進行特定分析。
 
 >[!NOTE]
 >
->雖然建議可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議之前，建議您先洽詢您的Adobe帳戶團隊。
+>雖然廣告網路建議和效能深入分析可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議或見解之前，建議您最好諮詢您的Adobe客戶團隊。
 
 ## 支援的建議型別 [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
+>* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
 >* [套用或關閉 [!DNL Google Ads] 推薦](google-recommendation-apply-dismiss.md)
+>* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
 >* [搭配產品組合使用發佈者建議和深入分析的最佳實務](recommendation-best-practices.md)

@@ -1,14 +1,17 @@
 ---
 title: 搭配產品組合使用發佈者建議和深入分析的最佳實務
 description: 瞭解使用的最佳實務 [!DNL Google Ads] Recommendations與您搜尋、社交和商務的產品組合。
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 搭配產品組合使用發佈者建議和深入分析的最佳實務
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] recommendations
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於發佈者建議和深入分析支援](recommendation-support.md)
->* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
+>* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
 >* [套用或關閉 [!DNL Google Ads] 推薦](google-recommendation-apply-dismiss.md)
-
+>* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)

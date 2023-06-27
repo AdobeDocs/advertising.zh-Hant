@@ -1,9 +1,10 @@
 ---
 title: 檢視建議記錄 [!DNL Google Ads] 帳戶
 description: 瞭解如何檢視已套用到的每個建議的記錄 [!DNL Google Ads] 帳戶。
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於發佈者建議和深入分析支援](recommendation-support.md)
+>* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
 >* [套用或關閉 [!DNL Google Ads] 推薦](google-recommendation-apply-dismiss.md)
 >* [搭配產品組合使用發佈者建議和深入分析的最佳實務](recommendation-best-practices.md)
-
