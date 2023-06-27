@@ -2,9 +2,9 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: e121445d39d50599c40a77996f5674b536d60ede
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3583'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report]， [!UICONTROL Keyword Report])產生點按的網域名稱。 |
 | [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 系統會針對CPM或CPC促銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | Search、Social和Commerce指派給行銷活動的數值ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (使用Adobe廣告轉換追蹤服務和&quot;[!UICONTROL EF Redirect]&quot;包含權杖的追蹤方法)點選或轉換的權杖。<ul><li>對象 [!DNL Google Ads] 搜尋廣告，EF ID為 `{gclid}:G:s`，其中包括Google點選ID (GCLID)和網路型別（「s」代表搜尋）。</li><li> 對象 [!DNL Microsoft Advertising] 搜尋廣告，EF ID為 `{msclkid}:G:s`，其中包括Microsoft點選ID (MSCLKID)和網路型別（「s」代表搜尋）。</li><li>對於其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點按時間和網路型別。</li><li>對於顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising轉換追蹤服務和&quot;[!UICONTROL EF Redirect]&quot;包含權杖的追蹤方法)點選或轉換的權杖。<ul><li>對象 [!DNL Google Ads] 搜尋廣告，EF ID為 `{gclid}:G:s`，其中包括Google點選ID (GCLID)和網路型別（「s」代表搜尋）。</li><li> 對象 [!DNL Microsoft Advertising] 搜尋廣告，EF ID為 `{msclkid}:G:s`，其中包括Microsoft點選ID (MSCLKID)和網路型別（「s」代表搜尋）。</li><li>對於其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點按時間和網路型別。</li><li>對於顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；僅供搜尋、社交和商務使用)地理位置的內部ID，用於標準化資料。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL EF Search Engine ID] | Search、Social和Commerce指派給廣告網路的數值ID：  <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
@@ -105,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （僅限顯示行銷活動） Search、Social和Commerce已追蹤的估計廣告曝光次數。 此值可能與 [!UICONTROL Impressions] 欄（可用時），顯示廣告網路提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 是否排除競標(<i>[!UICONTROL Yes]</i>)或允許出價(<i>[!UICONTROL No]</i>)適用於相符產品的廣告。 |
 | [!UICONTROL First Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
-| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions/transaction properties] | ([!DNL Google Ads] 搜尋和購物網路上的行銷活動；從帳戶啟用功能之日開始可用的資料) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個獨立的交易屬性：<ul><li>`GGL*` — （追蹤時）關鍵字的轉換值總和，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」前置詞（例如GGL_CT_Purchase）開頭。</li><li>`GGL_XD_CT*` — （轉換型別可用時，追蹤轉換時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每個轉換都會依競標單位和點按日期記錄；無法在事件層級使用。 如果您將「搜尋、社交和商務」中的資料與中的 [!DNL Google Ads]，使用檢視或報表選項來檢視&quot;[!UICONTROL Conversions by:  Click date]「」（非交易日期）。<br><br><b>注意：</b>前一天的資料每天都會提取，並於09前提供:00-10:00 （廣告商的時區）。 [!DNL Google Ads] 最多可在點按後30天內持續更新量度。 如需有關的詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).」 |
+| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions/transaction properties] | ([!DNL Google Ads] 搜尋和購物網路上的促銷活動) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個獨立的交易屬性：<ul><li>`GGL*` — （追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」前置詞（例如GGL_CT_Purchase）開頭。</li><li>`GGL_XD_CT*` — （轉換型別可用時，追蹤轉換時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每個轉換都會依競標單位和點按日期記錄；無法在事件層級使用。 如需有關的詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).」 |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 僅限)在自然搜尋結果上方顯示為第一個廣告的廣告曝光次數百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 僅限)顯示在自然搜尋結果上方的廣告曝光次數百分比。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |

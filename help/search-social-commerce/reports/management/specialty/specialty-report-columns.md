@@ -2,9 +2,9 @@
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
 | [!UICONTROL Keyword] | 關鍵字。<br><br><b>注意：</b> 如果報表包含啟用內容搜尋行銷活動中的廣告群組資料，則此欄會包含適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 對於搜尋促銷活動中的網站目標位置，此欄沒有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce指派給關鍵字的數值ID。 |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告網路指派的廣告擴充功能ID。 |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告網路指派的廣告擴充功能ID。 |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告網路指派給廣告擴充功能的數值ID。 |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告擴充功能的版本屬性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告擴充功能型別。 |
 | [!UICONTROL Keyword Status] | 與搜尋字詞相符的關鍵字狀態： *[!UICONTROL Active]*， *[!UICONTROL Paused]*， [!UICONTROL Deleted]*，或[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report])目標語言。 |
