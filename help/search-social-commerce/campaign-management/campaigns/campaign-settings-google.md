@@ -1,9 +1,10 @@
 ---
-title: '"[!DNL Google Ads] campaign設定」'
+title: '''[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]：* 在搜尋網路上顯示廣告，包括 [!DNL Google] 搜尋結果和（選擇性）搜尋合作夥伴網站。 您必須為每個廣告群組指定關鍵字。
 
-* *[!UICONTROL Search with Display Select]：* 在搜尋網路上顯示廣告(包括 [!DNL Google] 搜尋結果和（可選）搜尋合作夥伴網站)，並可能在顯示網路網站上顯示廣告。 在顯示網路上， [!DNL Google Ads] 無論行銷活動的競標策略為何，都會使用自動競標選擇性地顯示您的廣告。 對於搜尋廣告，您必須為每個廣告群組指定關鍵字；對於顯示廣告，您必須指定位置，並可選擇為每個廣告群組指定關鍵字。
+* *[!UICONTROL Search with Display Select]：* 在搜尋網路上顯示廣告(包括 [!DNL Google] 搜尋結果和（可選）搜尋合作夥伴網站)，並可能在顯示網路網站上顯示廣告。 在顯示網路上， [!DNL Google Ads] 無論行銷活動的競標策略為何，都會使用自動競標選擇性地顯示您的廣告。 對於搜尋廣告，請指定每個廣告群組的關鍵字；對於顯示廣告，請指定位置，並選擇性地指定每個廣告群組的關鍵字。
 
 * *[!UICONTROL Shopping Network]：* 顯示產品廣告，其中 [!DNL Google] 根據您的產品自動產生 [!DNL Google Merchant Center] 於 [!DNL Google Shopping]，旁的區域 [!DNL Google] 搜尋結果（與文字廣告分開）和（可選）搜尋合作夥伴網站。 您可以為行銷活動中的每個廣告群組指定要廣告的產品群組。
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Performance Max]：* （Beta版功能）使用顯示和最佳化跨管道廣告的轉換 [!DNL Google Ads] 智慧型競標。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用影片和受眾訊號。 [!DNL Google Ads] 自動結合資產，以根據管道提供廣告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
 
-   **附註：**
+  **附註：**
 
    * 只有必要的設定可供使用。 如需可選設定，請登入 [!DNL Google Ads] 編輯者。
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這等同於使用&quot;[!UICONTROL Enhanced CPC]」選項。
 
-* *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路（而非「搜尋、社交和商務」）會最佳化競標，以將點按次數最大化。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到投資組合時，競標是由點選權重驅動，而不是由投資組合目標驅動。
+* *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標以最大化點按次數。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到投資組合時，競標是由點選權重驅動，而不是由投資組合目標驅動。
 
 * *[!UICONTROL Maximize Conversion Value]：* （搜尋、最高成效和智慧型購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將轉換價值最大化。 選擇性地輸入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
 
@@ -84,17 +85,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Target CPA]：* （顯示行銷活動；現有的搜尋行銷活動）廣告網路（而非Search、Social和Commerce）會根據選購專案最佳化出價 **[!UICONTROL Target CPA]** （每次收購成本），這是您要為收購（轉換）支付的30天平均金額。 **注意：** 此選項適用於混合專案組合（而非標準專案組合）中搭配任何支出策略的行銷活動，但下列情況除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
-   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
+  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-   對於新的搜尋行銷活動， [!DNL Google Ads] 已將此競標策略取代為 [!UICONTROL Maximize Conversions] 策略使用 [!UICONTROL Target CPA] 值。 對於使用此策略的現有搜尋行銷活動，您只能編輯目標值，這樣做會將策略變更為 [!UICONTROL Maximize Conversions] 使用指定之策略 [!UICONTROL Target CPA] 值。
+  對於新的搜尋行銷活動， [!DNL Google Ads] 已將此競標策略取代為 [!UICONTROL Maximize Conversions] 策略使用 [!UICONTROL Target CPA] 值。 對於使用此策略的現有搜尋行銷活動，您只能編輯目標值，這樣做會將策略變更為 [!UICONTROL Maximize Conversions] 使用指定之策略 [!UICONTROL Target CPA] 值。
 
 * *[!UICONTROL Target Impression Share]：* （搜尋行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次點按成本）。 **注意：** 產品組合不支援此選項。
 
 * *[!UICONTROL Target Return on Ad Spend]：*  （顯示和購物行銷活動；現有的搜尋行銷活動）廣告網路（而不是Search、Social和Commerce）會根據指定的最佳化競標 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比表示。 **注意：** 此選項適用於混合專案組合（而非標準專案組合）中搭配任何支出策略的行銷活動，但下列情況除外 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
-   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
+  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-   對於新的搜尋行銷活動， [!DNL Google Ads] 已將此競標策略取代為 [!UICONTROL Maximize Conversion Value] 策略使用 [!UICONTROL Target Return on Ad Spend value]. 對於使用此策略的現有搜尋行銷活動，您只能編輯目標值，這樣做會將策略變更為 [!UICONTROL Maximize Conversion Value] 使用指定之策略 [!UICONTROL Target Return on Ad Spend] 值。
+  對於新的搜尋行銷活動， [!DNL Google Ads] 已將此競標策略取代為 [!UICONTROL Maximize Conversion Value] 策略使用 [!UICONTROL Target Return on Ad Spend value]. 對於使用此策略的現有搜尋行銷活動，您只能編輯目標值，這樣做會將策略變更為 [!UICONTROL Maximize Conversion Value] 使用指定之策略 [!UICONTROL Target Return on Ad Spend] 值。
 
 * *[!UICONTROL Viewable CPM]：* (現有，唯讀 [!DNL Gmail] 僅限行銷活動)廣告網路（而非Search、Social和Commerce）僅對測量為可檢視的廣告投標。 **注意：** 任何型別的產品組合均不支援此策略的最佳化。
 
@@ -141,12 +142,12 @@ ht-degree: 0%
       * 若要將位置展開至其子元件（例如美國的州、大都會區域或城市），請按一下位置名稱。
 
       * 若要搜尋位置，請在輸入欄位中輸入或貼上位置的前三個字元。 在搜尋結果中，按一下 **[!UICONTROL Include]** 在要包含或的位置旁邊 **[!UICONTROL Exclude]** 在要排除的位置旁邊。
+
    * （位址附近的位置；僅限包含的目標）按一下 **[!UICONTROL Radius Target]** (![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標"))，然後按一下 **[!UICONTROL Address]**. 輸入位址和目標位址周圍的半徑（以英里或公里為單位），然後按一下 **[!UICONTROL Add]**.
 
    * （地理座標附近的位置；僅限包含的目標）按一下 **[!UICONTROL Radius Target]** (![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標"))，然後按一下 **[!UICONTROL Coordinate]**. 輸入目標位置周圍的經緯度和半徑（以英里或公里為單位），然後按一下 **[!UICONTROL Add]**.
 
    * (您的附近位置 [!DNL My Business] 可作為位置擴充功能使用的位置；僅限包含的目標)按一下 **[!UICONTROL Location Group Target]** (![位置群組](/help/search-social-commerce/assets/location-group.png "位置群組"))；選擇性地輸入國家、州、大都會區域或城市，在可用位置清單中向下箭頭；然後從清單中選取一或多個位置 [!DNL Google My Business] 位置。 指定目標位置周圍的半徑（以英里或公里為單位），然後按一下 **[!UICONTROL Add]**.
-
 
 * （若要為包含的目標地點新增競標調整）輸入競標調整值：
 
@@ -254,27 +255,41 @@ ht-degree: 0%
 
 **[!UICONTROL Images]：** 廣告最多可包含15張影像，包括：1)至少三張正方形影像、2)至少三張橫向影像，以及3)至少一張縱向影像。 請參閱 [[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 若要上傳影像：
 
-1. 對於每個影像：
+1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
 
-   1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路中選取影像。
+1. 對於每個影像：
 
    1. 選取長寬比。
 
-   1. 視需要拖曳並放置裁切方塊，以選取影像的可檢視部分，然後按一下 **[!UICONTROL Proceed]**.
+   1. 視需要拖曳並放置裁切方塊，以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+
+   1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位影像和調整影像大小。
+
+      系統會為每個選取的外觀比例建立一個資產。
+
+   1. 按一下 **[!UICONTROL Proceed]**.
 
 1. 完成指定影像時，請按一下 **[!UICONTROL Upload]**.
 
 **[!UICONTROL Logos]：** 至少一個正方形(1:1)標誌和一個橫向(4:1)標誌。 每種大小最多可包含五個檔案。 請參閱 [[!DNL Google Ads] 標誌規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 若要上傳影像：
 
+1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+
 1. 對於每個影像：
 
-   1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路中選取影像。
+   1. 選取長寬比。
 
-   1. 視需要拖曳並放置裁切方塊，以選取影像的可檢視部分，然後按一下 **[!UICONTROL Proceed]**.
+   1. 視需要拖曳並放置裁切方塊，以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+
+   1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位影像和調整影像大小。
+
+      系統會為每個選取的外觀比例建立一個資產。
+
+   1. 按一下 **[!UICONTROL Proceed]**.
 
 1. 完成指定影像時，請按一下 **[!UICONTROL Upload]**.
 
-**[!UICONTROL Videos]：** （選用） URL至少要有一個，最多五個， [!DNL YouTube] 影片長度超過10秒。
+**[!UICONTROL Videos]：** （選用） URL至少要有一個，最多五個， [!DNL YouTube] 影片長度至少為10秒。
 
 **[!UICONTROL Headlines]：** 至少3個及最多5個簡短標題，每個標題最多30個字元。 至少一個標題必須至少為15個字元或更少。 如果啟用最終URL擴充的行銷活動層級選項設定於 [!DNL Google Ads]，則 [!DNL Google Ads] 以根據登陸頁面內容的自訂標題取代此值。
 
@@ -286,9 +301,8 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 企業名稱，最多25個字元。
 
-**[!UICONTROL Add new asset group]：** 可讓您指定其他資產群組。
+**[!UICONTROL Add new asset group]：** 可讓您指定另一個資產群組。
 
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
