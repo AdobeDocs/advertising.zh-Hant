@@ -1,7 +1,9 @@
 ---
 title: 關於同步 [!DNL Google Analytics] 轉換量度
 description: 瞭解同步 [!DNL Google Analytics] 最佳化和報告的轉換量度。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -22,9 +24,9 @@ ht-degree: 0%
 
 1. [執行先決條件工作](data-source-prerequisites.md)
 
-   * 實作AdobeAdvertising權杖(`ef_id` 查詢字串引數)。
+   * 實作Adobe Advertising權杖(`ef_id` 查詢字串引數)。
 
-   * 擷取Adobe廣告權杖(`ef_id` 查詢字串引數) [!DNL Custom Dimension] 在 [!DNL Google Analytics].
+   * 擷取Adobe Advertising權杖(`ef_id` 查詢字串引數) [!DNL Custom Dimension] 在 [!DNL Google Analytics].
 
 1. (代理商帳戶管理員、代理商帳戶管理員、 [!DNL Adobe] 帳戶管理員和僅限管理員使用者) [為每個建立一個資料來源 [!DNL Google Analytics] 帳戶、屬性和檢視組合](data-source-configure.md).
 
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
 >* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

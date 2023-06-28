@@ -1,7 +1,9 @@
 ---
 title: 可用 [!DNL Google Analytics] 量度
 description: 參考 [!DNL Google Analytics] 資料來源可用的量度。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -42,4 +44,3 @@ ht-degree: 0%
 >* [暫停資料來源的同步處理](data-source-pause.md)
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
-

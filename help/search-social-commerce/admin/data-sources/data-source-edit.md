@@ -1,7 +1,9 @@
 ---
 title: 編輯 [!DNL Google Analytics] 資料來源
 description: 瞭解如何編輯設定 [!DNL Google Analytics] 資料來源。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -31,4 +33,3 @@ ht-degree: 1%
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
 >* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

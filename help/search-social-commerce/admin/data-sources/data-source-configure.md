@@ -1,7 +1,9 @@
 ---
 title: 設定 [!DNL Google Analytics] 以資料來源檢視
 description: 瞭解如何從設定資料來源 [!DNL Google Analytics] 檢視。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -45,6 +47,7 @@ ht-degree: 0%
       1. 選取核取方塊以授權Adobe Advertising存取帳戶的量度。
 
       1. 按一下 **[!UICONTROL Authenticate]**.
+
    1. 在 [!UICONTROL Account Details] 區段，指定要匯入量度的屬性和檢視。 此外，指定填入「ef_id」查詢字串引數值的自訂維度。
 
    1. 在 [!UICONTROL Import Metrics] 區段，指定要包含在摘要中的量度。
@@ -56,7 +59,6 @@ ht-degree: 0%
       >[!DNL Google Analytics] 在單一資料摘要中最多允許10個量度。 Search、Social和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍 [!DNL Google Analytics]. 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視更多關於 [API要求的配額和呼叫限製為 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. 在 [!UICONTROL Metric Tag] 區段，輸入要附加至資料來源之每個量度的標籤名稱。
-
 
 1. 在右上角，按一下 **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ ht-degree: 0%
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
 >* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

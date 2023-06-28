@@ -1,7 +1,9 @@
 ---
 title: 暫停資料來源的同步處理
 description: 瞭解如何暫停資料來源以停止同步。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *機構管理員（基本角色）、Adobe帳戶管理員及僅限管理員*
 
-暫停資料來源會停止日後與該資料來源同步。 如果摘要目前正在同步中，程式會先完成，這樣Adobe廣告中的資料才會是最新狀態。
+暫停資料來源會停止日後與該資料來源同步。 如果摘要目前正在同步中，則程式會先完成，以便Adobe Advertising中的資料為最新狀態。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
 >* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-

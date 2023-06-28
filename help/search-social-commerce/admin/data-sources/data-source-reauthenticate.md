@@ -1,7 +1,9 @@
 ---
 title: 重新驗證 [!DNL Google Analytics] 資料來源
 description: 瞭解如何重新驗證 [!DNL Google Analytics] 資料來源（如果您變更相關密碼或憑證過期）。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ ht-degree: 0%
          >[!TIP]
          >
          >若要確保僅特定於 [!DNL Google Analytics] Search、Social和Commerce中有屬性和檢視可用，使用只能存取這些屬性和檢視的電子郵件地址登入。
+
    1. 選取核取方塊以授權Search、Social和Commerce存取帳戶的量度。
 
    1. 按一下 **[!UICONTROL Re-Authenticate]**.
-
 
 1. 按一下 **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ ht-degree: 0%
 >* [暫停資料來源的同步處理](data-source-pause.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
 >* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)
-
