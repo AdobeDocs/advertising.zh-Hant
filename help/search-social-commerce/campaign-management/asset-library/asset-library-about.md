@@ -1,7 +1,7 @@
 ---
 title: 「關於 [!UICONTROL Asset Library]"
 description: 瞭解您的廣告資產的資產庫。
-source-git-commit: 2b47ad8422a505a85f43d5954dc9a5bdd1242e57
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->*[建立和上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [建立和上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
