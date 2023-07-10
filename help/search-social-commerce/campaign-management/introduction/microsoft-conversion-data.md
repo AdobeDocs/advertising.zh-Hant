@@ -1,7 +1,7 @@
 ---
 title: '''[!DNL Microsoft Advertising] 轉換資料'
 description: 瞭解型別 [!DNL Microsoft Advertising] — 追蹤的轉換資料可在Search、Social和Commerce中使用。
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -80,4 +80,4 @@ ht-degree: 0%
 >
 >* [實作廣告網路帳戶和行銷活動的概觀](campaign-implemention-overview.md)
 >* [監控及管理廣告網路行銷活動的效能](monitor-performance-campaigns.md)
->* [檢視為廣告商追蹤的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [檢視為廣告商追蹤的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
