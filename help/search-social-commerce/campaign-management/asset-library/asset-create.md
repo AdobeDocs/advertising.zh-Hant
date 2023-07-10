@@ -1,9 +1,9 @@
 ---
 title: 建立和上傳資產
 description: 瞭解如何建立可重複使用的影像、影片和文字資產，並將其上傳至您的 [!DNL Google Ads] 帳戶層級的資產庫。
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       您一次最多可以發佈10個視訊URL。
 
-      * 對於文字資產，請輸入文字字串。 若要新增其他文字資產，請按一下 **+新增** 並輸入另一個文字字串。&lt;! — 哪個廣告文案元素 — 標題、簡短說明、詳細說明？ 沒有位置可選取元素。—>
+      * 對於文字資產，請輸入文字字串。 若要新增其他文字資產，請按一下 **+新增** 並輸入另一個文字字串。
 
       每個文字資產最多可包含1000個字元。 您一次最多可以上傳10個文字資產。
 
+      您稍後可以將文字資產用於您選擇的任何廣告元素（例如標題或簡短說明），前提是這些元素符合該廣告元素的字元限制。
+
 1. 按一下 **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[關於 [!UICONTROL Asset Library]](asset-library-about.md)

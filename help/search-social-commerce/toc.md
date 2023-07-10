@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1737'
 ht-degree: 2%
 
 ---
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [分析報告以精簡您的關鍵字和行銷活動設定](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [撰寫有效文字和復本](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [最佳化網站登入頁面](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + 管理廣告資產 {#assets}
+      + [關於 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [建立和上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [每個廣告網路帳戶的物件數目上限](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [行銷活動管理常見問題集](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + 深入分析和報表 {#insights-reports}
