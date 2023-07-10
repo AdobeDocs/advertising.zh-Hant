@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [關於Search、Social和Commerce中的促銷活動管理](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [實作廣告網路帳戶和行銷活動的概觀](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [監控及管理廣告網路行銷活動的效能](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [搜尋、社交和商務中的Google Ads轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + 設定帳戶 {#campaign-management-accounts}
       + 廣告網路帳戶 {#ad-network-accounts}
          + [關於廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
