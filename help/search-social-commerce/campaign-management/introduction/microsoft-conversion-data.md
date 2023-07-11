@@ -1,9 +1,9 @@
 ---
 title: '''[!DNL Microsoft Advertising] 轉換資料'
 description: 瞭解型別 [!DNL Microsoft Advertising] — 追蹤的轉換資料可在Search、Social和Commerce中使用。
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,7 @@ ht-degree: 0%
 
 可用資料是根據點按時間，以及自帳戶啟用功能之日以來的轉換/交易時間。
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] 每次轉換的記錄方式 [競標單位](/help/search-social-commerce/glossary.md#a-b)，裝置，然後按一下日期（不是轉換日期）。 歸因會以中每個量度的預設歸因設定為基礎 [!DNL Microsoft Advertising]；Adobe Advertising歸因並未納入計算，因為無法使用點選事件層級資料。
 
 >[!NOTE]
 >
