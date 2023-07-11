@@ -1,9 +1,10 @@
 ---
 title: 復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]
 description: 瞭解如何在中匯出同步的行銷活動 [!DNL Google Ads] 帳戶直接放入已同步的 [!DNL Microsoft® Advertising] 帳戶。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * [!DNL Google Display Network] 行銷活動（包括廣告影像）移至 [!DNL Microsoft® Advertising] Microsoft® Audience Network上的對象行銷活動。
 
-   如果您想要復寫購物摘要型顯示行銷活動，請先復寫您的 [!DNL Google Merchant Center] 將產品優惠方案傳送至 [!DNL Microsoft® Merchant Center]. 復寫行銷活動時，選取 [!DNL Microsoft® Merchant Center] 存放在「匯入選項」中，將存放區連結至您的資訊源型對象行銷活動。
+  如果您想要復寫購物摘要型顯示行銷活動，請先復寫您的 [!DNL Google Merchant Center] 將產品優惠方案傳送至 [!DNL Microsoft® Merchant Center]. 復寫行銷活動時，選取 [!DNL Microsoft® Merchant Center] 存放在「匯入選項」中，將存放區連結至您的資訊源型對象行銷活動。
 
 * [!DNL Google Ads] 將最高成效行銷活動（包括本地詳細目錄廣告）改成 [!DNL Microsoft® Advertising] 智慧購物行銷活動。
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. （可選）在「 」中新增搜尋、社交和商務追蹤 [帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)， [行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)， [廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)，或 [廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 設定。
 
-## 編輯行銷活動匯入工作的詳細資料
+## 編輯行銷活動匯入工作的排程設定
 
 另請參閱 [匯入來源 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ ht-degree: 0%
 
 1. 選取匯入作業旁的核取方塊，然後按一下 ![編輯](/help/search-social-commerce/assets/edit.png "編輯").
 
-1. 編輯 [匯入設定](#campaign-import-settings).
-
-   1. 在 **[!UICONTROL Select accounts]** 區段，選取來源和目的地帳戶以及證明資料ID [!DNL Microsoft® Advertising] 需要。
-
-   1. 在 **[!UICONTROL Select campaigns & ad groups]** 區段，指定要匯入的行銷活動和廣告群組。
-
-   1. 在 **[!UICONTROL Customize your import]** 區段，指定要匯入的專案型別。
-
-   1. 在 **[!UICONTROL Set schedule]** 區段，指定何時執行匯入作業。
+1. 在 **[!UICONTROL Set schedule]** 區段，指定 [排程設定](#campaign-import-settings).
 
 1. 按一下 **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ ht-degree: 0%
 
    * 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      依預設，檢視會開啟至 [!UICONTROL List of Import Jobs] 標籤。
+     依預設，檢視會開啟至 [!UICONTROL List of Import Jobs] 標籤。
 
    * 從 [[!UICONTROL Import Logs] 標籤](#campaign-import-log)，按一下 **[!UICONTROL List of Import Jobs]** 標籤。
 
