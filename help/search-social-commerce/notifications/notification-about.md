@@ -2,7 +2,7 @@
 title: 關於通知
 description: 瞭解通知，包括不同的型別和類別。
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
+source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -49,26 +49,25 @@ ht-degree: 0%
 
    * **[!UICONTROL Manager Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，適用於正確設定重要功能。
 
-<!--
-* [!UICONTROL Setup Errors]
-
-  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  <!--
+  * [!UICONTROL Setup Errors]
   
-  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+  -->
 
--->
+   * [!UICONTROL Network Errors]
 
-* [!UICONTROL Network Errors]
+      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與同步 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md) 因為無效的認證或無效或過期的授權權杖。
 
-   * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與同步 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md) 因為無效的認證或無效或過期的授權權杖。
+      * **[!UICONTROL Account Auth Error]**：Search、Social和Commerce無法存取的通知 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 因為無效的認證或無效或過期的授權權杖。
 
-   * **[!UICONTROL Account Auth Error]**：Search、Social和Commerce無法存取的通知 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 因為無效的認證或無效或過期的授權權杖。
+   * [!UICONTROL Data Upload]
 
-* [!UICONTROL Data Upload]
+      * **[!UICONTROL Direct File Upload]**：用於封閉式測試版
 
-   * **[!UICONTROL Direct File Upload]**：用於封閉式測試版
-
-   * **[!UICONTROL File Upload to Cloud Storage]**：用於封閉式測試版
+      * **[!UICONTROL File Upload to Cloud Storage]**：用於封閉式測試版
 
 <!--
 * [!UICONTROL Optimization]
