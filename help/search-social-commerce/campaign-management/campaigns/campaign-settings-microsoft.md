@@ -1,9 +1,10 @@
 ---
-title: '"[!DNL Microsoft Advertising] campaign設定」'
+title: '''[!DNL Microsoft Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ ht-degree: 0%
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （預設）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果您選擇指定行銷活動的轉換目標，請從所有可用目標清單中選取目標。 **注意：** 目標每天都會同步處理，所以可能不會列出過去24小時內建立的目標。 若要更新清單， [手動同步廣告網路資料](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+如果行銷活動是產品組合的一部分，則使用與產品組合目標相同的轉換目標。 使用不同的轉換目標可能會影響投資組合的績效。
 
 >[!MORELIKETHIS]
 >
