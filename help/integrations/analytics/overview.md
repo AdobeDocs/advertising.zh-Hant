@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 *使用Advertising DSP和的廣告商[!DNL Advertising Search, Social, & Commerce]*
 
-[!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe廣告，以擴充和增強每個產品的功能。
+[!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe Advertising，以擴充和增強每個產品的功能。
 
 整合可讓廣告商追蹤其網站中的點進和檢視互動 [!DNL Analytics] 例項，讓品牌瞭解其廣告支出如何帶來網站參與度和關鍵業務目標。
 
-此外，Adobe廣告可存取大量第一方資料，而且 [!DNL Analytics] 收集使用 [!DNL Analytics] 標籤已存在於網站上。 這可提供更強大的歷程管理、第一方再行銷和付費媒體網站報告。 Adobe Advertising可進一步使用 [!DNL Analytics] 支出和競標最佳化的資料。
+此外，Adobe Advertising可存取大量第一方資料，而且 [!DNL Analytics] 收集使用 [!DNL Analytics] 標籤已存在於網站上。 這可提供更強大的歷程管理、第一方再行銷和付費媒體網站報告。 Adobe Advertising可進一步使用 [!DNL Analytics] 支出和競標最佳化的資料。
 
 若僱用得當， [!DNL Analytics for Advertising] 模糊兩個傳統角色之間的界限：廣告歷程管理（透過廣告將使用者送往網站的行為）和透過網站分析瞭解網站參與。
 
 主要優點：
 
-* 傳送 [!DNL Analytics] 區段直接Adobe廣告以進行第一方網站再行銷。
+* 傳送 [!DNL Analytics] 區段直接Adobe Advertising至第一方網站再行銷。
 * 使用 [!DNL Analytics] 自訂和標準事件作為轉換訊號，用於最佳化付費媒體廣告。
 * 充分利用 [!DNL Analytics] Analysis Workspace以更清楚瞭解網站進入點和造訪行為。
 * 讓網頁分析人員與付費媒體團隊之間更緊密地共同作業。
-* 在中使用永久AdobeAdvertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
+* 在中使用永久Adobe Advertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
 * 將資料或畫素匯出至廣告伺服器或其他DSP時，無法透過自訂量度、自訂維度和網站活動來增強Analysis Workspace中的傳統付費媒體報表。
 * 充分利用 [!DNL Analytics] 程式碼，用於Adobe Advertising中的追蹤和最佳化。
 
@@ -40,20 +40,20 @@ ht-degree: 0%
 
 [!DNL Analytics for Advertising] 允許您：
 
-* 在中使用永久AdobeAdvertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
+* 在中使用永久Adobe Advertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
 * 運用Analysis Workspace深入瞭解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，其中包括Adobe Advertising促銷活動實體名稱（包括版位和廣告）及其相關量度，例如點按數、曝光數和成本。
 
-使用 [!DNL Analytics] 作為您的付費媒體報告工具，您的組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe廣告團隊將幫助您將Adobe廣告資料對應到Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但應留意已對應至Adobe Advertising的報表套裝和尚未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
+使用 [!DNL Analytics] 作為您的付費媒體報告工具，您的組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將幫助您將Adobe Advertising資料對應到Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但應留意已對應至Adobe Advertising的報表套裝和尚未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
 [內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 其運作方式與其他eVar類似，具有自訂的持續有效期。 根據預設，在Adobe Advertising實施期間，歸因回顧期間會設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
-Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 請參閱「[在Analysis Workspace中Adobe廣告量度](advertising-metrics-in-analytics.md)」以取得可用維度的清單。
+Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 請參閱「[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)」以取得可用維度的清單。
 
 >[!NOTE]
 >
 > 當您在中檢視Adobe Advertising資料（或任何資料集）時 [!DNL Analytics]，請注意，量度和報表是根據在中設定的規則 [!DNL Analytics]. 資料可能會與您在其他報表系統中看到的不同，例如廣告伺服器報表、 [!DNL DSP] 報表或搜尋引擎報表。 若要瞭解中的資料差異 [!DNL Analytics]，您必須知道eVar資料何時過期、造訪的定義專案、被視為上次接觸歸因與總持續歸因的專案，以及其他因素。 如需詳細資訊，請參閱 [預期資料差異： [!DNL Analytics] 和Adobe廣告](data-variances.md).
 
-## 使用Analytics來增強Adobe廣告促銷活動和Portfolio
+## 使用Analytics來增強Adobe Advertising促銷活動和Portfolio
 
 不需要任何額外的畫素， [!DNL Analytics for Advertising] 透過傳送兩個主要訊號至Adobe Advertising，實現更好的最佳化及更輕鬆的受眾細分：
 
@@ -90,17 +90,47 @@ Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途
 
 如需Experience Cloud Audiences服務的詳細資訊，請參閱 [Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## 如何使用整合的範例
+## 如何使用整合的範例 {#integration-examples}
 
 ### 在Analysis Workspace中使用Adobe Advertising資料
 
 若要瞭解如何使用Adobe Advertising資料在Analysis Workspace中建立視覺報表，請參閱影片」[Workspace和報表簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).」
 
-### 建立AdobeAdvertising儀表板
+#### 在報表中使用連線電視觀看轉換
+
+*僅限Advertising DSP使用者*
+
+您可以將CTV裝置上的廣告曝光度連結至站上轉換，藉此衡量連線電視(CTV)促銷活動的完整漏鬥成效。 若要檢視您的CTV觀看轉換量度，請使用Analysis Workspace中的「版位」檢視或「行銷管道」檢視。
+
+使用「位置」檢視：
+
+1. 在報表檢視中納入CTV花費位置。
+
+1. 包含所需的量度，例如「曝光數」、「點按數」等。
+
+1. 套用下列篩選器：
+
+   廣告平台： `Advertising Cloud DSP`
+
+   登陸頁面： `View-Through (CTV)`
+
+使用行銷管道檢視：
+
+1. 包含維度 `Marketing Channel`.
+
+1. 包含所需的量度，例如「曝光數」、「點按數」等。
+
+1. 套用下列篩選器：
+
+   廣告平台： `Advertising Cloud DSP`
+
+   登陸頁面： `View-Through (CTV)`
+
+### 建立Adobe Advertising儀表板
 
 若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片」[使用Adobe Analytics建立Adobe Advertising儀表板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).」
 
-### 使用Adobe AdvertisingID進行網站專案分析
+### 將Adobe廣告ID用於網站專案分析
 
 若要瞭解如何建立Adobe Advertising網站專案報告，以監控一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片」[建立Adobe廣告網站專案報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).」
 
@@ -111,5 +141,5 @@ Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途
 >* [Analytics使用的Adobe AdvertisingID](ids.md)
 >* [Analytics for Advertising的JavaScript程式碼](/help/integrations/analytics/javascript.md)
 >* [預期資料差異： [!DNL Analytics] 和Adobe廣告](data-variances.md)
->* [在Analysis Workspace中Adobe廣告量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis Workspace中的Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)

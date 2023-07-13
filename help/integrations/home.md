@@ -1,30 +1,31 @@
 ---
 title: 新增功能
-description: 瞭解Adobe廣告與Adobe Experience Cloud其他產品和服務整合的更新。
+description: 瞭解Adobe Experience Cloud中Adobe Advertising與其他產品和服務之間整合的更新。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 08a95c392df4fefa927c2714a04dbfabae51ac58
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
 # 新增功能
 
-以下功能是新的或最近更改的。
+下列是新增或最近變更的功能。
 
-| 日期 | 功能 | 說明 | 有關詳細資訊 |
+| 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年11月1日 | 幫助 | 新文檔介紹如何在廣告和Adobe Target之間實施點擊式和查看式信DSP號共用，以及如何在 [!DNL Target] 以及DSP如何設定Adobe AnalyticsAnalysis Workspace查看test資料。 | 請參閱「」[配置Adobe Target的A/BTest以進行廣DSP告](/help/integrations/target/overview-ab-tests.md)&quot; |
-| 2022年8月17日 | 幫助 | 新章介紹Adobe廣告與Adobe Audience Manager整合的所有方式。 | 請參閱&quot;與Adobe Audience Manager一體化&quot;一章，包括對&quot;[Adobe廣告與Adobe Audience Manager的整合](/help/integrations/audience-manager/overview.md)&quot; |
-| 2021年4月27日 | [!DNL Analytics for Advertising] | 瞭解添加原因和方法 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 將按一下資料發送到Adobe Analytics的廣告標籤。 | 請參閱「」[追加 [!DNL Analytics for Advertising] 宏到 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)&quot; |
-| 2021年4月19日 | [!DNL Analytics for Advertising] | 瞭解為什麼以及如何將宏添加到 [!DNL Flashtalking] 將按一下資料發送到Adobe Analytics的廣告標籤。 | 請參閱「」[追加 [!DNL Analytics for Advertising] 宏到 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)&quot; |
-| 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的組織想從舊式Adobe Analytics `visitorAPI.js` 庫到 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 庫(`alloy.js`)收集資料時，需要進行一些更改以啟用ID拼接。 | 請參閱「」[使用 [!DNL Last Event Service] 帶有Adobe Experience Platform的JavaScript庫 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)&quot; |
-| 2021年5月26日 | 幫助 | 本章「[!DNL Analytics for Advertising]現在包含一個關於「 [!DNL Analytics Marketing Channels]&quot; | 請參閱：&quot;[營銷渠道的基礎](/help/integrations/analytics/marketing-channels/mc-overview.md), &quot;[使用Adobe廣告ID建立 [!DNL Analytics Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md), &quot;[使用 [!DNL Analytics Marketing Channels] Adobe廣告資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot;和&quot;[渠道資料為何會因Adobe廣告和 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)&quot; |
-| 2021年5月26日 | 幫助 | 指向所有視頻教程的連結關於 [!DNL Analytics for Advertising] 。 | [有關Adobe廣告整合的視頻教程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
+| 2023年7月13日 | 報告 | (DSP使用者具有 [!DNL Analytics for Advertising])連線電視(CTV)位置的觀看轉換現在包含在Adobe Analytics中提供的轉換資料中。 | 請參閱「 」中「如何使用整合的範例」一節[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).」 |
+| 2022年11月1日 | 說明 | 新檔案說明如何在Advertising DSP和Adobe Target之間實作點進和閱覽訊號共用，以及在中設定A/B測試活動 [!DNL Target] DSP以及如何設定Adobe Analytics Analysis Workspace以檢視測試資料。 | 請參閱「[在Adobe Target中設定Advertising DSP Ads的A/B測試](/help/integrations/target/overview-ab-tests.md).」 |
+| 2022年8月17日 | 說明 | 新章節將說明Adobe Advertising與Adobe Audience Manager整合的所有方式。 | 請參閱「與Adobe Audience Manager整合」一章，包括「[AdobeAdvertising與Adobe Audience Manager的整合](/help/integrations/audience-manager/overview.md).」 |
+| 2021年4月27日 | [!DNL Analytics for Advertising] | 瞭解新增原因和方式 [!DNL Analytics for Advertising] 巨集加入您的 [!DNL Google Campaign Manager 360] 廣告標籤以將點選資料傳送至Adobe Analytics。 | 請參閱「[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md).」 |
+| 2021年4月19日 | [!DNL Analytics for Advertising] | 瞭解為什麼以及如何將巨集附加至您的 [!DNL Flashtalking] 廣告標籤以將點選資料傳送至Adobe Analytics。 | 請參閱「[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md).」 |
+| 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的組織想從使用舊版Adobe Analytics進行切換 `visitorAPI.js` 資料庫至 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料庫(`alloy.js`)進行資料收集時，您需要進行一些變更以啟用ID拼接。 | 請參閱「[使用 [!DNL Last Event Service] 使用Adobe Experience Platform的JavaScript資料庫 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).」 |
+| 2021年5月26日 | 說明 | 「 」章節[!DNL Analytics for Advertising]「 」現在包含「處理」的子章節 [!DNL Analytics Marketing Channels].」 | 請參閱： 」[行銷管道的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)，&quot; &quot;[使用Adobe廣告ID來建立 [!DNL Analytics Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)，&quot; &quot;[使用 [!DNL Analytics Marketing Channels] 使用Adobe廣告資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)，」和「[為何管道資料可能因Adobe廣告和以下內容而異 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).」 |
+| 2021年5月26日 | 說明 | 所有教學課程影片的相關連結 [!DNL Analytics for Advertising] 已新增。 | [有關Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
 
 {style="table-layout:auto"}
 
