@@ -1,9 +1,10 @@
 ---
-title: 一般資料保護規範的Adobe Advertising支援
+title: 一般資料保護規範的Adobe廣告支援
 description: 瞭解支援的資料請求型別、必要的設定和欄位值，以及使用舊版產品ID和傳回的資料欄位的API存取請求範例
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 Adobe Experience Cloud代表客戶擔任資料處理者的角色，處理其收到並儲存的任何個人資料。 身為資料控管單位，您可以決定Adobe Experience Cloud代表您處理和儲存哪些個人資料。
 
-本檔案說明如何 [!DNL Advertising Search, Social, & Commerce]； Advertising Creative； Advertising DSP (Demand Side Platform)；和 [!DNL Advertising DCO] 使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI，支援資料主體存取GDPR資料和刪除許可權。
+本檔案說明如何 [!DNL Advertising Search, Social, & Commerce]；Advertising Creative；Advertising DSP (Demand Side Platform)；和 [!DNL Advertising DCO] 使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI，支援資料主體存取GDPR資料和刪除許可權。
 
 如需GDPR對您業務意義的詳細資訊，請參閱 [GDPR與您的企業](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -36,7 +37,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 ## 傳送Adobe Advertising請求的必要設定
 
-若要請求存取和刪除Adobe廣告的資料，您需要：
+若要提出存取和刪除Adobe Advertising資料的請求，您需要：
 
 1. 部署JavaScript程式庫以擷取和移除您的資料主體Cookie。 相同的程式庫， `AdobePrivacy.js`，適用於所有Adobe Experience Cloud解決方案。
 
@@ -60,7 +61,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >請聯絡貴公司的Adobe廣告代表，確認貴組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商， [!DNL Search, Social, & Commerce] 帳戶，以及 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
 
-1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動化請求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （適用於臨時請求）代表資料主體向Adobe Advertising提交存取和刪除請求，並檢查現有請求的狀態。
+1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動化請求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant) （適用於臨時請求）代表資料主體向Adobe Advertising提交存取和刪除請求，並檢查現有請求的狀態。
 
    對於擁有行動應用程式的廣告商，如果廣告商要與資料主體互動，並與DSP推出行銷活動，您需要下載適用於隱私權的Mobile SDK以供Experience Cloud。 行動SDK可讓資料控管單位設定選擇退出狀態標幟、擷取資料主體的裝置ID （名稱空間ID：deviceID），並將請求提交至Privacy ServiceAPI。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
 
@@ -70,9 +71,9 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
    >[!NOTE]
    >
-   如果您的公司有多個Experience Cloud組織ID，則必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
+   如果您的公司有多個Experience Cloud組織ID，則必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe Advertising子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
 
-所有這些步驟對於Adobe廣告都是必要的。 如需關於這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及在何處尋找所需的專案，請參閱 [隱私權與GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
+所有這些步驟都是Adobe Advertising的必要步驟。 如需關於這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及在何處尋找所需的專案，請參閱 [隱私權與GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
 
 ## Adobe AdvertisingJSON請求中的必填欄位值
 
@@ -102,29 +103,29 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```

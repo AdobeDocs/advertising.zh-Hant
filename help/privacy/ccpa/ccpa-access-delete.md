@@ -1,106 +1,108 @@
 ---
-title: Adobe對《加利福尼亞消費者隱私法》的廣告支援：使用者資料存取和刪除支援
-description: 瞭解支援的資料請求類型、必需的設定和欄位值，以及使用舊產品ID和返回的資料欄位的API訪問請求示例。
+title: 加州消費者隱私法的Adobe Advertising支援：消費者資料存取和刪除支援
+description: 瞭解支援的資料請求型別、必要的設定和欄位值，以及使用舊版產品ID和傳回的資料欄位的API存取請求範例。
 feature: CCPA
+role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 0%
 
 ---
 
-# Adobe對加利福尼亞消費者隱私法的廣告支援：使用者資料存取和刪除支援
+# 加州消費者隱私法的Adobe Advertising支援：消費者資料存取和刪除支援
 
-*對於 [!DNL Adobe Advertising Search, Social, & Commerce];Adobe廣DSP告；Adobe廣告創意；和Adobe廣告DCO*
+*對象 [!DNL Adobe Advertising Search, Social, & Commerce]；Adobe Advertising DSP；Adobe Advertising Creative；和Adobe AdvertisingDCO*
 
 >[!IMPORTANT]
 >
->本檔案內容不是法律意見，不是代替法律意見。 請咨詢您的法律顧問，以獲取有關《加利福尼亞消費者隱私法》的建議。
+>本檔案的內容不是法律建議，且用意並非要取代法律建議。 如需《加州消費者隱私法》的相關建議，請諮詢您的法律顧問。
 
-《加利福尼亞消費者隱私法》(CCPA)是加利福尼亞新的隱私法，自2020年1月1日起生效。 CCPA為加利福尼亞州居民提供了有關其個人資訊的新權利，並對在加利福尼亞開展業務的某些實體規定了資料保護責任。 CCPA向消費者提供了訪問和刪除其個人資訊的權利，以及選擇不參與某些符合向第三方「銷售」個人資訊資格的活動的權利。
+加州消費者隱私法(CCPA)是加州的新隱私法，自2020年1月1日起生效。 CCPA為加州居民提供新的個資權利，並對在加州經營業務的特定實體賦予資料保護責任。 CCPA給予消費者存取及刪除其個人資訊的權利，以及選擇退出能將個人資訊「銷售」給協力廠商的特定活動的權利。
 
-作為企業，您將確定Adobe Experience Cloud代表您處理和儲存的個人資料。
+企業能決定哪些個人資料要交由Adobe Experience Cloud代表您處理和儲存。
 
-作為您的服務提供商，Adobe廣告為您的企業提供支援，以履行CCPA規定的義務，這些義務適用於Adobe廣告產品和服務的使用，包括管理訪問和刪除個人資訊的請求以及管理選擇不銷售個人資訊的請求。
+作為您的服務提供者，Adobe Advertising會為貴企業提供支援，以履行CCPA所規範的適用於使用Adobe Advertising產品和服務的義務，包括管理存取和刪除個人資訊的請求，以及管理選擇退出個人資訊銷售的請求。
 
-本文檔介紹如何 [!DNL Advertising Search, Social, & Commerce];廣告創意；廣告DSP(Demand Side Platform);和 [!DNL Advertising DCO]  — 作為服務提供商 — 支援消費者使用Adobe訪問和刪除個人資訊的權利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI]。
+本檔案說明如何 [!DNL Advertising Search, Social, & Commerce]；Advertising Creative；Advertising DSP (Demand Side Platform)；和 [!DNL Advertising DCO]  — 作為服務提供者 — 支援消費者使用Adobe存取和刪除個人資訊的權利 [!DNL Experience Platform Privacy Service API] 和 [!DNL Privacy Service UI].
 
-有關廣告如DSP何支援消費者選擇退出個人資訊銷售的權利的資訊，請參閱 [Adobe對加利福尼亞消費者隱私法的廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
+如需Advertising DSP如何支援消費者選擇退出個人資訊銷售的權利的詳細資訊，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-有關CCPA的Adobe隱私服務的詳細資訊，請參見 [Adobe隱私中心](https://www.adobe.com/privacy/ccpa.html)。
+如需CCPAAdobe隱私權服務的詳細資訊，請參閱 [Adobe隱私權中心](https://www.adobe.com/privacy/ccpa.html).
 
-## 支援的Adobe廣告資料請求類型
+## 支援的Adobe Advertising資料請求型別
 
-Adobe Experience Platform為企業提供了完成以下任務的能力：
+Adobe Experience Platform讓企業能夠完成下列工作：
 
-* 訪問用戶的Cookie級資料或設備ID級資料（用於移動應用中的廣告） [!DNL Search, Social, & Commerce]。 [!DNL Creative]。 [!DNL DSP]或 [!DNL DCO]。
-* 刪除儲存在 [!DNL Search, Social, & Commerce]。 [!DNL Creative]。 [!DNL DSP]或 [!DNL DCO] 消費者使用瀏覽器；或刪除儲存在 [!DNL DSP] 用於在移動設備上使用應用的消費者。
+* 在中存取消費者的Cookie層級資料或裝置ID層級資料（適用於行動應用程式中的廣告） [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO].
+* 刪除儲存在中的Cookie層級資料 [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO] 適用於使用瀏覽器的消費者；或刪除儲存在中的ID層級資料 [!DNL DSP] 適用於在行動裝置上使用應用程式的消費者。
 * 檢查一個或所有現有請求的狀態。
 
-## 發送Adobe廣告請求所需的設定
+## 傳送Adobe廣告請求的必要設定
 
-要請求訪問和刪除Adobe廣告中的消費者個人資訊，您需要：
+若要請求存取和刪除Adobe Advertising中的消費者個人資訊，您需要：
 
-1. 部署JavaScript庫以檢索和刪除客戶的Cookie。 同一個圖書館， `AdobePrivacy.js`，用於所有Adobe Experience Cloud解決方案。
-
-   >[!IMPORTANT]
-   >
-   >對某些Experience Cloud解決方案的請求不需要JavaScript庫，但對Adobe廣告的請求需要它。
-
-   您應在網頁上部署庫，客戶可以從該網頁上提交訪問和刪除請求，如您公司的隱私門戶。 庫可幫助您檢索AdobeCookie(命名空間ID: `gsurferID`)，以便您可以提交這些身份，作為訪問和刪除請求的一部分 [!DNL Adobe Experience Platform Privacy Service API]。
-
-   當客戶要求刪除個人資料時，庫還會從客戶的瀏覽器中刪除客戶的cookie。
-
-   >[!NOTE]
-   >
-   >刪除個人資料與選擇退出不同，這會阻止最終用戶針對受眾群體。 但是，當消費者要求從 [!DNL Creative]。 [!DNL DSP]或 [!DNL DCO]，該庫還向Adobe廣告發出請求，以選擇客戶不受分類目標的影響。 對於具有 [!DNL Search, Social, & Commerce]，我們建議您向客戶提供一個連結 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，說明如何選擇不以受眾為目標。
-
-1. 確定您的Experience Cloud組織ID，並確保它連結到您的Adobe廣告帳戶。
-
-   Experience Cloud組織ID是附加有「@AdobeOrg」的24個字元的字母數字字串。 大多數Experience Cloud客戶已分配了組織ID。 如果您的營銷團隊或內部Adobe系統管理員不知道您的組織ID，或者不確定是否已預配，請通過gdprsupport@adobe.com與Adobe客戶服務部聯繫。 您需要組織ID才能使用 `imsOrgID` 命名空間。
+1. 部署JavaScript程式庫以擷取和移除客戶的Cookie。 相同的程式庫， `AdobePrivacy.js`，適用於所有Adobe Experience Cloud解決方案。
 
    >[!IMPORTANT]
    >
-   >聯繫您公司的Adobe廣告代表，確認您公司的所有Adobe廣告帳戶，包括 [!DNL DSP] 或者廣告商， [!DNL Search, Social, & Commerce] 帳戶和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結到您的Experience Cloud組織ID。
+   >請求某些Experience Cloud解決方案不需要JavaScript程式庫，但請求Adobe Advertising需要它。
 
-1. 使用 [Adobe Experience Platform Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （用於自動請求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （針對臨時請求）代表消費者向Adobe廣告提交訪問和刪除個人資訊的請求，並檢查現有請求的狀態。
+   您應將資料庫部署在客戶可提交存取和刪除請求的網頁上，例如您公司的隱私權入口網站。 資料庫可協助您擷取AdobeCookie (名稱空間ID： `gsurferID`)，這樣您就可以在存取和刪除請求時，透過以下方式提交這些身分識別： [!DNL Adobe Experience Platform Privacy Service API].
 
-   對於擁有移動應用與客戶交互併發起活動的廣告商 [!DNL DSP]，您需要下載Privacy-ready Mobile SDK以進行Experience Cloud。 移動SDK允許企業設定選擇退出狀態標誌，檢索使用者的設備ID(命名空間ID: `deviceID`)，並將請求提交到Privacy ServiceAPI。 您的移動應用需要SDK 4.15.0版或更高版本。
-
-   當您提交使用者訪問請求時，Privacy ServiceAPI將根據指定的cookie或設備ID返回使用者資訊，然後您必須將其返回給使用者。
-
-   在您提交使用者刪除請求時，Cookie ID或設備ID以及所有成本，按一下並從伺服器中刪除與Cookie關聯的收入資料。
+   當客戶要求刪除個人資料時，程式庫也會從客戶的瀏覽器中刪除客戶的Cookie。
 
    >[!NOTE]
-   如果您的企業具有多個Experience Cloud組織ID，則必須為每個API請求發送單獨的API請求。 但是，您可以向多個Adobe廣告子解決方案發出一個API請求([!DNL Search, Social, & Commerce]。 [!DNL Creative]。 [!DNL DSP], [!DNL DCO])，每個子解決方案有一個帳戶。
+   >
+   >刪除個人資料與選擇退出不同，選擇退出會停止鎖定具有受眾區段的一般使用者。 但是，當消費者要求刪除個人資料時 [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO]，程式庫也會傳送要求給Adobe Advertising，要求退出客戶區段鎖定目標。 適用於廣告商與 [!DNL Search, Social, & Commerce]，我們建議您向客戶提供以下連結至 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)，說明如何選擇退出對象區段鎖定目標。
 
-所有這些步驟都是獲得Adobe廣告支援所必需的。 有關使用Adobe Experience Platform Privacy Service執行這些任務和其他相關任務的詳細資訊，以及在何處查找需要的項目，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
+1. 識別您的Experience Cloud組織ID，並確定其連結至您的Adobe Advertising帳戶。
 
-## Adobe廣告JSON請求中的必需欄位值
+   Experience Cloud組織ID是24個字元的英數字串，後面接著「@AdobeOrg」。 大部分Experience Cloud客戶都已指派組織ID。 如果您的行銷團隊或內部Adobe系統管理員不知道您的組織ID，或不確定是否已布建，請透過gdprsupport@adobe.com聯絡Adobe客戶服務。 您需要組織ID才能使用 `imsOrgID` 名稱空間。
+
+   >[!IMPORTANT]
+   >
+   >請聯絡貴公司的Adobe廣告代表，確認貴組織的所有Adobe廣告帳戶，包括 [!DNL DSP] 帳戶或廣告商， [!DNL Search, Social, & Commerce] 帳戶，以及 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結至您的Experience Cloud組織ID。
+
+1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動化請求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant) （適用於臨時請求）代表消費者向Adobe Advertising提交存取和刪除個人資訊的請求，並檢查現有請求的狀態。
+
+   適用於擁有行動應用程式的廣告商，以便與客戶互動並推出行銷活動。 [!DNL DSP]，您必須下載適用於隱私權的Mobile SDK以供Experience Cloud。 行動SDK可讓企業設定選擇退出狀態標幟、擷取消費者的裝置ID (名稱空間ID： `deviceID`)，並將請求提交至Privacy Service API。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
+
+   當您提交消費者存取請求時，Privacy ServiceAPI會根據指定的Cookie或裝置ID傳回消費者的資訊，然後您必須將其傳回給消費者。
+
+   當您提交消費者刪除請求時，Cookie ID或裝置ID以及所有成本、點選和與Cookie相關聯的收入資料都會從伺服器刪除。
+
+   >[!NOTE]
+   >
+   如果您的企業有多個Experience Cloud組織ID，則必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe廣告子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
+
+若要取得Adobe廣告的支援，所有這些步驟都是必要的。 如需關於這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及在何處尋找所需的專案，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+
+## Adobe AdvertisingJSON請求中的必填欄位值
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*您的Experience Cloud組織ID*>
 
-&quot;用戶&quot;:
+&quot;users&quot;：
 
-* `"key":` &lt;*通常客戶的姓名*>
+* `"key":` &lt;*通常是客戶的名稱*>
 
-* `"action":` 或 `**access**` 或 `**delete**`
+* `"action":` 兩者之一 `**access**` 或 `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （表示adcloud cookie空間）
+   * `"namespace": **411**` （代表adcloud cookie空間）
 
-   * `"value":` &lt;*從中檢索的實際客戶的cookie ID值`AdobePrivacy.js`*>
+   * `"value":` &lt;*實際客戶的Cookie ID值，擷取自`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (即適用於請求的Adobe產品)
+* `"include": **adCloud**` (適用於此請求的Adobe產品)
 
-* `"regulation": **ccpa**` （即適用於請求的隱私法規）
+* `"regulation": **ccpa**` （適用於此請求的隱私權法規）
 
-## 使用從AdobePrivacy.js檢索到的Adobe廣告用戶ID由使用者提交的請求示例
+## 消費者使用從AdobePrivacy.js擷取的Adobe Advertising使用者ID提交的請求範例
 
 ```
 {
@@ -132,9 +134,9 @@ Adobe Experience Platform為企業提供了完成以下任務的能力：
 }
 ```
 
-## 為訪問請求返回的資料欄位
+## 針對存取請求傳回的資料欄位
 
-以下是Adobe廣告的個人資訊訪問響應示例。
+以下是Adobe廣告的個人資訊存取回應範例。
 
 ```
 {
