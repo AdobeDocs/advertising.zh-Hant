@@ -1,13 +1,13 @@
 ---
 title: Advertising DSP新增功能
-description: 瞭解Adobe Advertising DSP的最新更新和新功能。
+description: 瞭解AdobeAdvertising DSP的最新更新和新功能。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d17d66c571dd810f98a870b3f8b10e9f8629af48
+source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年7月19日 | 報告 | (DSP使用者具有 [!DNL Analytics for Advertising])新的 [!UICONTROL Household Conversions Report] 包括連線電視(CTV)位置的瀏覽轉換功能。 資料也可在Adobe Analytics中使用。 | 請參閱「[關於報表](/help/dsp/reports/report-about.md)「和」[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」<br><br>另請參閱「 」中「如何使用整合的範例」一節[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).」 |
+| 2023年7月19日 | 報告 | (DSP使用者具有 [!DNL Analytics for Advertising])新的 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱「[關於報表](/help/dsp/reports/report-about.md)「和」[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」 |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您現在可以暫停或啟用行銷活動、套件和廣告。 您已經可以暫停並啟用版位。 | 請參閱「[暫停或啟動行銷活動](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)，&quot; &quot;[暫停或啟動封裝](/help/dsp/campaign-management/packages/package-pause-activate.md)，」和「[暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md).」 |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用視訊版位和廣告現已正式推出。 | 請參閱「[通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)，&quot; &quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)，」和「[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
 | 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 會根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及範圍和頻率。 報表包含九個維度： [!UICONTROL Campaign]， [!UICONTROL Package]， [!UICONTROL Placement]， [!UICONTROL Site/Apps]， [!UICONTROL Media Type]， [!UICONTROL Device]， [!UICONTROL Audience]， [!UICONTROL Creative Length]，和使用者建立的 [!UICONTROL Tags]. | 請參閱「[關於報表](/help/dsp/reports/report-about.md)，&quot; &quot;[報表設定](/help/dsp/reports/report-settings.md)，」和「[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」 |
