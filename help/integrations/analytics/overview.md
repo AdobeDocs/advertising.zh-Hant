@@ -3,9 +3,9 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
+source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *使用Advertising DSP和的廣告商[!DNL Advertising Search, Social, & Commerce]*
 
-[!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe Advertising，以擴充和增強每個產品的功能。
+[!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe廣告，以擴充和增強每個產品的功能。
 
 整合可讓廣告商追蹤其網站中的點進和檢視互動 [!DNL Analytics] 例項，讓品牌瞭解其廣告支出如何帶來網站參與度和關鍵業務目標。
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 主要優點：
 
-* 傳送 [!DNL Analytics] 區段直接Adobe Advertising至第一方網站再行銷。
+* 傳送 [!DNL Analytics] 區段直接Adobe廣告以進行第一方網站再行銷。
 * 使用 [!DNL Analytics] 自訂和標準事件作為轉換訊號，用於最佳化付費媒體廣告。
 * 充分利用 [!DNL Analytics] Analysis Workspace以更清楚瞭解網站進入點和造訪行為。
 * 讓網頁分析人員與付費媒體團隊之間更緊密地共同作業。
-* 在中使用永久AdobeAdvertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
+* 在中使用永久Adobe Advertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
 * 將資料或畫素匯出至廣告伺服器或其他DSP時，無法透過自訂量度、自訂維度和網站活動來增強Analysis Workspace中的傳統付費媒體報表。
 * 充分利用 [!DNL Analytics] 程式碼，用於Adobe Advertising中的追蹤和最佳化。
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 [!DNL Analytics for Advertising] 允許您：
 
 * 在中使用永久AdobeAdvertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
-* 運用Analysis Workspace深入瞭解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，其中包括Adobe Advertising促銷活動實體名稱（包括版位和廣告）及其相關量度，例如點按數、曝光數和成本。
+* 運用Analysis Workspace深入瞭解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，其中包括Adobe廣告行銷活動實體名稱（包括版位和廣告）及其相關量度，例如點按數、曝光數和成本。
 
-使用 [!DNL Analytics] 作為您的付費媒體報告工具，您的組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將幫助您將Adobe Advertising資料對應到Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但應留意已對應至Adobe Advertising的報表套裝和尚未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
+使用 [!DNL Analytics] 作為您的付費媒體報告工具，您的組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe廣告團隊將幫助您將Adobe廣告資料對應到Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但應留意已對應至Adobe Advertising的報表套裝和尚未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
-[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 其運作方式與其他eVar類似，具有自訂的持續有效期。 根據預設，歸因回顧期間會設定為60天(在Adobe廣告實施期間)。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 其運作方式與其他eVar類似，具有自訂的持續有效期。 根據預設，在Adobe Advertising實施期間，歸因回顧期間會設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 請參閱「[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)」以取得可用維度的清單。
 
@@ -128,17 +128,13 @@ Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途
 
    登陸頁面： `View-Through (CTV)`
 
->[!NOTE]
->
-> CTV位置的瀏覽轉換也可在 [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
-
-### 建立AdobeAdvertising儀表板
+### 建立Adobe Advertising儀表板
 
 若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片」[使用Adobe Analytics建立Adobe Advertising儀表板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).」
 
-### 將Adobe廣告ID用於網站專案分析
+### 使用Adobe AdvertisingID進行網站專案分析
 
-若要瞭解如何建立Adobe Advertising網站專案報告，以監控一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片」[建立Adobe Advertising網站專案報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).」
+若要瞭解如何建立Adobe Advertising網站專案報告，以監控一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片」[建立Adobe廣告網站專案報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).」
 
 >[!MORELIKETHIS]
 >
@@ -147,5 +143,5 @@ Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途
 >* [Analytics使用的Adobe AdvertisingID](ids.md)
 >* [Analytics for Advertising的JavaScript程式碼](/help/integrations/analytics/javascript.md)
 >* [預期資料差異： [!DNL Analytics] 和Adobe Advertising](data-variances.md)
->* [在Analysis Workspace中Adobe廣告量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis Workspace中的Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
