@@ -2,9 +2,9 @@
 title: 關於住戶報表的常見問題集
 description: 進一步瞭解住戶觸及率、頻率和轉換資料，包括住戶報告與其他報告和疑難排解的差異。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 報告與資料來源 [!DNL Advanced Measurement Services]
 
-若要取得以住戶為基礎的觸及率和頻率或轉換率的進階報表，請 [[!DNL Strategic Advertising Consulting] 團隊](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度客製化的報告以及整體策略建議。 如需有關的詳細資訊 [!DNL Advanced Measurement Services]，請聯絡您的Adobe客戶團隊。
+對於以家庭為基礎的觸及率和頻率或轉換的進階報告， [[!DNL Strategic Advertising Consulting] 團隊](/help/dsp/introduction/advanced-measurement-services.md) 可提供高度客製化的報告以及整體策略建議。 如需有關的詳細資訊 [!DNL Advanced Measurement Services]，請聯絡您的Adobe客戶團隊。
 
 ### 如果我已經在使用 [!DNL Advanced Measurement Services]，為何應使用 [!UICONTROL Household Reach & Frequency] 和 [!UICONTROL Household Conversions] 報告？
 
