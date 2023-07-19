@@ -2,9 +2,9 @@
 title: 關於住戶報表的常見問題集
 description: 進一步瞭解住戶觸及率、頻率和轉換資料，包括住戶報告與其他報告和疑難排解的差異。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 支援兩種型別的歸因方法：
 
-* 唯一：計算維度值（例如裝置或位置）在轉換路徑上的次數。
+* [!UICONTROL Unique]：計算維度值（例如裝置或位置）在轉換路徑上的次數。
 
-* MTA （多重接觸歸因）：根據維度值（例如裝置或位置）在轉換路徑上的出現頻率，分配每次轉換的評分。 例如，如果在轉換前總共有10次曝光，其中8次在CTV上，2次在Mobile上，則80%的評分(0.8)會提供給CTV熒幕，而0.2次提供給Mobile。
+* [!UICONTROL Multi-Touch Attribution (MTA)]：根據維度值（例如裝置或位置）在轉換路徑上的出現頻率，分配每個轉換的評分。 例如，如果在轉換前總共有10次曝光，其中8次在CTV上，2次在Mobile上，則80%的評分(0.8)會提供給CTV熒幕，而0.2次提供給Mobile。
 
 ### 在Adobe Analytics中，住戶轉換報表與CTV觀看報告有何不同？
 
