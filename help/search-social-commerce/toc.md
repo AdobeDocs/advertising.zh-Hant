@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [以FTP存取報表](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [歸因規則的計算方式](/help/search-social-commerce/reports/attribution-rules.md)
-      + [關於報表的常見問題集](/help/search-social-commerce/reports/faqs-report.md)
+      + [關於自訂報表的常見問題集](/help/search-social-commerce/reports/faqs-report.md)
    + 通知 {#notifications}
       + [關於通知](/help/search-social-commerce/notifications/notification-about.md)
       + [檢視您的通知](/help/search-social-commerce/notifications/notification-view.md)

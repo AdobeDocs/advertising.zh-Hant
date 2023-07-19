@@ -1,14 +1,15 @@
 ---
-title: 關於報表的常見問題集
+title: 關於自訂報表的常見問題集
 description: 瞭解效能報告的常見問題解答，包括疑難排解資料問題。
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# 關於報表的常見問題集
+# 關於自訂報表的常見問題集
 
 ## 一般問題
 
@@ -208,12 +209,12 @@ ht-degree: 0%
 +++
 
 +++有些進階報表並不包含廣告商摘要提供的轉換資料。
-此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用透過Adobe廣告轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。 報表不包含在Adobe Advertising轉換追蹤系統之外追蹤的轉換資料。
+此 [!UICONTROL Geo Distribution Report] 和 [!UICONTROL Domain Referral Report] 使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。 報表不包含在Adobe Advertising轉換追蹤系統之外追蹤的轉換資料。
 +++
 
 +++收入資料與廣告商本身的收入資料不同。
 
-**使用Adobe Advertising轉換標籤的廣告商**
+**使用Adobe廣告轉換標籤的廣告商**
 
 *可能的原因：*
 
@@ -312,7 +313,7 @@ ht-degree: 0%
 +++
 
 +++在 [!UICONTROL Transaction Report]，如何知道哪個交易屬性來自資料摘要或由Adobe Advertising追蹤畫素追蹤？
-在交易報表中，如果您包含自訂欄，您可以分辨是否有Adobe Advertising追蹤畫素追蹤包含的交易屬性」[!UICONTROL Tracking URL].」 以AdobeAdvertising追蹤畫素來追蹤URL的開頭為&quot;`http://pixel.everesttech.net`.」
+在交易報表中，如果您包含自訂欄，您可以分辨是否有Adobe Advertising追蹤畫素追蹤包含的交易屬性」[!UICONTROL Tracking URL].」 以Adobe Advertising追蹤畫素開始追蹤URL`http://pixel.everesttech.net`.」
 +++
 
 +++我的中的資料 [!UICONTROL Transaction Report] 不符合「 」中的資料 [!UICONTROL Keyword Report].

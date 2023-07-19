@@ -3,7 +3,7 @@ title: 關於自訂報表
 description: 瞭解手動或使用預先設定的報告範本建立自訂報告的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >* [建立自訂報表](/help/dsp/reports/report-create.md)
 >* [自訂報表設定](/help/dsp/reports/report-settings.md)
->* [關於的常見問題集 [!UICONTROL Household] 報告](/help/dsp/reports/faq-household-report.md)
+>* [關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md)
 >* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
 >* [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
