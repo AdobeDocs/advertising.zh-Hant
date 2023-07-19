@@ -1,10 +1,10 @@
 ---
 title: 關於住戶報表的常見問題集
-description: 進一步瞭解報表資料，包括如何 [!UICONTROL Household] 報告與其他報告和疑難排解不同。
+description: 進一步瞭解住戶觸及率、頻率和轉換資料，包括住戶報告與其他報告和疑難排解的差異。
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
