@@ -1,9 +1,9 @@
 ---
 title: 建立和上傳資產
 description: 瞭解如何建立可重複使用的影像、影片和文字資產，並將其上傳至您的 [!DNL Google Ads] 帳戶層級的資產庫。
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *對象 [!DNL Google Ads] 僅限帳戶*
 
-*Beta功能*
+*開放Beta版功能*
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library (Beta)]**.
 

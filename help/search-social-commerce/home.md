@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 4e8ea89826d40b44fe5f27dc4235b000cee94c95
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年6月30日 | [!UICONTROL Asset Library] | (測試版功能； [!DNL Google Ads] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]，您可以建立可重複使用的影像、影片和文字資產，並將其上傳至 [!DNL Google Ads] 帳戶層級的資產庫。 當您在建立或編輯行銷活動時，可以將資產用於廣告 [!DNL Google Ads] 編輯者。 | 請參閱「[建立和上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).」 |
+| 2023年6月30日 | [!UICONTROL Asset Library] | (開放Beta版功能； [!DNL Google Ads] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]，您可以建立可重複使用的影像、影片和文字資產，並將其上傳至 [!DNL Google Ads] 帳戶層級的資產庫。 當您在建立或編輯行銷活動時，可以將資產用於廣告 [!DNL Google Ads] 編輯者。 | 請參閱「[建立和上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).」 |
 | | [!UICONTROL Google Import] | 您現在可以從產生您自己的匯入認證ID [!DNL Microsoft® Advertising] 當您設定行銷活動匯入工作時 [!DNL Google Ads]. 之前，Adobe技術支援或您的Adobe帳戶團隊會提供ID。 | 請參閱「[復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).」 |
 | 2023年6月27日 | [!UICONTROL Campaigns] | (測試版功能； [!DNL Microsoft® Advertising] 帳戶)您現在可以在以下位置指定行銷活動層級轉換目標： [!DNL Microsoft® Advertising] 行銷活動設定。 先前，當您在「搜尋」、「社交」和「商務」中建立行銷活動時，系統會使用帳戶層級目標。 | 請參閱「[[!DNL Microsoft® Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).」 |
 | 2023年6月10日 | [!UICONTROL Recommendations and Publisher Insights] | （開放測試版） [!UICONTROL Microsoft® Advertising] 過去30天內建議的效能深入分析和建議可在以下網址取得： [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>注意：</b> 雖然建議可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議之前，建議您先洽詢您的Adobe帳戶團隊。 | 請參閱「[關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md).」 |
