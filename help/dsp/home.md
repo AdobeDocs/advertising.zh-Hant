@@ -1,13 +1,13 @@
 ---
 title: Advertising DSP新增功能
-description: 瞭解AdobeAdvertising DSP的最新更新和新功能。
+description: 瞭解Adobe Advertising DSP的最新更新和新功能。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
+source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年7月19日 | 報告 | (DSP使用者具有 [!DNL Analytics for Advertising])新的 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱「[關於報表](/help/dsp/reports/report-about.md)「和」[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」 |
+| 2023年7月19日 | 報告 | 新 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱「[關於報表](/help/dsp/reports/report-about.md)「和」[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」 |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您現在可以暫停或啟用行銷活動、套件和廣告。 您已經可以暫停並啟用版位。 | 請參閱「[暫停或啟動行銷活動](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)，&quot; &quot;[暫停或啟動封裝](/help/dsp/campaign-management/packages/package-pause-activate.md)，」和「[暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md).」 |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用視訊版位和廣告現已正式推出。 | 請參閱「[通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)，&quot; &quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)，」和「[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
 | 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 會根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及範圍和頻率。 報表包含九個維度： [!UICONTROL Campaign]， [!UICONTROL Package]， [!UICONTROL Placement]， [!UICONTROL Site/Apps]， [!UICONTROL Media Type]， [!UICONTROL Device]， [!UICONTROL Audience]， [!UICONTROL Creative Length]，和使用者建立的 [!UICONTROL Tags]. | 請參閱「[關於報表](/help/dsp/reports/report-about.md)，&quot; &quot;[報表設定](/help/dsp/reports/report-settings.md)，」和「[關於住戶報表的常見問題集](/help/dsp/reports/faq-household-report.md).」 |
@@ -52,7 +52,7 @@ ht-degree: 0%
 |  | [!UICONTROL Ads] | (具有包含許可權的使用者 [!DNL Clearcast] 時鐘編號在其廣告中)如果您使用附加到另一個廣告的時鐘編號，DSP不再顯示錯誤。 **注意：**  最佳實務是為每個視訊廣告使用唯一的時鐘數字。 否則，發佈者將不會核准所有廣告。 | — |
 |  | [!UICONTROL Deal IDs] | 此 [!UICONTROL Deal ID] 使用者介面中的設定和其他位置反映的新品牌 [!DNL Magnite] SSP：<br><ul><li>SSP 」[!DNL Tremor]&quot; ([!DNL Telaria])現在為「[!DNL Magnite CTV].」</li><li>在接下來的幾週內， [!DNL Rubicon]&quot;將變更為&quot;[!DNL Magnite DV+]，」，其中 [!DNL DV+] 代表顯示、視訊和其他格式，例如音訊。</li></ul> | 請參閱「[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).」 |
 |  | [!DNL Freewheel] 程式化預留交易 | 您現在可以提交廣告並檢查廣告的狀態 [!DNL Freewheel] 程式化預留交易 [!UICONTROL Ads] 檢視。 之前，您只能從 [!UICONTROL Deals] 檢視。 | 請參閱「[提交程式化保證交易的廣告至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 程式化預留交易](/help/dsp/inventory/freewheel-check-status.md).」 |
-| 2021年10月7日 | 說明 | 全部 [DSP和其他Adobe Advertising檔案](https://experienceleague.adobe.com/docs/advertising.html) 於 [!DNL Experience League] 現在以機器翻譯的方式翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」選單。<br>![變更語言](/help/dsp/assets/change-language.png) |
+| 2021年10月7日 | 說明 | 全部 [DSP和其他Adobe廣告檔案](https://experienceleague.adobe.com/docs/advertising.html) 於 [!DNL Experience League] 現在以機器翻譯的方式翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」選單。<br>![變更語言](/help/dsp/assets/change-language.png) |
 
 {style="table-layout:auto"}
 
