@@ -1,7 +1,7 @@
 ---
 title: 「關於 [!UICONTROL Asset Library]"
 description: 瞭解您的廣告資產的資產庫。
-source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
+source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *開放Beta版功能*
 
-在 [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]，您可以建立可重複使用的影像、影片和文字資產，並將其上傳至 [!DNL Google Ads] 帳戶層級的資產庫。
+在 [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以建立可重複使用的影像、影片和文字資產，並將其上傳至 [!DNL Google Ads] 帳戶層級的資產庫。
 
 當您使用或編輯行銷活動時，可以使用資產製作廣告 [!DNL Google Ads] 編輯者。
 
