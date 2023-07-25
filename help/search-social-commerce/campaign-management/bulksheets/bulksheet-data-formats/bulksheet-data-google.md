@@ -1,9 +1,10 @@
 ---
 title: 必要的大量表單資料 [!DNL Google Ads] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Google Ads] 帳戶。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 0%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 0%
 
 若要建立和更新 [!DNL Google Ads] 大量行銷活動資料，您可以使用特別格式化的搜尋、社交和商務大量表單檔案 [!DNL Google Ads] 帳戶。 您可以) [產生現有帳號的大量工作表檔案](../bulksheet-download.md) (b)手動建立（請參閱「 」）[支援的Bulksheet檔案格式](bulksheet-file-formats.md)」以取得受支援檔案格式的一般資訊)。
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+每個大量表單都必須包含標題欄位和所需的對應資料欄位 [您要執行的特定作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) （例如建立廣告）。 當欄位不是必要欄位時，您可以從標題和資料列忽略它。 上傳大量工作表檔案時，所有自訂欄都會被刪除。
+
+以下表格包含所有可用的資料欄位，以及其他表格，指出個別實體（例如行銷活動和關鍵字）需要新增、編輯或刪除資料的欄位。
 
 ## 所有可用資料欄位
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+下表顯示所有可用的資料欄位。
+
+有關帳戶實體相關的資料欄位，請參閱&quot;[建立、編輯或刪除每個帳戶元件所需的欄位](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* 所有文字欄中的值都會區分大小寫。
+>* 當您建立新記錄並且不包含所有必要資料欄位的值時，這些欄位中的某些會被指派指定的預設值。
+>* 對於以下未指定的欄位，會使用廣告網路的預設值。
+>* 如需中可用大量表單列的清單， [!UICONTROL Download Bulksheet] 對話方塊，請參閱&quot;[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).」
 
 | 欄位 | 說明 |
 | ---- | ---- |
@@ -74,7 +86,7 @@ ht-degree: 0%
 | [!UICONTROL End Date] | <p>（僅限增強型網站連結）可針對網站連結進行競標的最後日期（以廣告商的時區及下列格式之一顯示）：  <span style="font-style: italic;"><i>m/d/yyyy</i></span>， <span style="font-style: italic;"><i>m/d/yy</i></span>， <span style="font-style: italic;"><i>M-d-yyyy</i></span>，或 <span style="font-style: italic;"><i>m-d-yy</i></span>. 預設值為none （無結束日期）。</p><p><b>注意：</b> 新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （僅限現有應用程式安裝廣告）</p><p>（可選）防止 [!DNL Google Ads] 向平板電腦使用者顯示廣告。 值可包括 <i>是</i> 和 <i>否</i>. |
 | [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱「[的點選追蹤格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).」<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同的追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。 |
-| [!UICONTROL Tracking Template] | 追蹤範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在 [!DNL ValueTrack] 引數。 最精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫所有較高層級的值。<br><br>針對Adobe Advertising轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加自己的重新導向和追蹤程式碼。<br><br>針對協力廠商重新導向與追蹤，請輸入值。 如需清單： [!DNL ValueTrack] 表示追蹤範本中最終URL的引數，請參閱「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」(在 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2375447).<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Tracking Template] | 追蹤範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在 [!DNL ValueTrack] 引數。 最精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫所有較高層級的值。<br><br>針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加自己的重新導向和追蹤程式碼。<br><br>針對協力廠商重新導向與追蹤，請輸入值。 如需清單： [!DNL ValueTrack] 表示追蹤範本中最終URL的引數，請參閱「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」(在 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2375447).<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高層級的基礎/最終URL。<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Destination URL] | （包含在已產生的Bulksheet中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基本URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向到登陸頁面）。 其中包含為Search， Social， &amp; Commerce促銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據帳戶設定和促銷活動設定中的追蹤引數。 如果您已附加搜尋引擎特定引數，這些引數可能會取代為搜尋、社交和商務的同等引數。<br><br>若為具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
 | [!UICONTROL Custom URL Param] | 要取代的資料 `{custom_code}` 變數納入搜尋帳戶或促銷活動設定的追蹤引數時，使用動態變數。 若要在追蹤URL中插入自訂值，您必須使用「產生追蹤URL」選項上傳大量表單檔案。 |
@@ -116,7 +128,11 @@ ht-degree: 0%
 
 [^1]： [!DNL Excel] 開啟檔案時，會將大型數字轉換為科學記號(例如2.12E+09 for 2115585666)。 若要檢視標準標籤法中的數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
-## 建立、編輯或刪除每個帳戶元件所需的欄位
+## 建立、編輯或刪除每個帳戶元件所需的欄位 {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>當欄位不適用於動作時，在欄位中輸入的任何值都會被忽略。
 
 ### 行銷活動欄位
 
