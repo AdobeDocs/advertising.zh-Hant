@@ -2,9 +2,9 @@
 title: 必要的大量表單資料 [!DNL Microsoft Advertising] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Microsoft Advertising] 帳戶。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 以下表格包含所有可用的資料欄位，以及其他表格，指出個別實體（例如行銷活動和關鍵字）需要新增、編輯或刪除資料的欄位。
 
-## 所有可用資料欄位
+## 所有可用資料欄位 {#bulksheet-fields-all-microsoft}
 
-下表顯示所有可用的資料欄位。
+下表說明所有可用的資料欄位。
 
 有關帳戶實體相關的資料欄位，請參閱&quot;[建立、編輯或刪除每個帳戶元件所需的欄位](#bulksheet-fields-per-component-microsoft).
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Type] | 廣告格式： <i>[!UICONTROL Dynamic Search Ad]</i>， <i>[!UICONTROL Expanded Text Ad]</i>， <i>[!UICONTROL Expanded Dynamic Search Ad]</i>， <i>[!UICONTROL Multimedia Ad]</i>， <i>[!UICONTROL Product Ad]</i> （購物廣告），或 <i>[!UICONTROL Responsive Search Ad]</i>，或 <i>[!UICONTROL Text ad]</i>. 新廣告的預設為 <i>[!UICONTROL Text ad]</i>. |
 | [!UICONTROL Ad Group Start Date] | 可對廣告群組下標的第一天（在廣告商的時區中及以下格式之一）：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 若為新廣告群組，預設值為目前日期。 |
 | [!UICONTROL Ad Group End Date] | 可對廣告群組下標的最後日期（在廣告商的時區中且以下列格式之一）：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 如果是新廣告群組，預設值為 [空白] （亦即，無結束日期）。 |
-| [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫所有較高層級的值。<br><br>針對Adobe Advertising轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。<br><br>針對協力廠商重新導向與追蹤，請輸入值。<br><br>如需指出追蹤範本中最終URL的引數清單，請參閱 [!DNL Microsoft Advertising] 說明檔案。<br><br> 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫所有較高層級的值。<br><br>針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。<br><br>針對協力廠商重新導向與追蹤，請輸入值。<br><br>如需指出追蹤範本中最終URL的引數清單，請參閱 [!DNL Microsoft Advertising] 說明檔案。<br><br> 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱「[的點選追蹤格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).」<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同的追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Microsoft Advertising] 編輯者。 |
 | 搜尋網路狀態 | 是否要將廣告群組的廣告放置在「搜尋網路」的各種元素上：<ul><li><i>全部：</i> 在所有Bing搜尋網路和聯合搜尋合作夥伴上刊登廣告。</li><li><i>OwnedAndOperatedOnly：</i>只在Bing和Yahoo！上刊登廣告 網站。</li><li><i>SyndicatedSearchOnly：</i> 只在Bing和Yahoo！上刊登廣告 財團搜尋合作夥伴。</li><li><i>關閉：</i> 僅將廣告放在內容網路（而非搜尋網路）上。</li></ul> 對於新廣告群組，預設值為「開啟」。 |
 | [!UICONTROL Content Network Status] | 已棄用 |
@@ -118,6 +118,10 @@ ht-degree: 0%
 [^1]： [!DNL Excel] 開啟檔案時，會將大型數字轉換為科學記號(例如2.12E+09 for 2115585666)。 若要檢視標準標籤法中的數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 ## 建立、編輯或刪除每個帳戶元件所需的欄位 {#bulksheet-fields-per-component-microsoft}
+
+以下小節包含與特定帳戶實體相關的欄位。
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 >[!NOTE]
 >

@@ -2,9 +2,9 @@
 title: 必要的大量表單資料 [!DNL Google Ads] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Google Ads] 帳戶。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 以下表格包含所有可用的資料欄位，以及其他表格，指出個別實體（例如行銷活動和關鍵字）需要新增、編輯或刪除資料的欄位。
 
-## 所有可用資料欄位
+## 所有可用資料欄位 {#bulksheet-fields-all-google}
 
-下表顯示所有可用的資料欄位。
+下表說明所有可用的資料欄位。
 
 有關帳戶實體相關的資料欄位，請參閱&quot;[建立、編輯或刪除每個帳戶元件所需的欄位](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ ht-degree: 0%
 [^1]： [!DNL Excel] 開啟檔案時，會將大型數字轉換為科學記號(例如2.12E+09 for 2115585666)。 若要檢視標準標籤法中的數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 ## 建立、編輯或刪除每個帳戶元件所需的欄位 {#bulksheet-fields-per-component-google}
+
+以下小節包含與特定帳戶實體相關的欄位。
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
 >[!NOTE]
 >
