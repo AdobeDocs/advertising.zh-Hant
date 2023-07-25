@@ -2,9 +2,9 @@
 title: 必要的大量表單資料 [!DNL Microsoft Advertising] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Microsoft Advertising] 帳戶。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 下表說明所有可用的資料欄位。
 
-有關帳戶實體相關的資料欄位，請參閱&quot;[建立、編輯或刪除每個帳戶元件所需的欄位](#bulksheet-fields-per-component-microsoft).
+有關帳戶實體相關的資料欄位，請參閱&quot;[建立、編輯或刪除每個帳戶元件所需的欄位](#bulksheet-fields-per-component-microsoft).」
 
 | 欄位 | 說明 |
 |----|----|
@@ -121,13 +121,13 @@ ht-degree: 0%
 
 以下小節包含與特定帳戶實體相關的欄位。
 
-如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
-
 >[!NOTE]
 >
 >當欄位不適用於動作時，在欄位中輸入的任何值都會被忽略。
 
 ### 行銷活動欄位
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ |
 | ---- | ---- |
@@ -155,6 +155,8 @@ ht-degree: 0%
 
 ### 廣告群組欄位
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -176,6 +178,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 關鍵字欄位
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ ht-degree: 0%
 
 對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -229,6 +235,8 @@ ht-degree: 0%
 
 對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -250,6 +258,8 @@ ht-degree: 0%
 ### 回應式（多媒體）廣告欄位
 
 對於此廣告型別，請使用「[!UICONTROL Creative (except RSA)]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ ht-degree: 0%
 ### 回應式搜尋廣告欄位
 
 對於此廣告型別，請使用「[!UICONTROL Responsive Search Ad]「」列於 [!UICONTROL Download Bulksheet] 對話方塊。
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ ht-degree: 0%
 >
 >已棄用展開的文字廣告。 您只能刪除現有的文字廣告。
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -333,6 +347,8 @@ ht-degree: 0%
 >
 >建立支援無法使用。
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -351,6 +367,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含實體ID和父實體ID，否則編輯或刪除資料時需要。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 購物產品群組欄位
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ ht-degree: 0%
 
 ### 行銷活動層級網站連結欄位
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -394,6 +414,8 @@ ht-degree: 0%
 
 ### 位置目標欄位
 
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
+
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
@@ -406,6 +428,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非包含行銷活動ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 行銷活動層級和廣告群組層級裝置目標欄位
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ ht-degree: 0%
 | [!UICONTROL AMO ID] | 除非您包含裝置目標ID，否則必須編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 行銷活動層級和廣告群組層級RLSA目標欄位
+
+如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
 | 欄位 | 必填？ | 說明 |
 | ---- | ---- | ---- |
