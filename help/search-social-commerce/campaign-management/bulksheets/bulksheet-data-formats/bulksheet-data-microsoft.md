@@ -2,9 +2,9 @@
 title: 必要的大量表單資料 [!DNL Microsoft Advertising] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Microsoft Advertising] 帳戶。
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 0%
 
 ---
@@ -181,8 +181,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -237,8 +237,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -261,8 +261,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -287,8 +287,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 | |
@@ -319,8 +319,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -349,8 +349,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -370,8 +370,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -394,8 +394,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | 說明第1行 | 可選 |
@@ -416,8 +416,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Location] | 必填 |
@@ -431,8 +431,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Device] | 刪除裝置目標時需要。 |
@@ -447,8 +447,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-microsoft).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 廣告群組層級目標的必要專案。 不適用於行銷活動層級目標。 |
