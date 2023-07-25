@@ -2,9 +2,9 @@
 title: 必要的大量表單資料 [!DNL Google Ads] 帳戶
 description: 參考Bulksheets中必要的標題欄位和資料欄位 [!DNL Google Ads] 帳戶。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 0%
 | 欄位 | 必填？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
-| [!UICONTROL Campaign Name] | 必填 | 識別帳戶促銷活動的唯一名稱。 |
-| [!UICONTROL Campaign Budget] | 建立行銷活動所需。 | 行銷活動的每日支出限制，無論是否包含貨幣符號和標點符號。 此值會覆寫但不能超過科目預算。 |
+| [!UICONTROL Campaign Name] | 必填 |
+| [!UICONTROL Campaign Budget] | 建立行銷活動所需。 |
 | [!UICONTROL Delivery Method] | 建立行銷活動所需。 |
 | [!UICONTROL Channel Type] | 建立行銷活動所需。 |
 | [!UICONTROL Networks] | 建立行銷活動所需。 |
@@ -193,8 +193,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -218,8 +218,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -246,8 +246,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -271,8 +271,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -295,8 +295,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 | |
@@ -327,8 +327,8 @@ ht-degree: 0%
 >
 >擴充的文字廣告已於2022年6月淘汰。 您只能刪除現有的文字廣告。
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -353,8 +353,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -373,8 +373,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
@@ -397,8 +397,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 廣告群組層級網站連結的必要專案。 不適用於行銷活動層級的網站連結。 |
@@ -418,8 +418,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Location] | 必填 |
@@ -433,8 +433,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Device] | 需要建立或編輯裝置目標。 |
@@ -450,8 +450,8 @@ ht-degree: 0%
 
 如需每個資料欄位的說明，請參閱&quot;[所有可用資料欄位](#bulksheet-fields-all-google).」
 
-| 欄位 | 必填？ | 說明 |
-| ---- | ---- | ---- |
+| 欄位 | 必填？ |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含「」，否則為必要[!UICONTROL AMO ID]」代表實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Bid Adjustment] | 可選 |
