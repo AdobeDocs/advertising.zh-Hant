@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Google Ads] 擴展動態搜尋廣告設定」'
-description: 參考設定 [!DNL Google Ads] 擴充的動態搜尋廣告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: 『[!DNL Google Ads] 已擴充的動態搜尋廣告設定'
+description: 參考設定 [!DNL Google Ads] 展開動態搜尋廣告。
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->變更廣告復本會刪除現有廣告，並建立具有相同屬性的新廣告。
+>變更廣告文案會刪除現有廣告，並建立具有相同屬性的新廣告。
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
@@ -38,4 +40,3 @@ ht-degree: 0%
 >* [管理廣告](ad-manage.md)
 >* [[!DNL Google Ads] 僅限通話的廣告設定](ad-settings-google-call.md)
 >* [[!DNL Google Ads] 回應式搜尋廣告設定](ad-settings-google-rsa.md)
-

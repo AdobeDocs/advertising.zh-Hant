@@ -1,7 +1,9 @@
 ---
 title: 建立報表範本
 description: 瞭解如何建立可重複使用的報表範本。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 建立報表範本
 
-您可以為任何型別的效能報表儲存多個報表範本。 您可以從頭開始建立範本，或是以現有範本為基礎。 您一次最多可以維護100個範本。
+您可以為任何型別的效能報表儲存多個報表範本。 您可以從頭開始建立範本，或以現有範本為基礎。 您一次最多可以維護100個範本。
 
 * 若要從頭開始建立範本，請執行下列任一項作業：
 
@@ -26,9 +28,9 @@ ht-degree: 0%
 
       * 指定報表設定。
 
-         「[!UICONTROL Save as Template]」設定會自動選取。
+        「[!UICONTROL Save as Template]「設定會自動選取。
 
-* 若要根據現有範本建立範本，請執行下列動作：
+* 若要根據現有範本建立範本：
 
    1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -41,7 +43,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於報表範本](template-about.md)
->* [編輯報告範本](template-edit.md)
+>* [編輯報表範本](template-edit.md)
 >* [檢視報表範本](template-view.md)
 >* [刪除報表範本](template-delete.md)
-

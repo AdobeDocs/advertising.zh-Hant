@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Yahoo! Japan Ads] campaign設定」'
+title: 『[!DNL Yahoo! Japan Ads] 行銷活動設定'
 description: 參考設定 [!DNL Yahoo! Japan Ads] 行銷活動。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 ## \[行銷活動建立畫面\]
 
-**[!UICONTROL Campaign Type]：** （僅在行銷活動建立期間可用）放置廣告的位置：唯一選項為 *[!UICONTROL Search Network Only]* 以在搜尋網路上顯示文字廣告。
+**[!UICONTROL Campaign Type]：** （僅在行銷活動建立期間可用）放置廣告的位置：唯一選項為 *[!UICONTROL Search Network Only]* 在搜尋網路上顯示文字廣告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -30,9 +32,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]：** 預算，平均為每日要花費的金額。 最低每日預算為100日圓。
+**[!UICONTROL Budget]：** 平均而言，預算，也就是您每日要花費的金額。 最低每日預算為100日圓。
 
-如果您將此行銷活動指派給會自動調整行銷活動預算限制的產品組合，則 — 視搜尋條件而定 — 您在任何指定期間實際花費的錢可能會多於或少於指定的預算。
+如果您將此行銷活動指派給會自動調整行銷活動預算限制的投資組合，則（視搜尋條件而定）您實際上可能會在任何指定期間花費超過或低於指定預算。
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -93,4 +95,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

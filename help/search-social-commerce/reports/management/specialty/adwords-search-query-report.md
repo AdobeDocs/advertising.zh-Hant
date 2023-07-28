@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Search Query Report]"
+title: '[!UICONTROL AdWords Search Query Report]'
 description: 瞭解 [!UICONTROL AdWords Search Query Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此報表的資料會在前一天的23:00 （晚上11:00）提取。 例如，6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日23:00的資料。
+>此報表的資料會在前一天的23:00 （晚上11:00）提取。 例如6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00執行報表（在提取6月18日的資料之前），則報表會包含截至6月17日23:00的資料。
 
 ## 預設欄
 
@@ -37,7 +39,7 @@ ht-degree: 0%
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [關於專業報告](specialty-report-about.md)
 * [產生專業報告](specialty-report-generate.md)
 * [專業報告設定](specialty-report-settings.md)
-

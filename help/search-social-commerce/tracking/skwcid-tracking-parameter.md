@@ -1,7 +1,9 @@
 ---
 title: s_kwcid追蹤引數
 description: 瞭解用來與Adobe Analytics共用Adobe Advertising資料的追蹤引數。
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -10,21 +12,21 @@ ht-degree: 0%
 
 # s_kwcid追蹤引數
 
-*僅整合AdobeAdvertising-Adobe Analytics的廣告商*
+*僅具有Adobe Advertising-Adobe Analytics整合的廣告商*
 
 <!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
 
-Adobe廣告會使用以下專案與Adobe Analytics共用行銷活動的相關資料： `s_kwcid` append引數，包含廣告頻道和廣告網路專用元素。 引數會以下列其中一種方式新增至追蹤URL：
+Adobe Advertising會使用，與Adobe Analytics共用行銷活動的相關資料 `s_kwcid` append引數，包含廣告頻道和廣告網路專用元素。 引數會透過下列其中一種方式新增至您的追蹤URL：
 
 * (建議<!--; the only option for Advertising DSP-->)伺服器端s_kwcid功能已實作。
 
-  對象 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定為帳戶或促銷活動啟用，當一般使用者點按廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼 <!-- click a search ad or views a display ad --> 與Adobe Advertising畫素。
+  的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定已啟用帳戶或促銷活動，當一般使用者點按廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼 <!-- click a search ad or views a display ad --> 與Adobe Advertising畫素。
 
-  針對其他廣告網路，或 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 設定為停用，手動將引數新增至您的帳戶層級附加引數，這會將其附加至您的基本URL。
+  針對其他廣告網路，或 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 設定為停用，手動將引數新增至您的帳戶層級附加引數，以便將其附加至您的基本URL。
 
-* <!-- (Search, Social, & Commerce only) -->未實作伺服器端s_kwcid功能，且您需要手動將s_kwcid引數新增至([!DNL Google Ads] 和 [!DNL Microsoft Advertising])登陸頁面尾碼或（其他廣告網路）帳戶層級的附加引數。
+* <!-- (Search, Social, & Commerce only) -->未實作伺服器端s_kwcid功能，您必須手動將s_kwcid引數新增至([!DNL Google Ads] 和 [!DNL Microsoft Advertising])登陸頁面尾碼或（其他廣告網路）帳戶層級的附加引數。
 
-若要實作伺服器端s_kwcid功能，或決定最適合您企業的選項，請洽詢您的Adobe帳戶團隊。
+若要實施伺服器端s_kwcid功能，或決定最適合您企業的選項，請洽詢您的Adobe帳戶團隊。
 
 ## Advertising DSP廣告的s_kwcid格式
 
@@ -38,11 +40,11 @@ Adobe廣告會使用以下專案與Adobe Analytics共用行銷活動的相關資
 
 * `{TM_PLACEMENT_ID}` 是英數字元放置索引鍵。
 
-## Search、Social和Commerce廣告的s_kwcid格式
+## 用於搜尋、社交和商務廣告的s_kwcid格式
 
-這些引數會因廣告網路而異，但下列引數是所有廣告的共同引數：
+這些引數會因廣告網路而異，但下列引數是所有使用者共有的：
 
-* `AL` 表示搜尋頻道。 <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+* `AL` 表示搜尋管道。 <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
 
 * `{userid}` 是指派給廣告商的不重複使用者ID。
 
@@ -56,7 +58,7 @@ Adobe廣告會使用以下專案與Adobe Analytics共用行銷活動的相關資
 
 其中包括使用的購物行銷活動 [!DNL Google Merchant Center].
 
-* 使用最新s_kwcid格式的帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+* 使用最新s_kwcid格式的帳戶，該格式支援最高成效行銷活動的行銷活動與廣告群組層級報告，以及草稿與實驗行銷活動：
 
   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -66,8 +68,8 @@ Adobe廣告會使用以下專案與Adobe Analytics共用行銷活動的相關資
 
 >[!NOTE]
 >
->* 對於動態搜尋廣告， {keyword} 填入自動鎖定目標。
->* 當您產生的追蹤 [!DNL Google] 購物廣告、產品ID引數、 `{adwords_producttargetid}`，會插入在關鍵字引數之前。 產品ID引數未出現在 [!DNL Google Ads] 帳戶層級和促銷活動層級的追蹤引數。
+>* 對於動態搜尋廣告， {keyword} 填入了自動鎖定目標。
+>* 當您產生的追蹤 [!DNL Google] 購物廣告、產品ID引數、 `{adwords_producttargetid}`，會插入在keyword引數之前。 產品ID引數未出現在 [!DNL Google Ads] 帳戶層級和促銷活動層級的追蹤引數。
 >* 若要使用最新的s_kwcid追蹤程式碼，請參閱&quot;[更新的s_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).」
 
 <!--
@@ -110,10 +112,10 @@ where:
 
 >[!MORELIKETHIS]
 >
->* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
+>* [概觀 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
 >* [管理廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
 >* [百度行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [Google Ads行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
->* [Microsoft Advertising campaign設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+>* [Microsoft Advertising促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [Yahoo！ Japan Ads促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Yandex行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

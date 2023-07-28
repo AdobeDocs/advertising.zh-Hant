@@ -1,7 +1,9 @@
 ---
 title: 刪除報告
-description: 瞭解如何刪除產生的報告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何刪除產生的報表。
+exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 刪除報告
 
-您可以手動刪除已完成或仍在進行中的報告。 報表會在產生90天後自動刪除。
+您可以手動刪除已完成或仍在處理中的報告。 報表會在產生90天後自動刪除。
 
 >[!NOTE]
 >
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [關於報表](/help/search-social-commerce/reports/report-about.md)
 >* [檢視或儲存報告](/help/search-social-commerce/reports/management/report-view-save.md)
-

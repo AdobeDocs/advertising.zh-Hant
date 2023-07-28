@@ -1,7 +1,8 @@
 ---
 title: 檢視發佈者建議和效能深入分析
-description: 瞭解如何檢視 [!DNL Google Ads] recommendations和 [!DNL Microsoft® Advertising] 廣告網路帳戶的效能分析。
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+description: 瞭解如何檢視 [!DNL Google Ads] 建議和 [!DNL Microsoft® Advertising] 廣告網路帳戶的效能分析。
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -20,17 +21,17 @@ ht-degree: 0%
 
 1. 檢視建議的動作：
 
-   * ([!DNL Google Ads] accounts)在 [!UICONTROL Actions] 欄中的資料，按一下 **[!UICONTROL View]**. 如果建議有子建議，然後按一下 **[!UICONTROL View]** 在子建議旁邊。
+   * ([!DNL Google Ads] accounts)在 [!UICONTROL Actions] 欄中的列，按一下 **[!UICONTROL View]**. 如果建議有子建議，則按一下 **[!UICONTROL View]** 在子建議旁。
 
-     您可以選擇是否使用 [套用或解除](google-recommendation-apply-dismiss.md) 廣告網路的建議。
+     您可以選擇性 [套用或解除](google-recommendation-apply-dismiss.md) 廣告網路的建議。
 
-   * ([!DNL Microsoft® Advertising] 帳戶)當 [!UICONTROL Actions] 資料列的資料欄中包含一個動作，請按一下 **[!UICONTROL Click here]** 以開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中執行深入分析。
+   * ([!DNL Microsoft® Advertising] 帳戶)當 [!UICONTROL Actions] 列的欄包括動作，按一下 **[!UICONTROL Click here]** 以開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中進行深入分析。
 
-     如果您未登入 [!DNL Microsoft® Advertising] 編輯者，您會先進入登入畫面。
+     如果您未登入 [!DNL Microsoft® Advertising] 編輯器會先將您導向至登入畫面。
 
 >[!MORELIKETHIS]
 >
 >* [關於發佈者建議和深入分析支援](recommendation-support.md)
 >* [套用或關閉 [!DNL Google Ads] 推薦](google-recommendation-apply-dismiss.md)
->* [檢視建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
->* [搭配產品組合使用發佈者建議和深入分析的最佳實務](recommendation-best-practices.md)
+>* [檢視的建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
+>* [搭配產品組合使用發佈者建議和深入分析的最佳作法](recommendation-best-practices.md)

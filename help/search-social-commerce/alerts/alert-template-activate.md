@@ -1,7 +1,9 @@
 ---
 title: 啟動自訂警報範本
 description: 瞭解如何啟用暫停的警報範本。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -18,9 +20,9 @@ ht-degree: 0%
 
    * （若要啟動單一範本）在範本列中，按一下 [!UICONTROL Status] 欄並選取 *[!UICONTROL Active]*.
 
-   * （啟動一或多個範本）選取您要啟動之每個警示範本旁的核取方塊。 在工具列中，按一下 ![啟動](/help/search-social-commerce/assets/activate.png "啟動"). 在對話方塊中，按一下 **[!UICONTROL Activate]**.
+   * （若要啟動一或多個範本）選取您要啟動之每個警示範本旁的核取方塊。 在工具列中，按一下 ![啟動](/help/search-social-commerce/assets/activate.png "啟動"). 在對話方塊中，按一下 **[!UICONTROL Activate]**.
 
-      如需選取多個列的秘訣，請參閱「[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+     如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [自訂警報範本設定](alert-template-settings.md)
 >* [檢視自訂警報](alert-view.md)
 >* [匯出自訂警報的資料](alert-export-data.md)
-

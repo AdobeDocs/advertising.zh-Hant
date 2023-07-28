@@ -1,7 +1,9 @@
 ---
 title: 安裝並解除安裝 [!UICONTROL Notification Center] 網頁應用程式
 description: 瞭解如何安裝和解除安裝 [!UICONTROL Notification Center] 網頁應用程式。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 *Beta功能*
 
-您可以透過安裝 [!UICONTROL Notification Center] 網頁應用程式。 應用程式的外觀和功能與 [!UICONTROL Notification Center] 在「搜尋」、「社交」和「商務」中。 應用程式可用於 [!DNL Google Chrome] 40和更高版本或 [!DNL Microsoft® Edge] 17和更高版本。
+您可以透過安裝 [!UICONTROL Notification Center] 網頁應用程式。 應用程式看起來和相同，且具有相同的功能，例如 [!UICONTROL Notification Center] 在「搜尋」、「社交」和「商務」中。 應用程式可用於 [!DNL Google Chrome] 40和更高版本或 [!DNL Microsoft® Edge] 17和更高版本。
 
-一旦您安裝 [!UICONTROL Notification Center] 應用程式，它會在瀏覽器的應用程式管理員中自動啟用，而且會以個別視窗載入，其版面會根據視窗大小動態排列。 您可以從瀏覽器的應用程式管理員開啟和關閉應用程式，或將其釘選到作業系統的工作列或固定。 應用程式會自動更新。
+安裝後 [!UICONTROL Notification Center] 應用程式，它會在瀏覽器的「應用程式管理員」中自動啟用，並載入為個別視窗，其版面配置會根據視窗大小動態排列。 您可以從瀏覽器的應用程式管理員開啟和關閉應用程式，或將其釘選到作業系統的工作列或固定。 應用程式會自動更新。
 
 ![Microsoft® Windows工作列中的「通知中心」圖示](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft® Windows工作列中的「通知中心」圖示")
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-1. 在右下角，按一下 ![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式").
+1. 在右下方，按一下 ![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式").
 
 1. 在確認訊息中，按一下 **[!UICONTROL Add]**.
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 
    1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-   1. 在右下角，按一下 ![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式").
+   1. 在右下方，按一下 ![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式").
 
    1. 在確認訊息中，按一下 **[!UICONTROL Add]**.
 
@@ -66,4 +68,3 @@ ht-degree: 0%
 >* [刪除通知](notification-delete.md)
 >* [編輯您的通知設定](notification-edit.md)
 >* [啟用和停用來自的推播通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

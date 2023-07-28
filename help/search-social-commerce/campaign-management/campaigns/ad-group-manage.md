@@ -1,7 +1,9 @@
 ---
 title: 管理廣告群組
-description: 瞭解如何建立和管理廣告群組。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何建立及管理廣告群組。
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -12,15 +14,15 @@ ht-degree: 0%
 
 *[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
 
-廣告群組包含一組廣告及其相關關鍵字。 行銷活動中以顯示網路為目標的廣告群組也可以包含版位，即顯示網路中可顯示廣告的位置。 適用於廣告群組所有元件的廣告群組設定，會因廣告網路而異。
+廣告群組包含一組廣告及其相關關鍵字。 行銷活動中以顯示網路為目標的廣告群組也可以包含版位，即顯示網路上的廣告可出現位置。 適用於廣告群組所有元件的廣告群組設定，會因廣告網路而異。
 
-您可以從「搜尋」、「社交」和「商務」中為建立廣告群組 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 在 [已同步的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md). 您也可以編輯和變更廣告群組的狀態。
+您可以從「搜尋」、「社交」和「商務」中的 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 在 [已同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md). 您也可以編輯及變更廣告群組的狀態。
 
 ## 建立廣告群組
 
 >[!TIP]
 >
->若要一次新增大量廣告群組資料，請使用 [複製和貼上特徵](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>若要一次新增大量廣告群組資料，請使用 [複製並貼上特徵](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 1. 輸入 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
 
-   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定 [!UICONTROL Negative Keywords] 或 [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Negative Keywords]** 或 **[!UICONTROL Add Negative Websites]**（分別）。
+   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定以下專案的設定： [!UICONTROL Negative Keywords] 或 [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Negative Keywords]** 或 **[!UICONTROL Add Negative Websites]**，依序輸入。
 
 1. 按一下 **[!UICONTROL Post]**.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->若要一次編輯大量資料，請使用 [複製和貼上特徵](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>若要一次編輯大量資料，請使用 [複製並貼上特徵](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 或 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
@@ -54,15 +56,15 @@ ht-degree: 0%
 
       * 選取每個廣告群組旁的核取方塊。
 
-         如需選取多個列的秘訣，請參閱「[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+        如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
 
       * 在資料表格上方的工具列中，按一下 ![編輯](/help/search-social-commerce/assets/edit.png "編輯").
 
 1. 編輯 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
 
-   對於多個廣告群組，設定可分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]，視廣告網路而定。 您只能編輯所有選定廣告群組通用的欄位，且您的變更會套用至所有選定廣告群組。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭，或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定的值，或者以指定的百分比或貨幣金額來增加或減少金額，並設定限制。
+   對於多個廣告群組，設定可以分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]，視廣告網路而定。 您只能編輯所有選定廣告群組通用的欄位，而您的變更會套用至所有選定廣告群組。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
-   對於單一廣告群組，設定可分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定 [!UICONTROL Negative Keywords] 或 [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Negative Keywords]** 或 **[!UICONTROL Add Negative Websites]**（分別）。
+   對於單一廣告群組，設定可分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定以下專案的設定： [!UICONTROL Negative Keywords] 或 [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Negative Keywords]** 或 **[!UICONTROL Add Negative Websites]**，依序輸入。
 
 1. 儲存資料：
 
@@ -72,7 +74,7 @@ ht-degree: 0%
 
 ## 變更廣告群組的狀態
 
-您可以暫停任何作用中的搜尋廣告群組，以停用其上的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
+您可以暫停任何作用中的搜尋廣告群組，以停用其上的競標。 您稍後可以透過將狀態變回使用中來繼續競標。
 
 您也可以刪除任何作用中或暫停的搜尋廣告群組。 已刪除的廣告群組會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
@@ -80,11 +82,11 @@ ht-degree: 0%
 
 1. （選用）篩選清單以包含特定廣告群組。
 
-1. 選取您要變更其狀態的每個廣告群組旁的核取方塊。
+1. 選取每個您想要變更其狀態的廣告群組旁的核取方塊。
 
-   如需選取多個列的秘訣，請參閱「[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+   如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
 
-1. 在工具列中，按一下狀態按鈕：
+1. 在工具列中按一下狀態按鈕：
    * 若要啟動列，請按一下 ![啟動](/help/search-social-commerce/assets/activate.png "啟動").
 
    * 若要暫停列，請按一下 ![暫停](/help/search-social-commerce/assets/pause.png "暫停").
@@ -98,4 +100,3 @@ ht-degree: 0%
 >* [Microsoft Advertising廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo！ 日本廣告廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Yandex廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

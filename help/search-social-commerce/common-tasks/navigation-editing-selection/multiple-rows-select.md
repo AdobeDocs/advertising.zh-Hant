@@ -1,7 +1,9 @@
 ---
 title: 選取多列
-description: 瞭解如何選取多個列，以便對所有列執行相同的動作。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何選取多個列，以便對所有列執行相同動作。
+exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -20,18 +22,17 @@ ht-degree: 0%
 
 * 全域核取方塊(![核取方塊](/help/search-social-commerce/assets/check-box.png) 「核取方塊」)：
 
-   * 選取目前頁面上的所有列 — 根據您檢視的是25列、50列、100列、200列或 [!UICONTROL Continuous Scroll]  — 選取全域核取方塊。
+   * 選取目前頁面上的所有列 — 可能包含套用之篩選器可用的部分或所有列(根據您檢視的是25列、50列、100列、200列或 [!UICONTROL Continuous Scroll]  — 選取全域核取方塊。
 
-      當您選取頁面上的所有列時，可以取消選取個別列。
+     當您選取頁面上的所有列時，可以取消選取個別列。
 
    * 若要選取套用之篩選器可用的所有列，請選取全域核取方塊，然後按一下 **[!DNL Select all N records?]**，其中 *N* 是可用的記錄數。
 
-      當您選取所有可用的列時，無法取消選取個別列。
+     當您選取所有可用的列時，無法取消選取個別列。
 
 >[!MORELIKETHIS]
 >
 >* [從欄標題功能表套用資料篩選](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [從工具列套用資料篩選器](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [從工具列套用資料篩選](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [依日期範圍篩選資料](../data-views/ad-hoc-settings/date-filter.md)
 >* [移除篩選器](../data-views/ad-hoc-settings/column-filter-remove.md)
-

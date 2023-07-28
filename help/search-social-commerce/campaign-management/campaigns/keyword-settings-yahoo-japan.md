@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Yahoo! Japan Ads] 關鍵字設定」'
+title: 『[!DNL Yahoo! Japan Ads] 關鍵字設定
 description: 參考設定 [!DNL Yahoo! Japan Ads] 關鍵字。
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: cfb6ad85-1478-44af-a132-6b41278acd32
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -14,12 +16,12 @@ ht-degree: 0%
 
 **[!UICONTROL Keywords]：** 關鍵字。 長度上限為80個字元，包括任何 [[!DNL Yahoo! Japan Ads] 比對型別語法](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) 用於關鍵字。
 
-您最多可以輸入或貼上2000個關鍵字。 以逗號分隔多個關鍵字，或在不同的行中輸入關鍵字。
+您最多可以輸入或貼上2000個關鍵字。 請使用逗號分隔多個關鍵字，或在不同的行中輸入這些關鍵字。
 
 >[!NOTE]
 >
->* 您可以從以下位置建立負關鍵字： [!UICONTROL Keywords] > [!UICONTROL Negatives] 在廣告群組和行銷活動設定中檢視和。
->* Yahoo！ Japan關鍵字和相符型別是可變的，這表示您可以編輯它們而不用刪除現有的關鍵字。
+>* 您可以從以下位置建立負關鍵字： [!UICONTROL Keywords] > [!UICONTROL Negatives] 在廣告群組和促銷活動設定中檢視和。
+>* Yahoo！ Japan關鍵字和相符型別是可變的，這表示您可以在不刪除現有關鍵字的情況下編輯它們。
 
 **[!UICONTROL Status]：** 關鍵字的顯示狀態： *作用中* 或 *已暫停*. 新關鍵字的預設值為 *作用中*.
 

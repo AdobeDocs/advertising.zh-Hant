@@ -1,22 +1,24 @@
 ---
-title: Adobe廣告轉換對應標籤
-description: 瞭解ITP 2.2的JavaScript型轉換對應標籤，此標籤可讓Adobe廣告追蹤發生在非登陸頁面上的轉換事件。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Adobe Advertising轉換對應標籤
+description: 瞭解ITP 2.2的JavaScript型轉換對應標籤，此標籤可讓Adobe Advertising追蹤發生於非登陸頁面上的轉換事件。
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# Adobe廣告JavaScript轉換對應標籤
+# Adobe AdvertisingJavaScript轉換對應標籤
 
-*僅具有Adobe廣告轉換追蹤的廣告商*
+*僅具有Adobe Advertising轉換追蹤的廣告商*
 
-除了AdobeAdvertising JavaScript v2或v3轉換追蹤標籤外，AdobeAdvertising JavaScript型轉換對應標籤也可使用，它允許AdobeAdvertising追蹤發生在非登陸頁面上的轉換事件。 ITP 2.2解決方案會將使用者的Cookie儲存在廣告商擁有的iFrame的本機儲存空間中。 接著，本機儲存空間就能將Cookie值從點按下游保留至轉換頁面。
+除了Adobe AdvertisingJavaScript v2或v3轉換追蹤標籤外，Adobe AdvertisingJavaScript型轉換對應標籤也可使用，讓Adobe Advertising追蹤發生在非登陸頁面上的轉換事件。 ITP 2.2解決方案會將使用者的Cookie儲存在廣告商擁有的iFrame中的本機儲存空間中。 接著，本機儲存空間就能將Cookie值從點按下游保留至轉換頁面。
 
-使用轉換對應標籤，確保Adobe廣告可追蹤Apple Safari和Mozilla Firefox瀏覽器內發生的所有轉換，這會限制第一方Cookie的持續性。 <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+使用轉換對應標籤，確保Adobe Advertising可追蹤在Apple Safari和Mozilla Firefox瀏覽器內發生的所有轉換，進而限制第一方Cookie的持續性。 <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
-若要使用轉換對應標籤：
+使用轉換對應標籤：
 
 1. [部署轉換對應標籤](#deploy-conversion-mapping-tag).
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 1. [驗證標籤部署](#validate-conversion-mapping).
 
-## 部署ITP 2.2的JavaScript轉換對應標籤 {#deploy-conversion-mapping-tag}
+## 為ITP 2.2部署JavaScript轉換對應標籤 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
@@ -32,50 +34,50 @@ ht-degree: 0%
 
 * 如果您的組織使用單一組織ID （用於您的搜尋、社交和商務帳戶），請使用以下標籤：
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   取代 `{AMO User ID}` ，並使用您的搜尋、社交和商務帳戶的不重複使用者ID。
+  您取代 `{AMO User ID}` 以您的搜尋、社交和商務帳戶取得唯一使用者ID。
 
-* 如果您的組織使用多個組織ID，請使用以下標籤：
+* 如果您的組織使用多個組織ID，請使用下列標籤：
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   其中：
+  其中：
 
-   * 您取代值 `{xxxxxx@AdobeOrg}` 具有追蹤頁面轉換的組織ID。 對所有轉換頁面使用相同的組織ID。
+   * 您取代值 `{xxxxxx@AdobeOrg}` 搭配要追蹤頁面轉換的組織ID。 對所有轉換頁面使用相同的組織ID。
 
-   * 您取代 `{AMO User ID}` ，並使用您的搜尋、社交和商務帳戶的不重複使用者ID。
+   * 您取代 `{AMO User ID}` 以您的搜尋、社交和商務帳戶取得唯一使用者ID。
 
-* 如果您使用的標籤管理系統不支援新增 `imsorgid` 變數標籤時，請改用下列程式碼：
+* 如果您使用的標籤管理系統不支援新增 `imsorgid` 變數至指令碼標籤中，然後改用下列程式碼：
 
-   *如果您的組織使用單一組織識別碼：
+  *如果您的組織使用單一組織識別碼：
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   取代 `{AMO User ID}` ，並使用您的搜尋、社交和商務帳戶的不重複使用者ID。
+  您取代 `{AMO User ID}` 以您的搜尋、社交和商務帳戶取得唯一使用者ID。
 
    * 如果您的組織使用多個組織ID：
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      其中：
+     其中：
 
-      * 您取代值 `{xxxxxx@AdobeOrg}` 具有追蹤頁面轉換的組織ID。 對所有轉換頁面使用相同的組織ID。
+      * 您取代值 `{xxxxxx@AdobeOrg}` 搭配要追蹤頁面轉換的組織ID。 對所有轉換頁面使用相同的組織ID。
 
-      * 您取代 `{AMO User ID}` ，並使用您的搜尋、社交和商務帳戶的不重複使用者ID。
+      * 您取代 `{AMO User ID}` 以您的搜尋、社交和商務帳戶取得唯一使用者ID。
 
 如果您不知道組織ID或搜尋、Social和Commerce使用者ID的值，請洽詢您的Adobe客戶經理。
 
@@ -94,19 +96,19 @@ window.ad_cloud.userid = "99999"
 <script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>
 ```
 
-### 在何處新增標籤
+### 新增標籤的位置
 
-在任何可能是搜尋點選登陸頁面的頁面中新增標籤（理想情況下，在所有頁面上，因為登陸頁面可能會隨著時間而改變）。 必須在AdobeAdvertising JavaScript v3轉換追蹤標籤之前載入。
+在任何可能是搜尋點按的登陸頁面的頁面中新增標籤（理想情況下，在所有頁面上，因為登陸頁面可能會隨著時間變更）。 必須在Adobe AdvertisingJavaScript v3轉換追蹤標籤之前載入它。
 
-若將其置於iframe或容器標籤內，則：
+若將其置於iframe或容器標籤中，則：
 
-* iframe應與頂層網域位於相同層級。
+* iframe應與最上層網域位於相同層級。
 
 * 轉換對應標籤應該只會比上層網域低一(1)個層級。
 
 ## 更新您的JavaScript轉換標籤 {#update-conversion-tags}
 
-如果您的組織使用多個組織ID，則將要追蹤頁面轉換的組織ID新增至您現有的JavaScript轉換標籤。
+如果您的組織使用多個組織ID，請將追蹤頁面轉換的組織ID新增至您現有的JavaScript轉換標籤。
 
 如果您的組織使用一個組織ID，則不需要執行此步驟。
 
@@ -116,7 +118,7 @@ window.ad_cloud.userid = "99999"
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-您取代的值 `{xxxxxx@AdobeOrg}` 具有追蹤頁面轉換的組織ID。
+在此取代值 `{xxxxxx@AdobeOrg}` 搭配要追蹤頁面轉換的組織ID。
 
 範例：
 
@@ -146,7 +148,7 @@ effp();
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-您取代的值 `{xxxxxx@AdobeOrg}` 具有追蹤頁面轉換的組織ID。
+在此取代值 `{xxxxxx@AdobeOrg}` 搭配要追蹤頁面轉換的組織ID。
 
 範例：
 
@@ -186,4 +188,4 @@ effp();
 
 ## 驗證標籤部署 {#validate-conversion-mapping}
 
-請您的Adobe帳戶團隊協助驗證轉換對應標籤和一般轉換標籤（如果您已更新此標籤）。
+請您的Adobe帳戶團隊協助您驗證轉換對應標籤和一般轉換標籤（如果您已更新此標籤）。

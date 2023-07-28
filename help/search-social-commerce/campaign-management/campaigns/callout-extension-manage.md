@@ -1,7 +1,9 @@
 ---
 title: 管理 [!DNL Google Ads] 編號說明延伸模組
-description: 瞭解如何建立和管理 [!DNL Google Ads] 編號說明延伸模組。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何建立和管理 [!DNL Google Ads] 編號說明延伸。
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]僅限帳戶*
 
-為任何專案建立及管理帳戶層級的共用圖說文字擴充功能 [已同步 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 從 [!UICONTROL Extensions] > [!UICONTROL Callout library].
+為任何專案建立並管理帳戶層級的共用圖說文字延伸 [已同步 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 從 [!UICONTROL Extensions] > [!UICONTROL Callout library].
 
 ## 建立 [!DNL Google Ads] 共用圖說文字
 
@@ -46,9 +48,9 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
-1. 選取您要刪除的每個共用編號說明旁的核取方塊。
+1. 選取要刪除的每個共用編號說明旁的核取方塊。
 
-   如需選取多個列的秘訣，請參閱「[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+   如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
 
 1. 在工具列中，按一下 ![更多](/help/search-social-commerce/assets/more.png "更多") 並選取 **[!UICONTROL Delete]**.
 
@@ -56,11 +58,11 @@ ht-degree: 0%
 
 ## [!DNL Google Ads] 共用圖說文字設定 {#shared-callout-settings}
 
-其他 [!DNL Google Ads] 不核准圖說文字的原則和原因，請參閱 [圖說文字擴充功能需求](https://support.google.com/adspolicy/answer/1054212).
+其他 [!DNL Google Ads] 不核准圖說文字的原則和原因，請參閱 [編號說明延伸功能需求](https://support.google.com/adspolicy/answer/1054212).
 
-**[!UICONTROL Callout Text]：** 要顯示的文字。 最多可包含25個字元或12個雙位元組字元。 它不能在文字開頭包含驚歎號或標點符號。
+**[!UICONTROL Callout Text]：** 要顯示的文字。 它最多可包含25個字元或12個雙位元組字元。 它不能在文字開頭包含驚歎號或標點符號。
 
-**[!UICONTROL Start Date]：** （選用）編號說明可能連同廣告一起顯示的第一個日期。 新圖說文字的預設值為當天。 若要指定未來的開始日期，請以YYYY/MM/DD或M/D/YYYY的格式輸入日期，或按一下 ![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 並選取日期。
+**[!UICONTROL Start Date]：** （選用）編號說明可能連同廣告一起顯示的第一個日期。 新圖說文字的預設值為當天。 若要指定未來的開始日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下 ![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 並選取日期。
 
 **[!UICONTROL End Date]：** （選用）編號說明可能連同廣告一起顯示的最後日期。 依預設，編號說明可能會無限期顯示。 若要指定結束日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下 ![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 並選取日期。
 
@@ -74,4 +76,3 @@ ht-degree: 0%
 >
 >* [關於 [!DNL Google Ads] 編號說明延伸模組](callout-extension-about.md)
 >* [關聯 [!DNL Google Ads] 與行銷活動或廣告群組共用圖說文字擴充功能](callout-extension-associate.md)
-

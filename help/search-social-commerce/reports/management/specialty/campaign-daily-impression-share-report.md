@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Daily Impression Share Report]"
+title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: 瞭解 [!UICONTROL Campaign Daily Impression Share Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限帳戶*
 
-此 [!UICONTROL Campaign Daily Impression Share Report] 包含一或多個行銷活動的每日曝光比重量度（依裝置型別）。 依預設，在指定的日期範圍內，針對每天至少收到一次曝光或點按的每個行銷活動，資料會包含一列，且這些列會依日期遞增排序。 報表可選擇納入以下追蹤的資料 [!DNL Adobe] 和衍生量度。
+此 [!UICONTROL Campaign Daily Impression Share Report] 包含一或多個行銷活動的每日曝光比重量度（依裝置型別）。 依預設，指定日期範圍內每天收到至少一個曝光或點按的每個行銷活動會包含一列，且這些列會依日期遞增排序。 報表可選擇納入以下追蹤的資料 [!DNL Adobe] 和衍生量度。
 
-曝光分享量度可在廣告商前一天的時區13:00提供。 您可以檢視前兩個月的資料。
+廣告商前一天時區的13:00提供曝光比重量度。 您可以檢視前兩個月的資料。
 
 ## 預設欄
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [關於專業報告](specialty-report-about.md)
 >* [產生專業報告](specialty-report-generate.md)
 >* [專業報告設定](specialty-report-settings.md)
-

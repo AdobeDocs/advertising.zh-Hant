@@ -1,7 +1,9 @@
 ---
 title: 關於試算表報表摘要
-description: 瞭解如何以自訂格式試算表格式取得每日效能資料。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何以自訂格式的試算表格式取得每日效能資料。
+exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # 關於試算表報表摘要
 
-*僅用於基本報表和模型準確性報表*
+*僅用於基本報表和模型準確度報表*
 
-試算表摘要會以自訂的試算表格式提供所有基本報表和模型準確度報表的每日效能資料 [!DNL Microsoft® Excel] XLSX。 您可以使用特殊格式來設定試算表摘要 [!DNL Excel] 從一般報表範本建立的試算表範本。 每天，試算表都會在指定的時間自動重新整理，並包含每天彙總的新原始資料。 原始資料會填入您已包含在試算表範本中的任何欄和圖表。 試算表摘要檔案可用後，或如果檔案產生失敗，報表範本中的每個電子郵件收件者都會根據使用者設定的來接收通知 [報告的通知設定](/help/search-social-commerce/notifications/notification-about.md).
+試算表摘要會以自訂的試算表格式，提供所有基本報表和模型準確度報表的每日效能資料，其中 [!DNL Microsoft® Excel] XLSX。 您可以設定試算表摘要，使用特殊格式 [!DNL Excel] 從一般報表範本建立的試算表範本。 每天，試算表都會在指定的時間自動以每天彙總的新原始資料重新整理。 原始資料會填入您已包含在試算表範本中的任何欄和圖表。 試算表摘要檔案可用後，或檔案產生失敗時，報表範本中的每個電子郵件收件者會根據使用者的設定收到通知 [報告的通知設定](/help/search-social-commerce/notifications/notification-about.md).
 
 您可以將摘要設定為最多重新整理過去90天的資料，而所有先前的現有資料都會保留，繼續累積。
 

@@ -1,7 +1,9 @@
 ---
 title: 刪除標籤分類值
 description: 瞭解如何刪除標籤分類的值。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 刪除標籤分類值
 
-刪除標籤分類值會使這些值在日後無法使用，且報表資料不再可用於這些值。 會移除值及其上層標籤分類和特定帳戶元件之間的所有指派，但不會刪除上層標籤分類和促銷活動元件。
+刪除標籤分類值會使這些值在日後無法使用，且報表資料不再適用於這些值。 會移除值及其上層標籤分類和特定帳戶元件之間的所有指派，但不會刪除上層標籤分類和促銷活動元件。
 
 >[!NOTE]
 >
@@ -26,7 +28,7 @@ ht-degree: 0%
 
    您一次最多可以刪除200列。
 
-   如需選取多個列的秘訣，請參閱「[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+   如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
 
 1. 在資料表格上方的工具列中，按一下 ![刪除](/help/search-social-commerce/assets/delete.png "刪除").
 
@@ -36,8 +38,7 @@ ht-degree: 0%
 >
 >* [關於標籤分類](classification-about.md)
 >* [建立標籤分類](classification-create.md)
->* [從行銷活動管理檢視指派分類值給帳戶元件](classification-values-assign-campaign-management.md)
->* [使用大量表單指定分類值給帳戶元件](classification-values-assign-bulksheets.md)
+>* [從行銷活動管理檢視將分類值指派給帳戶元件](classification-values-assign-campaign-management.md)
+>* [使用大量表單指派分類值給帳戶元件](classification-values-assign-bulksheets.md)
 >* [從帳戶元件中移除標籤分類值](classification-values-remove.md)
 >* [刪除標籤分類](classification-delete.md)
-

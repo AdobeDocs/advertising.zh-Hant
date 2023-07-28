@@ -1,21 +1,23 @@
 ---
 title: 建立負面版位
-description: 瞭解如何建立負面刊登版位 [!DNL Google Ads] 行銷活動和廣告群組。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: 瞭解如何為建立負面刊登版位 [!DNL Google Ads] 行銷活動和廣告群組。
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 建立 [!DNL Google Ads] 負面版位
+# 建立對象 [!DNL Google Ads] 負面版位
 
 *[!DNL Google Ads]僅限帳戶*
 
-您可以為「 」建立負向版位 [!DNL Google Ads] 行銷活動中的廣告群組，以顯示網路為目標。 負面刊登版位是顯示網路中不會觸發廣告的網站。
+您可以為建立負面的版位 [!DNL Google Ads] 行銷活動中以顯示網路為目標的廣告群組。 負面刊登版位是顯示網路中不會觸發廣告的網站。
 
 >[!NOTE]
->您也可以在「 」中建立和編輯負面的版位 [廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 和 [行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+>您也可以在「 」中建立和編輯負面版位 [廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 和 [行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
 >[!TIP]
 >若要一次建立許多負面版位，請使用 [行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
@@ -30,7 +32,7 @@ ht-degree: 0%
 
    若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 有效的格式包括：
 
-   * 網站：輸入有效的URL，例如www.example.com。 請參閱「如何新增您的排除URL」中允許的格式，網址為https://support.google.com/google-ads/answer/2454012。
+   * 網站：輸入有效的URL，例如www.example.com。 請參閱「如何新增您的排除URL」中的允許格式，網址為https://support.google.com/google-ads/answer/2454012。
 
    * 主題、類別或垂直檔案。 另請參閱 [[!DNL Google Ads] 准則](https://support.google.com/google-ads/editor/answer/30517) 和 [所有垂直專案的清單](https://developers.google.com/adwords/api/docs/appendix/verticals). 範例： `category::Industries > Energy & Utilities > Oil & Gas`.
 
@@ -38,7 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置](placement-about.md)
+>* [關於版位](placement-about.md)
 >* [管理可競標位置](placement-manage.md)
 >* [變更刊登版位和負面刊登版位的狀態](placement-status-edit.md)
-

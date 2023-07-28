@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Google Ads] 詳細目錄摘要的購物廣告範本設定」'
+title: 『[!DNL Google Ads] 詳細目錄摘要的購物廣告範本設定
 description: 參考設定 [!DNL Google Ads] 詳細目錄摘要的購物廣告範本。
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 系統會保留下列字元，以指定樣版中的欄位名稱與修正因子名稱，因此禁止在所有屬性欄位中做為文字：  `[ ] < > `
+>* 在範本中會保留下列字元，以指定欄位名稱與修正因子名稱，因此禁止在所有屬性欄位中做為文字：  `[ ] < > `
 
 ## \[在所有索引標籤上方\]
 
@@ -54,11 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]：** （使用者端摘要檔案的範本為選用）行銷活動層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級的設定，但更精細層級的追蹤範本（以關鍵字作為最精細的層級）會覆寫此值。
+**[!UICONTROL Campaign Tracking Template]：** （使用者端摘要檔案的範本選用）行銷活動層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-針對Adobe廣告轉換追蹤，此追蹤會在行銷活動設定包含時套用&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」使用 [Google Ads購物行銷活動的追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md). 如果整個帳戶都專用於購物廣告，您可以在帳戶層級定義追蹤範本。
+針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」使用 [Google廣告購物行銷活動的追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md). 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
-針對協力廠商重新導向與追蹤，請輸入值。
+對於協力廠商重新導向和追蹤，請輸入值。
 
 <!-- **[!UICONTROL Campaign Final URL Suffix]:** -->
 
@@ -90,9 +92,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Networks]：** 要放置廣告的網路。 *[!UICONTROL Search]* 已選取。 若要在清單中包含下列專案的競標： [!DNL Google Ads] 搜尋合作夥伴，選取「 」旁的核取方塊 **[!UICONTROL Search partners]**.
+**[!UICONTROL Networks]：** 要放置廣告的網路。 *[!UICONTROL Search]* 已選取。 若要將競標包含在清單中 [!DNL Google Ads] 搜尋合作夥伴，選取「 」旁的核取方塊 **[!UICONTROL Search partners]**.
 
-**[!UICONTROL Campaign Priority]：** 當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： *[!UICONTROL Low]* （新行銷活動的預設值）， *[!UICONTROL Medium]*，或 *[!UICONTROL High]*. 當相同產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）符合廣告拍賣的資格。 當所有行銷活動具有相同的優先順序時，則符合最高競價的行銷活動條件。
+**[!UICONTROL Campaign Priority]：** 當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： *[!UICONTROL Low]* （新行銷活動的預設值）， *[!UICONTROL Medium]*，或 *[!UICONTROL High]*. 當同一個產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -114,9 +116,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （選用）廣告群組層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本會覆寫此值。
 
-若為Adobe廣告轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
+若為Adobe Advertising轉換追蹤，則不需要輸入值。 行銷活動層級值就足夠了。
 
-針對協力廠商重新導向與追蹤，請輸入值。
+對於協力廠商重新導向和追蹤，請輸入值。
 
 ### [!UICONTROL Ad Group Level Negative Keywords]
 
@@ -124,7 +126,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]：** 預設、包含所有內容的產品群組「[!UICONTROL All products].」 您無法刪除此上層產品群組，但是當摘要中缺少所有較低層級時，系統會自動刪除該父產品群組。
+**[!UICONTROL Tier 1]：** 預設的、包含所有內容的產品群組「[!UICONTROL All products].」 您無法刪除此上層產品群組，但是當摘要中缺少所有較低層級時，系統會自動刪除該群組。
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -136,9 +138,9 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]：** （沒有子產品群組的單位；選用）產品群組的追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在 [!DNL ValueTrack] 引數。 此範本會覆寫較高層級的範本。
 
-若為Adobe Advertising轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
+若為Adobe Advertising轉換追蹤，則不需要輸入值。 行銷活動層級值就足夠了。
 
-針對協力廠商重新導向與追蹤，請輸入值。
+對於協力廠商重新導向和追蹤，請輸入值。
 
 **[!UICONTROL Initial Bid]：** 每個廣告的初始競標。
 

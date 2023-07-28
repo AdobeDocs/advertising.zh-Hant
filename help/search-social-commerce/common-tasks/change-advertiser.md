@@ -1,7 +1,9 @@
 ---
 title: 檢視其他廣告商的資料
 description: 瞭解如何檢視其他廣告商的資料。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 823689b3-7c74-4927-8973-c6ce9fc79729
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%

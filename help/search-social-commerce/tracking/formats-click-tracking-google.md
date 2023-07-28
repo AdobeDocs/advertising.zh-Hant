@@ -1,7 +1,9 @@
 ---
 title: 的點選追蹤格式 [!DNL Google Ads]
 description: 瞭解的點選追蹤格式 [!DNL Google Ads] 帳戶。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -26,20 +28,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe廣告中廣告商唯一ID的變數。
+>* `<advertiser_ID>` 是Adobe Advertising中廣告商唯一ID的變數。
 >
 >* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請替代 `cq?` 晚於 `<advertiser_ID>` 替換為 `c?`.
 >
 >* 此 [!DNL ValueTrack] 在追蹤範本中指出最終URL的引數必須是 `{lpurl}` 或 `!{unescapedurl}`.
 >
->* （文字廣告）當您依據關鍵字競標時，引數 `ev_pl` （適用於位置）沒有值。 當您依位置競標時， `ev_ln` （適用於關鍵字）沒有值。 當您按廣告群組或任何其他維度競標時，兩者皆可 `ev_ln` 和 `ev_pl` 沒有值。
+>* （文字廣告）依關鍵字競標時，引數 `ev_pl` （適用於位置）沒有值。 當您依位置競標時， `ev_ln` （適用於關鍵字）沒有值。 當您依廣告群組或任何其他維度競標時，兩者皆可 `ev_ln` 和 `ev_pl` 沒有值。
 >
 >* （動態搜尋廣告） `{keyword}` 表示動態搜尋目標運算式，例如 `_cat:[VALUE]` 或 `_url:[VALUE]`.
 >
 >* （動態搜尋廣告） [!DNL Google Ads] 會以動態方式決定最終URL，因此您不需要輸入URL。
 >
->* （網站連結）您可以透過產生「 」，檢視點選網站連結產生了哪些轉換 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的欄值為 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
-
+>* （網站連結）您可以透過產生「 」，檢視點按網站連結產生了哪些轉換 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] sitelink的欄值為 `sl:<Sitelink text>`，例如 `sl:See Current Offers`.
 
 ### 購物網路
 
@@ -53,46 +54,43 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe廣告中廣告商唯一ID的變數。
+>* `<advertiser_ID>` 是Adobe Advertising中廣告商唯一ID的變數。
 >
 >* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請替代 `cq?` 晚於 `<advertiser_ID>` 替換為 `c?`.
 >
 >* 此 [!DNL ValueTrack] 在追蹤範本中指出最終URL的引數必須是 `{lpurl}` 或 `!{unescapedurl}`.
 >
->* [!DNL Google Ads] 會使用Google商家中心摘要中的產品URL作為最終URL，因此您不需要輸入產品資料或產品群組的最終URL。
+>* [!DNL Google Ads] 會使用Google商家中心摘要中的產品URL作為最終URL，因此您不需要為產品資料或產品群組輸入最終URL。
 >
->* 您可以產生「 」，檢視哪些轉換是購物廣告點選所致 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] 產品廣告的欄值為pla：`<product ID>`，例如 `pla:8525822`.
-
+>* 您可以透過產生「 」來檢視點選購物廣告產生了哪些轉換 [!UICONTROL Transaction Report]. 此 [!UICONTROL Link Type] 產品廣告的欄值為pla：`<product ID>`，例如 `pla:8525822`.
 
 ## 登陸頁面尾碼（最終URL尾碼）格式
 
-使用Adobe廣告轉換追蹤的帳戶必須包含廣告網路的點選識別碼(`gclid` 的 [!DNL Google Ads])在尾碼中：
+使用Adobe Advertising轉換追蹤的帳戶必須包含廣告網路的點選識別碼(`gclid` 的 [!DNL Google Ads])的後置字元：
 
-* 當廣告商與Adobe Analytics整合時，尾碼必須包含下列其中一項：
+* 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * [!DNL Google Ads] 使用最新版本的帳戶 `s_kwcid` 格式，可支援行銷活動和廣告群組層級報告，以提供最高成效行銷活動和草稿與實驗行銷活動：
+   * [!DNL Google Ads] 使用最新版本的帳戶 `s_kwcid` 格式，支援最大成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      如果帳戶具有伺服器端s_kwcid實作，且帳戶或行銷活動設定»[!UICONTROL Auto Upload]「 」已啟用，則會自動新增引數。 否則，您需要手動新增。
+     如果帳戶具有伺服器端s_kwcid實作，且帳戶或促銷活動設定&quot;[!UICONTROL Auto Upload]」已啟用，則會自動新增引數。 否則，您需要手動新增。
 
    * 所有其他 [!DNL Google Ads] 帳戶：
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
-* 當廣告商沒有Adobe Analytics整合時，尾碼必須包含以下專案：
+* 當廣告商沒有Adobe Analytics整合時，尾碼必須包括下列專案：
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
->* 較低層級的登入頁面尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同的追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
+>* 較低層級的登陸頁面尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 >
->* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要包含從Adobe廣告到Analytics的反向饋送追蹤，則附加 `s_kwcid` 追蹤程式碼至帳戶層級登陸頁面尾碼結尾。
-
+>* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)當您想要包含從Adobe Advertising到Analytics的反向饋送追蹤時，請附加 `s_kwcid` 追蹤程式碼至帳戶層級登陸頁面尾碼結尾。
 
 >[!MORELIKETHIS]
 >
->* [關於Adobe廣告轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
+>* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
 >* [s\_kwcid追蹤程式碼的格式](skwcid-tracking-parameter.md)
-

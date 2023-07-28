@@ -1,18 +1,19 @@
 ---
-title: 建立和上傳資產
-description: 瞭解如何建立可重複使用的影像、影片和文字資產，並將其上傳至您的 [!DNL Google Ads] 帳戶層級的資產庫。
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+title: 建立及上傳資產
+description: 瞭解如何建立可重複使用的影像、視訊和文字資產，並將其上傳至您的 [!DNL Google Ads] 帳戶層級的資產庫。
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# 建立和上傳資產
+# 建立及上傳資產
 
-*對象 [!DNL Google Ads] 僅限帳戶*
+*的 [!DNL Google Ads] 僅限帳戶*
 
-*開放Beta版功能*
+*開啟Beta版功能*
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
@@ -36,17 +37,17 @@ ht-degree: 0%
 
             1. 按一下 ![裁切](/help/search-social-commerce/assets/crop.png "裁切").
 
-            1. 選取長寬比。
+            1. 選取外觀比例。
 
-            1. 視需要拖曳並放置裁切方塊，以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+            1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-            1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位影像和調整影像大小。
+            1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
                系統會為每個選取的外觀比例建立一個資產。
 
             1. 按一下 **[!UICONTROL Proceed]**.
 
-      * 對於視訊資產，請輸入 [!DNL YouTube] 至少10秒長的視訊。 若要新增其他視訊資產，請按一下 **+新增** 並輸入另一個URL。
+      * 對於視訊資產，請輸入 [!DNL YouTube] 至少10秒長的視訊。 若要新增其他視訊資產，請按一下 **+新增** 並輸入其他URL。
 
         您一次最多可以發佈10個視訊URL。
 
@@ -54,7 +55,7 @@ ht-degree: 0%
 
         每個文字資產最多可包含1000個字元。 您一次最多可以上傳10個文字資產。
 
-        您稍後可以將文字資產用於您選擇的任何廣告元素（例如標題或簡短說明），前提是這些元素符合該廣告元素的字元限制。
+        您稍後可以將文字資產用於您選擇的任何廣告元素（例如標題或簡短說明），只要這些元素符合該廣告元素的字元限制。
 
 1. 按一下 **[!UICONTROL Post]**.
 

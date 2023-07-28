@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Microsoft® Advertising] 擴展動態搜尋廣告設定」'
-description: 參考設定 [!DNL Microsoft® Advertising] 擴充的動態搜尋廣告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: 『[!DNL Microsoft® Advertising] 已擴充的動態搜尋廣告設定'
+description: 參考設定 [!DNL Microsoft® Advertising] 展開動態搜尋廣告。
+exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft® Advertising] 擴展的動態搜尋廣告設定
 
-擴充的動態搜尋廣告(eDSA)僅適用於搜尋網路上行銷活動的動態廣告群組。 廣告網路會動態產生標題，並選擇動態搜尋廣告的登陸頁面，然後自動產生最終URL。
+延展的動態搜尋廣告(eDSA)僅適用於搜尋網路上行銷活動的動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面，然後自動產生最終URL。
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
@@ -40,4 +42,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] 產品廣告設定](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] 回應式（對象）廣告設定](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] 回應式搜尋廣告設定](ad-settings-microsoft-rsa.md)
-

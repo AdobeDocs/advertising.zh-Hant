@@ -2,7 +2,8 @@
 title: 關於專業報告
 description: 瞭解專業報告。
 exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於大多數的專業報告，資料提取會在前一天的23:00 （晚上11:00）進行。 例如，6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日23:00的資料。 此資料同步適用於所有 [!DNL Google Ads] 專業報告和 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
+>對於大多數專業報告，資料提取會在前一天的23:00 （晚上11:00）進行。 例如6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日的09:00執行報表（在提取6月18日的資料之前），則報表會包含截至6月17日的23:00的資料。 此資料同步會套用至全部 [!DNL Google Ads] 專業報告與 [!UICONTROL Bing Ads Geo Report] 和 [!UICONTROL Bing Ads Search Query Report].
 
 ## 專業報告型別
 

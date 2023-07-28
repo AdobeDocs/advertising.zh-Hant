@@ -1,7 +1,9 @@
 ---
-title: '"[!DNL Google Ads] 回應式搜尋廣告設定」'
+title: 『[!DNL Google Ads] 回應式搜尋廣告設定
 description: 參考設定 [!DNL Google Ads] 回應式搜尋廣告。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Google Ads] 回應式搜尋廣告設定
 
-[!DNL Google Ads] 動態組合 [回應式搜尋廣告](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA)，最多三個標題和兩個說明。
+[!DNL Google Ads] 動態組合 [回應式搜尋廣告](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA)最多可登入三個標題和兩個說明。
 
 >[!NOTE]
 >
@@ -52,4 +54,3 @@ ht-degree: 0%
 >* [管理廣告](ad-manage.md)
 >* [[!DNL Google Ads] 僅限通話的廣告設定](ad-settings-google-call.md)
 >* [[!DNL Google Ads] 擴展的動態搜尋廣告設定](ad-settings-google-dsa.md)
-

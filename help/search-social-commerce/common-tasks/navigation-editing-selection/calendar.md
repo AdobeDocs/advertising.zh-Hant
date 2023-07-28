@@ -1,7 +1,9 @@
 ---
 title: 使用行事曆指定日期
 description: 瞭解如何使用行事曆選取日期。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -22,7 +24,8 @@ ht-degree: 0%
 
    * 按一下日期。
 
-   * （向前或向後移動一個月）按一下 **`<`** 或 **`>`**（分別）。
+   * （若要向前或向後移動一個月）按一下 **`<`** 或 **`>`**，依序輸入。
 
    * （若要選取其他月份或年份）按一下月份或年份的名稱，然後按一下月份或年份。
+
    （反白目前日期）按一下 **[!UICONTROL Today]**.

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Ad Variation Report]"
+title: '[!UICONTROL Ad Variation Report]'
 description: 瞭解 [!UICONTROL Ad Variation Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3f760c40-c9ff-4100-8b4a-80c98dca2460
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Ad Variation Report]
 
-此 [!UICONTROL Ad Variation Report] 包括在一或多個廣告群組中收到印象的每個適用廣告變化（創意）的成本、點選次數和（可選）轉換資料。 依預設，資料會針對指定日期範圍內每個時間單位接收曝光次數的每個適用廣告包含一個資料列。 這些列會先依創意（廣告）標題依遞增順序排列，然後依預設依廣告網路排列。
+此 [!UICONTROL Ad Variation Report] 包括在一或多個廣告群組中收到印象的每個適用廣告變化（創意）的成本、點選次數和（可選）轉換資料。 依預設，資料會針對指定日期範圍內每個時間單位接收曝光數的每個適用廣告包含一列。 這些列會先依創意（廣告）標題依遞增順序排列，然後依預設依廣告網路排列。
 
 您可以選擇性地包含廣告商特定的標籤分類。
 
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->廣告層級資料不可用於 [!DNL Google Ads] 動態搜尋廣告(DSA)、最高效能、智慧購物和 [!DNL YouTube] 行銷活動。 如果您有這些行銷活動型別，則會預期行銷活動的廣告層級資料總計與行銷活動的資料總計之間會不符。
+>廣告層級資料不可用於 [!DNL Google Ads] 動態搜尋廣告(DSA)、最高效能、智慧型購物以及 [!DNL YouTube] 行銷活動。 如果您有這些行銷活動型別，則會預期行銷活動的廣告層級資料總計與行銷活動資料總計之間會不符。
 
 ## 預設欄
 
@@ -46,7 +48,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於基本和進階報告](basic-advanced-report-about.md)
+>* [關於基本和進階報表](basic-advanced-report-about.md)
 >* [產生基本或進階報表](basic-advanced-report-generate.md)
 >* [基本和進階報表設定](basic-advanced-report-settings.md)
-

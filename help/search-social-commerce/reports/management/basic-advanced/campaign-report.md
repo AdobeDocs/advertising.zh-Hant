@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Report]"
+title: '[!UICONTROL Campaign Report]'
 description: 瞭解 [!UICONTROL Campaign Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a241535a-d32a-4f84-9e0e-addb68d75496
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Report]
 
-此 [!UICONTROL Campaign Report] 包含一或多個具有關鍵字的行銷活動的成本、點選次數和（選擇性）轉換資料。 依預設，資料會針對指定日期範圍內每個時間單位的每個適用行銷活動包含一個資料列，且這些資料列會先依行銷活動再依投資組合依遞增順序排列（若適用）。
+此 [!UICONTROL Campaign Report] 包含一或多個具有關鍵字的行銷活動的成本、點選和（選擇性）轉換資料。 依預設，資料在指定日期範圍內每個時間單位都包含每個適用行銷活動的一列，且這些列會先依行銷活動遞增排序，然後依投資組合遞增排序（若適用）。
 
 您可以選擇性地包含廣告商特定的標籤分類。
 
@@ -37,7 +39,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於基本和進階報告](basic-advanced-report-about.md)
+>* [關於基本和進階報表](basic-advanced-report-about.md)
 >* [產生基本或進階報表](basic-advanced-report-generate.md)
 >* [基本和進階報表設定](basic-advanced-report-settings.md)
-

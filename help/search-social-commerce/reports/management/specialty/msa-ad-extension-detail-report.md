@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension Detail Report]"
 description: 瞭解 [!UICONTROL MSA Ad Extension Detail Report].
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -12,9 +13,9 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]僅限帳戶*
 
-此報表顯示個別廣告擴充功能元素（例如網站連結擴充功能中的每個連結）的曝光數、點按數、支出和每次點按平均成本。 使用此報表可檢視廣告擴充功能元素的成效。
+此報表顯示個別廣告擴充功能元素的曝光數、點按數、支出及每次點按平均成本（例如網站連結擴充功能中的每個連結）。 使用此報表可檢視廣告擴充功能元素的成效。
 
-執行只有量度欄且沒有維度的報表時，產生的報表會包含兩個重複的列：一個含有彙總資料，另一個含有所有量度。<!-- all metrics? -->
+當您執行只有量度欄且沒有維度的報表時，產生的報表會包含兩個重複的列：一個含有彙總資料，另一個含有所有量度。<!-- all metrics? -->
 
 您可以檢視過去180天的資料。 搜尋、社交和商務提取資料來源 [!DNL Microsoft Advertising] 即時產生，且可能需要幾分鐘才能產生資料量較大的報表。
 

@@ -1,7 +1,9 @@
 ---
 title: 檢視或儲存 [!DNL Advertising Insight]
 description: 瞭解如何檢視 [!DNL Advertising Insight] 並儲存至檔案。
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 2. 在左側功能表中，按一下 ![報表](/help/search-social-commerce/assets/insight-reports.png "報表").
 
-3. 在 [!UICONTROL Generated Insights] 面板，請執行下列任一項作業：
+3. 在 [!UICONTROL Generated Insights] 面板，執行下列任一項作業：
 
    * 按一下報表例項。
 
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [關於 [!UICONTROL Advertising Insights]](insight-about.md)
 >* [產生 [!DNL Advertising Insight]](insight-generate.md)
 >* [刪除 [!DNL Advertising Insight]](insight-delete.md)
-
