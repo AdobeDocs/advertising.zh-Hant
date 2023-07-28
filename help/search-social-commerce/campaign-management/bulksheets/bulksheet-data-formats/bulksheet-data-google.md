@@ -3,9 +3,9 @@ title: 以下專案的必要大量表單資料： [!DNL Google Ads] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Google Ads] 帳戶。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
 workflow-type: tm+mt
-source-wordcount: '7839'
+source-wordcount: '7842'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Location Type] | （當您包含位置時） [位置型別](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>[!UICONTROL smartphone]</i>， <i>[!UICONTROL tablet]</i>，或 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>(當您包含 [!UICONTROL Location]， [!UICONTROL Device]，或 [!UICONTROL RLSA] target)是否調整特定位置、特定裝置型別或特定對象目標中廣告的競標：</p><ul><li><p>若要使用關鍵字層級的競標（0%差異），請輸入0。 若為新目標，您也可以將此專案留空。</p></li><li><p>若要對此目標使用不同的競標，請輸入增加或減少競標的百分比。</p></li><ul><li><p>對於位置和RLSA目標，有效百分比包括從–90到900。</p></li><li><p>針對裝置競標調整，有效百分比包括：</p></li><ul><li><p>（行銷活動）–100 （不對裝置型別上的廣告投標）或從–90到900。</p></li><li><p>（廣告群組） -100適用於智慧型手機和平板電腦（不得競標裝置型別），以及從–90到900適用於所有裝置型別。</p></li></ul></ul><li><p>（現有行銷活動和廣告群組）若要使用現有競標調整，請將此項留空。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （包含在產生的大量表單中以供參考） Adobe建議用於行銷活動層級位置目標或RLSA的唯讀競標調整。 只有當行銷活動位於具有加權收入目標的產品組合中時，才會計算收入(而非 [!UICONTROL Maximize Clicks] 目標)，且促銷活動包含至少兩個位置目標或過去九十天內至少點按五次或成本為5美元的零售值。</p><p>如果您想要手動編輯位置目標或RLSA以使用建議值，請在建立位置目標或RLSA後至少等待兩週，以允許足夠的資料收集，並且不要每週變更值超過一次。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （包含在產生的大量表單中以供參考） Adobe建議用於行銷活動層級位置目標或RLSA的唯讀競標調整。 只有當行銷活動位於目標為使用加權轉換量度的產品組合中時，才會計算 [!UICONTROL Maximize Clicks] 目標)，且促銷活動包含至少兩個位置目標或過去九十天內至少點按五次或成本為5美元的零售值。</p><p>如果您想要手動編輯位置目標或RLSA以使用建議值，請在建立位置目標或RLSA後至少等待兩週，以允許足夠的資料收集，並且不要每週變更值超過一次。 |
 | [!UICONTROL Device Targets] | <p>（僅限舊版促銷活動型別）廣告可能會顯示的裝置： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>， <span style="font-style: italic;"><i>[!UICONTROL Computers]</i></span>， <span style="font-style: italic;"><i>[!UICONTROL Smartphones]</i></span>，或 <span style="font-style: italic;"><i>[!UICONTROL Tablets]</i></span>. 若為新行銷活動，預設值為 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （僅限舊版促銷活動型別；適用於裝置目標包含「智慧型手機」或「平板電腦」時）可顯示廣告的作業系統： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>， <span style="font-style: italic;"><i>[!UICONTROL Android]</i></span>， <span style="font-style: italic;"><i>[!UICONTROL iOS]</i></span>，或 <span style="font-style: italic;"><i>[!UICONTROL Palm]</i></span>. 若為新行銷活動，預設值為 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(僅限舊版促銷活動型別；適用於 [!UICONTROL Device Targets] include &quot;[!UICONTROL All]「或」[!UICONTROL Smartphones]&quot;)智慧型手機可能連線的行動電信業者： <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>，或一或多個電信業者，指示為 &lt;c span=&quot;&quot; id=&quot;4&quot; translate=&quot;no&quot; />電信業者代碼</i></span>>，&lt;<span style="font-style: italic;"><i>國家/地區代碼</i></span>> （例如T-Mobile、US）使用 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">可用的電信業者和代碼 [!DNL Google Ads]</a>. <span style="font-style: italic;"><i>以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
