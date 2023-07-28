@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | 由網路指派的廣告群組ID。 |
 | [!UICONTROL Network Campaign ID] | 網路指派的行銷活動ID。 |
 | [!UICONTROL Objective Name] | 投資組合的目標。 |
-| [!UICONTROL Objective Value] | 根據投資組合目前目標計算的總加權轉換。 請參閱&quot;[目標值](/help/search-social-commerce/glossary.md#o-p).」 |
+| [!UICONTROL Objective Value] | 根據投資組合目前目標計算的總加權轉換。 |
 | [!UICONTROL Objective Value Calculation] | 用於衍生目標值的計算。 |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] 廣告)在廣告中讓人離開的連結點選次數 [!DNL Meta]擁有的屬性。 |
 | [!UICONTROL Parent Product Groupings] | 父級產品群組的完整階層，具有 `>>` 層級之間(例如 `All Products>>CategoryL1=Animals`)（如適用）。 |
