@@ -3,7 +3,7 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [關於管理廣告商的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [上傳轉換量度至 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

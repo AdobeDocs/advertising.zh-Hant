@@ -3,7 +3,7 @@ title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 0%
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 *可能的解決方案或因應措施：*
 
-1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. 確認已在所有適用網頁上實施正確的轉換追蹤標籤。 如有必要，請要求您的Adobe帳戶團隊為每個適用的轉換追蹤標籤建立測試交易，並擷取交易的詳細資訊，例如 `transactionid` 和來自Cookie的詳細資訊(例如 `trackingid`， `clickid`、等等)。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 *可能的解決方案或因應措施：*
 
-1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. 執行 [!UICONTROL Portfolio Report]. 如果空白，請執行 [!UICONTROL Campaign Report] 和 [!UICONTROL Search Engine Report] 以檢視收入是否出現在這些報表中。 如果有，則行銷活動可能未指派給適當的投資組合。
 

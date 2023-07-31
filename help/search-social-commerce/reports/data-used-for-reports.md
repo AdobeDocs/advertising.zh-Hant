@@ -3,7 +3,7 @@ title: 用於報表的資料
 description: 瞭解資料檢視和自訂報告中可用的不同型別資料。
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 搜尋、社交和商務包含一組以點選和轉換資料為基礎的完整效能報表。 您可以從以下網站檢視產品組合或廣告帳戶中各種元件的基本效能資料： [!UICONTROL Portfolios] 和 [!UICONTROL Campaigns] 檢視以及產生各種基本和進階報表。
 
-使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及單一轉換的分佈 [轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 依行銷管道。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
+使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及單一轉換的分佈 [轉換量度](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 依行銷管道。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
 
 大多數報告都可以自訂，以僅顯示您想要檢視的資訊。 下列標準量度可用於大多數報表，並在廣告層級進行計算：
 

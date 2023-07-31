@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -404,10 +404,10 @@ ht-degree: 2%
       + [重新驗證 [!DNL Google Analytics] 資料來源](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] 資料來源設定](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [附錄 — 可用 [!DNL Google Analytics] 量度](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + 管理廣告商的轉換量度{#conversion-metrics}
-      + [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
-      + [檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
-      + [變更管理檢視和報告中的可用轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
-      + [變更轉換量度的顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+   + 管理廣告商的交易屬性{#transaction-properties}
+      + [關於管理廣告商的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+      + [檢視為廣告商追蹤的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+      + [變更管理檢視和報告中可用的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
+      + [變更交易屬性的顯示名稱](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
 + [取得協助](get-help.md)
 + [字彙表](glossary.md)
