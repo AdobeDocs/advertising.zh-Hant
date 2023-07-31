@@ -3,7 +3,7 @@ title: 建立自訂目標
 description: 建立自訂目標
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 7ed95f58f317420e6c5104779ca95d081c717247
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 登入 [!DNL Advertising Search, Social, & Commerce] at （北美使用者） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他使用者） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 確認已追蹤您要在目標中納入的量度、可在產品中使用，且包含顯示名稱：
-   1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
    1. 找到量度，並確定 **[!UICONTROL Show in UI and Reports]** 已針對量度啟用。
    1. 如果量度中沒有值 **[!UICONTROL Display Name]** 欄，按一下儲存格，輸入顯示名稱，然後按一下 **[!UICONTROL Apply].**
 1. 建立自訂目標為 *目標*：

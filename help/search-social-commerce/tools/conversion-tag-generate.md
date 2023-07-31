@@ -3,7 +3,7 @@ title: 產生Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤以追蹤您的轉換事件。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新轉換標籤中的每個量度都會自動列在 [!UICONTROL Admin] > [!UICONTROL Conversions]，即使未實作，或其所在的網頁未曾收到任何點按。 此行為與手動或其他地方建立之標籤中的量度行為不同，這些標籤未列於 [!UICONTROL Admin] > [!UICONTROL Conversions] 直到其中一個網頁收到點按。 但在所有情況下，每個量度一開始都會從投資組合目標、報表和檢視中排除，直到您明確提供它們為止。 不過，在將量度新增至投資組合目標之前，請考慮先使量度可供使用，並將量度新增至報表，以驗證量度何時收到點按。
+>新轉換標籤中的每個量度都會自動列在 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]，即使未實作，或其所在的網頁未曾收到任何點按。 此行為與手動或其他地方建立之標籤中的量度行為不同，這些標籤未列於 [!UICONTROL Admin] > [!UICONTROL Transaction Properties] 直到其中一個網頁收到點按。 但在所有情況下，每個量度一開始都會從投資組合目標、報表和檢視中排除，直到您明確提供它們為止。 不過，在將量度新增至投資組合目標之前，請考慮先使量度可供使用，並將量度新增至報表，以驗證量度何時收到點按。
 
 ## Adobe Advertising轉換標籤設定 {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 >* [JavaScript轉換追蹤標籤第2版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe AdvertisingJavaScript轉換對應標籤](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [關於管理廣告商的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
