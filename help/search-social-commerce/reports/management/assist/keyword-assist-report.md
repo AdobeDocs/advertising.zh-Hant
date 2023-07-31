@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 瞭解 [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -43,8 +43,6 @@ ht-degree: 0%
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaction property\] | 自動 | （無法用於報表設定，但自動包含在每個交易屬性的報表輸出中）從第一個事件（在第一個關鍵字或位置）到轉換的平均延遲（以天為單位）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaction property\] | 自動 | （無法用於報表設定，但會自動包含在報表輸出中）從上一個事件（在最後一個關鍵字或位置）到轉換的平均延遲天數（以天為單位）。 |
 | [!UICONTROL Path Frequency] | 自訂 | 此列的路徑在轉換前發生的次數。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

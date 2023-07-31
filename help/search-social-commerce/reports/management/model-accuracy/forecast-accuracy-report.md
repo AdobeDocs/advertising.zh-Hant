@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: 瞭解預測準確度報表，包括資料欄。
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | 預設 | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL Portfolio Group Name] | 預設 | 投資組合所屬投資組合群組的名稱。 |
 | [!UICONTROL Portfolio ID] | 預設 | 數值投資組合ID。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

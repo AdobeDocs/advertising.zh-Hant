@@ -3,7 +3,7 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -154,8 +154,6 @@ ht-degree: 0%
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 報表)廣告元素出現在廣告復本中的點選次數，無論是否被點按。 |
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]；對象網路上的廣告)由一或多次曝光但無點按產生的轉換次數。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

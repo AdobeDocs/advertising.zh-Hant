@@ -3,7 +3,7 @@ title: 大量表單資料 [!DNL Yahoo! Display Network] 帳戶
 description: 請參考的已下載大量表單中的標題欄位和資料欄位 [!DNL Yahoo! Display Network] 帳戶。
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | 不適用 | 不適用 | 若包含 | 可識別現有關鍵字的唯一ID。 |
 | [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | （在產生的大量表單中）同步實體的Adobe產生的唯一識別碼。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中，以供參考之用）用來顯示搜尋、社交和商務中有關該列資料的錯誤訊息的預留位置；錯誤訊息包含在 [!UICONTROL EF Errors] 檔案。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

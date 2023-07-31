@@ -3,7 +3,7 @@ title: 基本和進階報表設定
 description: 瞭解基本和進階報告的必要和選用設定。
 exl-id: 70453b24-f638-45d0-9d1e-e942a78a98d8
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%
@@ -43,8 +43,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (選用；僅適用於&quot;[!UICONTROL Save as template]」選項已選取)何時執行報表： <i>[!UICONTROL Now]</i> （只執行一次報表；預設）， <i>[!UICONTROL Daily]</i>， <i>[!UICONTROL Weekly on] [星期]</i>，或 <i>[!UICONTROL Every Month] [日期]</i>. 所有期間，除了 <i>[!UICONTROL Now]</i>，在廣告商的時區中選取小時，從上午9:00開始。 |
 |  | [!UICONTROL Email Recipients] | <b>注意：</b>  此設定僅在電子郵件通知用於 [!UICONTROL Reports] 為 [啟用範圍 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>報表完成或因錯誤而取消時，要傳送通知的已註冊Search、Social和Commerce使用者電子郵件地址。 依預設，會輸入您使用者帳戶的地址。 若要指定多個地址，請用逗號、空格或新行加以區隔。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
 |  | [!UICONTROL Email Notification] | <b>注意：</b>  此設定僅在電子郵件通知用於 [!UICONTROL Reports] 為 [啟用範圍 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(當 [!UICONTROL Email Recipients] 已指定)傳送至任何指定地址的電子郵件通知中要包含的內容：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：僅傳送報表完成或失敗的通知，不含附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i> 在檔案小於約10 MB時加入XLS格式的已完成報表副本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i> 在檔案小於約10 MB時加入TSV格式的已完成報表副本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i> 在檔案小於約10 MB時加入CSV格式的已完成報表副本。 超過1 MB的檔案會經過壓縮。 |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

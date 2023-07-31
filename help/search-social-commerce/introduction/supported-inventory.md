@@ -3,7 +3,7 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ ht-degree: 0%
 | [!DNL Yahoo Native] （同步支援已於2022年結束） | 原生網路 | 原生 | 文字 | —<br><br>截至2022年3月10日的舊帳戶資訊以唯讀形式提供。 | — | — | — | —<br><br>已同步至2022年3月10日的舊版廣告層級資料。 | 將Analytics資料新增至「搜尋」、「社交」和「商務」，反之亦然 |
 | [!DNL Yandex] | 搜尋網路 | 搜尋 | 文字 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [詳細目錄管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 僅具有CPC競標策略的行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 顯示網路 | 顯示/內容 | 文字 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [詳細目錄管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 僅具有CPC競標策略的行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
-
-<table style="table-layout:auto">
 
 [^1]：針對大多數廣告網路和促銷活動型別，當您啟用「[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]「作用中行銷活動的追蹤設定（在行銷活動層級設定或繼承自帳戶設定）、Search、Social和Commerce會在每次與廣告網路同步時，自動建立並上傳廣告群組元件的追蹤URL。 否則，您需要產生追蹤URL，並將其新增至帳戶、行銷活動或行銷活動元件設定。 請參閱&quot;[何時及如何依廣告網路和物件產生點選追蹤URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).」
 

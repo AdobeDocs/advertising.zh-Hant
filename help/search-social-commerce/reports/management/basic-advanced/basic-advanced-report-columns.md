@@ -3,7 +3,7 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | （視訊廣告）檢視或參與次數除以廣告顯示次數（視訊和縮圖曝光數）。 |
 | [!UICONTROL Views] | （影片廣告）人們觀看或參與您廣告的次數。 |
 | [!UICONTROL ViewThroughConversions] | （對象網路上的廣告）由一或多次曝光但無點按產生的轉換次數。 |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

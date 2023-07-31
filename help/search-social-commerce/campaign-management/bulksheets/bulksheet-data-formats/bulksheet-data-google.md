@@ -3,7 +3,7 @@ title: 以下專案的必要大量表單資料： [!DNL Google Ads] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Google Ads] 帳戶。
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '7842'
 ht-degree: 0%
@@ -124,8 +124,6 @@ ht-degree: 0%
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中，以供參考）顯示來自廣告網路的錯誤訊息（關於列中的資料）預留位置；錯誤訊息包含在 [!UICONTROL SE Errors] 檔案。 此值未發佈到廣告網路。 |
 | [!UICONTROL Exemption Request] | （包含在產生的大量表單中以供參考）顯示任何專案名稱和文字的預留位置 [!DNL Google Ads] 廣告違反的廣告原則。 |
 | [!UICONTROL Retail Hash] | (包含於使用進階Campaign Management產生的大量表單中以供參考)英數字元雜湊代碼(例如f9639f40cdf56524b541e5dacf55a991)，表示專案是使用進階(ACM)檢視產生的。 |
-
-<table style="table-layout:auto">
 
 [^1]： [!DNL Excel] 開啟檔案時，會將大數字轉換為科學記號(例如2.12E+09用於2115585666)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 

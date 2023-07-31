@@ -3,7 +3,7 @@ title: 以下專案的必要大量表單資料： [!DNL Baidu] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Baidu] 帳戶。
 exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -64,8 +64,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL AMO ID] | 不適用：建立<br>可選：編輯和刪除 | 不適用：建立<br>可選：編輯和刪除 | 不適用：建立<br>可選：編輯和刪除 | 不適用：建立<br>可選：編輯和刪除 | 不適用：建立<br>可選：編輯和刪除 | （在產生的Bulksheets中） [!DNL Adobe] — 為同步實體產生的唯一識別碼。 若為回應式搜尋廣告，編輯或刪除廣告時需使用AMO ID，除非您包含 [!UICONTROL Ad ID]. 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中，以供參考之用）用來顯示搜尋、社交和商務中有關該列資料的錯誤訊息的預留位置；錯誤訊息包含在 [!UICONTROL EF Errors] 檔案。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中，以供參考）顯示來自廣告網路的錯誤訊息（關於列中的資料）預留位置；錯誤訊息包含在 [!UICONTROL SE Errors] 檔案。 此值未發佈到廣告網路。 |
-
-<table style="table-layout:auto">
 
 [^1]：Excel在開啟檔案時將大型數字轉換為科學記號(例如2.12E+09 for 2115585666)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
