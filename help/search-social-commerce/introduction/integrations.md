@@ -3,7 +3,7 @@ title: 與Adobe Experience Cloud解決方案和服務整合
 description: 瞭解Search、Social和Commerce與Adobe Experience Cloud解決方案和服務的整合。
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Advertising Search， Social， &amp; Commerce已整合以下專案 [!DNL Adobe]
 
      >[!NOTE]
      >
-     >根據預設， [!DNL Analytics] 量度在「搜尋」、「社交」和「商務」畫面中不可見。 您必須明確 [讓量度可用於行銷活動管理檢視、投資組合和報表](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 在 [!DNL Adobe] 實作團隊已設定將選取的標準或自訂事件傳遞至Adobe Advertising。 您可以選擇變更顯示的量度名稱（而不需在中變更它們） [!DNL Analytics])。 您可以讓量度在UI中可供檢視，並從以下位置重新命名量度： [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >根據預設， [!DNL Analytics] 量度在「搜尋」、「社交」和「商務」畫面中不可見。 您必須明確 [讓量度可用於行銷活動管理檢視、投資組合和報表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 在 [!DNL Adobe] 實作團隊已設定將選取的標準或自訂事件傳遞至Adobe Advertising。 您可以選擇變更顯示的量度名稱（而不需在中變更它們） [!DNL Analytics])。 您可以讓量度在UI中可供檢視，並從以下位置重新命名量度： [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * 廣告商使用 [!DNL Analytics] 但Audience Manager不能 [建立 [!DNL Google Ads] 客戶比對對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) 從 [!DNL Analytics] 區段共用給Adobe Experience Cloud。 廣告商必須實作 [Adobe Experience Platform Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 並在網站上部署標籤。 您隨後可以在以下位置使用對象： [!DNL Google Ads] 行銷活動層級或廣告群組層級 [目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) 或 [排除專案](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 

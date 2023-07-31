@@ -3,7 +3,7 @@ title: 關於追蹤的常見問題集
 description: 瞭解關於追蹤的常見問題解答，包括疑難排解問題。
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 以下是Adobe Advertising的重複資料刪除邏輯：
 
-* **當使用者端傳送的值用於 `ev_transid` 屬性：** 如果符合下列條件，則後續的畫素請求會被視為上一個畫素請求的重複專案： `ev_transid`；相同關鍵字、廣告或位置的追蹤ID，以及特定交易屬性的值。
+* **當使用者端傳送的值用於 `ev_transid` 屬性：** 如果符合下列條件，則後續的畫素請求會被視為上一個畫素請求的重複專案： `ev_transid`；相同關鍵字、廣告或刊登位置的追蹤ID，以及特定轉換量度的值。
 
   例如，如果特定廣告網路上的相同關鍵字有多個貸款申請具有相同的申請ID和貸款金額，則會將其視為重複專案，並且只計算第一個貸款申請。
 
-* **當使用者端未傳送的值給 `ev_transid` 屬性：** 如果後續交易共用相同關鍵字、廣告或位置的追蹤ID，且特定交易屬性的值相同，則會視為上一個交易的重複專案。
+* **當使用者端未傳送的值給 `ev_transid` 屬性：** 如果後續交易共用相同關鍵字、廣告或位置的追蹤ID，且特定轉換量度的值相同，則會視為上一個交易的重複專案。
 
   例如，如果多個貸款申請具有相同的關鍵字ID和貸款金額，則會將其視為重複專案，並且只計算第一個貸款申請。
 +++
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 ## 資料問題
 
-+++我如何知道哪個交易屬性來自資料摘要或由Adobe Advertising轉換追蹤標籤追蹤？
++++我如何知道哪個轉換量度來自資料摘要或由Adobe Advertising轉換追蹤標籤追蹤？
 
-在 [!UICONTROL Transaction Report]，如果您包含自訂欄，您可以分辨是否有Adobe Advertising轉換追蹤畫素追蹤包含的交易屬性»[!UICONTROL Tracking URL].」 使用Adobe Advertising追蹤畫素來追蹤URL的開頭為 `http://pixel.everesttech.net`.
+在 [!UICONTROL Transaction Report]，如果您包含自訂欄，您可以分辨是否有Adobe Advertising轉換追蹤畫素追蹤包含的轉換量度»[!UICONTROL Tracking URL].」 使用Adobe Advertising追蹤畫素來追蹤URL的開頭為 `http://pixel.everesttech.net`.
 +++
 
 +++什麼是孤立交易？

@@ -3,7 +3,7 @@ title: 行銷活動的相關常見問題集
 description: 檢視有關行銷活動管理和行銷活動資料檢視的問答。
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns)變更我的的 [!DNL Google]-tracked轉換已還原。
 
-如果您在「搜尋」、「社交」和「商務」中變更交易屬性的顯示名稱，您的變更將會以中設定的名稱覆寫。 [!DNL Google Ads]. 在內變更任何名稱 [!DNL Google Ads].
+如果您在「搜尋」、「社交」和「商務」中變更轉換量度的顯示名稱，您的變更將會以設定的名稱覆寫， [!DNL Google Ads]. 在內變更任何名稱 [!DNL Google Ads].
 +++
 
 +++(Google Ads行銷活動)我可以在產品組合中使用行銷活動的共用預算嗎？

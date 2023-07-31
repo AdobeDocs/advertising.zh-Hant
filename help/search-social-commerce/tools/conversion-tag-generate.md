@@ -3,9 +3,9 @@ title: 產生Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤以追蹤您的轉換事件。
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新轉換標籤中的每個量度都會自動列在 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]，即使未實作，或其所在的網頁未曾收到任何點按。 此行為與手動或其他地方建立之標籤中的量度行為不同，這些標籤未列於 [!UICONTROL Admin] > [!UICONTROL Transaction Properties] 直到其中一個網頁收到點按。 但在所有情況下，每個量度一開始都會從投資組合目標、報表和檢視中排除，直到您明確提供它們為止。 不過，在將量度新增至投資組合目標之前，請考慮先使量度可供使用，並將量度新增至報表，以驗證量度何時收到點按。
+>新轉換標籤中的每個量度都會自動列在 [!UICONTROL Admin] > [!UICONTROL Conversions]，即使未實作，或其所在的網頁未曾收到任何點按。 此行為與手動或其他地方建立之標籤中的量度行為不同，這些標籤未列於 [!UICONTROL Admin] > [!UICONTROL Conversions] 直到其中一個網頁收到點按。 但在所有情況下，每個量度一開始都會從投資組合目標、報表和檢視中排除，直到您明確提供它們為止。 不過，在將量度新增至投資組合目標之前，請考慮先使量度可供使用，並將量度新增至報表，以驗證量度何時收到點按。
 
 ## Adobe Advertising轉換標籤設定 {#conversion-tag-settings}
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 如需關於標籤型別之間差異的詳細資訊，請參閱&quot;[關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).」
 
-**[!UICONTROL Tag Properties]：** 當一般使用者檢視包含轉換標籤的頁面時，要追蹤的一或多個交易屬性（量度）。 若要將量度新增至清單，請在「」中輸入量度名稱[!UICONTROL Add new property]」欄位並按一下 **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]：** 當一般使用者檢視包含轉換標籤的頁面時，會追蹤一或多個轉換量度。 若要將量度新增至清單，請在「」中輸入量度名稱[!UICONTROL Add new property]」欄位並按一下 **[!UICONTROL Add]**.
 
 追蹤多個量度時，會使用&amp;符號(`&`)中，例如 `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->新增至此清單的量度不會儲存在任何地方，也不會與客戶的 [!UICONTROL Transaction Properties] 清單于 [!UICONTROL Admin] 標籤。 不過，量度會新增至使用者端的 [!UICONTROL Transaction Properties] 當Adobe Advertising實際收集量度的資料後，就會自動列出，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會執行此作業。
+>新增至此清單的量度不會儲存在任何地方，也不會與客戶的 [!UICONTROL Conversions] 清單于 [!UICONTROL Admin] 標籤。 不過，量度會新增至使用者端的 [!UICONTROL Conversions] 當Adobe Advertising實際收集量度的資料後，就會自動列出，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會執行此作業。
 
 **[!UICONTROL Include unique transaction IDs]：** （選用）包含交易ID屬性(`ev_transid=<transid>`)。 依預設，會選取選項。
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 >* [JavaScript轉換追蹤標籤第2版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe AdvertisingJavaScript轉換對應標籤](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [關於管理廣告商的交易屬性](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

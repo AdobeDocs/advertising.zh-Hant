@@ -3,7 +3,7 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | 欄 | 說明 |
 |----|----|
 | \[廣告商專屬的自訂（衍生）量度\] | 您建立的自訂量度值（從現有量度計算）。 |
-| \[廣告商特定交易屬性\] | 指定交易屬性或網站參與量度的轉換次數。 |
+| \[廣告商專用轉換量度\] | 指定的轉換量度或網站參與量度的轉換次數。 |
 | [!UICONTROL Account Name] | 帳戶名稱。 |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 報表)廣告網路所指派的帳戶識別碼。 |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 報表)帳戶狀態： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Inactive]*. |

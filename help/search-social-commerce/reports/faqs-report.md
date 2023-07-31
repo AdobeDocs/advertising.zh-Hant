@@ -3,9 +3,9 @@ title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 如果您不希望該期間的資料影響未來的出價，則可以選擇從模型中排除這些日期。 請聯絡您的Adobe客戶團隊以排除日期。
 +++
 
-+++我可以建立特定屬性量度的報表嗎？例如 [!UICONTROL Device] 或 [!UICONTROL Objective Name]？
++++我可以建立特定帳戶屬性量度的報表嗎？ [!UICONTROL Device] 或 [!UICONTROL Objective Name]？
 針對行銷活動實體報表([!UICONTROL Campaign Report]， [!UICONTROL Ad Group Report]， [!UICONTROL Ad Variation Report]， [!UICONTROL Keyword Report]、和 [!UICONTROL Product Group Report])，量度資料會依您包含在報表中的屬性欄動態彙總。 您可以選擇移除報表的索引鍵欄，並僅包含您要彙總資料的屬性欄。
 
 例如，如果您產生 [!UICONTROL Keyword Report] 這包括 [!UICONTROL Ad Group] 和  裝置欄，然後，依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您移除 [!UICONTROL Keyword] 欄中產生報表，報表會依裝置型別動態產生指定廣告群組的量度。
@@ -107,7 +107,7 @@ ht-degree: 0%
 依預設，報表中的所有貨幣資料都會以美元格式顯示（例如1,000.00）。 若要以正確的貨幣格式顯示值（但不包含CSV和TSV格式的任何貨幣符號），請新增&quot;[!UICONTROL Currency]」欄放入報表。 如果報表包含不同貨幣的帳戶資料，則任何一項「[!UICONTROL Total]「貨幣值只是欄中所有數字的總和，無論貨幣為何。
 +++
 
-+++為什麼我會看到應為自然數字（1、2等）之交易屬性的小數值？
++++為什麼我會看到轉換量度應該是自然數字（1、2等等）的小數值？
 在下列情況下，您可能會看到小數值：
 
 * 如果您使用以外的任何轉換歸因規則引數執行報表 [!UICONTROL Last Event] 或 [!UICONTROL First Event]，則收入可能會在轉換路徑中的多個事件之間分割。
@@ -162,13 +162,13 @@ ht-degree: 0%
 
 * 轉換追蹤標籤並未在所有適用網頁上正確實作或已編輯。
 
-* 搜尋、社交和商務正在追蹤的交易屬性會從報表中排除，因此不可見。
+* 搜尋、社交和商務正在追蹤的轉換量度會從報表中排除，因此不可見。
 
 * 未實作使用者端的收入剖析器。
 
 *可能的解決方案或因應措施：*
 
-1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓交易屬性可供報表使用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 確認已在所有適用網頁上實施正確的轉換追蹤標籤。 如有必要，請要求您的Adobe帳戶團隊為每個適用的轉換追蹤標籤建立測試交易，並擷取交易的詳細資訊，例如 `transactionid` 和來自Cookie的詳細資訊(例如 `trackingid`， `clickid`、等等)。
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 * 摘要檔案未傳遞、未完全剖析，或摘要包含孤立交易。
 
-* 相關交易屬性會從報表中排除，因此不可見。
+* 相關的轉換量度會從報表中排除，因此不會顯示。
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 *可能的解決方案或因應措施：*
 
-1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓交易屬性可供報表使用](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 確認報表或資料檢視中包含正確的欄。 如果無法新增正確的欄，您或您的Adobe帳戶團隊必須 [讓轉換量度可用於報表](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 執行 [!UICONTROL Portfolio Report]. 如果空白，請執行 [!UICONTROL Campaign Report] 和 [!UICONTROL Search Engine Report] 以檢視收入是否出現在這些報表中。 如果有，則行銷活動可能未指派給適當的投資組合。
 
@@ -313,8 +313,8 @@ ht-degree: 0%
 廣告網路未提供將收入歸因於這些促銷活動的個別廣告所需的識別碼。 因此，廣告層級的成效資料不適用於 [!UICONTROL Ads] 在「 」檢視或 [!UICONTROL Ad Variation Report]. 行銷活動的廣告層級資料總計與行銷活動資料總計之間預期會不符。
 +++
 
-+++在 [!UICONTROL Transaction Report]，我如何知道哪個交易屬性來自資料摘要或由Adobe Advertising追蹤畫素追蹤？
-在交易報表中，如果您包含自訂欄&#39;&#39;，您可以分辨是否有Adobe Advertising追蹤畫素追蹤包含的交易屬性[!UICONTROL Tracking URL].」 以Adobe Advertising追蹤畫素追蹤URL的開頭為&quot;`http://pixel.everesttech.net`.」
++++在 [!UICONTROL Transaction Report]，如何知道哪個轉換量度來自資料摘要或由Adobe Advertising追蹤畫素追蹤？
+在交易報表中，如果您包含自訂欄&#39;&#39;，您可以分辨包含的轉換量度是否由Adobe Advertising追蹤畫素追蹤[!UICONTROL Tracking URL].」 以Adobe Advertising追蹤畫素追蹤URL的開頭為&quot;`http://pixel.everesttech.net`.」
 +++
 
 +++我的中的資料 [!UICONTROL Transaction Report] 不符合中的資料 [!UICONTROL Keyword Report].

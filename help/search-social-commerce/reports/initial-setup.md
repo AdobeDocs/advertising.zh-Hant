@@ -3,7 +3,7 @@ title: 報告的初始設定任務
 description: 瞭解如何在報表中使用量度，以及如何自動化報表。
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 新使用者應該執行下列初始設定工作：
 
-* 建立Adobe Advertising正在追蹤廣告商的交易屬性 [可用於報告和其他檢視](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)，並可選擇使用 [重新命名任何屬性名稱](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 欄標題中顯示的文章和文章可讀性。
+* 建立Adobe Advertising正在追蹤廣告商的轉換量度 [可用於報告和其他檢視](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)，並可選擇使用 [重新命名任何轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) 欄標題中顯示的文章和文章可讀性。
 
   除非您特別指定使用交易屬性，否則報表無法使用這些屬性。
 
-  如果您稍後開始追蹤新的交易屬性，則需要重複此工作。
+  如果您稍後開始追蹤新的轉換量度，則需要重複此工作。
 
 * （選用）自動化報表產生：
 

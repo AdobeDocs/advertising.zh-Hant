@@ -1,68 +1,67 @@
 ---
-title: 構建自定義目標的最佳做法
-description: 瞭解構建自定義目標以定義成功事件的最佳實踐。
+title: 建立自訂目標的最佳實務
+description: 瞭解建立自訂目標以定義成功事件的最佳實務。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
-# 構建自定義目標的最佳做法
+# 建立自訂目標的最佳實務
 
-## 具有單個屬性的自定義目標
+## 具有單一屬性的自訂目標
 
-以下示例說明如何配置針對單個屬性（度量）的目標。
+下列範例說明如何設定以單一轉換量度為目標的目標。
 
-### 具有「」的市場活動示例[!UICONTROL Highest ROAS - Custom Goal]&quot;優化目標
+### 具有「」的行銷活動範例[!UICONTROL Highest ROAS - Custom Goal]&quot;最佳化目標
 
-如果您的促銷目標是收入([!UICONTROL Highest ROAS - Custom Goal])，則您的自定義目標（目標）將包括「[!UICONTROL Revenue]&quot;權重為一(1)的屬性。
+如果您的行銷活動目標是收入([!UICONTROL Highest ROAS - Custom Goal])，則您的自訂目標（目標）將包含&quot;[!UICONTROL Revenue]權重為1 (1)的&quot;量度。
 
-![具有單個屬性的ROAS自定義目標示例](/help/dsp/assets/custom-goal-roas.png)
-
->[!NOTE]
->
-> A [!UICONTROL Property Weight] 1等於跟蹤的每1美元收入的1值。
->
-> 例如，一個250美元的轉換，其重量為1，報告為250美元。 如果為轉換度量分配了0.5的權重，則在「Adobe廣告」（$250轉換* 0.5）中，$250的轉換報告為$125 [!UICONTROL Property Weight] = 125美元)。
-
-### 具有「」的市場活動示例[!UICONTROL Lowest CPA - Custom Goal]&quot;優化目標
-
-如果您的市場活動目標是每次收購(CPA)的最低成本，並且它只需要一個成功事件，則您將包括該指標（在下例的「申請提交」中）。 最佳做法是將重量設為一(1)。
-
-![具有單個屬性的CPA自定義目標示例](/help/dsp/assets/custom-goal-roas.png)
+![具有單一轉換量度的ROAS自訂目標範例](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> A [!UICONTROL Property Weight] 等於跟蹤的每個轉換的值1。
+> A [!UICONTROL Property Weight] 對於所追蹤的每個$1收入，其中一個等於一個值。
 >
-> 例如，如果跟蹤10個「申請提交」轉換，則會報告10個「申請提交」轉換。  如果將轉換度量的權重指定為0.5，則在Adobe廣告（10個轉換* 0.5）中，10個轉換將報告為5個(5) [!UICONTROL Property Weight] = 5)。
+> 例如，權重為1的$250轉換回報為$250。 如果轉換量度的權重為0.5，則$250的轉換會在Adobe Advertising中報告為$125 ($250的轉換* 0.5 [!UICONTROL Property Weight] = $125)。
 
-## 具有多個屬性的自定義目標
+### 具有「」的行銷活動範例[!UICONTROL Lowest CPA - Custom Goal]&quot;最佳化目標
 
-在以下兩種情形中，您將在自定義目標中使用多個屬性：
+如果您的行銷活動目標是每次贏取的最低成本(CPA)，並且只需要一個成功事件，則您將包含一個量度（在以下範例中，「應用程式提交」）。 最佳實務是將權重設定為一(1)。
 
-* 您的活動目標有多個成功事件。 例如，您可能在為多個現場活動做廣告，而所有這些都歸因於您的CPA目標。 以下示例目標包括三個獨立的屬性(PDF下載、聯繫我們和電子郵件註冊)，每個屬性的權重為一(1)，它告訴 [!DNL Adobe Sensei] 每個屬性具有同等重要性的算法。 如果您包括具有不同成本或重要性的屬性，則可以相應地調整其相對權重。
+![具有單一轉換量度的CPA自訂目標範例](/help/dsp/assets/custom-goal-roas.png)
 
-   ![具有多個屬性的自定義目標示例](/help/dsp/assets/custom-goal-multiple-properties.png)
+>[!NOTE]
+>
+> A [!UICONTROL Property Weight] 對於所追蹤的每次轉換，1的值等於1。
+>
+> 例如，如果追蹤10個「應用模組提交」轉換，則會報告10個「應用模組提交」轉換。  如果轉換量度的權重為0.5，則10次轉換會在Adobe Advertising中報告為5 (5) （10次轉換* 0.5） [!UICONTROL Property Weight] = 5)。
 
-* 自定義目標中的單個屬性不能實現優化效能所需的每天最少10次轉換。 這可能是因為每日包裹花費最少或自然轉換次數有限。 向自定義目標中添加其他支援屬性有助於您達到每天10次轉換的閾值。 10個支援事件可幫助一個包達到10/天閾值，即使每個重量低於一(1)。 但是，你可能不需要再增加這麼多事件。
+## 具有多個屬性的自訂目標
 
-   將支援屬性添加到自定義目標時，根據它們對主要成功事件的相對重要性對它們進行加權，並記住資料點的數量。 這使Adobe Sensei算法能夠平衡多個屬性並針對您的目標進行優化。
+在兩種情況下，您會在自訂目標中使用多個屬性：
 
-   以下示例目標包括三個屬性，每個屬性具有不同的權重：申請提交= 1，申請開始= 0.1，廣告商登錄頁= 0.01。這意味著每個「申請提交」轉換對您的業務的價值與平均10個「申請開始」轉換和100個廣告商登錄頁轉換的價值相同。
+* 您的行銷活動目標有多個成功事件。 例如，您可能在廣告中要求多個網站上的動作，而所有動作都歸因於您的CPA目標。 以下範例目標包含三個不同的屬性(PDF下載、聯絡我們和電子郵件註冊)，每個屬性的權重為一(1)，用於告知 [!DNL Adobe Sensei] 每個屬性具有相同重要性的演演算法。 如果您包含具有不同成本或重要性的屬性，則可相應地調整其相對權重。
 
-   ![具有多個屬性的自定義目標示例](/help/dsp/assets/custom-goal-multiple-properties2.png)
+  ![具有多個屬性的自訂目標範例](/help/dsp/assets/custom-goal-multiple-properties.png)
 
-   相反，如果您對登錄頁訪問的權重與應用程式提交的權重相等，則登錄頁訪問數量自然會更高，這可能會壓倒您的目標，並偏向登錄頁訪問。<!--reword-->
+* 自訂目標中的單一轉換量度無法達到最佳化效能所需的每天至少10次轉換。 發生此狀況的原因可能是每日封裝支出極低或自然轉換次數有限。 將其他支援屬性新增至自訂目標可協助您實現每日10次轉換的臨界值。 10個支援事件可協助套件達到10/天臨界值，即便每個事件的權重都低於一(1)。 但您不一定需要新增那麼多的事件。
+
+  當您將支援屬性新增至自訂目標時，請根據它們對於主要成功事件的相對重要性為其加權，並牢記資料點的數量。 這可讓Adobe Sensei演演算法平衡多個屬性，並針對您的目標最佳化。
+
+  下列範例目標包含三個屬性，每個屬性具有不同的權重：申請提交= 1、申請開始= 0.1，以及廣告商登陸頁面= 0.01。這表示每個應用程式提交轉換對您的企業而言平均有10個應用程式開始轉換和100個廣告商登陸頁面轉換，它們具有相同的價值。
+
+  ![具有多個屬性的自訂目標範例](/help/dsp/assets/custom-goal-multiple-properties2.png)
+
+  反之，如果您將應用程式提交的登陸頁面造訪次數平均加權，則登陸頁面造訪次數自然較高，可能會壓倒您的目標並扭曲至登陸頁面造訪次數。<!--reword-->
 
 >[!MORELIKETHIS]
 >
->* [關於自定義目標](custom-goal-about.md)
->* [建立自定義目標](custom-goal-create.md)
->* [優化目標及其使用方法](optimization-goals.md)
->* [包設定](/help/dsp/campaign-management/packages/package-settings.md)
-> * [如何優DSP化您的市場活動](optimization-how-dsp-optimizes-campaigns.md)
-
+>* [關於自訂目標](custom-goal-about.md)
+>* [建立自訂目標](custom-goal-create.md)
+>* [最佳化目標及使用方式](optimization-goals.md)
+>* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
+> * [DSP如何最佳化您的行銷活動](optimization-how-dsp-optimizes-campaigns.md)

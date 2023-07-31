@@ -3,7 +3,7 @@ title: 關於本指南
 description: 瞭解本指南各章包含的內容。
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * 「工具」說明如何變更密碼、使用工具產生點選追蹤和轉換追蹤標籤，以及上傳您的轉換量度至 [!DNL Google Ads] 和您的產品組合目標至廣告網路，以進行混合最佳化、上傳量度以追蹤行銷活動，以及復寫您的 [!DNL Google Ads] 您的中的行銷活動 [!DNL Microsoft Advertising] 帳戶。
 
-* 「管理」說明如何管理廣告商資料，包括已收集的交易屬性，以及要從產品組合預測排除的任何日期；從同步您的轉換量度 [!DNL Google Analytics] 帳戶；設定各種廣告商層級的設定；以及（某些角色）管理使用者、機構和廣告商帳戶。
+* 「管理」說明如何管理廣告商資料，包括收集的轉換量度，以及從產品組合預測排除的任何日期；從同步您的轉換量度 [!DNL Google Analytics] 帳戶；設定各種廣告商層級的設定；以及（某些角色）管理使用者、機構和廣告商帳戶。
 
 >[!NOTE]
 >

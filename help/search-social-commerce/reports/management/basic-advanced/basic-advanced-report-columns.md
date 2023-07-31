@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[廣告商專屬的自訂（衍生）量度\] | 的值 [您已建立的自訂量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) 會使用現有量度計算。 |
 | \[廣告商特定標籤分類\] | 實體層級目前套用至實體的任何標籤分類。 多個標籤分類使用逗號(，)分隔。 |
-| \[廣告商特定交易屬性\] | 指定交易屬性或網站參與量度的轉換次數。 |
-| \[Google追蹤的轉換/交易屬性\] | 請參閱「GGL\*、GGL_CT\*和GGL_XD_CT\*」專案。 |
+| \[廣告商專用轉換量度\] | 指定的轉換量度或網站參與量度的轉換次數。 |
+| \[Google追蹤的轉換\] | 請參閱「GGL\*、GGL_CT\*和GGL_XD_CT\*」專案。 |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report])前七天點按預測的平均準確度，不包括當天（不適用於報表的指定日期範圍），以百分比表示。 |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report])前七天成本預測的平均準確度，不包括當天（不適用於報表的指定日期範圍），以百分比表示。 |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report])前七天收入預測的平均準確度，不包括當天（不適用於報表的指定日期範圍），以百分比表示。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | （僅限顯示行銷活動） Search、Social和Commerce已追蹤的估計廣告曝光數。 此值可能與 [!UICONTROL Impressions] 欄（可用時），顯示廣告網路所提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 是否排除競標(<i>[!UICONTROL Yes]</i>)或允許出價(<i>[!UICONTROL No]</i>)適用於相符產品的廣告。 |
 | [!UICONTROL First Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
-| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads]-tracked轉換/交易屬性] | ([!DNL Google Ads] 搜尋和購物網路上的促銷活動) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個獨立的交易屬性：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每次轉換都會依競標單位和點按日期進行記錄；無法在事件層級使用。 有關詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).」 |
+| `GGL*`， `GGL_CT*`、和 `GGL_XD_CT*` [[!DNL Google Ads] — 追蹤的轉換] | ([!DNL Google Ads] 搜尋和購物網路上的促銷活動) [!DNL Google Ads] — 追蹤的轉換，每個轉換最多有三個不同的量度：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*`  — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）跨裝置轉換的數量（計數），測量方式為 [!DNL Google Ads] 開頭為「GGL_XD_CT_」前置詞(例如GGL_XD_CT_Purchase)。</li></ul><br>每次轉換都會依競標單位和點按日期進行記錄；無法在事件層級使用。 有關詳細資訊 [!DNL Google Ads] — 追蹤的轉換，請參閱&quot;[[!DNL Google Ads] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).」 |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 僅限)在自然搜尋結果上方顯示為第一個廣告的廣告印象百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 僅限)顯示在自然搜尋結果上方的廣告印象百分比。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 廣告網路指派給產品群組的數值ID。 |
 | [!UICONTROL Product Groupings] | 父級產品群組。 |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]； [!DNL Google Ads] 產品清單廣告)與廣告一起顯示之產品的產品ID。<br><br><b>注意：</b> 只有當產品清單包含追蹤引數時，才會擷取ID `ev_plx=<GMC product ID>`，您必須在其中新增 [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])交易屬性的收入（例如1代表一項註冊，12代表一項12美元的訂單）。 如果多個競標單位具有相同的交易ID，則追蹤ID的收入會根據指定點按日期的點按次數（當點按資料可用時）分割。 |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])轉換量度的收入（例如1代表註冊，12代表訂購12美元）。 如果多個競標單位具有相同的交易ID，則追蹤ID的收入會根據指定點按日期的點按次數（當點按資料可用時）分割。 |
 | [!UICONTROL Reach] | ([!DNL Meta] ads)看過您廣告至少一次的人數。 注意： [!DNL Meta] 每天刪除重複使用者設定檔的觸及率，因此報告的數字來自 [!DNL Meta] 而且依搜尋、社交和商務可能有所不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])曝光數或點按數產生的地區或美國/加拿大州。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL SE Creative ID] | 由網路指派的廣告ID。 |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] 廣告)觀看廣告整體的檢視次數。 |
 | [!UICONTROL Top of Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果頁面頂端的廣告每次點按成本(CPC)。 |
 | [!UICONTROL Tracking URL] | （僅限以搜尋為目標的關鍵字）追蹤範本或內嵌有（如適用）搜尋、社交和商務追蹤程式碼的目標URL。 |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])將交易貸記到的廣告商特定交易屬性。 |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])將指定交易屬性貸記的時間。 |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易貸記到的廣告商特定轉換量度。 |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])將指定的轉換量度貸記的時間。 |
 | [!UICONTROL User Account Type] | 已過時 |
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] 廣告)單次曝光所播放視訊的平均時間，包括重播視訊所花費的時間。 |

@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 瞭解 [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 | [!UICONTROL First Event Type] | 預設 | 轉換路徑中第一個（最早）事件的事件型別。 |
 | [!UICONTROL Last Event Type] | 預設 | 導致轉換的最後一個事件的事件型別（即使最後一個事件在指定的路徑大小以外亦然）。 |
 | \[廣告商專屬的自訂（衍生）量度\] | 自訂 | 您建立的自訂量度值（從現有量度計算）。 |
-| \[廣告商特定交易屬性\] | 自訂 | 指定交易屬性或網站參與量度的轉換次數。 |
-| [!UICONTROL % of Total] \[transaction property\] | 自動 | （無法用於報表設定，但會自動包含在所包含每個交易屬性的報表輸出中）歸因於事件模式的跨產品組合整體轉換百分比。 |
+| \[廣告商專用轉換量度\] | 自訂 | 指定的轉換量度或網站參與量度的轉換次數。 |
+| [!UICONTROL % of Total] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在每個包含的轉換量度的報表輸出中）歸因於事件模式的跨產品組合整體轉換百分比。 |
 | [!UICONTROL 6th Event] 至 [!UICONTROL 30th Event] | 自訂 | 轉換路徑中的第六個到第30個事件型別，這些事件發生在廣告商的 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaction property\] | 自動 | （無法用於報表設定，但會自動包含在報表輸出中，以包含每個交易屬性）從第一個事件到轉換的平均延遲（以天為單位）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaction property\] | 自動 | （無法用於報表設定，但會自動納入報表輸出）從上次事件到轉換的平均延遲天數。 |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在每個轉換量度的報表輸出中）從第一個事件到轉換的平均延遲（以天為單位）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動納入報表輸出）從上次事件到轉換的平均延遲天數。 |
 | [!UICONTROL Path Frequency] | 自訂 | 此列的路徑在轉換前發生的次數。 |
 
 >[!MORELIKETHIS]

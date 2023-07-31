@@ -3,7 +3,7 @@ title: 使用EF ID的資料摘要資料需求
 description: 參考使用EF ID之資料摘要的資料需求。
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 範例
 
-以下範例檔案包含兩個交易屬性（Product和Revenue）的資料。
+以下範例檔案包含兩個轉換量度（產品和收入）的資料。
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

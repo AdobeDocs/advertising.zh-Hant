@@ -4,7 +4,7 @@ description: 瞭解如何從設定資料來源 [!DNL Google Analytics] 檢視。
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    資料來源命名為「AccountName > PropertyName > ViewName」，且會自動啟動。 若要暫停資料來源，請參閱&quot;[暫停資料來源的摘要](data-source-pause.md).」
 
-   每日資料同步作業於廣告商時區的05:00開始，完成後，第二天即可使用這些量度。 量度可用後，即會顯示於 [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). 每個新的交易屬性都命名為&quot;`ga:backEndMetricName_propertyID_viewID`，」其中，「backEndMetricName」是API使用的量度名稱。 每個新交易屬性的顯示名稱是&quot;`friendlyMetricName_ga:MetricTag`，其中「friendlyMetricName」是出現在中的量度名稱 [!DNL Google Analytics] 而「MetricTag」是 [!UICONTROL Metric Tag] 定義於資料來源設定中。
+   每日資料同步作業於廣告商時區的05:00開始，完成後，第二天即可使用這些量度。 量度可用後，即會顯示於 [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). 每個新的轉換量度都會命名為&quot;`ga:backEndMetricName_propertyID_viewID`，」其中，「backEndMetricName」是API使用的量度名稱。 每個新轉換量度的顯示名稱是&quot;`friendlyMetricName_ga:MetricTag`，其中「friendlyMetricName」是出現在中的量度名稱 [!DNL Google Analytics] 而「MetricTag」是 [!UICONTROL Metric Tag] 定義於資料來源設定中。
 
    您可以直接將量度新增至行銷活動管理和產品組合管理檢視、報表和最佳化目標。
 

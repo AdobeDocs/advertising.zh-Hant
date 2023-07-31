@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 瞭解 [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -39,11 +39,11 @@ ht-degree: 0%
 | [!UICONTROL First Campaign] | 預設 | 轉換路徑中的第一個行銷活動。 |
 | [!UICONTROL Last Campaign] | 預設 | 導致轉換的最後一個行銷活動（即使最後一個關鍵字超出指定的路徑大小）。<br><br>如果您在實體名稱后加入任何報表選項來指出廣告網路、帳戶名稱或事件型別，該資訊就會加入行銷活動名稱后(例如 `"<"campaign name> [Google] [Account1] [impression]`「)。 |
 | \[廣告商專屬的自訂（衍生）量度\] | 自訂 | 您建立的自訂量度值（從現有量度計算）。 |
-| \[廣告商特定交易屬性\] | 自訂 | 指定交易屬性或網站參與量度的轉換次數。 |
-| [!UICONTROL % of Total] \[transaction property\] | 自動 | （無法用於報表設定，但會自動包含在所包含每個交易屬性的報表輸出中）由行銷活動模式產生的指定交易屬性的轉換次數。 |
+| \[廣告商專用轉換量度\] | 自訂 | 指定的轉換量度或網站參與量度的轉換次數。 |
+| [!UICONTROL % of Total] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動納入每個包含的轉換量度的報表輸出）特定轉換量度（因行銷活動模式而產生）的轉換次數。 |
 | [!UICONTROL 6th Campaign] 至 [!UICONTROL 20th Campaign] | 自訂 | 轉換路徑中在廣告商發生的第六到第二十個行銷活動 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j).<br><br>如果您在實體名稱后加入任何報表選項來指出廣告網路、帳戶名稱或事件型別，該資訊就會加入行銷活動名稱后(例如 `"<"campaign name> [Baidu] [Account1] [click]`「)。 |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[transaction property\] | 自動 | （無法用於報表設定，但會自動包含在每個交易屬性的報表輸出中）從第一個事件（在第一個促銷活動中）到轉換的平均延遲（以天為單位）。 |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[transaction property\] | 自動 | （無法用於報告設定，但會自動包含在報告輸出中）從上次事件（在最後一次行銷活動中）到轉換的平均延遲天數。 |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在每個轉換量度的報表輸出中）從第一個事件（在第一個促銷活動中）到轉換的平均延遲（以天為單位）。 |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[轉換量度\] | 自動 | （無法用於報告設定，但會自動包含在報告輸出中）從上次事件（在最後一次行銷活動中）到轉換的平均延遲天數。 |
 | [!UICONTROL EF Campaign ID] | 自訂 | Search、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自訂 | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL EF Search Engine ID] | 自訂 | Search、Social and Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |

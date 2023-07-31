@@ -3,7 +3,7 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Tools]**  — 此功能表包含變更帳戶密碼、產生標籤以追蹤網站頁面中的轉換、產生和解碼點選追蹤URL，以及上傳搜尋追蹤促銷活動量度的選項。
 
-* **[!UICONTROL Admin]**  — 此 [!UICONTROL Admin] 功能表包含變更資料表格和報表中廣告商交易屬性的顯示名稱、設定以與Adobe Audience Manager帳戶同步的設定，以及同步特定轉換量度的選項 [!DNL Google Analytics] 帳戶、屬性和檢視組合。 根據您的角色，它可能允許您管理廣告商帳戶、代理帳戶、使用者角色和使用者帳戶。
+* **[!UICONTROL Admin]**  — 此 [!UICONTROL Admin] 功能表包含變更資料表格和報表中廣告商轉換量度顯示名稱、設定以與Adobe Audience Manager帳戶同步的設定，以及同步特定轉換量度的選項 [!DNL Google Analytics] 帳戶、屬性和檢視組合。 根據您的角色，它可能允許您管理廣告商帳戶、代理帳戶、使用者角色和使用者帳戶。
 
 ## 右邊的其他工作與資訊功能表
 
