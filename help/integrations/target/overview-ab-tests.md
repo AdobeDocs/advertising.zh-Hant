@@ -2,9 +2,9 @@
 title: 在Adobe Target中設定Adobe Advertising廣告的A/B測試
 description: 瞭解如何在中設定A/B測試 [!DNL Target] 用於您的DSP廣告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
+source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -85,83 +85,67 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 1. 從DSP曝光資料設定Audience Manager區段：
 
-   1. 前往 **Audience Manager** > **對象資料** > **訊號**，然後選取 **搜尋** 定位字元。
+   1. 確認區段資料可供使用：
 
-   1. 輸入 **索引鍵** 和 **值** 用於決定要將區段使用者分組到哪個層級的訊號。 使用 [支援的金鑰](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) 其值與新增至Audience Manager曝光事件畫素的巨集相對應。
+      1. [搜尋訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) 針對 [機碼值組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) 可決定區段使用者分組的層級。
 
-      例如，若要針對特定位置將使用者分組，請使用 `d_placement` 機碼。 對於值，請使用DSP巨集擷取的實際數值位置ID (例如熒幕擷取畫面中的2501853) `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         使用 [支援的金鑰](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) 其值與新增至Audience Manager曝光事件畫素的巨集相對應。
 
-      如果「總計數」欄位顯示索引鍵/值組的使用者計數，表示畫素已正確放置且資料正在流動，則您可以繼續下一個步驟。
+         例如，若要針對特定位置將使用者分組，請使用 `d_placement` 機碼。 對於值，請使用DSP巨集擷取的實際數值位置ID (例如2501853) `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-   ![搜尋訊號](/help/integrations/assets/target-am-signals.png)
+         如果搜尋結果顯示索引鍵/值組的使用者計數（這表示畫素已正確放置且資料正在流動），則繼續下一個步驟。
 
-1. [建立規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 用於在Audience Manager中建立區段。
+   1. [建立規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 用於在Audience Manager中建立區段。
 
-   1. 為特徵命名，使其在測試活動中易於識別。 將特徵儲存在您偏好的任何資料夾中。
+      * 為特徵命名，使其在測試活動中易於識別。 將特徵儲存在您偏好的任何資料夾中。
 
-   1. 從 **資料來源** 下拉式功能表，選取 **Ad Cloud**.
+      * 選取 `Ad Cloud` 作為 **資料來源**.
 
-   1. 在運算式產生器中，新增 `d_event` （在索引鍵欄位中）和 `imp` 在 **值** 欄位，選取 **新增規則**，然後儲存特徵。
+      * 對於特徵運算式，使用 `d_event` 作為 **索引鍵** 和 `imp` 作為 **值**.
 
-   ![規則型特徵的熒幕擷圖](/help/integrations/assets/target-am-trait.png)
-
-1. 在Audience Manager中設定測試區段：
-
-   1. 前往頁面頂端的 **對象資料** > **特徵** 和搜尋完整特徵名稱。 選取特徵名稱旁的核取方塊，然後按一下 **建立區段**.
-
-   1. 為區段命名，選取 `Ad Cloud` 作為 **資料來源**，然後儲存區段。
+   1. [設定測試區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 針對Audience Manager中的新特徵，選取 `Ad Cloud` 作為 **資料來源**.
 
       Audience Manager會自動將區段分割成控制組，用於接收標準登陸頁面體驗，並分割成測試組，用於接收個人化現場體驗。
-
-   ![測試區段的熒幕擷圖](/help/integrations/assets/target-am-segment.png)
 
 ## 步驟3：在Target中設定「A/B測試」活動
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-下列指示會強調與DSP使用案例相關的資訊。 如需完整指示，請參閱&quot;[建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)「。
+下列指示會強調與DSP使用案例相關的資訊。 如需完整指示，請參閱「」。
 
 1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. 從 **活動** 清單，按一下 **建立活動** > **A/B測試**.
+1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
 
-   ![建立A/B測試活動](/help/integrations/assets/target-create-ab.png)
+   1. 在 **輸入活動URL** 欄位，輸入測試的登入頁面URL。
 
-1. 在 **輸入活動URL***欄位，輸入測試的登入頁面URL。
+      >[!NOTE]
+      >
+      >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱&quot;[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).」 您可以透過建立頁面URL輕鬆識別熱門專案 [網站專案報表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics中的。
 
-   ![輸入活動URL欄位](/help/integrations/assets/target-create-ab-url.png)
+   1. 在 **目標** 欄位，輸入測試的成功量度。
 
-   >[!NOTE]
-   >
-   >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱&quot;[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).」 您可以透過建立頁面URL輕鬆識別熱門專案 [網站專案報表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics中的。
+      >[!NOTE]
+      >
+      >請確定 [!DNL Analytics] 在中啟用為資料來源 [!DNL Target]，且已選取正確的報表套裝。
 
-1. 在 **目標** 欄位，輸入測試的成功量度。
+   1. 設定 **優先順序** 至 `High` 或 `999` 以避免測試區段中的使用者收到錯誤的站上體驗時發生衝突。
 
-   >[!NOTE]
-   >
-   >請確定 [!DNL Analytics] 在中啟用為資料來源 [!DNL Target]，且已選取正確的報表套裝。
+   1. 範圍 **報表設定**，選取 **公司名稱** 和 **報表套裝** 已連線至您的DSP帳戶。
 
-1. 設定 **優先順序** 至 `High` 或 `999` 以避免測試區段中的使用者收到錯誤的站上體驗時發生衝突。
+      如需其他報表秘訣，請參閱「[報告最佳實務及疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).」
 
-1. 範圍 **報表設定**，選取 **公司名稱** 和 **報表套裝** 已連線至您的DSP帳戶。
+   1. 在 **日期範圍** 欄位，輸入適當的測試開始與結束日期。
 
-   如需其他報表秘訣，請參閱「[報告最佳實務及疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).」
+   1. 將對象新增至活動：
 
-1. 在 **日期範圍** 欄位，輸入適當的測試開始與結束日期。
+      1. 選擇 [您先前在Audience Manager中建立的區段，用於測試閱覽對象](#view-through-framework).
 
-1. 將對象新增至活動：
+      1. 選取 **網頁** > **登陸頁面** > **查詢**，然後輸入DSP放置索引鍵，在 **值** 欄位，用以使用點進對象的Target查詢字串引數。
 
-   1. 選擇 [您先前在Audience Manager中建立的區段，用於測試閱覽對象](#view-through-framework).
+   1. 對於 **流量分配方法**，選取 **手動（預設）** 並以50/50比例分割對象。
 
-      ![將對象新增至活動](/help/integrations/assets/target-create-ab-audiences.png)
-
-   1. 選取 **網頁** > **登陸頁面** > **查詢**，然後輸入DSP放置索引鍵，在 **值** 欄位，用以使用點進對象的Target查詢字串引數。
-
-      ![目標點選對象的熒幕擷圖](/help/integrations/assets/target-click-audience.jpg)
-
-1. 對於 **流量分配方法**，選取 **手動（預設）** 並以50/50比例分割對象。
-
-1. 儲存活動。
+   1. 儲存活動。
 
 1. 使用 [!DNL Target] [視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) 以變更A/B測試登入頁面範本的設計。
 
@@ -179,7 +163,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 [!DNL Analytics for Target] (A4T)是跨解決方案的整合，可讓廣告商建立 [!DNL Target] 活動依據 [!DNL Analytics] 轉換量度和受眾區段，然後使用測量結果 [!DNL Analytics] 作為報表來源。 該活動的所有報表和區段都根據 [!DNL Analytics] 資料彙集。
 
-有關詳細資訊 [!DNL Analytics for Target]，包括實作指示的連結，請參閱[Adobe Analytics作為Adobe Target (A4T)的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)「。
+有關詳細資訊 [!DNL Analytics for Target]，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)「。
 
 ### 設定 [!DNL Analytics for Target] 面板
 
