@@ -1,75 +1,73 @@
 ---
-title: 手動建立交易ID詳細資訊
-description: 瞭解如何手動輸入交易ID的詳細資訊。
+title: 手動建立交易識別碼詳細資料
+description: 瞭解如何手動輸入交易ID的詳細資料。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# 手動建立交易ID詳細資訊
+# 手動建立交易識別碼詳細資料
 
-1. 在主菜單中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]。**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 在資料表上方，按一下 **[!UICONTROL Create]**，然後選擇 **[!UICONTROL Deal ID]**。
+1. 在資料表格上方，按一下 **[!UICONTROL Create]**，然後選取 **[!UICONTROL Deal ID]**.
 
-1. 輸入 [交易設定](deal-id-settings.md):
+1. 輸入 [交易設定](deal-id-settings.md)：
 
-   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易詳細資訊和可以訪問交易的廣告商。 對於有保證的交易，您還必須指定計畫的飛行日期和估計的印數，以僅用於跟蹤目的。
+   1. 在 [!UICONTROL Deal ID basics] 區段，指定交易詳細資訊以及可存取交易的廣告商。 針對保證交易，您還必須指定計畫投放日期和預估曝光次數，僅供追蹤之用。
 
-      您可以通過在「清單」>「交易」視圖中包括「PG印象調整」支出列來跟蹤有保證的交易的進度。
+      您可以在「詳細目錄>交易」檢視中加入「PG曝光步調」支出欄，以追蹤保證交易的步調。
 
-   1. (僅限管理員用戶；可選) [!UICONTROL Technical] 編輯預設設定。
+   1. （僅限管理員使用者；選擇性）在 [!UICONTROL Technical] 區段，視需要編輯預設設定。
 
    1. 按一下 **[!UICONTROL Save]**.
 
-1. （僅限保證交易）選擇要用於交易的廣告，並建立預設的計畫保證(PG)放置。
+1. （僅限保證交易）選取要用於交易的廣告（或發佈商管理廣告的1x1畫素），並建立預設程式化保證(PG)版位。
 
-   預設的PG設定可確保您的交易始終為每個投標請求返回投標。 如果您未建立預設的PG放置，則任何以此交易為目標的放置都不會進行出價，除非它們設定正確。 應始終建立預設PG放置。 在 [!UICONTROL Placements] 視圖，預設PG放置 [!UICONTROL Sub-type] 列值&quot;[!UICONTROL PG Default]&quot;
+   預設PG位置可確保您的交易一律傳回每個競標請求的競標。 如果您未建立預設的PG位置，則任何以交易為目標的位置都不會投標，除非其設定正確。 您應該隨時建立預設的PG位置。 在 [!UICONTROL Placements] 檢視，預設PG位置有 [!UICONTROL Sub-type] 「」的欄值[!UICONTROL PG Default].」
 
-   您可以根據需要將交易用作附加配售中的庫存目標，但必須正確設定它們才能進行投標。
+   您可以選擇將交易作為其他刊登版位的詳細目錄目標，但必須正確設定才能進行競標。
 
-   1. 在 [!UICONTROL Ad & Campaign Selection] 設定，選擇將用於交易的廣告：
+   1. 在 [!UICONTROL Ad & Campaign Selection] 設定，選取將用於交易的廣告：
 
-      1. 選擇廣告商、市場活動和廣告類型。 （可選）選擇用於篩選廣告的廣告狀態。
+      1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
 
-      1. 從可用廣告清單中，選中每個廣告旁邊的複選框，以用於交易。
+      1. 從可用廣告清單中，選取要用於交易的每個廣告旁的核取方塊。
+
+      1. 針對發佈商管理的廣告，在選取廣告商和促銷活動後，將會自動套用1x1追蹤畫素。
 
       1. 按一下 **[!UICONTROL Apply]**.
-   1. 在放置設定螢幕中：
 
-      1. 輸入放置名稱。
+   1. 在位置設定畫面中：
 
-      1. （可選）編輯 [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)包括覆蓋預設投標，該預設投標自動填入交易中的CPM值；更改日期範圍；或者附加更多廣告。
+      1. 輸入位置名稱。
 
-      該交易在「庫存目標」部分中自動成為目標。 所有其他目標選項均不適用。
+      1. （可選）編輯 [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設競標（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
+
+      此交易會在「詳細目錄目標」區段中自動定位。 所有其他鎖定目標選項均不適用。
 
       1. 按一下 **[!UICONTROL Create placement]**.
 
-
-
-建立交易後，您可以將交易用作多次投放的庫存目標。
+建立交易後，您可以將交易作為多個位置的詳細目錄目標。
 
 >[!NOTE]
 >
-> 您不需要將交易標籤發送給發佈者以進行驗證。
+> 您不需要傳送交易標籤給發行者進行驗證。
 
 >[!TIP]
 >
->* 在 [!UICONTROL Inventory] > [!UICONTROL Deals] 的 [!UICONTROL Pacing & Budget] 列顯示交易如何向指定的飛行日期和印象目標前進。
+>* 在 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視， [!UICONTROL Pacing & Budget] 欄顯示交易如何步調到指定的投放日期和曝光目標。
 >
->* 如果交付時間不足或過長，請聯繫您的發行商，以調整它通過交易發送的數量。
-
+>* 如果傳送進度不佳或超速，請聯絡您的發佈者，以調整透過交易傳送的量。
 
 >[!MORELIKETHIS]
 >
->* [手動交易ID設定](deal-id-settings.md)
->* [設定計畫保證交易](programmatic-guaranteed-set-up.md)
->* [提交廣告，用於計畫保證處理 [!DNL FreeWheel]](freewheel-submit.md)
->* [關於寫程式擔保交易](programmatic-guaranteed-about.md)
-
-   <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
-
+>* [手動交易識別碼設定](deal-id-settings.md)
+>* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
+>* [提交程式化預留交易的廣告 [!DNL FreeWheel]](freewheel-submit.md)
+>* [關於程式化預留交易](programmatic-guaranteed-about.md)
+<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
