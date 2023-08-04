@@ -3,9 +3,9 @@ title: 接受中的交易 [!UICONTROL Deal ID Inbox]
 description: 瞭解如何接受您在上與發佈商協商的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+] (先前稱為 [!DNL Rubicon])使用交易ID收件匣。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    1. 按一下 **[!UICONTROL Save]**.
 
-1. （僅限程式化預留交易）依照提示為交易選取廣告，或針對發佈商管理的廣告選取1x1追蹤畫素，並建立以交易為目標的程式化預留預設位置。
+1. （僅限程式化預留交易）依照提示為交易選取廣告（或發佈商管理廣告的1x1追蹤畫素），並建立以交易為目標的程式化預留預設位置。
 
 一旦您接受交易，交易內容就會從 [!UICONTROL Deal ID inbox] 至 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視，而交易可做為每個刊登位置的私人詳細目錄來源 [!UICONTROL Inventory Targeting] 區段。
 
