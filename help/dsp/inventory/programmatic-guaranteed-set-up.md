@@ -3,9 +3,9 @@ title: 設定程式化保證交易
 description: 瞭解如何設定您已與發佈商洽談的程式化預留(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. [手動設定交易識別碼詳細資料](deal-id-create.md).
 
-1. 儲存交易後，根據提示選取將用於交易的廣告（或發佈商管理廣告的1x1追蹤畫素），並建立PG預設刊登位置。
+1. 儲存交易後，選取將用於交易的廣告（或發佈商管理廣告的1x1追蹤畫素），並根據提示建立PG預設位置。
 
    建立交易的PG預設刊登位置，必須提供您100%的購買內容。 此型別的版位沒有鎖定目標，因此DSP可以傳回對發佈者之每個競標要求的競標。
 
