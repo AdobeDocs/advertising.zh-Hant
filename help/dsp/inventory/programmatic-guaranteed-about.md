@@ -3,9 +3,9 @@ title: 關於程式化預留交易
 description: 瞭解程式化預留(PG)交易，以及哪些SSP經過認證可提供這些交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 * 一般而言，交易在發佈者的廣告伺服器中有較高的優先順序。
 * 競標要求並非為單一交易或購買者所獨有。
 * 單一交易ID支援多種視訊型別。
-* 接受發佈者管理的廣告，透過 [!DNL Google Authorized Buyers] SSP.
+* 接受發佈者管理的廣告，途徑為 [!DNL Google Authorized Buyers] SSP.
 * SSP和發佈者具有傳遞SLA。
 
-PG交易需要PG預設版位和廣告（或發佈商管理廣告的1x1畫素），因此DSP可以傳回要求給每個競標要求，並透過SSP履行傳遞SLA。 設定必要的PG預設刊登版位後，您也可以在其他刊登版位中鎖定PG交易。
+PG交易需要PG預設版位和廣告（或發佈商管理的廣告需要1x1畫素），因此DSP可以傳回要求給每個競標要求，並透過SSP履行傳遞SLA。 設定必要的PG預設刊登版位後，您也可以在其他刊登版位中鎖定PG交易。
 
 ## DSP中獲得PG交易認證的SSP
 
