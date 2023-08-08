@@ -3,9 +3,9 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 使用 [!DNL Analytics] 由於您的付費媒體報告工具為付費媒體，因此貴組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝與未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
-[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 其運作方式與其他eVar類似，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 像其他一樣運作 [!DNL eVars]，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 請參閱&quot;[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)」以取得可用維度的清單。
 
 >[!NOTE]
 >
-> 當您在中檢視Adobe Advertising資料（或任何資料集）時 [!DNL Analytics]，請注意，量度和報表是根據在中設定的規則 [!DNL Analytics]. 資料可能會與您在其他報表系統中看到的不同，例如廣告伺服器報表、 [!DNL DSP] 報表或搜尋引擎報表。 若要瞭解中的資料差異 [!DNL Analytics]，您必須知道eVar資料何時過期、造訪的定義專案、被視為上次接觸歸因與總持續歸因的專案，以及其他因素。 如需詳細資訊，請參閱 [預期資料差異： [!DNL Analytics] 和Adobe Advertising](data-variances.md).
+> 當您在中檢視Adobe Advertising資料（或任何資料集）時 [!DNL Analytics]，請注意，量度和報表是根據在中設定的規則 [!DNL Analytics]. 資料可能會與您在其他報表系統中看到的不同，例如廣告伺服器報表、 [!DNL DSP] 報表或搜尋引擎報表。 若要瞭解中的資料差異 [!DNL Analytics]，您必須知道何時 [!DNL eVar] 資料過期、造訪的定義、被視為上次接觸歸因與總持續歸因的專案，以及其他因素。 如需詳細資訊，請參閱 [預期資料差異： [!DNL Analytics] 和Adobe Advertising](data-variances.md).
 
 ## 使用Analytics支援Adobe Advertising促銷活動和Portfolio
 

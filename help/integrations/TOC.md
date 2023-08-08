@@ -4,9 +4,9 @@ user-guide-description: 了解 Advertising DSP 和 Advertising Search 與其他 
 breadcrumb-title: Experience Cloud 的整合
 role: User, Developer
 index: true
-source-git-commit: 6f486ac4664ff58813d55c9c09a2d59b6bd47473
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 12%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 12%
       + [使用Adobe AdvertisingID來建立 [!DNL Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [使用 [!DNL Marketing Channels] 使用Adobe Advertising資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [為何管道資料可能因Adobe Advertising和事件而異 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [從Adobe Analytics eVar和prop建立轉換量度](/help/integrations/analytics/conversion-metrics-from-evars.md)
+   + [從Adobe Analytics建立轉換量度 [!DNL eVars] 和 [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + 與Adobe Audience Manager整合 {#audience-manager}
    + [Adobe Advertising與Adobe Audience Manager的整合](/help/integrations/audience-manager/overview.md)
    + [將Audience Manager區段匯入至Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)

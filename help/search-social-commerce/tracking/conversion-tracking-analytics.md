@@ -3,9 +3,9 @@ title: Adobe Analytics轉換追蹤
 description: 瞭解如何在Adobe Advertising中對您的行銷活動使用Adobe Analytics轉換追蹤。
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在 [!DNL Analytics]，您的搜尋、社交和商務實作團隊會修改每個報表套裝的下列組態設定：
 
-   * 的有效期 `ef_id` eVar已變更，以符合廣告商的Adobe Advertising點按回顧期間。
+   * 的有效期 `ef_id` [!DNL eVar] 已變更，以符合廣告商的Adobe Advertising點按回顧期間。
 
    * Adobe Advertising的使用者ID。
 
