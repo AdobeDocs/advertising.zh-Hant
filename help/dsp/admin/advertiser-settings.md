@@ -2,7 +2,7 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser Name]：** 廣告商名稱。
 
-**[!UICONTROL Category]：** 廣告商業務營運的類別。 當您競標庫存時，會將類別傳達給發佈者。 請務必選擇符合您廣告的類別，否則發佈者可能會拒絕您的廣告。
+**[!UICONTROL Category]：** 廣告商業務營運的類別。 當您競標詳細目錄時，會將類別傳達給發佈者。 請務必選擇與廣告一致的類別，否則發佈者可能會拒絕您的廣告。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-具有其他Adobe Experience Cloud產品的廣告商可以使用組織的Experience Cloud唯一ID，在某些產品間共用資料。 您可以在以下位置設定特定的產品整合： [!UICONTROL Integrations] 區段。
+具有其他Adobe Experience Cloud產品的廣告商可以使用組織的Experience Cloud唯一ID在部分產品之間共用資料。 您可以在以下位置設定特定的產品整合： [!UICONTROL Integrations] 區段。
 
 **[!UICONTROL Account IMS org and ID]：** (廣告商具有其他Experience Cloud產品，這些產品是透過具有多個廣告商的Experience Cloud帳戶來授權；可選)廣告商的Experience Cloud組織ID。
 
@@ -39,26 +39,26 @@ ht-degree: 0%
 
 （選用）連結至DSP帳戶的其他Experience Cloud產品。 產品必須與中提供的相同Experience Cloud組織ID相關聯 [!UICONTROL Adobe IMS IDs] 區段。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** (廣告商使用 [!DNL Advertising Search, Social, & Commerce] 或使用Adobe Advertising轉換畫素的使用者) A [!DNL Search, Social, & Commerce] 與DSP交換歸因資料的帳戶。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** (廣告商使用 [!DNL Advertising Search, Social, & Commerce] 或使用Adobe Advertising轉換畫素的使用者) A [!DNL Search, Social, & Commerce] DSP將用來交換歸因資料的帳戶。
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的廣告商；選用；僅適用於使用Adobe Advertising轉換追蹤標籤(包含 [!DNL EF Redirect] 僅限和Token)一或多個 [!DNL Analytics] DSP會將收集自發佈商和供應方合作夥伴的資料傳送至報表套裝。 Analytics也會將其從使用者端網站收集到的資料傳送至DSP。
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的廣告商；選用；僅適用於使用Adobe Advertising轉換追蹤標籤(包含 [!DNL EF Redirect] 僅限和權杖)一或多個 [!DNL Analytics] DSP會將其從發佈者和供應方合作夥伴收集到的資料傳送至報表套裝。 Analytics也會將其從使用者端網站收集到的資料傳送至DSP。
 
-對於要顯示在報表套裝中的資料， [!DNL Search, Social, & Commerce] 將廣告商層級設定為&quot;[!UICONTROL Enable tracking for SAINT feeds]必須啟用「」。 此外，廣告商的 [!DNL Analytics] 帳戶必須設定為從Adobe Advertising接收資料。
+若要讓資料顯示在報表套裝中，需使用適當的 [!DNL Search, Social, & Commerce] 必須啟用廣告商層級設定。 此外，廣告商的 [!DNL Analytics] 帳戶必須設定為從Adobe Advertising接收資料。
 
 >[!WARNING]
 >
->如果您移除先前連結的報表套裝，DSP將不再與該套裝交換資料。 預期會看到資料波動。
+>如果您移除先前連結的報表套裝，DSP將不再與該套裝交換資料。 可能會看到資料波動。
 
-如需與整合的詳細資訊 [!DNL Analytics]，請參閱「[概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).」
+如需與整合的詳細資訊 [!DNL Analytics]，請參閱&quot;[概觀 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).」
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的廣告商；選用)Audience Manager或 [!DNL Analytics] DSP將從中提取廣告商所有Adobe對象的區段中繼資料、階層資料和唯一對象資料的帳戶。 其中包括以下專案的資料：
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的廣告商；選用)Audience Manager或 [!DNL Analytics] DSP會從中為廣告商的所有Adobe受眾提取區段中繼資料、階層資料和唯一受眾資料的帳戶。 這包含下列專案的資料：
 
 * Audience Manager區段
 * [!DNL Analytics] 發佈至Adobe Experience Cloud的區段
 * 使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]
-* 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe廣告的區段
+* 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段
 
-初始同步大約需要24小時。 之後，資料會即時同步，延遲一到兩秒。
+初始同步處理大約需要24小時。 之後，資料會即時同步，延遲一到兩秒。
 <!-- I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
@@ -72,11 +72,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ### [!UICONTROL Geo-targeting]
 
-**[!UICONTROL Countries]：** 每個位置的地理定位的預設國家/地區。 使用者可以變更國家/地區，並為每個位置設定更具體的地理定位。
+**[!UICONTROL Countries]：** 每個位置地理定位的預設國家/地區。 使用者可以變更國家/地區，並針對每個位置設定更具體的地理定位。
 
 ### [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Audiences to exclude]：** 預設要隱藏的任何對象或區段。 使用者可以變更每個位置的排除專案。
+**[!UICONTROL Audiences to exclude]：** 依預設會隱藏的任何對象或區段。 使用者可以變更每個位置的排除專案。
 
 ### [!UICONTROL Media Quality]
 
@@ -86,11 +86,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
-**[!UICONTROL Block sites that are]：** （選擇性）預設要封鎖的一或多個存貨內容型別。 可能需支付額外費用。
+**[!UICONTROL Block sites that are]：** （選用）預設要封鎖的一或多個存貨內容型別。 可能需支付額外費用。
 
 ##### [!UICONTROL Peer 39] {#peer39-context}
 
-**[!UICONTROL Target sites that are]：** （選擇性）預設要定位的一或多個存貨屬性型別。 可能需支付額外費用。
+**[!UICONTROL Target sites that are]：** （選用）預設要鎖定的一或多個存貨屬性型別。 可能需支付額外費用。
 
 ##### [!UICONTROL ComScore]
 
@@ -98,9 +98,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
-**[!UICONTROL Adult Content]：** （選用）預設要封鎖廣告的成人內容程度： *[!UICONTROL Do Not Block]* （預設）， *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
+**[!UICONTROL Adult Content]：** （選用）預設封鎖廣告的成人內容程度： *[!UICONTROL Do Not Block]* （預設）， *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
 
-**[!UICONTROL Alcohol Content]：** （選用）預設要封鎖廣告的酒精含量等級： *[!UICONTROL Do Not Block]* （預設）， *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
+**[!UICONTROL Alcohol Content]：** （選用）預設封鎖廣告的酒精含量等級： *[!UICONTROL Do Not Block]* （預設）， *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
 
 #### [!UICONTROL Pre-Bid Fraud Blocking]
 
@@ -108,17 +108,17 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
-**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：** 依預設，會針對新位置封鎖所有100%無效流量，包括被劫持裝置上的流量。 可能需支付額外費用。
+**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：** 依預設，會針對新位置封鎖所有100%無效的流量，包括被劫持裝置上的流量。 可能需支付額外費用。
 
-**[!UICONTROL Also block sites with]：** （選用）額外的詐騙和無效流量層級，會導致DSP依預設封鎖廣告：  *[!UICONTROL None]* （預設值，不會封鎖其他流量）， *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*， *[!UICONTROL >4% Average Fraud/IVT levels]*， *[!UICONTROL >6% Average Fraud/IVT levels]*， *[!UICONTROL >10% Average Fraud/IVT levels]*，或 *[!UICONTROL >25% Average Fraud/IVT levels]*. 可能需支付額外費用。
+**[!UICONTROL Also block sites with]：** （選用）額外的詐騙和無效流量層級，在預設情況下會導致DSP封鎖廣告：  *[!UICONTROL None]* （預設值，不會封鎖其他流量）， *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*， *[!UICONTROL >4% Average Fraud/IVT levels]*， *[!UICONTROL >6% Average Fraud/IVT levels]*， *[!UICONTROL >10% Average Fraud/IVT levels]*，或 *[!UICONTROL >25% Average Fraud/IVT levels]*. 可能需支付額外費用。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]：** （選用）一或多個詐騙型別，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有詐騙網站）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、和/或 *[!UICONTROL Fraud: Zero Ads]*. 可能需支付額外費用。
+**[!UICONTROL Block sites that are]：** （選用）一或多種型別的詐騙，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有詐騙網站）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、和/或 *[!UICONTROL Fraud: Zero Ads]*. 可能需支付額外費用。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]：** （選用）一種可疑的網站或應用程式活動，預設會導致DSP封鎖廣告： *[!UICONTROL None]* （預設值，不會根據可疑活動封鎖廣告）， *[!UICONTROL Suspicious Activity - High Risk]*，或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 可能需支付額外費用。
+**[!UICONTROL Block sites that are]：** （選用）預設會導致DSP封鎖廣告的可疑網站或應用程式活動型別： *[!UICONTROL None]* （預設值，不會根據可疑活動封鎖廣告）， *[!UICONTROL Suspicious Activity - High Risk]*，或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 可能需支付額外費用。
 
 #### [!UICONTROL Ads.text]
 
@@ -138,7 +138,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL DoubleVerify Account]：** ([!DNL DoubleVerify] 僅限客戶；選用)與組織的品牌安全區段ID相關聯 [!DNL DoubleVerify] 帳戶。
 
-**[!UICONTROL Enable Authentic Brand Safety]：** （選用）依預設，啟用 [!DNL DoubleVerify] 正版品牌安全：會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途來開立科目帳單。
+**[!UICONTROL Enable Authentic Brand Safety]：** （選用）依預設，會啟用 [!DNL DoubleVerify] 正版品牌安全：會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
 
 您可以在版位層級覆寫廣告商層級設定。
 
