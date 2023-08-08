@@ -3,9 +3,9 @@ title: 關於搜尋、社交和商務中的行銷活動管理
 description: 瞭解Search、Social和Commerce中的促銷活動管理功能。
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 的 [支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，您可以將行銷活動分組到產品組合中，每個產品組合都有特定的業務目標和特定的預算或績效目標。 在標準產品組合中，「搜尋」、「社交」和「商務」會最佳化CPC關鍵字競標和促銷活動預算。 混合產品組合結合來自搜尋、社交和商務的最佳化技術以及您的廣告網路。
 
-如需有關可用投資組合選項以及如何設定投資組合的詳細資訊，請參閱最佳化指南中「管理Portfolio」一章，該章可從「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
+如需有關可用產品組合選項以及如何設定產品組合的詳細資訊，請參閱有關「Portfolio」的最佳化指南章節，此章節可從「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 行銷活動管理檢視
 

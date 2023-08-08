@@ -3,7 +3,7 @@ title: 關於對象
 description: 瞭解追蹤、建立及管理的選項 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 對象。
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * (具有Audience Manager帳戶的廣告商)您可以建立 [!DNL Google Ads] 客戶使用來自將Search、Social和Commerce作為目的地之Audience Manager區段的使用者ID來比對對象。 這可能包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud對象庫建立的區段。
 
-  若要建立符合客戶的對象，廣告商的 [!DNL Google Ads] 帳戶必須 [符合自訂相符資格](https://support.google.com/adspolicy/answer/6299717) 並已選擇加入 [使用者ID區段](https://support.google.com/google-ads/answer/9199250). 此外，Search、Social和Commerce中的廣告商帳戶必須設定為允許建立客戶相符對象。<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  若要建立符合客戶的對象，廣告商的 [!DNL Google Ads] 帳戶必須 [符合自訂相符資格](https://support.google.com/adspolicy/answer/6299717) 並已選擇加入 [使用者ID區段](https://support.google.com/google-ads/answer/9199250). 此外，Search、Social和Commerce中的廣告商帳戶必須設定為允許建立客戶相符對象。
 
   [!DNL Adobe] 客戶資料型對象的區段資料和Cookie同步檔案會同步至 [!DNL Google Ads] 每日。
 

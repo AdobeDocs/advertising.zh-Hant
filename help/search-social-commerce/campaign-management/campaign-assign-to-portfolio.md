@@ -3,9 +3,9 @@ title: 將行銷活動指派至投資組合
 description: 瞭解如何在產品組合中加入行銷活動以進行最佳化。
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告最佳化出價和行銷活動預算。 您可以從以下位置將行銷活動指派至產品組合： [!UICONTROL Campaigns] 檢視、建立投資組合或編輯投資組合的設定時。
 
-並非所有行銷活動型別和廣告網路都符合最佳化資格；請參閱 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 包括於投資組合中。 此外，請前往「管理Portfolio」（可在「搜尋」、「社交」和「商務」中取得）的「最佳化指南」一章，參閱「依行銷活動競標策略區分的合格Portfolio型別」，以驗證每個行銷活動競標策略的最佳化支援。<!-- verify convention for referencing Optimization Guide here -->
+並非所有行銷活動型別和廣告網路都符合最佳化資格；請參閱 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 包括於投資組合中。 此外，請前往「Portfolio」（可在「搜尋」、「社交」和「商務」中取得）的「最佳化指南」一章，參閱「依行銷活動競標策略的合格Portfolio型別」，以驗證每個行銷活動競標策略的最佳化支援。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
