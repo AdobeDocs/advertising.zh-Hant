@@ -2,9 +2,9 @@
 title: '"從Adobe Analytics建立轉換量度 [!DNL eVars] 和prop」'
 description: 「使用設定自訂成功事件量度 [!DNL eVar] — 和 [!DNL prop] — 層級資料。」
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
 
-您可以使用成功事件量度，根據最符合您品牌目標的Adobe Analytics網站資料來最佳化DSP套件和搜尋、社交和商務行銷活動。 您可以根據以下專案設定自訂成功事件量度： [您現有的 [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 和 [您的 [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 透過漏斗 [!DNL eVar] — 和 [!DNL prop]-level資料匯入事件。 其他 [!DNL Analytics] 量度（包括標準、自訂和保留的轉換量度和流量量度）會自動在DSP和Search、Social和Commerce中使用。
+您可以使用成功事件量度，根據最符合您品牌目標的Adobe Analytics網站資料來最佳化DSP套件和搜尋、社交和商務行銷活動。 您可以根據以下專案設定自訂成功事件量度： [您現有的 [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 和 [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 透過漏斗 [!DNL eVar] — 和 [!DNL prop]-level資料匯入事件。 其他 [!DNL Analytics] 量度（包括標準、自訂和保留的轉換量度和流量量度）會自動在DSP和Search、Social和Commerce中使用。
 
 ![使用範例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用範例")
 
