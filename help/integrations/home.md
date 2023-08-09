@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
+source-git-commit: e0044c5241b6a7a89fdce9d7ef9225a2fb0cc19f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | 2021年4月19日 | [!DNL Analytics for Advertising] | 瞭解為何以及如何將巨集附加至您的 [!DNL Flashtalking] 廣告標籤以傳送點按資料至Adobe Analytics。 | 請參閱&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md).」 |
 | 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的組織想從使用舊版Adobe Analytics進行切換 `visitorAPI.js` 資料庫至 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料庫(`alloy.js`)進行資料收集時，您需要進行一些變更以啟用識別碼拼接。 | 請參閱&quot;[使用 [!DNL Last Event Service] 使用Adobe Experience Platform的JavaScript資料庫 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).」 |
 | 2021年5月26日 | 說明 | 「 」章節[!DNL Analytics for Advertising]」現在包含「使用」的子章節 [!DNL Analytics Marketing Channels].」 | 請參閱： &quot;[行銷管道的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)，&quot; &quot;[使用Adobe AdvertisingID來建立 [!DNL Analytics Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)，&quot; &quot;[使用 [!DNL Analytics Marketing Channels] 使用Adobe Advertising資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)，」和「[為何管道資料可能因Adobe Advertising和事件而異 [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).」 |
-| 2021年5月26日 | 說明 | 所有教學課程影片的連結，關於 [!DNL Analytics for Advertising] 「 」已新增。 | [有關Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
+| 2021年5月26日 | 說明 | 所有教學課程影片的連結，關於 [!DNL Analytics for Advertising] 「 」已新增。 | 請參閱： &quot;[有關Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).」 |
 
 {style="table-layout:auto"}
 
