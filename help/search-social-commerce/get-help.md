@@ -2,9 +2,9 @@
 title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ ht-degree: 0%
 
 尋找您問題的答案，請前往 [Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## 連絡人Adobe
+## 連絡人 [!DNL Adobe]
 
-| 針對…… | 聯絡我們： |
-| ---- | ---- |
-| 搜尋、社交和商務產品或帳戶問題 | 請聯絡您的Adobe客戶團隊。 |
-| 有關搜尋、社交和商務的意見回饋 | 在頂端功能表中，按一下 ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **[!UICONTROL Provide Feedback]**，輸入您的訊息，然後按一下 **[!UICONTROL Send Feedback]**. |
+如需Search、Social和Commerce產品或帳戶問題，請執行下列其中一項操作：
 
-### 產品問題要包含的資訊
+* 請聯絡您的Adobe客戶團隊。
 
-提供重現問題的詳細步驟、瀏覽器名稱和版本、任何相關資料，以及有關您已執行之初步疑難排解的資訊。
+* 在頂端功能表中，按一下 ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **[!UICONTROL Provide Feedback]**，輸入您的訊息，然後按一下 **[!UICONTROL Send Feedback]**. |
+
+提供重現問題的詳細步驟、任何相關資料，以及有關您已執行之初步疑難排解的資訊。 如果您要向Adobe帳戶團隊報告問題，請一併加入瀏覽器名稱和版本。
 
 若是報告問題，請勿刪除報告，並提供報告名稱和URL。
