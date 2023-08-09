@@ -3,7 +3,7 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 >
 > 您無法從對應計算量度 [!DNL Analytics] Adobe Advertising中。
 
-您的Adobe Advertising團隊將協助您識別適用於付費媒體效能的事件，並將其對應至Adobe Advertising，以便顯示於 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+您的Adobe Advertising團隊將協助您識別適用於付費媒體效能的事件，並將其對應至Adobe Advertising，以便顯示於 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 請參閱&quot;[Adobe Advertising中的Analytics度量](analytics-data-in-advertising.md)」以取得可用量度的清單。
 

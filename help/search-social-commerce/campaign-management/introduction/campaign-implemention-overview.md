@@ -3,7 +3,7 @@ title: 實作廣告網路帳戶和行銷活動的概觀
 description: 瞭解設定、同步及管理廣告網路帳戶的相關工作。
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
    如需產品組合的詳細資訊，請參閱最佳化指南，此指南可在「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
 
-1. （如果將會追蹤廣告商的任何新轉換） [讓轉換可供使用](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 適用於報表、行銷活動管理檢視和產品組合目標。
+1. （如果將會追蹤廣告商的任何新轉換） [讓轉換可供使用](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 適用於報表、行銷活動管理檢視和產品組合目標。
 
 1. 對於每個促銷活動，確認Search、Social和Commerce從廣告網路接收點按和成本資料，並使用廣告商自己的收入資料驗證Search、Social和Commerce中顯示的收入資料。
 
