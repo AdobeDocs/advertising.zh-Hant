@@ -3,9 +3,9 @@ title: 復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising
 description: 瞭解如何在中匯出同步的行銷活動 [!DNL Google Ads] 帳戶直接進入已同步的 [!DNL Microsoft® Advertising] 帳戶。
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]：** 此ID可以 [!DNL Microsoft® Advertising] 使用表示 [!DNL Google Ads] 認證。
 
-自動產生 [!DNL Microsoft® Advertising] 無法取得匯入的認證，原因如下 [!DNL Microsoft® Advertising] 限制。 聯絡Adobe技術支援或您的Adobe帳戶團隊，他們將會產生憑證並提供ID給您。
+自動產生 [!DNL Microsoft® Advertising] 無法取得匯入的認證，原因如下 [!DNL Microsoft® Advertising] 限制。 請聯絡您的Adobe帳戶團隊，他們將會產生憑證並提供ID。
 
 **[!UICONTROL Target Microsoft® Ads account]：** 已同步 [!DNL Microsoft® Advertising] 行銷活動資料匯入到的帳戶。
 
