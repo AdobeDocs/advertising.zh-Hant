@@ -2,7 +2,7 @@
 title: 建立轉換標籤 [!DNL Google Ads]
 description: 瞭解如何建立 [!DNL Google Ads] 轉換標籤。
 feature: Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Name]：** 轉換量度的唯一名稱。
 
-**\[目標類別\]：** 轉換目標。 可用的目標因轉換型別而異。 的 *[!UICONTROL Calls to a phone number on your website]* 和 *[!UICONTROL Clicks to your number on your mobile website]*， &quot;[!UICONTROL Phone Call Lead]已依預設選取「 」。
+**\[目標類別\]：** 轉換類別。 可用的類別因轉換型別而異。 的 *[!UICONTROL Calls to a phone number on your website]* 和 *[!UICONTROL Clicks to your number on your mobile website]*， &quot;[!UICONTROL Phone Call Lead]已依預設選取「 」。
 
 **\[動作型別\]：** 目標是否為 *[!UICONTROL Primary action used for bidding optimization]* 或 *[!UICONTROL Secondary action not used for bidding optimization]*.
 

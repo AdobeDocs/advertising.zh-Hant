@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: ba5c2e3a86817a8b6bceadf6d6c1dbdc1af867db
+source-git-commit: cbbbd4260fc7545fb778b14d0b82cd4911e9a5a5
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 | ---- | ------- | ----------- | -------------------- |
 | 2023年8月9日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 已重新命名 [!UICONTROL Conversions]. | 請參閱&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).」 |
 |  | [!DNL Google] 轉換追蹤標籤 | 要建立的更新畫面 [!DNL Google] 轉換追蹤標籤可從以下位置取得： [!UICONTROL Admin] > [!UICONTROL Conversions]. 舊版畫面位於 [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] 未來將移除。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
-|  | [!DNL Google] 轉換追蹤標籤 | 當您建立 [!DNL Google] 轉換追蹤標籤中，您現在可以指定要追蹤的轉換目標。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
+|  | [!DNL Google] 轉換追蹤標籤 | 當您建立 [!DNL Google] 轉換追蹤標籤，您現在可以指定要追蹤的轉換類別。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
 | 2023年7月24日 | [!UICONTROL Campaigns], [!UICONTROL Reports], [!UICONTROL Portfolios] | 新欄反映新的命名慣例：<ul><li>&quot;[!UICONTROL Objective Value]「 」具有與現有「 」相同的值[!UICONTROL Weighted Revenue]「欄。 內容包括：<ul><li>根據預設，在 [!UICONTROL Portfolios] > [!UICONTROL Portfolios]， [!UICONTROL Portfolios] > [!UICONTROL Campaigns]， [!UICONTROL Portfolios > Bid Units]、和 [!UICONTROL Portfolio Spotlight] > [!UICONTROL Performance] > [!UICONTROL Campaigns] 檢視</li><li>在自訂模擬中自動進行</li><li>預設情況下，在每週的熒幕模擬中；舊版欄仍為選用，但未來將移除</li><li>根據預設，在 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 和 [!UICONTROL Campaigns] > [!UICONTROL Keywords] 檢視</li><li>根據預設，在 [!UICONTROL Portfolio Report]， [!UICONTROL Campaign Report]、和 [!UICONTROL Keyword Report]</li></ul></li><li>&quot;[!UICONTROL Objective Value Calculation]，」是用來衍生 [!UICONTROL Objective Value]，預設包含在 [!UICONTROL Portfolio Report]， [!UICONTROL Campaign Report]、和 [!UICONTROL Keyword Report].</li><li>&quot;[!UICONTROL Marginal Cost-to-Objective Value]「 」具有與現有「 」相同的值[!UICONTROL Marginal Cost-to-Revenue]「欄。 內容包括：<ul><li>在自訂模擬中自動進行</li><li>預設情況下，在每週的熒幕模擬中；舊版欄仍為選用，但未來將移除</li></ul></li></ul> | 請參閱&quot;[字彙表](/help/search-social-commerce/glossary.md).」<br><br>另請參閱&quot;[基本和進階報表的報表欄](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md).」 |
 | 2023年6月30日 | [!UICONTROL Asset Library] | (開放Beta版功能； [!DNL Google Ads] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以建立可重複使用的影像、視訊和文字資產，並將其上傳至 [!DNL Google Ads] 帳戶層級的資產庫。 當您在「 」中建立或編輯行銷活動時，可以使用資產製作廣告 [!DNL Google Ads] 編輯者。 | 請參閱&quot;[建立及上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).」 |
 | | [!UICONTROL Google Import] | 您現在可以從產生自己的匯入認證ID [!DNL Microsoft® Advertising] 當您為設定行銷活動匯入工作時 [!DNL Google Ads]. 之前，Adobe技術支援或您的Adobe帳戶團隊會提供ID。 | 請參閱&quot;[復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).」 |
