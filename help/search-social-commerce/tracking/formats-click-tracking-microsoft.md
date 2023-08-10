@@ -3,7 +3,7 @@ title: 的點選追蹤格式 [!DNL Microsoft Advertising]
 description: 瞭解的點選追蹤格式 [!DNL Microsoft Advertising] 帳戶。
 exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -107,4 +107,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [s\_kwcid追蹤程式碼的格式](skwcid-tracking-parameter.md)
+>* [AMO ID追蹤程式碼的格式](skwcid-tracking-parameter.md)

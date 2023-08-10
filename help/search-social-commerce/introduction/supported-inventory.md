@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 0%
 | 來源 | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 搜尋網路 | 手動 | 文字 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 僅限使用手動CPC競標策略的行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
-| [!DNL Google Ads] | 全部 [!DNL Google] 摘要 | 探索（測試版功能） | 探索（單一影像廣告）<br><br>探索輪播（多影像輪播廣告） | 透過API自動進行 | — | 是 | 僅限混合專案組合<br><br>競標和競標策略目標會設定於行銷活動層級，連同行銷活動預算（如適用於最佳化型別）。 | 廣告層級資料 | 將廣告層級資料新增至「搜尋、社交和商務」(使用升級的 [s_kwcid追蹤程式碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
-| | 全部 | 最高標準效能（Beta版功能） | 所有型別 | 透過API自動進行 | 在行銷活動檢視中的行銷活動設定內建立/編輯行銷活動及上傳廣告資產<br><br>只有必要的設定可供使用。 如需選擇設定和列出群組，請登入[！DNL [!DNL Google Ads] Ads]編輯器。 | 是 | 僅限混合專案組合<br><br>競標策略目標與行銷活動預算一起設定於行銷活動層級。 | 行銷活動層級資料<br><br>清單群組的資料無法使用，且廣告網路未提供廣告層級資料。 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的行銷活動層級資料。 需要升級的 [s_kwcid追蹤程式碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
+| [!DNL Google Ads] | 全部 [!DNL Google] 摘要 | 探索（測試版功能） | 探索（單一影像廣告）<br><br>探索輪播（多影像輪播廣告） | 透過API自動進行 | — | 是 | 僅限混合專案組合<br><br>競標和競標策略目標會設定於行銷活動層級，連同行銷活動預算（如適用於最佳化型別）。 | 廣告層級資料 | 搜尋、社交和商務的廣告層級資料 [使用升級的AMO ID追蹤代碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
+| | 全部 | 最高標準效能（Beta版功能） | 所有型別 | 透過API自動進行 | 在行銷活動檢視中的行銷活動設定內建立/編輯行銷活動及上傳廣告資產<br><br>只有必要的設定可供使用。 如需選擇設定和列出群組，請登入[！DNL [!DNL Google Ads] Ads]編輯器。 | 是 | 僅限混合專案組合<br><br>競標策略目標與行銷活動預算一起設定於行銷活動層級。 | 行銷活動層級資料<br><br>清單群組的資料無法使用，且廣告網路未提供廣告層級資料。 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的行銷活動層級資料。 需要升級的 [AMO ID追蹤代碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
 | | 顯示網路 | 標準顯示 | 影像 | 透過API自動進行 | 僅編輯URL和狀態，使用 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | — | 廣告層級資料，但沒有瀏覽資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料，但沒有瀏覽資料 |
 | | [!DNL Gmail]/顯示網路 | [!DNL Gmail] 行銷活動（已棄用） | [!DNL Gmail] | — | — | — | — | 僅限舊版行銷活動層級資料 | 將舊版Analytics資料新增至「搜尋、社交和商務」<br>從搜尋、社交和商務到Analytics的舊版促銷活動層級資料 |
 | | 搜尋網路 | 標準搜尋 | 僅呼叫 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | 可以，使用帳戶層級的登入頁面尾碼和追蹤範本，或在[！DNL]中的廣告層級手動新增它們 [!DNL Google Ads] Ads]管理員 | — | 僅限廣告群組層級的曝光數與來自廣告網路的點按數；無收入 | — |
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 [^3]：需要與Adobe Analytics整合。 請參閱&quot;[Analytics for Adobe Advertising概述](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).」
 
-[^4]： [!DNL Analytics] 無論您通常用於帳戶的s_kwcid格式為何，資料都會使用升級的s_kwcid追蹤引數傳送至「搜尋、社交和商務」。 如果您通常使用舊版s_kwcid，建議您升級至新的s_kwcid格式，以享有最佳體驗。 不過，即使您的點選/成本資料和收入資料是使用不同的s_kwcid進行追蹤，兩組資料仍會完全分類，並彙總於相同的促銷活動和帳戶下。
+[^4]： [!DNL Analytics] 無論您通常用於帳戶的AMO ID格式為何，資料都會使用升級的AMO ID追蹤引數(s_kwcid)傳送至「搜尋、社交和商務」。 如果您通常使用舊版的AMO ID，建議您升級至新的AMO ID格式，以享有最佳的體驗。 不過，即使您的點按數/成本資料和收入資料是使用不同的AMO ID進行追蹤，兩組資料仍會在相同的促銷活動和帳戶下完全分類和彙總。

@@ -3,9 +3,9 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須包含廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` (適用於Google)。 具有Adobe Analytics整合的帳戶必須使用 `s_kwcid` 引數。 如果帳戶具有伺服器端s\_kwcid實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 請參閱 [必要的尾碼格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的尾碼格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+使用Adobe Advertising點選追蹤的帳戶必須包含廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` (適用於Google)。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數(開頭為 `s_kwcid`)。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 請參閱 [必要的尾碼格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的尾碼格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -240,15 +240,15 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid格式** - (現有 [!DNL Google Ads] 使用Adobe Advertising-Adobe Analytics整合且s\_kwcid尚未移轉的廣告商帳戶)
+* **S\_kwcid格式** - (現有 [!DNL Google Ads] 具有Adobe Advertising-Adobe Analytics整合且AMO ID (s\_kwcid)尚未移轉的廣告商帳戶
 
-此帳戶使用舊版的s\_kwcid追蹤代碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含行銷活動ID和廣告群組ID的引數，這些引數對於在行銷活動和廣告群組層級精確報告是必要的 [!DNL Google Ads] Analytics中的最高成效行銷活動以及草稿和實驗行銷活動：
+此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含行銷活動ID和廣告群組ID的引數，這些引數對於在行銷活動和廣告群組層級精確報告是必要的 [!DNL Google Ads] Analytics中的最高成效行銷活動以及草稿和實驗行銷活動：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 如果此帳戶需要在行銷活動和廣告群組層級報告，則按一下 [!UICONTROL Edit] （鉛筆）圖示，然後 **[!UICONTROL Migrate to new s\_kwcid format]** 以變更為新格式。 對於不包含這些行銷活動型別的帳戶，可選擇性移轉至新格式，但建議這麼做。
 
-如需完整指示，請參閱&quot;[更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).」
+如需完整指示，請參閱&quot;[更新的AMO ID追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).」
 
 **報表套裝名稱** - (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
@@ -258,4 +258,4 @@ ht-degree: 0%
 >
 >* [關於廣告網路帳戶](ad-network-account-about.md)
 >* [管理商家中心帳戶](merchant-account-manage.md)
->* [更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](update-skwcid-google.md)
+>* [更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](update-amo-id-google.md)

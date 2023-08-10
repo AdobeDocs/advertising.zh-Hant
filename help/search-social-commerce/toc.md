@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + 廣告網路帳戶 {#ad-network-accounts}
          + [關於廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [管理廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [更新的AMO ID追蹤程式碼 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [管理商家中心帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + 管理行銷活動 {#management}

@@ -3,9 +3,9 @@ title: 的點選追蹤格式 [!DNL Google Ads]
 description: 瞭解的點選追蹤格式 [!DNL Google Ads] 帳戶。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * [!DNL Google Ads] 使用最新版本的帳戶 `s_kwcid` 格式，支援最大成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+   * [!DNL Google Ads] 使用最新AMO ID格式的帳戶(開頭為 `s_kwcid`)，可支援最大成效行銷活動的行銷活動和廣告群組層級報表，以及草稿和實驗行銷活動：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端s_kwcid實作，且帳戶或促銷活動設定&quot;[!UICONTROL Auto Upload]」已啟用，則會自動新增引數。 否則，您需要手動新增。
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定為&quot;[!UICONTROL Auto Upload]」已啟用，則會自動新增引數。 否則，您需要手動新增。
 
    * 所有其他 [!DNL Google Ads] 帳戶：
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 >
 >* 較低層級的登陸頁面尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 >
->* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)當您想要包含從Adobe Advertising到Analytics的反向饋送追蹤時，請附加 `s_kwcid` 追蹤程式碼至帳戶層級登陸頁面尾碼結尾。
+>* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)當您想要包含從Adobe Advertising到Analytics的反向饋送追蹤時，請將AMO ID追蹤程式碼附加至帳戶層級登陸頁面尾碼的結尾。
 
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [s\_kwcid追蹤程式碼的格式](skwcid-tracking-parameter.md)
+>* [AMO ID追蹤程式碼的格式](skwcid-tracking-parameter.md)

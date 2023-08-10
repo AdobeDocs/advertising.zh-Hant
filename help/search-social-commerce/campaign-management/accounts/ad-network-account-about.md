@@ -3,7 +3,7 @@ title: 關於廣告網路帳戶
 description: 瞭解Search、Social和Commerce中的廣告網路帳戶。
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ ht-degree: 0%
 >
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
 >* [管理商家中心帳戶](merchant-account-manage.md)
->* [更新的s\_kwcid追蹤程式碼 [!DNL Google Ads] 帳戶](update-skwcid-google.md)
+>* [更新的AMO ID追蹤程式碼 [!DNL Google Ads] 帳戶](update-amo-id-google.md)

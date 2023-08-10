@@ -3,7 +3,7 @@ title: 實作 [!DNL Google Ads] 動態搜尋廣告
 description: 瞭解設定的工作流程 [!DNL Google Ads] 動態搜尋廣告。
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. （可選）設定行銷活動層級的追蹤範本，以覆寫帳戶層級的追蹤範本，但可以在較低層級覆寫。
 
-      (使用Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要在Analytics中加入搜尋、Social和商務反向摘要的追蹤，請將s_kwcid追蹤程式碼新增至帳戶層級的附加引數，如此可將程式碼新增至最終URL。 請參閱&quot;[s_kwcid追蹤引數](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).」
+      (使用Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要在Analytics中加入搜尋、Social和Commerce反向摘要的追蹤，請將AMO ID追蹤程式碼新增至帳戶層級的附加引數，如此可將程式碼新增至最終URL。 請參閱&quot;[AMO ID追蹤引數](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).」
 
 1. [建立廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 促銷活動內，包括下列步驟：
 
