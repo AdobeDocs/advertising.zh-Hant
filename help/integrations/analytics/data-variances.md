@@ -3,9 +3,9 @@ title: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 description: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Adobe Advertising報表只會擷取透過Adobe Advertising(付費搜尋 [!DNL Ad
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] 代表AMO ID (`s_kwcid` 引數)進行網站追蹤。 每次點按廣告時， `s_kwcid` 引數會新增至登陸頁面URL。 「 」的數量 [!UICONTROL AMO ID Instances]因此，類似於點選次數，可根據實際廣告點選進行驗證。 我們通常看到80%的符合率 [!DNL Search, Social, & Commerce] 和30%符合率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的預期差異，可以用預期的流量行為來解釋。 搜尋會擷取意圖，因此使用者通常打算從他們的查詢按一下搜尋結果。 然而，看過顯示廣告或線上視訊廣告的使用者更有可能無意中點選廣告，然後或是從網站跳出，或是捨棄在追蹤頁面活動之前載入的新視窗。
+[!UICONTROL AMO ID Instances] 代表此專案發生的次數： [AMO ID](ids.md) 會在網站上受到追蹤。 每次點選廣告時，AMO ID (`s_kwcid`)引數已新增至登陸頁面URL。 「 」的數量 [!UICONTROL AMO ID Instances]因此，類似於點選次數，可根據實際廣告點選進行驗證。 我們通常看到80%的符合率 [!DNL Search, Social, & Commerce] 和30%符合率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的預期差異，可以用預期的流量行為來解釋。 搜尋會擷取意圖，因此使用者通常打算從他們的查詢按一下搜尋結果。 然而，看過顯示廣告或線上視訊廣告的使用者更有可能無意中點選廣告，然後或是從網站跳出，或是捨棄在追蹤頁面活動之前載入的新視窗。
 
 在Adobe Advertising報表中，您也可使用&quot;[!UICONTROL ef_id_instances]「量度而非 [!UICONTROL AMO ID Instances]：
 

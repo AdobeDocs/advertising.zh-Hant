@@ -3,7 +3,7 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 [^3]：需要與Adobe Analytics整合。 請參閱&quot;[Analytics for Adobe Advertising概述](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).」
 
-[^4]： [!DNL Analytics] 無論您通常用於帳戶的AMO ID格式為何，資料都會使用升級的AMO ID追蹤引數(s_kwcid)傳送至「搜尋、社交和商務」。 如果您通常使用舊版的AMO ID，建議您升級至新的AMO ID格式，以享有最佳的體驗。 不過，即使您的點按數/成本資料和收入資料是使用不同的AMO ID進行追蹤，兩組資料仍會在相同的促銷活動和帳戶下完全分類和彙總。
+[^4]： [!DNL Analytics] 資料會使用升級的AMO ID追蹤引數(開頭為 `s_kwcid`)，無論您通常用於帳戶的AMO ID格式為何。 如果您通常使用舊版的AMO ID，建議您升級至新的AMO ID格式，以享有最佳的體驗。 不過，即使您的點按數/成本資料和收入資料是使用不同的AMO ID進行追蹤，兩組資料仍會在相同的促銷活動和帳戶下完全分類和彙總。

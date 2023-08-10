@@ -3,9 +3,9 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **廣告群組：** 行銷活動的一組廣告及其相關關鍵字、位置和產品群組。
 
 **廣告變數：** 廣告群組或廣告策略內的任何廣告。
+
+**AMO ID：** 允許Adobe Advertising與Adobe Analytics共用行銷活動相關資料的追蹤程式碼。 開頭為 `s_kwcid=`.
 
 **競標單位：** 競標所在單位的搜尋、社交和商務辭彙。 對於大多數網路上的大多數行銷活動，這是搜尋或內容行銷活動的關鍵字及其相符型別、購物行銷活動的單位層級產品群組（最低層級細分），或動態搜尋廣告行銷活動的動態搜尋目標。 當在單一行銷活動中多個廣告群組內發生相同關鍵字和相符型別組合、相同產品群組或相同動態搜尋目標時，所有執行個體都會被視為相同的競標單位，因此會有相同的競標。
 
@@ -166,7 +168,7 @@ ht-degree: 0%
 
 **支出策略：** （具有產品組合的廣告商）為最佳化產品組合的關鍵字/廣告競標而選取的策略。
 
-**`s_kwcid`：** 允許Adobe Advertising與Adobe Analytics共用搜尋促銷活動相關資料的追蹤程式碼。
+**`s_kwcid`：** 請參閱「AMO ID」。
 
 **追蹤URL：** 追蹤範本或目的地URL，內含額外的引數，可追蹤廣告點按的相關資訊。 其中可能包含重新導向URL，可在將使用者重新導向廣告商的登陸頁面之前，先將使用者傳送至追蹤伺服器。
 
