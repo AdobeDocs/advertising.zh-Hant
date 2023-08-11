@@ -3,7 +3,7 @@ title: 實作 [!DNL Google Ads] 最高成效行銷活動
 description: 瞭解設定的工作流程 [!DNL Google Ads] 最高成效行銷活動。
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在 [!DNL Google Ads] 最高成效行銷活動，您不需要設定廣告群組、廣告或關鍵字。 反之，在行銷活動設定中，您需指定一或多個資產群組，包括標題、說明以及上傳的影像、標誌和 [!DNL YouTube videos]. [!DNL Google Ads] 自動結合資產，以根據管道提供廣告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
 
-您可以在下列位置檢視現有的最高成效行銷活動，以表格和趨勢圖表格式呈現成效資料： [!DNL Campaigns] 檢視；資料在較低層級無法使用。 行銷活動層級的成效資料也可在報告和Adobe Analytics中使用(適用於具有 [Analytics整合](/help/integrations/analytics/overview.md). 若要檢視最高成效行銷活動的績效資料，請 [!DNL Analytics]，行銷活動必須使用 [升級AMO ID追蹤代碼](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) （會追蹤促銷活動ID和廣告群組ID）。
+您可以在下列位置檢視現有的最高成效行銷活動，以表格和趨勢圖表格式呈現成效資料： [!DNL Campaigns] 檢視；資料在較低層級無法使用。 行銷活動層級的成效資料也可在報告和Adobe Analytics中使用(適用於具有 [Analytics整合](/help/integrations/analytics/overview.md). 若要檢視最高成效行銷活動的績效資料，請 [!DNL Analytics]，行銷活動必須使用 [升級AMO ID追蹤代碼](/help/integrations/analytics/ids.md#amo-id-formats) （會追蹤促銷活動ID和廣告群組ID）。
 
 >[!NOTE]
 >
