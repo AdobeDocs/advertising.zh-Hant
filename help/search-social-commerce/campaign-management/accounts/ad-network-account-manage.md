@@ -3,7 +3,7 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 * **S_kwcid格式** - (現有 [!DNL Google Ads] 具有Adobe Advertising-Adobe Analytics整合且AMO ID (s_kwcid)尚未移轉的廣告商帳戶
 
-此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 此 [最新格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 包含行銷活動ID和廣告群組ID的引數，這些引數對於在行銷活動和廣告群組層級精確報告是必要的 [!DNL Google Ads] Analytics中的最高成效行銷活動以及草稿和實驗行銷活動：
+此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 此 [最新格式](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) 包含行銷活動ID和廣告群組ID的引數，這些引數對於在行銷活動和廣告群組層級精確報告是必要的 [!DNL Google Ads] Analytics中的最高成效行銷活動以及草稿和實驗行銷活動：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

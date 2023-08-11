@@ -3,7 +3,7 @@ title: 的點選追蹤格式 [!DNL Yandex]
 description: 瞭解的點選追蹤格式 [!DNL Yandex] 帳戶。
 exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -39,4 +39,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID追蹤程式碼的格式](skwcid-tracking-parameter.md)
+>* [AMO ID追蹤程式碼的格式](amo-id-tracking-parameter.md)

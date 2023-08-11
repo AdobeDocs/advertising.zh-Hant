@@ -1,5 +1,5 @@
 ---
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （具有平行追蹤的廣告網路）避免使用巨集，巨集不會取代啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作以新增它們。
 
-* (具有Adobe Advertising-Adobe Analytics整合的廣告商)若要包含AMO ID引數，以將搜尋、社交和商務資料傳送至 [!DNL Analytics]，請參閱 [廣告網路特定格式](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). 不需要手動新增引數 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 具有伺服器端AMO ID實作的帳戶。
+* (具有Adobe Advertising-Adobe Analytics整合的廣告商)若要包含AMO ID引數，以將搜尋、社交和商務資料傳送至 [!DNL Analytics]，請參閱 [廣告網路特定格式](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). 不需要手動新增引數 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 具有伺服器端AMO ID實作的帳戶。

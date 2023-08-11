@@ -3,7 +3,7 @@ title: 更新的AMO ID (s_kwcid)追蹤代碼 [!DNL Google Ads] 帳戶
 description: 瞭解如何切換到的最新AMO ID追蹤程式碼 [!DNL Google Ads] 帳戶。
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]僅限帳戶*
 
-的舊版格式 [AMO ID追蹤代碼](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 適用於現有 [!DNL Google Ads] 帳戶不支援Analytics的某些功能，例如行銷活動和廣告群組層級的報表 [!DNL Google Ads] 最大成效行銷活動、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+比對型別組合的使用案例。
+的舊版格式 [AMO ID追蹤代碼](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) 適用於現有 [!DNL Google Ads] 帳戶不支援Analytics的某些功能，例如行銷活動和廣告群組層級的報表 [!DNL Google Ads] 最大成效行銷活動、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+比對型別組合的使用案例。
 
 最新格式包含行銷活動ID和廣告群組ID的引數：
 
@@ -58,7 +58,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 當 [!UICONTROL Auto Upload]「功能」已在追蹤設定中啟用，搜尋、社交和商務會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤程式碼。 您不必執行任何動作。
 
-   * 當 [!UICONTROL Auto Upload]「功能未啟用，且您沒有使用 [伺服器端AMO ID功能](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)，則您必須在登陸頁面尾碼設定中手動更新AMO ID引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在大量表單中上傳變更來進行。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。
+   * 當 [!UICONTROL Auto Upload]「功能未啟用，且您沒有使用 [伺服器端AMO ID功能](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)，則您必須在登陸頁面尾碼設定中手動更新AMO ID引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在大量表單中上傳變更來進行。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。
 
    * 如果您在任何促銷活動元件的基本URL設定中包含AMO ID，請將其移至相關的登陸頁面尾碼設定。
 
@@ -67,5 +67,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
->* [AMO ID追蹤引數](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+>* [AMO ID追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
 >* [概觀 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
