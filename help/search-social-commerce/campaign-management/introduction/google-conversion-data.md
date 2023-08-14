@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 轉換資料
 description: 瞭解的型別 [!DNL Google Ads] — 追蹤的轉換資料可在Search、Social和Commerce中使用。
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多個帳戶具有相同的轉換名稱，則Adobe Advertising中可能會顯示重複的轉換名稱。 如果發生這種情況， [變更顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md中其中一個重複量度 [!UICONTROL Admin] > [!UICONTROL Conversions]. 當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 如果您有多個帳戶具有相同的轉換名稱，則Adobe Advertising中可能會顯示重複的轉換名稱。 如果發生這種情況， [變更顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) 針對中的其中一個重複量度 [!UICONTROL Admin] > [!UICONTROL Conversions]. 當兩個不同的量度具有相同的名稱時，報表並不準確。
 >* 競標單位層級的資料符合中的資料 [!DNL Google Ads] 在相同層級。 不過， [!DNL Google Ads]&#39;自己的更高層級轉換資料可能包含未歸因至子競標單位的其他轉換。 搜尋、社交和商務中的資料一律會從競標單位層級向上彙整，因此（舉例來說）行銷活動層級報表的總數可能與Google Ads中的行銷活動層級報表不同。
 >* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
 >* 轉換資料不可用於 [!DNL Google Display Network]， [!DNL Gmail]， [!DNL Mobile App]、和 [!DNL YouTube] 廣告。 當您比較以下專案的資料時，請篩除這些型別的廣告： [!DNL Google Ads] 在「搜尋」、「社交」和「商務」中使用資料。
