@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   **附註：**
 
-   * 只有必要的設定可供使用。 如需可選設定，請登入 [!DNL Google Ads] 編輯者。
+   * 只有必要的設定可供使用。 如需選擇性的設定，請登入 [!DNL Google Ads] 編輯者。
 
    * 連結至 [!DNL Google Merchant Center] 不支援產品摘要。
 

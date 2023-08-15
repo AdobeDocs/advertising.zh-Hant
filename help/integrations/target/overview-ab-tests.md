@@ -2,9 +2,9 @@
 title: 在Adobe Target中設定Adobe Advertising廣告的A/B測試
 description: 瞭解如何在中設定A/B測試 [!DNL Target] 用於您的DSP廣告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 * 透過Adobe Analytics中的簡單視覺效果，測量整合通訊對網站上的目標提升度的影響，用於 [!DNL Target].
 
-請參閱下列章節，瞭解先決條件，並取得設定點進和檢視追蹤，以及在DSP和之間實作訊號共用的指示 [!DNL Target] 和設定A/B測試活動，以及設定 [!DNL Analytics] Analysis Workspace以檢視測試資料。
+如需必要條件和指示，請參閱下列章節：設定點進和檢視追蹤，以及在DSP和之間實作訊號共用 [!DNL Target] 和設定A/B測試活動，以及設定 [!DNL Analytics] Analysis Workspace以檢視測試資料。
 
 如果您有其他問題，請聯絡adcloud_support@adobe.com。
 
