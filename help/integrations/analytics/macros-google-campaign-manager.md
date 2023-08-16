@@ -3,7 +3,7 @@ title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign M
 description: 瞭解新增原因和方法 [!DNL Analytics for Advertising] 將巨集新增至 [!DNL Google Campaign Manager 360] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >>* 如果登陸頁面URL包含雜湊符號(#)（這種情況不常見），請放置 `amo` 雜湊符號前的引數。
->* 如果之後未包含其他引數 `amo` 引數，然後在其後面新增引數（例如&amp;a=b）。 範例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* 如果之後未包含其他引數 `amo` 引數，然後在其後面新增引數（例如&amp;a=b）。 範例： `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 設定廣告商層級登陸頁面URL尾碼
 
