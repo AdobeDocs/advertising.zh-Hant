@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobe Advertising使用兩個ID進行網站上的效能追蹤： *EF ID* 和 *AMO ID*.
 
-當廣告曝光發生時，Adobe Advertising會建立AMO ID和EF ID值並加以儲存。 當看過廣告的訪客進入網站而未點按廣告時， [!DNL Analytics] 會從Adobe Advertising呼叫這些值，一直到 [!DNL Analytics for Advertising] JavaScript程式碼。 針對檢視流量， [!DNL Analytics] 產生補充ID (`SDID`)，用於將EF ID和AMO ID彙整至 [!DNL Analytics]. 若為點進流量，這些ID會使用包含在登陸頁面URL中 `s_kwcid` 和 `ef_id` 查詢字串引數。
+當廣告曝光發生時，Adobe Advertising會建立AMO ID和EF ID值並加以儲存。 當看過廣告的訪客進入網站而未點按廣告時， [!DNL Analytics] 會從Adobe Advertising呼叫這些值，一直到 [!DNL Analytics for Advertising] JavaScript程式碼。 針對檢視流量， [!DNL Analytics] 產生補充ID (`SDID`)，用於將EF ID和AMO ID彙整至 [!DNL Analytics]. 若為點進流量，這些ID會使用包含在登陸頁面URL中 `ef_id` 和 `s_kwcid` （適用於AMO ID）查詢字串引數。
 
 Adobe Advertising會使用下列條件來區分網站的點進或檢視專案：
 
 * 當使用者在檢視廣告後造訪網站，但未按一下網站時，則會擷取瀏覽專案。 [!DNL Analytics] 如果符合兩個條件，則會記錄檢視：
+
    * 訪客的「 」沒有點進 [!DNL DSP] 或 [!DNL Search, Social, & Commerce] 廣告時段 [按一下回顧視窗](#lookback-a4adc).
+
    * 訪客已看過至少一個 [!DNL DSP] 廣告時段 [曝光回顧期間](#lookback-a4adc). 最後曝光會以檢視的方式傳遞。
+
 * 當網站訪客在進入網站前按一下廣告時，會擷取點進專案。 [!DNL Analytics] 發生下列任一情況時擷取點進：
+
    * URL包含EF ID和AMO ID，可透過Adobe Advertising新增至登陸頁面URL。
+
    * URL未包含追蹤程式碼，但Adobe AdvertisingJavaScript程式碼會偵測到過去兩分鐘內有人點按。
 
 ![Adobe Advertising檢視型 [!DNL Analytics] 整合](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 AMO ID會在較不精細的層級追蹤每個不重複廣告組合，並用於 [!DNL Analytics] 資料分類以及從Adobe Advertising擷取廣告量度（例如曝光數、點按數和成本）。 AMO ID會儲存在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar維度(AMO ID)，並專門用於 [!DNL Analytics].
 
 AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
+
+### 實作AMO ID的方式
+
+引數會透過下列其中一種方式新增至您的追蹤URL：
+
+* （建議）已實作伺服器端插入功能。
+
+   * DSP客戶：當一般使用者檢視含有Adobe Advertising畫素的顯示廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登入頁面尾碼。
+
+   * 搜尋、社交和商務客戶：
+
+      * 的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定為已啟用帳戶或促銷活動，當一般使用者按一下包含Adobe Advertising畫素的廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼。
+
+      * 針對其他廣告網路，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶與 [!UICONTROL Auto Upload] 設定為停用，手動將引數新增至您的帳戶層級附加引數，以便將其附加至您的基本URL。
+
+* 未實作伺服器端插入功能：
+
+   * DSP客戶：
+
+      * 的 [!DNL Flashtalking] 新增標籤，手動插入其他巨集(根據&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md).」
+
+      * 的 [!DNL Google Campaign Manager 360] 新增標籤，手動插入其他巨集(根據&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md).」
+
+  <!--  * For all other ads, XXXX. -->
+
+   * 搜尋、社交和商務客戶：
+
+      * 針對([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])廣告，手動新增AMO ID引數至您的登陸頁面尾碼。
+
+      * 針對所有其他廣告網路上的廣告，手動將AMO ID引數新增至您的帳戶層級附加引數，以便將其附加至您的基本URL。
+
+若要實施伺服器端插入功能，或決定最適合您企業的選項，請洽詢您的Adobe帳戶團隊。
 
 ### AMO ID格式 {#amo-id-formats}
 
