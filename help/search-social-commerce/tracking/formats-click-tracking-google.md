@@ -3,9 +3,9 @@ title: 的點選追蹤格式 [!DNL Google Ads]
 description: 瞭解的點選追蹤格式 [!DNL Google Ads] 帳戶。
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
+source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定為&quot;[!UICONTROL Auto Upload]」已啟用，則會自動新增引數。 否則，您需要手動新增。 請參閱中的「實作AMO ID的方式」[使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).」
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定為&quot;[!UICONTROL Auto Upload]」已啟用，則會自動新增引數。 否則，您需要手動新增。 請參閱&quot;[使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).」
 
    * 所有其他 [!DNL Google Ads] 帳戶：
 
