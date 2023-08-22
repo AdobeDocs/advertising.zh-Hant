@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
+source-git-commit: 53c2712ff63aabf26b2f9a292ba62e068bf9db22
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023年8月15日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 現在包含&quot;[!UICONTROL Source]「欄」，代表每個量度的來源，例如 [!UICONTROL Adobe Advertising]， [!UICONTROL Adobe Analytics]， [!UICONTROL Google Ads]，或 [!UICONTROL Custom Feed]. | 請參閱&quot;[檢視為廣告商追蹤的轉換量度](conversion-metric-view-tracked.md).」 |
+| 2023年8月15日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 現在包含&quot;[!UICONTROL Source]「欄」，代表每個量度的來源，例如 [!UICONTROL Adobe Advertising]， [!UICONTROL Adobe Analytics]， [!UICONTROL Google Ads]，或 [!UICONTROL Custom Feed]. | 請參閱&quot;[檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).」 |
 | 2023年8月9日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 已重新命名 [!UICONTROL Conversions]. | 請參閱&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).」 |
 |  | [!DNL Google] 轉換追蹤標籤 | 要建立的更新畫面 [!DNL Google] 轉換追蹤標籤可從以下位置取得： [!UICONTROL Admin] > [!UICONTROL Conversions]. 舊版畫面位於 [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] 未來將移除。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
 |  | [!DNL Google] 轉換追蹤標籤 | 當您建立 [!DNL Google] 轉換追蹤標籤，您現在可以指定要追蹤的轉換類別。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
