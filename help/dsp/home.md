@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 237b37a03664abab00c9fd4b68a564a0f57cdc5c
+source-git-commit: 28fec5b3c22ebb2475a830951de9b058cf1427c2
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023年8月23日 | [!UICONTROL Placements] | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[下載試算表中的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[位置設定已下載/上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，」和「[在試算表中上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
+|  | [!UICONTROL Custom Reports] | 自訂報表現在具有 [!UICONTROL End Date]，最多可相隔4個月。 若為現有報告，到期日為2023年9月24日。<br><br>在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。 | 請參閱&quot;[編輯自訂報告](/help/dsp/reports/report-edit.md)「和」[自訂報表設定](/help/dsp/reports/report-settings.md).」 |
 | 2023年7月19日 | 詳細目錄 | 您現在可以透過Google授權買家SSP針對程式化預留交易執行發佈者管理的廣告。 您可以直接向發佈商代管您的廣告，而不用在DSP中，善用自訂的豐富媒體廣告格式。 自訂廣告格式通常透過直接預訂執行，因此在DSP中選取由發佈商管理的廣告的功能也可讓您將直接預訂預算轉移到程式化生態系統。 | 請參閱&quot;[關於程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-about.md)「和」[設定程式化保證交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md).」 |
 | 2023年7月19日 | 報告 | 新的 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)「和」[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md).」 |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您現在可以暫停或啟用行銷活動、套件和廣告。 您已經可以暫停並啟用版位。 | 請參閱&quot;[暫停或啟用行銷活動](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)，&quot; &quot;[暫停或啟動封裝](/help/dsp/campaign-management/packages/package-pause-activate.md)，」和「[暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md).」 |
