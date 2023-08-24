@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** 報表名稱。 長度上限為180個字元。
 
-**[!UICONTROL Report Type]** 報表型別： *[!UICONTROL Custom]* （包括最可用的選項）、 *[!UICONTROL Billing]*， *[!UICONTROL Conversion]*， *[!UICONTROL Device]*， *[!UICONTROL Frequency (by Impression)]*，  *[!UICONTROL Frequency (by App/Site)]*， *[!UICONTROL Geo]*， *[!UICONTROL Margin]*， *[!UICONTROL Media Performance]*，  *[!UICONTROL Segment]*， *[!UICONTROL Site]*， *[!UICONTROL Household Reach & Frequency]*，或 *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]** 報表型別： *[!UICONTROL Custom]* （其中包含大多數可用選項）、 *[!UICONTROL Billing]*， *[!UICONTROL Conversion]*， *[!UICONTROL Device]*， *[!UICONTROL Frequency (by Impression)]*，  *[!UICONTROL Frequency (by App/Site)]*， *[!UICONTROL Geo]*， *[!UICONTROL Margin]*， *[!UICONTROL Media Performance]*，  *[!UICONTROL Segment]*， *[!UICONTROL Site]*， *[!UICONTROL Household Reach & Frequency]*，或 *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] 章節
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 **\[日期範圍\]：** 要產生資料的日期範圍。 可用天數因報表和所選維度而異。 選擇一項：
 
-* **[!UICONTROL Previous N days]：** 包含今天之前特定天數的資料。
+* **[!UICONTROL Previous N days]：** 包括今天之前特定天數的資料。
 
 * **[!UICONTROL Custom]：** 包含特定開始和結束日期之間的資料。 若要報告前一天的資料，請選取 **[!UICONTROL Present]**.
 
-* **[!UICONTROL Last Calendar Month]：** 包含上一個日曆月的資料。
+* **[!UICONTROL Last Calendar Month]：** 包含前一個日曆月的資料。
 
 **[!UICONTROL Add Filters]：** （選用）篩選資料所依據的其他維度，無論這些維度是否作為欄包含在報表中。 可用的篩選器因報告型別而異，可能包括： *[!UICONTROL Account]*\*， *[!UICONTROL Ad Type]*， *[!UICONTROL Ads]*， *[!UICONTROL Advertiser]*， *[!UICONTROL Campaign]*， *[!UICONTROL Country]*， * *[!UICONTROL Package]*， *[!UICONTROL Placement]*， *[!UICONTROL Video]*、和 *[!UICONTROL Video Duration]*.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Build Your Report] 章節
 
-**[!UICONTROL Select To Add As Report Headers]：**  要納入報表中的資料欄或標題。 若要新增欄，請展開類別並選取欄名稱旁的核取方塊。 可用欄會因報告而異，並且所有無法使用的量度都會停用。 可用的資料類別包括：
+**[!UICONTROL Select To Add As Report Headers]：**  要包含在報表中的資料欄或標題。 若要新增欄，請展開類別並選取欄名稱旁的核取方塊。 可用的欄會依報告而有所不同，並且所有無法使用的量度都會停用。 可用的資料類別包括：
 
 * [!UICONTROL Dimensions]
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 * [!UICONTROL Custom Goals] （依廣告商排序）
 
-請參閱「[可用的報告欄](report-columns.md)」以取得所有選項的說明。
+請參閱&quot;[可用報表欄](report-columns.md)」以取得所有選項的說明。
 
-**[!UICONTROL Drag to Re-Order Report Headers Below]：** 欄標題的順序。 您可以拖放任何欄來自訂順序。
+**[!UICONTROL Drag to Re-Order Report Headers Below]：** 欄標題的順序。 您可以拖放任何欄以自訂順序。
 
 **[!UICONTROL Format]：** 是否在中產生報表 *[!UICONTROL CSV]* （逗號分隔值）或 *[!UICONTROL Tab]* （以Tab分隔的值）格式。
 
@@ -70,43 +70,43 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] 章節
 
-**[!UICONTROL Attribution Rule Settings]：** 設定會因報告型別而異：
+**[!UICONTROL Attribution Rule Settings]：** 設定會依報告型別而異：
 
-* **\[歸因型別\]：** ([!UICONTROL Household Conversion] 報告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何將轉換資料歸因於一連串導致轉換的事件：
+* **\[歸因型別\]：** ([!UICONTROL Household Conversion] 報告與 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何將轉換資料歸因到導致轉換的一系列事件中：
 
    * *[!UICONTROL Unique]：* （預設）計算維度值（例如裝置或位置）在轉換路徑上的次數。
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*  根據維度值（例如裝置或位置）在轉換路徑上的出現頻率，分配每個轉換的評分。 例如，如果在轉換前總共有10次曝光，其中8次在CTV上，2次在Mobile上，則80%的評分(0.8)會提供給CTV熒幕，而0.2次提供給Mobile。
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*  根據轉換路徑上維度值（例如裝置或位置）的發生頻率，分配每個轉換的評分。 例如，如果在轉換前共有10次曝光，其中8次在CTV上，2次在行動裝置上，則80%的評分(0.8)會給予予CTV熒幕，而0.2次給予行動裝置。
 
-* **\[規則型別\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 報告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何將轉換資料歸因於一連串導致轉換的事件。 如果要比較規則之間的差異，您可以選擇多個規則。
+* **\[規則型別\]：** (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 報告與 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何將轉換資料歸因到導致轉換的一系列事件中。 如果要比較規則之間的差異，您可以選擇多個規則。
 
   >[!NOTE]
   >
-  >轉換路徑包含廣告商曝光次數或點按回顧期間內的任何曝光次數和點按，這些設定於 [!DNL Advertising Search, Social, & Commerce]. 在轉換歸因期間，點按次數會優先於曝光次數。 根據歸因規則，轉換路徑中的任何點按都會獲得完整評價。 只有轉換路徑中未追蹤任何點選時，曝光次數才會獲得評分。
+  >轉換路徑包含廣告商曝光數或點按回顧期間內的任何曝光數和點按，這些設定於 [!DNL Advertising Search, Social, & Commerce]. 在轉換歸因期間，點按次數會優先於曝光數。 根據歸因規則，轉換路徑中的任何點按都會獲得完整評價。 只有轉換路徑中未追蹤任何點按時，曝光次數才會獲得評分。
 
    * *[!UICONTROL Last Event]：* 將轉換歸因於轉換路徑中的最後點按或印象。
 
-   * *[!UICONTROL Weight Last More]：* 將轉換歸因於轉換路徑中的所有事件，但給予最後一個事件最多的權重，並連續給予前一個事件較少的權重。
+   * *[!UICONTROL Weight Last More]：* 將轉換歸因於轉換路徑中的所有事件，但給予最後一個事件最大的權重，並連續減少先前事件的權重。
 
-   * *[!UICONTROL Even Distribution]：* 將轉換同等地歸因於轉換路徑中的每個事件。
+   * *[!UICONTROL Even Distribution]：* 將轉換平均歸因於轉換路徑中的每個事件。
 
-   * *[!UICONTROL Weight First More]：* 將轉換歸因於轉換路徑中的所有事件，但給予第一個事件最多的權重，並連續給予以下事件較少的權重。
+   * *[!UICONTROL Weight First More]：* 將轉換歸因於轉換路徑中的所有事件，但給予第一個事件最大的權重，並連續減少下列事件的權重。
 
    * *[!UICONTROL First Event]：* 將轉換歸因於轉換路徑中的第一次點按或印象。
 
-   * *[!UICONTROL U-shaped]：* 將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，連續給予轉換路徑中間事件的權重較小。
+   * *[!UICONTROL U-shaped]：* 將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，給予轉換路徑中間事件的權重則依次較低。
 
-   * *[!UICONTROL Display Only]：*  將轉換歸因於轉換路徑中的上次DSP點按或印象。 這包括視訊和連線電視廣告，並排除點按 [!DNL Advertising Search, Social, & Commerce] 廣告。
+   * *[!UICONTROL Display Only]：*  將轉換歸因於轉換路徑中的最後一個DSP點按或曝光次數。 這包括視訊和連線電視廣告，並排除點選次數 [!DNL Advertising Search, Social, & Commerce] 廣告。
 
    * *[!UICONTROL Social Only]：* 已過時
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **回顧：** ([!UICONTROL Household Conversion] 報告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，轉換事件可歸因於曝光事件的最大天數。 預設值為 *[!UICONTROL 30 days]*，最大值為92天。
+* **回顧：** ([!UICONTROL Household Conversion] 報告與 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，轉換事件可歸因於曝光事件的最大天數。 預設值為 *[!UICONTROL 30 days]*，最大為92天。
 
-**[!UICONTROL Paths as Columns]：**  (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 報告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄)相同裝置上發生先前事件時要報告的轉換型別。 您最多可以包含三種型別。 對於每個選取的型別，每個轉換量度都會有一個單獨的欄，並附加指定的尾碼([!UICONTROL (tl)]， [!UICONTROL (ct)]，或 [!UICONTROL (vt)])：
+**[!UICONTROL Paths as Columns]：**  (全部 [!UICONTROL Custom]， [!UICONTROL Conversion]， [!UICONTROL Device]， [!UICONTROL Geo]， [!UICONTROL Segment]、和 [!UICONTROL Site] 報告與 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄)相同裝置上發生先前事件時要報告的轉換型別。 您最多可以包含三種型別。 對於每個選取的型別，每個轉換量度都會包含個別的欄，並附加指定的尾碼([!UICONTROL (tl)]， [!UICONTROL (ct)]，或 [!UICONTROL (vt)])：
 
-* *[!UICONTROL Total (TL) = CT + VT \* VT weight]：* 包含歸因於點按次數（點進為CT）和曝光數（點進為VT）的轉換。 歸屬於曝光的轉換次數會乘以指定的瀏覽權數。 預設的閱覽權重為100%，這表示歸屬於曝光的轉換會計算為歸屬於點按的轉換值的100%。
+* *[!UICONTROL Total (TL) = CT + VT \* VT weight]：* 包含歸因於點按次數（點進為CT）和曝光數（點進為VT）的轉換。 歸屬於曝光的轉換次數會乘以指定的瀏覽權數。 預設的閱覽權重為100%，這表示歸因於曝光的轉換會計為歸因於點按的轉換值的100%。
 
 * *[!UICONTROL With Clicks (CT)]：* 僅包含歸因於點按的轉換。
 
@@ -122,19 +122,19 @@ ht-degree: 0%
 
 **[!UICONTROL Destination Type]：** 選擇下列其中一個目的地型別：
 
-* *[!UICONTROL S3]：* 若要將完成的報表傳送至一或多個 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您會在 **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL sFTP]：* 若要將完成的報表傳送至一或多個SFTP位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL S3]：* 若要將完成的報表傳送至一或多個 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL sFTP]：* 若要將完成的報表傳送至一或多個SFTP位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
 * *[!UICONTROL FTP]：* 若要將完成的報表傳送至一或多個FTP位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL FTP SSL]（目前為測試版）：* 若要將完成的報表傳送至一或多個FTP SSL位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL FTP SSL]（目前為測試版）：* 若要將完成的報表傳送至一或多個FTP SSL位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
 * *[!UICONTROL Email]：* 若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。 若要指定多個地址，請以逗號或空格加以分隔。
 
 >[!NOTE]
 >
 > 儲存報表後，就無法變更目的地型別。
 
-**[!UICONTROL Destination Name]：** （僅限S3、FTP、sFTP和FTP SSL目的地型別）自訂報表將傳送到的報表目的地名稱。
+**[!UICONTROL Destination Name]：** （僅限S3、FTP、sFTP和FTP SSL目的地型別）自訂報表將傳送到的報表目的地的名稱。
 
-* 若要指定現有的目的地，請從清單中選取一個目的地名稱。 您可以分別選取多個目的地名稱。
+* 若要指定現有的目的地，請從清單中選取目的地名稱。 您可以分別選取多個目的地名稱。
 
 * 若要建立新的目的地：
 
@@ -146,11 +146,11 @@ ht-degree: 0%
 
       新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
 
-**[!UICONTROL Frequency]：** (針對每個 [!UICONTROL Destination Name] 將報表傳送至目的地的頻率： *[!UICONTROL Once]*， *[!UICONTROL Daily]*， *[!UICONTROL Weekly]*，或 *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]：** (針對每個 [!UICONTROL Destination Name])將報表傳送至目的地的頻率： *[!UICONTROL Once]*， *[!UICONTROL Daily]*， *[!UICONTROL Weekly]*，或 *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] 章節
 
-**[!UICONTROL Send & Save]：** 何時傳送報表： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 排程報表會在09:00前在帳戶的時區傳送。
+**[!UICONTROL Send & Save]：** 何時傳送報表： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 排程報表在帳戶時區的09:00傳送。
 
 >[!NOTE]
 >
@@ -160,9 +160,9 @@ ht-degree: 0%
 >
 >* [關於自訂報表](/help/dsp/reports/report-about.md)
 >* [建立自訂報表](/help/dsp/reports/report-create.md)
->* [複製自訂報表](/help/dsp/reports/report-copy.md)
+>* [複製自訂報告](/help/dsp/reports/report-copy.md)
 >* [編輯自訂報告](/help/dsp/reports/report-edit.md)
 >* [執行自訂報表](/help/dsp/reports/report-run-now.md)
 >* [自訂報表設定](/help/dsp/reports/report-settings.md)
 >* [關於報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [可用的報告欄](/help/dsp/reports/report-columns.md)
+>* [可用報表欄](/help/dsp/reports/report-columns.md)

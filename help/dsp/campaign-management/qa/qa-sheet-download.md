@@ -1,42 +1,42 @@
 ---
-title: 下載市場活動的位置設定
-description: 瞭解如何使用Excel QA電子錶格下載市場活動的位置設定。
+title: 下載行銷活動的版位設定
+description: 瞭解如何使用Excel QA試算表下載行銷活動的版位設定。
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# 下載市場活動的位置設定
+# 下載行銷活動的版位設定
 
-您可以以XLSX（Excel電子錶格）格式下載市場活動的放置設定。
+您可以下載XLSX （Excel試算表）格式的促銷活動版位設定。
 
-如有必要，您以後可以編輯 [選擇欄位](qa-sheet-columns.md) 下載的檔案和 [上載更改](qa-sheet-upload.md) 到DSP。
+如有需要，您稍後可以編輯 [選取欄位](qa-sheet-columns.md) 在下載的檔案和 [上傳變更](qa-sheet-upload.md) 至DSP。
 
-1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 執行下列任一操作：
+1. 執行下列任一項作業：
 
-   * 在市場活動名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**。
+   * 在行銷活動名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * 按一下市場活動名稱以查看市場活動詳細資訊。 在右上角，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**。
+   * 按一下行銷活動名稱以檢視行銷活動詳細資料。 在右上角，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   通知消息指示檔案何時可以下載。
+   通知訊息會指出檔案何時可供下載。
 
-1. 執行下列任一操作：
+1. 執行下列任一項作業：
 
-   * 在通知消息中，按一下 **[!UICONTROL Download]。**
+   * 在通知訊息中，按一下 **[!UICONTROL Download].**
 
-   * 在頂部菜單欄的右側，按一下 ![作業](/help/dsp/assets/downloads.png)。 按一下 **[!UICONTROL Download]** 在工作旁邊。
-   該檔案將保存到瀏覽器的「下載」資料夾中。 請參閱「」[已下載/已上載電子錶格中的列](qa-sheet-columns.md)清單。
+   * 在頂端功能表列的右側，按一下 ![工作](/help/dsp/assets/downloads.png). 按一下 **[!UICONTROL Download]** 位於工作旁。
+
+   檔案會儲存至瀏覽器的「下載」資料夾。 請參閱&quot;[已下載/已上傳試算表中的欄](qa-sheet-columns.md)&quot;，以取得包含欄的清單。
 
 >[!MORELIKETHIS]
 >
->* [關於使用電子錶格更正市場活動的位置設定](qa-about.md)
->* [上載市場活動的位置設定](qa-sheet-upload.md)
->* [已下載/已上載電子錶格中的列](qa-sheet-columns.md)
->* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [關於使用試算表更正行銷活動的版位設定](qa-about.md)
+>* [上傳行銷活動的版位設定](qa-sheet-upload.md)
+>* [已下載/已上傳試算表中的欄](qa-sheet-columns.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

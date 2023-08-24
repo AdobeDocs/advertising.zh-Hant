@@ -3,9 +3,9 @@ title: 系統需求
 description: 瞭解軟體和帳戶需求。
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ ht-degree: 0%
 
 若要登入，您需要使用者名稱和密碼。 您的Adobe帳戶團隊會設定您的使用者帳戶，並建立您的使用者名稱和密碼。
 
-## 電腦和瀏覽器語言設定
+## 電腦和瀏覽器設定
+
+### 瀏覽器網站設定
+
+若要檢視某些廣告/資產型別的影像預覽，請停用 `efrontier.com` 允許網站例外狀況的網域。 在瀏覽器的網站/網站設定中或（在Firefox中）編輯您已安裝的任何廣告封鎖程式瀏覽器擴充功能的設定，以管理廣告封鎖程式。
+
+### 電腦和瀏覽器語言設定
 
 下列資訊決定要使用哪些字元集，以及要使用哪些格式來顯示數字、日期、時間和貨幣：
 
