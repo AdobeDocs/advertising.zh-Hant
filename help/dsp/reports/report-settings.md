@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ ht-degree: 0%
 * *[!UICONTROL sFTP]：* 若要將完成的報表傳送至一或多個SFTP位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
 * *[!UICONTROL FTP]：* 若要將完成的報表傳送至一或多個FTP位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
 * *[!UICONTROL FTP SSL]（目前為測試版）：* 若要將完成的報表傳送至一或多個FTP SSL位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL Email]：* 若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。 若要指定多個地址，請以逗號或空格加以分隔。
+* *[!UICONTROL Email]：* 若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
 >[!NOTE]
 >
 > 儲存報表後，就無法變更目的地型別。
+
+**[!UICONTROL Email]：** （僅限電子郵件目的地型別）針對每個地址，輸入地址並按一下 **+**.
 
 **[!UICONTROL Destination Name]：** （僅限S3、FTP、sFTP和FTP SSL目的地型別）自訂報表將傳送到的報表目的地的名稱。
 
@@ -148,9 +150,13 @@ ht-degree: 0%
 
 **[!UICONTROL Frequency]：** (針對每個 [!UICONTROL Destination Name])將報表傳送至目的地的頻率： *[!UICONTROL Once]*， *[!UICONTROL Daily]*， *[!UICONTROL Weekly]*，或 *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]：** (針對每個 [!UICONTROL Destination Name] 與 [!UICONTROL Frequency] 之 *[!UICONTROL Weekly]* 或 *[!UICONTROL Monthly]*)產生報表的日期。 若是每週報告，請選取一週中的某天。 對於月報表，請選取月份的數值日。
+
 ## [!UICONTROL Save Report] 章節
 
-**[!UICONTROL Send & Save]：** 何時傳送報表： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 排程報表在帳戶時區的09:00傳送。
+**[!UICONTROL When to Generate]：** 何時產生報表： *[!UICONTROL On Schedule]* 或 *[!UICONTROL Run Now]*. 排程報表在帳戶時區的09:00傳送。
+
+**[!UICONTROL End Date]：** 報告到期日，最長可隔四個月。 在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。
 
 >[!NOTE]
 >
