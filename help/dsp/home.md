@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -15,10 +15,6 @@ ht-degree: 0%
 # 新增功能
 
 下列是新的或最近變更的功能。
-
-<!--
-| ?? August 2023| Placement Forecasting | The [!UICONTROL Forecast] section of the placement settings includes a new XXX section, which indicates XXX. | &mdash; |
--->
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
@@ -33,7 +29,7 @@ ht-degree: 0%
 | 2023年1月25日 | [!UICONTROL Deals] | 「詳細目錄>交易」檢視報告中的新「PG曝光步調」支出欄會設定保證交易的步調。 | 請參閱&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).」 |
 | 2023年1月4日 | [!UICONTROL Campaigns] | 現在每個促銷活動都可使用變更記錄，其中顯示所選日期範圍內進行的變更。 變更記錄檔已可供套件和位置使用。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)「。」 |
 | 2022年12月14日 | 版位、廣告 | （開放Beta版功能）新增»[!UICONTROL Universal Video]「版位和廣告可讓您使用單一視訊版位，針對VPAID和VAST詳細目錄鎖定多個裝置環境。<br><br>通用視訊位置包含「裝置環境」設定，用以指定裝置型別目標([!UICONTROL Desktop]， [!UICONTROL Mobile]、和 [!UICONTROL Connected TV])。 通用視訊廣告只能連結至通用視訊版位。<br><br>自訂報表包含新的位置層級維度「裝置環境」。 | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)「和」[可用報表欄](/help/dsp/reports/report-columns.md).」<br><br>另請參閱&quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)「和」[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
-| 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視現在包含&quot;[!UICONTROL Deal Health]「欄，表示每個私人交易的健康狀態： 」[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，」或&quot;[!UICONTROL Unavailable].」 您可以按一下狀態來檢視更多詳細資料，包括交易未按預期執行或支出的原因以及疑難排解潛在問題的步驟。 | — |
+| 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視現在包含&quot;[!UICONTROL Deal Health]「欄，表示每個私人交易的健康狀態： 」[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，」或&quot;[!UICONTROL Unavailable].」 您可以按一下狀態來檢視更多詳細資訊，包括交易未按預期執行或支出的原因以及疑難排解潛在問題的步驟。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 現在每個封裝和位置都可使用變更記錄，其中顯示所選日期範圍內所做的變更。 | 請參閱&quot;[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)「和」[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
 |  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個位置。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 |  |  | 一個&quot;[!UICONTROL Intraday Pacing]「欄」可在Excel QA試算表中使用。 | 請參閱&quot;[已下載/已上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md).」 |
@@ -74,7 +70,7 @@ ht-degree: 0%
 | 7 /June 2021 | Help | Instructions are available for running ads using programmatic guaranteed deals with publishers on [!DNL FreeWheel]. | See "[Overview of Setting up Programmatic Guaranteed Deals in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] Programmatic Guaranteed Deals](/help/dsp/inventory/freewheel-check-status.md)," and "[Error Codes for [!DNL FreeWheel] Ad Submissions](/help/dsp/inventory/freewheel-error-codes.md)." |
 | 27 May 2021 | Help | Guidelines are available for acceptable health-related audience segments and tactics to use as alternatives to targeting health-related audience segments. | See "[Acceptable Health Segment Guidelines](/help/policies/health-segment-guidelines.md)." |
 | 26 May 2021 | Help | The chapter "Integrations with Adobe Experience Cloud" is now a separate guide, available from the [Adobe Advertising documentation homepage](https://experienceleague.adobe.com/docs/advertising.html). The new guide includes a new subchapter on "Working in [!DNL Analytics Marketing Channels]."<br>The table of contents for this DSP Guide includes a link to the new guide. | See "[Integrations with Adobe Experience Cloud](/help/integrations/home.md)." |
-| 24 May 2021 | Help | In the "Campaign Management" chapter, new topics are available on how to review and edit key placement settings for a campaign using Excel QA spreadsheets. | See "[About Correcting Placement Settings for a Campaign Using Spreadsheets](/help/dsp/campaign-management/qa/qa-about.md), "[Download Placement Settings for a Campaign](/help/dsp/campaign-management/qa/qa-sheet-download.md)," "[Upload Placement Settings for a Campaign](/help/dsp/campaign-management/qa/qa-sheet-upload.md), and "[Columns in Downloaded/Uploaded Spreadsheets](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
+| 24 May 2021 | Help | In the "Campaign Management" chapter, new topics are available on how to review and edit key placement settings for a campaign using Excel QA spreadsheets. | See "[About Correcting Placement Settings Using Spreadsheets](/help/dsp/campaign-management/qa/qa-about.md), "[Download Placement Settings in a Spreadsheet](/help/dsp/campaign-management/qa/qa-sheet-download.md)," "[Upload Placement Settings in a Spreadsheet](/help/dsp/campaign-management/qa/qa-sheet-upload.md), and "[Columns in Downloaded/Uploaded Spreadsheets](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
 | 5 May 2021 | Package Settings | A new Pacing Fill Strategy option, 'Slightly Ahead," is available and is the default for new packages. This strategy accelerates delivery so that it’s 55-65% complete halfway through the flight duration. | See "[Package Settings](/help/dsp/campaign-management/packages/package-settings.md)." |
 | 17 March 2021 | Help | The "Campaign Management" chapter has been expanded to include many more procedures and references. | In the table of contents, open the "Campaign Management" chapter and subsections. |
 | 10 March 2021 | Inventory | You can no longer create [!UICONTROL Smart Ad Serving] deals using VAST tags. Instead, ask your publisher if they can run your private deal via a deal ID. You can import deal IDs directly from the publisher using the [!UICONTROL Deal ID inbox] or enter your deal details manually.<br><br>Your existing Smart Ad Serving deals are still available but will be sunset later this year. | See "[About the [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)" and "[Manually Create [!UICONTROL Deal ID] Details](/help/dsp/inventory/deal-id-create.md)" |
