@@ -3,18 +3,16 @@ title: 設定效能行銷活動的最佳實務
 description: 瞭解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # 設定效能行銷活動的最佳實務
 
-DSP可以針對具有最低每次收購成本(CPA)或最高廣告投資報酬率(ROAS)的刊登版位，最佳化以效能為中心的行銷活動。
-
-請參閱下列效能行銷活動的最佳實務：
+DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷活動的最佳實務：
 
 * 步驟1 — 定義目標
 * 步驟2 — 定義策略
@@ -24,7 +22,7 @@ DSP可以針對具有最低每次收購成本(CPA)或最高廣告投資報酬率
 
 ## 步驟1 — 定義您的目標
 
-瞭解行銷活動的目標很重要，例如達成最高可能的ROAS或最低可能的CPA。 績效行銷活動具有 [最佳化目標](/help/dsp/optimization/optimization-goals.md) 結尾為&quot;[!UICONTROL - Custom Goal]&quot; (例如&quot;[!UICONTROL Highest ROAS - Custom Goal]「)。 對於行銷活動中的每個套件，您將會相應地指定目標目標。
+瞭解行銷活動的目標很重要，例如達成最高可能的ROAS或最低可能的CPA。 績效行銷活動具有 [最佳化目標](/help/dsp/optimization/optimization-goals.md) 結尾為&quot;[!UICONTROL - Custom Goal]&quot; (例如&quot;[!UICONTROL Highest ROAS - Custom Goal]「)。 您將針對行銷活動中的每個套件，相應地指定最佳化目標。
 
 ![最佳化目標](/help/dsp/assets/optimization-goals.png)
 
