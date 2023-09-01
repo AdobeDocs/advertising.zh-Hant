@@ -3,9 +3,9 @@ title: 建立 [!DNL Google Ads] 客戶比對來自的對象 [!DNL Adobe] 對象
 description: 瞭解如何建立 [!DNL Google Ads] 客戶比對來自您現有Adobe Analytics和Audience Manager對象的對象。
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 視需要完成必要條件：
 
-   1. （若要建立使用者ID再行銷清單對象） A [!DNL Adobe] 管理員使用者或帳戶管理員必須選取廣告商層級的設定，以啟用客戶比對受眾。 設定在具有Audience Manager的廣告商和具有 [!DNL Analytics] 僅限。
+   1. （若要建立使用者ID再行銷清單對象） A [!DNL Adobe] 管理員使用者或帳戶管理員必須選取廣告商層級的設定，以啟用客戶比對受眾。
 
    1. 實作 [Adobe Experience Platform Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 版本2.0或更新版本。
 
@@ -40,7 +40,9 @@ ht-degree: 0%
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      位置 `Advertising_Cloud_UserID` 是指派給廣告商的不重複使用者ID。 範例：  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      位置 `Advertising_Cloud_UserID` 是指派給廣告商的不重複數值使用者ID。
+
+      範例： `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. （如果尚未完成）授權使用者必須將廣告商帳戶設定為 [在Adobe Experience Cloud中與廣告商的組織帳戶同步](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
