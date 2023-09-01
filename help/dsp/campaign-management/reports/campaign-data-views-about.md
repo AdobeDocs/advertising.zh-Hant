@@ -1,50 +1,50 @@
 ---
-title: 關於市場活動資料視圖
-description: 瞭解如何為市場活動、包、放映和廣告自定義資料視圖。
+title: 關於Campaign資料檢視
+description: 瞭解如何自訂行銷活動、套件、版位和廣告的資料檢視。
 feature: DSP Campaign Data Views
 exl-id: 125f8f49-2fa3-4838-82dc-4760d2ea9c7e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 16081f3ec55eb6d2d42927e440fba17cd0f4265c
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# 關於市場活動資料視圖
+# 關於Campaign資料檢視
 
-在所有市場活動管理視圖中([!UICONTROL Campaigns]。 [!UICONTROL Packages]。 [!UICONTROL Placements], [!UICONTROL Ads])，您可以自定義資料表中顯示的資料。 可以通過以下方式自定義資料：
+在所有行銷活動管理檢視中([!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads])，您可以自訂顯示在資料表格中的資料。 您可以透過下列方式自訂資料：
 
-* 通過從視圖選擇器中選擇視圖、編輯現有視圖中的列以臨時應用更改或建立自定義列視圖，指定資料列及其順序。
+* 從檢視選取器選取檢視、編輯現有檢視中的欄以暫時套用變更，或建立自訂欄檢視，以指定資料欄及其順序。
 
-   每個市場活動管理級別([!UICONTROL Campaigns]。 [!UICONTROL Packages]。 [!UICONTROL Placements], [!UICONTROL Ads])包括內置 [!UICONTROL Pacing] 和 [!UICONTROL Performance] 包含該實體的相關度量的視圖。 預設情況下， [!UICONTROL Pacing] 此時將顯示視圖，以便您可以一覽式地確定執行不足的市場活動和市場活動元件。 您可以選擇 [更改列視圖](column-view-change.md) 查看效能資料(使用 [!UICONTROL Performance] 或任何已保存的列集。 您可以選擇 [編輯列](column-view-edit.md) 的 [!UICONTROL Pacing] 或 [!UICONTROL Performance] 視圖以臨時應用更改。
+  每個行銷活動管理層級([!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads])包含內建 [!UICONTROL Pacing] 和 [!UICONTROL Performance] 包含該實體相關度量的檢視。 根據預設， [!UICONTROL Pacing] 檢視會顯示，以便您一眼即可識別表現不佳的行銷活動和行銷活動元件。 您可以選擇性 [變更欄檢視](column-view-change.md) 若要檢視效能資料(使用 [!UICONTROL Performance] 檢視)或任何儲存的欄集。 您可以選擇性 [編輯欄](column-view-edit.md) 在 [!UICONTROL Pacing] 或 [!UICONTROL Performance] 檢視以暫時套用變更。
 
-   您還可以保存 [自定義列集](column-view-create.md) 按任意順序包含任何列。
+  您也可以儲存 [自訂欄集](column-view-create.md) 包括任何想要的欄。
 
-   ![列視圖選擇器](/help/dsp/assets/column-view-selector.png)
+  ![欄檢視選擇器](/help/dsp/assets/column-view-selector.png)
 
-   在列視圖編輯器中，所有度量都按類別的字母順序排列： [!UICONTROL Settings]。 [!UICONTROL Spend]。 [!UICONTROL Pacing]。 [!UICONTROL Reporting] (跟蹤的標DSP準度量), [!UICONTROL Viewability], [!UICONTROL Conversions]。 附加了「([!UICONTROL Lifetime])&quot;返回市場活動開始時的值，而不考慮在頁面上選擇的日期範圍。
+  在欄檢視編輯器中，所有量度都是依類別的字母順序排列： [!UICONTROL Settings]， [!UICONTROL Spend]， [!UICONTROL Pacing]， [!UICONTROL Reporting] (DSP追蹤的標準量度)、 [!UICONTROL Viewability]、和 [!UICONTROL Conversions]. 量度附加了「(」[!UICONTROL Lifetime])」從行銷活動開始傳回值，無論頁面上選取的日期範圍為何。
 
-   ![列視圖編輯器](/help/dsp/assets/column-view-editor.png)
+  ![欄檢視編輯器](/help/dsp/assets/column-view-editor.png)
 
-   將DSP最近的視圖保存為預設視圖，這樣，每次返回頁面時，您都將始終查看與您相關的度量。
+  DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面時，都會檢視與您相關的測量結果。
 
-* 應用 [篩選](campaign-data-filter.md) 更改當前頁籤上顯示的資料。 可用篩選器因實體類型而異，但可能包括實體名稱、狀態和其他屬性列。
+* 套用 [篩選器](campaign-data-filter.md) 變更目前標籤上顯示的資料。 可用的篩選器會依實體型別而異，但可能包括實體名稱、狀態和其他屬性欄。
 
-* 更改所有標準視圖和自定義視圖中使用的日期範圍。
+* 變更用於所有標準和自訂檢視的日期範圍。
 
-* [按任意列中的值對資料排序](campaign-data-sort.md)。
+* [依任何欄中的值排序資料](campaign-data-sort.md).
 
-* 控制是在任意頁面右下角顯示25行、50行還是100行。
+* 控制要在任何頁面的右下角顯示25列、50列或100列。
 
 >[!MORELIKETHIS]
 >
->* [關於平台內報告](campaign-reports-about.md)
->* [更改列視圖](column-view-change.md)
->* [建立自定義列視圖](column-view-create.md)
->* [編輯自定義列視圖](column-view-edit.md)
->* [管理資料可視化](campaign-data-visualization-manage.md)
->* [查看位置的站點、廣告和頻率詳細資訊](placement-details-view.md)
->* [查看放置診斷報告](placement-diagnostics.md)
->* [從Campaign Management視圖導出資料](campaign-export-data.md)
->* [視頻：帳DSP戶結構和用戶介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [關於平台內報表](campaign-reports-about.md)
+>* [變更欄檢視](column-view-change.md)
+>* [建立自訂欄檢視](column-view-create.md)
+>* [編輯自訂欄檢視](column-view-edit.md)
+>* [管理資料視覺效果](campaign-data-visualization-manage.md)
+>* [檢視位置的網站、廣告和頻率詳細資訊](placement-details-view.md)
+>* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [檢視位置診斷報告](placement-diagnostics.md)
+>* [從Campaign Management檢視匯出資料](campaign-export-data.md)
+>* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

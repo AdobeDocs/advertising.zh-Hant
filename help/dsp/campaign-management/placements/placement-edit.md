@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,7 @@ ht-degree: 0%
 >* [暫停或啟動位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
+>* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [關於使用試算表校正位置設定](/help/dsp/campaign-management/qa/qa-about.md)
 >* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
