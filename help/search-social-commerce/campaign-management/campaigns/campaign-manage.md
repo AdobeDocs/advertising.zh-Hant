@@ -3,7 +3,7 @@ title: 管理行銷活動
 description: 瞭解如何建立和管理廣告行銷活動。
 exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 輸入 [百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) 行銷活動設定。
 
-   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Campaign Details]， [!UICONTROL Budget Options]， [!UICONTROL Shopping Settings]， [!UICONTROL Campaign Targeting]， [!UICONTROL Conversion Goals]， [!UICONTROL Advanced Device Options]， [!UICONTROL URL Options]、和 [!UICONTROL (Google) DSA Options]. 若要設定以下專案的設定： [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]， [!UICONTROL Campaign Tracking]，或 [!UICONTROL Asset Groups] （可用時），按一下 **[!UICONTROL Add Negative Keywords]**， **[!UICONTROL Add Negative Websites]**， **[!UICONTROL Set Campaign Tracking]**， **[!UICONTROL Set Campaign Goals]**，或 **[!UICONTROL Manage Asset Groups]**，依序輸入。
+   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Campaign Details]， [!UICONTROL Budget Options]， [!UICONTROL Shopping Settings]， [!UICONTROL Campaign Targeting]， [!UICONTROL Conversion Goals]， [!UICONTROL Advanced Device Options]， [!UICONTROL URL Options]、和 [!UICONTROL (Google) DSA Options]. 若要為進行其他設定（如果可用），請 [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]， [!UICONTROL Campaign Tracking]， [!UICONTROL Asset Groups]，或 [!UICONTROL Campaign Goals]，按一下 **[!UICONTROL Add Negative Keywords]**， **[!UICONTROL Add Negative Websites]**， **[!UICONTROL Set Campaign Tracking]**， **[!UICONTROL Manage Asset Groups]**，或 **[!UICONTROL Set Campaign Goals]**，依序輸入。
 
 1. 按一下 **[!UICONTROL Post]**.
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    對於多個行銷活動，設定可以分組為 [!UICONTROL Campaign Details]， [!UICONTROL Budget Options]、和 [!UICONTROL URL Options]，視廣告網路而定。 您只能編輯所有選定行銷活動的共同欄位，而您的變更會套用至所有選定行銷活動。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
-   對於單一行銷活動，設定可分組為 [!UICONTROL Campaign Details]， [!UICONTROL Budget Options]， [!UICONTROL Shopping Settings]， [!UICONTROL Campaign Targeting]， [!UICONTROL Conversion Goals]， [!UICONTROL Advanced Device Options]， [!UICONTROL URL Options]、和 [!UICONTROL (Google) DSA Options]. 若要設定以下專案的設定： [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]， [!UICONTROL Campaign Tracking]，或 [!UICONTROL Asset Groups] （可用時），按一下 **[!UICONTROL Add Negative Keywords]**， **[!UICONTROL Add Negative Websites]**， **[!UICONTROL Set Campaign Tracking]**， **[!UICONTROL Set Campaign Goals]**，或 **[!UICONTROL Manage Asset Groups]**，依序輸入。
+   對於單一行銷活動，設定可分組為 [!UICONTROL Campaign Details]， [!UICONTROL Budget Options]， [!UICONTROL Shopping Settings]， [!UICONTROL Campaign Targeting]， [!UICONTROL Conversion Goals]， [!UICONTROL Advanced Device Options]， [!UICONTROL URL Options]、和 [!UICONTROL (Google) DSA Options]. 若要為進行其他設定（如果可用），請 [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]， [!UICONTROL Campaign Tracking]， [!UICONTROL Asset Groups]，或 [!UICONTROL Campaign Goals]，按一下 **[!UICONTROL Add Negative Keywords]**， **[!UICONTROL Add Negative Websites]**， **[!UICONTROL Set Campaign Tracking]**， **[!UICONTROL Manage Asset Groups]**，或 **[!UICONTROL Set Campaign Goals]**，依序輸入。
 
 1. 儲存資料：
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ## 變更行銷活動的狀態
 
-您可以暫停支援廣告網路上的任何作用中搜尋行銷活動，以停用其上的競標。 您稍後可以透過將狀態變回使用中來繼續競標。
+您可以暫停支援廣告網路上的任何作用中搜尋行銷活動，以停用其上的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
 您也可以刪除任何作用中或暫停的搜尋行銷活動。 已刪除的行銷活動會從廣告網路中刪除。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [百度行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
->* [Google Ads行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [Microsoft Advertising促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [Yahoo！ Japan Ads促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Yandex行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

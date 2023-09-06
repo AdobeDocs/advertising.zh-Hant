@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 從資產群組建立的所有廣告的最終URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：** 廣告最多可包含15個影像，包括：1)至少三張正方形影像、2)至少三張橫向影像，以及3)至少一張直向影像。 請參閱 [[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 若要上傳影像：
+**[!UICONTROL Images]：** 廣告最多可包含15個影像，包括：1)至少三張正方形影像、2)至少三張橫向影像，以及3)至少一張直向影像。 請參閱 [[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
-1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+* 若要上傳影像：
 
-1. 對於每個影像：
+   1. 在 [!UICONTROL Upload from computer] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
 
-   1. 選取外觀比例。
+   1. 對於每個影像：
 
-   1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+      1. 選取外觀比例。
 
-   1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-      系統會為每個選取的外觀比例建立一個資產。
+      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-   1. 按一下 **[!UICONTROL Proceed]**.
+         系統會為每個選取的外觀比例建立一個資產。
 
-1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
+      1. 按一下 **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]：** 至少一個正方形(1:1)標誌和一個橫向(4:1)標誌。 每個大小最多可包含5個。 請參閱 [[!DNL Google Ads] 標誌規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 若要上傳影像：
+   1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
 
-1. 按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+* 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
 
-1. 對於每個影像：
+**[!UICONTROL Logos]：** 至少一個正方形(1:1)標誌和一個橫向(4:1)標誌。 每個大小最多可包含5個。 請參閱 [[!DNL Google Ads] 標誌規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
-   1. 選取外觀比例。
+* 若要上傳影像：
 
-   1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+   1. 在 [!UICONTROL Upload from computer] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
 
-   1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+   1. 對於每個影像：
 
-      系統會為每個選取的外觀比例建立一個資產。
+      1. 選取外觀比例。
 
-   1. 按一下 **[!UICONTROL Proceed]**.
+      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
+      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-**[!UICONTROL Videos]：** （選用） URL至少要有一個，最多五個， [!DNL YouTube] 影片長度至少為10秒。
+         系統會為每個選取的外觀比例建立一個資產。
+
+      1. 按一下 **[!UICONTROL Proceed]**.
+
+   1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
+
+* 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
+
+**[!UICONTROL Videos]：** （選用）至少一個，最多五 [!DNL YouTube] 長度至少為10秒的影片。  您可以輸入URL或從 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入URL：
+
+   1. 在 [!UICONTROL Upload from computer] 標籤，輸入URL。
+
+   1. （選用）若要新增其他URL，請按一下 [!UICONTROL + Add]**一下並輸入URL。
+
+* 若要從您的選取視訊 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影片。
 
 **[!UICONTROL Headlines]：** 至少3個（最多5個）簡短標題，每個標題最多30個字元。 至少一個標題必須至少為15個字元或更少。 如果啟用最終URL擴充的行銷活動層級選項設定於 [!DNL Google Ads]，然後 [!DNL Google Ads] 以根據登入頁面內容的自訂標題取代此值。
 
@@ -302,7 +318,24 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 公司名稱，最多25個字元。
 
+**[!UICONTROL Audience Signal]：** （可選） [!DNL Google Ads] 用作行銷活動對象訊號的對象。 [!DNL Google Ads] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
+
+>[!NOTE]
+>對象訊號與不同 [行銷活動層級和廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]：** 可讓您指定另一個資產群組。
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （預設）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果您選擇指定行銷活動的轉換目標，請選取標準目標及/或建立行銷活動的自訂目標。
+
+目標每天都會同步處理，因此可能不會列出過去24小時內建立的現有目標。 若要更新清單， [手動同步處理廣告網路資料](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+若要建立自訂轉換目標，請按一下 **[!UICONTROL + Add custom goal]**，輸入自訂目標名稱，選取 [轉換動作](https://support.google.com/google-ads/answer/6032150) 以納入自訂目標，然後按一下 **[!UICONTROL Save]**. **注意：** 每個行銷活動只能有一個自訂目標。
+
+>[!TIP]
+>
+>如果行銷活動屬於產品組合的一部分，則使用與產品組合目標相同的轉換目標。 使用不同的轉換目標可能會影響產品組合績效。
 
 >[!MORELIKETHIS]
 >

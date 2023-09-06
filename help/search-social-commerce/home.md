@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 9c80c52b0380d045340f0ef49f53e00254b17e5f
+source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 下列是新的或最近變更的功能。
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
-| ---- | ------- | ----------- | --------------------- |
+| ---- | ------- | ----------- | -------------------- |
+| 2023年9月5日 | 行銷活動 | ([!DNL Google Ads] 行銷活動)對於所有可用的行銷活動型別，您現在可以在行銷活動設定中選擇現有的轉換目標或建立新目標。</li> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
+| | 行銷活動 | ([!DNL Google Ads] 最高成效行銷活動)新功能可讓您：<ul><li>如上所述，選擇現有的轉換目標或為行銷活動建立新的轉換目標。</li><li>從您現有的資產中選取 [!UICONTROL Asset Library] 適用於最高效能行銷活動設定中的影像、標誌和影片。 您仍然可以上傳新資產。</li><li>（可選）透過選取「 」，為您的效能最高的資產群組提供受眾訊號 [!DNL Google Ads] 對象。 [!DNL Google Ads] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 **注意：** 對象訊號與不同 [行銷活動層級和廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
 | 2023年8月15日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 現在包含&quot;[!UICONTROL Source]「欄」，代表每個量度的來源，例如 [!UICONTROL Adobe Advertising]， [!UICONTROL Adobe Analytics]， [!UICONTROL Google Ads]，或 [!UICONTROL Custom Feed]. | 請參閱&quot;[檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).」 |
 | 2023年8月9日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 已重新命名 [!UICONTROL Conversions]. | 請參閱&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).」 |
 |  | [!DNL Google] 轉換追蹤標籤 | 要建立的更新畫面 [!DNL Google] 轉換追蹤標籤可從以下位置取得： [!UICONTROL Admin] > [!UICONTROL Conversions]. 舊版畫面位於 [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] 未來將移除。 | 請參閱&quot;[建立轉換標籤 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).」 |
@@ -27,7 +29,7 @@ ht-degree: 0%
 | | [!UICONTROL Google Import] | 您現在可以從產生自己的匯入認證ID [!DNL Microsoft®® Advertising] 當您為設定行銷活動匯入工作時 [!DNL Google Ads]. 之前，Adobe技術支援或您的Adobe帳戶團隊會提供ID。 | 請參閱&quot;[復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).」 |
 | 2023年6月27日 | [!UICONTROL Campaigns] | (測試版功能； [!DNL Microsoft®® Advertising] 帳戶)您現在可以在以下位置指定行銷活動層級的轉換目標： [!DNL Microsoft®® Advertising] 行銷活動設定。 先前，當您在「搜尋」、「社交」和「商務」中建立行銷活動時，系統會使用帳戶層級目標。 | 請參閱&quot;[[!DNL Microsoft® Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).」 |
 | 2023年6月10日 | [!UICONTROL Recommendations and Publisher Insights] | （開放Beta版） [!UICONTROL Microsoft®® Advertising] 過去30天內建議的效能深入分析和建議可在以下網址取得： [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>注意：</b> 雖然建議可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議之前，建議您最好諮詢您的Adobe帳戶團隊。 | 請參閱&quot;[關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md).」 |
-| 2023年5月30日 | [!UICONTROL Campaigns], [!UICONTROL Objectives], [!UICONTROL Reports] | （公開測試版）由追蹤的轉換 [!UICONTROL Microsoft®® Advertising] 通用事件追蹤(UET)標籤是行銷活動管理檢視和報告中的新功能。 您也可以將這類轉換包含於投資組合的目標中，以針對這些轉換進行最佳化 [!UICONTROL Microsoft®® Advertising] 行銷活動。 | 請參閱&quot;[[!DNL Microsoft® Advertising] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md).」 |
+| 2023年5月30日 | [!UICONTROL Campaigns], [!UICONTROL Objectives], [!UICONTROL Reports] | （公開測試版）由追蹤的轉換 [!UICONTROL Microsoft®® Advertising] 行銷活動管理檢視和報告現在提供通用事件追蹤(UET)標籤。 您也可以將這類轉換包含於投資組合的目標中，以針對這些轉換進行最佳化 [!UICONTROL Microsoft®® Advertising] 行銷活動。 | 請參閱&quot;[[!DNL Microsoft® Advertising] 搜尋、社交和商務中的轉換資料](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md).」 |
 |  | [!UICONTROL Reports] | （公開測試版）三個新的專業報告包含 [!UICONTROL Microsoft®® Advertising] 廣告擴充功能： [!UICONTROL MSA Ad Extension Detail Report]， [!UICONTROL MSA Ad Extension by Ad Report]、和 [!UICONTROL MSA Ad Extension by Keyword Report]. | 請參閱&quot;[此 [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)，&quot; &quot;[此 [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)，」和「[此 [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md).」<br><br>另請參閱&quot;[產生專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)「和」[專業報告的報告欄](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md).」 |
 | 2023年4月15日 | [!UICONTROL Campaigns] | ([!DNL Microsoft® Advertising] 對象行銷活動)對象行銷活動現在可以使用「手動CPM」競標策略。 您可以在子廣告群組設定中設定競標。<br><br>CPM行銷活動不提供最佳化支援。 | 請參閱&quot;[[!DNL Microsoft Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).」 |
 |  | [!UICONTROL Recommendations] | 6個新增([!DNL Google Ads] 建議可從下列位置取得： [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations]：<ul><li>[!UICONTROL Responsive search improve ad strength]：改善回應式搜尋廣告廣告強度的建議</li><li>[!UICONTROL Upgrade local campaign to performance max]：將舊版本機行銷活動升級為最高效能行銷活動</li><li>[!UICONTROL Upgrade smart shopping campaign to performance max]：將舊版智慧購物行銷活動升級為最高效能行銷活動</li><li>[!UICONTROL Forecasting set Target ROAS]：在預測會增加流量的季節性事件之前提高預算，並從以下變更競標策略 [!DNL Maximize Conversion Value] 至 [!DNL Target ROAS]</li><li>[!UICONTROL Raise Target CPA bid too low]：提升 [!DNL Target CPA] 當轉換次數太低且轉換次數很少或沒有轉換次數時，建議使用此數量</li><li>[!UICONTROL Display expansion opt in]：更新行銷活動以使用顯示展開來擴展觸及範圍</li></ul>新增和移除資產、變更行銷活動型別、變更預算和競標策略可能會影響效能。 與您的Adobe客戶團隊討論每個建議的利弊，以便您做出明智的決定。 | 請參閱&quot;[關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md).」 |
