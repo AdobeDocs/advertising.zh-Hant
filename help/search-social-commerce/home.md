@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023年9月14日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 最大成效行銷活動)在行銷活動的資產群組中，您現在可以從您現有的文字資產中選取 [!UICONTROL Asset Library]. 您仍然可以上傳新的文字資產。 | — |
 | 2023年9月5日 | 行銷活動 | ([!DNL Google Ads] 行銷活動)對於所有可用的行銷活動型別，您現在可以在行銷活動設定中選擇現有的轉換目標或建立新目標。</li> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
 | | 行銷活動 | ([!DNL Google Ads] 最高成效行銷活動)新功能可讓您：<ul><li>如上所述，選擇現有的轉換目標或為行銷活動建立新的轉換目標。</li><li>從您現有的資產中選取 [!UICONTROL Asset Library] 適用於最高效能行銷活動設定中的影像、標誌和影片。 您仍然可以上傳新資產。</li><li>（可選）透過選取「 」，為您的效能最高的資產群組提供受眾訊號 [!DNL Google Ads] 對象。 [!DNL Google Ads] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 **注意：** 對象訊號與不同 [行銷活動層級和廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
 | 2023年8月15日 | 轉換量度 | [!UICONTROL Admin] > [!DNL Transaction Properties] 現在包含&quot;[!UICONTROL Source]「欄」，代表每個量度的來源，例如 [!UICONTROL Adobe Advertising]， [!UICONTROL Adobe Analytics]， [!UICONTROL Google Ads]，或 [!UICONTROL Custom Feed]. | 請參閱&quot;[檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).」 |
