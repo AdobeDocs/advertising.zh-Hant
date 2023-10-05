@@ -3,7 +3,7 @@ title: 最佳化目標及使用方式
 description: 參考可用的最佳化目標，並瞭解何時使用這些目標。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 如果達到花費目標，則DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：高效率的CPM與最高的vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b> 使用此目標以達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作刊登的「最高出價」。<br><br>此設定最適合來自的第三方資料 [!DNL Moat] 會通知演演算法。 只有在您已啟用 [!DNL Moat] 行銷活動的整合。 |
 | [!UICONTROL Always Max Bid and Maximize Reach] | 此目標會嘗試一律使用位置層級的「最高出價」，透過指定曝光次數來達到最大家庭觸角。 如果達成花費目標，DSP就會變得更具選擇性，只有在有機會取得遞增的不重複觸及時才會競標。 | 行銷活動型別：品牌<br><br>基準：觸及最大化<br><br>廣告型別：前段、顯示器、CTV、原生、音訊和通用視訊 |
 | [!UICONTROL Lowest Cost per Reach] | 此目標會嘗試在指定預算內實現最大的家庭觸及率。 如果達到支出目標，則DSP會根據實現遞增獨特觸及的機會而改變競標。 | 行銷活動型別：品牌<br><br>基準：每次觸及的效率成本<br><br>廣告型別：前段、顯示器、CTV、原生、音訊和通用視訊 |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
