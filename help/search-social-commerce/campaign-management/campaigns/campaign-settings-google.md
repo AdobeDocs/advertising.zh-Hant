@@ -1,11 +1,11 @@
 ---
 title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -254,11 +254,11 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 從資產群組建立的所有廣告的最終URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：** 廣告最多可包含15個影像，包括：1)至少三張正方形影像、2)至少三張橫向影像，以及3)至少一張直向影像。 請參閱 [[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Images]：** 廣告的最多15個影像，包括下列大小：1)至少三個正方形影像、2)至少三個橫向影像，以及3)至少一個直向影像。 請參閱 [[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要上傳影像：
 
-   1. 在 [!UICONTROL Upload from computer] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+   1. 在 [!UICONTROL Upload from Device] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
 
    1. 對於每個影像：
 
@@ -280,7 +280,7 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在 [!UICONTROL Upload from computer] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+   1. 在 [!UICONTROL Upload from Device] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
 
    1. 對於每個影像：
 
@@ -298,21 +298,47 @@ ht-degree: 0%
 
 * 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
 
-**[!UICONTROL Videos]：** （選用）至少一個，最多五 [!DNL YouTube] 長度至少為10秒的影片。  您可以輸入URL或從 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Videos]：** （選用）至少一個，最多五 [!DNL YouTube] 長度至少為10秒的影片。 您可以輸入URL或從 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要輸入URL：
 
-   1. 在 [!UICONTROL Upload from computer] 標籤，輸入URL。
+   1. 在 [!UICONTROL Enter Video Url] 標籤，輸入URL。
 
-   1. （選用）若要新增其他URL，請按一下 [!UICONTROL + Add]**一下並輸入URL。
+   1. （選用）若要新增其他URL，請按一下 **[!UICONTROL + Add]** 並輸入URL。
 
 * 若要從您的選取視訊 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影片。
 
 **[!UICONTROL Headlines]：** 至少3個（最多5個）簡短標題，每個標題最多30個字元。 至少一個標題必須至少為15個字元或更少。 如果啟用最終URL擴充的行銷活動層級選項設定於 [!DNL Google Ads]，然後 [!DNL Google Ads] 以根據登入頁面內容的自訂標題取代此值。
 
-**[!UICONTROL Long Headlines]：** 至少有一個和最多5個長標題，每個標題最多90個字元。
+您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
-**[!UICONTROL Descriptions]：** 至少有兩個（最多四個）說明，每個說明最多90個字元。 至少一個說明必須至少為30個字元或更少。
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
+
+**[!UICONTROL Long Headlines]：** 至少有一個和最多5個長標題，每個標題最多90個字元。 您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
+
+**[!UICONTROL Descriptions]：** 至少有兩個（最多四個）說明，每個說明最多90個字元。 至少一個說明必須至少為30個字元或更少。 您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
 
 **[!UICONTROL Call to Action]：** 要包含在廣告中的行動號召。 根據預設， *[!UICONTROL Automated]* 已選取，且 [!DNL Google Ads] 選取行動號召。 您可以選擇不同的動作。
 
