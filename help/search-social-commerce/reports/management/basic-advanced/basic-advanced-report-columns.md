@@ -1,9 +1,9 @@
 ---
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 行銷活動)目前的行銷活動層級行動競標調整，決定在行動裝置上顯示廣告時如何調整競標。 |
 | [!UICONTROL Campaign Start Date] | 對行銷活動出價的第一天。 |
 | [!UICONTROL Campaign Status] | 行銷活動狀態： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>， <i>[!UICONTROL Ended]</i>，或 <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | 行銷活動型別，例如 <i>[!UICONTROL Audience (Image)]</i>， <i>[!UICONTROL Audience (Feed)]</i>， <i>[!UICONTROL Discovery]</i>， <i>[!UICONTROL Search and Display]</i>， <i>[!UICONTROL Standard Display]</i>， <i>[!UICONTROL Standard Performance Max]</i>， <i>[!UICONTROL Standard Search]</i>， <i>[!UICONTROL Standard Shopping]</i>， <i>[!UICONTROL Video]</i>，或 <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | 行銷活動型別，例如 <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>， <i>[!UICONTROL Audience (Image)]</i>， <i>[!UICONTROL Audience (Video)]</i>， <i>[!UICONTROL Brand Shopping]</i>， <i>[!UICONTROL Discovery]</i>， <i>[!UICONTROL Search and Display]</i>， <i>[!UICONTROL Standard Display]</i>， <i>[!UICONTROL Standard Performance Max]</i>， <i>[!UICONTROL Standard Search]</i>， <i>[!UICONTROL Standard Shopping]</i>， <i>[!UICONTROL Store Ad]</i>， <i>[!UICONTROL Video]</i>，或 <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | 行銷管道型別： <i>[!UICONTROL Search]</i> 或 <i>[!UICONTROL Content]</i>. 當報告的 [!UICONTROL Search/Content] 報表設定中的設定為&quot;[!UICONTROL Combined].」 |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Transaction Report])產生點按的城市。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL Click Match Type] | 關鍵字元合所點選廣告的型別。 這與 [!UICONTROL Listing Match Type] 除了 [!DNL Microsoft Advertising] 具有多個相符型別的關鍵字。 的 [!DNL Microsoft Advertising] 關鍵字，這是實際點按的相符型別。 |
