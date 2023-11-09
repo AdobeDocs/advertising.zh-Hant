@@ -1,11 +1,11 @@
 ---
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[廣告商專屬的自訂（衍生）量度\] | 您建立的自訂量度值（從現有量度計算）。 |
 | \[廣告商專用轉換量度\] | 指定的轉換量度或網站參與量度的轉換次數。 |
+| [!UICONTROL Absolute Top Impression Rate Percent] | 顯示在搜尋結果頂端第一個位置的廣告印象百分比。 |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | 由於您的每日或每月預算太低，廣告未顯示在搜尋結果最上方第一個位置的預估時間百分比。 |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | 由於廣告排名不佳，廣告未顯示在搜尋結果頂端第一個位置的時間百分比。 |
+| [!UICONTROL Absolute Top Impression Share Percent] | 您在絕對排名最前位置收到的曝光數（有機搜尋結果上方的第一個廣告）除以您有資格在排名最前位置收到的預估曝光數。 |
 | [!UICONTROL Account Name] | 帳戶名稱。 |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 報表)廣告網路所指派的帳戶識別碼。 |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 報表)帳戶狀態： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report])發佈廣告的位置： *[!UICONTROL Search]* （在搜尋結果頁面上）或 *[!UICONTROL Content]* (開啟 [!DNL Microsoft®]擁有的網站或參與合作夥伴網站)。 |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]， [!UICONTROL MSA Network Impression Share Report]、和 [!UICONTROL MSA Network Performance Report])發佈廣告的位置： *[!UICONTROL Audience]* （在對象網路上）*，[!UICONTROL Search]* （在搜尋結果頁面上）或 *[!UICONTROL Content]* (開啟 [!DNL Microsoft®]擁有的網站或參與合作夥伴網站)。 |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] 報表)廣告擴充功能的ID。 |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] 報表)廣告擴充功能的版本屬性。 |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] 報表)廣告副檔名的型別。 |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] 報表)某個實體對與不同實體相關聯的轉換所貢獻的次數。 |
 | [!UICONTROL Audience ID] | 數值的受眾ID。 |
 | [!UICONTROL Audience Name] | 對象。 可用的受眾包括 [!DNL Google Ads] 以客戶資料為基礎、市場內和類似受眾，以及您的[！DNL [!DNL Microsoft® Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似對象。 |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | 由於每日或每月預算太低，您在Microsoft對象網路上損失的曝光比重百分比。 |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | 由於廣告排名不佳，您在Microsoft Audience Network上損失的曝光比重百分比。 |
+| [!UICONTROL Audience Impression Share Percent] | 上預估的曝光百分比 [!DNL Microsoft Audience Network] 除以您可能收到的可用曝光總數。 |
 | [!UICONTROL Audience Status] | 對象的狀態。 |
 | [!UICONTROL Average CPC] | 每次點按的平均成本。 |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>的 [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads] 促銷活動，此資料僅在2019年9月之前可用。 的 [!DNL Microsoft® Advertising]，此資料僅截至2021年1月22日可用。 |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] 報表) [擴充功能的顯示名稱](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] 報表)廣告擴充功能型別的ID。 |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] 報表)轉換目標的名稱。 |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] 報表)轉換目標的型別。 |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] 報表， [!UICONTROL MSA Network Performance Report])轉換目標的名稱。 |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] 報表， [!UICONTROL MSA Network Performance Report])轉換目標的型別。 |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report])所追蹤的線上轉換次數 [此 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]；已於2016年淘汰)導致一或多個轉換的點按次數。 |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 僅限； [!UICONTROL AdWords and Bing Audience Target Report]， [!UICONTROL Campaign Daily Impression Share Report]、和 [!UICONTROL Keyword Daily Impression Share Report])在自然搜尋結果上方顯示為第一個廣告的廣告印象百分比。 |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 僅限； [!UICONTROL AdWords and Bing Audience Target Report]， [!UICONTROL Campaign Daily Impression Share Report]、和 [!UICONTROL Keyword Daily Impression Share Report])顯示在自然搜尋結果上方的廣告印象百分比。 |
+| [!UICONTROL Impression Lost To Budget Percent] | 因為您的每日或每月預算太低，所以未顯示廣告的估計時間百分比。 |
+| [!UICONTROL Impression Lost To Rank Percent] | 由於廣告排名不佳而未顯示廣告的時間百分比。 |
+| [!UICONTROL Impression Share Percent] | 您收到的曝光數除以您符合資格收到的預估曝光數。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
 | [!UICONTROL Keyword] | 關鍵字。<br><br><b>注意：</b> 如果報告在啟用內容的搜尋行銷活動中包含來自廣告群組的資料，則此欄會包含適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 對於搜尋促銷活動中的網站目標位置，此欄沒有值。 |
 | [!UICONTROL Keyword ID] | Search、Social和Commerce指派給關鍵字的數值ID。 |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | （AdWords搜尋查詢報告）搜尋查詢的關鍵字相符型別。 |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] 和 [!UICONTROL Bing Ads Geo Report])曝光數或點按數產生的地區或美國/加拿大州。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] 報表)總收入除以支出，以百分比表示。 |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] 報表)總收入。 |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] 報表， [!UICONTROL MSA Network Performance Report])總收入。 |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] 報表)每個協助的總收入。 |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] 報表)每次轉換的總收入。 |
 | [!UICONTROL SE Account Name] | 廣告網路上的帳戶名稱。 |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report])連結至您網站的廣告的第一行。 |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report])連結至您網站的廣告第二行。 |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report])連結至您網站的廣告的第三行。 |
+| [!UICONTROL Top Impression Rate Percent] | 在主行中顯示的廣告印象百分比（搜尋結果上方的熱門廣告位置）。 |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | 由於您的每日或每月預算太低，主線（搜尋結果上方排名最前的廣告位置）中未顯示廣告的估計時間百分比。 |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | 由於廣告排名不佳，廣告未顯示在主線中的時間百分比（搜尋結果上方的最上層廣告位置）。 |
+| [!UICONTROL Top Impression Share Percent] | 您在主要行中接收的曝光數（搜尋結果上方的最上層廣告位置）除以您有資格在最高位置接收的估計曝光數。 |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] 報表)廣告在搜尋結果頁面上的位置。 |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 報表)廣告元素出現在廣告復本中的點選次數，無論是否被點按。 |
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |

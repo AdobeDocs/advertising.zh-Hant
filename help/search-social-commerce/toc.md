@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -317,6 +317,8 @@ ht-degree: 2%
                + [此 [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [此 [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [此 [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [此 [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [此 [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [產生專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [專業報告設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [專業報告的報告欄](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
