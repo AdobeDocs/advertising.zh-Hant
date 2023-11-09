@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 236224a1d8e38862f70db63b3762b763f5703623
+source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示連線電視(CTV)視訊廣告。
 
-* *[!UICONTROL Performance Max]：* 顯示所有網路上的多種廣告型別。
+* *[!UICONTROL Performance Max]：* （Beta版功能）顯示所有網路上的多種廣告型別。
 
 ## [!UICONTROL Campaign Details]
 
