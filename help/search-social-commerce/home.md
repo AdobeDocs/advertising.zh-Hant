@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
+source-git-commit: 8732cfc91b0caee9b7580c33048b889ff0373f4c
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023年11月8日 | [!UICONTROL Asset Library] | (開放Beta版功能； [!DNL Microsoft® Advertising] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以建立可重複使用的影像和視訊資產，並將其上傳至 [!DNL Microsoft® Advertising] 帳戶層級的資產庫。 您可以將上傳的資產新增至中的適用行銷活動型別 [!DNL Microsoft® Advertising] 編輯者。 | 請參閱&quot;[關於 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)「和」[建立及上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).」 |
-| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 兩個新的專業報告 [!DNL Microsoft Advertising] 帳戶依廣告發佈（搜尋或對象）和/或網路(例如 [!DNL Microsoft] 網站並選取流量或對象)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量量度（成本、點按數、曝光數）、轉換和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括曝光比重量度和基本流量量度（成本、點按數、曝光數）。</li></ul> | — |
+| 2023年10月7日 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 兩個新的專業報告 [!DNL Microsoft Advertising] 帳戶依廣告發佈（搜尋或對象）和/或網路(例如 [!DNL Microsoft] 網站並選取流量或對象)：<ul><li>[!UICONTROL MSA Network Performance Report]：包括基本流量量度（成本、點按數、曝光數）、轉換和收入。</li><li>[!UICONTROL MSA Network Impression Share Report]：包括曝光比重量度和基本流量量度（成本、點按數、曝光數）。</li></ul> | 請參閱&quot;[此 [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)「和」[此 [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md).」 |
 | 2023年9月14日 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 最大成效行銷活動)在行銷活動的資產群組中，您現在可以從您現有的文字資產中選取 [!UICONTROL Asset Library]. 您仍然可以上傳新的文字資產。 | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
 | 2023年9月5日 | 行銷活動 | ([!DNL Google Ads] 行銷活動)對於所有可用的行銷活動型別，您現在可以在行銷活動設定中選擇現有的轉換目標或建立新目標。</li> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
 | | 行銷活動 | ([!DNL Google Ads] 最高成效行銷活動)新功能可讓您：<ul><li>如上所述，選擇現有的轉換目標或為行銷活動建立新的轉換目標。</li><li>從您現有的資產中選取 [!UICONTROL Asset Library] 適用於最高效能行銷活動設定中的影像、標誌和影片。 您仍然可以上傳新資產。</li><li>（可選）透過選取「 」，為您的效能最高的資產群組提供受眾訊號 [!DNL Google Ads] 對象。 [!DNL Google Ads] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 **注意：** 對象訊號與不同 [行銷活動層級和廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).」 |
