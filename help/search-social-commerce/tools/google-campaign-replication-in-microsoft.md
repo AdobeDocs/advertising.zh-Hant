@@ -1,9 +1,9 @@
 ---
 title: 復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]
 description: 瞭解如何在中匯出同步的行銷活動 [!DNL Google Ads] 帳戶直接進入已同步的 [!DNL Microsoft® Advertising] 帳戶。
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   如果您想要復寫購物摘要型顯示行銷活動，請先復寫您的 [!DNL Google Merchant Center] 產品優惠目標為 [!DNL Microsoft® Merchant Center]. 復寫行銷活動時，選取 [!DNL Microsoft® Merchant Center] 存放在「匯入選項」中，將存放區連結至您的摘要式對象行銷活動。
 
-* [!DNL Google Ads] 將最高成效行銷活動（包括地區詳細目錄廣告）設為 [!DNL Microsoft® Advertising] 智慧購物行銷活動。
+* [!DNL Google Ads] 將最高成效行銷活動（包括地區詳細目錄廣告）設為 [!DNL Microsoft® Advertising] 最高成效行銷活動。
 
 您可以選擇更新行銷活動一次；每週或每月；或根據 [!DNL Microsoft® Advertising]的建議排程。 您可以選擇在每次匯入工作執行或發生錯誤或變更時設定通知。 一旦您將行銷活動匯入 [!DNL Microsoft® Advertising]，您可以檢查匯入工作的狀態、檢閱任何錯誤記錄檔、手動執行匯入工作，以及編輯、暫停、啟用或刪除匯入排程。
 
