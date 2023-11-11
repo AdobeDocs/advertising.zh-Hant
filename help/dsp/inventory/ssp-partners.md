@@ -3,7 +3,7 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 85fb7665ae2b6252c359ea254dbc783d73a4a078
+source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -18,16 +18,16 @@ ht-degree: 0%
 >
 >所有SSP合作關係可能會有所變更。 此清單反映目前的合作關係。
 
-| SSP已列出 | 公司 | 名額ID | 程式化保證支援 | 地區 | 支援的貨幣 | 視訊案頭 | 視訊行動裝置 | Video CTV | 顯示案頭 | 顯示行動裝置 | 原生顯示 | 音訊桌上型電腦與行動裝置 |
+| SSP已列出 | 公司 | 座位 ID | 程式化保證支援 | 地區 | 支援的貨幣 | 視訊案頭 | 視訊行動裝置 | Video CTV | 顯示案頭 | 顯示行動裝置 | 原生顯示 | 音訊桌上型電腦與行動裝置 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | X | X | X |  |  |  |  |
-| [!DNL AdColony] (先前版本 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全域 | 美元 |  | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising | 是 | 全域 | 美元、歐元、英鎊 |  |  |  |  |  |  | x |
+| [!DNL AdColony] (先前版本 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全域 | 美元 | x | x |  | x | x |  |  |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 否 | 全域 | 美元、歐元、英鎊 |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | 不適用 | [!DNL TubeMogul] | 是 | SEA | 美元 |  | x |  | x |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | 視訊座位ID：9094<br>顯示座位ID：3939 | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
-| [!DNL DailyMotion] | 不適用 | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美國+ EMEA | USD， EUR | x | x | x |  |  |  |  |
+| [!DNL DailyMotion] | 不適用 | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美國+ EMEA | USD， EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | 否 | US/CA | 美元 |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x | x |  |  |  |  |
+| [!DNL EMX Digital] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
 | [!DNL Equativ] (先前稱為 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | USD， EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (先前稱為 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全域 | 美元 | x | x |  |  |  |  |  |
@@ -39,20 +39,19 @@ ht-degree: 0%
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 否 | 全域 | 美元 |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x |  | x | x | x |  |
-| [!DNL SmartClip] |  | Adobe Advertising | 是 | EMEA | 所有貨幣 | x | x | x | x | x |  |  |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x | x |  |
+| [!DNL SmartClip] |  | Adobe Advertising | 否 | EMEA | 所有貨幣 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising | 否 | EMEA | EUR， USD | x | x |  |  |  |  |  |
-| [!DNL Sortable] |  | Adobe Advertising | 否 | CA | 美元 |  |  |  | x | x |  |  |
+| [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | 否 | CA | 美元 |  |  |  | x | x |  |  |
 | [!DNL Soundcast] |  | Adobe Advertising | 是 | 全域 | EUR， USD |  |  |  |  |  |  | x |
 | [!DNL SpotX] | [!DNL Magnite] (先前稱為 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x | x | x |  |  |  |  |
 | [!DNL Stroer] |  | Adobe Advertising | 否 | EMEA | 美元 | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 輸出視訊=全域<br>顯示= NA + EMEA | 美元 | x | x |  | x | x |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 |  |  |  |  |  | x |  |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x |  | x | x |  |  |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | 是 | 全域 | 美元 |  |  |  |  |  |  | x |
-| [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising | 否 | 美國+ EMEA | 美元 | x | x |  |  |  |  |  |
-| [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 |  |  |  | x | x |  |  |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | 否 | 美國+ EMEA | 美元 | x | x | x |  |  |  |  |
 
 {style="table-layout:auto"}
 
