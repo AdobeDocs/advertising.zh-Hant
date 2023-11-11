@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
+source-git-commit: 351350960ed4bc8ef500181b98a6d120035835fa
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!DNL AppNexus] | [!DNL Xandr] | 視訊座位ID：9094<br>顯示座位ID：3939 | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | 不適用 | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美國+ EMEA | USD， EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | 否 | US/CA | 美元 |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
 | [!DNL Equativ] (先前稱為 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | USD， EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (先前稱為 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全域 | 美元 | x | x |  |  |  |  |  |
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!DNL Magnite CTV] | [!DNL Magnite] (先前稱為 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | AUD， USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (先前稱為 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 否 | 全域 | 美元 |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x |  |  | x | x |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | 否 | EMEA | 所有貨幣 | x | x | x | x | x |  |  |
