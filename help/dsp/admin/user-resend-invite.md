@@ -1,9 +1,9 @@
 ---
 title: 重新傳送擱置中的使用者邀請
 description: 瞭解如何重新傳送擱置中的使用者邀請。
-role: User, Admin
+role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅限管理員使用者*
 
-您可以使用組織帳戶的待定邀請來重新傳送邀請給使用者。
+您可以重新傳送邀請給具有組織帳戶未決邀請的使用者。
 
 1. 執行下列任一項作業：
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [邀請組織帳戶的新使用者](user-invite.md)
+>* [邀請新的使用者加入您的組織帳戶](user-invite.md)
 >* [取消邀請擱置中的使用者](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

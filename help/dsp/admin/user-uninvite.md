@@ -1,9 +1,9 @@
 ---
 title: 取消邀請擱置中的使用者
 description: 瞭解如何取消擱置的使用者邀請。
-role: User, Admin
+role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅限管理員使用者*
 
-您可以取消邀請具有待處理邀請的使用者。 取消邀請使用者會使傳送至指定電子郵件地址之邀請連結中的權杖失效。
+您可以取消邀請具有待處理邀請的使用者。 取消邀請使用者會使傳送至指定電子郵件地址之邀請連結中的Token失效。
 
 1. 執行下列任一項作業：
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [邀請組織帳戶的新使用者](user-invite.md)
+>* [邀請新的使用者加入您的組織帳戶](user-invite.md)
 >* [重新傳送擱置中的使用者邀請](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
