@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ ht-degree: 0%
    * （位址附近的位置；僅限包含的目標）按一下 **[!UICONTROL Radius Target]** (![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標"))，然後按一下 **[!UICONTROL Address]**. 輸入位址和距離目標位址的半徑，然後按一下 **[!UICONTROL Add]**.
 
    * （地理座標附近的位置；僅包含目標）按一下 **[!UICONTROL Radius Target]** (![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標"))，然後按一下 **[!UICONTROL Coordinate]**. 輸入目標位置周圍的經緯度與半徑（以英里或公里為單位），然後按一下 **[!UICONTROL Add]**.
-
-   * (位於您的附近 [!DNL My Business] 可作為位置延伸模組的位置（僅限包含的目標）按一下 **[!UICONTROL Location Group Target]** (![位置群組](/help/search-social-commerce/assets/location-group.png "位置群組"))；選擇性地輸入國家、州、大都會區域或城市，以向下箭頭顯示可用地點清單；然後從清單中選取一或多個地點 [!DNL Google My Business] 位置。 指定目標位置周圍以英里或公里為單位的半徑，然後按一下 **[!UICONTROL Add]**.
 
 * （若要為包含的目標地點新增競標調整）請輸入競標調整值：
 
