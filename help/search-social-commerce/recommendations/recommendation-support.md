@@ -1,11 +1,11 @@
 ---
 title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,11 @@ ht-degree: 0%
 | | [!UICONTROL Responsive search improve ad strength] | 改善回應式搜尋廣告廣告強度的建議 |
 | | [!UICONTROL Sitelink extension] | 將網站連結擴充功能新增至行銷活動 |
 | | [!UICONTROL Text ad] | 新增廣告建議 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | 將舊版本機行銷活動升級為最高效能行銷活動 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 將動態搜尋廣告移轉至最高成效行銷活動。 |
+| | [!UICONTROL Dynamic image extension opt in] | 為帳戶啟用動態影像延伸模組，允許 [!DNL Google Ads] 機器學習，自動將廣告登陸頁面中最相關的影像附加至廣告。 |
+| | [！UICONTROL提升最大廣告強度效能 | 改善最高成效行銷活動的資產群組強度，使其具有「優秀」評等。 |
+| | [!UICONTROL Performance max opt in] | 選擇加入最高成效的行銷活動。 |
+| | [!UICONTROL Upgrade local campaign to performance max] | 將舊版本機行銷活動升級為最高效能行銷活動 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 將舊版智慧購物行銷活動升級為最高效能行銷活動 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 修正受預算限制的行銷活動 |
 | | [!UICONTROL Enhanced CPC opt in] | 競標方式 [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ ht-degree: 0%
 | | [!UICONTROL Move unused budget] | 將未使用的預算移至受限的預算 |
 | | [!UICONTROL Raise Target CPA bid too low] | 提升 [!UICONTROL Target CPA] 當轉換次數太低且轉換次數很少或沒有轉換次數時，建議使用此數量 |
 | | [!UICONTROL Target CPA opt in] | 競標方式 [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | 提升 [!UICONTROL Target CPA] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。 |
+| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。 |
 | | [!UICONTROL Target ROAS opt in] | 競標方式 [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 透過更新行銷活動以使用顯示展開來擴展觸及範圍 |
 | | [!UICONTROL Keyword] | 新增關鍵字 |
