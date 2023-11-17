@@ -1,11 +1,11 @@
 ---
 title: 刪除與行銷活動和廣告群組的廣告擴充功能關聯
 description: 瞭解如何解除廣告擴充功能與行銷活動和廣告群組的關聯。
-exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理 [!DNL Google Ads] 編號說明延伸模組](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [管理位置延伸](location-extension-manage.md)
 >* [管理網站連結擴充功能](sitelink-extension-manage.md)
