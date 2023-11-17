@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
+source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 | | [!UICONTROL Text ad] | 新增廣告建議 |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 將動態搜尋廣告移轉至最高成效行銷活動。 |
 | | [!UICONTROL Dynamic image extension opt in] | 為帳戶啟用動態影像延伸模組，允許 [!DNL Google Ads] 機器學習，自動將廣告登陸頁面中最相關的影像附加至廣告。 |
-| | [！UICONTROL提升最大廣告強度效能 | 改善最高成效行銷活動的資產群組強度，使其具有「優秀」評等。 |
+| | [!UICONTROL Improve performance max ad strength] | 改善最高成效行銷活動的資產群組強度，使其具有「優秀」評等。 |
 | | [!UICONTROL Performance max opt in] | 選擇加入最高成效的行銷活動。 |
 | | [!UICONTROL Upgrade local campaign to performance max] | 將舊版本機行銷活動升級為最高效能行銷活動 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 將舊版智慧購物行銷活動升級為最高效能行銷活動 |
