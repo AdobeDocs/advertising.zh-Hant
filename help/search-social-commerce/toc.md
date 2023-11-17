@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [關於 [!DNL Google Ads] 編號說明延伸模組](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [管理 [!DNL Google Ads] 編號說明延伸模組](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [關聯 [!DNL Google Ads] 與行銷活動或廣告群組共用圖說文字擴充功能](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [管理 [!DNL Google Ads] 位置延伸](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + 網站連結擴充功能 {#sitelinks}
                + [關於網站連結擴充功能](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [管理共用的網站連結](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
