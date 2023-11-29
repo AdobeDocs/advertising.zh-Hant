@@ -1,11 +1,11 @@
 ---
 title: 以下專案的必要大量表單資料： [!DNL Yandex] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Yandex] 帳戶。
-exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1905'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 ## 可用的資料欄位
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/search-social-commerce/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
 
 | 欄位 | Campaign | 廣告群組 | 關鍵字 | 文字廣告 | Sitelink | 說明 |
 |----|----|-----|-----|----|----|----|
@@ -54,7 +58,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Negative Keywords (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | 由廣告群組中的所有短語共用的負面關鍵字（短語），前面有減號(例如 `-mykeyword`)。 如果負面關鍵字元合片語中的關鍵字，則負面關鍵字不會套用至片語。 |
 | [!UICONTROL Param1 (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | 的值 `{param1}` 替代變數。 它最多可包含255個位元組。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Param2 (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | 的值  `{param2}` 替代變數。 它最多可包含255個位元組。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
-| [!UICONTROL Campaign Status] | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的顯示狀態： <i>[!UICONTROL active]</i>， <i>[!UICONTROL archived]</i>， <i>[!UICONTROL deleted]</i>， <i>[!UICONTROL disapproved]</i>， <i>[!UICONTROL pending]</i>，或 <i>[!UICONTROL stop]</i> （已暫停）。 新行銷活動的預設為 <i>[!UICONTROL active]</i>.<br><br><b>附註：</b><ul></li>如果行銷活動曾經是作用中，您無法將之刪除。 請改為封存。</li><li>在某些情況下，行銷活動可能會自動封存或移除。</li><li>您不能手動將狀態設定為 <i>[!UICONTROL disapproved]</i> 或 <i>[!UICONTROL pending]</i>，也無法變更這些狀態。</li></ul> |
+| [!UICONTROL Campaign Status] | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的顯示狀態： <i>[!UICONTROL active]</i>， <i>[!UICONTROL archived]</i>， <i>[!UICONTROL deleted]</i>， <i>[!UICONTROL disapproved]</i>， <i>[!UICONTROL pending]</i>，或 <i>[!UICONTROL stop]</i> （已暫停）。 新行銷活動的預設為 <i>[!UICONTROL active]</i>.<br><br><b>附註：</b><ul></li>如果行銷活動曾經處於作用中狀態，您無法將之刪除。 請改為封存。</li><li>在某些情況下，行銷活動可能會自動封存或移除。</li><li>您不能手動將狀態設定為 <i>[!UICONTROL disapproved]</i> 或 <i>[!UICONTROL pending]</i>，也無法變更這些狀態。</li></ul> |
 | [!UICONTROL Ad Group Status] | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 廣告群組的顯示狀態： <i>[!UICONTROL active]</i>， <i>[!UICONTROL archived]</i>， <i>[!UICONTROL deleted]</i>， <i>[!UICONTROL disapproved]</i>， <i>[!UICONTROL pending]</i>，或 <i>[!UICONTROL stop]</i> （已暫停）。 新廣告群組的預設為 <i>[!UICONTROL active]</i>.<br><br><b>附註：</b><ul></li>如果廣告群組曾經是作用中，您無法將它刪除。 請改為封存。</li><li>您不能手動將狀態設定為 <i>[!UICONTROL disapproved]</i> 或 <i>[!UICONTROL pending]</i>，也無法變更這些狀態。</li></ul> |
 | [!UICONTROL Ad Status] | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 橫幅（廣告）的顯示狀態： <i>[!UICONTROL active]</i>， <i>[!UICONTROL archived]</i>， <i>[!UICONTROL deleted]</i>， <i>[!UICONTROL disapproved]</i>， <i>[!UICONTROL pending]</i>，或 <i>[!UICONTROL stop]</i> （已暫停）。 新橫幅的預設為 <i>[!UICONTROL active]</i>.<br><br><b>附註：您不能手動將狀態設為 <i>[!UICONTROL disapproved]</i> 或 <i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
 | [!UICONTROL Keyword Status] | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 片語（關鍵字）的顯示狀態： <i>[!UICONTROL active]</i>. 新片段的預設值為 <i>[!UICONTROL active]</i>.<br><br><b>附註：您不能手動將狀態設為 <i>[!UICONTROL disapproved]</i> 或 <i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
