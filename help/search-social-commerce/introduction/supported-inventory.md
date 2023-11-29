@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 3bdc21ee649ddc16e144bfa15e16eeac27dfe5d0
+source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 支援的詳細目錄
 
 以下是支援的廣告網路、行銷活動型別和廣告型別，以及每種型別的可用功能。
+
+>[!TIP]
+>
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/dsp/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
 
 | 來源 | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|
