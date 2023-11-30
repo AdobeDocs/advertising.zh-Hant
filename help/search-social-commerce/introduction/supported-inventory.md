@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/search-social-commerce/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下「 」，暫時隱藏目錄或右窗格 ![隱藏窗格](/help/search-social-commerce/assets/hide-pane.png "隱藏窗格") 左窗格或右窗格頂端。
 
 | 來源 | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|

@@ -3,9 +3,9 @@ title: 以下專案的必要大量表單資料： [!DNL Yandex] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Yandex] 帳戶。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1907'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/search-social-commerce/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下「 」，暫時隱藏目錄或右窗格 ![隱藏窗格](/help/search-social-commerce/assets/hide-pane.png "隱藏窗格") 左窗格或右窗格頂端。
 
 | 欄位 | Campaign | 廣告群組 | 關鍵字 | 文字廣告 | Sitelink | 說明 |
 |----|----|-----|-----|----|----|----|

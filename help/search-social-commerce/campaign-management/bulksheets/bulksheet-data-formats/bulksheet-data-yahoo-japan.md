@@ -3,9 +3,9 @@ title: 大量表單資料 [!DNL Yahoo! Japan] 帳戶
 description: 請參考的已下載大量表單中的標題欄位和資料欄位 [!DNL Yahoo! Japan] 帳戶。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2631'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/search-social-commerce/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下「 」，暫時隱藏目錄或右窗格 ![隱藏窗格](/help/search-social-commerce/assets/hide-pane.png "隱藏窗格") 左窗格或右窗格頂端。
 
 | 欄位 | Campaign | 廣告群組 | 關鍵字 | 文字廣告 | 行銷活動位置目標 | 說明 |
 |----|----|----|----|----|----|----|

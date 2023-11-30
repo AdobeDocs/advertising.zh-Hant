@@ -3,9 +3,9 @@ title: 以下專案的必要大量表單資料： [!DNL Baidu] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Baidu] 帳戶。
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下，暫時隱藏目錄 ![隱藏目錄](/help/search-social-commerce/assets/hide-toc.png "隱藏目錄") 左窗格頂端。
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下「 」，暫時隱藏目錄或右窗格 ![隱藏窗格](/help/search-social-commerce/assets/hide-pane.png "隱藏窗格") 左窗格或右窗格頂端。
 
 | 欄位 | Campaign | 廣告群組 | 關鍵字 | 文字廣告 | 位置目標 | 說明 |
 |----|----|----|----|----|----|----|
