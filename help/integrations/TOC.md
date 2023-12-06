@@ -4,9 +4,9 @@ user-guide-description: 了解 Advertising DSP 和 Advertising Search 與其他 
 breadcrumb-title: Experience Cloud 的整合
 role: User, Developer
 index: true
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
@@ -45,5 +45,5 @@ ht-degree: 12%
       + [從DSP Campaigns收集曝光數及點選數資料](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [使用案例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Advertising客戶的AdobeAudience Analytics](/help/integrations/audience-manager/audience-analytics.md)
-+ [在Adobe Target中設定DSP廣告的A/B測試](/help/integrations/target/overview-ab-tests.md)
++ [在Adobe Target中設定DSP廣告的A/B測試](/help/integrations/target/ab-tests-dsp.md)
 + [有關Adobe Advertising整合的影片Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
