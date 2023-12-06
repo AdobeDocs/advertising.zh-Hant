@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 6%
       + [建立自訂目標的最佳實務](/help/dsp/optimization/custom-goal-best-practices.md)
    + [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
-+ 對象 {#audiences}
++ 受眾 {#audiences}
    + [關於對象管理](/help/dsp/audiences/audience-about.md)
    + 區段 {#segments}
       + [建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [共用或停止共用區段](/help/dsp/audiences/segment-share.md)
       + [檢視區段的追蹤畫素](/help/dsp/audiences/segment-view-pixels.md)
       + [刪除區段](/help/dsp/audiences/segment-delete.md)
-   + 對象 {#reusable-audiences}
+   + 受眾 {#reusable-audiences}
       + [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [編輯 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [刪除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ 計畫者 {#planner}
+   + [關於DSP Planner工具](/help/dsp/planner/planner-about.md)
+   + [建立連線電視連線計畫](/help/dsp/planner/planner-create.md)
+   + [複製連線電視連線計畫](/help/dsp/planner/planner-duplicate.md)
+   + [編輯連線電視連線計畫](/help/dsp/planner/planner-edit.md)
+   + [連線電視連線方案的設定](/help/dsp/planner/planner-settings.md)
+   + [匯出連線電視觸及計畫的預測](/help/dsp/planner/planner-export.md)
+   + [重新產生連線電視觸及計畫的預測](/help/dsp/planner/planner-forecast.md)
+   + [封存連線電視觸及計畫](/help/dsp/planner/planner-archive.md)
 + 管理 {#admin}
    + [編輯您的設定檔](/help/dsp/admin/user-own-profile-edit.md)
    + 使用者 {#users}
@@ -227,6 +236,6 @@ ht-degree: 6%
    + 通知 {#notifications}
       + [關於警示訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud 的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [客戶支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
-+ [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
