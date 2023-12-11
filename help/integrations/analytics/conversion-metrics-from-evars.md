@@ -1,10 +1,11 @@
 ---
-title: '"從Adobe Analytics建立轉換量度 [!DNL eVars] 和prop」'
-description: 「使用設定自訂成功事件量度 [!DNL eVar] — 和 [!DNL prop] — 層級資料。」
+title: 從Adobe Analytics建立轉換量度 [!DNL eVars] 和prop
+description: 設定自訂成功事件量度，使用 [!DNL eVar] — 和 [!DNL prop]-level資料。
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
+exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
+source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -57,13 +58,11 @@ ht-degree: 0%
 
 1. 請聯絡您的Adobe客戶團隊，以將新量度同步至Adobe Advertising。
 
-量度可用後，可用於建立目標，接著可指派給搜尋、社交和商務產品組合，或用作 [自訂目標](/help/dsp/optimization/custom-goal-about.md) 用於DSP套件。
+量度可用後，您就可以用它來建立目標，然後將其指派給搜尋、社交和商務產品組合，或用作 [自訂目標](/help/dsp/optimization/custom-goal-about.md) 用於DSP套件。
 
 如需有關建立目標的詳細資訊，請參閱「目標」的「最佳化指南」章節，此章節可從「搜尋」、「社交」和「商務」中取得。
 
 >[!MORELIKETHIS]
 >
 >* [[!DNL Analytics] Adobe Advertising中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
-<!--
->* [](/help/search-social-commerce/admin/conversion-metrics/ ????????)
--->
+>* [檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
