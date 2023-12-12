@@ -1,45 +1,44 @@
 ---
-title: 查看放置更改日誌
-description: 瞭解如何查看對放置所做的更改。
+title: 檢視位置變更記錄
+description: 瞭解如何檢視對位置所做的變更。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# 查看放置的更改日誌
+# 檢視位置的變更記錄
 
-更改日誌顯示在所選日期範圍內對放置所做的更改，包括更改類型、新值和舊值、進行更改的用戶以及日期。 您可以根據需要將附註添加到任何條目。
+變更記錄會顯示所選日期範圍內對版位所做的變更，包括變更型別、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何專案。
 
-可以按類型、修改者或修改日期列對資料進行排序。
+您可以依「型別」、「修改者」或「修改日期」欄來排序資料。
 
-1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 按一下市場活動的名稱。
+1. 按一下行銷活動的名稱。
 
-1. 在子菜單中，按一下 **[!UICONTROL Placements]**。
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
 
-1. 在放置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**。
+1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. （可選）執行下列任一操作：
+1. （可選）執行下列任一項作業：
 
-   * 要在僅查看表單和在表和圖表表單中查看資料之間切換，請按一下 ![表和圖表視圖](/help/dsp/assets/table-plus-chart-view.png "表和圖表視圖") 或 ![表視圖](/help/dsp/assets/table-view.png "表視圖") 的上界。
+   * 若要在僅以表格表單檢視資料與同時以表格和圖表表單檢視資料之間切換，請按一下 ![表格和圖表檢視](/help/dsp/assets/table-plus-chart-view.png "表格和圖表檢視") 或 ![表格檢視](/help/dsp/assets/table-view.png "表格檢視") ，位於右上角工具列。
 
-   * 要向條目添加註釋，請將游標置於 [!UICONTROL Notes] 列，然後按一下 **[!UICONTROL Add Notes]**。 在輸入欄位中輸入文本，然後按一下 **[!UICONTROL Save]**。
+   * 若要新增註記至專案，請將游標停留在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL Add Notes]**. 在輸入欄位中輸入文字，然後按一下 **[!UICONTROL Save]**.
 
-   * 要查看彈出窗口中條目的詳細資訊，請將游標置於 [!UICONTROL Notes] 列，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**。
+   * 若要在快顯視窗中檢視專案的詳細資訊，請將游標停留在 [!UICONTROL Notes] 欄，然後按一下 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
 >
->* [關於放置管理](placement-about.md)
->* [建立放置](placement-create.md)
->* [編輯放置](placement-edit.md)
->* [複製放置](placement-duplicate.md)
->* [編輯放置廣告計畫](placement-edit-ad-schedule.md)
->* [暫停或激活放置](placement-pause-activate.md)
->* [放置設定](placement-settings.md)
-
+>* [關於版位管理](placement-about.md)
+>* [建立位置](placement-create.md)
+>* [編輯位置](placement-edit.md)
+>* [複製投放位置](placement-duplicate.md)
+>* [編輯刊登版位的廣告排程](placement-edit-ad-schedule.md)
+>* [暫停或啟動位置](placement-pause-activate.md)
+>* [位置設定](placement-settings.md)

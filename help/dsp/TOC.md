@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
       + [快速編輯金鑰位置設定](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [複製投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [將廣告附加至投放位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
-      + [編輯刊登的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [暫停或啟動位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)

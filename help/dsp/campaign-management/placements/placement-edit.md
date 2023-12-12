@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 >* [快速編輯金鑰位置設定](placement-quick-edit.md)
 >* [建立位置](placement-create.md)
 >* [複製投放位置](placement-duplicate.md)
->* [編輯刊登的廣告排程](placement-edit-ad-schedule.md)
+>* [編輯刊登版位的廣告排程](placement-edit-ad-schedule.md)
 >* [暫停或啟動位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
