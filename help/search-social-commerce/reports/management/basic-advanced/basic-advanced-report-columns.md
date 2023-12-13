@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] 僅行銷活動)單次曝光所播放視訊的平均時間，包括重播視訊所花費的時間。 |
 | [!UICONTROL Video Plays] | ([!DNL Meta] 僅限於行銷活動)影片開始播放的次數，不包括重播。 |
-| [!UICONTROL Video Played at 25 Percent Count]， [!UICONTROL Video Played at 50 Percent Count]， [!UICONTROL Video Played at 75 Percent Count]、和 [!UICONTROLV視訊播放達到100%計數] | （影片廣告）播放達25%、50%、75%或100%的影片數量。 |
+| [!UICONTROL Video Played at 25 Percent Count]， [!UICONTROL Video Played at 50 Percent Count]， [!UICONTROL Video Played at 75 Percent Count]、和 [!UICONTROL Video Played at 100 Percent Count] | （影片廣告）播放達25%、50%、75%或100%的影片數量。 |
 | [!UICONTROL VideoQuartile25Rate]， [!UICONTROL VideoQuartile50Rate]， [!UICONTROL VideoQuartile75Rate]、和 [!UICONTROL VideoQuartile100Rate] | （影片廣告）影片播放達25%、50%、75%或100%的百分比。 |
 | [!UICONTROL View Rate] | （視訊廣告）檢視或參與次數除以廣告顯示次數（視訊和縮圖曝光數）。 |
 | [!UICONTROL Views] | （影片廣告）人們觀看或參與您廣告的次數。 |
