@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
+source-git-commit: ad0b60d3de4155330f7709701cf110cc760ec8ea
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023年12月6日 | 計畫者 | （Beta版功能）新的規劃工具可協助根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的家庭層級獨特觸及率。 評估多個計畫後，您可以實作最符合所需結果的套件和位置。 | 請參閱&quot;[關於DSP Planner工具](/help/dsp/planner/planner-about.md).」 |
-| 2023年9月27日 | 最佳化 | 兩個全新的觸及基礎最佳化目標， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，可協助您在相同曝光次數或支出水準下，儘可能觸及不重複家庭。 這兩個目標在封裝層級和位置層級都可用。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
+|  | 最佳化 | 所有使用者皆可使用兩個新的點按式最佳化目標： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)「和」[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
+| 2023年9月27日 | 最佳化 | 兩個全新的觸及基礎最佳化目標， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，可協助您分別使用相同曝光次數或支出層級，觸及儘可能多的獨特家庭。 這兩個目標在封裝層級和位置層級都可用。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的刊登版位預測工具會顯示特定鎖定目標策略的預測曝光次數、花費及最佳最高出價。 預測是根據位置可用的整體詳細目錄和可用的不重複使用者來計算。 | 請參閱&quot;[檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md).」 |
 |  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[下載試算表中的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[位置設定已下載/上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，」和「[在試算表中上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
 |  | [!UICONTROL Custom Reports] | 自訂報表現在具有 [!UICONTROL End Date]，最多可相隔4個月。 若為現有報告，到期日為2023年9月24日。<br><br>在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。 | 請參閱&quot;[編輯自訂報告](/help/dsp/reports/report-edit.md)「和」[自訂報表設定](/help/dsp/reports/report-settings.md).」 |
