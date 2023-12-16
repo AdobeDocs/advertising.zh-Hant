@@ -1,21 +1,15 @@
 ---
-title: 在Adobe Target中設定Adobe Advertising廣告的A/B測試
+title: 在Adobe Target中設定Adobe Advertising DSP廣告的A/B測試
 description: 瞭解如何在中設定A/B測試 [!DNL Target] 用於您的DSP廣告。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 48f755b6f3ac00a69086fe4c7ce69d320946635b
+source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Target中設定Advertising DSP Ads的A/B測試
-
-<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
-
-<!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
-
-<!-- Break into sub-files, or just leave as one? -->
 
 *僅使用Advertising DSP的廣告商*
 
@@ -23,7 +17,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 * 將客戶在DSP促銷活動中的廣告曝光度連結至其站上體驗，以降低網站流失率。
 
-* 透過使用Adobe Audience Manager曝光資料和點選摘要來映象廣告訊息的站上體驗，以建立A/B測試。
+* 透過使用Adobe Audience Manager曝光資料和點選摘要來映象廣告訊息的站上體驗，以建立A/B測試 [!DNL Target] 對象。
 
 * 透過Adobe Analytics中的簡單視覺效果，測量整合通訊對網站上的目標提升度的影響，用於 [!DNL Target].
 
@@ -45,8 +39,6 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 ## 步驟1：設定點進架構 {#click-through-framework}
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
 ![點進框架](/help/integrations/assets/target-ct-framework.png)
 
 當您將DSP巨集新增至點進URL （使用者點按廣告並到達登陸頁面時顯示的URL）時，DSP會透過以下方式自動擷取位置索引鍵： `${TM_PLACEMENT_ID}` 點進URL中的。 此巨集會擷取英數字元版位索引鍵，而非數值版位ID。
@@ -66,8 +58,6 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 請聯絡您的Adobe客戶團隊和Advertising Solutions Group (aac-advertising-solutions-group@adobe.com)，以擷取所需的位置索引鍵並完成設定，同時確保每個點進URL都填入位置索引鍵。
 
 ## 步驟2：使用Audience Manager設定閱覽架構 {#view-through-framework}
-
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
 ![檢視框架](/help/integrations/assets/targetr-vt-framework.png)
 
@@ -99,55 +89,53 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
       * 為特徵命名，使其在測試活動中易於識別。 將特徵儲存在您偏好的任何資料夾中。
 
-      * 選取 `Ad Cloud` 作為 **資料來源**.
+      * 選取 `Ad Cloud` 作為 **[!UICONTROL Data Source]**.
 
-      * 對於特徵運算式，使用 `d_event` 作為 **索引鍵** 和 `imp` 作為 **值**.
+      * 對於特徵運算式，使用 `d_event` 作為 **[!UICONTROL Key]** 和 `imp` 作為 **[!UICONTROL Value]**.
 
-   1. [設定測試區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 針對Audience Manager中的新特徵，選取 `Ad Cloud` 作為 **資料來源**.
+   1. [設定測試區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) 針對Audience Manager中的新特徵，選取 `Ad Cloud` 作為 **[!UICONTROL Data Source]**.
 
       Audience Manager會自動將區段分割成控制組，用於接收標準登陸頁面體驗，並分割成測試組，用於接收個人化現場體驗。
 
-## 步驟3：在Target中設定「A/B測試」活動
+## 步驟3：在中設定A/B測試活動 [!DNL Target] 適用於DSP
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
-下列指示會強調與DSP使用案例相關的資訊。 如需完整指示，請參閱「」。
+下列指示會強調與DSP使用案例相關的資訊。
 
 1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
 
-   1. 在 **輸入活動URL** 欄位，輸入測試的登入頁面URL。
+   1. 在 **[!UICONTROL Enter Activity URL]** 欄位，輸入測試的登入頁面URL。
 
       >[!NOTE]
       >
       >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱&quot;[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).」 您可以透過建立頁面URL輕鬆識別熱門專案 [網站專案報表](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) Analytics中的。
 
-   1. 在 **目標** 欄位，輸入測試的成功量度。
+   1. 在 **[!UICONTROL Goal]** 欄位，輸入測試的成功量度。
 
       >[!NOTE]
       >
       >請確定 [!DNL Analytics] 在中啟用為資料來源 [!DNL Target]，且已選取正確的報表套裝。
 
-   1. 設定 **優先順序** 至 `High` 或 `999` 以避免測試區段中的使用者收到錯誤的站上體驗時發生衝突。
+   1. 設定 **[!UICONTROL Priority]** 至 `High` 或 `999` 以避免測試區段中的使用者收到錯誤的站上體驗時發生衝突。
 
-   1. 範圍 **報表設定**，選取 **公司名稱** 和 **報表套裝** 已連線至您的DSP帳戶。
+   1. 範圍 **[!UICONTROL Reporting Settings]**，選取 **[!UICONTROL Company Name]** 和 **[!UICONTROL Report Suite]** 已連線至您的DSP帳戶。
 
       如需其他報表秘訣，請參閱「[報告最佳實務及疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).」
 
-   1. 在 **日期範圍** 欄位，輸入適當的測試開始與結束日期。
+   1. 在 **[!UICONTROL Date Range]** 欄位，輸入適當的測試開始與結束日期。
 
    1. 將對象新增至活動：
 
       1. 選擇 [您先前在Audience Manager中建立的區段，用於測試閱覽對象](#view-through-framework).
 
-      1. 選取 **網頁** > **登陸頁面** > **查詢**，然後輸入DSP放置索引鍵，在 **值** 欄位，用以使用點進對象的Target查詢字串引數。
+      1. 選取 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**，然後輸入DSP放置索引鍵，在 **[!UICONTROL Value]** 欄位，用以使用點進對象的Target查詢字串引數。
 
-   1. 對於 **流量分配方法**，選取 **手動（預設）** 並以50/50比例分割對象。
+   1. 對於 **[!UICONTROL Traffic Allocation Method]**，選取 **[!UICONTROL Manual (Default)]** 並以50/50比例分割對象。
 
    1. 儲存活動。
 
-1. 使用 [!DNL Target] [視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) 以變更A/B測試登入頁面範本的設計。
+1. 使用 [Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) 以變更A/B測試登入頁面範本的設計。
 
    * 體驗A：請勿編輯，因為這是沒有個人化的預設/控制登陸頁面體驗。
 
@@ -171,31 +159,31 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 #### 量度
 
-* 在工作區中建立面板，專用於執行測試的Adobe Advertising促銷活動、套件或位置。 使用摘要視覺效果，在與Target測試效能相同的報表中顯示Adobe Advertising測量結果。
+* 在工作區中建立面板，專用於執行測試的Adobe Advertising促銷活動、套件或位置。 使用摘要視覺效果顯示與相同報表中的Adobe Advertising量度 [!DNL Target] 測試效能。
 
 * 優先使用站上量度（例如造訪和轉換）來測量效能。
 
-* 瞭解Adobe Advertising的彙總媒體量度（例如曝光數、點按數和成本）無法與Target量度比對。
+* 瞭解Adobe Advertising的彙總媒體量度（例如曝光數、點按數和成本）無法與比對 [!DNL Target] 量度。
 
 #### Dimension
 
 下列維度與 [!DNL Analytics for Target]：
 
-* **目標活動**： A/B測試的名稱
+* **[!UICONTROL Target Activities]**： A/B測試的名稱
 
-* **Target體驗**：活動內使用的登入頁面體驗名稱
+* **[!UICONTROL Target Experiences]**：活動內使用的登入頁面體驗名稱
 
-* **Target活動** > **體驗**：同一列中的活動名稱和體驗名稱
+* **[!UICONTROL Target Activity]** > **[!UICONTROL Experience]**：同一列中的活動名稱和體驗名稱
 
 ### 疑難排解Analytics for [!DNL Target] 資料
 
 在Analysis Workspace中，如果您發現活動和體驗資料很少或未填入，則請執行以下操作：
 
-* 確認相同的補充資料ID (SDID)用於Target和Analytics。 您可以使用驗證SDID值 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 在行銷活動將使用者引導至的登陸頁面上。
+* 確認相同 [!UICONTROL Supplemental Data ID] (SDID)會用於兩者 [!DNL Target] 和 [!DNL Analytics]. 您可以使用驗證SDID值 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 在行銷活動將使用者引導至的登陸頁面上。
 
 [Adobe Debugger中的補充資料ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 在相同的登陸頁面上，確認a) 「解決方案> Target」底下Adobe Debugger中顯示的主機名稱符合b)中顯示的追蹤伺服器 [!DNL Target] 針對活動（在「目標與設定>報表設定」底下）。
+* 在相同登陸頁面上，確認a) [!UICONTROL Hostname] 顯示在Adobe Debugger底下 [!UICONTROL Solutions] > [!UICONTROL Target] 比對b) [!UICONTROL Tracking Server] 顯示於 [!DNL Target] 針對活動(在 [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings])。
 
   [!DNL Analytics For Target] 需要 [!DNL Analytics] 要以呼叫傳送的追蹤伺服器 [!DNL Target] 至 [!DNL Modstats] Analytics的資料收集伺服器。<!-- just "to Analytics?"-->
 
@@ -205,14 +193,12 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 ## 進一步閱讀
 
-* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) — 說明如何在Analysis Workspace中設定Target報告。
+* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)  — 說明如何設定 [!DNL Target] Analysis Workspace中的報告。
 * [A/B測試概覽](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 說明可搭配DSP廣告使用的A/B測試活動。
 * [體驗與選件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 說明 [!DNL Target] 用於判斷DSP測試使用者會接觸到哪些站上內容的工具。
 * [訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)  — 定義有助於進行DSP閱覽測試的一些Audience Manager工具。
 * [Analytics for Advertising概述](/help/integrations/analytics/overview.md)  — 引進Analytics for Advertising，可讓您追蹤Analytics例項中的點進和檢視網站互動。
 
-<!-- 
 >[!MORELIKETHIS]
 >
->* 
--->
+>* [在Adobe Target中設定廣告搜尋、社交和商務廣告的A/B測試](ab-tests-search.md)
