@@ -3,9 +3,9 @@ title: 編輯刊登版位的廣告時程表
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       * 若要平均旋轉航班的廣告，請輸入 `[!UICONTROL Even]`.
 
-      * 若要不均勻地旋轉航班的廣告，請輸入每個廣告旋轉的相對權重，以百分比表示。 航班的總重量必須等於100。
+      * 若要不均勻地旋轉投放的廣告，請輸入每個廣告旋轉的相對權重，以百分比表示(例如 `40` 40%)。 航班的總重量必須等於100。
 
 1. 上傳已編輯的廣告排程範本：
 
