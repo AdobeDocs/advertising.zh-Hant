@@ -3,9 +3,9 @@ title: 編輯刊登版位的廣告時程表
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ ht-degree: 0%
 
    ![下載就緒通知](/help/dsp/assets/download-ready.png "下載就緒通知")
 
-1. 開啟下載的檔案，視需要編輯航班資訊，然後儲存更新的檔案：
+1. 開啟下載的檔案，編輯每個廣告列的航班資訊欄位以包含在航班中，並儲存更新的檔案：
 
-   * 若要新增航班，請使用，指定每個廣告列要納入航班的航班日期 **[!UICONTROL Flight N Start Date]** 和 **[!UICONTROL Flight N End Date]** 欄。 每個日期使用YYYY-MM-DD格式。
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (例如 [!UICONTROL Flight 1 Start Date] 和 [!UICONTROL Flight 1 End Date])：航班的第一個和最後一個日期。 每個日期使用YYYY-MM-DD格式。 任何包含空白投放日期欄位的廣告都會被視為非參與廣告。
 
-     例如，對於首次投放的廣告，請在以下位置輸入值： [!UICONTROL Flight 1 Start Date] 和 [!UICONTROL Flight 1 End Date] 欄位。 如果廣告列尚未包含在檔案中，請在新列中輸入所需的廣告資訊。
+   **[!UICONTROL Flight N Weight]** (例如 [!UICONTROL Flight 1 Weight])：如何旋轉航班的廣告。 輸入值：
 
-     任何包含空白投放日期欄位的廣告都會被視為非參與廣告。
+   * 若要平均旋轉航班的廣告，請輸入&quot;**[!UICONTROL Even]**「。
 
-   * 若要平均旋轉航班的廣告，請輸入&quot;**[!UICONTROL Even]**&quot; （在相關中） **[!UICONTROL Flight N Weight]** 欄位(例如 [!UICONTROL Flight 1 Weight])。
-
-   * 若要不均勻地旋轉航班的廣告，請在相關欄位中輸入旋轉每個廣告的相對權重，以百分比表示 **[!UICONTROL Flight N Weight]** 欄位(例如 [!UICONTROL Flight 1 Weight])。
-
-     每個航班的總重量必須等於100。
+   * 若要不均勻地旋轉航班的廣告，請輸入每個廣告旋轉的相對權重，以百分比表示。 航班的總重量必須等於100。
 
 1. 上傳已編輯的廣告排程範本：
 
