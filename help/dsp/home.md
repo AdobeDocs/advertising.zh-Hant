@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: c21f003c3603ff5d8a303f688b11be0a123f920d
+source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年1月10日 | [!UICONTROL Placements] | 您現在可以使用試算表，快速自訂多個位置的廣告排程：<ul><li>您可以下載刊登版位的廣告排程範本。 您可以視需要在下載的檔案中編輯投放日期和廣告輪換。</li><li>然後，您可以上傳已編輯的廣告排程範本。</li></ul> | 請參閱&quot;[編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).」 |
 | 2023年12月21日 | [!UICONTROL Audiences] | 檔案現在可用於共用來自的第一方資料 [!DNL Tealium] 客戶資料平台與DSP，使用 [!DNL Amazon Web Services]. 您可以使用將DSP版位鎖定至區段 [!DNL RampIDs]. 在版位設定內 [!UICONTROL Audience Targeting]，共用的區段可用於 [!UICONTROL First Party Segments] 清單。 | 請參閱&quot;[關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)「和」[搭配使用DSP整合的工作流程 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).」 |
 | 2023年12月6日 | 計畫者 | （Beta版功能）新的規劃工具可協助根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的家庭層級獨特觸及率。 評估多個計畫後，您可以實作最符合所需結果的套件和位置。 | 請參閱&quot;[關於DSP Planner工具](/help/dsp/planner/planner-about.md).」 |
 |  | 最佳化 | 所有使用者皆可使用兩個新的點按式最佳化目標： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)「和」[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
