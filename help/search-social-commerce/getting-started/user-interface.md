@@ -1,11 +1,11 @@
 ---
 title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 每個頁面的頂端都包含主功能表和其他工作與資訊型功能表。
 
 ## 主功能表
-
-頂層的主要功能表選項取決於可用的廣告頻道。 您只會看到套用至您的廣告頻道：
-
-* **[!UICONTROL DSP]** — (當您有權存取Adobe Advertising DSP (Demand Side Platform)時)管理您的顯示和連線電視廣告。 單獨的 [DSP指南](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) 可用。
-
-* **[!UICONTROL Creative]** — (當您有權存取Adobe Advertising Creative時)若要自動化即時、個人化的廣告體驗，並最佳化創意元素層級的廣告。 您可以從Creative取得個別說明。
 
 * **[!UICONTROL Search]**  — 在Search、Social和Commerce中管理您的廣告網路帳戶，包括Search、Social和Commerce正在追蹤但不競標帳戶。
 
