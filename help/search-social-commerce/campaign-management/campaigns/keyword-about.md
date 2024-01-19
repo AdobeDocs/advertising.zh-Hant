@@ -1,9 +1,9 @@
 ---
 title: 關於關鍵字
 description: 瞭解可競標和負面關鍵字的選項。
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 關於關鍵字
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 關鍵字是與廣告相關聯的字詞或片語。 關鍵字設定包括關鍵字比對型別、關鍵字觸發廣告時可使用的最高競標，以及（某些廣告網路）可選的追蹤引數。 關鍵字層級設定會覆寫廣告群組或促銷活動設定。
 

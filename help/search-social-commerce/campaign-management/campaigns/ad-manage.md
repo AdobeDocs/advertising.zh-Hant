@@ -1,18 +1,18 @@
 ---
 title: 管理廣告
 description: 瞭解如何建立和管理廣告。
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # 管理廣告
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 您可以從以下位置建立、編輯和變更廣告狀態： [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] 檢視。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 變更廣告狀態
 
-您可以暫停作用中的廣告以停用其競標。 您稍後可以透過將狀態變回使用中來繼續競標。
+您可以暫停作用中的廣告以停用其競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
 您也可以刪除任何作用中或暫停的搜尋廣告。 刪除的廣告會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 

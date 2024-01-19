@@ -1,18 +1,18 @@
 ---
 title: 管理行銷活動
 description: 瞭解如何建立和管理廣告行銷活動。
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # 管理行銷活動
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 行銷活動是廣告網路帳戶的主要元件。 對於大多數行銷活動型別，它是由一組廣告群組或廣告集所組成。 行銷活動設定包含行銷活動預算引數、廣告目標，以及行銷活動中所有廣告的選用追蹤引數。 行銷活動層級追蹤引數會覆寫帳戶層級引數，但本身可能在較低層級覆寫。
 

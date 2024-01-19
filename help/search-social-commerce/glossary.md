@@ -1,11 +1,11 @@
 ---
 title: 字彙表
 description: 請參閱重要辭彙的定義。
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**行銷活動：** 單一廣告帳戶中的一組廣告群組，可共用預算、時間範圍、目標定位和其他設定。 **注意：** [!DNL Baidu] 沒有行銷活動的概念，但Search、Social和Commerce會為中的每組相關廣告群組建立虛擬行銷活動。 [!DNL Baidu] 在Search、Social和Commerce中同步的專案。
+**行銷活動：** 單一廣告帳戶中的一組廣告群組，可共用預算、時間範圍、目標定位和其他設定。 **注意：** [!DNL Baidu] 沒有行銷活動的概念，但Search、Social和Commerce會為現有行銷活動中每組相關廣告群組建立虛擬行銷活動 [!DNL Baidu] 在Search、Social和Commerce中同步的帳戶。
 
 **區分大小寫的欄位：** 區分大小寫的欄位或查詢處理大寫字母（例如C）的方式與處理小寫字母（例如c）的方式不同。 例如，Car會被視為與car不同的值。
 

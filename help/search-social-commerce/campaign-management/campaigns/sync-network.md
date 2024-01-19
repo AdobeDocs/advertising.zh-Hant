@@ -1,20 +1,20 @@
 ---
 title: 手動同步處理廣告網路資料
 description: 瞭解如何針對支援的廣告網路，手動觸發行銷活動結構和行銷活動實體的同步。
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 手動同步處理廣告網路資料
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising] (先前稱為 [!DNL Bing Ads])， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising] (先前稱為 [!DNL Bing Ads])， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
-同步是Search、Social和Commerce針對每個廣告商的廣告網路帳戶收集更新資訊的程式。 [支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md). 此資料包含廣告商的促銷活動結構和促銷活動實體，包括在「搜尋」、「社交」和「商務」中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾元（分別收集）。
+同步是Search、Social和Commerce針對每個廣告商的已連線廣告網路帳戶收集更新資訊的程式。 [支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md). 此資料包含廣告商的促銷活動結構和促銷活動實體，包括在「搜尋」、「社交」和「商務」中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾元（分別收集）。
 
 搜尋、Social和Commerce會每天自動與您的廣告網路帳戶同步（同步）一次，也可在偵測到您其中一個廣告網路上的新促銷活動時同步。 此外，它會立即將所有從「搜尋、社交和商務」內所做的行銷活動資料變更傳送至廣告網路。
 

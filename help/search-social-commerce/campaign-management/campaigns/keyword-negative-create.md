@@ -1,18 +1,18 @@
 ---
 title: 建立負面關鍵字
 description: 瞭解如何為搜尋促銷活動和廣告群組建立負面關鍵字。
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # 建立負面關鍵字
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]，和現有 [!DNL Baidu] 僅限帳戶*
 
 您可以針對搜尋或顯示/原生網路，為搜尋廣告群組或行銷活動建立負關鍵字。 負面關鍵字不會觸發廣告。
 

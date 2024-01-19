@@ -1,18 +1,18 @@
 ---
 title: 管理可競標的關鍵字
 description: 瞭解如何建立和管理搜尋廣告群組的可競標關鍵字。
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # 管理可競標的關鍵字
 
-*[!DNL Baidu]， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]和 [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 您可以在中建立和編輯搜尋廣告群組的關鍵字 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 以內的搜尋和顯示/原生網路為目標 [已同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 

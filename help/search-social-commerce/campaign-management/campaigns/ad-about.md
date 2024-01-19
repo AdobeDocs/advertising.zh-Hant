@@ -1,18 +1,18 @@
 ---
 title: 管理廣告
 description: 瞭解搜尋、社交和商務中的廣告，包括可用的廣告型別。
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # 關於廣告
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 廣告可以顯示在目標網站上（針對內容或定位促銷活動）；當使用者搜尋廣告群組中的其中一個關鍵字時（針對搜尋促銷活動），或搜尋您網站上的內容時（針對中的動態搜尋廣告） [!DNL Google Ads] 僅限搜尋的行銷活動)；或當使用者執行與您的專案相關的搜尋時， [!DNL Google Merchant Center] 或 [!DNL Microsoft® Merchant Center] 產品摘要（購物廣告） [!DNL Google Ads] 或產品廣告於 [!DNL Microsoft® Advertising] 行銷活動)。
 

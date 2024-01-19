@@ -1,11 +1,11 @@
 ---
 title: 關於廣告網路帳戶
 description: 瞭解Search、Social和Commerce中的廣告網路帳戶。
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 透過API同步的帳戶
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising] (先前稱為 [!DNL Bing Ads])， [!DNL Yahoo! Display Network]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising] (先前稱為 [!DNL Bing Ads])， [!DNL Yahoo! Display Network]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 帳戶*
 
 搜尋、社交和商務同步(*同步*)，您可追蹤、報告及視覺化廣告的效能。 適用於所有廣告網路，但不包括 [!DNL Yahoo! Display Network]，您可以選擇在Search、Social和Commerce中管理您帳戶的促銷活動； [!DNL Yahoo! Display Network]，行銷活動為唯讀。 對於所有廣告網路，您可以透過將最佳化功能新增至產品組合，以最佳化受管理帳戶中廣告的競標。
 

@@ -1,11 +1,11 @@
 ---
 title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 以下是建立和編輯廣告網路帳戶詳細資料、重新整理 [!DNL oAuth] 帳戶的Token，以及停用帳戶。
 
+如需每個廣告網路可用功能的詳細資訊，請參閱&quot;[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md).」
+
 ## 建立廣告網路帳戶詳細資料 {#create-account}
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員及管理員使用者角色*
 
-若要啟用帳戶的同步或追蹤功能，您必須建立包含帳戶存取認證和追蹤選項，以及狀態的相關帳戶記錄 *主要*. 如需每個廣告網路可用功能的詳細資訊，請參閱&quot;[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md).」
+若要啟用帳戶的同步或追蹤功能，您必須建立包含帳戶存取認證和追蹤選項，以及狀態的相關帳戶記錄 *主要*.
 
 >[!NOTE]
 >
->若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
+>* 新版本不提供支援 [!DNL Baidu] 帳戶。
+>* 若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -156,11 +159,11 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL Login]：** (所有廣告網路，除了 [!DNL Naver])可啟用帳戶API存取權的登入名稱或ID。
 
-**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled及除外的所有其他網路 [!DNL Baidu]， [!DNL Meta]、和 [!DNL Yandex])帳戶的Token，可使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
+**[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled及除外的所有其他網路 [!DNL Meta] 和 [!DNL Yandex])帳戶的Token，可使用 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有廣告網路，除了 [!DNL Naver])帳戶的密碼。 針對上的啟用密碼的帳戶 [!DNL Baidu]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此為必填欄位。 的 [!DNL oAuth]-enabled帳號，此欄位是選用欄位；當您想要加密並儲存密碼以便帳號管理員視需要重新整理權杖時，請使用它。
+**[!UICONTROL Login Details]： [!UICONTROL Password]：** (所有廣告網路，除了 [!DNL Naver])帳戶的密碼。 針對上的啟用密碼的帳戶 [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex]，此為必填欄位。 的 [!DNL oAuth]-enabled帳號，此欄位是選用欄位；當您想要加密並儲存密碼以便帳號管理員視需要重新整理權杖時，請使用它。
 
-**[!UICONTROL Login Details]： [!UICONTROL Access Key]：** ([!DNL Baidu] 和 [!DNL Yandex] 僅限帳戶)要使用的開發人員帳戶的存取金鑰。
+**[!UICONTROL Login Details]： [!UICONTROL Access Key]：** ([!DNL Yandex] 僅限帳戶)要使用的開發人員帳戶的存取金鑰。
 
 **[!UICONTROL Currency]：** 用於帳戶的貨幣縮寫。 新可編輯此欄位 [!DNL Naver] 帳戶。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告網路上為帳戶設定的貨幣自動填入值。
 

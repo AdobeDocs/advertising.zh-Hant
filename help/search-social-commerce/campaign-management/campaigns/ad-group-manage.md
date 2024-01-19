@@ -1,18 +1,18 @@
 ---
 title: 管理廣告群組
 description: 瞭解如何建立及管理廣告群組。
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 管理廣告群組
 
-*[!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 廣告群組包含一組廣告及其相關關鍵字。 行銷活動中以顯示網路為目標的廣告群組也可以包含版位，即顯示網路上的廣告可出現位置。 適用於廣告群組所有元件的廣告群組設定，會因廣告網路而異。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 變更廣告群組的狀態
 
-您可以暫停任何作用中的搜尋廣告群組，以停用其上的競標。 您稍後可以透過將狀態變回使用中來繼續競標。
+您可以暫停任何作用中的搜尋廣告群組，以停用其上的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
 您也可以刪除任何作用中或暫停的搜尋廣告群組。 已刪除的廣告群組會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
