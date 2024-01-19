@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: ca3d21fdfc770767502ea8757b5140d68a3e6328
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 來源 | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu]：僅搜尋、社交和商務中的現有帳戶；不支援新帳戶 | 搜尋網路 | 手動 | 文字 | 透過API自動進行 | 編輯和刪除，使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 僅限使用手動CPC競標策略的行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
+| [!DNL Baidu]： *僅支援搜尋、社交和商務中的現有帳戶* | 搜尋網路 | 手動 | 文字 | 透過API自動進行 | 編輯和刪除，使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 僅限使用手動CPC競標策略的行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | [!DNL Google Ads] | 全部 [!DNL Google] 摘要 | 探索（測試版功能） | 探索（單一影像廣告）<br><br>探索輪播（多影像輪播廣告） | 透過API自動進行 | — | 是 | 僅限混合專案組合<br><br>競標和競標策略目標會設定於行銷活動層級，連同行銷活動預算（如適用於最佳化型別）。 | 廣告層級資料 | 搜尋、社交和商務的廣告層級資料 [使用升級的AMO ID追蹤代碼](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 全部 | 最高標準效能（Beta版功能） | 所有型別 | 透過API自動進行 | 在的行銷活動設定中建立/編輯行銷活動及上傳廣告資產 [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>只有必要的設定可供使用。 如需選用設定和列出群組，請登入[！DNL [!DNL Google Ads] Ads]編輯器。 | 是 | 僅限混合專案組合<br><br>競標策略目標與行銷活動預算一起設定於行銷活動層級。 | 行銷活動層級資料<br><br>清單群組的資料無法使用，且廣告網路未提供廣告層級資料。 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的行銷活動層級資料。 需要升級的 [AMO ID追蹤代碼](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | 顯示網路 | 標準顯示 | 影像 | 透過API自動進行 | 僅編輯URL和狀態，使用 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | — | 廣告層級資料，但沒有瀏覽資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料，但沒有瀏覽資料 |
