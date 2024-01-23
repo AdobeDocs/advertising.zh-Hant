@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: e26a1c71bf14d0ade5b97dbf3dedc949325ab0a9
+source-git-commit: 381e757865cf28b99311bbf68cb33b1d78296781
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年1月20日 | [!UICONTROL Campaigns]， [!DNL Optimization] | ([!DNL Microsoft Advertising] 行銷活動)對於對象網路上的行銷活動，您現在可以選取&quot;[!UICONTROL Maximize Conversions]&quot;行銷活動設定中的自動競標策略，含選填&quot;[!UICONTROL Target CPA]「值。 使用此競標策略的行銷活動可用於混合產品組合中的最佳化。 | 請參閱&quot;[[!DNL Microsoft Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).」 |
 | 2023年11月17日 | [!UICONTROL Recommendations & Publisher Insights] | 更多 [!DNL Google Ads] 您現在可以從以下位置取得建議： [!UICONTROL Insights] > [!UICONTROL Reports] > [!UICONTROL Recommendations  & Publisher Insights]，您可在這裡套用和解除這些設定：<ul><li>[!UICONTROL Automated campaigns]：</li><ul><li>[!UICONTROL DSA to performance max migration]：將動態搜尋廣告移轉至最高成效行銷活動。</li><li>[!UICONTROL Dynamic image extension opt in]：啟用帳戶的動態影像擴充功能，允許 [!DNL Google Ads] 機器學習，自動將廣告登陸頁面中最相關的影像附加至廣告。</li><li>[!UICONTROL Improve performance max ad strength]：改善最高成效行銷活動的資產群組強度，使其評等「優秀」。</li><li>[!UICONTROL Performance max opt in]：選擇加入最高成效的行銷活動。</li></ul><li>[!UICONTROL Bidding and budgets]<ul><li>[!UICONTROL Target CPA raising]：提升 [!UICONTROL Target CPA] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。</li><li>[!UICONTROL Target ROAS lowering]：降低 [!UICONTROL Target ROAS] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。</li></ul></ul> | 請參閱&quot;[關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md)「和」[檢視您的發佈者建議和效能深入分析](/help/search-social-commerce/recommendations/recommendation-view.md).」 |
 | 2023年11月8日 | [!UICONTROL Asset Library] | (開放Beta版功能； [!DNL Microsoft® Advertising] accounts) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以建立可重複使用的影像和視訊資產，並將其上傳至 [!DNL Microsoft® Advertising] 帳戶層級的資產庫。 您可以將上傳的資產新增至中的適用行銷活動型別 [!DNL Microsoft® Advertising] 編輯者。 | 請參閱&quot;[關於 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)「和」[建立及上傳資產](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).」 |
 | | [!UICONTROL Campaigns]， [!UICONTROL Optimization]， [!UICONTROL Reports]， [!UICONTROL Import Campaigns] | (開放Beta版功能； [!DNL Microsoft® Advertising] 帳戶)下列支援適用於 [!DNL Microsoft® Advertising] 最高成效行銷活動：<ul><li>搜尋、社交和商務會同步最大成效行銷活動，以便在行銷活動管理檢視和離線報表中製作報表。 最高成效行銷活動只能包含在混合產品組合中以作最佳化，而競標策略目標則是在行銷活動層級設定，連同行銷活動預算。</li><li>您可以建立和編輯最高成效行銷活動，從 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 使用 [!UICONTROL Campaign Type] &quot;[!UICONTROL Performance Max].」 僅提供必要設定；可用的競標策略包括 [!UICONTROL Maximize Conversions]，並可選購單項收購的目標成本，以及 [!UICONTROL Maximize Conversion Value]，並可選購廣告投資報酬率。 如需選擇性的設定，請登入 [!DNL Microsoft® Advertising] 編輯者。 您可以單獨將廣告資產上傳到 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 並將它們新增至中的行銷活動 [!DNL Microsoft® Advertising] 編輯者。</li><li>您可以複製 [!DNL Google Ads] 最大成效行銷活動為 [!DNL Microsoft® Advertising] 行銷活動的績效最高來自 [!UICONTROL Tools] > [!UICONTROL Import Campaigns]. 先前， [!DNL Google Ads] 最高成效行銷活動已復寫為智慧購物行銷活動。</li></ul> | 請參閱&quot;[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)，&quot; &quot;[[!DNL Microsoft® Advertising] 行銷活動設定](/help/search-social-commerce/recommendations/recommendation-support.md)，」和「[復寫 [!DNL Google Ads] 中的行銷活動 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).」 |

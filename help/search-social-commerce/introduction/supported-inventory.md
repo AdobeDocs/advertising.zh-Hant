@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 728f50419f4ebefc39fffc9d631700c246b3c12b
+source-git-commit: b9dc9384da4a27b9e2ea19b5c04287bf96828a20
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | | 購物網路 | 標準購物 | 產品購物（創意型別「產品」） | 透過API自動進行 | 系統會自動為廣告群組中的產品群組產生廣告文案。 僅使用編輯廣告狀態 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 和 [詳細目錄管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)<br><br>您可以使用建立上層促銷活動、廣告群組和產品群組，並僅編輯其狀態 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 和 [詳細目錄管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md). | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 是 | 行銷活動、廣告群組和產品群組層級資料 [!DNL Google Ads] 不提供購物行銷活動的廣告層級成效資料。 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的行銷活動、廣告群組和產品群組層級資料 |
 | | [!DNL YouTube] | 影片 | 影片 | 需要 [選擇加入](/help/search-social-commerce/tools/sync-inventory.md)；透過API<br><br>僅限基本廣告詳細資料，不含縮圖 | — | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 行銷活動與 [!UICONTROL Maximize Conversions] 僅限混合產品組合中的競標策略<br><br>混合投資組合只能包含 [!DNL YouTube] 行銷活動。 | 行銷活動和廣告群組層級資料<br><br>廣告網路未提供廣告層級資料。 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的行銷活動和廣告群組層級資料 |
 | [!DNL Microsoft Advertising] | 全部 | 標準最高效能（搜尋、社交和商務的Beta版功能） | 所有型別 | 透過API自動進行 | 在中建立/編輯沒有資產群組的行銷活動 [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<br><br>只有必要的設定可供使用。 如需選用設定和列出群組，請登入[！DNL [!DNL Microsoft Advertising] Ads]編輯器。 | 是 | 僅限混合專案組合<br><br>競標策略目標與行銷活動預算一起設定於行銷活動層級。 | 行銷活動層級資料<br><br>清單群組的資料無法使用，且廣告網路未提供廣告層級資料。 | — |
-|  | 對象網路 | 對象行銷活動型別：<br><br>&quot;[!UICONTROL Audience (image)]「和」[!UICONTROL Audience] （摘要）」) | 回應式<br><br>僅包含對象網路的影像型廣告和產品摘要型廣告 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是，適用於增強型CPC (eCPC)行銷活動<br><br>不適用於CPM行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
+|  | 對象網路 | 對象行銷活動型別：<br><br>&quot;[!UICONTROL Audience (image)]「和」[!UICONTROL Audience] （摘要）」) | 回應式<br><br>僅包含對象網路的影像型廣告和產品摘要型廣告 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是，適用於混合或標準產品組合中的增強型CPC (eCPC)行銷活動；是，適用於具有下列專案的行銷活動： [!UICONTROL Maximize Conversions] 混合產品組合中的競標策略<br><br>不適用於CPM行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 |  | 對象網路 | [!UICONTROL Audience Video] | 回應式 | 透過API自動進行 | 您可以使用以下專案建立上層行銷活動和廣告群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是，適用於增強型CPC (eCPC)行銷活動<br><br>不適用於CPM行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 |  | 對象網路 | [!UICONTROL Audience CTV Video] | 回應式 | 透過API自動進行 | 您可以使用以下專案建立上層行銷活動和廣告群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是，適用於增強型CPC (eCPC)行銷活動<br><br>不適用於CPM行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 對象網路 | 搜尋 | 使用&quot;[!DNL Prefer Audience Ad Format]「 」已選取 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>不支援影像廣告擴充功能 | 是 | 是 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
