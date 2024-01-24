@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ ht-degree: 0%
    1. 選取 **[!UICONTROL Edit Mode]**.
 
       選項因設定而異，但可能包括：
-
-      * **新增** （附加廣告）
 
       * **附加** （保留現有值並新增值）
 

@@ -1,132 +1,80 @@
 ---
-title: 將廣告附加至投放位置
-description: 瞭解如何將廣告附加至投放位置。
+title: 將廣告附加至刊登版位
+description: 瞭解如何在刊登版位中附加廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# 將廣告附加至投放位置
+# 將廣告附加至刊登版位
 
 >[!NOTE]
 >
 >通用視訊廣告只能附加至通用視訊位置。
 
-## 從附加新廣告 [!UICONTROL Ads] 檢視
+## 將廣告附加至刊登版位 {#attach-ads-campaign}
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
 1. 按一下行銷活動的名稱。
 
-1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
+1. 開啟 [!UICONTROL Ad Tools] 以下列任一方式檢視：
 
-1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (從 [!UICONTROL Packages] ， [!UICONTROL Placements]，或 [!UICONTROL Ads] view)在右上方，按一下 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. 在「置入廣告」畫面中，執行下列其中一項作業：
+   * (從 [!UICONTROL Placements] view)在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * 若要建立廣告的新版位：
+   * (從 [!UICONTROL Ads] view)在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. 按一下 **[!UICONTROL Create New Placement]**.
+1. 在 [!UICONTROL Edit] 子檢視，請針對您想要附加至版位的每個廣告群組執行下列動作：
 
-      1. 輸入 [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下 **[!UICONTROL Create Placement]**.
+   1. （選用）透過下列任一方式找出特定版位和廣告：
 
-   * 若要將廣告新增至一或多個現有位置：
+      * 在表格上方按一下 ![篩選](/help/dsp/assets/filter.png) 並依版位型別、版位狀態、廣告型別或廣告狀態來篩選清單。
 
-      1. 按一下 **[!UICONTROL Select a Placement].**
+      * 在右側和左側表格中，搜尋版位和廣告名稱中的特定文字字串。
 
-      1. 執行下列任一項作業：
+   1. 在左側表格中，選取要附加廣告的每個位置旁的核取方塊。
 
-         * 若要一次新增一個廣告：
+   1. 在右側表格中，選取您要附加至所選版位的每個廣告旁的核取方塊。
 
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
+      只有適用於版位型別且尚未附加至所選版位的廣告才可供選取。
 
-            1. （選擇性）針對您要附加的每個其他廣告，按一下 **[!UICONTROL Attach to Other Placement]**. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
+   1. 在右下方，按一下  **[!UICONTROL Attach]**.
 
-         * 若要一次最多附加20個廣告位置：
+1. （選用）若要返回行銷活動詳細資料檢視，請按一下 ![返回資料夾](/help/dsp/assets/breadcrumb-return.png "返回資料夾") 左側的 [!UICONTROL Ad Tools] 並選取行銷活動名稱。
 
-            1. 選取「大量選取**旁的核取方塊。
+## 檢視附加至刊登版位的廣告 {#view-ads-campaign}
 
-            1. 選取每個要附加廣告的位置旁的核取方塊。
-
-            1. 按一下 **[!UICONTROL Attach]**.
-
-      1. 在「完成和複查」標籤上，選取下列其中一項：
-
-         * 若要返回「廣告」檢視，請按一下 **[!UICONTROL I'm done for now]**.
-
-         * 若要將廣告附加至其他位置，請按一下 **[!UICONTROL Attach To Other Placement]**.
-
-## 從附加新廣告或現有廣告 [!UICONTROL Placements] 檢視
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
 1. 按一下行銷活動的名稱。
 
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 開啟 [!UICONTROL Ad Tools] 以下列任一方式檢視：
 
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (從 [!UICONTROL Packages] ， [!UICONTROL Placements]，或 [!UICONTROL Ads] view)在右上方，按一下 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. 在 [!UICONTROL Add Ad to Placement] 畫面，執行下列任一項作業：
+   * （若要檢視附加至特定位置的廣告）在子功能表中，按一下 **[!UICONTROL Placements]**. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * 若要建立新廣告：
+   * （若要檢視附加了廣告或符合附加條件的版位）在子功能表中，按一下 **[!UICONTROL Ads]**. 在廣告名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. 按一下 **[!UICONTROL Create a New Ad]**.
+1. 切換至 **[!UICONTROL View]** 選項。
 
-      1. 輸入廣告設定 [音訊廣告](ad-settings-audio.md)， [連線電視](ad-settings-connected-tv.md)， [顯示廣告](ad-settings-display.md)， [行動裝置廣告](ad-settings-mobile.md)， [原生廣告](ad-settings-native.md)，或 [前段廣告](ad-settings-pre-roll.md).
+1. （選用）視需要尋找特定版位和廣告：
 
-      1. 按一下 **[!UICONTROL Save & Submit for Review]**.
+   * 在左側表格上方，依版位型別、版位狀態、廣告型別或廣告狀態來篩選清單。
 
-         此 [廣告評論](ad-about.md) 對於新廣告，需要24到48小時，並包括敏感類別的檢查、按一下URL功能以及預覽呈現。 此 [!UICONTROL Status] 欄會指出DSP是否已核准廣告。 損毀的廣告可能會有超過24到48小時的擱置狀態，以便您有時間在錯誤被拒絕之前修正錯誤。
+   * 在右側和左側表格中，搜尋位置或廣告名稱中的特定文字字串。
 
-         >[!NOTE]
-         >
-         >只有在DSP和SSP皆核准創意內容後，才會提供您的廣告。 每個SSP都有各自的核准需求和流程。
+1. 按一下左側表格中的任何位置列，檢視右側表格中的附加廣告。
 
-   * 若要選取現有廣告：
-
-      1. 按一下 **[!UICONTROL Select an Ad].**
-
-      1. 指定廣告：
-
-         * 若要一次新增一個廣告：
-
-            1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
-
-            1. （選擇性）針對您要附加的每個其他廣告，按一下 **[!UICONTROL Add Another Ad]**. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
-
-         * 若要一次新增最多20個廣告：
-
-            1. 選取旁邊的核取方塊 **[!UICONTROL Bulk Select]**.」
-
-            1. 選取每個要新增的廣告旁的核取方塊。
-
-            1. 按一下 **[!UICONTROL Attach]**.
-
-      1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
-
-         1. 按一下 **[!UICONTROL Custom Schedule Ads]**.
-
-         1. 執行下列任一項作業：
-
-            * 若要新增航班，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
-
-            * 若要將現有航班新增至廣告，請按一下 **[!UICONTROL +]** 於小眾測試版欄的廣告列。
-
-            * 若要從廣告中移除現有的航班，請按一下 **[!UICONTROL x]** 於小眾測試版欄的廣告列。
-
-            * （如果有多個廣告具有相同的外觀）若要將廣告旋轉不平均，請按一下 **[!UICONTROL Even Rotation]** 在飛行資訊中，然後輸入旋轉每個廣告的相對權重，以百分比表示。
-
-              總重量必須等於100。
-
-         1. 在右上角，按一下 **[!UICONTROL Continue]**.
-
-         1. 檢閱航班詳細資料，然後按一下 **[!UICONTROL Save & Finish]**.
-
-      1. 按一下 **[!UICONTROL I'm done for now]**.
+1. （選用）若要在行銷活動的版位中附加更多廣告，請切換至 **[!UICONTROL Edit]** 檢視右上角。 請參閱先前程式中的步驟4 」[將廣告附加至刊登版位](#attach-ads-campaign)，」以取得指示。
 
 >[!MORELIKETHIS]
 >
