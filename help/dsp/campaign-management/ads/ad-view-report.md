@@ -1,28 +1,27 @@
 ---
-title: 查看廣告的詳細報告
-description: 瞭解如何開啟包含概述、地理和可查看性資料的廣告級報告。
+title: 檢視廣告的詳細報表
+description: 瞭解如何開啟包含「概觀」、「地理位置」和「可檢視度」資料的廣告層級報表。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
-# 查看廣告的詳細報告
+# 檢視廣告的詳細報表
 
-的 <!--legacy --> ad級報告包括 [!UICONTROL Overview]。 [!UICONTROL Geography], [!UICONTROL Viewability] 資料。
+此 <!--legacy --> 廣告層級報表包含 [!UICONTROL Overview]， [!UICONTROL Geography]、和 [!UICONTROL Viewability] 資料。
 
-1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
-1. 按一下市場活動的名稱。
-1. 在子菜單中，按一下 **[!UICONTROL Ads]**。
-1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL View report]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [查看放置的詳細報告](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [查看市場活動的詳細報表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [關於平台內報告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [關於自定義報告](/help/dsp/reports/report-about.md)
-
+>* [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [關於Campaign Management檢視中的效能報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [關於自訂報表](/help/dsp/reports/report-about.md)

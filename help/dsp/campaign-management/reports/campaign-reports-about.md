@@ -1,18 +1,17 @@
 ---
-title: 關於平台內報表
+title: 關於Campaign Management檢視中的效能報表
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
+source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 關於平台內報表
+# 關於Campaign Management檢視中的效能報表
 
-<!-- rename "About Performance Reports in Campaign Management Views?" -->
 行銷活動管理檢視包含完整的報告資料。 可用的報表可協助您識別執行良好的套件和位置，以及需要您注意的套件和位置。 快速動作按鈕也讓您提高生產力。
 
 ## 所有行銷活動檢視
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 ### 圖表檢視 {#chart-view}
 
-您可以 [自訂時間序列趨勢圖](campaign-data-visualization-manage.md) 使用三個量度在所有行銷活動間轉換。 根據預設，資料屬於 [!UICONTROL Net Spend]， [!UICONTROL Impressions]、和 [!UICONTROL Net CPM] 都包含在個別的圖表（格子圖）中。 您可以選擇變更量度。 若要啟用時間序列趨勢圖中的每小時資料，請將日期選取範圍變更為單日([!UICONTROL Today]， [!UICONTROL Yesterday]或特定日期)。
+您可以 [自訂時間序列趨勢圖](campaign-data-views-manage.md#data-visualizations-manage) 使用三個量度在所有行銷活動間轉換。 根據預設，資料屬於 [!UICONTROL Net Spend]， [!UICONTROL Impressions]、和 [!UICONTROL Net CPM] 都包含在個別的圖表（格子圖）中。 您可以選擇變更量度。 若要啟用時間序列趨勢圖中的每小時資料，請將日期選取範圍變更為單日([!UICONTROL Today]， [!UICONTROL Yesterday]或特定日期)。
 
 ![三個量度的個別趨勢圖](/help/dsp/assets/trend-chart-separate.png)
 
@@ -33,9 +32,9 @@ ht-degree: 0%
 
 ![行銷活動清單](/help/dsp/assets/campaigns-list.png)
 
-依預設，每個行銷活動列都包含步調和傳送量度。 步調量度包括 [!UICONTROL Gross Spend (Lifetime)]，包括測量行銷活動中所有套件的實際實際目標上支出與預期目標上支出，以便您一眼即可識別表現不佳的行銷活動。 您可以選擇性 [變更欄檢視](column-view-change.md) 或平均 [建立自訂欄檢視](column-view-create.md).
+依預設，每個行銷活動列都包含步調和傳送量度。 步調量度包括 [!UICONTROL Gross Spend (Lifetime)]，包括測量行銷活動中所有套件的實際實際目標上支出與預期目標上支出，以便您一眼即可識別表現不佳的行銷活動。 您可以選擇性 [變更欄檢視](campaign-data-views-manage.md#column-view-change) 或平均 [建立自訂欄檢視](campaign-data-views-manage.md#column-view-create).
 
-您可以進一步進行 [自訂資料表](campaign-data-views-about.md) 其他方式和 [篩選可見的資料](campaign-data-filter.md).
+您可以進一步進行 [自訂資料表](campaign-data-views-manage.md#data-tables-manage) 其他方式和 [篩選可見的資料](campaign-data-views-manage.md#filter-data-tables).
 
 <!--
 An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -45,19 +44,19 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 ## 單一行銷活動報告 {#single-campaign-reporting}
 
-在行銷活動中，您可以根據行銷活動實體來篩選資料： [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads]. 您可以進一步進行 [篩選可見的資料](campaign-data-filter.md) 以僅包含您想要看到的套件、版位或廣告。
+在行銷活動中，您可以根據行銷活動實體來篩選資料： [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads]. 您可以進一步進行 [篩選可見的資料](campaign-data-views-manage.md#filter-data-tables) 以僅包含您想要看到的套件、版位或廣告。
 
 ![行銷活動實體標籤](/help/dsp/assets/campaign-subtabs.png)
 
 ### 圖表檢視
 
-對於每個行銷活動，您可以 [自訂時間序列趨勢圖](campaign-data-visualization-manage.md) 提供三個量度，可在各個實體檢視中使用。 促銷活動的所有趨勢圖表都會保留相同的量度。
+對於每個行銷活動，您可以 [自訂時間序列趨勢圖](campaign-data-views-manage.md#data-visualizations-manage) 提供三個量度，可在各個實體檢視中使用。 促銷活動的所有趨勢圖表都會保留相同的量度。
 
 請參閱 [跨行銷活動量度的「圖表檢視」區段](#chart-view) 以取得詳細資訊。
 
 ### 表格檢視
 
-在每個實體標籤中，預設情況下每一列都包含步調和傳送量度，但您可以 [變更欄檢視](column-view-change.md) 或平均 [建立自訂欄檢視](column-view-create.md) 以套用至促銷活動的所有子標籤。 您可以進一步進行 [自訂資料表](campaign-data-views-about.md) 其他方式。 每個資料表都包含 [!UICONTROL Subtotals] 列，顯示所有可見列中的每個量度之總和或平均值。
+在每個實體標籤中，預設情況下每一列都包含步調和傳送量度，但您可以 [變更欄檢視](campaign-data-views-manage.md#column-view-change) 或平均 [建立自訂欄檢視](campaign-data-views-manage.md#column-view-create) 以套用至促銷活動的所有子標籤。 您可以進一步進行 [自訂資料表](campaign-data-views-manage.md#data-tables-manage) 其他方式。 每個資料表都包含 [!UICONTROL Subtotals] 列，顯示所有可見列中的每個量度之總和或平均值。
 
 <!--
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -110,9 +109,6 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >[!MORELIKETHIS]
 >
 >* [檢視位置的網站、廣告和頻率詳細資訊](placement-details-view.md)
->* [關於Campaign資料檢視](campaign-data-views-about.md)
->* [建立自訂欄檢視](column-view-create.md)
->* [變更欄檢視](column-view-change.md)
->* [管理資料視覺效果](campaign-data-visualization-manage.md)
+>* [管理您的Campaign資料檢視](campaign-data-views-manage.md)
 >* [從Campaign Management檢視匯出資料](campaign-export-data.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)

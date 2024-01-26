@@ -3,9 +3,9 @@ title: 檢視位置診斷報告
 description: 瞭解如何診斷版位設定和步調的問題。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於平台內報表](campaign-reports-about.md)
+>* [關於Campaign Management檢視中的效能報表](campaign-reports-about.md)
 >* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

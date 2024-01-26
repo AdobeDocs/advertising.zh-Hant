@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
+source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -92,20 +92,13 @@ ht-degree: 3%
          + [前段廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支援廣告型別的規格](/help/dsp/campaign-management/ads/ad-specs.md)
-   + 行銷活動報表 {#campaign-reports}
-      + [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Campaign Management檢視中的效能報表 {#campaign-reports}
+      + [關於Campaign Management檢視中的效能報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [檢視位置的網站、廣告和頻率詳細資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + 管理資料檢視 {#data-views}
-         + [關於Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
-         + [變更欄檢視](/help/dsp/campaign-management/reports/column-view-change.md)
-         + [建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)
-         + [編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md)
-         + [篩選行銷活動資料](/help/dsp/campaign-management/reports/campaign-data-filter.md)
-         + [排序欄](/help/dsp/campaign-management/reports/campaign-data-sort.md)
-      + [管理資料視覺效果](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
+      + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + 使用試算表修正位置設定 {#qa-spreadsheet}
       + [關於使用試算表校正位置設定](/help/dsp/campaign-management/qa/qa-about.md)
       + [下載試算表中的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)
