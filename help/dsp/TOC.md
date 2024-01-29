@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支援廣告型別的規格](/help/dsp/campaign-management/ads/ad-specs.md)
    + Campaign Management檢視中的效能報表 {#campaign-reports}
-      + [關於Campaign Management檢視中的效能報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [檢視位置的網站、廣告和頻率詳細資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [檢視刊登版位的網站、廣告、頻率和詳細目錄資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

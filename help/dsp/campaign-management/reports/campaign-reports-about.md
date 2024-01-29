@@ -1,16 +1,16 @@
 ---
-title: 關於Campaign Management檢視中的效能報表
+title: Campaign Management檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# 關於Campaign Management檢視中的效能報表
+# Campaign Management檢視中的效能報表型別
 
 行銷活動管理檢視包含完整的報告資料。 可用的報表可協助您識別執行良好的套件和位置，以及需要您注意的套件和位置。 快速動作按鈕也讓您提高生產力。
 
@@ -62,49 +62,26 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### 刊登 [!UICONTROL Inspector] {#placement-inspector}
-
-對於每個位置，您可以 [開啟（詳細資料檢視） [!UICONTROL Inspector])](placement-details-view.md)，包括下列深入資料：
-
-* **[!UICONTROL Sites]：** 此版位曾有曝光的所有網站。
-
-  此 [!UICONTROL Sites] 索引標籤包含搜尋和篩選功能、在主要頁面上可用的相同標準和自訂欄檢視選項，以及 [!UICONTROL Exclude] 按鈕來快速排除位置。
-
-* **[!UICONTROL Ads]：** 位置中的所有廣告。
-
-  此 [!UICONTROL Ads] 索引標籤包括搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，例如 [!UICONTROL Pause] （讓您可以快速暫停廣告）。
-
-* **[!UICONTROL Frequency]：** 此投放位置的每個廣告頻率層級的資料，包括：
-   * 廣告頻率層級（例如「1」，適用於使用者看過一次廣告的所有例項）
-   * 裝置/瀏覽器或人員的預估不重複數量(視指定的 [!UICONTROL Cross Device Level] （適用於促銷活動）在指定頻率層級收到曝光數
-   * 指定頻率層級的預估曝光次數
-   * 指定頻率等級的預估平均頻率。 此值等於（預估曝光次數）/（預估不重複值）。
-
-* **[!UICONTROL Inventory]：** 此位置所定位之所有交易的資訊。
-
-  此 [!UICONTROL Inventory] 索引標籤可讓您透過顯示效能統計資料來快速進行疑難排解，例如 [!UICONTROL Auctions]， [!UICONTROL Bids]、和 [!UICONTROL Win Rate]. 索引標籤包括搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，包括 [!UICONTROL Edit]， [!UICONTROL View Report]、和 [[!UICONTROL Auction Insights] 以取得進一步的疑難排解](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### 疑難排解詳細目錄
-
-| 問題 | 可能的原因 | 要採取的動作 |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | 發佈者尚未開始傳送競標要求。 | 請連絡發佈商以啟動交易。 |
-| | 交易設定不正確，例如輸入不正確的外部交易ID。 | 確認交易詳細資料並編輯交易。 |
-| [!UICONTROL Auctions but no Bids] | 位置鎖定目標不符合交易的傳入競標要求。 <br><br> 例如，刊登版位可能會將目標定位為不符合交易資格的地理位置。 | 視需要編輯位置目標，以避免目標錯配。 |
-| | 投放位置沒有有效的廣告，且該廣告具有交易所需的媒體型別。 | 建立並附加具有正確媒體型別的廣告至投放位置。 |
-| | 位置沒有足夠的預算。 | 增加版位預算以允許對傳入的請求投標。 |
-| | 刊登投放日期與交易的曝光傳送日期不重疊。 | 視需要編輯位置的投放日期。 |
-| [!UICONTROL Low Win Rate] | 位置的最高出價（下限或固定）低於交易要求的最低出價。 | 增加投放位置的 [!UICONTROL Max Bid] 視需要。 |
-| | 此位置使用限制競標的競標前篩選條件。 | 降低競標前篩選器的臨界值，以允許更多競標。 |
-| | 此位置的對象鎖定目標太嚴格。 | 檢查指定的對象目標是否有足夠的活躍使用者，並儘可能展開對象。 |
-
-![位置檢測器](/help/dsp/assets/placement-inspector.png)
-
-您可以將資料匯出 [!UICONTROL Sites]， [!UICONTROL Ads]，或 [!UICONTROL Frequency] 定位至瀏覽器的預設下載資料夾，作為XLSM格式的報表。
-
 ### 其他型別的行銷活動層級報告
 
-對於其他資料劃分，檢視 [行銷活動層級報告頁面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 此 <!--legacy --> 報告包含下列區段： [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 資料。
+對於其他資料劃分，檢視 [行銷活動層級報告頁面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 此報表包含下列區段： [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 資料。
+
+### 其他型別的位置層級報表
+
+對於其他資料劃分，檢視 [位置層級報表頁面](/help/dsp/campaign-management/placements/placement-view-report.md). 此報表包含下列區段： [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]， [!UICONTROL Audience Performance]， [!UICONTROL Notifications]、和 [!UICONTROL Ads] 資料。
+
+此外，您可以在位置設定中檢視下列資料：
+
+* [A (詳細資料檢視 [!UICONTROL Inspector])](placement-details-view.md)，顯示位置的所有目標網站、廣告、頻率資料和交易。
+
+* A [刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### 其他型別的廣告層級報告
+
+對於其他資料劃分，檢視 [廣告層級報表頁面](/help/dsp/campaign-management/ads/ad-view-report.md). 報表包含 [!UICONTROL Overview]， [!UICONTROL Geography]、和 [!UICONTROL Viewability] 資料。
 
 >[!MORELIKETHIS]
 >
