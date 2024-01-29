@@ -3,9 +3,9 @@ title: 檢視私人交易的拍賣深入分析
 description: 瞭解如何使用拍賣深入分析來分析私人交易的交易組成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,4 @@ Auction Insights是疑難排解工具，可讓您分析已保證和未保證私�
 >* [關於私人詳細目錄](private-inventory-about.md)
 >* [指定交易ID的位置和廣告](deal-id-attach-placements.md)
 >* [檢視交易的詳細報表](deal-view-report.md)
->* [關於Campaign Management檢視中的效能報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)

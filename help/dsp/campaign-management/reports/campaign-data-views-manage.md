@@ -2,9 +2,9 @@
 title: 管理您的Campaign資料檢視
 description: 瞭解如何自訂行銷活動、套件、版位和廣告的資料檢視。
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management檢視中的效能報表](campaign-reports-about.md)
+>* [Campaign Management檢視中的效能報表型別](campaign-reports-about.md)
 >* [檢視位置的網站、廣告和頻率詳細資訊](placement-details-view.md)
 >* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [檢視位置診斷報告](placement-diagnostics.md)

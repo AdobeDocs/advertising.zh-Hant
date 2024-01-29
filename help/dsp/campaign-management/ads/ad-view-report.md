@@ -3,9 +3,9 @@ title: 檢視廣告的詳細報表
 description: 瞭解如何開啟包含「概觀」、「地理位置」和「可檢視度」資料的廣告層級報表。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ ht-degree: 0%
 >
 >* [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [關於Campaign Management檢視中的效能報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [關於自訂報表](/help/dsp/reports/report-about.md)
