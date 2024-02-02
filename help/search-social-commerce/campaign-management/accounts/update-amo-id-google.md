@@ -1,11 +1,11 @@
 ---
 title: 更新的AMO ID (s_kwcid)追蹤代碼 [!DNL Google Ads] 帳戶
-description: 瞭解如何切換到的最新AMO ID追蹤程式碼 [!DNL Google Ads] 帳戶。
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+description: 瞭解如何切換至的最新AMO ID追蹤代碼 [!DNL Google Ads] 帳戶。
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]僅限帳戶*
 
-的舊版格式 [AMO ID追蹤代碼](/help/integrations/analytics/ids.md#amo-id-formats) 適用於現有 [!DNL Google Ads] 帳戶不支援Analytics的某些功能，例如行銷活動和廣告群組層級的報表 [!DNL Google Ads] 最大成效行銷活動、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+比對型別組合的使用案例。
+的舊版（2019年10月之前） [AMO ID追蹤代碼](/help/integrations/analytics/ids.md#amo-id-formats) 適用於現有 [!DNL Google Ads] 帳戶不支援Analytics的某些功能，例如行銷活動和廣告群組層級的報表 [!DNL Google Ads] 最大成效行銷活動、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+比對型別組合的使用案例。
 
-最新格式包含行銷活動ID和廣告群組ID的引數：
+目前的格式包含行銷活動ID和廣告群組ID的引數：
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-您可以個別變更任何或所有現有帳戶的新格式。 如果您沒有最高成效的行銷活動或草稿和實驗行銷活動，則移轉至新格式為選用。
+您可以個別將任何或所有現有帳戶變更為目前格式。 如果您沒有最高成效的行銷活動或草稿和實驗行銷活動，則移轉至新格式為選用。
 
-所有新增 [!DNL Google Ads] 帳戶會自動使用新的AMO ID格式。
+所有新增 [!DNL Google Ads] 帳戶會自動使用目前的AMO ID格式。
 
 >[!NOTE]
 >
