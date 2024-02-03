@@ -3,7 +3,7 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
+source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]：* （Beta版功能）推廣以下網站所提供的應用程式和遊戲： [!DNL Microsoft® Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。
 
-* *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
+* *[!UICONTROL Audience CTV Video]：* （Beta版功能）在對象網路上顯示連線電視(CTV)視訊廣告。
 
-* *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示連線電視(CTV)視訊廣告。
+* *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
 
 * *[!UICONTROL Performance Max]：* （Beta版功能）顯示所有網路上的多種廣告型別。 在中個別指派資產群組 [!DNL Microsoft® Advertising] 廣告編輯器。
 

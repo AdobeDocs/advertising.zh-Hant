@@ -1,11 +1,11 @@
 ---
 title: 『[!DNL Microsoft Advertising] 廣告群組設定
 description: 參考設定 [!DNL Microsoft Advertising] 廣告群組。
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]：** 廣告群組的顯示狀態： *作用中* 或 *已暫停*. 新廣告群組的預設為 *作用中*.
 
-**[!UICONTROL Ad Language]：** 廣告的目標語言。<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]：** （搜尋行銷活動）廣告的目標語言。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]：** 廣告在廣告群組中的放置方式與位置：
+**[!UICONTROL Networks]：** （搜尋廣告）在廣告群組中放置廣告的方式和位置：
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （預設）：對搜尋網路上的廣告進行競標。
 
@@ -105,6 +105,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]：** （選用）從廣告群組向客戶提供廣告的次數。 輸入值並選取時間單位(*[!UICONTROL Hour]*， *[!UICONTROL Day]*，或 *[!UICONTROL Week]*)。
 
 ## [!UICONTROL Negative Keywords]
 

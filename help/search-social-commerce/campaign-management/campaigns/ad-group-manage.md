@@ -3,9 +3,9 @@ title: 管理廣告群組
 description: 瞭解如何建立及管理廣告群組。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 輸入 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
 
-   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定以下專案的設定： [!UICONTROL Negative Keywords] 或 [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Negative Keywords]** 或 **[!UICONTROL Add Negative Websites]**，依序輸入。
+   視廣告網路而定，這些設定可能會分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定以下專案的設定： [!UICONTROL Adgroup Frequency Cap Settings]， [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Frequency Cap Settings]**， **[!UICONTROL Add Negative Keywords]**，或 **[!UICONTROL Add Negative Websites]**，依序輸入。
 
 1. 按一下 **[!UICONTROL Post]**.
 
