@@ -3,9 +3,9 @@ title: 將廣告附加至刊登版位
 description: 瞭解如何在刊登版位中附加廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
+source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. （選用）視需要尋找特定版位和廣告：
 
-   * 在左側表格上方，依版位型別、版位狀態、廣告型別或廣告狀態來篩選清單。
+   * 在左側表格上方，依套件、版位型別、版位狀態、廣告型別或廣告狀態來篩選清單。
 
    * 在右側和左側表格中，搜尋位置或廣告名稱中的特定文字字串。
 

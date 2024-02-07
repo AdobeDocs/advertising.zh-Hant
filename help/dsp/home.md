@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年2月7日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 此 [!UICONTROL Ads Tool] 現在有套件篩選器。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 | 2024年1月24日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 已重新設計將廣告附加至刊登版位的工作流程。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 | 2024年1月10日 | [!UICONTROL Placements] | 您現在可以使用試算表，快速自訂多個位置的廣告排程：<ul><li>您可以下載刊登版位的廣告排程範本。 您可以視需要在下載的檔案中編輯投放日期和廣告輪換。</li><li>然後，您可以上傳已編輯的廣告排程範本。</li></ul> | 請參閱&quot;[編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).」 |
 | 2023年12月21日 | [!UICONTROL Audiences] | 檔案現在可用於共用來自的第一方資料 [!DNL Tealium] 客戶資料平台與DSP，使用 [!DNL Amazon Web Services]. 您可以使用將DSP版位鎖定至區段 [!DNL RampIDs]. 在版位設定內 [!UICONTROL Audience Targeting]，共用的區段可用於 [!UICONTROL First Party Segments] 清單。 | 請參閱&quot;[關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)「和」[搭配使用DSP整合的工作流程 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).」 |
