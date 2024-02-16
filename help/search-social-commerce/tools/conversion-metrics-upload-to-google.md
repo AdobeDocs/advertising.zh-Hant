@@ -1,11 +1,11 @@
 ---
 title: 上傳轉換量度至 [!DNL Google Ads]
 description: 瞭解如何將搜尋、社交和商務追蹤的轉換量度上傳至 [!DNL Google Ads].
-exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
+exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 608c1a189017f1a7ebfbccf3d8b3455886c297f9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *廣告商使用 [!DNL Google Ads] 僅限帳戶*
 
-搜尋、社交和商務可選擇上傳至 [!DNL Google Ads] 其追蹤的所有轉換量度 [!DNL Google Ads] 使用Adobe Analytics同步的Adobe Advertising轉換追蹤服務和轉換量度的行銷活動。 此選項無法讓轉換可用於混合最佳化。 如果您想將Adobe轉換用於混合最佳化，請參閱&quot;[啟用上傳目標至廣告網路](objective-upload-to-networks.md).」
+搜尋、社交和商務可選擇上傳至 [!DNL Google Ads] 其追蹤的所有轉換量度 [!DNL Google Ads] 使用Adobe Advertising轉換追蹤服務的行銷活動。 此選項無法讓轉換可用於混合最佳化。 如果您想將Adobe轉換用於混合最佳化，請參閱&quot;[啟用上傳目標至廣告網路](objective-upload-to-networks.md).」
 
 每日上傳包括追蹤的 `gclid` 值、使用廣告商層級歸因模型定義的轉換值，以及時間戳記。 如果更新歸因模型，下次上傳時將會使用新模型，但不會更新過去的資料以使用新模型。
 
