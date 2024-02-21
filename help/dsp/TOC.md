@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 3%
       + [檢視刊登版位的網站、廣告、頻率和詳細目錄資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [檢視警示](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + 使用試算表修正位置設定 {#qa-spreadsheet}
       + [關於使用試算表校正位置設定](/help/dsp/campaign-management/qa/qa-about.md)

@@ -3,9 +3,9 @@ title: Campaign Management檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ ht-degree: 0%
 
 您可以進一步進行 [自訂資料表](campaign-data-views-manage.md#data-tables-manage) 其他方式和 [篩選可見的資料](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 若要檢視行銷活動的詳細資訊，請按一下行銷活動名稱。
+
+#### 警示指示器
+
+*Beta功能*
+
+一個&quot;[!UICONTROL Alerts]「欄」會指出行銷活動或其下任何子實體何時發生問題。 A [!UICONTROL Pulse Panel] 工具列右側的圖示也會指出是否有任何警報可供列出的實體使用。 請參閱&quot;[檢視警示](campaign-alerts.md)」以取得詳細資訊。
 
 ## 單一行銷活動報告 {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 在每個實體標籤中，預設情況下每一列都包含步調和傳送量度，但您可以 [變更欄檢視](campaign-data-views-manage.md#column-view-change) 或平均 [建立自訂欄檢視](campaign-data-views-manage.md#column-view-create) 以套用至促銷活動的所有子標籤。 您可以進一步進行 [自訂資料表](campaign-data-views-manage.md#data-tables-manage) 其他方式。 每個資料表都包含 [!UICONTROL Subtotals] 列，顯示所有可見列中的每個量度之總和或平均值。
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### 警示指示器
+
+*Beta功能*
+
+一個&quot;[!UICONTROL Alerts]「欄」會指出套件、位置或廣告（或套件或位置下的任何子實體）何時發生問題。 一個&quot;[!UICONTROL Alerts]「欄」會指出行銷活動或其下任何子實體何時發生問題。 A [!UICONTROL Pulse Panel] 工具列右側的圖示也會指出是否有任何警報可供列出的實體使用。 請參閱&quot;[檢視警示](campaign-alerts.md)」以取得詳細資訊。
 
 ### 其他型別的行銷活動層級報告
 
@@ -89,3 +93,4 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >* [管理您的Campaign資料檢視](campaign-data-views-manage.md)
 >* [從Campaign Management檢視匯出資料](campaign-export-data.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [檢視警示](campaign-alerts.md)
