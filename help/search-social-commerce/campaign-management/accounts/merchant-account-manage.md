@@ -1,11 +1,11 @@
 ---
 title: 管理商家帳戶
 description: 瞭解如何設定及管理商戶中心帳戶的帳戶詳細資料。
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ ht-degree: 0%
 1. 指定 [商家帳戶設定](#merchant-account-settings)：
 
    1. 在 [!UICONTROL Product Source] 功能表，選取商家中心。
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. (下列專案需要： [!DNL Google Ads] 帳戶；選擇性的 [!DNL Microsoft Advertising] 帳戶)允許搜尋、社交和商務使用存取帳戶 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/)：
 
