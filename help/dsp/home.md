@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 59270088af96acd5f65b8af10251308123af3faa
+source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年2月21日 | [!UICONTROL Alerts] 的 [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]， [!UICONTROL Ads]、和 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 圖示於 [!UICONTROL Campaigns]， [!UICONTROL Packages] 和封裝詳細資料， [!UICONTROL Placements]、和 [!UICONTROL Ads] 檢視會指出檢視內的專案是否有任何警示可供使用。 您可以開啟面板以檢視每個警報，並可選擇開啟適用的檢視(例如 [!UICONTROL Placements] 檢視並列出適用的位置)，這樣您就可以視需要編輯設定以解決問題。 您也可以選擇解除任何警報。<br><br>此外， [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements]、和 [!UICONTROL Ads] 檢視包括&quot;[!UICONTROL Alerts]「欄」，指出專案或其任何元件何時發生問題。<br><br>促銷活動、套件、位置、廣告和交易層級提供警報。 | 請參閱&quot;[檢視警示和通知](/help/dsp/campaign-management/reports/campaign-alerts.md).」 |
+|  | [!UICONTROL Placements] | 新的刊登版位設定可讓您指定a)最低刊登版位預算，以在有足夠預算可用時覆寫套件層級預算分配，以及b)覆寫競標價演演算法，以至少對交易的固定與底價投標：<ul><li>在屬於套裝軟體的刊登版位設定中，您現在可以指定最小預算為套裝軟體預算的百分比。 若要使用此功能，請選取版位資金選項至&quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]「 (前身為」[!UICONTROL Set a fixed budget cap]「)。 您仍然可以輸入 [!UICONTROL Maximum Budget] 以美元計算（如同您之前針對預算上限），您也可以輸入 [!UICONTROL Minimum Budget] 以套件預算的百分比表示。 對於現有位置，會使用新欄位名稱保留現有設定。</li><li>在 [!UICONTROL Inventory Targeting] 設定，的新選項 [!UICONTROL On Demand] 詳細目錄與私人詳細目錄可讓您」[!UICONTROL Ensure Fixed or Floor Price for the bid].」</li></ul> | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 | 2024年2月7日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 此 [!UICONTROL Ads Tool] 現在有套件篩選器。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 | 2024年1月24日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 已重新設計將廣告附加至刊登版位的工作流程。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 | 2024年1月10日 | [!UICONTROL Placements] | 您現在可以使用試算表，快速自訂多個位置的廣告排程：<ul><li>您可以下載刊登版位的廣告排程範本。 您可以視需要在下載的檔案中編輯投放日期和廣告輪換。</li><li>然後，您可以上傳已編輯的廣告排程範本。</li></ul> | 請參閱&quot;[編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).」 |
