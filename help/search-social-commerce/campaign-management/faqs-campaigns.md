@@ -1,11 +1,11 @@
 ---
 title: 行銷活動的相關常見問題集
 description: 檢視有關行銷活動管理和行銷活動資料檢視的問答。
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++我是否可以將行銷活動和元件從某個帳戶移至另一個帳戶？
 
-請勿將具有唯一ID的行銷活動或行銷活動元件移動或複製到具有不同帳戶ID的帳戶。 這麼做會導致資料錯誤。
+請勿將具有唯一ID的行銷活動或行銷活動元件移動或複製到具有不同帳戶ID的帳戶。 這樣做會導致資料錯誤。
 +++
 
 +++何時會從廣告網路更新點按資料？
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->（具有產品組合的廣告商）在Search、Social和Commerce收集資料以建立新模型時，期望新關鍵字和相符型別組合的效能不穩定。
+>（擁有產品組合的廣告商）搜尋、Social和商務收集資料以建立模型時，預期新關鍵字和相符型別組合的效能不穩定。
 
 **中的動作 [!UICONTROL Search] > [!UICONTROL Campaigns] 檢視、在大量表單發佈程式中，以及在廣告網路自己的編輯器中：**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])您可以編輯關鍵字名稱。
 
-* ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex])您可以變更關鍵字的相符型別。
+* ([!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex])您可以變更關鍵字的相符型別。
 
 * 您可以在廣告群組之間移動關鍵字。
 
-* ([!DNL Google Ads] 動態搜尋廣告， [!DNL Microsoft Advertising] 展開文字廣告，以及其他支援的廣告網路上的所有廣告型別)您可以編輯廣告文案（標題/標題或說明）或廣告影像。
+* ([!DNL Google Ads] 動態搜尋廣告， [!DNL Microsoft® Advertising] 展開文字廣告，以及其他支援的廣告網路上的所有廣告型別)您可以編輯廣告文案（標題/標題或說明）或廣告影像。
 
 * 您可以在廣告群組之間移動廣告。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 [!DNL Google Ads] 搜尋網路上當天促銷活動層級的成效量度在廣告商時區的08:00和16:00提取。
 
-在 [!UICONTROL Campaigns] 在此兩個標籤中加入 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 檢視和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 檢視，當您報告時 [!UICONTROL Today] 或是包含當天的自訂日期範圍，資料將會包含最近提取的資料。
+在 [!UICONTROL Campaigns] 在此兩個標籤中加入 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 檢視和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 檢視，當您報告時 [!UICONTROL Today] 或是包含當天的自訂日期範圍，資料會包含最近同步處理的資料。
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ ht-degree: 0%
 
 +++
 
-+++([!DNL Google Ads] 和 [!DNL Microsoft Advertising])搜尋、社交和商務是否支援並行追蹤中的廣告 [!DNL Google Ads] 或 [!DNL Microsoft Advertising]？
++++追蹤範本和登入頁面尾碼有何不同？
 
-平行追蹤會直接將客戶從您的廣告傳送至最終URL，而您的追蹤範本URL （包含點選測量）會載入背景；因此，您的登入頁面載入速度更快。
+登入頁面尾碼僅用於支援平行追蹤的廣告網路。 在Search、Social和Commerce中，追蹤範本和登陸頁面尾碼都應包含來自廣告網路的點選識別碼，但追蹤範本應包含其他追蹤引數。
 
-搜尋、社交和商務支援使用廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` 的 [!DNL Google Ads])。 使用 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (稱為&quot;[!DNL final URL suffix]&quot;在廣告網路中)，會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 請參閱 [必要的尾碼格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的尾碼格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+檢視下一個常見問題集，瞭解關於 [平行追蹤支援](#parallel-tracking) 以取得使用者按一下廣告時如何載入追蹤範本和登入頁面尾碼的詳細資訊。
 
-當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，然後再將其重新導向至最終URL。 廣告網路帳戶的所有追蹤範本都應包含您在中使用的相同點選識別碼引數 [!UICONTROL Landing Page Suffix]. 請參閱 [追蹤範本格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [追蹤範本格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])搜尋、社交和商務是否支援並行追蹤中的廣告 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising]？ {#parallel-tracking}
+
+平行追蹤會直接將客戶從您的廣告傳送至最終URL，其中可能包含最終URL尾碼或「登陸頁面尾碼」的附加引數。 您的追蹤範本URL （以及點選測量的其他引數）會單獨在背景中載入，讓您的登入頁面載入更快。
+
+搜尋、社交和商務支援使用廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft® Advertising]； `gclid` 的 [!DNL Google Ads])。 使用 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (稱為&quot;[!DNL final URL suffix]&quot;在廣告網路中)，會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 請參閱 [必要的尾碼格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的尾碼格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在中使用的相同點選識別碼引數 [!UICONTROL Landing Page Suffix]. 請參閱 [追蹤範本格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [追蹤範本格式 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++為什麼我的廣告的追蹤URL包含&quot;`&EV_HASH={<hash>}`？」
@@ -129,7 +137,7 @@ ht-degree: 0%
 
 當您暫停廣告時，如果您重新提交相同的廣告或庫存量高於最低值，廣告就會重新啟用。 這可讓您保留廣告的歷史記錄。
 
-當您刪除並重新提交廣告時，將會建立新廣告，且需要累積歷史資料。 不過，如果您不希望重新提交已刪除的廣告，則擁有歷史資料並不重要。
+當您刪除並重新提交廣告時，將會建立新廣告，而且需要為新廣告累積歷史資料。 不過，如果您不希望重新提交已刪除的廣告，則擁有歷史資料並不重要。
 +++
 
 +++（產品詳細目錄摘要）如果我刪除廣告範本然後建立新的相同範本，下一個摘要檔案中是否有遺漏專案已暫停（當摘要檔案設定已設定為這樣做時）？

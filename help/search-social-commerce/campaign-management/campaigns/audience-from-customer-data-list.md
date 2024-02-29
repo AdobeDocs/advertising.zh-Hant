@@ -1,11 +1,11 @@
 ---
 title: 使用客戶資料清單管理客戶比對受眾
 description: 瞭解如何建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 客戶比對客戶資料清單中的對象。
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
       1. 在 [!UICONTROL Select File] 欄位，按一下 **[!UICONTROL Choose File]** 並選取網路或裝置上的檔案。
 
       1. 選取核取方塊以表示您同意 [!DNL Adobe] 和廣告網路隱私權政策。
+
+      1. (廣告商建立 [!DNL Google Ads] 在歐洲經濟區(EEA)或英國(UK)有業務的對象；選擇性)如果您已獲得EEA和英國使用者的同意，可上傳其資料以供廣告用途，請選取「 」旁的核取方塊 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] 以未指定的同意狀態忽略EEA和英國使用者的任何資料。 這可能會導致資料差異和效能問題。
 
       1. 按一下 **[!UICONTROL Upload File]**.
 
