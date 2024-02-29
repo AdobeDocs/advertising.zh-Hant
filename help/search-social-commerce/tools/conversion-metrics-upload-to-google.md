@@ -3,7 +3,7 @@ title: 上傳轉換量度至 [!DNL Google Ads]
 description: 瞭解如何將搜尋、社交和商務追蹤的轉換量度上傳至 [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 選取旁邊的核取方塊 **[!UICONTROL Upload Conversions to Google Ads]**.
 
-1. (在歐洲經濟區(EEA)或英國(UK)經營業務的廣告商；選擇性)如果您已獲得EEA和英國使用者的同意，可上傳其資料以供廣告用途，請選取「 」旁的核取方塊 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (在歐洲經濟區(EEA)或英國(UK)經營業務的廣告商；選擇性)如果您已向EEA和英國使用者收集同意，可上傳其資料以供廣告用途，請選取「 」旁的核取方塊 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. 按一下 **[!UICONTROL Save]**.
 
