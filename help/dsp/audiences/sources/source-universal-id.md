@@ -3,16 +3,16 @@ title: 啟用通用ID合作夥伴的已驗證區段
 description: 瞭解如何透過通用ID解決方案來啟用已驗證的對象。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # 啟用通用ID合作夥伴的已驗證區段
 
-若要透過Advertising DSP中的通用ID解決方案啟用已驗證受眾，您的區段必須轉譯為 [!DNL RampIDs]，這些區段可在可競標環境中辨識。 您可以透過下列其中一種方式來達成此目的：
+若要透過Advertising DSP中的通用ID解決方案啟用已驗證受眾，您的區段必須轉譯為 [!DNL RampIDs]，這些區段可在可競標環境中辨識。 您可以透過以下其中一種方式來達到此目的：
 
 * 善用DSP與的整合 [!DNL Adobe Real-Time Customer Data Platform (CDP)] 和 [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 無論是哪一個選項，請連絡 `adcloud-support@adobe.com` 在DSP中啟用下列設定，可讓您在DSP促銷活動中定位已驗證的區段一次 [啟動工作流程中的所有步驟都已完成](source-adobe-rtcdp.md)：
 
-   1. [!DNL LiveRamp] [!DNL RampID] 的區段共用之前的行銷活動設定 [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] 從共用區段前的行銷活動設定 [!DNL Real-Time CDP]
 
-   1. 帳戶層級」[!UICONTROL LiveRamp segments]」選項。
+   * 帳戶層級」[!UICONTROL LiveRamp segments]「選項
 
 1. (使用者可透過手動共用已驗證的區段 [!DNL LiveRamp])在「 」中完成以下步驟 [!DNL LiveRamp] [!DNL Connect] 儀表板：
 
