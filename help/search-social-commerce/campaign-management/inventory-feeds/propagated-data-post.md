@@ -3,7 +3,7 @@ title: 從摘要產生的行銷活動資料張貼至廣告網路
 description: 瞭解如何將詳細目錄資料摘要產生的資料發佈到廣告網路。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
             * **[!UICONTROL End Time]：** 根據「 」，已張貼廣告可能會暫停或刪除的未來日期和時間 [摘要資料設定](feed-settings-manage.md#feed-data-settings) 針對&quot;[!UICONTROL When the Scheduled End Date is reached].」 預設的結束時間是從今天開始的00:00 （上午12:00） 30天。 選取 **[!UICONTROL None]** 讓資料無限期地保持作用中（或直到您為範本傳播新資料為止），或指定日期和時間。
 
-              若要指定日期，請使用DD/MM/YYYY或D/M/YYYY格式，或按一下 [行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 以開啟行事曆及 [選取日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 若要變更時間，請以24小時格式（HH/MM或H/M）輸入時間，或從清單中選取時間（以30分鐘為間隔）。
+              若要指定日期，請使用DD/MM/YYYY或D/M/YYYY格式，或按一下 ![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 以開啟行事曆及 [選取日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 若要變更時間，請以24小時格式（HH/MM或H/M）輸入時間，或從清單中選取時間（以30分鐘為間隔）。
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：** 建立可從下列專案取得的大量工作表檔案： [!UICONTROL Search] > [!UICONTROL Bulksheets] 檢視。 您可以選擇從那裡發佈檔案。
 
