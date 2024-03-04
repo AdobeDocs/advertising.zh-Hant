@@ -1,11 +1,11 @@
 ---
 title: 從摘要產生的行銷活動資料張貼至廣告網路
 description: 瞭解如何將詳細目錄資料摘要產生的資料發佈到廣告網路。
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
               若要指定日期，請使用DD/MM/YYYY或D/M/YYYY格式，或按一下 [行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 以開啟行事曆及 [選取日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 若要變更時間，請以24小時格式（HH/MM或H/M）輸入時間，或從清單中選取時間（以30分鐘為間隔）。
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]：**建立可從下列專案取得的大量工作表檔案： [!UICONTROL Search] > [!UICONTROL Bulksheets] 檢視。 您可以選擇從那裡發佈檔案。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：** 建立可從下列專案取得的大量工作表檔案： [!UICONTROL Search] > [!UICONTROL Bulksheets] 檢視。 您可以選擇從那裡發佈檔案。
 
            當產生的大量表單檔案超過2 MB時，該檔案會採用ZIP格式。 您不需要解壓縮檔案即可發佈。
 
       * **[!UICONTROL Generate Tracking URLs]：** 是否在大量表單檔案中加入關鍵字和廣告變數的追蹤URL： *[!UICONTROL Yes]* （預設）或 *[!UICONTROL No]*.
 
-        如果您選取 *[!UICONTROL Yes]*，則系統會根據 [!UICONTROL Tracking Methods] 中的引數 [帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 或者，如果您要將資料對應至現有的行銷活動，請至 [!UICONTROL Tracking Methods] 現有引數中的引數 [行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+        如果您選取 *[!UICONTROL Yes]*，則系統會根據的關鍵字和廣告基本URL產生URL。 [!UICONTROL Tracking Methods] 中的引數 [帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 或者，如果您要將資料對應至現有的行銷活動，請至 [!UICONTROL Tracking Methods] 現有引數中的引數 [行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
         如果相關專案存在追蹤URL，則不會重新產生，除非需要新專案（例如如果關鍵字元合型別、創意文字或帳戶的追蹤引數已變更）。
 
