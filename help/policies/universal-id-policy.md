@@ -4,7 +4,7 @@ description: 請參閱通用ID的使用原則。
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-上次更新日期： 2024年3月1日
+上次更新日期： 2024年2月29日
 
 此通用ID需求政策（「政策」）列明了透過以下方式發佈的廣告中使用通用ID的需求： [!DNL Adobe's] Adobe Advertising的隨選服務（「服務」）。 本政策參考以下協定之內容： [!DNL Adobe] 和客戶（「您」）使用隨選服務。 本政策中所使用但此處未定義的專有名詞，其意義將列於該合約中。
 
