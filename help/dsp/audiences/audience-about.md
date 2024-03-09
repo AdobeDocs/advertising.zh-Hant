@@ -3,9 +3,9 @@ title: 關於Advertising DSP中的對象管理
 description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## 匯入第一方和第三方資料區段
 
-DSP可從您的資料管理平台(DMP)匯入您自己的第一方資料區段，並視需要將其提供給任何一組廣告商。
+DSP可將您的第一方區段轉譯為通用ID以用於無cookie目標定位，您也可以將這些區段提供給任何廣告商或帳戶。 DSP已為以下專案建立聯結器： [此 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) 和其他CDP。 如需詳細資訊，請參閱 [「來源」區段](/help/dsp/audiences/sources/source-about.md).
 
-DSP是以下的整合目的地 [此 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)，可讓您與核准的廣告商和使用者共用已驗證的第一方區段，以啟動促銷活動。 若要進一步瞭解Real-Time CDP整合，請參閱 [「來源」區段](/help/dsp/audiences/sources/source-about.md).
+DSP也可以直接從您的資料管理平台(DMP)匯入您的其他第一方資料區段，並視需要將其提供給任何一組廣告商。
 
-DSP也可以匯入自訂的第三方區段，包括第三方區段的複雜組合。 您可以視需要將這些區段提供給任何一組廣告商。
+此外，DSP可匯入自訂的第三方區段，包括第三方區段的複雜組合。 您可以視需要將這些區段提供給任何一組廣告商。
 
 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
