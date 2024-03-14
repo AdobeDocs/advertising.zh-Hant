@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 0%
    * Adobe Experience Platform Web SDK： `alloy.js`
    * Experience Cloud識別服務： `visitorAPI.js` 版本2.0或更新版本
 * 任何版本的Adobe Analytics (包括 [!DNL Prime]， [!DNL Premium]，或 [!DNL Ultimate])
-* Adobe Analytics： `appMeasurement.js` 2.1版或更新版本
+* Adobe Analytics： `appMeasurement.js` 版本2.1或更新版本
+* (Advertising DSP客戶)與 [Advertising DSP JavaScript程式碼片段](javascript.md) 已部署在您的網頁中，以追蹤瀏覽次數。
 
 >[!TIP]
 >
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 ## 與Adobe Advertising共用Analytics區段的要求
 
-* Experience Cloud識別服務： `visitorAPI.js` 2.1版或更新版本
+* Experience Cloud識別服務： `visitorAPI.js` 版本2.1或更新版本
 * Adobe Analytics： `appMeasurement.js` 1.8版或更新版本
 
 ## 報告需求 [!DNL Analytics] Adobe Advertising中的資料
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 * 搜尋
 * 顯示
-* 視訊
+* 影片
 * 線上視訊
 * 原生
 
@@ -89,7 +90,7 @@ ht-degree: 0%
 
 * 整合只會通過 [!DNL Analytics] 標準和自訂事件，用於Adobe Advertising後續付費媒體和廣告工作的競標最佳化。 未通過 [!DNL Analytics] 區段、計算量度和 [!DNL eVars] 以Adobe Advertising競標最佳化。
 
-* Adobe Advertising會在內建立永久ID [!DNL Analytics] 根據使用者進入網站前最後點選或檢視的廣告，根據 [點按並檢視回顧期間](#lookback-a4adc) 已在Adobe Advertising中設定。 如果網站訪客的設定檔中同時具有兩種型別的網站專案互動，且點按在回顧期間內，則訪客的點進ID將會覆寫網站報表的檢視ID。
+* Adobe Advertising會在內建立永久ID [!DNL Analytics] 根據使用者進入網站前最後點選或檢視的廣告，根據 [點按並檢視回顧期間](#lookback-a4adc) 已在Adobe Advertising中設定。 如果網站訪客的設定檔中同時具有兩種型別的網站專案互動，且點按在回顧期間內，則訪客的點進ID會覆寫網站報表的點進ID。
 
 * [!DNL Analytics for Advertising] Adobe Analytics中的轉換追蹤使用可設定的追蹤回顧期間（預設為60天）。 Adobe Advertising報表會反映在此追蹤回顧期間結束時的網站轉換和參與。
 
