@@ -3,7 +3,7 @@ title: 編輯刊登版位的廣告時程表
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. 執行下列任一項作業：
+1. 執行下列任一項作業：
 
-      * 若要新增航班，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+   * 若要新增航班，請按一下 **[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
 
-      * 若要將現有航班新增至廣告，請按一下 **[!UICONTROL +]** 於小眾測試版欄的廣告列。
+   * 若要將現有航班新增至廣告，請按一下 **[!UICONTROL +]** 於小眾測試版欄的廣告列。
 
-      * 若要從廣告中移除現有的航班，請按一下 **[!UICONTROL x]** 於小眾測試版欄的廣告列。
+   * 若要從廣告中移除現有的航班，請按一下 **[!UICONTROL x]** 於小眾測試版欄的廣告列。
 
       * （如果有多個廣告具有相同的外觀）若要將廣告旋轉不平均，請按一下 **[!UICONTROL Even Rotation]** 在飛行資訊中，然後輸入旋轉每個廣告的相對權重，以百分比表示。
 
         總重量必須等於100。
 
-   1. 在右上角，按一下 **[!UICONTROL Continue]**.
+1. 在右上角，按一下 **[!UICONTROL Continue]**.
 
-   1. 檢閱航班詳細資料，然後按一下 **[!UICONTROL Save & Finish]**.
+1. 檢閱航班詳細資料，然後按一下 **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
