@@ -2,16 +2,15 @@
 title: 匯出連線電視觸及計畫的預測
 description: 瞭解如何匯出連線電視觸及計畫的預測。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: f4bad569-1b56-439a-8c41-92a24a710476
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 # 匯出連線電視觸及計畫的預測
-
-*Beta功能*
 
 您可以匯出 [!UICONTROL Budget vs Reach] 預測至 [!DNL Microsoft® Excel] 試算表**使用 [!UICONTROL Budget] 和 [!UICONTROL Reach] 欄。
 

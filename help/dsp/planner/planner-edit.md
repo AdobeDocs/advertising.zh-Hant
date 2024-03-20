@@ -2,16 +2,15 @@
 title: 編輯連線電視連線計畫
 description: 瞭解如何編輯連線電視觸及計畫的設定。
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # 編輯連線電視連線計畫
-
-*Beta功能*
 
 編輯計畫設定會產生新預測。
 
