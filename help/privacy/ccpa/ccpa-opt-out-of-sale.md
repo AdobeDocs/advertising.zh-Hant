@@ -4,9 +4,9 @@ description: 瞭解如何支援擷取消費者選擇退出銷售的要求。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ ht-degree: 0%
 
    您應該將資料庫部署在客戶可以提交選擇退出銷售請求的網頁上，例如您公司的隱私權入口網站。 資料庫可協助您擷取AdobeCookie (名稱空間ID： `gsurferID`)，以便您可以透過Adobe Experience Platform Privacy Service API提交這些身分識別，作為選擇退出銷售請求的一部分。
 
-1. 識別您的Experience Cloud組織ID，並確定其連結至您的Adobe Advertising帳戶。
+1. 識別您的Experience Cloud組織ID，並確定其已連結至您的Adobe Advertising帳戶。
 
-   Experience Cloud組織ID是24個字元的英數字串，後面接著「@AdobeOrg」。 大部分Experience Cloud客戶已指派組織ID。 如果您的行銷團隊或內部Adobe系統管理員不知道您的組織ID，或不確定其是否已布建，請透過gdprsupport@adobe.com聯絡Adobe客戶服務。 您將需要組織ID，才能使用將請求提交至隱私權API。 `imsOrgID` 名稱空間。
+   Experience Cloud組織ID是24個字元的英數字串，後面接著「@AdobeOrg」。 大部分Experience Cloud客戶已指派組織ID。 如果您的行銷團隊或內部Adobe系統管理員不知道您的組織ID，或不確定其是否已布建，請聯絡您的Adobe帳戶團隊。 您將需要組織ID，才能使用將請求提交至隱私權API。 `imsOrgID` 名稱空間。
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe Advertising子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
+   >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe Advertising子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
 
 若要獲得Adobe Advertising的支援，所有這些步驟都是必要的。 如需這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及可在何處找到所需專案的資訊，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的
 
 ### 方法2：使用Advertising DSP擷取消費者選擇退出銷售報表 [!DNL Trafficking API]
 
-此功能適用於使用 [!DNL Trafficking API]. 請參閱以下內容的檔案： [!DNL Trafficking API] 以取得詳細資訊。
+此功能適用於使用 [!DNL Trafficking API]. 請參閱以下內容的檔案： [!DNL Trafficking API] 以取得詳細資訊。<!-- Add link to API doc once it's published. -->
 
 如果您的組織未使用 [!DNL Trafficking API] 如有興趣瞭解更多資訊，請聯絡您的Adobe客戶團隊。
 
