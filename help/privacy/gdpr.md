@@ -4,9 +4,9 @@ description: 瞭解支援的資料請求型別、必要的設定和欄位值，�
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 403fdb9a54ea79390ae535f31287b327ebf71d5f
+source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,8 @@ Adobe Experience Cloud代表客戶擔任資料處理者的角色，依指示接�
 
 Adobe Experience Platform讓企業能夠完成下列工作：
 
-* 存取資料主體的Cookie層級資料，在 [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO]；行動應用程式內廣告的裝置ID層級資料 [!DNL DSP]；或與中統一ID 2.0 ID相關的電子郵件層級資料 [!DNL DSP].
-
-* 刪除儲存在中的Cookie層級資料 [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO] 針對使用瀏覽器的資料主體；刪除儲存在中的ID層級資料 [!DNL DSP] 適用於在行動裝置上使用應用程式的資料主體；或是刪除與儲存在中的統一ID 2.0 ID相關聯的雜湊電子郵件層級資料 [!DNL DSP].<!-- stored within DSP? I thought we don't store the email addresses but dump them as soon as they're translated to a universal ID? -->
-
+* 在中存取資料主體的Cookie層級資料或裝置ID層級資料（適用於行動應用程式中的廣告） [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO].
+* 刪除儲存在中的Cookie層級資料 [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]，或 [!DNL DCO] 適用於使用瀏覽器的資料主體；或刪除儲存在中的ID層級資料 [!DNL DSP] 適用於在行動裝置上使用應用程式的資料主體。
 * 檢查一個或所有現有請求的狀態。
 
 ## 傳送Adobe Advertising請求的必要設定
@@ -69,7 +67,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
    當您提交資料主體的存取請求時，Privacy ServiceAPI會根據指定的Cookie或裝置ID傳回資料主體的資訊，然後您必須將其傳回給資料主體。
 
-   當您提交資料主體的刪除請求時，Cookie ID或裝置ID會從伺服器刪除。 對於以下專案的請求： [!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO]，所有與Cookie ID相關的成本、點選和收入資料也會從伺服器刪除。
+   當您提交資料主體的刪除請求時，Cookie ID或裝置ID以及所有成本、點按和與Cookie相關聯的收入資料都會從伺服器刪除。
 
    >[!NOTE]
    >
@@ -83,11 +81,6 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*您的Experience Cloud組織ID*>
-  `"users":`  其中您將這個取代為 [Cookie型請求](#gdpr-request-fields-cookie) 或 [電子郵件請求](#gdpr-request-fields-email)<!-- wording? -->.
-
-<!-- Complete this section -->
-
-### Cookie型請求 {#gdpr-request-fields-cookie}<!-- Header? -->
 
 `"users":`
 
@@ -97,7 +90,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (表示 [!DNL adCloud] Cookie空間)&lt;!> — 根據https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>，數值實際上是「namespaceId」，而非「namespace」
+   * `"namespace": **411**` (表示 [!DNL adcloud] Cookie空間)
 
    * `"value":` &lt;*擷取自之實際資料主體的Cookie ID值`AdobePrivacy.js`*>
 
@@ -105,79 +98,15 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 * `"regulation": **gdpr**` （適用於此請求的隱私權法規）
 
-## 雜湊電子郵件請求 {#gdpr-request-fields-email}<!-- Header? -->
-
-`"users":`
-
-* `"key":` &lt;*通常是資料主體的名稱*>
-
-* `"action":` 兩者之一 `**access**` 或 `**delete**`
-
-* `"user IDs":`
-
-   * `"namespace": **Email_LC_SHA256**` （代表雜湊電子郵件空間）
-
-   * `"type": **standard**`
-
-   * `"value":` &lt;*SHA256中的實際雜湊電子郵件值*>
-
-   * `"namespaceId": **411**` (表示 [!DNL adCloud] Cookie空間)&lt;!> — 根據https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>，數值實際上是「namespaceId」，而非「namespace」
-
-* `"include": **adCloud**` (亦即 [!DNL Adobe] 適用於此要求的產品)
-
-* `"regulation": **gdpr**` （適用於此請求的隱私權法規）
-
 ## 資料主體使用從中擷取之Adobe Advertising使用者ID提交的請求範例 `AdobePrivacy.js`
 
-以下範例顯示兩個Cookie型資訊（具有名稱空間）的一個存取請求 `411`)和雜湊電子郵件型資訊（使用名稱空間） `Email_LC_SHA256`)。
-
 ```
-...
-`{
-    "companyContexts": [
-      {
-        "namespace": "imsOrgID",
-        "value": "5AB13068374019BC@AdobeOrg"
-      }
-    ],
-    "users": [
-      {
-        "key": "John Doe",
-        "action": ["access"],
-        "userIDs": [
-          {
-            "namespace": "411",
-            "value": "Wqersioejr-wdg",
-            "type":"namespaceId",
-            "deletedClientSide":false
-          },
-          {
-            "namespace":"Email_LC_SHA256",
-            "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-            "type":"standard",
-            "deletedClientSide":false
-          }
-        ]
-      },
-    ],
-    "include": ["adCloud"],
-    "regulation": "gdpr"
-}'
-```
-
-<!-- old format with just cookie-level data
-```
-
-{
-    "companyContexts": [
-      {
-        
 {
 "companyContexts":[
     {
         "namespace":"imsOrgID",
         "value":"5AB13068374019BC@AdobeOrg"
-    }
+      }
    ],
    "users": [
 {
@@ -189,12 +118,6 @@ Adobe Experience Platform讓企業能夠完成下列工作：
         "value":"Wqersioejr-wdg",
         "type":"namespaceId",
         "deletedClientSide":false
-      },
-      {
-        "namespace":"Email_LC_SHA256",
-        "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-        "type":"standard",
-        "deletedClientSide":false
       }
    ]
 }
@@ -205,76 +128,12 @@ Adobe Experience Platform讓企業能夠完成下列工作：
     "regulation":"gdpr"
 }
 ```
- -->
 
 ## 針對存取請求所傳回的資料欄位
 
 以下是Adobe Advertising的存取回應範例。
 
 ```
-{
-    "jobId": "6fc09b53-c24f-4a6c-9ca2-c6076b0842b6",
-    "action":"access",
-    "product":"adCloud",
-    "status":"complete",
-    "results":{
-        "userIDs":[
-            {
-                "namespace": "411",
-                "userID":"Wqersioejr-wdg"
-            },
-            {
-                "namespace": "Email_LC_SHA256",
-                "type":"standard",
-                "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-                "isDeletedClientSide":false
-            }
-        ],
-        "receiptData":{
-            "impressionCount":"100",
-            "clickCount":5,
-            "geo":[
-                "United States of America",
-                "San Francisco CA"
-            ],
-            "profile":[
-                {
-                    "pixelid":"111",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                },
-                {
-                    "pixelid":"123",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                }
-            ],
-            "matchingSegments":[
-                {
-                    "segmentName":"AP4 - Art/Culture - In-Market",
-                    "segmentID":"kV1mPa2aqPNWKSNtf325",
-                    "serviceProvider":"Adobe"
-                },
-                {
-                    "segmentName":"EMEA - UK - Health Food Buyers",
-                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
-                    "serviceProvider":"BlueKai"
-                }
-            ]
-        }
-    }
-}
-```
-
-<!-- old format with just cookie-level data
-```
-...
 {
     "jobId":"12345AD43E",
     "action":"access",
@@ -328,4 +187,3 @@ Adobe Experience Platform讓企業能夠完成下列工作：
     }
 }
 ```
--->
