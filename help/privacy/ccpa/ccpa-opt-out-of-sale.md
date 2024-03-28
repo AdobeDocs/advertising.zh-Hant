@@ -4,7 +4,7 @@ description: 瞭解如何支援擷取消費者選擇退出銷售的要求。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
+source-git-commit: 158d3de4eeb534a374ddc2a037ac95c60ab56063
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -126,7 +126,7 @@ curl -X POST \
             "value":  "Wqersioejr-wdg",
           }
     ],
-    "include": ["AdCloud"],
+    "include": ["adCloud"],
     "regulation": "ccpa"
 }'
 ```
@@ -134,4 +134,4 @@ curl -X POST \
 其中：
 
 * `"namespace": "AdCloud"` 表示 `AdCloud` Cookie空間，而對應值為擷取自之客戶的Cookie ID `AdobePrivacy.js`
-* `"include": ["AdCloud"]` 表示要求適用於Adobe Advertising
+* `"include": ["adCloud"]` 表示要求適用於Adobe Advertising
