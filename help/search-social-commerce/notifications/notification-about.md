@@ -1,11 +1,11 @@
 ---
 title: 關於通知
 description: 瞭解通知，包括不同的型別和類別。
-exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -44,25 +44,11 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包括 [大量表單工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，大量編輯資料表格內的工作，或使用工具列、實體指派工作或使用者介面內的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派 [標籤分類值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 將行銷活動指派至專案組合，並將限制指派或取消指派至專案組合。<!--Link "constraint" to constraint-about.md if that file is ever public -->
-
    * **[!UICONTROL Bulksheets]**：此通知會 [Bulksheet作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 已完成或失敗。
 
-   * **[!UICONTROL Manager Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，這些用於正確設定關鍵功能。
+   * **[!UICONTROL Manager Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，這些是正確設定關鍵功能所需的專案。
 
-  <!--
-  * [!UICONTROL Setup Errors]
-  
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
-    
-    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
-  -->
-
-   * [!UICONTROL Network Errors]
-
-      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與同步 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md) 因為無效的認證，或授權權杖無效或過期。
-
-      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 因為無效的認證，或授權權杖無效或過期。
+   * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包括 [大量表單工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，大量編輯資料表格內的工作，或使用工具列、實體指派工作或使用者介面內的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派 [標籤分類值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 將行銷活動指派至專案組合，並將限制指派或取消指派至專案組合。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -70,22 +56,51 @@ ht-degree: 0%
 
       * **[!UICONTROL File Upload to Cloud Storage]**：用於封閉式測試版
 
-<!--
-* [!UICONTROL Optimization]
--->
+   * [!UICONTROL Network Errors]
+
+      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 因為無效的認證，或授權權杖無效或過期。
+
+      * **[!UICONTROL Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與同步 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md) 因為無效的認證，或授權權杖無效或過期。
+
+  <!--
+  * [!UICONTROL Setup Errors]
+  
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
+  -->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**：此通知符合 [警示例項](/help/search-social-commerce/alerts/alert-about.md) 已針對警報範本觸發。
+   * **[!UICONTROL Advertising Insights]**：此通知符合 [一個 [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) 已完成或失敗。
 
-   * **[!UICONTROL Spreadsheet Feeds]**：此通知會 [試算表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) 已完成或失敗。
+   * **[!UICONTROL Custom Alerts]**：此通知符合 [警示例項](/help/search-social-commerce/alerts/alert-about.md) 已針對警報範本觸發。
 
    * **[!UICONTROL Reports]**：此通知會 [自訂或排程報告](/help/search-social-commerce/reports/report-about.md) 已完成或失敗。
 
-   * **[!UICONTROL Advertising Insights]**：此通知符合 [一個 [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) 已完成或失敗。
+   * **[!UICONTROL Spreadsheet Feeds]**：此通知會 [試算表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) 已完成或失敗。
+
+<!--
+* [!UICONTROL Optimization]
+
+  * **[!UICONTROL Accuracy]**: 
+
+-->
+
+<!--
+* [!UICONTROL Portfolio Management]
+
+  * **[!UICONTROL Simulation Report]**: 
+
+-->
 
 <!--
 * [!UICONTROL System]
+
+  * **[!UICONTROL Change Management]**: 
+
 -->
 
 >[!MORELIKETHIS]
