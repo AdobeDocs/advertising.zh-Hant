@@ -3,7 +3,7 @@ title: 設定效能行銷活動的最佳實務
 description: 瞭解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 
 * **預算：** DSP一律會嘗試將100%的套件預算平均分配給套件中的所有版位。 如果刊登版位花費很少或沒有支出，我們建議為刊登版位設定預算上限，以允許更多預算依規模分配給刊登版位。 允許24到48小時校準預算變更。
 
-* **最佳化目標：** 使用兩個效能最佳化目標之一， *[!UICONTROL Highest ROAS]* 或 *[!UICONTROL Lowest CPA]*，視套件目標而定。 這些目標會分別針對最高ROAS或最低CPA位置自動最佳化套件。
+* **最佳化目標：** 使用兩個效能最佳化目標之一， *[!UICONTROL Highest Return on Ad Spend]* 或 *[!UICONTROL Lowest Cost per Acquisition]*，視套件目標而定。 這些目標會分別針對最高ROAS或最低CPA位置自動最佳化套件。
 
 * **自訂目標：**
    * 如果新封裝與現有封裝具有相同的目標，您可以選擇連結現有封裝，讓演演算法可以使用現有的機器學習資料。
