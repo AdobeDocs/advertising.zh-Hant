@@ -3,9 +3,9 @@ title: 建立自訂目標的最佳實務
 description: 瞭解建立自訂目標以定義成功事件的最佳實務。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 下列範例說明如何設定以單一轉換量度為目標的目標。
 
-### 具有「」的行銷活動範例[!UICONTROL Highest ROAS - Custom Goal]&quot;最佳化目標
+### 具有「」的行銷活動範例[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;最佳化目標
 
-如果您的行銷活動目標是收入([!UICONTROL Highest ROAS - Custom Goal])，則您的自訂目標（目標）將包含&quot;[!UICONTROL Revenue]權重為1 (1)的&quot;量度。
+如果您的行銷活動目標是收入([!UICONTROL Highest Return on Ad Spend (ROAS)])，則您的自訂目標（目標）將包含&quot;[!UICONTROL Revenue]權重為1 (1)的&quot;量度。
 
 ![具有單一轉換量度的ROAS自訂目標範例](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 > 例如，權重為1的$250轉換回報為$250。 如果轉換量度的權重為0.5，則$250的轉換會在Adobe Advertising中報告為$125 ($250的轉換* 0.5 [!UICONTROL Property Weight] = $125)。
 
-### 具有「」的行銷活動範例[!UICONTROL Lowest CPA - Custom Goal]&quot;最佳化目標
+### 具有「」的行銷活動範例[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;最佳化目標
 
 如果您的行銷活動目標是每次贏取的最低成本(CPA)，並且只需要一個成功事件，則您將包含一個量度（在以下範例中，「應用程式提交」）。 最佳實務是將權重設定為一(1)。
 
