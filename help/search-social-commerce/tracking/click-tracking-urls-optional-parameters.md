@@ -1,18 +1,18 @@
 ---
 title: 點選追蹤URL的選用追蹤引數
 description: 瞭解選用的搜尋、社交和商務追蹤引數，以及可新增至點選追蹤URL的廣告網路特定追蹤引數。
-exl-id: ca619e55-14b1-4768-b866-e339ae2ca6d4
+exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3460011a707608c172920801196837f7a278e2c0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
 # 點選追蹤URL的選用追蹤引數
 
-*Google Ads、Microsoft Advertising和Yahoo！ 僅限日本帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo Native]， [!DNL Yahoo! Japan]、和 [!DNL Yandex] 僅限帳戶*
 
 您可以新增更多引數來追蹤廣告網路帳戶的特定資料，而不是只使用最終URL或目的地URL的標準追蹤引數。 您可以在帳戶設定或行銷活動設定中新增以下引數的任意組合：
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 | <code>{custom_code}</code> | 若要將上傳大量表單檔案中「自訂URL引數」欄的資料插入追蹤URL。 {custom_code} 只能在追蹤URL中一或多個索引鍵/值組的值結尾使用。 範例：  <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> 若要將Bulksheet檔案中的自訂值插入追蹤URL，請使用「產生追蹤URL」選項上傳Bulksheet檔案。 如需關於使用Bulksheet檔案的詳細資訊，請參閱&quot;[關於使用大量表單管理行銷活動資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).」 |
 | <code>{ef_uniqueid}</code> | 插入由Adobe Advertising建立的唯一ID。 當追蹤方法為「EF重新導向」時自動新增。 |
 | <code>{ef_userid}</code> | 插入Adobe Advertising指派給廣告商的不重複使用者ID。 |
-| <code>{ef_sid}</code> | 若要插入Search、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
+| <code>{ef_sid}</code> | 若要插入Search、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft®® Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
 | <code>{ef_searchengine}</code> | 插入廣告網路名稱。 |
 | <code>{ef_campaign}</code> | 插入行銷活動名稱。 |
 | <code>{ef_campaignid}</code> | 插入促銷活動ID。 <b>注意：</b> 直到行銷活動發佈至廣告網路後，才會建立新行銷活動的ID。 如果帳戶使用&quot;[!UICONTROL EF Redirect]」和「自動上傳」選項，然後Adobe Advertising會在隔天自動將促銷活動ID插入相關的目的地URL或最終URL。 如果帳戶未使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，而您想將促銷活動ID插入相關目的地URL或最終URL中，則必須建立促銷活動；使用「產生追蹤URL」選項下載新促銷活動的大量表單檔案，然後將檔案張貼至廣告網路。 |
@@ -55,26 +55,26 @@ ht-degree: 0%
 | <code>{ef_adgroupid}</code> | 插入廣告群組ID。 <b>注意：</b> 新廣告群組的ID要等到廣告群組發佈至廣告網路後才會建立。 如果帳戶使用&quot;[!UICONTROL EF Redirect]」和「自動上傳」選項，然後Adobe Advertising會在隔天自動將廣告群組ID插入相關的目的地URL或最終URL。 如果帳戶未使用[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，而您想要將廣告群組ID插入相關的目的地URL或最終URL中，則必須建立廣告群組；使用「產生追蹤URL」選項下載新廣告群組的Bulksheet檔案，然後將檔案發佈至廣告網路。 |
 | <code>{ef_keyword}</code> | 插入關鍵字。 |
 | <code>{ef_keywordid}</code> | 插入關鍵字ID。 <b>注意：</b> 在將關鍵字張貼到廣告網路之前，不會建立新關鍵字的ID。 如果帳戶使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，然後Adobe Advertising會在隔天自動將關鍵字ID插入相關的目的地URL或最終URL中。 如果帳戶未使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，而您想要將關鍵字ID插入相關的目的地URL或最終URL中，則必須建立關鍵字；使用「產生追蹤URL」選項下載新關鍵字的大量表單檔案，然後將檔案張貼至廣告網路。 |
-| <code>{ef_matchtype}</code> | 將關鍵字比對型別插入為「廣泛」、「精確」或「片語」。 自動包含在Google Ads和Microsoft Advertising中」[!UICONTROL EF Redirect]&quot;追蹤方法。 |
+| <code>{ef_matchtype}</code> | 將關鍵字比對型別插入為「廣泛」、「精確」或「片語」。 已自動包含用於 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 使用&quot;[!UICONTROL EF Redirect]&quot;追蹤方法。 |
 | <code>{ef_adid}</code> | 插入廣告ID。 <b>注意：</b> 新廣告的ID要等到廣告發佈到廣告網路後才會建立。 如果帳戶使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，然後Adobe Advertising會在隔天自動將廣告ID插入相關的目的地URL或最終URL。 如果帳戶未使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，而您想要將廣告ID插入相關的目的地URL或最終URL，則必須建立廣告；使用「產生追蹤URL」選項下載新廣告的Bulksheet檔案；然後將檔案發佈至廣告網路。 |
 
-## Google Ads動態追蹤引數
+## [!DNL Google Ads] 動態追蹤引數
 
 另請參閱 [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
-## Microsoft Advertising動態追蹤引數
+## [!DNL Microsoft® Advertising] 動態追蹤引數
 
 另請參閱 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-## Yahoo原生動態追蹤引數
+## [!DNL Yahoo Native] 動態追蹤引數
 
 另請參閱 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
 
-## Yahoo！ 日本廣告動態追蹤引數
+## [!DNL Yahoo! Japan Ads] 動態追蹤引數
 
 另請參閱 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
-## Yandex動態追蹤引數
+## [!DNL Yandex] 動態追蹤引數
 
 另請參閱 [https://yandex.com/support/direct/statistics/url-tags.html](https://yandex.com/support/direct/statistics/url-tags.html).
 

@@ -1,11 +1,11 @@
 ---
 title: 關於搜尋、社交和商務的追蹤
 description: 瞭解搜尋、社交和商務的追蹤選項。
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ### 點選追蹤標籤
 
-您的搜尋、Social和Commerce實作團隊會在您的同步廣告行銷活動中更新廣告、關鍵字、位置、產品群組和網站連結擴充功能的追蹤範本和目的地URL，以包含唯一的追蹤ID字串和Adobe Advertising重新導向，藉此設定點選追蹤。 此外也會將追蹤新增至您的登入頁面尾碼（最終URL尾碼） [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶和行銷活動。
+您的搜尋、Social和Commerce實作團隊會在您的同步廣告行銷活動中更新廣告、關鍵字、位置、產品群組和網站連結擴充功能的追蹤範本和目的地URL，以包含唯一的追蹤ID字串和Adobe Advertising重新導向，藉此設定點選追蹤。 此外也會將追蹤新增至您的登入頁面尾碼（最終URL尾碼） [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶和行銷活動。
 
 追蹤引數可讓Adobe Advertising在個別關鍵字層級（搜尋行銷活動）或廣告變數層級（具有內容或網站目標定位的搜尋行銷活動、顯示行銷活動以及社交行銷活動）追蹤點按。 每當使用者檢視顯示/內容廣告或按一下您的其中一個廣告時，廣告網路就會使用與關鍵字或廣告相關聯的點選追蹤標籤，將事件傳送至Adobe Advertising畫素伺服器。 若為點按：
 
-* 對於在支援平行追蹤的瀏覽器上的Google Ads和Microsoft Advertising廣告，廣告網路會先將點按傳送至您的網站，然後傳送至Adobe Advertising畫素伺服器，接著在使用者的電腦上放置Cookie （如果尚未存在）。
+* 的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 在支援平行追蹤的瀏覽器上刊登廣告，廣告網路會先將點按傳送至您的網站，然後傳送至Adobe Advertising畫素伺服器，接著在使用者的電腦上放置Cookie （如果尚未存在）。
 
 * 在所有其他情況下，廣告網路會直接將點按傳送至Adobe Advertising畫素伺服器。 畫素伺服器會將Cookie放在使用者的電腦上（如果沒有），然後將使用者重新導向至您網站上的相關URL。 一般使用者的整體體驗，與沒有重新導向時相同。
 

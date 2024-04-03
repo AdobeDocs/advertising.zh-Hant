@@ -1,16 +1,16 @@
 ---
-title: 『[!DNL Microsoft Advertising] 廣告群組設定
-description: 參考設定 [!DNL Microsoft Advertising] 廣告群組。
+title: 『[!DNL Microsoft® Advertising] 廣告群組設定
+description: 參考設定 [!DNL Microsoft® Advertising] 廣告群組。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 廣告群組設定
+# [!DNL Microsoft® Advertising] 廣告群組設定
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：** （搜尋廣告）在廣告群組中放置廣告的方式和位置：
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* （預設）：對搜尋網路上的廣告進行競標。
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* （預設）：對搜尋網路上的廣告進行競標。
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]：* 若要在財團合作網站刊登廣告競標，請執行下列步驟：
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]：* 若要在財團合作網站刊登廣告競標，請執行下列步驟：
 
 * *[!UICONTROL Content network]：* 已棄用
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-的 [!DNL Microsoft Advertising] 在對象網路中的廣告群組，位置目標的競標修飾詞並未在具有「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定。
+的 [!DNL Microsoft® Advertising] 在對象網路中的廣告群組，位置目標的競標修飾詞並未在具有「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （僅限顯示/原生網路上的行銷活動；選用）顯示網路上的網站（您不想要顯示廣告）。 請輸入有效的URL，例如www.example.com。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。
 
-如需可用性的相關資訊，請參閱「 」上的Microsoft Advertising說明[防止廣告出現在特定網站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」
+如需有關可用性的資訊，請參閱 [!DNL Microsoft® Advertising] 「的說明[防止廣告出現在特定網站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」
 
 >[!MORELIKETHIS]
 >

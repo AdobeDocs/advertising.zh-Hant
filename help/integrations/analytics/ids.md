@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
+source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ EF ID是不重複權杖，Adobe Advertising會使用它來將活動與線上點�
 * `gclid` 是 [!DNL Google Click ID] (GCLID)。
 * `s` 是網路型別（「s」代表搜尋）。
 
-#### Microsoft Advertising搜尋廣告
+#### [!DNL Microsoft Advertising] 搜尋廣告
 
 ```
 {msclkid}:G:s

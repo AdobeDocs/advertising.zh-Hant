@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + 產品群組 {#product-groups}
             + [關於產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [管理產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Google Ads產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Microsoft Advertising產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] 產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] 產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + 版位 {#placements}
             + [關於版位](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
@@ -175,7 +175,7 @@ ht-degree: 2%
             + [關於 [!DNL Google Ads] 動態搜尋目標](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
             + [管理 [!DNL Google Ads] 動態搜尋目標](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
          + 對象和對象目標 {#audiences-and-targets}
-            + 對象 {#audiences}
+            + 受眾 {#audiences}
                + [關於對象](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
                + [建立 [!DNL Google Ads] 客戶比對來自的對象 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [建立 [!DNL Google Ads] 來自Adobe Campaign電子郵件清單的客戶比對對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
