@@ -3,16 +3,16 @@ title: 管理廣告群組
 description: 瞭解如何建立及管理廣告群組。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
+source-git-commit: 3f9380076389d00c87efbcdbbb2112352cbe173c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # 管理廣告群組
 
-*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]， [!DNL Yandex]，和現有 [!DNL Baidu] 僅限帳戶*
 
 廣告群組包含一組廣告及其相關關鍵字。 行銷活動中以顯示網路為目標的廣告群組也可以包含版位，即顯示網路上的廣告可出現位置。 適用於廣告群組所有元件的廣告群組設定，會因廣告網路而異。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 選取廣告網路、帳戶和行銷活動，然後按一下 **[!UICONTROL Continue]**.
 
-1. 輸入 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
+1. 輸入 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
 
    視廣告網路而定，這些設定可能會分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]. 若要設定以下專案的設定： [!UICONTROL Adgroup Frequency Cap Settings]， [!UICONTROL Negative Keywords]， [!UICONTROL Negative Websites]，可用時，按一下 **[!UICONTROL Add Frequency Cap Settings]**， **[!UICONTROL Add Negative Keywords]**，或 **[!UICONTROL Add Negative Websites]**，依序輸入。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       * 在資料表格上方的工具列中，按一下 ![編輯](/help/search-social-commerce/assets/edit.png "編輯").
 
-1. 編輯 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
+1. 編輯 [百度](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)， [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)， [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)， [Yahoo！ 日本廣告](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)，或 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 廣告群組設定。
 
    對於多個廣告群組，設定可以分組為 [!UICONTROL Ad Group Details]， [!UICONTROL Budget Options]， [!UICONTROL Ad Group Targeting]、和 [!UICONTROL URL Options]，視廣告網路而定。 您只能編輯所有選定廣告群組通用的欄位，而您的變更會套用至所有選定廣告群組。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
@@ -95,8 +95,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [百度廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
->* [Google Ads廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
->* [Microsoft Advertising廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [Yahoo！ 日本廣告廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
->* [Yandex廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL Microsoft® Advertising] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+>* [[!DNL Yandex] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
