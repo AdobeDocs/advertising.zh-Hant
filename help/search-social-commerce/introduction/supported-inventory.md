@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 1992d663542b1f33e54e72e59b21ffd9d7b5f812
+source-git-commit: 31ba2642e85ab69d91bf486aa7212b09a0fb9fcd
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 |  | 對象網路 | [!UICONTROL Audience CTV Video] | 回應式 | 透過API自動進行 | 您可以使用以下專案建立上層行銷活動和廣告群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是，適用於增強型CPC (eCPC)行銷活動<br><br>不適用於CPM行銷活動 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 對象網路 | 搜尋 | 使用&quot;[!DNL Prefer Audience Ad Format]「 」已選取 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>不支援影像廣告擴充功能 | 是 | 是 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 對象和搜尋網路 | 品牌購物（搜尋、社交和商務的Beta版功能） | 產品 | 透過API自動進行 | 您可以使用建立上層行銷活動、廣告群組和產品群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是 | 產品群組層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的產品群組層級資料 |
-| | [!DNL Microsoft Store] | 商店廣告（搜尋、社交和商務的Beta版功能） | 產品 | 透過API a自動進行 | 您可以使用建立上層行銷活動、廣告群組和產品群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是 [!UICONTROL Manual CPC] 行銷活動。 <br><br>不可用於 [!UICONTROL Manual CPA] 行銷活動。 | 產品群組層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的產品群組層級資料 |
+| | [!DNL Microsoft Store] | 商店廣告（搜尋、社交和商務的Beta版功能） | 產品 | 透過API自動進行 | 您可以使用建立上層行銷活動、廣告群組和產品群組 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 是 | 是 [!UICONTROL Manual CPC] 行銷活動。 <br><br>不可用於 [!UICONTROL Manual CPA] 行銷活動。 | 產品群組層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的產品群組層級資料 |
 | | 搜尋網路 | 搜尋 | \[展開\]動態搜尋 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 和 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 搜尋網路 | 搜尋 | 展開文字（2023年2月淘汰） | 透過API自動進行 | 僅使用編輯現有廣告的狀態 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)， [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、和 [詳細目錄管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 是 | 是 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
 | | 搜尋網路 | 搜尋 | 多媒體 | 透過API自動進行 | 使用 [行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). 編輯僅對中的狀態和URL的支援 [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 是 | 是 | 廣告層級資料 | 分析資料以搜尋、社交和商務<br><br>從搜尋、社交和商務到Analytics的廣告層級資料 |
