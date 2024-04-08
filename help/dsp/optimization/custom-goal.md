@@ -2,9 +2,9 @@
 title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 在使用最佳化目標的套件的DSP套件設定中&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]，」目標名稱現在包含在 [!UICONTROL Custom Goals] 清單。 當您選取目標作為套件的自訂目標時， [!UICONTROL Conversion Metric] 清單包含目標的所有目標量度。
 
-## 建立自訂目標的最佳實務 [#custom-goal-best-practices]
+## 建立自訂目標的最佳實務 {#custom-goal-best-practices}
 
 ### 使用單一量度的自訂目標
 
