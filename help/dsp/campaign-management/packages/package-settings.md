@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** (選用；套件包含&quot;[!UICONTROL Highest Return on Ad Spend]「和」[!UICONTROL Lowest Cost per Acquisition]「僅限最佳化目標)告訴最佳化模型只從點選型轉換學習。 否則，最佳化模型會同時學習點按和曝光轉換的機制。
 
-**[!UICONTROL Conversion Metric]：** (選用；套件包含&quot;[!UICONTROL Highest Return on Ad Spend]「和」[!UICONTROL Lowest Cost per Acquisition]「僅限最佳化目標)最終轉換事件（例如註冊）或收入事件/銷售金額（例如購買和購買值），用於計算廣告支出回報或每次收購成本。 從對應至所選自訂目標的所有事件清單中選取。
+**[!UICONTROL Conversion Metric]：** (選用；套件包含&quot;[!UICONTROL Highest Return on Ad Spend]「和」[!UICONTROL Lowest Cost per Acquisition]「僅限最佳化目標)最終轉換事件（例如註冊）或收入事件/銷售金額（例如購買和購買值），用於計算廣告支出回報或每次收購成本。 從對應至所選自訂目標的所有主要事件（「目標量度」）清單中選取。 如果清單是空的，請編輯自訂目標，以納入至少一個基礎事件作為目標量度。
 
 **[!UICONTROL Package Goal Type]：** （僅具有自訂最佳化目標的套件）套件的用途。 此設定有助於判斷如何最佳化套件：
 
