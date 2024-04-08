@@ -2,7 +2,7 @@
 title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ ht-degree: 0%
       >* [!DNL Analytics] 自訂事件會遵循以下命名慣例： `custom_event_[*event #*]_[*Analytics report suite ID*]`. 範例： `custom_event_16_examplersid`
       >* [!DNL Analytics] 維度和區段無法用於Adobe Advertising最佳化。
 
-在使用最佳化目標的套件的DSP套件設定中&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]，」目標名稱現在包含在 [!UICONTROL Custom Goals] 清單。 當您選取目標作為套件的自訂目標時， [!UICONTROL Conversion Metric] 清單包含目標的所有目標量度。
+      >[!TIP]
+      >
+      >為獲得最佳效能，自訂目標（目標）中的合併量度每天必須至少總十次轉換。 若未包含，最佳作法是將其他支援的轉換量度（例如產品頁面或應用程式啟動）新增至目標。 另請參閱 [建立自訂目標的最佳實務](#custom-goal-best-practices) 以取得指引。
 
->[!TIP]
->
->為獲得最佳效能，自訂目標（目標）中的合併量度每天必須至少總十次轉換。 若未包含，最佳作法是將其他支援的轉換量度（例如產品頁面或應用程式啟動）新增至目標。 另請參閱 [建立自訂目標的最佳實務](custom-goal-best-practices.md) 以取得指引。
+在使用最佳化目標的套件的DSP套件設定中&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]，」目標名稱現在包含在 [!UICONTROL Custom Goals] 清單。 當您選取目標作為套件的自訂目標時， [!UICONTROL Conversion Metric] 清單包含目標的所有目標量度。
 
 ## 建立自訂目標的最佳實務 [#custom-goal-best-practices]
 

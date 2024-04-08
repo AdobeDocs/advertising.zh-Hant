@@ -3,7 +3,7 @@ title: 從Adobe Analytics建立轉換量度 [!DNL eVars] 和prop
 description: 設定自訂成功事件量度，使用 [!DNL eVar] — 和 [!DNL prop]-level資料。
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
+source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 請聯絡您的Adobe客戶團隊，以將新量度同步至Adobe Advertising。
 
-量度可用後，您就可以用它來建立目標，然後將其指派給搜尋、社交和商務產品組合，或用作 [自訂目標](/help/dsp/optimization/custom-goal-about.md) 用於DSP套件。
+量度可用後，您就可以用它來建立目標，然後將其指派給搜尋、社交和商務產品組合，或用作 [自訂目標](/help/dsp/optimization/custom-goal.md) 用於DSP套件。
 
 如需有關建立目標的詳細資訊，請參閱「目標」的「最佳化指南」章節，此章節可從「搜尋」、「社交」和「商務」中取得。
 

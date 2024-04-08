@@ -3,7 +3,7 @@ title: 設定效能行銷活動的最佳實務
 description: 瞭解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
+source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -26,7 +26,7 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 
 ![最佳化目標](/help/dsp/assets/optimization-goals.png)
 
-您也需要判斷導致整體目標的成功事件，並據此建立自訂目標。 對於每個套件，您將指定自訂目標，以搭配報告和演演算法最佳化的整體最佳化目標使用 [!DNL Adobe Sensei]. 如需建立自訂目標的詳細資訊，請參閱 [建立自訂目標的最佳實務](custom-goal-best-practices.md).
+您也需要判斷導致整體目標的成功事件，並據此建立自訂目標。 對於每個套件，您將指定自訂目標，以搭配報告和演演算法最佳化的整體最佳化目標使用 [!DNL Adobe Sensei]. 如需建立自訂目標的詳細資訊，請參閱 [建立自訂目標的最佳實務](custom-goal.md#custom-goal-best-practices).
 
 ![自訂目標](/help/dsp/assets/objective-goals.png)
 
