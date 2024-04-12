@@ -3,16 +3,16 @@ title: 點選追蹤URL的選用追蹤引數
 description: 瞭解選用的搜尋、社交和商務追蹤引數，以及可新增至點選追蹤URL的廣告網路特定追蹤引數。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # 點選追蹤URL的選用追蹤引數
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo Native]， [!DNL Yahoo! Japan]、和 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan]、和 [!DNL Yandex] 僅限帳戶*
 
 您可以新增更多引數來追蹤廣告網路帳戶的特定資料，而不是只使用最終URL或目的地URL的標準追蹤引數。 您可以在帳戶設定或行銷活動設定中新增以下引數的任意組合：
 
@@ -66,16 +66,8 @@ ht-degree: 0%
 
 另請參閱 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
-## [!DNL Yahoo Native] 動態追蹤引數
-
-另請參閱 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] 動態追蹤引數
-=======
 ## Yahoo！ 日本廣告動態追蹤引數
->>>>>>>>>>隱藏的變更
-> 
+
 另請參閱 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] 動態追蹤引數
@@ -84,4 +76,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
