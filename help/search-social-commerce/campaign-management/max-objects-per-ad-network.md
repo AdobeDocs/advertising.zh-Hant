@@ -1,11 +1,11 @@
 ---
 title: 每個廣告網路帳戶的物件數目上限
 description: 檢視在何處尋找每個廣告網路帳戶的最大物件數目。
-exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b14b290afd6b13b1b9d1ac03c94c758e007dfc48
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 * **[!DNL Microsoft Advertising]：** 請參閱「帳戶、行銷活動和廣告群組的限制」，網址為 [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 
 * **[!DNL Google Ads]：** 另請參閱 [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
-
-* **[!DNL Yahoo Native]：** 請參閱「物件表示」>「限制」，網址為 [https://developer.yahooinc.com/native/guide/objects.html](https://developer.yahooinc.com/native/guide/objects.html).
 
 * **[!DNL Yahoo! Japan Ads]：** 另請參閱 [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
 
