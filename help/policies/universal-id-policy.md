@@ -2,9 +2,8 @@
 title: Adobe Advertising通用ID需求原則
 description: 請參閱通用ID的使用原則。
 feature: Policies, DSP Ads
-hide: true
-hidefromtoc: true
-source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
+exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
+source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -12,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Adobe Advertising通用ID需求原則
-
-<!-- In TOC, but hidden from TOC and both external and internal search -->
 
 上次更新日期： 2024年2月29日
 
