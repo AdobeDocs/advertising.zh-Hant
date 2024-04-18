@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -475,6 +475,7 @@ ht-degree: 0%
 >* [關於版位管理](placement-about.md)
 >* [建立位置](placement-create.md)
 >* [編輯位置](placement-edit.md)
+>* [管理位置的競標乘數](placement-manage-bid-multipliers.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Campaign Management常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
