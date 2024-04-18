@@ -3,9 +3,9 @@ title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣
 description: 瞭解新增原因和方法 [!DNL Analytics for Advertising] 將巨集新增至 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ ht-degree: 0%
 
 在 [!DNL Flashtalking] 新增標籤設定，將下列巨集附加至中的點進URL結尾 `Clicktag` 欄位：
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-範例：  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+這是基礎URL之後的第一個或唯一查詢字串，然後使用將其與基礎URL分開 `?`. 如果基礎URL將包含多個查詢字串，則第一個字串的開頭為 `?` 以及每個後續的字串，都包含 `&`.
+
+範例：
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 影片廣告標籤
 
 在 [!DNL Flashtalking] 新增標籤設定，將下列巨集附加至中的點進URL結尾 `Clicktag` 欄位：
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-範例：  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+這是基礎URL之後的第一個或唯一查詢字串，然後使用將其與基礎URL分開 `?`. 如果基礎URL將包含多個查詢字串，則第一個字串的開頭為 `?` 以及每個後續的字串，都包含 `&`.
+
+範例：
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
