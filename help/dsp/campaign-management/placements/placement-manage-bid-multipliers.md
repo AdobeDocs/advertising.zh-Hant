@@ -2,7 +2,7 @@
 title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯指定位置目標的競標乘數。
 feature: DSP Placements
-source-git-commit: 7a794394d9338cb2608ce3d89c90b122f8eee9dc
+source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 若要變更您的刊登版位選取的目標，請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md).」
 
-<!--  
+<!-- 
 ## Manage the Bid Multipliers for a Single Placement
 -->
 
