@@ -2,9 +2,9 @@
 title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯指定位置目標的競標乘數。
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: be52d56554f40babae1da683d436b821ef190e09
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * **對象目標：** 區段、時段、主題
 
-* **ads.txt目標：** （當您選擇退出ads.txt）僅限ads.txt賣家、ads.txt直接賣家和ads.txt賣家加上沒有ads.txt的網站。
+* **ads.txt目標：** （當您選擇退出ads.txt時，這可讓您從所有賣家購買詳細目錄） ads.txt sellers only、ads.txt direct sellers和ads.txt sellers plus sites without ads.txt <!-- bid multipliers for the different subsets of inventory -->
 
 ## 按目標型別列出的競標乘數上限 {#bid-multiplier-limits-by-target}
 
