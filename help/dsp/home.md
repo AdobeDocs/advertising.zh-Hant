@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3c839c8603bd0099b9a086484453fad74a46a880
+source-git-commit: 6c6108dfe91f16a48408d027d379a91d71ba5ca6
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年4月18日 | 版位 | 您現在可以針對位置的指定目標型別，建立和管理競標修飾元，將競標乘以增減競標。 預設競標修飾詞是1.00，這表示沒有增加或減少；值的範圍可以是0.10到10.00。例如，競標修飾元0.50會將6美元的競標降低為3美元(0.50 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |
 | 2024年4月3日 | 詳細目錄合作夥伴 | 的Adobe Advertising歐盟席位 [!DNL Google Authorized Buyers] 已與現有的APAC座位合併。 | 請參閱&quot;[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).」 |
 |   | 最佳化 | 新增 `CPA` （每次收購成本）及 `ROAS` 套件、位置和相關表格中的（廣告投資報酬率）量度可針對具有相關目標的套件和位置提供更準確的效能追蹤。 新的CPA量度只會考量計算每次收購成本的最終轉換事件（例如註冊），較之舊版自訂目標量度（其計算中也包含上層漏斗事件，例如頁面造訪和購物車新增），此量度可提供更準確的實際CPA狀況。 同樣地，新的ROAS量度只會考量最終收入事件（例如購買和購買值），這比舊版自訂目標量度更可靠以追蹤效能。<br><br>現在，當您設定具有CPA或ROAS型最佳化目標的套件時，您必須指定最終轉換或收入事件，以及包含轉換或收入事件的自訂目標；自訂目標可選擇包含其他加權的上層漏斗事件（例如頁面造訪和購物車新增），以用於套件最佳化的CPA或ROAS量度以外的專案。<br><br>此外，為了簡單起見，將效能為重點的最佳化目標結合在一起：<ul><li>新的&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]「目標會取代舊版」[!UICONTROL Highest ROAS - Custom Goal]」和 [!UICONTROL Highest ROAS (click focused) - Custom Goal]，」並提供選項以達成任一舊版情境。</li><li>新的&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「目標會取代舊版」[!UICONTROL Lowest CPA - Custom Goal]」和 [!UICONTROL Lowest CPA (click focused) - Custom Goal]，」並提供選項以達成任一舊版情境。</li></ul>您使用舊版目標的現有套件已透過相關設定自動移轉至新目標，且您不需要手動更新任何專案。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)，&quot; &quot;[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)，」和「[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
 | 2024年3月20日 | 位置非競標原因 | 自助式客戶現在可以使用所有可操作的不可競標原因(NBR)，這些是有助於疑難排解支出不足問題的關鍵資料點。 以前，自助使用者只能存取部分的NBR，並且必須依賴帳戶管理員或交易分析師（他們具有管理員存取權）來協助疑難排解。 | 請參閱 [!UICONTROL Non Bids] 的區段 [位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
