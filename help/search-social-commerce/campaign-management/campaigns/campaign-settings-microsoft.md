@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
+source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]：* 在上顯示原生/顯示廣告 [!DNL Microsoft® Audience Network]. 您可以a)將行銷活動連結至中的商家中心商店，自動產生摘要型廣告 [!UICONTROL Shopping Settings] 或b)使用文字資產和上傳的影像建立回應式廣告。 這兩個選項都需要您以使用者目標定位來建立廣告群組。
 
-* *[!UICONTROL Shopping Campaigns for Brands]：* （Beta版功能）透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。
+* *[!UICONTROL Shopping Campaigns for Brands]：* （Beta版功能）透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。 若是品牌的購物行銷活動，請使用競標策略 [!UICONTROL Manual CPC]；若是品牌的購物促銷活動，請使用競標策略 [!UICONTROL Cost per Sale].
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]：* （Beta版功能）推廣以下網站所提供的應用程式和遊戲： [!DNL Microsoft® Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
 
-* *[!UICONTROL Performance Max]：* （Beta版功能）顯示所有網路上的多種廣告型別。 在中個別指派資產群組 [!DNL Microsoft® Advertising] 廣告編輯器。
+* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,11 +58,15 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 行銷活動的競標策略：
 
+* *[!UICONTROL Cost per Sale]：* （僅限購物行銷活動）廣告網路(而非Search、Social和Commerce)會根據 **[!UICONTROL Target CPS]** （每次銷售成本）。 您只會在產品廣告點選後，於24小時內完成銷售後才付款。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。<!-- Verify all -->
+
+  一旦您儲存具有此競標策略的品牌的購物行銷活動，您就無法變更競標策略。 對於其他購物行銷活動型別，此策略僅適用於新行銷活動。
+
 * *[!UICONTROL CPV]* （僅限對象CTV視訊行銷活動）使用每次檢視成本(CPV)模型。 <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
 
-* *[!UICONTROL Enhanced CPC]：* （對象、搜尋和購物網路的行銷活動）使用廣告網路的增強型每次點按成本(eCPC)模型，此模型可讓廣告網路自動變更每個拍賣的每次點按成本(CPC)競標，以嘗試使用廣告網路內指定的轉換（而非搜尋、社交和商務），來最大化轉換率，同時嘗試將平均CPC保持在最大CPC以下。
+* *[!UICONTROL Enhanced CPC]：* （對象、搜尋和購物網路的行銷活動）使用廣告網路的增強型每次點按成本(eCPC)模型，此模型可讓廣告網路自動變更每個拍賣的每次點按成本(CPC)競標，以嘗試使用廣告網路內指定的轉換(不在「搜尋」、「社交」和「Commerce」中)來最大化轉換率，同時嘗試將平均CPC保持在最大CPC以下。
 
-  當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和商務產品組合時，搜尋、社交和商務會最佳化基本競標，並且 — [!UICONTROL Auto adjust campaign budget limits]&quot;選項已啟用 — 行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和商務產生的競標。 **注意：** 只有在廣告網路上追蹤的轉換總數與產品組合目標一致時，才可在產品組合中使用eCPC行銷活動。
+  當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和Commerce產品組合時，搜尋、社交和Commerce會最佳化基本競標，當「[!UICONTROL Auto adjust campaign budget limits]&quot;選項已啟用 — 行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和Commerce產生的競標。 **注意：** 只有在廣告網路上追蹤的轉換總數與產品組合目標一致時，才可在產品組合中使用eCPC行銷活動。
 
 * *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft Store Ads] 行銷活動；已棄用 [!DNL Microsoft® Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
 
@@ -72,19 +76,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPM]* （僅限對象行銷活動和對象視訊行銷活動）使用每千次曝光成本(CPM)模型，您可針對此模型指定每1,000次檢視曝光的支出專案。 當具有此競標策略的行銷活動包含在產品組合中時，系統不會最佳化。
 
-* *[!UICONTROL Maximize Clicks]：* （搜尋和購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標以最大化點按次數。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到產品組合時，競標是由點按權重驅動，而不是由產品組合目標驅動。
+* *[!UICONTROL Maximize Clicks]：* （搜尋和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標以最大化點按次數。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到產品組合時，競標是由點按權重驅動，而不是由產品組合目標驅動。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜尋和購物/智慧型購物網路、最高成效行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將轉換價值最大化。 選擇性地輸入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
+* *[!UICONTROL Maximize Conversion Value]：* （搜尋和購物/智慧型購物網路、最高成效行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
 
-* *[!UICONTROL Maximize Conversions]：* (搜尋網路或對象網路上的最高成效行銷活動和行銷活動（但對象視訊或連線電視除外）)廣告網路（而非Search、Social和Commerce）會最佳化競標，以將轉換最大化。 選擇性地輸入 **[!UICONTROL Target CPC]** （每次點按成本）。 對於對象行銷活動，您也可以輸入選填欄位 **[!UICONTROL Target CPA]** （每次收購成本）。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
+* *[!UICONTROL Maximize Conversions]：* (搜尋網路或對象網路上的最高成效行銷活動和行銷活動（但對象視訊或連線電視除外）)廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換最大化。 選擇性地輸入 **[!UICONTROL Target CPC]** （每次點按成本）。 對於對象行銷活動，您也可以輸入選填欄位 **[!UICONTROL Target CPA]** （每次收購成本）。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
 
-* *[!UICONTROL Target CPA]：* （搜尋網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會根據選購專案最佳化出價 **[!UICONTROL Target CPA]** （每次收購成本），這是您要為收購（轉換）支付的30天平均金額。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]：* （搜尋網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會根據選購專案最佳化出價 **[!UICONTROL Target CPA]** （每次收購成本），這是您要為收購（轉換）支付的30天平均金額。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target CPA].
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-* *[!UICONTROL Target Impression Share]：* （搜尋網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次點按成本）。 **注意：** 混合專案組合不支援此選項。
+* *[!UICONTROL Target Impression Share]：* （搜尋網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次點按成本）。 **注意：** 混合專案組合不支援此選項。
 
-* *[!UICONTROL Target Return on Ad Spend]：*  （搜尋和購物網路上的行銷活動）廣告網路（而非Search、Social和Commerce）會根據您的 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比指定。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]：*  （搜尋和購物網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會根據您的 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比指定。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
@@ -104,7 +108,6 @@ ht-degree: 0%
 
 {{$include /help/_includes/merchant-id.md}}
 
-
 **[!UICONTROL Products]：** （僅限連結至商戶中心商店的對象行銷活動）要廣告的產品。 根據預設， *[!UICONTROL All products]* 已選取。 若只要通告具有特定屬性的產品，請選取 *[!UICONTROL Filter products]* 並指定最多七種產品維度和屬性組合，以便篩選您的產品。 所有指定的值都必須適用於廣告，才能在產品中顯示。 例如，若要顯示Acme寵物用品的廣告，您可以建立篩選器 `Custom Label 1=animals`， `Category=pet supplies`、和 `Brand=Acme Pet Supplies`.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
@@ -112,6 +115,8 @@ ht-degree: 0%
 {{$include /help/_includes/inventory-filter.md}}
 
 ## [!UICONTROL Campaign Targeting]
+
+**[!UICONTROL Languages]：** （僅限最高成效行銷活動）廣告的語言，應符合您的廣告將出現的網站語言。 [!DNL Microsoft Advertising] 從各種訊號中判斷使用者的語言，包括使用者的查詢、發佈者的國家/地區以及使用者的語言設定。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -192,6 +197,103 @@ ht-degree: 0%
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Asset Groups] （每個資產群組）
+
+**[!UICONTROL Asset Group Name]：** 資產資料夾（資產群組）的名稱。
+
+**[!UICONTROL Asset Group Status]：** 資產群組的狀態： *[!UICONTROL Active]* 或 *[!UICONTROL Paused]*.
+
+**[!UICONTROL Final URL]：** 從資產群組建立的所有廣告的最終URL。
+
+**[!UICONTROL Images]：** 廣告最多可包含20個影像，包括至少一個正方形影像和一個橫向影像。 請參閱 [[!DNL Microsoft Advertising] 影像指導方針](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要上傳影像：
+
+   1. 在 [!UICONTROL Upload from Device] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+
+   1. 對於每個影像：
+
+      1. 選取外觀比例。
+
+      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+
+      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+
+         系統會為每個選取的外觀比例建立一個資產。
+
+      1. 按一下 **[!UICONTROL Proceed]**.
+
+   1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
+
+* 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
+
+**[!UICONTROL Logos]：** 至少一個標誌。 您最多可以包含五個。 請參閱 [[!DNL Microsoft Advertising] 資產准則](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要上傳影像：
+
+   1. 在 [!UICONTROL Upload from Device] 標籤，按一下 **[!UICONTROL +]** 並從您的裝置或網路選取影像。
+
+   1. 對於每個影像：
+
+      1. 選取外觀比例。
+
+      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+
+      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+
+         系統會為每個選取的外觀比例建立一個資產。
+
+      1. 按一下 **[!UICONTROL Proceed]**.
+
+   1. 當您完成指定影像時，請按一下 **[!UICONTROL Upload]**.
+
+* 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
+
+**[!UICONTROL Headlines]：** 至少3個（最多15個）簡短標題，每個標題最多30個字元。 您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
+
+**[!UICONTROL Long Headlines]：** 至少有一個和最多5個長標題，每個標題最多90個字元。 您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
+
+**[!UICONTROL Descriptions]：** 至少有兩個（最多五個）說明，每個說明最多90個字元。 您可以輸入文字或從您的欄位選取資產 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+
+* 若要輸入文字，請執行下列動作：
+
+   1. 在 [!UICONTROL Enter Text] 標籤，輸入文字。
+
+   1. （選用）若要新增其他文字字串，請按一下 **[!UICONTROL + Add]** 並輸入字串。
+
+* 若要從選取資產 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取資產。
+
+**[!UICONTROL Call to Action]：** 要包含在廣告中的行動號召。 根據預設， *[!UICONTROL Act Now]* 已選取。
+
+**[!UICONTROL Business Name]：** 公司名稱，最多25個字元。 它不能包含指令碼、HTML或其他標籤語言。
+
+**[!UICONTROL Audience Signal]：** （可選） [!DNL Microsoft Advertising] 用作行銷活動對象訊號的對象。 [!DNL Microsoft Advertising] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
+
+>[!NOTE]
+>對象訊號與不同 [廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
+<!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
+
+{{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Add new asset group]：** 可讓您指定另一個資產群組。
 
 ## [!UICONTROL Conversion Goals]
 
