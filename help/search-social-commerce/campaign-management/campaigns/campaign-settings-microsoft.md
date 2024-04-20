@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
 
-* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
+* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft® Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 行銷活動的競標策略：
 
-* *[!UICONTROL Cost per Sale]：* （僅限購物行銷活動）廣告網路(而非Search、Social和Commerce)會根據 **[!UICONTROL Target CPS]** （每次銷售成本）。 您只會在產品廣告點選後，於24小時內完成銷售後才付款。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]：* （僅限購物行銷活動）廣告網路(而非Search、Social和Commerce)會根據 **[!UICONTROL Target CPS]** （每次銷售成本）。 您只會在產品廣告點選後，於24小時內完成銷售後才付款。 **注意：** 請勿在產品組合中包含採用此競標策略的行銷活動。 搜尋、社交和Commerce最佳化不適用於具有此競標策略的行銷活動。
 
   一旦您儲存具有此競標策略的品牌的購物行銷活動，您就無法變更競標策略。 對於其他購物行銷活動型別，此策略僅適用於新行銷活動。
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和Commerce產品組合時，搜尋、社交和Commerce會最佳化基本競標，當「[!UICONTROL Auto adjust campaign budget limits]&quot;選項已啟用 — 行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和Commerce產生的競標。 **注意：** 只有在廣告網路上追蹤的轉換總數與產品組合目標一致時，才可在產品組合中使用eCPC行銷活動。
 
-* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft Store Ads] 行銷活動；已棄用 [!DNL Microsoft® Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
+* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft® Store Ads] 行銷活動；已棄用 [!DNL Microsoft® Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這等同於使用&quot;[!UICONTROL Enhanced CPC]」選項。
+   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：此選項與使用「[!UICONTROL Enhanced CPC]」選項。
 
-* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft Store Ads] 行銷活動)使用每次取得的成本(CPA)模型。
+* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft® Store Ads] 行銷活動)使用每次取得的成本(CPA)模型。
 
 * *[!UICONTROL Manual CPM]* （僅限對象行銷活動和對象視訊行銷活動）使用每千次曝光成本(CPM)模型，您可針對此模型指定每1,000次檢視曝光的支出專案。 當具有此競標策略的行銷活動包含在產品組合中時，系統不會最佳化。
 
-* *[!UICONTROL Maximize Clicks]：* （搜尋和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標以最大化點按次數。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到產品組合時，競標是由點按權重驅動，而不是由產品組合目標驅動。
+* *[!UICONTROL Maximize Clicks]：* （搜尋和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標以最大化點按次數。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 當您將使用此策略的行銷活動新增到產品組合時，點選權重（不是產品組合目標）會驅動競標。
 
 * *[!UICONTROL Maximize Conversion Value]：* （搜尋和購物/智慧型購物網路、最高成效行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入 **[!UICONTROL Target Return on Ad Spend]** (ROAS)的百分比。 **注意：** 此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]：* （搜尋網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入 **[!UICONTROL Target Impression Share]** 以百分比表示， **[!UICONTROL Target Ad Position]**，和 **[!UICONTROL Max CPC]** （每次點按成本）。 **注意：** 混合專案組合不支援此選項。
 
-* *[!UICONTROL Target Return on Ad Spend]：*  （搜尋和購物網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會根據您的 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比指定。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]：* （搜尋和購物網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會根據您的 **[!UICONTROL Target ROAS]** （廣告投資報酬率），以百分比指定。 選擇性地輸入 **[!UICONTROL Max CPC]** （每次點按成本），確保廣告網路不會為每次點按支付超過特定金額的費用。 **注意：** 此選項用於混合產品組合（但不是標準產品組合）中具有任何支出策略的行銷活動，但 [!UICONTROL Weekly] 或 [!UICONTROL Google Target ROAS].
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]：** （僅限最高成效行銷活動）廣告的語言，應符合您的廣告將出現的網站語言。 [!DNL Microsoft Advertising] 從各種訊號中判斷使用者的語言，包括使用者的查詢、發佈者的國家/地區以及使用者的語言設定。
+**[!UICONTROL Languages]：** （僅限最高成效行銷活動）廣告的語言，應符合廣告可出現的網站語言。 [!DNL Microsoft® Advertising] 從各種訊號中判斷使用者的語言，包括使用者的查詢、發佈者的國家/地區以及使用者的語言設定。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 從資產群組建立的所有廣告的最終URL。
 
-**[!UICONTROL Images]：** 廣告最多可包含20個影像，包括至少一個正方形影像和一個橫向影像。 請參閱 [[!DNL Microsoft Advertising] 影像指導方針](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Images]：** 廣告最多可包含20個影像，包括至少一個正方形影像和一個橫向影像。 請參閱 [[!DNL Microsoft® Advertising] 影像指導方針](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要上傳影像：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 * 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
 
-**[!UICONTROL Logos]：** 至少一個標誌。 您最多可以包含五個。 請參閱 [[!DNL Microsoft Advertising] 資產准則](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Logos]：** 至少一個標誌。 您最多可以包含五個。 請參閱 [[!DNL Microsoft® Advertising] 資產准則](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要上傳影像：
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 公司名稱，最多25個字元。 它不能包含指令碼、HTML或其他標籤語言。
 
-**[!UICONTROL Audience Signal]：** （可選） [!DNL Microsoft Advertising] 用作行銷活動對象訊號的對象。 [!DNL Microsoft Advertising] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
+**[!UICONTROL Audience Signal]：** （可選） [!DNL Microsoft® Advertising] 用作行銷活動對象訊號的對象。 [!DNL Microsoft® Advertising] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
 
 >[!NOTE]
 >對象訊號與不同 [廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
