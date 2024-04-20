@@ -3,7 +3,7 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -364,3 +364,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+

@@ -3,7 +3,7 @@ title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣
 description: 瞭解新增原因和方法 [!DNL Analytics for Advertising] 將巨集新增至 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -65,3 +65,4 @@ ht-degree: 0%
 >* [概觀 [!DNL Analytics for Advertising]](overview.md)
 >* [使用的Adobe AdvertisingID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
+
