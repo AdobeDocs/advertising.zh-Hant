@@ -3,7 +3,7 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 89f2969163932e89a3e5765881a2b0eebb9edcac
+source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
 workflow-type: tm+mt
 source-wordcount: '2738'
 ht-degree: 0%
