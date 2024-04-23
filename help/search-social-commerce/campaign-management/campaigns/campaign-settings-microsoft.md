@@ -3,7 +3,7 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：** 行銷活動的競標策略：
 
-* *[!UICONTROL Cost per Sale]：* （僅限購物行銷活動）廣告網路(而非Search、Social和Commerce)會根據 **[!UICONTROL Target CPS]** （每次銷售成本）。 您只會在產品廣告點選後，於24小時內完成銷售後才付款。 **注意：** 請勿在產品組合中包含採用此競標策略的行銷活動。 搜尋、社交和Commerce最佳化不適用於具有此競標策略的行銷活動。
+* *[!UICONTROL Cost per Sale]：* （僅限購物行銷活動）廣告網路(而非Search、Social和Commerce)會根據 [!UICONTROL Target CPS] （每次銷售成本）。 您只會在產品廣告點選後，於24小時內完成銷售後才付款。 **注意：** 請勿在產品組合中包含採用此競標策略的行銷活動。 搜尋、社交和Commerce最佳化不適用於具有此競標策略的行銷活動。
 
   一旦您儲存具有此競標策略的品牌的購物行銷活動，您就無法變更競標策略。 對於其他購物行銷活動型別，此策略僅適用於新行銷活動。
 
