@@ -3,7 +3,7 @@ title: 『[!DNL Microsoft® Advertising] 廣告群組設定
 description: 參考設定 [!DNL Microsoft® Advertising] 廣告群組。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
+source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 的 [!DNL Microsoft® Advertising] 在對象網路中的廣告群組，位置目標的競標修飾詞並未在具有「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定。
 
-**[!UICONTROL Genre]：** (廣告群組位於 [!UICONTROL Audience CTV Video] 促銷活動；適用於美國、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY和TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->)目標型別，這會決定您的廣告出現的顯示和頻道：
+**[!UICONTROL Genre]：** (廣告群組位於 [!UICONTROL Audience CTV Video] 促銷活動；適用於美國、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY和TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->)目標型別，這會決定您的廣告出現的顯示和頻道：
 
 * *[!UICONTROL All genres]：* （預設）鎖定所有型別。
 
