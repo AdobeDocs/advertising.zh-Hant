@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 廣告群組設定
 description: 參考設定 [!DNL Microsoft® Advertising] 廣告群組。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
+source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ ht-degree: 0%
 {{$include /help/_includes/location-targets.md}}
 
 的 [!DNL Microsoft® Advertising] 在對象網路中的廣告群組，位置目標的競標修飾詞並未在具有「[!UICONTROL Auto-optimize Bid Adjustment Values]」設定。
+
+**[!UICONTROL Genre]：** (廣告群組位於 [!UICONTROL Audience CTV Video] 促銷活動；適用於美國、CA、BR、MX、UK、DE、ES、FR、IT、AU、MY和TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->)目標型別，這會決定您的廣告出現的顯示和頻道：
+
+* *[!UICONTROL All genres]：* （預設）鎖定所有型別。
+
+* *[!UICONTROL Select From Below List]：* 鎖定選取的流派。 從所有可用型別的清單中選取。
+
+連線電視(CTV)廣告投放視您的視訊品質和競標金額而定。 請參閱 [CTV廣告的技術需求](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 
