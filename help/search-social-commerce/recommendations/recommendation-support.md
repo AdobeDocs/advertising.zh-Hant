@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *的Beta版功能 [!DNL Microsoft® Advertising] 帳戶*
 
-[!DNL Google Ads] 建議和 [!DNL Microsoft® Advertising] 績效深入分析是廣告網路的建議，可協助改善行銷活動的績效和效率：
+[!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 建議和深入分析是廣告網路的建議，有助於改善行銷活動的效能和效率：
 
 * 每個 [!DNL Google Ads] recommendation會根據您帳戶的效能記錄、您的行銷活動設定和趨勢，針對行銷活動的不同效能方面（從新增資產到增加預算）提供自訂建議 [!DNL Google Ads].
 
-* 每個 [!DNL Microsoft® Advertising] 績效分析會提醒您有關經理帳戶、廣告商帳戶或行銷活動的重大波動；找出可能的原因，並建議最佳化績效的動作。
+* 每個 [!DNL Microsoft® Advertising] 效能分析和建議會根據機器學習演演算法和最佳作法，提供最佳行銷活動效能的變更建議。
 
 ## 此 [!UICONTROL Recommendations & Publisher Insights] 檢視
 
 範圍 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]，您可以：
 
-* 檢視尚未針對執行的所有支援建議概覽 [!DNL Google Ads] 帳戶或過去30天內產生的所有效能深入分析 [Microsoft® Advertising] 帳戶。 每個專案的資訊包括建議/深入分析詳細資訊和受影響的實體。 的 [!DNL Google Ads] 帳戶，量度的預期增加會以綠色強調顯示。
+* 檢視尚未針對帳戶執行的所有支援建議概覽。 每個專案的資訊包括建議型別 [!DNL Adobe] 建議、受影響的量度、受影響的實體，以及連至更多詳細資料的連結。 量度的預期增加會以綠色強調顯示。
 
   ![RECOMMENDATIONS UI](/help/search-social-commerce/assets/recommendations-ui.png "RECOMMENDATIONS UI")
 
   當您開啟檢視時，資料可以即時取得。 若要重新整理資料，請按一下 ![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理") 在頁面左下方。
 
-* 的 [!DNL Google Ads] 帳戶：
+* 的 [Microsoft® Advertising] 帳戶，檢視過去30天內產生的每個績效深入分析概覽 [Microsoft® Advertising] 帳戶。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟Microsoft®廣告編輯器連結的建議動作，您可以在此針對特定深入分析採取行動。
 
-   * 檢視建議詳細資料，並直接套用或拒絕建議。
+* 檢視建議的詳細資料，並直接套用或拒絕建議。
 
-   * 檢視套用至帳戶的每個建議記錄，包括套用建議的受影響實體，以及時間戳記。
-
-* 的 [Microsoft® Advertising] 帳戶，開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中進行特定分析。
+* 檢視套用至帳戶的每個建議記錄，包括套用建議的受影響實體，以及時間戳記。
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ ht-degree: 0%
 | | [!UICONTROL Search partners opt in] | 使用擴大觸及率 [!DNL Google] 搜尋合作夥伴 |
 | | [!UICONTROL Use broad match keyword] | 透過全自動的轉換型競標，針對轉換型行銷活動使用廣泛比對 |
 
+## 支援的建議型別 [!DNL Microsoft Advertising]
+
+| 建議類別 | 建議型別 | 說明 |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | 新增回應式搜尋廣告 |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | 修正受預算限制的行銷活動 |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | 從所有來源新增關鍵字 |
+
 >[!MORELIKETHIS]
 >
 >* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
->* [套用或關閉 [!DNL Google Ads] 推薦](google-recommendation-apply-dismiss.md)
->* [檢視的建議記錄 [!DNL Google Ads] 帳戶](google-recommendation-view-log.md)
->* [搭配產品組合使用發佈者建議和深入分析的最佳作法](recommendation-best-practices.md)
+>* [套用或關閉發佈者建議](recommendation-apply-dismiss.md)
+>* [檢視帳戶的發行者建議記錄](recommendation-view-log.md)
+>* [搭配產品組合使用發佈者建議的最佳實務](recommendation-best-practices.md)
