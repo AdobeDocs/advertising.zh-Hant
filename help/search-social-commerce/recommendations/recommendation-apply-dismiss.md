@@ -3,7 +3,7 @@ title: 套用或關閉發佈者建議
 description: 瞭解如何檢視、套用或關閉發佈者建議。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 >* [檢視您的發佈者建議和效能深入分析](recommendation-view.md)
 >* [檢視帳戶的發行者建議記錄](recommendation-view-log.md)
 >* [搭配產品組合使用發佈者建議的最佳實務](recommendation-best-practices.md)
+
