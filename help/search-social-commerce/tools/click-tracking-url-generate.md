@@ -3,9 +3,9 @@ title: 產生點選追蹤URL
 description: 瞭解如何手動產生搜尋、社交和Commerce點選追蹤URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            檔案最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 產品群組和 [DNL Microsoft® Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 產品群組和 [!DNL Microsoft® Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是產品名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
