@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   當您開啟檢視時，資料可以即時取得。 若要重新整理資料，請按一下 ![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理") 在頁面左下方。
 
-* 的 [Microsoft® Advertising] 帳戶，檢視過去30天內產生的每個績效深入分析概覽 [Microsoft® Advertising] 帳戶。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟Microsoft®廣告編輯器連結的建議動作，您可以在此針對特定深入分析採取行動。
+* 的 [DNL Microsoft® Advertising] 帳戶，檢視過去30天內產生的每個績效深入分析概覽 [DNL Microsoft® Advertising] 帳戶。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟Microsoft®廣告編輯器連結的建議動作，您可以在此針對特定深入分析採取行動。
 
 * 檢視建議的詳細資料，並直接套用或拒絕建議。
 

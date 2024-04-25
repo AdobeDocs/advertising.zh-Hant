@@ -1,16 +1,16 @@
 ---
 title: 產生點選追蹤URL
-description: 瞭解如何手動產生搜尋、Social和Commerce點選追蹤URL。
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+description: 瞭解如何手動產生搜尋、社交和Commerce點選追蹤URL。
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# 使用追蹤URL工具產生搜尋、社交和商務點選追蹤URL
+# 使用追蹤URL工具產生搜尋、社交和Commerce點選追蹤URL
 
 *僅具有Adobe Advertising轉換追蹤的廣告商*
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            檔案最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 產品群組和 [Microsoft® Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 產品群組和 [DNL Microsoft® Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是產品名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
@@ -88,4 +88,4 @@ ht-degree: 0%
 >
 >* [關於建立和解碼追蹤標籤的工具](tracking-tools-about.md)
 >* [何時及如何產生點選追蹤URL](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [解碼搜尋、社交和商務點選追蹤URL](click-tracking-url-decode.md)
+>* [解碼搜尋、社交和Commerce點選追蹤URL](click-tracking-url-decode.md)
