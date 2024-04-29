@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果行銷活動屬於產品組合的一部分，則使用與產品組合目標相同的轉換目標。 使用不同的轉換目標可能會影響產品組合績效。
+>對於您上傳目標至廣告網路的混合產品組合中的行銷活動，最佳實務是使用符合產品組合目標中轉換目標的行銷活動層級目標。 但是，如果行銷活動目標包括 [!DNL Google] — 追蹤的轉換，然後在 [!DNL Google Ads] 編輯者，因為它們不會以目標重新上傳至廣告網路。 此外，在 [!DNL Google Ads] 編輯者，將促銷活動的轉換動作標示為次要（非主要）目標，以移除為帳戶預設目標的動作。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >

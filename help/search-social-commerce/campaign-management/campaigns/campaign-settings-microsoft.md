@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Goal]：** 是否要 *[!UICONTROL Use account conversion goals for this campaign]* （預設）或 *[!UICONTROL Use campaign specific conversion goals]*. 如果您選擇指定行銷活動的轉換目標，請從所有可用目標清單中選取目標。 **注意：** 目標每天都會同步處理，因此可能不會列出過去24小時內建立的目標。 若要更新清單， [手動同步處理廣告網路資料](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-如果行銷活動屬於產品組合的一部分，則使用與產品組合目標相同的轉換目標。 使用不同的轉換目標可能會影響產品組合績效。
+>[!TIP]
+>
+>對於您上傳目標至廣告網路的混合專案組合，最佳實務是使用符合專案組合目標中轉換目標的行銷活動層級目標。 不過，如果行銷活動目標包含由追蹤的轉換 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤，然後在下列位置新增該標籤： [!DNL Microsoft Advertising] 編輯者，因為它們不會以目標重新上傳至廣告網路。 此外，在 [!DNL Microsoft Advertising] 編輯者請取消選取「包含於轉換中」，移除行銷活動的轉換動作作為帳戶預設目標。
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
