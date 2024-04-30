@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 43514628649ba517371b8ac0781d4c49615e667f
+source-git-commit: b627d24c6f5b416102cceebb5c176add4adac278
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年4月29日 | 目標上傳 | 混合產品組合的目標上傳功能現在會依搜尋、社交和Commerce目標而不是產品組合上傳轉換資料。 您現在可以將行銷活動移動到具有相同目標的另一個投資組合，而無需變更其轉換目標。 新上傳的轉換命名格式已變更：<ul><li>舊版格式： `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`</li>位置 `<portfolio_id>` 是數值投資組合ID和 `<se_acctid/conversion_manager_se_acctid>` 是廣告網路帳戶或管理員帳戶的數值ID<li>新格式： `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`<li>其中&#39;&lt;network_id>&#39;是Search、Social和Commerce用於廣告網路的數值ID， `<objective_id>` 是數值目標ID，且 `<network_account_ID>` 是廣告網路帳戶或管理員帳戶的數值ID。</ul>如果您已啟用此功能，則會根據Adobe帳戶團隊共用的排程，使用新的上傳格式移轉現有資料。 在移轉期間，新舊格式上傳會並行執行。 建模和最佳化不受影響，因為新的轉換動作最初以「次要」（未最佳化）狀態出現，並包含90天的回填資料。 | 請參閱&quot;[啟用上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md).」 |
 | 2024年4月24日 | [!UICONTROL Recommendations & Publisher Insights] | ([!DNL Microsoft® Advertising] 行銷活動； Beta版功能)您現在可以使用與相同的格式，檢視帳戶的效能建議 [!DNL Google Ads]；直接套用或解除建議；並檢視套用於帳戶的每個建議的記錄，包括套用建議的受影響實體和時間戳記。 支援的建議型別包括回應式搜尋廣告、行銷活動預算和關鍵字。<br><br>您仍可檢視每個效能分析，其中 [!DNL Microsoft® Advertising] 產生 — 格式與建議不同 — 在過去30天內。 每個分析都包含一個連結，可開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中進行深入分析。 | 請參閱&quot;[關於發佈者建議和深入分析支援](/help/search-social-commerce/recommendations/recommendation-support.md)，&quot; &quot;[檢視您的發佈者建議和效能深入分析](/help/search-social-commerce/recommendations/recommendation-view.md)，&quot; &quot;[套用或關閉發佈者建議](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)，」和「[檢視帳戶的發行者建議記錄](/help/search-social-commerce/recommendations/recommendation-view-log.md).」 |
 |  | [!UICONTROL Campaigns] | ([!DNL Microsoft® Advertising] 行銷活動)對象CTV影片行銷活動中的廣告群組現在可以鎖定型別，這會決定您的廣告出現所在的節目和頻道。 此 [!UICONTROL Adgroup Targeting] 區段包含新的&quot;[!UICONTROL Genre]」設定，具有鎖定所有型別或僅鎖定特定型別的選項。<br><br>沒有報表支援適用於型別目標。 | 請參閱&quot;[[!DNL Microsoft® Advertising] 廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md).」 |
 | 2024年4月20日 | [!UICONTROL Campaigns] | (開放Beta版功能； [!DNL Microsoft® Advertising] 帳戶)其他支援適用於 [!DNL Microsoft® Advertising] 最高成效行銷活動：<ul><li>您現在可以設定行銷活動的開始和結束日期，以及行銷活動層級的語言和位置目標。</li><li>您可以新增、編輯和移除資產群組。 對於每個資產群組，您都可以使用現有的受眾群組作為受眾訊號。</li></ul> | 請參閱&quot;[[!DNL Microsoft® Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).」 |
