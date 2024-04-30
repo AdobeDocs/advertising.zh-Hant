@@ -3,9 +3,9 @@ title: 檢視刊登版位預測報表
 description: 檢視針對某個投放位置的特定鎖定目標策略所預測的曝光數、花費和最佳最高出價。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
+>* 刊登版位預測計算不考慮郵遞區號。
 >* 僅具有程式化預留(PG)目標定位的刊登版位不會產生任何預測，因為可用性和支出是決定性的。
 
 ## 預測中的資訊
