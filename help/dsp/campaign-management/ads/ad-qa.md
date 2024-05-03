@@ -2,7 +2,7 @@
 title: 使用試算表檢閱廣告設定
 description: 瞭解如何使用試算表檢閱廣告設定。
 feature: DSP Ads
-source-git-commit: a2e444a6cd5dcca6f02b92dec05321f4df4b0045
+source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -43,5 +43,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
->* [廣告設定](/help/dsp/campaign-management/ads/placeadment-settings.md)
+>* [廣告設定](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
