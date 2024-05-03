@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## 快速編輯金鑰位置設定 {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+您可以編輯版位名稱、狀態、最高出價和預算，而不需開啟完整的版位設定。
+
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 按一下行銷活動的名稱。
+1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. 編輯任何可用的 [位置設定](placement-settings.md)：  **[!UICONTROL Placement Name]**， **[!UICONTROL Status]**， **[!UICONTROL Max Bid]**、和 **[!UICONTROL Budget]**.
+1. 按一下 **[!UICONTROL Apply]**.
+
 ## 編輯單一位置
 
 >[!TIP]
 >
-> 若只要編輯位置名稱、狀態、最高競標和預算，請參閱&quot;[快速編輯金鑰位置設定](/help/dsp/campaign-management/placements/placement-quick-edit.md).」
+> 若只要編輯位置名稱、狀態、最高競標和預算，請參閱&quot;[快速編輯金鑰位置設定](#placement-quick-edit).」
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於版位管理](placement-about.md)
->* [快速編輯金鑰位置設定](placement-quick-edit.md)
+>* [使用試算表檢閱並修正版位設定](placement-qa.md)
 >* [建立位置](placement-create.md)
 >* [複製投放位置](placement-duplicate.md)
 >* [管理位置的競標乘數](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ ht-degree: 0%
 >* [位置設定](placement-settings.md)
 >* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [關於使用試算表校正位置設定](/help/dsp/campaign-management/qa/qa-about.md)
 >* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

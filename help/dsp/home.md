@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2746'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 |  | 最佳化 | 所有使用者皆可使用兩個新的點按式最佳化目標： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)「和」[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
 | 2023年9月27日 | 最佳化 | 兩個全新的觸及基礎最佳化目標， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，可協助您分別使用相同曝光次數或支出層級，觸及儘可能多的獨特家庭。 這兩個目標在封裝層級和位置層級都可用。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的刊登版位預測工具會顯示特定鎖定目標策略的預測曝光次數、花費及最佳最高出價。 預測是根據位置可用的整體詳細目錄和可用的不重複使用者來計算。 | 請參閱&quot;[檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md).」 |
-|  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[下載試算表中的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)，&quot; &quot;[位置設定已下載/上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md)，」和「[在試算表中上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
+|  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[檢閱並修正試算表中的位置設定](/help/dsp/campaign-management/placements/placement-qa.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
 |  | [!UICONTROL Custom Reports] | 自訂報表現在具有 [!UICONTROL End Date]，最多可相隔4個月。 若為現有報告，到期日為2023年9月24日。<br><br>在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。 | 請參閱&quot;[編輯自訂報告](/help/dsp/reports/report-edit.md)「和」[自訂報表設定](/help/dsp/reports/report-settings.md).」 |
 | 2023年7月19日 | 詳細目錄 | 您現在可以透過Google授權買家SSP針對程式化預留交易執行發佈者管理的廣告。 您可以直接向發佈商代管您的廣告，而不用在DSP中，善用自訂的豐富媒體廣告格式。 自訂廣告格式通常透過直接預訂執行，因此在DSP中選取由發佈商管理的廣告的功能也可讓您將直接預訂預算轉移到程式化生態系統。 | 請參閱&quot;[關於程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-about.md)「和」[設定程式化保證交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md).」 |
 | 2023年7月19日 | 報告 | 新的 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)「和」[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md).」 |
@@ -54,7 +54,7 @@ ht-degree: 0%
 | 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視現在包含&quot;[!UICONTROL Deal Health]「欄，表示每個私人交易的健康狀態： 」[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，」或&quot;[!UICONTROL Unavailable].」 您可以按一下狀態來檢視更多詳細資訊，包括交易未按預期執行或支出的原因以及疑難排解潛在問題的步驟。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 現在每個封裝和位置都可使用變更記錄，其中顯示所選日期範圍內所做的變更。 | 請參閱&quot;[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)「和」[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
 |  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個位置。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
-|  |  | 一個&quot;[!UICONTROL Intraday Pacing]「欄」可在Excel QA試算表中使用。 | 請參閱&quot;[已下載/已上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md).」 |
+|  |  | 一個&quot;[!UICONTROL Intraday Pacing]「欄」可在Excel QA試算表中使用。 | 請參閱&quot;[已下載/已上傳試算表中的欄](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns).」 |
 |  |  | 一個&quot;[!UICONTROL Intraday Pacing]「行銷活動」檢視中提供「 」欄。 | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
 |  |  | 您可以依以下方式篩選「套件」和「位置」檢視： [!UICONTROL Intraday Pacing] 設定。 | 請參閱&quot;[篩選行銷活動資料](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables).」 |
 | 2022年10月6日 | 行銷活動 | 新的與步調相關的量度欄可用於行銷活動views：「昨天的OTS」（目標支出）、「昨天的傳遞」、「昨天的目標」、「今天的OTS」（目標支出）、「今天的傳遞」和「今天的目標」。 | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |

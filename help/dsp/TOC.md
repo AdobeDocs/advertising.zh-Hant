@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
       + [編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [快速編輯金鑰位置設定](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [使用試算表檢閱並修正版位設定](/help/dsp/campaign-management/placements/placement-qa.md)
       + [複製投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [檢視警示](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + 使用試算表修正位置設定 {#qa-spreadsheet}
-      + [關於使用試算表校正位置設定](/help/dsp/campaign-management/qa/qa-about.md)
-      + [下載試算表中的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [在試算表中上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [已下載/已上傳試算表中的欄](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP巨集](/help/dsp/campaign-management/macros.md)
    + [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Campaign Management常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
