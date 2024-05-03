@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 編輯位置
 
 您可以一次編輯單一版位或多個版位的設定。
+
+>[!NOTE]
+>
+>您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中所有刊登版位的設定；變更欄位子集；並一次將設定上傳回DSP。 請參閱&quot;[使用試算表檢閱並修正版位設定](placement-qa.md).」
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
