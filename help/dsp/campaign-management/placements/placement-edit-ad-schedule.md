@@ -3,9 +3,9 @@ title: 編輯刊登版位的廣告時程表
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於版位管理](placement-about.md)
->* [編輯位置](placement-edit.md)
+>* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)

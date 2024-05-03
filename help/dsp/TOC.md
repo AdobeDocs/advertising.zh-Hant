@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + 版位 {#placements}
       + [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
-      + [編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [使用試算表檢閱並修正版位設定](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [使用試算表檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
       + [複製投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [建立單一廣告](/help/dsp/campaign-management/ads/ad-create.md)
       + [建立多個第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [使用建立廣告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [使用試算表檢閱廣告設定](/help/dsp/campaign-management/ads/ad-qa.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [將廣告附加至刊登版位](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

@@ -1,16 +1,16 @@
 ---
-title: 使用試算表檢閱並修正版位設定
+title: 使用試算表檢閱和編輯位置設定
 description: 瞭解如何使用試算表檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# 使用試算表檢閱並修正版位設定
+# 使用試算表檢閱和編輯位置設定
 
 您可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->若要對版位設定進行更廣泛的變更，請使用 [大量編輯功能](/help/dsp/campaign-management/placements/placement-edit.md).
+>若要編輯一或多個位置的多個欄位，請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md).」
 
 ## 行銷活動中所有版位的下載設定
 
@@ -193,5 +193,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

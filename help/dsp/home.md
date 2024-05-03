@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年5月2日 | 廣告，畫素 | 此 [!UICONTROL Ad Tools] 檢視> [!UICONTROL Attach Pixels] tab會顯示附加至廣告的第三方追蹤畫素，並提供新的工作流程，以將畫素附加至一或多個廣告，以及將現有畫素分離。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
-|  | 版位，對象 | 您現在可以透過大量編輯工具或版位編輯器，從版位中排除個別受眾區段或無法重複使用的受眾。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
+|  | 版位，對象 | 您現在可以透過大量編輯工具或版位編輯器，從版位中排除個別受眾區段或無法重複使用的受眾。 | 請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 | 2024年4月18日 | 版位 | 您現在可以針對位置的指定目標型別，建立和管理競標修飾元，將競標乘以增減競標。 預設競標修飾詞是1.00，這表示沒有增加或減少；值的範圍可以是0.10到10.00。例如，競標修飾元0.50會將6美元的競標降低為3美元(0.50 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |
 | 2024年4月3日 | 詳細目錄合作夥伴 | 的Adobe Advertising歐盟席位 [!DNL Google Authorized Buyers] 已與現有的APAC座位合併。 | 請參閱&quot;[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).」 |
 |   | 最佳化 | 新增 `CPA` （每次收購成本）及 `ROAS` 套件、位置和相關表格中的（廣告投資報酬率）量度可針對具有相關目標的套件和位置提供更準確的效能追蹤。 新的CPA量度只會考量計算每次收購成本的最終轉換事件（例如註冊），較之舊版自訂目標量度（其計算中也包含上層漏斗事件，例如頁面造訪和購物車新增），此量度可提供更準確的實際CPA狀況。 同樣地，新的ROAS量度只會考量最終收入事件（例如購買和購買值），這比舊版自訂目標量度更可靠以追蹤效能。<br><br>現在，當您設定具有CPA或ROAS型最佳化目標的套件時，您必須指定最終轉換或收入事件，以及包含轉換或收入事件的自訂目標；自訂目標可選擇包含其他加權的上層漏斗事件（例如頁面造訪和購物車新增），以用於套件最佳化的CPA或ROAS量度以外的專案。<br><br>此外，為了簡單起見，將效能為重點的最佳化目標結合在一起：<ul><li>新的&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]「目標會取代舊版」[!UICONTROL Highest ROAS - Custom Goal]」和 [!UICONTROL Highest ROAS (click focused) - Custom Goal]，」並提供選項以達成任一舊版情境。</li><li>新的&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「目標會取代舊版」[!UICONTROL Lowest CPA - Custom Goal]」和 [!UICONTROL Lowest CPA (click focused) - Custom Goal]，」並提供選項以達成任一舊版情境。</li></ul>您使用舊版目標的現有套件已透過相關設定自動移轉至新目標，且您不需要手動更新任何專案。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)，&quot; &quot;[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)，」和「[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
@@ -38,7 +38,7 @@ ht-degree: 0%
 |  | 最佳化 | 所有使用者皆可使用兩個新的點按式最佳化目標： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)「和」[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
 | 2023年9月27日 | 最佳化 | 兩個全新的觸及基礎最佳化目標， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，可協助您分別使用相同曝光次數或支出層級，觸及儘可能多的獨特家庭。 這兩個目標在封裝層級和位置層級都可用。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的刊登版位預測工具會顯示特定鎖定目標策略的預測曝光次數、花費及最佳最高出價。 預測是根據位置可用的整體詳細目錄和可用的不重複使用者來計算。 | 請參閱&quot;[檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md).」 |
-|  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[檢閱並修正試算表中的位置設定](/help/dsp/campaign-management/placements/placement-qa.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
+|  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案，編輯檔案以將值納入新版位&quot;[!UICONTROL Attached Ad ID]&quot;欄，然後上傳已編輯的檔案。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的清單 [!UICONTROL Ad ID]s，前往 [!UICONTROL Ads] 檢視，建立自訂檢視，其中包括 [!UICONTROL ID] 量度，然後匯出資料。 | 請參閱&quot;[檢閱和編輯試算表中的位置設定](/help/dsp/campaign-management/placements/placement-qa.md).」<br><br>另請參閱&quot;[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md).」 |
 |  | [!UICONTROL Custom Reports] | 自訂報表現在具有 [!UICONTROL End Date]，最多可相隔4個月。 若為現有報告，到期日為2023年9月24日。<br><br>在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。 | 請參閱&quot;[編輯自訂報告](/help/dsp/reports/report-edit.md)「和」[自訂報表設定](/help/dsp/reports/report-settings.md).」 |
 | 2023年7月19日 | 詳細目錄 | 您現在可以透過Google授權買家SSP針對程式化預留交易執行發佈者管理的廣告。 您可以直接向發佈商代管您的廣告，而不用在DSP中，善用自訂的豐富媒體廣告格式。 自訂廣告格式通常透過直接預訂執行，因此在DSP中選取由發佈商管理的廣告的功能也可讓您將直接預訂預算轉移到程式化生態系統。 | 請參閱&quot;[關於程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-about.md)「和」[設定程式化保證交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md).」 |
 | 2023年7月19日 | 報告 | 新的 [!UICONTROL Household Conversions Report] 會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)「和」[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md).」 |
@@ -53,7 +53,7 @@ ht-degree: 0%
 | 2022年12月14日 | 版位、廣告 | （開放Beta版功能）新增»[!UICONTROL Universal Video]「版位和廣告可讓您使用單一視訊版位，針對VPAID和VAST詳細目錄鎖定多個裝置環境。<br><br>通用視訊位置包含「裝置環境」設定，用以指定裝置型別目標([!UICONTROL Desktop]， [!UICONTROL Mobile]、和 [!UICONTROL Connected TV])。 通用視訊廣告只能連結至通用視訊版位。<br><br>自訂報表包含新的位置層級維度「裝置環境」。 | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)「和」[可用報表欄](/help/dsp/reports/report-columns.md).」<br><br>另請參閱&quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)「和」[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
 | 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視現在包含&quot;[!UICONTROL Deal Health]「欄，表示每個私人交易的健康狀態： 」[!UICONTROL Success]，&quot; &quot;[!UICONTROL Warning]，&quot; &quot;[!UICONTROL Critical]，」或&quot;[!UICONTROL Unavailable].」 您可以按一下狀態來檢視更多詳細資訊，包括交易未按預期執行或支出的原因以及疑難排解潛在問題的步驟。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 現在每個封裝和位置都可使用變更記錄，其中顯示所選日期範圍內所做的變更。 | 請參閱&quot;[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)「和」[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
-|  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個位置。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
+|  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個位置。 | 請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 |  |  | 一個&quot;[!UICONTROL Intraday Pacing]「欄」可在Excel QA試算表中使用。 | 請參閱&quot;[已下載/已上傳試算表中的欄](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns).」 |
 |  |  | 一個&quot;[!UICONTROL Intraday Pacing]「行銷活動」檢視中提供「 」欄。 | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
 |  |  | 您可以依以下方式篩選「套件」和「位置」檢視： [!UICONTROL Intraday Pacing] 設定。 | 請參閱&quot;[篩選行銷活動資料](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables).」 |

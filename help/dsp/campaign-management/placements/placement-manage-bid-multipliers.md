@@ -2,9 +2,10 @@
 title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯指定位置目標的競標乘數。
 feature: DSP Placements
-source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
+exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 您可以使用此功能變更現有位置目標的競標倍數。 您可以一次管理一個位置的競標倍數。<!-- remove that line once we can edit multiple -->
 
-若要變更您的刊登版位選取的目標，請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md).」
+若要變更您的刊登版位選取的目標，請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md).」
 
 <!-- 
 ## Manage the Bid Multipliers for a Single Placement
@@ -73,6 +74,6 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [關於版位管理](placement-about.md)
->* [編輯位置](placement-edit.md)
+>* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
