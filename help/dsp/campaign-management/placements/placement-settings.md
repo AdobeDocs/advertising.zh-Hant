@@ -3,7 +3,7 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
+source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
 workflow-type: tm+mt
 source-wordcount: '3540'
 ht-degree: 0%
@@ -308,7 +308,9 @@ ht-degree: 0%
 **[!UICONTROL Excluded Audiences]：** 要針對此位置排除的任何對象，包括具有下列專案的對象： [第三方區段、第一方區段、Adobe區段、自訂區段和儲存的對象](/help/dsp/audiences/audience-settings.md). 也會顯示所有排除對象中的總計和作用中重複資料刪除對象人數。 您可以選取現有對象或建立新對象，以便稍後重複使用：
 
 * 若要選取現有對象，請按一下 ![選取](/help/dsp/assets/chevron-down.png) 旁邊 [!UICONTROL Excluded Audiences]，然後選取對象。
+
 * 若要建立對象，請按一下 ![選取](/help/dsp/assets/chevron-down.png) 旁邊 [!UICONTROL Excluded Audiences]，然後選取 **+建立對象**. 如需指示，請參閱 [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)，從步驟3開始。
+
 * 若要選取特定受眾區段，請按一下 **[!UICONTROL Select segments for this placement only]**. 選取區段邏輯；如需指示，請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md).」 完成後，按一下 **儲存**.
 
 **[!UICONTROL Cross Device Targeting]：** (至少選取一個區段或對象，然後 [行銷活動已設定為以人物為基礎的跨裝置目標定位](/help/dsp/campaign-management/campaigns/campaign-settings.md). 可讓您將目標延伸至所有人的所有已知裝置（根據促銷活動設定中指定的裝置圖表），甚至不在指定區段中的裝置。 費用可能會根據為行銷活動指定的圖表而套用。 裝置圖表資料僅在北美提供。
