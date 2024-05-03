@@ -3,9 +3,9 @@ title: 顯示廣告設定
 description: 請參閱顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。
+系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：** 若要一次編輯版位中多個廣告的第三方追蹤畫素，請使用 [!UICONTROL Ad Tools] 檢視，請參閱「[將協力廠商追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).」
 
 下列設定會套用至您建立或編輯的每個畫素。
 

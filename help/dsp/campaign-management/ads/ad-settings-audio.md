@@ -3,9 +3,9 @@ title: 音訊廣告設定
 description: 請參閱音訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **[!UICONTROL Select Rate]：** （僅具有許可權的使用者）透過Adobe計費的預先議定費率，或您已經議定並將透過供應商計費的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
 
-### 畫素
+### [!UICONTROL Pixel]
 
-系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。
+系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：** 若要一次編輯版位中多個廣告的第三方追蹤畫素，請使用 [!UICONTROL Ad Tools] 檢視，請參閱「[將協力廠商追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).」
 
 下列設定會套用至您建立或編輯的每個畫素。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pixel Name]：** 畫素名稱。 使用有助於您輕鬆識別畫素的名稱。
 
-**[!UICONTROL Pixel Provider]：** 畫素提供者：*[!UICONTROL None]*， *[!UICONTROL Comscore]*， *[!UICONTROL WhiteOps]*，或 *[!UICONTROL IAS]*..
+**[!UICONTROL Pixel Provider]：** 畫素提供者：*[!UICONTROL None]*， *[!UICONTROL Comscore]*， *[!UICONTROL WhiteOps]*，或 *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
