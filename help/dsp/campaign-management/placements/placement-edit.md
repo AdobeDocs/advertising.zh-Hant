@@ -3,9 +3,9 @@ title: 編輯位置
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 您可以一次編輯單一版位或多個版位的設定。
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中所有刊登版位的設定；變更欄位子集；並一次將設定上傳回DSP。 請參閱&quot;[使用試算表檢閱並修正版位設定](placement-qa.md).」
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中的所有刊登版位的設定；變更關鍵欄位的有限子集；並一次將設定上傳回DSP。 請參閱&quot;[使用試算表檢閱並修正版位設定](placement-qa.md).」
 
 ## 快速編輯金鑰位置設定 {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 您可以編輯版位名稱、狀態、最高出價和預算，而不需開啟完整的版位設定。
 
