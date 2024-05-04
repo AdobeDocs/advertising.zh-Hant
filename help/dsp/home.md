@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # 新增功能
 
 下列是新的或最近變更的功能。
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年5月2日 | 廣告，畫素 | 您可以下載XLSX （Excel試算表）格式行銷活動中的所有廣告設定，以便從以下網址檢閱： [!UICONTROL Ad Tools] 檢視。 | 請參閱&quot;[使用試算表檢閱廣告設定](/help/dsp/campaign-management/ads/ad-qa.md).」 |
