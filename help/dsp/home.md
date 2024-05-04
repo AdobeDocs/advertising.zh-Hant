@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年5月2日 | 廣告，畫素 | 您可以下載XLSX （Excel試算表）格式行銷活動中的所有廣告設定，以便從以下網址檢閱： [!UICONTROL Ad Tools] 檢視。 | 請參閱&quot;[使用試算表檢閱廣告設定](/help/dsp/campaign-management/ads/ad-qa.md).」 |
+| 2024年5月2日 | 廣告，畫素 | 您可以下載XLSX （Excel試算表）格式之行銷活動中所有廣告的廣告設定和版位關聯，以便從以下網址檢閱： [!UICONTROL Ad Tools] 檢視。 | 請參閱&quot;[使用試算表檢閱廣告詳細資訊](/help/dsp/campaign-management/ads/ad-qa.md).」 |
 | |  | 此 [!UICONTROL Ad Tools] 檢視> [!UICONTROL Attach Pixels] tab會顯示附加至廣告的第三方追蹤畫素，並提供新的工作流程，以將畫素附加至一或多個廣告，以及將現有畫素分離。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 |  | 版位，對象 | 您現在可以透過大量編輯工具或版位編輯器，從版位中排除個別受眾區段或無法重複使用的受眾。 | 請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 | 2024年4月18日 | 版位 | 您現在可以針對位置的指定目標型別，建立和管理競標修飾元，將競標乘以增減競標。 預設競標修飾詞是1.00，這表示沒有增加或減少；值的範圍可以是0.10到10.00。例如，競標修飾元0.50會將6美元的競標降低為3美元(0.50 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |

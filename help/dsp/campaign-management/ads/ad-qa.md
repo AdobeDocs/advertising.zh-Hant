@@ -1,17 +1,17 @@
 ---
-title: 使用試算表檢閱廣告設定
-description: 瞭解如何使用試算表檢閱廣告設定。
+title: 使用試算表檢閱廣告詳細資訊
+description: 瞭解如何使用試算表檢閱廣告詳細資訊，包括廣告設定和相關位置。
 feature: DSP Ads
-source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# 使用試算表檢閱廣告設定
+# 使用試算表檢閱廣告詳細資訊
 
-您可以下載XLSX （Excel試算表）格式促銷活動中的所有廣告設定，以供檢閱。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
+您可以下載XLSX （Excel試算表）格式的促銷活動所有廣告詳細資訊，以供檢閱。 詳細資訊包括廣告設定和關聯版位。<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
