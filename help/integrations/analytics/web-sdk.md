@@ -3,9 +3,9 @@ title: 使用 [!DNL Last Event Service] JavaScript程式庫和 [!DNL Web SDK]
 description: 瞭解從切換的步驟，使用 [!DNL Analytics] [!DNL visitorAPI] 資料庫至 [!DNL Experience Platform] [!DNL Web SDK] 您的資料庫 [!DNL Analytics for Advertising] 實作。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如果您的組織使用舊版Adobe Analytics `visitorAPI.js` 資料庫進行資料收集，您可以選擇使用 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料庫(`alloy.js`Experience Cloud )，可讓您透過 [!DNL Edge Network].
 
-此 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript程式庫會照原樣記錄檢視和點進事件，並使用補充ID (`SDID`)。 此 [!DNL Web SDK] 然而，程式庫不提供 [!DNL stitch ID]. 若要使用 [!DNL Web SDK] 的 [!DNL Analytics for Advertising]，您需要修改1) [!DNL Last Event Service] 標籤供您在網頁上使用，以及2) [!DNL Web SDK] `sendEvent` 指令。
+此 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript程式庫會照原樣記錄檢視和點進事件，並使用補充ID (`SDID`)。 此 [!DNL Web SDK] 然而，程式庫不提供 [!DNL stitch ID]. 若要使用 [!DNL Web SDK] 的 [!DNL Analytics for Advertising]，您必須修改1) [!DNL Last Event Service] 標籤供您在網頁上使用，以及2) [!DNL Web SDK] `sendEvent` 指令。
 
 ## 步驟1：編輯您的 [!DNL Last Event Service] 標籤以產生 `[!DNL StitchID]`
 

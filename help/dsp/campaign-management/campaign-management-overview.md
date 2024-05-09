@@ -3,9 +3,9 @@ title: Advertising DSP中的Campaign Management概觀
 description: 瞭解行銷活動管理階層和元件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [刊登](/help/dsp/campaign-management/placements/placement-about.md) 會儲�
 
 [廣告](/help/dsp/campaign-management/ads/ad-about.md) 包括創意資產和追蹤URL。 您可以使用合作夥伴標籤頁或大量標籤範本，個別或大量上傳第三方廣告服務標籤。 您也可以手動建立原生顯示廣告供DSP提供。
 
-設定廣告後，您需要將每個廣告附加至投放位置。 您可以將單一廣告附加至一或多個位置。
+設定廣告之後，您必須將每個廣告附加至位置，才能開始執行廣告。 您可以將單一廣告附加至一或多個位置。
 
 在作用中行銷活動中，處於作用中行銷活動的所有作用中、已核准的廣告都符合根據版位鎖定目標引數執行的資格。
 

@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您選取 *[!UICONTROL Other]*，則廣告商將無法存取DSP [!DNL On Demand Inventory].
+>如果您選取 *[!UICONTROL Other]*，則廣告商無法存取DSP [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]：** 廣告商的首頁或主要網站URL (開頭為 `http://` 或 `https://`)。
 

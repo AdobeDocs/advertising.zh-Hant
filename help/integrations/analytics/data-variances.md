@@ -3,9 +3,9 @@ title: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 description: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 Adobe Advertising報表只會擷取透過Adobe Advertising(付費搜尋 [!DNL Advertising Search, Social, & Commerce] 廣告，以及適用於Advertising DSP廣告的顯示)，但 [!DNL Marketing Channels] 報表可追蹤所有數位頻道。 這可能會導致歸因於轉換的管道不一致。
 
-例如，付費搜尋和免費搜尋管道通常具有共生關係，每個管道互相協助。 此 [!DNL Marketing Channels] 報表會將某些轉換歸因於免費搜尋，但Adobe Advertising不會這麼做，因為它不會追蹤免費搜尋。
+例如，付費搜尋和免費搜尋管道通常具有共生關係，每個管道互相協助。 此 [!DNL Marketing Channels] 報表會將某些轉換歸因於免費搜尋，而Adobe Advertising不會歸因於免費搜尋，因為它不會追蹤免費搜尋。
 
 也可以考慮檢視顯示廣告、點選付費搜尋廣告、點選電子郵件訊息內部，然後下單30美元的客戶。 即使Adobe Advertising和 [!DNL Marketing Channels] 兩者都使用上次接觸歸因模型，轉換仍會以不同方式歸因於每一個。 Adobe Advertising無權存取 [!UICONTROL Email] 管道，因此會將轉換的付費搜尋視為評分。 [!DNL Marketing Channels]但是，可以存取所有三個管道，因此會獲得評分 [!UICONTROL Email] 進行轉換。
 

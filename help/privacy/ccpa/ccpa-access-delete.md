@@ -4,9 +4,9 @@ description: 瞭解支援的資料請求型別、必要的設定和欄位值，�
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 ## 傳送Adobe Advertising請求的必要設定
 
-若要請求存取和刪除Adobe Advertising中的消費者個人資訊，您需要：
+若要請求存取和刪除Adobe Advertising中的消費者個人資訊，您必須：
 
 1. 部署JavaScript程式庫以擷取和移除客戶的Cookie。 相同的程式庫， `AdobePrivacy.js`，適用於所有Adobe Experience Cloud解決方案。
 
@@ -67,7 +67,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 1. 使用 [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動化請求）或 [PRIVACY SERVICEUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant) （適用於臨時請求）代表消費者提交存取和刪除個人資訊的請求給Adobe Advertising，並檢查現有請求的狀態。
 
-   適用於擁有行動應用程式的廣告商，以便與客戶互動並推出促銷活動與 [!DNL DSP]，您必須下載適用於隱私權的行動SDK，才能Experience Cloud。 行動SDK可讓企業設定選擇退出狀態標幟，擷取消費者的裝置ID (名稱空間ID： `deviceID`)，並將請求提交至Privacy Service API。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
+   適用於擁有行動應用程式的廣告商，以便與客戶互動並推出促銷活動與 [!DNL DSP]，您必須下載適用於隱私權的行動SDK以進行Experience Cloud。 行動SDK可讓企業設定選擇退出狀態標幟，擷取消費者的裝置ID (名稱空間ID： `deviceID`)，並將請求提交至Privacy Service API。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
 
    當您提交消費者存取請求時，Privacy ServiceAPI會根據指定的Cookie或裝置ID傳回消費者的資訊，然後您必須將其傳回給消費者。
 
@@ -77,7 +77,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 不過，您可以向多個Adobe Advertising子解決方案提出一個API請求([!DNL Search, Social, & Commerce]， [!DNL Creative]， [!DNL DSP]、和 [!DNL DCO])，每個子解決方案各有一個帳戶。
 
-若要獲得Adobe Advertising的支援，所有這些步驟都是必要的。 如需這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及可在何處找到所需專案的資訊，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+若要獲得Adobe Advertising的支援，所有這些步驟都是必要的。 如需關於這些事項以及使用Adobe Experience Platform Privacy Service所需執行的其他相關工作的詳細資訊，以及可在何處找到必要專案，請參閱 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Adobe Advertising JSON請求中的必填欄位值
 

@@ -3,9 +3,9 @@ title: 建立對象來源以啟用第一方對象
 description: 瞭解如何建立來源以將受眾匯入您的帳戶或廣告商帳戶。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在您建立客戶資料平台的來源後，您將需要完成其他步驟。 請參閱 [啟用工作流程 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 和 [啟用工作流程 [!DNL Tealium]](source-tealium.md).
+>在您建立客戶資料平台的來源後，必須完成其他步驟。 請參閱 [啟用工作流程 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 和 [啟用工作流程 [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
