@@ -3,9 +3,9 @@ title: 指定私人交易的版位和廣告
 description: 瞭解如何搭配其他刊登版位和廣告使用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
        1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
        
-       1. 從可用廣告清單中，選取用於交易的每個廣告旁的核取方塊。
+       1. 從可用廣告清單中，選取要用於交易的每個廣告旁的核取方塊。
        
        1. 按一下**[!UICONTROL Apply]**。
    

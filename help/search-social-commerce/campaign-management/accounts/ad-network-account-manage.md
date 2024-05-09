@@ -3,9 +3,9 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Post]**.
 
-   Search、Social和Commerce可在24小時內提供帳戶中所有促銷活動的最新成本和點選資料。 依預設，可使用過去5至10天的資料，視廣告網路而定。 不過，如有必要，專案啟動團隊最多可以擷取過去60天的資料。
+   帳戶中所有促銷活動的最近成本和點選資料，可在大約24小時內從Search、Social和Commerce取得。 依預設，可使用過去5至10天的資料，視廣告網路而定。 不過，如有必要，專案啟動團隊最多可以擷取過去60天的資料。
 
 ## 編輯廣告網路帳戶詳細資料 {#edit-account}
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >搜尋、Social和Commerce必須將新帳戶資料與廣告網路上的資料同步。 這會每天自動發生一次，或在Search、Social和Commerce偵測到廣告網路上的變更時更頻繁。
+   >搜尋、社交和Commerce必須將新帳戶資料與廣告網路上的資料同步。 這會每天自動發生一次，或在Search、Social和Commerce偵測到廣告網路上的變更時更頻繁。
 
 ## 重新整理搜尋帳戶的oAuth存取權杖 {#refresh-oauth-tokens}
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員及管理員使用者角色*
 
-如果搜尋、社交和商務使用存取該帳戶 [Oauth授權通訊協定](https://oauth.net/2/) 且帳戶認證有所變更，或需要其他存取權杖才能支援「搜尋」、「社交」和「商務」的新功能，您必須取得帳戶的新存取權杖。
+如果搜尋、社交和Commerce使用存取該帳戶 [Oauth授權通訊協定](https://oauth.net/2/) 且帳戶認證有所變更，或需要其他存取權杖才能支援「搜尋」、「社交」和「Commerce」的新功能，您必須取得帳戶的新存取權杖。
 
 如果您的新功能需要新的Token，您的Adobe帳戶團隊將會通知您。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員及管理員使用者角色*
 
-當您啟用廣告網路帳戶時，搜尋、社交和商務會與帳戶同步促銷活動資料（若有支援），並針對產品組合中的促銷活動推送自動競標和/或促銷活動預算。當您停用廣告網路帳戶時，搜尋、社交和商務會停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
+當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步促銷活動資料（若有支援），並針對產品組合中的促銷活動推送自動競標和/或促銷活動預算。當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -143,11 +143,11 @@ ht-degree: 0%
 >
 >這裡不支援廣告網路管理員帳戶。 識別經理帳戶的方式 [!DNL Microsoft Advertising] 或 [!DNL Yandex]，分別使用主要帳戶ID或MCC帳戶欄位。 至 [設定「 」的認證 [!DNL Google Ads] 經理帳戶](/help/search-social-commerce/admin/manager-accounts.md)，前往 [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
-**[!UICONTROL Account Name]：** 顯示在「搜尋」、「社交」和「商務」中的帳戶名稱。
+**[!UICONTROL Account Name]：** 顯示在「搜尋」、「社交」和「Commerce」中的帳戶名稱。
 
 >[!NOTE]
 >
->如果您整合了「搜尋、社交和商務 — Adobe Analytics」 ，並變更了搜尋帳戶的名稱，然後通知您的Adobe帳戶團隊，讓他們可以更新對應。
+>如果您已整合「搜尋」、「社交」和「Commerce-Adobe Analytics」，並變更搜尋帳戶的名稱，然後通知您的Adobe帳戶團隊，讓他們可以更新對應。
 
 **[!UICONTROL Login Details]： \[登入型別\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 僅限)是否授權使用登入帳戶：
 
@@ -178,12 +178,12 @@ ht-degree: 0%
 >* 此欄位未由 [!UICONTROL Auto Upload] 追蹤設定。
 >* 較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 
-**時區：** (所有廣告網路，除了 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])廣告商的時區。 此欄位可編輯，且是新增的可選欄位 [!DNL Naver] 帳戶。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告商的搜尋、社交和商務帳戶設定的時區自動填入值。
+**時區：** (所有廣告網路，除了 [!DNL Baidu] 和 [!DNL Yahoo! Display Network])廣告商的時區。 此欄位可編輯，且是新增的可選欄位 [!DNL Naver] 帳戶。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告商的搜尋、社交和Commerce帳戶設定的時區自動填入值。
 
-**狀態：** Search、Social和Commerce中的帳戶狀態：
+**狀態：** 搜尋、社交和Commerce中的帳戶狀態：
 
-* *已啟用：* 搜尋、Social和Commerce會將行銷活動資料與帳戶同步（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。
-* *已停用：* 搜尋、社交和商務會停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶暫停期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
+* *已啟用：* 搜尋、Social和Commerce會與帳戶同步促銷活動資料（若有支援），並針對產品組合中的促銷活動推送自動競標和/或促銷活動預算。
+* *已停用：* 搜尋、社交和Commerce會停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶暫停期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
 **追蹤範本** - ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 僅限帳戶；選用)帳戶的預設追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終/登陸頁面URL內嵌在引數中。 範例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重新導向。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 * 您可以選擇新增第三方重新導向和追蹤。
 
-* 當行銷活動設定包括&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search， Social， &amp; Commerce會自動加上其重新導向與追蹤程式碼的前置詞。
+* 當行銷活動設定包括&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，搜尋、社交和Commerce會自動加上其重新導向和追蹤程式碼的前置詞。
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ ht-degree: 0%
 
 **[!UICONTROL Application ID]：** ([!DNL Yandex] 僅限帳戶)用於帳戶的開發人員權杖。 所有使用者都使用相同的代號 [!DNL Yandex] 帳戶。
 
-**[!UICONTROL Purse Campaign ID]：** ([!DNL Yandex] 僅限已停用「共用帳戶」設定的帳戶；選用)促銷活動的數值ID，將用於支付帳戶中所有廣告促銷活動的費用。
+**[!UICONTROL Purse Campaign ID]：** ([!DNL Yandex] 僅限已停用「共用帳戶」設定的帳戶；選用)促銷活動的數值ID，用於支付帳戶中所有廣告促銷活動的費用。
 
 **[!UICONTROL Finance Token]：** ([!DNL Yandex] 共用帳戶設定為停用的帳戶；選用)用於財務相關API呼叫的開發人員權杖，例如，在廣告商的行銷活動之間重新分配錢包（如產品組合最佳化的必要）。
 
@@ -255,7 +255,7 @@ ht-degree: 0%
 
 **報表套裝名稱** - (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
-為了讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)將廣告商層級的設定設為&quot;[!UICONTROL Enable tracking for SAINT feeds]必須啟用「」。 此外，廣告商的Analytics帳戶必須設定為可接收來自搜尋、社交和商務的資料。 如需詳細資訊，請聯絡您的Adobe客戶經理。
+為了讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)將廣告商層級的設定設為&quot;[!UICONTROL Enable tracking for SAINT feeds]必須啟用「」。 此外，廣告商的Analytics帳戶必須設定為可從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶經理。
 
 >[!MORELIKETHIS]
 >

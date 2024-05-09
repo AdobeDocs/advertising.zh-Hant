@@ -3,9 +3,9 @@ title: JavaScript程式碼 [!DNL Analytics for Advertising]
 description: JavaScript程式碼 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ JavaScript程式庫由兩行組成，允許 [!DNL Analytics] 和Adobe Advertisin
    * 第一列是對JavaScript程式庫的呼叫，標題為 `last-event-tag-latest.min.js`.
    * 第二列是將請求傳送至Adobe Advertising的呼叫。 其開頭如下： `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
-     如果您沒有看到對Adobe Advertising的呼叫，則該呼叫可能不是您造訪的第一個頁面檢視。 出於測試目的，您可以移除Cookie，讓下次呼叫成為相應造訪的第一個頁面檢視：
+     如果您沒有看到對Adobe Advertising的呼叫，則該呼叫可能不是您造訪的第一個頁面檢視。 出於測試目的，您可以移除Cookie，讓下次呼叫是相應造訪的第一個頁面檢視：
 
    1. 在應用程式標籤上，找到 `adcloud` Cookie，並確認Cookie包含 `_les_v` （上次造訪）的值為 `y` 以及30分鐘後過期的UTC紀元時間戳記。
       1. 刪除 `adcloud` cookie並重新整理頁面。
@@ -88,7 +88,7 @@ JavaScript程式庫由兩行組成，允許 [!DNL Analytics] 和Adobe Advertisin
 
    ![篩選於 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. 比較兩個點選之間的ID值。 除了Analytics點選中的報表套裝ID （即緊接在ID後面的URL路徑）以外，所有值都會位於查詢字串引數中 `/b/ss/`.
+1. 比較兩個點選之間的ID值。 所有值都應位於查詢字串引數中，但Analytics點選中的報表套裝ID （即緊接在後面的URL路徑）除外 `/b/ss/`.
 
    | ID | Analytics引數 | Edge Network | Adobe Advertising引數 |
    | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ JavaScript程式庫由兩行組成，允許 [!DNL Analytics] 和Adobe Advertisin
 1. 在 [!UICONTROL Request URL - Hostname] 引數列，找出 `lasteventf-tm.everesttech.net`.
 1. 在 [!UICONTROL Request - Parameters] 列，稽核產生的訊號，類似於中的步驟3 」[如何使用確認程式碼 [!DNL Chrome Developer Tools]](#validate-js-chrome).」
    * (使用Experience Cloud Identity Service的實作 `visitorAPI.js` 代碼)確認 `Sdid` 引數符合 `Supplemental Data ID` 在Adobe Analytics篩選中。
-   * (使用Experience Platform的實作 [!DNL Web SDK] `alloy.js`代碼)確認 `advertisingStitchID` 引數符合 `Sdid` 傳送至Experience Platform邊緣網路。
+   * (使用Experience Platform的實作 [!DNL Web SDK] `alloy.js`代碼)確認 `advertisingStitchID` 引數符合 `Sdid` 已傳送至Experience PlatformEdge Network。
    * 如果程式碼未產生，則檢查以確認Adobe AdvertisingCookie已在中移除 [!UICONTROL Application] 標籤。 移除後，請重新整理頁面並重複此程式。
 
    ![稽核 [!DNL Analytics for Advertising] 中的JavaScript程式碼 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

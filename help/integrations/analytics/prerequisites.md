@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 向Adobe Advertising實作團隊提供下列專案：
 
-* 此 [!DNL Analytics] 報告套裝ID會用於付費媒體活動的報告，以及饋送網站活動以最佳化及Adobe Advertising中的報告
+* 此 [!DNL Analytics] 用於付費媒體活動報告及饋送網站活動的報告套裝ID，以便在Adobe Advertising中最佳化和報告
 * 公司的Experience Cloud組織ID （組織ID）。
 
 您可以在以下網址找到這兩個ID： [Adobe Experience Cloud Debugger的「摘要」標籤](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).

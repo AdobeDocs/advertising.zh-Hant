@@ -3,9 +3,9 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 按一下將包含此位置的行銷活動名稱。
+1. 按一下要包含版位的行銷活動名稱。
 
 1. 在資料表格上方，按一下 **[!UICONTROL Create]**. 在 [!UICONTROL Placement Types] 區段，按一下位置型別。
 

@@ -3,9 +3,9 @@ title: 音訊廣告設定
 description: 請參閱音訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]：** （僅使用VAST標籤的廣告）第三方廣告來源的URL具有必要的 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 已插入（如果適用）。
 
-**[!UICONTROL Select Rate]：** （僅具有許可權的使用者）透過Adobe計費的預先議定費率，或您已經議定並將透過供應商計費的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
+**[!UICONTROL Select Rate]：** （僅具有許可權的使用者）透過Adobe計費的預先議定費率，或您已經議定且透過廠商計費的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
 
 ### [!UICONTROL Pixel]
 

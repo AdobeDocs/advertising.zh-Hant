@@ -3,7 +3,7 @@ title: 『[!DNL Microsoft® Advertising] 廣告群組設定
 description: 參考設定 [!DNL Microsoft® Advertising] 廣告群組。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/custom-parameters.md}}
 
-**[!UICONTROL Adgroup Frequency Cap Settings]：** （選用）從廣告群組向客戶提供廣告的次數。 輸入值並選取時間單位(*[!UICONTROL Hour]*， *[!UICONTROL Day]*，或 *[!UICONTROL Week]*)。
+**[!UICONTROL Adgroup Frequency Cap Settings]：** （選用）可從廣告群組向客戶提供廣告的次數。 輸入值並選取時間單位(*[!UICONTROL Hour]*， *[!UICONTROL Day]*，或 *[!UICONTROL Week]*)。
 
 ## [!UICONTROL Negative Keywords]
 

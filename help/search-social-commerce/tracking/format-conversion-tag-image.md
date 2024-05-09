@@ -1,9 +1,9 @@
 ---
 title: 影像轉換追蹤標籤的格式
 description: 參考影像轉換追蹤標籤的格式。
-exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

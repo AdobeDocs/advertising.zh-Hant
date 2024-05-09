@@ -1,138 +1,136 @@
 ---
-title: 從廣告活動中收集點擊和印象數DSP據
-description: 瞭解如何使用Audience Manager像素從廣告廣告中捕捉基於cookie的DSP印象並按一下事件
+title: 收集來自Advertising DSP行銷活動的點選數和曝光數資料
+description: 瞭解如何使用Audience Manager畫素從Advertising DSP廣告擷取Cookie型曝光次數和點選事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
-# 從廣告活動中收集媒體曝光數DSP據
+# 從Advertising DSP Campaigns收集媒體曝光資料
 
-*僅包含廣告的DSP廣告商*
+*僅使用Advertising DSP的廣告商*
 
-*具有Adobe廣告的廣告商 — 僅Adobe Audience Manager整合*
+*僅整合Adobe Advertising-Adobe Audience Manager的廣告商*
 
-本文檔介紹如何標籤廣DSP告廣告，以捕獲基於cookie的印象，並使用Audience Manager像素按一下事件，以及使用資料所需的其他任務。
+本檔案說明如何使用Audience Manager畫素來標籤Advertising DSP廣告，以擷取Cookie型曝光次數和點選事件，以及使用資料所需的其他工作。
 
-事件像素不會捕獲在無cookie環境（如移動應用和連接的電視）中發生的事件。
+事件畫素不會擷取在無Cookie環境中發生的事件，例如行動應用程式和連線電視(CTV)。
 
-## 步驟1:在Audience Manager中設定資料源 {#set-up-data-source}
+## 步驟1：在Audience Manager中設定資料來源 {#set-up-data-source}
 
-在Audience Manager中，建立 [資料源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) ，然DSP後按一下資料。 包括資料源ID [在每個事件標籤中](#implement-dsp-pixels) 以便所有跟蹤事件都歸屬於資料源。
+在Audience Manager中，建立 [資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) 針對DSP曝光和點按資料。 包含資料來源ID [在每個事件標籤中](#implement-dsp-pixels) 以便將所有追蹤的事件歸因到資料來源。
 
 >[!NOTE]
-> 可以收集所有印象並按一下資料，以便在單個資料源內的多個資料源上DSP運行廣告活動。
+> 您可以在單一資料來源中，針對在多個DSP上執行的廣告行銷活動，收集其所有曝光次數和點按資料。
 
-## 步驟2:在網頁上實現印象並按一下事件像素 {#implement-dsp-pixels}
+## 步驟2：在網頁上實作曝光和點選事件畫素 {#implement-dsp-pixels}
 
-廣告商可以為自己的品牌建立和實施事件標籤。 如有必要，請聯繫您的Adobe Audience Manager顧問或Adobe客戶團隊以獲得支援。
+廣告商可以為自己的品牌建立和實施事件標籤。 如有需要，請聯絡您的Adobe Audience Manager顧問或Adobe客戶團隊以尋求支援。
 
 >[!NOTE]
 >
->如果您的組織使用 [!DNL Analytics] 跟蹤，則可能不需要Audience Manager按一下跟蹤。 Adobe Analytics捕獲點擊信號，並將其發送給Audience Manager [伺服器端轉發](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)。
+>如果您的組織使用 [!DNL Analytics] 追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並透過將其傳送至Audience Manager [伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
-### 像素語法
+### 畫素語法
 
-事件像素必須包括以下參數。
+事件畫素必須包括下列引數。
 
-**印象跟蹤像素：**
+**曝光追蹤畫素：**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-與 [可選附加參數](#parameters) 前置詞 `&`
+替換為 [選擇性其他引數](#parameters) 前置詞為 `&`
 
-**按一下跟蹤像素：**
+**點選追蹤畫素：**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-與 [可選附加參數](#parameters) 前置詞 `&`
+替換為 [選擇性其他引數](#parameters) 前置詞為 `&`
 
-位置：
+其中：
 
-* `[Audience Manager customer domain]` 是要發送印象或按一下事件的域名 [!DNL Adobe]。
+* `[Audience Manager customer domain]` 是會將曝光或點選事件傳送至的網域名稱 [!DNL Adobe].
 
-* `[source id]` 是 [資料源](#set-up-data-source) 在中，您將跟蹤DSP印象並按一下資料。
+* `[source id]` 是ID [資料來源](#set-up-data-source) 其中您將追蹤DSP曝光次數和點選資料。
 
-* `[redirect URL]` 是雙編碼重定向URL。 如果您使用線上編碼工具(如www.urlencoder.org)，則通過編碼器運行字串並重新編碼結果。
+* `[redirect URL]` 是雙重編碼的重新導向URL。 如果您使用線上編碼工具(例如www.urlencoder.org)，請透過編碼器執行字串並重新編碼結果。
 
-* `${TM_CAMPAIGN_ID_NUM}` 是中的數字市場活動IDDSP。 如果要硬編碼單個市場活動ID而不是使用宏DSP，請在市場活動設定中找到該ID。
+* `${TM_CAMPAIGN_ID_NUM}` 是DSP中的數值促銷活動ID。 如果您想要以硬式編碼個別促銷活動ID，而不使用DSP巨集，請在促銷活動設定中找出該ID。
 
-* 每個 [參數](#key-value-pairs) 前置詞為 `&` 格式 `d_parameter=parameter_id`，也請參見Wiki頁。 `parameter` 替換為新欄位的key-value對。 示例： `&d_placement=${TM_PLACEMENT_ID_NUM}`
+* 每個 [引數](#key-value-pairs) 前置詞為 `&` 和的格式為 `d_parameter=parameter_id`，其中 `parameter` 會由新欄位的機碼值組取代。 範例： `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
-### 參數作為鍵值對 {#parameters}
+### 索引鍵值配對的引數 {#parameters}
 
 **格式：**  `d_parameter=parameter_id`
 
     其中：
     
-    *參數的前置詞為「&amp;」
+    *引數的前置詞為&#39;&amp;&#39;
     
-    *新欄位的鍵值對替換為「parameter」
+    * 「parameter」會由新欄位的機碼值組取代
     
-    示例：「&amp;d_placement=${TM_PLACEMENT_ID_NUM}」
+    範例： &#39;&amp;d_placement=${TM_PLACEMENT_ID_NUM}『
 
-這兩種類型的像素都可以包含附加參數，如 *鍵值對* 收集特徵或為其他報表提供市場活動元資料（如職位名稱或市場活動名稱）。 鍵值對由兩個相關元素組成：a *鍵*，是定義資料集的常數，以及 *值*，是屬於集的變數。
+兩種型別的畫素都可包含其他引數，如 *機碼值組* 收集特徵或提供其他報表的促銷活動中繼資料（例如版位名稱或促銷活動名稱）。 機碼 — 值組包含兩個相關元素：a *key*，定義資料集的常數，以及 *值*，此變數屬於該集。
 
-在鍵值對中，值變數可以是硬編碼ID或 *宏*&#x200B;它是一個自包含代碼的小單元，當廣告標籤載入用於市場活動和用戶跟蹤時，它被動態地替換為相應的值。 對於與市場活動相關的參數，您可以使用 [DSP宏](/help/dsp/campaign-management/macros.md) 而不是Audience Manager宏以將促銷活動屬性與相應印象一起發送，或者按一下資料以Audience Manager所有廣告中的單個像素。 插入DSP到事件像素中的宏必須是包含在像素中的鍵值對的適當值。 例如， `d_placement` 鍵，您使用宏DSP `${TM_PLACEMENT_ID_NUM}` 作為捕獲由Adobe廣告宏生成的放置ID的值。
+在機碼值組中，值變數可以是硬式編碼ID或 *巨集*，這是內含程式碼的小單位，當廣告標籤載入促銷活動和使用者追蹤時，會動態取代為對應的值。 對於促銷活動相關的引數，您可以使用 [DSP巨集](/help/dsp/campaign-management/macros.md) 不要使用Audience Manager巨集來傳送促銷活動屬性以及對應的曝光數或點按資料來Audience Manager，而是要在所有廣告中使用單一畫素。 您插入事件畫素的DSP巨集必須是包含在畫素中的機碼值組的適當值。 例如，對於 `d_placement` 鍵，您可以使用DSP巨集 `${TM_PLACEMENT_ID_NUM}` 做為值來擷取Adobe Advertising巨集產生的位置ID。
 
-有關Audience Manager支援的印象事件像素的宏清單，請參閱[通過像素呼叫捕獲市場活動印象資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;
+如需Audience Manager支援曝光事件畫素的巨集清單，請參閱&quot;[透過畫素呼叫擷取行銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).」
 
-有關Audience Manager支援按一下事件像素的宏清單，請參閱[通過像素呼叫捕獲市場活動按一下資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;
+如需Audience Manager支援點選事件畫素的巨集清單，請參閱&quot;[透過畫素呼叫擷取行銷活動的點按資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).」
 
 >[!TIP]
 >
->* 最佳做法是包括促銷活動、廣告投放、創意（廣告）和網站ID，以便您可以使用促銷活動屬性建立Audience Manager特徵。
->* 要建立Audience Optimization報告，需要其他參數。
->* 在鍵值對中，將值替換為 [DSP宏](/help/dsp/campaign-management/macros.md) 這樣，您就可以在所有市場活動中在所有廣告中使用單個像素。 例如，更改 `d_campaign=[%campaignID%]`至 `d_campaign=${TM_CAMPAIGN_ID_NUM}` 捕獲由Adobe廣告宏生成的市場活動ID。
->* 如果需要，可以使用硬編碼值建立自己的參數。 示例： `d_DSP=AdCloud`
+>* 最佳作法是納入行銷活動、位置、創意（廣告）和網站ID，讓您能夠使用行銷活動屬性來建立Audience Manager特徵。
+>* 若要建立Audience Optimization報表，則需要其他引數。
+>* 在索引鍵值配對中，以相關的值取代值 [DSP巨集](/help/dsp/campaign-management/macros.md) 因此，您可以在所有行銷活動中的所有廣告中使用單一畫素。 例如，變更 `d_campaign=[%campaignID%]`至 `d_campaign=${TM_CAMPAIGN_ID_NUM}` 擷取Adobe Advertising巨集產生的促銷活動ID。
+>* 如有需要，您可以使用硬式編碼值建立自己的引數。 範例： `d_DSP=AdCloud`
 
-
-印象事件像素示例：
+曝光事件畫素的範例：
 
 `http://acme.demdex.net/event?d_event=imp&d_src=1052880&d_site=${TM_SITE_ID_NUM}&d_creative=${TM_AD_ID_NUM}&d_placement=${TM_FEED_ID_NUM}&d_campaign=${TM_CAMPAIGN_ID_NUM}&d_DSP=AdCloud&d_bust=${TM_RANDOM}`
 
-### 添加像素的位置
+### 增加畫素的位置
 
-#### 印象跟蹤像素
+#### 曝光追蹤畫素
 
-將印象事件跟蹤像素附加到您的所有廣告 [!DNL DSP] 活動。 您可以在以下任何位置執行此操作：
+將曝光事件追蹤畫素附加至中的所有廣告 [!DNL DSP] 行銷活動。 您可以在下列任何位置執行此操作：
 
-* 在放置級別，預設情況下，該級別將像素應用於放置中的所有廣告。 在放置設定的「跟蹤」部分中，將像素添加到 [[!UICONTROL Event pixels] 場](/help/dsp/campaign-management/placements/placement-settings.md)。
+* 在版位層級，預設會將畫素套用至版位中的所有廣告。 在位置設定的「追蹤」區段中，將畫素新增至 [[!UICONTROL Event pixels] 欄位](/help/dsp/campaign-management/placements/placement-settings.md).
 
-* 在廣告級別，它覆蓋任何放置級別的事件像素。 在廣告設定中， [在 [!UICONTROL Pixel] 頁籤](/help/dsp/campaign-management/ads/ad-edit.md)。
+* 在廣告層級，會覆寫任何位置層級事件畫素。 在廣告設定中， [在上建立事件畫素 [!UICONTROL Pixel] 標籤](/help/dsp/campaign-management/ads/ad-edit.md).
 
-* （用於第三方廣告伺服器上的廣告）在廣告伺服器中的廣告級別。
+* （適用於協力廠商廣告伺服器上的廣告）在廣告伺服器內的廣告層級。
 
-#### 按一下跟蹤像素
+#### 點選追蹤畫素
 
-在廣告伺服器中，無論您通常插入廣告的點擊式URL，都可插入點擊事件像素（附加編碼URL）。
+在廣告伺服器中，將點選事件畫素插入您通常插入廣告點進URL的任意位置（已附加編碼URL）。
 
-## 第3步：實施後任務
+## 步驟3：實作後工作
 
-一旦實現事件標籤，資料將流入Audience Manager資料收集伺服器。 在報告中使用資料之前，請完成以下任務。
+實施事件標籤後，資料就會流入Audience Manager資料收集伺服器。 請先完成下列作業，您才可以在報表中使用資料。
 
-### 建立 [!DNL Amazon S3] 儲存桶和資料源
+### 建立 [!DNL Amazon S3] 貯體和資料來源
 
-資料在Audience Manager伺服器上後，必須建立 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])儲存桶，然後是資料源，所有像素資料都將發送到該資料源。 與Audience Manager顧問聯繫或 [客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) 如果你需要支援。
+資料放在Audience Manager伺服器上後，您必須建立 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])貯體，然後是資料來源，所有畫素資料都會傳送至該資料來源。 請聯絡您的Audience Manager顧問或 [客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) 如果您需要支援。
 
-### 建立Audience Manager特徵和段
+### 建立Audience Manager特徵和區段
 
-您的事件資料將作為 [未用信號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)。 手動建立 [基於規則的特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 從攝取的資料中，然後建立 [段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) 使用這些特徵，然後才能在報告中使用資料。
+您的事件資料將流入Audience Manager，做為 [未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). 手動建立 [規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 從內嵌的資料中，然後建立 [區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) 使用這些特徵，您才能在報表中使用資料。
 
-填充用戶級資料的示例特性，該用戶級資料暴露於特定創DSP作：
+為在DSP中展示特定創意內容的使用者填入使用者層級資料的特徵範例：
 
-1. 將事件標識為 `d_event = imp`。
-1. 確定活動中的創DSP意ID，然後將其與特徵映射為 `d_creative=[Creative ID]`。
+1. 將事件識別為 `d_event = imp`.
+1. 在DSP促銷活動中識別創作ID，然後將它對應至特徵，如下所示 `d_creative=[Creative ID]`.
 
-![特徵建立螢幕](/help/dsp/assets/aa-trait.png)
+![特徵建立畫面](/help/dsp/assets/aa-trait.png)
 
 >[!MORELIKETHIS]
 >
->* [宏DSP](/help/dsp/campaign-management/macros.md)
->* [向Adobe Audience Manager發送DSP媒體曝光資料概述](overview.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
+>* [傳送DSP Media Exposure資料至Adobe Audience Manager概述](overview.md)
 >* [使用案例](use-cases.md)
-

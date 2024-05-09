@@ -2,9 +2,9 @@
 title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯指定位置目標的競標乘數。
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
    * 若要手動調整競標倍增值，請移至每個目標特定標籤([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和[!UICONTROL Brand Safety])，並編輯位置目標的現有值。
 
-   所有選取的位置都會有相同的變更。
+   相同的變更會套用至所有選取的版位。
 
    * 若要上傳含有競標倍增值的CSV檔案以覆寫現有值：
 

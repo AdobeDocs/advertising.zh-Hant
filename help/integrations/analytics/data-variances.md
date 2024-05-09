@@ -3,9 +3,9 @@ title: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 description: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ![中的檢視轉換範例 [!DNL Analytics] 但不包括Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-不一致的其他原因在於，在Adobe Advertising中，您可以將瀏覽轉換指派給自訂 *檢視權數* 相對於歸因於點選型轉換的權重。 預設的檢視權重為40%，這表示檢視轉換會計為點按式轉換值的40%。 [!DNL Analytics] 不提供此類檢視轉換的加權。 例如，在中擷取的100美元收入訂單 [!DNL Analytics] 如果您使用預設的檢視權數，Adobe Advertising將折扣為40美元，差異為60美元。
+不一致的其他原因在於，在Adobe Advertising中，您可以將瀏覽轉換指派給自訂 *檢視權數* 相對於歸因於點選型轉換的權重。 預設的檢視權重為40%，這表示檢視轉換會計為點按式轉換值的40%。 [!DNL Analytics] 不提供此類檢視轉換的加權。 例如，在中擷取的100美元收入訂單 [!DNL Analytics] 如果您使用預設的檢視權數，則Adobe Advertising會折扣為40美元，相差60美元。
 
 比較Adobe Advertising和之間的檢視轉換時，請考量這些差異 [!DNL Analytics] 報表。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 #### Adobe Advertising中的事件日期歸因
 
-在Adobe Advertising中，您可以依關聯的點選日期/事件日期（點選或曝光事件的日期）或交易日期（轉換日期）來報告轉換資料。 中不存在點選/事件日期報告的概念 [!DNL Analytics]；所有追蹤的轉換 [!DNL Analytics] 會依交易日期報告。 因此，相同的轉換可能會以不同的日期Adobe Advertising和報告 [!DNL Analytics]. 例如，假設有一位使用者在1月1日點選廣告並在1月5日轉換。 如果您依Adobe Advertising檢視依事件日期的轉換資料，則轉換將會在點選發生時的1月1日回報。 在 [!DNL Analytics]，相同的轉換將在1月5日回報。
+在Adobe Advertising中，您可以依關聯的點選日期/事件日期（點選或曝光事件的日期）或交易日期（轉換日期）來報告轉換資料。 中不存在點選/事件日期報告的概念 [!DNL Analytics]；所有追蹤的轉換 [!DNL Analytics] 會依交易日期報告。 因此，相同的轉換可能會以不同的日期Adobe Advertising和報告 [!DNL Analytics]. 例如，假設有一位使用者在1月1日點選廣告並在1月5日轉換。 如果您依Adobe Advertising的事件日期檢視轉換資料，則轉換會在發生點按的1月1日回報。 在 [!DNL Analytics]，相同的轉換在1月5日報告。
 
 ![歸因於不同日期的轉換範例](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Adobe Advertising為Analytics提供 [廣告專用流量量度和相關維度，�
 
 ![在報表中使用Adobe Advertising維度來Adobe Advertising量度的範例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-不過，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依頁面維度（例如頁面）的量度(若其Adobe Advertising未提供資料)，則 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 對於每一頁，則是零(0)。
+不過，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依頁面維度（例如頁面）的量度(若其Adobe Advertising未提供資料)，則 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 每一頁的數值都為零(0)。
 
 ![使用不支援之維度的報表中Adobe Advertising量度的範例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

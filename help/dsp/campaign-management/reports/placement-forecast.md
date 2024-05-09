@@ -3,9 +3,9 @@ title: 檢視刊登版位預測報表
 description: 檢視針對某個投放位置的特定鎖定目標策略所預測的曝光數、花費和最佳最高出價。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    * 此版位使用新的行銷活動廣告型別。
 
-     刊登版位通常是供應端平台所定義的多個廣告範本集合。 因此，即使刊登版位已存在很長時間，基礎廣告範本仍可能是新的，且預測工具將無法預測。
+     刊登版位通常是供應端平台所定義的多個廣告範本集合。 因此，即使位置已存在很長時間，如果基礎廣告範本是新的，則預測工具無法建立預測。
 
 ## 開啟刊登版位預測報表
 

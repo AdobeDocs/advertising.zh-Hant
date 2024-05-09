@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Label Classification Report]'
+title: 『[!UICONTROL Label Classification Report]『
 description: 瞭解 [!UICONTROL Label Classification Report].
-exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 無法使用廣告層級標籤分類的報告 [!DNL Microsoft® Advertising] 動態搜尋廣告(DSA)行銷活動。
->* 相同實體可能會套用多個標籤分類，因此每個量度的總計可能會高於實體的實際總計。 例如，假設關鍵字「山羊皮鞋」有兩個標籤值：「山羊皮」和「鞋類」，且關鍵字收到100次點按。 對於這些標籤值的每一個，「點按」欄都會顯示「100」，因此兩列的總計將會是「200」。
+>* 相同實體可能會套用多個標籤分類，因此每個量度的總計可能會高於實體的實際總計。 例如，假設關鍵字「山羊皮鞋」有兩個標籤值：「山羊皮」和「鞋類」，且關鍵字收到100次點按。 這些標籤值的「點按」欄會分別顯示「100」，因此兩列的總和為「200」。
 * 您對標籤分類和實體的子標籤值所做的任何變更會在約一小時內顯示。
 
 ## 預設欄

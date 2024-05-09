@@ -3,9 +3,9 @@ title: 手動建立交易識別碼詳細資料
 description: 瞭解如何手動輸入交易ID的詳細資料。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    您可以選擇將交易作為其他刊登版位的詳細目錄目標，但必須正確設定才能進行競標。
 
-   1. 在 [!UICONTROL Ad & Campaign Selection] 設定，選取將用於交易的廣告：
+   1. 在 [!UICONTROL Ad & Campaign Selection] 設定，選取要用於交易的廣告：
 
       1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
 

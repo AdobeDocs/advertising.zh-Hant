@@ -3,9 +3,9 @@ title: 對象區段邏輯的語法
 description: 參考您可用來定義對象區段邏輯的語法。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在位置設定中，您可以使用儲存的對象作為明確鎖定的對象，或作為單獨的對象來排除鎖定的對象。 請確定區段邏輯可反映您使用對象的目的。
+>在位置設定中，您可以使用儲存的對象作為明確鎖定的對象，或作為單獨的對象來排除鎖定的對象。 請確定您的區段邏輯反映使用對象的目的。
 
 >[!MORELIKETHIS]
 >

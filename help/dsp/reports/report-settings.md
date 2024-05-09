@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,9 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Reporting Based On]：**  如何報告轉換資料：
 
-* *[!UICONTROL Conversion Timestamp]：* （預設）轉換將與轉換日期相關聯。
+* *[!UICONTROL Conversion Timestamp]：* （預設）轉換與轉換日期相關聯。
 
-* *[!UICONTROL Event Timestamp]：* 系統會根據造成轉換的曝光或點按日期（由指定的決定）報告轉換 [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]：* 轉換會根據造成轉換的曝光或點按日期回報，如指定的所決定 [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] 章節
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]：** （僅限電子郵件目的地型別）針對每個地址，輸入地址並按一下 **+**.
 
-**[!UICONTROL Destination Name]：** （僅限S3、FTP、sFTP和FTP SSL目的地型別）自訂報表將傳送到的報表目的地的名稱。
+**[!UICONTROL Destination Name]：** （僅限S3、FTP、sFTP和FTP SSL目的地型別）自訂報表所傳送到之報表目的地的名稱。
 
 * 若要指定現有的目的地，請從清單中選取目的地名稱。 您可以分別選取多個目的地名稱。
 

@@ -1,33 +1,32 @@
 ---
-title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 段和報告
-description: 瞭解如何建立段以跟蹤CCPA選擇退出銷售請求中的ID以及如何檢索ID的報告。
+title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表
+description: 瞭解如何建立區段來追蹤CCPA選擇退出銷售請求中的ID，以及如何擷取ID報表。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# 關於 [!UICONTROL CCPA Opt-out-of-Sale] 段和報告
+# 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表
 
-您可以根據加利福尼亞消費者隱私法(CCPA)，通過 [建立並實施CCPA選擇不可銷售的部門](ccpa-opt-out-segment-create.md)。 用戶無限期地留在CCPA選擇不銷售的部門。
+您可以根據加州消費者隱私保護法(CCPA)，透過以下方式追蹤網站上的消費者選擇退出銷售請求中的使用者ID： [建立及實作CCPA選擇退出銷售區段](ccpa-opt-out-segment-create.md). 使用者會無限期留在CCPA選擇退出銷售區段中。
 
-一旦實現段像素標籤，Adobe廣告將開始代表廣告商收集ID池。
+實施區段畫素標籤後，Adobe Advertising會代表廣告商開始收集ID集區。
 
-## 消費者選擇不可銷售報告
+## 消費者選擇退出銷售報告
 
-Adobe廣告生成客戶已提交的ID的月度報告，這些ID要求客戶選擇不銷售。 資料整合了使用CCPA選擇退出銷售段捕獲的請求，這些請求是在中建立的，DSP以及通過Privacy ServiceAPI提交的任何資料。  在上個月的每月一日生成報告。 例如，6月的月度用戶清單在7月1日可用。
+Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的ID每月報表。 資料會合併使用DSP中建立的CCPA選擇退出銷售區段擷取的請求，以及透過Privacy ServiceAPI提交的任何提交。  報告產生於前一個月每個月的第一天。 例如，6月的每月使用者清單可在7月1日取得。
 
-每個報告都可以作為以制表符分隔的文本檔案壓縮為GZIP格式。 在CCPA選擇退出銷售分段中捕獲的用戶ID由分段和廣告商標識。
+每個報表都可壓縮為GZIP格式，以定位點分隔的文字檔案提供。 在CCPA選擇退出銷售區段中擷取的使用者ID會依區段和廣告商識別。
 
-你可以 [檢索指向每月報告的連結](ccpa-opt-out-segment-report-retrieve.md) 建立的，可從內部建立，DSP也可使用DSP [!DNL Trafficking API]。 每個連結的有效期為七天，但每次客戶嘗試檢索一個連結時都會刷新。
+您可以 [擷取每月報表的連結](ccpa-opt-out-segment-report-retrieve.md) 在前三個月建立的其他檔案，或是從DSP內建立，或是使用DSP建立 [!DNL Trafficking API]. 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
 
 >[!MORELIKETHIS]
 >
->* [Adobe對加利福尼亞消費者隱私法的廣告支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [建立和實施 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
->* [檢索消費者選擇不可銷售報表](ccpa-opt-out-segment-report-retrieve.md)
->* [關於受眾管理](audience-about.md)
-
+>* [加州消費者隱私法的Adobe Advertising支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
+>* [擷取消費者選擇退出銷售報表](ccpa-opt-out-segment-report-retrieve.md)
+>* [關於對象管理](audience-about.md)

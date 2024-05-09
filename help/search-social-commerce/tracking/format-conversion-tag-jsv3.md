@@ -1,11 +1,11 @@
 ---
 title: JavaScript轉換追蹤標籤第3版的格式
 description: 參考JavaScript轉換追蹤標籤第3版的格式。
-exl-id: 1e177c52-f93c-4800-afb5-28f2336117b9
+exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---

@@ -1,50 +1,49 @@
 ---
-title: 關於Campaign Management的常見問題
-description: 瞭解有關市場活動管理的更多資訊，包括更改的延遲期以及在飛行期間進行預算更改時會發生什麼。
+title: Campaign Management常見問題集
+description: 進一步瞭解行銷活動管理，包括變更的延遲期間，以及您在航班期間變更預算時會發生什麼事。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 2fb3f227d74d8c8893a3cb042ea91121a0fae7c0
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
-# 關於Campaign Management的常見問題
+# Campaign Management常見問題集
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
-## 設定更改的延遲
+## 設定變更的延遲
 
-* 更改放置或包設定時，更改何時生效？
+* 當您變更位置或封裝設定時，變更何時生效？
 
-   設定更改通常會立即生效，但可能需要12小時。
+  設定變更通常會立即生效，但最多可能需要12小時的時間。
 
-   如果是最後一天，請在當天早上做出更改，DSP以便有充足的時間根據更改來重新調整包。 例如，如果你從起步到前載起步，DSP需要重新評估它在整個飛行剩餘時間的分配方式。 如果在航班最後一天，你只剩1小時的時間交貨，別做這種改變。
+  如果這是交貨的最後一天，請在當天早些時候進行變更，以便DSP有充足的時間根據變更重新校準套件。 例如，如果您從偶數步調變更為前載步調，DSP需要重新評估其如何分配在剩餘的飛行期間的支出。 如果您在航班的最後一天只剩一小時可送達，請勿進行這類變更。
 
-## 預算更新中期
+## 飛行中預算更新
 
-* 在對職位安排進行更改時，重新分配DSP包預算需要多長時間？
+* 當您變更版位時，DSP需要多久才能重新分配套件預算？
 
-   預算分配基於職位安排績效，該績效以14天平均數進行評估。 對職位安排的更改只有在導致14天平均時間內的績效變化時，才會導致對預算分配的更改。
+  預算配置是以位置績效為基礎，使用14天平均評估。 只有在14天平均期間造成績效變更時，對刊登位置的變更才會導致預算配置變更。
 
-   當效能發生更改DSP時，在下一個預算優化週期(大約在市場活動時區的午夜(00:00))期間，相應地將包預算重新分配到職位安排之間。
+  當發生效能變更時，DSP會在下一個預算最佳化週期(大約在行銷活動時區的午夜(00:00))期間，在版位之間相應地重新分配套件預算。
 
-* 在從包中刪除放置並將其添加到另一個包時，如何重新分配預算？
+* 從封裝中移除版位並新增至另一個封裝時，如何重新分配預算？
 
-   放置的整個花費歷史記錄將附加到放置，並隨之從包移動到包。
+  版位的整個花費歷史記錄會附加至版位，並隨其從封裝移至封裝。
 
-   從包中刪除放置時，該包不再具有放置的花費歷史記錄。 包預算將變為（包預算 — 已刪除的放置預算）/剩餘飛行時間間隔。 然後，將包預算分配給包中剩餘的放置。
+  當您從套件中移除版位時，套件將不再具有任何版位支出的歷史記錄。 套件預算會變成（套件預算 — 已移除版位預算） /剩餘的投放時間間隔。 然後，套件預算會分配至套件中剩餘的版位。
 
-   同樣，如果將相同的放置添加到不同的包DSP中，則在為新包中的所有放置分配預算時，會考慮放置的使用歷史記錄。
+  同樣地，如果您將相同版位新增至不同的套件，DSP會在為新套件中的所有版位分配預算時，考量版位的支出歷史記錄。
 
-* 在航班的最後一天，包裹起步如何改變？
+* 套件步調在航班最後一天會有何改變？
 
-   在航班的最後一天，將一天從24小時縮短到23小時，以免超出包裹預算。 此外，包的調步填充策略會自動更改為「[!UICONTROL Frontload]，即使設定為「[!UICONTROL even]&quot; 這意味著65%的日預算應在美國東部標準時間上午11點30分前交付。
+  在航班的最後一天，該日會從24小時縮短為23小時，這樣就不會超出套件預算。 此外，套件的步調填充策略會自動變更為&quot;[!UICONTROL Frontload]，」，即使它設定為「[!UICONTROL even].」 這表示每日預算的65%應於東部標準時間上午11:30前送達。
 
 >[!MORELIKETHIS]
 >
->* [包設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [設定績效活動的最佳做法](/help/dsp/optimization/campaign-best-practices-performance.md)
-
+>* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
