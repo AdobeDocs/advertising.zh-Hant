@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 廣告群組設定
 description: 參考設定 [!DNL Microsoft® Advertising] 廣告群組。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * 若要鎖定所有值，請勿選取任何值。
 
-* 若要包含值，請按一下旁邊的圓形，使藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇按每個性別目標的指定百分比增加或減少競標。
+* 若要包含值，請按一下相鄰的圓形，以使用藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇按每個性別目標的指定百分比增加或減少競標。
 
-* 若要排除某個值，請按一下它旁邊的圓圈兩次，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+* 若要排除某個值，請按兩下鄰接的圓形，以使用紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 **[!UICONTROL Age]：** （對象廣告群組；選用）要納入或排除作為目標的特定年齡類別： *[!UICONTROL 18-24]*， *[!UICONTROL 25-34]*， *[!UICONTROL 35-49]*， *[!UICONTROL 50-64]*， *[!UICONTROL 65+]*、和 *[!UICONTROL Unknown]*. 依預設，會定位所有年齡。 排除專案一律會覆寫包含專案。
 
 * 若要鎖定所有值，請勿選取任何值。
 
-* 若要包含值，請按一下旁邊的圓形，使藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇為每個目標年齡增加或減少競標，增加或減少指定的百分比。
+* 若要包含值，請按一下相鄰的圓形，以使用藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇為每個目標年齡增加或減少競標，增加或減少指定的百分比。
 
-* 若要排除某個值，請按一下它旁邊的圓圈兩次，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+* 若要排除某個值，請按兩下鄰接的圓形，以使用紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 **[!UICONTROL Industry]：** （對象廣告群組；選用）要納入或排除作為目標的特定產業。 依預設，會鎖定所有產業。 排除專案一律會覆寫包含專案。
 
 * 若要鎖定所有值，請勿選取任何值。
 
-* 若要包含值，請按一下旁邊的圓形，使藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標產業，依指定百分比提高或降低競標。
+* 若要包含值，請按一下相鄰的圓形，以使用藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標產業，依指定百分比提高或降低競標。
 
-* 若要排除某個值，請按一下它旁邊的圓圈兩次，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+* 若要排除某個值，請按兩下鄰接的圓形，以使用紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 **[!UICONTROL Job Function Targets]：** （對象廣告群組；選用）要納入或排除作為目標的特定工作職能。 依預設，所有工作功能都是鎖定目標。 排除專案一律會覆寫包含專案。
 
 * 若要鎖定所有值，請勿選取任何值。
 
-* 若要包含值，請按一下旁邊的圓形，使藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標工作功能，依指定的百分比增加或減少競標。
+* 若要包含值，請按一下相鄰的圓形，以使用藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標工作功能，依指定的百分比增加或減少競標。
 
-* 若要排除某個值，請按一下它旁邊的圓圈兩次，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+* 若要排除某個值，請按兩下鄰接的圓形，以使用紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 ## [!UICONTROL URL Options]
 

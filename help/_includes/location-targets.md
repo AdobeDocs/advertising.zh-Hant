@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * 若要鎖定所有位置，請勿選取任何位置。
 
-* 若要包含位置及其子位置，請按一下該位置旁邊的圓形，以使用藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標位置，依指定的百分比增加或減少競標。
+* 若要包含位置及其子位置，請按一下鄰接的圓圈以便顯示藍色核取記號(![包含](/help/search-social-commerce/assets/include.png "包含"))顯示。 您可以選擇針對每個目標位置，依指定的百分比增加或減少競標。
 
-* 若要排除某個位置，請按一下該位置旁邊的圓圈兩次，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+* 若要排除某個位置，請按兩下鄰接的圓形，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 * 若要將位置展開至其子元件（例如州、都市、區域或城市），請按一下位置名稱。
 

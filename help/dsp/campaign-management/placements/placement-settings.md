@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 0%
       1. 按一下 **[!UICONTROL Search]**.
       1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
       1. 在搜尋結果中，選取要排除的網站：
-         * 若要排除個別網站，請選取它旁邊的核取方塊。
+         * 若要排除個別場地，請選取相鄰的核取方塊。
          * （可用結果超過50個時）若要排除前50個結果，請按一下 **[!UICONTROL Exclude these 50]**. 若要排除所有搜尋結果，請按一下 **[!UICONTROL Exclude these \<*NN *\>]**.
    * 若要輸入網域名稱，請執行下列動作：
       1. 按一下 **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ ht-degree: 0%
       1. 按一下 **[!UICONTROL Search]**.
       1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
       1. 在搜尋結果中，選取要包含的網站：
-         * 若要排除個別網站，請選取它旁邊的核取方塊。
+         * 若要排除個別場地，請選取相鄰的核取方塊。
          * （可用結果超過50個時）若要包含前50個結果，請按一下 **[!UICONTROL Include these 50]**. 若要包含所有搜尋結果，請按一下 **[!UICONTROL Include these \<*NN *\>]**.
    * 若要輸入網域名稱，請執行下列動作：
       1. 按一下 **[!UICONTROL Paste]**.

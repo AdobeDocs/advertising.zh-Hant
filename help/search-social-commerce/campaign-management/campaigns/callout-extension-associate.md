@@ -1,11 +1,11 @@
 ---
 title: 關聯 [!DNL Google Ads] 與行銷活動或廣告群組共用圖說文字擴充功能
 description: 瞭解如何指派 [!DNL Google Ads] 行銷活動或廣告群組的共用圖說文字擴充功能。
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       * （選用）若要依據名稱中包含的文字字串來篩選行銷活動清單或廣告群組清單，請按一下 ![篩選](/help/search-social-commerce/assets/filter.png "篩選")，在輸入欄位中輸入或貼上文字字串，然後按下 **輸入** 機碼。
 
-      * 若要選取圖元，請按一下它旁邊的圓(![選取](/help/search-social-commerce/assets/include.png "選取"))。
+      * 若要選取圖元，請按一下鄰接的圓(![選取](/help/search-social-commerce/assets/include.png "選取"))。
 
    1. 按一下 **[!UICONTROL Post]**.
 

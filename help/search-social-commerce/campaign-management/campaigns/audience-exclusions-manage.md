@@ -1,11 +1,11 @@
 ---
 title: 管理行銷活動和廣告群組的對象排除
 description: 瞭解如何設定和管理您的對象排除 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組。
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
       1. 執行下列任一項作業：
 
-         * 若要指定每個廣告群組排除專案，請按一下其旁邊的圓形，以便顯示紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+         * 若要指定每個廣告群組排除專案，請按一下相鄰的圓形，以使用紅色勾號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
-         * 按一下行銷活動排除專案旁邊的圓形，以勾選紅色記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
+         * 按一下相鄰圓形，以紅色核取記號(![排除](/help/search-social-commerce/assets/exclude.png "排除"))顯示。
 
 1. 按一下 **[!UICONTROL Post]**.
 

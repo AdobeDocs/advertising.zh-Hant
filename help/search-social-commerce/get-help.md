@@ -1,10 +1,10 @@
 ---
 title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
-exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
+exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## 開啟線上說明
 
-* 若要檢視具有說明圖示的辭彙說明(![說明圖示](/help/search-social-commerce/assets/help-field.png "說明圖示") )，將游標停留在說明圖示上直到完成為止，或按一下說明快顯視窗內部以捲動內容。
+* 若要檢視具有相鄰說明圖示的辭彙說明(![說明圖示](/help/search-social-commerce/assets/help-field.png "說明圖示") )，將游標停留在說明圖示上直到完成為止，或按一下說明快顯視窗內部以捲動內容。
 
   若要開啟說明主題中的連結，您可能需要設定瀏覽器設定，以允許從您使用的Search、Social和Commerce網站(例如北美使用者為https://enterprise-na.efrontier.com或所有其他使用者為https://enterprise-intl.efrontier.com)出現快顯視窗。
 
 * 若要開啟說明如何使用所有功能的完整說明集，請按一下任何頁面頂端的下列連結：
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和商務說明**.
+   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交及Commerce說明**.
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和商務最佳化指南**.
+   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、Social和Commerce最佳化指南**.
 
 ## 詢問Adobe Advertising社群
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 連絡人 [!DNL Adobe]
 
-如需Search、Social和Commerce產品或帳戶問題，請執行下列其中一項操作：
+若為搜尋、社交和Commerce產品或帳戶問題，請執行下列其中一項操作：
 
 * 請聯絡您的Adobe客戶團隊。
 

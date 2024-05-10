@@ -1,11 +1,11 @@
 ---
 title: 管理行銷活動和廣告群組的對象目標
 description: 瞭解如何設定和管理您的對象目標 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組。
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
       1. （選用）若要依據名稱中包含的文字字串來篩選行銷活動清單或廣告群組清單，請按一下 ![篩選](/help/search-social-commerce/assets/filter.png "篩選") ，在輸入欄位中輸入或貼上文字字串，然後按下 **[!UICONTROL Enter]** 機碼。
 
-      1. 按一下所指定廣告網路旁的空白圓圈，以使用藍色勾號(![選取](/help/search-social-commerce/assets/include.png "選取"))顯示。
+      1. 按一下旁邊的空白圓圈，使用藍色核取記號(![選取](/help/search-social-commerce/assets/include.png "選取"))顯示。
 
       您無法同時設定上層行銷活動和下層廣告群組（會自動使用目標）的目標。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ## 變更對象目標的狀態
 
-您可以暫停作用中的對象目標，以停用其上的競標。 您稍後可以透過將狀態變回使用中來繼續競標。
+您可以暫停作用中的對象目標，以停用其上的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
 您也可以刪除作用中或暫停的搜尋對象目標。
 

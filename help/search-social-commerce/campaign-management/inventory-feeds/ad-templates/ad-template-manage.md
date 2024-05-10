@@ -3,9 +3,9 @@ title: 管理詳細目錄摘要的廣告範本
 description: 瞭解如何管理廣告範本，透過這些範本可處理您的詳細目錄資料，以管理帳戶結構並提供動態廣告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 0%
                >* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
                >* 您最多可以為每個廣告文案欄位指定四個替代專案。
 
-         * 若要移除廣告變數，請按一下 **[!UICONTROL Remove ETA Variation]** （適用於擴充/延伸文字廣告）或 **[!UICONTROL Remove RSA Variation]** （適用於回應式搜尋廣告）旁邊（如適用）。
+         * 若要移除廣告變數，請按一下 **[!UICONTROL Remove ETA Variation]** （適用於擴充/延伸文字廣告）或 **[!UICONTROL Remove RSA Variation]** （適用於回應式搜尋廣告）在廣告變化旁邊（如適用）。
 
    1. （僅限購物範本）按一下 **[!UICONTROL Product Groups]** 標籤，然後指定您要鎖定的產品群組相關資訊。
 
