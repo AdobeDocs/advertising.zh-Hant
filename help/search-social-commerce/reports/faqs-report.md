@@ -3,7 +3,7 @@ title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ ht-degree: 0%
 +++報告輸出包含混合的日期範圍。
 如果摘要使用「」以外的任何資料彙總層級來彙總資料，您可能會看到不同的日期範圍[!UICONTROL Daily].」
 
-若要解決此問題，請更新試算表摘要，以包含每日彙總的資料。 此工作包括更新報告範本、使用範本產生報告、建立自訂 [!DNL Microsoft® Excel] 範本，然後更新摘要設定以包含新的Excel範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).」
+若要解決此問題，請更新試算表摘要，以包含每日彙總的資料。 此工作包括更新報告範本、使用範本產生報告、建立自訂 [!DNL Microsoft Excel] 範本，然後更新摘要設定以包含新的Excel範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).」
 +++
 
 +++試算表摘要會導致內部錯誤。
-如果您變更報告範本中的欄，但未更新 [!DNL Microsoft® Excel] 據以建立範本。
+如果您變更報告範本中的欄，但未更新 [!DNL Microsoft Excel] 據以建立範本。
 
 若要解決此問題，請更新試算表摘要以包含新欄。 此工作包括更新報告範本、使用範本產生報告、建立自訂 [!DNL Excel] 範本，然後更新摘要設定以包含新的Excel範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).」
 +++
 
 +++當我嘗試在中開啟試算表摘要時 [!DNL Excel]， [!DNL Excel] 報告「無法讀取的內容」錯誤，且資料會從復原的內容中移除。
-當 [!DNL Microsoft® Excel] 範本不會依開始日期以遞增順序排序資料，試算表摘要可能會包含空白列。 尤其是， [!DNL Excel] 回報錯誤「Excel在「」中發現無法讀取的內容&lt;*報告名稱*>.xlsx.&#39; 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
+當 [!DNL Microsoft Excel] 範本不會依開始日期以遞增順序排序資料，試算表摘要可能會包含空白列。 尤其是， [!DNL Excel] 回報錯誤「Excel在「」中發現無法讀取的內容&lt;*報告名稱*>.xlsx.&#39; 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
 
 若要解決問題，請編輯 [!DNL Excel] 與摘要關聯的範本，用於排序資料 [!DNL Start date in Ascending (Oldest to Newest) order]，然後透過試算表摘要設定上傳更新的範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).」
 +++

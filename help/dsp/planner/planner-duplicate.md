@@ -3,7 +3,7 @@ title: 複製連線電視連線計畫
 description: 瞭解如何使用現有方案的設定，建立連線電視觸及計畫。
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    儲存計畫後，即會顯示預測輸出。
 
-1. （選用）若要匯出 [!UICONTROL Budget vs Reach] 預測至 [!DNL Microsoft® Excel] spreadsheet**，按一下 **[!UICONTROL ...]** 圖示，然後按一下 **[!UICONTROL Export]**.
+1. （選用）若要匯出 [!UICONTROL Budget vs Reach] 預測至 [!DNL Microsoft Excel] spreadsheet**，按一下 **[!UICONTROL ...]** 圖示，然後按一下 **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

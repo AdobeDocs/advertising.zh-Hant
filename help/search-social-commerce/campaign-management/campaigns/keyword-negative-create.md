@@ -3,7 +3,7 @@ title: 建立負面關鍵字
 description: 瞭解如何為搜尋促銷活動和廣告群組建立負面關鍵字。
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 建立負面關鍵字
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads]，和現有 [!DNL Baidu] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads]，和現有 [!DNL Baidu] 僅限帳戶*
 
 您可以針對搜尋或顯示/原生網路，為搜尋廣告群組或行銷活動建立負關鍵字。 負面關鍵字不會觸發廣告。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 輸入負關鍵字。 請使用下列語法，不含減號(`-`)：
 
-   * 負面廣泛比對： `keyword` (不支援 [!DNL Microsoft® Advertising])
+   * 負面廣泛比對： `keyword` (不支援 [!DNL Microsoft Advertising])
 
    * 負面字詞相符： `"keyword"`
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    請使用逗號分隔多個值，或在不同的行中輸入這些值。 您最多可以在一個作業中輸入或貼上2000個負關鍵字。 另請參閱下列需求和限制：
 
-   * 最大字元長度： [!DNL Baidu]：30個單位元組或15個雙位元組； [!DNL Microsoft® Advertising]：100單位元組或50單位元組； [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads]：80單位元組或40單位元組。
+   * 最大字元長度： [!DNL Baidu]：30個單位元組或15個雙位元組； [!DNL Microsoft Advertising]：100單位元組或50單位元組； [!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads]：80單位元組或40單位元組。
 
    * [!DNL Baidu] 每個廣告群組的每個關鍵字只允許一個符合型別。 例如，廣告群組1不能同時包含兩者 `"keyword"` 和 `[keyword]`.
 

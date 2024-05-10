@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Bing Ads Search Query Report]'
+title: 『[!UICONTROL Bing Ads Search Query Report]『
 description: 瞭解 [!UICONTROL Bing Ads Search Query Report].
-exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft® Advertising]僅限帳戶*
+*[!DNL Microsoft Advertising]僅限帳戶*
 
 此 [!UICONTROL Bing Ads Search Query Report] 包含一或多個廣告群組的使用者搜尋查詢詞的成本、點選次數、曝光次數和（選擇性）衍生量度資料。 依預設，資料會針對指定日期範圍內每個時間單位每個適用的廣告群組包含一個搜尋字詞列，而造成曝光數或點按數。 依預設，這些列會依廣告群組名稱、然後依搜尋字詞以遞增順序排列。 報表不包含與搜尋字詞相符的關鍵字，也不包含所追蹤的任何轉換資料 [!DNL Adobe].
 
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [關於專業報告](specialty-report-about.md)
-* [產生專業報告](specialty-report-generate.md)
-* [專業報告設定](specialty-report-settings.md)
+>* [關於專業報告](specialty-report-about.md)
+>* [產生專業報告](specialty-report-generate.md)
+>* [專業報告設定](specialty-report-settings.md)

@@ -1,34 +1,34 @@
 ---
 title: 使用客戶資料清單管理客戶比對受眾
-description: 瞭解如何建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 客戶比對客戶資料清單中的對象。
+description: 瞭解如何建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客戶比對客戶資料清單中的對象。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 使用客戶資料清單讓客戶比對對象
+# 管理 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 使用客戶資料清單讓客戶比對對象
 
-您可以建立 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 客戶比對客戶資料清單中的對象。 您也可以更新任何 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 客戶比對對象，但不包括 [!DNL Google Ads] 從以下專案建立的對象： [!DNL Adobe] 對象。
+您可以建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客戶比對客戶資料清單中的對象。 您也可以更新任何 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 客戶比對對象，但不包括 [!DNL Google Ads] 從以下專案建立的對象： [!DNL Adobe] 對象。
 
 ## 從客戶資料清單建立客戶比對對象
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅符合客戶比對資格的帳戶*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅符合客戶比對資格的帳戶*
 
-您可以建立 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 從您從客戶關係管理(CRM)系統產生的資料檔案建立以客戶資料為基礎的清單。
+您可以建立 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 從您從客戶關係管理(CRM)系統產生的資料檔案建立以客戶資料為基礎的清單。
 
-的 [!DNL Microsoft® Advertising] 帳戶，檔案中可包含電子郵件地址。 的 [!DNL Google Ads] 帳戶，檔案中可包含電子郵件地址、郵寄地址或電話號碼、使用者ID，或來自您CRM的行動裝置ID。
+的 [!DNL Microsoft Advertising] 帳戶，檔案中可包含電子郵件地址。 的 [!DNL Google Ads] 帳戶，檔案中可包含電子郵件地址、郵寄地址或電話號碼、使用者ID，或來自您CRM的行動裝置ID。
 
 >[!NOTE]
 >
->搜尋、Social和Commerce不會儲存您上傳或來自的任何客戶資料 [!DNL Adobe] 用來建立或編輯區段的區段 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 對象。
+>搜尋、社交和Commerce不會儲存您上傳或來自的任何客戶資料 [!DNL Adobe] 用來建立或編輯區段的區段 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 對象。
 
 1. 以所需格式產生含有客戶資料的檔案。
 
-   名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> 的 [!DNL Google Ads] 對象，請參閱 [!DNL Google Ads] 「」上的檔案[上傳雜湊資料的格式化准則](https://support.google.com/google-ads/answer/7476159)」以取得允許的聯絡資訊欄位和需求清單。 的 [!DNL Microsoft® Advertising] 對象，請參閱 [!DNL Microsoft® Advertising] 檔案： [準備客戶符合清單](https://help.ads.microsoft.com/#apex/ads/en/56921. 您可以選擇下載 [!DNL Microsoft® Excel] 聯絡資訊的範本。
+   名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> 的 [!DNL Google Ads] 對象，請參閱 [!DNL Google Ads] 「」上的檔案[上傳雜湊資料的格式化准則](https://support.google.com/google-ads/answer/7476159)」以取得允許的聯絡資訊欄位和需求清單。 的 [!DNL Microsoft Advertising] 對象，請參閱 [!DNL Microsoft Advertising] 檔案： [準備客戶符合清單](https://help.ads.microsoft.com/#apex/ads/en/56921. 您可以選擇下載 [!DNL Microsoft Excel] 聯絡資訊的範本。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ ht-degree: 0%
 
 ## 使用客戶資料清單編輯客戶比對對象
 
-您可以更新任何 [!DNL Google Ads] 或 [!DNL Microsoft® Advertising] 客戶比對對象，但不包括 [!DNL Google Ads] 從以下專案建立的對象： [!DNL Adobe] 對象。 您可以上傳資料，以新增、刪除或取代對象的所有現有資料。
+您可以更新任何 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 客戶比對對象，但不包括 [!DNL Google Ads] 從以下專案建立的對象： [!DNL Adobe] 對象。 您可以上傳資料，以新增、刪除或取代對象的所有現有資料。
 
 資料型別必須與原始客戶清單的型別相同（電子郵件地址、郵寄地址、電話號碼、使用者ID，或特定行動作業系統上特定應用程式的行動裝置ID）。
 
 1. 針對現有資料型別，以所需格式產生含有客戶資料的檔案。
 
-名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> 的 [!DNL Google Ads] 對象，請參閱 [!DNL Google Ads] 「」上的檔案[上傳雜湊資料的格式化准則](https://support.google.com/google-ads/answer/7476159)」以取得允許的聯絡資訊欄位和需求清單。 的 [!DNL Microsoft® Advertising] 對象，請參閱 [!DNL Microsoft® Advertising] 檔案： [準備客戶符合清單](https://help.ads.microsoft.com/#apex/ads/en/56921. 您可以選擇下載 [!DNL Microsoft® Excel] 聯絡資訊的範本。
+名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> 的 [!DNL Google Ads] 對象，請參閱 [!DNL Google Ads] 「」上的檔案[上傳雜湊資料的格式化准則](https://support.google.com/google-ads/answer/7476159)」以取得允許的聯絡資訊欄位和需求清單。 的 [!DNL Microsoft Advertising] 對象，請參閱 [!DNL Microsoft Advertising] 檔案： [準備客戶符合清單](https://help.ads.microsoft.com/#apex/ads/en/56921. 您可以選擇下載 [!DNL Microsoft Excel] 聯絡資訊的範本。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

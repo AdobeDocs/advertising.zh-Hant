@@ -1,20 +1,20 @@
 ---
 title: 管理行銷活動和廣告群組的對象目標
-description: 瞭解如何設定和管理您的對象目標 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組。
+description: 瞭解如何設定和管理您的對象目標 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 行銷活動和廣告群組。
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# 管理您的對象目標 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組
+# 管理您的對象目標 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 行銷活動和廣告群組
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅限*
 
-[!DNL Google Ads] 行銷活動和廣告群組，以及 [!DNL Microsoft® Advertising] 廣告群組，可以鎖定來自相同廣告網路的特定對象。 廣告網路會決定要鎖定目標對象的大小。
+[!DNL Google Ads] 行銷活動和廣告群組，以及 [!DNL Microsoft Advertising] 廣告群組，可以鎖定來自相同廣告網路的特定對象。 廣告網路會決定要鎖定目標對象的大小。
 
 >[!NOTE]
 >

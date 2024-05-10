@@ -1,9 +1,9 @@
 ---
 title: 停止庫存摘要資料的張貼工作
 description: 瞭解如何停止詳細目錄摘要資料的發佈工作。
-exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 停止庫存摘要資料的張貼工作
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 您可以透過下列方式，停止張貼從摘要產生的促銷活動資料。
 

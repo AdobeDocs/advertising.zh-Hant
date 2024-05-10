@@ -3,7 +3,7 @@ title: 產生點選追蹤URL
 description: 瞭解如何手動產生搜尋、社交和Commerce點選追蹤URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
            範例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] 網站連結) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] 網站連結) `sitelink <tab> ** <tab> landing_page`
 
            位置 `sitelink` 是網站連結名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            檔案最多可包含10,000行。
 
-         * ([!DNL Google Merchant Center] 產品群組和 [!DNL Microsoft® Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 產品群組和 [!DNL Microsoft Advertising] 產品廣告) `product name <tab> ** <tab> landing_page`
 
            位置 `product name` 是產品名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
            範例： http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] 網站連結) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] 網站連結) `sitelink**landing_page`
 
            位置 `sitelink` 是網站連結名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
            範例： `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] 產品群組和 [!DNL Microsoft® Advertising] 產品廣告) `product name**landing_page`
+         * ([!DNL Google Merchant Center] 產品群組和 [!DNL Microsoft Advertising] 產品廣告) `product name**landing_page`
 
            位置 `product name` 是產品名稱和 `landing_page` 是有效的登陸頁面URL或基底URL。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 對於具有目的地URL的帳戶，請在適當的 [!UICONTROL Base URL] 欄位。
 
-對於具有最終URL的帳戶，請在適當的輸入熒幕上的值 [!UICONTROL Tracking Template] 欄位。 您必須在後方為最終URL新增引數 `&url=` 引數(例如 `{lpurl}`)。 的 [!DNL Yahoo! Japan Ads] 帳戶，使用引數 `{lpurl}`. 針對清單 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 用以指出追蹤範本中最終URL的引數，請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348) (請參閱「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」)和 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+對於具有最終URL的帳戶，請在適當的輸入熒幕上的值 [!UICONTROL Tracking Template] 欄位。 您必須在後方為最終URL新增引數 `&url=` 引數(例如 `{lpurl}`)。 的 [!DNL Yahoo! Japan Ads] 帳戶，使用引數 `{lpurl}`. 針對清單 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 用以指出追蹤範本中最終URL的引數，請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348) (請參閱「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 引數」)和 [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

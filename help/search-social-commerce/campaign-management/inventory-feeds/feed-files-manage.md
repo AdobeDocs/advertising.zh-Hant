@@ -1,9 +1,9 @@
 ---
 title: 管理詳細目錄資料摘要檔案
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理詳細目錄資料摘要檔案
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 如果您提交自己的摘要資料，則必須上傳包含產品資料的檔案，以根據產品資料動態建立行銷活動結構、廣告和關鍵字。 然後，您可以將其與廣告網路特定的廣告範本建立關聯，並透過範本處理資料，最終將資料發佈到相關的廣告網路。 您可以將多個範本與一個摘要檔案相關聯，但每個範本只能與一個摘要檔案相關聯。
 
@@ -109,7 +109,7 @@ shoes<TAB>Clarks<TAB>20
 
 1. 輸入完整路徑和檔案名稱，或按一下「 」，指定要上傳的檔案 **[!UICONTROL Browse]** 在您的裝置或網路上尋找檔案。
 
-1. 按一下 **[!UICONTROL Upload].
+1. 按一下**[!UICONTROL Upload].
 
 將會驗證檔案中的所有欄位。 在更正值之前，您無法在稍後張貼欄位長度無效的專案。 檔案中的所有欄名稱都會在範本中成為動態引數。
 

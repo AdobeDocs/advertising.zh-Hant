@@ -1,23 +1,24 @@
 ---
-title: "[!UICONTROL MSA Ad Extension by Keyword Report]"
+title: 『[!UICONTROL MSA Ad Extension by Keyword Report]『
 description: 瞭解 [!UICONTROL MSA Ad Extension by Keyword Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+exl-id: 0c23f8f8-6216-488b-b634-0de3cc18966d
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MSA Ad Extension by Keyword Report]
 
-*[!DNL Microsoft® Advertising]僅限帳戶*
+*[!DNL Microsoft Advertising]僅限帳戶*
 
 此報表顯示每個廣告擴充功能的曝光數、點按數、支出及每次點按平均成本，並按關鍵字點按型別。 使用此報表可比較每個關鍵字的廣告擴充功能效能。
 
 當您執行只有量度欄且沒有維度的報表時，產生的報表會包含兩個重複的列：一個含有彙總資料，另一個含有所有量度。<!-- all metrics? -->
 
-您可以檢視過去180天的資料。 搜尋、社交和商務提取資料來源 [!DNL Microsoft Advertising] 即時產生，且可能需要幾分鐘才能產生資料量較大的報表。
+您可以檢視過去180天的資料。 搜尋、社交和Commerce提取資料來源 [!DNL Microsoft Advertising] 即時產生，且可能需要幾分鐘才能產生資料量較大的報表。
 
 >[!NOTE]
 >

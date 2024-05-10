@@ -1,9 +1,9 @@
 ---
 title: 檢視從摘要產生的資料
 description: 瞭解如何檢視從詳細目錄資料摘要產生的資料。
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 檢視從摘要產生的資料
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 當您傳播摘要資料而不將其同時張貼至廣告網路時，可以使用下列其中一種方式預覽資料。 您稍後可以選擇使用 [張貼資料](propagated-data-post.md) 從任一位置連線到相關的廣告網路。
 

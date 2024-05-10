@@ -1,9 +1,9 @@
 ---
 title: 建立 [!DNL Excel] 試算表報表摘要的範本
 description: 瞭解如何建立特別格式化的試算表範本。
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅用於基本報表和模型準確度報表*
 
-若要建立試算表摘要，您必須先建立特別格式化的 [!DNL Microsoft® Excel] 使用一般報表範本的試算表範本。 您可以選擇自訂 [!DNL Excel] 試算表以包含其他欄和圖表。
+若要建立試算表摘要，您必須先建立特別格式化的 [!DNL Microsoft Excel] 使用一般報表範本的試算表範本。 您可以選擇自訂 [!DNL Excel] 試算表以包含其他欄和圖表。
 
 1. 在 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，使用產生所需的報表型別 [!UICONTROL Date Aggregation] 「」單位[!UICONTROL Daily]」以及您想要的所有其他資料引數，將報表儲存為範本。
 

@@ -2,8 +2,8 @@
 title: 變更管理檢視和報告中的可用轉換量度
 description: 瞭解如何在管理檢視和報告中使用轉換量度。
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 變更管理檢視和報告中的可用轉換量度
 
-當Adobe Advertising追蹤 [轉換](/help/search-social-commerce/glossary.md#c-d) 廣告商的量度最初會排除在產品組合目標、報表和管理檢視之外。 若要顯示轉換量度，您必須明確使其可用，然後選擇性變更預設顯示名稱（即顯示的名稱）。 唯一的例外是所追蹤的轉換 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件追蹤標籤會自動開放使用並顯示。
+當Adobe Advertising追蹤 [轉換](/help/search-social-commerce/glossary.md#c-d) 廣告商的量度最初會排除在產品組合目標、報表和管理檢視之外。 若要顯示轉換量度，您必須明確使其可用，然後選擇性變更預設顯示名稱（即顯示的名稱）。 唯一的例外是所追蹤的轉換 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] 通用事件追蹤標籤會自動開放使用並顯示。
 
 同樣地，您可以在投資組合目標、報表和管理檢視中隱藏轉換量度。 當您隱藏先前可見的轉換量度時，它會從包含轉換量度的任何衍生量度中移除。
 
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果Adobe Advertising收集新轉換量度的資料，則新量度 — 由追蹤的轉換除外 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] universal event tracking tags — 會自動從「管理檢視」和「報表」中排除，直到您將其納入為止。 由追蹤的新轉換 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft® Advertising] 通用事件追蹤標籤一律會自動提供。
+>如果Adobe Advertising收集新轉換量度的資料，則新量度 — 由追蹤的轉換除外 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] universal event tracking tags — 會自動從「管理檢視」和「報表」中排除，直到您將其納入為止。 由追蹤的新轉換 [!DNL Google Ads]， [!DNL Google Analytics]、和 [!DNL Microsoft Advertising] 通用事件追蹤標籤一律會自動提供。
 
 >[!MORELIKETHIS]
 >
-* [關於管理廣告商的轉換量度](conversion-metric-about.md)
-* [檢視為廣告商追蹤的轉換量度](conversion-metric-view-tracked.md)
-* [變更轉換量度的顯示名稱](conversion-metric-edit-display-name.md)
+>* [關於管理廣告商的轉換量度](conversion-metric-about.md)
+>* [檢視為廣告商追蹤的轉換量度](conversion-metric-view-tracked.md)
+>* [變更轉換量度的顯示名稱](conversion-metric-edit-display-name.md)

@@ -3,7 +3,7 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 關於發佈者建議和深入分析支援
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 帳戶*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帳戶*
 
-*的Beta版功能 [!DNL Microsoft® Advertising] 帳戶*
+*的Beta版功能 [!DNL Microsoft Advertising] 帳戶*
 
-[!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 建議和深入分析是廣告網路的建議，有助於改善行銷活動的效能和效率：
+[!DNL Google Ads] 和 [!DNL Microsoft Advertising] 建議和深入分析是廣告網路的建議，有助於改善行銷活動的效能和效率：
 
 * 每個 [!DNL Google Ads] recommendation會根據您帳戶的效能記錄、您的行銷活動設定和趨勢，針對行銷活動的不同效能方面（從新增資產到增加預算）提供自訂建議 [!DNL Google Ads].
 
-* 每個 [!DNL Microsoft® Advertising] 效能分析和建議會根據機器學習演演算法和最佳作法，提供最佳行銷活動效能的變更建議。
+* 每個 [!DNL Microsoft Advertising] 效能分析和建議會根據機器學習演演算法和最佳作法，提供最佳行銷活動效能的變更建議。
 
 ## 此 [!UICONTROL Recommendations & Publisher Insights] 檢視
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   當您開啟檢視時，資料可以即時取得。 若要重新整理資料，請按一下 ![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理") 在頁面左下方。
 
-* 的 [!DNL Microsoft® Advertising] 帳戶，檢視過去30天內產生的每個績效深入分析概覽 [!DNL Microsoft® Advertising] 帳戶。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟 [!DNL Microsoft® Advertising] 編輯器，您可從中進行特定分析。
+* 的 [!DNL Microsoft Advertising] 帳戶，檢視過去30天內產生的每個績效深入分析概覽 [!DNL Microsoft Advertising] 帳戶。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟 [!DNL Microsoft Advertising] 編輯器，您可從中進行特定分析。
 
 * 檢視建議的詳細資料，並直接套用或拒絕建議。
 

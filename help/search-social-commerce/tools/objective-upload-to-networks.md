@@ -1,9 +1,9 @@
 ---
 title: 啟用上傳目標至廣告網路
-description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
+description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 啟用上傳目標至廣告網路
 
-*廣告商使用 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 僅限帳戶*
+*廣告商使用 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 僅限帳戶*
 
 *僅針對混合最佳化啟用的廣告商*
 
-搜尋、社交和Commerce可上傳廣告商帳戶的產品組合目標至 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 以便將其用於混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。
+搜尋、社交和Commerce可上傳廣告商帳戶的產品組合目標至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 以便將其用於混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。
 
 啟用此選項會自動觸發上傳產品組合中的目標，其中包含具有智慧競標策略的行銷活動。 搜尋、社交和Commerce會在廣告網路上為每個適用的目標建立轉換。 轉換代表目標中的所有加權轉換量度。 每個轉換都有以下其中一個名稱：
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   在舊格式淘汰之前，您的Adobe帳戶團隊將與您合作，移轉廣告網路中現有的轉換動作名稱。 在移轉期間，新舊格式的上傳將同時執行。 建模和最佳化不受影響，因為新的轉換動作最初以「次要」（非最佳化）狀態出現，並具有90天的回填資料。
 
-上傳至 [!DNL Google Ads] 在廣告商的時區中每天06:00發生。 上傳至 [!DNL Microsoft® Advertising] 在廣告商的時區中每天09:00發生。
+上傳至 [!DNL Google Ads] 在廣告商的時區中每天06:00發生。 上傳至 [!DNL Microsoft Advertising] 在廣告商的時區中每天09:00發生。
 
 >[!IMPORTANT]
 >

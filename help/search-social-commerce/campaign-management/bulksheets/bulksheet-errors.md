@@ -1,18 +1,18 @@
 ---
 title: 大量表單錯誤
 description: 請參考每個大量表單錯誤的潛在原因。
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
 
 # 大量表單錯誤
 
-Search、Social和Commerce在Bulksheet作業期間會產生兩種型別的錯誤檔案：
+在大量表單作業期間，搜尋、社交和Commerce會產生兩種型別的錯誤檔案：
 
 * **SE錯誤：** 當已張貼檔案但廣告網路不接受所有資料時，稱為的錯誤檔案 `<uploaded file name>_se_errors.<extension used for the bulksheet>` 「 」已建立。 接受部分而非全部列時，錯誤檔案會顯示未發佈的列以及每個錯誤的說明，以便您進行更正。 錯誤包含在&quot;[!UICONTROL SE Error Message]「欄。
 
@@ -35,7 +35,7 @@ Search、Social和Commerce在Bulksheet作業期間會產生兩種型別的錯誤
 | 類別 | 訊息 | 說明 |
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 作業完全失敗，因為發生未分類或未處理的錯誤。 如果問題仍然存在，請聯絡您的Adobe客戶團隊以調查原因。 |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 建立大量表單前，搜尋、社交和商務無法與廣告網路同步，因此未建立大量表單。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 搜尋、社交和Commerce在建立大量表單前無法與廣告網路同步，因此未建立大量表單。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
 
 ### 上傳錯誤
 
@@ -43,15 +43,15 @@ Search、Social和Commerce在Bulksheet作業期間會產生兩種型別的錯誤
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 作業完全失敗。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
 | 所有實體 | [!UICONTROL Invalid Fields.] \[無效的欄位和錯誤\] | 指定的資料遺失或無效。 |
-|  | [!UICONTROL Invalid Reference Given] | 實體在廣告網路上的ID，或上層實體的ID （例如帳戶ID），不會對應至搜尋、社交和商務中的實體。 當您在大量表單中編輯ID時，可能會發生這種情況。 |
+|  | [!UICONTROL Invalid Reference Given] | 該實體在廣告網路上的ID，或上層實體的ID （例如帳戶ID），不會對應至搜尋、社交和Commerce中的實體。 當您在大量表單中編輯ID時，可能會發生這種情況。 |
 |  | [!UICONTROL <Entity> is deleted or expired] | 實體已過期或已刪除，您無法變更其屬性。 當有人手動編輯狀態時，實體可能會被刪除。 |
 |  | [!UICONTROL <Entity> status should be Active or Paused] | （新實體）新實體只能是「作用中」或「已暫停」。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同一實體包含多個列，每一列都有不同的屬性。 將變更合併為一列。 |
 |  | [!UICONTROL Invalid AMO ID given] | 該列的AMO ID不存在。 如果您在大量表單中編輯ID，便可能發生這種情況。 |
 |  | [!UICONTROL Invalid row given] | 列包含的資訊不足，無法判斷實體型別。 編輯該列以包含實體型別的所有必填欄位。 |
 | 帳戶 | [!UICONTROL Provide Valid Account Details] | （多個帳戶的批次工作表）帳戶識別碼未包含在所有列中。 針對每一列，輸入下列任一欄組合的值：a) &quot;[!UICONTROL AMO ID]「或b) 」[!UICONTROL Account Name]「和」[!UICONTROL Platform].」 |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯促銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） 」中的值[!UICONTROL Sales Country]「欄位無效。 檢視有效國家/地區的清單 [的 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 和 [的 [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜尋、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯行銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） 」中的值[!UICONTROL Sales Country]「欄位無效。 檢視有效國家/地區的清單 [的 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 和 [的 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | 所有行銷活動元件 | [!UICONTROL Campaign creation failed] | 父級行銷活動未建立，因此未建立此實體。 請確定所有父系實體都包含所有必要欄位。 |
 | 廣告群組 | [!UICONTROL Campaign Row missing] | 指定的父級行銷活動不存在，因此未建立廣告群組。 在新列中建立父行銷活動。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 廣告群組可以包含關鍵字或版位，但不能同時包含兩者。 為關鍵字和版位建立個別的廣告群組。 |
@@ -73,7 +73,7 @@ Search、Social和Commerce在Bulksheet作業期間會產生兩種型別的錯誤
 |  | [!UICONTROL Cannot update sitelinks under deleted/expired campaign] | 上層行銷活動已過期或刪除，因此您無法編輯網站連結。 |
 |  | [!UICONTROL Creative creation failed] | ([!DNL Yandex])無法建立網站連結，因為未建立廣告。 |
 | 位置目標 | [!UICONTROL Cannot modify locations under deleted campaigns or adgroups] | 父級行銷活動或廣告群組已刪除或過期，因此您無法編輯位置目標。 |
-| 排除專案 | [!UICONTROL Other than status is modified] | 您只能編輯排除的狀態(&quot;[!UICONTROL Active]「或」[!UICONTROL Deleted]「)。 |
+| 排除 | [!UICONTROL Other than status is modified] | 您只能編輯排除的狀態(&quot;[!UICONTROL Active]「或」[!UICONTROL Deleted]「)。 |
 | Google再行銷清單目標/對象 | [!UICONTROL Invalid Audience given] | ([!DNL Google Ads] 僅行銷活動) RLSA目標未對應至現有的RLSA （對象）。 更正「」中的值[!UICONTROL Audience]「和」[!UICONTROL RLSA Target]「欄」。 |
 
 ### 張貼錯誤
@@ -83,7 +83,7 @@ Search、Social和Commerce在Bulksheet作業期間會產生兩種型別的錯誤
 | 類別 | 訊息 | 說明 |
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 作業完全失敗。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
-| 所有實體 | [!UICONTROL Entity] 張貼到廣告網路 | 實體已發佈至廣告網路，但未同時同步至「搜尋」、「社交」和「商務」，因此實體資料無法立即用於「搜尋」、「社交」和「商務」。 同步程式現在會自動觸發。<br><br>當大量資料同步時，資料在數小時或更長時間後仍無法在Search、Social和Commerce中使用。 |
+| 所有實體 | [!UICONTROL Entity] 張貼到廣告網路 | 實體已發佈至廣告網路，但未同時同步至Search、Social和Commerce，因此實體資料無法立即用於Search、Social和Commerce。 同步程式現在會自動觸發。<br><br>當大量資料同步時，搜尋、社交和Commerce中可能會有數小時或更長時間無法使用資料。 |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 無法建立父實體，因此未建立此子實體。 |
 
 >[!MORELIKETHIS]

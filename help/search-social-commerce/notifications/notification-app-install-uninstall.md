@@ -1,11 +1,11 @@
 ---
 title: 安裝並解除安裝 [!UICONTROL Notification Center] 網頁應用程式
 description: 瞭解如何安裝和解除安裝 [!UICONTROL Notification Center] 網頁應用程式。
-exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Beta功能*
 
-您可以透過安裝 [!UICONTROL Notification Center] 網頁應用程式。 應用程式看起來和相同，且具有相同的功能，例如 [!UICONTROL Notification Center] 在「搜尋」、「社交」和「商務」中。 應用程式可用於 [!DNL Google Chrome] 40和更高版本或 [!DNL Microsoft® Edge] 17和更高版本。
+您可以透過安裝 [!UICONTROL Notification Center] 網頁應用程式。 應用程式看起來和相同，且具有相同的功能，例如 [!UICONTROL Notification Center] 在「搜尋」、「社交」和「Commerce」中。 應用程式可用於 [!DNL Google Chrome] 40和更高版本或 [!DNL Microsoft Edge] 17和更高版本。
 
 安裝後 [!UICONTROL Notification Center] 應用程式，它會在瀏覽器的「應用程式管理員」中自動啟用，並載入為個別視窗，其版面配置會根據視窗大小動態排列。 您可以從瀏覽器的應用程式管理員開啟和關閉應用程式，或將其釘選到作業系統的工作列或固定。 應用程式會自動更新。
 
-![Microsoft® Windows工作列中的「通知中心」圖示](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft® Windows工作列中的「通知中心」圖示")
+![Microsoft Windows工作列中的「通知中心」圖示](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows工作列中的「通知中心」圖示")
 
 您可以從瀏覽器的應用程式管理員停用或解除安裝應用程式。 如需有關管理Web應用程式的詳細資訊，請參閱瀏覽器的說明。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 1. 在安裝應用程式中？ 訊息，按一下 **[!UICONTROL Install]**.
 
-## 安裝 [!UICONTROL Notification Center] 的網頁應用程式 [!DNL Microsoft® Edge]
+## 安裝 [!UICONTROL Notification Center] 的網頁應用程式 [!DNL Microsoft Edge]
 
-* 從Search、Social和Commerce中：
+* 從「搜尋」、「社交」和「Commerce」中：
 
    1. 在主功能表中，按一下 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 在 [!DNL Chrome]，前往 `chrome://apps`，按一下右鍵 **[!UICONTROL notification-center]**，然後按一下 **[!UICONTROL Remove from Chrome]**.
 
-## 解除安裝 [!UICONTROL Notification Center] 的網頁應用程式 [!DNL Microsoft® Edge]
+## 解除安裝 [!UICONTROL Notification Center] 的網頁應用程式 [!DNL Microsoft Edge]
 
 1. 在 [!DNL Edge] 瀏覽器工具列，按一下 **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. 或者，前往 `edge://apps`.
 

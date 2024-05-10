@@ -1,20 +1,20 @@
 ---
-title: 『[!DNL Microsoft® Advertising] 產品廣告設定
-description: 參考設定 [!DNL Microsoft® Advertising] 產品廣告。
-exl-id: 6a2d0549-d8fc-4ec8-bdec-7e49a43aeb7b
+title: 『[!DNL Microsoft Advertising] 產品廣告設定
+description: 參考設定 [!DNL Microsoft Advertising] 產品廣告。
+exl-id: 93601b75-1de8-4f97-8f5e-5ab442510827
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 產品廣告設定
+# [!DNL Microsoft Advertising] 產品廣告設定
 
-廣告內文會根據中的產品資訊自動建立 [!DNL Microsoft® Merchant Center]，根據廣告群組的目標產品群組。 您可以選擇建立促銷活動行，以包含在使用購物網路的行銷活動中的產品廣告。
+廣告內文會根據中的產品資訊自動建立 [!DNL Microsoft Merchant Center]，根據廣告群組的目標產品群組。 您可以選擇建立促銷活動行，以包含在使用購物網路的行銷活動中的產品廣告。
 
-有關詳細資訊 [!DNL Microsoft® Advertising] 產品廣告，請參閱 [Microsoft® Advertising檔案](https://help.ads.microsoft.com/#apex/3/en/51082).
+有關詳細資訊 [!DNL Microsoft Advertising] 產品廣告，請參閱 [Microsoft Advertising檔案](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 ## [!UICONTROL Product Ad]
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >* [關於廣告](ad-about.md)
 >* [管理廣告](ad-manage.md)
->* [[!DNL Microsoft® Advertising] 擴展的動態搜尋廣告設定](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] 多媒體廣告設定](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] 回應式（對象）廣告設定](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] 回應式搜尋廣告設定](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] 擴展的動態搜尋廣告設定](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] 多媒體廣告設定](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 回應式（對象）廣告設定](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 回應式搜尋廣告設定](ad-settings-microsoft-rsa.md)

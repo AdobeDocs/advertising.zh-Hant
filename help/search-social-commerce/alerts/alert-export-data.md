@@ -1,9 +1,9 @@
 ---
 title: 匯出自訂警報的資料
 description: 瞭解如何將觸發式警報的資料匯出至檔案。
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 匯出自訂警報的資料
 
-您可以將觸發的警報資料或最近觸發的警報範本資料，匯出為 [!DNL Microsoft® Excel] 活頁簿([XLS](/help/search-social-commerce/glossary.md#w-x) 檔案)，以定位點分隔的值([TSV](/help/search-social-commerce/glossary.md#s-t))檔案或逗號分隔值([CSV](/help/search-social-commerce/glossary.md#c-d))檔案時每小時精細度無法運作的問題。 觸發警報後，可下載的報表會保留十天，並自動刪除。
+您可以將觸發的警報資料或最近觸發的警報範本資料，匯出為 [!DNL Microsoft Excel] 活頁簿([XLS](/help/search-social-commerce/glossary.md#w-x) 檔案)，以定位點分隔的值([TSV](/help/search-social-commerce/glossary.md#s-t))檔案或逗號分隔值([CSV](/help/search-social-commerce/glossary.md#c-d))檔案時每小時精細度無法運作的問題。 觸發警報後，可下載的報表會保留十天，並自動刪除。
 
 1. 執行下列任一項作業：
 

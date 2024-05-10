@@ -1,16 +1,16 @@
 ---
-title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
-description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
+title: 『[!DNL Microsoft Advertising] 行銷活動設定'
+description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 行銷活動設定
+# [!DNL Microsoft Advertising] 行銷活動設定
 
 ## \[行銷活動建立畫面\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]：* 在搜尋網路上顯示文字廣告。
 
-* *[!UICONTROL Shopping Network]：* 顯示產品廣告 — 針對您產品在 [!DNL Microsoft® Merchant Center] 產品目錄 — 在購物網路上。
+* *[!UICONTROL Shopping Network]：* 顯示產品廣告 — 針對您產品在 [!DNL Microsoft Merchant Center] 產品目錄 — 在購物網路上。
 
-* *[!UICONTROL Audience]：* 在上顯示原生/顯示廣告 [!DNL Microsoft® Audience Network]. 您可以a)將行銷活動連結至中的商家中心商店，自動產生摘要型廣告 [!UICONTROL Shopping Settings] 或b)使用文字資產和上傳的影像建立回應式廣告。 這兩個選項都需要您以使用者目標定位來建立廣告群組。
+* *[!UICONTROL Audience]：* 在上顯示原生/顯示廣告 [!DNL Microsoft Audience Network]. 您可以a)將行銷活動連結至中的商家中心商店，自動產生摘要型廣告 [!UICONTROL Shopping Settings] 或b)使用文字資產和上傳的影像建立回應式廣告。 這兩個選項都需要您以使用者目標定位來建立廣告群組。
 
-* *[!UICONTROL Shopping Campaigns for Brands]：* （Beta版功能）透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。 若是品牌的購物行銷活動，請使用競標策略 [!UICONTROL Manual CPC]；若是品牌的購物促銷活動，請使用競標策略 [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]：* （Beta版功能）透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。 若是品牌的購物行銷活動，請使用競標策略 [!UICONTROL Manual CPC]；若是品牌的購物促銷活動，請使用競標策略 [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]：* （Beta版功能）推廣以下網站所提供的應用程式和遊戲： [!DNL Microsoft® Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft® Advertising] 自動為產品群組建立廣告。
+* *[!UICONTROL Microsoft Store Ads Campaign]：* （Beta版功能）推廣以下網站所提供的應用程式和遊戲： [!DNL Microsoft Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。
 
 * *[!UICONTROL Audience CTV Video]：* （Beta版功能）在對象網路上顯示連線電視(CTV)視訊廣告。
 
 * *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
 
-* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft® Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
+* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和Commerce產品組合時，搜尋、社交和Commerce會最佳化基本競標，當「[!UICONTROL Auto adjust campaign budget limits]&quot;選項已啟用 — 行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和Commerce產生的競標。 **注意：** 只有在廣告網路上追蹤的轉換總數與產品組合目標一致時，才可在產品組合中使用eCPC行銷活動。
 
-* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft® Store Ads] 行銷活動；已棄用 [!DNL Microsoft® Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
+* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft Store Ads] 行銷活動；已棄用 [!DNL Microsoft Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
 
    * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：此選項與使用「[!UICONTROL Enhanced CPC]」選項。
 
-* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft® Store Ads] 行銷活動)使用每次取得的成本(CPA)模型。
+* *[!UICONTROL Manual CPA]：* ([!DNL Microsoft Store Ads] 行銷活動)使用每次取得的成本(CPA)模型。
 
 * *[!UICONTROL Manual CPM]* （僅限對象行銷活動和對象視訊行銷活動）使用每千次曝光成本(CPM)模型，您可針對此模型指定每1,000次檢視曝光的支出專案。 當具有此競標策略的行銷活動包含在產品組合中時，系統不會最佳化。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]：** （僅限對象行銷活動；選用）將行銷活動與特定商家中心商店連結，以提供自動化摘要型廣告，而非回應式廣告。 選取此選項時，請指定 [!UICONTROL Merchant ID] 和 [!UICONTROL Products]. 您需要為行銷活動建立廣告群組，但不需要建立廣告。
+**[!UICONTROL Link with Microsoft Merchant Center]：** （僅限對象行銷活動；選用）將行銷活動與特定商家中心商店連結，以提供自動化摘要型廣告，而非回應式廣告。 選取此選項時，請指定 [!UICONTROL Merchant ID] 和 [!UICONTROL Products]. 您需要為行銷活動建立廣告群組，但不需要建立廣告。
 
 將行銷活動連結至商店並儲存設定後，您就無法變更此選項。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]：** （僅限最高成效行銷活動）廣告的語言，應符合廣告可出現的網站語言。 [!DNL Microsoft® Advertising] 從各種訊號中判斷使用者的語言，包括使用者的查詢、發佈者的國家/地區以及使用者的語言設定。
+**[!UICONTROL Languages]：** （僅限最高成效行銷活動）廣告的語言，應符合廣告可出現的網站語言。 [!DNL Microsoft Advertising] 從各種訊號中判斷使用者的語言，包括使用者的查詢、發佈者的國家/地區以及使用者的語言設定。
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （僅限顯示/原生網路上的行銷活動；選用）顯示網路上的網站（您不想要顯示廣告）。 請輸入有效的URL，例如www.example.com。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。
 
-如需可用性的相關資訊，請參閱Microsoft® Advertising說明»[防止廣告出現在特定網站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」
+如需可用性的相關資訊，請參閱Microsoft Advertising說明»[防止廣告出現在特定網站上](https://help.ads.microsoft.com/#apex/bae/en/14061/0).」
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：** 從資產群組建立的所有廣告的最終URL。
 
-**[!UICONTROL Images]：** 廣告最多可包含20個影像，包括至少一個正方形影像和一個橫向影像。 請參閱 [[!DNL Microsoft® Advertising] 影像指導方針](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Images]：** 廣告最多可包含20個影像，包括至少一個正方形影像和一個橫向影像。 請參閱 [[!DNL Microsoft Advertising] 影像指導方針](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要上傳影像：
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 * 若要選取影像，請 [!UICONTROL Asset Library]，按一下 **[!UICONTROL Asset Library]** 並選取影像。
 
-**[!UICONTROL Logos]：** 至少一個標誌。 您最多可以包含五個。 請參閱 [[!DNL Microsoft® Advertising] 資產准則](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
+**[!UICONTROL Logos]：** 至少一個標誌。 您最多可以包含五個。 請參閱 [[!DNL Microsoft Advertising] 資產准則](https://help.ads.microsoft.com/#apex/ads/en/60204/0). 您可以上傳影像，或從中選擇 [!UICONTROL Asset Library]  — 但不是兩者在同一作業中。
 
 * 若要上傳影像：
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]：** 公司名稱，最多25個字元。 它不能包含指令碼、HTML或其他標籤語言。
 
-**[!UICONTROL Audience Signal]：** （可選） [!DNL Microsoft® Advertising] 用作行銷活動對象訊號的對象。 [!DNL Microsoft® Advertising] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
+**[!UICONTROL Audience Signal]：** （可選） [!DNL Microsoft Advertising] 用作行銷活動對象訊號的對象。 [!DNL Microsoft Advertising] 機器學習模型會使用受眾來尋找類似的要定位的網頁瀏覽者，也可能會對未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
 
 >[!NOTE]
 >對象訊號與不同 [廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

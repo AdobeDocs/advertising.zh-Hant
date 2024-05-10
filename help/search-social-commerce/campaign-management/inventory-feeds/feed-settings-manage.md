@@ -1,18 +1,18 @@
 ---
 title: 設定摘要資料設定
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # 設定摘要資料設定
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 您可以透過摘要設定，設定如何處理摘要資料檔案中的廣告群組、關鍵字和廣告，以及如何專門處理FTP檔案中的資料。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 * *[!UICONTROL None]* （預設值）：不變更現有元件。
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]：** 如何處理現有專案，因為1)未包含a)已上傳至FTP目錄的新摘要檔案中，或b)下次搜尋、社交和商務與此帳戶同步時，或2)未對應至現有促銷活動或廣告群組(根據 [!UICONTROL Map Only] 範本中的設定。
+**[!UICONTROL Missing line items in an FTP feed/GMC account]：** 如何處理現有專案，因為1)未包含a)已上傳至FTP目錄的新摘要檔案中，或b)下次搜尋、社交和Commerce會與商家中心帳戶同步，或2)未對應至現有的促銷活動或廣告群組(根據 [!UICONTROL Map Only] 範本中的設定。
 
 * *[!UICONTROL Delete]：* 刪除現有元件。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 對於FTP檔案，摘要服務每兩小時檢查FTP目錄中的更新（PST時區為偶數小時）。 此選項會處理自上次檢查以來上傳的所有檔案。
->* 對於商家中心帳戶，搜尋、社交和商務每天在廣告商時區的約06:00與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
+>* 對於商家中心帳戶，搜尋、社交和Commerce每天在廣告商時區的約06:00與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
 >* 傳播資料可在以下位置使用： [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 標籤，直到資料發佈至廣告網路或 [!UICONTROL Bulksheets] 檢視。
 
 **[!UICONTROL Post to the SE]：** （廣告商透過FTP或商家中心帳戶上傳資料檔案）透過適用的範本傳播新資料後，自動為相關廣告網路以正確格式建立大量表單檔案。 此選項也會將資料從 [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 標籤，除非任何子元件發生錯誤。

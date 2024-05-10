@@ -3,7 +3,7 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
 
    * 搜尋、社交和Commerce客戶：
 
-      * 的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定為已啟用帳戶或促銷活動，當一般使用者按一下包含Adobe Advertising畫素的廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼。
+      * 的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定為已啟用帳戶或促銷活動，當一般使用者按一下包含Adobe Advertising畫素的廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼。
 
-      * 針對其他廣告網路，或 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶與 [!UICONTROL Auto Upload] 設定已停用，手動將引數新增至 [帳戶層級附加引數](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，這會將其附加至您的基本URL。
+      * 針對其他廣告網路，或 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶與 [!UICONTROL Auto Upload] 設定已停用，手動將引數新增至 [帳戶層級附加引數](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，這會將其附加至您的基本URL。
 
 * 未實作伺服器端插入功能時：
 
@@ -130,7 +130,7 @@ AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
 
    * 搜尋、社交和Commerce客戶：
 
-      * 針對([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])廣告，請手動將AMO ID引數新增至您的登陸頁面尾碼，最好在 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要對個別帳戶元件進行不同追蹤。
+      * 針對([!DNL Google Ads] 和 [!DNL Microsoft Advertising])廣告，請手動將AMO ID引數新增至您的登陸頁面尾碼，最好在 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要對個別帳戶元件進行不同追蹤。
 
       * 對於所有其他廣告網路上的廣告，請手動將AMO ID引數新增至 [帳戶層級附加引數](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，這會將其附加至您的基本URL。
 

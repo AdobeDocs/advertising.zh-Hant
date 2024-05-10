@@ -1,20 +1,20 @@
 ---
 title: 透過範本傳播詳細目錄摘要資料
 description: 瞭解如何透過廣告範本從您的詳細目錄摘要傳播資料，以管理帳戶結構並傳遞動態廣告。
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # 透過範本傳播詳細目錄摘要資料
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
-在您建立廣告網路專屬摘要範本，並關聯摘要檔案或 [!DNL Google] 或 [!DNL Microsoft®] 商家中心帳戶可透過根據以下範本傳播摘要資料，動態建立廣告： [摘要資料設定](feed-settings-manage.md). 在傳播期間，範本中的欄名稱會由摘要中的資料值取代，而除非範本另有指定，否則產生的行銷活動及其元件會具有預設設定。 根據範本選項， Search、Social和Commerce會為廣告建立新的帳戶結構（促銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
+在您建立廣告網路專屬摘要範本，並關聯摘要檔案或 [!DNL Google] 或 [!DNL Microsoft] 商家中心帳戶可透過根據以下範本傳播摘要資料，動態建立廣告： [摘要資料設定](feed-settings-manage.md). 在傳播期間，範本中的欄名稱會由摘要中的資料值取代，而除非範本另有指定，否則產生的行銷活動及其元件會具有預設設定。 根據範本選項，搜尋、Social和Commerce會為廣告建立新的帳戶結構（促銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 
 當新的摘要資料包含專案的新資料值，或範本已變更時，現有廣告將被刪除並建立新的廣告。 如果唯一變更是指定了 [!DNL Google Ads] Param 1和Param 2，則只會更新這些值。 絕對不會建立重複的廣告（相同的廣告文案和登陸頁面）。
 

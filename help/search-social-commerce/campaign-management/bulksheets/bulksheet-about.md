@@ -1,11 +1,11 @@
 ---
 title: 關於使用大量表單管理行銷活動資料
 description: 瞭解廣告網路、大量表單工作流程和錯誤處理可用的大量表單功能。
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 依廣告網路的功能
 
-* **下載、上傳和張貼：**  [!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yandex] 帳戶
+* **下載、上傳和張貼：**  [!DNL Baidu]， [!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex] 帳戶
 
 * **僅下載和上傳：** [!DNL Naver] 帳戶
 
-  您可以上傳 [!DNL Naver] 用於搜尋、社交和商務的資料，但無法張貼至廣告網路。 您也可以下載現有（未同步的）資料。
+  您可以上傳 [!DNL Naver] 用於搜尋、社交和Commerce的資料，但無法張貼至廣告網路。 您也可以下載現有（未同步的）資料。
 
 * **僅下載資料：**  [!DNL Pinterest]， [!DNL Yahoo Native]、和 [!DNL Yahoo! Display Network] 帳戶
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 當您需要新增資料或進行更正時：
 
-   1. [匯出檔案](bulksheet-export.md) 到您的案頭並在中進行編輯 [!DNL Microsoft® Excel].
+   1. [匯出檔案](bulksheet-export.md) 到您的案頭並在中進行編輯 [!DNL Microsoft Excel].
 
-   1. [手動上傳已編輯的檔案](bulksheet-upload.md) 搜尋、社交和商務，或 [將檔案上傳至指定的FTP帳戶](bulksheet-ftp-account.md) 以自動過帳。
+   1. [手動上傳已編輯的檔案](bulksheet-upload.md) 搜尋、社交和Commerce，或 [將檔案上傳至指定的FTP帳戶](bulksheet-ftp-account.md) 以自動過帳。
 
 1. （針對手動上傳的檔案） [發佈檔案](bulksheet-post.md) 上傳時或稍後上傳至廣告網路。
 

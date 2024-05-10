@@ -1,18 +1,18 @@
 ---
 title: 管理行銷活動和廣告群組的對象排除
-description: 瞭解如何設定和管理您的對象排除 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組。
+description: 瞭解如何設定和管理您的對象排除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 行銷活動和廣告群組。
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# 管理您的對象排除 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 行銷活動和廣告群組
+# 管理您的對象排除 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 行銷活動和廣告群組
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅限*
 
 您可以排除特定對象，作為特定廣告群組和行銷活動的目標。 排除對象可確保這些人在指定的廣告群組和促銷活動中不會收到廣告。
 

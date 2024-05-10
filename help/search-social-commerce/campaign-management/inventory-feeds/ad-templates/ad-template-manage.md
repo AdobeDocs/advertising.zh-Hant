@@ -3,7 +3,7 @@ title: 管理詳細目錄摘要的廣告範本
 description: 瞭解如何管理廣告範本，透過這些範本可處理您的詳細目錄資料，以管理帳戶結構並提供動態廣告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 管理詳細目錄摘要的廣告範本
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
-上傳資料之前或之後，您可以建立搜尋引擎特定的廣告範本，以便處理您的資料。 您可以建立文字廣告和展開/延伸文字廣告的範本， [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 回應式搜尋廣告，以及 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 購物廣告。
+上傳資料之前或之後，您可以建立搜尋引擎特定的廣告範本，以便處理您的資料。 您可以建立文字廣告和展開/延伸文字廣告的範本， [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 回應式搜尋廣告，以及 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 購物廣告。
 
-您可以將每個範本與一個摘要檔案建立關聯， [!DNL Google Merchant Center] 帳戶，或 [!DNL Microsoft® Merchant Center] 帳戶，而且您可以將多個範本與相同的摘要檔案或帳戶建立關聯。 廣告範本可包含變數，這些變數會由上傳檔案或帳戶中的實際資料欄取代。 在大多數情況下，變數也可包含 [修飾元群組](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您在「搜尋」、「Social」和「Commerce」中設定，以為資料檔案中的每個適用列建立多個廣告、關鍵字、促銷活動或廣告群組。 範本選項可讓您為廣告建立新的帳戶結構（行銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
+您可以將每個範本與一個摘要檔案建立關聯， [!DNL Google Merchant Center] 帳戶，或 [!DNL Microsoft Merchant Center] 帳戶，而且您可以將多個範本與相同的摘要檔案或帳戶建立關聯。 廣告範本可包含變數，這些變數會由上傳檔案或帳戶中的實際資料欄取代。 在大多數情況下，變數也可包含 [修飾元群組](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 您在「搜尋」、「Social」和「Commerce」中設定，以為資料檔案中的每個適用列建立多個廣告、關鍵字、促銷活動或廣告群組。 範本選項可讓您為廣告建立新的帳戶結構（行銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 
 除了從頭開始建立新範本之外，您也可以複製現有範本並編輯現有範本，選擇建立新範本。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 建立、複製或編輯摘要範本
 
-為文字和擴充/延伸文字廣告、回應式搜尋廣告建立個別範本， [!DNL Google Ads] 購物廣告，以及 [!DNL Microsoft® Advertising] 購物廣告。
+為文字和擴充/延伸文字廣告、回應式搜尋廣告建立個別範本， [!DNL Google Ads] 購物廣告，以及 [!DNL Microsoft Advertising] 購物廣告。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，隨即開啟以 [!UICONTROL Templates] 標籤。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * （若要編輯現有範本）按一下範本名稱旁的 ![檢視/編輯設定](/help/search-social-commerce/assets/settings.png "檢視/編輯設定").
 
-1. 指定設定 [文字廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft® Advertising] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
+1. 指定設定 [文字廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)， [[!DNL Google Ads] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)，或 [[!DNL Microsoft Advertising] 購物廣告範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)：
 
    1. 在範本設定視窗頂端，指定範本名稱和適用的帳戶。
 
@@ -158,5 +158,5 @@ ht-degree: 0%
 >* [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
 >* [文字廣告和回應式搜尋廣告範本設定](template-text-rsa.md)
 >* [[!DNL Google Ads] 購物廣告範本設定](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] 購物廣告範本設定](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] 購物廣告範本設定](template-microsoft-shopping.md)
 >* [透過範本傳播摘要資料](../feed-data-propagate.md)

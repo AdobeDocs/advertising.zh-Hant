@@ -3,7 +3,7 @@ title: 重新產生連線電視觸及計畫的預測
 description: 瞭解如何為連線電視觸及計畫建立新的預測。
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 將游標停留在計畫列上，然後按一下 **[!UICONTROL Forecast]**.
 
-1. （選用）若要匯出 [!UICONTROL Budget vs Reach] 預測至 [!DNL Microsoft® Excel] spreadsheet**，按一下 **[!UICONTROL ...]** 圖示，然後按一下 **[!UICONTROL Export]**.
+1. （選用）若要匯出 [!UICONTROL Budget vs Reach] 預測至 [!DNL Microsoft Excel] spreadsheet**，按一下 **[!UICONTROL ...]** 圖示，然後按一下 **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

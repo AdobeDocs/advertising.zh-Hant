@@ -1,18 +1,18 @@
 ---
-title: '[!UICONTROL Campaign Daily Impression Share Report]'
+title: 『[!UICONTROL Campaign Daily Impression Share Report]『
 description: 瞭解 [!UICONTROL Campaign Daily Impression Share Report].
-exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+exl-id: 0c77277f-e4a8-4c4b-83e8-0ad83402d81f
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Daily Impression Share Report]
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限帳戶*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅限帳戶*
 
 此 [!UICONTROL Campaign Daily Impression Share Report] 包含一或多個行銷活動的每日曝光比重量度（依裝置型別）。 依預設，指定日期範圍內每天收到至少一個曝光或點按的每個行銷活動會包含一列，且這些列會依日期遞增排序。 報表可選擇納入以下追蹤的資料 [!DNL Adobe] 和衍生量度。
 

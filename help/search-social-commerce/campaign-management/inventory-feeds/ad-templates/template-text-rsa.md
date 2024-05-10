@@ -3,7 +3,7 @@ title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 若要內嵌最終URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 如需可指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft® Advertising] 僅限) [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 僅限) 「可用」區段中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 如需可指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2) 或([!DNL Google Ads] 僅限) 「可用」區段中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 僅限)使用引數 `!{unescapedurl}` 以指出登入頁面URL。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數 {lpurl}.
 
-* 如需Microsoft®Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 若要將欄名稱或修飾元群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或 [修飾元名稱](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 在修飾詞清單中。 若要為相同關鍵字指定多個關鍵字或多個相符型別，請在不同的行中輸入它們。 若要指定關鍵字比對型別，請在欄名稱前後使用下列比對型別語法：
 
-* 的 [!DNL Google Ads]， [!DNL Microsoft® Advertising]、和 [!DNL Yahoo! Japan Ads] 範本：
+* 的 [!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yahoo! Japan Ads] 範本：
 
    * 對於動態引數：廣泛比對= `[keyword]`，則為中的第一個詞語提供Broad Match修飾詞 [!UICONTROL Keyword] 欄（例如+藍色山羊皮鞋） = `+[keyword]`，關鍵字欄中每個字詞的廣泛比對修飾詞（例如+blue +suede +shoes） = `+[keyword]+`，字詞比對= `"[keyword]"`，完全相符= `[[keyword]]`
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 * 若要指出登入頁面URL：
 
-   * ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 如需可指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft® Advertising] 僅限) [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用」區段中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 如需可指出追蹤範本中最終URL的引數清單，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用」區段中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 僅限)使用引數 `!{lpurl}` 以指出登入頁面URL。
 
@@ -234,15 +234,15 @@ ht-degree: 0%
 
    * 兩個數字可以用正斜線內嵌。 例如，4/1和0.95/0.45有效。
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 範本\]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] 範本\]：** ([!DNL Microsoft Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
+**[!UICONTROL Param 3]：** ([!DNL Microsoft Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：** 具有指定比對型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]：** ([!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 僅限於行銷活動)廣告型別： *[!UICONTROL Expanded Search Ads]* 或 *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]：** ([!DNL Google Ads] 和 [!DNL Microsoft Advertising] 僅限於行銷活動)廣告型別： *[!UICONTROL Expanded Search Ads]* 或 *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]：** （選用）以原始廣告復本欄位的文字，預先填入所有替代廣告復本欄位。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]：** (現有Microsoft®僅限Advertising標準文字廣告；唯讀)廣告標題或第一行。 Microsoft® Advertising已棄用標準文字廣告的建立和編輯。
+**[!UICONTROL Ad Title]：** (現有Microsoft Advertising標準文字廣告專用；唯讀)廣告的標題或第一行。 Microsoft Advertising已棄用標準文字廣告的建立和編輯。
 
 **[!UICONTROL Headline 1]**， **[!UICONTROL Headline 2]：** ([!DNL Google Ads] 和 [!DNL Yahoo! Japan Ads] 僅限擴充/延伸文字廣告範本)廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
 
@@ -270,13 +270,13 @@ ht-degree: 0%
 
 **[!UICONTROL Title]：** ([!DNL Yandex] 僅限)廣告的標題或第一行。 最大為33個字元。
 
-**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** (Microsoft® Advertising僅展開文字廣告)廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
+**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** (Microsoft Advertising僅展開文字廣告)廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]：** (Microsoft® Advertising僅展開文字廣告)廣告內文。 長度上限（在任何動態引數取代後）為80個字元或40個雙位元組字元（例如中文、日文和韓文）。
+**[!UICONTROL Ad Text]：** (Microsoft Advertising僅展開文字廣告)廣告內文。 長度上限（在任何動態引數取代後）為80個字元或40個雙位元組字元（例如中文、日文和韓文）。
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ ht-degree: 0%
 
 * [!DNL Google Ads]： `{CUSTOMIZER.AdCustomizerName:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]： `{CUSTOMIZER.Attribute name:Default text}`，例如 `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]：** (現有 [!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 僅限標準文字廣告；唯讀)廣告中顯示的URL。
+**[!UICONTROL Display URL]：** (現有 [!DNL Microsoft Advertising] 和 [!DNL Yahoo! Japan Ads] 僅限標準文字廣告；唯讀)廣告中顯示的URL。
 
-[!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 已棄用標準文字廣告的建立和編輯。
+[!DNL Microsoft Advertising] 和 [!DNL Yahoo! Japan Ads] 已棄用標準文字廣告的建立和編輯。
 
 **[!UICONTROL Base URL]：** （僅限具有目的地URL的帳戶）使用者被帶往的頁面。 其中可能包含協力廠商重新導向和追蹤程式碼。 如果您使用Adobe Advertising轉換追蹤服務，且行銷活動設定包含使用 [!UICONTROL EF Redirect] 以及在廣告層級新增追蹤，Search、Social和Commerce會自動將自己的重新導向和追蹤程式碼新增至廣告。
 
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數 {lpurl}.
 
-* 如需Microsoft®Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft® Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
+* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱 [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或「可用」一節中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
 **\[原始廣告欄位下方的替代廣告欄位\]：** （可選）廣告的替代廣告復本集，可在原始廣告復本中的任何一行超過傳播期間填入資料的任何動態引數允許的最大長度時使用。
 

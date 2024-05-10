@@ -1,9 +1,9 @@
 ---
 title: 編輯從摘要產生的資料
 description: 瞭解如何編輯從詳細目錄資料摘要產生的資料。
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯從摘要產生的資料
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 當您傳播摘要資料而不將其同時張貼至廣告網路時，您可以透過下列其中一種方式來編輯資料。 您稍後可以選擇使用 [張貼資料](propagated-data-post.md) 從任一位置到相關廣告網路：
 
@@ -37,7 +37,7 @@ ht-degree: 0%
       >* 除非您檢視特定範本的資料， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 索引標籤會列出從所有範本和摘要檔案建立的所有廣告群組、關鍵字和廣告。 使用的產品群組 [!DNL Google Ads] 購物廣告會列於 [!UICONTROL Keywords] 標籤。
       >* 若只要檢視特定行銷活動的子元件，請先檢視 [!UICONTROL Campaigns] 標籤。 同樣地，若只要檢視特定廣告群組的子元件，請先檢視 [!UICONTROL Ad Groups] 標籤。
 
-   1. （選用；若要編輯僅限廣告群組、關鍵字或廣告）請篩選清單以僅包含特定促銷活動或廣告群組的子元件：
+   1. （選用；若要編輯僅限廣告群組、關鍵字或廣告）請篩選清單以僅包含特定行銷活動或廣告群組的子元件：
 
       * 若要列出行銷活動中的所有廣告群組，請按一下行銷活動名稱。
 

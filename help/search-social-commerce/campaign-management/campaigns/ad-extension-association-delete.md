@@ -3,16 +3,16 @@ title: 刪除與行銷活動和廣告群組的廣告擴充功能關聯
 description: 瞭解如何解除廣告擴充功能與行銷活動和廣告群組的關聯。
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
 # 刪除與行銷活動和廣告群組的廣告擴充功能關聯
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅限*
 
 您可以刪除與任何位置、電話和網站連結擴充功能的行銷活動與廣告群組層級關聯。
 

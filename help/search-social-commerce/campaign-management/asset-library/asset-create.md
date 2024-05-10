@@ -1,18 +1,18 @@
 ---
 title: 建立及上傳資產
-description: 瞭解如何建立可重複使用的影像、視訊和文字資產，並將其上傳至您的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶層級的資產資料庫。
+description: 瞭解如何建立可重複使用的影像、視訊和文字資產，並將其上傳至您的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級的資產資料庫。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # 建立及上傳資產
 
-*的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 僅限帳戶*
+*的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 僅限帳戶*
 
 *開啟Beta版功能*
 

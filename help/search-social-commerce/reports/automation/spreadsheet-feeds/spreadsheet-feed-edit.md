@@ -1,11 +1,11 @@
 ---
 title: 編輯試算表報表摘要設定
 description: 瞭解如何編輯試算表摘要的設定。
-exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅用於基本報表和模型準確度報表*
 
-您可以變更哪個報告範本， [!DNL Microsoft® Excel] 範本和其他引數則用於試算表摘要。
+您可以變更哪個報告範本， [!DNL Microsoft Excel] 範本和其他引數則用於試算表摘要。
 
 >[!NOTE]
 >

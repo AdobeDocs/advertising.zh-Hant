@@ -1,20 +1,20 @@
 ---
 title: 將共用的網站連結與帳戶、行銷活動和廣告群組建立關聯
 description: 瞭解如何將共用網站連結擴充功能指派給帳戶、行銷活動和廣告群組。
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # 將共用的網站連結與帳戶、行銷活動和廣告群組建立關聯
 
-*[!DNL Google Ads]和 [!DNL Microsoft® Advertising] 僅限*
+*[!DNL Google Ads]和 [!DNL Microsoft Advertising] 僅限*
 
-您可以從指派網站連結來建立廣告擴充功能 [!DNL Sitelinks] 程式庫至帳戶實體，僅供搜尋網路使用。 的 [!DNL Google Ads] 帳戶，您可以將網站連結指派給搜尋網路上的帳戶或行銷活動和廣告群組。 的 [!DNL Microsoft® Advertising] 帳戶，您可以將網站連結指派給搜尋網路上的行銷活動（以及帳戶內的帳戶和廣告群組）。 [!DNL Microsoft® Advertising] 廣告管理員)。
+您可以從指派網站連結來建立廣告擴充功能 [!DNL Sitelinks] 程式庫至帳戶實體，僅供搜尋網路使用。 的 [!DNL Google Ads] 帳戶，您可以將網站連結指派給搜尋網路上的帳戶或行銷活動和廣告群組。 的 [!DNL Microsoft Advertising] 帳戶，您可以將網站連結指派給搜尋網路上的行銷活動（以及帳戶內的帳戶和廣告群組）。 [!DNL Microsoft Advertising] 廣告管理員)。
 
 您必須至少有六個案頭和行動裝置的有效網站連結，網站連結才會與廣告一同顯示。 您最多可以為每個帳戶、行銷活動或廣告群組指派20個網站連結。
 

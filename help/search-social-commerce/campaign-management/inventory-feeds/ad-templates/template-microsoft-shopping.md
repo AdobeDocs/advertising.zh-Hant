@@ -1,16 +1,16 @@
 ---
-title: 『[!DNL Microsoft® Ads] 詳細目錄摘要的購物廣告範本設定
-description: 參考設定 [!DNL Microsoft® Ads] 詳細目錄摘要的購物廣告範本。
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: 『[!DNL Microsoft Ads] 詳細目錄摘要的購物廣告範本設定
+description: 參考設定 [!DNL Microsoft Ads] 詳細目錄摘要的購物廣告範本。
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] 詳細目錄摘要的購物廣告範本設定
+# [!DNL Microsoft Ads] 詳細目錄摘要的購物廣告範本設定
 
 使用購物廣告範本來設定購物廣告。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」執行下列任一項作業：
 
-   * （建議）使用 [Microsoft®購物行銷活動的追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
+   * （建議）使用 [Microsoft購物行銷活動的追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
    * 如果您改為使用「」在摘要中包含每個產品的值[!DNL bingads_redirect]&quot;欄(使用 [正確格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md))，然後輸入引數 `{lpurl}`. 您可以選擇將第三方重新導向與追蹤新增至 `{lpurl}` 引數。
 

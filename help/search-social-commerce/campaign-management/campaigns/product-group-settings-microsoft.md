@@ -1,16 +1,16 @@
 ---
-title: 『[!DNL Microsoft® Advertising] 產品群組設定
-description: 參考設定 [!DNL Microsoft® Advertising] 購物產品群組。
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: 『[!DNL Microsoft Advertising] 產品群組設定
+description: 參考設定 [!DNL Microsoft Advertising] 購物產品群組。
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 產品群組設定
+# [!DNL Microsoft Advertising] 產品群組設定
 
 ## 「所有產品」產品群組
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **[!UICONTROL Condition/Value]：** （現有產品群組的唯讀）要鎖定的產品維度。 針對新產品群組，輸入產品定位所依據的維度，以及所選資訊類別的合格屬性（例如，依品牌定位時為「Acme」，或依條件定位時為「New」）。
 
-一旦您為特定產品維度（即「所有產品」以外的維度）建立產品群組，Search、Social和Commerce就會自動為「其他一切」建立產品群組。
+一旦您為特定產品維度（即「所有產品」以外的維度）建立產品群組，搜尋、社交和Commerce就會自動為「其他所有專案」建立產品群組。
 
 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).」 您的維度清單可能會根據行銷活動而有所限制 [!UICONTROL Inventory Filter] 設定。
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [關於購物產品群組](product-group-about.md)
 >* [管理購物產品群組](product-group-manage.md)
 >* [購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [實作 [!DNL Microsoft® Advertising] 購物宣傳](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [實作 [!DNL Microsoft Advertising] 購物宣傳](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
