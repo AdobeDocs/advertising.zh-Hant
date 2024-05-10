@@ -3,9 +3,9 @@ title: 建立可重複使用的對象
 description: 瞭解如何建立可重複使用的受眾，其中包含受眾區段和其他儲存的受眾。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. （選用）取消選取選項，以 **[!UICONTROL Share with all advertisers in my account]**.
 
-   當您共用對象時，該對象會成為帳戶中所有廣告商的目標或排除專案。 不過，受眾中的個別區段僅供共用區段的使用者使用。 例如，如果您將包含Adobe Analytics區段的對象與未對應至相同區段的廣告商共用， [!DNL Analytics] 帳戶，則該區段將不會在該廣告商的對象中預覽。 只有該廣告商可用的區段會在對象中預覽。
+   當您共用對象時，該對象會成為帳戶中所有廣告商的目標或排除專案。 不過，受眾中的個別區段僅供共用區段的使用者使用。 例如，如果您將包含Adobe Analytics區段的對象與未對應至相同區段的廣告商共用， [!DNL Analytics] 帳戶，則該區段不會在該廣告商的對象中預覽。 在對象中只會預覽該廣告商可用的區段。
 
 1. 按一下 **[!UICONTROL Save]**.
 

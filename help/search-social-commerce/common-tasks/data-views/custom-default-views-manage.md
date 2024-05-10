@@ -3,9 +3,9 @@ title: 管理預設和自訂檢視
 description: 瞭解如何自訂您的預設檢視和自訂檢視。
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2842'
+source-wordcount: '2835'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >使用可協助您識別標籤及其適用資訊的名稱（例如「暫停的行銷活動」或「前50名廣告」）。
+   >使用可協助您識別標籤及其套用資訊的名稱（例如「暫停的行銷活動」或「前50個廣告」）。
 
 ### 編輯預設或自訂檢視
 
@@ -140,10 +140,10 @@ ht-degree: 0%
 
 | **標籤** | **欄位** | **說明** |
 | --- | --- | --- |
-| [在所有索引標籤上方] | 名稱 | 檢視的唯一名稱。 您無法編輯預設檢視的名稱。 <p><b>秘訣：</b> 使用可協助您識別標籤及其適用資訊的名稱（例如「暫停的行銷活動」或「前50名廣告」）。 |
-|   | 通用檢視 | 讓資料設定可用於所有實體檢視（行銷活動、廣告等）。 通用檢視可包含量度和標籤分類欄，但不能包含屬性欄（例如實體名稱和狀態），因為它們會因實體型別而異 — 以及所有其他檢視屬性。 任何篩選條件都會套用至實體檢視（若適用），否則會予以忽略。 所有量度篩選器都會在本機進行評估（例如，對於點按\> 1000，「促銷活動」檢視會顯示超過1000次點按的促銷活動，「廣告群組」檢視則會顯示超過1000次點按的廣告群組）。<p>通用檢視的屬性欄是從實體的預設檢視中提取。 您可以在預設檢視設定中變更特定實體的預設屬性欄。<p>啟用或停用此選項後，您無法將變更儲存到現有檢視，但可以建立含有變更的新檢視。 |
+| [在所有索引標籤上方] | 名稱 | 檢視的唯一名稱。 您無法編輯預設檢視的名稱。 <p><b>秘訣：</b> 使用可協助您識別標籤及其套用資訊的名稱（例如「暫停的行銷活動」或「前50個廣告」）。 |
+|   | 通用檢視 | 讓資料設定可用於所有實體檢視（行銷活動、廣告等）。 通用檢視可包含量度和標籤分類欄，但不能包含屬性欄（例如實體名稱和狀態），因為它們會因實體型別而異 — 以及所有其他檢視屬性。 任何篩選條件都會套用至實體檢視（若適用），否則會予以忽略。 所有量度篩選器都會在本機進行評估（例如，對於點按\> 1000，「促銷活動」檢視會顯示超過1000次點按的促銷活動，而「廣告群組」檢視會顯示超過1000次點按的廣告群組）。<p>通用檢視的屬性欄是從實體的預設檢視中提取。 您可以在預設檢視設定中變更特定實體的預設屬性欄。<p>啟用或停用此選項後，您無法將變更儲存到現有檢視，但可以建立含有變更的新檢視。 |
 |   | 共用 | （僅限自訂檢視；選用）讓其他所有可以檢視廣告商資料的使用者都能檢視此檢視。 其他使用者無法編輯或刪除檢視，但他們可以從設定中建立新的檢視。在您的檢視清單中，其他人員正在共用的每個檢視都會以斜體顯示，例如&quot;_績效最佳的行銷活動_.」 |
-| 欄 | 選取的欄和順序 | 顯示的資料欄及其順序：<ul><li> （若要新增欄）在「可用的欄」清單中，按一下欄名稱，然後將其拖曳至「選取的欄與排序」清單中，或按一下 ![向右鍵](/help/search-social-commerce/assets/chevron-right.png) 以移動到該處。</li><li>（若要變更欄的水平位置）在「選取的欄和順序」清單中，按一下欄名稱，然後將其拖曳到需要的位置或按一下 ![向上鍵](/help/search-social-commerce/assets/chevron-up.png) 或 ![向下鍵](/help/search-social-commerce/assets/chevron-down.png) 以移動到該處。 頂端的欄名稱會出現在左欄。</li><li>（若要移除欄）在「選取的欄和順序」清單中，按一下欄名稱，然後將其拖曳至「可用的欄」清單或按一下 ![向左鍵](/help/search-social-commerce/assets/chevron-left.png) 以移動到該處。</li></ul><b>篩選資料</b><p>若只要列出特定型別的資料，請按一下清單旁邊的任何圖示：<ul><li>![屬性圖示](/help/search-social-commerce/assets/properties-icon.png) 用於搜尋元件的屬性名稱和ID，例如Status</li><li>![流量圖示](/help/search-social-commerce/assets/traffic-metrics-icon.png) 用於標準流量量度，例如曝光數和點按數</li><li>![收入圖示](/help/search-social-commerce/assets/revenue-metrics-icon.png) （適用於為廣告商追蹤的轉換量度，包括從Analytics同步的轉換和網站參與量度）</li><li>![自訂圖示](/help/search-social-commerce/assets/custom-metrics-icon.png) （適用於廣告商建立的自訂衍生量度）</li><li>![分類圖示](/help/search-social-commerce/assets/classifications-icon.png) （適用於標籤分類）。</li></ul> <b>其他附註：</b><ul><li>若要新增、建立或編輯新量度，請參閱「建立自訂量度」、「編輯自訂量度」和「刪除自訂量度」。</li><li>如果報表包含不同貨幣帳戶的資料，則以貨幣為基礎的欄（例如成本和CPC）不會包含總計。</li><li>您可以 [從欄標題選單暫時編輯欄集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)、和 [編輯欄集並加以排序，從 [!UICONTROL Columns] 圖示](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![欄圖示](/help/search-social-commerce/assets/custom-columns.png "欄圖示"))。</li></ul> |
+| 欄 | 選取的欄和順序 | 顯示的資料欄及其順序：<ul><li> （若要新增欄）在「可用的欄」清單中，按一下欄名稱，然後將其拖曳至「選取的欄與排序」清單中，或按一下 ![向右鍵](/help/search-social-commerce/assets/chevron-right.png) 以移動到該處。</li><li>（若要變更欄的水平位置）在「選取的欄和順序」清單中，按一下欄名稱，然後將其拖曳到需要的位置或按一下 ![向上鍵](/help/search-social-commerce/assets/chevron-up.png) 或 ![向下鍵](/help/search-social-commerce/assets/chevron-down.png) 以移動到該處。 頂端欄名稱會顯示在左欄。</li><li>（若要移除欄）在「選取的欄和順序」清單中，按一下欄名稱，然後將其拖曳至「可用的欄」清單或按一下 ![向左鍵](/help/search-social-commerce/assets/chevron-left.png) 以移動到該處。</li></ul><b>篩選資料</b><p>若只要列出特定型別的資料，請按一下清單旁邊的任何圖示：<ul><li>![屬性圖示](/help/search-social-commerce/assets/properties-icon.png) 用於搜尋元件的屬性名稱和ID，例如Status</li><li>![流量圖示](/help/search-social-commerce/assets/traffic-metrics-icon.png) 用於標準流量量度，例如曝光數和點按數</li><li>![收入圖示](/help/search-social-commerce/assets/revenue-metrics-icon.png) （適用於為廣告商追蹤的轉換量度，包括從Analytics同步的轉換和網站參與量度）</li><li>![自訂圖示](/help/search-social-commerce/assets/custom-metrics-icon.png) （適用於廣告商建立的自訂衍生量度）</li><li>![分類圖示](/help/search-social-commerce/assets/classifications-icon.png) （適用於標籤分類）。</li></ul> <b>其他附註：</b><ul><li>若要新增、建立或編輯新量度，請參閱「建立自訂量度」、「編輯自訂量度」和「刪除自訂量度」。</li><li>如果報表包含不同貨幣帳戶的資料，則以貨幣為基礎的欄（例如成本和CPC）不會包含總計。</li><li>您可以 [從欄標題選單暫時編輯欄集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)、和 [編輯欄集並加以排序，從 [!UICONTROL Columns] 圖示](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![欄圖示](/help/search-social-commerce/assets/custom-columns.png "欄圖示"))。</li></ul> |
 |   | 排序方式 | 資料排序所依據的欄。 每種報表型別的預設值都不同。 |
 |   | 排序順序 | 是否排序資料 **升序** 或 **降序** 訂購。 移動滑桿以選取選項。 |
 | 篩選器 | [篩選器定義] | （選用）套用至資料的篩選器。 套用篩選器時，只有在資料行的值符合指定准則時，才會傳回資料列。<p>若要套用每個篩選器：<ol><li>在「新增篩選器」功能表中，選取欄名稱。 此清單包含所有可用的欄，並依欄型別排序，屬性欄優先。</li><li>在欄上定義篩選</li></ol>（具有輸入欄位的篩選器）從第二個功能表選取運運算元，然後輸入適用的值。 值不區分大小寫。 按一下 ![勾選圖示](/help/search-social-commerce/assets/select.png) 完成時。<p>例如，如果您已選取「點按」欄，但只想傳回點按超過100次的列，則請選取 _\>_ 並輸入 `100` 在輸入欄位中。<p>根據資料型別，可用的運運算元可能包括 <i>大於</i>， <i>小於</i>， <i>等於</i>， <i>包含</i>， <i>不包含</i>， <i>開頭為</i>， <i>結尾為</i>，<i>無值</i>，或 <i>具有值</i> <i>早於</i>， <i>晚於</i>，或 <i>無日期</i>.<p>（沒有輸入欄位的篩選器）按一下 ![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png) ，然後選取每個要包含的值旁的核取方塊。 按一下 ![勾選圖示](/help/search-social-commerce/assets/select.png) 完成時。<p><b>附註：</b><ul><li>您可以將篩選的變更套用至預設檢視設定，但不能儲存。</li><li>您也可以 [暫時變更適用的篩選器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 在檢視內。</li></ul> |

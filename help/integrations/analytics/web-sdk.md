@@ -3,9 +3,9 @@ title: 使用 [!DNL Last Event Service] JavaScript程式庫和 [!DNL Web SDK]
 description: 瞭解從切換的步驟，使用 [!DNL Analytics] [!DNL visitorAPI] 資料庫至 [!DNL Experience Platform] [!DNL Web SDK] 您的資料庫 [!DNL Analytics for Advertising] 實作。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 步驟2：使用 [!DNL Web SDK] 傳送 [!DNL StitchID] 作為XDM資料 [!DNL Analytics]
 
-將下列屬性插入您的 [!DNL Web SDK] `sendEvent` 命令以傳送 [!DNL StitchID] 至 [!DNL Experience Edge] 作為 [!DNL Experience Data Model] (XDM)資料用於 [!DNL Analytics].<!-- The library will send the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 會使用值做為 `SDID`.
+將下列屬性插入您的 [!DNL Web SDK] `sendEvent` 命令以傳送 [!DNL StitchID] 至 [!DNL Experience Edge] 作為 [!DNL Experience Data Model] (XDM)資料用於 [!DNL Analytics].<!-- The library sends the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 使用值作為 `SDID`.
 
 **要新增的屬性：**
 

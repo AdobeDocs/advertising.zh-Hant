@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   位置 `<portfolio_id>` 是數值投資組合ID和 `<se_acctid/conversion_manager_se_acctid>` 是廣告網路帳戶或管理員帳戶的數值ID。
 
-  在舊格式淘汰之前，您的Adobe帳戶團隊將與您合作，移轉廣告網路中現有的轉換動作名稱。 在移轉期間，新舊格式的上傳將同時執行。 建模和最佳化不受影響，因為新的轉換動作最初會顯示為「次要」（非最佳化）狀態並包含90天的回填資料。
+  在舊格式淘汰之前，您的Adobe帳戶團隊將與您合作，移轉廣告網路中現有的轉換動作名稱。 在移轉期間，新舊格式的上傳將同時執行。 建模和最佳化不受影響，因為新的轉換動作最初以「次要」（非最佳化）狀態出現，並具有90天的回填資料。
 
 上傳至 [!DNL Google Ads] 在廣告商的時區中每天06:00發生。 上傳至 [!DNL Microsoft® Advertising] 在廣告商的時區中每天09:00發生。
 

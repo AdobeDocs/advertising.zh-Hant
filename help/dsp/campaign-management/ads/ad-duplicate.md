@@ -3,44 +3,43 @@ title: 複製廣告
 description: 瞭解如何複製廣告。
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
 # 複製廣告
 
-您可以在同一市場活動中複製廣告。
+您可以在相同的行銷活動中複製廣告。
 
-1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
-1. 按一下市場活動的名稱。
+1. 按一下行銷活動的名稱。
 
-1. 在子菜單中，按一下 **[!UICONTROL Ads]**。
+1. 在子功能表中，按一下 **[!UICONTROL Ads]**.
 
-1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**。
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 指定新廣告設定：
 
-   1. （可選）更改預設廣告名稱。 預設情況下，新廣告稱為「\&lt;的副本」*原始廣告名稱*\>。&quot;
+   1. （選用）變更預設廣告名稱。 依預設，新廣告稱為「副本\&lt;*原始廣告名稱*\>.」
 
-   1. （可選）更改廣告設定 [音頻廣告](ad-settings-audio.md)。 [連接電視](ad-settings-connected-tv.md)。 [顯示廣告](ad-settings-display.md)。 [移動廣告](ad-settings-mobile.md)。 [原生廣告](ad-settings-native.md)。 [預卷廣告](ad-settings-pre-roll.md)或 [通用視頻廣告](ad-settings-universal-video.md)。
+   1. （選用）變更廣告設定 [音訊廣告](ad-settings-audio.md)， [連線電視](ad-settings-connected-tv.md)， [顯示廣告](ad-settings-display.md)， [行動裝置廣告](ad-settings-mobile.md)， [原生廣告](ad-settings-native.md)， [前段廣告](ad-settings-pre-roll.md)，或 [通用視訊廣告](ad-settings-universal-video.md).
 
 1. 按一下 **[!UICONTROL Save & Submit for Review]**.
 
-   的 [審閱](ad-about.md) 對於新廣告，需要24至48個小時並包括對敏感類別的檢查，按一下URL功能，然後預覽呈現。 的 [!UICONTROL Status] 列指DSP示是否已批准廣告。 斷開的廣告可能具有超過24-48小時的掛起狀態，因此您有時間修復錯誤，然後才被拒絕。
+   此 [廣告評論](ad-about.md) 對於新廣告，需要24到48小時，並包括敏感類別的檢查、按一下URL功能以及預覽呈現。 此 [!UICONTROL Status] 欄會指出DSP是否已核准廣告。 損毀的廣告可能會有超過24到48小時的擱置狀態，以便您有時間在錯誤被拒絕之前修正錯誤。
 
    >[!NOTE]
    >
-   >只有雙方和SSP都批准DSP了創意，您的廣告才會送達。 每個SSP都有自己的批准要求和流程。
+   >只有在DSP和SSP皆核准創意內容後，才能提供您的廣告。 每個SSP都有各自的核准需求和流程。
 
 >[!MORELIKETHIS]
 >
 >* [關於廣告管理](ad-about.md)
->* [建立單個廣告](ad-create.md)
+>* [建立單一廣告](ad-create.md)
 >* [建立多個第三方廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)
 >* [廣告規格](ad-specs.md)
-

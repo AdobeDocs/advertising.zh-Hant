@@ -1,11 +1,11 @@
 ---
 title: 管理 [!DNL Microsoft Advertising] 動態再行銷對象
 description: 瞭解如何建立和管理 [!DNL Microsoft Advertising] 動態再行銷對象。
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]僅限帳戶*
 
-您可以建立 [!DNL Microsoft Advertising] 在網頁上使用搜尋引擎的JavaScript轉換和對象追蹤標籤時，動態再行銷對象。 每個對象都是使用包含在網頁中的指定標籤建立的，這些網頁的使用者將構成對象。 您可以使用相同的追蹤標籤建立多個對象。 您也可以變更現有對象的名稱和資料來源，或刪除現有對象。
+您可以建立 [!DNL Microsoft Advertising] 在網頁上使用搜尋引擎的JavaScript轉換和對象追蹤標籤時，動態再行銷對象。 每個受眾都是使用包含在其使用者組成受眾之網頁中的指定標籤所建立。 您可以使用相同的追蹤標籤建立多個對象。 您也可以變更現有對象的名稱和資料來源，或刪除現有對象。
 
 動態再行銷對象具有對象型別»[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; （例如「動態再行銷過往買家」）。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    1. 輸入 **[!UICONTROL Audience Name]**.
 
-   1. 從搜尋引擎帳戶的所有可用標籤清單中，選取 [!DNL Microsoft Advertising] 包含在其使用者將構成受眾之網頁中的UET標籤。
+   1. 從搜尋引擎帳戶的所有可用標籤清單中，選取 [!DNL Microsoft Advertising] 包含在其使用者組成對象的網頁中的UET標籤。
 
    1. 根據相關網頁上的訪客動作，選取對象的訪客型別： *[!UICONTROL General Visitors]*， *[!UICONTROL Product Searchers]*， *[!UICONTROL Product Viewers]*， *[!UICONTROL Past Buyers]*，或 *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    1. （可選）變更 **[!UICONTROL Audience Name]**.
 
-   1. （可選）從廣告網路帳戶的所有可用標籤清單中，變更 [!DNL Microsoft Advertising] 包含在其使用者將構成受眾之網頁中的UET標籤。
+   1. （可選）從廣告網路帳戶的所有可用標籤清單中，變更 [!DNL Microsoft Advertising] 包含在其使用者組成對象的網頁中的UET標籤。
 
    1. （選用）根據相關網頁上的訪客動作，變更對象的訪客型別： *[!UICONTROL General Visitors]*， *[!UICONTROL Product Searchers]*， *[!UICONTROL Product Viewers]*， *[!UICONTROL Past Buyers]*，或 *[!UICONTROL Shopping Cart Abandoners]*.
 

@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ ht-degree: 0%
 
 **[!UICONTROL Destination Type]：** 選擇下列其中一個目的地型別：
 
-* *[!UICONTROL S3]：* 若要將完成的報表傳送至一或多個 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL sFTP]：* 若要將完成的報表傳送至一或多個SFTP位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL FTP]：* 若要將完成的報表傳送至一或多個FTP位置，您將會在 **[!UICONTROL Destination Name]** 欄位。
-* *[!UICONTROL FTP SSL]（目前為測試版）：* 若要將完成的報表傳送至一或多個FTP SSL位置，您將在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL S3]：* 若要將完成的報表傳送至一或多個 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您必須在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL sFTP]：* 若要將完成的報表傳送至一或多個SFTP位置，您必須在的 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL FTP]：* 若要將完成的報表傳送至一或多個FTP位置，您必須在的 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL FTP SSL]（目前為測試版）：* 若要將完成的報表傳送至一或多個FTP SSL位置，您必須在以下位置指定： **[!UICONTROL Destination Name]** 欄位。
 * *[!UICONTROL Email]：* 若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
 >[!NOTE]

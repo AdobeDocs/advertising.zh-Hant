@@ -3,7 +3,7 @@ title: 建立單一廣告
 description: 瞭解如何建立單一協力廠商廣告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >只有在DSP和SSP皆核准創意內容後，才會提供您的廣告。 每個SSP都有各自的核准需求和流程。
+   >只有在DSP和SSP皆核准創意內容後，才能提供您的廣告。 每個SSP都有各自的核准需求和流程。
 
 >[!MORELIKETHIS]
 >

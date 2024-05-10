@@ -3,9 +3,9 @@ title: Campaign Management常見問題集
 description: 進一步瞭解行銷活動管理，包括變更的延遲期間，以及您在航班期間變更預算時會發生什麼事。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   設定變更通常會立即生效，但最多可能需要12小時的時間。
 
-  如果這是交貨的最後一天，請在當天早些時候進行變更，以便DSP有充足的時間根據變更重新校準套件。 例如，如果您從偶數步調變更為前載步調，DSP需要重新評估其如何分配在剩餘的飛行期間的支出。 如果您在航班的最後一天只剩一小時可送達，請勿進行這類變更。
+  如果這是交貨的最後一天，請在當天早些時候進行變更，以便DSP有充足的時間根據變更重新校準套件。 例如，如果您從偶數步調變更為前載步調，DSP需要重新評估如何在剩餘的飛行中分配支出。 如果您在航班的最後一天只剩一小時可送達，請勿進行這類變更。
 
 ## 飛行中預算更新
 

@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 （選用）連結至DSP帳戶的其他Experience Cloud產品。 產品必須與中提供的相同Experience Cloud組織ID相關聯 [!UICONTROL Adobe IMS IDs] 區段。
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** (廣告商使用 [!DNL Advertising Search, Social, & Commerce] 或使用Adobe Advertising轉換畫素的使用者) A [!DNL Search, Social, & Commerce] DSP將用來交換歸因資料的帳戶。
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** (廣告商使用 [!DNL Advertising Search, Social, & Commerce] 或使用Adobe Advertising轉換畫素的使用者) A [!DNL Search, Social, & Commerce] DSP用來交換歸因資料的帳戶。
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]：** (使用Adobe Analytics的廣告商；選用；僅適用於使用Adobe Advertising轉換追蹤標籤(包含 [!DNL EF Redirect] 僅限和權杖)一或多個 [!DNL Analytics] DSP會將其從發佈者和供應方合作夥伴收集到的資料傳送至報表套裝。 Analytics也會將其從使用者端網站收集到的資料傳送至DSP。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 如需與整合的詳細資訊 [!DNL Analytics]，請參閱&quot;[概觀 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).」
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的廣告商；選用)Audience Manager或 [!DNL Analytics] DSP會從中為廣告商的所有Adobe受眾提取區段中繼資料、階層資料和唯一受眾資料的帳戶。 這包含下列專案的資料：
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** (使用Adobe Audience Manager或Adobe Analytics的廣告商；選用)Audience Manager或 [!DNL Analytics] DSP為廣告商的所有Adobe受眾提取區段中繼資料、階層資料和唯一受眾資料的帳戶。 這包含下列專案的資料：
 
 * Audience Manager區段
 * [!DNL Analytics] 發佈至Adobe Experience Cloud的區段
@@ -110,15 +110,15 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：** 依預設，會針對新位置封鎖所有100%無效的流量，包括被劫持裝置上的流量。 可能需支付額外費用。
 
-**[!UICONTROL Also block sites with]：** （選用）額外的詐騙和無效流量層級，在預設情況下會導致DSP封鎖廣告：  *[!UICONTROL None]* （預設值，不會封鎖其他流量）， *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*， *[!UICONTROL >4% Average Fraud/IVT levels]*， *[!UICONTROL >6% Average Fraud/IVT levels]*， *[!UICONTROL >10% Average Fraud/IVT levels]*，或 *[!UICONTROL >25% Average Fraud/IVT levels]*. 可能需支付額外費用。
+**[!UICONTROL Also block sites with]：** （選用）額外的詐騙和無效流量層級，導致DSP依預設封鎖廣告：  *[!UICONTROL None]* （預設值，不會封鎖其他流量）， *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*， *[!UICONTROL >4% Average Fraud/IVT levels]*， *[!UICONTROL >6% Average Fraud/IVT levels]*， *[!UICONTROL >10% Average Fraud/IVT levels]*，或 *[!UICONTROL >25% Average Fraud/IVT levels]*. 可能需支付額外費用。
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]：** （選用）一或多種型別的詐騙，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有詐騙網站）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、和/或 *[!UICONTROL Fraud: Zero Ads]*. 可能需支付額外費用。
+**[!UICONTROL Block sites that are]：** （選用）一或多個詐騙型別，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有詐騙網站）、 *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*、和/或 *[!UICONTROL Fraud: Zero Ads]*. 可能需支付額外費用。
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]：** （選用）預設會導致DSP封鎖廣告的可疑網站或應用程式活動型別： *[!UICONTROL None]* （預設值，不會根據可疑活動封鎖廣告）， *[!UICONTROL Suspicious Activity - High Risk]*，或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 可能需支付額外費用。
+**[!UICONTROL Block sites that are]：** （選用）一種可疑DSP網站或應用程式活動，預設會封鎖廣告： *[!UICONTROL None]* （預設值，不會根據可疑活動封鎖廣告）， *[!UICONTROL Suspicious Activity - High Risk]*，或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 可能需支付額外費用。
 
 #### [!UICONTROL Ads.text]
 

@@ -3,9 +3,9 @@ title: Advertising DSP巨集
 description: 參考一般追蹤的可用巨集，以及追蹤第三方顯示廣告的點按次數。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 將巨集新增至程式碼時，請確定您使用巨集的確切語法。 驗證巨集時，DSP會檢查巨集是否與其中一個有效的巨集完全相符。
 
-如果巨集名稱的開頭或結尾缺少字元，則會產生錯誤。 例如，在下列情況下，您會看到錯誤訊息：
+如果巨集名稱的開頭或結尾缺少字元，則會產生錯誤。 例如，如果出現下列情況，則會顯示錯誤訊息：
 
 * 您會忘記巨集名稱開頭的一或多個字元，例如 `${`. 如果未包含完整語法，則無法將專案辨識為有效的巨集。
 * 巨集的結尾不是有效的字元集，例如 `}`.

@@ -1,11 +1,11 @@
 ---
 title: 分析報告以精簡您的關鍵字和行銷活動設定
 description: 瞭解使用報告來調整您的關鍵字和行銷活動設定的最佳實務。
-exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 保守地將網站排除在行銷活動之外，因為內容和市場變化可能會迅速改變網站流量的值。
 
-如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」的「Portfolio」區段中的「調整產品組合策略」，此指南可從「搜尋」、「社交」和「商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
+如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」的「Portfolio」區段中的「調整產品組合策略」，此指南可從「搜尋」、「社交」和「Commerce」中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->如需產品組合中行銷活動的更多特定最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實作區段，此區段可從「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio最佳實作區段，可在搜尋、社交和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

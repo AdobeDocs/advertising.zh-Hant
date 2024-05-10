@@ -1,11 +1,11 @@
 ---
 title: 的點選追蹤格式 [!DNL Microsoft Advertising]
 description: 瞭解的點選追蹤格式 [!DNL Microsoft Advertising] 帳戶。
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 >
 >* `{TargetId}` 代表a)關鍵字或b)觸發廣告的關鍵字和再行銷清單（對象） （例如，關鍵字和再行銷清單均使用「kwd-123：aud-456」，或關鍵字僅使用「kwd-123」）的ID。
 >
->* （可選）您可以將追蹤URL新增至中的產品資料，而不需在帳戶、行銷活動、廣告群組或產品群組層級輸入追蹤範本。 [!DNL Microsoft Merchant Center] 帳戶。 若要這麼做，請納入追蹤URL，連同「」中的值`link`「或」`mobile_link`「自訂欄中的欄位」[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)」在產品摘要中。 「」中的值`bingads_redirect`「欄位會取代」中的值`link`「和」`mobile_link`「欄位。 使用此方法產生的URL不包含任何在Search、Social和Commerce帳戶或行銷活動設定中指定的追蹤引數。
+>* （可選）您可以將追蹤URL新增至中的產品資料，而不需在帳戶、行銷活動、廣告群組或產品群組層級輸入追蹤範本。 [!DNL Microsoft Merchant Center] 帳戶。 若要這麼做，請納入追蹤URL，連同「」中的值`link`「或」`mobile_link`「自訂欄中的欄位」[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)」在產品摘要中。 「」中的值`bingads_redirect`「欄位會取代」中的值`link`「和」`mobile_link`「欄位。 使用此方法產生的URL不包含任何在「搜尋」、「社交」和「Commerce」帳戶或促銷活動設定中指定的追蹤引數。
 
 ## 登陸頁面尾碼（最終URL尾碼）格式
 

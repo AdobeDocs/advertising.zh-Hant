@@ -3,9 +3,9 @@ title: 使用試算表檢閱和編輯位置設定
 description: 瞭解如何使用試算表檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: 管理商家帳戶
 description: 瞭解如何設定及管理商戶中心帳戶的帳戶詳細資料。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員及管理員使用者角色*
 
-搜尋、Social和Commerce可每天下載並顯示廣告商的Google商家中心或Microsoft商家中心帳戶的產品資料。 此外，搜尋、Social和Commerce可以根據商家帳戶的內容自動建立廣告。若要直接在Search、Social和Commerce中使用產品資料，您必須建立包含帳戶存取憑證和存取權的對應帳戶記錄 *已啟用*.
+搜尋、社交和Commerce每天都可以下載並顯示廣告商的Google商家中心或Microsoft商家中心帳戶的產品資料。 此外，搜尋、Social和Commerce可以根據商家帳戶的內容自動建立廣告。若要直接在Search、Social和Commerce中使用產品資料，您必須建立包含帳戶存取憑證和存取權的對應帳戶記錄 *已啟用*.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
    
    -->
 
-   1. (下列專案需要： [!DNL Google Ads] 帳戶；選擇性的 [!DNL Microsoft Advertising] 帳戶)允許搜尋、社交和商務使用存取帳戶 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/)：
+   1. (下列專案需要： [!DNL Google Ads] 帳戶；選擇性的 [!DNL Microsoft Advertising] 帳戶)允許搜尋、社交和Commerce使用存取帳戶 [[!DNL OAuth] 授權通訊協定](https://oauth.net/2/)：
 
       1. ([!DNL Microsoft Advertising] 僅限帳戶)選取 **[!UICONTROL oAuth]**.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save]**.
 
-   下一次每日同步程式後，可在Search、Social和Commerce中使用帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
+   下次進行每日同步程式後，可在Search、Social和Commerce中使用帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
 
 ## 編輯商家帳戶詳細資料 {#edit-merchant-account}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員及管理員使用者角色*
 
-當您停用商家帳戶時，Search、Social和Commerce不會登入帳戶，因此不會擷取更新的產品資料。 帳戶啟用時收集的資料仍會儲存，且使用產品資料建立的現有廣告不會根據摘要範本和摘要資料設定進行更新、暫停或刪除。
+當您停用商家帳戶時，搜尋、社交和Commerce不會登入該帳戶，因此不會擷取更新的產品資料。 帳戶啟用時收集的資料仍會儲存，且使用產品資料建立的現有廣告不會根據摘要範本和摘要資料設定進行更新、暫停或刪除。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** ，隨即開啟以 [!UICONTROL Accounts] 標籤。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 **[!UICONTROL Access Key]：** ([!DNL Microsoft Merchant Center] 僅限開發人員帳戶使用的存取金鑰。
 
-**[!UICONTROL Account Name]：** 在「搜尋」、「社交」和「商務」中顯示的帳戶名稱。
+**[!UICONTROL Account Name]：** 在「搜尋」、「社交」和「Commerce」中顯示的帳戶名稱。
 
 **[!UICONTROL Login]：** 帳戶的登入名稱或ID。
 
@@ -126,15 +126,15 @@ ht-degree: 0%
 
 **[!UICONTROL Confirm Password]：** 帳戶的密碼。
 
-**[!UICONTROL EF Account Type]：** Search、Social和Commerce是否會存取該帳戶：
+**[!UICONTROL EF Account Type]：** 搜尋、社交和Commerce是否存取該帳戶：
 
 * *[!UICONTROL Enabled]* （預設）： Search、Social和Commerce可以登入帳戶以擷取產品資料。
 
-* *[!UICONTROL Disabled]：* Search、Social和Commerce不會登入帳戶，因此不會擷取更新的產品資料。 帳戶啟用時收集的資料仍會儲存，且使用產品資料建立的現有廣告不會根據摘要範本和摘要資料設定進行更新、暫停或刪除。
+* *[!UICONTROL Disabled]：* 搜尋、社交和Commerce未登入帳戶，因此不會擷取更新的產品資料。 帳戶啟用時收集的資料仍會儲存，且使用產品資料建立的現有廣告不會根據摘要範本和摘要資料設定進行更新、暫停或刪除。
 
 **[!UICONTROL Account ID]：** 商家帳戶ID。 如果您只有一個帳戶具有指定的登入資訊，則此值為選用值。
 
-**[!UICONTROL Time Zone]：** 廣告商的時區。 使用為廣告商的搜尋、社交和商務帳戶資訊（建立帳戶時設定）設定的相同時區。 您無法變更現有帳戶的值。
+**[!UICONTROL Time Zone]：** 廣告商的時區。 使用為廣告商的搜尋、社交和Commerce帳戶資訊（建立帳戶時設定）設定的相同時區。 您無法變更現有帳戶的值。
 
 >[!MORELIKETHIS]
 >

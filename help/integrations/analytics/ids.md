@@ -3,9 +3,9 @@ title: 使用的Adobe AdvertisingID [!DNL Analytics]
 description: 使用的Adobe AdvertisingID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ EF ID是不重複權杖，Adobe Advertising會使用它來將活動與線上點�
 
 >[!NOTE]
 >
->EF ID區分大小寫。 如果 [!DNL Analytics] 實作會強制將URL追蹤轉換為小寫，然後Adobe Advertising將無法辨識EF ID。 這將影響Adobe Advertising競標和報告，但不會影響內的Adobe Advertising報告 [!DNL Analytics].
+>EF ID區分大小寫。 如果 [!DNL Analytics] 實作會強制將URL追蹤轉換為小寫，然後Adobe Advertising就無法辨識EF ID。 這會影響Adobe Advertising競標和報告，但不會影響內的Adobe Advertising報告 [!DNL Analytics].
 
 #### [!DNL Google Ads] 搜尋廣告
 
@@ -114,7 +114,7 @@ AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
 
    * DSP客戶：當一般使用者檢視含有Adobe Advertising畫素的顯示廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登入頁面尾碼。
 
-   * 搜尋、社交和商務客戶：
+   * 搜尋、社交和Commerce客戶：
 
       * 的 [!DNL Google Ads] 和 [!DNL Microsoft® Advertising] 帳戶與 [!UICONTROL Auto Upload] 若設定為已啟用帳戶或促銷活動，當一般使用者按一下包含Adobe Advertising畫素的廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼。
 
@@ -128,7 +128,7 @@ AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
 
       * 的 [!DNL Google Campaign Manager 360] 新增標籤，手動插入其他巨集(根據&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md).」
 
-   * 搜尋、社交和商務客戶：
+   * 搜尋、社交和Commerce客戶：
 
       * 針對([!DNL Google Ads] 和 [!DNL Microsoft® Advertising])廣告，請手動將AMO ID引數新增至您的登陸頁面尾碼，最好在 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 除非需要對個別帳戶元件進行不同追蹤。
 
@@ -152,7 +152,7 @@ AMO ID也稱為 `s_kwcid`，有時發音為「[!DNL the squid].」
 
 範例AMO ID： AC！iIMvXqlOa6Nia2lDvtgw！GrVv6o2oV2qQLjQiXLC7
 
-#### 搜尋、社交和商務廣告的AMO ID格式 {#amo-id-format-search}
+#### 搜尋、社交和Commerce廣告的AMO ID格式 {#amo-id-format-search}
 
 這些引數會因廣告網路而異，但下列引數是所有使用者共有的：
 

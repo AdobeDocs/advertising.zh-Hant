@@ -3,9 +3,9 @@ title: 更新的AMO ID (s_kwcid)追蹤代碼 [!DNL Google Ads] 帳戶
 description: 瞭解如何切換至的最新AMO ID追蹤代碼 [!DNL Google Ads] 帳戶。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 開始移轉後，請視需要更新登陸頁面尾碼設定（在某些廣告網路中稱為「最終URL尾碼」）：
 
-   * 當 [!UICONTROL Auto Upload]「功能」已在追蹤設定中啟用，搜尋、社交和商務會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤程式碼。 您不必執行任何動作。
+   * 當 [!UICONTROL Auto Upload]「功能」已在追蹤設定中啟用，搜尋、社交和Commerce會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤代碼。 您不必執行任何動作。
 
    * 當 [!UICONTROL Auto Upload]「功能未啟用，且您沒有使用 [伺服器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)，則您必須在登陸頁面尾碼設定中手動更新AMO ID引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在大量表單中上傳變更來進行。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Google Ads] 編輯者。
 

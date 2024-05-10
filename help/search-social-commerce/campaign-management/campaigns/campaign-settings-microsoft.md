@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft® Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft® Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->對於您上傳目標至廣告網路的混合專案組合，最佳實務是使用符合專案組合目標中轉換目標的行銷活動層級目標。 不過，如果行銷活動目標包含由追蹤的轉換 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤，然後在下列位置新增該標籤： [!DNL Microsoft Advertising] 編輯者，因為它們不會以目標重新上傳至廣告網路。 此外，在 [!DNL Microsoft Advertising] 編輯者請取消選取「包含於轉換中」，移除行銷活動的轉換動作作為帳戶預設目標。
+>對於您上傳目標至廣告網路的混合專案組合，最佳實務是使用符合專案組合目標中轉換目標的行銷活動層級目標。 不過，如果行銷活動目標包含由追蹤的轉換 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤，然後在下列位置新增該標籤： [!DNL Microsoft Advertising] 編輯者，因為它們未使用目標重新上傳至廣告網路。 此外，在 [!DNL Microsoft Advertising] 編輯者請取消選取「包含於轉換中」，移除行銷活動的轉換動作作為帳戶預設目標。
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

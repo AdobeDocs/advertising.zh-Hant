@@ -3,9 +3,9 @@ title: JavaScript程式碼 [!DNL Analytics for Advertising]
 description: JavaScript程式碼 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ JavaScript程式庫由兩行組成，允許 [!DNL Analytics] 和Adobe Advertisin
    | Analytics報表套裝 | 之後的值 `/b/ss/` | | `_les_rsid` |
    | Experience Cloud訪客ID | mid |  | `_les_mid` |
 
-   如果ID值相符，則會確認JavaScript實施。 Adobe Advertising將會傳送 [!DNL Analytics] 伺服器任何點進或檢視的追蹤詳細資訊（如果存在）。
+   如果ID值相符，則會確認JavaScript實施。 Adobe Advertising傳送 [!DNL Analytics] 伺服器任何點進或檢視的追蹤詳細資訊（如果存在）。
 
 #### 如何使用確認程式碼 [!DNL Adobe Experience Cloud Debugger]
 

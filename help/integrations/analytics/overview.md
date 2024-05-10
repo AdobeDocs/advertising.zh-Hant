@@ -3,9 +3,9 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 * 在內使用永久Adobe Advertising瀏覽和點進ID [!DNL Analytics] 以瞭解網站參與度。
 * 利用Analysis Workspace深入瞭解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，其中包括Adobe Advertising促銷活動實體名稱（包括版位和廣告）及其相關量度，例如點按數、曝光數和成本。
 
-使用 [!DNL Analytics] 由於您的付費媒體報告工具為付費媒體，因此貴組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝與未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
+使用 [!DNL Analytics] 由於您的付費媒體報告工具需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝與未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
 [內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 像其他一樣運作 [!DNL eVars]，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
@@ -76,7 +76,7 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 >
 > 您無法從對應計算量度 [!DNL Analytics] Adobe Advertising中。
 
-您的Adobe Advertising團隊將協助您識別適用於付費媒體效能的事件，並將其對應至Adobe Advertising，以便顯示於 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+您的Adobe Advertising團隊將協助您識別適用於付費媒體效能的事件，並將其對應至Adobe Advertising，這些事件會列於 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 請參閱&quot;[Adobe Advertising中的Analytics度量](analytics-data-in-advertising.md)」以取得可用量度的清單。
 

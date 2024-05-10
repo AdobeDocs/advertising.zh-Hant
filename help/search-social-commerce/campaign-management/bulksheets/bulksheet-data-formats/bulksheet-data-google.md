@@ -3,9 +3,9 @@ title: 以下專案的必要大量表單資料： [!DNL Google Ads] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Google Ads] 帳戶。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: 『[!DNL Baidu] 文字廣告設定
 description: 參考設定 [!DNL Baidu] 文字廣告。
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]：** 廣告中顯示的URL。 長度上限為35個單位元組字元。
 
-**[!UICONTROL Mobile Preferred]：** （選用）讓網路嘗試向行動裝置使用者（而非桌上型電腦或平板電腦使用者）顯示廣告或廣告擴充功能。 預設不會啟用選項，且廣告會出現在任何裝置型別上。
+**[!UICONTROL Mobile Preferred]：** （選用）讓網路嘗試向行動裝置使用者（而非桌上型電腦或平板電腦使用者）顯示廣告或廣告擴充功能。 預設不會啟用選項，且廣告可以出現在任何裝置型別上。
 
 >[!NOTE]
 >

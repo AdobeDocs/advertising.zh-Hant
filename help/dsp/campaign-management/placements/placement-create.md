@@ -3,9 +3,9 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       有些欄位有預設值，您可以加以覆寫。
 
-      如果位置指派到的套件具有套件層級的步調，則您的目標和步調設定將反映套件設定。
+      如果位置指派到的套件具有套件層級的步調，則您的目標和步調設定會反映套件設定。
 
    1. （選用）在 [!UICONTROL Geo-Targeting] 區段，縮小要包含或排除的位置。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. （選用）針對您想要為位置建立的每個額外廣告，按一下 **[!UICONTROL Attach Another Ad]**，然後重複步驟1至3。
 
-         1. 如果您不附加任何現有的廣告，請按一下 **[!UICONTROL I'm done for now]**.
+         1. 如果您不打算附加任何現有的廣告，請按一下 **[!UICONTROL I'm done for now]**.
 
       * 若要在行銷活動中附加現有廣告：
 

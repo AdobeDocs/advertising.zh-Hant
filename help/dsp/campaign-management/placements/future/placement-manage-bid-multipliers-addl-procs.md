@@ -2,7 +2,7 @@
 title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯指定位置目標的競標乘數。
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
      >[!NOTE]
      >
-     >如果您將欄位留空，則會刪除該目標型別的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >如果您將欄位留空，則會刪除該目標型別的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. 按一下 **[!UICONTROL CSV Edit]** 在右上角。
 

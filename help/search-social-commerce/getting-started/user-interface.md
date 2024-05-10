@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 主功能表
 
-* **[!UICONTROL Search]**  — 在Search、Social和Commerce中管理您的廣告網路帳戶，包括Search、Social和Commerce正在追蹤但不競標帳戶。
+* **[!UICONTROL Search]**  — 在「搜尋」、「社交」和「Commerce」中管理您的廣告網路帳戶，包括「搜尋」、「社交」和「Commerce」正在追蹤但不競標帳戶。
 
 ## [!UICONTROL Search] 功能表
 
-在 [!UICONTROL Search] 選項，您會看到下列子功能表。 可用的選項由您的角色決定：
+此 [!UICONTROL Search] 選項包含下列子功能表。 可用的選項由您的角色決定：
 
 * **[!UICONTROL Campaigns]**  — 此功能表包含可檢視和管理您正在管理或追蹤之廣告帳戶和促銷活動的相關資訊的選項。 根據廣告網路和您的角色，您可以建立和編輯帳戶、行銷活動及其元件。 您也可以管理標籤分類，將其指派給各種帳戶元件。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * （適用時）您所管理的廣告商可選清單。
 
-* ![警示通知](/help/search-social-commerce/assets/notifications-panel.png "警示通知") 列出您的搜尋、社交和商務通知的面板。
+* ![警示通知](/help/search-social-commerce/assets/notifications-panel.png "警示通知") 列出您的搜尋、社交和Commerce通知的面板。
 
   當您在 [已透過Adobe Experience Cloud登入](log-in.md)，此面板會顯示您來自Experience Cloud的通知。
 

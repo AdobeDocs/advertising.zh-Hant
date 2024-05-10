@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics轉換追蹤
 description: 瞭解如何在Adobe Advertising中對您的行銷活動使用Adobe Analytics轉換追蹤。
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
-> 搜尋、社交和商務廣告商帳戶中的時區， [!DNL Analytics] 報表套裝，且廣告網路帳戶必須相符。 如果兩者不符，系統間就會出現資料差異。
+> 搜尋、社交和Commerce廣告商帳戶中的時區， [!DNL Analytics] 報表套裝，且廣告網路帳戶必須相符。 如果兩者不符，系統間就會發生資料差異。
 
 ## 實施概述
 
-1. 在 [!DNL Analytics]，您的搜尋、社交和商務實作團隊會修改每個報表套裝的下列組態設定：
+1. 在 [!DNL Analytics]，您的搜尋、社交和Commerce實作團隊會修改每個報表套裝的下列組態設定：
 
    * 的有效期 `ef_id` [!DNL eVar] 已變更，以符合廣告商的Adobe Advertising點按回顧期間。
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 
    * 用於最佳化的標準和自訂事件。
 
-1. 在Search、Social和Commerce中，您的實作團隊：
+1. 在「搜尋」、「社交」和「Commerce」中，您的實作團隊：
 
-   1. 將現有的廣告網路帳戶階層同步至「搜尋」、「社交」和「商務」。
+   1. 將現有的廣告網路帳戶階層同步至搜尋、社交和Commerce。
 
    1. 使用&quot;新增重新導向`ef_id`&quot; token傳遞至追蹤URL並將它們張貼至廣告網路。
 
    此步驟會在重新導向前附加至Adobe Advertising追蹤伺服器（以下步驟除外） [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 在支援平行追蹤的瀏覽器中新增廣告)，並在廣告點選時將動態填入的「ef_id」引數新增至URL。 平行追蹤套用時，一般使用者會直接從您的廣告傳送至您的最終URL，而您的追蹤範本URL （包含點選測量）會載入背景。
 
-整合完成後，Search、Social和Commerce會自動接收中追蹤的所有頁面上的事件資料 [!DNL Analytics] 針對已設定的報表套裝。
+整合完成後，搜尋、Social和Commerce會自動接收中追蹤的所有頁面上的事件資料 [!DNL Analytics] 針對已設定的報表套裝。
 
 >[!MORELIKETHIS]
 >

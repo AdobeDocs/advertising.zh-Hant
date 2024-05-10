@@ -2,16 +2,17 @@
 title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # 自訂目標
 
-自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標的套件»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「必須包含有助於實現整體最佳化目標的自訂目標。 您可以建立自訂目標為 *目標* 在 [!DNL Advertising Search, Social, & Commerce].
+自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標的套件»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「必須包含自訂目標，以協助實現整體最佳化目標。 您可以建立自訂目標為 *目標* 在 [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 

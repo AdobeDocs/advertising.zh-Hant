@@ -1,18 +1,18 @@
 ---
 title: 以下專案的必要大量表單資料： [!DNL Microsoft Advertising] 帳戶
 description: 請參考大量表單中必要的標題欄位和資料欄位， [!DNL Microsoft Advertising] 帳戶。
-exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '6888'
+source-wordcount: '6928'
 ht-degree: 0%
 
 ---
 
 # 附錄 — 必要的大量表單資料 [!DNL Microsoft Advertising] 帳戶
 
-若要建立和更新 [!DNL Microsoft Advertising] 大量行銷活動資料，您可以使用特別格式化的搜尋、社交和商務大量表單檔案 [!DNL Microsoft Advertising] 帳戶。 您可以) [產生現有帳戶的批次處理工作表檔案](../bulksheet-download.md) （或b）手動建立(請參閱&quot;[支援的Bulksheet檔案格式](bulksheet-file-formats.md)&quot;，以取得支援的檔案格式的一般資訊)。
+若要建立和更新 [!DNL Microsoft Advertising] 大量行銷活動資料時，您可以使用特別格式化的搜尋、社交和Commerce大量表單檔案 [!DNL Microsoft Advertising] 帳戶。 您可以) [產生現有帳戶的批次處理工作表檔案](../bulksheet-download.md) （或b）手動建立(請參閱&quot;[支援的Bulksheet檔案格式](bulksheet-file-formats.md)&quot;，以取得支援的檔案格式的一般資訊)。
 
 每個大量表單都必須包含標題欄位和所需的對應資料欄位 [您要執行的特定作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) （例如建立廣告）。 當欄位不是必填欄位時，您可以從標題和資料列忽略它。 上傳大量工作表檔案時，會刪除所有自訂欄。
 
@@ -52,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Max Content CPC] | （唯讀，適用於2017年汰除內容網路之前建立的CPC行銷活動）最高每次點按內容成本(CPC)，這是從顯示網路網站為廣告點按付費的最高金額，無論是否包含貨幣符號和標點符號。 |
 | [!UICONTROL Audience Target Method] | （對象廣告群組）是否：<ul><li><i>[!UICONTROL Target and Bid]：</i> 只對與目標對象相關聯且滿足廣告群組任何其他目標的使用者顯示廣告。</li><li><i>[!UICONTROL Bid Only]：</i>即使是不與目標對象相關聯的人，只要他們滿足其他廣告群組層級目標，也能顯示廣告。</li></ul> 不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。 |
 | [!UICONTROL Parent Product Groupings] | 任何父級產品群組的階層。<br><br>範例： `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
-| [!UICONTROL Product Grouping] | 產品群組（例如「brand=acme」或「所有產品」）。<br><br><b>附註：</b><ul><li>當指定的產品群組不存在於父級產品群組階層中時，Search、Social和Commerce會建立階層中所需的任何部分。</li><li>搜尋、Social和Commerce會自動建立&quot;[!UICONTROL All Products]「群組」適用於您在購物行銷活動中建立廣告群組時，且預設競標設為廣告群組預設競標。 搜尋、Social和Commerce會自動建立&quot;[!UICONTROL Everything Else]「產品群組階層的每個層級具有廣告群組預設競價的群組。 您仍然可以明確建立這些預設群組，並排除它們或變更其競標。</li><li>每個廣告群組最多可包含八層產品群組，包括「[!UICONTROL All Products]」和其他7個階層。</li></ul> |
+| [!UICONTROL Product Grouping] | 產品群組（例如「brand=acme」或「所有產品」）。<br><br><b>附註：</b><ul><li>當指定的產品群組不存在於父級產品群組階層中時，Search、Social和Commerce會建立階層中所需的任何部分。</li><li>搜尋、社交和Commerce會自動建立&quot;[!UICONTROL All Products]「群組」適用於您在購物行銷活動中建立廣告群組時，且預設競標設為廣告群組預設競標。 搜尋、社交和Commerce會自動建立&quot;[!UICONTROL Everything Else]「產品群組階層的每個層級具有廣告群組預設競價的群組。 您仍然可以明確建立這些預設群組，並排除它們或變更其競標。</li><li>每個廣告群組最多可包含八層產品群組，包括「[!UICONTROL All Products]」和其他7個階層。</li></ul> |
 | [!UICONTROL Partition Type] | 產品群組的資料分割型別： <i>[!UICONTROL subdivision]</i> （當具有子產品群組時）或 <i>[!UICONTROL unit]</i> （沒有子產品群組時）。 |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | （僅限擴充文字廣告、多媒體廣告、回應式廣告和回應式搜尋廣告）廣告的頭條。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字(例如關鍵字的值、 `{Param2}` 和 `{Param3}` 動態替代變數和ad customizers)。<br><br> 對於回應式搜尋廣告，請使用以下格式插入廣告自訂器，其中「預設文字」是當您的摘要檔案未包含有效值時要插入的選用值： `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>對於展開的文字廣告，需要廣告標題和廣告標題2，並且 [!UICONTROL Ad Title 3] 是選用專案。 [!DNL Microsoft Advertising] 已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。<br><br>對於多媒體廣告、回應式廣告和回應式搜尋廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 為必填欄位，而所有其他廣告標題欄位均為選用欄位。<br><br>若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。<br><br>對於展開的文字廣告以外的所有廣告型別，變更廣告副本將會刪除現有廣告並建立具有相同屬性的新廣告。 |
-| [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | （僅限回應式搜尋廣告；選用）釘選對應廣告標題的位置： `[null]` （無值，因此廣告標題適用於所有職位）、1、2或3。 例如，如果 [!UICONTROL Ad Title Position] 的值為1，則 [!UICONTROL Ad Title] 只會出現在位置1。 依預設，所有廣告標題皆為空值（沒有值）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。<br><br><b>注意：</b> 您可以將多個廣告標題釘選至相同位置。 廣告網路將使用已釘選至該位置的其中一個廣告標題。 釘選到位置3的標題可能無法與廣告一起顯示。 |
+| [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | （僅限擴充文字廣告、多媒體廣告、回應式廣告和回應式搜尋廣告）廣告的頭條。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字(例如關鍵字的值、 `{Param2}` 和 `{Param3}` 動態替代變數和ad customizers)。<br><br> 對於回應式搜尋廣告，請使用以下格式插入廣告自訂器，其中「預設文字」是當您的摘要檔案未包含有效值時要插入的選用值： `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>對於展開的文字廣告，需要廣告標題和廣告標題2，並且 [!UICONTROL Ad Title 3] 是選用專案。 [!DNL Microsoft Advertising] 已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。<br><br>對於多媒體廣告、回應式廣告和回應式搜尋廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 為必填欄位，而所有其他廣告標題欄位均為選用欄位。<br><br>若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。<br><br>對於展開的文字廣告以外的所有廣告型別，變更廣告副本將會刪除現有廣告並建立具有相同屬性的新廣告。 |
+| [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | （僅限回應式搜尋廣告；選用）釘選對應廣告標題的位置： `[null]` （無值，因此廣告標題適用於所有職位）、1、2或3。 例如，如果 [!UICONTROL Ad Title Position] 的值為1，則 [!UICONTROL Ad Title] 只能出現在位置1。 依預設，所有廣告標題皆為空值（沒有值）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。<br><br><b>注意：</b> 您可以將多個廣告標題釘選至相同位置。 廣告網路使用已釘選至該位置的其中一個廣告標題。 釘選到位置3的標題可能無法與廣告一起顯示。 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | （僅限文字廣告、動態搜尋廣告、多媒體廣告、回應式廣告、回應式搜尋廣告，以及增強型促銷活動層級的網站連結）廣告內文或網站連結。<br><br>若為網站連結，可選擇同時使用兩者 [!UICONTROL Description Line 1] 和 [!UICONTROL Description Line 2] 以包含廣告網路可能顯示在連結文字下方的額外文字。 每個說明欄位最多可包含35個單位元組或17個雙位元組字元。<br><br>對於廣告，每個說明欄位的長度上限為90個字元或45個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂者的值）。<br><br>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器，其中預設文字是當您的摘要檔案未包含有效值時要插入的選用值： `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>文字廣告和動態搜尋廣告需要說明第1行，而且 [!UICONTROL Description Line 2] 是選用專案。<br><br>對於多媒體廣告、回應式廣告和回應式搜尋廣告， [!UICONTROL Description Line 1] 和 [!UICONTROL Description Line 2] 為必要項，且 [!UICONTROL Description Line 3] 和 [!UICONTROL Description Line 4] 是選用專案。<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。<br><br><b>附註：</b><ul><li>（標準文字廣告）組合的標題和文字必須至少有三個字。</li><li>（展開文字廣告）此欄位可選擇包含 {Param2} 和 {Param3} 動態替代變數。 如果超過100個，廣告文字的長度上限為300個單位元組或150個雙位元組字元。 [!DNL Microsoft Advertising] 已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。</li><li>（動態搜尋廣告）不允許動態替代文字。</li><li>對於所有廣告型別（展開的文字廣告除外），變更廣告文案將會刪除現有廣告並建立新廣告。</li></ul> |
-| [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （僅限回應式搜尋廣告；選用）釘選對應說明的位置： `[null]` （沒有值，因此說明適用於所有職位）、1、2或3。 例如，如果 [!UICONTROL Description 1 Position] 值為1，則「說明1」將僅出現在「位置1」中。 依預設，系統不會將任何說明釘選到位置。<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。<br><br><b>注意：</b> 您可以將多個說明釘選到相同位置。 廣告網路將使用已釘選至該位置的其中一個說明。 釘選到位置2的說明可能無法與廣告一起顯示。 |
+| [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （僅限回應式搜尋廣告；選用）釘選對應說明的位置： `[null]` （沒有值，因此說明適用於所有職位）、1、2或3。 例如，如果 [!UICONTROL Description 1 Position] 值為1，則「說明1」只能出現在「位置1」中。 依預設，系統不會將任何說明釘選到位置。<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。<br><br><b>注意：</b> 您可以將多個說明釘選到相同位置。 廣告網路使用已釘選至位置的其中一個說明。 釘選到位置2的說明可能無法與廣告一起顯示。 |
 | [!UICONTROL Business Name] | （僅限多媒體廣告）企業名稱，最多25個字元。 |
 | [!UICONTROL Promotion Line] | （僅限產品清單廣告）搜尋結果中產品清單所包含的不重複促銷明細行（例如「立即免運費！」）。 長度上限為45個字元。<br><br>促銷明細行可能會出現在與廣告相關的不同位置（例如廣告下方），視廣告在頁面上出現的位置而定。 |
 | [!UICONTROL Display URL] | 廣告中包含的URL。<br><br>對於展開的動態搜尋廣告，廣告網路會從網站網域動態產生此值，您不需要輸入值。<br><br>對於展開的文字廣告和回應式搜尋廣告，您不需要輸入值。 顯示URL會自動從最終URL的網域中擷取。 您可以選擇使用「路徑1」和「路徑2」欄位自訂URL。<br><br><b>附註：</b><ul><li>（具有最終URL的帳戶）顯示URL和最終URL中的網域名稱必須相符。</li><li>[!DNL Microsoft Advertising] 已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。</li></ul> |
@@ -68,12 +68,12 @@ ht-degree: 0%
 | [!UICONTROL Call To Action] | 要包含在廣告中的行動號召。 請參閱 [API參考以取得可能值清單](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)，請在大量表單中輸入多個單字的動作呼叫（例如「Bet Now」而非「BetNow」）。 |
 | [!UICONTROL Call To Action Language] | 行動號召選項的語言。 請參閱 [API參考以取得可能的語言清單](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高級別的URL。<br><br>若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
-| [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為Search， Social， &amp; Commerce行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您附加搜尋引擎的特定引數，這些引數可能會取代為搜尋、社交和商務的同等引數。<br><br>若為具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
+| [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您附加搜尋引擎的特定引數，這些引數可能會取代為搜尋、社交和Commerce的同等引數。<br><br>若為具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
 | [!UICONTROL Custom URL Param] | 要取代的資料 `{custom_code}` 當變數納入搜尋帳戶或促銷活動設定的追蹤引數中時的動態變數。 若要在追蹤URL中插入自訂值，您必須使用「產生追蹤URL」選項上傳大量表單檔案。 |
 | [!UICONTROL Creative Type] | 廣告格式： <i>[!UICONTROL Dynamic Search Ad]</i>， <i>[!UICONTROL Expanded Text Ad]</i>， <i>[!UICONTROL Expanded Dynamic Search Ad]</i>， <i>[!UICONTROL Multimedia Ad]</i>， <i>[!UICONTROL Product Ad]</i> （購物廣告），或 <i>[!UICONTROL Responsive Search Ad]</i>，或 <i>[!UICONTROL Text ad]</i>. 新廣告的預設為 <i>[!UICONTROL Text ad]</i>. |
 | [!UICONTROL Ad Group Start Date] | 可以在廣告商的時區中，以下列格式之一對廣告群組提出競標的第一個日期： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 若為新廣告群組，預設值為目前日期。 |
-| [!UICONTROL Ad Group End Date] | 可能為廣告群組下標的最後日期（在廣告商的時區中且以下列格式之一）： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 如果是新廣告群組，預設值為 [空白] （亦即無結束日期）。 |
-| [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。<br><br>對於協力廠商重新導向和追蹤，請輸入值。<br><br>如需可指出追蹤範本中最終URL的引數清單，請參閱 [!DNL Microsoft Advertising] 檔案。<br><br> 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Ad Group End Date] | 可能為廣告群組下標的最後日期，在廣告商的時區及以下格式之一中： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 如果是新廣告群組，預設值為 [空白] （亦即無結束日期）。 |
+| [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。<br><br>對於協力廠商重新導向和追蹤，請輸入值。<br><br>如需可指出追蹤範本中最終URL的引數清單，請參閱 [!DNL Microsoft Advertising] 檔案。<br><br> 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱&quot;[的點選追蹤格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).」<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用 [!DNL Microsoft Advertising] 編輯者。 |
 | 搜尋網路狀態 | 是否要將廣告群組的廣告放置在「搜尋網路」的各種元素上：<ul><li><i>全部：</i> 在所有Bing搜尋網路和聯合搜尋合作夥伴上刊登廣告。</li><li><i>OwnedAndOperatedOnly：</i>只在Bing和Yahoo上刊登廣告！ 網站。</li><li><i>SyndicatedSearchOnly：</i> 只在Bing和Yahoo上刊登廣告！ 財團搜尋合作夥伴。</li><li><i>關閉：</i> 只在「內容網路」（而不是「搜尋網路」）上刊登廣告。</li></ul> 若為新廣告群組，預設值為「開啟」。 |
 | [!UICONTROL Content Network Status] | 已棄用 |
@@ -82,8 +82,8 @@ ht-degree: 0%
 | [!UICONTROL Device] | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>[!UICONTROL smartphone]</i>， <i>[!UICONTROL tablet]</i>，或 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | 指定目標型別的競標調整。 例如，如果關鍵字層級的競標為1美元，而智慧型手機的競標調整為50%，則智慧型手機的競標為1.50美元。 依預設，所有目標都會以關鍵字層級的競標來競標。 有效百分比可包括：<ul><li>智慧型手機和平板電腦： -100 （不針對裝置型別競標）以及從–90到900</li><li>案頭：從0到900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 您偏好顯示廣告或網站連結的裝置型別： <i>[!UICONTROL All]</i> （預設）或 <i>[!UICONTROL Mobile]</i>. 指定「行動」時，網路會嘗試向行動裝置使用者（而非桌上型電腦或平板電腦使用者）顯示廣告或網站連結。 否則，網路會在任何裝置型別上顯示廣告或網站連結。 <b>注意：</b> 網路不保證會在偏好的裝置型別上顯示廣告。 |
-| [!UICONTROL Param2] | 如果關鍵字的基本URL或廣告的標題、說明或基本URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您將使用其中之廣告元素的最大長度（例如，標題1和標題2的合併可能最多為76個字元）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
-| [!UICONTROL Param3] | 如果關鍵字的基本URL或廣告的標題、說明或基本URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您將使用其中之廣告元素的最大長度（例如，標題1和標題2的合併可能最多為76個字元）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Param2] | 如果關鍵字的基本URL或廣告的標題、說明或基本URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度限制（例如，標題1和標題2的合併長度上限為76個字元）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Param3] | 如果關鍵字的基本URL或廣告的標題、說明或基本URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度限制（例如，標題1和標題2的合併長度上限為76個字元）。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Link Name] | 網站連結文字。 此名稱在行銷活動中必須是唯一的。 如果您指定「說明1」和「說明2」，則網站連結文字最多可包含25個單位元組或12個雙位元組字元；否則，網站連結文字最多可包含35個單位元組或17個雙位元組字元。<br><br>[!DNL Microsoft Advertising] 可能會顯示含有說明的二個、四個或六個增強型網站連結，或是含有廣告的四個或六個沒有說明的網站連結。<br><br>您只能在具有現有增強網站連結或沒有網站連結的行銷活動中建立新的增強網站連結。 |
 | [!UICONTROL Campaign Status] | 行銷活動的顯示狀態： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>，或 <i>[!UICONTROL Deleted]</i> （僅限現有行銷活動）。 新行銷活動的預設為 [!UICONTROL Active]. 若要刪除作用中或已暫停的行銷活動，請輸入值 `Deleted`. |
 | [!UICONTROL Ad Group Status] | 廣告群組的顯示狀態： <i>[!UICONTROL Active]</i>， <i>[!UICONTROL Paused]</i>，或 <i>[!UICONTROL Deleted]</i> （僅限現有廣告群組）。 新廣告群組的預設為 [!UICONTROL Active]. 若要刪除作用中或暫停的廣告群組，請輸入值 `Deleted`. |
@@ -108,7 +108,7 @@ ht-degree: 0%
 | 位置ID | 唯一的 [!DNL Microsoft Advertising] 位置目標的識別碼。 若要下載位置清單，請登入 [!DNL Microsoft Advertising] 開發人員入口網站，使用您的 [!DNL Microsoft Advertising] advertising帳戶認證。 只有在您變更或刪除位置目標時才需要，除非列包含&quot;[!UICONTROL AMO ID]」作為目標。 |
 | [!UICONTROL Target ID] | 可識別現有自動目標的唯一ID。 只有在您變更或刪除自動鎖定目標時才為必要，除非該列包含&quot;[!UICONTROL AMO ID]」作為目標。 |
 | [!UICONTROL RLSA Target ID] | 可識別現有行銷活動或廣告群組層級RLSA目標的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1] 只有在您變更或刪除目標或排除專案時才需要，除非該列包含&quot;[!UICONTROL AMO ID]」作為目標。 |
-| [!UICONTROL AMO ID] | （在產生的大量表單中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | （在產生的大量表單中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中，以供參考）顯示來自廣告網路的錯誤訊息（關於列中的資料）預留位置；錯誤訊息包含在 [!UICONTROL EF Errors] 檔案。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中，以供參考）顯示來自廣告網路的錯誤訊息（關於列中的資料）預留位置；錯誤訊息包含在 [!UICONTROL SE Errors] 檔案。 此值未發佈到廣告網路。 |
 | [!UICONTROL Exemption Request] | （包含於產生的大量表單中，以供參考）顯示廣告違反的任何Google廣告原則的名稱和文字的預留位置。 |
@@ -150,7 +150,7 @@ ht-degree: 0%
 | \[廣告商特定標籤分類\] | 可選 |
 | [!UICONTROL Constraints] | 可選 |
 | [!UICONTROL Campaign ID] | 只有在您變更行銷活動名稱時才需要，除非該列包含&quot;[!UICONTROL AMO ID]」作為促銷活動。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 廣告群組欄位
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 | \[廣告商特定標籤分類\] | 可選 |
 | [!UICONTROL Constraints] | 可選 |
 | [!UICONTROL Ad Group ID] | 只有在您變更廣告群組名稱時才需要，除非該列包含&quot;[!UICONTROL AMO ID]」作為廣告群組。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 關鍵字欄位
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Keyword ID] | 只有在編輯或刪除關鍵字時才需要，除非列包含a)足夠的屬性欄以識別關鍵字或b) &quot;[!UICONTROL AMO ID].」 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 動態搜尋廣告欄位
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Ad ID] | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄以識別廣告或b) &quot;[!UICONTROL AMO ID].」 不過，如果您未包含 [!UICONTROL Ad ID] 也不 [!UICONTROL AMO ID]，且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 產品（購物）廣告欄位
 
@@ -252,7 +252,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Ad ID] | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄以識別廣告或b) &quot;[!UICONTROL AMO ID].」 不過，如果您未包含 [!UICONTROL Ad ID] 也不 [!UICONTROL AMO ID]，且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 回應式（多媒體）廣告欄位
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 | [!UICONTROL Acct Name] | 除非每一列包含&quot;，否則為必要[!UICONTROL AMO ID]」作為實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | 如果是回應式廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 是建立廣告的必要欄位，而所有其他廣告標題欄位均為選用欄位。 若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。 |
+| [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | 如果是回應式廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 是建立廣告的必要欄位，而所有其他廣告標題欄位均為選用欄位。 若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | [!UICONTROL Description Line 1] 和 [!UICONTROL Description Line 2] 在建立廣告時需要，以及 [!UICONTROL Description Line 3] 和 [!UICONTROL Description Line 4] 是選用專案。 <b>注意：</b> 對於此廣告型別，變更廣告文案會刪除現有廣告並建立新廣告。 |
 | [!UICONTROL Business Name] | 建立或刪除廣告的必要專案。 |
 | [!UICONTROL Call To Action] | 建立廣告的必要專案。 |
@@ -278,7 +278,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Ad ID] | 只有在您變更廣告狀態時才需要，除非該列包含a)足夠的廣告屬性欄以識別廣告或b) &quot;[!UICONTROL AMO ID].」 不過，如果您未包含 [!UICONTROL Ad ID] 也不 [!UICONTROL AMO ID]，且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 回應式搜尋廣告欄位
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 | [!UICONTROL Acct Name] | 除非每一列包含&quot;，否則為必要[!UICONTROL AMO ID]」作為實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 | |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | 對於回應式搜尋廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 是建立廣告的必要欄位，而所有其他廣告標題欄位均為選用欄位。 若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。 |
+| [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | 對於回應式搜尋廣告， [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]、和 [!UICONTROL Ad Title 3] 是建立廣告的必要欄位，而所有其他廣告標題欄位均為選用欄位。 若要刪除非必要欄位的現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | 可選 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | 對於回應式搜尋廣告， [!UICONTROL Description Line 1] 和 [!UICONTROL Description Line 2] 建立廣告所需，以及 [!UICONTROL Description Line 3] 和 [!UICONTROL Description Line 4] 是選用專案。 若要刪除現有值，請使用值 `[delete]` （包括括弧）。 |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | 可選 |
@@ -323,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Acct Name] | 除非每一列包含&quot;，否則為必要[!UICONTROL AMO ID]」作為實體。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Ad Group Name] | 必填 |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | 唯讀 |
+| [!UICONTROL Ad Title]， [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | 唯讀 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] 唯讀 |
 | [!UICONTROL Display URL] | 唯讀 |
 | [!UICONTROL Display Path 1] | 唯讀 |
@@ -338,7 +338,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Ad ID] | 只有在您變更廣告狀態時才為必要，除非該列包含&quot;[!UICONTROL AMO ID].」 |
-| [!UICONTROL AMO ID] | 除非您包含廣告ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非您包含廣告ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 動態搜尋目標（自動鎖定目標）欄位
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Target ID] | 只有在您變更或刪除自動鎖定目標時才為必要，除非該列包含&quot;[!UICONTROL AMO ID]」作為目標。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 購物產品群組欄位
 
@@ -387,7 +387,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 可選 |
 | [!UICONTROL Product Group ID] | 只有在您變更或刪除產品群組時才需要，除非該列包含a)足夠的屬性欄以識別產品群組或b) &quot;[!UICONTROL AMO ID].」 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 行銷活動層級網站連結欄位
 
@@ -409,7 +409,7 @@ ht-degree: 0%
 | [!UICONTROL Sitelink Status] | 只有在刪除網站連結時才需要。 |
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Sitelink ID] | 只有在您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄以識別網站連結或b) &quot;[!UICONTROL AMO ID].」 不過，如果您未包含 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]  且屬性欄與多個網站連結相符，則只有其中一個網站連結的狀態會變更。<br><br><b>注意：</b> 如果您編輯網站連結屬性欄，但現有網站連結的狀態除外，並且您未包含 [!UICONTROL Sitelink ID] 也不 [!UICONTROL AMO ID]，則會建立新的網站連結，且不會變更現有的網站連結。 |
-| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含實體ID和父項實體ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 位置目標欄位
 
@@ -424,7 +424,7 @@ ht-degree: 0%
 | [!UICONTROL Bid Adjustment] | 可選 |
 | [!UICONTROL Location Status] | 僅刪除位置目標時需要。 |
 | [!UICONTROL Campaign ID] | 可選 |
-| [!UICONTROL AMO ID] | 除非您包含行銷活動ID，否則需要編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非您包含行銷活動ID，否則需要編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 行銷活動層級和廣告群組層級裝置目標欄位
 
@@ -440,7 +440,7 @@ ht-degree: 0%
 | [!UICONTROL Device Target Status] | 僅刪除裝置目標時才需要。 |
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 選用；僅適用於廣告群組層級裝置目標。 |
-| [!UICONTROL AMO ID] | 除非您包含裝置目標ID，否則必須編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非您包含裝置目標ID，否則必須編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 ### 行銷活動層級和廣告群組層級RLSA目標欄位
 
@@ -458,7 +458,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign ID] | 可選 |
 | [!UICONTROL Ad Group ID] | 選用；僅適用於廣告群組層級目標。 |
 | [!UICONTROL RLSA Target ID] | 只有在您變更或刪除目標時才需要，除非列包含&quot;[!UICONTROL AMO ID]」作為目標。 |
-| [!UICONTROL AMO ID] | 除非包含RLSA目標ID，否則必須編輯或刪除資料。<br><br>Search、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
+| [!UICONTROL AMO ID] | 除非包含RLSA目標ID，否則必須編輯或刪除資料。<br><br>搜尋、Social和Commerce會使用值來決定要編輯的正確身分，但不會將ID發佈至廣告網路。 |
 
 >[!MORELIKETHIS]
 >

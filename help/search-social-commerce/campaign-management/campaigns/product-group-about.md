@@ -3,9 +3,9 @@ title: 關於購物產品群組
 description: 瞭解購物行銷活動中的購物產品群組。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ ht-degree: 0%
 
 ## 購物產品群組的追蹤和效能資料
 
-(帳戶/促銷活動具有&quot;[!UICONTROL EF Redirect]「追蹤選項)若要允許搜尋、社交和商務追蹤產品群組的轉換， [使用追蹤URL工具產生產品群組的追蹤URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)，然後執行下列任一項作業：
+(帳戶/促銷活動具有&quot;[!UICONTROL EF Redirect]「追蹤選項)若要允許搜尋、社交和Commerce追蹤產品群組的轉換， [使用追蹤URL工具產生產品群組的追蹤URL](/help/search-social-commerce/tools/click-tracking-url-generate.md)，然後執行下列任一項作業：
 
 * (下列專案需要： [!DNL Google Ads]；的最佳作法 [!DNL Microsoft® Advertising])將追蹤網址新增至 [!DNL Tracking Template] 「帳戶」、「促銷活動」或「產品群組」設定的欄位。 為了便於維護，請儘可能在最高級別新增這些功能。 不包括為帳戶或行銷活動指定的任何附加引數。
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising])只有在產品摘要的自訂欄中未包含「搜尋」、「社交」和「商務」追蹤URL時，才使用此選項。 如果兩者都執行，URL將會包含兩個重新導向，並導致連結損毀。
+  >([!DNL Microsoft® Advertising])只有在產品摘要的自訂欄中未包含「搜尋」、「社交」和「Commerce」追蹤URL時，才使用此選項。 如果兩者都執行，URL將包含兩個重新導向，並導致連結損毀。
 
-* ([!DNL Microsoft® Advertising] 僅限)將追蹤URL新增至中的產品資料 [!DNL Microsoft® Merchant Center] 帳戶。 若要這麼做，請納入追蹤URL，連同 `link` 或 `mobile_link` 欄位（在自訂欄中適當時），稱為 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 在產品資訊源中。 使用此方法產生的URL不包含帳戶中指定的任何追蹤引數，或搜尋、社交和商務內的促銷活動設定。
+* ([!DNL Microsoft® Advertising] 僅限)將追蹤URL新增至中的產品資料 [!DNL Microsoft® Merchant Center] 帳戶。 若要這麼做，請納入追蹤URL，連同 `link` 或 `mobile_link` 欄位（在自訂欄中適當時），稱為 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 在產品資訊源中。 使用此方法產生的URL不包含帳戶中指定的任何追蹤引數，或搜尋、Social和Commerce內的促銷活動設定。
 
 您可以在中檢視產品群組的相關資料 [此 [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 

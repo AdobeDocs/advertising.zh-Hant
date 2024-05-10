@@ -3,9 +3,9 @@ title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣
 description: 瞭解新增原因和方法 [!DNL Analytics for Advertising] 將巨集新增至 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 [ftqs:[AdobeAMO]]
 ```
 
-如果它是基礎URL之後的第一個或唯一查詢字串，請使用將其與基礎URL分開 `?`. 如果基礎URL將包含多個查詢字串，則第一個字串的開頭為 `?` 以及每個後續的字串，都包含 `&`.
+如果它是基礎URL之後的第一個或唯一查詢字串，請使用將其與基礎URL分開 `?`. 如果基礎URL包含多個查詢字串，則第一個字串的開頭會是 `?` 以及每個後續的字串，都包含 `&`.
 
 範例：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-如果它是基礎URL之後的第一個或唯一查詢字串，請使用將其與基礎URL分開 `?`. 如果基礎URL將包含多個查詢字串，則第一個字串的開頭為 `?` 以及每個後續的字串，都包含 `&`.
+如果它是基礎URL之後的第一個或唯一查詢字串，請使用將其與基礎URL分開 `?`. 如果基礎URL包含多個查詢字串，則第一個字串的開頭會是 `?` 以及每個後續的字串，都包含 `&`.
 
 範例：
 

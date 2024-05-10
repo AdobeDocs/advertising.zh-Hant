@@ -1,11 +1,11 @@
 ---
 title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （僅限具有最終/進階URL的帳戶；選用）促銷活動層級的追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 * 若要內嵌最終URL：
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （僅具有最終/進階URL的帳戶）廣告群組層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。
 
-針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 對於協力廠商重新導向和追蹤，請輸入值。 若要指出登入頁面URL：
 
@@ -184,8 +184,8 @@ ht-degree: 0%
 >
 >* 您可以在關鍵字引數之前或之後（但不能同時在這兩處）將逗號分隔值括在括弧中，以手動方式在「關鍵字」欄位中加入多個修飾元值。 例如， `(cheap, discount, affordable)[product]` 會針對每項產品分別產生三個廣告。
 >* 如果您未指定相符型別，則會使用預設相符型別「廣泛」。
-* 不支援負值相符專案。
-* Google廣泛比對修飾詞現在與某些語言的片語比對有相同的比對行為，而且您無法建立新的廣泛比對修飾詞關鍵字。 請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/10286719) 以取得詳細資訊。
+>* 不支援負值相符專案。
+>* Google廣泛比對修飾詞現在與某些語言的片語比對有相同的比對行為，而且您無法建立新的廣泛比對修飾詞關鍵字。 請參閱 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/10286719) 以取得詳細資訊。
 
 **[!UICONTROL Map Only]：** 將任何新廣告新增至廣告群組（或促銷活動） [!DNL Yandex] 帳戶)，而不是建立新的關鍵字。 若要啟用此選項，請選取核取方塊。 啟用此選項後，指定關鍵字中的任何Param 1和Param 2變數都不會套用，因為關鍵字存在。
 
@@ -195,12 +195,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
-* ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作以新增它們。
+>* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
+>* ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作以新增它們。
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
-* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 * 您可以選擇輸入協力廠商重新導向與追蹤。
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** （預設）：僅針對使用範本建立的新關鍵字插入引數值。
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]：** 除了從摘要建立新關鍵字外，「搜尋、Social和商務」也會更新非使用範本建立之廣告群組中所有現有關鍵字的引數值。 輸入用於所有這些關鍵字的單一數值。 範本必須至少包含一個關鍵字。
+* **[!UICONTROL Apply to Existing Keywords: Constant]：** 除了從摘要建立新關鍵字外，「搜尋」、「Social」和「Commerce」也會更新非使用範本建立之廣告群組中所有現有關鍵字的引數值。 輸入用於所有這些關鍵字的單一數值。 範本必須至少包含一個關鍵字。
 
 * **[!UICONTROL Apply to Existing Keywords: Min]：** 除了從摘要建立新關鍵字之外，只要摘要檔案包含引數的數值，而且最多有一個小數點但不含逗號、貨幣符號或代碼，或任何其他字元，Search、Social和Commerce也會更新廣告群組中，所有未使用範本建立的現有關鍵字的引數值。 摘要檔案中的引數最小值會用於所有現有關鍵字。 例如，如果摘要檔案具有 [!UICONTROL Param1] 21500和22000的值，然後 [!UICONTROL Param1] 現有關鍵字的值會變更為21500。 範本必須至少包含一個關鍵字。 **秘訣：** 只有在您已緊密設定廣告群組主題，讓關鍵字擁有相同值是可行的情況下，才應使用此選項。
 
@@ -234,9 +234,9 @@ ht-degree: 0%
 
    * 兩個數字可以用正斜線內嵌。 例如，4/1和0.95/0.45有效。
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 範本\]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您使用它的廣告元素長度上限（例如，廣告標題最多可包含25個字元）。
+**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] 範本\]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param2}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用它的廣告元素長度上限（例如，廣告標題最多可包含25個字元）。
+**[!UICONTROL Param 3]：** ([!DNL Microsoft® Advertising] （僅限範本）在標題、文字、顯示URL或最終URL包含 `{Param3}` 動態替代字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：** 具有指定比對型別或廣告型別的每個關鍵字的初始競標。
 
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 [!DNL Microsoft® Advertising] 和 [!DNL Yahoo! Japan Ads] 已棄用標準文字廣告的建立和編輯。
 
-**[!UICONTROL Base URL]：** （僅限具有目的地URL的帳戶）使用者被帶往的頁面。 其中可能包含協力廠商重新導向和追蹤程式碼。 如果您使用Adobe Advertising轉換追蹤服務，且行銷活動設定包含使用 [!UICONTROL EF Redirect] 並在廣告層級新增追蹤，然後Search、Social和Commerce會自動將自己的重新導向和追蹤程式碼新增至廣告。
+**[!UICONTROL Base URL]：** （僅限具有目的地URL的帳戶）使用者被帶往的頁面。 其中可能包含協力廠商重新導向和追蹤程式碼。 如果您使用Adobe Advertising轉換追蹤服務，且行銷活動設定包含使用 [!UICONTROL EF Redirect] 以及在廣告層級新增追蹤，Search、Social和Commerce會自動將自己的重新導向和追蹤程式碼新增至廣告。
 
 若要將欄名稱或修飾元群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或 [修飾元名稱](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 在 [!UICONTROL Modifiers] 清單。
 
@@ -328,12 +328,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
-* ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作以新增巨集。
+>* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
+>* ([!DNL Google Ads] 帳戶)避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作以新增巨集。
 
 **[!UICONTROL Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
-針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search、Social和Commerce會自動附加重新導向和追蹤程式碼。
+針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」搜尋、Social和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 對於協力廠商重新導向和追蹤，請輸入值。 若要指出登入頁面URL：
 
@@ -345,9 +345,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-* 如果 [!UICONTROL Prefill] 則替代欄位會預先填入原始欄位，您可以視需要加以編輯。
-* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
-* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
+>* 如果 [!UICONTROL Prefill] 則替代欄位會預先填入原始欄位，您可以視需要加以編輯。
+>* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
+>* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
 
 **\[元件\] [!UICONTROL Ad Label Classifications] > \[標籤分類和值\]：** （選用）最多5個現有標籤分類的值，可指派給使用範本建立或編輯的廣告變數。 針對您想要指派標籤分類的每個促銷活動元件：
 
@@ -385,8 +385,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
-* [管理修飾元](../modifiers-manage.md)
-* [管理詳細目錄資料摘要檔案](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [透過範本傳播摘要資料](../feed-data-propagate.md)
-* [從詳細目錄摘要張貼促銷活動資料至廣告網路](../propagated-data-post.md)
+>* [關於使用庫存摘要自動化廣告管理](../inventory-feeds-about.md)
+>* [管理修飾元](../modifiers-manage.md)
+>* [管理詳細目錄資料摘要檔案](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [透過範本傳播摘要資料](../feed-data-propagate.md)
+>* [從詳細目錄摘要張貼促銷活動資料至廣告網路](../propagated-data-post.md)

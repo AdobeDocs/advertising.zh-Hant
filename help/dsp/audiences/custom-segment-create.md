@@ -3,9 +3,9 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 0%
 
       預設期間為45天。 輸入從一(1)到365的值。
 
-   1. 按一下 **[!UICONTROL Advanced]** 若要展開進階設定，然後選取區段標籤要追蹤的使用者識別碼型別：
+   1. 按一下 **[!UICONTROL Advanced]** 若要展開進階設定，然後選取區段標籤追蹤的使用者識別碼型別：
 
       * *[!UICONTROL Cookies]：* （預設）區段標籤會追蹤Cookie。
 
       * [!UICONTROL Universal IDs (Beta)]：
 
-         * *[!UICONTROL ID5]：* 區段標籤將追蹤 [!DNL ID5] ID。 對於傳遞到通用ID的曝光，不會產生任何費用。
+         * *[!UICONTROL ID5]：* 區段標籤追蹤 [!DNL ID5] ID。 對於傳遞到通用ID的曝光，不會產生任何費用。
 
         **[!UICONTROL Terms of Service]：** 使用通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將通用ID用於新ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將取得您的同意，並代表貴組織接受條款。 若要閱讀條款，請按一下 **>**. 若要接受條款，請捲動至條款底端，然後按一下 **[!UICONTROL Accept]**.
 

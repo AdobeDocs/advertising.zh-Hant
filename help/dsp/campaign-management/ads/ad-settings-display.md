@@ -3,9 +3,9 @@ title: 顯示廣告設定
 description: 請參閱顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final Display Code]：** （僅限協力廠商廣告）協力廠商創意資產的URL，如有必要 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 已插入（如果適用）。
 
-**[!UICONTROL Ad Size]：** 廣告的寬度和高度。 它必須是 [支援的標準顯示廣告大小](ad-specs.md). 您可以在上傳廣告前手動輸入廣告大小，或輸入 [!UICONTROL Display Code]. 如果您未輸入廣告大小，上傳的廣告或廣告標籤的維度會自動輸入為唯讀。 請注意，如果尺寸不在標準顯示尺寸內，顯示廣告不會另存新檔 — 例如301x250而不是300x250廣告尺寸。
+**[!UICONTROL Ad Size]：** 廣告的寬度和高度。 它必須是 [支援的標準顯示廣告大小](ad-specs.md). 您可以在上傳廣告前手動輸入廣告大小，或輸入 [!UICONTROL Display Code]. 如果您未輸入廣告大小，上傳的廣告或廣告標籤的維度會自動輸入為唯讀。
 
 >[!IMPORTANT]
 >

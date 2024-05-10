@@ -3,9 +3,9 @@ title: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 description: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ ht-degree: 0%
 
 不過，回顧視窗和歸因模型可在Analytics中設定(透過 [!DNL eVars])和Adobe Advertising中。 此外，在Adobe Advertising中，歸因模型不僅可在廣告商層級（用於競標最佳化）設定，也可在個別資料檢視和報告內設定（僅用於報告目的）。 例如，組織可能偏好使用均勻分佈歸因模型來最佳化，但對Advertising DSP中的報表使用上次接觸歸因，或 [!DNL Advertising Search, Social, & Commerce]. 變更歸因模型會變更已歸因的轉換次數。
 
-如果在一個產品中修改了報表回顧期間或歸因模型，而在另一個產品中修改了報表回顧期間或歸因模型，則來自每個系統的相同報表將顯示不同的資料：
+如果在一個產品中修改了報表回顧期間或歸因模型，而在另一個產品中修改了報表回顧期間或歸因模型，則來自每個系統的相同報表會顯示不同的資料：
 
 * **不同回顧期間所導致的差異範例：**
 
-  假設Adobe Advertising有60天的點選回顧視窗且 [!DNL Analytics] 有30天的回溯期。 並假設使用者透過Adobe Advertising追蹤廣告進入網站，離開，然後在第45天返回並轉換。 Adobe Advertising會將轉換歸因於初始造訪，因為轉換發生在60天回顧期間內。 [!DNL Analytics]但是，無法將此轉換歸因於初始造訪，因為轉換發生在30天的回顧期間過期之後。 在此範例中，Adobe Advertising報告的轉換次數會高於 [!DNL Analytics] 會。
+  假設Adobe Advertising有60天的點選回顧視窗且 [!DNL Analytics] 有30天的回溯期。 並假設使用者透過Adobe Advertising追蹤廣告進入網站，離開，然後在第45天返回並轉換。 Adobe Advertising會將轉換歸因於初始造訪，因為轉換發生在60天回顧期間內。 [!DNL Analytics]但是，無法將此轉換歸因於初始造訪，因為轉換發生在30天的回顧期間過期之後。 在此範例中，Adobe Advertising報告的轉換次數高於 [!DNL Analytics] 會。
 
   ![歸因於Adobe Advertising但不歸因的轉換範例 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **不同歸因模型所導致的差異範例：**
 
-  假設使用者在轉換之前與三個不同的Adobe Advertising廣告互動，且將收入作為轉換型別。 如果Adobe Advertising報表使用均勻分佈模型來歸因，則會將收入平均歸因到所有廣告。 如果 [!DNL Analytics] 不過，會使用上次接觸歸因模型，然後將收入歸因於最後一個廣告。 在以下範例中，Adobe Advertising會將擷取至三個廣告的30美元收入中的平均10美元歸因於每個廣告，而 [!DNL Analytics] 將收入的所有30 USD歸因於使用者看到的最後一個廣告。 當您從Adobe Advertising比較報告與 [!DNL Analytics]，即可預期看出歸因差異的影響。
+  假設使用者在轉換之前與三個不同的Adobe Advertising廣告互動，且將收入作為轉換型別。 如果Adobe Advertising報表使用平均分配模型來歸因，則會將收入平均歸因於所有廣告。 如果 [!DNL Analytics] 不過，會使用上次接觸歸因模型，然後將收入歸因於最後一個廣告。 在以下範例中，Adobe Advertising會將擷取至三個廣告的30美元收入中的平均10美元歸因於每個廣告，而 [!DNL Analytics] 將收入的所有30 USD歸因於使用者看到的最後一個廣告。 當您從Adobe Advertising比較報告與 [!DNL Analytics]，即可預期看出歸因差異的影響。
 
   ![歸因於Adobe Advertising和的其他收入 [!DNL Analytics] 根據不同的歸因模型](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ### 中的潛在不同歸因模型 [!DNL Marketing Channels]
 
-最多 [!DNL Marketing Channels] 報告設定了 [!UICONTROL Last Touch] 上次偵測到的行銷管道會針對歸因指定100%的轉換值。 對使用不同的歸因模型 [!DNL Marketing Channels] 報表和Adobe Advertising報表將導致歸因轉換中的差異。
+最多 [!DNL Marketing Channels] 報告設定了 [!UICONTROL Last Touch] 上次偵測到的行銷管道會針對歸因指定100%的轉換值。 對使用不同的歸因模型 [!DNL Marketing Channels] 報表和Adobe Advertising報表會導致歸因轉換中的差異。
 
 ### 中可能不同的回顧期間 [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 由於頻寬或可用的處理能力較低，在行動裝置上載入的網站也不太可能導致點進，導致載入登陸頁面所需的時間較長。 50-70%的點按不會產生點進次數，這種情況很常見。 在行動環境中，差異可能高達90%，這是由於瀏覽器速度較慢，以及使用者在捲動頁面或嘗試關閉廣告時意外點按廣告的可能性較高。
 
-點按資料也可能會記錄於無法使用目前追蹤機制記錄點進的環境中（例如進入或離開行動應用程式的點按），或廣告商僅針對其部署了一種追蹤方法的環境中（例如使用閱覽JavaScript方法，封鎖第三方Cookie的瀏覽器將追蹤點進，但不會追蹤點進）。 Adobe建議同時部署點選URL追蹤和閱覽JavaScript追蹤方法的一個主要原因，就是為了將可追蹤點進的涵蓋範圍最大化。
+點按資料也可能會記錄於無法以目前追蹤機制記錄點進的環境中（例如進入或離開行動應用程式的點按），或廣告商僅針對其部署了一種追蹤方法（例如使用閱覽JavaScript方法，即封鎖第三方Cookie追蹤點按但不追蹤點進的瀏覽器）。 Adobe建議同時部署點選URL追蹤和閱覽JavaScript追蹤方法的一個主要原因，就是為了將可追蹤點進的涵蓋範圍最大化。
 
 ### 對非Adobe AdvertisingDimension使用Adobe Advertising流量量度
 
 Adobe Advertising為Analytics提供 [廣告專用流量量度和相關維度，來自 [!DNL DSP] 和 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising提供的量度僅適用於指定的Adobe Advertising維度，而且資料不適用於中的其他維度。 [!DNL Analytics].
 
-例如，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 「依帳戶」的量度(這是Adobe Advertising維度)，您就會看到總計 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依帳戶。
+例如，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依帳戶的量度(一個Adobe Advertising維度)，然後是總計 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 會依帳戶顯示。
 
 ![在報表中使用Adobe Advertising維度來Adobe Advertising量度的範例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
@@ -246,7 +246,7 @@ Adobe Advertising為Analytics提供 [廣告專用流量量度和相關維度，�
 
 ### 使用 [!UICONTROL AMO ID Instances] 以非Adobe AdvertisingDimension代替點按
 
-因為您無法使用 [!UICONTROL AMO Clicks] 若使用網站上的維度，您可以找到等同於點按的維度。 您可能會以造訪次數來替代，但這並非最佳選項，因為每位訪客可能會有多次造訪。 (請參閱&quot;[點按與造訪之間的差異](#clicks-vs-visits).」 我們建議改用 [!UICONTROL AMO ID Instances]，即擷取AMO ID的次數。 當 [!UICONTROL AMO ID Instances] 將不符合 [!UICONTROL AMO Clicks] 確切地說，這是測量網站點按流量的最佳選項。 如需詳細資訊，請參閱&quot;[的點進資料驗證 [!DNL Analytics for Advertising]](#data-validation).」
+因為您無法使用 [!UICONTROL AMO Clicks] 若使用網站上的維度，您可以找到等同於點按的維度。 您可能會以造訪次數來替代，但這並非最佳選項，因為每位訪客可能會有多次造訪。 (請參閱&quot;[點按與造訪之間的差異](#clicks-vs-visits).」 我們建議改用 [!UICONTROL AMO ID Instances]，即擷取AMO ID的次數。 當 [!UICONTROL AMO ID Instances] 不符合 [!UICONTROL AMO Clicks] 確切地說，這是測量網站點按流量的最佳選項。 如需詳細資訊，請參閱&quot;[的點進資料驗證 [!DNL Analytics for Advertising]](#data-validation).」
 
 ![範例： [!UICONTROL AMO ID Instances] 而非 [!UICONTROL Adobe Advertising Clicks] 針對不支援的維度](/help/integrations/assets/a4adc-amo-id-instances.png)
 

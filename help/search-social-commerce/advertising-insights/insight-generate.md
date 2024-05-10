@@ -1,11 +1,11 @@
 ---
 title: 產生 [!DNL Advertising Insight]
 description: 瞭解如何建立 [!DNL Advertising Insight].
-exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. 按一下 **[!UICONTROL Generate Insight]**.
 
-   當工作完成或失敗時，您會根據您的電子郵件收到通知 [已設定的通知設定](/help/search-social-commerce/notifications/notification-edit.md) 的 [!UICONTROL Advertising Insights].
+   當工作完成或失敗時，您會根據您的 [已設定的通知設定](/help/search-social-commerce/notifications/notification-edit.md) 的 [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

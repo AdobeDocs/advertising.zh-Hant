@@ -1,11 +1,11 @@
 ---
 title: 關於 [!DNL Google Ads] 動態搜尋目標
 description: 瞭解 [!DNL Google Ads] 動態搜尋目標。
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]僅限帳戶*
 
-動態搜尋目標會定義廣告網路將會使用您網站中的所有頁面或頁面子集，來鎖定您的動態搜尋廣告。 在廣告群組層級設定動態搜尋目標；這些目標會套用至相同廣告群組中的所有動態搜尋廣告。
+動態搜尋目標會定義廣告網路是使用您網站中的所有頁面還是頁面子集，來鎖定您的動態搜尋廣告。 在廣告群組層級設定動態搜尋目標；這些目標會套用至相同廣告群組中的所有動態搜尋廣告。
 
 根據您的行銷活動設定，動態搜尋目標可能是必要或選用的：
 

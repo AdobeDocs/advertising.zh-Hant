@@ -3,9 +3,9 @@ title: 收集來自Advertising DSP行銷活動的點選數和曝光數資料
 description: 瞭解如何使用Audience Manager畫素從Advertising DSP廣告擷取Cookie型曝光次數和點選事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 * `[Audience Manager customer domain]` 是會將曝光或點選事件傳送至的網域名稱 [!DNL Adobe].
 
-* `[source id]` 是ID [資料來源](#set-up-data-source) 其中您將追蹤DSP曝光次數和點選資料。
+* `[source id]` 是ID [資料來源](#set-up-data-source) 其中您可追蹤DSP曝光數及點選數資料。
 
 * `[redirect URL]` 是雙重編碼的重新導向URL。 如果您使用線上編碼工具(例如www.urlencoder.org)，請透過編碼器執行字串並重新編碼結果。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ## 步驟3：實作後工作
 
-實施事件標籤後，資料就會流入Audience Manager資料收集伺服器。 請先完成下列作業，您才可以在報表中使用資料。
+實施事件標籤後，資料會流入Audience Manager資料收集伺服器。 請先完成下列作業，您才可以在報表中使用資料。
 
 ### 建立 [!DNL Amazon S3] 貯體和資料來源
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 ### 建立Audience Manager特徵和區段
 
-您的事件資料將流入Audience Manager，做為 [未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). 手動建立 [規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 從內嵌的資料中，然後建立 [區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) 使用這些特徵，您才能在報表中使用資料。
+您的事件資料會流入Audience Manager，如下所示 [未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). 手動建立 [規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) 從內嵌的資料中，然後建立 [區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) 使用這些特徵，您才能在報表中使用資料。
 
 為在DSP中展示特定創意內容的使用者填入使用者層級資料的特徵範例：
 

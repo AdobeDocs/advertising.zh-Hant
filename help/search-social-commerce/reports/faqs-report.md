@@ -1,11 +1,11 @@
 ---
 title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 當列包含啟用內容的搜尋行銷活動、顯示行銷活動或社交行銷活動（不包含關鍵字）的資料時， [!UICONTROL Keyword] 欄則顯示適用的廣告群組名稱。
 +++
 
-+++由於季節性或市場變化，我的報表會顯示非典型資料。 一旦條件變更，這是否會影響競標？
++++由於季節性或市場變化，我的報表會顯示非典型資料。 一旦條件變更，這是否會影響出價？
 最佳化功能會每天為每個競標單位建立收入模型，以確保它能識別並立即回應趨勢，而且模型會合併長期歷史資料，以協助預測季節性績效。 產品組合的收入模式半衰期設定<!-- add link to glossary? --> 也會決定近期收入資料的加權程度。 最佳實務是在非典型績效期間降低半衰期，但在調整收入模型後增加半衰期。 如果您有需要調整半衰期的問題，請聯絡您的Adobe客戶團隊。
 
 如果您不希望該期間的資料影響未來的出價，則可以選擇從模型中排除這些日期。 請聯絡您的Adobe客戶團隊以排除日期。
@@ -98,7 +98,7 @@ ht-degree: 0%
 +++
 
 +++當點選或收入資料遺失時，我如何防止它影響未來的競標？
-搜尋、社交和商務與廣告網路不同步時，會發生點按資料問題。 請連絡您的Adobe帳戶團隊，以手動同步帳戶。 如果整天的點選資料遺失，請要求您的Adobe帳戶團隊將當天排除在成本模型之外。
+搜尋、社交和Commerce與廣告網路不同步時，會發生點按資料問題。 請連絡您的Adobe帳戶團隊，以手動同步帳戶。 如果整天的點選資料遺失，請要求您的Adobe帳戶團隊將當天排除在成本模型之外。
 
 追蹤或摘要檔案問題可能會導致收入資料問題。 請聯絡您的Adobe客戶團隊以調查問題。 如果一整天的收入資料都遺失，請要求您的Adobe帳戶團隊將該天從收入模型中排除。
 +++
@@ -127,21 +127,21 @@ ht-degree: 0%
 +++
 
 +++效能資料與廣告網路編輯器中的資料不同。
-當廣告網路傳送更新至先前的資料時（通常是因為他們將點選詐騙歸因於某些點選），搜尋、社交和商務不會更新資料，除非差異超過5%並且Adobe帳戶團隊提出請求。
+當廣告網路傳送更新至先前的資料時（通常是因為他們將點選詐騙歸因於某些點選），搜尋、社交和Commerce不會更新資料，除非差異超過5%並且Adobe帳戶團隊提出請求。
 
-此外，當您比較跨日期範圍彙總的曝光比重資料時，搜尋、社交和商務報表的資料可能會與廣告網路報表的資料不同。 這種差異是因為廣告網路的API報告資料的方式，Search、Social和Commerce會使用這些API來提取資料。 例如， [!DNL Google Ads] 資料：
+此外，當您比較某個日期範圍內彙總的曝光比重資料時，搜尋、社交和Commerce報表的資料可能會與廣告網路報表的資料不同。 造成差異的原因在於廣告網路的API報告資料的方式，Search、Social和Commerce會使用這些API來提取資料。 例如， [!DNL Google Ads] 資料：
 
 * 對於大部分的曝光比重量度， [!DNL Google Ads] 對小於10%或大於90%的值所報告的值上限為低端或高端。 &lt;10%的資料報告為0.0999，>90%的資料報告為0.9001
 
-* 當日期範圍內混合有上限和取消上限的資料時，搜尋、Social和商務會使用在API中按原樣傳送的值來彙總曝光分享資料，對小於10%的列使用0.0999，對大於90%的列使用0.9001。 此彙總可能會導致與 [!DNL Google Ads] 預先彙總資料，因為 [!DNL Google Ads] 可以使用實際百分比值，例如7%或97%。
+* 當日期範圍內混合有上限和取消上限的資料時，搜尋、Social和Commerce會使用在API中按原樣傳送的值來彙總曝光分享資料，對小於10%的列使用0.0999，對大於90%的列使用0.9001。 此彙總可能會導致與 [!DNL Google Ads] 預先彙總資料，因為 [!DNL Google Ads] 可以使用實際百分比值，例如7%或97%。
 +++
 
 +++報表中的效能資料與中的資料不同 [!DNL Google Analytics].
 這兩個系統會測量不同的資料，因此您應該會看到不同的資料。 例如：
 
-* 搜尋、社交和商務(和Google廣告)追蹤點按，但 [!DNL Google Analytics] 追蹤每30分鐘瀏覽器工作階段的造訪次數。 例如，如果使用者按一下您的廣告一次，按一下「上一步」按鈕，然後再次按一下廣告，則Search、Social和Commerce會記錄兩次點按，但 [!DNL Google Analytics] 記錄一次造訪。
+* 搜尋、社交和Commerce (以及Google廣告)追蹤點按，但 [!DNL Google Analytics] 追蹤每30分鐘瀏覽器工作階段的造訪次數。 例如，如果使用者按一下您的廣告一次，按一下「上一步」按鈕，然後再次按一下廣告，則Search、Social和Commerce會記錄兩次點按，但 [!DNL Google Analytics] 記錄一次造訪。
 
-* [!DNL Google Analytics] 顯示所有流量資料，而搜尋、社交和商務(以及 [!DNL Google Ads])篩選無效點按（例如過多、重複的點按）。
+* [!DNL Google Analytics] 顯示所有流量資料，而搜尋、社交和Commerce (以及 [!DNL Google Ads])篩選無效點按（例如過多、重複的點按）。
 
 * [!DNL Google Analytics] 包含所有點按的點按和收入資料。 搜尋、Social和Commerce無法追蹤包含不正確或遺失追蹤URL之廣告和關鍵字的點選和收入資料。
 +++
@@ -158,11 +158,11 @@ ht-degree: 0%
 
 *可能的原因：*
 
-* 關鍵字或廣告已新增，但未在追蹤範本或目的地URL中加上搜尋、社交和商務點選追蹤首碼，或追蹤首碼不正確。
+* 關鍵字或廣告已新增，但未在追蹤範本或目的地URL中加上搜尋、社交和Commerce點選追蹤首碼，或追蹤首碼不正確。
 
 * 轉換追蹤標籤並未在所有適用網頁上正確實作或已編輯。
 
-* 搜尋、社交和商務正在追蹤的轉換量度會從報表中排除，因此不可見。
+* 搜尋、社交和Commerce追蹤的轉換量度會從報表中排除，因此不可見。
 
 * 未實作使用者端的收入剖析器。
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 1. 如果檔案已傳送，則 [聯絡客戶服務](/help/search-social-commerce/get-help.md).
 
-   客戶服務將檢查檔案是否已收到並剖析。 如果檔案已順利處理，且未發生錯誤，則會檢查是否有孤立的交易。
+   客戶服務將檢查檔案是否已收到並剖析。 如果檔案已順利處理，且未發生錯誤，則會檢查孤立的交易。
 +++
 
 +++有些進階報表並不包含廣告商摘要所提供的轉換資料。
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 *可能的原因：*
 
-* Cookie過期或刪除時，Search、Social和Commerce會忽略收入，但廣告商可能會將其視為有效收入。
+* 搜尋、Social和Commerce會在Cookie過期或刪除時忽略收入，但廣告商可能會將其視為有效收入。
 
 * 進入廣告商頁面的流量來自書籤或自然搜尋，而不是廣告。
 
@@ -227,9 +227,9 @@ ht-degree: 0%
 
 *可能的解決方案或因應措施：*
 
-1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 將Search、Social和Commerce收到的交易與廣告商的資料進行比較。
+1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 比較Search、Social和Commerce收到的交易與廣告商的資料。
 
-1. 如果部分交易不正確或遺失，請確定相關轉換追蹤標籤已在所有適用網頁上實施，而且除非您的Adobe帳戶團隊建議您這麼做，否則系統不會進行編輯。 如果最近更新了網站，標籤可能會遺失或變更。
+1. 如果部分交易不正確或遺失，請確定相關轉換追蹤標籤已在所有適用網頁上實作，而且除非您的Adobe帳戶團隊建議您這麼做，否則系統不會進行編輯。 如果最近更新了網站，標籤可能會遺失或變更。
 
    搜尋、Social和Commerce預期內的URL格式正確（具有名稱 — 值配對中的引數） `ef_transaction_properties` 變數和 `src` 的元素 `img` 標籤之間。
 
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 *可能的解決方案或因應措施：*
 
-1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 將Search、Social和Commerce收到的交易與廣告商的摘要資料進行比較。
+1. 前往 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 並產生 [!UICONTROL Transaction Report]. 比較Search、Social和Commerce收到的交易與廣告商的摘要資料。
 
 1. 如果報表中缺少摘要檔案中的交易，則檢查離線轉換之前是否發生了具有相同交易ID的線上交易（透過畫素追蹤）。
 
@@ -265,13 +265,13 @@ ht-degree: 0%
 
 *可能的原因：*
 
-* Cookie過期或刪除時，Search、Social和Commerce會忽略收入，但廣告商可能會將其視為有效收入。
+* 搜尋、Social和Commerce會在Cookie過期或刪除時忽略收入，但廣告商可能會將其視為有效收入。
 
 * 進入廣告商頁面的流量來自書籤或自然搜尋，而不是廣告。
 
-* 有 [孤立交易](/help/search-social-commerce/glossary.md#o-p)，因此Search、Social和Commerce不會計算所有應有的收入。
+* 有 [孤立交易](/help/search-social-commerce/glossary.md#o-p)，搜尋、Social和Commerce不會計算所有應有的收入。
 
-* 廣告商已針對一組與他們在摘要中傳送的不同資料驗證「搜尋、社交和商務」報表。
+* 廣告商已針對一組與他們在摘要中傳送不同的資料，驗證搜尋、社交和Commerce報表。
 
 * 交易ID (`ev_transid` 值)、不唯一或不正確。
 
@@ -279,11 +279,11 @@ ht-degree: 0%
 
 * 剖析檔案時發生錯誤。
 
-* 廣告商的重複資料刪除邏輯與搜尋、社交和商務邏輯不同。
+* 廣告商的重複資料刪除邏輯與搜尋、社交和Commerce邏輯不同。
 
 *可能的解決方案或因應措施：*
 
-1. 前往 **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** 並產生 [!UICONTROL Transaction Report]. 將Search、Social和Commerce收到的交易與廣告商的資料進行比較。
+1. 前往 **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** 並產生 [!UICONTROL Transaction Report]. 比較Search、Social和Commerce收到的交易與廣告商的資料。
 
 1. 如果某些交易不正確或遺失，請確定a)摘要檔案包含所有必要的交易ID且沒有重複的追蹤ID，以及b)交易ID是唯一的且正確無誤。
 

@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 您可以在行銷活動、封裝和位置層級設定頻率上限。 DSP會遵循行銷活動階層中最嚴格的頻率上限。
+> 您可以在行銷活動、封裝和位置層級設定頻率上限。 DSP遵循行銷活動階層中最嚴格的頻率上限。
 
 **[!UICONTROL Packages]：** 此 [套件](/help/dsp/campaign-management/packages/package-about.md) 以包含在行銷活動中。 選取現有的封裝和/或建立要包含的封裝。 如果您建立套裝程式，請參閱 [封裝設定](/help/dsp/campaign-management/packages/package-settings.md) 以取得詳細資訊。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]：** 目標的年齡範圍。 視需要使用左右滑桿來縮小範圍。
 
-* **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Nielsen] 僅會測量支援國家/地區的曝光數。
+* **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Nielsen] 衡量僅支援國家/地區的曝光數。
 
 **[!UICONTROL comScore vCE]：** （選用）啟用 [!DNL Comscore validated Campaign Essentials (vCE)] 使用指定設定測量及報告對象驗證。 需額外付費。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]：** 目標的年齡範圍。 視需要使用左右滑桿來縮小範圍。
 
-* **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Comscore] 僅會測量支援國家/地區的曝光數。
+* **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Comscore] 衡量僅支援國家/地區的曝光數。
 
 ### [!UICONTROL 1st Party Metrics]
 

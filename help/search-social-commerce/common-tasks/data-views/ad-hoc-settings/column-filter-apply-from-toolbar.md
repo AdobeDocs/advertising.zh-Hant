@@ -1,9 +1,9 @@
 ---
 title: 從工具列套用資料篩選
 description: 瞭解如何從工具列篩選頁面資料。
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
            根據資料型別，可用的運運算元可能包括 *[!UICONTROL greater than]*， *[!UICONTROL less than]*， *[!UICONTROL equals]*， *[!UICONTROL contains]*， *[!UICONTROL doesn't contain]*， *[!UICONTROL starts with]*， *[!UICONTROL ends with]*， *[!UICONTROL no value]*， *[!UICONTROL has value]*， *[!UICONTROL before]*， *[!UICONTROL after]*，或 *[!UICONTROL no date].*
 
-           **注意：** 文字值不區分大小寫。 例如，如果您依名稱中有「貸款」的行銷活動進行篩選，結果會包含「消費者貸款」和「貸款申請」。
+           **注意：** 文字值不區分大小寫。 例如，如果您依名稱含有「貸款」的行銷活動進行篩選，結果會包含「消費者貸款」和「貸款申請」。
 
          * ([!UICONTROL Ad Groups]， [!UICONTROL Keywords]， [!UICONTROL Product Groups]， [!UICONTROL Placements]、和 [!UICONTROL Auto Targets] 僅限檢視；選用)將設定變更為&quot;[!UICONTROL Include rows with performance data only].」
 

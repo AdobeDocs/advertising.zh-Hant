@@ -1,11 +1,11 @@
 ---
 title: 轉換摘要檔案的檔案需求
 description: 參考轉換摘要檔案的需求。
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 檔案傳輸通訊協定
 
-使用連線埠22，透過SFTP傳輸通訊協定傳送檔案。 您必須提供公開金鑰資訊。  您的Adobe帳戶小組或實作小組將提供您伺服器位置，以及系統傳輸檔案所需的認證。
+使用連線埠22，透過SFTP傳輸通訊協定傳送檔案。 您必須提供公開金鑰資訊。  您的Adobe帳戶團隊或實作團隊會提供您伺服器位置，以及系統傳輸檔案所需的認證。
 
 >[!TIP]
 >
