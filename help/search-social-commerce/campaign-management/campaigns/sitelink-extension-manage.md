@@ -1,11 +1,11 @@
 ---
 title: 管理共用的網站連結
 description: 瞭解如何建立及管理共用網站連結擴充功能。
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 共用的網站連結設定 {#shared-sitelink-settings}
 
-如需網站連結不核准的其他原則及原因，請參閱 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 和 [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) Sitelink擴充功能需求。
+如需網站連結不核准的其他原則及原因，請參閱 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 和 [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) Sitelink擴充功能需求。
 
 ### [!UICONTROL Sitelink]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]：** （可選）追蹤範本或追蹤URL，這會指定所有離登陸網域重新導向和追蹤引數，並將最終/登陸頁面URL內嵌在引數中。 範例： `{lpurl}?source={network}&id=5` 或 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 以包含重新導向。
 
-* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]&quot;和&quot;自動上傳&quot;，搜尋、Social和商務會在您儲存記錄時自動為其自己的點選追蹤程式碼加上前置詞。
+* 針對Adobe Advertising轉換追蹤，此專案會在行銷活動設定包含時套用」[!UICONTROL EF Redirect]&quot;和&quot;自動上傳&quot;、搜尋、Social和Commerce會在您儲存記錄時自動為其自己的點選追蹤程式碼加上前置詞。
 
 * 如需可內嵌最終URL的支援引數，請參閱([!DNL Microsoft Advertising] 僅限) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799) 或([!DNL Google Ads] 僅限) 「可用」區段中的「僅限追蹤範本」引數 [!DNL ValueTrack] 中的引數」 [[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348).
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 當行銷活動設定包括&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，Search， Social， &amp; Commerce會自動加上其重新導向與追蹤程式碼的前置詞。
+>* 當行銷活動設定包括&quot;[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]，」當您儲存記錄時，搜尋、社交和Commerce會自動加上其重新導向和追蹤程式碼的前置詞。
 >* 最精細層級的追蹤範本會覆寫所有較高層級的值。 例如，如果帳戶設定和關鍵字設定都包含值，則會套用關鍵字值。
 >* ([!DNL Google Ads])如果您在網站連結或關鍵字層級更新追蹤範本，則會重新提交相關廣告以供檢閱。 您可以在帳戶、行銷活動或廣告群組層級更新追蹤範本，無需重新提交廣告進行核准。
 >* ([!DNL Microsoft Advertising])您可以在任何層級更新追蹤範本，不需重新提交廣告以供核准。
