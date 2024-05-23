@@ -3,7 +3,7 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
       1. a)按一下 **[!UICONTROL Download Template]** 和編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
 
-         下載的範本包含每個目標型別的一個工作表（例如國家/地區、來源和網站類別）。 只包含具有1.0以外的值的現有競標乘數。
+         下載的試算表包含每個目標型別（例如國家/地區、來源及網站類別）的試算表。 僅包含值&lt; 1.0或> 1.0的現有競標乘數。
 
          * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
 
