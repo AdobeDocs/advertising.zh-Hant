@@ -2,9 +2,9 @@
 title: 管理位置的競標乘數
 description: 瞭解xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      大多數目標類別會在左側列出子類別。 按一下子類別，管理該子類別的競標乘數（如適用）。
 
-   * 若要上傳具有競標倍增值的CSV檔案來覆寫現有值：
+   * 若要上傳具有競標倍增值的CSV檔案來覆寫所有現有值：
 
       1. 按一下 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. a)按一下 **[!UICONTROL Download Template]** 並使用使用者介面中顯示的相同語法和對應的競標倍增值輸入目標，或b)使用相同資訊編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+      1. a)按一下 **[!UICONTROL Download Template]** 和編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+
+         下載的範本包含每個目標型別的一個工作表（例如國家/地區、來源和網站類別）。 只包含具有1.0以外的值的現有競標乘數。
+
+         * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
+
+         * 若要移除競標修飾元，請將競標乘數值設為1.0，或刪除該列的所有資訊。
+
+         ![競標乘數試算表檔案中的範例列](/help/dsp/assets/bid-multiplier-spreadsheet.png "競標乘數試算表檔案中的範例列")
 
       1. 按一下 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 區段，然後a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，以從您的裝置或網路中選取檔案。
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    相同的變更會套用至所有選取的版位。
 
-   * 若要上傳含有競標倍增值的CSV檔案以覆寫現有值：
+* 若要上傳具有競標倍增值的CSV檔案來覆寫所有現有值：
 
-     >[!NOTE]
-     >
-     >如果您將欄位留空，則會刪除該目標型別的所有值。<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. 按一下 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. 按一下 **[!UICONTROL CSV Edit]** 在右上角。
+   1. a)按一下 **[!UICONTROL Download Template]** 和編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
 
-      1. a)按一下 **[!UICONTROL Download Template]** 並編輯競標倍增值，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+      下載的範本包含每個目標型別的一個工作表（例如國家/地區、來源和網站類別）。 只包含具有1.0以外的值的現有競標乘數。
 
-      1. a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，從您的裝置或網路中選取檔案。
+      * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
+
+      * 若要移除競標修飾元，請將競標乘數值設為1.0，或刪除該列的所有資訊。
+
+      ![競標乘數試算表檔案中的範例列](/help/dsp/assets/bid-multiplier-spreadsheet.png "競標乘數試算表檔案中的範例列")
+
+   1. 按一下 **[!UICONTROL CSV Edit]** 在右上角。
+
+   1. a)按一下 **[!UICONTROL Download Template]** 並編輯競標倍增值，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+
+   1. a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，從您的裝置或網路中選取檔案。
 
    1. 按一下 **[!UICONTROL Upload]**.
 
