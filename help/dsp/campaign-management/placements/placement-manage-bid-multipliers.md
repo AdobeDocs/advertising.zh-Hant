@@ -3,9 +3,9 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 2%
 
 1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 手動或上傳具有目標值的CSV檔案來調整合格目標的競標倍數：
+1. 調整合格目標的競標乘數：
 
-   * 若要手動調整競標倍增值，請移至 [目標專屬標籤](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，並編輯位置目標的現有值。 大多數目標類別會在左側列出子類別。 若適用的話，按一下子類別可管理該子類別的競標倍數。
+   * 若要手動調整競標倍增值，請移至 [目標專屬標籤](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，並編輯位置目標的現有值。
+
+     大多數目標類別會在左側列出子類別。 按一下子類別，管理該子類別的競標乘數（如適用）。
 
    * 若要上傳具有競標倍增值的CSV檔案來覆寫現有值：
 
