@@ -3,9 +3,9 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
+source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '613'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,19 @@ ht-degree: 2%
 
      大多數目標類別會在左側列出子類別。 按一下子類別，管理該子類別的競標乘數（如適用）。
 
-   * 若要上傳具有競標倍增值的CSV檔案來覆寫現有值：
+   * 若要上傳具有競標倍增值的CSV檔案來覆寫所有現有值：
 
       1. 按一下 **[!UICONTROL CSV File Edit]** 在右上角。
 
-      1. a)按一下 **[!UICONTROL Download Template]** 並使用使用者介面中顯示的相同語法和對應的競標倍增值輸入目標，或b)使用相同資訊編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+      1. a)按一下 **[!UICONTROL Download Template]** 和編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+
+         下載的範本包含每個目標型別的一個工作表（例如國家/地區、來源和網站類別）。 只包含具有1.0以外的值的現有競標乘數。
+
+         * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
+
+         * 若要移除競標修飾元，請將競標乘數值設為1.0，或刪除該列的所有資訊。
+
+         ![競標乘數試算表檔案中的範例列](/help/dsp/assets/bid-multiplier-spreadsheet.png "競標乘數試算表檔案中的範例列")
 
       1. 按一下 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 區段，然後a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，以從您的裝置或網路中選取檔案。
 
