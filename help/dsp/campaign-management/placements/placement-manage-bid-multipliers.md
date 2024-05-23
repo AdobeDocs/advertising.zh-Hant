@@ -1,24 +1,24 @@
 ---
 title: 管理位置的競標乘數
-description: 瞭解如何建立和編輯指定位置目標的競標乘數。
+description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # 管理位置的競標乘數
 
-您可以使用此功能變更現有位置目標的競標倍數。 您可以一次管理一個位置的競標倍數。<!-- remove that line once we can edit multiple -->
+您可以針對現有的位置目標建立和管理競標乘數，讓競標乘以增減競標。 [符合資格的目標型別](#bid-multiplier-by-target). 您可以手動編輯競標乘數值，或上傳含有值的試算表。
 
-若要變更您的刊登版位選取的目標，請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md).」
+依預設，目標的競標乘數為1.00，這表示不會針對該目標調整競標。 值的範圍介於0.10到10.00之間。例如，競標修飾詞0.5會將6美元的競標降低為3美元(0.5 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+您可以為設定競標乘數（具有1.00以外的值） [目標數目有限](#bid-multiplier-limits-by-target).
+
+此功能可與您現有的位置目標搭配使用。 若要變更您的刊登版位選取的目標，請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md).」
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ ht-degree: 3%
 
 1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 移至每個 [目標專屬標籤](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，並編輯位置目標的現有值。 大多數目標類別會在左側列出子類別。 若適用的話，按一下子類別可管理該子類別的競標倍數。
+1. 手動或上傳具有目標值的CSV檔案來調整合格目標的競標倍數：
 
-   依預設，目標的競標乘數為1.00，這表示不會針對該目標調整競標。 值的範圍介於0.10到10.00之間。例如，競標修飾詞0.5會將6美元的競標降低為3美元(0.5 x 6)。 競標修飾詞絕不會將競標提高到超過最高競標。
+   * 若要手動調整競標倍增值，請移至 [目標專屬標籤](#bid-multiplier-by-target) ([!UICONTROL Geo]， [!UICONTROL Inventory]， [!UICONTROL Sites]， [!UICONTROL Audience]、和 [!UICONTROL Brand Safety])，並編輯位置目標的現有值。 大多數目標類別會在左側列出子類別。 若適用的話，按一下子類別可管理該子類別的競標倍數。
 
-   當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。
+   * 若要上傳具有競標倍增值的CSV檔案來覆寫現有值：
 
-   您可以為設定競標乘數（具有1.00以外的值） [目標數目有限](#bid-multiplier-limits-by-target).
+      1. 按一下 **[!UICONTROL CSV File Edit]** 在右上角。
 
-1. 在右上角，按一下 **[!UICONTROL Save]**.
+      1. a)按一下 **[!UICONTROL Download Template]** 並使用使用者介面中顯示的相同語法和對應的競標倍增值輸入目標，或b)使用相同資訊編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+
+      1. 按一下 **[!UICONTROL Next]** 以移至 [!UICONTROL Upload File] 區段，然後a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，以從您的裝置或網路中選取檔案。
+
+      1. 驗證中已上傳的資料 [!UICONTROL Review & Submit] 區段，然後按一下 **[!UICONTROL Save]**.
 
 ## 適用於競標倍增器的目標型別 {#bid-multiplier-by-target}
 
