@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
 workflow-type: tm+mt
-source-wordcount: '2775'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年5月20日 | 已連線的電視廣告、畫素、重新定位區段 | （開放Beta版；僅開放美國及澳洲使用）您現在可以透過其他廣告重新鎖定接觸CTV促銷活動的受眾區段，以加強跨頻道廣告：<ul><li>設定廣告曝光度區段，並將曝光追蹤標籤複製到所需的CTV位置或廣告，以開始追蹤區段。</li><li>在重新定位位置中，選取 [!UICONTROL Audience Targeting] 區段。</li></ul> | 請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 | 2024年5月2日 | 廣告，畫素 | 您可以下載XLSX （Excel試算表）格式之行銷活動中所有廣告的廣告設定和版位關聯，以便從以下網址檢閱： [!UICONTROL Ad Tools] 檢視。 | 請參閱&quot;[使用試算表檢閱廣告詳細資訊](/help/dsp/campaign-management/ads/ad-qa.md).」 |
 | |  | 此 [!UICONTROL Ad Tools] 檢視> [!UICONTROL Attach Pixels] tab會顯示附加至廣告的第三方追蹤畫素，並提供新的工作流程，以將畫素附加至一或多個廣告，以及將現有畫素分離。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 |  | 版位，對象 | 您現在可以透過大量編輯工具或版位編輯器，從版位中排除個別受眾區段或無法重複使用的受眾。 | 請參閱&quot;[編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
