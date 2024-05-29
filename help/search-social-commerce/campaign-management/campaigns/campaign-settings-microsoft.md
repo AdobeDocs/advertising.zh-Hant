@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和Commerce產品組合時，搜尋、社交和Commerce會最佳化基本競標，當「[!UICONTROL Auto adjust campaign budget limits]&quot;選項已啟用 — 行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和Commerce產生的競標。 **注意：** 只有在廣告網路上追蹤的轉換總數與產品組合目標一致時，才可在產品組合中使用eCPC行銷活動。
 
-* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft Store Ads] 行銷活動；已棄用 [!DNL Microsoft Advertising] 2021年其他促銷活動型別)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
+* *[!UICONTROL Manual CPC]*：(品牌的購物行銷活動； [!DNL Microsoft Store Ads] 行銷活動；其他行銷活動型別已棄用)使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
 
    * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：此選項與使用「[!UICONTROL Enhanced CPC]」選項。
 
