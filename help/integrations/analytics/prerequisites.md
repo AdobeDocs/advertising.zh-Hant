@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
+source-git-commit: 156e64af56e0aa95999210bd0cc8df38ce42690d
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,6 @@ ht-degree: 0%
 * 任何版本的Adobe Analytics (包括 [!DNL Prime]， [!DNL Premium]，或 [!DNL Ultimate])
 * Adobe Analytics： `appMeasurement.js` 版本2.1或更新版本
 * (Advertising DSP客戶)與 [Advertising DSP JavaScript程式碼片段](javascript.md) 已部署在您的網頁中，以追蹤瀏覽次數。
-* 廣告追蹤URL中的AMO ID引數。
-
-  在某些情況下，引數會自動新增至追蹤URL，但您可能需要手動新增。 在「使用的Adobe AdvertisingID」中 [!DNL Analytics]/help/integrations/analytics/ids.md，」請參閱「[實作AMO ID的方式](/help/integrations/analytics/ids.md#amo-id-implement).」
 
 >[!TIP]
 >
