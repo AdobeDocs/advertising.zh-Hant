@@ -3,9 +3,9 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ ht-degree: 0%
 
          1. 複製標示為「 」的頁面檢視追蹤標籤[!UICONTROL Desktop or mobile websites].」
 
+         1. （追蹤的區段標籤） [!DNL ID5] ID)在複製的標籤中，取代 `ID5_PARTNER_ID` 合作夥伴ID為 [!DNL ID5] 指派給您的組織。
+
+            例如，如果您的ID5合作夥伴ID為 `abcde` 而且產生的區段標籤為
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            然後取代 `ID5_PARTNER_ID` 替換為 `abcde` ，以取得下列內容：
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            您的組織在與簽署合約時收到合作夥伴ID [!DNL ID5]. 如果您不知道合作夥伴ID，請聯絡您的Adobe客戶團隊。
+
+            標籤不需要執行此步驟即可追蹤 [!DNL ID5] 向案頭或行動裝置上的廣告單位公開的使用者ID。
+
          1. 為廣告商或網站連絡人提供標籤以進行部署。
 
             廣告商的IT部門或其他群組可能需要排程標籤部署，或接收相關通知。
@@ -89,21 +103,7 @@ ht-degree: 0%
 
          1. 複製標示為「」的曝光追蹤標籤[!UICONTROL Desktop or mobile ads].」
 
-   1. （追蹤的區段標籤） [!DNL ID5] 網頁的桌上型電腦和行動訪客的ID)在複製的標籤中，取代 `ID5_PARTNER_ID` 合作夥伴ID為 [!DNL ID5] 指派給您的組織。
-
-   例如，如果您的ID5合作夥伴ID為 `abcde` 而且產生的區段標籤為
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   然後取代 `ID5_PARTNER_ID` 替換為 `abcde` ，以取得下列內容：
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   您的組織在與簽署合約時收到合作夥伴ID [!DNL ID5]. 如果您不知道合作夥伴ID，請聯絡您的Adobe客戶團隊。
-
-   標籤不需要執行此步驟即可追蹤 [!DNL ID5] 向案頭或行動裝置上的廣告單位公開的使用者ID。
-
-1. 將標籤新增至 [!UICONTROL Pixel] 每個相關廣告的索引標籤或 [!UICONTROL Event Pixels] 的區段 [[!UICONTROL Tracking] 每個相關位置的設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. 將標籤新增至 [!UICONTROL Pixel] 每個相關廣告的索引標籤或 [!UICONTROL Event Pixels] 的區段 [[!UICONTROL Tracking] 每個相關位置的設定](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 實施追蹤標籤後，您即可在任何位置的對象目標或排除專案中使用區段。
 
