@@ -3,9 +3,9 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 針對Adobe Analytics中的測量，您必須：
 
-   1. 全部完成 [實作的先決條件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 和 [追蹤URL中的AMO ID和EF ID](/help/integrations/analytics/ids.md).
+   1. 全部完成 [實作的先決條件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)，並確定 [AMO ID和EF ID](/help/integrations/analytics/ids.md) 正在您的追蹤URL中填入。
 
    1. 在之前或之內將以下引數新增至您的網頁 [以下專案需要JavaScript程式碼： [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)  — 在初始化最後一個事件服務之前的任何位置。
 
