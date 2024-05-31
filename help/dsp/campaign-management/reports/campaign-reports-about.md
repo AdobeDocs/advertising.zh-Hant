@@ -3,7 +3,7 @@ title: Campaign Management檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * [A (詳細資料檢視 [!UICONTROL Inspector])](placement-details-view.md)，顯示位置的所有目標網站、廣告、頻率資料和交易。
 
-* A [刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
