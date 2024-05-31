@@ -3,9 +3,9 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 使用 [!DNL Analytics] 由於您的付費媒體報告工具需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝與未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
-[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 像其他一樣運作 [!DNL eVars]，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+[內的Adobe AdvertisingID [!DNL Analytics]](ids.md) 像其他一樣工作 [!DNL eVars]，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 請參閱&quot;[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)」以取得可用維度的清單。
 
@@ -84,7 +84,7 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 
 Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途的區段 [!DNL Search, Social, & Commerce] 使用原生Experience Cloud的廣告受眾整合，介於 [!DNL Analytics] 和Experience Cloud。
 
-若要存取 [!DNL Analytics] 區段，廣告商帳戶必須具備 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 已啟用。 ID服務啟用時，所有Experience Cloud區段(包括在 [!DNL Analytics] 並發佈至Experience Cloud、在Adobe Audience Manager中建立的區段，以及使用在Experience Cloud中建立的區段 [!DNL People core service]和，在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段)一經處理即可在Adobe Advertising中使用。
+若要存取 [!DNL Analytics] 區段，廣告商帳戶必須啟用 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html). ID服務啟用時，所有Experience Cloud區段(包括在 [!DNL Analytics] 並發佈至Experience Cloud、在Adobe Audience Manager中建立的區段，以及使用在Experience Cloud中建立的區段 [!DNL People core service]和，在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段)一經處理即可在Adobe Advertising中使用。
 
 [!DNL Analytics] 區段可在24小時內提供，並每日更新。
 
@@ -135,6 +135,10 @@ Adobe Advertising可以內嵌 [!DNL Analytics] Advertising DSP和再行銷用途
 ### 使用Adobe AdvertisingID進行網站專案分析
 
 若要瞭解如何建立Adobe Advertising網站專案報表，以監控一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片」[建立Adobe Advertising網站專案報表](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).」
+
+## 如何啟動 [!DNL Analytics for Advertising] 實施
+
+請聯絡您的Adobe客戶團隊，他們將會完成開始所需的初始設定，並將幫助您根據組織的需求規劃實施與資料使用。
 
 >[!MORELIKETHIS]
 >
