@@ -3,7 +3,7 @@ title: 轉換使用者ID來源 [!DNL Tealium] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 606e721d80f30fa3a3546a14f0f876f4338dd30c
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. [建立對象來源](source-create.md) 將對象匯入您的DSP帳戶或廣告商帳戶。 您可以選擇將您的使用者識別碼轉換為任何 [可用的通用ID格式](source-about.md).
 
-   來源設定將包含自動產生的來源金鑰，您將使用該金鑰來準備區段對應資料。
+   來源設定將包含自動產生的來源金鑰，您將會使用它來準備區段對應資料。
 
 1. 建立對象來源後，請將原始程式碼金鑰與 [!DNL Tealium] 使用者。
 
@@ -157,3 +157,7 @@ ht-degree: 0%
 >* [對象來源設定](source-settings.md)
 >* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->

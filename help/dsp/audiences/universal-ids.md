@@ -2,7 +2,7 @@
 title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
-source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -133,3 +133,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 >* [手動匯入已驗證的區段，從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
