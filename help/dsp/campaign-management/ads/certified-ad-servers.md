@@ -3,9 +3,9 @@ title: 認證廣告服務合作夥伴
 description: 檢視所有認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
+source-git-commit: af73b56336b3d676a9bc4f6c02835ef1e12ddda3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | 高影響力外觀（包括Cavai對話式廣告）必須以180x150顯示交易ID提供給整個Inskin庫存網路。 |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50錨點、BYOC、懸浮、Breakout、Breakaway和Sidekick；300x250外流、高聳立顯示器；標準桌上型顯示器（不需要特定廣告外掛程式ID）；視訊錨點（僅限VAST）；CTV via [!DNL Pubmatic]</br></br>請聯絡您的Adobe客戶團隊，以取得設定廣告單位的協助。 |
+| [!DNL Kargo] | | X | | X | 320x50錨點、BYOC、Hover、Breakout、Breakaway、Runtain和Sidekick；300x250外流、高海拔；標準桌上型顯示器（不需要特定廣告外掛程式ID）；視訊錨點（僅限VAST）；CTV via [!DNL Pubmatic]</br></br>請聯絡您的Adobe客戶團隊，以取得設定廣告單位的協助。 |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
