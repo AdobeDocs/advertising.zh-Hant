@@ -3,9 +3,9 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
+source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-* 在您產生區段以追蹤與ID5 ID相關聯的使用者之前，您必須先簽署合約 [!DNL ID5] 並取得貴組織的合作夥伴ID。 如需指示，請聯絡您的Adobe客戶團隊。
+* 在您產生區段以追蹤與ID5 ID相關聯的使用者之前，請先簽署合約 [!DNL ID5] 並取得貴組織的合作夥伴ID。 如需指示，請聯絡您的Adobe客戶團隊。
 
 * 針對Adobe Analytics中的測量，您必須：
 
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+   1. 使用任何瀏覽器偵錯工具來驗證每個呼叫是否起始於網域 `lasteventf-tm.everesttech.net` 並包含引數 `_les_id5` 以加密的ID5 ID作為其值。
 
 ## 建立及實作自訂區段
 

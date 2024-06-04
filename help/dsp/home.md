@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e5a927a4a96dc44db01e000feb67aad8b520adc5
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -76,4 +76,3 @@ ht-degree: 0%
 |  | [!UICONTROL Deal IDs] | 此 [!UICONTROL Deal ID] 使用者介面中的設定和其他位置反映的新品牌 [!DNL Magnite] SSP：<br><ul><li>SSP 」[!DNL Tremor]「 ([!DNL Telaria])現在為「[!DNL Magnite CTV].」</li><li>在接下來的幾週內， [!DNL Rubicon]&quot;將變更為&quot;[!DNL Magnite DV+]，」，其中 [!DNL DV+] 其中代表顯示、視訊和其他格式，例如音訊。</li></ul> | 請參閱&quot;[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).」 |
 |  | [!DNL Freewheel] 程式化預留交易 | 您現在可以提交廣告並檢查廣告的狀態 [!DNL Freewheel] 的程式化預留交易 [!UICONTROL Ads] 檢視。 之前，您只能從 [!UICONTROL Deals] 檢視。 | 請參閱&quot;[提交程式化預留交易的廣告至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 程式化預留交易](/help/dsp/inventory/freewheel-check-status.md).」 |
 | 2021年10月7日 | 說明 | 全部 [DSP和其他Adobe Advertising檔案](https://experienceleague.adobe.com/docs/advertising.html) 於 [!DNL Experience League] 目前以機器翻譯的方式翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」選單。<br>![變更語言](/help/dsp/assets/change-language.png) |
-

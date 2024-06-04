@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 >
 >此欄位僅是基準，不用於決策。
 
-**[!UICONTROL Frequency Cap]：** （僅限具有套件層級步調的套件）不重複裝置或個人的次數(取決於指定的 [!UICONTROL Cross Device Level] （適用於促銷活動），可從套件中提供廣告。 選項包括 *[!UICONTROL Unlimited]* 或每日、周或月的特定金額。
+**[!UICONTROL Frequency Cap]：** （僅限具有套件層級步調的套件）不重複裝置、通用ID或人員(視指定的 [!UICONTROL Cross Device Level] 用於行銷活動和版位的 [!UICONTROL Targeting] 設定)，即可從套件中提供廣告。 選項包括 *[!UICONTROL Unlimited]* 或每日、周或月的特定金額。
 
 >[!NOTE]
 >

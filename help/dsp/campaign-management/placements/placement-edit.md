@@ -3,16 +3,16 @@ title: 編輯版位
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # 編輯版位
 
-您可以一次編輯單一版位或多個版位的設定。
+您可以一次編輯單一版位或多個版位的設定。 一旦位置上線，就無法變更某些設定。
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 

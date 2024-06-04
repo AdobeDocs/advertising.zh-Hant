@@ -1,18 +1,22 @@
 ---
-title: 搭配使用DSP整合的工作流程 [!DNL Tealium]
+title: 轉換使用者ID來源 [!DNL Tealium] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 606e721d80f30fa3a3546a14f0f876f4338dd30c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
 
-# 搭配使用DSP整合的工作流程 [!DNL Tealium]
+# 轉換使用者ID來源 [!DNL Tealium] 至通用ID
 
-您可以從以下位置分享您組織的第一方資料： [!DNL Tealium] 客戶資料平台使用 [!DNL Amazon Web Services] (AWS) firehose聯結器。 要與DSP共用Tealium中的資料有四個步驟：
+*Beta功能*
+
+將DSP整合用於 [!DNL Tealium] 客戶資料平台，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。 程式使用 [!DNL Amazon Web Services] (AWS) firehose聯結器。 請依照下列步驟，與DSP共用Tealium的資料：
+
+1. (若要將電子郵件地址轉換為 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [設定要啟用的追蹤 [!DNL Analytics] 測量](#analytics-tracking).
 
 1. [在DSP中建立對象來源](#source-create).
 
@@ -22,25 +26,45 @@ ht-degree: 0%
 
 1. [複製中的現有聯結器 [!DNL Tealium] 以繼續共用區段](#duplicate-connector).
 
-## 步驟1：在DSP中建立對象來源 {#source-create}
+1. [比較通用ID的數量與雜湊電子郵件地址的數量](#compare-id-count).
 
-* [建立對象來源](source-create.md) 將對象匯入您的DSP帳戶或廣告商帳戶，並與共用原始程式碼金鑰。 [!DNL Tealium] 使用者。
+區段應在24小時內可在DSP中使用，並每24小時重新整理一次。
 
-## 步驟2：準備和共用區段對應資料 {#map-data}
+## 步驟1：設定追蹤 [!DNL Analytics] 測量 {#analytics-tracking}
+
+*廣告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
+
+若要將電子郵件地址轉換為 [!DNL RampIDs] 或 [!DNL ID5] IDs，您必須執行下列動作：
+
+1. （如果您尚未這麼做）全部完成 [實作的先決條件 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 並確保 [AMO ID和EF ID](/help/integrations/analytics/ids.md) 正在您的追蹤URL中填入。
+
+1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
+
+   * **的 [!DNL RampIDs]：** 您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到閱覽的轉換。 請聯絡您的Adobe客戶團隊，他們將會為您提供註冊的相關指示。 [!DNL LiveRamp] [!DNL LaunchPad] 標籤來源 [!DNL LiveRamp] 驗證流量解決方案。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並提供唯一標籤給您的組織，以在您的網頁上實施。
+
+## 步驟2：在DSP中建立對象來源 {#source-create}
+
+1. [建立對象來源](source-create.md) 將對象匯入您的DSP帳戶或廣告商帳戶。 您可以選擇將您的使用者識別碼轉換為任何 [可用的通用ID格式](source-about.md).
+
+   來源設定將包含自動產生的來源金鑰，您將使用該金鑰來準備區段對應資料。
+
+1. 建立對象來源後，請將原始程式碼金鑰與 [!DNL Tealium] 使用者。
+
+## 步驟3：準備和共用區段對應資料 {#map-data}
 
 1. 廣告商必須準備並共用區段對應資料：
 
    1. 廣告商必須準備資料於 [!DNL Tealium]：
 
-      1. 廣告商對象的電子郵件ID必須使用SHA-256演演算法執行雜湊處理。
+      1. 使用SHA-256演演算法雜湊廣告商對象的電子郵件ID。
 
-      1. 包含雜湊電子郵件ID的欄必須對應至訪客ID型別的屬性。
+      1. 將包含雜湊電子郵件ID的欄對應至訪客ID型別的屬性。
 
-      1. 必須使用建立對象 `Tealium_visitor_id` 屬性。 必須套用正確的擴充功能才能觸發對象。 請參閱 [[!DNL Tealium] 有關訪客ID屬性的檔案](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+      1. 使用建立對象 `Tealium_visitor_id` 屬性。 套用正確的擴充功能以觸發對象。 請參閱 [[!DNL Tealium] 有關訪客ID屬性的檔案](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
    1. 廣告商必須提供區段對應資料給Adobe帳戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 
-      * **外部區段索引鍵：** 外部區段索引鍵，您稍後將在中的聯結器動作設定中指定該索引鍵 [!DNL Tealium]. 建議的命名慣例是&quot;`<DSP source key>_<Tealium segment name>`，例如「57bf424dc10_coffee-drinkers」。
+      * **外部區段索引鍵：** 外部區段索引鍵，您稍後將在中的聯結器動作設定中指定該索引鍵 [!DNL Tealium]. 建議的命名慣例是&quot;`<DSP source key>_<Tealium segment name>`，例如「57bf424dc10_coffee-drinkers」。 對於DSP來源金鑰，請使用 [!UICONTROL Source Key] 從DSP對象來源設定。
 
       * **區段名稱：** 區段名稱。
 
@@ -54,7 +78,7 @@ ht-degree: 0%
 
       * **區段視窗：** 區段的存留時間。
 
-## 步驟3：在中建立聯結器 [!DNL Tealium] 共用區段資料 {#tealium-connector}
+## 步驟4：在中建立聯結器 [!DNL Tealium] 共用區段資料 {#tealium-connector}
 
 針對您要共用的每個區段，針對觸發資料變更的每個動作建立個別的聯結器。 例如，若要共用各自有兩個觸發器的兩個區段，請建立四個聯結器。
 
@@ -102,24 +126,34 @@ ht-degree: 0%
 
                * 針對Cookie屬性，為自訂訊息命名 `cookies`.
 
-            1. 在要建立自訂欄位的選項中，在 [!DNL Source Key] 欄位，輸入 [!UICONTROL External Segment Key] 區段對應資料中所包含的其他欄位， [步驟2](#map-data).
+            1. 在要建立自訂欄位的選項中，在 [!DNL Source Key] 欄位，輸入 [!UICONTROL External Segment Key] 這包含在 [區段對應資料](#map-data) 在前一個程式中。
 
                DSP將使用此索引鍵填入您的區段。
 
             1. （建議）建立更新動作以保持區段新鮮。
 
-## 步驟4：複製中的現有聯結器 [!DNL Tealium] 以繼續共用區段 {#duplicate-connector}
+## 步驟5：複製中的現有聯結器 [!DNL Tealium] 以繼續共用區段 {#duplicate-connector}
 
 每個區段只能有一個聯結器，每個聯結器只能有一個區段。
 
 1. 在 [!DNL Tealium]，複製您要建立其他區段的區段，並重新命名新區段。
 
-1. 在 [!DNL Tealium]，複製您在中建立的聯結器 [步驟3](#tealium-connector)，並從「 」重新命名新聯結器`<original name>-copy`」至新區段名稱。
+1. 在 [!DNL Tealium]，複製 [您建立的聯結器](#tealium-connector) ，並將新聯結器重新命名為「`<original name>-copy`」至新區段名稱。
+
+## 步驟6：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
+
+完成所有步驟後，請在對象庫中驗證（您從建立或編輯對象時可使用此對象庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
+
+雜湊電子郵件地址轉譯為通用ID的速率應大於90%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，則應將其轉譯為90個以上的通用ID。 90%或更低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
+
+區段每24小時會重新整理一次。 不過，區段中的包含會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Tealium] 每30天或更短時間。
+
+如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)
->* [建立對象來源以啟用第一方對象](source-create.md)
+>* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
+>* [建立對象來源以啟用通用ID對象](source-create.md)
 >* [對象來源設定](source-settings.md)
->* [搭配使用DSP整合的工作流程 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)

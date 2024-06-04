@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
 + 受眾 {#audiences}
    + [關於對象管理](/help/dsp/audiences/audience-about.md)
-   + 受眾 {#reusable-audiences}
+   + [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
+   + 可重複使用的對象 {#reusable-audiences}
       + [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [檢視區段的追蹤畫素](/help/dsp/audiences/segment-view-pixels.md)
       + [刪除區段](/help/dsp/audiences/segment-delete.md)
    + 來源 {#sources}
-      + [關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)
+      + [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
       + 客戶資料平台的工作流程 {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [搭配使用DSP整合的工作流程 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [啟用通用ID合作夥伴的已驗證區段](/help/dsp/audiences/sources/source-universal-id.md)
-         + [搭配使用DSP整合的工作流程 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [建立對象來源以啟用第一方對象](/help/dsp/audiences/sources/source-create.md)
+         + [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
+      + [建立對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-create.md)
       + [對象來源設定](/help/dsp/audiences/sources/source-settings.md)
+   + [手動匯入已驗證的區段，從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方資料提供者](/help/dsp/audiences/third-party-data-providers.md)
 + 詳細目錄 {#inventory}
    + [庫存功能概觀](/help/dsp/inventory/inventory-overview.md)
