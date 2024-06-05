@@ -2,9 +2,10 @@
 title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
       1. 選取要定位的通用ID型別。
 
-         此設定包含選項»[!UICONTROL Legacy IDs]「和」[!UICONTROL Universal ID]，」其中可能包含子選項「[!UICONTROL ID5]，&quot; &quot;[!UICONTROL RampID]，」和「[!UICONTROL Unified ID2.0].」 實際的子選項由選取的地理目標決定。
+         此設定包含選項»[!UICONTROL Legacy IDs]「和」[!UICONTROL Universal ID]，」其中可能包含子選項「[!UICONTROL ID5]，&quot; &quot;[!UICONTROL RampID]，」和「[!UICONTROL Unified ID2.0].」 選取的地理目標會決定可用的子選項。
 
          您可以同時選取兩者[!UICONTROL Legacy IDs]「和」[!UICONTROL Universal ID]，」，但每個位置只能選取一種型別的通用ID。 當您同時選取舊有ID和通用ID時，會為通用ID指定競標偏好設定。
 
@@ -80,7 +81,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
   請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances)「以取得有關區段計數如何變動的詳細資訊。
 
-* 請勿變更現有的套件和位置。 不過，如果您沒有測試通用ID的遞增預算，請減少原始預算以資助測試。
+* 請勿變更現有的套件和位置。 但是，如果您沒有任何用於測試通用ID的增量預算，請減少原始預算以資助測試。
 
 * 複製原始套件和版位、根據測試大小調整預算、變更要使用的對象 [!DNL RampID] — 型區段（適用於已驗證的使用者）或ID5型區段（適用於未驗證的使用者），並驗證新套件和刊登版位是否會花費完整預算。
 
@@ -96,7 +97,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
      >[!NOTE]
      >
-     >頻率上限適用於個別ID。 當使用者有多個ID型別時，您與該使用者的聯絡可能會超出預期。
+     >頻率上限適用於個別ID。 當使用者有多種ID型別時，您接觸該使用者的次數可能會超出您的預期。
 
 * 請記住，已驗證身分的受眾區段的觸及率自然會小於Cookie型區段的觸及率，而使用其他鎖定目標選項會進一步減少您的觸及率。 謹慎使用精細鎖定目標，尤其是使用AND陳述式連結多個目標。
 
