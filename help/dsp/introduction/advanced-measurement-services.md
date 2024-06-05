@@ -2,9 +2,9 @@
 title: 進階測量解決方案
 description: 請參閱進階測量的可用解決方案清單。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,24 @@ ht-degree: 0%
 
   瞭解家庭層級的行銷活動總觸及率，以及個別熒幕的貢獻。 報表選項包括：
 
+   * 跨ID家庭觸及、頻率和轉換（無索引標籤）
+
+      * 透過無痕跡的ID型別(RampID、ID5)，在多個環境中(包括連線電視(CTV)和數位（案頭、行動裝置、原生和音訊），量化家庭層級的獨特/遞增觸及率、重疊和轉換。
+
+      * 證明測試無Cookie ID在尋找相對於Cookie型區段的增量觸及方面的有效性。
+
    * 平均轉換時間
+
    * 轉換頻率
-   * 連線電視(CTV)報告
+
+   * CTV報告
+
    * CTV應用程式增量
+
    * 跨熒幕報告（數位和CTV）
+
    * Cross-Screen Plus報告（數位、CTV和TV）
+
    * 數位區段內觸及率和頻率
 
 * **以人物為基礎的觸及率和轉換率**
@@ -42,6 +54,11 @@ ht-degree: 0%
    * **跨ID以人物為基礎的觸及率**
 
      量化Cookie和RampID之間的不重複觸及範圍和重疊，以及依ID型別區分的每量度成本。 證明測試RampIDs在尋找多個數位環境（例如桌上型電腦、行動裝置、原生和音訊）中相對於Cookie型區段的遞增觸及率方面的有效性。
+
+* **搜尋報表的光暈效果**
+
+  量化CTV和數位廣告曝光率在CTV應用程式、搜尋關鍵字、搜尋引擎，以及自訂對象和策略層級的家庭層級推動搜尋點選、搜尋轉換和ROAS的影響。
+
 
 * **[!DNL Dynata]基於面板的調查**
 
