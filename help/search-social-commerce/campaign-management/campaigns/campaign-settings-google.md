@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]：* 在顯示網路上顯示廣告。 您必須為每個廣告群組指定位置，並可選擇指定關鍵字。
 
-* *[!UICONTROL Performance Max]：* （Beta版功能）使用顯示和最佳化跨管道廣告轉換 [!DNL Google Ads] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用影片和對象訊號。 [!DNL Google Ads] 自動結合資產，以根據管道提供廣告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
+* *[!UICONTROL Performance Max]：* 使用以下專案顯示並最佳化跨管道廣告轉換 [!DNL Google Ads] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用影片和對象訊號。 [!DNL Google Ads] 自動結合資產，以根據管道提供廣告(例如 [!DNL YouTube]， [!DNL Gmail]，或 [!DNL Search])。
 
   **附註：**
 
