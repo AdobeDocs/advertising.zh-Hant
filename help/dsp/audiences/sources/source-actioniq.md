@@ -2,9 +2,9 @@
 title: 「轉換使用者ID，從 [!DNL ActionIQ] 至通用ID」
 description: 「瞭解如何啟用DSP以擷取您的 [!DNL ActionIQ] 第一方區段。」
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
->* [建立對象來源以啟用通用ID對象](source-create.md)
+>* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [對象來源設定](source-settings.md)
 >* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)

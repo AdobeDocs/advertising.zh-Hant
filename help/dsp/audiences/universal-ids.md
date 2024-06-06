@@ -3,9 +3,9 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 >[!MORELIKETHIS]
 >
->* [建立對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-create.md)
+>* [管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)
 >* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)

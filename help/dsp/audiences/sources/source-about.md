@@ -3,9 +3,9 @@ title: 關於第一方對象來源
 description: 瞭解如何將第一方區段中的其他使用者識別碼轉換為通用ID以用於無cookie目標定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ DSP是整合的 *目的地* 的 [此 [!DNL Adobe Real-Time Customer Data Platfor
 >
 >* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
->* [建立對象來源以啟用通用ID對象](source-create.md)
+>* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [對象來源設定](source-settings.md)
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
