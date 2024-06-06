@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年6月5日 | 版位 | 您現在可以使用試算表一次管理多個位置的競標倍數。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |
+|  | 對象來源 | 您現在可以變更來源對象轉譯成的通用ID型別，並檢視變更記錄。 | 請參閱&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md).」 |
 | 2024年5月22日 | 最佳化，連線電視廣告 | 在具有「最低CPA」和「最高ROAS」最佳化目標的套件中，連線電視廣告的效能模型現在會使用轉換路徑中多個接觸點的資料，以實現更快速、更強大的機器學習。 現有套件已升級為使用多重觸控最佳化，且不需要採取任何動作。 | — |
 | 2024年5月20日 | 已連線的電視廣告、畫素、重新定位區段 | （開放Beta版；僅開放美國及澳洲使用）您現在可以透過其他廣告重新鎖定接觸到連線電視促銷活動的受眾區段，以加強跨頻道廣告：<ol><li>設定廣告曝光度區段，並將曝光追蹤標籤複製到想要的連線電視投放位置或廣告，以開始追蹤區段。</li><li>在重新定位位置中，選取 [!UICONTROL Audience Targeting] 區段。</li></ol> | 請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)「和」[位置設定](/help/dsp/campaign-management/placements/placement-settings.md).」 |
 | 2024年5月2日 | 廣告，畫素 | 您可以下載XLSX （Excel試算表）格式之行銷活動中所有廣告的廣告設定和版位關聯，以便從以下網址檢閱： [!UICONTROL Ad Tools] 檢視。 | 請參閱&quot;[使用試算表檢閱廣告詳細資訊](/help/dsp/campaign-management/ads/ad-qa.md).」 |
