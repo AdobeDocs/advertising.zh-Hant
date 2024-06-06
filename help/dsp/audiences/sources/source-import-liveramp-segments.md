@@ -3,9 +3,9 @@ title: 手動匯入已驗證的區段，從 [!DNL LiveRamp]
 description: 瞭解如何透過啟用已驗證的對象 [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,5 @@ ht-degree: 0%
 >
 >* [關於第一方對象來源](source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [對象來源設定](source-settings.md)
 >* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
