@@ -1,22 +1,20 @@
 ---
 title: 管理廣告網路管理員帳戶的認證
 description: 瞭解如何提供認證給您的 [!DNL Google Ads] 經理帳戶。
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # 管理廣告網路管理員帳戶的認證
 
-*Beta功能*
-
 *[!DNL Google Ads]僅限帳戶*
 
-提供您的憑證給 [!DNL Google Ads] 您希望Search、Social和Commerce將跨帳戶轉換上傳到的管理員帳戶。 如果您想要)上傳，請使用此功能 [!DNL Adobe] — 追蹤、跨帳戶轉換量度至 [!DNL Google Ads] 經理帳戶或b)上傳包含跨帳戶轉換的產品組合目標至 [!DNL Google Ads] 混合最佳化。
+提供您的憑證給 [!DNL Google Ads] 您希望搜尋、社交和Commerce將跨帳戶轉換上傳到的經理帳戶。 如果您想要)上傳，請使用此功能 [!DNL Adobe] — 追蹤、跨帳戶轉換量度至 [!DNL Google Ads] 經理帳戶或b)上傳包含跨帳戶轉換的產品組合目標至 [!DNL Google Ads] 混合最佳化。
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 
@@ -34,7 +32,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL Manager Account ID]** 和 **[!UICONTROL Login Email]** 為必要項。 搜尋、Social和Commerce會自動擷取並儲存用於驗證的帳戶權杖。
 
-   您可以選擇加入 **[!UICONTROL MCC Account Name]** 用於在Search、Social、 &amp; Commerce和帳戶中識別 **[!UICONTROL Password]**. 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
+   您可以選擇加入 **[!UICONTROL MCC Account Name]** 用於在Search、Social和Commerce中識別身分和帳戶 **[!UICONTROL Password]**. 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
 
 1. 按一下 **[!UICONTROL Authenticate]**.
 
@@ -52,7 +50,7 @@ ht-degree: 1%
 
    此 **[!UICONTROL Manager Account ID]** 和 **登入電子郵件** 為必要項。 搜尋、Social和Commerce會自動擷取並儲存用於驗證的帳戶權杖。
 
-   您可以選擇加入 **[!UICONTROL MCC Account Name]** 用於在Search、Social、 &amp; Commerce和帳戶中識別 **[!UICONTROL Password]**. 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
+   您可以選擇加入 **[!UICONTROL MCC Account Name]** 用於在Search、Social和Commerce中識別身分和帳戶 **[!UICONTROL Password]**. 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
 
 1. 按一下 **[!UICONTROL Authenticate]**.
 

@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]：* 在上顯示原生/顯示廣告 [!DNL Microsoft Audience Network]. 您可以a)將行銷活動連結至中的商家中心商店，自動產生摘要型廣告 [!UICONTROL Shopping Settings] 或b)使用文字資產和上傳的影像建立回應式廣告。 這兩個選項都需要您以使用者目標定位來建立廣告群組。
 
-* *[!UICONTROL Shopping Campaigns for Brands]：* （Beta版功能）透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。 若是品牌的購物行銷活動，請使用競標策略 [!UICONTROL Manual CPC]；若是品牌的購物促銷活動，請使用競標策略 [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]：* 透過搜尋和受眾網路中的連結零售商促銷您的產品。 您可以建立子廣告群組和產品群組（要促銷的應用程式），以及促銷活動的選用產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。 若是品牌的購物行銷活動，請使用競標策略 [!UICONTROL Manual CPC]；若是品牌的購物促銷活動，請使用競標策略 [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]：* （Beta版功能）推廣以下網站所提供的應用程式和遊戲： [!DNL Microsoft Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。
+* *[!UICONTROL Microsoft Store Ads Campaign]：* 推廣您的應用程式和遊戲，這些應用程式和遊戲 [!DNL Microsoft Store]. 您可以為行銷活動建立子廣告群組、產品群組和可選產品廣告； [!DNL Microsoft Advertising] 自動為產品群組建立廣告。
 
-* *[!UICONTROL Audience CTV Video]：* （Beta版功能）在對象網路上顯示連線電視(CTV)視訊廣告。
+* *[!UICONTROL Audience CTV Video]：* 在對象網路上顯示連線電視(CTV)影片廣告。
 
-* *[!UICONTROL Audience Video]：* （Beta版功能）在對象網路上顯示標準影片廣告。
+* *[!UICONTROL Audience Video]：* 在對象網路上顯示標準視訊廣告。
 
-* *[!UICONTROL Performance Max]：* （Beta版功能）使用跨所有網路顯示多種廣告型別 [!DNL Microsoft Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
+* *[!UICONTROL Performance Max]：* 顯示跨所有網路的多個廣告型別，使用 [!DNL Microsoft Advertising] 智慧出價。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
 
 ## [!UICONTROL Campaign Details]
 
