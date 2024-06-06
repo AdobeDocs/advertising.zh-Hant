@@ -3,7 +3,7 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 請確定您的網站上已實作正確的、通用ID合作夥伴專用程式碼，以符合站上事件和廣告曝光。 使用您的 [!DNL LiveRamp] 或 [!DNL ID5] 代表性。
 
-* (適用於 [!DNL RampIDs] 和 [!DNL UID 2.0] ID)請確定您的 [DSP資料來源已正確設定](/help/dsp/audiences/sources/source-settings.md)，則會針對產生的受眾區段填入使用者計數。
+* (適用於 [!DNL RampIDs] 和 [!DNL UID 2.0] ID)請確定您的 [DSP資料來源已正確設定](/help/dsp/audiences/sources/source-manage.md#source-settings)，則會針對產生的受眾區段填入使用者計數。
 
 * 如果您的觸及率低於預期，請檢查對象區段邏輯是否不太精細。
 
