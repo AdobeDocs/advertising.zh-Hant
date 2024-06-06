@@ -3,7 +3,7 @@ title: 點選追蹤URL的選用追蹤引數
 description: 瞭解選用的搜尋、社交和Commerce追蹤引數，以及可新增至點選追蹤URL的廣告網路特定追蹤引數。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: f633f2af545f034b08b378653b4b967710402a03
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 | <code>{custom_code}</code> | 若要將上傳大量表單檔案中「自訂URL引數」欄的資料插入追蹤URL。 {custom_code} 只能在追蹤URL中一或多個索引鍵/值組的值結尾使用。 範例：  <code>a={custom_code}</code>； <code>a={ef_campaignid}{custom_code}</code>； <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>注意：</b> 若要將Bulksheet檔案中的自訂值插入追蹤URL，請使用「產生追蹤URL」選項上傳Bulksheet檔案。 如需關於使用Bulksheet檔案的詳細資訊，請參閱&quot;[關於使用大量表單管理行銷活動資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).」 |
 | <code>{ef_uniqueid}</code> | 插入由Adobe Advertising建立的唯一ID。 當追蹤方法為「EF重新導向」時自動新增。 |
 | <code>{ef_userid}</code> | 插入Adobe Advertising指派給廣告商的不重複使用者ID。 |
-| <code>{ef_sid}</code> | 若要插入Search、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft® Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
+| <code>{ef_sid}</code> | 若要插入Search、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i> 的 [!DNL Google Ads]， <i>[!UICONTROL 10]</i> 的 [!DNL Microsoft Advertising]， <i>[!UICONTROL 45]</i> 的 [!DNL Meta]， <i>[!UICONTROL 86]</i> 的 [!DNL Yahoo! Display Network]， <i>[!UICONTROL 87]</i> 的 [!DNL Naver]， <i>[!UICONTROL 88]</i> 的 [!DNL Baidu]， <i>[!UICONTROL 90]</i> 的 [!DNL Yandex]， <i>[!UICONTROL 94]</i> 的 [!DNL Yahoo! Japan Ads]， <i>[!UICONTROL 105]</i> 的 [!DNL Yahoo Native] （已棄用），或 <i>[!UICONTROL 106]</i> 的 [!DNL Pinterest] （已棄用）。 |
 | <code>{ef_searchengine}</code> | 插入廣告網路名稱。 |
 | <code>{ef_campaign}</code> | 插入行銷活動名稱。 |
 | <code>{ef_campaignid}</code> | 插入促銷活動ID。 <b>注意：</b> 直到行銷活動發佈至廣告網路後，才會建立新行銷活動的ID。 如果帳戶使用&quot;[!UICONTROL EF Redirect]」和「自動上傳」選項，然後Adobe Advertising會在隔天自動將促銷活動ID插入相關的目的地URL或最終URL。 如果帳戶未使用&quot;[!UICONTROL EF Redirect]」和 [!UICONTROL Auto Upload]」選項，而您想將促銷活動ID插入相關目的地URL或最終URL中，則必須建立促銷活動；使用「產生追蹤URL」選項下載新促銷活動的大量表單檔案，然後將檔案張貼至廣告網路。 |

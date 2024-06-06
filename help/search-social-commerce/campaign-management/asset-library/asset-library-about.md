@@ -3,16 +3,16 @@ title: 關於 [!UICONTROL Asset Library]
 description: 瞭解您的廣告資產的資產庫。
 feature: Search Campaign Management
 exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 61eccefe29d38f925a6b0d2fc2de9af73b014c74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
 # 關於 [!UICONTROL Asset Library]
 
-<!-- Combine with "Create" page into one page? -->
+<!-- Combine with "Create" page into one page once you can do more than just create/upload. Or still combine them and rename this page; you can't really "manage" assets here, just create/upload and see a list of assets you've previously uploaded (including a preview), but not edit existing uploaded assets or anything on the ad network. -->
 
 *的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 僅限帳戶*
 
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 在 [!UICONTROL Campaigns] > [!UICONTROL Asset Library]，您可以建立可重複使用的影像、視訊和 [!DNL Google Ads] 僅限)文字資產，並將其上傳至您的 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級的資產資料庫。
 
-當您建立或編輯行銷活動時，可以將資產用於廣告：
+當您在Advertising Search中建立或編輯最高成效行銷活動時，您可以從廣告網路專屬資產庫中的所有現有資產（包括您從此上傳的資產）中選取影像、標誌和影片。 您也可以上傳新資產。
 
-* [!DNL Google Ads]：在Advertising Search的效能最高行銷活動設定中，您可以從現有的資產中選取 [!UICONTROL Asset Library] 影像、標誌和視訊專用。 您也可以上傳新資產。
+<!--
+Should all assets on the ad network be listed in Campaigns > Asset Library by now, or just ones created/uploaded from our UI? (Within perf max campaign settings, you can select from all in the ad network's asset library, which should include assets uploaded from our UI. But I'm not sure that this list here is the same.) If all, then mention when they're updated.
 
-* [!DNL Microsoft Advertising]：您可以將上傳的資產新增至內的適用行銷活動 [!DNL Microsoft Advertising] 編輯者。
+-->
 
 >[!MORELIKETHIS]
 >

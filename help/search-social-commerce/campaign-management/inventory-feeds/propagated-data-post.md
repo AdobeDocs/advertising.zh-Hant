@@ -3,7 +3,7 @@ title: 從摘要產生的行銷活動資料張貼至廣告網路
 description: 瞭解如何將詳細目錄資料摘要產生的資料發佈到廣告網路。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 從摘要產生的行銷活動資料張貼至廣告網路
 
-*[!DNL Google Ads]， [!DNL Microsoft® Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
+*[!DNL Google Ads]， [!DNL Microsoft Advertising]， [!DNL Yahoo! Japan Ads] （僅刪除動作），以及 [!DNL Yandex] 僅限帳戶*
 
 您可以在透過相關範本傳播資料時，或以個別程式發佈從摘要產生的促銷活動資料。 發佈資料後，任何現有的傳播資料都會從 [!UICONTROL Campaigns]， [!UICONTROL Ad Groups]， [!UICONTROL Keywords]、和 [!UICONTROL Ads] 清單。
 
