@@ -3,7 +3,7 @@ title: 搭配使用DSP整合 [!DNL Adobe] [!DNL Real-time CDP]
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Adobe] [!DNL Real-time CDP] 第一方區段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
       * **的 [!DNL RampIDs]：** 您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到閱覽的轉換。 請聯絡您的Adobe客戶團隊，他們將會為您提供註冊的相關指示。 [!DNL LiveRamp] [!DNL LaunchPad] 標籤來源 [!DNL LiveRamp] 驗證流量解決方案。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並提供唯一標籤給您的組織，以在您的網頁上實施。
 
-1. [建立對象來源](source-create.md) 將對象匯入您的DSP帳戶或廣告商帳戶。 您可以選擇將您的使用者識別碼轉換為任何 [可用的通用ID格式](source-about.md).
+1. [建立對象來源](source-manage.md) 將對象匯入您的DSP帳戶或廣告商帳戶。 您可以選擇將您的使用者識別碼轉換為任何 [可用的通用ID格式](source-about.md).
 
    來源設定將包含自動產生的來源金鑰，您將在下一個步驟中使用。
 

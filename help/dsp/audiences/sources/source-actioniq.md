@@ -2,7 +2,7 @@
 title: 「轉換使用者ID，從 [!DNL ActionIQ] 至通用ID」
 description: 「瞭解如何啟用DSP以擷取您的 [!DNL ActionIQ] 第一方區段。」
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 步驟1：在DSP中建立對象來源 {#source-create}
 
-1. [建立對象來源](source-create.md) 將受眾匯入您的DSP帳戶或廣告商帳戶，請指定 [通用識別碼格式](source-about.md) 您要將使用者識別碼轉換到哪個位置。
+1. [建立對象來源](source-manage.md) 將受眾匯入您的DSP帳戶或廣告商帳戶，請指定 [通用識別碼格式](source-about.md) 您要將使用者識別碼轉換到哪個位置。
 
 1. 建立對象來源後，請將原始程式碼金鑰與 [!DNL ActionIQ] 使用者。
 
