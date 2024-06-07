@@ -3,9 +3,9 @@ title: 檢視發佈者建議和效能深入分析
 description: 瞭解如何檢視 [!DNL Google Ads] 建議和 [!DNL Microsoft Advertising] 廣告網路帳戶的效能分析。
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 檢視您的發佈者建議和效能深入分析
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帳戶*
-
-*的Beta版功能 [!DNL Microsoft Advertising] 帳戶*
 
 ## 檢視您的發佈者建議
 

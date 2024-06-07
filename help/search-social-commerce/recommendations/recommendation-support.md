@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 關於發佈者建議和深入分析支援
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帳戶*
-
-*的Beta版功能 [!DNL Microsoft Advertising] 帳戶*
 
 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 建議和深入分析是廣告網路的建議，有助於改善行銷活動的效能和效率：
 

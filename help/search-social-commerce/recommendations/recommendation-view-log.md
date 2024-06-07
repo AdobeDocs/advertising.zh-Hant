@@ -3,9 +3,9 @@ title: 檢視帳戶的發行者建議記錄
 description: 瞭解如何檢視已套用的每個建議記錄 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帳戶。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 檢視帳戶的發行者建議
 
 *[!DNL Google Ads]和 [!DNL Microsoft Advertising] 帳戶*
-
-*的Beta版功能 [!DNL Microsoft Advertising] 帳戶*
 
 您可以檢視已套用的每個建議記錄 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帳戶。 資訊包括建議類別、建議型別、受影響的實體、套用建議的使用者以及時間戳記。
 
