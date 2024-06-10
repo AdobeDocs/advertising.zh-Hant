@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,18 @@ ht-degree: 0%
 
 ## 支援的建議型別 [!DNL Google Ads]
 
+<!--
+
+-- Add to "Bidding and budget" section of table
+
+| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
+
+| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
+
+| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
+
+-->
+
 | 建議類別 | 建議型別 | 說明 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (現在稱為&quot;[!DNL Ads and assets]&quot; in [!DNL Google Ads]) | [!UICONTROL Call extension] | 將來電分機新增至行銷活動 |
@@ -51,26 +63,28 @@ ht-degree: 0%
 | | [!UICONTROL Responsive search ad asset] | 將回應式搜尋廣告資產新增至廣告 |
 | | [!UICONTROL Responsive search improve ad strength] | 改善回應式搜尋廣告廣告強度的建議 |
 | | [!UICONTROL Sitelink extension] | 將網站連結擴充功能新增至行銷活動 |
-| | [!UICONTROL Text ad] | 新增廣告建議 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 將動態搜尋廣告移轉至最高成效行銷活動。 |
-| | [!UICONTROL Dynamic image extension opt in] | 為帳戶啟用動態影像延伸模組，允許 [!DNL Google Ads] 機器學習，自動將廣告登陸頁面中最相關的影像附加至廣告。 |
-| | [!UICONTROL Improve performance max ad strength] | 改善最高成效行銷活動的資產群組強度，使其具有「優秀」評等。 |
-| | [!UICONTROL Performance max opt in] | 選擇加入最高成效的行銷活動。 |
+| | [!UICONTROL Text ad] | 新增文字廣告 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 將動態搜尋廣告移轉至最高成效行銷活動 |
+| | [!UICONTROL Dynamic image extension opt in] | 為帳戶啟用動態影像延伸模組，允許 [!DNL Google Ads] 機器學習，自動將廣告登陸頁面中最相關的影像附加至廣告 |
+| | [!UICONTROL Improve performance max ad strength] | 將最大效能行銷活動的資產群組強度改善為「優秀」評等 |
+| | [!UICONTROL Performance max final URL opt in] | 為您的最高成效行銷活動開啟最終URL擴增 |
+| | [!UICONTROL Performance max opt in] | 選擇加入最高成效的行銷活動 |
 | | [!UICONTROL Upgrade local campaign to performance max] | 將舊版本機行銷活動升級為最高效能行銷活動 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 將舊版智慧購物行銷活動升級為最高效能行銷活動 |
-| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 修正受預算限制的行銷活動 |
+| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 針對目前受預算限制的行銷活動建議的預算 |
 | | [!UICONTROL Enhanced CPC opt in] | 競標方式 [!UICONTROL Enhanced CPC] |
-| | [!UICONTROL Forecasting campaign budget] | 修正預計未來會受預算限制的行銷活動 |
+| | [!UICONTROL Forecasting campaign budget] | 針對預期未來會受預算限制的行銷活動建議的預算 |
 | | [!UICONTROL Forecasting set Target ROAS] | 在季節性事件（預測為增加流量）之前提高預算，並從以下變更競標策略 [!UICONTROL Maximize Conversion Value] 至 [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | 調整行銷活動預算以提高ROI |
-| | [!UICONTROL Maximize clicks opt in] | 競標方式 [!UICONTROL Maximize Clicks] |
-| | [!UICONTROL Maximize conversions opt in] | 競標方式 [!UICONTROL Maximize Conversions] |
+| | [!UICONTROL Maximize clicks opt in] | 變更為 [!UICONTROL Maximize Clicks] 競標策略 |
+| | [!UICONTROL Maximize conversion value opt in] | 「轉換值最大化」競標策略的變更 |
+| | [!UICONTROL Maximize conversions opt in] | 變更為 [!UICONTROL Maximize Conversions] 競標策略 |
 | | [!UICONTROL Move unused budget] | 將未使用的預算移至受限的預算 |
 | | [!UICONTROL Raise Target CPA bid too low] | 提升 [!UICONTROL Target CPA] 當轉換次數太低且轉換次數很少或沒有轉換次數時，建議使用此數量 |
-| | [!UICONTROL Target CPA opt in] | 競標方式 [!UICONTROL Target CPA] |
-| | [!UICONTROL Target CPA raising] | 提升 [!UICONTROL Target CPA] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。 |
-| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測。 |
-| | [!UICONTROL Target ROAS opt in] | 競標方式 [!UICONTROL Target ROAS] |
+| | [!UICONTROL Target CPA opt in] | 變更為 [!UICONTROL Target CPA] 競標策略 |
+| | [!UICONTROL Target CPA raising] | 提升 [!UICONTROL Target CPA] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測 |
+| | [!UICONTROL Target ROAS lowering] | 降低 [!UICONTROL Target ROAS] 根據 [!DNL Google Ads] 根據過去的轉換計算出的預測 |
+| | [!UICONTROL Target ROAS opt in] | 變更為 [!UICONTROL Target ROAS] 競標策略 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 透過更新行銷活動以使用顯示展開來擴展觸及範圍 |
 | | [!UICONTROL Keyword] | 新增關鍵字 |
 | | [!UICONTROL Search partners opt in] | 使用擴大觸及率 [!DNL Google] 搜尋合作夥伴 |
