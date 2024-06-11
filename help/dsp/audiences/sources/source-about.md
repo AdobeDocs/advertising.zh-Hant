@@ -3,9 +3,9 @@ title: 關於第一方對象來源
 description: 瞭解如何將第一方區段中的其他使用者識別碼轉換為通用ID以用於無cookie目標定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSP是整合的 *目的地* 的 [此 [!DNL Adobe Real-Time Customer Data Platfor
 
 ### [!DNL ActionIQ]
 
-您可以從以下位置分享您組織的第一方資料： [!DNL Action IQ] 客戶資料平台，搭配DSP將雜湊電子郵件地址轉換為通用ID，以便在DSP中使用目標定位廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+您可以從以下位置分享您組織的第一方資料： [!DNL ActionIQ] 客戶資料平台，搭配DSP將雜湊電子郵件地址轉換為通用ID，以便在DSP中使用目標定位廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+
+### [!DNL Amperity]
+
+您可以從以下位置分享您組織的第一方資料： [!DNL Amperity] 客戶資料平台，搭配DSP將雜湊電子郵件地址轉換為通用ID，以便在DSP中使用目標定位廣告。 如需詳細資訊，請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md).」
+
+### [!DNL Optimizely]
+
+您可以從以下位置分享您組織的第一方資料： [!DNL Optimizely] 客戶資料平台，搭配DSP將雜湊電子郵件地址轉換為通用ID，以便在DSP中使用目標定位廣告。 如需詳細資訊，請參閱&quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md).」
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ DSP是整合的 *目的地* 的 [此 [!DNL Adobe Real-Time Customer Data Platfor
 
 >[!MORELIKETHIS]
 >
->* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
+>* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)
+>* [轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)
+>* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

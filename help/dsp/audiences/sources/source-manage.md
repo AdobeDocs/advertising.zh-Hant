@@ -3,9 +3,9 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*：此 [!DNL ActionIQ] 客戶資料平台。
 
+   * *[!UICONTROL Amperity]*：此 [!DNL Amperity] 客戶資料平台。
+
+   * *[!UICONTROL Optimizely]*：此 [!DNL Optimizely]：此 [!DNL Amperity] 客戶資料平台。
+
    * *[!UICONTROL Tealium CDP]*：（僅限已設定的使用者） [!DNL Tealium] 客戶資料平台。
 
 1. 指定 [!UICONTROL Data Visibility Level]： *[!UICONTROL Advertiser]* 或 *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->在您建立客戶資料平台的來源後，您將需要完成其他步驟。 請參閱 [從匯入對象的工作流程 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 和 [從匯入對象的工作流程 [!DNL Tealium]](source-tealium.md).
+>在您建立客戶資料平台的來源後，您將需要完成其他步驟以匯入對象。 請參閱 [工作流程 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)，<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> 此 [工作流程 [!DNL Amperity]](source-amperity.md)，則 [工作流程 [!DNL Optimizely]](source-optimizely.md)，以及 [工作流程 [!DNL Tealium]](source-tealium.md).
 
 ## 變更對象來源的ID型別
 
@@ -131,6 +135,9 @@ All changes to universal IDs translated from the source are applied after you sa
 >[!MORELIKETHIS]
 >
 >* [關於第一方對象來源](source-about.md)
->* [手動匯入已驗證的區段，從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
+>* [轉換使用者ID來源 [!DNL Adobe Real-Time CDP] 至通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)
+>* [轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)
+>* [轉換使用者ID來源 [!DNL Tealium] 至通用ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)

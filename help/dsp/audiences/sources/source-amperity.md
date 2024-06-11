@@ -1,23 +1,25 @@
 ---
-title: 轉換使用者ID來源 [!DNL Optimizely] 至通用ID
-description: 瞭解如何啟用DSP以擷取您的 [!DNL Optimizely] 第一方區段。
+title: 轉換使用者ID來源 [!DNL Amperity] 至通用ID
+description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# 轉換使用者ID來源 [!DNL Optimizely] 至通用ID
+# 轉換使用者ID來源 [!DNL Amperity] 至通用ID
 
-將DSP整合用於 [!DNL Optimizely] 客戶資料平台，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
+將DSP整合用於 [!DNL Amperity] 客戶資料平台，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
 
 1. (若要將電子郵件地址轉換為 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商使用 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [設定要啟用的追蹤 [!DNL Analytics] 測量](#analytics-tracking).
 
 1. [在DSP中建立對象來源](#source-create).
 
-1. [準備及推送區段資料](#push-data).
+1. [準備和共用區段對應資料](#map-data).
+
+1. [請求資料推送來源 [!DNL Amperity] 至DSP](#push-data).
 
 1. [比較通用ID的數量與雜湊電子郵件地址的數量](#compare-id-count).
 
@@ -39,27 +41,39 @@ ht-degree: 0%
 
    來源設定將包含自動產生的來源金鑰，您會使用它來推送區段資料。
 
-1. 建立對象來源後，請將原始程式碼金鑰與 [!DNL Optimizely] 使用者。
+1. 建立對象來源後，請將原始程式碼金鑰與 [!DNL Amperity] 使用者。
 
-## 步驟3：準備並推送區段資料 {#push-data}
+## 步驟3：準備和共用區段對應資料 {#map-data}
 
-廣告商必須在他們的協助下準備及推送資料 [!DNL Optimizely] 代表性。
+廣告商必須準備並共用區段對應資料。
 
-1. 範圍 [!DNL Optimizely Data Platform]，使用SHA-256演演算法將廣告商對象的電子郵件ID進行雜湊處理。
+1. 範圍 [!DNL Amperity]，使用SHA-256演演算法雜湊對象的電子郵件ID。
 
-1. 聯絡廣告商的 [!DNL Optimizely] 代表將區段推送至DSP的說明。 推送區段時，請包含下列資訊：
+1. 廣告商必須提供區段對應資料給Adobe帳戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 
-   * **來源金鑰：** 這是在中建立的來源金鑰 [步驟2](#source-create).
+   * **外部區段索引鍵：** 此 [!DNL Amperity] 和區段相關聯的區段索引鍵。
 
-   * **帳戶代碼：** 這是英數字元的DSP帳戶代碼，您可以在DSP中找到，網址為 [!UICONTROL Settings] > [!UICONTROL Account].
+   * **區段名稱：** 區段名稱。
 
-這些區段應該會在24小時內提供給DSP，並依照廣告商的設定重新整理。 無論區段重新整理的頻率為何，區段中的包含專案都會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Optimizely] 每30天或更短時間。
+   * **區段說明：** 區段的用途或規則，或兩者。
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **父系ID：** 保留空白
 
-## 步驟4：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
+   * **視訊CPM：** 0
+
+   * **顯示CPM：** 0
+
+   * **區段視窗：** 區段的存留時間。
+
+## 步驟4：要求從推送資料 [!DNL Amperity] 至DSP {#push-data}
+
+1. 在DSP內對應區段後，廣告商必須搭配其 [!DNL Amperity] 代表將區段資料發佈至DSP。
+
+1. 接著，廣告商必須向Adobe客戶團隊確認已收到區段資料。
+
+這些區段應該會在24小時內提供給DSP，並依照廣告商的設定重新整理。 無論區段重新整理的頻率為何，區段中的包含專案都會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Amperity] 每30天或更短時間。
+
+## 步驟5：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
 完成所有步驟後，請在對象庫中驗證（您從建立或編輯對象時可使用此對象庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段可用，且會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
 

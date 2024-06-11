@@ -3,9 +3,9 @@ title: 關於Advertising DSP中的對象管理
 description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
+source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,7 @@ ht-degree: 0%
 >* [建立及實作自訂區段](custom-segment-create.md)
 >* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
+>* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [手動匯入已驗證的區段，從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [可用的第三方資料提供者](third-party-data-providers.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
