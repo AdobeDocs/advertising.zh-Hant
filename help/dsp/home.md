@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
+source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024年6月10日 | [!UICONTROL Audiences] | （Beta版功能）您現在可以將第一方區段從 [!DNL Amperity] 和 [!DNL Optimizely] 客戶資料平台至由以下專案組成的區段： [[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在「對象鎖定目標」的放置設定中，共用區段會顯示在「第一方區段」清單中。 | 請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)，」和「[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
+|  |  | 針對以人物為基礎的通用ID （適用於無Cookie目標定位），提供有關DSP Beta版功能的檔案。 | 請參閱&quot;[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
 | 2024年6月5日 | 版位 | 您現在可以使用試算表一次管理多個位置的競標倍數。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |
 |  | 對象來源 | 您現在可以變更來源對象轉譯成的通用ID型別，並檢視變更記錄。 | 請參閱&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md).」 |
 | 2024年5月22日 | 最佳化，連線電視廣告 | 在具有「最低CPA」和「最高ROAS」最佳化目標的套件中，連線電視廣告的效能模型現在會使用轉換路徑中多個接觸點的資料，以實現更快速、更強大的機器學習。 現有套件已升級為使用多重觸控最佳化，且不需要採取任何動作。 | — |
