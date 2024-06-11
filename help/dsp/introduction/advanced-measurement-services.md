@@ -2,9 +2,9 @@
 title: 進階測量解決方案
 description: 請參閱進階測量的可用解決方案清單。
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
    * 跨ID家庭觸及、頻率和轉換（無索引標籤）
 
-      * 透過無痕跡的ID型別(RampID、ID5)，在多個環境中(包括連線電視(CTV)和數位（案頭、行動裝置、原生和音訊），量化家庭層級的獨特/遞增觸及率、重疊和轉換。
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * 證明測試無Cookie ID在尋找相對於Cookie型區段的增量觸及方面的有效性。
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * 平均轉換時間
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
   瞭解對象和戰術在個人層面如何重疊，包括跨多個數位環境的曝光，例如桌上型電腦、行動裝置、原生和音訊。
 
-   * **跨ID以人物為基礎的觸及率**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     量化Cookie和RampID之間的不重複觸及範圍和重疊，以及依ID型別區分的每量度成本。 證明測試RampIDs在尋找多個數位環境（例如桌上型電腦、行動裝置、原生和音訊）中相對於Cookie型區段的遞增觸及率方面的有效性。
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **搜尋報表的光暈效果**
 
