@@ -3,9 +3,9 @@ title: 轉換使用者ID來源 [!DNL Tealium] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 0%
 1. [複製中的現有聯結器 [!DNL Tealium] 以繼續共用區段](#duplicate-connector).
 
 1. [比較通用ID的數量與雜湊電子郵件地址的數量](#compare-id-count).
-
-區段應在24小時內可在DSP中使用，並每24小時重新整理一次。
 
 ## 步驟1：設定追蹤 [!DNL Analytics] 測量 {#analytics-tracking}
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 ## 步驟6：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
-完成所有步驟後，請在對象庫中驗證（您從建立或編輯對象時可使用此對象庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
+完成所有步驟後，24小時內即可在DSP中使用區段。 在您的對象庫中驗證（當您從以下位置建立或編輯對象時可使用此庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
 
 雜湊電子郵件地址轉譯為通用ID的速率應大於90%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，則應將其轉譯為90個以上的通用ID。 90%或更低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
 

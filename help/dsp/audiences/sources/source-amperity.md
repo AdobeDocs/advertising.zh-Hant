@@ -2,14 +2,16 @@
 title: 轉換使用者ID來源 [!DNL Amperity] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # 轉換使用者ID來源 [!DNL Amperity] 至通用ID
+
+*Beta功能*
 
 將DSP整合用於 [!DNL Amperity] 客戶資料平台，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
 

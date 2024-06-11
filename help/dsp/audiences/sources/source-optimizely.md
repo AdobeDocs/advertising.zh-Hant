@@ -2,14 +2,16 @@
 title: 轉換使用者ID來源 [!DNL Optimizely] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Optimizely] 第一方區段。
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # 轉換使用者ID來源 [!DNL Optimizely] 至通用ID
+
+*Beta功能*
 
 將DSP整合用於 [!DNL Optimizely] 客戶資料平台，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
 
