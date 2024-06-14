@@ -3,9 +3,9 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*：此 [!DNL Amperity] 客戶資料平台。
 
-   * *[!UICONTROL Optimizely]*：此 [!DNL Optimizely]：此 [!DNL Amperity] 客戶資料平台。
+   * *[!UICONTROL Optimizely]*：此 [!DNL Optimizely] 客戶資料平台。
 
    * *[!UICONTROL Tealium CDP]*：（僅限已設定的使用者） [!DNL Tealium] 客戶資料平台。
 
