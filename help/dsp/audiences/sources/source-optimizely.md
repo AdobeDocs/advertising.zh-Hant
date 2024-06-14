@@ -2,9 +2,9 @@
 title: 轉換使用者ID來源 [!DNL Optimizely] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Optimizely] 第一方區段。
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * **帳戶代碼：** 這是英數字元的DSP帳戶代碼，您可以在DSP中找到，網址為 [!UICONTROL Settings] > [!UICONTROL Account].
 
-這些區段應該會在24小時內提供給DSP，並依照廣告商的設定重新整理。 無論區段重新整理的頻率為何，區段中的包含專案都會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Optimizely] 每30天或更短時間。
+這些區段應該會在24小時內提供給DSP，並依照廣告商的設定重新整理。 無論區段重新整理的頻率為何，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 從重新推送區段以重新整理區段 [!DNL Optimizely] 到期之前。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]

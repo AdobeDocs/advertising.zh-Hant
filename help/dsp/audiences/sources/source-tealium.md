@@ -3,9 +3,9 @@ title: 轉換使用者ID來源 [!DNL Tealium] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
+source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 雜湊電子郵件地址轉譯為通用ID的速率應大於90%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，則應將其轉譯為90個以上的通用ID。 90%或更低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
 
-區段每24小時會重新整理一次。 不過，區段中的包含會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Tealium] 每30天或更短時間。
+區段每24小時會重新整理一次。 不過，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 從重新推送區段以重新整理區段 [!DNL Tealium] 到期之前。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
 
 如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 

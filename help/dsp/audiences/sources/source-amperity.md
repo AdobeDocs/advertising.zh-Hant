@@ -2,9 +2,9 @@
 title: 轉換使用者ID來源 [!DNL Amperity] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 接著，廣告商必須向Adobe客戶團隊確認已收到區段資料。
 
-這些區段應該會在24小時內提供給DSP，並依照廣告商的設定重新整理。 無論區段重新整理的頻率為何，區段中的包含專案都會在30天後過期，以確保符合隱私權規範，因此請從以下位置重新推送受眾，以重新整理受眾 [!DNL Amperity] 每30天或更短時間。
+這些區段應該會在24小時內提供給DSP，並依照為廣告商設定的方式重新整理 [!DNL Amperity]. 無論區段重新整理的頻率為何，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 從重新推送區段以重新整理區段 [!DNL Amperity] 到期之前。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
 
 ## 步驟5：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
