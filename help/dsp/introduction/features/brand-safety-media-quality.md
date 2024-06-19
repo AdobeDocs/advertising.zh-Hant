@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步瞭解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 ### 主題目標定位
 
-DSP主題鎖定目標可讓您利用我們領先業界的情境式合作夥伴，鎖定或封鎖關鍵字清單 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。 主題鎖定目標可協助您確保廣告始終在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保產生更大結果的環境中花費。
+DSP主題鎖定目標可讓您利用我們領先業界的情境式合作夥伴，鎖定或封鎖關鍵字清單 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] (先前稱為 [!DNL Grapeshot])。 主題鎖定目標可協助您確保廣告始終在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保產生更大結果的環境中花費。
 
-主題鎖定目標需要您直接使用建立自訂主題區段 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作夥伴平台中建立這些後，您可以 [在中鎖定或排除區段ID [!UICONTROL Audience Targeting] 每個位置的區段](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需支付額外費用。
+主題鎖定目標需要您直接與合作夥伴平台建立自訂主題區段。 建立區段後，您可以 [在中鎖定或排除區段ID [!UICONTROL Audience Targeting] 每個位置的區段](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需支付額外費用。
 
 若要建立自訂主題區段：
 

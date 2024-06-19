@@ -3,7 +3,7 @@ title: 關於Advertising DSP中的對象管理
 description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 所有匯入的自訂第三方資料區段。
 
-* （僅針對美國的位置） [30多家提供者的DSP客戶可使用的所有協力廠商資料區段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom]， [!DNL Datalogix]， [!DNL eXelate] ([!DNL Nielsen])， [!DNL Lotame]， [!DNL Oracle]， [!DNL Quantcast]，以及更多功能。
+* （僅針對美國的位置） [30多家提供者的DSP客戶可使用的所有協力廠商資料區段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL eXelate]， ([!DNL Eyeota])，([!DNL LiveRamp])，[!DNL Lotame]， [!DNL Neustar]，以及更多功能。
 
   您可以鎖定特定區段，根據對象資料鎖定使用者（例如，具有特定人口統計資料、興趣或意圖和/或行為設定檔的使用者）。 您可以依資料提供者和類別瀏覽、依名稱或區段ID搜尋區段，或依資料提供者、區段大小總計、網頁瀏覽器計數或裝置計數篩選結果。
 
