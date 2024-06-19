@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Comscore] 衡量僅支援國家/地區的曝光數。
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]：** 啟用位置層級的追蹤 [!UICONTROL Attention Score] 來自的量度（各曝光的注意力單位加權平均數） [!DNL Adelaide]. 量度適用於所有位置型別，但不包括 [!DNL Roku] 連線電視、VPAID-only前段，以及不是播客的音訊。 DSP會自動附加JavaScript標籤至所有相關的創意內容，以及 [!DNL Adelaide] 會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
+**[!UICONTROL Adelaide]：** 啟用位置層級的追蹤 [!UICONTROL Attention Score] 量度(的加權平均數 [!DNL Adelaide] &quot;[!DNL Attention Units]」的閱聽)。 量度適用於所有位置型別，但不包括 [!DNL Roku] 連線電視、VPAID-only前段，以及不是播客的音訊。 DSP會自動附加JavaScript標籤至所有相關的創意內容，以及 [!DNL Adelaide] 會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
 
 此 [!UICONTROL Attention Score] 欄位位於 [!UICONTROL Metrics] 報表區段；在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視；以及在 [!UICONTROL Sites]， [!UICONTROL Ads]、和 [!UICONTROL Inventory] 的索引標籤 [位置詳細資料檢視](/help/dsp/campaign-management/reports/placement-details-view.md).
 
