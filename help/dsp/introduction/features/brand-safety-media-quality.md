@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步瞭解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 ### 競標前詐騙封鎖
 
-善用我們的協力廠商整合，與 [!DNL Comscore]， [!DNL DoubleVerify]， [!DNL Integral Ad Science]、和 [!DNL Peer39] 以封鎖來自行銷活動的非人類流量。 這些整合提供領先業界的競標前封鎖功能，將行銷活動中的一般和複雜無效流量（GIVT和SIVT）減至最少。
+善用我們的協力廠商整合，與 [!DNL DoubleVerify]， [!DNL Integral Ad Science]、和 [!DNL Peer39] 以封鎖來自行銷活動的非人類流量。 這些整合提供領先業界的競標前封鎖功能，將行銷活動中的一般和複雜無效流量（GIVT和SIVT）減至最少。
 
 您可以為每個廣告商設定預設的競標前詐騙封鎖控制項<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然後（選擇性） [自訂每個位置的設定](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能時可能需支付額外費用。
 
 如需功能的詳細資訊，請直接連絡您偏好的廠商，或連絡您的Adobe客戶團隊。
 
-![Comscore標誌](/help/dsp/assets/comscore-logo.png) ![DoubleVerify標誌](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science標誌](/help/dsp/assets/ias-logo.png) ![Peer39標誌](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify標誌](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science標誌](/help/dsp/assets/ias-logo.png) ![Peer39標誌](/help/dsp/assets/peer39-logo.png)
 
 ### 競標前可見性 {#pre-bid-viewability}
 
