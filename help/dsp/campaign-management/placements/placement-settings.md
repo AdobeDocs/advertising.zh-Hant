@@ -3,7 +3,7 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 0%
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->([!DNL Roku] 位置)核准的第三方追蹤廠商 [!DNL Roku] 包含 [!DNL Acxiom]， [!DNL comScore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
+>([!DNL Roku] 位置)核准的第三方追蹤廠商 [!DNL Roku] 包含 [!DNL Acxiom]， [!DNL Comscore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]：** （選用）預設要附加至位置中所有新廣告的第三方事件追蹤畫素。 若要指定事件畫素：
 

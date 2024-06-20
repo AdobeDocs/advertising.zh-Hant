@@ -3,7 +3,7 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與的合作關係 [!DNL Roku]，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku] — 特定位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Roku與DSP擁有獨特的合作關係，可符合您的 [!DNL DSP] 對象至 [!D
 
 ### [!DNL Roku] — 核准的第三方追蹤廠商
 
-[!DNL Roku] 刊登版位可包含來自下列廠商的第三方事件畫素和轉換畫素：  [!DNL Acxiom]， [!DNL comScore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
+[!DNL Roku] 刊登版位可包含來自下列廠商的第三方事件畫素和轉換畫素：  [!DNL Acxiom]， [!DNL Comscore]， [!DNL Data Plus Math]， [!DNL Experian]， [!DNL Factual]， [!DNL Kantar]， [!DNL Marketing Evolution]， [!DNL Neustar]， [!DNL Nielsen]， [!DNL Nielsen Catalina Solutions]， [!DNL NinthDecimal]， [!DNL Oracle]， [!DNL Placed]， [!DNL Polk]、和 [!DNL Research Now].
 
 ### 各放置策略的最佳實務
 

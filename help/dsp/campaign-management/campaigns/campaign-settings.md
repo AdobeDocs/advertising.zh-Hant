@@ -3,7 +3,7 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 #### 對象驗證
 
-**[!UICONTROL comScore Campaign Ratings]：** （選用）啟用 [!DNL Comscore] 已驗證 [!DNL Campaign Ratings] 使用指定設定測量及報告對象驗證。 需額外付費。
+**[!UICONTROL Comscore Campaign Ratings]：** （選用）啟用 [!DNL Comscore] 已驗證 [!DNL Campaign Ratings] 使用指定設定測量及報告對象驗證。 需額外付費。
 
 * **[!UICONTROL Target Gender]：** 目標性別： *[!UICONTROL Both]* （預設）， *[!UICONTROL Male]*，或 *[!UICONTROL Female]*
 
