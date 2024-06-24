@@ -3,9 +3,9 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
+source-git-commit: db21fa1ed9daab9070fa1ce7740dd5dbaa0f3a2f
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 您可以建立自訂區段，以追蹤哪些使用者與ID5通用ID相關聯，且接觸到桌上型電腦和行動裝置上的廣告，以及造訪特定網頁。 ID5會使用機率模型來指派衍生自各種使用者訊號和瀏覽器訊號的ID。 如需指示，請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md).」
 
-* 來自的第三方區段 [!DNL Eyeota] 除了Cookie或裝置ID追蹤的使用者之外，有些其他廠商可能會自動包含ID5 ID。 區段詳細資訊包括每種型別的大小。 每個區段的一般使用費（列在區段名稱旁）適用；ID5 ID不需額外付費。
+* 除了Cookie或裝置ID所追蹤的使用者外，某些廠商的第三方區段可能會自動包含通用ID。 例如，來自的區段 [!DNL Eyeota] 可能會自動包含ID5 ID，以及以下專案的區段： [!DNL Lotame] 可能包含UID2.0 ID。 區段詳細資訊包括每種型別的大小。 每個區段的一般使用費（列在區段名稱旁）適用；ID5 ID不需額外付費。
 
 ## 依通用ID型別建立報表
 
