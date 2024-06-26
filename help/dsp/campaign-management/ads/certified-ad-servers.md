@@ -3,7 +3,7 @@ title: 認證廣告服務合作夥伴
 description: 檢視所有認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | 插槽內暫留時間：21x21、插槽內暫留時間行動視訊：22x22、插槽內暫留時間桌上型電腦：24x24、插槽內暫留板：25x25、插槽內速度：26x26、超級外觀：29x29、熒幕內可擴充轉角：20x20 |
+| [!DNL GumGum] | | | X | | 插槽內暫留時間：21x21；插槽內暫留時間行動視訊：22x22；插槽內暫留時間桌上型電腦：24x24；插槽內暫留板：25x25；插槽內速度：26x26；超級外觀：29x29；熒幕內可擴充角落：20x20 |
 | [!DNL HUMAN] (先前稱為 [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
