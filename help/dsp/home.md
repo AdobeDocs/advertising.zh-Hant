@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a4b0cf95aeedd4dc0c98a23ff0ecbcaad10bd762
+source-git-commit: 1e90b1d4ddcc8fd7b1febc1214fce71daf140a26
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3305'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年6月24日 | 認證廣告服務合作夥伴 | 新的高影響力顯示廣告單位可從以下網址取得： [!DNL GumGum] | 請參閱&quot;[認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md).」 |
+| 2024年6月24日 | 認證廣告服務合作夥伴 | 支援由提供的高影響力顯示廣告單位 [!DNL GumGum]. | 請參閱&quot;[認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md).」 |
 | 2024年6月19日 | [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements] | 在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視：<ul><li>趨勢圖現在包含下列可選量度：</li><ul><li>**日步調：** 顯示「昨天的步調」量度在一段時間內的趨勢。</li><li>**航班超前/落後步調：** 顯示累積步調（相對於經過的時間）在一段時間內的趨勢分析。</li></ul>![新的步調量度](/help/dsp/assets/trend-chart-pacing-metrics.png "新的步調量度")<li>資料表格可選擇性包含與步調相關的新量度欄：</li><ul><li>**昨天的必要支出：** 昨天應該花費的金額，以透過航班剩餘時間均勻分配剩餘預算。</li><li>**昨天的步調：** 昨天的花費佔昨天所需花費的百分比。 這是「今天的OTS」的改良版本，現已棄用。 當目前的步調持續低於100%時，套件或投放位置就會因預算而捉襟見肘。</li><li>**今天的所需支出：** 今天應該花費的金額，用於其餘預算在整個飛行中的統一分配。</li><li>**今天的步調：** 今天的支出佔今天所需支出的百分比；每30分鐘更新一次值。 這是「昨天的OTS」的改良版本，現已棄用。 當昨天的步調持續低於100%時，套件或投放位置預算難以如願。</li></ul><li>在資料表格中，「昨天的目標」和「今天的目標」欄會重新命名為「昨天的目標支出」和「今天的目標支出」。</li></ul> | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
 | 2024年6月10日 | [!UICONTROL Audiences] | （Beta版功能）您現在可以將第一方區段從 [!DNL Amperity] 和 [!DNL Optimizely] 客戶資料平台至由以下專案組成的區段： [[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在「對象鎖定目標」的放置設定中，共用區段會顯示在「第一方區段」清單中。 | 請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)，」和「[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
 |  |  | 針對以人物為基礎的通用ID （適用於無Cookie目標定位），提供有關DSP Beta版功能的檔案。 | 請參閱&quot;[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
