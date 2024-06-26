@@ -3,9 +3,9 @@ title: 傳送DSP Media Exposure資料至Adobe Audience Manager概述
 description: 瞭解如何使用Audience Manager事件畫素，從Advertising DSP行銷活動中擷取曝光層級和點選層級的資料
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP不會向您收取傳送這些訊號給Audience Manager的費用。 不過，
 
 ## 如何追蹤資料
 
-Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素不會擷取在無Cookie環境中發生的事件，例如行動應用程式和連線電視(CTV)。<!-- Verify if this is still correct. -->
+Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素不會擷取在無Cookie環境（例如行動應用程式）中發生的事件。<!-- Verify if this is still correct. -->
 
 ### 曝光追蹤畫素
 

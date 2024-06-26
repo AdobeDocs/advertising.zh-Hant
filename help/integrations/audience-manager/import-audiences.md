@@ -1,18 +1,18 @@
 ---
 title: 匯入Adobe Audience Manager區段以鎖定廣告
-description: 瞭解如何匯入 [!DNL Adobe] 使用Adobe Audience Manager在Advertising DSP和搜尋中的受眾
+description: 瞭解如何匯入 [!DNL Adobe] Advertising DSP的對象和使用Adobe Audience Manager的搜尋
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e6635abdb34444bc40d833a3c6a5eaf07f9f1789
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # 匯入Adobe Audience Manager區段以鎖定廣告
 
-Advertising DSP和 [!DNL Advertising Search, Social, & Commerce] 每個人都可以提取所有廣告商或機構的中繼資料、階層資料和不重複受眾資料 [!DNL Adobe] 對象<!-- segments or audiences? Standardize terms per AAM's docs -->. 這包含下列專案的資料：
+Advertising DSP和 [!DNL Advertising Search, Social, & Commerce] 每個人都可以提取所有廣告商或機構的中繼資料、階層資料和不重複受眾資料 [!DNL Adobe] 對象<!-- segments or audiences? Standardize terms per AAM's docs -->，包括：
 
 * Adobe Audience Manager區段
 
@@ -26,19 +26,19 @@ Advertising DSP和 [!DNL Advertising Search, Social, & Commerce] 每個人都可
 
 ## 必要條件
 
-* 廣告商必須實作 [此 [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 版本2.0或更新版本。 此 [!DNL Identity Service] 提供永續性的通用ID，可識別Experience Cloud所有解決方案的訪客。
+* 廣告商必須實作 [此 [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) 版本2.0或更新版本。 此 [!DNL Identity Service] 提供永續性的通用ID，可識別Experience Cloud所有解決方案的訪客。
 
   實作包括新增 [!DNL Identity service] 廣告商網站上每個網頁的程式碼。
 
-* 組織必須是 [已啟用Experience Cloud服務](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) 並擁有Experience Cloud [!DNL Organization ID] (先前稱為 [!DNL IMS org ID])。
+* 組織必須是 [已啟用Experience Cloud服務](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview) 並擁有Experience Cloud [!DNL Organization ID] (先前稱為 [!DNL IMS org ID])。
 
   此 [!UICONTROL Organization ID] 可讓擁有多個Adobe Experience Cloud產品的組織在某些產品之間共用資料。
 
-* (廣告商使用 [!DNL Analytics])廣告商必須 [實施 [!DNL Analytics] 使用 `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) 1.6.4版或更新版本。
+* (廣告商使用 [!DNL Analytics])廣告商必須 [實施 [!DNL Analytics] 使用 `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 1.6.4版或更新版本。
 
 * 廣告商的網站訪客不包含大量的 [!DNL Apple Safari] 使用者。
 
-* (建議廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少每個網頁的呼叫次數，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集程式碼，並為每個程式碼啟用伺服器端轉送 [!DNL Analytics] 報表套裝則相反。 如需詳細資訊，請參閱&quot;[伺服器端轉送概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+* (建議廣告商同時使用Audience Manager和 [!DNL Analytics])若要減少每個網頁的呼叫次數，請移除現有Audience Manager [!DNL Data Integration Library] 資料收集程式碼，並為每個程式碼啟用伺服器端轉送 [!DNL Analytics] 報表套裝則相反。 如需詳細資訊，請參閱&quot;[伺服器端轉送概觀](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * （建議）若符合率較高，僅將第一方網站資料傳送至Adobe Advertising。 如果廣告商繫結來自客戶關係管理系統的第三方資料或離線資料，資料洩漏可能會降低匹配率。
 
@@ -50,7 +50,7 @@ Advertising DSP和 [!DNL Advertising Search, Social, & Commerce] 每個人都可
 
 1. Adobe帳戶團隊應設定廣告商層級的設定»[!UICONTROL Adobe Analytics Cloud].」
 
-1. Adobe客戶團隊應提交請求<!-- Submit a request as a JIRA task? --> 至資料作業團隊<!-- implementation team? --> 使用Advertising DSP原生API整合匯入組織的Audience Manager區段。
+1. Adobe帳戶團隊應向資料作業團隊提交請求，以使用Advertising DSP原生API整合匯入組織的Audience Manager區段。
 
 ### 哪些變更會產生Audience Manager？
 
@@ -58,17 +58,17 @@ API會自動執行下列動作：
 
 * 在Audience Manager中建立兩個DSP目的地：
 
-   * **[!UICONTROL Adobe Ad Cloud Cross-Channel (real-time)]**
+   * **[!UICONTROL Adobe AdCloud Cross-Channel (real-time)]**
 
-   * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)])**
+   * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)]**
 
-* 將兩個目的地對應至所有Audience Manager區段，讓Audience Manager可與與同一Experience Cloud相關聯的DSP廣告商帳戶共用區段 [!DNL Organization ID] 用於Audience Manager。 <!-- Verify -->
+* 將兩個目的地對應至所有Audience Manager區段，讓Audience Manager可與與同一Experience Cloud相關聯的DSP廣告商帳戶共用區段 [!DNL Organization ID] 用於Audience Manager。
 
   組織可選擇性地從Audience Manager內的目的地移除不需要的區段。
 
 * 將下列Exchange Cookie同步畫素新增至組織的Audience Manager容器，以擴大客戶促銷活動的觸及範圍：
 
-   * AdobeAdCloud： 411 (此版本為標準配備，會自動加入成為 [!DNL Identity Service] 2.0版。具有下列專案的組織： [!DNL Identity Service] 低於2.0的版本應將此畫素新增至其Audience Manager容器。
+   * Adobe AdCloud： 411 (此畫素是標準配備，會自動加入成為 [!DNL Identity Service] 2.0版。具有下列專案的組織： [!DNL Identity Service] 低於2.0的版本應將此畫素新增至其Audience Manager容器。
 
 ## 將Audience Manager對象匯入 [!DNL Search, Social, & Commerce]
 
@@ -92,51 +92,52 @@ API會自動執行下列動作：
 
 1. 範圍 [!DNL Search, Social, & Commerce]，則 [!DNL Search, Social, & Commerce] 實作團隊或具有直接存取使用者端管理員角色的使用者應該從起始匯入 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
-   您必須輸入組織的Experience Cloud [!DNL Organization ID] ([!DNL IMS org ID])。 此ID必須與用於組織Audience Manager帳戶的ID相同。
+   組織的Experience Cloud [!DNL Organization ID] ([!DNL IMS org ID])為必要專案。 此ID必須與用於組織Audience Manager帳戶的ID相同。
 
 ### 哪些變更會產生Audience Manager？
 
 兩個 [!DNL Search, Social, & Commerce] 目的地將可供Audience Manager中的組織使用：
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
-* **[!UICONTROL Adobe Media Optimizer Batch Destination])**
+* **[!UICONTROL Adobe Media Optimizer Batch Destination]**
 
 ## 資料同步
 
 初始匯入需要約24小時。 初次匯入後，資料會即時同步，延遲一到兩秒。
 
+區段會籍資料只會在下列其中一個事件發生後傳送：
+
+* (使用DSP的廣告商)：
+
+   * 在Adobe Advertising顯示廣告中定位該區段。
+
+   * 區段會新增至 [!DNL Adobe AdCloud Cross-Channel] Audience Manager使用者介面中的批次和即時目的地。
+
+* (廣告商使用 [!DNL Search, Social, & Commerce])：
+
+   * 在Adobe Advertising搜尋廣告中定位該區段。
+
+   * 區段會新增至 [!DNL Adobe Media Optimizer] Audience Manager使用者介面中的批次和HTTP目的地。
+
+<!-- Is membership data/whatever available in Creative? If so, does it show the same as DSP? -->
+
+### DSP如何同步資料
+
+DSP會使用自動同步資料 [!DNL Adobe Experience Cloud Identity (ECID) Service]. 在同步處理期間， [!DNL ECID Service] 呼叫Adobe Advertising於 [!DNL cm.everesttech.net]. 由於Adobe Advertising是值得信賴的網域，ID同步會從上層頁面進行，而非像大多數第三方啟用合作夥伴一樣，在目的地發佈iframe內進行。 Audience Manager會使用裝置ID來識別不重複使用者 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)，也稱為 [!DNL Device ID].
+
 <!--
-### How DSP Syncs the Data
-
-DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
-
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
-
-### How Search Syncs the Data
 -->
 
-<!-- 
-Segment membership data is sent only after one of the following events occurs:
+### 搜尋、社交和Commerce如何同步資料
 
-* (Advertisers with DSP):
-
-  * The segment is targeted in an Adobe Advertising display ad.
-
-  * The segment is added to the [!DNL Adobe AdCloud Cross-Channel] batch and real-time destinations within the Audience Manager user interface.
-
-* (Advertisers with [!DNL Search, Social, & Commerce]):
-
-  * The segment is targeted in an Adobe Advertising search ad.
-
-  * The segment is added to the [!DNL Adobe Media Optimizer] batch and HTTP destinations within the Audience Manager user interface.
- -->
-<!-- Is membership data/whatever available in Creative? If so, does it show the same as DSP? -->
+搜尋、社交和Commerce會使用自動同步資料 [!DNL Adobe Experience Cloud Identity (ECID) Service]. 在同步處理期間， [!DNL ECID Service] 呼叫Adobe Advertising於 [!DNL cm.everesttech.net]，這是屬於Adobe Advertising的受信任網域。 Audience Manager會使用裝置ID來識別不重複使用者 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)，也稱為 [!DNL Device ID].
 
 ## 在何處尋找您的同步區段
 
 ### 在DSP中
 
-在DSP中，區段名稱會依Audience Manager分類法來整理，並可在以下位置取得對應的區段會籍數：
+DSP會依Audience Manager分類法組織區段名稱，並在以下專案中包含對應的區段會籍數：
 
 * [位置設定](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting)：在 [!UICONTROL Adobe Segments] 的標籤 [!UICONTROL Audience Targeting] 區段。
 
