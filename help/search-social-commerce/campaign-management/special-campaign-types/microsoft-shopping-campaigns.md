@@ -3,7 +3,7 @@ title: 實作 [!DNL Microsoft Advertising] 購物宣傳
 description: 瞭解設定的工作流程 [!DNL Microsoft Advertising] 購物行銷活動。
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. [建立廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ，並為所有廣告設定預設競標。
 
-您可以覆寫個別產品群組的預設競標。
+   您可以覆寫個別產品群組的預設競標。
 
 1. 為廣告群組建立產品群組：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. 建立 [產品廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 替換為 [可能包含在每個購物廣告中的促銷活動行](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) 在廣告群組內。
 
-      Microsoft Advertising會動態產生每個廣告的廣告文案和登陸頁面URL。
+      Microsoft Advertising會動態產生每個廣告的廣告復本和登陸頁面URL。
 
       >[!NOTE]
       >

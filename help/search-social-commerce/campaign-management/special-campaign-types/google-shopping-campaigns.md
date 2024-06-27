@@ -1,11 +1,11 @@
 ---
 title: 實作 [!DNL Google Ads] 購物宣傳
 description: 瞭解設定的工作流程 [!DNL Google Ads] 購物行銷活動。
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 1. 設定您的 [!DNL Google Merchant Center] 帳戶，並填入產品資料。
 
-1. [允許搜尋、社交和商務從 [!DNL Google Merchant Center] 帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [允許搜尋、社交和Commerce從下載資料 [!DNL Google Merchant Center] 帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [建立行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 在購物網路上。
 
 1. [建立廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ，並為所有廣告設定預設競標。
 
-您可以覆寫個別產品群組的預設競標。
+   您可以覆寫個別產品群組的預設競標。
 
 1. 為廣告群組建立產品群組：
 
