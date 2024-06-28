@@ -3,9 +3,9 @@ title: 傳送DSP Media Exposure資料至Adobe Audience Manager概述
 description: 瞭解如何使用Audience Manager事件畫素，從Advertising DSP行銷活動中擷取曝光層級和點選層級的資料
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *僅整合Adobe Advertising-Adobe Audience Manager的廣告商*
 
-具有Adobe Audience Manager的Advertising DSP客戶可使用Audience Manager事件畫素，從DSP促銷活動擷取曝光層級資料和點按層級資料。 事件畫素會將資料當作可操作的訊號傳送至Audience Manager。 這些訊號可啟用各種DSP使用案例，例如更進階的分段、頻率管理、行銷分析和報表深入分析。
+具有Adobe Audience Manager的Advertising DSP客戶可以使用Audience Manager事件畫素，從DSP促銷活動擷取曝光層級資料和點按層級資料。 事件畫素會將資料當作可操作的訊號傳送至Audience Manager。 這些訊號可啟用各種DSP使用案例，例如更進階的分段、頻率管理、行銷分析和報表深入分析。
 
 DSP不會向您收取傳送這些訊號給Audience Manager的費用。 不過，您需根據Audience Manager合約，根據伺服器呼叫支付標準Audience Manager擷取成本。 Audience Manager會移除以兩種不同方式追蹤的重複事件，因此每個事件只會收費一次。
 
@@ -36,7 +36,7 @@ DSP不會向您收取傳送這些訊號給Audience Manager的費用。 不過，
 
 ## 如何追蹤資料
 
-Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素不會擷取在無Cookie環境（例如行動應用程式）中發生的事件。<!-- Verify if this is still correct. -->
+Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素不會擷取在沒有Cookie的環境中發生的事件，例如行動應用程式和連線電視(CTV)。<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### 曝光追蹤畫素
 
@@ -52,5 +52,5 @@ Audience Manager追蹤的點按次數與曝光數類似，不同之處在於它�
 
 >[!MORELIKETHIS]
 >
->* [收集來自Advertising DSP行銷活動的點選數和曝光數資料](collect.md)
+>* [收集來自Advertising DSP Campaigns的點按和曝光資料](collect.md)
 >* [使用案例](use-cases.md)
