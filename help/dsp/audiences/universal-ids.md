@@ -3,9 +3,9 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 啟用區段約24小時後，請在中檢查區段的轉換ID計數 [!UICONTROL Audiences] > [!UICONTROL All Audiences]. 如果ID計數屬意外，請聯絡您的Adobe帳戶團隊。
 
-  請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances)「以取得有關區段計數如何變動的詳細資訊。
+  請參閱&quot;[電子郵件ID和通用ID之間的資料差異](#universal-ids-data-variances)「以取得有關區段計數如何變動的詳細資訊。
 
 * 請勿變更現有的套件和位置。 但是，如果您沒有任何用於測試通用ID的增量預算，請減少原始預算以資助測試。
 
@@ -96,15 +96,21 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 請記住，已驗證身分的受眾區段的觸及率自然會小於Cookie型區段的觸及率，而使用其他鎖定目標選項會進一步減少您的觸及率。 謹慎使用精細鎖定目標，尤其是使用AND陳述式連結多個目標。
 
-## 電子郵件ID與通用ID之間資料差異的原因 {#universal-ids-data-variances}
+## 電子郵件ID和通用ID之間的資料差異 {#universal-ids-data-variances}
+
+### 可接受的差異層級
+
+雜湊電子郵件地址至通用ID的翻譯率應大於90%；的翻譯率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則尤其應為95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個 [!DNL RampIDs] 或超過90種其他型別的通用ID。 較低的翻譯率可能表示有問題。 請參閱&quot;[差異原因](#universal-ids-data-variances-causes」以取得可能的解釋。
+
+的 [!DNL RampIDs]，如果翻譯率低於70%，請聯絡您的Adobe客戶團隊以進一步調查。
+
+### 差異原因 {#universal-ids-data-variances-causes}
 
 * 雜湊電子郵件ID轉譯為ID5 ID：
 
   機率模型的誤差變異數為+/- 5%。 這表示可能會高估或低估對象人數5%。
 
 * 雜湊電子郵件ID已轉譯為 [!DNL RampIDs]：
-
-  雜湊電子郵件地址的轉換率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則應該是95%。 若翻譯率低於70%，請聯絡您的Adobe客戶團隊以進一步調查。
 
    * 當多個設定檔使用相同的電子郵件ID時，DSP區段計數可能會低於客戶資料平台內的設定檔計數。 例如，在Adobe Photoshop中，您可以使用單一電子郵件ID建立公司帳戶和個人帳戶。 但如果兩個設定檔都屬於同一個人，則設定檔會對應至一個電子郵件ID，並對應至一個ID [!DNL RampID].
 

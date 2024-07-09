@@ -3,9 +3,9 @@ title: 轉換使用者ID來源 [!DNL Amperity] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 DSP收到區段資料後，受眾計數應在九(9)小時內顯示。 在對象庫中（當您從以下位置建立或編輯對象時可使用該庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 或在位置設定內)比較通用ID數量與原始雜湊電子郵件地址數量。
 
-雜湊電子郵件地址至通用ID的翻譯率應大於90%；的翻譯率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則尤其應為95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個 [!DNL RampIDs] 或超過90種其他型別的通用ID。 較低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
+如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱&quot;[電子郵件ID和通用ID之間的資料差異](#universal-ids-data-variances).」
 
 如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 

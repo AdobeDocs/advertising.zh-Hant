@@ -2,9 +2,9 @@
 title: 「轉換使用者ID，從 [!DNL ActionIQ] 至通用ID」
 description: 「瞭解如何啟用DSP以擷取您的 [!DNL ActionIQ] 第一方區段。」
 feature: DSP Audiences
-source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾計數應在九(9)小時內顯示。
 
-   雜湊電子郵件地址至通用ID的翻譯率應大於90%；的翻譯率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則尤其應為95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個 [!DNL RampIDs] 或超過90種其他型別的通用ID。 較低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
+   如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱&quot;[電子郵件ID和通用ID之間的資料差異](#universal-ids-data-variances).」
 
    如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 
