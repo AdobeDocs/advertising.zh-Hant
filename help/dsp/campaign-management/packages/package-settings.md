@@ -3,7 +3,7 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]：** （選用）要以不可開立帳單成本追蹤的靜態第三方費用：
 
+* **[!UICONTROL CPM]：** 每1000次曝光的成本(CPM)。
+
+* **[!UICONTROL Description]：** CPM費用的說明。
+
 >[!NOTE]
 >
 >可記帳費用會反映在 [!UICONTROL Net CPM] 量度。
->
-* **[!UICONTROL CPM]：** 每1000次曝光的成本(CPM)。
-
-* **[!UICONTROL CPM Description]：** CPM費用的說明。
 
 您可以在以下位置覆寫套件層級設定： [位置層級](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* 指派給此封裝的所有刊登版位的投放日期必須包含在這些日期中。
 > * 啟用自訂照明時，您無法編輯封裝開始日期。
 
-**[!UICONTROL Activate Custom Flighting]：** 可讓您在中為套件建立非偶數步調航班 [!UICONTROL Flighting] 一節。 啟用自訂燈光並儲存封裝後，您就無法停用自訂燈光或編輯封裝開始日期。
+**[!UICONTROL *Activate Custom Flighting]：** 可讓您在中為套件建立非偶數步調航班 [!UICONTROL Flighting] 一節。 啟用自訂燈光並儲存封裝後，您就無法停用自訂燈光或編輯封裝開始日期。
 
 **[!UICONTROL Budget]：** （僅具有套件層級步調的套件）總預算上限和預算間隔。
 
