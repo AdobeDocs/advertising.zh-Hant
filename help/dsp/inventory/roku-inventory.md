@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與的合作關係 [!DNL Roku]，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku] — 特定位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSP提供廣告功能，適用於 [!DNL Roku].
 
-## DSP和 [!DNL Roku] 合作關係
+## 對象比對
 
 此 [!DNL Roku] 而DSP合作關係符合您的 [!DNL DSP] 對象至 [!DNL Roku] 1:1確定性對象目標定位的ID [!DNL Roku] 詳細目錄。
 
@@ -26,12 +26,12 @@ Advertising DSP提供廣告功能，適用於 [!DNL Roku].
 >
 >[!DNL Roku] 開放市場與交換中無法使用詳細目錄。
 
-* 針對您的私人交易， [在DSP中設定交易ID的相關資訊](/help/dsp/inventory/deal-id-create.md) 然後定位」[!UICONTROL Roku Network – Audience]「和」[!UICONTROL The Roku Channel – Audience]「 within [!DNL Roku] 版位。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 針對您的私人交易， [在DSP中設定交易ID的相關資訊](/help/dsp/inventory/deal-id-create.md) 然後定位」[!UICONTROL Roku Network - Audience]「和」[!UICONTROL The Roku Channel - Audience]「 within [!DNL Roku] 版位。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * 您可以 [訂閱以下內容 [!DNL Roku] 內的詳細目錄 [!DNL On Demand] 相簿](/help/dsp/inventory/on-demand-inventory-subscribe.md)，然後在中鎖定任何已核准的交易 [!DNL Roku] 版位：
 
-   * &quot;[!UICONTROL Roku Network – Audience]」用於整個的詳細目錄 [!DNL Roku] 與優質內容合作夥伴的生態系統，例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]「 for [!DNL Roku] 自有及營運(O&amp;O)應用程式內容。
+   * &quot;[!UICONTROL Roku Network - Audience]」用於整個的詳細目錄 [!DNL Roku] 與優質內容合作夥伴的生態系統，例如 [!DNL The CW]， [!DNL ABC]、和 [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]「 for [!DNL Roku] 自有及營運(O&amp;O)應用程式內容。
 
 ### 使用自訂私人市場的好處 [!DNL Roku]
 
