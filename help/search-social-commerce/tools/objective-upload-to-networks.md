@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 搜尋、社交和Commerce可上傳廣告商帳戶的產品組合目標至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 以便將其用於混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。
 
-啟用此選項會自動觸發上傳產品組合中的目標，其中包含具有智慧競標策略的行銷活動。 搜尋、社交和Commerce會在廣告網路上為每個適用的目標建立轉換。 轉換代表目標中EF ID （點選ID）層級的所有加權轉換量度。 每個轉換都有以下其中一個名稱：
+啟用此選項會自動觸發上傳產品組合中的目標，其中包含具有智慧競標策略的行銷活動。 搜尋、社交和Commerce會在廣告網路上為每個適用的目標建立轉換。 轉換代表目標中EF ID （點選ID）層級的所有加權轉換量度。 的 [!DNL Google Ads] 按一下，EF ID就是 [!DNL Google Ads] `gclid`；用於 [!DNL Microsoft Advertising] 按一下，EF ID就是 [!DNL Microsoft Advertising] `msclkid`. 由於此點按ID，轉換資料可以對應至特定關鍵字，然後點按時間。
+
+每個上傳的轉換都有以下其中一個名稱：
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google廣告和Microsoft Advertising通用事件追蹤(UET)標籤追蹤的轉換不會重新上傳至廣告網路。 如果您將它們包含在目標中，請將其新增至廣告網路編輯器中的行銷活動目標。
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Google廣告和Microsoft Advertising通用事件追蹤(UET)標籤追蹤的轉換不會重新上傳至廣告網路。 如果您將它們包含在目標中，則必須將它們新增至廣告網路編輯器中的行銷活動目標。
 
 1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

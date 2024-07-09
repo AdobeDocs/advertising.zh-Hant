@@ -3,9 +3,9 @@ title: 『[!DNL Microsoft Advertising] 行銷活動設定'
 description: 參考設定 [!DNL Microsoft Advertising] 行銷活動。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   一旦您儲存具有此競標策略的品牌的購物行銷活動，您就無法變更競標策略。 對於其他購物行銷活動型別，此策略僅適用於新行銷活動。
 
-* *[!UICONTROL CPV]* （僅限對象CTV視訊行銷活動）使用每次檢視成本(CPV)模型。 <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* （僅限對象CTV視訊行銷活動）使用每次檢視成本(CPV)模型。 搜尋、Social和Commerce未針對採用此競標策略、且包含在產品組合中的行銷活動提供最佳化。
 
 * *[!UICONTROL Enhanced CPC]：* （對象、搜尋和購物網路的行銷活動）使用廣告網路的增強型每次點按成本(eCPC)模型，此模型可讓廣告網路自動變更每個拍賣的每次點按成本(CPC)競標，以嘗試使用廣告網路內指定的轉換(不在「搜尋」、「社交」和「Commerce」中)來最大化轉換率，同時嘗試將平均CPC保持在最大CPC以下。
 
@@ -301,13 +301,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->對於您上傳目標至廣告網路的混合專案組合，最佳實務是使用符合專案組合目標中轉換目標的行銷活動層級目標。 不過，如果行銷活動目標包含由追蹤的轉換 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤，然後在下列位置新增該標籤： [!DNL Microsoft Advertising] 編輯者，因為它們未使用目標重新上傳至廣告網路。 此外，在 [!DNL Microsoft Advertising] 編輯者請取消選取「包含於轉換中」，移除行銷活動的轉換動作作為帳戶預設目標。
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>如果行銷活動是混合專案組合的一部分，最佳實務是使用符合專案組合目標中的轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> 不過，對於混合產品組合中的行銷活動，如果您 [上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)，在廣告網路的編輯器中而不是此處執行： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為促銷活動的轉換目標，以及b)新增包含由追蹤的轉換的任何促銷活動目標。 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤，因為廣告網路追蹤量度沒有上傳至具有目標的廣告網路。
 
 >[!MORELIKETHIS]
 >

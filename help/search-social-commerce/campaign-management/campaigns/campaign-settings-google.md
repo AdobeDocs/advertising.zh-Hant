@@ -3,9 +3,9 @@ title: 『[!DNL Google Ads] 行銷活動設定'
 description: 參考設定 [!DNL Google Ads] 行銷活動。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->對於您上傳目標至廣告網路的混合產品組合中的行銷活動，最佳實務是使用符合產品組合目標中轉換目標的行銷活動層級目標。 但是，如果行銷活動目標包括 [!DNL Google] — 追蹤的轉換，然後在 [!DNL Google Ads] 編輯者，因為它們未使用目標重新上傳至廣告網路。 此外，在 [!DNL Google Ads] 編輯者，將促銷活動的轉換動作標示為次要（非主要）目標，以移除為帳戶預設目標的動作。
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>如果行銷活動是混合專案組合的一部分，最佳實務是使用符合專案組合目標中的轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>不過，對於混合產品組合中的行銷活動，如果您 [上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)，請在廣告網路的編輯器中執行下列動作，而非在此： a)新增已上傳的搜尋、社交和Commerce產品組合目標量度（開頭為「O_ACS_OBJ」），作為行銷活動的轉換動作，以及b)新增包含下列內容的任何行銷活動目標 [!DNL Google] — 追蹤的轉換，因為廣告網路追蹤的量度沒有上傳至具有目標的廣告網路。
 
 >[!MORELIKETHIS]
 >
