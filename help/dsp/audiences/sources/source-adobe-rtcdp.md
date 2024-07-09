@@ -3,9 +3,9 @@ title: 搭配使用DSP整合 [!DNL Adobe] [!DNL Real-time CDP]
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Adobe] [!DNL Real-time CDP] 第一方區段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 7963623d20686553629e2aa7ad76b4fd48403555
+source-git-commit: 5d4dfa7976b1500bf65105cf8fcc6dc5d3e1ec65
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,17 @@ ht-degree: 0%
 
    來源設定將包含自動產生的來源金鑰，您將在下一個步驟中使用。
 
-1. 在Adobe Experience Platform中，使用「 」設定Advertising DSP目的地連線 [!UICONTROL Source Key] 在DSP來源設定中產生的值。
+1. 在Adobe Experience Platform中，使用設定Advertising DSP目的地連線， [!UICONTROL Source Key] 在DSP來源設定中產生的值。
 
    如需啟用DSP目的地連線、選取區段及存取控制許可權的指示，請參閱&quot;[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).」
 
    來源電子郵件地址必須使用SHA-256演演算法執行雜湊處理。
 
-1. 完成所有步驟後，請在對象庫中驗證（您從建立或編輯對象時可使用此對象庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
+1. 在您的對象庫中驗證（當您從以下位置建立或編輯對象時可使用此庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 或在位置設定內)填入的區段，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。
 
-   雜湊電子郵件地址轉譯為通用ID的速率應大於90%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，則應將其轉譯為90個以上的通用ID。 90%或更低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
+   這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾計數應在九(9)小時內顯示。
+
+   雜湊電子郵件地址至通用ID的翻譯率應大於90%；的翻譯率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則尤其應為95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個 [!DNL RampIDs] 或超過90種其他型別的通用ID。 較低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
 
    如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 

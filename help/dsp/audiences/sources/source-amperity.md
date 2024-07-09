@@ -2,9 +2,10 @@
 title: 轉換使用者ID來源 [!DNL Amperity] 至通用ID
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
-source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
+exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
+source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -73,13 +74,15 @@ ht-degree: 0%
 
 1. 接著，廣告商必須向Adobe客戶團隊確認已收到區段資料。
 
-這些區段應該會在24小時內提供給DSP，並依照為廣告商設定的方式重新整理 [!DNL Amperity]. 無論區段重新整理的頻率為何，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 從重新推送區段以重新整理區段 [!DNL Amperity] 到期之前。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
+這些區段應該會在24小時內提供給DSP。 在您的對象庫中驗證（當您從以下位置建立或編輯對象時可使用此庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段可用且正在填入的區段。
+
+區段會重新整理，就像為中的廣告商設定的一樣 [!DNL Amperity]. 無論區段重新整理的頻率為何，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 從重新推送區段以重新整理區段 [!DNL Amperity] 到期之前。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
 
 ## 步驟5：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
-完成所有步驟後，請在對象庫中驗證（您從建立或編輯對象時可使用此對象庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 區段可用，且會在24小時內填入。 比較通用ID的數量與原始雜湊電子郵件地址的數量。
+DSP收到區段資料後，受眾計數應在九(9)小時內顯示。 在對象庫中（當您從以下位置建立或編輯對象時可使用該庫） [!UICONTROL Audiences] > [!UICONTROL All Audiences] 或在位置設定內)比較通用ID數量與原始雜湊電子郵件地址數量。
 
-雜湊電子郵件地址轉譯為通用ID的速率應大於90%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，則應將其轉譯為90個以上的通用ID。 90%或更低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
+雜湊電子郵件地址至通用ID的翻譯率應大於90%；的翻譯率 [!DNL RampIDs] 如果所有雜湊電子郵件地址都是唯一的，則尤其應為95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個 [!DNL RampIDs] 或超過90種其他型別的通用ID。 較低的翻譯率是個問題。 如需區段計數可能變異的詳細資訊，請參閱&quot;[電子郵件ID與通用ID之間資料差異的原因](#universal-ids-data-variances).」
 
 如需疑難排解支援，請聯絡您的Adobe客戶團隊或 `adcloud-support@adobe.com`.
 
