@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Placement level pacing]：**  此步調策略的運作方式是透過為所有包含的位置設定步調和上限 *個別*. 最佳實務是僅將此策略用於執行保證的私人市場交易。
 
-**[!UICONTROL Flight Dates]：** 封裝的開始日期和結束日期。
-
-若要選擇為套件建立非平均步調航班，請選取 *[!UICONTROL *Activate Custom Flighting]**並在以下位置設定自訂航班： [!UICONTROL Flighting] 一節。 啟用自訂燈光並儲存封裝後，您就無法停用自訂燈光。
+**[!UICONTROL Flight Dates]：** 套件的整體開始日期和結束日期。 投放日期必須包含在行銷活動投放日期中。
 
 >[!NOTE]
 >
->* 投放日期必須包含在行銷活動投放日期中。 此外，指派給此套裝的所有刊登版位之投放日期必須包含在這些日期內。
+>* 指派給此封裝的所有刊登版位的投放日期必須包含在這些日期中。
 > * 啟用自訂照明時，您無法編輯封裝開始日期。
+
+**[!UICONTROL *Activate Custom Flighting]：** 可讓您在中為套件建立非偶數步調航班 [!UICONTROL Flighting] 一節。 啟用自訂燈光並儲存封裝後，您就無法停用自訂燈光或編輯封裝開始日期。
 
 **[!UICONTROL Budget]：** （僅具有套件層級步調的套件）總預算上限和預算間隔。
 
