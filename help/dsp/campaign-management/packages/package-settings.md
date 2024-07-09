@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
+source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 （具有套件層級步調的套件）套件的投放期間，包括整體中的任何自訂投放期間 [!UICONTROL Flight Dates] 適用於此套件。 您只能在下列情況下設定自訂航班： [!UICONTROL Activate Custom Flighting] 選項已啟用於 [!UICONTROL Goals & Budget] 區段。
 
-**[DNL Flight N]：** (僅適用於 [!UICONTROL Activate Custom Flighting] 選項已啟用)針對每個航班，指定開始日期、結束日期以及目標支出目標。 若要新增其他航班，請按一下 **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]：** (僅適用於 [!UICONTROL Activate Custom Flighting] 選項已啟用)針對每個航班，指定開始日期、結束日期以及目標支出目標。 若要新增其他航班，請按一下 **[!UICONTROL Add Flight]**.
 
 對於現有的套裝程式，您可以選擇在 [!UICONTROL Rollover] 欄中列出的任何航班，可將潛在的未花費預算新增至下一個航班。 中的投影值 [!UICONTROL Adjusted Goal (Goal + Rollover)] 欄會隨之變更。<!-- clarify usage -->
 
