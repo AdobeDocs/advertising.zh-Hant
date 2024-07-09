@@ -3,22 +3,20 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與的合作關係 [!DNL Roku]，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku] — 特定位置。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Roku] 詳細目錄
 
-Advertising DSP為的廣告提供獨特功能 [!DNL Roku].
+Advertising DSP提供廣告功能，適用於 [!DNL Roku].
 
 ## DSP和 [!DNL Roku] 合作關係
 
-Roku與DSP擁有獨特的合作關係，可符合您的 [!DNL DSP] 對象至 [!DNL Roku] 1:1確定性對象目標定位的ID [!DNL Roku] 詳細目錄。
-
-在Roku自己的DSP (OneView)之外，Advertising DSP可以單獨存取這些鎖定目標功能。 Advertising DSP也是唯一有權測量的DSP [!DNL Roku] 在所有其他連線電視(CTV)清查專案旁的供給。 因為 [!DNL Roku] 不會共用所有標準RTB和曝光畫素訊號，其他DSP無法跨Roku銷售的CTV供應專案鎖定目標或測量。
+此 [!DNL Roku] 而DSP合作關係符合您的 [!DNL DSP] 對象至 [!DNL Roku] 1:1確定性對象目標定位的ID [!DNL Roku] 詳細目錄。
 
 ## [!DNL Roku] 詳細目錄選項
 
@@ -53,7 +51,7 @@ Roku與DSP擁有獨特的合作關係，可符合您的 [!DNL DSP] 對象至 [!D
 
 在DSP行銷活動中， [建立 [!DNL Roku] — 特定位置](/help/dsp/campaign-management/placements/placement-create.md) 使用位置型別»[!UICONTROL Connected TV (Roku)].」 包含 [!DNL Roku] 中的位置 [!DNL Roku] — 具有已定義目標的特定套件。
 
-每個 [!DNL Roku] 位置必須至少指向一個 [!DNL Roku] 交易或來源。 若要搭配使用DSP不重複對象比對 [!DNL Roku]，包含一或多個可與比對的對象區段 [!DNL Roku] （選擇加入）確定性資料集。
+每個 [!DNL Roku] 位置必須至少指向一個 [!DNL Roku] 交易或來源。 若要搭配使用DSP對象比對 [!DNL Roku]，包含一或多個可與比對的對象區段 [!DNL Roku] （選擇加入）確定性資料集。
 
 ### [!DNL Roku] — 核准的第三方追蹤廠商
 
