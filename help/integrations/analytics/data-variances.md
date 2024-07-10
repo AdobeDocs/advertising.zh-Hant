@@ -3,9 +3,9 @@ title: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 description: 預期資料差異： [!DNL Analytics] 和Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 #### 檢視追蹤的不同回顧期間 {#impression-lookback}
 
-在Adobe Advertising中，歸因是以點按數和曝光數為基礎，您可以為點按數和曝光數設定不同的回顧期間。 在 [!DNL Analytics]不過，歸因是以點進和檢視為基礎，而您不可以選擇為點進和檢視設定不同的歸因期間；追蹤從初次網站造訪開始的每個專案。 曝光可能會在檢視發生的同一天或多個天前發生，這可能會影響每個系統中歸因視窗的開始位置。
+在Adobe Advertising中，歸因是以點按數和曝光數為基礎，您可以為點按數和曝光數設定不同的回顧期間。 在 [!DNL Analytics]不過，歸因是以點進和檢視為基礎，而您不可以選擇為點進和檢視設定不同的歸因期間；追蹤從初次網站造訪開始的每個專案。 曝光可能會在檢視發生的同一天或多個天前發生，而時間可能會影響每個系統中歸因視窗的開始位置。
 
 一般而言，大部分的檢視轉換發生得足夠快，以至於兩個系統都可計入評分。 不過，有些轉換可能會發生在Adobe Advertising曝光回顧期間之外，但也可能發生在 [!DNL Analytics] 回顧視窗；這類轉換歸因於 [!DNL Analytics] 但不會對Adobe Advertising的印象造成影響。
 
-在以下範例中，假設訪客在第1天收到廣告、在第2天執行瀏覽式造訪（亦即在沒有先前按一下廣告的情況下造訪廣告的登陸頁面），並在第45天轉換。 在此情況下，Adobe Advertising將會從第1天至第14天追蹤使用者（使用14天回溯）， [!DNL Analytics] （使用60天回顧）將追蹤第2至61天的使用者，而第45天的轉換將歸因於 [!DNL Analytics] 但不會在Adobe Advertising內。
+在以下範例中，假設訪客在第1天收到廣告，在第2天執行瀏覽式造訪（也就是在沒有先前按一下廣告的情況下造訪廣告的登陸頁面），並在第45天轉換。 在此情況下，Adobe Advertising將會從第1天至第14天追蹤使用者（使用14天回溯）， [!DNL Analytics] （使用60天回顧）將追蹤第2至61天的使用者，而第45天的轉換將歸因於 [!DNL Analytics] 但不會在Adobe Advertising內。
 
 ![中的檢視轉換範例 [!DNL Analytics] 但不包括Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 >
 >若為線性配置， [!DNL Analytics] 對所有專案平均地屬性化成功事件 [!DNL eVar] 單次造訪中的值，因此請使用線性配置搭配 [!DNL eVar] 「造訪」的到期日。 不過，針對廣告，使用線性歸因會導致配置並非真正為線性，且產生的不太理想的報表。 例如，如果訪客在轉換至三個個別造訪之前與三個廣告互動，則只有上次造訪中看到的廣告會歸因於轉換，而非全部三個廣告。
 >
->此外，將轉換配置切換至「線性」或是從「線性」切換分配時，不會顯示歷史資料，而可能導致報表中的資料陳述錯誤。 例如，線性配置可能會將收入分成許多不同的收入 [!DNL eVar] 值。 如果您將配置變更為「最近」，則該收入的100%將與最近的單一值相關聯。 此關聯可能會導致錯誤的結論。
+>此外，將轉換配置切換至「線性」或是從「線性」切換分配時，不會顯示歷史資料，導致報表中的資料陳述錯誤。 例如，線性配置可能會將收入分成許多不同的收入 [!DNL eVar] 值。 如果您將配置變更為「最近」，則該收入的100%將與最近的單一值相關聯。 此關聯可能會導致錯誤的結論。
 >
 >為避免混淆， [!DNL Analytics] 讓歷史資料在報表介面中無法使用。 若您變更以下專案，即可檢視歷史資料： [!DNL eVar] 回到初始配置設定，不過您不應變更 [!DNL eVar] 配置設定僅供存取歷史資料之用。 Adobe建議使用新的 [!DNL eVar] 當您想要為已記錄的資料套用新的配置設定，而不是變更 [!DNL eVar] 已有大量歷史資料。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ### 中的不同頻道歸因 [!DNL Marketing Channels]
 
-Adobe Advertising報表只會擷取透過Adobe Advertising(付費搜尋 [!DNL Advertising Search, Social, & Commerce] 廣告，以及適用於Advertising DSP廣告的顯示)，但 [!DNL Marketing Channels] 報表可追蹤所有數位頻道。 這可能會導致歸因於轉換的管道不一致。
+Adobe Advertising報表只會擷取透過Adobe Advertising(付費搜尋 [!DNL Advertising Search, Social, & Commerce] 廣告，以及針對Advertising DSP廣告顯示的廣告)，而 [!DNL Marketing Channels] 報表可追蹤所有數位頻道。 這可能會導致歸因於轉換的管道不一致。
 
 例如，付費搜尋和免費搜尋管道通常具有共生關係，每個管道互相協助。 此 [!DNL Marketing Channels] 報表會將某些轉換歸因於免費搜尋，而Adobe Advertising不會歸因於免費搜尋，因為它不會追蹤免費搜尋。
 
@@ -154,31 +154,60 @@ Adobe Advertising報表只會擷取透過Adobe Advertising(付費搜尋 [!DNL Ad
 
 針對您的整合，您應該驗證點進資料，以確保網站上的所有頁面都正確追蹤點進。
 
-在 [!DNL Analytics]，最簡單的驗證方法之一 [!DNL Analytics for Advertising] 追蹤是指使用「點選次數」將點選次數與例項進行比較 [!UICONTROL AMO ID Instances]「計算量度，計算方式如下：
+在 [!DNL Analytics]，最簡單的驗證方法之一 [!DNL Analytics for Advertising] 追蹤是指使用「AMO ID例項來Adobe Advertising點按次數」計算量度，將例項與點按次數進行比較。計算量度的計算方式如下：
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] 代表此專案發生的次數： [AMO ID](ids.md) 會在網站上受到追蹤。 每次點選廣告時，AMO ID (`s_kwcid`)引數已新增至登陸頁面URL。 「 」的數量 [!UICONTROL AMO ID Instances]因此，類似於點選次數，可根據實際廣告點選進行驗證。 我們通常看到80%的符合率 [!DNL Search, Social, & Commerce] 和30%符合率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的預期差異，可以用預期的流量行為來解釋。 搜尋會擷取意圖，因此使用者通常打算從他們的查詢按一下搜尋結果。 然而，看過顯示廣告或線上視訊廣告的使用者更有可能無意中點選廣告，然後或是從網站跳出，或是捨棄在追蹤頁面活動之前載入的新視窗。
+[!UICONTROL AMO ID Instances] 代表此專案發生的次數： [AMO ID](ids.md) 會在網站上受到追蹤。 每次點選廣告時，AMO ID (`s_kwcid`)引數已新增至登陸頁面URL。 「 」的數量 [!UICONTROL AMO ID Instances]因此，類似於點選次數，可根據實際廣告點選進行驗證。 我們通常看到85%的符合率 [!DNL Search, Social, & Commerce] 和30%符合率 [!DNL DSP] 流量（篩選為僅包含點進時） [!UICONTROL AMO ID Instances])。 搜尋和顯示之間的預期差異，可以用預期的流量行為來解釋。 搜尋會擷取意圖，因此使用者通常打算從他們的查詢按一下搜尋結果。 然而，看過顯示廣告或線上視訊廣告的使用者更有可能無意中點選廣告，然後或是從網站跳出，或是捨棄在追蹤頁面活動之前載入的新視窗。
 
-在Adobe Advertising報表中，您也可使用&quot;[!UICONTROL ef_id_instances]「量度而非 [!UICONTROL AMO ID Instances]：
+在Adobe Advertising報表中，您也可使用&quot;[!UICONTROL EF ID Instances]「量度而非 [!UICONTROL AMO ID Instances]：
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 雖然您應該預期AMO ID和EF ID之間的符合率很高，但不要預期100%的同位檢查，因為AMO ID和EF ID基本上會追蹤不同的資料，而這個差異可能會導致總數略有差異 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果總計 [!UICONTROL AMO ID Instances] 在 [!DNL Analytics] 差異於 [!UICONTROL EF ID Instances] 超過1%的Adobe Advertising客戶，請連絡您的Adobe客戶團隊以尋求協助。
 
 如需AMO ID和EF ID的詳細資訊，請參閱 [Analytics使用的Adobe AdvertisingID](ids.md).
 
-以下為追蹤例項點按的工作區範例。
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![追蹤例項點按的工作區範例](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### 疑難排解點按和執行個體之間的差異
+
+如果 [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] 比率低於85%，然後檢查以下專案：
+
+* 您是否遺漏了帳戶或任何子層級的點選追蹤，或者您是否擁有重複的點選追蹤（例如，帳戶和促銷活動層級）？
+
+  在搜尋、社交和Commerce中， [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) 讓帳戶檢查追蹤URL。
+
+  另外，在 [!DNL Analytics]，您就能檢視AMO ID和EF IF是否一致地使用「[!DNL AMO ID] 至 [!DNL EF ID]「計算量度，計算方式如下：
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  大於100%的值表示遺失的EF ID比AMO ID還多。
+
+* 登入頁面是否有載入問題，以致無法擷取AMO ID和EF ID？
+
+* 是否重新導向登陸頁面URL，導致AMO ID和EF ID遺失？
+
+* 所有登入頁面都使用設定的報表套裝嗎？
+
+>[!NOTE]
+>
+>理論上，一個例項有可能有多個點按。 請務必檢查不同裝置（例如桌上型電腦、行動裝置和平板電腦）上的點選次數。
 
 ## 比較中的資料集 [!DNL Analytics for Advertising] 與Adobe Advertising中的比較
 
-此 [AMO ID](ids.md) （s_kwcid查詢字串引數）適用於中的報表 [!DNL Analytics]，以及 [EF ID](ids.md) 用於Adobe Advertising中的報告。 由於這些值是不同的值，因此一個值可能會損毀或未新增至登陸頁面。
+此 [AMO ID](ids.md) （s_kwcid查詢字串引數）適用於中的報表 [!DNL Analytics]，以及 [EF ID](ids.md) （ef_id查詢字串引數）用於Adobe Advertising中的報表。 由於這些值是不同的值，因此一個值可能會損毀或未新增至登陸頁面。
 
 例如，假設我們有下列登陸頁面：
 
@@ -230,7 +259,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 由於頻寬或可用的處理能力較低，在行動裝置上載入的網站也不太可能導致點進，導致載入登陸頁面所需的時間較長。 50-70%的點按不會產生點進次數，這種情況很常見。 在行動環境中，差異可能高達90%，這是由於瀏覽器速度較慢，以及使用者在捲動頁面或嘗試關閉廣告時意外點按廣告的可能性較高。
 
-點按資料也可能會記錄於無法以目前追蹤機制記錄點進的環境中（例如進入或離開行動應用程式的點按），或廣告商僅針對其部署了一種追蹤方法（例如使用閱覽JavaScript方法，即封鎖第三方Cookie追蹤點按但不追蹤點進的瀏覽器）。 Adobe建議同時部署點選URL追蹤和閱覽JavaScript追蹤方法的一個主要原因，就是為了將可追蹤點進的涵蓋範圍最大化。
+點按資料也可能會記錄於無法以目前追蹤機制記錄點進的環境中（例如進入或離開行動應用程式的點按），或廣告商僅針對其部署了一種追蹤方法(例如使用閱覽JavaScript方法，即封鎖第三方Cookie追蹤點按但不追蹤點進的瀏覽器)。 Adobe建議同時部署點選URL追蹤和閱覽JavaScript追蹤方法的一個主要原因，就是為了將可追蹤點進的涵蓋範圍最大化。
 
 ### 對非Adobe AdvertisingDimension使用Adobe Advertising流量量度
 
@@ -240,7 +269,7 @@ Adobe Advertising為Analytics提供 [廣告專用流量量度和相關維度，�
 
 ![在報表中使用Adobe Advertising維度來Adobe Advertising量度的範例](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-不過，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依頁面維度（例如頁面）的量度(若其Adobe Advertising未提供資料)，則 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 每一頁的數值都為零(0)。
+不過，如果您檢視 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 依頁面維度（例如頁面）的量度(若Adobe Advertising未提供資料)，則 [!UICONTROL Adobe Advertising Clicks] 和 [!UICONTROL Adobe Advertising Cost] 每一頁的數值都為零(0)。
 
 ![使用不支援之維度的報表中Adobe Advertising量度的範例](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
