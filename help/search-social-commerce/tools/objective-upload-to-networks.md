@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 如何計算加權目標
 
-傳遞至廣告網路的加權目標為所收集的所有量度值的總和，但不包括由追蹤的轉換 [!DNL Google Ads] 或由 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤。
+傳遞至廣告網路的加權目標為所收集的所有量度值的總和，但不包括由追蹤的轉換 [!DNL Google Ads] 或由 [!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤。 此值是使用為廣告商的Search、Social和Commerce帳戶設定的歸因方法來計算。
 
 例如，假設目標的目標量度是權重為25的購物車新增次數，而您的協助量度包括權重為1的GGL_Lead和收入，以及權重為0.5的下載次數。
 
@@ -70,6 +70,12 @@ ht-degree: 0%
 * 5 GGL_Lead
 
 GGL_Lead不會包含在計算/上傳中，因為這是Google的廣告追蹤量度。 因此，加權目標值的計算方式為((10 x 25) + (500 x 1) + (50 x 0.5)) = 775。
+
+>[!TIP]
+>
+>您可以在廣告網路的報表中檢視Adobe Advertising加權收入資料。 根據最佳實務，比較加權收入與 [!DNL Google Ads] 「全部同意 (由conv. 時間)」量度或 [!DNL Microsoft Advertising] 量度「全部」 收入」，區段至O_ACS_OBJ*量度。<!--clarify -->
+
+在廣告網路的編輯器中
 
 ## 疑難排解缺少的目標
 
