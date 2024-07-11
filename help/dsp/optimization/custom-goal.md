@@ -3,23 +3,23 @@ title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # 自訂目標
 
-自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標的套件»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「必須包含自訂目標，以協助實現整體最佳化目標。 您可以建立自訂目標為 *目標* 在 [!DNL Advertising Search, Social, & Commerce].
+自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標的套件»[!UICONTROL Highest Return on Ad Spend (ROAS)"] 或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]「必須包含自訂目標，以協助實現整體最佳化目標。 您可以建立自訂目標為 *目標* 在 [!DNL Advertising Search, Social, & Commerce]. DSP每個目標的名稱都必須加上前置詞「ADSP_」。
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-每個自訂目標（目標）包含一或多個轉換量度，以及這些量度的相對權重。 DSP自訂目標只會考量非行動權重。 可用的轉換量度包含使用Adobe Advertising轉換畫素並透過Adobe Analytics追蹤的所有量度。
+每個自訂目標（目標）包含一或多個轉換量度，以及這些量度的相對權重。 可用的轉換量度包含使用Adobe Advertising轉換畫素並透過Adobe Analytics追蹤的所有量度。 DSP自訂目標只會考量非行動權重，但會用於所有廣告型別。
 
 例如，假設三個轉換量度與您的其中一個行銷活動中的特定套件相關：價值20美元的「PDF下載」、價值30美元的「電子郵件註冊」和價值40美元的「訂單確認」。 如果您想要根據客戶動作的一次性貨幣值給予權重，則量度的相對權重為1、1.5和2。
 
