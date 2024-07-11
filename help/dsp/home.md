@@ -1,13 +1,13 @@
 ---
-title: Advertising DSP新增功能
+title: Advertising DSP的新增功能
 description: 瞭解Adobe Advertising DSP的最新更新和新功能。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1e90b1d4ddcc8fd7b1febc1214fce71daf140a26
+source-git-commit: 16b9db103b263ed203c608c9aedb98a9c4f69766
 workflow-type: tm+mt
-source-wordcount: '3305'
+source-wordcount: '3536'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年7月11日 | [!UICONTROL Custom Goals] | 自訂目標（目的）有新的支援： <ul><li>在搜尋、社交和Commerce中建立並與Advertising DSP套件搭配使用的目標名稱，現在必須加上前置詞「ADSP_」，例如「ADSP_Registrations」。 首碼不區分大小寫。 採用此命名慣例的目標可在DSP中作為自訂目標使用。<br><br>您現有的DSP目標已重新命名，無需任何進一步工作。</li><li>現在會產生目標中DSP歸因量度的權重建議。 當目標包含至少一個目標量度和一個協助量度時，將會針對目標中的每個協助量度，為非行動權重(用於DSP所有裝置型別上的廣告)產生建議。 權重建議會在您儲存或編輯目標定義後的次日早上計算。 建議會在偵測到目標變更後一天更新，否則會每七天更新一次。 有權重建議可用時，指標([有可用的權重建議]（/help/dsp/assets/ weight-recommendation-available.png「權重建議可用」） )會顯示在「搜尋>最佳化>新目標Beta」的目標名稱旁。 只要按一下滑鼠，您就可以套用所有權重建議。 前置詞為&quot;ADSP_&quot;的目標之所有權重變更，都會在兩天內以演演算法方式套用至DSP。</li></ul> | 請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md).」<br><br>如需有關目標與套用權重建議的詳細資訊，請參閱「(Beta)新目標」中的「最佳化指南」章節，此章節可從「搜尋、社交和Commerce」中取得。 |
 | 2024年6月24日 | 認證廣告服務合作夥伴 | 支援由提供的高影響力顯示廣告單位 [!DNL GumGum]. | 請參閱&quot;[認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md).」 |
 | 2024年6月19日 | [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements] | 在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視：<ul><li>趨勢圖現在包含下列可選量度：</li><ul><li>**日步調：** 顯示「昨天的步調」量度在一段時間內的趨勢。</li><li>**航班超前/落後步調：** 顯示累積步調（相對於經過的時間）在一段時間內的趨勢分析。</li></ul>![新的步調量度](/help/dsp/assets/trend-chart-pacing-metrics.png "新的步調量度")<li>資料表格可選擇性包含與步調相關的新量度欄：</li><ul><li>**昨天的必要支出：** 昨天應該花費的金額，以透過航班剩餘時間均勻分配剩餘預算。</li><li>**昨天的步調：** 昨天的花費佔昨天所需花費的百分比。 這是「今天的OTS」的改良版本，現已棄用。 當目前的步調持續低於100%時，套件或投放位置就會因預算而捉襟見肘。</li><li>**今天的所需支出：** 今天應該花費的金額，用於其餘預算在整個飛行中的統一分配。</li><li>**今天的步調：** 今天的支出佔今天所需支出的百分比；每30分鐘更新一次值。 這是「昨天的OTS」的改良版本，現已棄用。 當昨天的步調持續低於100%時，套件或投放位置預算難以如願。</li></ul><li>在資料表格中，「昨天的目標」和「今天的目標」欄會重新命名為「昨天的目標支出」和「今天的目標支出」。</li></ul> | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
-| 2024年6月10日 | [!UICONTROL Audiences] | （Beta版功能）您現在可以將第一方區段從 [!DNL Amperity] 和 [!DNL Optimizely] 客戶資料平台至由以下專案組成的區段： [[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在「對象鎖定目標」的放置設定中，共用區段會顯示在「第一方區段」清單中。 | 請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)，」和「[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
+| 2024年6月10日 | [!UICONTROL Audiences] | (Beta功能)您現在可以從以下轉換您的第一方區段： [!DNL Amperity] 和 [!DNL Optimizely] 客戶資料平台至由以下專案組成的區段： [[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在「對象鎖定目標」的放置設定中，共用區段會顯示在「第一方區段」清單中。 | 請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)，」和「[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
 |  |  | 針對以人物為基礎的通用ID （適用於無Cookie目標定位），提供有關DSP Beta版功能的檔案。 | 請參閱&quot;[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
 | 2024年6月5日 | 版位 | 您現在可以使用試算表一次管理多個位置的競標倍數。 | 請參閱&quot;[管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).」 |
 |  | 對象來源 | 您現在可以變更來源對象轉譯成的通用ID型別，並檢視變更記錄。 | 請參閱&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md).」 |
@@ -40,7 +41,7 @@ ht-degree: 0%
 | 2024年1月24日 | [!UICONTROL Placements] 和 [!UICONTROL Ads] | 已重新設計將廣告附加至刊登版位的工作流程。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」 |
 | 2024年1月10日 | [!UICONTROL Placements] | 您現在可以使用試算表，快速自訂多個位置的廣告排程：<ul><li>您可以下載刊登版位的廣告排程範本。 您可以視需要在下載的檔案中編輯投放日期和廣告輪換。</li><li>然後，您可以上傳已編輯的廣告排程範本。</li></ul> | 請參閱&quot;[編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).」 |
 | 2023年12月21日 | [!UICONTROL Audiences] | 檔案現在可用於共用來自的第一方資料 [!DNL Tealium] 客戶資料平台與DSP，使用 [!DNL Amazon Web Services]. 您可以使用將DSP版位鎖定至區段 [!DNL RampIDs]. 在版位設定內 [!UICONTROL Audience Targeting]，共用的區段可用於 [!UICONTROL First Party Segments] 清單。 | 請參閱&quot;[關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md)「和」[搭配使用DSP整合的工作流程 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).」 |
-| 2023年12月6日 | 計畫者 | （Beta版功能）新的規劃工具可協助根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的家庭層級獨特觸及率。 評估多個計畫後，您可以實作最符合所需結果的套件和位置。 | 請參閱&quot;[關於DSP Planner工具](/help/dsp/planner/planner-about.md).」 |
+| 2023年12月6日 | 計畫者 | (Beta功能)新的規劃工具可協助根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的家庭層級獨特觸及率。 評估多個計畫後，您可以實作最符合所需結果的套件和位置。 | 請參閱&quot;[關於DSP Planner工具](/help/dsp/planner/planner-about.md).」 |
 |  | 最佳化 | 所有使用者皆可使用兩個新的點按式最佳化目標： **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 和 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)「和」[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md).」 |
 | 2023年9月27日 | 最佳化 | 兩個全新的觸及基礎最佳化目標， **[!UICONTROL Always Max Bid and Maximize Reach]** 和 **[!UICONTROL Lowest Cost per Reach]**，可協助您分別使用相同曝光次數或支出層級，觸及儘可能多的獨特家庭。 這兩個目標在封裝層級和位置層級都可用。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
 | 2023年8月23日 | [!UICONTROL Placements] | 新的刊登版位預測工具會顯示特定鎖定目標策略的預測曝光次數、花費及最佳最高出價。 預測是根據位置可用的整體詳細目錄和可用的不重複使用者來計算。 | 請參閱&quot;[檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md).」 |
@@ -53,7 +54,7 @@ ht-degree: 0%
 | 2023年3月 | [!UICONTROL Reports] | 新 [!UICONTROL Household Report] 會根據IP位址顯示家庭層級各種維度的曝光數、觸及範圍和頻率，而非裝置/Cookie層級。 報表包含九個維度： [!UICONTROL Campaign]， [!UICONTROL Package]， [!UICONTROL Placement]， [!UICONTROL Site/Apps]， [!UICONTROL Media Type]， [!UICONTROL Device]， [!UICONTROL Audience]， [!UICONTROL Creative Length]，和使用者建立的 [!UICONTROL Tags]. | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)，&quot; &quot;[報表設定](/help/dsp/reports/report-settings.md)，」和「[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md).」 |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 深入瞭解開放測試版功能的通用視訊版位和廣告。 | 請參閱&quot;[通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md).」 |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 以圖表表單檢視變更記錄檔及新增附註至任何專案的選項已移出Beta版。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，」請參閱「[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)，」並參閱「[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
-| 2023年2月3日 | [!UICONTROL Campaigns] | （Beta版功能）您現在可以圖表形式檢視變更記錄，而且可以將附註新增至任何專案。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，」請參閱「[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)，」並參閱「[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
+| 2023年2月3日 | [!UICONTROL Campaigns] | (Beta功能)您現在可以圖表形式檢視變更記錄，並可將附註新增至任何專案。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)，」請參閱「[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)，」並參閱「[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md).」 |
 | 2023年1月25日 | [!UICONTROL Deals] | 「詳細目錄>交易」檢視報告中的新「PG曝光步調」支出欄會設定保證交易的步調。 | 請參閱&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
 | 2023年1月4日 | [!UICONTROL Campaigns] | 現在每個促銷活動都可使用變更記錄，其中顯示所選日期範圍內進行的變更。 變更記錄檔已可供套件和位置使用。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)「。」 |
 | 2022年12月14日 | 版位、廣告 | （開放Beta版功能）新增»[!UICONTROL Universal Video]「版位和廣告可讓您使用單一視訊版位，針對VPAID和VAST詳細目錄鎖定多個裝置環境。<br><br>通用視訊位置包含「裝置環境」設定，用以指定裝置型別目標([!UICONTROL Desktop]， [!UICONTROL Mobile]、和 [!UICONTROL Connected TV])。 通用視訊廣告只能連結至通用視訊版位。<br><br>自訂報表包含新的位置層級維度「裝置環境」。 | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)「和」[可用報表欄](/help/dsp/reports/report-columns.md).」<br><br>另請參閱&quot;[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)「和」[建立廣告](/help/dsp/campaign-management/ads/ad-create.md).」 |
@@ -68,7 +69,7 @@ ht-degree: 0%
 | 2022年7月27日 | 詳細目錄 | Auction Insights是全新的一難排解工具，可讓您分析已保證和未保證私人交易的交易組成。 透過資料視覺效果，此工具會顯示特定時段內主要拍賣屬性接收之值的趨勢和相對比例。<br><br>透過發佈商的競標要求資料變得透明，您可以避免耗時的疑難排解步驟。 | 請參閱&quot;[檢視私人交易的拍賣深入分析](/help/dsp/inventory/private-deal-auction-insights.md).」 |
 | 2022年6月29日 | 詳細目錄 | 新的 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視包含與以下專案相同的資料自訂功能 [!UICONTROL Campaigns] 檢視，包括其他篩選器、欄自訂及儲存自訂檢視的選項、欄排序，以及資料視覺效果（圖表）檢視。 您可以按一下來開啟每列中的命令選單 [!UICONTROL ...] 在交易名稱之後。 | 請參閱&quot;[庫存功能概觀](/help/dsp/inventory/inventory-overview.md).」 |
 |  | 詳細目錄 [!UICONTROL Inspector] | 此 [!UICONTROL Inventory] 位置的索引標籤 [!UICONTROL Inspector] 現在包含可自訂的資料視覺效果圖表和擴充的效能量度，例如 [!UICONTROL Viewability Rate]， [!UICONTROL Clicks]、和 [!UICONTROL Yesterday's CPM]. | 請參閱&quot;[檢視刊登版位的網站、廣告、頻率和詳細目錄資訊](/help/dsp/campaign-management/reports/placement-details-view.md).」 |
-| 2022年5月31日 | 對象來源 | （測試版功能） Advertising DSP現在可以擷取第一方區段(由客戶資料平台(CDP)內建立的已驗證訊號所組成)。 | 請參閱&quot;[關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md).」 |
+| 2022年5月31日 | 對象來源 | (Beta功能) Advertising DSP現在可以擷取第一方區段(由客戶資料平台(CDP)內建立的已驗證訊號所組成)。 | 請參閱&quot;[關於從受眾來源啟用已驗證的區段](/help/dsp/audiences/sources/source-about.md).」 |
 | 2022年5月25日 | 最佳化目標 | 影片和原生位置現在可以包含在具有自訂目標最高ROAS和最低CPA的套件中。 | 請參閱&quot;[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md).」 |
 | 2022年4月12日 | Campaign Management | 廣告規格已更新，以反映目前的支援。 | 請參閱&quot;[支援廣告型別的規格](/help/dsp/campaign-management/ads/ad-specs.md).」 |
 | 2022年2月17日 | 教學影片 | 推出有關「如何建立標準顯示位置」的新影片。 | 另請參閱 [Adobe AdvertisingTutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
