@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 800cd6f5ef0dca5e7022d8fe367aaa16de498925
+source-git-commit: 0a8d4f0020471078fdaff3967aebbea70bd601f6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年7月11日 | [!UICONTROL Custom Goals] | 自訂目標（目的）有新的支援： <ul><li>在搜尋、社交和Commerce中建立並與Advertising DSP套件搭配使用的目標名稱，現在必須加上前置詞「ADSP_」，例如「ADSP_Registrations」。 首碼不區分大小寫。 採用此命名慣例的目標可在DSP中作為自訂目標使用。<br><br>您現有的DSP目標已重新命名，無需任何進一步工作。</li><li>現在會產生目標中DSP歸因量度的權重建議。 當目標包含至少一個目標量度和一個協助量度時，將會針對目標中的每個協助量度，為非行動權重(用於DSP所有裝置型別上的廣告)產生建議。 權重建議會在您儲存或編輯目標定義後的次日早上計算。 建議會在偵測到目標變更後一天更新，否則會每七天更新一次。 有權重建議可用時，指標([有可用的權重建議](/help/dsp/assets/weight-recommendation-available.png「權重建議可供使用」)會顯示在「搜尋>最佳化>新目標Beta」中的目標名稱旁。 只要按一下滑鼠，您就可以套用所有權重建議。 前置詞為&quot;ADSP_&quot;的目標之所有權重變更，都會在兩天內以演演算法方式套用至DSP。</li></ul> | 請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md).」<br><br>如需有關目標與套用權重建議的詳細資訊，請參閱「(Beta)新目標」中的「最佳化指南」章節，此章節可從「搜尋、社交和Commerce」中取得。 |
+| 2024年7月11日 | [!UICONTROL Custom Goals] | 自訂目標（目的）有新的支援： <ul><li>在搜尋、社交和Commerce中建立並與Advertising DSP套件搭配使用的目標名稱，現在必須加上前置詞「ADSP_」，例如「ADSP_Registrations」。 首碼不區分大小寫。 採用此命名慣例的目標可在DSP中作為自訂目標使用。<br><br>您現有的DSP目標已重新命名，無需任何進一步工作。</li><li>現在會產生目標中DSP歸因量度的權重建議。 當目標包含至少一個目標量度和一個協助量度時，將會針對目標中的每個協助量度，為非行動權重(用於DSP所有裝置型別上的廣告)產生建議。 權重建議會在您儲存或編輯目標定義後的次日早上計算。 建議會在偵測到目標變更後一天更新，否則會每七天更新一次。 有權重建議可用時，指標(![有可用的權重建議](/help/dsp/assets/weight-recommendation-available.png "有可用的權重建議"))會出現在搜尋>最佳化>新目標Beta中的目標名稱旁。 只要按一下滑鼠，您就可以套用所有權重建議。 前置詞為&quot;ADSP_&quot;的目標之所有權重變更，都會在兩天內以演演算法方式套用至DSP。</li></ul> | 請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md).」<br><br>如需有關目標與套用權重建議的詳細資訊，請參閱「(Beta)新目標」中的「最佳化指南」章節，此章節可從「搜尋、社交和Commerce」中取得。 |
 | 2024年6月24日 | 認證廣告服務合作夥伴 | 支援由提供的高影響力顯示廣告單位 [!DNL GumGum]. | 請參閱&quot;[認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md).」 |
 | 2024年6月19日 | [!UICONTROL Campaigns]， [!UICONTROL Packages]， [!UICONTROL Placements] | 在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視：<ul><li>趨勢圖現在包含下列可選量度：</li><ul><li>**日步調：** 顯示「昨天的步調」量度在一段時間內的趨勢。</li><li>**航班超前/落後步調：** 顯示累積步調（相對於經過的時間）在一段時間內的趨勢分析。</li></ul>![新的步調量度](/help/dsp/assets/trend-chart-pacing-metrics.png "新的步調量度")<li>資料表格可選擇性包含與步調相關的新量度欄：</li><ul><li>**昨天的必要支出：** 昨天應該花費的金額，以透過航班剩餘時間均勻分配剩餘預算。</li><li>**昨天的步調：** 昨天的花費佔昨天所需花費的百分比。 這是「今天的OTS」的改良版本，現已棄用。 當目前的步調持續低於100%時，套件或投放位置就會因預算而捉襟見肘。</li><li>**今天的所需支出：** 今天應該花費的金額，用於其餘預算在整個飛行中的統一分配。</li><li>**今天的步調：** 今天的支出佔今天所需支出的百分比；每30分鐘更新一次值。 這是「昨天的OTS」的改良版本，現已棄用。 當昨天的步調持續低於100%時，套件或投放位置預算難以如願。</li></ul><li>在資料表格中，「昨天的目標」和「今天的目標」欄會重新命名為「昨天的目標支出」和「今天的目標支出」。</li></ul> | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)「和」[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).」 |
 | 2024年6月10日 | [!UICONTROL Audiences] | (Beta功能)您現在可以從以下轉換您的第一方區段： [!DNL Amperity] 和 [!DNL Optimizely] 客戶資料平台至由以下專案組成的區段： [[!DNL LiveRamp] [!DNL RampIDs]]或 [!DNL Unified ID 2.0 (UID2.0)] ID。 在「對象鎖定目標」的放置設定中，共用區段會顯示在「第一方區段」清單中。 | 請參閱&quot;[轉換使用者ID來源 [!DNL Amperity] 至通用ID](/help/dsp/audiences/sources/source-amperity.md)，&quot; &quot;[轉換使用者ID來源 [!DNL Optimizely] 至通用ID](/help/dsp/audiences/sources/source-optimizely.md)，」和「[支援啟用通用ID](/help/dsp/audiences/universal-ids.md).」 |
