@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -14,63 +14,63 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Campaign Details]
 
-**[!UICONTROL Name]：** 行銷活動名稱。
+**[!UICONTROL Name]：**&#x200B;行銷活動名稱。
 
 **[!UICONTROL Advertiser]：** （現有行銷活動的唯讀）適用的廣告商（品牌）。 選取現有廣告商或建立新廣告商。
 
-**[!UICONTROL Advertiser URL]：** 廣告商的官方頁面。 此欄位可加快您與詳細目錄合作夥伴的廣告核准流程。
+**[!UICONTROL Advertiser URL]：**&#x200B;廣告商的官方頁面。 此欄位可加快您與詳細目錄合作夥伴的廣告核准流程。
 
 **[!UICONTROL Timezone]：** （現有行銷活動的唯讀）報告和競標的時區。
 
 **[!UICONTROL Customer PO]：** （選擇性）插入訂單/採購單的客戶採購單。
 
-**[促銷活動日期]：** 行銷活動的開始和結束日期。
+**[行銷活動日期]：**&#x200B;行銷活動開始和結束日期。
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]：** 是否要管理行銷活動的邊界： *[!UICONTROL Yes]* 或 *[!UICONTROL No]* （預設）。
+**[!UICONTROL Margin Management]：**&#x200B;是否要管理行銷活動的利潤： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]* （預設值）。
 
-當您選擇 *[!UICONTROL Yes]，* 指定利潤型別和金額：
+當您選擇&#x200B;*[!UICONTROL Yes]，*&#x200B;時，請指定利潤型別和金額：
 
-* **[!UICONTROL Margin Type]：** 邊界型別。 一旦啟用利潤管理並儲存行銷活動，您就無法變更利潤型別。
+* **[!UICONTROL Margin Type]：**&#x200B;利潤型別。 一旦啟用利潤管理並儲存行銷活動，您就無法變更利潤型別。
 
-   * *[!UICONTROL Fixed]：* （預設值）允許DSP根據的固定利潤百分比自動計算和限制支出， [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]：* （預設值）允許DSP根據[!UICONTROL Gross Budget]的固定利潤百分比自動計算並限制支出。
 
-   * *[!UICONTROL Dynamic]：* 可讓您透過指定個別的「 」來向下管理版位層級的邊界 [!UICONTROL Budget Reserve %] 和 [!UICONTROL Gross Budget] 行銷活動中的每個套件和位置。 DSP會根據每個位置的財務效率進行最佳化，而不保證特定利潤。 對於由多個明細行料號所組成的插入訂單，請使用此選項，您已同意以固定費率傳送固定數量的單位或單位型態。
+   * *[!UICONTROL Dynamic]：*&#x200B;可讓您針對行銷活動中的每個套件和位置指定個別的[!UICONTROL Budget Reserve %]和[!UICONTROL Gross Budget]，以管理至位置層級的邊界。 DSP會根據每個位置的財務效率進行最佳化，而不保證特定利潤。 對於由多個明細行料號所組成的插入訂單，請使用此選項，您已同意以固定費率傳送固定數量的單位或單位型態。
 
-* **[!UICONTROL Fixed Margin %]：** （僅具有固定邊界的行銷活動）每個插入順序的預設標籤 <!-- impression? -->，以百分比顯示。 此金額已從以下專案扣除： [!UICONTROL Gross Budget] 以定義淨促銷活動預算。
+* **[!UICONTROL Fixed Margin %]：** （僅具有固定邊界的行銷活動）每個插入訂單<!-- impression? -->的預設加成（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。
 
-* **[!UICONTROL Budget Reserve %]：** （僅限固定邊界的行銷活動；選擇性）保留指定的百分比 [!UICONTROL Gross Budget] 作為安全保障。 此金額已從以下專案扣除： [!UICONTROL Gross Budget] 以定義淨促銷活動預算。
+* **[!UICONTROL Budget Reserve %]：** （只有固定邊界的行銷活動；選擇性）保留[!UICONTROL Gross Budget]的指定百分比作為保護。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。
 
-**[!UICONTROL Gross Budget]：** （僅限具有利潤管理的行銷活動）套用指定邊際調整前的行銷活動總預算。
+**[!UICONTROL Gross Budget]：** （僅具有利潤管理的行銷活動）套用指定邊際調整前的行銷活動預算總額。
 
 您可以選擇新增額外的每日、每週或每月毛額預算：
 
-1. 按一下 **[!UICONTROL Add an additional Gross Budget]**.
+1. 按一下&#x200B;**[!UICONTROL Add an additional Gross Budget]**。
 
-1. 輸入 **[!UICONTROL Gross Budget]** 並選取預算間隔： *[!UICONTROL Daily]，* *[!UICONTROL Weekly]，* 或 *[!UICONTROL Monthly]*.
+1. 輸入&#x200B;**[!UICONTROL Gross Budget]**&#x200B;並選取預算間隔： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]*。
 
 系統會根據利潤設定自動計算總淨預算（即促銷活動的支出上限），並顯示在此值下方。
 
 **[!UICONTROL Budget]：** （沒有利潤管理的行銷活動）整體行銷活動預算。
 
-**[!UICONTROL Estimated Tax Withholding]：** 針對國家/地區或地方稅種，在帳戶層級預扣廣告費用、廣告服務費用和/或資料費用中的總支出百分比。 費率是預算編列與調整用途的估計值，因此開立商業發票的稅率可能有所不同。
+**[!UICONTROL Estimated Tax Withholding]：**&#x200B;在帳戶層級針對國家/地區或當地稅捐預扣全部廣告費用、廣告服務費用及/或資料費用的支出百分比。 費率是預算編列與調整用途的估計值，因此開立商業發票的稅率可能有所不同。
 
 若要預估要預扣的稅捐，請執行下列步驟：
 
-1. 按一下 **[!UICONTROL Update rates here]**.
+1. 按一下&#x200B;**[!UICONTROL Update rates here]**。
 
-1. 指定 **[!UICONTROL Estimated tax rate]**，以百分比顯示。
+1. 以百分比指定&#x200B;**[!UICONTROL Estimated tax rate]**。
 
 1. 選取要預扣稅捐之各費用型態旁的核取方塊。 費用型別包括：
 
-   * *[!UICONTROL Include estimated tax - ads fee]：* 適用於所有Advertising DSP媒體支出，包括促銷活動管理費用稅捐。
+   * *[!UICONTROL Include estimated tax - ads fee]：*&#x200B;適用於所有Advertising DSP媒體支出，包括行銷活動管理費用的稅捐。
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]：* 適用於所有在Advertising DSP上的支出，媒體和資料除外。 不含行銷活動管理費用的稅項
+   * *[!UICONTROL Include estimated tax - ad serving fee]：*&#x200B;適用於Advertising DSP的所有支出，媒體和資料除外。 不含行銷活動管理費用的稅項
 
-   * *[!UICONTROL Include estimated tax - data fee]：* 套用至Advertising DSP上的所有資料支出。
+   * *[!UICONTROL Include estimated tax - data fee]：*&#x200B;適用於Advertising DSP上的所有資料支出。
 
-1. 按一下 **[!UICONTROL Submit]**.
+1. 按一下&#x200B;**[!UICONTROL Submit]**。
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ ht-degree: 0%
 >
 >* 您也可以在帳戶的費用設定中設定這些值。<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]：** （自2020年6月22日起建立的現有行銷活動為唯讀；2020年6月22日之前建立的行銷活動不適用） DSP鎖定廣告並套用頻率上限的層級： *相同裝置* 以裝置為目標或 *人員* 跨所有已知裝置鎖定使用者。 **注意：** 目標為通用ID的位置不提供跨裝置支援。
+**[!UICONTROL Cross Device Level]：** （自2020年6月22日以來建立的現有行銷活動為唯讀；不適用於2020年6月22日之前建立的行銷活動）DSP鎖定廣告並套用頻率上限的層級： *相同裝置*&#x200B;以鎖定裝置為目標，或&#x200B;*人物*&#x200B;以所有已知裝置上的人員為目標。 **注意：**&#x200B;目標為通用ID的位置不提供跨裝置支援。
 
 **[!UICONTROL Device Graph]：** （現有行銷活動的唯讀；僅具有以人物為基礎的跨裝置目標定位的行銷活動）用於跨裝置目標定位和頻率管理的裝置圖表：
 
-* *[!UICONTROL LiveRamp - U.S. only]：* 跨裝置目標定位為$0.35 CPM的所有廣告商都可使用，此廣告商可在廣告中取得透過以下方式傳送的曝光數： [!DNL LiveRamp] 裝置圖表（也就是說，在目標對象區段中找不到裝置）。 您可以在位置層級設定跨裝置目標定位。
+* *[!UICONTROL LiveRamp - U.S. only]：*&#x200B;對於使用[!DNL LiveRamp]裝置圖表所傳遞的曝光數（亦即目標受眾區段中找不到的裝置），跨裝置目標定位為$0.35 CPM的所有廣告商都可使用。 您可以在位置層級設定跨裝置目標定位。
 
   此選項也可供所有廣告商使用，且不需支付任何費用，以進行頻率管理和歸因測量。
 
-  跨裝置支援僅適用於以舊版ID為目標的位置，不適用於以通用ID為目標的位置(包括 [!DNL LiveRamps])。 通用ID的目標定位、頻率管理和歸因只會套用在ID層級。
+  跨裝置支援僅適用於以舊版ID為目標的位置，不適用於以通用ID （包括[!DNL LiveRamps]）為目標的位置。 通用ID的目標定位、頻率管理和歸因只會套用在ID層級。
 
-**[!UICONTROL Frequency Cap]：** （選用）不重複裝置、通用ID或人員（視指定的而定）的次數 [!UICONTROL Cross Device Level] 和位置的 [!UICONTROL Targeting] 設定)，即可從行銷活動中提供廣告。 選項包括 *[!UICONTROL Unlimited]* 或每日、周或月的特定金額。
+**[!UICONTROL Frequency Cap]：** （選擇性）從行銷活動中提供不重複裝置、通用ID或人員（視指定的[!UICONTROL Cross Device Level]和位置的[!UICONTROL Targeting]設定而定）的次數。 選項包括&#x200B;*[!UICONTROL Unlimited]*&#x200B;或每日、每週或每月的特定金額。
 
 >[!NOTE]
 >
 > 您可以在行銷活動、封裝和位置層級設定頻率上限。 DSP遵循行銷活動階層中最嚴格的頻率上限。
 
-**[!UICONTROL Packages]：** 此 [套件](/help/dsp/campaign-management/packages/package-about.md) 以包含在行銷活動中。 選取現有的封裝和/或建立要包含的封裝。 如果您建立套裝程式，請參閱 [封裝設定](/help/dsp/campaign-management/packages/package-settings.md) 以取得詳細資訊。
+**[!UICONTROL Packages]：**&#x200B;要包含在行銷活動中的[套件](/help/dsp/campaign-management/packages/package-about.md)。 選取現有的封裝和/或建立要包含的封裝。 如果您建立封裝，請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)的說明，以取得詳細資訊。
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -106,37 +106,37 @@ ht-degree: 0%
 
 #### [!UICONTROL Viewability, Fraud, & Brand Safety]
 
-**[!UICONTROL IAS]：** （選用）啟用 [!DNL IAS] 使用指定設定，測量並報告可檢視度、詐騙、品牌安全和對象驗證的相關資訊。 需額外付費。
+**[!UICONTROL IAS]：** （選擇性）使用指定的設定，啟用[!DNL IAS]可檢視度、詐騙、品牌安全和對象驗證的測量與報告。 需額外付費。
 
-* **[!UICONTROL Measure On]：** 要測量的存貨： *[!UICONTROL Display and VPAID video inventory]* （預設）或 *[!UICONTROL Display, VPAID & VAST video inventory]*.
+* **[!UICONTROL Measure On]：**&#x200B;要測量的詳細目錄： *[!UICONTROL Display and VPAID video inventory]* （預設）或&#x200B;*[!UICONTROL Display, VPAID & VAST video inventory]*。
 
   >[!NOTE]
   >
   >視訊可檢視度僅可在VPAID詳細目錄中測量。
 
-* **[!UICONTROL IAS Account ID (AnID)]：** (有自己的廣告商 [!DNL IAS] 帳戶；選擇性)組織的 [!DNL IAS] 帳戶ID，其中 [!DNL IAS] 將直接開立使用帳單。
+* **[!UICONTROL IAS Account ID (AnID)]：** （具有自己[!DNL IAS]帳戶的廣告商；選擇性）組織的[!DNL IAS]帳戶識別碼，[!DNL IAS]將直接針對使用收費。
 
-* **[!UICONTROL IAS Team ID]：** (有自己的廣告商 [!DNL IAS] 帳戶；選擇性)組織的團隊ID [!DNL IAS] 帳戶，其中 [!DNL IAS] 將直接開立使用帳單。 <!-- verify -->
+* **[!UICONTROL IAS Team ID]：** （具有自己[!DNL IAS]帳戶的廣告商；選擇性）組織[!DNL IAS]帳戶的團隊識別碼，[!DNL IAS]將直接針對使用收費。<!-- verify -->
 
-**[!UICONTROL MOAT]：** （選用）啟用 [!DNL MOAT] 可檢視度、詐騙、品牌安全和對象驗證的測量與報告。 需額外付費。
+**[!UICONTROL MOAT]：** （選擇性）啟用[!DNL MOAT]可檢視度、詐騙、品牌安全和對象驗證的測量與報告。 需額外付費。 **注意：** [!DNL Oracle]將於2024年9月30日前停止其廣告業務，包括[!DNL MOAT]的所有服務。
 
 #### 對象驗證
 
-**[!UICONTROL Comscore Campaign Ratings]：** （選用）啟用 [!DNL Comscore] 已驗證 [!DNL Campaign Ratings] 使用指定設定測量及報告對象驗證。 需額外付費。
+**[!UICONTROL Comscore Campaign Ratings]：** （選擇性）使用指定的設定，啟用[!DNL Comscore]已驗證的[!DNL Campaign Ratings]對象驗證測量與報告。 需額外付費。
 
-* **[!UICONTROL Target Gender]：** 目標性別： *[!UICONTROL Both]* （預設）， *[!UICONTROL Male]*，或 *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]：**&#x200B;目標的性別： *[!UICONTROL Both]* （預設）、*[!UICONTROL Male]*&#x200B;或&#x200B;*[!UICONTROL Female]*
 
-* **[!UICONTROL Target Age]：** 目標的年齡範圍。 視需要使用左右滑桿來縮小範圍。
+* **[!UICONTROL Target Age]：**&#x200B;目標期限範圍。 視需要使用左右滑桿來縮小範圍。
 
-* **[!UICONTROL Target Country]：** （選用）要鎖定的國家/地區。 [!DNL Comscore] 衡量僅支援國家/地區的曝光數。
+* **[!UICONTROL Target Country]：** （選擇性）目標國家/地區。 [!DNL Comscore]只測量支援國家/地區的曝光數。
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]：** 啟用位置層級的追蹤 [!UICONTROL Attention Score] 量度(的加權平均數 [!DNL Adelaide] &quot;[!DNL Attention Units]」的閱聽)。 量度適用於所有位置型別，但不包括 [!DNL Roku] 連線電視、VPAID-only前段，以及不是播客的音訊。 DSP會自動附加JavaScript標籤至所有相關的創意內容，以及 [!DNL Adelaide] 會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
+**[!UICONTROL Adelaide]：**&#x200B;啟用位置層級[!UICONTROL Attention Score]量度的追蹤（各曝光的[!DNL Adelaide] &quot;[!DNL Attention Units]&quot;加權平均數）。 除了[!DNL Roku]個連線電視、僅限VPAID的影片前段和非播客的音訊之外，所有版位型別都能使用量度。 DSP會自動附加JavaScript標籤至所有相關的創意內容，[!DNL Adelaide]會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
 
-此 [!UICONTROL Attention Score] 欄位位於 [!UICONTROL Metrics] 報表區段；在 [!UICONTROL Campaigns]， [!UICONTROL Packages]、和 [!UICONTROL Placements] 檢視；以及在 [!UICONTROL Sites]， [!UICONTROL Ads]、和 [!UICONTROL Inventory] 的索引標籤 [位置詳細資料檢視](/help/dsp/campaign-management/reports/placement-details-view.md).
+[!UICONTROL Attention Score]欄位可在報告的[!UICONTROL Metrics]區段中；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中；以及在[位置詳細資料檢視](/help/dsp/campaign-management/reports/placement-details-view.md)的[!UICONTROL Sites]、[!UICONTROL Ads]和[!UICONTROL Inventory]索引標籤中。
 
-使用 [!DNL Adelaide] 測量用的區段會針對以下專案提供的廣告每次曝光產生CPM費用： [!DNL Adelaide] 測量標籤。 此費用與下列專案之費用不同 [位置層級關注目標定位](/help/dsp/campaign-management/placements/placement-settings.md).
+使用[!DNL Adelaide]區段進行測量，將會針對含有[!DNL Adelaide]測量標籤的廣告所傳遞的每個曝光產生CPM費用。 此費用與[位置層級關注目標定位](/help/dsp/campaign-management/placements/placement-settings.md)的費用不同。
 
 <!--
 Example JavaScript tag:
@@ -146,7 +146,7 @@ Example JavaScript tag:
 
 ### [!UICONTROL 1st Party Metrics]
 
-**[!UICONTROL Viewability sensitivity]：** 啟用第一方可檢視度測量及報告，使用 [!DNL IAB Open Video Viewability (OpenVV)] 技術，根據指定的敏感度等級：
+**[!UICONTROL Viewability sensitivity]：**&#x200B;根據指定的敏感度等級，啟用使用[!DNL IAB Open Video Viewability (OpenVV)]技術的第一方可檢視度測量與報告：
 
 * *[!UICONTROL Standard (50% of ad in view for two consecutive seconds)]*
 
