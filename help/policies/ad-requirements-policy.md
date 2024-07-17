@@ -3,16 +3,16 @@ title: Adobe Advertising廣告需求原則
 description: 如需廣告需求，請參閱政策。
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 1136589913b2648dd33fa2f6aae6d1aa13f94289
+source-git-commit: 703031baac908e2024d877f031ff164370528383
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising廣告需求原則
 
-*上次更新日期： 2024年7月17日<!-- (except for formatting changes unrelated to content)-->*
+*上次更新原則： 2024年7月17日<!-- (except for formatting changes unrelated to content)-->*
 
 *用於Adobe Advertising DSP和Adobe Advertising搜尋、社交和Commerce*
 
