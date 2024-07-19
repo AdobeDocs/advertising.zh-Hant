@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe區段
 
-（選用）任何 [!DNL Adobe Real-Time Customer Data Platform]、Adobe Analytics或Adobe Audience Manager區段，以包含在對象設定中。
+（選用）要包含在對象設定中的任何[!DNL Adobe Real-Time Customer Data Platform]、Adobe Analytics或Adobe Audience Manager區段。
 
 ## 自訂區段
 
@@ -36,8 +36,8 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
+>* [可用的協力廠商資料提供者](third-party-data-providers.md)
 >* [對象區段邏輯的語法](audience-segment-logic-syntax.md)
->* [建立及實作自訂區段](custom-segment-create.md)
->* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
+>* [建立和實施自訂區段](custom-segment-create.md)
+>* [建立並實作[!UICONTROL CCPA Opt-Out-of-Sale]區段](ccpa-opt-out-segment-create.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

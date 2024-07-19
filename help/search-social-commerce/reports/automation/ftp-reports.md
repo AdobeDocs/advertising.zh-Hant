@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 以FTP存取報表
 
-您可以選擇在唯讀FTP位置接收報表，以便擷取其他自動化程式的檔案（例如，使用其他程式剖析資料）。 除下列專案外的所有基本報表 [!UICONTROL Search Engine Account Report] 而且所有進階報表都能以壓縮的TSV檔案（預設）或副檔名為.ZIP的CSV檔案形式傳送至FTP位置。 包含任何TSV或CSV檔案標頭，且無法隱藏。
+您可以選擇在唯讀FTP位置接收報表，以便擷取其他自動化程式的檔案（例如，使用其他程式剖析資料）。 除了[!UICONTROL Search Engine Account Report]以外的所有基本報表和所有進階報表，都可以壓縮的TSV檔案（預設）或CSV檔案（副檔名為.ZIP）的形式傳送到FTP位置。 包含任何TSV或CSV檔案標頭，且無法隱藏。
 
 若要以FTP存取報表，您必須存取指定的FTP帳戶，且必須使用特定命名慣例和排程來設定報表範本。
 
@@ -24,27 +24,27 @@ ht-degree: 0%
 
 ## 設定FTP傳遞的報告範本
 
-若要在指定的FTP目錄中產生報表，請建立 [報告範本](templates/template-create.md) 的命名慣例和排程。
+若要在指定的FTP目錄中產生報表，請使用下列命名慣例和排程來建立[報表範本](templates/template-create.md)。
 
 >[!NOTE]
 >
->所有進階報表與所有基本報表，但不包括 [!UICONTROL Search Engine Account Report] 可傳送至FTP位置。
+>除了[!UICONTROL Search Engine Account Report]之外，所有進階報表與基本報表都可以傳送至FTP位置。
 
 1. 在報表範本中，將下列資訊加入範本名稱的任何位置：
 
-   * `FTP` （以大寫字母表示）。
+   * `FTP` （大寫字母）。
 
    * （選用）三個系統日期中的任何一個，使用下列區分大小寫的語法，包括括弧：
 
-      * `[TODAY]`  — 包括執行報告的日期、小時和分鐘。 由於其中包含確切時間，因此相同的範本一天可以執行多次，而不會覆寫先前的報表。
+      * `[TODAY]` — 包含執行報告的日期、小時和分鐘。 由於其中包含確切時間，因此相同的範本一天可以執行多次，而不會覆寫先前的報表。
 
-      * `[SDATE]`  — 包括報表日期範圍的開始日期。
+      * `[SDATE]` — 包含報表日期範圍的開始日期。
 
-      * `[EDATE]`  — 包括報表日期範圍的結束日期。
+      * `[EDATE]` — 包含報表日期範圍的結束日期。
 
-   * （可選） `[CSV]` （大寫字母並括在方括弧中）以CSV格式（而非預設的TSV格式）建立檔案。
+   * （選擇性） `[CSV]` （大寫字母並括在方括弧中）可建立CSV格式的檔案，而非預設的TSV格式。
 
-   範例： `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` 會建立202305051656-Portfolio-FTP-20230428-20110504.csv之類的檔案。
+   範例： `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]`會建立202305051656-Portfolio-FTP-20230428-20110504.csv之類的檔案。
 
 1. 排程報表在特定時間執行。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 存取FTP存放庫中的報表
 
-若要存取報表，請使用您FTP帳戶的登入名稱(`amo<userID>rpt`，例如amo1234rpt)和密碼或私人連線金鑰（若已設定）：
+若要存取報表，請使用您FTP帳戶的登入（`amo<userID>rpt`，例如amo1234rpt）及密碼或私密連線金鑰（如果已設定），連線至下列其中一個FTP主機：
 
 * 國際客戶： `ftp3.adobe.net`
 * 美國客戶： `ftp5.adobe.net`

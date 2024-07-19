@@ -14,12 +14,12 @@ ht-degree: 0%
 
 請參閱廣告網路的檔案以瞭解目前的物件限制，例如每個帳戶的最大行銷活動數、每個行銷活動的最大廣告群組數等。
 
-* **[!DNL Baidu]：** 每個 [!DNL Baidu] 帳戶最多可包含100個行銷活動；每個行銷活動1000個廣告群組；每個廣告群組5000個關鍵字；以及每個廣告群組50個廣告。
+* **[!DNL Baidu]：**&#x200B;每個[!DNL Baidu]帳戶最多可包含100個行銷活動；每個行銷活動1000個廣告群組；每個廣告群組5000個關鍵字；以及每個廣告群組50個廣告。
 
-* **[!DNL Microsoft Advertising]：** 請參閱「帳戶、行銷活動和廣告群組的限制」，網址為 [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
+* **[!DNL Microsoft Advertising]：**&#x200B;請參閱[https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001)上的「帳戶、行銷活動和廣告群組的限制」。
 
-* **[!DNL Google Ads]：** 另請參閱 [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
+* **[!DNL Google Ads]：**&#x200B;請參閱[https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658)。
 
-* **[!DNL Yahoo! Japan Ads]：** 另請參閱 [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
+* **[!DNL Yahoo! Japan Ads]：**&#x200B;請參閱[https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html)。
 
-* **[!DNL Yandex]：** 另請參閱 [https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml).
+* **[!DNL Yandex]：**&#x200B;請參閱[https://yandex.com/support/direct/troubleshooting/interface_limitations.xml](https://yandex.com/support/direct/troubleshooting/interface_limitations.xml)。

@@ -1,9 +1,9 @@
 ---
 title: 直接在列中編輯設定
 description: 瞭解如何在列內的管理檢視中編輯資料。
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
    * （清單中的選項）從清單中選取新選項。
 
-   * （日期）輸入新日期，或按一下 ![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆") 以開啟行事曆及 [選取新日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * （日期）輸入新的日期，或按一下![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆")開啟行事曆，然後[選取新的日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。
 
-   * （自由格式值）輸入新值，然後按一下 ![儲存](/help/search-social-commerce/assets/select.png "儲存") 或按下 **輸入** 機碼。
+   * （任意格式值）輸入新值，然後按一下![儲存](/help/search-social-commerce/assets/select.png "儲存")或按&#x200B;**Enter**&#x200B;鍵。
 
    >[!MORELIKETHIS]
    >

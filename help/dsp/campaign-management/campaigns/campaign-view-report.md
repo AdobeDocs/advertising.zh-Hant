@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # 檢視行銷活動的詳細報告
 
-此 <!--legacy --> 行銷活動層級報表包含概述及 [!UICONTROL Geography]， [!UICONTROL Device]， [!UICONTROL Viewability]、和 [!UICONTROL Audience Performance] 資料。
+<!--legacy -->行銷活動層級報告包含有關[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]和[!UICONTROL Audience Performance]資料的概述和區段。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 執行下列任一項作業：
-   * 按一下 **[!UICONTROL ...]** > **[!UICONTROL View report]** ，位於右上角工具列。
-   * 在行銷活動名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+   * 按一下右上角工具列中的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL View report]**。
+   * 在行銷活動名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL View report]**」。
 
 >[!MORELIKETHIS]
 >
->* [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [檢視廣告的詳細報表](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [關於自訂報表](/help/dsp/reports/report-about.md)
+>* [檢視位置的詳細報告](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [關於自訂報告](/help/dsp/reports/report-about.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)
->* [暫停或啟用行銷活動](campaign-pause-activate.md)
+>* [暫停或啟動行銷活動](campaign-pause-activate.md)

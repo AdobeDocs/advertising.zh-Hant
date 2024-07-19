@@ -20,13 +20,13 @@ ht-degree: 0%
 
 * 保守地將網站排除在行銷活動之外，因為內容和市場變化可能會迅速改變網站流量的值。
 
-如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」的「Portfolio」區段中的「調整產品組合策略」，此指南可從「搜尋」、「社交」和「Commerce」中取得。<!-- verify convention for referencing Optimization Guide here -->
+如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」的「Portfolio」區段中的「調整產品組合策略」，此指南可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio最佳實作區段，可在搜尋、社交和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實務，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [撰寫有效文字和復本](best-practices-write.md)
->* [最佳化網站登陸頁面](best-practices-optimize.md)
+>* [撰寫有效的文字廣告復本](best-practices-write.md)
+>* [最佳化網站登入頁面](best-practices-optimize.md)

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 您可以設定通知設定，以訂閱或取消訂閱不同型別的警示。 您可以透過下列任何方式檢視通知：
 
-* 從 [!UICONTROL Notifications] 面板，可從下列位置的主功能表取得： ![通知](/help/search-social-commerce/assets/notifications-panel.png "通知").
+* 從[!UICONTROL Notifications]面板（可從位於![通知](/help/search-social-commerce/assets/notifications-panel.png "通知")的主功能表取得）。
 
-* 從 [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
+* 從[!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta]。
 
-* 從 [!UICONTROL Notification Center] 網頁應用程式，隨即開啟 [!UICONTROL Notification Center] 在Search、Social和Commerce以外的另一個視窗中。
+* 從[!UICONTROL Notification Center]網頁應用程式，它會在Search、Social和Commerce以外的個別視窗中開啟[!UICONTROL Notification Center]。
 
   應用程式的載入速度比一般瀏覽器版本更快，而且會自動更新。 您可以安裝應用程式，並使用瀏覽器的應用程式管理員來管理它。
 
@@ -34,35 +34,35 @@ ht-degree: 0%
 
 * **[!UICONTROL Notices]**：版本、停機時間和其他變更管理通知。
 
-* **[!UICONTROL Recommendations]**：找出改善效能、實作最佳實務等機會。
+* **[!UICONTROL Recommendations]**：發現可改善效能、實作最佳實務等機會。
 
 * **[!UICONTROL Warnings]**：需要注意但對最佳化或管理無關緊要的問題。
 
-* **[!UICONTROL Issues]**：需要立即關注的嚴重問題。 包含帳戶授權錯誤通知。
+* **[!UICONTROL Issues]**：需要立即注意的重大問題。 包含帳戶授權錯誤通知。
 
 ## 通知類別
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**：此通知會 [Bulksheet作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 已完成或失敗。
+   * **[!UICONTROL Bulksheets]**： [大量工作表作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失敗的通知。
 
-   * **[!UICONTROL Manager Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)，這些是正確設定關鍵功能所需的專案。
+   * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce缺少[廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)的認證的通知，這些認證是正確設定重要功能所必需的。
 
-   * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包括 [大量表單工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，大量編輯資料表格內的工作，或使用工具列、實體指派工作或使用者介面內的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派 [標籤分類值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 將行銷活動指派至專案組合，並將限制指派或取消指派至專案組合。<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包含[大量工作表工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)、大量編輯資料表中的工作，或使用工具列、實體指派工作或使用者介面中的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派給任何實體的[標籤分類值](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)、指派行銷活動給投資組合，以及指派或取消指派給投資組合的限制。<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**：用於封閉式測試版
+      * **[!UICONTROL Direct File Upload]**：用於已關閉的測試版
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：用於封閉式測試版
+      * **[!UICONTROL File Upload to Cloud Storage]**：用於已關閉的測試版
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 因為無效的認證，或授權權杖無效或過期。
+      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取[廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)，因為認證無效或授權權杖無效或過期。
 
-      * **[!UICONTROL Account Missing]**：有關搜尋、社交和商務缺少認證的通知 [廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)之認證的通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與同步 [廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md) 因為無效的認證，或授權權杖無效或過期。
+      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與[廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)同步，因為認證無效或授權權杖無效或過期。
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**：此通知符合 [一個 [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) 已完成或失敗。
+   * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失敗的通知。
 
-   * **[!UICONTROL Custom Alerts]**：此通知符合 [警示例項](/help/search-social-commerce/alerts/alert-about.md) 已針對警報範本觸發。
+   * **[!UICONTROL Custom Alerts]**：已針對警示範本觸發[警示執行個體](/help/search-social-commerce/alerts/alert-about.md)的通知。
 
-   * **[!UICONTROL Reports]**：此通知會 [自訂或排程報告](/help/search-social-commerce/reports/report-about.md) 已完成或失敗。
+   * **[!UICONTROL Reports]**： [自訂或排程報告](/help/search-social-commerce/reports/report-about.md)已完成或失敗的通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**：此通知會 [試算表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) 已完成或失敗。
+   * **[!UICONTROL Spreadsheet Feeds]**： [試算表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)完成或失敗的通知。
 
 <!--
 * [!UICONTROL Optimization]
@@ -109,5 +109,5 @@ ht-degree: 0%
 >* [將通知標示為已讀取或未讀取](notification-mark-read-unread.md)
 >* [刪除通知](notification-delete.md)
 >* [編輯您的通知設定](notification-edit.md)
->* [啟用和停用來自的推播通知 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [安裝並解除安裝 [!UICONTROL Notification Center] 網頁應用程式](notification-app-install-uninstall.md)
+>* [啟用和停用來自[!UICONTROL Notification Center]](notifications-push-enable-disable.md)的推播通知
+>* [安裝及解除安裝[!UICONTROL Notification Center] Web應用程式](notification-app-install-uninstall.md)

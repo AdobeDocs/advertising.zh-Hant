@@ -1,9 +1,9 @@
 ---
 title: 使用交易ID摘要的轉換追蹤
 description: 瞭解如何使用交易ID摘要來追蹤轉換資料。
-exl-id: 58f231a6-970b-46b4-824b-67b3d3f83051
+exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -20,19 +20,19 @@ ht-degree: 0%
 
 ## 實施概述
 
-*代理商客戶經理， [!DNL Adobe] 僅帳戶管理員和管理員使用者角色*
+*僅限代理商帳戶管理員、[!DNL Adobe]帳戶管理員和系統管理員使用者角色*
 
-1. 使用帳戶或行銷活動追蹤選項»[!UICONTROL EF Redirect]「和」[!UICONTROL Auto Upload]&quot;，為帳戶或行銷活動中的每個關鍵字（用於關鍵字層級的追蹤）或廣告（用於廣告層級的追蹤）自動產生目的地URL或最終URL。
+1. 使用帳戶或行銷活動追蹤選項&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;，為帳戶或行銷活動中的每個關鍵字（用於關鍵字層級的追蹤）或廣告（用於廣告層級的追蹤）自動產生目的地URL或最終URL。
 
-1. 設定線上轉換的Adobe Advertising轉換追蹤。 此程式與使用Adobe Advertising畫素型轉換追蹤的廣告商相同。 產生包含唯一交易ID的引數的轉換標籤很重要(`ev_transid=<transid>`)。
+1. 設定線上轉換的Adobe Advertising轉換追蹤。 此程式與使用Adobe Advertising畫素型轉換追蹤的廣告商相同。 產生包含唯一交易ID (`ev_transid=<transid>`)之引數的轉換標籤很重要。
 
 1. 對於每個交易的離線部分，廣告商會產生在交易的線上部分中所使用的相同交易ID，以包含在摘要檔案中。
 
-1. 廣告商上傳包含 [必要的轉換資料](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) 到指定的伺服器位置。
+1. 廣告商會將含有[必要轉換資料](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)的檔案上傳到指定的伺服器位置。
 
 1. 技術服務會剖析上傳檔案中的轉換資料，然後將資料上傳至Adobe Advertising。 然後Adobe Advertising會根據個別關鍵字、廣告和刊登版位追蹤資料，並為每個建立收入預測。
 
-1. 技術服務會根據摘要資料驗證已處理的資料，並檢查任何 [孤立交易](/help/search-social-commerce/glossary.md#o-p).
+1. 技術服務會根據摘要資料驗證已處理的資料，並檢查是否有任何[孤立交易](/help/search-social-commerce/glossary.md#o-p)。
 
 >[!MORELIKETHIS]
 >

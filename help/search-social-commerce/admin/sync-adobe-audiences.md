@@ -1,38 +1,38 @@
 ---
-title: 同步 [!DNL Adobe] 對象
-description: 瞭解如何為同步處理您的中繼資料、階層資料和不重複受眾資料 [!DNL Adobe] 對象。
-exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+title: 同步 [!DNL Adobe] 個對象
+description: 瞭解如何同步處理 [!DNL Adobe] 對象的中繼資料、階層資料和不重複對象資料。
+exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 同步 [!DNL Adobe] 對象
+# 同步[!DNL Adobe]個對象
 
-*[!DNL Direct Access]僅限使用者端管理員與管理員*
+僅&#x200B;*[!DNL Direct Access]使用者端管理員和管理員*
 
 *僅具有Adobe Advertising-Adobe Audience Manager或Adobe Advertising-Adobe Analytics整合的廣告商*
 
-您可以允許Search、Social和Commerce提取所有廣告商或代理的中繼資料、階層資料和唯一受眾資料 [!DNL Adobe] 將受眾帶入 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 檢視。 此資訊包括下列專案的資料：
+您可以允許Search、Social和Commerce將廣告商或機構所有[!DNL Adobe]受眾的中繼資料、階層資料和不重複受眾資料提取到[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視中。 此資訊包括下列專案的資料：
 
 * Adobe Audience Manager區段
 
 * 發佈至Adobe Experience Cloud的Adobe Analytics區段
 
-* 使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]
+* 使用Adobe Experience Cloud [!DNL Audience Library]建立的區段
 
-廣告商或代理商必須實作 [Adobe Experience Platform Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 並提供其組織ID (先前稱為 [!DNL IMS Org ID])。
+廣告商或機構必須實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)，並提供其組織識別碼（先前稱為[!DNL IMS Org ID]），才能符合資格。
 
 初始同步處理大約需要24小時。 之後，資料會即時同步，延遲一到兩秒。
 
-1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**。
 
-1. 輸入廣告商之Adobe Experience Cloud帳戶的唯一組織ID，然後按一下 **[!UICONTROL Submit]**.
+1. 輸入廣告商Adobe Experience Cloud帳戶的唯一組織識別碼，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
-   如果您不知道廣告商的組織ID，請在 **[!UICONTROL IMS Org ID]** 在廣告商設定中的欄位 [!UICONTROL Admin] > [!UICONTROL Manage Client].
+   如果您不知道廣告商的組織ID，請在[!UICONTROL Admin] > [!UICONTROL Manage Client]的廣告商設定中的&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;欄位中查詢它。
 
 >[!MORELIKETHIS]
 >

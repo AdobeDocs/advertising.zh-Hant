@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP巨集
 
-巨集是指令的簡短指令或簡稱，通常遵循格式 `${MACRO_NAME}`. 創意程式碼或點進URL中包含的巨集會展開為廣告伺服器可理解的較長程式碼字串。 DSP廣告伺服器會在播放或點按廣告時執行巨集。
+巨集是指令的簡短指令或簡稱，通常遵循格式`${MACRO_NAME}`。 創意程式碼或點進URL中包含的巨集會展開為廣告伺服器可理解的較長程式碼字串。 DSP廣告伺服器會在播放或點按廣告時執行巨集。
 
 廣告伺服器巨集可用來將重要資訊傳送至DSP或協力廠商廣告伺服器。 巨集最常用於販運協力廠商和自訂創意程式碼或中繼資料（例如協力廠商畫素）。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 | ` ${TM_CLICK_URL_URLENC}` | 編碼的重新導向URL，可讓廣告伺服器追蹤及計算廣告點按次數。 當播放廣告時，如果使用者按一下該廣告，就會啟動巨集，且會記錄該點按並計算在內，以用於報表用途。 除非您正在建立協力廠商廣告，且您的廠商需要URL編碼，否則請勿使用此巨集。 | 字串 |
 | `${TM_FEED_ID}` | 媒體刊登的索引鍵(feedKey)。 | 字串 |
 | `${TM_FEED_ID_NUM}` | 媒體刊登的ID。 | 整數 |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | 此位置的網站索引鍵。 下列專案需要： [!DNL AppsFlyer] 行動應用程式安裝廣告的點選追蹤器。<!-- should map to placement_site_key column of placement_site table --> | 字串 |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | 此位置的網站索引鍵。 需要[!DNL AppsFlyer]個行動應用程式安裝廣告的點選追蹤器。<!-- should map to placement_site_key column of placement_site table --> | 字串 |
 | `${TM_PLACEMENT_ID}` | 位置索引鍵(cpKey)。 | 字串 |
 | `${TM_PLACEMENT_ID_NUM}` | 位置ID。 | 整數 |
 | `${TM_RANDOM}` | Cachebuster：介於1到1000000之間的隨機數字。 | 長 |
@@ -56,14 +56,14 @@ ht-degree: 0%
 
 | 巨集 | 替代說明 | 型別 |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | ([!DNL ComScore])平台ID，對應至裝置的作業系統：<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 當平台不是上述任何專案時</li></ul> | varchar(50) |
-| `${CS_DEVICE_MODEL}` | ([!DNL ComScore])裝置型號名稱（以URL編碼）。 | 字串 |
-| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore])提供廣告的環境：<ul><li>`a` =行動應用程式</li><li>`b` =行動網站</li></ul> | 字串(`a` 或 `b`) |
-| `${NS_PLATFORM_ID}` | ([!DNL Nielsen])平台ID，對應至裝置的作業系統：<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` 當平台不是上述任何專案時</li></ul> | 字串 |
+| `${CS_PLATFORM_ID}` | ([!DNL ComScore])對應到裝置作業系統的平台識別碼：<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>當平台不是上述任何專案時`other`</li></ul> | varchar(50) |
+| `${CS_DEVICE_MODEL}` | ([!DNL ComScore])裝置模型名稱，以URL編碼。 | 字串 |
+| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore])提供廣告的環境：<ul><li>`a` =行動應用程式</li><li>`b` =行動網站</li></ul> | 字串（`a`或`b`） |
+| `${NS_PLATFORM_ID}` | ([!DNL Nielsen])對應到裝置作業系統的平台識別碼：<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>當平台不是上述任何專案時`other`</li></ul> | 字串 |
 | `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen])廣告為檢視器的裝置型別：<ul><li>`TAB` =平板電腦</li><li>`PHN` =行動</li><li>`computer` =電腦</li></ul> | 字串 |
-| `${UOO}` | ([!DNL Nielsen])使用者是否已選擇退出廣告追蹤：<ul><li>`1` （DNT標幟= 1） =使用者已選擇退出廣告追蹤</li><li>`0` （DNT標幟= 0） =使用者已選擇加入廣告追蹤</li></ul> | 整數(`0` 或 `1`) |
-| `${TM_BUNDLE}` | 此 [!DNL iOS] 或 [!DNL Android] 應用程式商店套件組合ID。 範例： com.zynga.wwf2.free或id804379658 | 字串 |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` 表示投標者是否確定投標要求來自歐盟，且要求GDPR強制執行：<ul><li>`1` =應強制執行GDPR</li><li>`0` =不應強制執行GDPR</li></ul>`gdpr_consent=${GDPR_CONSENT}` 是傳入競標要求中從供應合作夥伴傳遞的同意值：<ul><li>在大多數情況下，這是base64url編碼的同意字串，或daisybit （範例： BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =不同意</li><li>`1` =同意</li></ul> | Daisybit或整數 |
+| `${UOO}` | ([!DNL Nielsen])使用者是否已選擇退出廣告追蹤：<ul><li>`1` （DNT旗標= 1） =使用者已選擇退出廣告追蹤</li><li>`0` （DNT標幟= 0） =使用者已選擇加入廣告追蹤</li></ul> | 整數（`0`或`1`） |
+| `${TM_BUNDLE}` | [!DNL iOS]或[!DNL Android]應用程式商店套件組合識別碼。 範例： com.zynga.wwf2.free或id804379658 | 字串 |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}`指出出價者是否確定出價要求來自歐盟，且要求GDPR強制執行：<ul><li>`1` =應強制執行GDPR</li><li>`0` =不應強制執行GDPR</li></ul>`gdpr_consent=${GDPR_CONSENT}`是傳入競標要求中從供應合作夥伴傳遞的同意值：<ul><li>在大多數情況下，這是base64url編碼的同意字串，或daisybit （範例： BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA）</li><li>`0` =不同意</li><li>`1` =同意</li></ul> | Daisybit或整數 |
 
 {style="table-layout:auto"}
 
@@ -80,14 +80,14 @@ ht-degree: 0%
 
 當您符合下列條件時，DSP會自動在協力廠商顯示標籤中插入顯示點選巨集：
 
-* 從廣告伺服器合作夥伴匯出廣告標籤 <!-- [Needs PM confirmation.] -->
-* 大量上傳 [!DNL Flashtalking] 或 [!DNL Google DoubleClick for Advertisers] 直接在DSP中新增標籤
+* 從廣告伺服器夥伴<!-- [Needs PM confirmation.] -->匯出廣告標籤
+* 直接在DSP中大量上傳[!DNL Flashtalking]或[!DNL Google DoubleClick for Advertisers]廣告標籤
 
 如果您在建置顯示廣告時遺失按一下巨集，DSP會顯示警告訊息，提示您手動在標籤的正確區域中插入適當的顯示按一下巨集。
 
-## [!DNL Analytics for Advertising] 巨集
+## [!DNL Analytics for Advertising]個巨集
 
-針對專用於下列專案的其他巨集 [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 客戶，請參閱&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)「和」[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md).」
+如需[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)客戶特別可用的其他巨集，請參閱&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)&quot;及&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;。
 
 ## 疑難排解巨集錯誤
 
@@ -95,8 +95,8 @@ ht-degree: 0%
 
 如果巨集名稱的開頭或結尾缺少字元，則會產生錯誤。 例如，如果出現下列情況，則會顯示錯誤訊息：
 
-* 您會忘記巨集名稱開頭的一或多個字元，例如 `${`. 如果未包含完整語法，則無法將專案辨識為有效的巨集。
-* 巨集的結尾不是有效的字元集，例如 `}`.
+* 您忘記巨集名稱開頭的一或多個字元，例如`${`。 如果未包含完整語法，則無法將專案辨識為有效的巨集。
+* 巨集的結尾不是有效的字元集，例如`}`。
 
 >[!MORELIKETHIS]
 >

@@ -5,8 +5,8 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# 廣告文DSP檔
+# Advertising DSP檔案
 
-這是幫助文檔的DSP資料夾。
+這是DSP說明檔案的資料夾。
 
-**注：此頁未發佈在面向客戶的文檔中。**
+**注意：此頁面未發佈在面對客戶的檔案中。**

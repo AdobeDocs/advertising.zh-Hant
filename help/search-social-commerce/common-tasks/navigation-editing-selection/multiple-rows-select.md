@@ -1,32 +1,32 @@
 ---
 title: 選取多列
 description: 瞭解如何選取多個列，以便對所有列執行相同動作。
-exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # 選取多列
 
-您可以選取 [!UICONTROL Search] > [!UICONTROL Campaigns]， [!UICONTROL Search > Label Classifications]、和 [!UICONTROL Optimization] > [!UICONTROL Constraints] 檢視方式：
+您可以在[!UICONTROL Search] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視中選取多個資料列，方法如下：
 
 * 鍵盤快速鍵：
 
-   * **[!DNL Shift+Click]**：若要選取多個連續列，請按一下第一個列並按 **[!DNL Shift]** 當您按一下最後一個按鈕時。
+   * **[!DNL Shift+Click]**：若要選取多個連續的資料列，請按一下第一個資料列，然後按一下&#x200B;**[!DNL Shift]**&#x200B;再按最後一個資料列。
 
-   * **[!DNL Ctrl+Click]**：若要選取多個非連續列，請按一下第一個列，然後按 **[!DNL Ctrl]** 同時按一下其他各列。
+   * **[!DNL Ctrl+Click]**：若要選取多個非連續列，請按一下第一個列，然後按下&#x200B;**[!DNL Ctrl]**，同時按一下其他列。
 
-* 全域核取方塊(![核取方塊](/help/search-social-commerce/assets/check-box.png) 「核取方塊」)：
+* 左上方欄標題中的全域核取方塊（![核取方塊](/help/search-social-commerce/assets/check-box.png)「核取方塊」）：
 
-   * 選取目前頁面上的所有列 — 可能包含套用之篩選器可用的部分或所有列(根據您檢視的是25列、50列、100列、200列或 [!UICONTROL Continuous Scroll]  — 選取全域核取方塊。
+   * 若要根據您檢視的是25列、50列、100列、200列或[!UICONTROL Continuous Scroll]，選取目前頁面上的所有列（可能包含套用篩選器可用的部分或所有列），請選取全域核取方塊。
 
      當您選取頁面上的所有列時，可以取消選取個別列。
 
-   * 若要選取套用之篩選器可用的所有列，請選取全域核取方塊，然後按一下 **[!DNL Select all N records?]**，其中 *N* 是可用的記錄數。
+   * 若要選取套用之篩選器可用的所有資料列，請選取全域核取方塊，然後按一下&#x200B;**[!DNL Select all N records?]**，其中&#x200B;*N*&#x200B;是可用的記錄數。
 
      當您選取所有可用的列時，無法取消選取個別列。
 

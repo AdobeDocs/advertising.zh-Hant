@@ -1,40 +1,40 @@
 ---
-title: 『[!DNL Google Ads] 廣告群組設定
-description: 參考設定 [!DNL Google Ads] 廣告群組。
-exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+title: '[!DNL Google Ads]廣告群組設定'
+description: 參考 [!DNL Google Ads] 廣告群組的設定。
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] 廣告群組設定
+# [!DNL Google Ads]廣告群組設定
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]：** 促銷活動中的唯一廣告群組名稱。 長度上限為255個雙位元組字元。
+**[!UICONTROL Ad Group Name]：**&#x200B;促銷活動中的唯一廣告群組名稱。 長度上限為255個雙位元組字元。
 
-**[!UICONTROL Status]：** 廣告群組的顯示狀態： *作用中* 或 *已暫停*. 新廣告群組的預設為 *作用中*.
+**[!UICONTROL Status]：**&#x200B;廣告群組的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新廣告群組的預設值為&#x200B;*作用中*。
 
-**[!UICONTROL Ad Group Type]：** （僅限展開的動態搜尋廣告行銷活動）廣告群組的型別：
+**[!UICONTROL Ad Group Type]：** （僅展開動態搜尋廣告行銷活動）廣告群組的型別：
 
 * *[!UICONTROL Search Standard]* （預設）：適用於標準廣告。
 
-* *[!UICONTROL Search Dynamic]：* 適用於動態搜尋廣告。
+* *[!UICONTROL Search Dynamic]：*&#x200B;適用於動態搜尋廣告。
 
-**[!UICONTROL Ad Rotation Mode]：** 頻率 [!DNL Google Ads] 會在廣告群組中相互傳遞您的作用中廣告：
+**[!UICONTROL Ad Rotation Mode]：** [!DNL Google Ads]在廣告群組中相互關聯地傳遞您作用中廣告的頻率：
 
-* *[!UICONTROL Optimize]：* Google廣告青睞其預期表現優於廣告群組中其他廣告的廣告。 這些廣告更常進入廣告拍賣，一段時間過後，系統會偏好使用單一廣告。 這可能與您的業務和最佳化目標不一致。
+* *[!UICONTROL Optimize]：* Google廣告偏愛其預期表現優於廣告群組中其他廣告的廣告。 這些廣告更常進入廣告拍賣，一段時間過後，系統會偏好使用單一廣告。 這可能與您的業務和最佳化目標不一致。
 
-* *[!UICONTROL Rotate forever]：*   您的每個廣告進入廣告拍賣的次數都比較平均，這可讓Search、Social和Commerce不僅根據點進率，而且也根據轉換為您的廣告評分。
+* *[!UICONTROL Rotate forever]：*   您的每個廣告進入廣告拍賣的次數都比較平均，這使得Search、Social和Commerce不僅可根據點進率，也可根據轉換為您的廣告評分。
 
-* *[!UICONTROL Use campaign setting]*（新廣告群組的預設值）：使用現有的促銷活動層級廣告輪換設定。 **注意：** 行銷活動層級設定在「搜尋」、「社交」和「商務」中不可見。
+* *[!UICONTROL Use campaign setting]* （新廣告群組的預設值）：使用現有的行銷活動層級廣告輪換設定。 **注意：**&#x200B;行銷活動層級設定在「搜尋」、「社交」和「Commerce」中不可見。
 
-如果行銷活動使用智慧競標策略(例如 [!UICONTROL Target CPA]， [!UICONTROL Target ROAS]，或 [!UICONTROL Enhanced CPC])，然後 [!DNL Google Ads] 自動將選項設為&quot;[!UICONTROL Optimize].」
+如果行銷活動使用智慧出價策略（例如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]或[!UICONTROL Enhanced CPC]），則[!DNL Google Ads]會自動將選項設為&quot;[!UICONTROL Optimize]&quot;。
 
-**[!UICONTROL Custom Bid Level]：** （僅針對顯示網路的行銷活動）競標方式：依據 *[!UICONTROL Ad Group]* （預設）， *[!UICONTROL Age]*， *[!UICONTROL Gender]*， *[!UICONTROL Interest and List]* (Google Ads中的興趣與再行銷)， *[!UICONTROL Keyword]*， *[!UICONTROL Placement]* （網站）， *[!UICONTROL Unknown]*，或 *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]：** （僅針對顯示網路的行銷活動）競標方式：由&#x200B;*[!UICONTROL Ad Group]* （預設值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* (Google Ads中的興趣與再行銷)、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （網站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ ht-degree: 0%
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]：** (行銷活動包含 [!UICONTROL Target CPA] 競標；選用)廣告群組的每次贏取目標成本(CPA)。 此值會覆寫行銷活動層級目標。
+**[!UICONTROL Target CPA]：** （具有[!UICONTROL Target CPA]競標的行銷活動；選用）廣告群組的每次贏取目標成本(CPA)。 此值會覆寫行銷活動層級目標。
 
-**[!UICONTROL Target ROAS]：** (行銷活動包含 [!UICONTROL Target ROAS] 競標；選用)廣告群組的目標廣告投資報酬率(ROAS)，以百分比表示。 此值會覆寫行銷活動層級目標。
+**[!UICONTROL Target ROAS]：** （具有[!UICONTROL Target ROAS]競標的行銷活動；選用）廣告群組的目標廣告支出(ROAS)回報百分比。 此值會覆寫行銷活動層級目標。
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]：** (僅限搜尋網路上的行銷活動，且現有為唯讀 [!DNL Gmail] 行銷活動)是否：
+**[!UICONTROL Audience Target Method]：** （僅搜尋網路上的行銷活動，以及顯示網路上的現有唯讀[!DNL Gmail]行銷活動）是否：
 
-* *[!UICONTROL Target and Bid]：* 只對與目標對象相關聯且滿足廣告群組任何其他目標的使用者顯示廣告。
+* *[!UICONTROL Target and Bid]：*&#x200B;若要只對與目標對象相關聯的使用者顯示廣告，這些使用者也滿足廣告群組的任何其他目標。
 
-* *[!UICONTROL Bid Only]：* 即使是不與目標對象相關聯的人，只要他們滿足其他廣告群組層級目標，也能顯示廣告。 不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。
+* *[!UICONTROL Bid Only]：*&#x200B;若要顯示廣告，即使是未與目標對象相關聯的使用者，只要他們符合其他廣告群組層級的目標即可。 不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。
 
 <!-- **[!UICONTROL Devices]:** -->
 

@@ -20,23 +20,23 @@ ht-degree: 0%
 
 ## 封存位置
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
+1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Archive]**」。
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Archive]**。
 
 >[!NOTE]
 >
->若要檢視已封存位置，請篩選 [!UICONTROL Placements] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Placement status]** 並選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
+>若要檢視已封存的版位，請篩選[!UICONTROL Placements]檢視：按一下![篩選按鈕](/help/dsp/assets/filter.png)、按一下&#x200B;**[!UICONTROL Placement status]**&#x200B;並選取&#x200B;**[!UICONTROL Archived]**，然後按一下&#x200B;**[!UICONTROL Apply]。**
 
 ## 取消封存位置
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
+1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Unarchive]**」。
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Unarchive]**。
 
 >[!MORELIKETHIS]
 >

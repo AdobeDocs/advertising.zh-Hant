@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL Bing Ads Search Query Report]『
-description: 瞭解 [!UICONTROL Bing Ads Search Query Report].
+title: '[!UICONTROL Bing Ads Search Query Report]'
+description: 瞭解[!UICONTROL Bing Ads Search Query Report]。
 exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft Advertising]僅限帳戶*
+僅&#x200B;*[!DNL Microsoft Advertising]個帳戶*
 
-此 [!UICONTROL Bing Ads Search Query Report] 包含一或多個廣告群組的使用者搜尋查詢詞的成本、點選次數、曝光次數和（選擇性）衍生量度資料。 依預設，資料會針對指定日期範圍內每個時間單位每個適用的廣告群組包含一個搜尋字詞列，而造成曝光數或點按數。 依預設，這些列會依廣告群組名稱、然後依搜尋字詞以遞增順序排列。 報表不包含與搜尋字詞相符的關鍵字，也不包含所追蹤的任何轉換資料 [!DNL Adobe].
+[!UICONTROL Bing Ads Search Query Report]包含一或多個廣告群組的使用者搜尋查詢詞的成本、點選、曝光和（選擇性）衍生的量度資料。 依預設，資料會針對指定日期範圍內每個時間單位每個適用的廣告群組包含一個搜尋字詞列，而造成曝光數或點按數。 依預設，這些列會依廣告群組名稱、然後依搜尋字詞以遞增順序排列。 報告不包含與搜尋字詞相符的關鍵字，也不包含[!DNL Adobe]所追蹤的任何轉換資料。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 預設欄
 
-如需所有預設和自訂欄的說明，請參閱&quot;[專業報告的報告欄](specialty-report-columns.md).」
+如需所有預設和自訂欄的說明，請參閱[專業報告的報告欄](specialty-report-columns.md)。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]

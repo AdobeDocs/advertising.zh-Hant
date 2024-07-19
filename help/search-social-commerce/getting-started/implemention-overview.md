@@ -1,24 +1,24 @@
 ---
-title: 實施搜尋、社交和商務的概觀
+title: 實施搜尋、社交和Commerce概觀
 description: 瞭解
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
-# 實施搜尋、社交和商務的概觀
+# 實施搜尋、社交和Commerce概觀
 
-[!DNL Adobe] 或其任何一家附屬代理商與每家廣告商合作，推出其線上廣告產品組合，並追蹤任何其他廣告促銷活動。 初次啟動後，其他持續性工作可確保繼續達成廣告商的目標。
+[!DNL Adobe]或其其中一個附屬代理與每個廣告商合作，以推出其線上廣告產品組合併追蹤任何其他廣告行銷活動。 初次啟動後，其他持續性工作可確保繼續達成廣告商的目標。
 
-以下是實作及使用「搜尋」、「社交」和「商務」的一般工作流程。
+以下是實作及使用「搜尋」、「社交」和「Commerce」的一般工作流程。
 
 ## 初始啟動
 
-[!DNL Adobe] 和/或您的機構與您合作時，請完成下列工作：
+[!DNL Adobe]和/或您的機構與您合作時，請完成下列工作：
 
 1. 評估高階業務目標並設計策略以達成目標：
 
@@ -40,17 +40,17 @@ ht-degree: 0%
 
 1. 同步處理或建立每個廣告網路帳戶的行銷活動：
 
-   * 與帳戶同步，方法是： a)在「搜尋、社交和商務」中建立包含帳戶存取憑證和追蹤選項的對應帳戶記錄，以及b)將帳戶狀態設定為「已啟用」。
+   * 與帳戶同步處理，方法是透過a)在「搜尋」、「社交」和「Commerce」中建立包含帳戶存取認證和追蹤選項的對應帳戶記錄，以及b)將帳戶狀態設定為「已啟用」。
 
-   * 如果帳戶尚未包含行銷活動資料，請從「搜尋」、「Social」和「Commerce」內或廣告網路內新增行銷活動、廣告群組、關鍵字、廣告和版位。
+   * 如果帳戶尚未包含行銷活動資料，請從Search、Social和Commerce內或廣告網路內新增行銷活動、廣告群組、關鍵字、廣告和版位。
 
      如需設定搜尋促銷活動的詳細資訊，請參閱「Campaign Management」的說明章節。
 
 1. 設定您希望Adobe Advertising追蹤轉換之所有廣告的追蹤：
 
-   1. （如有必要）設定廣告的點選追蹤，並可選擇設定關鍵字的點選追蹤 [!DNL Google Ads] 版位，和 [!DNL Google Ads] 擴充功能，具體方式為產生及上傳點選追蹤URL。
+   1. （如有必要）透過產生及上傳點選追蹤URL來設定廣告的點選追蹤，以及選擇性地設定關鍵字、[!DNL Google Ads]位置和[!DNL Google Ads]副檔名的點選追蹤。
 
-      使用Adobe Advertising畫素型轉換追蹤服務的廣告商的點選追蹤URL包含重新導向至 [!DNL Adobe] 伺服器。
+      使用Adobe Advertising畫素型轉換追蹤服務的廣告商的點選追蹤URL包含重新導向至[!DNL Adobe]伺服器。
 
    1. 設定轉換追蹤。 根據實作，這可能需要將轉換追蹤標籤新增到適當的網頁，和/或為您使用自己的方法收集的轉換資料設定每日摘要拖放功能。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
    1. (使用Adobe Analytics和/或Adobe Audience Manager的廣告商)設定各種帳戶之間的整合，讓Adobe Advertising可以與其交換資料。
 
-      請參閱「[與Experience Cloud整合](/help/integrations/home.md).」
+      請參閱「[與Experience Cloud](/help/integrations/home.md)的整合」指南。
 
-   1. (廣告商使用 [!DNL Google Analytics])同步處理「 」的轉換量度 [!DNL Google Analytics] 帳戶、屬性和檢視的組合，用於最佳化和報告。
+   1. （具有[!DNL Google Analytics]的廣告商）同步[!DNL Google Analytics]帳戶、屬性和檢視組合的轉換量度，以進行最佳化和報告。
 
-      請參閱說明子章節「管理員」>「[設定資料來源](/help/search-social-commerce/admin/data-sources/data-source-about.md).」
+      請參閱說明子章節「管理員」>「[設定資料來源](/help/search-social-commerce/admin/data-sources/data-source-about.md)」。
 
 1. 設定和啟動產品組合：
 
@@ -74,9 +74,9 @@ ht-degree: 0%
       >
       >搜尋、Social和Commerce仍會追蹤和報告未指派給產品組合之行銷活動的資料，但不會最佳化行銷活動的出價。
 
-   1. 在有足夠的資料可用來建立基準後，團隊就可以啟動產品組合 — 讓「搜尋」、「社交」和「商務」根據最佳化型別最佳化產品組合的競標和/或預算。
+   1. 在有足夠的資料可用來建立基準後，團隊就可以啟動產品組合 — 讓Search、Social和Commerce根據最佳化型別最佳化產品組合的競標和/或預算。
 
-   如需設定和啟動產品組合的詳細資訊，請參閱「最佳化」的說明，此說明可從 [!UICONTROL Help] 功能表(![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表"))，位於「搜尋」、「社交」和「商務」中任何頁面的右上角。
+   如需設定和啟動產品組合的詳細資訊，請參閱「最佳化」的說明，此說明可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
 
 1. 監控您的產品組合績效：
 
@@ -86,11 +86,11 @@ ht-degree: 0%
 
    如需有關執行廣告深入分析和設定報表的詳細資訊，請參閱「深入分析和報表」的說明章節。
 
-1. （可選）設定您的 [效能資料檢視](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) 以顯示您要檢視的資料。
+1. （選擇性）設定您的[效能資料檢視](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)，以顯示您要檢視的資料。
 
 ## 進行中的任務
 
-初次啟動後，需要下列持續性工作。 根據您的參與條款，可以 [!DNL Adobe]，即附屬機構或廣告商執行以下工作：
+初次啟動後，需要下列持續性工作。 根據您的參與條款，[!DNL Adobe]、附屬機構或廣告商會執行下列工作：
 
 * 檢視警報、每個產品組合及其元件行銷活動的效能資料、可自訂的報表，以及（某些角色）模擬，繼續監視和分析每個產品組合的效能。
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 新增投資組合。
 
-如需監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理Portfolio」>「監控和管理效能」，可從 [!UICONTROL Help] 功能表(![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表"))，位於「搜尋」、「社交」和「商務」中任何頁面的右上角。
+如需有關監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理Portfolio」>「監控和管理效能」，可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。

@@ -1,16 +1,16 @@
 ---
-title: 的點選追蹤格式 [!DNL Yahoo! Display Network]
-description: 瞭解的點選追蹤格式 [!DNL Yahoo! Display Network] 帳戶。
-exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
+title: ' [!DNL Yahoo! Display Network]的點選追蹤格式'
+description: 瞭解 [!DNL Yahoo! Display Network] 帳戶的點選追蹤格式。
+exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 上的贊助廣告的點選追蹤格式 [!DNL Yahoo! Display Network]
+# [!DNL Yahoo! Display Network]上贊助廣告的點選追蹤格式
 
 下列基本目的地URL格式適用於贊助廣告：
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中廣告商唯一ID的變數。
+>* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請替代 `cq?` 晚於 `<advertiser_ID>` 替換為 `c?`.
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
->* `<the landing page>` 是變數，代表一般使用者要導向的網站URL。
+>* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 
 >[!MORELIKETHIS]
 >

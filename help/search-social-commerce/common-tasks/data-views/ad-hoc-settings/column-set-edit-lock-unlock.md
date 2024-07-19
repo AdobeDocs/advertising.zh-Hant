@@ -1,9 +1,9 @@
 ---
 title: 鎖定和解鎖欄設定
 description: 瞭解如何在行銷活動檢視中鎖定和解鎖欄設定。
-exl-id: e2a72a99-8122-451c-8818-30f817696256
+exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 鎖定只有在您離開實體檢視時才有作用。 您無法將其儲存至預設或自訂檢視。
 
-* （若要鎖定欄組態）在欄標題的右側，按一下 ![向下鍵](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下鍵")，然後選取 **[!UICONTROL Lock Column]**.
+* （若要鎖定欄設定）在欄標題的右側，按一下![向下箭頭](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭頭")，然後選取&#x200B;**[!UICONTROL Lock Column]**。
 
-* （若要解除鎖定欄組態）在已鎖定欄組中任何欄標題的右側，按一下 ![向下鍵](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下鍵")，然後選取 **[!UICONTROL Unlock Column]**.
+* （若要解除鎖定資料行設定）在鎖定資料行集合中任何資料行標題的右側，按一下![向下箭頭](/help/search-social-commerce/assets/arrow-down-dropdown.png "向下箭頭")，然後選取&#x200B;**[!UICONTROL Unlock Column]**。

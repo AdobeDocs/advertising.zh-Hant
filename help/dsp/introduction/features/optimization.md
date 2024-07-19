@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSP會分兩個階段針對您最關心的量度進行最佳化。 首先，它會根據套裝的最佳化目標，將支出轉移到表現最好的位置或策略。 第二，它可即時調整拍賣競標，以反映即時經濟價值，平衡a)透過b)您選擇的KPI提供完整預算的需求。 這些最佳化階段可共同確保您的預算有效用於實現您的行銷活動目標。
 
-您可以針對每個版位和套件選擇最佳化目標。 可用的最佳化目標包括預設集選項，例如&quot;[!UICONTROL Lowest Cost per Click]，」以及您在中設定為目標的自訂目標 [!DNL Advertising Search, Social, & Commerce].
+您可以針對每個版位和套件選擇最佳化目標。 可用的最佳化目標包括預設集選項（例如&quot;[!UICONTROL Lowest Cost per Click]&quot;），以及您在[!DNL Advertising Search, Social, & Commerce]中設定為目標的自訂目標。
 
 >[!MORELIKETHIS]
 >

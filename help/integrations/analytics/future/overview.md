@@ -14,48 +14,48 @@ ht-degree: 0%
 
 您可以透過下列方式整合Adobe Advertising與Analytics。
 
-## 資料交換介於 [!DNL Analytics] 和Adobe Advertising
+## 在[!DNL Analytics]和Adobe Advertising之間交換資料
 
-### 提取 [!DNL Analytics] 將資料匯入Adobe Advertising
+### 將[!DNL Analytics]資料提取至Adobe Advertising
 
-替換為 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)，[!DNL Search, Social, & Commerce] 和DSP提取專案：
+透過[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)、[!DNL Search, Social, & Commerce]和DSP提取：
 
-* **[!DNL Analytics]區段：**  在中建立之所有廣告商或代理商區段的中繼資料、階層資料和唯一受眾資料 [!DNL Analytics] 並發佈至Experience Cloud。
+* **[!DNL Analytics]區段：**&#x200B;在[!DNL Analytics]中建立並發佈至Experience Cloud的所有廣告商或機構區段的中繼資料、階層資料和不重複受眾資料。
 
 * **[!DNL Analytics]網站參與量度**
 
 * **[!DNL Analytics]標準、自訂和保留的量度**
 
-### 傳送Adobe Advertising資料至 [!DNL Analytics]
+### 將Adobe Advertising資料傳送至[!DNL Analytics]
 
-* **來自Adobe Advertising的流量量度**
+* 來自Adobe Advertising **的**&#x200B;流量量度
 
-* **來自Adobe Advertising的Dimension**
+* 來自Adobe Advertising **的** Dimension
 
 >[!NOTE]
 >
->的 [!DNL Search, Social, & Commerce]中，大部分的廣告網路和促銷活動型別都支援此功能。 請參閱以下主題中的「支援詳細目錄」： [!DNL Search, Social, & Commerce] 指南，以取得詳細資訊。<!-- add link when that's published in ExL -->
+>對於[!DNL Search, Social, & Commerce]，大部分廣告網路和行銷活動型別都支援此功能。 如需詳細資訊，請參閱[!DNL Search, Social, & Commerce]指南中的「支援的詳細目錄」。<!-- add link when that's published in ExL -->
 
-### 使用 [!DNL Analytics] 要建立的區段 [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
+### 使用[!DNL Analytics]區段來建立[!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
-*選擇加入的廣告商，搭配 [!DNL Advertising Search, Social, & Commerce] 僅限*
+*只選擇加入[!DNL Advertising Search, Social, & Commerce]的廣告商*
 
 <!-- Verify all -->
 
-範圍 [!DNL Search, Social, & Commerce]，您可以建立 [!DNL Google Ads] Google客戶使用您現有的從使用者ID比對對象 [!DNL Analytics] 區段。 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud建立的區段 [!DNL Audience Library]. 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 客戶比對來自的對象 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).」
+在[!DNL Search, Social, & Commerce]內，您可以使用現有的[!DNL Analytics]區段，從使用者ID建立[!DNL Google Ads]個Google客戶比對對象。 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)的客戶比對對象。&quot;
 
-[客戶比對來自使用者ID的受眾](https://support.google.com/google-ads/answer/9199250) 類似網站標籤型受眾的運作方式，但非PII ID會指派給不重複受眾成員，以享有標準客戶比對和網站標籤型受眾的不同優點。
+[來自使用者ID的客戶相符對象](https://support.google.com/google-ads/answer/9199250)的工作方式與網站標籤型對象類似，但會將非PII ID指派給不重複對象成員，以區別於標準客戶相符和網站標籤型對象的好處。
 
-若要建立必要的使用者ID，您必須使用Adobe Advertising的JavaScript標籤 <!-- with a user ID parameter -->在您的網站上。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+若要建立必要的使用者ID，您必須在您的網站上使用Adobe Advertising的JavaScript標籤<!-- with a user ID parameter -->。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-![區段建立流程](/help/integrations/assets/ad_search_user_id_pic.png)
+![區段建立程式](/help/integrations/assets/ad_search_user_id_pic.png)
 
-建立對象後，您便可以在以下位置使用它們： [!DNL Google Ads] 行銷活動為 [行銷活動層級或廣告群組層級目標或排除專案](#audience-manager-targets).
+建立對象後，您可以在[!DNL Google Ads]行銷活動中將其用作[行銷活動層級或廣告群組層級目標或排除專案](#audience-manager-targets)。
 
-### 使用 [!DNL Analytics] 要鎖定或排除廣告的區段 {#analytics-targets}
+### 使用[!DNL Analytics]區段來鎖定目標或排除廣告 {#analytics-targets}
 
-* (選擇加入的廣告商，搭配 [!DNL Search, Social, & Commerce])您可以使用任何 [!DNL Google Ads] 曾經是 [建立方式 [!DNL Analytics] 區段](#audience-manager-google-audiences) 作為行銷活動層級或廣告群組層級目標或排除專案，在 [!DNL Google Ads] 行銷活動。
+* （選擇加入的廣告商具有[!DNL Search, Social, & Commerce]）您可以使用任何[!DNL Google Ads]對象，這些對象是[使用 [!DNL Analytics] 區段](#audience-manager-google-audiences)建立的，在您的[!DNL Google Ads]行銷活動中作為行銷活動層級或廣告群組層級目標或排除專案。
 
-* (使用DSP的廣告商)您可以使用現有的 [!DNL Analytics] 區段作為廣告投放的目標。 您可以選擇將區段納入可重複使用的受眾中，將其用於多個位置的鎖定目標或排除專案。
+* (使用DSP的廣告商)您可以使用現有的[!DNL Analytics]區段作為廣告刊登的目標。 您可以選擇將區段納入可重複使用的受眾中，將其用於多個位置的鎖定目標或排除專案。
 
-* (具有Advertising Creative的廣告商)您可以使用現有的 [!DNL Analytics] 區段作為廣告體驗中特定創意的目標。
+* (具有Advertising Creative的廣告商)您可以使用現有的[!DNL Analytics]區段，作為廣告體驗中特定創意內容的目標。

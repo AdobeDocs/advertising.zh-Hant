@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
-description: 瞭解 [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+description: 瞭解[!UICONTROL AdWords Search Query Report]。
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Search Query Report]
 
-*[!DNL Google Ads]僅限帳戶*
+僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-此 [!UICONTROL AdWords Search Query Report] 包含一或多個廣告群組的使用者搜尋查詢詞的成本、點選次數、曝光次數和（選擇性）衍生量度資料。 依預設，資料會針對指定日期範圍內每個時間單位每個適用的廣告群組包含每個搜尋字詞造成曝光數或點按數的資料列，且這些資料列會依廣告群組名稱、然後依搜尋字詞以遞增順序排列。 您可以選擇加入與搜尋字詞相符的關鍵字。 報表不包含與搜尋字詞相符的關鍵字，也不包含所追蹤的任何轉換資料 [!DNL Adobe].
+[!UICONTROL AdWords Search Query Report]包含一或多個廣告群組的使用者搜尋查詢詞的成本、點選、曝光和（選擇性）衍生的量度資料。 依預設，資料會針對指定日期範圍內每個時間單位每個適用的廣告群組包含每個搜尋字詞造成曝光數或點按數的資料列，且這些資料列會依廣告群組名稱、然後依搜尋字詞以遞增順序排列。 您可以選擇加入與搜尋字詞相符的關鍵字。 報告不包含與搜尋字詞相符的關鍵字，也不包含[!DNL Adobe]所追蹤的任何轉換資料。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 預設欄
 
-如需所有預設和自訂欄的說明，請參閱&quot;[專業報告的報告欄](specialty-report-columns.md).」
+如需所有預設和自訂欄的說明，請參閱[專業報告的報告欄](specialty-report-columns.md)。
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [關於專業報告](specialty-report-about.md)
-* [產生專業報告](specialty-report-generate.md)
-* [專業報告設定](specialty-report-settings.md)
+>* [關於專業報告](specialty-report-about.md)
+>* [產生專業報告](specialty-report-generate.md)
+>* [專業報告設定](specialty-report-settings.md)

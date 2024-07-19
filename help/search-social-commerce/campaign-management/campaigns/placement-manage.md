@@ -1,73 +1,73 @@
 ---
-title: 管理 [!DNL Google Ads] 版位
-description: 瞭解如何建立和管理可出價刊登版位 [!DNL Google Ads] 廣告群組。
-exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+title: 管理 [!DNL Google Ads] 位置
+description: 瞭解如何建立和管理 [!DNL Google Ads] 廣告群組的可出價刊登版位。
+exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Google Ads] 版位
+# 管理[!DNL Google Ads]個版位
 
-*[!DNL Google Ads]僅限帳戶*
+僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-您可以在中建立和編輯廣告群組的版位 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 以內的顯示網路為目標 [已同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+您可以在[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)中，針對[已同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中的顯示網路來建立和編輯廣告群組的版位
 
-## 建立 [!DNL Google Ads] 版位
+## 建立[!DNL Google Ads]個版位
 
 >[!TIP]
 >
->若要一次建立多個版位，請使用 [行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>若要同時建立多個版位，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**。
 
 1. 
-   1. 在資料表格上方的工具列中，按一下 ![建立](/help/search-social-commerce/assets/add.png "建立").
+   1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
-1. 選取廣告網路、帳戶、行銷活動和廣告群組，然後按一下 **[!UICONTROL Continue]**.
+1. 選取廣告網路、帳戶、行銷活動和廣告群組，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 設定 [位置設定](#placement-settings).
+1. 設定[位置設定](#placement-settings)。
 
-1. 按一下 **[!UICONTROL Post]**.
+1. 按一下&#x200B;**[!UICONTROL Post]**。
 
-## 編輯 [!DNL Google Ads] 版位
+## 編輯[!DNL Google Ads]版位
 
 >[!TIP]
 >
->若要一次編輯多個版位，請使用 [行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>若要一次編輯多個位置，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 在子功能表中，按一下 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
 
 1. 選取要編輯之每一列旁的核取方塊。
 
-   如需選取多個列的秘訣，請參閱&quot;[選取多列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).」
+   如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-1. 在資料表格上方的工具列中，按一下 ![編輯](/help/search-social-commerce/assets/edit.png "編輯") .
+1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-1. 編輯 [位置設定](#placement-settings).
+1. 編輯[位置設定](#placement-settings)。
 
    若為多個版位，您的變更會套用至所有選取的版位。 對於某些英數字元欄位，您可以將現有值變更為指定值、以指定字串取代現有字串、在每個值的開頭加上指定首碼，或在每個值的結尾附加尾碼。 對於某些貨幣欄位，您可以將現有值變更為指定值，或透過指定百分比或貨幣金額來增加或減少金額，但需有限制。
 
 1. 儲存資料：
 
-   * （單一版位）按一下 **[!UICONTROL Post]**.
+   * （單一位置）按一下&#x200B;**[!UICONTROL Post]**。
 
-   * （多個位置）按一下 **[!UICONTROL Post Now]**.
+   * （多個位置）按一下&#x200B;**[!UICONTROL Post Now]**。
 
 ## 位置設定 {#placement-settings}
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]：** 內容網路上可顯示您廣告的網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 URL不能包含問號(`?`)。 **注意：** 您可以 [排除網站位置](placement-negative-create.md) 從 [!UICONTROL Placements] > [!UICONTROL Negatives] 在廣告群組和促銷活動設定中檢視和。
+您的廣告可以出現在內容網路上的&#x200B;**[!UICONTROL Placements]：**&#x200B;網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 URL不能包含問號(`?`)。 **注意：**&#x200B;您可以[從[!UICONTROL Placements] > [!UICONTROL Negatives]檢視，以及廣告群組和行銷活動設定中，排除網站位置](placement-negative-create.md)。
 
-**[!UICONTROL Status]：** 位置的顯示狀態： *作用中* （啟用競標；預設）， *已暫停* （停用競標），或 *已刪除* （刪除版位；僅限現有版位）。
+**[!UICONTROL Status]：**&#x200B;位置的顯示狀態： *啟用* （啟用競標；預設值）、*已暫停* （停用競標）或&#x200B;*已刪除* （刪除位置；僅現有位置）。
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]：** （選用）投放位置型廣告的最大每次點按成本(CPC)或每千次可檢視曝光成本(vCPM)，視促銷活動競標策略而定。 此值會覆寫廣告群組層級競標。
+**[!UICONTROL Bid]：** （選用）根據行銷活動競標策略，針對位置型廣告的最高每次點按成本(CPC)或每千次可檢視曝光成本(vCPM)。 此值會覆寫廣告群組層級競標。
 
 <!-- If the placement is in a standard optimized portfolio, then the specified bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations. -->
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於版位](placement-about.md)
->* [建立負面版位](placement-negative-create.md)
+>* [關於位置](placement-about.md)
+>* [建立負面的版位](placement-negative-create.md)
 >* [變更刊登版位和負面刊登版位的狀態](placement-status-edit.md)

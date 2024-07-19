@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 文字廣告範本 — 管理新行銷活動的設定
 
-**[!UICONTROL Manage Settings for NEW Campaigns]：**（選用）可讓您為已建立的任何行銷活動進行設定。
+**[!UICONTROL Manage Settings for NEW Campaigns]：**（選擇性）可讓您為已建立的任何行銷活動設定設定。

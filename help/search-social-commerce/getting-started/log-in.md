@@ -1,11 +1,11 @@
 ---
 title: 登入
 description: 瞭解登入方式。
-exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ ht-degree: 0%
 
    * 北美使用者： [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
 
-   * 所有其他區域中的使用者： [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
+   * 所有其他區域的使用者： [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
 ## 從Adobe Experience Cloud登入
 
 >[!NOTE]
 >
->您的公司必須布建在Adobe Experience Cloud中，且您必須擁有 [已將您的Experience Cloud帳戶連結至搜尋、社交和商務帳戶](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>您的公司必須在Adobe Experience Cloud中布建，而且您必須將您的Experience Cloud帳戶[連結至搜尋、社交和Commerce帳戶](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
 
-1. 在頂端功能表中，選取 ![解決方案選擇器](/help/search-social-commerce/assets/menu-icon.png "解決方案選擇器").
+1. 在頂端功能表中，選取![方案選擇器](/help/search-social-commerce/assets/menu-icon.png "方案選擇器")。
 
-1. 在子功能表中，選取 **[!UICONTROL Advertising Cloud]**.
+1. 在子功能表中，選取&#x200B;**[!UICONTROL Advertising Cloud]**。
 
 >[!MORELIKETHIS]
 >

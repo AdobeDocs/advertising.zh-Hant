@@ -1,33 +1,33 @@
 ---
-title: 上傳流量和轉換量度 [!DNL Naver] 僅限追蹤的帳戶
-description: 瞭解如何上傳流量和轉換量度，以僅追蹤和報告 [!DNL Naver] 帳戶。
-exl-id: cfc8178c-0be0-445d-a387-abe826e1ca8a
+title: 上傳 [!DNL Naver] 僅限追蹤帳戶的流量和轉換量度
+description: 瞭解如何上傳 [!DNL Naver] 帳戶的流量和轉換量度，以僅進行追蹤和報告。
+exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# 上傳流量和轉換量度 [!DNL Naver] 僅限追蹤的帳戶
+# 上傳[!DNL Naver]個僅限追蹤帳戶的流量和轉換量度
 
-*僅導覽帳戶*
+僅&#x200B;*Naver帳戶*
 
-您可以上傳每日彙總流量量度和轉換量度的TSV、CSV或TXT檔案，專供廣告網路帳戶進行追蹤和報告。 資料必須遵循 [指定的格式](naver-tracking-campaigns-data-requirements.md). 如果檔案包含「搜尋」、「社交」和「商務」中不存在之實體的資料，則會跳過這些列。
+您可以上傳每日彙總流量量度和轉換量度的TSV、CSV或TXT檔案，專供廣告網路帳戶進行追蹤和報告。 資料必須遵循[指定的格式](naver-tracking-campaigns-data-requirements.md)。 如果檔案包含「搜尋」、「社交」和「Commerce」中不存在之實體的資料，則會跳過這些列。
 
-搜尋、社交和商務不會將資料與廣告網路同步，也不會對帳戶進行競標。
+搜尋、社交和Commerce不會將資料與廣告網路同步，也不會對帳戶投標。
 
-1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**。
 
 1. 選取廣告網路。
 
-1. 按一下 **[!UICONTROL Choose File]** 在您的裝置或網路上尋找檔案。
+1. 按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;在您的裝置或網路上尋找檔案。
 
-1. 按一下 **[!UICONTROL Upload]**.
+1. 按一下&#x200B;**[!UICONTROL Upload]**。
 
 >[!MORELIKETHIS]
 >
 >* [實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [附錄 — 必要的大量表單資料 [!DNL Naver] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
->* [的量度資料需求 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>* [附錄 —  [!DNL Naver] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)的必要大量表單資料
+>* [僅追蹤帳戶 [!DNL Naver] 的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)

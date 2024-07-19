@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL On Demand] Premium Inventory Publishers in Europe, Midle East and Africa)一書'
-description: '"[!DNL On Demand] Premium Inventory Publishers in Europe, Midle East and Africa)一書'
+title: '[!DNL On Demand]歐洲、中東和非洲的優質庫存發佈者'
+description: '[!DNL On Demand]歐洲、中東和非洲的優質庫存發佈者'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商
+# 歐洲、中東及非洲的[!DNL On Demand]高階存貨發行者
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 吉奧 |
+| 發佈者 | 地理 |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | 法國 |
 | [!DNL BBC] | 法國 |
@@ -90,51 +90,51 @@ ht-degree: 0%
 | [!DNL Targetspot] | 荷蘭 |
 | [!DNL U.S. News] | 荷蘭 |
 | [!DNL USA Today] | 荷蘭 |
-| [!DNL Aller SE] | 北歐 |
-| [!DNL BBC] | 北歐 |
-| [!DNL Bloomberg] | 北歐 |
-| [!DNL DailyMail] | 北歐 |
-| [!DNL eDreams Odigeo] | 北歐 |
-| [!DNL Future] | 北歐 |
-| [!DNL IDG Tech] | 北歐 |
-| [!DNL IP Belgium] | 北歐 |
-| [!DNL Key Mobile] | 北歐 |
-| [!DNL King] | 北歐 |
-| [!DNL Leeads] | 北歐 |
-| [!DNL Life of Svea] | 北歐 |
-| [!DNL NBC Universal] | 北歐 |
-| [!DNL Publicidad] | 北歐 |
-| [!DNL Skyscanner] | 北歐 |
-| [!DNL Tapjoy] | 北歐 |
-| [!DNL Targetspot] | 北歐 |
-| [!DNL TV2.DK] | 北歐 |
-| [!DNL U.S. News] | 北歐 |
-| [!DNL USA Today] | 北歐 |
-| [!DNL Vox Media] | 北歐 |
-| [!DNL Vungle] | 北歐 |
-| [!DNL BBC] | 其他歐盟 |
-| [!DNL Bloomberg] | 其他歐盟 |
-| [!DNL DailyMail] | 其他歐盟 |
-| [!DNL ESI Media] | 其他歐盟 |
-| [!DNL Future] | 其他歐盟 |
-| [!DNL Gentside] | 其他歐盟 |
-| [!DNL Goldbach] | 其他歐盟 |
-| [!DNL IP Belgium] | 其他歐盟 |
-| [!DNL KeyMobile] | 其他歐盟 |
-| [!DNL King] | 其他歐盟 |
-| [!DNL New York Times] | 其他歐盟 |
-| [!DNL OhMyMag] | 其他歐盟 |
-| [!DNL Publicidad] | 其他歐盟 |
-| [!DNL SBS] | 其他歐盟 |
-| [!DNL Skyscanner] | 其他歐盟 |
-| [!DNL Snack Media] | 其他歐盟 |
-| [!DNL Tapjoy] | 其他歐盟 |
-| [!DNL Targetspot] | 其他歐盟 |
-| [!DNL U.S. News] | 其他歐盟 |
-| [!DNL United Internet Media] | 其他歐盟 |
-| [!DNL USA Today] | 其他歐盟 |
-| [!DNL Vox Media] | 其他歐盟 |
-| [!DNL Vungle] | 其他歐盟 |
+| [!DNL Aller SE] | 北歐地區 |
+| [!DNL BBC] | 北歐地區 |
+| [!DNL Bloomberg] | 北歐地區 |
+| [!DNL DailyMail] | 北歐地區 |
+| [!DNL eDreams Odigeo] | 北歐地區 |
+| [!DNL Future] | 北歐地區 |
+| [!DNL IDG Tech] | 北歐地區 |
+| [!DNL IP Belgium] | 北歐地區 |
+| [!DNL Key Mobile] | 北歐地區 |
+| [!DNL King] | 北歐地區 |
+| [!DNL Leeads] | 北歐地區 |
+| [!DNL Life of Svea] | 北歐地區 |
+| [!DNL NBC Universal] | 北歐地區 |
+| [!DNL Publicidad] | 北歐地區 |
+| [!DNL Skyscanner] | 北歐地區 |
+| [!DNL Tapjoy] | 北歐地區 |
+| [!DNL Targetspot] | 北歐地區 |
+| [!DNL TV2.DK] | 北歐地區 |
+| [!DNL U.S. News] | 北歐地區 |
+| [!DNL USA Today] | 北歐地區 |
+| [!DNL Vox Media] | 北歐地區 |
+| [!DNL Vungle] | 北歐地區 |
+| [!DNL BBC] | 其他EU |
+| [!DNL Bloomberg] | 其他EU |
+| [!DNL DailyMail] | 其他EU |
+| [!DNL ESI Media] | 其他EU |
+| [!DNL Future] | 其他EU |
+| [!DNL Gentside] | 其他EU |
+| [!DNL Goldbach] | 其他EU |
+| [!DNL IP Belgium] | 其他EU |
+| [!DNL KeyMobile] | 其他EU |
+| [!DNL King] | 其他EU |
+| [!DNL New York Times] | 其他EU |
+| [!DNL OhMyMag] | 其他EU |
+| [!DNL Publicidad] | 其他EU |
+| [!DNL SBS] | 其他EU |
+| [!DNL Skyscanner] | 其他EU |
+| [!DNL Snack Media] | 其他EU |
+| [!DNL Tapjoy] | 其他EU |
+| [!DNL Targetspot] | 其他EU |
+| [!DNL U.S. News] | 其他EU |
+| [!DNL United Internet Media] | 其他EU |
+| [!DNL USA Today] | 其他EU |
+| [!DNL Vox Media] | 其他EU |
+| [!DNL Vungle] | 其他EU |
 | [!DNL BBC] | 葡萄牙 |
 | [!DNL Bloomberg] | 葡萄牙 |
 | [!DNL DailyMail] | 葡萄牙 |
@@ -169,67 +169,66 @@ ht-degree: 0%
 | [!DNL OhMyMag] | 瑞士 |
 | [!DNL U.S. News] | 瑞士 |
 | [!DNL USA Today] | 瑞士 |
-| [!DNL AOL] | 英國 |
-| [!DNL BBC] | 英國 |
-| [!DNL Bleacher Report] | 英國 |
-| [!DNL Bloomberg] | 英國 |
-| [!DNL CBS Interactive] | 英國 |
-| [!DNL CNN International] | 英國 |
-| [!DNL Conde Nast] | 英國 |
-| [!DNL DailyMail] | 英國 |
-| [!DNL Daily Star] | 英國 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 英國 |
-| [!DNL Dennis Publishing] | 英國 |
-| [!DNL Digiteka] | 英國 |
-| [!DNL ebay] | 英國 |
-| [!DNL eDreams Odigeo] | 英國 |
-| [!DNL ESI Media] | 英國 |
-| [!DNL Express] | 英國 |
-| [!DNL Flipboard] | 英國 |
-| [!DNL Future] | 英國 |
-| [!DNL Gameloft] | 英國 |
-| [!DNL Gentside] | 英國 |
-| [!DNL GiveMeSport] | 英國 |
-| [!DNL Hearst] | 英國 |
-| [!DNL King] | 英國 |
-| [!DNL Ladbible] | 英國 |
-| [!DNL Metro.co.uk] | 英國 |
-| [!DNL MSN] | 英國 |
-| [!DNL Mumsnet] | 英國 |
-| [!DNL National Rail] | 英國 |
-| [!DNL NBC Universal] | 英國 |
-| [!DNL Netmums] | 英國 |
-| [!DNL News UK] | 英國 |
-| [!DNL New York Times] | 英國 |
-| [!DNL OhMyMag] | 英國 |
-| [!DNL Ok!] | 英國 |
-| [!DNL Rakuten] | 英國 |
-| [!DNL Samba] | 英國 |
-| [!DNL Sky] | 英國 |
-| [!DNL Skyscanner] | 英國 |
-| [!DNL Snack Media] | 英國 |
-| [!DNL Spotify] | 英國 |
-| [!DNL Tapjoy] | 英國 |
-| [!DNL Targetspot] | 英國 |
-| [!DNL The Box Plus Network] | 英國 |
-| [!DNL The Telegraph] | 英國 |
-| [!DNL Thomson Reuters] | 英國 |
-| [!DNL Time Inc] | 英國 |
-| [!DNL Travel Supermarket] | 英國 |
-| [!DNL Trinity Mirror Group] | 英國 |
-| [!DNL U.S. News] | 英國 |
-| [!DNL USA Today] | 英國 |
-| [!DNL Vox Media] | 英國 |
-| [!DNL Vungle] | 英國 |
-| [!DNL Yahoo] | 英國 |
+| [!DNL AOL] | UK |
+| [!DNL BBC] | UK |
+| [!DNL Bleacher Report] | UK |
+| [!DNL Bloomberg] | UK |
+| [!DNL CBS Interactive] | UK |
+| [!DNL CNN International] | UK |
+| [!DNL Conde Nast] | UK |
+| [!DNL DailyMail] | UK |
+| [!DNL Daily Star] | UK |
+| [!DNL DAZN] ([!DNL Perform Media]) | UK |
+| [!DNL Dennis Publishing] | UK |
+| [!DNL Digiteka] | UK |
+| [!DNL ebay] | UK |
+| [!DNL eDreams Odigeo] | UK |
+| [!DNL ESI Media] | UK |
+| [!DNL Express] | UK |
+| [!DNL Flipboard] | UK |
+| [!DNL Future] | UK |
+| [!DNL Gameloft] | UK |
+| [!DNL Gentside] | UK |
+| [!DNL GiveMeSport] | UK |
+| [!DNL Hearst] | UK |
+| [!DNL King] | UK |
+| [!DNL Ladbible] | UK |
+| [!DNL Metro.co.uk] | UK |
+| [!DNL MSN] | UK |
+| [!DNL Mumsnet] | UK |
+| [!DNL National Rail] | UK |
+| [!DNL NBC Universal] | UK |
+| [!DNL Netmums] | UK |
+| [!DNL News UK] | UK |
+| [!DNL New York Times] | UK |
+| [!DNL OhMyMag] | UK |
+| [!DNL Ok!] | UK |
+| [!DNL Rakuten] | UK |
+| [!DNL Samba] | UK |
+| [!DNL Sky] | UK |
+| [!DNL Skyscanner] | UK |
+| [!DNL Snack Media] | UK |
+| [!DNL Spotify] | UK |
+| [!DNL Tapjoy] | UK |
+| [!DNL Targetspot] | UK |
+| [!DNL The Box Plus Network] | UK |
+| [!DNL The Telegraph] | UK |
+| [!DNL Thomson Reuters] | UK |
+| [!DNL Time Inc] | UK |
+| [!DNL Travel Supermarket] | UK |
+| [!DNL Trinity Mirror Group] | UK |
+| [!DNL U.S. News] | UK |
+| [!DNL USA Today] | UK |
+| [!DNL Vox Media] | UK |
+| [!DNL Vungle] | UK |
+| [!DNL Yahoo] | UK |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
->* [訂閱和請求訪問 [!DNL On Demand] 高級庫存](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 亞太地區高級庫存出版商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 北美的高級庫存出版商](on-demand-inventory-publishers-na.md)
-
+>* [關於 [!DNL On Demand] 進階存貨](on-demand-inventory-about.md)
+>* [訂閱並要求 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-subscribe.md)的存取權
+>* [[!DNL On Demand] 亞太地區的進階庫存發佈者](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳洲和紐西蘭的優質庫存發佈者](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)

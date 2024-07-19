@@ -1,11 +1,11 @@
 ---
 title: 關於基本報告和進階報告
 description: 瞭解可自訂的基本和進階報告。
-exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -24,54 +24,55 @@ ht-degree: 0%
 
 #### Portfolio和廣告網路實體報表
 
-* [此 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
+* [[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
 
-* [此 [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
+* [[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
 
-* [此 [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
+* [[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
 
-* [此 [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
+* [[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
 
-* [此 [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
+* [[!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
 
-* [此 [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
+* [[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
 
-* [此 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
+* [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
 
-* [此 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
+* [[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
 
-* [此 [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
+* [[!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
 
 ### 分類報告
 
-* [此 [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
+* [[!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
 
-* [此 [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
+* [[!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
 
 ### 限制報告
 
-* [此 [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
 
-* [此 [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
+* [[!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
 
 ## 進階報告
 
-進階報表可協助您透過重新設定地理定位或網路設定，找出您從中獲益的位置，進而做出廣告策略的策略決策。 它們還可以幫助您對照廣告商的內部轉換追蹤資料，驗證「搜尋、社交和商務」中可用的轉換資料。
+進階報表可協助您透過重新設定地理定位或網路設定，找出您從中獲益的位置，進而做出廣告策略的策略決策。 它們也可以協助您根據廣告商的內部轉換追蹤資料，驗證「搜尋」、「社交」和「Commerce」中可用的轉換資料。
 
-所有使用者都可以產生 [!UICONTROL Transaction Report]，會依關鍵字顯示個別交易。 所有其他進階報表都會使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。
+所有使用者都可以產生[!UICONTROL Transaction Report]，依關鍵字顯示個別交易。 所有其他進階報表都會使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。
 
-所有進階報表可選擇性地包含轉換資料或您建立的任何其他量度。 由產品組合（而非廣告網路）產生的進階報表，會顯示目前對應至指定產品組合之行銷活動的資料。 報表不包含日期範圍內位於產品組合中但尚未存在的行銷活動的資料。
+所有進階報表可選擇性地包含轉換資料或您建立的任何其他量度。 由產品組合（而非廣告網路）產生的進階報表，會顯示目前對應至指定產品組合之行銷活動的資料。 報告
+不要納入日期範圍內位於產品組合中，但仍不存在的行銷活動的資料。
 
 ### 進階報表的型別
 
-* [此 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
+* [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
 
-* [此 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
+* [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
 
-* [此 [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
+* [[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
 
 >[!MORELIKETHIS]
 >
->* [產生基本或進階報表](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [產生基本或進階報告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [基本和進階報表設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [基本和進階報表的報表欄](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)

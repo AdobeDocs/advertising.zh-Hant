@@ -1,6 +1,6 @@
 ---
-title: 此 [!UICONTROL MSA Network Impression Share Report]
-description: 瞭解 [!UICONTROL MSA Network Impression Share Report].
+title: '[!UICONTROL MSA Network Impression Share Report]'
+description: 瞭解[!UICONTROL MSA Network Impression Share Report]。
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# 此 [!UICONTROL MSA Network Impression Share Report]
+# [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft Advertising]僅限帳戶*
+僅&#x200B;*[!DNL Microsoft Advertising]個帳戶*
 
-此報表顯示依廣告分佈（搜尋或對象）和網路(例如 [!DNL Microsoft] 網站並選取流量或對象) [!DNL Microsoft Advertising] 帳戶。
+此報表顯示指定[!DNL Microsoft Advertising]帳戶之廣告發佈（搜尋或對象）和網路（例如[!DNL Microsoft]網站及選取流量或對象）的行銷活動層級曝光比重量度和基本流量量度（成本、點按數、曝光數）。
 
 當您執行只有量度欄且沒有維度的報表時，產生的報表會包含兩個重複的列：一個含有彙總資料，另一個含有所有量度。
 
-您可以檢視過去180天的資料。 搜尋、社交和Commerce提取資料來源 [!DNL Microsoft Advertising] 即時產生，且可能需要幾分鐘才能產生資料量較大的報表。
+您可以檢視過去180天的資料。 搜尋、Social和Commerce會即時從[!DNL Microsoft Advertising]提取資料，並且可能需要幾分鐘才能產生具有較大資料量的報表。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 預設欄
 
-如需所有預設和自訂欄的說明，請參閱&quot;[專業報告的報告欄](specialty-report-columns.md).」
+如需所有預設和自訂欄的說明，請參閱[專業報告的報告欄](specialty-report-columns.md)。
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]

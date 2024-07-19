@@ -1,22 +1,22 @@
 ---
-title: 『[!DNL Baidu] 廣告群組設定
-description: 參考設定 [!DNL Baidu] 廣告群組。
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu]廣告群組設定'
+description: 參考 [!DNL Baidu] 廣告群組的設定。
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] 廣告群組設定
+# [!DNL Baidu]廣告群組設定
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]：** 促銷活動中的唯一廣告群組名稱。 最大長度為15個雙位元組字元。
+**[!UICONTROL Ad Group Name]：**&#x200B;促銷活動中的唯一廣告群組名稱。 最大長度為15個雙位元組字元。
 
-**[!UICONTROL Status]：** 廣告群組的顯示狀態： *作用中* 或 *已暫停*. 新廣告群組的預設為 *作用中*.
+**[!UICONTROL Status]：**&#x200B;廣告群組的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新廣告群組的預設值為&#x200B;*作用中*。
 
 ## [!UICONTROL Budget Options]
 

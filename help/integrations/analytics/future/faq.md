@@ -12,13 +12,15 @@ ht-degree: 0%
 
 ## 標題
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214依預設，Adobe Analytics會報告每個報表中所有擷取的事件。 &quot;[!UICONTROL Unspecified]「事件代表未連線至Adobe Advertising的表單完成事件。 例如，在Ad Platform報表中，電子郵件促銷活動驅動的有機轉換或轉換將屬於「未指定」。
+https://adobeadcloud.zendesk.com/agent/tickets/14214
+依預設，Adobe Analytics會報告每個報表中所有擷取的事件。 「[!UICONTROL Unspecified]」事件代表未連線至Adobe Advertising的表單完成事件。 例如，在Ad Platform報表中，電子郵件促銷活動驅動的有機轉換或轉換將屬於「未指定」。
 
-您可以使用篩選器，透過移除「包含未指定（無）」選項的核取記號來從報表中移除未指定的事件。 <!-- Not sure if this is in DSP or in Analytics Workspace -->
+您可以使用篩選器，透過移除「包含未指定（無）」選項的核取記號來從報表中移除未指定的事件。<!-- Not sure if this is in DSP or in Analytics Workspace -->
 
 ## 標題
 
-https://adobeadcloud.zendesk.com/agent/tickets/24323將Analytics事件標籤放在與Ad Cloud畫素相同的位置，以確保XXX相符。
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+將Analytics事件標籤放在與Ad Cloud畫素相同的位置，以確保XXX相符。
 
 ## 標題
 

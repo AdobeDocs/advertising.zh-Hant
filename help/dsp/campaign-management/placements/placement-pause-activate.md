@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## 暫停即時位置
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Pause]**」。
 
 ## 啟用暫停的版位
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Activate]**」。
 
 >[!MORELIKETHIS]
 >

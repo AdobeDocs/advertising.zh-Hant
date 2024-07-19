@@ -1,19 +1,19 @@
 ---
-title: 可用 [!DNL Google Analytics] 量度
-description: 參考 [!DNL Google Analytics] 資料來源可用的量度。
+title: 可用的 [!DNL Google Analytics] 個量度
+description: 參考資料來源可用的 [!DNL Google Analytics] 量度。
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# 附錄 — 可用 [!DNL Google Analytics] 量度
+# 附錄 — 可用的[!DNL Google Analytics]量度
 
-除了上述的排除專案外，下列量度在客戶的實施中啟用後即可使用 [!DNL Google Analytics].
+下列量度，除了上述的排除專案外，在[!DNL Google Analytics]的客戶實作中啟用後即可使用。
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -39,9 +39,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於同步 [!DNL Google Analytics] 轉換量度](data-source-about.md)
->* [設定的先決條件 [!DNL Google Analytics] 資料來源](data-source-prerequisites.md)
->* [設定 [!DNL Google Analytics] 以資料來源檢視](data-source-configure.md)
+>* [設定a [!DNL Google Analytics] 資料來源的先決條件](data-source-prerequisites.md)
+>* [將 [!DNL Google Analytics] 檢視設定為資料來源](data-source-configure.md)
 >* [編輯 [!DNL Google Analytics] 資料來源](data-source-edit.md)
->* [暫停資料來源的同步處理](data-source-pause.md)
+>* [暫停同步處理資料來源](data-source-pause.md)
 >* [重新驗證 [!DNL Google Analytics] 資料來源](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)

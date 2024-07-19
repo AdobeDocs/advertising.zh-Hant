@@ -18,4 +18,4 @@ ht-degree: 21%
 + [廣告需求原則](/help/policies/ad-requirements-policy.md)
 + [通用ID需求原則](/help/policies/universal-id-policy.md)
 + [可接受的健康狀態區段准則](/help/policies/health-segment-guidelines.md)
-+ [[!DNL DSP] 資料使用准則](/help/policies/data-usage-guidelines.md)
++ [[!DNL DSP]資料使用准則](/help/policies/data-usage-guidelines.md)

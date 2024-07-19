@@ -1,16 +1,16 @@
 ---
-title: 的點選追蹤格式 [!DNL Yandex]
-description: 瞭解的點選追蹤格式 [!DNL Yandex] 帳戶。
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+title: ' [!DNL Yandex]的點選追蹤格式'
+description: 瞭解 [!DNL Yandex] 帳戶的點選追蹤格式。
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# 上的贊助廣告的點選追蹤格式 [!DNL Yandex]
+# [!DNL Yandex]上贊助廣告的點選追蹤格式
 
 下列基本目的地URL格式適用於贊助廣告：
 
@@ -22,19 +22,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中廣告商唯一ID的變數。
+>* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請替代 `cq?` 晚於 `<advertiser_ID>` 替換為 `c?`.
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
->* `<the landing page>` 是變數，代表一般使用者要導向的網站URL。
+>* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 >
->* `source_type`  是相符型別。
+>* `source_type`是相符型別。
 >
->* `source` 是廣告顯示於搜尋或內容型網站上。
+>* `source`是廣告顯示於搜尋或內容型網站上。
 >
->* `position` 是區塊中廣告的位置編號。 若為非搜尋流量，值為「0」。
+>* `position`是區塊中廣告的位置編號。 若為非搜尋流量，值為「0」。
 >
->* `position_type` 是顯示廣告的區塊 [!DNL Yandex]. 可能的值： 「premium」（頂端區塊）、「other」（右側區塊）或「none」（非搜尋流量）。
+>* `position_type`是在[!DNL Yandex]上顯示廣告的區塊。 可能的值： 「premium」（頂端區塊）、「other」（右側區塊）或「none」（非搜尋流量）。
 
 >[!MORELIKETHIS]
 >

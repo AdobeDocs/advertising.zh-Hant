@@ -24,11 +24,11 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 ## [!UICONTROL Campaigns]
 
-[行銷活動](/help/dsp/campaign-management/campaigns/campaign-about.md) 是航班設定的整體架構。 每個行銷活動都設定了廣告商、開始和結束日期、整體預算、跨裝置目標定位選項和預設頻率上限，以及可檢視度、詐騙、品牌安全和對象驗證的報告選項。 所有行銷活動層級設定會自動套用至行銷活動內的每個套件和位置。
+[行銷活動](/help/dsp/campaign-management/campaigns/campaign-about.md)是航班設定的總體架構。 每個行銷活動都設定了廣告商、開始和結束日期、整體預算、跨裝置目標定位選項和預設頻率上限，以及可檢視度、詐騙、品牌安全和對象驗證的報告選項。 所有行銷活動層級設定會自動套用至行銷活動內的每個套件和位置。
 
 ## [!UICONTROL Packages]
 
-每個行銷活動可包含一或多個 [套件](/help/dsp/campaign-management/packages/package-about.md)，每個都包含一組版位。
+每個行銷活動可以包含一個或多個[套件](/help/dsp/campaign-management/packages/package-about.md)，每個套件都包含一組版位。
 
 使用套件將投放位置分組為設定預算、效能目標和自訂步調策略。 DSP會將預算轉移到封裝中表現最佳的版位，以最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。
 
@@ -36,11 +36,11 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 ## [!UICONTROL Placements]
 
-A [刊登](/help/dsp/campaign-management/placements/placement-about.md) 會儲存相同廣告型別的一或多個廣告的定位引數。 您可以建立單一行銷活動或套件的版位，然後為其指派廣告。
+[位置](/help/dsp/campaign-management/placements/placement-about.md)會儲存相同廣告型別的一或多個廣告的定位引數。 您可以建立單一行銷活動或套件的版位，然後為其指派廣告。
 
 ## [!UICONTROL Ads]
 
-[廣告](/help/dsp/campaign-management/ads/ad-about.md) 包括創意資產和追蹤URL。 您可以使用合作夥伴標籤頁或大量標籤範本，個別或大量上傳第三方廣告服務標籤。 您也可以手動建立原生顯示廣告供DSP提供。
+[廣告](/help/dsp/campaign-management/ads/ad-about.md)包含創意資產和追蹤URL。 您可以使用合作夥伴標籤頁或大量標籤範本，個別或大量上傳第三方廣告服務標籤。 您也可以手動建立原生顯示廣告供DSP提供。
 
 設定廣告之後，您必須將每個廣告附加至位置，才能開始執行廣告。 您可以將單一廣告附加至一或多個位置。
 
@@ -50,10 +50,10 @@ A [刊登](/help/dsp/campaign-management/placements/placement-about.md) 會儲�
 >
 >* [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [關於封裝管理](/help/dsp/campaign-management/packages/package-about.md)
->* [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
+>* [關於位置管理](/help/dsp/campaign-management/placements/placement-about.md)
 >* [關於廣告管理](/help/dsp/campaign-management/ads/ad-about.md)
 >* [行銷活動啟動檢查清單](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

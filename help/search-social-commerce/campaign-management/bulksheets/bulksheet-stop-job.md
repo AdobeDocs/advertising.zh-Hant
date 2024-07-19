@@ -1,9 +1,9 @@
 ---
 title: 停止進行中的大量表單工作
 description: 瞭解如何在大量表單工作仍在進行時停止該工作。
-exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 您可以停止任何大量表單工作，包括在檔案仍在處理中時發佈檔案。
 
-1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 選取每個要停止的工作旁邊的核取方塊。
 
-1. 在資料表格上方的工具列中，按一下 **[!UICONTROL Stop job]**.
+1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Stop job]**。
 
-1. 在確認訊息中，按一下 **[!UICONTROL O]**.
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL O]**。
 
 >[!NOTE]
 >

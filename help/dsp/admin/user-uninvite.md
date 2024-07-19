@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Users]**。
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下&#x200B;**[!UICONTROL Edit users]**。
 
-1. 在 **[!UICONTROL Invitations]** 區段，按一下 **[!UICONTROL X]** 位於邀請函旁。
+1. 在&#x200B;**[!UICONTROL Invitations]**&#x200B;區段中，按一下邀請旁的&#x200B;**[!UICONTROL X]**。
 
 >[!MORELIKETHIS]
 >

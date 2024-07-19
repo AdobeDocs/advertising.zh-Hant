@@ -1,9 +1,9 @@
 ---
 title: 檢視其他廣告商的資料
 description: 瞭解如何檢視其他廣告商的資料。
-exl-id: 823689b3-7c74-4927-8973-c6ce9fc79729
+exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 檢視其他廣告商的資料
 
-*代理商客戶經理， [!DNL Adobe] 僅帳戶管理員和管理員使用者角色*
+*僅限代理商帳戶管理員、[!DNL Adobe]帳戶管理員和系統管理員使用者角色*
 
 *僅管理多個廣告商帳戶的使用者*
 

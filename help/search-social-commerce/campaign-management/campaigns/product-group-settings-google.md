@@ -1,22 +1,22 @@
 ---
-title: 『[!DNL Google Ads] 產品群組設定
-description: 參考設定 [!DNL Google Ads] 購物產品群組。
-exl-id: 3bf33d78-0ad5-43c7-970a-2f2d2e591802
+title: '[!DNL Google Ads]產品群組設定'
+description: 參考 [!DNL Google Ads] 購物產品群組的設定。
+exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] 產品群組設定
+# [!DNL Google Ads]產品群組設定
 
 ## 「所有產品」產品群組
 
 **[!UICONTROL Condition]：** （唯讀）所有產品
 
-**[!UICONTROL Bid]：** （僅包含產品群組）最高每次點按成本(CPC)，為廣告點按的最高金額。 此值僅用於沒有子項產品群組的單位，並且將用來取代廣告群組層級值。
+**[!UICONTROL Bid]：** （僅包含產品群組）每次點按成本上限(CPC)，這是支付廣告點按的最高金額。 此值僅用於沒有子項產品群組的單位，並且將用來取代廣告群組層級值。
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 **[!UICONTROL Condition/Value]：** （現有產品群組的唯讀）要鎖定的產品維度。 針對新產品群組，輸入產品目標定位所依據的維度，以及所選資訊類別的合格屬性（例如，依品牌進行定位時為「Acme」，或依條件進行定位時為「New」）。
 
-一旦您為特定產品維度（即「所有產品」以外的維度）建立產品群組，Search、Social和Commerce就會自動為「其他一切」建立產品群組。
+一旦您為特定產品維度（即「所有產品」以外的維度）建立產品群組，搜尋、社交和Commerce就會自動為「其他所有專案」建立產品群組。
 
-如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).」 您的維度清單可能會根據行銷活動而有所限制 [!UICONTROL Inventory Filter] 設定。
+如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;。 根據行銷活動的[!UICONTROL Inventory Filter]設定，您的維度清單可能會受到限制。
 
-**[!UICONTROL Excluded]：** （新產品群組選填；現有產品群組為唯讀）排除相符產品廣告的競標。
+**[!UICONTROL Excluded]：** （新產品群組為選用；現有產品群組為唯讀）排除相符產品廣告的競標。
 
-**[!UICONTROL Bid]：** （僅包含產品群組）最高每次點按成本(CPC)，為廣告點按的最高金額。 此值僅用於沒有子項產品群組的單位，並且將用來取代廣告群組層級值。
+**[!UICONTROL Bid]：** （僅包含產品群組）每次點按成本上限(CPC)，這是支付廣告點按的最高金額。 此值僅用於沒有子項產品群組的單位，並且將用來取代廣告群組層級值。
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [關於購物產品群組](product-group-about.md)
 >* [管理購物產品群組](product-group-manage.md)
 >* [購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [實作 [!DNL Google Ads] 購物宣傳](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)

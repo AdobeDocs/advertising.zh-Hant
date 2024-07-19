@@ -16,28 +16,28 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->*若要編輯您的廣告設定，請參閱 [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md).
->*若要一次變更多個廣告的第三方追蹤畫素，或是在刊登版位中附加廣告，請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).」
+>*若要編輯您的廣告設定，請參閱[編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)。
+>*若要一次變更多個廣告的第三方追蹤畫素，或將廣告附加至刊登版位，請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
 1. 按一下行銷活動的名稱。
 
-1. 開啟 [!UICONTROL Ad Tools] 以下列任一方式檢視：
+1. 以下列任一方式開啟[!UICONTROL Ad Tools]檢視：
 
-   * (從 [!UICONTROL Packages] ， [!UICONTROL Placements]，或 [!UICONTROL Ads] view)在右上方，按一下 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * （從[!UICONTROL Packages] 、 [!UICONTROL Placements]或[!UICONTROL Ads]檢視）按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**。
 
-   * (從 [!UICONTROL Placements] view)在位置名稱旁，按一下 **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * （從[!UICONTROL Placements]檢視）按一下位置名稱旁的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * (從 [!UICONTROL Ads] view)在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * （從[!UICONTROL Ads]檢視）在廣告名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**」。
 
-1. 在右上角，按一下 **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
+1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
 
 1. 下載檔案：
 
-   1. 在頂端功能表列的右側，按一下 ![工作](/help/dsp/assets/downloads.png).
+   1. 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。
 
-   1. 當工作完成且檔案可供使用時，按一下 **[!UICONTROL Download]** 位於工作旁。
+   1. 當工作完成且檔案可用時，按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
       檔案會根據瀏覽器的正常程式儲存為工作表檔案（XLSX格式）。
 

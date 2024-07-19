@@ -1,11 +1,11 @@
 ---
 title: 撰寫有效文字和復本
 description: 瞭解撰寫有效廣告文案的最佳實務。
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需產品組合中行銷活動的更多特定最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實作區段，此區段可從「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實務，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 所有廣告網路的一般需求
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 標題/標題中禁止使用驚歎號，但說明行中允許使用驚歎號。 說明中只允許有一個。
 
-* 特殊字元，例如 `@,~,\, ^,>,<` 是禁止的。
+* 禁止特殊字元，例如`@,~,\, ^,>,<`。
 
-* 禁止使用快速鍵或使用符號來取代文字。 例如，您不能使用「U」來取代「您」或「`@`&quot;取代&quot;at.&quot;
+* 禁止使用快速鍵或使用符號來取代文字。 例如，您無法使用&quot;U&quot;取代&quot;you&quot;，或使用&quot;`@`&quot;取代&quot;at&quot;。
 
 * 除非此區別已由第三方驗證，且驗證明確顯示在您的網站上，否則禁止使用最上層的詞句，例如「Best」或「#1」。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 研究您的競爭對手在做什麼。 檢視某個空間的熱門廣告(在www.spyfu.com之類的網站)，並嘗試瞭解哪些廣告在運作。
 
-[1]：如果您使用關鍵字插入，請為插入代碼使用正確的大小寫：
+[1]：如果您使用關鍵字插入，請使用正確的大寫作為插入代碼：
 
 `{keyword:default}` =割草機
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 `{KeyWord:default}` =割草機
 
-`{KEYWord:default}` =割草機（僅當「草坪」為品牌時才允許使用）
+`{KEYWord:default}` =割草機（僅當「割草機」為品牌時才允許使用）
 
-`{KeyWORD:default}` =割草機（僅當「割草機」為品牌時才允許使用）
+`{KeyWORD:default}` =割草機（只有在「割草機」為品牌時才允許使用）
 
 `{KEYWORD:default}` =割草機（只有在「割草機」是品牌時才允許使用）
 
 >[!MORELIKETHIS]
 >
 >* [分析報告以精簡您的關鍵字和行銷活動設定](best-practices-analyze.md)
->* [最佳化網站登陸頁面](best-practices-optimize.md)
+>* [最佳化網站登入頁面](best-practices-optimize.md)

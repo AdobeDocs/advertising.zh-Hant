@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ## 開啟線上說明
 
-* 若要檢視具有相鄰說明圖示的辭彙說明(![說明圖示](/help/search-social-commerce/assets/help-field.png "說明圖示") )，將游標停留在說明圖示上直到完成為止，或按一下說明快顯視窗內部以捲動內容。
+* 若要檢視具有相鄰說明圖示（![說明圖示](/help/search-social-commerce/assets/help-field.png "說明圖示")）的辭彙說明，請將游標停留在說明圖示上，直到完成為止，或按一下說明快顯視窗內部以捲動內容。
 
   若要開啟說明主題中的連結，您可能需要設定瀏覽器設定，以允許從您使用的Search、Social和Commerce網站(例如北美使用者為https://enterprise-na.efrontier.com或所有其他使用者為https://enterprise-intl.efrontier.com)出現快顯視窗。
 
 * 若要開啟說明如何使用所有功能的完整說明集，請按一下任何頁面頂端的下列連結：
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交及Commerce說明**.
+   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交及Commerce說明**。
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、Social和Commerce最佳化指南**.
+   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和Commerce最佳化指南**。
 
 ## 詢問Adobe Advertising社群
 
-尋找您問題的答案，請前往 [Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+在[Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community)中尋找您問題的答案。
 
-## 連絡人 [!DNL Adobe]
+## 連絡人[!DNL Adobe]
 
 若為搜尋、社交和Commerce產品或帳戶問題，請執行下列其中一項操作：
 
 * 請聯絡您的Adobe客戶團隊。
 
-* 在頂端功能表中，按一下 ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **[!UICONTROL Provide Feedback]**，輸入您的訊息，然後按一下 **[!UICONTROL Send Feedback]**. |
+* 在頂端功能表中，按一下![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **[!UICONTROL Provide Feedback]**，輸入您的訊息，然後按一下&#x200B;**[!UICONTROL Send Feedback]**。 |
 
 提供重現問題的詳細步驟、任何相關資料，以及有關您已執行之初步疑難排解的資訊。 如果您要向Adobe帳戶團隊報告問題，請一併加入瀏覽器名稱和版本。
 

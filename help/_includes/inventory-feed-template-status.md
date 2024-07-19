@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # 文字廣告範本 — 狀態
 
-**[!UICONTROL Status]：** 範本狀態： *[!UICONTROL Active]*， *[!UICONTROL Paused]*，或 *[!UICONTROL Deleted]*.
+**[!UICONTROL Status]：**&#x200B;範本狀態： *[!UICONTROL Active]*、*[!UICONTROL Paused]*&#x200B;或&#x200B;*[!UICONTROL Deleted]*。
 
 摘要資料只能透過作用中的範本自動傳播。 不過，您可以透過暫停的範本手動傳播資料。

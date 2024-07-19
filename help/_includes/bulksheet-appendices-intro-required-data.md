@@ -11,8 +11,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 所有文字欄中的值都會區分大小寫。
+>* 所有文字欄中的值都區分大小寫。
 >* 當您建立新記錄並且不包含所有必要資料欄位的值時，這些欄位中的某些會被指派指定的預設值。
->* 對於以下未指定的欄位，會使用廣告網路的預設值。
->* 如需中可用大量表單列的清單， [!UICONTROL Download Bulksheet] 對話方塊，請參閱&quot;[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).」
-
+>* 對於未在下方指定的欄位，會使用廣告網路的預設值。
+>* 如需[!UICONTROL Download Bulksheet]對話方塊中可用大量表單列的清單，請參閱[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)。

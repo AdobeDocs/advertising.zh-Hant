@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Users]**。
 
-   * 在主功能表中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下 **[!UICONTROL Edit users]**.
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account]**，然後按一下&#x200B;**[!UICONTROL Edit users]**。
 
-1. 在 **[!UICONTROL Invitations]** 區段，按一下 **[!UICONTROL Send Invite]**.
+1. 在&#x200B;**[!UICONTROL Invitations]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Send Invite]**。
 
-1. 在 **[!UICONTROL User Email]** 欄位，輸入傳送邀請的電子郵件地址。
+1. 在&#x200B;**[!UICONTROL User Email]**&#x200B;欄位中，輸入要傳送邀請的電子郵件地址。
 
-1. 按一下 **[!UICONTROL Send Invite]**.
+1. 按一下&#x200B;**[!UICONTROL Send Invite]**。
 
 >[!MORELIKETHIS]
 >

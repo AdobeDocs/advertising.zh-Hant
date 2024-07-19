@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需關於何時使用版本2與版本3的資訊，請參閱 [追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
+>如需何時使用版本2與版本3的相關資訊，請參閱追蹤標籤](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的[常見問題集。
 
 ```
 <script type='text/javascript'>
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 其中：
 
-* `<ef-userid>` 是Search、Social和Commerce指派給廣告商的不重複數值使用者ID。
+* `<ef-userid>`是Search、Social和Commerce指派給廣告商的不重複數值使用者ID。
 
-* `<propertyname>` 是要追蹤的轉換。 例如，如果您追蹤的轉換稱為「註冊」，則標籤會包含引數 `ev_registration=<registration>`，而且您必須傳遞每個交易的實際收入(例如 `ev_registration=1`)。 追蹤多個屬性時，系統會使用&amp;符號(`&`)，例如 `ev_registration=<registration>&ev_sale=<sale>` (例如， `ev_registration=1&ev_sale=12.99`)。 **注意：**  屬性名稱不得包含特殊字元。
+* `<propertyname>`是要追蹤的轉換。 例如，如果您正在追蹤稱為「註冊」的轉換，則標籤會包含引數`ev_registration=<registration>`，而且您必須傳遞每個交易的實際收入（例如`ev_registration=1`）。 追蹤多個屬性時，它們會以&amp;符號(`&`)聯結，例如`ev_registration=<registration>&ev_sale=<sale>` （例如`ev_registration=1&ev_sale=12.99`）。 **注意：**&#x200B;屬性名稱不可包含特殊字元。
 
-* `<transid>` 是廣告商產生並傳遞以識別交易的唯一交易ID （例如實際訂單ID）。 只有當&quot;[!UICONTROL Include unique transaction IDs]已選取「 」選項。
+* `<transid>`是廣告商產生並傳遞以識別交易的唯一交易ID （例如實際訂單ID）。 只有在選取&quot;[!UICONTROL Include unique transaction IDs]&quot;選項時才會包含它。
 
-  搜尋、Social和Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在 [!UICONTROL Transaction Report]，可用來使用廣告商的資料驗證Adobe Advertising中的資料。 **注意：** 如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生唯一ID。
+  搜尋、Social和Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用它來驗證包含廣告商資料的Adobe Advertising中的資料。 **注意：**&#x200B;如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生一個ID。
 
 <!-- add more links -->
 
@@ -67,6 +67,6 @@ ht-degree: 0%
 >
 >* [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [關於轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [JavaScript轉換追蹤標籤第2版的格式](format-conversion-tag-jsv2.md)
+>* 有關轉換和頁面檢視追蹤標籤的[常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript轉換追蹤標籤2](format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](format-conversion-tag-image.md)

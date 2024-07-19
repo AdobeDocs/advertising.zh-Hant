@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # 鍵盤快速鍵
 
-在位置設定中，使用鍵盤快速鍵來快速瀏覽<!-- and to create ads and placements -->.
+在位置設定中，使用鍵盤快速鍵快速瀏覽<!-- and to create ads and placements -->。
 
 | 適用頁面 | 捷徑 | 說明 |
 | ---------------| ----------- | ---------------------- |
-| 位置設定 | ö | 將您移至 [!UICONTROL Goals] 設定 |
-| 位置設定 | g | 將您移至 [!UICONTROL Geos] 設定 |
-| 位置設定 | ì | 將您移至 [!UICONTROL Inventory] 設定 |
-| 位置設定 | s | 將您移至 [!UICONTROL Sites] 設定 |
-| 位置設定 | a | 將您移至 [!UICONTROL Audience] 設定 |
-| 位置設定 | b | 將您移至 [!UICONTROL Brand Safety] 設定 |
-| 位置設定 | t | 將您移至 [!UICONTROL Tracking] 設定 |
-| 位置設定 | l | 將您移至 [!UICONTROL Adobe Labs] 設定 |
+| 位置設定 | ö | 將您移至[!UICONTROL Goals]設定 |
+| 位置設定 | g | 將您移至[!UICONTROL Geos]設定 |
+| 位置設定 | ì | 將您移至[!UICONTROL Inventory]設定 |
+| 位置設定 | s | 將您移至[!UICONTROL Sites]設定 |
+| 位置設定 | a | 將您移至[!UICONTROL Audience]設定 |
+| 位置設定 | b | 將您移至[!UICONTROL Brand Safety]設定 |
+| 位置設定 | t | 將您移至[!UICONTROL Tracking]設定 |
+| 位置設定 | l | 將您移至[!UICONTROL Adobe Labs]設定 |
 
 {style="table-layout:auto"}
 

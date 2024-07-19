@@ -20,38 +20,38 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下「 」，暫時隱藏目錄或右窗格 ![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格") 左窗格頂端或 ![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格") 右窗格頂端。
+>下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下左窗格頂端的![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格")或右窗格頂端的![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格")，以暫時隱藏目錄或右窗格。
 
 | SSP已列出 | 公司 | 座位 ID | 程式化保證支援 | 地區 | 支援的貨幣 | 視訊案頭 | 視訊行動裝置 | Video CTV | 顯示案頭 | 顯示行動裝置 | 原生顯示 | 音訊桌上型電腦與行動裝置 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| [!DNL AdColony] (先前版本 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全域 | 美元 | x | x |  | x | x |  |  |
+| [!DNL AdColony] （先前為[!DNL Opera]） | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全域 | 美元 | x | x |  | x | x |  |  |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 是 | 全域 | 美元、歐元、英鎊 |  |  |  |  |  |  | x |
-| [!DNL AppNexus] | [!DNL Xandr] | 視訊座位ID：9094<br>顯示座位ID：3939 | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
-| [!DNL DailyMotion] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 美國+ EMEA | USD， EUR | x | x | x | x | x |  |  |
+| [!DNL AppNexus] | [!DNL Xandr] | 視訊座位識別碼：9094<br>顯示座位識別碼：3939 | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
+| [!DNL DailyMotion] |  | [!DNL TubeMogul]或Adobe Advertising | 否 | 美國+ EMEA | USD， EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 否 | US/CA | 美元 | x | x | x | x | x |  |  |
-| [!DNL FreeWheel] (先前稱為 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
-| [!DNL Google Authorized Buyers] (先前稱為 [!DNL Google AdX]) | [!DNL Google] | ADOBE NA - 44912714<br>AdobeAPAC和EU - 89185975 | 是 | 全域 | 美元，巴西雷亞爾 | x | x | x | x | x |  | x |
+| [!DNL FreeWheel] （先前為[!DNL StickyAds]） | [!DNL Comcast] | [!DNL TubeMogul]或Adobe Advertising | 是 | 全域 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
+| [!DNL Google Authorized Buyers] （先前為[!DNL Google AdX]） | [!DNL Google] | AdobeNA - 44912714<br>AdobeAPAC和EU - 89185975 | 是 | 全域 | 美元，巴西雷亞爾 | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | 否 | 全域 | 美元 | x | x |  | x | x |  | |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全域 | 美元 | x | x | x | x | x | | |
-| [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (先前稱為 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | AUD， USD | x | x | x |  |  |  |  |
-| [!DNL Magnite DV+] | [!DNL Magnite] (先前稱為 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  | x |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  |  |
-| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x | x |  |
+| [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] （先前稱為[!DNL Telaria]和[!DNL Tremor]） | [!DNL TubeMogul]或Adobe Advertising | 是 | 全域 | AUD， USD | x | x | x |  |  |  |  |
+| [!DNL Magnite DV+] | [!DNL Magnite] （先前稱為[!DNL Telaria]和[!DNL Tremor]） | [!DNL TubeMogul]或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  | x |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul]或Adobe Advertising | 是 | 全域 | 美元 | x | x | x | x | x |  |  |
+| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul]或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul]或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | 否 | EMEA | 所有貨幣 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising | 否 | EMEA | EUR， USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | 否 | CA | 美元 |  |  |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising | 否 | US/CA | 美元 | x | x |  |  |  |  |  |
-| [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 輸出視訊=全域<br>顯示= NA + EMEA | 美元 | x | x |  | x | x |  |  |
-| [!DNL TripleLift] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 |  |  |  |  |  | x |  |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
+| [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | 否 | 輸出視訊=全域<br>顯示= NA + EMEA | 美元 | x | x |  | x | x |  |  |
+| [!DNL TripleLift] |  | [!DNL TubeMogul]或Adobe Advertising | 否 | 全域 | 美元 |  |  |  |  |  | x |  |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul]或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | 是 | 全域 | 美元 |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | 否 | 美國+ EMEA | 美元 | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] 或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
+| [!DNL Yahoo] | [!DNL TubeMogul]或Adobe Advertising | 否 | 全域 | 美元 | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [庫存功能概觀](inventory-overview.md)
+>* [詳細目錄功能概觀](inventory-overview.md)
 

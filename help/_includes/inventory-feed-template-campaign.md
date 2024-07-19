@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # 文字廣告範本 — 行銷活動
 
-**[!UICONTROL Campaign]：** 行銷活動名稱，可由靜態文字、指定檔案中的欄，以及 [修飾元](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md). 當指定的摘要檔案透過範本傳播時，欄名稱和修飾詞會取代為實際資料。
+**[!UICONTROL Campaign]：**&#x200B;行銷活動名稱，可由靜態文字、指定檔案中的欄及[修飾元](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)的任意組合所組成。 當指定的摘要檔案透過範本傳播時，欄名稱和修飾詞會被實際資料取代。
 
-若要將欄名稱或修正因子群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或修正因子清單中的修正因子名稱。
+若要將欄名稱或修飾元群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或修飾元清單中的修飾元名稱。

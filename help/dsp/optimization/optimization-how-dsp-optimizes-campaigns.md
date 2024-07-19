@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP如何最佳化您的行銷活動
 
-此頁面概述DSP最佳化引擎的工作原理（由以下元件提供技術支援） [!DNL Adobe Sensei]，會最佳化行銷活動中的套件。 如需手動最佳化行銷活動的相關秘訣與技巧，請聯絡您的Adobe客戶團隊。 <!-- add link to trading playbook if we add it to help -->
+此頁面概述由[!DNL Adobe Sensei]提供支援的DSP最佳化引擎如何最佳化行銷活動中的套件。 如需手動最佳化行銷活動的相關秘訣與技巧，請聯絡您的Adobe客戶團隊。<!-- add link to trading playbook if we add it to help -->
 
 套件最佳化目標會在兩個層級運作：
 
@@ -32,17 +32,17 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 * 優先平衡成本效益與效能比
 
-另請參閱 [最佳化目標及使用方式](optimization-goals.md) 以判斷哪些最佳化目標可以協助您實現KPI。
+檢視[最佳化目標及使用方式](optimization-goals.md)，以判斷哪些最佳化目標可協助您達成KPI。
 
 ### 排定效能率優先順序的套裝程式
 
-對於設定效能率優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括 [!UICONTROL Highest Viewability Rate]， [!UICONTROL Highest Clickthrough Rate]、等等。
+對於設定效能率優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
 
 此最佳化模式適用於以下情況：
 
 * 您已經知道有效/可接受的CPM層次（例如，歷史基準）。
 
-* 您願意手動調整 [!UICONTROL Max Bid] 如果您在縮放時遇到挑戰，可針對每個位置進行縮放。
+* 如果您在縮放時遇到問題，您願意手動調整每個位置的[!UICONTROL Max Bid]。
 
 * 您正在將規模優先於效率。
 
@@ -58,15 +58,15 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 ### 排定成本效益與效能比之間平衡優先順序的套件
 
-針對某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，不會超過刊登版位 [!UICONTROL Max Bid]. 適用的最佳化目標範例包括 [!UICONTROL Lowest CPM]， [!UICONTROL Lowest CPA]， [!UICONTROL Lowest Cost per View]， [!UICONTROL Lowest Cost per Click]、等等。
+對於某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，永遠不會超過刊登的[!UICONTROL Max Bid]。 適用的最佳化目標範例包括[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click]等。
 
 #### 步調邏輯 {#pacing-logic-balanced}
 
 * 如果消費如期進行，則DSP會變得更具價格敏感性，會以較低的價格出價，來權衡步調計畫的優惠率。
 
-* 如果同時平衡效能量度（所有目標除外） [!UICONTROL Lowest CPM])，則預測的KPI會混合到競標量中。 因此，您針對「每筆成本」預測效能更高的拍賣，出價更高。
+* 如果同時平衡績效量度（除了[!UICONTROL Lowest CPM]以外的所有目標），則預測的KPI會混合到競標量中。 因此，您針對「每筆成本」預測效能更高的拍賣，出價更高。
 
-* 如果支出落後於節奏，DSP就會降低價格敏感度，而出價會提高，最高可達以下水準 [!UICONTROL Max Bid]，以透過步調計畫來平衡獲勝率。
+* 如果支出落後於節奏，則DSP會降低價格敏感性，並會競標更高的金額（最高可達[!UICONTROL Max Bid]），以透過節拍計畫來平衡中標率。
 
 #### 結算價格/競標著色 {#clearing-price-balanced}
 
@@ -80,12 +80,12 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 >
 >可用的競標前篩選器會依廣告型別而異。 例如，對於標準顯示位置，您可以按點進率和可檢視度進行篩選，但不能按完成率進行篩選。
 
-另請參閱 [位置層級競標前篩選器及其使用方式](optimization-pre-bid-filters.md) 以判斷哪個競標前篩選器可以協助您達成KPI。
+請參閱[位置層級出價前篩選條件及使用方式](optimization-pre-bid-filters.md)，判斷哪個出價前篩選條件可以協助您達成KPI。
 
 >[!MORELIKETHIS]
 >
 >* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [最佳化目標及使用方式](optimization-goals.md)
->* [位置層級競標前篩選器及其使用方式](optimization-pre-bid-filters.md)
+>* [位置層級競標前篩選及使用方式](optimization-pre-bid-filters.md)
 >* [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)

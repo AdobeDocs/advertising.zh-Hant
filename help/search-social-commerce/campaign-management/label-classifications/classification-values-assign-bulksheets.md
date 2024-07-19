@@ -1,12 +1,12 @@
 ---
 title: 使用大量表單指派分類值給帳戶元件
 description: 瞭解如何使用大量表單將分類值指派給帳戶元件。
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->您某些廣告網路和促銷活動型別的關鍵字和廣告文案如下 [不可變](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
+>您某些廣告網路和行銷活動型別的關鍵字和廣告復本是[不可變動](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新的實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
 
-1. [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) 包括您想要指派標籤分類值的實體：
+1. [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)，其中包含您要指派標籤分類值的實體：
 
-   * 在 [!UICONTROL Rows and Columns] 標籤，展開 [!UICONTROL Campaign] 中的清單 [!UICONTROL Bulksheet Columns] 窗格。
+   * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]清單。
 
-   * 展開 [!UICONTROL Label Classification] 清單。
+   * 展開[!UICONTROL Label Classification]清單。
 
    * 選取每一個要在其大量表單檔案中包含欄的分類。
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
    除了新增值之外，您也可以從相關列移除現有值以將其刪除。 若要從父項實體及其子項實體中移除值，請a)僅包含父項實體列，並移除現有的分類值，或b)同時包含父項實體及其子項實體，並從所有父項列與子項列移除現有的分類值。
 
-1. [上傳檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) 以建立關聯。
+1. [上傳檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以建立關聯。
 
 上傳的標籤值會顯示在相關實體檢視中。
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 >
 >* [關於標籤分類](classification-about.md)
 >* [建立標籤分類](classification-create.md)
->* [從行銷活動管理檢視將分類值指派給帳戶元件](classification-values-assign-campaign-management.md)
->* [從帳戶元件中移除標籤分類值](classification-values-remove.md)
+>* [從行銷活動管理檢視指派分類值給帳戶元件](classification-values-assign-campaign-management.md)
+>* [從帳戶元件移除標籤分類值](classification-values-remove.md)
 >* [刪除標籤分類值](classification-values-delete.md)
 >* [刪除標籤分類](classification-delete.md)

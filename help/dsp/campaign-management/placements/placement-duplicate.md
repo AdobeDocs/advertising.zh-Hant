@@ -21,29 +21,29 @@ ht-degree: 0%
 * （適用於原始行銷活動中的重複版位）可選擇複製原始廣告
 * 修改新刊登版位的狀態與投放日期
 
-請參閱&quot;[未複製的內容](#placement-not-duplicated)」以取得未複製的位置設定清單。
+如需未複製的位置設定清單，請參閱&quot;[未複製的專案](#placement-not-duplicated)&quot;。
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
 1. 按一下行銷活動的名稱。
 
-1. 在子功能表中，按一下 **[!UICONTROL Placements]**.
+1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
 
 1. 執行下列任一項作業：
 
-   * 若要複製一個版位，請按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 位於封裝名稱旁。
+   * 若要複製一個位置，請按一下封裝名稱旁的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Duplicate]**。
 
    * 若要複製多個版位：
 
       1. 選取每個要複製的位置旁的核取方塊。
 
-      1. 在大量動作工具列中，按一下 **[!UICONTROL Duplicate]**.
+      1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 指定新的位置設定：
 
    1. （單一版位）輸入新版位名稱。
 
-   1. 在 **[!UICONTROL Choose Package (Required)]** 功能表，選取父封裝或**[!UICONTROL No package]*.
+   1. 在&#x200B;**[!UICONTROL Choose Package (Required)]**&#x200B;功能表中，選取父封裝或**[!UICONTROL No package]*。
 
    1. （選用）變更預設設定。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
    依預設，新版位會用於原始廣告型別、指派給原始廣告商和促銷活動、具有從當天開始的航班排程、暫停且不包含原始廣告。
 
-   建立多個版位時，新版位名稱會依序附加一個數字，使用的慣例為&lt;*original_placement_name #N*>，例如「我的版位#2」。
+   當您建立多個版位時，新版位名稱會依序附加一個數字，使用慣例&lt;*original_placement_name #N*>，例如「我的版位#2」。
 
-1. 按一下 **[!UICONTROL Submit]**.
+1. 按一下&#x200B;**[!UICONTROL Submit]**。
 
 ## 未複製的內容 {#placement-not-duplicated}
 
@@ -62,16 +62,16 @@ ht-degree: 0%
 * 實驗設定
 * （如果您變更投放日期）自訂廣告排程
 * （如果您未附加廣告）自訂廣告加權和排程
-* 程式化預留(PG)交易的預設刊登版位和刊登版位 [!UICONTROL Simple Ad Serving] 交易
+* 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
 * （如果復製版位至其他行銷活動）：
    * 地理目標
    * 事件畫素
    * 廣告
-   * 位置層級 [!DNL DoubleVerify Authentic Brand Safety] 區段（覆寫廣告商層級的區段）
+   * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
 
 >[!MORELIKETHIS]
 >
->* [關於版位管理](placement-about.md)
+>* [關於位置管理](placement-about.md)
 >* [建立位置](placement-create.md)
 >* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)

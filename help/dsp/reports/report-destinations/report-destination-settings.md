@@ -20,59 +20,59 @@ ht-degree: 0%
 
 ## [!UICONTROL S3]
 
-**[!UICONTROL Name]：** 可協助您識別目的地的名稱。
+**[!UICONTROL Name]：**&#x200B;可協助您識別目的地的名稱。
 
-**[!UICONTROL S3 Bucket URL]：** 上資料夾的完整路徑 [!DNL Amazon Simple Storage Service] 報告上傳至的(S3)貯體。 範例： `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]：**&#x200B;報告上傳至的[!DNL Amazon Simple Storage Service] (S3)貯體上的資料夾完整路徑。 範例： `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]：** ([!DNL Amazon S3])貯體(提供者： [!DNL Amazon])。
+**[!UICONTROL Access Key ID]：** ([!DNL Amazon S3])貯體的存取金鑰識別碼（由[!DNL Amazon]提供）。
 
-**[!UICONTROL Secret Access Key]：** ([!DNL Amazon S3])貯體(提供者： [!DNL Amazon])。
+**[!UICONTROL Secret Access Key]：** ([!DNL Amazon S3])貯體的秘密存取金鑰（由[!DNL Amazon]提供）。
 
 ## [!UICONTROL FTP]
 
-**[!UICONTROL Name]：** 可協助您識別目的地的名稱。
+**[!UICONTROL Name]：**&#x200B;可協助您識別目的地的名稱。
 
-**[!UICONTROL Server]：** 伺服器的主機名稱。
+**[!UICONTROL Server]：**&#x200B;伺服器的主機名稱。
 
-**[!UICONTROL Port]：** 伺服器上要使用的連線埠號碼。 預設值為 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;伺服器上要使用的連線埠號碼。 預設值為&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 要登入伺服器的使用者名稱。
+**[!UICONTROL Username]：**&#x200B;要登入伺服器的使用者名稱。
 
-**[!UICONTROL Password]：** 登入伺服器的密碼。
+**[!UICONTROL Password]：**&#x200B;登入伺服器的密碼。
 
-**[!UICONTROL Path (Optional)]：** 檔案上傳到的伺服器路徑。
+**[!UICONTROL Path (Optional)]：**&#x200B;檔案上傳到的伺服器路徑。
 
 ## [!UICONTROL SFTP]
 
-**[!UICONTROL Name]：** 可協助您識別目的地的名稱。
+**[!UICONTROL Name]：**&#x200B;可協助您識別目的地的名稱。
 
-**[!UICONTROL Server]：** 伺服器的主機名稱。
+**[!UICONTROL Server]：**&#x200B;伺服器的主機名稱。
 
-**[!UICONTROL Port]：** 伺服器上要使用的連線埠號碼。 預設值為 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;伺服器上要使用的連線埠號碼。 預設值為&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 要登入伺服器的使用者名稱。
+**[!UICONTROL Username]：**&#x200B;要登入伺服器的使用者名稱。
 
-**[!UICONTROL Password]：** 登入伺服器的密碼。
+**[!UICONTROL Password]：**&#x200B;登入伺服器的密碼。
 
-**[!UICONTROL Path (Optional)]：** 檔案上傳到的伺服器路徑。
+**[!UICONTROL Path (Optional)]：**&#x200B;檔案上傳到的伺服器路徑。
 
 ## [!UICONTROL FTP SSL]
 
-**[!UICONTROL Name]：** 可協助您識別目的地的名稱。
+**[!UICONTROL Name]：**&#x200B;可協助您識別目的地的名稱。
 
-**[!UICONTROL Server]：** 伺服器的主機名稱。
+**[!UICONTROL Server]：**&#x200B;伺服器的主機名稱。
 
-**[!UICONTROL Port]：** 伺服器上要使用的連線埠號碼。 預設值為 *[!UICONTROL 21]*.
+**[!UICONTROL Port]：**&#x200B;伺服器上要使用的連線埠號碼。 預設值為&#x200B;*[!UICONTROL 21]*。
 
-**[!UICONTROL Username]：** 要登入伺服器的使用者名稱。
+**[!UICONTROL Username]：**&#x200B;要登入伺服器的使用者名稱。
 
-**[!UICONTROL Password]：** 登入伺服器的密碼。
+**[!UICONTROL Password]：**&#x200B;登入伺服器的密碼。
 
-**[!UICONTROL Path (Optional)]：** 檔案上傳到的伺服器路徑。
+**[!UICONTROL Path (Optional)]：**&#x200B;檔案上傳到的伺服器路徑。
 
 >[!MORELIKETHIS]
 >
->* [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [編輯 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [刪除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [編輯[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [刪除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

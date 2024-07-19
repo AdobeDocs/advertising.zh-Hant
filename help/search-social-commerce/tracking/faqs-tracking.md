@@ -1,11 +1,11 @@
 ---
 title: 關於追蹤的常見問題集
 description: 瞭解關於追蹤的常見問題解答，包括疑難排解問題。
-exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 +++我可以追蹤Adobe Advertising未管理的行銷活動嗎？
 
-是。 如果Search、Social和Commerce正在同步您的其中一個廣告網路帳戶，則會追蹤所有人的廣告網路點按資料 [支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md) 在該帳戶中。 如果您已將搜尋、社交和商務重新導向新增至廣告和/或關鍵字目的地URL或追蹤範本，並在轉換頁面中實作轉換追蹤，此功能也會追蹤轉換資料。 向您的Adobe客戶團隊闡明您希望Search、Social和Commerce輕鬆追蹤的行銷活動，以及您希望他們管理哪些行銷活動。
+是。 如果Search、Social和Commerce正在同步您的其中一個廣告網路帳戶，則它會追蹤該帳戶中所有[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)的廣告網路點按資料。 如果您已將搜尋、社交和Commerce重新導向新增至廣告和/或關鍵字目的地URL或追蹤範本，並在轉換頁面中實作轉換追蹤，此功能也會追蹤轉換資料。 向您的Adobe客戶團隊闡明您希望Search、Social和Commerce只追蹤哪些行銷活動，以及您希望他們管理哪些行銷活動。
 +++
 
 +++如何取得多事件歸因？
 
-對於使用搜尋、Social、和商務或Adobe Analytics轉換追蹤標籤的廣告商，Adobe Advertising提供多個選項，可用於歸因一系列導致轉換的事件中的轉換資料。 廣告商層級的設定決定如何跨事件歸因轉換資料，即使轉換資料發生在多個廣告頻道中亦然，只要該頻道允許在事件層級進行曝光追蹤。 依預設，轉換會歸因於上一個（最近）事件，但設定可以不同，例如將轉換歸因於第一個事件或將所有事件平均加權。 變更歸因規則會影響未來出價的計算方式。
+對於使用搜尋、Social和Commerce或Adobe Analytics轉換追蹤標籤的廣告商，Adobe Advertising提供多個選項，可用於歸因一系列導致轉換的事件中的轉換資料。 廣告商層級的設定決定如何跨事件歸因轉換資料，即使轉換資料發生在多個廣告頻道中亦然，只要該頻道允許在事件層級進行曝光追蹤。 依預設，轉換會歸因於上一個（最近）事件，但設定可以不同，例如將轉換歸因於第一個事件或將所有事件平均加權。 變更歸因規則會影響未來出價的計算方式。
 
 在摘要檔案中提供所有轉換資料的廣告商，必須將轉換歸因於相關的交易事件本身。
 
@@ -33,15 +33,15 @@ ht-degree: 0%
 
 +++Adobe Advertising如何識別重複交易？
 
-當使用者在完成交易後重新整理確認頁面時，可能會發生重複交易。 Adobe Advertising使用 `ev_transid` 屬性，可消除具有相同交易ID和屬性值的重複交易。
+當使用者在完成交易後重新整理確認頁面時，可能會發生重複交易。 Adobe Advertising使用`ev_transid`屬性來消除具有相同交易ID和屬性值的重複交易。
 
 以下是Adobe Advertising的重複資料刪除邏輯：
 
-* **當使用者端傳送的值用於 `ev_transid` 屬性：** 如果符合下列條件，則後續的畫素請求會被視為上一個畫素請求的重複專案： `ev_transid`；相同關鍵字、廣告或刊登位置的追蹤ID，以及特定轉換量度的值。
+* **當使用者端傳送`ev_transid`屬性的值時：**&#x200B;如果下列專案都相同，則後續畫素要求會被視為與上一個要求重複： `ev_transid`；相同關鍵字、廣告或位置的追蹤ID；以及特定轉換量度的值。
 
   例如，如果特定廣告網路上的相同關鍵字有多個貸款申請具有相同的申請ID和貸款金額，則會將其視為重複專案，並且只計算第一個貸款申請。
 
-* **當使用者端未傳送的值給 `ev_transid` 屬性：** 如果後續交易共用相同關鍵字、廣告或位置的追蹤ID，且特定轉換量度的值相同，則會視為上一個交易的重複專案。
+* **當使用者端未傳送`ev_transid`屬性的值時：**&#x200B;如果後續交易共用相同關鍵字、廣告或位置的追蹤ID，且特定轉換量度的值相同，則會視為上一個交易的重複專案。
 
   例如，如果多個貸款申請具有相同的關鍵字ID和貸款金額，則會將其視為重複專案，並且只計算第一個貸款申請。
 +++
@@ -52,14 +52,14 @@ ht-degree: 0%
 
 首先，請洽詢您的Adobe帳戶團隊，瞭解移除追蹤URL的影響。
 
-在帳戶或行銷活動中，將追蹤方法變更為&quot;[!UICONTROL No EF Redirect].」 然後使用&quot;[!UICONTROL Generate Tracking URLs]」選項，並將其張貼至廣告網路。 所有現有的追蹤URL或目的地URL都會被取代。
+在帳戶或行銷活動中，將追蹤方法變更為&quot;[!UICONTROL No EF Redirect]&quot;。 然後使用&quot;[!UICONTROL Generate Tracking URLs]&quot;選項建立大量表單，並將其張貼至廣告網路。 所有現有的追蹤URL或目的地URL都會被取代。
 +++
 
 ## 資料問題
 
 +++我如何知道哪個轉換量度來自資料摘要或由Adobe Advertising轉換追蹤標籤追蹤？
 
-在 [!UICONTROL Transaction Report]，如果您包含自訂欄，您可以分辨是否有Adobe Advertising轉換追蹤畫素追蹤包含的轉換量度»[!UICONTROL Tracking URL].」 使用Adobe Advertising追蹤畫素來追蹤URL的開頭為 `http://pixel.everesttech.net`.
+在[!UICONTROL Transaction Report]中，如果您包含自訂欄&quot;[!UICONTROL Tracking URL]&quot;，您可以分辨是否有Adobe Advertising轉換追蹤畫素追蹤包含的轉換量度。 以Adobe Advertising追蹤畫素追蹤URL的開頭為`http://pixel.everesttech.net`。
 +++
 
 +++什麼是孤立交易？
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 在下列情況下會發生孤立。
 
-**畫素實施**
+**畫素實作**
 
 孤立交易幾乎不會發生在畫素實作中。 但是，發生畫素孤立的情況如下：
 
@@ -84,19 +84,19 @@ ht-degree: 0%
 
 * 帳戶不同步，或在同步處理期間發生錯誤。
 
-* 追蹤ID是在「搜尋、社交和商務」與廣告網路不同步期間，從廣告網路新增和移除的，因此「搜尋、社交和商務」沒有該ID的相關資訊。 如果延遲收到收入，此問題仍會造成孤立收入。
+* 追蹤ID是在Search、Social和Commerce與廣告網路不同步時從廣告網路新增和移除的，因此Search、Social和Commerce沒有該ID的相關資訊。 如果延遲收到收入，此問題仍會造成孤立收入。
 
 * 使用者端傳送的追蹤ID在摘要中的格式不正確，且與URL中的追蹤ID不符。 這通常是因為格式問題或追蹤ID在摘要中縮寫而發生。
 
-* 在設定檔中，用來從URL擷取追蹤ID的規則運算式不正確或已過時。 有時廣告商會變更URL中的追蹤ID，或採用全新的追蹤系統，這要求Search， Social， &amp; Commerce實作團隊更新規則運算式。 在這種情況下，大部分收入都是孤立的。
+* 在設定檔中，用來從URL擷取追蹤ID的規則運算式不正確或已過時。 有時廣告商會變更URL中的追蹤ID，或採用全新的追蹤系統，這要求Search、Social和Commerce實作團隊更新規則運算式。 在這種情況下，大部分收入都是孤立的。
 
-**使用交易ID的摘要實作**
+使用交易ID **摘要實作**
 
 在離線摘要中有資料可供使用的日期之前，沒有可用的線上交易。
 
 **使用權杖(ef_id)的摘要實作**
 
-搜尋、社交和商務在其伺服器或廣告網路上找不到對應的點選。 這可能是因為點選資料不適用於轉換的點選日期，或（極少）是因為點選記錄未在轉換記錄之前處理。 搜尋、Social和Commerce收到來自廣告網路的點選資料或點選記錄經過處理時，資料會對映至轉換。
+搜尋、社交和Commerce在其伺服器或廣告網路上找不到對應的點選。 這可能是因為點選資料不適用於轉換的點選日期，或（極少）是因為點選記錄未在轉換記錄之前處理。 搜尋、Social和Commerce收到來自廣告網路的點選資料或點選記錄經過處理時，資料會對映至轉換。
 +++
 
 ## 收入追蹤問題
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 **可能的解決方案或因應措施**
 
-* 如果您管理自己的關鍵字和廣告，請針對重複的URL建立具有正確URL的Bulksheet檔案，並使用 **[!UICONTROL Generate Tracking URLs]** 選項，重新產生所有關鍵字和廣告的URL。
+* 如果您管理自己的關鍵字和廣告，請針對重複的URL建立具有正確URL的Bulksheet檔案，並使用&#x200B;**[!UICONTROL Generate Tracking URLs]**&#x200B;選項將其張貼至適當的帳戶，這會為所有關鍵字和廣告重新產生URL。
 
 * 如果Adobe帳戶團隊管理您的關鍵字，則要求他們為重複的URL建立新的URL。
 +++

@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 文字廣告範本 — 管理新廣告群組的設定
 
-**[!UICONTROL Manage Settings for NEW Ad Groups]：**（選用）可讓您為已建立的任何廣告群組設定設定。
+**[!UICONTROL Manage Settings for NEW Ad Groups]：**（選擇性）可讓您為已建立的任何廣告群組設定設定。

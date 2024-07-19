@@ -1,30 +1,30 @@
 ---
-title: 『[!DNL Yandex] 文字廣告設定
-description: 參考設定 [!DNL Yandex] 文字廣告。
-exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+title: '[!DNL Yandex]文字廣告設定'
+description: 參考 [!DNL Yandex] 文字廣告的設定。
+exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] 文字廣告設定
+# [!DNL Yandex]文字廣告設定
 
 ## [!UICONTROL Text Ad]
 
-**[!UICONTROL Ad Title]：** 橫幅（廣告）的標題。 長度上限為33個字元，單一字元不能超過23個字元。
+**[!UICONTROL Ad Title]：**&#x200B;橫幅（廣告）的標題。 長度上限為33個字元，單一字元不能超過23個字元。
 
 >[!NOTE]
 >
->變更的廣告文案 [!DNL Yandex] 廣告會刪除現有廣告，並建立具有相同屬性的新廣告。
+>變更[!DNL Yandex]廣告的廣告復本會刪除現有廣告，並建立具有相同屬性的新廣告。
 
-**[!UICONTROL Description Line 1]：** 橫幅（廣告）的正文。 長度上限為75個字元，單一字元不得超過22個字元。
+**[!UICONTROL Description Line 1]：**&#x200B;橫幅（廣告）的正文。 長度上限為75個字元，單一字元不得超過22個字元。
 
 >[!NOTE]
 >
->變更的廣告文案 [!DNL Yandex] 廣告會刪除現有廣告，並建立具有相同屬性的新廣告。
+>變更[!DNL Yandex]廣告的廣告復本會刪除現有廣告，並建立具有相同屬性的新廣告。
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->URL也可包含 [`{param1}` 和 `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) 替代變數。 使用時，變數會被 `{param1}` 和 `{param2}` 為用於顯示廣告的關鍵字定義的值。
+>URL也可以包含[`{param1}`和`{param2}`](https://yandex.com/support/direct/statistics/url-tags.html)替代變數。 當您使用這些變數時，會以針對用於顯示廣告的關鍵字所定義的`{param1}`和`{param2}`值來取代變數。
 
 >[!MORELIKETHIS]
 >

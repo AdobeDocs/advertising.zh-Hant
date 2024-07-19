@@ -1,37 +1,37 @@
 ---
 title: 歸因規則的計算方式
 description: 瞭解Adobe Advertising如何計算每種型別的歸因規則。
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
 # 如何針對Adobe Advertising計算歸因規則
 
-*僅具有Adobe Advertising轉換追蹤的廣告商*
+*僅追蹤Adobe Advertising轉換的廣告商*
 
 <!-- Verify statements about cross-device events -->
 
 廣告商層級歸因規則是用來將轉換資料（可能跨多個廣告管道）歸因於一系列導致轉換的事件。
 
-在報表、Advertising Search、Social和Commerce （Search、Social和Commerce）的預設和自訂檢視以及Search、Social和Commerce （某些使用者角色）的產品組合層級模擬中，選取的規則僅用於檢視、報表或模擬資料。 各種歸因規則的套用方式如下。
+在Advertising Search、Social和Commerce (Search、Social和Commerce)的報表預設和自訂檢視中，以及Search、Social和Commerce的（某些使用者角色）產品組合層級模擬中，選取的規則僅用於檢視、報表或模擬資料。 各種歸因規則的套用方式如下。
 
 >[!NOTE]
 >
 >* 歸因規則適用於任何頻道中付費廣告的點按次數，以及顯示廣告和社交廣告的曝光數。 它們不適用於付費搜尋廣告的曝光數，無法在事件層級進行追蹤。
->* Adobe Advertising一律會在轉換前儲存每位網路瀏覽者的下列事件： a)第一次付費點按； b)每個管道最多10次點按（搜尋、社交或顯示），包括第一次點按；以及c)最多10次顯示曝光數。 <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising一律會在轉換前儲存每位網路瀏覽者的下列事件： a)第一次付費點按； b)每個管道最多10次點按（搜尋、社交或顯示），包括第一次點按；以及c)最多10次顯示曝光數。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * 在Advertising DSP和Advertising Creative中，跨裝置定義只會考慮所選歸因規則中的事件路徑。<!-- cross-device attribution via LiveRamp only -->
 * 在報表和管理檢視中，為值顯示的小數位數會依貨幣而定，但Adobe Advertising會儲存更精確的值。
 
 ## 上次事件（預設）
 
-將轉換歸因於廣告商的系列中最後一個付費點選 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 或者，如果沒有發生付費點按，則為廣告商的最近一次曝光 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j).
+將轉換歸因於廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#c-d)內系列中的最後一個付費點按，如果沒有發生付費點按，則歸因於廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#i-j)內的最後一個點按。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+如果轉換之前只有曝光數，則轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 ![上次事件歸因百分比](/help/search-social-commerce/assets/attribution-percent-last-event.png "上次事件歸因百分比")
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 同時包含曝光次數與點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、轉換120美元
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### 具有所有曝光的範例
 
-**注意：** 僅適用於顯示廣告和社交廣告的曝光數。
+**注意：**&#x200B;只有顯示廣告和社交廣告的曝光數才適用。
 
 事件路徑：曝光次數1、曝光次數2、曝光次數3、轉換120美元
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ## 第一個事件
 
-將轉換歸因於廣告商的系列中的第一個付費點選 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 或者，如果沒有發生付費點按，則為廣告商的第一印象 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j). 此規則僅適用於單一裝置上的事件。
+將轉換歸因於廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#c-d)內的系列中的第一個付費點按，如果沒有發生付費點按，則歸因於廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#i-j)內的第一印象。 此規則僅適用於單一裝置上的事件。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+當轉換之前只有曝光數時，轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 ![第一個事件歸因百分比](/help/search-social-commerce/assets/attribution-percent-first-event.png "第一個事件歸因百分比")
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### 同時包含曝光次數與點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、轉換120美元
 
@@ -97,11 +97,12 @@ ht-degree: 0%
 
 ### 具有所有曝光的範例
 
-**注意：** 僅適用於顯示廣告和社交廣告的曝光數。
+**注意：**&#x200B;只有顯示廣告和社交廣告的曝光數才適用。
 
 事件路徑：曝光次數1、曝光次數2、曝光次數3、轉換120美元
 
-該轉換歸因於曝光次數1。 由於轉換是檢視，因此套用報表設定的「（顯示促銷活動）轉換歸因」區段中選取的檢視估價方法：
+該轉換歸因於曝光次數1。 由於轉換是檢視，在「（顯示促銷活動）轉換」中選取的檢視估價方法
+套用報表設定的「歸因」區段：
 
 * 如果報表引數指定了加權的顯示比例，則該權重會套用至顯示比例。 例如，如果廣告商的瀏覽權數為40%，則120 x 40% = 48美元，因此48美元歸因於「曝光數1」。
 
@@ -113,13 +114,13 @@ ht-degree: 0%
 
 ## 加權第一個事件更多
 
-將轉換歸因於廣告商發生之系列中的所有事件 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)，但會給予第一個事件最大的權重，並連續給予下列事件較小的權重。此規則僅適用於單一裝置上的事件。
+將轉換歸因於發生在廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧視窗](/help/search-social-commerce/glossary.md#i-j)內的系列中的所有事件，但給予第一個事件最大權重，並連續給予以下事件較小的權重。此規則僅適用於單一裝置上的事件。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+當轉換之前只有曝光數時，轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 當轉換路徑包含付費點按次數和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
 
-* 在搜尋、社交和商務中， [印象覆寫權數](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定 — 會先套用至曝光數。
+* 在Search、Social和Commerce中，[曝光覆寫權數](/help/search-social-commerce/glossary.md#i-j) （在廣告商的曝光覆寫權數設定中以及報表、檢視或自訂模擬引數中指定）會先套用至曝光數。
 
 * 在DSP中，會忽略曝光數，而且只會加權點選。 DSP不會將曝光次數覆寫權重納入歸因考量。
 
@@ -137,17 +138,17 @@ ht-degree: 0%
 
 ### 包含曝光次數和點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、Click 2、120美元的轉換
 
-#### （僅限搜尋、社交和商務）使用10%的預設「曝光覆寫權重」
+#### (僅限搜尋、社交和Commerce)使用10%的預設「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，曝光覆寫權數會套用至曝光次數。
 
 歸因：曝光數1 = 8美元，點選次數1 = 72美元，曝光數2 = 4美元，點選次數2 = 36美元（總計120美元）
 
-#### 使用(僅限DSP)無曝光覆寫權數或（僅限搜尋、Social和Commerce） 0%的「曝光覆寫權數」
+#### 使用(僅限DSP)0%的「曝光覆寫權重」或(僅限搜尋、Social和Commerce)「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，因此會忽略曝光次數。
 
@@ -155,7 +156,7 @@ ht-degree: 0%
 
 ### 具有所有曝光的範例
 
-**注意：** 只適用顯示廣告的曝光數。
+**注意：**&#x200B;只有顯示廣告的曝光數才適用。
 
 事件路徑：曝光次數1、曝光次數2、曝光次數3、轉換120美元
 
@@ -175,17 +176,17 @@ ht-degree: 0%
 >
 >此規則僅適用於單一裝置上的事件。
 
-將轉換平均歸因於廣告商發生的系列中的每個事件 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j).
+將轉換平均歸因於發生在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內的一系列中的每個事件。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+當轉換之前只有曝光數時，轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 當轉換路徑包含付費點按次數和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
 
-* 在搜尋、社交和商務中， [印象覆寫權數](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定 — 會先套用至曝光數。
+* 在Search、Social和Commerce中，[曝光覆寫權數](/help/search-social-commerce/glossary.md#i-j) （在廣告商的曝光覆寫權數設定中以及報表、檢視或自訂模擬引數中指定）會先套用至曝光數。
 
 * 在DSP中，會忽略曝光數，而且只會加權點選。 DSP不會將曝光次數覆寫權重納入歸因考量。
 
-![平均歸因百分比](/help/search-social-commerce/assets/attribution-percent-even.png "平均歸因百分比")
+![偶數歸因百分比](/help/search-social-commerce/assets/attribution-percent-even.png "偶數歸因百分比")
 
 <!-- start examples as collapsible content -->
 
@@ -201,17 +202,17 @@ ht-degree: 0%
 
 ### 包含曝光次數和點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、Click 2、120美元的轉換
 
-#### （僅限搜尋、社交和商務）使用10%的預設「曝光覆寫權重」
+#### (僅限搜尋、社交和Commerce)使用10%的預設「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，曝光覆寫權數會套用至曝光次數。
 
 歸因：曝光數1 = 6美元，點選次數1 = 54美元，曝光數2 = 6美元，點選次數2 = 54美元（總計120美元）
 
-#### 使用(僅限Adobe Advertising DSP)無曝光覆寫權數或（僅限搜尋、Social和Commerce） 0%的「曝光覆寫權數」
+#### 使用(僅限Adobe Advertising DSP)0%的「曝光次數覆寫權數」或(僅限搜尋、Social和Commerce)「曝光次數覆寫權數」
 
 由於事件序列同時包含曝光次數和點按次數，因此會忽略曝光次數。
 
@@ -219,7 +220,7 @@ ht-degree: 0%
 
 ## 具有所有曝光的範例
 
-**注意：** 只適用顯示廣告的曝光數。
+**注意：**&#x200B;只有顯示廣告的曝光數才適用。
 
 事件路徑：曝光次數1、曝光次數2、曝光次數3、轉換120美元
 
@@ -235,17 +236,17 @@ ht-degree: 0%
 
 ## 加權最後一個事件更多
 
-將轉換歸因於廣告商發生之系列中的所有事件 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)，但會給予最後一個事件最大的權重，並連續給予前一個事件較小的權重。
+將轉換歸因於發生在廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧視窗](/help/search-social-commerce/glossary.md#i-j)內的系列中的所有事件，但給予最後一個事件最大的權重，並連續減少對先前事件的權重。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+當轉換之前只有曝光數時，轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 當轉換路徑包含付費點按次數和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
 
-* 在搜尋、社交和商務中， [印象覆寫權數](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定 — 會先套用至曝光數。
+* 在Search、Social和Commerce中，[曝光覆寫權數](/help/search-social-commerce/glossary.md#i-j) （在廣告商的曝光覆寫權數設定中以及報表、檢視或自訂模擬引數中指定）會先套用至曝光數。
 
 * 在DSP中，會忽略曝光數，而且只會加權點選。 DSP不會將曝光次數覆寫權重納入歸因考量。
 
-![權重最後一個事件更多歸因百分比](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "權重最後一個事件更多歸因百分比")
+![加權最後一個事件更多歸因百分比](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "加權最後一個事件更多歸因百分比")
 
 <!-- start examples as collapsible content -->
 
@@ -259,17 +260,17 @@ ht-degree: 0%
 
 ### 包含曝光次數和點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、Click 2、120美元的轉換
 
-#### （僅限搜尋、社交和商務）使用10%的預設「曝光覆寫權重」
+#### (僅限搜尋、社交和Commerce)使用10%的預設「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，曝光覆寫權數會套用至曝光次數。
 
 歸因：曝光數1 = 4美元，點選次數1 = 36美元，曝光數2 = 8美元，點選次數2 = 72美元（總計120美元）
 
-#### 使用(僅限DSP)無曝光覆寫權數或（僅限搜尋、Social和Commerce） 0%的「曝光覆寫權數」
+#### 使用(僅限DSP)0%的「曝光覆寫權重」或(僅限搜尋、Social和Commerce)「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，因此會忽略曝光次數。
 
@@ -277,7 +278,7 @@ ht-degree: 0%
 
 ### 具有所有曝光的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Impression 2、Impression 3、120美元的轉換
 
@@ -285,7 +286,7 @@ ht-degree: 0%
 
 * 如果報表引數指定了加權的檢視權數，則該權重會套用至曝光值。 例如，如果檢視權重為40%，則將「包含所有點按的範例」中的每個值乘以40%：Impression 3 = 24 USD， Impression 2 = 16 USD， Impression 1 = 8 USD （總計48 USD）
 
-* 如果報表引數指定使用原始值作為閱覽，則完整的120 USD會在曝光之間平分：曝光數3 = 60 USD、曝光數2 = 40 USD、曝光數1 = 20 USD （總計120 USD）
+* 如果報表引數指定使用原始值作為閱覽，則完整的120 USD會由曝光數平分：曝光數3 = 60 USD、曝光數2 = 40 USD、曝光數1 = 20 USD （總計120 USD）
 
 +++
 
@@ -293,13 +294,13 @@ ht-degree: 0%
 
 ## U形
 
-將轉換歸因於廣告商發生之系列中的所有事件 [按一下回顧視窗](/help/search-social-commerce/glossary.md#c-d) 和 [曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)，但會給予第一個事件和最後一個事件最大的權重，而連續給予轉換路徑中間事件的權重較低。
+將轉換歸因於發生在廣告商的[點按回顧視窗](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧視窗](/help/search-social-commerce/glossary.md#i-j)內的系列中的所有事件，但給予第一個事件和最後一個事件的權重最大，連續減少對轉換路徑中間事件的權重。
 
-如果轉換之前只有曝光數，則會將轉換視為 *檢視*，根據廣告商的 [檢視權數設定](/help/search-social-commerce/glossary.md#uv) 或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法。
+當轉換之前只有曝光數時，轉換會視為&#x200B;*檢視*，其會根據廣告商的[檢視權數設定](/help/search-social-commerce/glossary.md#uv)加權，或 — 依指定 — 根據報表、檢視或自訂模擬引數中指定的檢視估價方法加權。
 
 當轉換路徑包含付費點按次數和曝光數時，不同Adobe Advertising產品會以不同方式處理曝光數：
 
-* 在搜尋、社交和商務中， [印象覆寫權數](/help/search-social-commerce/glossary.md#i-j)  — 在廣告商的曝光數覆寫權重設定中以及在報表、檢視或自訂模擬引數中指定 — 會先套用至曝光數。
+* 在Search、Social和Commerce中，[曝光覆寫權數](/help/search-social-commerce/glossary.md#i-j) （在廣告商的曝光覆寫權數設定中以及報表、檢視或自訂模擬引數中指定）會先套用至曝光數。
 
 * 在DSP中，會忽略曝光數，而且只會加權點選。 DSP不會將曝光次數覆寫權重納入歸因考量。
 
@@ -317,17 +318,17 @@ ht-degree: 0%
 
 ### 包含曝光次數和點按次數的範例
 
-**注意：** 曝光次數僅適用於顯示廣告和社交廣告。
+**注意：**&#x200B;曝光次數僅適用於顯示廣告和社交廣告。
 
 事件路徑： Impression 1、Click 1、Impression 2、Click 2、120美元的轉換
 
-#### （僅限搜尋、社交和商務）使用10%的預設「曝光覆寫權重」
+#### (僅限搜尋、社交和Commerce)使用10%的預設「曝光覆寫權重」
 
 由於事件序列同時包含曝光次數和點按次數，曝光覆寫權數會套用至曝光次數。
 
 歸因：曝光數1 = 6美元，點選次數1 = 54美元，曝光數2 = 6美元，點選次數2 = 54美元（總計120美元）
 
-#### 使用(僅限DSP)無曝光覆寫權數，或（僅限搜尋、Social和Commerce） 0%的「曝光覆寫權數」
+#### 使用(僅限DSP)無曝光覆寫權數，或(僅限搜尋、Social和Commerce) 0%的「曝光覆寫權數」
 
 由於事件序列同時包含曝光次數和點按次數，因此會忽略曝光次數。
 
@@ -335,7 +336,7 @@ ht-degree: 0%
 
 ### 具有所有曝光的範例
 
-**注意：** 只適用顯示廣告的曝光數。
+**注意：**&#x200B;只有顯示廣告的曝光數才適用。
 
 事件路徑：曝光次數1、曝光次數2、曝光次數3、曝光次數4、轉換120美元
 

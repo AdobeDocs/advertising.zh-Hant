@@ -1,9 +1,9 @@
 ---
 title: 最佳化網站登陸頁面
 description: 瞭解最佳化網站登陸頁面的最佳實務。
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search， Social， &amp; Commerce可免費為具有受管服務合約的廣告商提供登陸頁面測試服務。
+>搜尋、社交和Commerce為具有受管服務合約的廣告商免費提供登陸頁面測試服務。
 
 >[!TIP]
 >
->如需產品組合中行銷活動的更多特定最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實作區段，此區段可從「搜尋、社交和商務」中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實務，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 設計有效的登陸頁面
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 使用良好的頁面設計；良好的設計可以立即建立信任、熟悉感和可信度。 自訂您的表單按鈕以使其更引人注目；請勿使用包含「提交」字樣的標準瀏覽器產生按鈕。 使用兩欄式配置，主欄包含可操作的專案，第二欄包含支援資訊。
 
-* 提供可信度和安全性指標。 圖志和印章有助於緩解訪客的焦慮。 其中包括 [!DNL Verisign]， [!DNL BBB] 標誌， [!DNL eTrust]， [!DNL HackerSafe]、滿意度保證、退款優惠等。 在收集資訊時加入隱私權宣告。 儘可能將這些指標放在可操作專案附近。
+* 提供可信度和安全性指標。 圖志和印章有助於緩解訪客的焦慮。 其中包括[!DNL Verisign]、[!DNL BBB]標誌、[!DNL eTrust]、[!DNL HackerSafe]、滿意度保證、退款優惠等。 在收集資訊時加入隱私權宣告。 儘可能將這些指標放在可操作專案附近。
 
 * 提供獎勵，例如免運費、禮品、折扣，或免費報表或電子書。 訪客點選登入頁面時正在四處購物，需要有獎勵才能留在頁面上並完成選件。 獎勵應為頁面上最顯著的專案之一。
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## 測試登入頁面的影響
 
-若要檢視變更登入頁面的影響（當其他專案都不變時），請執行 [此 [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，包括顯示URL和每個廣告的基礎/最終URL或目的地URL。
+若要檢視變更登入頁面（在其他專案不變時）的影響，請執行[the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，其中包含每個廣告的顯示URL和基本/最終URL或目的地URL。
 
 >[!MORELIKETHIS]
 >
 >* [分析報告以精簡您的關鍵字和行銷活動設定](best-practices-analyze.md)
->* [撰寫有效文字和復本](best-practices-write.md)
+>* [撰寫有效的文字廣告復本](best-practices-write.md)

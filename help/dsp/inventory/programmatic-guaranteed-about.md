@@ -22,7 +22,7 @@ ht-degree: 0%
 * 一般而言，交易在發佈者的廣告伺服器中有較高的優先順序。
 * 競標要求並非為單一交易或購買者所獨有。
 * 單一交易ID支援多種視訊型別。
-* 接受發佈者管理的廣告，途徑為 [!DNL Google Authorized Buyers] SSP.
+* 已透過[!DNL Google Authorized Buyers] SSP接受發佈者管理的廣告。
 * SSP和發佈者具有傳遞SLA。
 
 PG交易需要PG預設版位和廣告（或發佈商管理的廣告需要1x1畫素），因此DSP可以傳回要求給每個競標要求，並透過SSP履行傳遞SLA。 設定必要的PG預設刊登版位後，您也可以在其他刊登版位中鎖定PG交易。
@@ -32,14 +32,14 @@ PG交易需要PG預設版位和廣告（或發佈商管理的廣告需要1x1畫�
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (先前稱為 [!DNL Telaria])
-* [!DNL Magnite DV+] (先前稱為 [!DNL Rubicon])
+* [!DNL Magnite CTV] （先前為[!DNL Telaria]）
+* [!DNL Magnite DV+] （先前為[!DNL Rubicon]）
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [談判程式化保證交易的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [與程式化保證交易進行交涉的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
 >* [SSP合作夥伴](ssp-partners.md)
->* [庫存功能概觀](inventory-overview.md)
+>* [詳細目錄功能概觀](inventory-overview.md)

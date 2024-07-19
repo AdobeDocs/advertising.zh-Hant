@@ -1,20 +1,20 @@
 ---
-title: 『[!DNL Google Ads] 已擴充的動態搜尋廣告設定'
-description: 參考設定 [!DNL Google Ads] 展開動態搜尋廣告。
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+title: '[!DNL Google Ads]延展的動態搜尋廣告設定'
+description: 參考 [!DNL Google Ads] 展開的動態搜尋廣告的設定。
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] 擴展的動態搜尋廣告設定
+# [!DNL Google Ads]延展的動態搜尋廣告設定
 
-動態搜尋廣告(DSA)僅適用於 [!DNL Google Ads] 在僅限搜尋的行銷活動中搜尋動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面和顯示URL，然後自動產生最終URL。
+動態搜尋廣告(DSA)僅適用於[!DNL Google Ads]在僅限搜尋行銷活動中的搜尋動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面和顯示URL，然後自動產生最終URL。
 
-請參閱Google Ads說明，瞭解 [每個帳戶的廣告限制](https://support.google.com/google-ads/answer/6372658?hl=en).
+請參閱Google廣告說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[廣告限制。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1]， [!UICONTROL Description Line 2]：** 廣告內文。 第二行是選擇性的。 長度總計上限為80個字元。
+**[!UICONTROL Description Line 1]，[!UICONTROL Description Line 2]：**&#x200B;廣告內文。 第二行是選擇性的。 長度總計上限為80個字元。
 
 <!-- **[!UICONTROL Status]:** -->
 

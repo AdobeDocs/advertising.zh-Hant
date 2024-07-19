@@ -15,14 +15,14 @@ ht-degree: 0%
 建立可重複使用的對象時，您可以使用英數字元區段ID （索引鍵）及下列語法來手動定義區段邏輯：
 
 * ()表示群組
-* `||` 的 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;&amp; for [!DNL AND]
-* ！ 的 [!DNL NOT] （排除）
+* [!DNL OR]的`||` <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* [!DNL AND]的&amp;&amp;
+* ！ 針對[!DNL NOT] （排除）
 
 >[!NOTE]
 >
 >* 所有指定的區段群組都會包括在內，除非其前面有！ （會將其排除）。
->* 您可以 [尋找對象的區段ID](reusable-audience-clipboard.md) 從 [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* 您可以[從[!UICONTROL Audiences] > [!UICONTROL All audiences]尋找對象](reusable-audience-clipboard.md)的區段ID。
 
 例如，下列邏輯：
 
@@ -46,4 +46,4 @@ ht-degree: 0%
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
 >* [對象設定](audience-settings.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
+>* [可用的協力廠商資料提供者](third-party-data-providers.md)

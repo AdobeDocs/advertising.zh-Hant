@@ -27,17 +27,17 @@ ht-degree: 0%
 
 * **[!UICONTROL Summary]：**
 
-   * **[!UICONTROL Estimated CPM]：** 鎖定目標設定可預期達到的預計每千次曝光成本(eCPM)。
+   * **[!UICONTROL Estimated CPM]：**&#x200B;目標設定可預期達到的每千次曝光的估計成本(eCPM)。
 
-   * **[!UICONTROL Budget]：** 目標設定的估計預算。
+   * **[!UICONTROL Budget]：**&#x200B;目標設定的預估預算。
 
-   * **[!UICONTROL Impression]：** 鎖定目標設定的預估曝光次數。
+   * **[!UICONTROL Impression]：**&#x200B;目標設定的預估曝光次數。
 
-* **[!UICONTROL Budget Yield Curve]：** 如果所有其他目標設定相同，則位置可在不同預算層級提供的預估曝光次數。
+* **[!UICONTROL Budget Yield Curve]：**&#x200B;如果所有其他目標設定相同，則位置可在不同預算層級傳遞的估計曝光次數。
 
-* **[!UICONTROL Max Bid Yield Curve]：** 當所有其他鎖定目標設定相同時，不同「最高出價」等級位置的預估支出。
+* **[!UICONTROL Max Bid Yield Curve]：**&#x200B;當所有其他鎖定目標設定相同時，不同「最高出價」等級位置的預估支出。
 
-* **[!UICONTROL Message]：** 提供有關預測輸出的資訊，包括無法產生預測的任何案例。 此外也會反白標示已檢閱但因資料缺乏而未在該情境中考慮的任何目標定位設定。
+* **[!UICONTROL Message]：**&#x200B;提供預測輸出的相關資訊，包括無法產生預測的任何案例。 此外也會反白標示已檢閱但因資料缺乏而未在該情境中考慮的任何目標定位設定。
 
 ### 預算計算
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 ## 開啟刊登版位預測報表
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-1. 按一下行銷活動的名稱，然後按一下 **[!UICONTROL Placements]**.
+1. 按一下行銷活動的名稱，然後按一下&#x200B;**[!UICONTROL Placements]**。
 
-1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]**」。
 
-1. 找到 **[!UICONTROL Forecast]** 區段中的左側邊欄。 如有必要，請按一下 ![預測](/help/dsp/assets/placement-forecast.png).
+1. 找出右上角的&#x200B;**[!UICONTROL Forecast]**&#x200B;區段。 如有必要，請按一下![預測](/help/dsp/assets/placement-forecast.png)。
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management檢視中的效能報表型別](campaign-reports-about.md)
+>* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
 >* [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

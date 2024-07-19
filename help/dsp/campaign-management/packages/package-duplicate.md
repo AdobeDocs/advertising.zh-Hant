@@ -1,6 +1,6 @@
 ---
-title: 複製包
-description: 瞭解如何複製包。
+title: 複製套裝
+description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,60 +10,59 @@ ht-degree: 0%
 
 ---
 
-# 複製包
+# 複製套裝
 
-複製包以建立具有類似設定的包。 您可以：
+複製套件以建立具有類似設定的套件。 您可以：
 
-* 在原始廣告商和活動中或在不同的廣告商中複製包
-* （可選）複製包中的放置
-* （對於原始市場活動中的重複包）可選地複製原始廣告和放置級事件像素
-* 修改新包的航班日期
+* 在原始廣告商和行銷活動或不同行銷活動內複製套件
+* 選擇性地複製封裝內的版位
+* （適用於原始行銷活動內的重複套件）可選擇複製原始廣告和版位層級的事件畫素
+* 修改新套件的投放日期
 
-請參閱「」[未複製的內容](#package-not-duplicated)「 」，以查看未複製的放置設定清單。
+如需未複製的位置設定清單，請參閱&quot;[未複製的專案](#package-not-duplicated)&quot;。
 
-1. 在主菜單中，按一下 **[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-1. 按一下市場活動的名稱以開啟 [!UICONTROL Packages] 的子菜單。
+1. 按一下行銷活動的名稱以開啟[!UICONTROL Packages]檢視。
 
-1. 在包名稱旁邊，按一下  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**。
+1. 在封裝名稱旁，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Duplicate]**。
 
-1. 指定新包設定：
+1. 指定新的封裝設定：
 
-   1. 輸入新包名稱。
+   1. 輸入新封裝名稱。
 
-   1. （可選）更改預設設定。
+   1. （選用）變更預設設定。
 
-      預設情況下：
+      根據預設：
 
-      * 新包被分配給原始廣告商和活動。
+      * 新套件會指派給原始廣告商和促銷活動。
 
-      * 新包在當天處於活動狀態。<!-- and the flight continues for NN  days. -->
+      * 新封裝會在當天生效。<!-- and the flight continues for NN  days. -->
 
-      * 原始包中的放置將被複製到新包中。
+      * 原始套件中的版位會複製到新套件。
 
-      * 廣告和放置級事件像素不會複製到新包中。
+      * 廣告和版位層級事件畫素不會複製到新封裝。
 
-1. 按一下 **[!UICONTROL Submit]**.
+1. 按一下&#x200B;**[!UICONTROL Submit]**。
 
 ## 未複製的內容 {#package-not-duplicated}
 
-原始放置中的所有設定都重複，但：
+來自原始版位的所有設定都會重複，除了：
 
 * 實驗設定
-* （如果更改航班日期）自定義廣告計畫
-* （如果不附加廣告）自定義廣告權重和時間安排
-* 計畫保證(PG)交易的預設放置和 [!UICONTROL Simple Ad Serving] 交易
-* （如果您將職位安排複製到其他市場活動）:
+* （如果您變更投放日期）自訂廣告排程
+* （如果您未附加廣告）自訂廣告加權和排程
+* 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
+* （如果復製版位至其他行銷活動）：
    * 地理目標
-   * 事件像素
+   * 事件畫素
    * 廣告
-   * 位置級 [!DNL DoubleVerify Authentic Brand Safety] 段（覆蓋廣告商級段）
+   * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
 
 >[!MORELIKETHIS]
 >
->* [關於包管理](package-about.md)
->* [建立包](package-create.md)
->* [編輯包](package-edit.md)
->* [查看包的更改日誌](package-change-log.md)
->* [包設定](package-settings.md)
-
+>* [關於封裝管理](package-about.md)
+>* [建立封裝](package-create.md)
+>* [編輯封裝](package-edit.md)
+>* [檢視封裝的變更記錄](package-change-log.md)
+>* [封裝設定](package-settings.md)

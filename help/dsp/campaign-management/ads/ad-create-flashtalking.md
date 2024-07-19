@@ -1,6 +1,6 @@
 ---
-title: 建立具有閃電通話功能的廣告
-description: 瞭解與FlashtalkDSP的付費廣告服務合作關係。
+title: 使用Flashtalking製作廣告
+description: 瞭解DSP與Flashtalking的付費式廣告服務合作關係。
 feature: DSP Ads
 exl-id: b60e35e6-dda3-48af-9eb5-b69ed6a679ca
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,6 +10,6 @@ ht-degree: 0%
 
 ---
 
-# 建立廣告 [!DNL Flashtalking]
+# 使用[!DNL Flashtalking]建立廣告
 
-如果您想瞭解有關基於廣告收費的廣告服務合DSP作關係的更多資訊， [!DNL Flashtalking]，聯繫人 [!DNL adcloud-support@adobe.com] 的子菜單。
+如果您想進一步瞭解Advertising DSP與[!DNL Flashtalking]的付費廣告服務合作關係，請連絡[!DNL adcloud-support@adobe.com]以取得更多資訊。

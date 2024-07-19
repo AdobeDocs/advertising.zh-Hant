@@ -1,6 +1,6 @@
 ---
-title: 市場活動啟動核對表
-description: 在啟動促銷活動之前，瞭解您需要做什麼。
+title: 行銷活動啟動檢查清單
+description: 瞭解在啟動行銷活動之前需要做什麼。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,27 +10,26 @@ ht-degree: 0%
 
 ---
 
-# 市場活動啟動核對表
+# 行銷活動啟動檢查清單
 
 ## 帳戶資金
 
-確保您的帳戶有足夠的信用來運行整個市場活動。 您可以在中檢查和重新填充帳戶資金 [!UICONTROL Settings] > [!UICONTROL Account] 或聯繫您的Adobe帳戶團隊。
+請確定您的帳戶有足夠的信用來執行整個行銷活動。 您可以在[!UICONTROL Settings] > [!UICONTROL Account]或連絡您的Adobe帳戶團隊以檢查並重新補充帳戶資金。
 
-## 市場活動狀態
+## 促銷活動狀態
 
-確認市場活動日期和預算已準確設定。
+確認已正確設定行銷活動日期和預算。
 
-## 放置狀態
+## 位置狀態
 
-確保放置狀態為「」[!UICONTROL Active]&quot;或&quot;[!UICONTROL Scheduled]&quot; 另外，驗證其他放置參數（如站點清單、預算、目標、飛行日期和頻率）是否正確。
+確定位置狀態為&quot;[!UICONTROL Active]&quot;或&quot;[!UICONTROL Scheduled]&quot;。 此外，請確認其他位置引數（例如網站清單、預算、目標、投放日期和頻率）正確無誤。
 
 ## 廣告狀態
 
-確認所有廣告都已附加、批准和激活。 此外，驗證是否已連接所有跟蹤像素並且其正常工作。
+確認所有廣告均已附加、核准及啟用。 此外，請確認所有追蹤畫素均已附加且運作正常。
 
 >[!MORELIKETHIS]
 >
->* [市場活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
->* [設定績效活動的最佳做法](/help/dsp/optimization/campaign-best-practices-performance.md)
-
+>* [行銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)

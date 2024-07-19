@@ -26,16 +26,16 @@ ht-degree: 0%
 
 ![供需規劃員預測](/help/dsp/assets/planner-forecast.png "供需規劃員預測")
 
-預測輸出也包含 [!UICONTROL Inventory Breakdown] 區段會說明不同的發佈者如何貢獻獨特的觸及率，從而提供有價值的探索機會。
+預測輸出也包含[!UICONTROL Inventory Breakdown]區段，顯示不同發行者如何貢獻獨特觸及率，提供有價值的探索機會。
 
 >[!NOTE]
 >
->* 此 [!UICONTROL Inventory Breakdown] 區段僅顯示私人和的資料 [!UICONTROL On Demand] 詳細目錄。
+>* [!UICONTROL Inventory Breakdown]區段只會顯示私人和[!UICONTROL On Demand]詳細目錄的資料。
 >* 針對兩個發佈者顯示的預估唯一觸及範圍可能重疊。
 
 ## 供需規劃員檢視
 
-在 [!UICONTROL Planner] 檢視，您可以檢視現有的CTV觸及計畫並建立新計畫。
+在[!UICONTROL Planner]檢視中，您可以檢視現有的CTV觸及計畫並建立新計畫。
 
 您也可以編輯、複製、匯出、封存或重新產生任何計畫的預測。
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 +++供需規劃工具支援哪些型別的存貨？
 
-供需規劃工具支援所有型別的詳細目錄，包括程式化保證(PG)、私人市場(PMP)、 [!UICONTROL On Demand]和公開。 若要產生準確的預測，請納入過去七天內至少50,000次曝光的交易。
+供需規劃工具支援所有型別的詳細目錄，包括程式化保證(PG)、私人市場(PMP)、[!UICONTROL On Demand]和公用。 若要產生準確的預測，請納入過去七天內至少50,000次曝光的交易。
 
 +++
 
-+++為什麼我看到&quot;[!UICONTROL Unable to generate forecast]？」
++++為什麼會看到&quot;[!UICONTROL Unable to generate forecast]？&quot;
 
-此錯誤最常見的原因之一是預算不足或最高競標。 為了獲得最佳結果，請使用至少5000美元的預算。 如果 [!UICONTROL Connected TV] 媒體型別已選取，請輸入至少10美元的最高出價。
+此錯誤最常見的原因之一是預算不足或最高競標。 為了獲得最佳結果，請使用至少5000美元的預算。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10美元的最高競標。
 
 此外，請確定包含的發行者或交易為作用中，且有最近的曝光活動。
 
@@ -69,15 +69,15 @@ ht-degree: 0%
 
 +++我可以儲存供需規劃員預測輸出嗎？
 
-可以，您可以將預測匯出至 [!DNL Microsoft Excel] 試算表（按一下） **[!UICONTROL ...]** > **[!UICONTROL Export]** 在右上角。 試算表會使用兩個資料欄，擷取觸及預算曲線中顯示的資訊： [!UICONTROL Budget] 和 [!UICONTROL Reach].
+可以，您可以按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**，將預測匯出至[!DNL Microsoft Excel]試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
 
 >[!MORELIKETHIS]
 >
 >* [關於DSP Planner工具](planner-about.md)
->* [建立連線電視連線計畫](planner-create.md)
+>* [建立連線電視觸及計畫](planner-create.md)
 >* [複製連線電視連線計畫](planner-duplicate.md)
->* [編輯連線電視連線計畫](planner-edit.md)
+>* [編輯連線電視觸及計畫](planner-edit.md)
 >* [匯出連線電視觸及計畫](planner-export.md)
 >* [重新產生連線電視觸及計畫的預測](planner-forecast.md)
 >* [封存連線電視觸及計畫](planner-archive.md)
->* [連線電視連線方案的設定](planner-settings.md)
+>* [連線電視觸及計畫的設定](planner-settings.md)

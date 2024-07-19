@@ -16,21 +16,21 @@ ht-degree: 0%
 
 * 透過建立和實作DSP區段來收集您自己的第一方對象資料。 您稍後可以在區段中以廣告重新鎖定使用者，或避免區段中的使用者接收廣告。 您可以建立下列型別的區段：
 
-   * [自訂區段](/help/dsp/audiences/custom-segment-create.md) 追蹤a)接觸到來自桌上型電腦和行動裝置廣告的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
+   * [自訂區段](/help/dsp/audiences/custom-segment-create.md)以追蹤a)從案頭和行動裝置向廣告公開的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
 
-   * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 若要根據加州消費者隱私法(CCPA)追蹤網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
+   * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，以根據加州消費者隱私法(CCPA)，追蹤您網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
 
-     如需有關CCPA選擇退出銷售請求的Adobe Advertising支援的詳細資訊，請參閱 [加州消費者隱私法的Adobe Advertising支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     如需CCPA選擇退出銷售要求的Adobe Advertising支援詳細資訊，請參閱[加州消費者隱私法的Adobe Advertising支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
-* （Beta功能） [取得通用ID並用於無cookie目標定位](/help/dsp/audiences/universal-ids.md)：
+* (Beta功能) [取得並使用通用ID進行無cookies目標定位](/help/dsp/audiences/universal-ids.md)：
 
-   * 手動傳送您的已驗證 [!DNL LiveRamp] [!DNL RampID] 區段直接傳送至DSP。
+   * 手動將已驗證的[!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP。
 
    * 允許DSP從您的客戶資料平台匯入第一方區段，並將其轉譯為支援的通用ID型別。
 
    * 將包含通用ID的第三方區段加入您的位置目標，無需執行任何額外步驟。
 
-* 建立對象庫，對象為 [可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md). 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
+* 建立[個可重複使用對象](/help/dsp/audiences/reusable-audience-create.md)的對象庫。 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
 
   儲存的對象可讓媒體規劃人員視需要將對象分組，方法是使用複雜的布林邏輯包含和排除多個區段。 當您建立對象時，會指出每個個別區段的大小以及對象總人數。 Campaign執行者隨後只需選取一或多個儲存的對象作為位置目標，而非手動設定每個位置的對象目標。
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 您有許多選項可使用DSP使用者介面及/或透過自訂匯入服務，將第一方與第三方資料區段匯入DSP。
 
-* DSP可提取您的Adobe Audience Manager和其他 [!DNL Adobe] 目標定位的對象。 如需必要條件和指示，請參閱&quot;[匯入Adobe Audience Manager區段以鎖定廣告](/help/integrations/audience-manager/import-audiences.md).
+* DSP可提取您的Adobe Audience Manager和其他[!DNL Adobe]個對象以用於目標定位。 如需必要條件和指示，請參閱[匯入廣告目標定位的Adobe Audience Manager區段](/help/integrations/audience-manager/import-audiences.md)。
 
-* DSP可使用將支援的客戶資料平台的第一方資料區段，轉換為具有通用ID的區段 [來源功能](/help/dsp/audiences/sources/source-about.md). 您也可以 [手動傳送您已驗證的郵件 [!DNL LiveRamp] [!DNL RampID] 直接將區段傳送至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP可以使用[來源功能](/help/dsp/audiences/sources/source-about.md)，將第一方資料區段從支援的客戶資料平台轉譯為具有通用ID的區段。 您也可以[手動將已驗證的 [!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)。
 
 * DSP可以直接從您的資料管理平台(DMP)匯入您的其他第一方資料區段，並視需要將其提供給任何一組廣告商。
 
@@ -66,25 +66,25 @@ ht-degree: 0%
 
 * 所有匯入的第一方資料區段，包括轉換為通用ID的區段。
 
-  若要取得為通用ID傳送的曝光數，則需支付額外費用。 請參閱&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)」代表費率。
+  若要取得為通用ID傳送的曝光數，則需支付額外費用。 如需費率，請參閱&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;。
 
 * 所有匯入的自訂第三方資料區段。
 
-* （僅針對美國的位置） [30多家提供者的DSP客戶可使用的所有協力廠商資料區段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL eXelate]， ([!DNL Eyeota])，([!DNL LiveRamp])，[!DNL Lotame]， [!DNL Neustar]，以及更多功能。
+* （僅針對美國的位置） [所有協力廠商資料區段都可供30個以上提供者的DSP客戶使用](/help/dsp/audiences/third-party-data-providers.md)，包括[!DNL eXelate]、([!DNL Eyeota])、([!DNL LiveRamp])、[!DNL Lotame]、[!DNL Neustar]等等。
 
   您可以鎖定特定區段，根據對象資料鎖定使用者（例如，具有特定人口統計資料、興趣或意圖和/或行為設定檔的使用者）。 您可以依資料提供者和類別瀏覽、依名稱或區段ID搜尋區段，或依資料提供者、區段大小總計、網頁瀏覽器計數或裝置計數篩選結果。
 
   協力廠商區段會產生額外費用，這些費用會顯示在每個區段名稱旁。
 
-* (使用Adobe Experience Platform和的廣告商 [!DNL Real-Time CDP]、僅使用Adobe AdvertisingJavaScript轉換標籤的Adobe Audience Manager或Adobe Analytics)您在中建立的所有可用第一方、第二方或第三方受眾區段 [!DNL Real-Time CDP]，在Audience Manager中建立，或從Audience Manager發佈至Adobe Experience Cloud，或 [!DNL Analytics].
+* (僅使用Adobe Advertising JavaScript轉換標籤且具有Adobe Experience Platform和[!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics的廣告商)您在[!DNL Real-Time CDP]中建立、在Audience Manager中建立或從Audience Manager或[!DNL Analytics]發佈至Adobe Experience Cloud的所有可用第一方、第二方或第三方受眾區段。
 
   使用區段的定價是預先議定的，在DSP中不可見。
 
-  區段來源 [!DNL Analytics] 在建立或發佈為Experience Cloud對象後約一小時可使用。 直接來自Audience Manager或的區段 [!DNL Real-Time CDP] 共用後24小時內即可使用。
+  [!DNL Analytics]中的區段可在您建立或發佈為Experience Cloud對象後約一小時使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段可在您共用後24小時內使用。
 
   >[!NOTE]
   >
-  >請參閱以下檔案： [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)， [Analytics](https://experienceleague.adobe.com/docs/analytics.html)、和 [此 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 瞭解如何在這些解決方案中設定及收集區段的資料。
+  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[該 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
 
 ## 對象人數資料
 
@@ -110,15 +110,15 @@ ht-degree: 0%
 
 ### 所有對象檢視
 
-在 [!UICONTROL All Audiences] 檢視或對象庫，您可以儲存和管理可重複使用的對象，其中包括對象區段群組，甚至其他儲存的對象。 您可以使用受眾作為多個位置的目標。 版位名稱旁會顯示各對象所使用的版位數量。
+在「[!UICONTROL All Audiences]」檢視或「對象庫」中，您可以儲存和管理可重複使用的對象，其中包括對象區段群組，甚至是其他儲存的對象。 您可以使用受眾作為多個位置的目標。 版位名稱旁會顯示各對象所使用的版位數量。
 
 您可以編輯、複製、刪除、匯出或共用任何對象。
 
 ### 區段檢視
 
-在 [!UICONTROL Segments] 檢視，所有使用者都可以建立其他自訂區段。
+在[!UICONTROL Segments]檢視中，所有使用者都可以建立其他自訂區段。
 
-此 [!UICONTROL Segments] 「檢視」也會列出下列區段型別：
+[!UICONTROL Segments]檢視也列出下列區段型別：
 
 * 所有使用者建立的自訂區段皆可供使用者使用。
 
@@ -136,9 +136,9 @@ ht-degree: 0%
 
 ### 來源檢視
 
-在 [!UICONTROL Sources] 檢視，您可以在支援的客戶資料平台上設定第一方區段的來源，以將其轉換為包含指定通用ID型別的區段。 來源設定包括自動產生的來源金鑰，您會將其提供給客戶資料平台以建立連線。
+在[!UICONTROL Sources]檢視中，您可以在支援的客戶資料平台中設定第一方區段的來源，以將其轉換為包含指定通用ID型別的區段。 來源設定包括自動產生的來源金鑰，您會將其提供給客戶資料平台以建立連線。
 
-如需關於支援的客戶資料平台、支援的通用ID型別以及設定每個客戶資料平台連線的工作流程的詳細資訊，請參閱&quot;[關於來源](/help/dsp/audiences/sources/source-about.md).」
+如需關於支援的客戶資料平台、支援的通用ID型別，以及設定每個客戶資料平台連線的工作流程的詳細資訊，請參閱&quot;[關於來源](/help/dsp/audiences/sources/source-about.md)&quot;。
 
 翻譯後的區段可納入可重複使用的對象和無曲別目標定位的放置設定中。
 
@@ -146,10 +146,10 @@ ht-degree: 0%
 >
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [建立及實作自訂區段](custom-segment-create.md)
->* [建立及實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
+>* [建立和實施自訂區段](custom-segment-create.md)
+>* [建立並實作[!UICONTROL CCPA Opt-Out-of-Sale]區段](ccpa-opt-out-segment-create.md)
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
 >* [管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)
->* [手動匯入已驗證的區段，從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
+>* [從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段
+>* [可用的協力廠商資料提供者](third-party-data-providers.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

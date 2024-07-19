@@ -1,9 +1,9 @@
 ---
 title: 關於本指南
 description: 瞭解本指南各章包含的內容。
-exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 * 「見解和報表」說明如何產生廣告見解、產生詳細報表和自動化報表製作、建立與監視警報、檢視廣告商帳戶變更的記錄，以及檢視和套用廣告網路產生的帳戶建議。
 
-* 「工具」說明如何變更密碼、使用工具產生點選追蹤和轉換追蹤標籤，以及上傳您的轉換量度至 [!DNL Google Ads] 和您的產品組合目標至廣告網路，以進行混合最佳化、上傳量度以追蹤行銷活動，以及復寫您的 [!DNL Google Ads] 您的中的行銷活動 [!DNL Microsoft Advertising] 帳戶。
+* 「工具」說明如何變更您的密碼、使用工具產生點選追蹤和轉換追蹤標籤、將您的轉換量度上傳到[!DNL Google Ads]，並將您的產品組合目標上傳到廣告網路以進行混合最佳化、上傳量度以追蹤行銷活動，以及在[!DNL Microsoft Advertising]帳戶中復寫您的[!DNL Google Ads]行銷活動。
 
-* 「管理」說明如何管理廣告商資料，包括收集的轉換量度，以及從產品組合預測排除的任何日期；從同步您的轉換量度 [!DNL Google Analytics] 帳戶；設定各種廣告商層級的設定；以及（某些角色）管理使用者、機構和廣告商帳戶。
+* 「管理」說明如何管理廣告商資料，包括收集的轉換量度以及從產品組合預測排除的任何日期；從[!DNL Google Analytics]帳戶同步處理您的轉換量度；設定各種廣告商層級設定；以及（某些角色）管理使用者、機構和廣告商帳戶。
 
 >[!NOTE]
 >
->最佳化說明（包括使用投資組合進行投標）可從 [!UICONTROL Help] 功能表(![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表"))，位於「搜尋」、「社交」和「商務」中任何頁面的右上角。
+>最佳化說明（包括使用產品組合進行競標）可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。

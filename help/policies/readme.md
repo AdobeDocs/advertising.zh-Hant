@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Adobe廣告策略和指南文檔
+# Adobe Advertising原則和指引檔案
 
-這是有關跨Adobe廣告策略和指導原則的幫助文檔的資料夾。
+這是跨Adobe Advertising原則和方針說明檔案的資料夾。
 
-**注：此頁未發佈在面向客戶的文檔中。**
+**注意：此頁面未發佈在面對客戶的檔案中。**

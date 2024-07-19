@@ -22,13 +22,13 @@ ht-degree: 0%
 * 所有版位
 * 所有廣告
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]** 並開啟您要匯出的檢視。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**&#x200B;並開啟您要匯出的檢視。
 
-1. 在右上角工具列中，按一下  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. 在右上角工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
    檔案會儲存至瀏覽器的預設「下載」資料夾。
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management檢視中的效能報表型別](campaign-reports-about.md)
->* [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

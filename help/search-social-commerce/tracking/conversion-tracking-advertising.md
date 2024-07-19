@@ -18,13 +18,13 @@ Adobe Advertising會使用Adobe Advertising轉換追蹤標籤(插入在轉換事
 >
 >如果使用者沒有有效的Cookie，則Adobe Advertising不會報告轉換。
 
-您必須針對要追蹤的每組轉換量度，建立個別的轉換標籤。 提供標籤給廣告商或代理商，並附上要插入每個標籤的網頁清單。 您可以產生下列任一型別的轉換標籤。 請參閱&quot;[產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)」以取得指示。
+您必須針對要追蹤的每組轉換量度，建立個別的轉換標籤。 提供標籤給廣告商或代理商，並附上要插入每個標籤的網頁清單。 您可以產生下列任一型別的轉換標籤。 如需指示，請參閱&quot;[產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;。
 
 * （建議） JavaScript標籤（版本3或版本2），不會顯示在網頁中。
 
-* HTML影像標籤以在網頁上顯示1畫素x 1畫素透明影像（畫素），一般使用者無法看到這些影像。 只有在公司有禁止使用JavaScript標籤的原則時，才使用影像標籤。
+* HTML影像標籤以在網頁上顯示1畫素x 1畫素透明影像（畫素），一般使用者無法看到這些影像。 只有當公司有禁止使用JavaScript標籤的原則時，才使用影像標籤。
 
-如需關於標籤型別之間差異的詳細資訊，請參閱&quot;[Advertising Cloud轉換追蹤標籤相關常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).」
+如需關於標籤型別之間差異的詳細資訊，請參閱[關於Advertising Cloud轉換追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。
 
 >[!NOTE]
 >
@@ -55,8 +55,8 @@ Adobe Advertising會使用Adobe Advertising轉換追蹤標籤(插入在轉換事
 >
 >* [轉換追蹤選項](conversion-tracking-about.md)
 >* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript轉換追蹤標籤第3版的格式](format-conversion-tag-jsv3.md)
->* [JavaScript轉換追蹤標籤第2版的格式](format-conversion-tag-jsv2.md)
+>* [JavaScript轉換追蹤標籤格式3](format-conversion-tag-jsv3.md)
+>* [JavaScript轉換追蹤標籤2](format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](format-conversion-tag-image.md)
->* [關於轉換和頁面檢視追蹤標籤的常見問題集](faqs-conversion-page-view-tracking-tags.md)
+>* 有關轉換和頁面檢視追蹤標籤的[常見問題集](faqs-conversion-page-view-tracking-tags.md)
 >* [Adobe AdvertisingJavaScript轉換對應標籤](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

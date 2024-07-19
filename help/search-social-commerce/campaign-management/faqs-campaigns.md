@@ -23,7 +23,7 @@ ht-degree: 0%
 
 從搜尋引擎提取前一天點選資料的程式於廣告商時區的06:00開始。
 
-此外， [!DNL Google Ads] 搜尋網路上當天促銷活動層級的成效量度在廣告商時區的08:00和16:00提取。
+此外，搜尋網路上當天的[!DNL Google Ads]行銷活動層級績效量度在廣告商時區的08:00和16:00提取。
 +++
 
 +++哪些動作會造成關鍵字和廣告遺失歷史記錄？
@@ -32,21 +32,21 @@ ht-degree: 0%
 >
 >（擁有產品組合的廣告商）搜尋、Social和Commerce收集資料以建立模型時，期望新關鍵字和相符型別組合的效能不穩定。
 
-**中的動作 [!UICONTROL Search] > [!UICONTROL Campaigns] 檢視、在大量表單發佈程式中，以及在廣告網路自己的編輯器中：**
+**動作（在[!UICONTROL Search] > [!UICONTROL Campaigns]檢視中、在Bulksheet張貼程式中，以及在廣告網路自己的編輯器中）：**
 
 在下列情況下，現有關鍵字或廣告會遭到刪除，並會建立另一個關鍵字或廣告：
 
-* ([!DNL Baidu]， [!DNL Google Ads]、和 [!DNL Yandex])您可以編輯關鍵字名稱。
+* （[!DNL Baidu]、[!DNL Google Ads]和[!DNL Yandex]）您編輯關鍵字名稱。
 
-* ([!DNL Google Ads]， [!DNL Microsoft Advertising]、和 [!DNL Yandex])您可以變更關鍵字的相符型別。
+* （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]）您變更關鍵字的相符型別。
 
 * 您可以在廣告群組之間移動關鍵字。
 
-* ([!DNL Google Ads] 動態搜尋廣告， [!DNL Microsoft Advertising] 展開文字廣告，以及其他支援的廣告網路上的所有廣告型別)您可以編輯廣告文案（標題/標題或說明）或廣告影像。
+* （[!DNL Google Ads]個動態搜尋廣告、[!DNL Microsoft Advertising]個展開的文字廣告，以及其他支援的廣告網路上的所有廣告型別）您可以編輯廣告文案（標題/標題或說明）或廣告影像。
 
 * 您可以在廣告群組之間移動廣告。
 
-**產品存貨摘要過帳程式中的事件：**
+**產品詳細目錄摘要過帳程式中的事件：**
 
 在下列情況下，現有廣告或關鍵字會被刪除，並會建立另一個廣告或關鍵字：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * 新的摘要檔案包含的廣告或關鍵字列，其中a)在先前的檔案中，但b)在之後已省略，並根據摘要資料設定暫停或刪除。
 
-依據 [摘要資料設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)，則在下列情況下可能會刪除現有的廣告或關鍵字：
+根據[摘要資料設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)，在下列情況下可能會刪除現有的廣告或關鍵字：
 
 * 新的摘要檔案不包含現有廣告或關鍵字的列。
 
@@ -65,29 +65,29 @@ ht-degree: 0%
 * 專案的庫存量會降至摘要資料設定中指定的最低值以下。
 +++
 
-+++([!DNL Google Ads] campaigns)變更我的的 [!DNL Google]-tracked轉換已還原。
++++（[!DNL Google Ads]個行銷活動）我的[!DNL Google]追蹤轉換的顯示名稱變更已還原。
 
-如果您在「搜尋」、「社交」和「Commerce」中變更轉換量度的顯示名稱，您的變更會以中設定的名稱覆寫 [!DNL Google Ads]. 在內變更任何名稱 [!DNL Google Ads].
+如果您在「搜尋」、「社交」和「Commerce」中變更轉換量度的顯示名稱，您的變更會以[!DNL Google Ads]中設定的名稱覆寫。 在[!DNL Google Ads]中進行任何名稱變更。
 +++
 
 +++(Google Ads行銷活動)我可以在產品組合中使用行銷活動的共用預算嗎？
 
-為了獲得最佳結果，請勿新增 [!DNL Google Ads] 行銷活動至 [!DNL Google Ads] 共用預算（如果他們位在最佳化的產品組合） 」[!UICONTROL Auto adjust campaign budget limits].」 如果是， [!DNL Google Ads] 覆寫「搜尋」、「社交」和「Commerce」最佳化的行銷活動預算，這可能會導致競標效率低下。
+為了獲得最佳結果，如果[!DNL Google Ads]行銷活動位於設定為「[!UICONTROL Auto adjust campaign budget limits]」的最佳化產品組合，請勿將其新增至[!DNL Google Ads]共用預算。 若您這麼做，[!DNL Google Ads]會覆寫Search、Social和Commerce最佳化的行銷活動預算，這可能會造成競標效率低下。
 +++
 
-+++([!DNL Google Ads] 行銷活動)是否可將行動和非行動使用者傳送至不同的登陸頁面？
++++（[!DNL Google Ads]個行銷活動）我是否可以將行動和非行動使用者傳送至不同的登陸頁面？
 
-您可以使用 [!DNL Google Ads] [!DNL ValueTrack] 引數 `{ifmobile}` 和 `{ifnotmobile}` 若要使用適用於您網站的兩種方式之一，判斷登入頁面的網域名稱：
+您可以使用[!DNL Google Ads] [!DNL ValueTrack]引數`{ifmobile}`和`{ifnotmobile}`，以下列兩種方式之一來判斷登入頁面的網域名稱（如適用於您的網站）：
 
-* 使用以下專案將行動裝置指定為主機伺服器 `{ifmobile:m}{ifnotmobile:www}`.
+* 使用`{ifmobile:m}{ifnotmobile:www}`將行動裝置指定為主機伺服器。
 
-  例如， `http://{ifmobile:m}{ifnotmobile:www}.example.com` 將行動使用者帶至m.example.com，將非行動使用者帶至www.example.com。
+  例如，`http://{ifmobile:m}{ifnotmobile:www}.example.com`會將行動使用者帶至m.example.com，將非行動使用者帶至www.example.com。
 
-* 使用以下專案將行動裝置指定為最上層網域： `{ifmobile:mobi}{ifnotmobile:com}`.
+* 使用`{ifmobile:mobi}{ifnotmobile:com}`將行動裝置指定為最上層網域。
 
-  例如， `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 將行動使用者帶至www.example.mobi，將非行動使用者帶至www.example.com。
+  例如，`http://www.example.{ifmobile:mobi}{ifnotmobile:com}`會將行動使用者帶至www.example.mobi，將非行動使用者帶至www.example.com。
 
-在這兩種情況下，具有搜尋、社交和Commerce追蹤的基礎URL都會包含未編碼的 `{}` 標籤和附加至基底URL的任何其他引數。
+在這兩種情況下，具有搜尋、社交和Commerce追蹤的基礎URL都會包含未編碼的`{}`標籤以及附加至基礎URL的任何其他引數。
 
 >[!NOTE]
 >
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 +++
 
-+++([!DNL Google Ads] 搜尋網路上的行銷活動)今天會顯示哪些資料？
++++（[!DNL Google Ads]個搜尋網路行銷活動）今日顯示哪些資料？
 
-[!DNL Google Ads] 搜尋網路上當天促銷活動層級的成效量度在廣告商時區的08:00和16:00提取。
+在廣告商時區的08:00和16:00提取當天搜尋網路上的[!DNL Google Ads]行銷活動層級績效量度。
 
-在 [!UICONTROL Campaigns] 在此兩個標籤中加入 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 檢視和 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 檢視，當您報告時 [!UICONTROL Today] 或是包含當天的自訂日期範圍，資料會包含最近同步處理的資料。
+在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視和[!UICONTROL Optimization] > [!UICONTROL Portfolios]檢視的[!UICONTROL Campaigns]索引標籤中，當您在[!UICONTROL Today]或包含當天的自訂日期範圍上報告時，資料包含最近同步處理的資料。
 
 >[!NOTE]
 >
@@ -111,22 +111,22 @@ ht-degree: 0%
 
 登入頁面尾碼僅用於支援平行追蹤的廣告網路。 在「搜尋、Social和Commerce」中，追蹤範本和登陸頁面尾碼都應包含來自廣告網路的點選識別碼，但追蹤範本應包含其他追蹤引數。
 
-檢視下一個常見問題集，瞭解關於 [平行追蹤支援](#parallel-tracking) 以取得使用者按一下廣告時如何載入追蹤範本和登入頁面尾碼的詳細資訊。
+請參閱有關[平行追蹤支援](#parallel-tracking)的下一個常見問題集，以取得使用者按一下廣告時如何載入追蹤範本和登入頁面尾碼的詳細資訊。
 
 +++
 
-+++([!DNL Google Ads] 和 [!DNL Microsoft Advertising])搜尋、社交和Commerce是否支援對中的廣告進行平行追蹤 [!DNL Google Ads] 或 [!DNL Microsoft Advertising]？ {#parallel-tracking}
++++（[!DNL Google Ads]和[!DNL Microsoft Advertising]）搜尋、社交和Commerce是否支援[!DNL Google Ads]或[!DNL Microsoft Advertising]中廣告的平行追蹤？{#parallel-tracking}
 
 平行追蹤會直接將客戶從您的廣告傳送至最終URL，其中可能包含最終URL尾碼或「登陸頁面尾碼」的附加引數。 您的追蹤範本URL （以及點選測量的其他引數）會單獨在背景中載入，讓您的登入頁面載入更快。
 
-搜尋、社交和Commerce支援使用廣告網路的點選識別碼(`msclkid` 的 [!DNL Microsoft Advertising]； `gclid` 的 [!DNL Google Ads])。 使用 [帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 或 [行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (稱為&quot;[!DNL final URL suffix]&quot;在廣告網路中)，會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 請參閱 [必要的尾碼格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [必要的尾碼格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+搜尋、社交和Commerce支援使用廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`；[!DNL Google Ads]為`gclid`）來平行追蹤搜尋和購物行銷活動。 使用[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] （在廣告網路中稱為「[!DNL final URL suffix]」），其會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
-當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在中使用的相同點選識別碼引數 [!UICONTROL Landing Page Suffix]. 請參閱 [追蹤範本格式 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 和 [追蹤範本格式 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在[!UICONTROL Landing Page Suffix]中使用的相同點按識別碼引數。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[追蹤範本格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[追蹤範本格式。
 +++
 
-+++為什麼我的廣告的追蹤URL包含&quot;`&EV_HASH={<hash>}`？」
++++為什麼我的廣告的追蹤URL包含&quot;`&EV_HASH={<hash>}`&quot;？
 
-當您使用上傳廣告時 [產品詳細目錄摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 如果帳戶具有「搜尋」、「社交」和「Commerce」畫素重新導向，以及關鍵字和創意層級追蹤，則「搜尋」、「社交」和「Commerce」會將雜湊引數和值新增至廣告的追蹤範本或目的地URL，以識別其是使用詳細目錄摘要功能建立的。
+當您針對具有搜尋、社交和Commerce畫素重新導向，以及關鍵字和創意層級追蹤的帳戶，使用[產品詳細目錄摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)上傳廣告時，Search、Social和Commerce會將雜湊引數和值新增至廣告的追蹤範本或目的地URL，以識別其是使用詳細目錄摘要功能建立的。
 +++
 
 ## 詳細目錄摘要
@@ -147,24 +147,24 @@ ht-degree: 0%
 
 +++（產品詳細目錄摘要）我可以在不影響廣告品質分數的情況下更新產品價格嗎？
 
-的 [!DNL Google Ads] 行銷活動，是： [!DNL Google Ads] `{Param 1}` 和 `{Param 2}` 變數可讓您在廣告變數中動態插入數值，而不會刪除和重新建立廣告，因此不會影響品質分數。
+對於[!DNL Google Ads]行銷活動，是： [!DNL Google Ads] `{Param 1}`和`{Param 2}`變數可讓您在廣告變化中動態插入數值，而不刪除和重新建立廣告，因此不會影響品質分數。
 
-若要使用 `{Param 1}` 或 `{Param 2}` 變數，將資料檔案中的價格欄對應至適當摘要範本中的該變數，然後將變數納入您的廣告變數範本中。
+若要針對價格資料使用`{Param 1}`或`{Param 2}`變數，請將資料檔中的價格欄對應至適當摘要範本中的該變數，然後將變數納入您的廣告變數範本中。
 
-例如，如果欄名為「Price」，然後開啟建立廣告的摘要範本，按一下旁的輸入欄位 **[!UICONTROL Param 1]**，然後按一下 **[!UICONTROL Price]** 中的欄 [!UICONTROL Feeds/Available Columns] 清單，其中插入 `[Price]` 作為的值 [!UICONTROL Param 1]. 然後，在摘要範本底部的廣告變數範本中，插入 `{param1:default text}`，其中「預設文字」為當摘要檔案中的引數欄對於廣告列而言為空白時要使用的文字。
+例如，如果該欄名為「Price」，則開啟建立廣告的摘要範本，按一下&#x200B;**[!UICONTROL Param 1]**&#x200B;旁的輸入欄位，然後按一下[!UICONTROL Feeds/Available Columns]清單中的&#x200B;**[!UICONTROL Price]**&#x200B;欄，該欄會插入`[Price]`作為[!UICONTROL Param 1]的值。 然後，在摘要範本底部的廣告變化範本中，插入`{param1:default text}`，其中「預設文字」為文字，在摘要檔案中的引數欄為廣告列空白時使用。
 
-當您提交資料時，資料欄位中的 [!UICONTROL Param1] 和 [!UICONTROL Param2] 欄最多可包含25個字元，包括數值資料、貨幣符號和貨幣代碼，以及下列非數值字元： `, . % + - /`
+當您提交資料時，[!UICONTROL Param1]和[!UICONTROL Param2]欄的資料欄位最多可包含25個字元，包括數值資料、貨幣符號和貨幣代碼，以及下列非數值字元： `, . % + - /`
 +++
 
 +++從存貨摘要產生的行銷活動有許多孤立交易。
 
-如果 [摘要資料設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) 設定為刪除各種情況下的廣告，則點選廣告後發生的任何延遲轉換都可能導致 [孤立交易](/help/search-social-commerce/glossary.md#o-p). 最佳實務是暫停廣告而非刪除廣告。 如果廣告在很長一段時間後仍未收到任何收入，您可以透過大量表單或廣告管理檢視將其刪除。
+如果[摘要資料設定](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings)設定為刪除各種情況下的廣告，則點選廣告後發生的任何延遲轉換都可能導致[孤立交易](/help/search-social-commerce/glossary.md#o-p)。 最佳實務是暫停廣告而非刪除廣告。 如果廣告在很長一段時間後仍未收到任何收入，您可以透過大量表單或廣告管理檢視將其刪除。
 +++
 
 ## 帳戶和促銷活動相關的效能問題
 
 +++我的一些行銷活動所花費的金額或多或少於行銷活動預算。
 
-* 在最佳化的產品組合中，這是正常的，並設定了&quot;[!UICONTROL Auto-adjust campaign budget limits]」選項。 啟用此選項後，您最多可能會花費 *N* 乘以每個行銷活動的預算，其中 *N* 是&quot;[!UICONTROL Multiple]」設定。 此選項可讓最佳化功能視需要調整個別行銷活動的支出，同時引導整個產品組合達成其目標。
-* 如果 [!DNL Google Ads] 行銷活動使用共用預算，然後 [!DNL Google Ads] 會視需要調整個別行銷活動的支出，以花費整個共用預算。
+* 在設定了&quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;選項的最佳化產品組合中，這是正常的。 啟用此選項後，每個行銷活動的預算最多可花費&#x200B;*N*&#x200B;次，其中&#x200B;*N*&#x200B;為&quot;[!UICONTROL Multiple]&quot;設定的值。 此選項可讓最佳化功能視需要調整個別行銷活動的支出，同時引導整個產品組合達成其目標。
+* 如果[!DNL Google Ads]個行銷活動使用共用預算，則[!DNL Google Ads]會視需要調整個別行銷活動的支出，以花費整個共用預算。
 +++

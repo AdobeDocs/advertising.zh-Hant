@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## 暫停行銷活動
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 在行銷活動名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+1. 在行銷活動名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Pause]**」。
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 ## 啟動行銷活動
 
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-1. 在行銷活動名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+1. 在行銷活動名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Activate]**」。
 
 >[!MORELIKETHIS]
 >

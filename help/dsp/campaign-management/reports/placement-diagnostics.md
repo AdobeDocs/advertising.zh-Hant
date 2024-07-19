@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 位置診斷報表中的資訊
 
-* **[!UICONTROL Change Log]：** 顯示關鍵位置設定的變更，例如名稱、狀態和最高出價。 每個專案都包含變更者的日期和使用者名稱。
+* **[!UICONTROL Change Log]：**&#x200B;顯示金鑰位置設定的變更，例如名稱、狀態和最高出價。 每個專案都包含變更者的日期和使用者名稱。
 
-* **[!UICONTROL Ad Approvals]：** 顯示詳細目錄提供者是否核准或拒絕廣告。 您可以選擇變更任何廣告的狀態（例如，暫停已拒絕的廣告）或開啟廣告設定。
+* **[!UICONTROL Ad Approvals]：**&#x200B;顯示詳細目錄提供者是否核准或拒絕廣告。 您可以選擇變更任何廣告的狀態（例如，暫停已拒絕的廣告）或開啟廣告設定。
 
-* **[!UICONTROL Non Bids]：** 顯示DSP未對位置競標的原因。
+* **[!UICONTROL Non Bids]：**&#x200B;顯示DSP未對位置競標的原因。
 
 ## 開啟位置診斷報告
 
@@ -30,23 +30,23 @@ ht-degree: 0%
 
    1. 開啟位置設定：
 
-      1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-      1. 按一下行銷活動的名稱，然後按一下 **[!UICONTROL Placements]**.
+      1. 按一下行銷活動的名稱，然後按一下&#x200B;**[!UICONTROL Placements]**。
 
-      1. 在位置名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]**」。
 
-   1. 在右上角，按一下 ![放置診斷](/help/dsp/assets/placement-diagnostics.png).
+   1. 按一下右上角的![放置診斷](/help/dsp/assets/placement-diagnostics.png)。
 
 1. 執行下列任一項作業：
 
    * 若要檢視變更記錄：
 
-      1. 按一下 **[!UICONTROL Change Log]**.
+      1. 按一下&#x200B;**[!UICONTROL Change Log]**。
 
       1. （可選）篩選報表結果：
 
-         * 在日期功能表中，將報告期間從預設的「最近14天」變更為另一個期間(*[!UICONTROL Last 30 days]，* *[!UICONTROL Last 60 days]，* *[!UICONTROL Last 90 days]，* 或 *[!UICONTROL Last 1 year]*)。
+         * 在日期功能表中，將報告期間從預設的「最近14天」變更為另一個期間（*[!UICONTROL Last 30 days]、* *[!UICONTROL Last 60 days]、* *[!UICONTROL Last 90 days]、*&#x200B;或&#x200B;*[!UICONTROL Last 1 year]*）。
 
          * 在左側功能表中，依特定使用者名稱篩選報表。
 
@@ -54,15 +54,15 @@ ht-degree: 0%
 
    * 若要檢視廣告核准的狀態：
 
-      1. 在右上角，按一下 **[!UICONTROL Ad Approvals]**.
+      1. 按一下右上角的&#x200B;**[!UICONTROL Ad Approvals]**。
 
-      1. （選用）若要暫停或啟用廣告，請按一下狀態切換(![狀態切換](/help/dsp/assets/status-switch.png))。
+      1. （選擇性）若要暫停或啟用廣告，請按一下「廣告」欄中的狀態引數（![狀態引數](/help/dsp/assets/status-switch.png)）。
 
-      1. （選用）若要開啟廣告設定，請按一下 **[!UICONTROL View Ad]** 在廣告旁。
+      1. （選擇性）若要開啟廣告的設定，請按一下廣告旁的&#x200B;**[!UICONTROL View Ad]**。
 
    * 若要瞭解DSP為何沒有對位置競標：
 
-      1. 在右上角，按一下 **[!UICONTROL Non Bids]**.
+      1. 按一下右上角的&#x200B;**[!UICONTROL Non Bids]**。
 
       1. （可選）若要變更日期範圍，請按一下日期欄位，然後選取不同的日期或日期範圍。
 
@@ -70,6 +70,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management檢視中的效能報表型別](campaign-reports-about.md)
->* [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -1,16 +1,16 @@
 ---
-title: 的點選追蹤格式 [!DNL Baidu]
-description: 瞭解的點選追蹤格式 [!DNL Baidu] 帳戶。
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: ' [!DNL Baidu]的點選追蹤格式'
+description: 瞭解 [!DNL Baidu] 帳戶的點選追蹤格式。
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-# 上的贊助廣告的點選追蹤格式 [!DNL Baidu]
+# [!DNL Baidu]上贊助廣告的點選追蹤格式
 
 下列基本目的地URL格式適用於贊助廣告：
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>` 是Adobe Advertising中廣告商唯一ID的變數。
+>* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請替代 `cq?` 晚於 `<advertiser_ID>` 替換為 `c?`.
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
->* `<campaignID>` 是數值促銷活動ID的變數。
+>* `<campaignID>`是數值促銷活動ID的變數。
 >
->* `<the landing page>` 是變數，代表一般使用者要導向的網站URL。
+>* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 
 >[!MORELIKETHIS]
 >

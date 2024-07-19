@@ -18,30 +18,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳達給Adobe Advertising的資訊，請參閱 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
->* 若要追蹤出於與追蹤CCPA選擇退出銷售事件無關之目的而造訪網頁的使用者，以及接觸到來自案頭、行動和CTV裝置廣告的使用者，請建立 [自訂區段](/help/dsp/audiences/custom-segment-create.md).
+>* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳訊給Adobe Advertising的資訊，請參閱[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)。
+>* 若要追蹤出於與追蹤CCPA選擇退出銷售事件無關之目的而造訪網頁的使用者，以及接觸到來自案頭、行動和CTV裝置廣告的使用者，請建立[自訂區段](/help/dsp/audiences/custom-segment-create.md)。
 
 1. 建立區段：
 
-   1. 在主功能表中，按一下 **受眾>區段**.
+   1. 在主功能表中，按一下&#x200B;**對象>區段**。
 
-   1. 在資料表格上方，按一下 **[!UICONTROL Create]**.
+   1. 按一下資料表上方的&#x200B;**[!UICONTROL Create]**。
 
-   1. 輸入唯一值 **[!UICONTROL Segment Name]**.
+   1. 輸入唯一的&#x200B;**[!UICONTROL Segment Name]**。
 
-      建議的區段名稱： &quot;&lt;*您的廣告商名稱*> - CCPA選擇退出銷售」（例如「Acme - CCPA選擇退出銷售」）
+      建議的區段名稱： &quot;&lt;*您的廣告商名稱*> - CCPA選擇退出銷售&quot; （例如「Acme - CCPA選擇退出銷售」）
 
-   1. 對於 [!UICONTROL Segment Type]，選取 **[!UICONTROL CCPA Opt-out of sale]**.
+   1. 針對[!UICONTROL Segment Type]，選取&#x200B;**[!UICONTROL CCPA Opt-out of sale]**。
 
-   1. 按一下 **[!UICONTROL Save]**.
+   1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 複製並實作畫素標籤以追蹤區段：
 
-   1. 返回至 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. 返回&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Segments]**。
 
-   1. 在區段列中，將游標停留在新區段上並按一下 **[!UICONTROL Get pixel]**.
+   1. 在區段列中，將游標停留在新區段上，然後按一下&#x200B;**[!UICONTROL Get pixel]**。
 
-   1. 複製影像畫素(開頭為 `<img src="https://rtd-tm.everesttech.net"`)，以收集網頁中桌上型電腦和行動訪客的使用者ID。
+   1. 複製影像畫素（從`<img src="https://rtd-tm.everesttech.net"`開始）以收集網頁中案頭和行動訪客的使用者ID。
 
    1. 將標籤提供給廣告商或網站連絡人，以使用公司用來追蹤CCPA選擇退出銷售請求的機制進行部署（例如使用同意管理平台）。
 
@@ -56,12 +56,12 @@ ht-degree: 0%
       1. 消費者會看到廣告商與其合作的服務提供者清單。
       1. 消費者會勾選方塊，選擇退出將資料銷售給Adobe Advertising。
 
-         此動作會觸發畫素，並收集指定&#39;&#39;內的消費者Cookie ID[!UICONTROL CCPA Opt-out of sale]「區段。
+         此動作會觸發畫素，並收集指定&quot;[!UICONTROL CCPA Opt-out of sale]&quot;區段內的消費者Cookie ID。
 
 >[!MORELIKETHIS]
 >
 >* [加州消費者隱私法的Adobe Advertising支援：消費者選擇退出支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表](ccpa-opt-out-about.md)
->* [擷取消費者選擇退出銷售報表](ccpa-opt-out-segment-report-retrieve.md)
->* [建立及實作自訂區段](custom-segment-create.md)
+>* [關於[!UICONTROL CCPA Opt-out-of-Sale]區段和報表](ccpa-opt-out-about.md)
+>* [擷取消費者選擇退出銷售報告](ccpa-opt-out-segment-report-retrieve.md)
+>* [建立和實施自訂區段](custom-segment-create.md)
 >* [關於對象管理](audience-about.md)
