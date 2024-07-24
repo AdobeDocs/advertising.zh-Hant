@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising]行銷活動設定'
 description: 參考 [!DNL Microsoft Advertising] 行銷活動的設定。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Clicks]：* （搜尋和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，點按權重（不是產品組合目標）會驅動出價。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜尋和購物/智慧型購物網路、最高成效行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作為百分比。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
+* *[!UICONTROL Maximize Conversion Value]：* （搜尋和購物/智慧型購物網路、最高成效行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作為百分比。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化Target ROAS。
 
-* *[!UICONTROL Maximize Conversions]：* (搜尋網路或對象網路上的最高成效行銷活動和行銷活動（但對象視訊或連線電視除外）)廣告網路(而非Search、Social和Commerce)會最佳化競標，以最大化轉換次數。 選擇性地輸入&#x200B;**[!UICONTROL Target CPC]** （每次點按成本）。 針對對象行銷活動，您也可以輸入選用的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。
+* *[!UICONTROL Maximize Conversions]：* (搜尋網路或對象網路上的最高成效行銷活動和行銷活動（但對象視訊或連線電視除外）)廣告網路(而非Search、Social和Commerce)會最佳化競標，以最大化轉換次數。 選擇性地輸入&#x200B;**[!UICONTROL Target CPC]** （每次點按成本）。 針對對象行銷活動，您也可以輸入選用的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化Target CPA。
 
-* *[!UICONTROL Target CPA]：* （搜尋網路上的行銷活動）廣告網路(不是Search、Social和Commerce)會根據選擇性的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）來最佳化競標，這是您想要為贏取（轉換）支付的30天平均金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]）的混合產品組合（而非標準產品組合）中的行銷活動。
+* *[!UICONTROL Target CPA]：* （搜尋網路上的行銷活動）廣告網路(不是Search、Social和Commerce)會根據選擇性的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）來最佳化競標，這是您想要為贏取（轉換）支付的30天平均金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化Target CPA。
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
 * *[!UICONTROL Target Impression Share]：* （搜尋網路上的行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作為百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]** （每次點按成本）。 **注意：**&#x200B;混合專案組合不支援此選項。
 
-* *[!UICONTROL Target Return on Ad Spend]：* （搜尋和購物網路上的行銷活動）廣告網路(不是Search、Social和Commerce)會根據以百分比指定的您的&#x200B;**[!UICONTROL Target ROAS]** （廣告投資報酬率）來最佳化競標。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]）的混合產品組合（而非標準產品組合）中的行銷活動。
+* *[!UICONTROL Target Return on Ad Spend]：* （搜尋和購物網路上的行銷活動）廣告網路(不是Search、Social和Commerce)會根據以百分比指定的您的&#x200B;**[!UICONTROL Target ROAS]** （廣告投資報酬率）來最佳化競標。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化Target ROAS。
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
