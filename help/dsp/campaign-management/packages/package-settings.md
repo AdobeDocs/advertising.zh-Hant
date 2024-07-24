@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ ht-degree: 0%
 
 （具有套件層級步調的套件）套件的投放期間，包括套件整體[!UICONTROL Flight Dates]內的任何自訂投放期間。 您必須在[!UICONTROL Goals & Budget]區段中啟用[!UICONTROL Activate Custom Flighting]選項，才能設定自訂航班。
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]：** （僅在啟用[!UICONTROL Activate Custom Flighting]選項時可用）自動將上一個航班的任何剩餘預算新增到下一個航班的現有預算。
+
+在[!UICONTROL Packages]檢視和[!DNL Package Name] > [!UICONTROL Flights]檢視中，顯示目前航班目標的[!UICONTROL Interval Goal]欄位包含任何滑鼠指向效果預算。
+
 **[!DNL Flight N]：** （僅在啟用[!UICONTROL Activate Custom Flighting]選項時可用）針對每個航班，指定開始日期、結束日期以及目標支出目標。 若要新增其他航班，請按一下&#x200B;**[!UICONTROL Add Flight]**。
 
-對於現有的套件，您可以選擇在任何航班的[!UICONTROL Rollover]欄中輸入值，以將潛在的未花費預算新增到下一個航班。 [!UICONTROL Adjusted Goal (Goal + Rollover)]資料行中的投影值已相應變更。<!-- clarify usage -->
+對於未啟用&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;選項的現有套件，您可以選擇重新開啟設定，以在任何航班的&#x200B;**[!UICONTROL Rollover]**&#x200B;欄中輸入值，將潛在的未花費預算新增到下一個航班。
 
 >[!MORELIKETHIS]
 >
