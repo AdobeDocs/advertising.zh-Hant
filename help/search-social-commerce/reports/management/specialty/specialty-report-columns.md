@@ -3,9 +3,9 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | （[!UICONTROL MSA Ad Extension]個報告）廣告擴充功能的版本屬性。 |
 | [!UICONTROL Ad Extension Type] | （[!UICONTROL MSA Ad Extension]個報告）廣告副檔名的型別。 |
 | [!UICONTROL Ad Group] | 廣告群組。 |
-| [!UICONTROL Ad Group ID] | Search、Social和Commerce指派給廣告群組的數值ID。 |
+| [!UICONTROL Ad Group ID] | 可識別現有廣告群組的唯一ID。 |
 | [!UICONTROL Ad Group Name] | 廣告群組。 |
 | [!UICONTROL Ad Group Status] | 廣告群組狀態： *[!UICONTROL Active]*、*[!UICONTROL Paused]*&#x200B;或&#x200B;*[!UICONTROL Deleted]*。 |
 | [!UICONTROL Ad Title] | （[!UICONTROL MSA Ad Extension]個報告）廣告標題。 |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | 您收到的曝光數除以您符合資格收到的預估曝光數。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
 | [!UICONTROL Keyword] | 關鍵字。<br><br><b>注意：</b>如果報告在啟用內容的搜尋行銷活動中包含來自廣告群組的資料，則此欄會包含適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 對於搜尋促銷活動中的網站目標位置，此欄沒有值。 |
-| [!UICONTROL Keyword ID] | 搜尋、Social和Commerce指派給關鍵字的數值ID。 |
+| [!UICONTROL Keyword ID] | 可識別現有關鍵字的唯一ID。 |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告網路指派給廣告副檔名的數值ID。 |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告擴充功能的版本屬性。 |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report])廣告延伸型別。 |

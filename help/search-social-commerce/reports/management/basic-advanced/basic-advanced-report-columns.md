@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | 作用中行銷活動的數量。 |
 | [!UICONTROL Active Keywords] | 作用中的關鍵字數目。 |
 | [!UICONTROL Ad Group] | 廣告群組。 |
-| [!UICONTROL Ad Group ID] | Search、Social和Commerce指派給廣告群組的數值ID。 |
+| [!UICONTROL Ad Group ID] | 可識別現有廣告群組的唯一ID。 |
 | [!UICONTROL Ad Group Status] | 廣告群組狀態： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>或<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Ad Group Type] | 廣告群組型別，例如<i>[!UICONTROL Audience]</i> （僅適用於對象行銷活動）、<i>[!UICONTROL Discovery]</i> （僅適用於探索行銷活動）、<i>[!UICONTROL Display]</i> （僅適用於顯示行銷活動）、<i>[!UICONTROL Search Dynamic]</i> （僅適用於動態搜尋廣告）、<i>[!UICONTROL Search Standard]</i> （僅適用於回應式搜尋廣告和現有的擴充文字廣告）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （僅適用於標準購物行銷活動）或<i>[!UICONTROL Shopping Smart]</i> （適用於智慧購物行銷活動）。 對於某些行銷活動型別，單一行銷活動可包含多個廣告型別。 |
 | [!UICONTROL Ad Groups] | 指派標籤值的廣告群組數目。 |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | （影片廣告）人們觀看您廣告的次數。 |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> （當產品組合包含具有[!UICONTROL Maximize Clicks]競標策略的行銷活動時），否則<i>false</i>。 |
 | [!UICONTROL Keyword] | 關鍵字。<br><br><b>注意：</b>如果報告在啟用內容的搜尋行銷活動中包含來自廣告群組的資料，則此欄會包含適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 對於搜尋促銷活動中的網站目標位置，此欄沒有值。 |
-| [!UICONTROL Keyword ID] | 搜尋、Social和Commerce指派給關鍵字的數值ID。 |
+| [!UICONTROL Keyword ID] | 可識別現有關鍵字的唯一ID。 |
 | [!UICONTROL Keyword Status] | 搜尋字詞符合的關鍵字狀態： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Deleted]</i>或<i>[!UICONTROL Disapproved]</i>。 |
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類的值。 |
