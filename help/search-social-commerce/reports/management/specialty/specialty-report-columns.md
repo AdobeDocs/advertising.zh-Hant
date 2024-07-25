@@ -3,9 +3,9 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | （[!UICONTROL MSA Ad Extension]個報告）總收入除以支出，以百分比表示。 |
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension]個報告）每次轉換的收入。 |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report])資產。 |
-| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) Search、Social和Commerce指派給資產的數值ID。 |
+| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report])識別現有資產的唯一ID。 |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report])資產的[[!DNL Google Ads] 效能評等](https://support.google.com/google-ads/answer/9564897)。 |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report])資產狀態： *[!UICONTROL Enabled]*&#x200B;或&#x200B;*[!UICONTROL Enabled]* （已移除）。 |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])資產型別： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
