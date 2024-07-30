@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b47d5ef00067af455107da07af51b466faa415a1
+source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
 workflow-type: tm+mt
-source-wordcount: '3859'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年7月24日 | [!UICONTROL Planner] | 供需規劃工具現在可讓您透過以下方式預測刊登版位的觸及率：<ul><li>**目標或排除的郵遞區號**：您可以：<ul><li>貼上指定國家的逗號分隔值，然後按一下&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**</li><li>依國家和城市搜尋，按一下正確的郵遞區號，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li></ul></li><li>**目標或排除的網站和應用程式**：每行輸入一個URL，然後按一下&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。</li></ul> | 請參閱[規劃工具設定](/help/dsp/planner/planner-settings.md)。 |
+| 2024年7月30日 | [!UICONTROL Placements] | 從8月14日開始，DSP將停止重新整理[!DNL Audiences by Oracle (BlueKai)]區段的區段計數，這在9月底將會停用，並且所有計數將逐漸減少到零(0)。 | — |
 | | [!UICONTROL Packages] | 啟用[!UICONTROL Activate Custom Flighting]選項時，封裝設定現在包含&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;的選項。 啟用此選項後，先前航班的任何剩餘預算都會自動新增至下一個航班的現有預算。 選取自動變換選項時，您無法手動編輯[!UICONTROL Rollover]欄。<br><br>在[!UICONTROL Packages]檢視和[封裝名稱] > [!UICONTROL Flights]檢視中，「[!UICONTROL Interval Goal]」欄（顯示目前的航班目標）包含滑鼠指向效果預算。 | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年7月12日 | [!UICONTROL Campaigns]，[!UICONTROL Packages]，[!UICONTROL Placements] | 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中，部分量度已根據意見重新命名：<ul><li>在趨勢圖中，「必要支出」已重新命名為「支出基準」，「目標支出」已重新命名為「支出目標」。</li><li>在資料表中：<ul><li>「昨天的必要支出」和「今天的必要支出」已重新命名為「昨天的支出基準」和「今天的支出基準」。</li><li>工具提示「昨天的步調%和「今天的步調%」已變更為「昨天的總支出佔昨日支出基準的百分比」和「今天的總支出佔昨日支出基準的百分比」。</li><li>「昨天的目標支出」和「今天的目標支出」已重新命名為「昨天的支出目標」和「今天的支出目標」。</li></ul></li><ul> | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;。 |
 |  |  | [!DNL Oracle]將於2024年9月30日淘汰其廣告業務。 這將停用[!DNL BlueKai]、[!DNL Oracle Data Cloud] （先前為[!DNL Grapeshot]）和[!DNL MOAT]的所有服務。 下列為可用的替代方案：<ul><li>標準協力廠商和自訂區段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的協力廠商資料合作夥伴</li><li>預測性協力廠商區段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]的行銷活動層級品牌安全性和可檢視度測量</li><li>使用[!DNL DoubleVerify]和[!DNL Integral Ad Science]的位置層級競標前可見性</li><li>由[!DNL Proximic by Comscore]定位的位置層級主題</li></ul>協力廠商區段的CPM定價可在[!UICONTROL Audience Library]中取得，而服務的CPM定價可在[!UICONTROL Settings] > [!UICONTROL Fees]取得。 | 請參閱「[可用的協力廠商資料提供者](/help/dsp/audiences/third-party-data-providers.md)」、「[品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)」、「[行銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)」和「[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)」。 |
