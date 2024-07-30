@@ -3,7 +3,7 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # 管理廣告網路帳戶
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 以下為建立和編輯廣告網路帳戶詳細資料、重新整理帳戶的[!DNL oAuth]權杖以及停用帳戶的指示。
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -243,7 +249,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid格式** - (現有[!DNL Google Ads]帳戶是具有Adobe Advertising-Adobe Analytics整合且尚未移轉AMO ID (s_kwcid)的廣告商)
+* **S_kwcid格式：** (現有[!DNL Google Ads]帳戶是具有Adobe Advertising-Adobe Analytics整合且尚未移轉AMO ID (s_kwcid)的廣告商)
 
 此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
 
@@ -253,9 +259,9 @@ ht-degree: 0%
 
 如需完整指示，請參閱[更新 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)的AMO ID追蹤代碼。
 
-**報表套裝名稱** - (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
+**報表套裝名稱：** (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
-若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)必須啟用&quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;的廣告商層級設定。 此外，廣告商的Analytics帳戶必須設定為可從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶經理。
+若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)必須啟用&quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;的廣告商層級設定。 此外，廣告商的Analytics帳戶必須設定為可從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
 >[!MORELIKETHIS]
 >

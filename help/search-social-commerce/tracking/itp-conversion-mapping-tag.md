@@ -3,7 +3,7 @@ title: Adobe Advertising轉換對應標籤
 description: 瞭解適用於ITP 2.2的JavaScript型轉換對應標籤，其可讓Adobe Advertising追蹤發生於非登陸頁面上的轉換事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Adobe AdvertisingJavaScript型轉換對應標籤與Adobe AdvertisingJavaScript v
 
       * 您會將`{AMO User ID}`取代為您的搜尋、社交和Commerce帳戶的不重複使用者識別碼。
 
-如果您不知道組織ID或搜尋、Social和Commerce使用者ID的值，請洽詢您的Adobe客戶經理。
+如果您不知道組織ID或搜尋、Social和Commerce使用者ID的值，請洽詢您的Adobe帳戶團隊。
 
 ### 範例
 
