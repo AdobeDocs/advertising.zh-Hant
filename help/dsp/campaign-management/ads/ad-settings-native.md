@@ -3,9 +3,9 @@ title: 原生顯示廣告設定
 description: 請參閱原生顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 下列設定會套用至您建立或編輯的每個畫素。
 
-**[!UICONTROL Integration Event]：**&#x200B;觸發畫素引發的事件。 對於此廣告型別，唯一的選項是&#x200B;*[!UICONTROL Impression]*。
+**[!UICONTROL Integration Event]：**&#x200B;觸發畫素引發的事件。
 
 **[!UICONTROL Pixel Type]：**&#x200B;畫素是&#x200B;*[!UICONTROL IMG URL]* （1x1畫素影像檔）、*[!UICONTROL HTML]*&#x200B;或&#x200B;*[!UICONTROL JavaScript URL]*。
 
