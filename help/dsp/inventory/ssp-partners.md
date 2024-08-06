@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下左窗格頂端的![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格")或右窗格頂端的![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格")，以暫時隱藏目錄或右窗格。
+>下表為寬表格。 若要擴大檢視區域，您可以按一下左窗格頂端的![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格")和右窗格頂端的![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格")，暫時隱藏目錄和右窗格。 您也可以使用表格底部的卷軸來檢視完整內容。
 
 | SSP已列出 | 公司 | 座位 ID | 程式化保證支援 | 地區 | 支援的貨幣 | 視訊案頭 | 視訊行動裝置 | Video CTV | 顯示案頭 | 顯示行動裝置 | 原生顯示 | 音訊桌上型電腦與行動裝置 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

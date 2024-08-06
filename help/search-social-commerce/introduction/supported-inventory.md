@@ -3,9 +3,9 @@ title: 支援的詳細目錄
 description: 參考支援的廣告網路、行銷活動型別和廣告型別。
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下左窗格頂端的![隱藏左窗格](/help/search-social-commerce/assets/hide-left-pane.png "隱藏左窗格")或右窗格頂端的![隱藏右側窗格](/help/search-social-commerce/assets/hide-right-pane.png "隱藏右側窗格")，以暫時隱藏目錄或右窗格。
+>下表為寬表格。 若要擴大檢視區域，您可以按一下左窗格頂端的![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格")和右窗格頂端的![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格")，暫時隱藏目錄和右窗格。 您也可以使用表格底部的卷軸來檢視完整內容。
 
 | Source | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化 | 報告[^2] | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|

@@ -3,9 +3,9 @@ title: ' [!DNL Baidu] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Baidu] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->下表為寬表格。 如有必要，請使用表格底部的卷軸來檢視完整內容。 您也可以選擇按一下左窗格頂端的![隱藏左窗格](/help/search-social-commerce/assets/hide-left-pane.png "隱藏左窗格")或右窗格頂端的![隱藏右側窗格](/help/search-social-commerce/assets/hide-right-pane.png "隱藏右側窗格")，以暫時隱藏目錄或右窗格。
+>下表為寬表格。 若要擴大檢視區域，您可以按一下左窗格頂端的![隱藏左窗格](/help/dsp/assets/hide-left-pane.png "隱藏左窗格")和右窗格頂端的![隱藏右側窗格](/help/dsp/assets/hide-right-pane.png "隱藏右側窗格")，暫時隱藏目錄和右窗格。 您也可以使用表格底部的卷軸來檢視完整內容。
 
 | 欄位 | Campaign | 廣告群組 | 關鍵字 | 文字廣告 | 位置目標 | 說明 |
 |----|----|----|----|----|----|----|
