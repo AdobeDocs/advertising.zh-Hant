@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
    * *[!UICONTROL RampID]*：目標[!DNL LiveRamp] [!DNL RampIDs]使用電子郵件地址登入您網站的使用者。<!-- Verify --> [!DNL RampIDs]適用於北美、澳洲和紐西蘭的使用者。
 
-   * *[!UICONTROL Unified ID2.0]*：使用使用者電子郵件地址登入您網站之使用者的目標[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不適用於歐洲經濟區和其他國家/地區的使用者。 檢視禁止的國家[清單](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
+   * *[!UICONTROL Unified ID2.0]*：目標為使用電子郵件地址登入您網站之使用者的[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不適用於歐洲經濟區和其他國家/地區的使用者。 檢視禁止的國家[清單](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
   **[!UICONTROL Terms of service]**：使用通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新的ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將取得您的同意，並代表貴組織接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
@@ -365,7 +365,7 @@ ht-degree: 0%
 >
 >* 在[!DNL Proximic by Comscore]或[!DNL Oracle Data Cloud] （先前為[!DNL Grapeshot]）的區段內設定任何負面目標定位。
 
-**[!UICONTROL Device Targeting]：** （選擇性）特定裝置資訊，包括裝置型別、製造商、作業系統、瀏覽器和連線型別，以包含和排除作為目標。 若要指定裝置目標定位：
+**[!UICONTROL Device Targeting]：** （選擇性）特定裝置資訊，包括裝置型別、製造商、作業系統、瀏覽器和連線型別，以包含和排除作為目標。 型別依位置型別而異。 若要指定裝置目標定位：
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定要包含和排除的裝置詳細資料：
