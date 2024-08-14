@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年8月14日 | [!UICONTROL Placements] | DSP不再重新整理[!DNL Audiences by Oracle (BlueKai)]個區段的區段計數，這些計數將在9月底失效，並且所有計數將逐漸減少到零(0)。 | — |
 | 2024年7月30日 | [!UICONTROL Placements] | 從8月14日開始，DSP將停止重新整理[!DNL Audiences by Oracle (BlueKai)]區段的區段計數，這在9月底將會停用，並且所有計數將逐漸減少到零(0)。 | — |
 | | [!UICONTROL Packages] | 啟用[!UICONTROL Activate Custom Flighting]選項時，封裝設定現在包含&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;的選項。 啟用此選項後，先前航班的任何剩餘預算都會自動新增至下一個航班的現有預算。 選取自動變換選項時，您無法手動編輯[!UICONTROL Rollover]欄。<br><br>在[!UICONTROL Packages]檢視和[封裝名稱] > [!UICONTROL Flights]檢視中，「[!UICONTROL Interval Goal]」欄（顯示目前的航班目標）包含滑鼠指向效果預算。 | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年7月12日 | [!UICONTROL Campaigns]，[!UICONTROL Packages]，[!UICONTROL Placements] | 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中，部分量度已根據意見重新命名：<ul><li>在趨勢圖中，「必要支出」已重新命名為「支出基準」，「目標支出」已重新命名為「支出目標」。</li><li>在資料表中：<ul><li>「昨天的必要支出」和「今天的必要支出」已重新命名為「昨天的支出基準」和「今天的支出基準」。</li><li>工具提示「昨天的步調%和「今天的步調%」已變更為「昨天的總支出佔昨日支出基準的百分比」和「今天的總支出佔昨日支出基準的百分比」。</li><li>「昨天的目標支出」和「今天的目標支出」已重新命名為「昨天的支出目標」和「今天的支出目標」。</li></ul></li><ul> | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;。 |
