@@ -3,9 +3,9 @@ title: 實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊
 description: 實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * Adobe Analytics中的[!DNL Analytics for Advertising]轉換追蹤使用可設定的追蹤回顧期間（預設為60天）。 Adobe Advertising報表會反映在此追蹤回顧期間結束時的網站轉換和參與。
 
-* 支援所有廣告型別。 不過，並非所有廣告環境都受支援。
+* 支援所有廣告型別。<!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * 目前已追蹤[!DNL Analytics]次轉換，且僅將其歸因給相同裝置上的訪客。
 
