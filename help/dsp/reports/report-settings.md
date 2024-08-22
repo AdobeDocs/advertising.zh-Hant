@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 自訂報表設定
 
-**[!UICONTROL Name]**&#x200B;報告名稱。 長度上限為180個字元。
+**[!UICONTROL Name]：**&#x200B;報告名稱。 長度上限為180個字元。
 
-**[!UICONTROL Report Type]**&#x200B;報告的型別： *[!UICONTROL Custom]* （包括最可用的選項）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*&#x200B;或&#x200B;*[!UICONTROL Household Conversions]*。
+**[!UICONTROL Report Type]：**&#x200B;報告的型別： *[!UICONTROL Custom]* （包含最可用的選項）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*&#x200B;或&#x200B;*[!UICONTROL Household Conversions]*。
 
-## [!UICONTROL Report range]節
+## [!UICONTROL Report Range]節
 
 此區段會決定報表中包含的資料。 若要設定報告排程的日期，請參閱&quot;[!UICONTROL Report run schedule]&quot;區段。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Custom Range]：**&#x200B;包含特定開始和結束日期之間的資料。 若要報告前一天的資料，請選取&#x200B;**[!UICONTROL Present]**。
 
-## [!UICONTROL Report run schedule]節
+## [!UICONTROL Report Run schedule]節
 
 此區段決定執行報告的日期。 若要設定包含報表資料的日期，請參閱&quot;[!UICONTROL Report range]&quot;區段。
 
