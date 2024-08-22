@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
+source-git-commit: 14e3499c78bc45f86bbd61e6b081af8c26ecbea3
 workflow-type: tm+mt
-source-wordcount: '3906'
+source-wordcount: '4089'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年8月22日 | [!UICONTROL Custom Reports] | 已發行下列自訂報表功能和增強功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]檢視已重新設計：<ul><li>欄現在包含「[!UICONTROL Status]」、「[!UICONTROL Report Run]」（顯示從2024年8月22日開始觸發報告的日期）、「[!UICONTROL Recurrence]」、「[!UICONTROL Created By]」和「[!UICONTROL Download Report]」（使用「[!UICONTROL Download]」按鈕，以便您可以立即下載過去四個月的任何報告執行個體）。</li><li>您可以依狀態（報表是週期性還是單次）、報表型別、目的地型別和報表建立者來篩選清單。 依預設，會列出使用者建立的所有未封存報表，最新的位於頂端。</li><li>按一下報表名稱旁的&#x200B;**[!UICONTROL …]**，即可使用每個報表的快速動作按鈕（例如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>報表排程選項現在可用於報表層級，而不是個別目的地層級。 在報表設定中，排程設定現在可在&quot;[!UICONTROL Report run schedule]&quot;區段的頂端附近使用。 如果您編輯的舊報表中有個別目的地的不同現有排程，系統會提示您設定排程，並通知您排程會取代所有現有目的地的現有排程。</li></ul> | 請參閱&quot;[關於報告](/help/dsp/reports/report-about.md)&quot;和&quot;[報告設定](/help/dsp/reports/report-settings.md)&quot;。 |
 | 2024年8月22日 | [!UICONTROL Packages] | 您現在可以下載XLSX （[!DNL Microsoft Excel]試算表）格式的一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。 然後，您可以對兩個標籤中的大部分欄位進行變更，並一次將變更上傳回DSP。 | 請參閱[使用試算表檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)。 |
 | 2024年8月14日 | [!UICONTROL Placements] | DSP不再重新整理[!DNL Audiences by Oracle (BlueKai)]個區段的區段計數，這些計數將在9月底失效，並且所有計數將逐漸減少到零(0)。 | — |
 | 2024年7月30日 | [!UICONTROL Placements] | 從8月14日開始，DSP將停止重新整理[!DNL Audiences by Oracle (BlueKai)]區段的區段計數，這在9月底將會停用，並且所有計數將逐漸減少到零(0)。 | — |

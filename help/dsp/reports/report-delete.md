@@ -3,18 +3,20 @@ title: 刪除自訂報表
 description: 瞭解如何刪除自訂報告。
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
 # 刪除自訂報表
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]**。
-1. 在報表列的[!UICONTROL Options]欄中，按一下&#x200B;**[!UICONTROL options]** > **[!UICONTROL Delete]**。
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL OK]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**。
+
+1. 在報告名稱旁邊，按一下「**[!UICONTROL ...]** > **[!UICONTROL Delete]**」。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

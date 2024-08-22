@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 自訂報表可讓您使用行銷活動維度（例如廣告商、位置、網站或地標）和對您最重要的量度，自訂報表資料的內容和傳送。 您可以：
 
 * 在精細層次完整設定行銷活動績效報表。
+
 * 從預先設定的報表範本中選擇，並選擇性進一步自訂。
 
-您可以產生報表一次，或排程在指定時區的03:00每日、每週或每月產生報表。 報表產生後，會傳送給每個指定的電子郵件收件者或下列型別的已連結[報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)：
+您可以產生報表一次，或根據指定條件（例如每15天或每個月1日），排程在指定時區的03:00產生報表。 報告產生後，您可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]或以下列型別的已連結[報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)下載報告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* FTP SSL （測試版）
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ ht-degree: 0%
 
 您在[!UICONTROL Settings] > [!UICONTROL Account]的帳戶設定表示a)其他帳戶其資料可供您的帳戶使用，以及b)其他可存取您帳戶資料的帳戶。
 
+## [!UICONTROL Custom Reports]檢視
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports]列出您現有的報表，包括已產生的報表、已排程供未來產生的報表，以及失敗的報表。 「[!UICONTROL Report Run]」欄顯示從2024年8月22日開始觸發報告的日期。 依預設，會列出使用者建立的所有未封存報表，最新的位於頂端。 您可以進一步依狀態篩選清單，不論報表是週期性還是單次、報表型別、目的地型別和報表建立者。
+
+您可以建立新的自訂報告、編輯現有報告或複製它們以建立新報告、立即執行報告、下載過去四個月的任何報告例項和刪除報告。
+
+## 報表狀態 {#custom-report-status}
+
+* **[!UICONTROL Yet to start]：**&#x200B;報表從未執行。
+
+* **[!UICONTROL Report generating]：**&#x200B;目前正在建立報告。
+
+* **[!UICONTROL Ready to download]：** （僅限週期性報表）報表的一或多個執行個體可供下載，且已排程多個報表執行個體。
+
+* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體對報表拖曳執行失敗，請按一下[!UICONTROL Download]旁的![向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
+
+* **[!UICONTROL Completed]：**&#x200B;對於非週期性報表，報表已完成。 對於週期性報表，所有報表例項都會完成。 您可以下載過去四個月內完成的所有報表。
+
+* **[!UICONTROL Archived]：**&#x200B;報告已封存且無法執行。 當報表產生多次失敗時，就會設定此狀態。 目前，您無法從使用者介面設定此狀態。
+
 >[!MORELIKETHIS]
 >
 >* [建立自訂報告](/help/dsp/reports/report-create.md)
+>* [下載自訂報告](/help/dsp/reports/report-download.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
 >* [關於家庭報告的常見問題集](/help/dsp/reports/faq-household-report.md)
 >* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)

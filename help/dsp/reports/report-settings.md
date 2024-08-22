@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]**&#x200B;報告的型別： *[!UICONTROL Custom]* （包括最可用的選項）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*&#x200B;或&#x200B;*[!UICONTROL Household Conversions]*。
 
-## [!UICONTROL Apply Filters]節
+## [!UICONTROL Report range]節
+
+此區段會決定報表中包含的資料。 若要設定報告排程的日期，請參閱&quot;[!UICONTROL Report run schedule]&quot;區段。
 
 **[!UICONTROL Timezone]：**&#x200B;報告的時區。
 
 **[!UICONTROL Observe Daylight Savings Time]：**&#x200B;會考量報告時間中的日光節約時間。
 
-**\[日期範圍\]：**&#x200B;要產生資料的日期範圍。 可用天數因報表和所選維度而異。 選擇一項：
+**範圍：**&#x200B;要產生資料的日期範圍。 可用天數因報表和所選維度而異。 選擇一項：
 
-* **[!UICONTROL Previous N days]：**&#x200B;包含今天之前特定天數的資料。
-
-* **[!UICONTROL Custom]：**&#x200B;包含特定開始和結束日期之間的資料。 若要報告前一天的資料，請選取&#x200B;**[!UICONTROL Present]**。
+* **[!UICONTROL Last Calendar Week]：**&#x200B;包含前一個日曆週的資料。
 
 * **[!UICONTROL Last Calendar Month]：**&#x200B;包含前一個日曆月的資料。
+
+* **[!UICONTROL Custom Range]：**&#x200B;包含特定開始和結束日期之間的資料。 若要報告前一天的資料，請選取&#x200B;**[!UICONTROL Present]**。
+
+## [!UICONTROL Report run schedule]節
+
+此區段決定執行報告的日期。 若要設定包含報表資料的日期，請參閱&quot;[!UICONTROL Report range]&quot;區段。
+
+**\[排程\]：**&#x200B;何時產生報表：
+
+* *[!UICONTROL Immediately]*：立即將報表新增至報表佇列。
+
+  >[!NOTE]
+  >
+  >您也可以[隨時從[!UICONTROL Reports]檢視](report-run-now.md)執行自訂報告。
+
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期執行報告，以在帳戶時區的09:00前完成。
+
+* *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
+
+   * **\[排程\]：**&#x200B;執行報告的頻率：
+
+      * *每日*，每N天執行一次報表。 例如，若要每兩週（14天）執行一次報表，請選取此選項並輸入&#x200B;**14**。
+
+      * *每週*，在一週中的指定日期執行報告。 例如，若要每週一和週五執行報表，請選取此選項，然後選取&#x200B;**週一**&#x200B;和&#x200B;**週五**&#x200B;旁的核取方塊。
+
+      * *每月*，針對該月特定數值日（從1到30）執行報表。 例如，在每個月的第一天執行報告，選取此選項並輸入&#x200B;**1**。
+
+   * **從**：報表可以執行的第一個日期。 根據指定的排程，第一個報表例項可能會發生在此日期之後。
+
+   * **直到**：報告到期日，最多可隔四個行事曆月。 在報告到期之前，所有指定的電子郵件目的地都會在到期日七天零一天前收到電子郵件警示。 若要保留更長的報表，請變更此日期。
+
+## [!UICONTROL Apply Filters]節
 
 **[!UICONTROL Add Filters]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
 
@@ -120,17 +152,23 @@ ht-degree: 0%
 
 ## [!UICONTROL Add Report Destinations]節
 
-**[!UICONTROL Destination Type]：**&#x200B;選擇下列其中一個目的地型別：
-
-* *[!UICONTROL S3]：*&#x200B;若要將已完成的報告傳送至一或多個[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中指定該位置。
-* *[!UICONTROL sFTP]：*&#x200B;若要將完成的報表傳送至一或多個SFTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中指定這些位置。
-* *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中指定這些位置。
-* *[!UICONTROL FTP SSL](目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中指定。
-* *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
+**[!UICONTROL Destination Type]：**&#x200B;傳送已完成報告和錯誤通知的位置。 儲存報表後，就無法變更目的地型別。
 
 >[!NOTE]
 >
-> 儲存報表後，就無法變更目的地型別。
+>您一律可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]檢視下載完成的報告。
+
+* *[!UICONTROL None]：*&#x200B;不傳遞任何報告或通知。
+
+* *[!UICONTROL S3]：*&#x200B;若要將已完成的報告傳送至一或多個[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+
+* *[!UICONTROL sFTP]：*&#x200B;若要將完成的報表傳送至一或多個SFTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+
+* *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+
+* *[!UICONTROL FTP SSL](目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+
+* *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
 **[!UICONTROL Email]：** （僅限電子郵件目的地型別）針對每個地址，輸入地址並按一下&#x200B;**+**。
 
@@ -148,26 +186,13 @@ ht-degree: 0%
 
       新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
 
-**[!UICONTROL Frequency]：** （針對每個[!UICONTROL Destination Name]）將報告傳送到目的地的頻率： *[!UICONTROL Once]*、*[!UICONTROL Daily]*、*[!UICONTROL Weekly]*&#x200B;或&#x200B;*[!UICONTROL Monthly]*。
-
-**[!UICONTROL Start Day]：** （針對每個[!UICONTROL Destination Name]，包含[!UICONTROL Frequency]的&#x200B;*[!UICONTROL Weekly]*&#x200B;或&#x200B;*[!UICONTROL Monthly]*）產生報告的日期。 若是每週報告，請選取一週中的某天。 對於月報表，請選取月份的數值日。
-
-## [!UICONTROL Save Report]節
-
-**[!UICONTROL When to Generate]：**&#x200B;何時產生報告： *[!UICONTROL On Schedule]*&#x200B;或&#x200B;*[!UICONTROL Run Now]*。 排程報表在帳戶時區的09:00傳送。
-
-**[!UICONTROL End Date]：**&#x200B;報告到期日，最多可能為四個月後。 在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件警報。 若要保留更長的報表，請變更報表設定中的到期日。
-
->[!NOTE]
->
->您可以隨時[從[!UICONTROL Reports]檢視](report-run-now.md)執行自訂報告。
-
 >[!MORELIKETHIS]
 >
 >* [關於自訂報告](/help/dsp/reports/report-about.md)
 >* [建立自訂報告](/help/dsp/reports/report-create.md)
 >* [複製自訂報告](/help/dsp/reports/report-copy.md)
 >* [編輯自訂報告](/help/dsp/reports/report-edit.md)
+>* [下載自訂報告](/help/dsp/reports/report-download.md)
 >* [執行自訂報告](/help/dsp/reports/report-run-now.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
 >* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
