@@ -3,16 +3,16 @@ title: 使用試算表檢閱和編輯位置設定
 description: 瞭解如何使用試算表檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 使用試算表檢閱和編輯位置設定
 
-您可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
+您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
 
 * 行銷活動鎖定哪些對象。
 * 刊登版位開始傳送及停止的時間。
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-   檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/上傳試算表](#qa-sheet-columns)中的欄。
+   檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
 
 ## 一或多個位置的下載設定
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**。
 
-檔案會自動儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/上傳試算表](#qa-sheet-columns)中的欄。
+檔案會自動儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
 
 ## 上傳行銷活動中所有位置的設定
 

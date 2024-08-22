@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + 封裝{#packages}
       + [關於封裝管理](/help/dsp/campaign-management/packages/package-about.md)
       + [建立封裝](/help/dsp/campaign-management/packages/package-create.md)
+      + [使用試算表檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)
       + [編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)
       + [複製套裝](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [將位置附加至封裝](/help/dsp/campaign-management/packages/package-attach-placement.md)
