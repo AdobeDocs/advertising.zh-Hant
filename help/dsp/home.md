@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
+source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
 workflow-type: tm+mt
-source-wordcount: '3849'
+source-wordcount: '3906'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年8月22日 | [!UICONTROL Packages] | 您現在可以下載XLSX （[!DNL Microsoft Excel]試算表）格式的一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。 然後，您可以進行變更以選取兩個標籤中的欄位，並一次將它們上傳回DSP。 | 請參閱[使用試算表檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)。 |
 | 2024年8月14日 | [!UICONTROL Placements] | DSP不再重新整理[!DNL Audiences by Oracle (BlueKai)]個區段的區段計數，這些計數將在9月底失效，並且所有計數將逐漸減少到零(0)。 | — |
 | 2024年7月30日 | [!UICONTROL Placements] | 從8月14日開始，DSP將停止重新整理[!DNL Audiences by Oracle (BlueKai)]區段的區段計數，這在9月底將會停用，並且所有計數將逐漸減少到零(0)。 | — |
 | | [!UICONTROL Packages] | 啟用[!UICONTROL Activate Custom Flighting]選項時，封裝設定現在包含&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;的選項。 啟用此選項後，先前航班的任何剩餘預算都會自動新增至下一個航班的現有預算。 選取自動變換選項時，您無法手動編輯[!UICONTROL Rollover]欄。<br><br>在[!UICONTROL Packages]檢視和[封裝名稱] > [!UICONTROL Flights]檢視中，「[!UICONTROL Interval Goal]」欄（顯示目前的航班目標）包含滑鼠指向效果預算。 | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
