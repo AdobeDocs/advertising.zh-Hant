@@ -2,9 +2,9 @@
 title: 使用試算表檢閱和編輯封裝設定
 description: 瞭解如何使用試算表檢閱和編輯重要套件設定。
 feature: DSP Packages
-source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
+source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | 目標的目標值。 | 是 |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | （僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）包含用於計算CPA或ROAS量度的收入或轉換事件的[自訂目標](/help/dsp/optimization/custom-goal.md)。 | 是 |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | （選用；僅具有最佳化目標「[!UICONTROL Highest Return on Ad Spend]」和「[!UICONTROL Lowest Cost per Acquisition]」的套件）最終轉換事件或收入事件/銷售金額，用於計算廣告支出回報或每次收購成本。 | 是 |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | （僅限具有自訂最佳化目標的封裝）封裝的目的，有助於判斷如何最佳化封裝： *[!UICONTROL Prospecting]*、*[!UICONTROL Retargeting]*&#x200B;或&#x200B;*[!UICONTROL Other]*。 | — |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | （僅限具有自訂最佳化目標的封裝）封裝的目的，有助於判斷如何最佳化封裝： *[!UICONTROL Prospecting]*、*[!UICONTROL Retargeting]*&#x200B;或&#x200B;*[!UICONTROL Other]*。 | 是 |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | （僅限具有自訂最佳化目標的套件）另一個套件的套件ID，其歷史資料會用作最佳化套件的輸入。 | 是 |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | （僅限具有自訂最佳化目標的套件）其歷史資料會作為最佳化套件的輸入的其他套件。 | — |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | 套件是否朝著&#x200B;*[!UICONTROL budget]*&#x200B;或&#x200B;*[!UICONTROL primary_goal]*&#x200B;步調（針對曝光數）。 | — |
@@ -102,10 +102,10 @@ ht-degree: 0%
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | 套件的數值ID。 | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | 航班的數值ID。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | 航班的第一個日期。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | 航班的最後日期。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | 航班的目標支出目標。 | — |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | （未啟用&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;選項的現有套件）要新增至下一個航班的潛在未花費預算金額。 | — |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | 航班的第一個日期。 | 是 |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | 航班的最後日期。 | 是 |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | 航班的目標支出目標。 | 是 |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | （未啟用&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;選項的現有套件）要新增至下一個航班的潛在未花費預算金額。 | 是 |
 
 >[!MORELIKETHIS]
 >
