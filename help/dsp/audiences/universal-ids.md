@@ -3,7 +3,7 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -106,9 +106,9 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 ### 差異原因 {#universal-ids-data-variances-causes}
 
-* 雜湊電子郵件ID轉譯為ID5 ID：
+* 所有區段：
 
-  機率模型的誤差變異數為+/- 5%。 這表示可能會高估或低估對象人數5%。
+  區段對裝置計數使用錯誤變異為+/- 5%的概率模型。 這表示可能會高估或低估對象人數5%。
 
 * 已轉譯為[!DNL RampIDs]的雜湊電子郵件ID：
 
