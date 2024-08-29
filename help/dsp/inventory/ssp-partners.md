@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!DNL TripleLift] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 原生顯示 |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL Triton] |  | Adobe Advertising | PG支援 | 全域 | 美元 | 音訊桌上型電腦與行動裝置 |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 美國+ EMEA | 美元 | 視訊案頭、行動裝置和CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 美國+ EMEA | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 
 >[!MORELIKETHIS]
