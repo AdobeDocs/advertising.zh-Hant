@@ -3,9 +3,9 @@ title: 從Adobe Analytics [!DNL eVars] 和Prop建立轉換量度
 description: 使用 [!DNL eVar]和 [!DNL prop]層級資料設定自訂成功事件量度。
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 下列大部分工作必須由[!DNL Analytics]系統管理員或其他使用者執行。 如果您需要協助，請透過`adcloud_support@adobe.com`聯絡(DSP使用者) DSP技術支援團隊或(搜尋、社交和Commerce使用者)您的Adobe帳戶團隊。
 
-1. 在[!DNL Analytics]中，[建立預留位置成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en)。
+1. 在[!DNL Analytics]中，[建立預留位置成功事件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event)。
 
    使用下列其他引數：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 量度可用後，您就可以用它來建立目標，然後將其指派給搜尋、社交和Commerce產品組合，或用作DSP套件的[自訂目標](/help/dsp/optimization/custom-goal.md)。
 
-如需有關建立目標的詳細資訊，請參閱有關「目標」的「最佳化指南」章節，此章節可從「搜尋」、「社交」和「Commerce」中取得。
+請參閱有關「目標」的最佳化指南章節，此章節可在「搜尋」、「社交」和「Commerce」中取得
 
 >[!MORELIKETHIS]
 >
