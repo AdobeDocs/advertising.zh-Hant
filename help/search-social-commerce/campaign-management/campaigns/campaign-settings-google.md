@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ ht-degree: 0%
 >[!NOTE]
 >對象訊號與[行銷活動層級和廣告群組層級的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)不同。
 
-**[!UICONTROL Add new asset group]：**&#x200B;可讓您指定另一個資產群組。
+**[!UICONTROL Primary Status]：** （最高成效行銷活動中現有資產群組的唯讀欄位）為何資產群組會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+
+**[!UICONTROL Primary Status Reason]：** （最高成效行銷活動中現有資產群組的唯讀欄位）有關資產群組主要狀態的更多詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* ** {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。**
 
 ## [!UICONTROL Conversion Goals]
 

@@ -3,9 +3,9 @@ title: 用於報表的資料
 description: 瞭解資料檢視和自訂報告中可用的不同型別資料。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
+source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,16 @@ ht-degree: 0%
 根據您為報表指定的歸因規則，每種報表型別的資料可用於以下日期。
 
 | 報表群組 | 報告 | 資料可用的日期 |
-|---|---|---|
+| --- | --- | --- |
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021年5月15日開始。<br><br><b>例外狀況：</b>從2022年9月8日開始提供顯著量度資料。 |
 | | 所有其他[!UICONTROL Basic Reports] | 前36個月。<br><br><b>例外狀況：</b>從2022年9月8日開始提供顯著量度資料。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 前45天。 |
 | | [!UICONTROL Domain Referral Report]，[!UICONTROL Geo Distribution Report] | 前兩(2)個月加上本月。 |
 | [!UICONTROL Assist Reports] | 全部 | 前18個月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 上一年。 |
-| | [!UICONTROL RSA Assets Report] | 自2022年8月10日起。 |
+| | [!UICONTROL Google Asset Group Performance Report] | 無限制 |
 | | [!UICONTROL MSA Ad Extension by Ad Report]，[!UICONTROL MSA Ad Extension by Keyword Report]，[!UICONTROL MSA Ad Extension Detail Report]，[!UICONTROL MSA Network Impression Share Report]，[!UICONTROL MSA Network Performance Report] | 過去180天。 |
+| | [!UICONTROL RSA Assets Report] | 自2022年8月10日起。 |
 | | 所有其他[!UICONTROL Specialty Reports] | 前兩(2)個月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 前18個月。 |
 | [!UICONTROL Change History Report] | — | 前31天。 |

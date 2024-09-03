@@ -3,9 +3,9 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c681e3da172244cf08114f1ae7e9ecdfb1a5dd25
+source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | （[!UICONTROL MSA Ad Extension]個報告）百分比形式的轉換率。 |
 | [!UICONTROL All Conversions] | （[!UICONTROL MSA Ad Extension]個報告）轉換次數。 |
 | [!UICONTROL All Conversions Qualified] | （[!UICONTROL MSA Ad Extension]個報告）轉換次數。 |
-| [!UICONTROL All Cost Per Conversion] | （[!UICONTROL MSA Ad Extension]個報告）每次轉換的成本。 &lt;！ — 與其他欄位如何與一般量度（例如「每次轉換成本」）不同？ —> |
+| [!UICONTROL All Cost Per Conversion] | （[!UICONTROL MSA Ad Extension]個報告）每次轉換的成本。 |
 | [!UICONTROL All Return on Ad Spend] | （[!UICONTROL MSA Ad Extension]個報告）總收入除以支出，以百分比表示。 |
 | [!UICONTROL All Revenue Per Conversion] | （[!UICONTROL MSA Ad Extension]個報告）每次轉換的收入。 |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report])資產。 |
@@ -68,9 +68,11 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）您在顯示/對象網路上收到的廣告曝光數除以您符合資格可收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）由於您的每日或每月預算太低，您在顯示/對象網路上的廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （僅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由於廣告排名不佳，您在顯示/對象網路上的廣告未顯示的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report])您指定期間的每次點按成本(CPC)和每千次曝光成本(CPM)成本總和。 |
 | [!UICONTROL Conversion Rate] | 轉換次數除以點按總數。 |
 | [!UICONTROL Conversion Type] | 在廣告商網站上追蹤的使用者定義轉換型別。 |
-| [!UICONTROL Conversions] | （[!UICONTROL MSA Ad Extension]個報告）導致銷售或其他成功度量的點按。 |
+| [!UICONTROL Conversions] | （[!UICONTROL MSA Ad Extension]和[!UICONTROL Google Asset Group Performance]個報告）指定期間的轉換值。 對於[!UICONTROL MSA Ad Extension]，這是導致銷售或其他成功度量的點按次數。 |
+| [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report])廣告互動的轉換次數除以廣告互動次數。 此值只會考慮`include_in_conversions_metric`屬性設定為`true`的轉換動作。 |
 | [!UICONTROL Conversions Qualified] | （[!UICONTROL MSA Ad Extension]個報告）轉換次數。 |
 | [!UICONTROL Cost] | 指定日期範圍內的廣告總成本。 |
 | [!UICONTROL Cost Per Assist] | （[!UICONTROL MSA Ad Extension]份報告）每份協助的總成本。 |
@@ -95,6 +97,8 @@ ht-degree: 0%
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension]個報告）擴充功能的[顯示名稱](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]個報告）廣告延伸型別識別碼。 |
+| [!UICONTROL Final URLs] | ([!UICONTROL Google Asset Group Performance Report])所有跨網域重新導向後的最終URL清單。 如果促銷活動已啟用URL擴增，URL可能會擴增。 |
+| [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report])所有跨網域重新導向後，行動裝置的最終URL清單。 如果促銷活動已啟用URL擴增，URL可能會擴增。 |
 | [!UICONTROL Goal] | （[!UICONTROL MSA Ad ExtensionReport]個報告，[!UICONTROL MSA Network Performance Report]）轉換目標的名稱。 |
 | [!UICONTROL Goal Type] | （[!UICONTROL MSA Ad Extension]個報告，[!UICONTROL MSA Network Performance Report]）轉換目標的型別。 |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [該 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)所追蹤的線上轉換次數。 |
@@ -119,13 +123,19 @@ ht-degree: 0%
 | [!UICONTROL Network] | （[!UICONTROL MSA Ad Extension]個報告）廣告網路的市集。 |
 | [!UICONTROL Network Account ID] | 由網路指派的帳戶ID。 |
 | [!UICONTROL Network Ad Group ID] | 由網路指派的廣告群組ID。 |
+| [!UICONTROL Network Asset Group ID] | 由網路指派的資產群組ID。 |
+| [!UICONTROL Network Asset Group Name] | 資產群組名稱。 |
 | [!UICONTROL Network Campaign ID] | 網路指派的行銷活動ID。 |
 | [!UICONTROL Network Type] | 顯示廣告的網路：<ul><li>*[!UICONTROL google_search]*： [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*： [!DNL Google Display Network]</li></ul> |
+| [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report])可附加至廣告顯示URL的第一組文字。 |
+| [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report])可附加至廣告顯示URL的第二組文字；只有在指定Path1值時，才能使用此欄位。 |
 | [!UICONTROL Portfolio Group Name] | 投資組合所屬投資組合群組的名稱。 |
 | [!UICONTROL Portfolio ID] | 數值投資組合ID。 |
 | [!UICONTROL Portfolio Name] | 投資組合。 |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio報告)投資組合的支出策略： *[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*、*[!UICONTROL ROI]*、*[!UICONTROL Day of week]*、*[!UICONTROL Day of month]*、*[!UICONTROL CPT]*、*[!UICONTROL Marginal CPT]*、*[!UICONTROL Google Target CPA]*&#x200B;或&#x200B;*[!UICONTROL Google Target ROAS]*。 |
 | [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li>*[!UICONTROL Optimize]*：最佳化功能正在收集相關行銷活動的點按和收入資料、模型化資料以最佳化出價，以及最佳化出價和/或行銷活動預算（視最佳化型別和行銷活動競標策略而定）。</li><li>*[!UICONTROL Active]*：最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li>*[!UICONTROL Inactive]*：最佳化功能正在收集相關行銷活動的點選資料以用於報表用途，但是它不會建立資料模型，也不會最佳化競標或行銷活動預算。</li></ul> |
+| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report])資產群組為何會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report])資產群組主要狀態的其他詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* ** {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report])隨廣告一起顯示之產品的產品ID。 <b>注意：</b>只有當產品清單包含追蹤引數`ev_plx=<GMC product ID>`時，才會擷取識別碼，您必須在[!DNL Google Merchant Center]內新增該引數。 |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report])第一層到第五層產品型別（您為產品群組定義的屬性）。 |
 | [!UICONTROL Query Match Type] | （AdWords搜尋查詢報告）搜尋查詢的關鍵字相符型別。 |
@@ -136,7 +146,7 @@ ht-degree: 0%
 | [!UICONTROL Revenue per Conversion] | （[!UICONTROL MSA Ad Extension]個報告）每次轉換的總收入。 |
 | [!UICONTROL SE Account Name] | 廣告網路上的帳戶名稱。 |
 | [!UICONTROL SE Creative ID] | 由網路指派的廣告ID。 |
-| [!UICONTROL SE_TERM_ID] | （AdWords搜尋查詢報告）廣告網路所指派的搜尋字詞ID。<!--??? what is this? --> |
+| [!UICONTROL SE_TERM_ID] | （AdWords搜尋查詢報表）廣告網路所指派的搜尋字詞ID。 |
 | [!UICONTROL Search (Abs. Top) IS] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]；[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）您從絕對頂端位置收到的曝光數（有機搜尋結果上方的第一個廣告）除以您有資格從頂端位置收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;或&quot;`0.0999`&quot;。 |
 | [!UICONTROL Search (Top) IS] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]； [!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）您在上層位置收到的曝光數（在有機搜尋結果上方）除以您有資格在上層位置收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;或&quot;`0.0999`&quot;。 |
 | [!UICONTROL Search Engine] | 廣告網路。 |
@@ -156,6 +166,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]； [!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | （AdWords搜尋查詢報表和Bing Ads搜尋查詢報表）產生點按的使用者搜尋辭彙。 |
 | [!UICONTROL Start Date] | 報告的第一天。 |
+| [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report])資產群組狀態。 |
 | [!UICONTROL Store ID] | 適用於商家中心商店的廣告網路ID。 |
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report])連結至您網站的廣告的第一行。 |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report])連結至您網站的廣告第二行。 |

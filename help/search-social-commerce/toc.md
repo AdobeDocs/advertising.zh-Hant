@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -233,11 +233,12 @@ ht-degree: 2%
             + [從摘要產生的行銷活動資料張貼至廣告網路](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [停止庫存摘要資料的張貼工作](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [從摘要產生的資料狀態](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + 使用唯一工作流程實作行銷活動和廣告{#special-campaign-types}
-         + [實作 [!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
-         + [實作 [!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + 使用唯一工作流程實作行銷活動、廣告和轉換{#special-workflows}
+         + [對潛在客戶實作 [!DNL Google Ads] 增強型轉換](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [實作 [!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [實作 [!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [手動同步處理廣告網路資料](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [將行銷活動指派至投資組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [從投資組合中移除行銷活動](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -309,6 +310,7 @@ ht-degree: 2%
                + [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
                + [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
                + [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
                + [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
                + [[!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
@@ -383,7 +385,7 @@ ht-degree: 2%
       + [解碼點選追蹤URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 正在上傳轉換資料至廣告網路{#upload-ad-networks}
-      + [將轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [啟用上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + 正在上傳[!DNL Naver]只追蹤帳戶{#generic-tracking}的量度
       + [上傳 [!DNL Naver] 僅限追蹤帳戶的流量和轉換量度](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
@@ -408,7 +410,10 @@ ht-degree: 2%
       + [檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [變更管理檢視和報告中的可用轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [變更轉換量度的顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 管理轉換標籤{#conversion-tags}
+      + 管理廣告網路特定的轉換標籤和轉換動作{#network-conversions}
          + [建立 [!DNL Google Ads]的轉換標籤](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + 管理轉換動作{#conversion-actions}
+            + [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [上傳離線轉換資料以增強轉換](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [取得協助](get-help.md)
 + [字彙表](glossary.md)
