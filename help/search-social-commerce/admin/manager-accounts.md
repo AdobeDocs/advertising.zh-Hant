@@ -3,9 +3,9 @@ title: 管理廣告網路管理員帳戶的認證
 description: 瞭解如何為您的 [!DNL Google Ads] 管理員帳戶提供認證。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [啟用上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [將轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [編輯您的通知設定](/help/search-social-commerce/notifications/notification-edit.md)

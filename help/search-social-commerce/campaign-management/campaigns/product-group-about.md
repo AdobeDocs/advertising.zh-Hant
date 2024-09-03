@@ -3,7 +3,7 @@ title: 關於購物產品群組
 description: 瞭解購物行銷活動中的購物產品群組。
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 當同一個產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
-如需[!DNL Google]購物行銷活動和廣告的詳細資訊，請參閱[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)和[Google廣告檔案](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)。 如需[!DNL Microsoft]購物行銷活動的詳細資訊，請參閱[實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 檔案](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
+如需[!DNL Google]購物行銷活動和廣告的詳細資訊，請參閱[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)和[Google廣告檔案](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)。 如需[!DNL Microsoft]購物行銷活動的詳細資訊，請參閱[實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)和[[!DNL Microsoft Advertising] 檔案](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)。
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ ht-degree: 0%
 >
 >* [管理購物產品群組](product-group-manage.md)
 >* [[!DNL Google Ads] 產品群組設定](product-group-settings-google.md)
->* [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 產品群組設定](product-group-settings-microsoft.md)
->* [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

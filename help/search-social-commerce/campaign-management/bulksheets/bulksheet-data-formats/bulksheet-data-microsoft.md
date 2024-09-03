@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Microsoft Advertising] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 產品（購物）廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 

@@ -3,7 +3,7 @@ title: 實作廣告網路帳戶和行銷活動的概觀
 description: 瞭解設定、同步及管理廣告網路帳戶的相關工作。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
       * (百度、Google Ads、Microsoft Advertising、Yahoo！ Japan Ads （僅限Yandex帳戶）將個別元件的資料直接輸入介面。 對於大多數行銷活動和廣告型別，您可以在行銷活動層級、廣告群組層級，以及個別關鍵字、版位和廣告層級建立資料。
 
-      然而，有些行銷活動和廣告型別需要唯一的工作流程。 請參閱設定[[!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)、[[!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)和[[!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)的說明。
+      然而，有些行銷活動和廣告型別需要唯一的工作流程。 請參閱設定[[!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)和[[!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)的說明。
 
    1. （僅限[!DNL Naver]個追蹤帳戶）上傳含有資料的[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，以復寫Search、Social和Commerce中的現有行銷活動、廣告群組和關鍵字，而不需將其發佈至[!DNL Naver]。
 

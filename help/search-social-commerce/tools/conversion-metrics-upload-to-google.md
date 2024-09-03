@@ -1,18 +1,18 @@
 ---
-title: 將轉換量度上傳至 [!DNL Google Ads]
+title: 將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]
 description: 瞭解如何將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]。
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# 將轉換量度上傳至[!DNL Google Ads]
+# 將搜尋、社交和Commerce追蹤的轉換量度上傳至[!DNL Google Ads]
 
-*僅具有[!DNL Google Ads]帳戶的廣告商*
+*僅具有[!DNL Google Ads]帳戶和Adobe Advertising轉換追蹤的廣告商*
 
 搜尋、Social和Commerce可選擇上傳至[!DNL Google Ads]所有轉換量度，以供使用Adobe Advertising轉換追蹤服務的[!DNL Google Ads]個促銷活動追蹤。 此選項無法讓轉換可用於混合最佳化。 如果您想要將Adobe轉換用於混合最佳化，請參閱&quot;[啟用將目標上傳至廣告網路](objective-upload-to-networks.md)&quot;。
 

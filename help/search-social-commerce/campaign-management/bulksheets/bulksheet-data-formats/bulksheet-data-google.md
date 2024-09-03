@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Google Ads] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | 可識別帳戶促銷活動的唯一名稱。 |
 | [!UICONTROL Campaign Budget] | 行銷活動的每日支出限制，無論是否包含貨幣符號和標點符號。 此值會覆寫，但不能超過科目預算。 |
 | [!UICONTROL Delivery Method] | <p>每天顯示行銷活動廣告的速度如何：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i> （新行銷活動的預設值）：將您的廣告印象分散在一天當中。</p></li><li><p><i>[!UICONTROL Accelerated]：</i> （2019年10月淘汰）在達到預算前儘可能顯示您的廣告。 因此，您的廣告可能不會在當天稍後出現。</p></li></ul> |
-| [!UICONTROL Channel Type] | <p>要放置廣告的管道。 指定一或多個選項：</p><ul><li><p><i>[!UICONTROL Search]</i> （新行銷活動的預設值）：若要在[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登廣告，以及選擇性地在[!DNL Google Ads]顯示網路上刊登廣告。 <b>注意：</b>針對搜尋網路和顯示網路的行銷活動無法新增至競標最佳化的產品組合。</p></li><li><p><i>[!UICONTROL Display]</i>：只在[!DNL Google Ads]顯示網路上刊登廣告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：若要在[!DNL Google Ads]購物網路（在選取的國家/地區）和[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登購物廣告。 若要建立購物廣告，您必須擁有[!DNL Google Merchant Center]帳戶中的產品，且[允許Search、Social和Commerce從帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下載資料。 如需建立購物廣告程式的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot;。</p></li></ul> |
+| [!UICONTROL Channel Type] | <p>要放置廣告的管道。 指定一或多個選項：</p><ul><li><p><i>[!UICONTROL Search]</i> （新行銷活動的預設值）：若要在[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登廣告，以及選擇性地在[!DNL Google Ads]顯示網路上刊登廣告。 <b>注意：</b>針對搜尋網路和顯示網路的行銷活動無法新增至競標最佳化的產品組合。</p></li><li><p><i>[!UICONTROL Display]</i>：只在[!DNL Google Ads]顯示網路上刊登廣告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：若要在[!DNL Google Ads]購物網路（在選取的國家/地區）和[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登購物廣告。 若要建立購物廣告，您必須擁有[!DNL Google Merchant Center]帳戶中的產品，且[允許Search、Social和Commerce從帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下載資料。 如需建立購物廣告程式的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot;。</p></li></ul> |
 | [!UICONTROL Networks] | <p>廣告的放置位置。 指定一或多個選項：</p><ul><li><p><i>[!UICONTROL Google Search]</i>：僅在Google搜尋網路上贊助的搜尋清單。</p></li><li><p><i>[!UICONTROL Search Partners]</i>： Google搜尋合作夥伴的贊助搜尋清單。</p></li><li><p><i>[!UICONTROL Content]</i>：對顯示網路清單出價。</p></li><li><p><i>[!UICONTROL All]</i> （新行銷活動的預設值）：目標Google搜尋、搜尋合作夥伴和內容。</p></li></ul> |
 | [!UICONTROL DSA Domain Name] | <p>（僅限搜尋網路；僅適用於展開的動態搜尋廣告）廣告網路用來鎖定動態搜尋廣告之內容的網站根網域(例如example.com)或子網域(例如shoes.example.com)。<br><br><b>附註：</b></p><ul><li><p>展開的動態搜尋廣告會以網站內容為目標，而非關鍵字。</p></li><li><p>您的網域必須依廣告網路的有機搜尋索引編制索引，才能定位。</p></li><li><p>如果您未指定網域，則必須建立動態搜尋目標，將目標設為每個廣告群組的所有網站頁面或其子集。</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | （僅限搜尋網路；僅適用於擴充的動態搜尋廣告）指定網站網域的語言。 <b>注意：</b>如果網域包含多種語言的頁面，而您想要鎖定所有語言，請為每個語言建立個別的行銷活動。 |
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 ### 已展開的動態搜尋廣告
 
-此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html)&quot;。
+此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 ### 產品清單/購物廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 

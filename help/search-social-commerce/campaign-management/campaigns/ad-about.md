@@ -3,7 +3,7 @@ title: 管理廣告
 description: 瞭解搜尋、社交和Commerce中的廣告，包括可用的廣告型別。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
   您可以從[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]檢視，為廣告群組設定個別的產品群組，以控制哪些產品會與您的[!DNL Microsoft Advertising]購物廣告一起顯示。
 
-  如需有關產品/購物廣告工作流程的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot;。  如需有關產品廣告的其他資訊，請參閱[Microsoft Advertising檔案](https://help.ads.microsoft.com/#apex/3/en/51082)。
+  如需有關產品/購物廣告工作流程的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot;。  如需有關產品廣告的其他資訊，請參閱[Microsoft Advertising檔案](https://help.ads.microsoft.com/#apex/3/en/51082)。
 
 * 搜尋網路上[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動的回應式搜尋廣告。 廣告網路會動態地從一組廣告標題和說明中組合文字型回應式搜尋廣告，以偏好同時表現優異的組合。 廣告最多包含三個標題、兩個說明，以及來自基本URL和選用的path1和path2欄位的可自訂URL。 您可以選擇將廣告標題和說明釘選至特定位置。
 

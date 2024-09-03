@@ -3,7 +3,7 @@ title: 購物行銷活動產品篩選器
 description: 參考購物產品群組可用的產品篩選器。
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [關於購物產品群組](product-group-about.md)
 >* [管理購物產品群組](product-group-manage.md)
 >* [[!DNL Google Ads] 產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

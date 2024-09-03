@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ GGL_Lead不會包含在計算/上傳中，因為這是Google的廣告追蹤量�
 >[!MORELIKETHIS]
 >
 >* [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [將轉換量度上傳至 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
