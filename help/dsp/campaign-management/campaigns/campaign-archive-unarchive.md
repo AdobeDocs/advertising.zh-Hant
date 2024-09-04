@@ -3,16 +3,16 @@ title: 封存或取消封存行銷活動
 description: 瞭解如何封存或取消封存行銷活動。
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # 封存或取消封存行銷活動
 
-隱藏封存活動時未使用的行銷活動。 您可以對已封存的行銷活動採取的唯一動作是取消封存。 封存的行銷活動預設不會顯示，但仍可用於報告。
+封存不用於暫停所有支出和封存所有關聯實體的行銷活動。 您可以對已封存的行銷活動採取的唯一動作是取消封存。 封存的行銷活動預設不會顯示，但仍可用於報告。
 
 您可以隨時取消封存行銷活動，以恢復其先前的狀態。
 
