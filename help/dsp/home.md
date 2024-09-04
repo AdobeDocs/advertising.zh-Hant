@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: eec7bdce1a91094fe78a839084253a3dbb8a72a2
+source-git-commit: d880ad2416b2c14f6e7e5f72f46201cd4d702e9e
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4182'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年9月4日 | [!UICONTROL Packages]和[!UICONTROL Placements] | 以下的增強功能適用於具有「永遠的最高出價與最大觸及率」和「最低每次觸及成本」最佳化目標的套件和位置：<ul><li>在套件層級（而不是個別位置層級）彙總的不重複觸及資料，現在用於透過競標最佳化和預算分配來推動最大增量觸及率。</li><li>您可以使用新的套件設定「連結用於增量觸及最佳化的程式化預留(PG)位置」，將來自所有程式化預留(PG)位置的家庭觸及資料納入促銷活動以最佳化增量觸及。</li></ul> | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年8月22日 | [!UICONTROL Custom Reports] | 已發行下列自訂報表功能和增強功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]檢視已重新設計：<ul><li>欄現在包含「[!UICONTROL Status]」、「[!UICONTROL Report Run]」（顯示從2024年8月22日開始觸發報告的日期）、「[!UICONTROL Recurrence]」、「[!UICONTROL Created By]」和「[!UICONTROL Download Report]」（使用「[!UICONTROL Download]」按鈕，以便您可以立即下載過去四個月的任何報告執行個體）。</li><li>您可以依狀態（報表是週期性還是單次）、報表型別、目的地型別和報表建立者來篩選清單。 依預設，會列出使用者建立的所有未封存報表，最新的位於頂端。</li><li>按一下報表名稱旁的&#x200B;**[!UICONTROL …]**，即可使用每個報表的快速動作按鈕（例如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>報表排程選項現在可用於報表層級，而不是個別目的地層級。 在報表設定中，排程設定現在可在&quot;[!UICONTROL Report run schedule]&quot;區段的頂端附近使用。 如果您編輯的舊報表中有個別目的地的不同現有排程，系統會提示您設定排程，並通知您排程會取代所有現有目的地的現有排程。</li></ul> | 請參閱&quot;[關於報告](/help/dsp/reports/report-about.md)&quot;、&quot;[下載自訂報告](/help/dsp/reports/report-download.md)&quot;和&quot;[報告設定](/help/dsp/reports/report-settings.md)&quot;。 |
 | 2024年8月22日 | [!UICONTROL Packages] | 您現在可以下載XLSX （[!DNL Microsoft Excel]試算表）格式的一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。 然後，您可以對兩個標籤中的大部分欄位進行變更，並一次將變更上傳回DSP。 | 請參閱[使用試算表檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)。 |
 | 2024年8月14日 | [!UICONTROL Placements] | DSP不再重新整理[!DNL Audiences by Oracle (BlueKai)]個區段的區段計數，這些計數將在9月底失效，並且所有計數將逐漸減少到零(0)。 | — |
