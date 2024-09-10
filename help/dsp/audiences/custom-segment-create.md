@@ -3,7 +3,7 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -30,14 +30,14 @@ ht-degree: 0%
 
    1. 在初始化最後一個事件服務之前的任何位置，將下列引數新增至您網頁(在 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)所需的[JavaScript程式碼之前或之內)。
 
-      ```window.id5PartnerId=Your_ID5_PartnerID;```
+      ```window.id5PartnerId=ID5_PartnerID;```
 
       範例：
 
       ```
       <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
       <script>
-        window.id5PartnerId=Your_ID5_PartnerID;
+        window.id5PartnerId=ID5_PartnerID;
              if("undefined" != typeof AdCloudEvent)
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
