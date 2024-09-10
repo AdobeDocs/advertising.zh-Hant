@@ -3,9 +3,9 @@ title: JavaScript轉換追蹤標籤第3版的格式
 description: 參考JavaScript轉換追蹤標籤第3版的格式。
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ ht-degree: 0%
 其中：
 
 * `<ef-userid>`是Search、Social和Commerce指派給廣告商的不重複數值使用者ID。
+
+* `<Your_ID5_PartnerID>`是組織的ID5合作夥伴識別碼，組織會在與[!DNL ID5]簽署合約後收到此識別碼。 只有當組織使用DSP且有[個自訂區段追蹤與ID5通用ID](/help/dsp/audiences/universal-ids.md)相關聯的使用者時，才包含此變數。
 
 * `<propertyname>`是要追蹤的轉換。 例如，如果您正在追蹤稱為「註冊」的轉換，則標籤會包含引數`ev_registration=<registration>`，而且您必須傳遞每個交易的實際收入（例如`ev_registration=1`）。 追蹤多個屬性時，它們會以&amp;符號(`&`)聯結，例如`ev_registration=<registration>&ev_sale=<sale>` （例如`ev_registration=1&ev_sale=12.99`）。 **注意：**&#x200B;屬性名稱不可包含特殊字元。
 

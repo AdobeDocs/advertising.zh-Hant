@@ -3,9 +3,9 @@ title: 建立及實作自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      如需完整標籤格式，請參閱「[JavaScript轉換追蹤標籤格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)」和「[JavaScript轉換追蹤標籤格式2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)」。
 
    1. 使用任何瀏覽器偵錯工具來確認每個呼叫都是起始至網域`lasteventf-tm.everesttech.net`，並包含引數`_les_id5`，以加密的ID5 ID作為其值。
 
