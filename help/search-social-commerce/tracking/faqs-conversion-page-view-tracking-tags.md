@@ -3,9 +3,9 @@ title: 關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題�
 description: 請參閱Adobe Advertising轉換與頁面檢視追蹤標籤的比較。
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 | ---- | ---- | ---- | ---- | ---- |
 | 可以在與其他JS版本相同的網頁上使用 | — | — | — | 不適用 |
 | 允許在同一網頁上使用具有相同廣告商使用者ID的多個標籤 | 是 | 是 | 是 | — |
-| 允許在同一個網頁上使用具有不同廣告商使用者ID的多個標籤 | 是 | 是 | 否 | 否 |
+| 允許在同一個網頁上使用具有不同廣告商使用者ID的多個標籤 | 是 | 是 | — | — |
 | 供Adobe Experience Platform的Adobe Advertising擴充功能使用，並與使用Experience Platform產生的其他標籤相容 | 是 | 是 | — | — |
 | 允許與Adobe AdvertisingJavaScript轉換對應標籤一起使用時，追蹤源自[!DNL Apple Safari]和[!DNL Mozilla Firefox]的所有轉換 | 是 | 是 | 是 | — |
 
