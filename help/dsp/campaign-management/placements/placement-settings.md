@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ ht-degree: 0%
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Topic Targeting]：** （選擇性；可供設定了[!DNL Proximic by Comscore]和[!DNL Oracle Data Cloud]區段的廣告商使用）要納入為目標的[!DNL Proximic by Comscore]和[!DNL Oracle Data Cloud] （原為[!DNL Grapeshot]）的特定區段名稱或ID。 此功能可能需支付額外費用。 若要啟用此功能及設定主題區段，請聯絡您的Adobe客戶團隊。
-
-**注意：** [!DNL Oracle]將於2024年9月30日前淘汰其廣告業務，包括[!DNL Oracle Data Cloud] （先前稱為[!DNL Grapeshot]）的所有服務。
+**[!UICONTROL Topic Targeting]：** （選擇性；可供設定了[!DNL Proximic by Comscore]個區段的廣告商使用）來自[!DNL Proximic by Comscore]要納入為目標的特定區段名稱或ID。 此功能可能需支付額外費用。 若要啟用此功能及設定主題區段，請聯絡您的Adobe客戶團隊。
 
 若要指定主題目標定位：
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定要定位的區段：
-   1. 在左欄中，選取夥伴（*[!UICONTROL Comscore]*&#x200B;或&#x200B;*[!UICONTROL Grapeshot]*）。
+   1. 在左欄中，選取夥伴： (*[!UICONTROL Comscore]*。
    1. 在輸入欄位中輸入區段名稱或區段ID。
 1. （選擇性）若要將包含主題資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下&#x200B;**[!UICONTROL Export]**。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
@@ -363,7 +361,7 @@ ht-degree: 0%
 >
 >* 主題鎖定目標會限制位置可出價的詳細目錄，因此主題鎖定目標僅佔整體購買的一小部分。
 >
->* 在[!DNL Proximic by Comscore]或[!DNL Oracle Data Cloud] （先前為[!DNL Grapeshot]）的區段內設定任何負面目標定位。
+>* 在[!DNL Proximic by Comscore]的區段內設定任何負面目標定位。
 
 **[!UICONTROL Device Targeting]：** （選擇性）特定裝置資訊，包括裝置型別、製造商、作業系統、瀏覽器和連線型別，以包含和排除作為目標。 型別依位置型別而異。 若要指定裝置目標定位：
 
@@ -431,11 +429,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pre-bid viewability]：**
 
-要套用至此位置的[!DNL DoubleVerify]、[!DNL Oracle Advertising] ([!DNL Moat])和[!DNL Integral Ad Science]的競標前可檢視度篩選器。 系統已為新版位選取廣告商層級的預設值，但您可以變更設定。 可能需支付額外費用。
-
->[!NOTE]
->
->[!DNL Oracle]將在2024年9月30日前停止其廣告業務，包括[!DNL MOAT]的所有服務。
+要套用至此位置的[!DNL DoubleVerify]和[!DNL Integral Ad Science]會篩選出哪些競標前可見度。 系統已為新版位選取廣告商層級的預設值，但您可以變更設定。 可能需支付額外費用。
 
 **[!UICONTROL Ads.txt filtering]：**
 

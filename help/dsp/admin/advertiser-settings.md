@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-依[!DNL DoubleVerify]、[!DNL Oracle Advertising] ([!DNL Moat])和[!DNL Integral Ad Science]的選擇性競標前可見性篩選器，可套用至位置。 針對新版位選取廣告商層級預設值。 您可以在[位置層級](/help/dsp/campaign-management/placements/placement-settings.md)覆寫廣告商層級設定。
-
->[!NOTE]
->
->[!DNL Oracle]將在2024年9月30日前停止其廣告業務，包括[!DNL MOAT]的所有服務。
+依[!DNL DoubleVerify]和[!DNL Integral Ad Science]選擇性的競標前可見性篩選器，可套用至位置。 針對新版位選取廣告商層級預設值。 您可以在[位置層級](/help/dsp/campaign-management/placements/placement-settings.md)覆寫廣告商層級設定。
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 選用的&#x200B;**[!UICONTROL Video Viewability Targets]**&#x200B;篩選器和選用的&#x200B;**[!UICONTROL Display Viewability Targets]**&#x200B;篩選器。 可能需支付額外費用。
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-選用的&#x200B;**[!UICONTROL Video Viewability Standard]**&#x200B;篩選器和選用的&#x200B;**[!UICONTROL Display Viewability Standard]**&#x200B;篩選器。 可能需支付額外費用。
 
 #### [!UICONTROL Ads.text]
 

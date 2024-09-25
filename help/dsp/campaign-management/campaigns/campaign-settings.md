@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ ht-degree: 0%
 * **[!UICONTROL IAS Account ID (AnID)]：** （具有自己[!DNL IAS]帳戶的廣告商；選擇性）組織的[!DNL IAS]帳戶識別碼，[!DNL IAS]將直接針對使用收費。
 
 * **[!UICONTROL IAS Team ID]：** （具有自己[!DNL IAS]帳戶的廣告商；選擇性）組織[!DNL IAS]帳戶的團隊識別碼，[!DNL IAS]將直接針對使用收費。<!-- verify -->
-
-**[!UICONTROL MOAT]：** （選擇性）啟用[!DNL MOAT]可檢視度、詐騙、品牌安全和對象驗證的測量與報告。 需額外付費。 **注意：** [!DNL Oracle]將於2024年9月30日前停止其廣告業務，包括[!DNL MOAT]的所有服務。
 
 #### 對象驗證
 

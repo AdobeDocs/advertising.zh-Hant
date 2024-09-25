@@ -3,9 +3,9 @@ title: Advertising DSP中可用的第三方資料提供者
 description: 檢視所有可用協力廠商資料提供者的清單。
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 使用每個區段的費用，會顯示在位置設定和儲存的對象設定中的區段名稱旁。
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)] （將於2024年9月30日落日）
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])

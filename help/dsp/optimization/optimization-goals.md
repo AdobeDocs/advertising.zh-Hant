@@ -3,9 +3,9 @@ title: 最佳化目標及使用方式
 description: 參考可用的最佳化目標，並瞭解何時使用這些目標。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: b40f016a02d99a3753358c9911e40ac63e83fd54
+source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Adobe - GroupM)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 達成支出目標，DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：有效率CPM與最高vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b>使用此目標可達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作此位置的最高出價。 |
 | [!UICONTROL Lowest vCPM (Adobe - MRC)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 達成支出目標，DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：有效率CPM與最高vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b>使用此目標可達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作此位置的最高出價。 |
 | [!UICONTROL Lowest vCPM (IAS - MRC)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 達成支出目標，DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：有效率CPM與最高vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b>使用此目標可達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作此位置的最高出價。<br><br>當來自IAS的協力廠商資料通知演演算法時，此設定最有效。 只有在您已啟用行銷活動的IAS整合時，才使用此目標。 |
-| [!UICONTROL Lowest vCPM (Moat - GroupM)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 達成支出目標，DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：有效率CPM與最高vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b>使用此目標可達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作此位置的最高出價。<br><br>當來自[!DNL Moat]的協力廠商資料通知演演算法時，此設定最有效。 只有在您已啟用行銷活動的[!DNL Moat]整合時，才使用此目標。 |
-| [!UICONTROL Lowest vCPM (Moat - MRC)] | 透過套件層級最佳化，預算分配會優先處理具有最低vCPM的刊登版位。<br><br>拍賣評估會優先處理vCPM。 達成支出目標，DSP會嘗試在降低CPM與提高可檢視度之間取得平衡。 | 行銷活動型別：品牌<br><br>基準：有效率CPM與最高vCPM<br><br>廣告型別：前段、顯示<br><br><b>注意：</b>使用此目標可達成最佳可能的vCPM。<br><br>若要保證最高的CPM，請將其用作此位置的最高出價。<br><br>當來自[!DNL Moat]的協力廠商資料通知演演算法時，此設定最有效。 只有在您已啟用行銷活動的[!DNL Moat]整合時，才使用此目標。 |
 
 {style="table-layout:auto"}
 

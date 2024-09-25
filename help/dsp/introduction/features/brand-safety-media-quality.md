@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步瞭解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP提供一套品牌保護功能，以確保您的每個行銷活�
 
 我們的詐騙監視團隊與業界領先的合作夥伴（例如[!DNL Interactive Advertising Bureau]、[!DNL Trust and Accountability Group] [!DNL (TAG)]和[!DNL WhiteOps]）密切合作，仔細組織我們平台上的詳細目錄。 透過主動管理我們的供應，DSP可確保平台上的所有廣告商都免受非人為流量（機器人、編目程式、資料中心流量和詐騙）的影響，並僅在品牌安全的環境中提供。
 
-除了提供中央品質管理之外，我們相信可讓廣告商設計符合其品牌的控制項。 DSP提供與[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]、[!DNL Oracle Data Cloud]和[!DNL Peer39]的整合，確保每個廣告商可選擇所需的詐騙保護、內容篩選和關鍵字鎖定目標等級。
+除了提供中央品質管理之外，我們相信可讓廣告商設計符合其品牌的控制項。 DSP提供與[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]的整合，確保每個廣告商可選擇所需的詐騙保護、內容篩選和關鍵字鎖定目標等級。
 
 ## 品質方案
 
@@ -110,15 +110,11 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 ### 競標前可見性 {#pre-bid-viewability}
 
-我們領先業界的合作夥伴[!DNL DoubleVerify]、[!DNL Oracle Advertising] ([!DNL Moat])和[!DNL Integral Ad Science]支援的競標前可檢視度篩選器可讓廣告商確保其行銷活動在視訊和顯示清查中符合其想要的可檢視度效能目標。
-
->[!NOTE]
->
->[!DNL Oracle]將在2024年9月30日前停止其廣告業務，包括[!DNL MOAT]的所有服務。
+由我們領先業界的合作夥伴[!DNL DoubleVerify]和[!DNL Integral Ad Science]支援的競標前可檢視度篩選器可讓廣告商確保其行銷活動在視訊和顯示清查中符合其想要的可檢視度效能目標。
 
 您可以為每個廣告商<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->設定預設可檢視度篩選器，然後選擇性[自訂每個位置的設定](/help/dsp/campaign-management/placements/placement-settings.md)。 使用此功能時可能需支付額外費用。
 
-![DoubleVerify標誌](/help/dsp/assets/doubleverify-logo.png) ![OracleAdvertising標誌](/help/dsp/assets/oracle-advertising-logo.png) ![整合式廣告科學標誌](/help/dsp/assets/ias-logo.png)
+![DoubleVerify標誌](/help/dsp/assets/doubleverify-logo.png) ![整合式廣告科學標誌](/help/dsp/assets/ias-logo.png)
 
 ### 注意力目標定位和測量
 
@@ -132,17 +128,13 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 ### 主題目標定位
 
-DSP主題目標定位可讓您利用我們領先業界的情境式合作夥伴[!DNL Comscore]和[!DNL Oracle Data Cloud] （先前稱為[!DNL Grapeshot]），鎖定或封鎖關鍵字清單。 主題鎖定目標可協助您確保廣告始終在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保產生更大結果的環境中花費。
-
->[!NOTE]
->
->[!DNL Oracle]將在2024年9月30日前停止其廣告業務，包括來自[!DNL Oracle Data Cloud] （先前稱為[!DNL Grapeshot]）的所有服務。
+DSP主題目標定位可讓您利用我們領先業界的情境式合作夥伴[!DNL Comscore]，鎖定或封鎖關鍵字清單。 主題鎖定目標可協助您確保廣告始終在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保產生更大結果的環境中花費。
 
 主題鎖定目標需要您直接與合作夥伴平台建立自訂主題區段。 建立區段後，您可以在[!UICONTROL Audience Targeting]區段中為每個位置](/help/dsp/campaign-management/placements/placement-settings.md)鎖定或排除區段ID [。 此功能可能需支付額外費用。
 
 若要建立[!DNL Comscore]帳戶及建立自訂主題區段，您可以在[https://agents.comscore.com](https://agents.comscore.com)要求[!DNL Activation Segment Manager]的登入。 如需設定自訂區段的完整指示，請參閱[[!DNL Comscore] 說明中心](https://comscoreactivation.zendesk.com/hc/)。 建立自訂區段時，[!DNL Segment Manager]中會顯示自訂區段的費用。
 
-![Comscore標誌](/help/dsp/assets/comscore-logo.png) ![Grapeshot標誌](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore標誌](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
