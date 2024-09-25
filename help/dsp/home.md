@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d880ad2416b2c14f6e7e5f72f46201cd4d702e9e
+source-git-commit: 9fcebbc93228474a67cd13895c829e7c3bb6ca5e
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4297'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年9月25日 | [!UICONTROL Campaigns]，[!UICONTROL Placements]，[!UICONTROL Optimization] | [!DNL Oracle]將於9月30日前終止其廣告業務。 DSP已相應地停用[!DNL BlueKai]、[!DNL Oracle Data Cloud] （先前為[!DNL Grapeshot]）和[!DNL MOAT]中的所有服務，並將其從廣告商設定、行銷活動設定、位置設定和最佳化目標中移除。 但是，具有現有[!DNL BlueKai]區段的任何刊登版位可能會繼續為這些區段花費，直到9月30日。<br><br>下列替代方案可供使用：<ul><li>標準協力廠商和自訂區段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的協力廠商資料合作夥伴</li><li>預測性協力廠商區段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]的行銷活動層級品牌安全性和可檢視度測量</li><li>使用[!DNL DoubleVerify]和[!DNL Integral Ad Science]的位置層級競標前可見性</li><li>由[!DNL Proximic by Comscore]定位的位置層級主題</li></ul>協力廠商區段的CPM定價可在[!UICONTROL Audience Library]中取得，而服務的CPM定價可在[!UICONTROL Settings] > [!UICONTROL Fees]取得。 | 請參閱「[可用的協力廠商資料提供者](/help/dsp/audiences/third-party-data-providers.md)」、「[品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)」、「[行銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)」和「[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)」。 |
 | 2024年9月4日 | [!UICONTROL Packages]和[!UICONTROL Placements] | 以下的增強功能適用於具有「永遠的最高出價與最大觸及率」和「最低每次觸及成本」最佳化目標的套件和位置：<ul><li>在套件層級（而不是個別位置層級）彙總的不重複觸及資料，現在用於透過競標最佳化和預算分配來推動最大增量觸及率。</li><li>您可以使用新的套件設定「連結用於增量觸及最佳化的程式化預留(PG)位置」，將來自所有程式化預留(PG)位置的家庭觸及資料納入促銷活動以最佳化增量觸及。</li></ul> | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年8月22日 | [!UICONTROL Custom Reports] | 已發行下列自訂報表功能和增強功能：<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports]檢視已重新設計：<ul><li>欄現在包含「[!UICONTROL Status]」、「[!UICONTROL Report Run]」（顯示從2024年8月22日開始觸發報告的日期）、「[!UICONTROL Recurrence]」、「[!UICONTROL Created By]」和「[!UICONTROL Download Report]」（使用「[!UICONTROL Download]」按鈕，以便您可以立即下載過去四個月的任何報告執行個體）。</li><li>您可以依狀態（報表是週期性還是單次）、報表型別、目的地型別和報表建立者來篩選清單。 依預設，會列出使用者建立的所有未封存報表，最新的位於頂端。</li><li>按一下報表名稱旁的&#x200B;**[!UICONTROL …]**，即可使用每個報表的快速動作按鈕（例如[!UICONTROL Copy]和[!UICONTROL Delete]）。</li></ul><li>報表排程選項現在可用於報表層級，而不是個別目的地層級。 在報表設定中，排程設定現在可在&quot;[!UICONTROL Report run schedule]&quot;區段的頂端附近使用。 如果您編輯的舊報表中有個別目的地的不同現有排程，系統會提示您設定排程，並通知您排程會取代所有現有目的地的現有排程。</li></ul> | 請參閱&quot;[關於報告](/help/dsp/reports/report-about.md)&quot;、&quot;[下載自訂報告](/help/dsp/reports/report-download.md)&quot;和&quot;[報告設定](/help/dsp/reports/report-settings.md)&quot;。 |
 | 2024年8月22日 | [!UICONTROL Packages] | 您現在可以下載XLSX （[!DNL Microsoft Excel]試算表）格式的一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。 然後，您可以對兩個標籤中的大部分欄位進行變更，並一次將變更上傳回DSP。 | 請參閱[使用試算表檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)。 |
