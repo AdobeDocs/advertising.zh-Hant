@@ -2,7 +2,7 @@
 title: 在Adobe Target中設定Adobe Advertising DSP廣告的A/B測試
 description: 瞭解如何在 [!DNL Target] 中為您的DSP廣告設定A/B測試。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 如果您有其他問題，請聯絡adcloud_support@adobe.com。
 
-## 必要條件
+## 先決條件
 
 此使用案例需要下列產品和整合：
 
@@ -109,7 +109,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
       >[!NOTE]
       >
-      >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)。 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html)，依頁面URL輕鬆識別熱門專案。
+      >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)。 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，依頁面URL輕鬆識別熱門專案。
 
    1. 在&#x200B;**[!UICONTROL Goal]**&#x200B;欄位中輸入測試的成功量度。
 

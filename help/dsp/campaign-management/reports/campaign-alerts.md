@@ -3,16 +3,14 @@ title: 檢視警示
 description: 瞭解如何檢視行銷活動和行銷活動元件的警示和建議解決方案。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # 檢視警示
-
-*Beta功能*
 
 DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題。 對於每個問題，DSP都會建立具有時間戳記的警報，以及解決此問題的建議動作。 警報的原因包括設定問題（例如，當投放位置沒有附加廣告或交易設定錯誤時）、廣告拒絕和行銷活動健康問題（例如廣告傳送或效能不佳）。 促銷活動、套件、位置、廣告和交易層級提供警報。
 

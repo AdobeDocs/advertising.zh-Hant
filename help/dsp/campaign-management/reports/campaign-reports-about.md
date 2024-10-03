@@ -3,9 +3,9 @@ title: Campaign Management檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 
 #### 警示指示器
 
-*Beta功能*
-
 「[!UICONTROL Alerts]」欄指出行銷活動或其下的任何子實體何時發生問題。 工具列右側的[!UICONTROL Pulse Panel]圖示也會指出是否有任何警報可供列出的實體使用。 如需詳細資訊，請參閱[檢視警示](campaign-alerts.md)。
 
 ## 單一行銷活動報告 {#single-campaign-reporting}
@@ -61,8 +59,6 @@ ht-degree: 0%
 每個實體索引標籤中，預設會包含步調和傳送量度，但您可以[變更欄檢視](campaign-data-views-manage.md#column-view-change)，甚至[建立自訂欄檢視](campaign-data-views-manage.md#column-view-create)，以套用至行銷活動的所有子索引標籤。 您可以進一步以其他方式[自訂資料表](campaign-data-views-manage.md#data-tables-manage)。 每個資料表都包含一個[!UICONTROL Subtotals]列，這個列會顯示所有可見列中每個量度的總和或平均值。
 
 #### 警示指示器
-
-*Beta功能*
 
 「[!UICONTROL Alerts]」欄會指出套件、位置或廣告（或套件或位置下的任何子實體）何時發生問題。 「[!UICONTROL Alerts]」欄指出行銷活動或其下的任何子實體何時發生問題。 工具列右側的[!UICONTROL Pulse Panel]圖示也會指出是否有任何警報可供列出的實體使用。 如需詳細資訊，請參閱[檢視警示](campaign-alerts.md)。
 

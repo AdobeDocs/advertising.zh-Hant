@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising]轉換資料'
 description: 瞭解搜尋、社交和Commerce中可用的 [!DNL Microsoft Advertising]追蹤轉換資料型別。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 搜尋、社交和Commerce中的[!DNL Microsoft Advertising]轉換資料
 
-搜尋、Social和Commerce會自動同步您[[!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking)所追蹤的所有網站轉換次數，包括瀏覽轉換，以便報告和最佳化。
+搜尋、Social和Commerce會自動同步您[[!DNL Microsoft Advertising] 通用事件追蹤(UET)標籤](https://help.ads.microsoft.com/#apex/ads/en/53056)所追蹤的所有網站轉換次數，包括瀏覽轉換，以便報告和最佳化。
 
 所有量度都會自動用於行銷活動管理檢視和基本報告，也可用於產品組合目標以最佳化[!DNL Microsoft Advertising]個行銷活動。
 
