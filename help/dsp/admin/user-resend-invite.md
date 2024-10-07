@@ -3,16 +3,16 @@ title: 重新傳送擱置中的使用者邀請
 description: 瞭解如何重新傳送擱置中的使用者邀請。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # 重新傳送擱置中的使用者邀請
 
-管理員使用者可以將邀請重新傳送給具有組織帳戶待定邀請的使用者。
+管理員使用者可以將邀請重新傳送給具有組織帳戶待定邀請的使用者。 邀請連結將在24小時後過期。
 
 1. 執行下列任一項作業：
 
