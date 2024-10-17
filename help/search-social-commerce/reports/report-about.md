@@ -3,9 +3,9 @@ title: 關於報表
 description: 瞭解效能報表，包括可用的不同報表型別以及如何自動化報表。
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Advanced Reports] | [進階報告](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)提供廣告設定的更多深入分析，協助您識別變更地理定位或網路設定後可獲益的位置。 它們也可協助您根據廣告商的內部轉換追蹤資料，驗證行銷活動和產品組合管理檢視和報告中的轉換資料。 |
 | [!UICONTROL Assist Reports] | [協助報表](/help/search-social-commerce/reports/management/assist/assist-report-about.md)針對廣告商的所有關鍵字和廣告，提供轉換路徑的深入分析。 這些變數使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。 |
 | [!UICONTROL Specialty Reports] | [專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)是由廣告網路所收集的資料(而非Adobe Advertising追蹤)所組成。 |
-| [!UICONTROL Model Accuracy Reports] | [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用來最佳化出價的成本和收入模型正確性。 |
+| [!UICONTROL Model Accuracy Reports] | [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化產品組合出價、行銷活動預算及出價策略目標的成本與收入模型正確性。 |
 
 ## 報告自動化
 

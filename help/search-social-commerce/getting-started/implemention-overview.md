@@ -3,7 +3,7 @@ title: 實施搜尋、社交和Commerce概觀
 description: 瞭解
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >搜尋、Social和Commerce仍會追蹤和報告未指派給產品組合之行銷活動的資料，但不會最佳化行銷活動的出價。
+      >搜尋、Social和Commerce仍會追蹤和報告未指派給產品組合的促銷活動的資料，但不會為他們提供最佳化。
 
    1. 在有足夠的資料可用來建立基準後，團隊就可以啟動產品組合 — 讓Search、Social和Commerce根據最佳化型別最佳化產品組合的競標和/或預算。
 

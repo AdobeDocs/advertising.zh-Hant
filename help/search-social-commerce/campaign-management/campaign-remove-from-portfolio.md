@@ -3,16 +3,16 @@ title: 從投資組合中移除行銷活動
 description: 瞭解如何從產品組合移除行銷活動。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # 從投資組合中移除行銷活動
 
-從產品組合中移除行銷活動時，搜尋、社交和Commerce無法最佳化該行銷活動中關鍵字和廣告的競標和預算。
+當您從產品組合中移除行銷活動時，搜尋、社交和Commerce無法最佳化該行銷活動的出價、行銷活動預算和競標策略目標。
 
 此動作會記錄在該投資組合的變更歷史記錄中。
 

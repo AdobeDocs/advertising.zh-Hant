@@ -3,9 +3,9 @@ title: 關於廣告網路帳戶
 description: 瞭解搜尋、社交和Commerce中的廣告網路帳戶。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和現有的[!DNL Baidu]帳戶*
 
-搜尋、Social和Commerce會同步（*同步*）支援的廣告網路帳戶，以便您可以追蹤、報告和視覺化廣告的效能。 對於[!DNL Yahoo! Display Network]以外的所有廣告網路，您可以選擇在Search、Social和Commerce中管理您帳戶的行銷活動；[!DNL Yahoo! Display Network]，行銷活動為唯讀。 對於所有廣告網路，您可以透過將最佳化功能新增至產品組合，以最佳化受管理帳戶中廣告的競標。
+搜尋、Social和Commerce會同步（*同步*）支援的廣告網路帳戶，以便您可以追蹤、報告和視覺化廣告的效能。 對於[!DNL Yahoo! Display Network]以外的所有廣告網路，您可以選擇在Search、Social和Commerce中管理您帳戶的行銷活動；[!DNL Yahoo! Display Network]，行銷活動為唯讀。 針對所有廣告網路，您可以允許最佳化功能，將行銷活動新增至產品組合，以最佳化受管理帳戶中行銷活動的出價、行銷活動預算及行銷活動競標策略目標。
 
 若要啟用帳戶同步處理，帳戶記錄必須包含帳戶存取認證，並且必須啟用（作用中）。
 

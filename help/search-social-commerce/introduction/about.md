@@ -3,9 +3,9 @@ title: 關於Adobe Advertising搜尋、社交和Commerce
 description: 瞭解搜尋、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 適用於廣告最佳化的AI驅動技術
 
-搜尋、Social和Commerce可在廣告商的業務目標、量度、預算和其他業務限制範圍內，自動化並最佳化跨廣告網路廣告行銷活動的競標和預算管理。 它會追蹤每個廣告商關鍵字和廣告的點按次數、成本和轉換記錄，以及有關每個行銷管道上競標情況的資訊。 使用產品組合理論方法，最佳化功能會比較整個行銷活動產品組合中預算的所有可能配置，以決定將產生最高可能廣告支出回報的競標和行銷活動預算，並據此執行競標和預算。 最佳化功能會持續監控廣告商的關鍵字和廣告，並隨著市場變化動態調整出價和預算。
+搜尋、Social和Commerce可在廣告商的業務目標、量度、預算和其他業務限制範圍內，自動化並最佳化跨廣告網路廣告行銷活動的競標和預算管理。 它會追蹤每個廣告商關鍵字和廣告的點按次數、成本和轉換記錄，以及有關每個行銷管道上競標情況的資訊。 使用產品組合理論方法，最佳化功能會比較整個行銷活動產品組合中預算的所有可能配置，以判斷將產生最高可能廣告支出回報的競標和行銷活動預算，並據此執行競標、預算和競標策略目標。 最佳化功能會持續監控廣告商的關鍵字和廣告，並隨著市場變化而動態調整競標、預算和目標。
 
 提供多種型別的最佳化功能，可讓Search、Social和Commerce以及廣告網路對競標最佳化有不同程度的控制。 根據最佳化型別，您可以使用Adobe Advertising、Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]或其他第一方企業摘要所追蹤的轉換，將產品組合最佳化。
 

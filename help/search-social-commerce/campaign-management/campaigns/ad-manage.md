@@ -3,9 +3,9 @@ title: 管理廣告
 description: 瞭解如何建立和管理廣告。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 下列廣告型別為&#x200B;*可變*，這表示您可以變更廣告文案或影像並保留相同的廣告ID：除了動態搜尋廣告以外的所有[!DNL Google Ads]廣告型別，以及[!DNL Microsoft Advertising]擴充文字廣告。
->* 所有其他支援的廣告為&#x200B;*不可變動*，這表示變更廣告復本或影像將會刪除現有廣告並建立新的廣告。 搜尋、Social和Commerce會收集足夠的資料以最佳化出價，新廣告的效能可能會持續幾週不穩定。
+>* 所有其他支援的廣告為&#x200B;*不可變動*，這表示變更廣告復本或影像將會刪除現有廣告並建立新的廣告。 搜尋、Social和Commerce收集足夠的資料以進行最佳化時，新廣告的效能在幾週內可能會不穩定。
 >* 您無法編輯產品廣告的內容，但[!DNL Microsoft Advertising]產品廣告的促銷活動行除外。 不過，您可以暫停或刪除廣告。
 
 >[!TIP]

@@ -3,9 +3,9 @@ title: 實作廣告網路帳戶和行銷活動的概觀
 description: 瞭解設定、同步及管理廣告網路帳戶的相關工作。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
 1. (使用Adobe Analytics的廣告商) [整合Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)，以便交換資料。
 
-1. (允許搜尋、社交和Commerce最佳化出價和/或行銷活動預算；僅[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)) [將行銷活動指派給產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. (允許搜尋、Social和Commerce最佳化出價、行銷活動預算和/或行銷活動出價策略目標；僅[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)) [將行銷活動指派給產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
    如果產品組合尚未啟動（最佳化出價和/或預算），則讓最佳化功能收集足夠的資料，以便建立成本和收入模型，以便在啟動產品組合之前建立產品組合的基準績效。
 

@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | 投資組合所屬投資組合群組的名稱。 |
 | [!UICONTROL Portfolio ID] | 數值投資組合ID。 |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report])投資組合的支出策略： <i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly]</i>、<i>[!UICONTROL Monthly]</i>、<i>[!UICONTROL ROI]</i>、<i>[!UICONTROL Day of week]</i>、<i>[!UICONTROL Day of month]</i>、<i>[!UICONTROL CPT]</i>、<i>[!UICONTROL Marginal CPT]</i>、<i>[!UICONTROL Google Target CPA]</i>或<i>[!UICONTROL Google Target ROAS]</i>。 |
-| [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li><i>[!UICONTROL Optimize]：</i>最佳化功能正在收集相關行銷活動的點按和收入資料、模型化資料以最佳化出價，以及最佳化出價和/或行銷活動預算（視最佳化型別和行銷活動競標策略而定）。</li><li><i>[!UICONTROL Active]：</i>最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li><i>[!UICONTROL Inactive]：</i>最佳化功能正在收集相關行銷活動的點按資料以用於報表用途，但是它不會將資料模型化，也不會將競標或行銷活動預算最佳化。</li></ul> |
+| [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li><i>[!UICONTROL Optimize]：</i>最佳化功能正在收集相關行銷活動的點按和收入資料、建立用於最佳化的資料模型，以及最佳化出價、行銷活動預算和行銷活動競標策略目標（視最佳化型別和競標策略而定）。</li><li><i>[!UICONTROL Active]：</i>最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li><i>[!UICONTROL Inactive]：</i>最佳化功能正在收集相關行銷活動的點按資料以用於報表用途，但是它不會將資料模型化，也不會將競標或行銷活動預算最佳化。</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report])投資組合的支出策略的每日目標。 對於每日/每月和一週/月的某天策略，會顯示當天的目標。 |
 | [!UICONTROL Preferred Devices] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]行銷活動）廣告設定會將偏好設定授予<i>[!UICONTROL Mobile ads]</i>或<i>[!UICONTROL All ads]</i>。 |
 | [!UICONTROL Product Group ID] | 廣告網路指派給產品群組的數值ID。 |

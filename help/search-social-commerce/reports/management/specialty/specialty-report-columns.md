@@ -3,9 +3,9 @@ title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | 數值投資組合ID。 |
 | [!UICONTROL Portfolio Name] | 投資組合。 |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio報告)投資組合的支出策略： *[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*、*[!UICONTROL ROI]*、*[!UICONTROL Day of week]*、*[!UICONTROL Day of month]*、*[!UICONTROL CPT]*、*[!UICONTROL Marginal CPT]*、*[!UICONTROL Google Target CPA]*&#x200B;或&#x200B;*[!UICONTROL Google Target ROAS]*。 |
-| [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li>*[!UICONTROL Optimize]*：最佳化功能正在收集相關行銷活動的點按和收入資料、模型化資料以最佳化出價，以及最佳化出價和/或行銷活動預算（視最佳化型別和行銷活動競標策略而定）。</li><li>*[!UICONTROL Active]*：最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li>*[!UICONTROL Inactive]*：最佳化功能正在收集相關行銷活動的點選資料以用於報表用途，但是它不會建立資料模型，也不會最佳化競標或行銷活動預算。</li></ul> |
+| [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li>*[!UICONTROL Optimize]*：最佳化功能正在收集相關行銷活動的點按和收入資料、建立用於最佳化的資料模型，以及最佳化出價、行銷活動預算和行銷活動競標策略目標（視最佳化型別和競標策略而定）。</li><li>*[!UICONTROL Active]*：最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li>*[!UICONTROL Inactive]*：最佳化功能正在收集相關行銷活動的點選資料以用於報表用途，但是它不會建立資料模型，也不會最佳化競標或行銷活動預算。</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report])資產群組為何會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。* |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report])資產群組主要狀態的其他詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* ** {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report])隨廣告一起顯示之產品的產品ID。 <b>注意：</b>只有當產品清單包含追蹤引數`ev_plx=<GMC product ID>`時，才會擷取識別碼，您必須在[!DNL Google Merchant Center]內新增該引數。 |
