@@ -3,9 +3,9 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **轉換追蹤：**&#x200B;轉換追蹤使用Cookie來追蹤a)廣告商在廣告網路上的廣告點選次數，以及b)廣告商網站上產生的交易。
 
-**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型準確度報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型準確度。
+**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型準確度報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型準確度，而[[!UICONTROL Model Accuracy]深入分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型準確度的建議。
 
 **成本模型：** （具有產品組合的廣告商）使用歷史資料和數學預測技術來預測成本量、贏得每個職位或位置所需的出價以及每個出價單位的CPC （搜尋）或CPM （顯示）的搜尋、社交和Commerce技術。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **最低出價：** 1)每次曝光或每1000次曝光要支付的最低金額。 2)對於搜尋關鍵字，指定關鍵字根據其品質分數的最低出價。 為了關鍵字顯示廣告，最低出價通常是每次點按可支付的最低金額。
 
-**模型準確度：** （擁有產品組合的廣告商）用於最佳化產品組合之出價、預算和目標的成本模型和收入模型的準確度百分比。 請參閱「成本模型」、「成本準確度」、「收入模型」和「收入準確度」。  [模型準確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出成本和收入模型的準確性。
+**模型準確度：** （擁有產品組合的廣告商）成本模型與收入模型的準確度百分比，此模型用於最佳化產品組合的競標、行銷活動預算及競標策略目標。 請參閱「成本模型」、「成本準確度」、「收入模型」和「收入準確度」。  [模型準確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出成本和收入模型的準確性。
 
 ## O-P {#o-p}
 
