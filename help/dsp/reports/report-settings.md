@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請聯絡您的Adobe客戶團隊。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]：** （僅轉換路徑、路徑長度和轉換時間報表）包含來自Advertising Search、Social和Commerce的搜尋廣告點按資料。
+**[!UICONTROL Include data from Adobe Advertising SSC]：** （僅轉換路徑、路徑長度和轉換時間報表）包含來自Advertising Search、Social和Commerce的搜尋廣告點按資料。 選取此選項時，請選取要納入的搜尋、社交和Commerce行銷活動。
 
 ## [!UICONTROL Build Your Report]節
 
@@ -137,7 +137,11 @@ ht-degree: 0%
 
 另請參閱&quot;[如何計算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的歸因規則。&quot;
 
-* **回顧：** ([!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告，以及[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]個僅具有[!UICONTROL Conversion Metrics]欄的報告；僅具有Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因於曝光事件<!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports -->後的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
+* **回顧：** ([!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告，以及[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]個僅具有[!UICONTROL Conversion Metrics]欄的報告；僅具有Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因至其的曝光事件或點按事件（針對[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]報告）後的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
+
+  >[!TIP]
+  >
+  >如果您使用[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)，則請使用您在[!DNL Analytics]中使用的相同回顧期間。
 
 **[!UICONTROL Paths as Columns]：** （所有[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]報告包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄）當相同裝置上發生先前的事件時，要報告的轉換型別。 您最多可以包含三種型別。 對於每個選取的型別，每個轉換量度都會包含個別的欄，並附加指定的尾碼（[!UICONTROL (tl)]、[!UICONTROL (ct)]或[!UICONTROL (vt)]）：
 
