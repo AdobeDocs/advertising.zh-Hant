@@ -1,42 +1,37 @@
 ---
-title: 使用Bulksheets檢閱和編輯位置設定
-description: 瞭解如何使用試算表大量檢閱和編輯關鍵位置設定。
+title: 使用Bulksheets檢閱和編輯Campaign元件設定
+description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
-exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-# 使用Bulksheets檢閱和編輯位置設定
+# 使用Bulksheets檢閱和編輯Campaign元件設定
 
-您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
+<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
 
-* 行銷活動鎖定哪些對象。
-* 刊登版位開始傳送及停止的時間。
-* 哪些廣告附加至刊登版位。
+您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載單一行銷活動的套件、版位和廣告設定，以供檢閱。 依預設，下載的檔案會包含封裝設定、封裝航班資訊、放置設定和放置廣告排程的個別標籤。 您可以選擇排除某些行銷活動元件型別的設定。
 
-若要一次更新多個設定，您可以執行下列任一項作業：
+若要一次更新多個設定，請上傳包含變更的有效Bulksheet檔案。 若要建立大量表單，您可以下載空白大量表單範本（其中包含每種促銷活動元件型別的標籤），在範本檔案中輸入或貼上新設定或更新後的設定，然後儲存檔案以上傳它。 可編輯欄位包含大部分通常可編輯的設定。
 
-* 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
-
-* 若要變更其他版位及任何套件的設定，請下載空白大量表單範本（內含各種促銷活動元件索引標籤），在範本檔案中輸入或貼上新設定或更新設定，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)」。[
-
-可編輯的欄位包括版位名稱、狀態、投標、預算、步調策略和頻率上限。
-
->[!TIP]
+>[!NOTE]
 >
->若要快速編輯一或多個位置的多個欄位，請參閱[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)。
+>您也可以僅下載及編輯特定套件和特定位置的設定。 請參閱[使用Bulksheets檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。
 
-## 行銷活動中所有版位的下載設定
+## 行銷活動中套件、版位和廣告的下載設定
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Setup Excel]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**。
 
-   通知訊息會指出檔案何時可供下載。
+1. 在[!UICONTROL QA Sheet Download]對話方塊中，取消選取您要從下載檔案中排除其設定的任何促銷活動元件，然後按一下&#x200B;**[!UICONTROL Download]**。
+
+依預設，會選取所有行銷活動元件的設定。
+
+通知訊息會指出檔案何時可供下載。
 
 1. 若要下載檔案，請執行下列任一項作業：
 
@@ -44,48 +39,31 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-   檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
+     檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
 
-## 一或多個位置的下載設定
+>[!NOTE]
+>
+>您無法編輯和重新上傳行銷活動層級QA檔案。 若要變更這些檔案中的促銷活動元件設定，請[下載個別的設定範本檔案（設定檔案）](#download-template)，從QA檔案輸入或貼上資料列到範本中並儲存檔案，然後[上傳已填入的範本檔案](#upload-bulksheet-campaign-components)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+## 下載行銷活動的Bulksheet範本 {#download-template}
+
+下載空白大量表單範本，其中包含每種行銷活動元件的索引標籤。 您稍後可以將資料列新增至範本上的任何索引標籤，並[上傳編輯過的檔案](##upload-bulksheet-campaign-components)以變更行銷活動元件。
 
 1. 按一下行銷活動的名稱。
 
-1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**。
 
-1. 選取每個要下載其設定的位置旁的核取方塊。
-
-1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**。
-
-   通知訊息會指出何時可下載Bulksheet檔案。
-
-1. 若要下載Bulksheet，請執行下列任一項作業：
-
-   * 在通知訊息中，按一下&#x200B;**[!UICONTROL Download].**
-
-   * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
+1. 在[!UICONTROL Upload Bulksheet]對話方塊中，按一下&#x200B;**[!UICONTROL Bulksheet Template].**
 
    檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
 
+## 上傳含有行銷活動套件、位置和廣告設定的大量表單{#upload-bulksheet-campaign-components}
 
-<!-- I don't think I need this here
+一次在填入的大量工作表中上傳單一行銷活動中套件、位置和廣告的設定。
 
-## Download a Bulksheet Template {#download-template}
+1. [視需要下載大量表單範本](#download-template)，在大量表單範本的相關標籤上輸入或貼上套件、位置及/或廣告設定，然後將檔案儲存至您的裝置或網路。
 
-Download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
-
-## 上傳含有位置設定的Bulksheet {#upload-bulksheet-placement}
-
-您可以在大量表單檔案中上傳版位、以及與版位相關聯的廣告和套件的設定。
+   請參閱以下可用的設定。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -176,28 +154,7 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | 附加至該位置的任何廣告的名稱，或&#x200B;*[!UICONTROL None]*。 | — |
 | [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | 任何附加至刊登版位之廣告的唯一DSP產生廣告ID，以分號分隔。 若要從[!UICONTROL Ads]檢視下載廣告名稱和相關聯的廣告ID清單，請建立包含[!UICONTROL Ad ID]量度的自訂檢視，然後[匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)。 | 是 |
 
-### 位置層級大量表單
-
-| 欄 | 說明 | 可編輯嗎？ |
-|--------|-------------|-----------|
-| [!UICONTROL Placement ID] | 位置的數值ID。 | — |
-| [!UICONTROL Placement Name] | 位置的名稱。 | 是 |
-| [!UICONTROL Package Name] | 父套件的名稱（如果適用）。 | — |
-| [!UICONTROL Start Date] | 刊登的開始日期。 | — |
-| [!UICONTROL End Date] | 刊登的結束日期。 | — |
-| [!UICONTROL Status] | 位置狀態： *[!UICONTROL active]*&#x200B;或&#x200B;*[!UICONTROL inactive]*。 | — |
-| [!UICONTROL Max Bid] | 此位置的最高出價。 | 是 |
-| [!UICONTROL Budget] | 位置預算（如有）。 | 是 |
-| [!UICONTROL Budget Interval] | 預算間隔： &lt;i[!UICONTROL >Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*&#x200B;或&#x200B;*[!UICONTROL All Time]*。 | 是 |
-| [!UICONTROL Primary Frequency Cap] | 指定[!UICONTROL Primary Frequency Cap Interval]期間位置的主要頻率上限。 | 是 |
-| [!UICONTROL Primary Frequency Cap Interval] | 主要頻率上限的間隔： *[!UICONTROL Day]*、*[!UICONTROL Week]*&#x200B;或&#x200B;*[!UICONTROL Month]*。 | 是 |
-| [!UICONTROL Secondary Frequency Cap] | 在指定[!UICONTROL Secondary Frequency Cap Interval]期間放置的次要頻率上限 | 是 |
-| [!UICONTROL Secondary Frequency Cap Interval] | 次要頻率上限的間隔型別： *[!UICONTROL Week]*、*[!UICONTROL Day]*、*[!UICONTROL Hour]*&#x200B;或&#x200B;*[!UICONTROL Minute]*。 [!UICONTROL Secondary Frequency Cap Interval Value]會指出適用的周數、天數、小時數或分鐘數。 | 是 |
-| [!UICONTROL Secondary Frequency Cap Interval Value] | [!UICONTROL Secondary Frequency Cap]適用的周數、天數、小時或分鐘。 例如，如果次要曝光次數上限為每六小時三次曝光，則這裡的值將是`6`。 | 是 |
-| [!UICONTROL Attached Ad ID] | 任何附加至刊登版位之廣告的唯一DSP產生廣告ID，以分號分隔。 若要從[!UICONTROL Ads]檢視下載廣告名稱和相關聯的廣告ID清單，請建立包含[!UICONTROL Ad ID]量度的自訂檢視，然後[匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)。 | 是 |
-
 >[!MORELIKETHIS]
 >
->* [使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
->* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)
+>* [使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)

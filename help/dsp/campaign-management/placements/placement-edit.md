@@ -3,7 +3,7 @@ title: 編輯版位
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中的所有刊登版位的設定；變更關鍵欄位的有限子集；並一次將設定上傳回DSP。 請參閱[使用試算表檢閱及編輯位置設定](placement-qa.md)。
+>您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中的所有刊登版位的設定；變更關鍵欄位的有限子集；並一次將設定上傳回DSP。 請參閱[使用Bulksheets檢閱及編輯位置設定](placement-qa.md)。
 
 ## 快速編輯金鑰位置設定 {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於位置管理](placement-about.md)
->* [使用試算表檢閱和編輯位置設定](placement-qa.md)
+>* [使用Bulksheets檢閱和編輯位置設定](placement-qa.md)
 >* [建立位置](placement-create.md)
 >* [複製位置](placement-duplicate.md)
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)

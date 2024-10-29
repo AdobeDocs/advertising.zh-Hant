@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]：**&#x200B;報告名稱。 長度上限為180個字元。
 
-**[!UICONTROL Report Type]：**&#x200B;報告的型別： *[!UICONTROL Custom]* （包含最可用的選項）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*&#x200B;或&#x200B;*[!UICONTROL Household Conversions]*。
+**[!UICONTROL Report Type]：**&#x200B;報告的型別： *[!UICONTROL Custom]* （包含最可用的選項）、*[!UICONTROL Billing]*、*[!UICONTROL Conversion]*、*[!UICONTROL Device]*、*[!UICONTROL Frequency (by Impression)]*、*[!UICONTROL Frequency (by App/Site)]*、*[!UICONTROL Geo]*、*[!UICONTROL Margin]*、*[!UICONTROL Media Performance]*、*[!UICONTROL Segment]*、*[!UICONTROL Site]*、*[!UICONTROL Household Reach & Frequency]*、*[!UICONTROL Household Conversions]*、*[!UICONTROL Path to Conversions Beta]*、*[!UICONTROL Path Length Beta]*&#x200B;或&#x200B;*[!UICONTROL Time to Conversion Beta]*。
 
 ## [!UICONTROL Report Range]節
 
@@ -62,9 +62,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters]節
 
-**[!UICONTROL Add Filters]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
-
-\* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請聯絡您的Adobe客戶團隊。
+**[!UICONTROL Filter by]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*\*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、* *[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
 
 若要套用一或多個篩選器，請執行下列動作：
 
@@ -72,17 +70,20 @@ ht-degree: 0%
 * （選用）將其他條件新增至篩選器。
 * （選用）新增其他篩選器，每個篩選器一或多個條件。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]：**&#x200B;在報表結果中包含Advertising Search、Social和Commerce中的廣告。
+\* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請聯絡您的Adobe客戶團隊。
+
+**[!UICONTROL Include data from Adobe Advertising SSC]：** （僅轉換路徑、路徑長度和轉換時間報表）包含來自Advertising Search、Social和Commerce的搜尋廣告點按資料。
 
 ## [!UICONTROL Build Your Report]節
 
-**[!UICONTROL Select To Add As Report Headers]：**&#x200B;要包含在報告中的資料欄或標題。 若要新增欄，請展開類別並選取欄名稱旁的核取方塊。 可用的欄會依報告而有所不同，並且所有無法使用的量度都會停用。 可用的資料類別包括：
+**[!UICONTROL Select To Add As Report Headers]：**&#x200B;要包含在報告中的資料欄或標題。 若要新增欄，請展開類別並選取欄名稱旁的核取方塊。 可用的欄會依報告而有所不同，並且所有無法使用的量度都會停用。 可用的資料類別可能包括：
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > [!UICONTROL Household Reach & Frequency]報表只能包含一個維度。
+  > [!UICONTROL Household Reach & Frequency]和[!UICONTROL Path to Conversion]報表只能包含一個維度。
+  > [!UICONTROL Path Length]和[!UICONTROL Time to Conversion]報表不包含維度。
 
 * [!UICONTROL Metrics]
 
@@ -134,9 +135,9 @@ ht-degree: 0%
 
    * *[!UICONTROL Social Only]：*&#x200B;已過時
 
-  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+另請參閱&quot;[如何計算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的歸因規則。&quot;
 
-* **回顧：** ([!UICONTROL Household Conversion]份包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告；僅包含Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因於曝光事件的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
+* **回顧：** ([!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告，以及[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]個僅具有[!UICONTROL Conversion Metrics]欄的報告；僅具有Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因於曝光事件<!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports -->後的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
 
 **[!UICONTROL Paths as Columns]：** （所有[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]報告包含[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄）當相同裝置上發生先前的事件時，要報告的轉換型別。 您最多可以包含三種型別。 對於每個選取的型別，每個轉換量度都會包含個別的欄，並附加指定的尾碼（[!UICONTROL (tl)]、[!UICONTROL (ct)]或[!UICONTROL (vt)]）：
 

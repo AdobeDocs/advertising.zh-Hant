@@ -1,37 +1,62 @@
 ---
-title: 使用試算表檢閱和編輯封裝設定
-description: 瞭解如何使用試算表檢閱和編輯重要套件設定。
+title: 使用Bulksheets檢閱和編輯封裝設定
+description: 瞭解如何使用試算表大量檢閱和編輯重要套件設定。
 feature: DSP Packages
-source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
+exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# 使用試算表檢閱和編輯封裝設定
+# 使用Bulksheets檢閱和編輯封裝設定
 
-您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。 然後，您可以進行變更以選取兩個標籤中的欄位，並一次將資料上傳回DSP。 可編輯欄位包含大部分通常可編輯的設定。
+您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個套件的設定以供檢閱。 試算表內含獨立的索引標籤，內含航班資訊。
+
+若要一次更新多個設定，您可以執行下列任一項作業：
+
+* 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
+
+* 若要變更其他套件以及任何版位或廣告的設定，請下載空白大量表單範本（內含每種促銷活動元件型別的標籤），在範本檔案中輸入或貼上新設定或更新後的設定，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)」。[
+
+可編輯欄位包含大部分通常可編輯的設定。
 
 >[!TIP]
 >
->若要編輯一或多個套件的多個欄位，請參閱&quot;[編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)&quot;。
+>若要快速編輯一或多個套件的多個欄位，請參閱[編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)。
+
+## 行銷活動中所有套件的下載設定
+
+當您下載行銷活動中所有套件的設定時，試算表會針對套件設定和航班資訊包含個別的標籤。 您可以選擇包含與套件相關聯的刊登版位和廣告設定；也會包含額外的索引標籤供刊登版位和廣告設定使用。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動的名稱。
+
+1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**。
+
+1. 在[!UICONTROL QA Sheet Download]對話方塊中，取消選取您要從下載檔案中排除其設定的任何促銷活動元件，然後按一下&#x200B;**[!UICONTROL Download]**。
+
+依預設，會選取與封裝相關聯的所有版位和廣告的設定。
+
+通知訊息會指出檔案何時可供下載。
+
+1. 若要下載檔案，請執行下列任一項作業：
+
+   * 在通知訊息中，按一下&#x200B;**[!UICONTROL Download].**
+
+   * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
+
+     檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
+
+>[!NOTE]
+>
+>您無法編輯和重新上傳行銷活動層級QA工作表。 若要變更這些檔案中的促銷活動元件設定，請下載個別的Bulksheet範本，從QA工作表輸入或貼上列至Bulksheet範本並儲存檔案，然後上傳填入的Bulksheet。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)」。[
 
 ## 一或多個套件的下載設定
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
-
-1. 按一下行銷活動的名稱。
-
-1. 在子功能表中，按一下&#x200B;**[!UICONTROL Packages]**。
-
-1. 選取您要下載其設定的每個封裝旁的核取方塊。
-
-1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**。
-
-檔案會自動儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的封裝欄](#qa-sheet-columns-packages)。
-
-## 上傳一個或多個套件的設定
+當您下載特定封裝的設定時，大量工作表檔案會包含封裝設定和飛行資訊的個別標籤，而且檔案是可編輯的。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -39,11 +64,43 @@ ht-degree: 0%
 
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Packages]**。
 
-1. 選取每個要上傳其設定的封裝旁的核取方塊。
+1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**。
 
-1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]**。
+   通知訊息會指出何時可下載Bulksheet檔案。
 
-1. 在[!UICONTROL Edit in Excel]對話方塊：
+1. 若要下載Bulksheet，請執行下列任一項作業：
+
+   * 在通知訊息中，按一下&#x200B;**[!UICONTROL Download].**
+
+   * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
+
+     檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/已上傳試算表中的位置欄](#qa-sheet-columns)。
+
+<!-- I don't think I need this here
+
+## Download a Bulksheet Template {#download-template}
+
+You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
+
+1. Click the name of the campaign.
+
+1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
+
+-->
+
+## 上傳包含封裝設定的大量表單 {#upload-bulksheet-package}
+
+您可以在大量表單檔案中上傳套件的設定，包括套件的相關版位和廣告。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動的名稱。
+
+1. 按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**。
+
+1. 在[!UICONTROL Upload Bulksheet]對話方塊：
 
    1. 將檔案拖放至方塊中，或按一下方塊內部，從您的裝置或網路選取檔案。
 
@@ -96,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | （只有啟用[!UICONTROL Activate Custom Flighting]選項時才能使用）是否要將上一個航班的任何剩餘預算自動新增到下一個航班的現有預算： *T* (true)或&#x200B;*F* (false)。 | 是 |
 | [!UICONTROL Error] | [!UICONTROL Error] | 任何相關錯誤。 | — |
 
-### [!UICONTROL Package_Flights]索引標籤
+### [!UICONTROL Package_Flights]索引標籤 {#qa-sheet-columns-package-flights}
 
 | 章節 | 欄 | 說明 | 可編輯嗎？ |
 |---------|--------|-------------|-----------|
@@ -109,5 +166,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [編輯封裝](/help/dsp/campaign-management/packages/package-edit.md)
 >* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)

@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [使用行事曆指定日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [顯示和隱藏趨勢圖](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [重新整理管理檢視中的資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + 正在下載管理檢視{#download-data-views}中的資料
+      + 下載管理檢視中的資料{#download-data-views}
          + [從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + 追蹤{#tracking}

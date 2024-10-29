@@ -3,9 +3,9 @@ title: 檢視位置診斷報告
 description: 瞭解如何診斷版位設定和步調的問題。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 0%
    * 若要瞭解DSP為何沒有對位置競標：
 
       1. 按一下右上角的&#x200B;**[!UICONTROL Non Bids]**。
+
+      1. （選用）若要依特定私人交易目標篩選位置，請選取交易。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. （可選）若要變更日期範圍，請按一下日期欄位，然後選取不同的日期或日期範圍。
 
