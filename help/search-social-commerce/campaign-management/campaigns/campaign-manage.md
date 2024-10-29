@@ -3,7 +3,7 @@ title: 管理行銷活動
 description: 瞭解如何建立和管理廣告行銷活動。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 821342d502dd253661cdc7ca62d16b0ae22624a0
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    對於多個行銷活動，視廣告網路而定，設定可能會分組為[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]和[!UICONTROL URL Options]。 您只能編輯所有選定行銷活動的共同欄位，而您的變更會套用至所有選定行銷活動。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
-   針對單一行銷活動，設定可分組為[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]和[!UICONTROL (Google) DSA Options]。 若要設定[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]的其他設定（如果可用），請分別按一下&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
+   對於單一行銷活動，設定可分組為[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]、[!UICONTROL Shopping Settings]、[!UICONTROL Campaign Targeting]、[!UICONTROL Conversion Goals]、[!UICONTROL Advanced Device Options]、[!UICONTROL URL Options]、[!UICONTROL (Google) DSA Options]和([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]。 若要設定[!UICONTROL Negative Keywords]、[!UICONTROL Negative Websites]、[!UICONTROL Campaign Tracking]、[!UICONTROL Asset Groups]或[!UICONTROL Campaign Goals]的其他設定（如果可用），請分別按一下&#x200B;**[!UICONTROL Add Negative Keywords]**、**[!UICONTROL Add Negative Websites]**、**[!UICONTROL Set Campaign Tracking]**、**[!UICONTROL Manage Asset Groups]**&#x200B;或&#x200B;**[!UICONTROL Set Campaign Goals]**。
 
 1. 儲存資料：
 
