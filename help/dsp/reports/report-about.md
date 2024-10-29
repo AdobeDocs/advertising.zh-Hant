@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
+source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 從預先設定的報表範本中選擇，並選擇性進一步自訂。
 
-您可以產生報表一次，或根據指定條件（例如每15天或每個月1日），排程在指定時區的03:00產生報表。 報告產生後，您可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]或以下列型別的已連結[報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)下載報告：
+您可以根據指定條件（例如每15天或每個月1日），在指定時區的03:00產生一次報表，或安排每日、每週或每月產生報表。 報告產生後，您可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]或以下列型別的已連結[報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)下載報告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -53,11 +53,11 @@ ht-degree: 0%
      >* 頻率是根據資料取樣來估計。
      >* 對於某些詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。 此報表僅包含可使用裝置識別碼的曝光數。
 
-   * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此報告瞭解透過應用程式或網站觸及多少不重複使用者。 您也可以檢視僅透過特定應用程式或網站觸及的不重複使用者人數（「不重複使用者」）。
+   * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此報告來瞭解透過應用程式或網站到達您的廣告的不重複使用者數目。 您也可以檢視您的廣告僅透過特定應用程式或網站觸及的不重複使用者人數（「不重複使用者」）。
 
      >[!NOTE]
      >
-     >* 資料會在2018年11月15日之後提供。
+     >* 2018年11月15日之後提供資料。
      >* 對於某些私人詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。
 
    * **[!UICONTROL Geo]**：使用此預先填入的範本，依地理維度檢視關鍵量度。
@@ -69,7 +69,7 @@ ht-degree: 0%
      >[!NOTE]
      >
      >* 此報表旨在顯示不同目標區段的表現。 它使用區段會籍資料。 當向屬於兩個或多個目標區段的人或裝置提供曝光時，此報表會為每個區段包含一個列。 因此，此報表中的總計可能與實際傳送不符。
-     >* 區段的轉換量度和自訂目標資料在2019年8月2日之後提供。 自2018年6月1日開始，可使用區段的所有其他資料。
+     >* 區段的轉換量度和自訂目標資料在2019年8月2日後可供使用。 自2018年6月1日開始，可使用區段的所有其他資料。
 
    * **[!UICONTROL Site]：**&#x200B;依預設，包含標準量度、媒體淨支出總計，以及依網站區分的可計費淨支出總計。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)。 無法針對通用ID的位置使用資料。
 
-   * **[!UICONTROL Path to Conversion Beta]：** (Beta功能)使用此報表，透過在首次互動與轉換之間的指定回顧期間，檢視同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表可包含一個維度：
+   * **[!UICONTROL Path to Conversion Beta]：** (Beta功能)使用此報告來識別如何最佳化預算，以及根據表現最佳的廣告互動序列來個人化廣告。 報表會顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表會在首次互動與轉換之間使用指定的回顧期間，且可包含一個維度：
 
       * [!UICONTROL Channel Assist Type]：顯示下列行銷管道協助轉換程式的方式： [!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
      包括最多10個最近的互動點。 路徑列會依轉換次數排序。
 
-   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報表，依路徑長度（互動點）檢視轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等之後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報表，根據轉換所需的使用者互動點數來管理廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
      會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
-   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表可依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）檢視轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
+   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表來決定最佳歸因回顧期間，並找出重新目標定位的新機會。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
