@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,26 @@ ht-degree: 0%
    * **[!UICONTROL Household Reach & Frequency]：**&#x200B;此報表可根據IP位址（而非裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及範圍和頻率。 運用見解來最佳化您的媒體組合、改善效能，並找出遞增觸及的機會。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)。 無法針對通用ID的位置使用資料。
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)。 無法針對通用ID的位置使用資料。
+
+   * **[!UICONTROL Path to Conversion Beta]：** (Beta功能)使用此報表，透過在首次互動與轉換之間的指定回顧期間，檢視同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表可包含一個維度：
+
+      * [!UICONTROL Channel Assist Type]：顯示下列行銷管道協助轉換程式的方式： [!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
+
+      * [!UICONTROL Campaign ID]或[!UICONTROL Campaign Name]：顯示哪些行銷活動協助了轉換程式。
+
+      * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]會顯示哪些DSP廣告導致轉換。
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]會顯示哪些Search、Social和Commerce關鍵字導致了轉換。
+
+     報表中的欄包括&quot;[!UICONTROL Event #1]&quot;到&quot;[!UICONTROL Event #10]&quot;[!UICONTROL Path Length]&quot;、&quot;% \&lt;轉換量度名稱1\>、&quot;% \&lt;轉換量度名稱2\>&quot;等。
+
+     包括最多10個最近的互動點。 路徑列會依轉換次數排序。
+
+   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報表，依路徑長度（互動點）檢視轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等之後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+
+     會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
+
+   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表可依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）檢視轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
