@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [封存或取消封存行銷活動](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Campaign設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [行銷活動啟動檢查清單](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + 封裝{#packages}
       + [關於封裝管理](/help/dsp/campaign-management/packages/package-about.md)
       + [建立封裝](/help/dsp/campaign-management/packages/package-create.md)
-      + [使用試算表檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)
+      + [使用Bulksheets檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)
       + [編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)
       + [複製套裝](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [將位置附加至封裝](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + 版位{#placements}
       + [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
-      + [使用試算表檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)
       + [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
       + [複製投放位置](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [下載自訂報表](/help/dsp/reports/report-download.md)
    + [自訂報表設定](/help/dsp/reports/report-settings.md)
    + [可用報表欄](/help/dsp/reports/report-columns.md)
-   + [家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)
+   + [家庭報表常見問題集](/help/dsp/reports/faq-reports.md)
    + 報告目的地{#report-destinations}
       + [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

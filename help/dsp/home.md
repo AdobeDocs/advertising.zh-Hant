@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: bcaa18aa380c109775e9547bd65307798107dd85
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 0%
@@ -60,10 +60,10 @@ ht-degree: 0%
 |  |  | 您現在可以下載促銷活動或一或多個版位的試算表檔案、編輯檔案以在新的&quot;[!UICONTROL Attached Ad ID]&quot;欄中包含值，然後上傳編輯的檔案，快速將多個廣告與版位建立關聯。 使用欄將廣告新增至位置，但不會移除廣告。<br><br>若要下載廣告名稱和相關聯的[!UICONTROL Ad ID]清單，請移至[!UICONTROL Ads]檢視，建立包含[!UICONTROL ID]量度的自訂檢視，然後匯出資料。 | 請參閱「[在試算表中檢閱及編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)」。<br><br>另請參閱「[從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)」。 |
 |  | [!UICONTROL Custom Reports] | 自訂報告現在有[!UICONTROL End Date]，最多可於四個月後提供。 若為現有報告，到期日為2023年9月24日。<br><br>在報告到期之前，所有指定的電子郵件收件者都會在到期日七天零一天前收到電子郵件通知。 若要保留更長的報表，請變更報表設定中的到期日。 | 請參閱&quot;[編輯自訂報告](/help/dsp/reports/report-edit.md)&quot;和&quot;[自訂報告設定](/help/dsp/reports/report-settings.md)&quot;。 |
 | 2023年7月19日 | 詳細目錄 | 您現在可以透過Google授權買家SSP針對程式化預留交易執行發佈者管理的廣告。 您可以直接向發佈商代管您的廣告，而不用在DSP中，善用自訂的豐富媒體廣告格式。 自訂廣告格式通常透過直接預訂執行，因此在DSP中選取由發佈商管理的廣告的功能也可讓您將直接預訂預算轉移到程式化生態系統。 | 請參閱[關於程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-about.md)和[設定程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)。 |
-| 2023年7月19日 | 報告 | 新[!UICONTROL Household Conversions Report]會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱&quot;[關於報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於家庭報告的常見問題集](/help/dsp/reports/faq-household-report.md)&quot;。 |
+| 2023年7月19日 | 報告 | 新[!UICONTROL Household Conversions Report]會根據IP位址顯示家庭層級的檢視轉換，而非裝置/Cookie層級。 | 請參閱&quot;[關於報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於家庭報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
 | 2023年5月29日 | [!UICONTROL Campaigns] | 您現在可以暫停或啟用行銷活動、套件和廣告。 您已經可以暫停並啟用版位。 | 請參閱&quot;[暫停或啟動行銷活動](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)&quot;、&quot;[暫停或啟動封裝](/help/dsp/campaign-management/packages/package-pause-activate.md)&quot;以及&quot;[暫停或啟動廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)&quot;。 |
 | 2023年5月24日 | [!UICONTROL Campaigns] | 通用視訊版位和廣告現已正式推出。 | 請參閱[通用視訊](/help/dsp/campaign-management/faq-universal-video.md)相關常見問題集、[通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)和[建立廣告](/help/dsp/campaign-management/ads/ad-create.md)。 |
-| 2023年3月 | [!UICONTROL Reports] | 新的[!UICONTROL Household Report]會根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及範圍和頻率。 報告包含九個維度： [!UICONTROL Campaign]、[!UICONTROL Package]、[!UICONTROL Placement]、[!UICONTROL Site/Apps]、[!UICONTROL Media Type]、[!UICONTROL Device]、[!UICONTROL Audience]、[!UICONTROL Creative Length]以及使用者建立的[!UICONTROL Tags]。 | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)&quot;、&quot;[報表設定](/help/dsp/reports/report-settings.md)&quot;以及&quot;[家庭報表常見問題集](/help/dsp/reports/faq-household-report.md)&quot;。 |
+| 2023年3月 | [!UICONTROL Reports] | 新的[!UICONTROL Household Report]會根據IP位址（而非裝置/Cookie層級），在家庭層級顯示各種維度的曝光數、觸及範圍和頻率。 報告包含九個維度： [!UICONTROL Campaign]、[!UICONTROL Package]、[!UICONTROL Placement]、[!UICONTROL Site/Apps]、[!UICONTROL Media Type]、[!UICONTROL Device]、[!UICONTROL Audience]、[!UICONTROL Creative Length]以及使用者建立的[!UICONTROL Tags]。 | 請參閱&quot;[關於報表](/help/dsp/reports/report-about.md)&quot;、&quot;[報表設定](/help/dsp/reports/report-settings.md)&quot;以及&quot;[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
 | 2023年3月20日 | [!UICONTROL Campaigns] | 深入瞭解開放測試版功能的通用視訊版位和廣告。 | 請參閱[關於通用視訊](/help/dsp/campaign-management/faq-universal-video.md)的常見問題集。 |
 | 2023年2月15日 | [!UICONTROL Campaigns] | 以圖表表單檢視變更記錄檔及新增附註至任何專案的選項已移出Beta版。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;，請參閱&quot;[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)&quot;，以及請參閱&quot;[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md)&quot;。 |
 | 2023年2月3日 | [!UICONTROL Campaigns] | (Beta功能)您現在可以圖表形式檢視變更記錄，並可將附註新增至任何專案。 | 請參閱&quot;[檢視行銷活動的變更記錄](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;，請參閱&quot;[檢視封裝的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)&quot;，以及請參閱&quot;[檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md)&quot;。 |
