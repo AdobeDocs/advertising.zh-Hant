@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ ht-degree: 0%
 * 選取維度、選取運運算元（*等於*&#x200B;或&#x200B;*不等於*），然後選取適用的值。 例如，若要只傳回前段廣告的資料，請指定&quot;[!UICONTROL Ad Type equals Preroll]&quot;。
 * （選用）將其他條件新增至篩選器。
 * （選用）新增其他篩選器，每個篩選器一或多個條件。
+
+**[!UICONTROL Include data from Adobe Advertising SSC]：**&#x200B;在報表結果中包含Advertising Search、Social和Commerce中的廣告。
 
 ## [!UICONTROL Build Your Report]節
 

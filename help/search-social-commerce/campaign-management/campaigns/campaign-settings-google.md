@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/delivery-method.md}}
 
-**[!UICONTROL Bid strategy]：**&#x200B;行銷活動的競標策略：
+**[!UICONTROL Bid strategy]：** 行銷活動的競標策略：
 
 * *[!UICONTROL Enhanced CPC]：* （不適用於最高成效或現有的唯讀[!DNL Gmail]行銷活動）使用廣告網路的增強型每次點按成本(eCPC)模型，此模型可讓廣告網路自動變更每個拍賣的每次點按成本(CPC)競標，以嘗試使用廣告網路內指定的轉換(不在「搜尋」、「社交」和「Commerce」中)，將平均每次點按成本(CPC)保持在最高CPC以下，藉此最大化轉換率。
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用&quot;[!UICONTROL Enhanced CPC]&quot;選項相同。
 
-* *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，出價是由點按權重驅動，而不是由產品組合目標驅動。
+* *[!UICONTROL Maximize Clicks]：* （Search、展示廣告系列和購物廣告系列） 廣告網路 — 不是 Search、Social &amp; Commerce — 會優化競標以最大限度地提高點擊次數。 （每次點按成本） 也可以輸入 **[!UICONTROL Max CPC]** （），以確保廣告網路每次點按支付的費用不會超過特定金額。 **注意：** 當您將此策略行銷活動添加到作品集時，出價是由點擊權重而不是作品集目標驅動的。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜尋、最高成效和智慧型購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作為百分比。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
+* *[!UICONTROL Maximize Conversion Value]：* （Search、效果最大化和智能購物廣告系列） 廣告網路 — 不是 Search、Social &amp; Commerce — 會優化競標以最大化轉換價值。 可選擇性輸入百分比 **[!UICONTROL Target Return on Ad Spend]** （ROAS）。 **注意：** 此選項用於混合產品群組中的廣告系列，但不適用於標準產品群組。 在混合產品組合中，Search、Social &amp; Commerce 會優化行銷活動級或（如果可用）廣告群組級Target ROAS。
 
 * *[!UICONTROL Maximize Conversions]：* （搜尋、顯示和效能最大化行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target CPA]** （每次取得的成本）。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化行銷活動層級或（可用時）廣告群組層級的目標CPA。
 
@@ -90,18 +90,18 @@ ht-degree: 0%
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-* *[!UICONTROL Target Impression Share]：* （搜尋行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作為百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]** （每次點按成本）。 **注意：**&#x200B;投資組合不支援此選項。
+* *[!UICONTROL Target Impression Share]：* （Search廣告系列）廣告網路 - 不是Search，Social和商務 - 優化出價以實現目標印象份額和廣告位置。 選擇性地輸入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作為百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]** （每次點按成本）。 **注意：**&#x200B;投資組合不支援此選項。
 
 * *[!UICONTROL Target Return on Ad Spend]：* （顯示和購物行銷活動）廣告網路(不是Search、Social和Commerce)會根據指定的百分比&#x200B;**[!UICONTROL Target ROAS]** （廣告投資報酬率）來最佳化競標。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-* *[!UICONTROL Viewable CPM]：* （僅限現有、唯讀的[!DNL Gmail]行銷活動）廣告網路(而非Search、Social和Commerce)僅針對測量為可檢視的廣告出價。 **注意：**&#x200B;任何型別的投資組合都不支援此策略的最佳化。
+* *[!UICONTROL Viewable CPM]：* （僅限現有的只讀 [!DNL Gmail] 促銷活動） 廣告網路 — 不是 Search、Social &amp; Commerce — 只對被衡量為可見的廣告出價。 **注意：** 任何類型的作品集都不支援此策略的優化。
 
 ## [!UICONTROL Shopping Settings]
 
-**[!UICONTROL Sales Country]：** （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動的國家/地區
-促銷活動的產品已售出。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。
+**[!UICONTROL Sales Country]：** （僅限購物促銷活動;對於現有促銷活動為唯讀） 顯示的國家
+出售行銷活動的產品。 由於產品與目標國家/地區相關聯，因此此設置決定了在行銷活動中宣傳哪些產品。
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Local Inventory Ads]：** （僅限購物行銷活動；廣告商已參與當地購物方案，在美國、英國、DE、FR、JP和AU有[!DNL Google Merchant Center]家商店；選擇性）允許[!DNL Google Ads]自動將您的當地詳細目錄資訊新增到Google.com上的購物廣告中。
+**[!UICONTROL Local Inventory Ads]：** （僅限購物廣告系列;已在美國、英國、德國、法國、日本和澳大利亞設有商店參與 [!DNL Google Merchant Center] 本地購物方案的廣告客戶;可選）允許 [!DNL Google Ads] 在 Google.com 上自動將您的本地產品目錄資訊添加到您的購物廣告中。
 
-**秘訣：**&#x200B;如果您使用此設定，請勿在[!UICONTROL Inventory Filter]設定中排除本機廣告。
+**秘訣：** 如果您使用此設置，請勿在此設置中 [!UICONTROL Inventory Filter] 排除本地廣告。
 
-**注意：**&#x200B;本機詳細目錄廣告需要[!DNL Google Merchant Center]的兩個額外摘要 — 一個包含您的本機產品資料，另一個包含您的本機產品詳細目錄。 請參閱[!DNL Google Ads]檔案以取得有關[本機購物廣告](https://www.google.com/retail/local-inventory-ads/)的詳細資訊。
+**注意：** 本地商品目錄廣告需要兩個額外的 Feed， [!DNL Google Merchant Center] 一個包含本地商品數據，另一個包含本地產品廣告資源。 請參閱[!DNL Google Ads]檔案以取得有關[本機購物廣告](https://www.google.com/retail/local-inventory-ads/)的詳細資訊。
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -196,6 +196,18 @@ ht-degree: 0%
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]：** （僅限最高績效與搜尋行銷活動）如何為新客戶和現有客戶分配競標：
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **注意：**&#x200B;若要使用此設定，您必須先啟用[!DNL Google Ads]帳戶或（如果適用）經理帳戶的新客戶贏取目標。 目標會定義符合資格的現有客戶清單，以及轉換設定中新客戶的其他轉換值。 請參閱[!DNL Google Ads]說明中的步驟1-2 &quot;[啟用新的客戶贏取目標](https://support.google.com/google-ads/answer/14007601)&quot;。
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -250,7 +262,7 @@ ht-degree: 0%
 
 **[!UICONTROL Asset Group Status]：**&#x200B;資產群組的狀態： *[!UICONTROL Active]*&#x200B;或&#x200B;*[!UICONTROL Paused]*。
 
-**[!UICONTROL Final URL]：**&#x200B;從資產群組建立的所有廣告的最終URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
+**[!UICONTROL Final URL]：** 根據資產群組建立的所有廣告的最終URL。 <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
 **[!UICONTROL Images]：**&#x200B;廣告的最多15個影像，包括下列大小： 1)至少三個正方形影像、2)至少三個橫向影像，以及3)至少一個直向影像。 請參閱[[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上傳影像或從[!UICONTROL Asset Library]中選取影像 — 但無法在同一作業中同時選取兩者。
 
@@ -278,7 +290,7 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+   1. 在 [!UICONTROL Upload from Device] 標籤上，按兩下 **[!UICONTROL +]** 並從裝置或網路中選擇圖像。
 
    1. 對於每個影像：
 
@@ -288,15 +300,15 @@ ht-degree: 0%
 
       1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-         系統會為每個選取的外觀比例建立一個資產。
+         為每個選定的外觀比例創建一個資產。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+      1. 按兩下 **[!UICONTROL Proceed]**。
 
-   1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
+   1. 指定完影像後，按下 **[!UICONTROL Upload]**。
 
-* 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
+* 若要從 中 [!UICONTROL Asset Library]選取影像，請按下 **[!UICONTROL Asset Library]** 並選擇影像。
 
-**[!UICONTROL Videos]：** （選用）長度至少10秒的至少一個、最多5個[!DNL YouTube]影片。 您可以輸入URL或從[!UICONTROL Asset Library]中選取URL — 但無法在同一作業中同時選取兩者。
+**[!UICONTROL Videos]：** （可選） 至少 1 個且最多 5 個 [!DNL YouTube] 長度至少為 10 秒的視訊。 您可以輸入 URL 或從 URL 中選擇 [!UICONTROL Asset Library] 它們，但不能在同一操作中同時輸入兩者。
 
 * 若要輸入URL：
 
@@ -368,4 +380,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
