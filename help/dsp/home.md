@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 43e72ae59ef7b91df6d5a490df2d15b79bda71ce
 workflow-type: tm+mt
-source-wordcount: '4617'
+source-wordcount: '4622'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三個新報表提供更深入的見解，以瞭解哪些廣告互動路徑會導致轉換：<ul><li>[!UICONTROL Path to Conversion Beta]：顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。</li><li> [!UICONTROL Path Length Beta]：依路徑長度（互動點）顯示轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。</li><li>[!UICONTROL Time to Conversion Beta]會依據上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;。 |
+| 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三個新報表提供更深入的見解，以瞭解哪些廣告互動路徑會導致轉換：<ul><li>[!UICONTROL Path to Conversion Beta]：顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。</li><li> [!UICONTROL Path Length Beta]：依路徑長度（互動點）顯示轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。</li><li>[!UICONTROL Time to Conversion Beta]會依據上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 您現在可以在一個試算表中檢閱行銷活動中所有套件、版位和廣告的設定。 您可以下載已選取行銷活動元件型別（可包括「套件」、「刊登」、「刊登版位廣告排程」、「刊登版位競標乘數」、「廣告」和「畫素」）的現有設定QA工作表，以進行稽核。 若要新增或編輯任何設定，請下載空白的Bulksheet範本，從QA工作表輸入或貼上促銷活動元件資料至Bulksheet範本，然後上傳已填入的Bulksheet。<br><br>此外，下載特定封裝和位置設定的命令名稱現在是&quot;[!UICONTROL Download Bulksheet]&quot;。 您可以從右上角的[!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot;選項上傳特定套件和位置的設定。 | 請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯Campaign元件設定」。[<br><br>另請參閱[使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱及編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
 | | [!UICONTROL Placements]，私人詳細目錄，[!UICONTROL Non Bid Reasons] | 您現在可以依刊登版位鎖定的特定私人交易來篩選刊登版位的「非競標原因」清單。 此功能不適用於以所有私人詳細目錄為目標的刊登版位。<br><br>此外，在[!UICONTROL Inventory] > [!UICONTROL Deals]列出的私人交易的[!UICONTROL Placements and Ads]檢視現在每列都包含「[!UICONTROL Non bid reasons]」選項。 按一下選項，開啟位置診斷報告至Non Budds索引標籤，依私人交易篩選。 | 請參閱&quot;[檢視版位診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)&quot;和&quot;[列出私人交易的版位和廣告](/help/dsp/inventory/private-deal-view-placements.md)&quot;。 |
 | 2024年9月25日 | [!UICONTROL Campaigns]，[!UICONTROL Placements]，[!UICONTROL Optimization] | [!DNL Oracle]將於9月30日前終止其廣告業務。 DSP已停用[!DNL BlueKai]、[!DNL Oracle Data Cloud] （先前為[!DNL Grapeshot]）和[!DNL MOAT]的所有服務，並將其從廣告商設定、行銷活動設定、位置設定和最佳化目標中移除。 但是，具有現有[!DNL BlueKai]區段的任何刊登版位可能會繼續為這些區段花費，直到9月30日。<br><br>下列替代方案可供使用：<ul><li>標準協力廠商和自訂區段： [!DNL eXelate]、[!DNL Eyeota]、[!DNL LiveRamp]、[!DNL Lotame]、[!DNL Neustar]和其他可用的協力廠商資料合作夥伴</li><li>預測性協力廠商區段： [!DNL Proximic by Comscore]</li><li>使用[!DNL Integral Ad Science]的行銷活動層級品牌安全性和可檢視度測量</li><li>使用[!DNL DoubleVerify]和[!DNL Integral Ad Science]的位置層級競標前可見性</li><li>由[!DNL Proximic by Comscore]定位的位置層級主題</li></ul>協力廠商區段的CPM定價可在[!UICONTROL Audience Library]中取得，而服務的CPM定價可在[!UICONTROL Settings] > [!UICONTROL Fees]取得。 | 請參閱「[可用的協力廠商資料提供者](/help/dsp/audiences/third-party-data-providers.md)」、「[品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)」、「[行銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)」和「[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)」。 |
