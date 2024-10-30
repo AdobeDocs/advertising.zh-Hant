@@ -3,9 +3,9 @@ title: 列出私人交易的刊登版位和廣告
 description: 瞭解如何開啟與私人交易相關的刊登版位和廣告清單。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 1. （可選）執行下列任一項作業：
 
+   * 若要檢視刊登版位無法對私人交易競標的原因，請將游標停留在刊登版位列上，然後按一下&#x200B;**[!UICONTROL Non bid reasons]**。
+
    * 若要編輯位置的設定，請將游標停留在位置列上，然後按一下&#x200B;**[!UICONTROL Edit]**。 [編輯位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下&#x200B;**[!UICONTROL Update placement]**。
 
    * 若要從位置的詳細目錄目標移除交易，請將游標停留在位置列上，然後按一下&#x200B;**[!UICONTROL More]** > **[!UICONTROL Detach Placement]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Yes]**。
@@ -35,3 +37,4 @@ ht-degree: 0%
 >* [關於私人詳細目錄](private-inventory-about.md)
 >* [指定交易ID的位置和廣告](deal-id-attach-placements.md)
 >* [檢視交易的詳細報告](deal-view-report.md)
+>* [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
