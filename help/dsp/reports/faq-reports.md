@@ -2,9 +2,9 @@
 title: 自訂報表常見問題集
 description: 進一步瞭解自訂報告，包括家庭報告和轉換路徑分析報告。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 ## 轉換路徑分析報表
 
-### 轉換路徑報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告有何不同？
+### 轉換路徑報表與[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace建立的報表有何不同？
 
-| | 轉換報表的路徑 | Advanced Measurement Services對搜尋報表的光暈效果 | Adobe Analytics Workspace報表 |
+| | 轉換報表的路徑 | Advanced Measurement Services對搜尋報表的光暈效果 | Analysis Workspace中的報表 |
 | --- | --- | --- |---|
 | 客戶價值 | 產生自助式自訂報表，瞭解廣告歷程的哪些路徑導致更多轉換，以提升最佳化 | 瞭解連線電視(CTV)策略對搜尋點選數的影響 | 瞭解您的整體Adobe Advertising投資以及其他行銷管道對搜尋點選的影響 |
 | 家庭層級 | 是 | 是 | 否 |
