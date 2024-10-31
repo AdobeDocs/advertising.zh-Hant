@@ -3,7 +3,7 @@ title: ' [!DNL Analytics] 和Adobe Advertising之間的預期資料差異'
 description: ' [!DNL Analytics] 和Adobe Advertising之間的預期資料差異'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
 >
 >為避免混淆，[!DNL Analytics]會在報表介面中隱藏歷史資料。 如果您將[!DNL eVar]變更回初始配置設定，則可以檢視歷史資料，但您不應僅為了存取歷史資料而變更[!DNL eVar]配置設定。 Adobe建議，當您想要為已記錄的資料套用新的配置設定時，請使用新的[!DNL eVar]，而不是變更已具有大量歷史資料的[!DNL eVar]的配置設定。
 
-在[https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html)檢視[!DNL Analytics]歸因模型及其定義的清單。
+在[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)檢視[!DNL Analytics]歸因模型及其定義的清單。
 
 如果您已登入[!DNL Search, Social, & Commerce]，您可以找到清單
 
