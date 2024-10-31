@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ ht-degree: 0%
 
      包括最多10個最近的互動點。 路徑列會依轉換次數排序。
 
-   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報表，根據轉換所需的使用者互動點數來管理廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+     若要將此報告與[!DNL Advanced Measurement Services]和Adobe分析所建立的報告進行比較，請參閱[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)。
+
+   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報告      追蹤一段時間中轉換所需的使用者互動點數量，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
      會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
-   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表來決定最佳歸因回顧期間，並找出重新目標定位的新機會。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
+   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
