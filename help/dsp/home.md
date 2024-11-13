@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 43e72ae59ef7b91df6d5a490df2d15b79bda71ce
+source-git-commit: e061d8006064a0f8ef0446d8c51474c99797994f
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4748'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024年11月13日 | [!DNL Analytics for Advertising] | (具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的廣告商)如果您使用保留的變數來擷取AMO ID和EF ID，那麼您可以透過儘快將您為AMO ID和EF ID保留的變數複製到標準[!DNL eVars]中，為Adobe Advertising和Adobe Customer Journey Analytics之間的未來整合做好準備。 這樣一來，當您完成工作時，即可立即收集AMO ID和EF ID的歷史資料，且這些歷史資料可供日後使用。 如果您使用保留的變數且需要完成此工作，您的Adobe客戶團隊會通知您。 | 請參閱&quot;[收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)&quot;。 |
 | 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三個新報表提供更深入的見解，以瞭解哪些廣告互動路徑會導致轉換：<ul><li>[!UICONTROL Path to Conversion Beta]：顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。</li><li> [!UICONTROL Path Length Beta]：依路徑長度（互動點）顯示轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。</li><li>[!UICONTROL Time to Conversion Beta]會依據上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 您現在可以在一個試算表中檢閱行銷活動中所有套件、版位和廣告的設定。 您可以下載已選取行銷活動元件型別（可包括「套件」、「刊登」、「刊登版位廣告排程」、「刊登版位競標乘數」、「廣告」和「畫素」）的現有設定QA工作表，以進行稽核。 若要新增或編輯任何設定，請下載空白的Bulksheet範本，從QA工作表輸入或貼上促銷活動元件資料至Bulksheet範本，然後上傳已填入的Bulksheet。<br><br>此外，下載特定封裝和位置設定的命令名稱現在是&quot;[!UICONTROL Download Bulksheet]&quot;。 您可以從右上角的[!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot;選項上傳特定套件和位置的設定。 | 請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯Campaign元件設定」。[<br><br>另請參閱[使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱及編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
 | | [!UICONTROL Placements]，私人詳細目錄，[!UICONTROL Non Bid Reasons] | 您現在可以依刊登版位鎖定的特定私人交易來篩選刊登版位的「非競標原因」清單。 此功能不適用於以所有私人詳細目錄為目標的刊登版位。<br><br>此外，在[!UICONTROL Inventory] > [!UICONTROL Deals]列出的私人交易的[!UICONTROL Placements and Ads]檢視現在每列都包含「[!UICONTROL Non bid reasons]」選項。 按一下選項，開啟位置診斷報告至Non Budds索引標籤，依私人交易篩選。 | 請參閱&quot;[檢視版位診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)&quot;和&quot;[列出私人交易的版位和廣告](/help/dsp/inventory/private-deal-view-placements.md)&quot;。 |
