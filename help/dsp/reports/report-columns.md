@@ -3,7 +3,7 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -155,12 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | 非計費媒體的總淨成本，包括未透過DSP計費的技術費用。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | 未透過DSP計費的其他服務費用（協力廠商驗證合作夥伴、廣告服務等）總成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | 對象區段資料費用的總淨成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | 包括技術費用在內的媒體淨成本總計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]和[!UICONTROL Net Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | 其他服務費用（協力廠商驗證合作夥伴、廣告服務等）的總淨成本。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 觀看整個廣告的檢視百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 觀看整個廣告的檢視次數。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 觀看整個廣告的可檢視曝光數百分比。 |
