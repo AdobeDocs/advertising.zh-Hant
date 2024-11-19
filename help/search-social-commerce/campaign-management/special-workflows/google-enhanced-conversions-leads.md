@@ -2,9 +2,10 @@
 title: 對潛在客戶實作 [!DNL Google Ads] 增強型轉換
 description: 瞭解為潛在客戶設定 [!DNL Google Ads] 增強型轉換的工作流程。
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 潛在客戶的[[!DNL Google Ads] 增強型轉換](https://support.google.com/google-ads/answer/9888656)可讓您使用第一方轉換資料，將使用者對應至離線轉換。 在無法使用點選ID的環境中對潛在客戶使用增強型轉換，例如追蹤網站潛在客戶導致的電話或電子郵件銷售。
 
-在「搜尋」、「社交」和「Commerce」中，您可以將潛在客戶的增強型轉換作為量度包含在報表中，並將加權量度包含在最佳化目標中。 搜尋、社交和Commerce會在廣告商的時區中，每日05:00同步潛在客戶的現有增強型轉換。
+在「搜尋」、「社交」和「Commerce」中，您可以：
+
+* 檢視潛在客戶的現有增強型轉換。
+
+  搜尋、社交和Commerce會在廣告商的時區中，每日05:00同步潛在客戶的現有增強型轉換。
+
+* 為潛在客戶建立增強的轉換。
+
+* 上傳第一方離線轉換資料，以對應至潛在客戶的增強型轉換。
+
+* 將潛在客戶的增強型轉換作為量度納入報表，並將加權量度納入最佳化目標。
 
 若要使用此功能，請完成下列步驟。 建立轉換追蹤標籤與建立轉換動作的步驟可選擇性地予以回覆。
 
