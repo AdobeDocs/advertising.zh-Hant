@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2dfa561f664672905fd40a005dde7b6ff49a970c
+source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   >
   >您也可以[隨時從[!UICONTROL Reports]檢視](report-run-now.md)執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的日期執行報告，以在帳戶時區的09:00前完成。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期以09:00執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 
