@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # 廣告商帳戶設定
 
 *不適用於唯讀使用者*
+
+<!-- Not published -->
 
 ## [!UICONTROL General]設定
 
@@ -166,11 +168,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Enable Site Safety Block]：**&#x200B;依預設，會啟用即時、競標後篩選條件，以確保廣告可在廣告商鎖定的網站上提供。<!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織[!DNL DoubleVerify]帳戶關聯的品牌安全區段ID。
 
-**[!UICONTROL Enable Authentic Brand Safety]：** （選擇性）依預設，會啟用[!DNL DoubleVerify]真實品牌安全，它會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
+**[!UICONTROL Enable Authentic Brand Suitability]：** （選擇性）依預設，會啟用[!DNL DoubleVerify Authentic Brand Safety]，其會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
 
 您可以在版位層級覆寫廣告商層級設定。
 
