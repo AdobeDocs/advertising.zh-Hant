@@ -3,9 +3,9 @@ title: ' [!DNL Analytics for Advertising]的概觀'
 description: ' [!DNL Analytics for Advertising]的概觀'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
+source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 
 ### 網站轉換量度做為競標訊號
 
-您可以使用來自[!DNL Analytics]的標準事件和自訂事件，在Adobe Advertising中建置加權目標。 目標會通知您[!DNL DSP]套件和搜尋產品組合的競標決定。
+您可以使用來自[!DNL Analytics]的標準事件和自訂事件，在Adobe Advertising中建置加權目標。 目標為您的[!DNL DSP]套件和搜尋、社交和Commerce產品組合的競標決定提供資訊。
 
 >[!NOTE]
 >
