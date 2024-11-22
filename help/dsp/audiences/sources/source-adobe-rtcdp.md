@@ -3,7 +3,7 @@ title: 使用DSP與 [!DNL Adobe] [!DNL Real-time CDP]的整合
 description: 瞭解如何啟用DSP以擷取您的 [!DNL Adobe] [!DNL Real-time CDP]第一方區段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP與[ [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) (屬於Adobe Experience Platform的一部分)的整合，將雜湊電子郵件地址轉換為通用識別碼以用於目標定位廣告。
+使用DSP與[ [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) (屬於Adobe Experience Platform的一部分)的整合，將雜湊電子郵件地址轉換為通用識別碼以用於目標定位廣告。
 
 1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
 

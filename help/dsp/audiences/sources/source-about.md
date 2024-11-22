@@ -3,7 +3,7 @@ title: 關於第一方對象來源
 description: 瞭解如何將第一方區段中的其他使用者識別碼轉換為通用ID以用於無cookie目標定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP已建立下列CDP的聯結器，以快速內嵌您的第一方區段。
 
 DSP也可以使用批次、串流或API型資料共用來連線至任何其他CDP。 若要與新的CDP整合，請聯絡您的Adobe客戶團隊。
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)的整合式&#x200B;*目的地*，它是Adobe Experience Platform的一部分。
+DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)的整合式&#x200B;*目的地*，它是Adobe Experience Platform的一部分。
 
 在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以使用目的地，針對DSP中的目標定位廣告啟用雜湊電子郵件地址。 如需有關目的地的詳細資訊，請參閱Experience Platform[目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)。
 

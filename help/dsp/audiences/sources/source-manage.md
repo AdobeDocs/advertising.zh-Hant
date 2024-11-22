@@ -3,7 +3,7 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -34,7 +34,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. 在[!UICONTROL Select a Type]功能表中，選取您的[客戶資料平台](source-about.md)：
 
-   * *[!UICONTROL RT-CDP]*： [!DNL Adobe Real-Time Customer Data Platform]。
+   * *[!UICONTROL RT-CDP]*： [!DNL Adobe Real-Time CDP]。
 
    * *[!UICONTROL ActionIQ]*： [!DNL ActionIQ]客戶資料平台。
 
