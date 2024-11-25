@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 description: ' [!DNL Analytics]使用的Adobe AdvertisingID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
+source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -221,27 +221,26 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* 搜尋行銷活動：
+* 所有行銷活動型別：
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* 最高成效行銷活動
-
-  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* 購物行銷活動（使用[!DNL Microsoft Merchant Center]）：
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* 對象網路行銷活動：
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 其中：
 
 * `{AdId}`是廣告網路的創意唯一數值ID。
 * `{OrderItemId}`是關鍵字的廣告網路數值ID。
-* `{CriterionId}`是與產品廣告搭配使用的產品群組的廣告網路數值ID。
+* `{CampaignId}`是促銷活動的廣告網路唯一數值ID。
+* `{AdGroupId}`是廣告群組的廣告網路唯一數值ID。
+
+>[!NOTE]
+>
+>所有具有效能行銷活動的帳戶皆已移轉至上述格式。 若帳戶具有其他促銷活動型別，您的登入頁面尾碼將會在2025年初移轉，以使用新的s_kwcid格式。 同時，舊版格式（如下）仍可運作：
+>* 搜尋行銷活動：
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>* 購物行銷活動（使用[!DNL Microsoft Merchant Center]）：
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>* 對象網路行銷活動：
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

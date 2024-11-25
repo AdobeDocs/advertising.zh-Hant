@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 1e5c1fb6b164e95612b3815f44d2d4f8b3613d7a
+source-git-commit: ee31411d56964c6dbf3d81d98ecb307e625ad014
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2661'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024年10月29日發行 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]最高成效行銷活動的廣告商）現在，當您為最高成效行銷活動在追蹤URL中實作新的AMO ID ([!DNL s_kwcid])引數時（不包含廣告和關鍵字），您可在Adobe Analytics中使用最高成效行銷活動的資產群組層級資料。 最大成效行銷活動的追蹤已移轉到新格式。 針對沒有[!UICONTROL Auto Upload]追蹤選項的最高成效行銷活動，尚未移轉到新格式，不過，您必須手動更新每個登陸頁面尾碼，以包含下列AMO ID格式： <br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>您的最高成效行銷活動的Adobe Analytics資料也可在Search、Social和Commerce中使用。 | 檢視新的[AMO ID格式](/help/integrations/analytics/ids.md##amo-id-formats)和[何時以及如何新增引數至您的追蹤URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
+| 2024年10月29日發行 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]最高成效行銷活動的廣告商）現在，當您為最高成效行銷活動在追蹤URL中實作新的AMO ID ([!DNL s_kwcid])引數時（不包含廣告和關鍵字），您可在Adobe Analytics中使用最高成效行銷活動的資產群組層級資料。 對大多數具有最高成效行銷活動的帳戶的追蹤已移轉到新格式。 對於沒有[!UICONTROL Auto Upload]追蹤選項的具有最高成效行銷活動的帳戶，尚未移轉到新格式，不過，您必須手動更新每個登入頁面尾碼，以包含下列AMO ID格式： <br><br>`AL!%(userid)d!%(sid)!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`。<br><br>您最高成效行銷活動的Adobe Analytics資料也可在Search、Social和Commerce中使用。 | 檢視新的[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)和[何時以及如何新增引數至您的追蹤URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
 | 2024年10月29日 | [!UICONTROL Campaigns] | 針對每個最高績效與搜尋行銷活動，您現在可以選擇是否允許[!DNL Google Ads]為新客戶出價更高、僅為新客戶出價，或為新客戶和現有客戶平等出價。 若要為新客戶出價更高，您必須先使用[!DNL Google Ads]為您的[!DNL Google Ads]帳戶或經理帳戶啟動新的客戶贏取目標。 目標定義包括合格的現有客戶清單，以及新客戶的額外轉換值。 | 請參閱&quot;[[!DNL Google Ads] 促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;。<br><br>另請參閱[!DNL Google Ads]說明&quot;[關於新客戶贏取目標](https://support.google.com/google-ads/answer/12080169)&quot;以及&quot;[啟用新客戶贏取目標](https://support.google.com/google-ads/answer/14007601)&quot;中的步驟1-2。 |
 | 2024年9月3日 | [!DNL Google Ads]個轉換 | 下列支援現在可用於潛在客戶的[!DNL Google Ads]增強型轉換，您可以將其用於無法使用點選ID （`gclid`值）的離線轉換事件，例如追蹤網站潛在客戶產生的電話銷售。<ul><li>搜尋、社交和Commerce會同步您現有的潛在客戶增強型轉換，以便用於報告和最佳化。 資料會在廣告商的時區每日的05:00進行同步。</li><li>您可以為潛在客戶的增強型轉換建立轉換動作。</li><li>您可以上傳對應至潛在客戶增強型轉換的第一方離線轉換資料。</li></li></ul>您必須在Google中個別建立並實作轉換標籤，以提升銷售機會的轉換率。 | 如需工作流程的大綱，請參閱&quot;[為潛在客戶實作 [!DNL Google Ads] 增強型轉換](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)&quot;、&quot;[為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;以及&quot;[為增強型轉換上傳離線轉換資料](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)&quot;。 |
 | | [!UICONTROL Campaigns]<br>[!UICONTROL Reports] | （[!DNL Google Ads]個最高成效行銷活動）新功能提供資產群組的資訊和資料：<ul><li>每個最高成效行銷活動中，現有資產群組的設定中有兩個唯讀資訊欄位可供使用：<ul><li>**[!UICONTROL Primary Status]：**&#x200B;為何資產群組會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。</li><li>**[!UICONTROL Primary Status Reason]：**&#x200B;有關資產群組主要狀態的其他詳細資料。</li></ul></li><li>新的專業報告[!UICONTROL Google Asset Group Performance Report]可提供指定帳戶內最高成效行銷活動中資產群組的效能資料。 此報表包含每個已包含資產群組的主要狀態和狀態原因。</li></ul> | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;、&quot;[該[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)&quot;和&quot;[專業報告設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)&quot;。 |
