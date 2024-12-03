@@ -3,9 +3,9 @@ title: 更新 [!DNL Google Ads] 帳戶的AMO ID (s_kwcid)追蹤代碼
 description: 瞭解如何切換至 [!DNL Google Ads] 帳戶的最新AMO ID追蹤代碼。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ ht-degree: 0%
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-您可以個別將任何或所有現有帳戶變更為目前格式。 如果您沒有最高成效的行銷活動或草稿和實驗行銷活動，則移轉至新格式為選用。
+對於使用舊版格式的現有帳戶，您可以變更為目前格式。 如果您沒有最高成效的行銷活動或草稿和實驗行銷活動，則移轉至新格式為選用。
 
 所有新[!DNL Google Ads]帳戶都會自動使用目前的AMO ID格式。
 
 >[!NOTE]
+>
+>此選項僅適用於未使用目前格式的帳戶。
 >
 >在您移轉帳戶後，所有點按、成本和曝光資料都會在變更後正確報告，但在移轉前發生的任何點進仍會根據舊AMO ID格式歸因於轉換資料。
 
@@ -40,7 +42,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 開始移轉：
 
-   1. 在&#x200B;**[!UICONTROL S_KWCID FORMAT]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL LEGACY S_KWCID FORMAT]**。
+   1. 在[!UICONTROL Account Tracking]設定中的&#x200B;**[!UICONTROL S_KWCID FORMAT]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL LEGACY S_KWCID FORMAT]**。
 
    1. 按一下&#x200B;**[!UICONTROL Migrate to new s_kwcid format]**。
 
@@ -58,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 在追蹤設定中啟用「[!UICONTROL Auto Upload]」功能後，搜尋、社交和Commerce會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤代碼。 您不必執行任何動作。
 
-   * 當[!UICONTROL Auto Upload]功能未啟用，而且您沒有使用[伺服器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)時，您必須手動更新登陸頁面尾碼設定中的AMO ID引數。 您可以在帳戶和行銷活動設定中手動變更帳戶和行銷活動層級的尾碼，或透過在大量表單中上傳變更來進行。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。
+   * 當[!UICONTROL Auto Upload]功能未啟用，而且您沒有使用[伺服器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)時，您必須手動更新登陸頁面尾碼設定中的AMO ID引數。 您可以在[帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)和[行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中手動變更帳戶和行銷活動層級的尾碼，或透過[在大量表單中上傳變更](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)來手動變更帳戶和行銷活動層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。
 
    * 如果您在任何促銷活動元件的基本URL設定中包含AMO ID，請將其移至相關的登陸頁面尾碼設定。
 
