@@ -3,9 +3,9 @@ title: 對潛在客戶實作 [!DNL Google Ads] 增強型轉換
 description: 瞭解為潛在客戶設定 [!DNL Google Ads] 增強型轉換的工作流程。
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ ht-degree: 0%
 
    1. 選取要使用[!DNL Google]標籤或[!DNL Google Tag Manager]建立轉換標籤。
 
-
-1. 設定並實作轉換動作的[!DNL Google]標籤。
+1. 設定並實作標籤以追蹤轉換動作。
 
    如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的[建立增強型轉換的標籤。
 
 1. 為[搜尋、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google廣告](https://support.google.com/google-ads/answer/12216226)中的潛在客戶建立增強型轉換的轉換動作。
 
-   對於&#x200B;**轉換型別，**&#x200B;選取&#x200B;*匯入轉換*&#x200B;或&#x200B;*匯入。*
+   如果您在Search、Social和Commerce中建立轉換動作，請將&#x200B;**轉換型別**&#x200B;指定為&#x200B;*匯入轉換*&#x200B;或&#x200B;*匯入。*
 
 1. 視需要時常上傳第一方資料（包括雜湊電子郵件地址或電話號碼），以歸因於指定帳戶的轉換。 您可以從[搜尋、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)中或使用[!DNL Google Data Manager]完成此步驟。
 

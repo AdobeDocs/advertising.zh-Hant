@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [實作 [!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [實作 [!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [實作離線轉換的 [!DNL Microsoft Advertising] 增強型轉換](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [實作 [!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [手動同步處理廣告網路資料](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [將行銷活動指派至投資組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [變更管理檢視和報告中的可用轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [變更轉換量度的顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 管理廣告網路特定的轉換標籤和轉換動作{#network-conversions}
+      + 管理廣告網路特定的轉換標籤和轉換動作/目標{#network-conversions}
          + [建立 [!DNL Google Ads]的轉換標籤](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + 管理轉換動作{#conversion-actions}
+         + 管理轉換動作和目標{#conversion-actions}
             + [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [上傳離線轉換資料以增強轉換](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [取得協助](get-help.md)
