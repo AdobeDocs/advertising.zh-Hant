@@ -3,7 +3,7 @@ title: Adobe Analytics轉換追蹤
 description: 瞭解如何在Adobe Advertising中對您的行銷活動使用Adobe Analytics轉換追蹤。
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 8deabf2c98901d706acdd035221e8c24e4a1d20d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 對於與Adobe Advertising-Adobe Analytics整合的廣告商，當您在[競標單位](/help/search-social-commerce/glossary.md#a-b)的點選追蹤URL中使用包含Token （`ef_id`引數）的重新導向，則Advertising Cloud可以將您的廣告點選次數和曝光次數與[!DNL Analytics]追蹤的網站參與和轉換量度連結。 [!DNL Analytics]資料會透過每日摘要檔案自動傳送至Advertising Cloud。
 
-如需整合的詳細資訊，請參閱「[ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}的概觀」。
+如需整合的詳細資訊，請參閱「[ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/dsp/integrations/analytics/overview.html){target="_blank"}的概觀」。
 
 >[!PREREQUISITES]
 >

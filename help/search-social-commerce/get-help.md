@@ -2,7 +2,7 @@
 title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 詢問Adobe Advertising社群
 
-在[Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community)中尋找您問題的答案。
+在[Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)中尋找您問題的答案。
 
 ## 連絡人[!DNL Adobe]
 
