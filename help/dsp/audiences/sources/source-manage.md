@@ -3,9 +3,9 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->在您建立客戶資料平台的來源後，您將需要完成其他步驟以匯入對象。 檢視 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的[工作流程。
+>在您建立客戶資料平台的來源後，必須完成其他步驟以匯入對象。 檢視 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的[工作流程。
 
 ## 變更對象Source的ID型別
 
