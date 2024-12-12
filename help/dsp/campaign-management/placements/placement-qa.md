@@ -3,7 +3,7 @@ title: 使用Bulksheets檢閱和編輯位置設定
 description: 瞭解如何使用試算表大量檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 8f4e694885919a8dcf7895c2f8d8aeb11249e03c
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -109,6 +109,10 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 
 ### 行銷活動層級試算表
 
+<!-- 
+Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
+-->
+
 | 章節 | 欄 | 說明 | 可編輯嗎？ |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Basic] | [!UICONTROL Placement ID] | 位置的數值ID。 | — |
@@ -195,6 +199,25 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 | [!UICONTROL Secondary Frequency Cap Interval] | 次要頻率上限的間隔型別： *[!UICONTROL Week]*、*[!UICONTROL Day]*、*[!UICONTROL Hour]*&#x200B;或&#x200B;*[!UICONTROL Minute]*。 [!UICONTROL Secondary Frequency Cap Interval Value]會指出適用的周數、天數、小時數或分鐘數。 | 是 |
 | [!UICONTROL Secondary Frequency Cap Interval Value] | [!UICONTROL Secondary Frequency Cap]適用的周數、天數、小時或分鐘。 例如，如果次要曝光次數上限為每六小時三次曝光，則這裡的值將是`6`。 | 是 |
 | [!UICONTROL Attached Ad ID] | 任何附加至刊登版位之廣告的唯一DSP產生廣告ID，以分號分隔。 若要從[!UICONTROL Ads]檢視下載廣告名稱和相關聯的廣告ID清單，請建立包含[!UICONTROL Ad ID]量度的自訂檢視，然後[匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)。 | 是 |
+
+
+<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+
+Brand Safety - Contextual Filtering #								"		
+
+| Brand Safety | Brand Safety - Contextual Filtering # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Viewability # |  |  |
+| Brand Safety | Site Safety Block |  |  |
+| Tracking | Tracking Pixels # |  |  |
+| Tracking | Conversion Pixels # |  |  |
+| Tracking | 3rd-party fees |  |  |
+| # of Ads Attached |  |  |
+| Ads |  Ad Names |  |  |
+| Ads | Attached Ad ID |  |  |
+| Environment | Environment |  |  |
+-->
+
 
 >[!MORELIKETHIS]
 >

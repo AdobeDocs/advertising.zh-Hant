@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織[!DNL DoubleVerify]帳戶關聯的品牌安全區段ID。
+**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織的[!DNL DoubleVerify]帳戶相關聯的[!DNL DoubleVerify Authentic Brand Safety]區段ID，預設用於所有位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
 
-**[!UICONTROL Enable Authentic Brand Suitability]：** （選擇性）依預設，會啟用[!DNL DoubleVerify Authentic Brand Safety]，其會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
-
-您可以在版位層級覆寫廣告商層級設定。
+ID必須以「51」開頭，且包含8位數。 您可以在位置層級變更或刪除廣告商層級ID。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]：** （選擇性；[!DNL DoubleVerify]客戶僅限；僅適用於案頭前段、標準及點播顯示，以及原生顯示和視訊位置；不支援交易的[預設程式化預留位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]區段ID與組織的[!DNL DoubleVerify]帳戶相關聯，以用於位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
+
+ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告商帳戶設定中指定了區段ID，則會輸入廣告商層級ID，但您可以將ID變更為使用其他區段，或刪除該ID以停用該功能。
+
 **[!UICONTROL Contextual filtering]：**&#x200B;要套用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]內容篩選器的型別。 針對新版位選取廣告商層級預設值，但您可以變更設定：
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]：
 
@@ -441,8 +449,6 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers only]*：只從網域的授權直銷商購買詳細目錄。
 
 **[!UICONTROL Attention Targeting]：** （顯示器、視訊、行動裝置和標準連線電視位置）根據指定的網站、格式和廣告大小，鎖定具有特定關注等級（高、中或低）的[!DNL Adelaide]競標前區段。 區段每週都會更新。 **注意：**&#x200B;使用[!DNL Adelaide]區段進行目標定位，將會針對每個含有[!DNL Adelaide]關注目標定位的曝光產生CPM費用；此費用與[關注測量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的費用不同。 對於互動式前段位置，您只需支付VAST曝光數的費用。
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]：** （使用[!UICONTROL DoubleVerify Authentic Brand Safety]選項設定的廣告商）啟用[!DNL DoubleVerify Authentic Brand Safety]，這會封鎖使用針對指定區段ID設定的自訂品牌安全規則在競標後的曝光數。 DSP會針對廣告商設定中所指定的區段ID向您的帳戶開立帳單。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
