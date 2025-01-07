@@ -3,7 +3,7 @@ title: '[!DNL Yahoo! Japan Ads]關鍵字設定'
 description: 參考 [!DNL Yahoo! Japan Ads] 關鍵字的設定。
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]：**&#x200B;關鍵字。 長度上限為80個字元，包括關鍵字的任何[[!DNL Yahoo! Japan Ads] 相符型別語法](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27)。
+**[!UICONTROL Keywords]：**&#x200B;關鍵字。 長度上限為80個字元，包括關鍵字的任何[[!DNL Yahoo! Japan Ads] 相符型別語法](https://ads-help.yahoo-net.jp/s/article/H000044997)。
 
 您最多可以輸入或貼上2000個關鍵字。 請使用逗號分隔多個關鍵字，或在不同的行中輸入這些關鍵字。
 
