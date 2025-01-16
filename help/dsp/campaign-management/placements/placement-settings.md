@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告�
 * *[!UICONTROL Ads.txt sellers only]*：僅從網域的授權直接銷售者和經銷商購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers only]*：只從網域的授權直銷商購買詳細目錄。
 
-**[!UICONTROL Attention Targeting]：** （顯示器、視訊、行動裝置和標準連線電視位置）根據指定的網站、格式和廣告大小，鎖定具有特定關注等級（高、中或低）的[!DNL Adelaide]競標前區段。 區段每週都會更新。 **注意：**&#x200B;使用[!DNL Adelaide]區段進行目標定位，將會針對每個含有[!DNL Adelaide]關注目標定位的曝光產生CPM費用；此費用與[關注測量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的費用不同。 對於互動式前段位置，您只需支付VAST曝光數的費用。
+**[!UICONTROL Attention Targeting]：** （顯示器、視訊和標準連線電視位置）根據指定的網站、格式和廣告大小，鎖定具有特定關注等級（高、中或低）的[!DNL Adelaide]競標前區段。 區段每週都會更新。 **注意：**&#x200B;使用[!DNL Adelaide]區段進行目標定位，將會針對每個含有[!DNL Adelaide]關注目標定位的曝光產生CPM費用；此費用與[關注測量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的費用不同。 對於互動式前段位置，您只需支付VAST曝光數的費用。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
