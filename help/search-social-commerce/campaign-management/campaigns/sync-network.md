@@ -3,7 +3,7 @@ title: 手動同步處理廣告網路資料
 description: 瞭解如何針對支援的廣告網路，手動觸發行銷活動結構和行銷活動實體的同步。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 選取您要同步之每個帳戶或行銷活動旁的核取方塊。 您一次最多可以同步50個行銷活動。 如果您一次同步超過五個帳戶，工作會分成批次，每個批次最多五個帳戶。
 
-1. 按一下工具列中的&#x200B;**![更多](/help/search-social-commerce/assets/more.png "更多")**，然後選取&#x200B;**[!UICONTROL Sync]**。
+1. 按一下工具列中的&#x200B;![**更多**](/help/search-social-commerce/assets/more.png "&#x200B;更多")，然後選取&#x200B;**[!UICONTROL Sync]**。
 
 您可以在[!UICONTROL Workspace]檢視中追蹤同步處理工作的狀態。 這項工作可能需要
 一小時或更久後才會出現。
