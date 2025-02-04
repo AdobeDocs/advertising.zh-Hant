@@ -3,9 +3,9 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型準確度報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型準確度，而[[!UICONTROL Model Accuracy]深入分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型準確度的建議。
 
-**成本模型：** （具有產品組合的廣告商）使用歷史資料和數學預測技術來預測成本量、贏得每個職位或位置所需的出價以及每個出價單位的CPC （搜尋）或CPM （顯示）的搜尋、社交和Commerce技術。
+**成本模型：** （具有產品組合的廣告商）使用歷史資料和數學預測技術預測成本數量、贏得每個位置或位置所需的出價以及每個出價單位的CPC （搜尋）或CPM （顯示）的搜尋、社交和Commerce技術。
 
 **成本模型涵蓋範圍：** （具有產品組合的廣告商）過去七天內至少收到一次曝光的CPC或eCPC行銷活動中的競標單位數量及/或百分比，以便最佳化功能可以建立成本模型。 並非所有競標單位都有成本模型；具有成本模型的競標單位會計入成本模型涵蓋範圍內。
 
 **成本模型半衰期：** （具有產品組合的廣告商）在目前日期前的天數，成本資料會被視為較新，因此與成本模型更相關。
 
-**每1000次曝光的成本：** (CPM)每1000次曝光的廣告成本。 使用CPM定價模型的廣告商會依曝光數（而非點按）付款。
+**每1000次曝光的成本：** (CPM)每1000次曝光的廣告成本。 使用CPM定價模型的廣告商付費方式為曝光數，而非點按。
 
 **每次贏取成本：** (CPA)廣告成本除以轉換次數。 也稱為單筆交易成本(CPT)或單筆訂單成本(CPO)。
 
@@ -180,6 +180,8 @@ ht-degree: 0%
 **支出策略：** （具有產品組合的廣告商）選取用來最佳化產品組合的關鍵字/廣告競標的策略。
 
 **`s_kwcid`：**&#x200B;請參閱「AMO ID」。
+
+**追蹤範本：** （僅具有最終URL的帳戶）追蹤範本或追蹤URL，其會指定所有離登陸網域重新導向和追蹤引數，並將最終/進階URL內嵌在引數中。 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動為其自己的重新導向和追蹤代碼加上前置詞。
 
 **追蹤URL：**&#x200B;已新增追蹤範本或目的地URL以及額外的引數，以追蹤廣告點按的相關資訊。 其中可能包含重新導向URL，可在將使用者重新導向廣告商的登陸頁面之前，先將使用者傳送至追蹤伺服器。
 

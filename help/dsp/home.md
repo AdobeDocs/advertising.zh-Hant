@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17a547a5aad0ca19f156940b26ead6e808b3ea15
+source-git-commit: c60832f4ccea115d5ce72a93819a3970aa7cf4ef
 workflow-type: tm+mt
-source-wordcount: '4735'
+source-wordcount: '4791'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年2月3日 | [!UICONTROL Packages] | 對於具有[!UICONTROL Highest Return on Ad Spend]和[!UICONTROL Lowest Cost per Acquisition]最佳化目標的套件，現在需要[!UICONTROL Conversion Metric]設定。 在舊版中，則是選擇性的。<br><br> [!UICONTROL Conversion Metric]是最終的轉換事件（例如註冊）或收入事件/銷售金額（例如購買和購買值），用於計算廣告花費的回報或每次購買的成本。 | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年12月12日 | [!UICONTROL Placements]，品牌安全 | 您現在可以在位置層級鎖定[!DNL DoubleVerify Authentic Brand Safety]區段ID。 之前，您只能在廣告商層級鎖定這些使用者。<br><br>根據預設，如果在廣告商帳戶設定中指定了區段ID，則會在位置設定中輸入廣告商層級ID，但您可以將ID變更為使用其他區段，或刪除該ID以停用此功能。<br><br>在廣告商層級的設定中，已移除啟用功能的選項；現在指定區段ID即可啟用功能。 如果其中一個現有廣告商停用該功能，區段ID欄位現在會空白。 不需要使用者採取任何動作。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三個新報表提供更深入的見解，以瞭解哪些廣告互動路徑會導致轉換：<ul><li>[!UICONTROL Path to Conversion Beta]：顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。</li><li> [!UICONTROL Path Length Beta]：依路徑長度（互動點）顯示轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。</li><li>[!UICONTROL Time to Conversion Beta]會依據上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 您現在可以在一個試算表中檢閱行銷活動中所有套件、版位和廣告的設定。 您可以下載已選取行銷活動元件型別（可包括「套件」、「刊登」、「刊登版位廣告排程」、「刊登版位競標乘數」、「廣告」和「畫素」）的現有設定QA工作表，以進行稽核。 若要新增或編輯任何設定，請下載空白的Bulksheet範本，從QA工作表輸入或貼上促銷活動元件資料至Bulksheet範本，然後上傳已填入的Bulksheet。<br><br>此外，下載特定封裝和位置設定的命令名稱現在是&quot;[!UICONTROL Download Bulksheet]&quot;。 您可以從右上角的[!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot;選項上傳特定套件和位置的設定。 | 請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯Campaign元件設定」。[<br><br>另請參閱[使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱及編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
