@@ -3,9 +3,9 @@ title: 使用客戶資料清單管理客戶比對受眾
 description: 瞭解如何從您的客戶資料清單建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客戶比對對象。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 0%
 
          * （[!DNL Android™]個應用程式）[!DNL Google Play]內的[!DNL Android™]封裝名稱，由「`id=<package_name>`」識別。
 
-           例如，在https://play.google.com/store/apps/details?id=com.example.game中，封裝名稱為com.example.game。
+           例如，在`https://play.google.com/store/apps/details?id=com.example.game`中，封裝名稱為com.example.game。
 
          * （[!DNL iOS]個應用程式） [!DNL iTunes App Store]內的應用程式ID，由URL結尾的&quot;`<idNNNNNNNNN>`&quot;識別。 [!DNL iOS Developer Console]中也有提供。
 
-           例如，在https://itunes.apple.com/us/app/id284882215中，ID為id284882215。
+           例如，在`https://itunes.apple.com/us/app/id284882215`中，ID是ID284882215。
 
          您的開發團隊擁有相關平台[!UICONTROL App ID]的存取權。
 
