@@ -1,0 +1,100 @@
+---
+title: 匯出並實作即時體驗的廣告體驗標籤
+description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
+feature: Creative Experiences
+source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 0%
+
+---
+
+# 匯出並實作即時體驗的廣告體驗標籤
+
+*已關閉的Beta*
+
+特定創意大小的廣告標籤可用於[即時](experience-about.md#experience-statuses)體驗後，您就可以在JavaScript和iframe格式中產生並複製該標籤，以在Advertising DSP或其他DSP上實作。 DSP的標籤包含DSP所需的所有巨集。
+
+使用Advertising DSP的廣告商可選擇將標籤直接上傳至Advertising DSP促銷活動作為廣告。
+
+>[!NOTE]
+>
+>* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
+>* 當您建立沒有決策樹定位的體驗時，您必須針對每個適用的創意大小[手動建立廣告標籤](experience-tag-create-manually.md)。
+>* 體驗標籤是動態的。 如果您編輯體驗，則不需要更新標籤。
+
+## 匯出廣告標籤，以體驗決策樹目標定位
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
+
+1. 執行下列任一項作業：<!-- I see multiselect, but it's not actually working for me as of 2/3 so I don't know how exporting multiple tags works.-->
+
+   * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
+
+   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
+
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+
+<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
+
+1. （選擇性）在[!UICONTROL Macros]標籤上，指定最多五個要包含在標籤中的自訂巨集。 對於要包含的每個巨集：
+
+   1. 選取核取方塊。<!-- Explain more -->
+
+   1. 輸入自訂巨集。<!-- Explain more -->
+
+1. 按一下右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或按一下左側功能表中的&#x200B;**[!UICONTROL Generate ad tags]**。
+
+1. 選取標籤型別： ** *JavaScript<!-- sic -->* **或** *IFRAME* ** <!-- sic -->。
+
+1. 在[!UICONTROL Destinations]清單中，選取您將為體驗建立廣告的位置。
+
+   * *Adobe Advertising：*&#x200B;針對您將在Advertising DSP中建立的廣告。
+
+   * *一般：*&#x200B;對於您將在其他DSP中建立的廣告。 **注意：**&#x200B;您可能需要視需要手動加入其他巨集。
+
+1. 按一下&#x200B;**[!UICONTROL Generate tags]**。
+
+1. 複製或下載標籤：
+
+   * 若要複製單一廣告大小的標籤，請展開標籤列，將游標停留在列上，然後按一下![複製](/help/creative/assets/copy.png "複製") **[!UICONTROL Copy]**。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+
+   * 若要以檔案形式將所有產生的標籤下載至瀏覽器的預設下載位置，請按一下![下載標籤](/help/creative/assets/download.png "下載標籤")。
+
+   您可以在文字編輯器中開啟檔案，以複製每個標籤。 對於JavaScript標籤，標籤包含在`<script></script>`和`<noscript></noscript>`標籤中。 若為iframe標籤，該標籤會包含在`<iframe></iframe>`標籤中。
+
+1. 實作相關DSP的標籤：
+
+   * 對於Advertising DSP以外的DSP，請為將在DSP中建立廣告的使用者提供標籤。
+
+   * 若為Advertising DSP：
+
+      1. 按一下右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或按一下左側功能表中的&#x200B;**[!UICONTROL DSP link]**。
+
+      1. 選取可使用廣告標籤的促銷活動。
+
+      1. 按一下&#x200B;**[!UICONTROL Assign Tags]**。
+
+         DSP會針對選取的行銷活動開啟至[!UICONTROL Ads]檢視。
+
+      1. 在[!UICONTROL Create ads]檢視中，檢閱廣告標籤，選取您要建立廣告的每個標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
+
+         [!UICONTROL Ads]檢視現在包含新廣告，其名稱與[!DNL Creative]中的廣告標籤相同。 您可以[將廣告附加至行銷活動中的任何位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)。
+
+<!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
+
+<!-- Add this info, with descriptions:
+
+## Ad tag formats
+
+### JavaScript
+
+### Iframe
+
+-->
+
+>[!MORELIKETHIS]
+>
+>* [手動建立適用創意大小的廣告標籤](experience-tag-create-manually.md)
+>* [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](experience-tag-assign-creatives.md)
+>* [重新命名廣告標籤](experience-tag-rename.md)
