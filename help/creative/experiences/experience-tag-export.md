@@ -62,9 +62,9 @@ ht-degree: 0%
 
    您可以在文字編輯器中開啟檔案，以複製每個標籤。 對於JavaScript標籤，標籤包含在`<script></script>`和`<noscript></noscript>`標籤中。 若為iframe標籤，該標籤會包含在`<iframe></iframe>`標籤中。
 
-1. 實作相關DSP的標籤：
+1. 實施相關DSP的標籤：
 
-   * 對於Advertising DSP以外的DSP，請為將在DSP中建立廣告的使用者提供標籤。
+   * 針對Advertising DSP以外的DSP，請為將在DSP中建立廣告的使用者提供標籤。
 
    * 若為Advertising DSP：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
       1. 按一下&#x200B;**[!UICONTROL Assign Tags]**。
 
-         DSP會針對選取的行銷活動開啟至[!UICONTROL Ads]檢視。
+         針對選取的行銷活動，DSP會開啟至[!UICONTROL Ads]檢視。
 
       1. 在[!UICONTROL Create ads]檢視中，檢閱廣告標籤，選取您要建立廣告的每個標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 

@@ -70,7 +70,7 @@ ht-degree: 0%
 * （選用）將其他條件新增至篩選器。
 * （選用）新增其他篩選器，每個篩選器一或多個條件。
 
-\* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請聯絡您的Adobe客戶團隊。
+\* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請連絡您的Adobe客戶團隊。
 
 **[!UICONTROL Include data from Adobe Advertising SSC]：** （僅轉換路徑、路徑長度和轉換時間報表）包含指定Advertising Search、Social和Commerce行銷活動之搜尋廣告點選資料。 選取此選項時：
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 另請參閱&quot;[如何計算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的歸因規則。&quot;
 
-* **回顧：** ([!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告，以及[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]個僅具有[!UICONTROL Conversion Metrics]欄的報告；僅具有Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因至其的曝光事件或點按事件（針對[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]報告）後的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
+* **回顧：** ([!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告，以及[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]個僅具有[!UICONTROL Conversion Metrics]欄的報告；僅具有Adobe Advertising轉換追蹤的廣告商)在報告內，轉換事件可歸因至其的曝光事件或點按事件（[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]或[!UICONTROL Time to Conversion]報告）後的最大天數。 預設值為&#x200B;*[!UICONTROL 30 days]*，最大值為92天。
 
   >[!TIP]
   >

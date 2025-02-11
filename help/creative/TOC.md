@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# (封閉Beta)Advertising Creative2.0指南 {#creative}
+# (封閉Beta) Advertising Creative 2.0指南 {#creative}
 
 + [新增功能](/help/creative/home.md)
 + 簡介{#introduction}

@@ -107,7 +107,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]：**&#x200B;設定會因報告型別而異：
 
-* **\[歸因型別\]：** (僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何將轉換資料歸因於一連串導致轉換的事件：
+* **\[歸因型別\]：** (僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何在一連串導致轉換的事件中歸因轉換資料：
 
    * *[!UICONTROL Unique]：* （預設值）計算維度值（例如裝置或位置）在轉換路徑上的次數。
 
