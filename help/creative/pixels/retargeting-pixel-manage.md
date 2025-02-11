@@ -2,9 +2,10 @@
 title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 >
 > * [!DNL Creative]目前僅支援Advertising DSP的通用ID。 未來版本將支援協力廠商DSP的通用ID。<!-- Clarify this and reword as needed -->
 >* 您也可以使用來自Adobe Audience Manager和Adobe Analytics的第一方對象作為您體驗的[創意目標](/help/creative/experiences/experience-settings-targeting.md)。
->* 當您在Advertising DSP版位內使用體驗作為廣告時，可以將版位鎖定為您在DSP中的所有可用對象。 您也可以[建立自訂對象區段標籤](/help/dsp/audiences/custom-segment-create.md)以追蹤特定登陸頁面的所有訪客，然後將這些區段作為刊登的創意目標。
+>* 當您在Advertising DSP版位內使用體驗作為廣告時，可以將版位鎖定為您在DSP中可以使用的所有對象。 您也可以[建立自訂對象區段標籤](/help/dsp/audiences/custom-segment-create.md)以追蹤特定登陸頁面的所有訪客，然後將這些區段作為刊登的創意目標。
 >* 已選擇退出追蹤以進行廣告定位的網站訪客，不會根據對象區段或重新定位設定檔收到內含個人化創意內容的廣告。
 
 ## 建立重新定位畫素
@@ -78,7 +79,7 @@ ht-degree: 0%
 
    如果您手動新增其他屬性，則必須包含URL編碼。
 
-   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤將包含下列引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，若要鎖定選取大小為10的紅色涼鞋的使用者，您可以將影像標籤和指令碼標籤中的引數變更為`&ut1=--sandals--&ut2=--red--&ut3=--10--`，並在指令碼標籤中輸入ID5合作夥伴ID，例如`&id5pid=--0123456789--`。&lt;！ — 驗證最終語法 — 是否應該只是：&amp;ut1=涼鞋&amp;ut2=10&amp;ut2=red ？—>
+   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤將包含下列引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，若要鎖定選取大小為10的紅色涼鞋的使用者，您可以將影像標籤和指令碼標籤中的引數變更為`&ut1=sandals&ut2=red&ut3=10`，並在指令碼標籤中輸入ID5合作夥伴ID，例如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Ramp ID]：*&#x200B;畫素標籤追蹤[!DNL Ramp IDs]。 對於傳遞到通用ID的曝光，不會產生任何費用。
 
-若要使用此功能，您或DSP帳戶中的其他使用者必須先接受使用通用ID的服務合約條款，才能將通用ID用於新ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將取得您的同意，並代表貴組織接受條款。 若要閱讀條款，請按一下&#x200B;**[!UICONTROL Terms of Service]**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
+若要使用此功能，您或DSP帳戶中的其他使用者必須先接受使用通用ID的服務合約條款，才能將通用ID用於新ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將代表貴組織取得您的同意並接受條款。 若要閱讀條款，請按一下&#x200B;**[!UICONTROL Terms of Service]**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
 >[!MORELIKETHIS]
 >

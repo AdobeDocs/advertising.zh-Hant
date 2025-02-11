@@ -2,7 +2,8 @@
 title: 可用於追蹤URL的巨集
 description: 參考您可新增至登陸頁面URL的巨集、追蹤URL以及協力廠商創意內容。
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,14 +39,14 @@ ht-degree: 0%
 -->
 
 | 巨集 | 說明 | 自動在Advertising DSP的Experience Tags中？ |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `${TM_CAMPAIGN_ID_NUM}` | 從DSP追蹤及報告行銷活動ID | 是 |
 | `${TM_SITE_ID_NUM}` | 從DSP追蹤及報告網站ID | 是 |
 | `${TM_PLACEMENT_ID_NUM}` | 從DSP追蹤並報告位置ID | 是 |
 | `${TM_AD_ID_NUM}` | 從DSP追蹤及報告廣告ID | 是 |
 | `${TM_CREATIVE_ID_NUM}` | 從DSP追蹤及報告創作ID | 不適用 |
-| `${TM_SESSION_ID}` | 追蹤並報告來自DSP的曝光ID。 如果未傳回值，Advertising Creative會產生一個值。 | 是 |
-| `${TM_ACC_EXPERIENCE_ID}` | 追蹤並報告Advertising Creative體驗ID | — |
+| `${TM_SESSION_ID}` | 從DSP追蹤並報告曝光ID。 如果未傳回值，Advertising Creative會產生一個值。 | 是 |
+| `${TM_ACC_EXPERIENCE_ID}` | 追蹤及報告Advertising Creative體驗ID | — |
 | `${TM_ACC_CREATIVE_ID}` | 追蹤並報告Advertising Creative創作ID | — |
 | `${TM_RANDOM}` | 介於1到1000000之間的隨機數字 | — |
 | `${TM_TIMESTAMP}` | Unix時間戳記（以秒為單位） | — |
