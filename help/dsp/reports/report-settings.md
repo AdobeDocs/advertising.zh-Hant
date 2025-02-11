@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 **範圍：**&#x200B;要產生資料的日期範圍。 可用天數因報表和所選維度而異。 選擇一項：
 
-* **[!UICONTROL Last Calendar Week]：**&#x200B;包含前一個日曆週的資料。
+* **[!UICONTROL Previous Calendar Week]：**&#x200B;包含前一個日曆週的資料。
 
-* **[!UICONTROL Last Calendar Month]：**&#x200B;包含前一個日曆月的資料。
+* **[!UICONTROL Previous Calendar Month]：**&#x200B;包含前一個日曆月的資料。
 
 * **[!UICONTROL Custom Range]：**&#x200B;包含特定開始和結束日期之間的資料。 若要報告前一天的資料，請選取&#x200B;**[!UICONTROL Present]**。
 

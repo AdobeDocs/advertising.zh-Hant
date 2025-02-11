@@ -2,7 +2,8 @@
 title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -51,7 +52,7 @@ ht-degree: 0%
 您可以從[!UICONTROL Creative] > [!UICONTROL Experiences]檢視中檢視任何體驗的詳細效能資料。 若要監視所有體驗的效能，請建立[!UICONTROL Custom Creative Report]。
 
 <!--
-You can [view detailed performance data for any experience](experience-view-report.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
+You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
 -->
 
 ## 體驗狀態 {#experience-statuses}

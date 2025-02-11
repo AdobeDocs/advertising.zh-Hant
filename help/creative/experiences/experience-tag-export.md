@@ -2,9 +2,10 @@
 title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ ht-degree: 0%
 >* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
 >* 當您建立沒有決策樹定位的體驗時，您必須針對每個適用的創意大小[手動建立廣告標籤](experience-tag-create-manually.md)。
 >* 體驗標籤是動態的。 如果您編輯體驗，則不需要更新標籤。
-
-## 匯出廣告標籤，以體驗決策樹目標定位
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

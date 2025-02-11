@@ -2,9 +2,10 @@
 title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ ht-degree: 0%
    您可以為相同的創意大小建立多個標籤。<!-- What are the implications? -->
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
+
+   您可以展開標籤列來檢視包含的創意。
 
 >[!MORELIKETHIS]
 >
