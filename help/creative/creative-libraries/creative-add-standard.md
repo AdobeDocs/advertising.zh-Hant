@@ -2,9 +2,10 @@
 title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ You can do either of the following:
 
    * 若要移除檔案，請取消選取檔案旁邊的核取方塊。
 
-1. 指定[彈性HTML5廣告設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)。
+1. 指定[彈性的HTML5廣告設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)。
 
    依預設，會選取您剛上傳的所有創意內容。 任何只有一個值的設定皆適用於所有選取的創意；對於某些設定，您可以指定個別值。 若要輸入特定創意的設定，請取消選取每個不適用創意旁的核取方塊。
 
@@ -103,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## 將HTML5創意內容新增至創意內容庫
 
-<!-- verify -->您可以一次新增單一型別（簡單或靜態）的多個HTML5創意。
+<!-- verify -->您可以一次新增單一型別的多個HTML5創意（簡單或靜態）。
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->您也可以[新增彈性的HTML5創意](#flexible-creative-add)，這些創意是HTML5創意，其所有屬性都是您可以直接在[!DNL Creative]中編輯的標準HTML標籤。
+>您也可以[新增彈性的HTML5創意](#flexible-creative-add)，這些創意是HTML5創意，具有作為標準HTML標籤的所有屬性，您可以直接在[!DNL Creative]中編輯。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -175,7 +176,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 按一下&#x200B;**[!UICONTROL Create]**
 
-## 將協力廠商創意內容新增至創意內容庫
+## 將協力廠商創意內容新增至創意內容庫 {#creative-add-third-party}
 
 [!DNL Creative]支援大多數協力廠商廣告伺服器上託管的創意內容的JavaScript追蹤標籤。
 
@@ -187,9 +188,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**。
 
-1. 在[協力廠商創意設定]中指定創意的JavaScript標籤和其他設定。
+1. 在[協力廠商創意設定](#creative-settings-third-party)中指定創意的JavaScript標籤和其他設定。
 
-   您可以將任何可用的巨集複製並貼到JavaScript標籤中。
+   您可以將任何[可用的巨集](/help/creative/creative-macros.md)複製並貼到JavaScript標籤中。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [編輯標準創意](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 >* [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
 >* [預覽創意](/help/creative/creative-libraries/creative-preview.md)
 >* [從組合附加及分離創意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

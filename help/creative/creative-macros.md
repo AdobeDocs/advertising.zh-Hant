@@ -3,9 +3,9 @@ title: 可用於追蹤URL的巨集
 description: 參考您可新增至登陸頁面URL的巨集、追蹤URL以及協力廠商創意內容。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 
+>* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* 

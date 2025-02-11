@@ -2,9 +2,10 @@
 title: 創意設定
 description: 瞭解xxxx。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ ht-degree: 0%
 
 *僅限現有的創意內容*
 
-創意的彈性HTML5範本檔案。
+創意內容適用的彈性HTML5範本檔案。
 
 您可以選擇使用新範本取代現有範本，新範本的版面配置不同，但屬性名稱集與原始範本相同。 新範本必須是ZIP格式，最大為2 MB。 當創意在組合中時，使用該組合的所有體驗隨後都將使用來自新範本的版面。
 
@@ -105,7 +106,7 @@ ht-degree: 0%
 >
 >將創意內容納入體驗時，您可以使用自訂登陸頁面URL來取代任何點選標籤的預設值，以產生基本創意內容的衍生。
 
-**登陸頁面URL：** (僅有一個登陸頁面的簡單HTML5創意內容)您為其建立關聯的每個廣告的預設登陸頁面URL。 此URL必須是以http://或https://開頭的有效URL。 其中可能包含您自己的協力廠商追蹤引數或[[!DNL Creative] 巨集](/help/creative/creative-macros.md)。
+**登陸頁面URL：** (僅有一個登陸頁面的簡單HTML5創意內容)您與創意內容建立關聯的每個廣告的預設登陸頁面URL。 此URL必須是以http://或https://開頭的有效URL。 其中可能包含您自己的協力廠商追蹤引數或[[!DNL Creative] 巨集](/help/creative/creative-macros.md)。
 
 當您在套件中包含創意並將套件指派給體驗時，可以選擇變更登陸頁面URL，並為套件中的每個創意新增曝光和點選追蹤URL及JavaScript。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -173,9 +174,9 @@ ht-degree: 0%
 
 **JavaScriptCode：**&#x200B;指向協力廠商廣告伺服器上創意的JavaScript標籤(以及不支援JavaScript的瀏覽器適用的替代標籤)。 指令碼會依廣告伺服器而有所不同。 當您編輯多個創意時，相同的值會套用至每個選取的創意。
 
-所有可用的巨集及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將影像貼到標籤中您想要的位置。![
+所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將影像貼到標籤中您想要的位置。![
 
-當您將此創意內容納入您實作來自DSP的廣告的體驗時，DSP會使用此標籤中的資訊來顯示廣告並追蹤其曝光次數和點按次數，然後將標籤推送到廣告交換。 當廣告顯示並按一下時，廣告伺服器、DSP和[!DNL Creative]將會追蹤事件。
+當您將此創意內容納入您實作來自DSP的廣告的體驗時，DSP會使用此標籤中的資訊來顯示廣告並追蹤其曝光次數和點按次數，然後將標籤推送至廣告交換。 當廣告顯示並按一下時，廣告伺服器、DSP和[!DNL Creative]將會追蹤事件。
 
 **[!UICONTROL Advertiser]：** （唯讀）資料庫可用的廣告商。
 
@@ -201,3 +202,4 @@ u
 >
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md)
 >* [編輯標準創意](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
