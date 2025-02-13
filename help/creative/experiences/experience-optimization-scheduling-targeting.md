@@ -2,9 +2,10 @@
 title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
+source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 1. 選取創意旋轉型別：
 
-   * ** *加權*** — 根據相對權數手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有套裝的重量最多必須相加100。
+   * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有套裝的重量最多必須相加100。
 
-   * ** *演演算法* ** — 根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
+   * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
 
-   * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -56,11 +57,11 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * ** *加權*** — 根據相對權數手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
+      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
 
-      * ** *演演算法* ** — 根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
+      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
 
-      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+         * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
 1. 對於每個額外的排程：
 
@@ -72,11 +73,11 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * ** *加權*** — 根據相對權數手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
+      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
 
-      * ** *演演算法* ** — 根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
+      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
 
-      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+         * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
