@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 1. 選取創意旋轉型別：
 
-   * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
 
-   * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標以演演算法方式旋轉創意。
+   * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
       * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
 
-      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標以演演算法方式旋轉創意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -85,9 +85,9 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
 
-      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標以演演算法方式旋轉創意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 

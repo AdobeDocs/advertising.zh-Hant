@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 選取創意旋轉型別：
 
-   * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有套裝的重量最多必須相加100。
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有套裝的重量最多必須相加100。
 
-   * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
+   * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
 
       * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
 
-      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    1. 選取創意旋轉型別：
 
-      * &amp;amp；ast；&amp;amp；ast； *加權* &amp;amp；ast；&amp;amp；ast； — 根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
 
-      * &amp;amp；ast；&amp;amp；ast； *演演算法* &amp;amp；ast；&amp;amp；ast； — 根據指定的最佳化目標，以演演算法方式旋轉每個套件組合中的創意。
+      * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
