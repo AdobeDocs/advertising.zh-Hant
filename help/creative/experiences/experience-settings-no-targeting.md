@@ -3,9 +3,9 @@ title: 非目標體驗的設定
 description: 請參閱不含決策樹定位之廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 當您稍後針對特定創意大小建立廣告體驗標籤時，此欄位中指定的每個鍵都會附加為標籤中的巨集。 您必須先輸入標籤內每個索引鍵/值組的值，才能在DSP中將標籤實作廣告。
 
-**Radius：** （僅限具有動態廣告的體驗；選擇性）目標使用者Radius。 選取從0哩到200哩的半徑。<!-- Does this end up in the ad tag parameters? -->
+**半徑：** （僅限使用動態廣告的體驗；選擇性）目標饋送檔案中指定的美國郵遞區號的半徑；選取從0哩到200哩的半徑。 用來為體驗建立動態廣告的摘要檔案必須包含一個[!UICONTROL ZIP]欄<!-- or a user-named column mapped to a ZIP column -->，且該檔案中的每個產品列都有值。 例如，如果半徑為10哩，使用者可在95110徑10哩內看到在95110中可用的產品廣告。
 
 **RT畫素：** （僅具有動態廣告的體驗；選用） [!UICONTROL Creative]將畫素重新定位到潛在目標。 在決策樹中設定目標定位時，您可以包含一個RT畫素目標節點，並指定每個節點的目標畫素，以及必須呈現的畫素屬性所需值，才能在指派的創意組合中顯示創意。 如果您未在此欄位中指定畫素，您仍可在決策樹中指定畫素。&lt;！ — 從R：「RT畫素應該透過「動態廣告設定」中的內容選取」 — 釐清。 我在「動態廣告」設定中看見「資料管道」（單字），但不確定該設定與此體驗層級一如何搭配運作。—>
 
