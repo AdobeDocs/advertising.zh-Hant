@@ -3,9 +3,9 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    * （選擇性）若要變更報告的轉換，請按一下![設定](/help/creative/assets/settings.png)，然後在&#x200B;**[!UICONTROL Conversions]**&#x200B;功能表中選取轉換名稱。&lt;！ — 只有一或多個？ 確認這些是否會顯示 — 我需要看到已設定多次轉換的廣告商 — >
 
-     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 這可能包括從Adobe Analytics同步的轉換和網站參與量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->如需將收集的轉換納入報表的相關詳細資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;。
+     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 當廣告商具有[an [!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)時，這可以包括從Adobe Analytics同步的轉換和網站參與量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->如需將收集的轉換納入報表的相關詳細資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;。
 
 1. （在[!UICONTROL Overview]索引標籤上）：
 
