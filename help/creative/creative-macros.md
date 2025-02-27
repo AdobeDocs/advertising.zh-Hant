@@ -1,11 +1,11 @@
 ---
 title: 可用於追蹤URL的巨集
-description: 參考您可新增至登陸頁面URL的巨集、追蹤URL以及協力廠商創意內容。
+description: 參考您可新增至登陸頁面URL、追蹤URL和協力廠商創意的巨集。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ ht-degree: 0%
 | `${TM_ACC_EXPERIENCE_ID}` | 追蹤及報告Advertising Creative體驗ID | — |
 | `${TM_ACC_CREATIVE_ID}` | 追蹤並報告Advertising Creative創作ID | — |
 | `${TM_RANDOM}` | 介於1到1000000之間的隨機數字 | — |
-| `${TM_TIMESTAMP}` | Unix時間戳記（以秒為單位） | — |
-| `${TM_CLICK_URL_URLENC}` | （適用於來自需要URL編碼的廠商的第三方廣告）經過編碼的點選重新導向URL，可讓廣告伺服器追蹤及計算廣告點選次數。 當提供廣告且使用者點按該廣告時，會啟動巨集，且會記錄該點按次數並計入報表目的。 | 是 |
+| `${TM_TIMESTAMP}` | UNIX®時間戳記（以秒為單位） | — |
+| `${TM_CLICK_URL_URLENC}` | （適用於來自需要URL編碼的廠商的第三方廣告）經過編碼的點選重新導向URL，可讓廣告伺服器追蹤及計算廣告點選次數。 當使用者按一下廣告時，就會啟用巨集，且會記錄該點按並計算在內，以用於報表用途。 | 是 |
 
 >[!MORELIKETHIS]
 >
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)
+>*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)
