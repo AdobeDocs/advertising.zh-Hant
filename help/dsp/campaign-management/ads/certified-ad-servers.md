@@ -3,9 +3,9 @@ title: 認證廣告服務合作夥伴
 description: 檢視所有認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
+source-git-commit: dcaa41b3fba971bdf95f4e884861f318db18f146
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] | | | | X | 僅限VAST |
 | [!DNL RevJet] | | | | X | 僅限VAST |
 | [!DNL Seedtag] | | X | X | | |
+| [!DNL SeenThis] | | X | | | 顯示認證包含橫幅中的視訊標籤 |
 | [!DNL Sharethrough] | | | | | 僅適用於CTV、原生及外流 |
 | [!DNL Sizmek] | X | X | | X | OLV和CTV</br></br>若要讓標籤在UI中轉譯，請使用`<a>`個標籤包住標籤（在開頭和結尾）。 請參閱下列範例標籤： </br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
@@ -61,7 +62,7 @@ ht-degree: 0%
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | 輸出流清查的VPAID不提供支援。 |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | 在DSP</br></br>中以180x150上傳自訂頁面擷取器廣告單位。當Index Exchange在拍賣中通過180x150拍賣和DSP競標並提供曝光時，創意內容會展開為全頁顯示廣告。</br></br>最初已通過Page Grabber、Expanable Adhendation和Screen Shift廣告單元的認證。 這需要進行重新認證，並針對流程標示步驟。 |
+| [!DNL Undertone] | | | X | | 在DSP中以180x150上傳自訂頁面抓取器廣告單位</br></br>當Index Exchange在拍賣中通過180x150拍賣和DSP競標並提供曝光時，創意內容會展開為全頁顯示廣告。</br></br>最初已通過Page Grabber、Expanable Adhendation和Screen Shift廣告單元的認證。 這需要進行重新認證，並針對流程標示步驟。 |
 | [!DNL Vox] | | | X | | [!DNL Athena]個廣告單位 |
 | [!DNL Wunderkind] | | X | | | |
 
