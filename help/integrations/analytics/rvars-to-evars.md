@@ -3,9 +3,9 @@ title: 收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Ana
 description: 瞭解如何在Adobe Analytics中收集保留變數的歷史資料，以便將來在Adobe Customer Journey Analytics中使用
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Adobe Advertising正規劃未來的Customer Journey Analytics實作。 在發行
          1. 選取&#x200B;**查詢字串引數**。
          1. 輸入`ef_id`。
 
-        範例：以查詢字串引數`ef_id`覆寫`rVar11`的值
+        範例： `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * 對於[!UICONTROL Reason for rule]，請使用描述性備註，例如「將透過Adobe Analytics Connector將AMO ID和EF ID傳輸至AEP」。
 
