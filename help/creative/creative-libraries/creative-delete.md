@@ -3,7 +3,7 @@ title: 刪除創意內容
 description: 瞭解如何刪除創意內容庫中的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-您可以刪除
+您可以刪除：
 
 * 不在指派給[即時或草稿](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [目標體驗](/help/creative/experiences/experience-about.md)之組合中的創意內容。
 

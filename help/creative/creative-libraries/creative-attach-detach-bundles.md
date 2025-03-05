@@ -3,7 +3,7 @@ title: 將創意內容附加至創意組合
 description: 瞭解如何將創意內容附加至創意套裝。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 您可以將標準創意附加至標準組合，並將動態創意附加至動態組合，以便將其新增至[廣告體驗](/help/creative/experiences/experience-about.md)。 每個組合只能包含每個\[創意大小+語言\]組合中的一個。
 

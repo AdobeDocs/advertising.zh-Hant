@@ -3,7 +3,7 @@ title: HTML5創意規格
 description: 參考Advertising Creative的HTML5創意規格。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 適用於Advertising Creative的HTML5創意規格
 
-本檔案概述[!DNL Creative]中HTML5創意元件的需求和API支援。 此API允許開發HTML5創意，其屬性可在創意交付時設定。
+本檔案概述[!DNL Creative]中HTML5創意元件的需求和API支援。 此API支援HTML5創意內容的開發，此類內容的屬性可在創意內容傳遞時設定。
 
 ## 範圍
 

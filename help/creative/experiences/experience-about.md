@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **決策樹目標定位的體驗：** [!DNL Creative]可讓您使用決策樹模型，在整個客戶歷程中設定個人化的廣告體驗。 您可以根據目標受眾自訂所有廣告元素 — 影像、標題、選件和登陸頁面。
 
-  例如，您可以為位於特定Adobe Analytics受眾區段的芝加哥和紐約市使用者指定相同的創意組合，但將位於相同區段的芝加哥使用者傳送至與紐約使用者不同的登陸頁面。 您也可以為區段中除了芝加哥和紐約市以外任何地方居住的人指定不同的組合，並為不在區段中的其他人指定第三個組合。
+  例如，您可以為位在特定Adobe Analytics受眾區段的芝加哥和紐約市人，指定相同的創意組合，但將芝加哥人傳送至與紐約人不同的登陸頁面。 您也可以為區段中除了芝加哥和紐約市以外任何地方居住的人指定不同的組合，並為不在區段中的其他人指定第三個組合。
 
-  目標定位選項包括來自Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP的第一方對象區段中的檢視器；特定地理位置的檢視器，包括國家、州、美國境內的DMA、城市和郵遞區號；從DSP、發行者或合作夥伴傳遞特定索引鍵值配對（資料傳遞目標）的檢視器；具有[!DNL Creative]重新定位畫素和指定屬性值的檢視器；以及具有特定裝置型別、作業系統和瀏覽器的檢視器。
+  目標定位選項包括：
 
-  您可以將創意套件組合指派給每個體驗，選擇性地自訂創意套件組合的最佳化和排程，以及變更每個套件組合中個別創意的預設登陸頁面和追蹤URL<!-- and any flexible attributes -->。
+   * Adobe Audience Manager、Adobe Analytics和Advertising Cloud DSP的第一方受眾區段
 
-* **沒有決策樹定位的體驗：** [!DNL Creative]會最佳化廣告體驗的廣告元素，而不會縮小對象範圍。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->您將為每個體驗指定開始和結束日期以及某些預設設定，但大部分工作流程並非直接在體驗內。 您可以在[!UICONTROL Tag Manager]內，針對體驗的每個廣告大小建立廣告標籤，然後新增創意、設定創意最佳化和排程，以及自訂登陸頁面和追蹤URL，而不是直接將創意新增至體驗。
+   * 特定地理位置，包括國家、州、美國境內的DMA、城市和郵遞區號
+
+   * 從DSP、發佈者或合作夥伴傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
+
+   * [!DNL Creative]正在重新定位畫素和指定的屬性值
+
+   * 特定裝置型別、作業系統和瀏覽器
+
+  您可以將創意組合指派給每個體驗。 對於每個體驗，您可以自訂創意組合的最佳化和排程，並變更每個組合中個別創意的預設登陸頁面和追蹤URL<!-- and any flexible attributes -->。
+
+* **沒有決策樹定位的體驗：** [!DNL Creative]會最佳化廣告體驗的廣告元素，而不會縮小對象範圍。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->您可以為每個體驗指定開始和結束日期以及某些預設設定，但大部分的工作流程並非直接在體驗內。 您不直接將創意內容加入體驗，而是使用[!UICONTROL Tag Manager]為體驗的每個廣告大小建立廣告標籤，然後新增創意內容、設定創意最佳化和排程，以及自訂登陸頁面和追蹤URL。
 
 ## 廣告最佳化
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## 實作和管理體驗
 
-建立即時體驗（包含所有必要的廣告元素）後，您可以[為整個體驗](experience-tag-export.md)產生JavaScript或iframe標籤，您可以選擇將標籤上傳至Adobe Advertising DSP中的行銷活動或實作協力廠商DSP中的廣告。 [!DNL Creative]會根據鎖定目標和廣告輪換選項以及可用的廣告詳細目錄，提供體驗的廣告。
+建立即時體驗（包含所有必要的廣告元素）後，您可以[為整個體驗](experience-tag-export.md)產生JavaScript或iframe標籤。 您可以將體驗標籤上傳至Adobe Advertising DSP中的行銷活動，或實施為協力廠商DSP中的廣告。 [!DNL Creative]會根據鎖定目標和廣告輪換選項以及可用的廣告詳細目錄，提供體驗的廣告。
 
 ## 您體驗的效能資料
 
@@ -65,7 +75,7 @@ You can [view detailed performance data for any experience](experience-performan
 
 *草稿：*&#x200B;體驗的所有分支均未指派創意，因此體驗不完整，您無法產生體驗標籤。
 
-*處理中：*&#x200B;先前上線的體驗已經過編輯，但現在尚未完成。 您無法為其產生體驗標籤。 **注意：**&#x200B;如果您已經為體驗實作體驗標籤，則仍會提供先前上線的版本。 如果您稍後完成體驗（讓體驗再次上線），則會使用現有標籤實作提供新版本。
+*處理中：*&#x200B;先前上線的體驗已經編輯過，但現在尚未完成。 您無法為其產生體驗標籤。 **注意：**&#x200B;如果您已實作體驗的體驗標籤，則仍可提供先前上線的版本。 如果您稍後完成體驗（讓體驗再次上線），則可使用現有的標籤實作提供新版本。
 
 *已刪除：*&#x200B;體驗已從[!DNL Creative]中刪除，並且不再顯示在[!UICONTROL Experiences]檢視中。
 

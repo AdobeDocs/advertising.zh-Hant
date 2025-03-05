@@ -3,7 +3,7 @@ title: 可用於追蹤URL的巨集
 description: 參考您可新增至登陸頁面URL、追蹤URL和協力廠商創意的巨集。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 您可以在協力廠商創意內容、體驗的協力廠商追蹤URL以及自用的登陸頁面URL中加入下列任何巨集。
 

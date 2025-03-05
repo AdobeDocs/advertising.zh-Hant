@@ -3,7 +3,7 @@ title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]目前僅支援Advertising DSP的通用ID。 未來版本將支援協力廠商DSP的通用ID。<!-- Clarify this and reword as needed -->
+> * [!DNL Creative]目前僅支援Advertising DSP的通用ID。 未來版本將支援協力廠商DSP的通用ID。<!-- Clarify this and reword as needed  -->
 >* 您也可以使用來自Adobe Audience Manager和Adobe Analytics的第一方對象作為您體驗的[創意目標](/help/creative/experiences/experience-settings-targeting.md)。
 >* 當您在Advertising DSP版位內使用體驗作為廣告時，可以將版位鎖定為您在DSP中可以使用的所有對象。 您也可以[建立自訂對象區段標籤](/help/dsp/audiences/custom-segment-create.md)以追蹤特定登陸頁面的所有訪客，然後將這些區段作為刊登的創意目標。
 >* 已選擇退出追蹤以進行廣告定位的網站訪客，不會根據對象區段或重新定位設定檔收到內含個人化創意內容的廣告。
