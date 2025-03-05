@@ -2,9 +2,10 @@
 title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意<!-- or creative variations --> (只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性HTML5、影像或第三方<!-- , or dynamic -->)。
+您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容<!-- or creative variations --> (只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方<!-- , or dynamic -->)。
 
-對於彈性的HTML5和靜態的HTML5創意，您可以上傳具有不同版面但屬性名稱集相同的新範本檔案。 對於簡單的HTML5創意，您可以上傳具有新屬性或影像的新範本，以編輯任何屬性或新增影像。 在所有情況下，範本都必須是ZIP格式的本機檔案，而且最大為2 MB。
+針對彈性的HTML5和靜態的HTML5創意內容，您可以上傳具有不同版面但屬性名稱集相同的新範本檔案。 對於簡單的HTML5創意內容，您可以上傳具有新屬性或影像的新範本，以編輯任何屬性或新增影像。 在所有情況下，範本都必須是ZIP格式的本機檔案，而且最大為2 MB。
 
 當您編輯包含在組合中的創意<!-- or creative variation -->時，您的變更會自動套用至包含該組合的所有體驗，除了在體驗層級指定的任何自訂登陸頁面和追蹤URL仍適用於附加至該體驗的組合。
 
@@ -43,13 +44,13 @@ ht-degree: 0%
 
    當您同時編輯多個創意內容時：
 
-   * 您可以同時或個別編輯每個創意內容的設定。 依預設，會選取所有您選取的創意，而您指定的任何設定會套用至所有選取的創意。 若要編輯特定創意的設定，請在編輯欄位前取消選取每個不適用的創意內容；如有需要，請重複執行其他創意內容。
+   * 您可以同時或個別編輯每個創意內容的設定。 依預設，會選取您選擇的所有創意，而您指定的任何設定會套用至所有選取的創意。 若要編輯特定創意的設定，請在編輯欄位前取消選取每個不適用的創意內容；如有需要，請重複執行其他創意內容。
 
    * 某些設定會套用至所有選取的創意內容。
 
    >[!NOTE]
    >
-   >* (僅限彈性HTML5創意)您只能編輯單一創作的屬性。<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (僅限彈性HTML5創意)您只能編輯單一創作的屬性。<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ ht-degree: 0%
 >* [將標準創意內容新增至創意內容庫](creative-add-standard.md)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [預覽創意](/help/creative/creative-libraries/creative-preview.md)
->* [重複的創意內容](/help/creative/creative-libraries/creative-duplicate.md)
->* [刪除創意內容](/help/creative/creative-libraries/creative-delete.md)

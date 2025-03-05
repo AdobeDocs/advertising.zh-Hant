@@ -2,24 +2,24 @@
 title: 關於Adobe Advertising Creative
 description: 瞭解 [!DNL Creative]。
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# 關於Adobe Advertising Creative2.0
+# 關於Adobe Advertising Creative 2.0
 
 *已關閉的Beta*
 
 <!-- verify all and rewrite to include new stuff -->
 
-作為Adobe Advertising的一部分，Advertising Creative是一個自助服務平台，用於自動化即時、個人化的廣告體驗，並可以選擇在創意元素層級最佳化您的廣告。
+Advertising Creative是Adobe Advertising的一部分，它是一個自助服務平台，用於自動化即時、個人化的廣告體驗，並可以選擇在創意元素級別最佳化您的廣告。
 
 ## 可重複使用創作的自訂創意程式庫
 
-您的Creative Libraries可讓您管理將在廣告體驗中使用的所有創意內容。 您可以建立多個資料庫，每個資料庫都有個別創意和創意群組（稱為&#x200B;*組合*）。 您將為廣告體驗新增創意組合。
+您的Creative資料庫可讓您管理將在廣告體驗中使用的創意內容。 您可以建立多個資料庫，每個資料庫都有個別創意和創意群組（稱為&#x200B;*組合*）。 您將為廣告體驗新增創意組合。
 
 ## 規則型體驗
 
@@ -40,7 +40,7 @@ Advertiser should be able to target all segments which are available in DSP for 
 
 ## 重新定位畫素
 
-您可以建立重新目標畫素，以用作廣告體驗中創意內容的目標，因此您只會向具有指定屬性，且先前曾造訪特定網頁的使用者顯示廣告。
+您可以建立重新目標畫素，以作為廣告體驗中創意內容的目標。 目標只會向具有指定屬性的使用者顯示廣告，這些使用者先前曾造訪過特定網頁。
 
 ## 曝光數、點選數和轉換追蹤
 
@@ -57,7 +57,7 @@ to the DSP.
 
 您可以在「創意>體驗」中檢視詳細的體驗層級效能報表。
 
-您也可以在「報表>自訂報表」中建立自訂創意報表，以監控您體驗中的體驗層級效能。 如果您在DSP促銷活動中使用您的[!DNL Creative]體驗作為廣告，則這些廣告的效能資料可供其他自訂報表使用，正如您其他DSP廣告的資料一樣。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+您也可以在「報表>自訂報表」中建立自訂Creative報表，以監控您體驗中的體驗層級效能。 如果您在DSP行銷活動中使用您的[!DNL Creative]體驗作為廣告，則這些廣告的效能資料可在其他自訂報表中使用，就像您的其他DSP廣告的資料一樣。<!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 您可以選擇將自訂報表傳送至指定的[報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)。
 
@@ -69,4 +69,4 @@ to the DSP.
 >[!MORELIKETHIS]
 >
 >* [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
->* [關於Advertising Creative](/help/creative/experiences/experience-about.md)中的體驗
+>* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)

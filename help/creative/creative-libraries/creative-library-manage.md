@@ -2,9 +2,10 @@
 title: 管理您的創意程式庫
 description: 瞭解如何建立、重新命名和刪除您的創意程式庫。
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-您可以為每個廣告商建立多個創意程式庫。 您稍後可將[標準創意內容](creative-add-standard.md) <!-- , dynamic creatives, -->和[創意組合](bundle-manage.md)填入每個程式庫。 您的Adobe帳戶團隊也可以將動態創意新增到您的程式庫。
+您可以為每個廣告商建立多個創意程式庫。 您稍後可將[標準創意](creative-add-standard.md)<!-- , dynamic creatives, -->和[創意組合](bundle-manage.md)填入每個程式庫。 您的Adobe客戶團隊也可以將動態創意新增至程式庫。
 
 ## 建立創意內容庫
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ## 刪除創意程式庫
 
-您可以刪除含有未指派給即時體驗之創意和組合的程式庫。<!-- Add an x-ref?  -->在您繼續之前，請從體驗<!-- add x-ref -->的決策樹移除指派給即時體驗的任何創意或組合。
+您可以刪除含有未指派給[即時](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)體驗之創意和組合專案的資料庫。 若要即時鎖定目標體驗，請在繼續之前[從決策樹](/help/creative/experiences/experience-target-node-delete.md)移除該體驗的所有創意或組合。<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
       * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Delete]**。
 
-   * 若要刪除一或多個程式庫，請選取要刪除之每個程式庫的核取方塊。 在大量動作工具列中按一下**[!UICONTROL Delete]。
+   * 若要刪除一或多個程式庫，請選取要刪除之每個程式庫的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Delete]**。
 
      若要選取所有列，請選取左上方的全域核取方塊。
 

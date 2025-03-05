@@ -3,9 +3,9 @@ title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    如果您手動新增其他屬性，則必須包含URL編碼。
 
-   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤將包含下列引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 例如，若要鎖定選取大小為10的紅色涼鞋的使用者，您可以將影像標籤和指令碼標籤中的引數變更為`&ut1=sandals&ut2=red&ut3=10`，並在指令碼標籤中輸入ID5合作夥伴ID，例如`&id5pid=0123456789`。
+   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤會包含以下引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 若要鎖定選取大小為10的紅色涼鞋的使用者，例如，將影像標籤和指令碼標籤中的引數變更為`&ut1=sandals&ut2=red&ut3=10`，並在指令碼標籤中輸入您的ID5合作夥伴ID，例如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ ht-degree: 0%
 
 ## 重新定位畫素設定 {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]：**&#x200B;畫素的名稱。 **注意：**&#x200B;畫素標籤將包含畫素ID (`pxId=<ID>`)，而不是畫素名稱。
+**[!UICONTROL Pixel Name]：**&#x200B;畫素的名稱。 **注意：**&#x200B;畫素標籤包含畫素ID (`pxId=<ID>`)，而非畫素名稱。
 
 **[!UICONTROL Advertiser]：** （現有畫素為唯讀）追蹤畫素的廣告商。
 
 **[!UICONTROL Attribute 1]：**&#x200B;要包含在畫素標籤中的屬性，例如「SKU」、「category」、「size」或頁面的其他屬性，或頁面上顯示的產品。 在插入相關網頁之前，請在畫素標籤中指定屬性值。
 
-將廣告體驗鎖定給曝光於畫素的使用者時，鎖定目標設定會指定必須出現的屬性值，才能顯示創意。
+將廣告體驗目標定位給曝光於畫素的使用者時，目標定位設定會指定必須呈現的屬性值，才能顯示創意。
 
 **[!UICONTROL Attribute 2]**、**[!UICONTROL Attribute 3]**、**[!UICONTROL Attribute 4]**、**[!UICONTROL Attribute 5]：** （選用）要包含在畫素標籤中的其他屬性。 在您將畫素標籤插入相關網頁之前，請為畫素標籤中的每個其他屬性指定值。
 
-將廣告體驗鎖定給曝光於畫素的使用者時，鎖定目標設定會指定必須出現的屬性值，才能顯示創意。
+將廣告體驗目標定位給曝光於畫素的使用者時，目標定位設定會指定必須呈現的屬性值，才能顯示創意。
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：** (Beta功能；僅限新畫素；選用)要追蹤的畫素標籤通用ID型別：
 

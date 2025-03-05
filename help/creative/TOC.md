@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5創意規格](/help/creative/creative-libraries/html5-creative-specification.md)
       + [預覽創意](/help/creative/creative-libraries/creative-preview.md)
-      + [從套件組合附加及分離創意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [將創意內容附加至組合](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [複製創意](/help/creative/creative-libraries/creative-duplicate.md)
       + [下載創意](/help/creative/creative-libraries/creative-download.md)
       + [刪除創意內容](/help/creative/creative-libraries/creative-delete.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [新增同層級目標節點](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [將子節點複製到相同層級的另一個節點](/help/creative/experiences/experience-target-node-copy.md)
             + [刪除目標節點或創意葉節點](/help/creative/experiences/experience-target-node-delete.md)
-         + 創意組合與創意{#bundles}
+         + Creative套件組合與創意{#bundles}
             + [指派和取消指派創意套件組合至最終節點](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [自訂創意作品的追蹤URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)

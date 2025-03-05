@@ -2,9 +2,10 @@
 title: 刪除創意內容
 description: 瞭解如何刪除創意內容庫中的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,11 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-您可以刪除不在指派給即時或草稿體驗之組合中的創意。<!-- verify if we can have child creative variations anymore:  , and that doesn't have child creative variations in a bundle that's assigned to a live or draft experience  -->.<!-- Add an x-ref to experience statuses, or an about page??  --> <!-- add with an x-ref once this feature is added:  If a creative is assigned to a live experience, then remove it from the experience before you continue. -->
+您可以刪除
+
+* 不在指派給[即時或草稿](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [目標體驗](/help/creative/experiences/experience-about.md)之組合中的創意內容。
+
+* 未指派給即時或草稿[非目標體驗](/help/creative/experiences/experience-about.md)之廣告標籤的創意內容。
 
 >[!NOTE]
 >

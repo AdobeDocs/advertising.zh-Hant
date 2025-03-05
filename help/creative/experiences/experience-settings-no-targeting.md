@@ -3,7 +3,7 @@ title: 非目標體驗的設定
 description: 請參閱不含決策樹定位之廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[指定的預設創意\]：**&#x200B;當瀏覽器無法顯示指派給體驗的創意時(例如當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時)，所使用的預設影像創意。 針對體驗適用的每個廣告大小包含一個影像創意。 您的選擇決定了可用於體驗的創意大小。<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-對於沒有決策樹定位的體驗，您可以在[!UICONTROL Tag Manager].<!-- verify -->內以相同大小的創意內容覆寫預設創意內容
+對於沒有決策樹定位的體驗，您可以在[!UICONTROL Tag Manager]內以相同大小的創意內容覆寫預設創意內容。
 
 * 若要新增具有不同維度的預設創作，請按一下&#x200B;**[!UICONTROL + Add Sizes]**，從右側窗格中選取要新增的每個創意旁邊的核取方塊，然後按一下&#x200B;**[!UICONTROL Add Creatives]**。
 

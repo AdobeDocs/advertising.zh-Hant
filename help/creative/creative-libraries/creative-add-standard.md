@@ -3,9 +3,9 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## 將HTML5創意內容新增至創意內容庫
 
-<!-- verify -->您可以一次新增單一型別的多個HTML5創意（簡單或靜態）。
+您可以一次新增單一型別的多個HTML5創意（簡單或靜態）。
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**。
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >* [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
 >* [預覽創意](/help/creative/creative-libraries/creative-preview.md)
 >* [從組合附加及分離創意](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [重複的創意內容](/help/creative/creative-libraries/creative-duplicate.md)
->* [下載創意內容](/help/creative/creative-libraries/creative-download.md)
->* [刪除創意內容](/help/creative/creative-libraries/creative-delete.md)
 >* [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [管理創意內容庫](/help/creative/creative-libraries/creative-library-manage.md)

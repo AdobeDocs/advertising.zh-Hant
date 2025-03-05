@@ -2,9 +2,10 @@
 title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-組合是創意作品群組，您可以將其作為一個單元新增到體驗中。 建立束容器後，您可以將創意附加至束。 標準套件組合只能包含標準廣告，而動態套件組合只能包含動態廣告。 您可以覆寫從體驗決策樹內指派給體驗之套件中所有創意的登陸頁面、曝光追蹤標籤和點選追蹤標籤，而不會影響基本創意內容。
+組合是創意作品群組，您可以將其作為一個單元新增到體驗中。 建立束容器後，您可以將創意附加至束。 標準套件組合只能包含標準廣告，而動態套件組合只能包含動態廣告。 您可以覆寫套件中所有創意的登陸頁面、曝光追蹤標籤，以及點選追蹤標籤，這些創意會從體驗決策樹內指派給體驗，而不會影響基本創意內容。
 
 [!DNL Creative]會依指派給組合的每個體驗之指定，在組合中旋轉創意。 您可以選擇允許[!DNL Creative]使用演演算法廣告輪換(由Adobe Sensei提供技術支援)，根據效能最佳化任何體驗的廣告元素。
 
@@ -105,9 +106,11 @@ ht-degree: 0%
 
 您可以將[現有的標準創意](/help/creative/creative-libraries/creative-libraries-about.md)附加至標準組合，並將現有的動態創意<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->附加至動態組合。 將創意附加至搭售方案會讓創意內容可在指派給搭售方案的所有體驗中使用。 每個組合只能包含每個\[創意大小+語言\]組合中的一個。
 
+<!--
 >[!NOTE]
 >
->您也可以[從標準廣告和動態廣告檢視](creative-attach-detach-bundles.md)將創意內容附加至組合。
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 刪除組合
 
-您可以刪除未指派給即時體驗的組合。<!-- Add an x-ref?  -->如果將組合指派給即時體驗，請先從決策樹中移除該組合以取得體驗<!-- add x-ref -->，然後再繼續。
+您可以刪除未指派給[即時](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)體驗的組合。 如果將組合指派給即時體驗，請在繼續之前[從決策樹](/help/creative/experiences/experience-target-node-delete.md)移除該組合以供該體驗使用。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -250,5 +253,6 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [指派和取消指派創意組合至體驗中的最終節點](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md)
 >* [管理創意內容庫](/help/creative/creative-libraries/creative-library-manage.md)
 >* [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
