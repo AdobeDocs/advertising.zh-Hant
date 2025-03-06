@@ -2,9 +2,10 @@
 title: 指派和取消指派創意套件組合至體驗中的最終節點
 description: 瞭解如何將創意內容指派給廣告體驗中的每個目標。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您未指派至少一個創意組合至每個最終節點，則可在您[儲存體驗](experience-create-targeting.md)時，選擇使用每個未指派節點的預設創意。 若要發佈體驗，必須為體驗指派套件組合或使用根據其建立之所有廣告的預設創意。
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>如果您未指派至少一個創意組合至每個最終節點，則可在您[儲存體驗](experience-create-targeting.md)時，選擇使用每個未指派節點的預設創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
 
 <!-- 1. [ways to get to the decision tree] -->
 

@@ -2,9 +2,10 @@
 title: 編輯具有決策樹定位的體驗
 description: 瞭解如何使用決策樹編輯目標廣告體驗的設定。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -55,11 +56,11 @@ ht-degree: 0%
 
          * [將子節點和創意內容複製到相同層級的另一個節點](experience-target-node-copy.md)。
 
-      * 創意組合：
+      * Creative套件組合：
 
          * [指派和取消指派創意內容給最終節點](experience-assign-creative-bundles.md)。
 
-           如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，必須為體驗指派套件組合或使用根據其建立之所有廣告的預設創意。
+           如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
 
          * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
 

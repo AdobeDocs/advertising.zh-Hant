@@ -2,9 +2,10 @@
 title: 從[!UICONTROL Experiences]檢視下載資料
 description: 瞭解如何
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,6 @@ ht-degree: 0%
 1. 按一下右上角工具列中的![下載](/help/creative/assets/download.png "下載")。
 
    檔案會儲存至瀏覽器的預設「下載」資料夾。
+
+>[!MORELIKETHIS]
+>* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
