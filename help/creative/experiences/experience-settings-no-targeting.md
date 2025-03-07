@@ -3,9 +3,9 @@ title: 非目標體驗的設定
 description: 請參閱不含決策樹定位之廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **半徑：** （僅限使用動態廣告的體驗；選擇性）目標饋送檔案中指定的美國郵遞區號的半徑；選取從0哩到200哩的半徑。 用來為體驗建立動態廣告的摘要檔案必須包含一個[!UICONTROL ZIP]欄<!-- or a user-named column mapped to a ZIP column -->，且該檔案中的每個產品列都有值。 例如，半徑為10哩時，可向95110徑10哩內的使用者顯示95110中可用產品的廣告（由使用者的IP位址決定）。
 
-**RT畫素：** （僅具有動態廣告的體驗；選用） [!UICONTROL Creative]將畫素重新定位到潛在目標。 當您在決策樹中設定目標時，可以包含一個RT畫素目標節點層級。 對於每個節點，您將指定要定位的畫素，以及在指定的創意組合中顯示創意所需的畫素屬性值。 如果您未在此欄位中指定畫素，您仍可在決策樹中指定畫素。&lt;！ — 從R：「RT畫素應該透過「動態廣告設定」中的內容選取」 — 釐清。 我在「動態廣告」設定中看見「資料管道」（單字），但不確定該設定與此體驗層級一如何搭配運作。—>
+**RT畫素：** （僅具有動態廣告的體驗；選用） [!UICONTROL Creative]將畫素重新定位到潛在目標。 當您在決策樹中設定目標時，可以包含一個RT畫素目標節點層級。 對於每個節點，您將指定要定位的畫素，以及在指定的創意組合中顯示創意所需的畫素屬性值。 如果您未在此欄位中指定畫素，您仍可在決策樹中指定畫素。<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗<!-- sic -->檢視中依標籤篩選體驗。
 
