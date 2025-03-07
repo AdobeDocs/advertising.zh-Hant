@@ -3,9 +3,9 @@ title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 輸入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;並選取&#x200B;**[!UICONTROL Tag size]**。
 
-   可用的創意大小由體驗的預設影像創意大小決定。
+   體驗的預設影像創意大小決定可用的創意大小。
 
    您可以為相同的創意大小建立多個標籤。<!-- What are the implications? -->
 

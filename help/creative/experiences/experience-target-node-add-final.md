@@ -2,9 +2,10 @@
 title: 將目標節點新增到體驗中的最終層級
 description: 瞭解如何將目標節點新增至廣告體驗的最終目標層級。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 *僅使用決策樹定位的體驗*
 *已關閉的Beta版*
 
-當您將目標節點新增到體驗的最底層（無論是根「所有」節點、目標特定節點還是「其他一切」節點）時，您無需建立同層級節點即可直接定義目標。 這會在相同層級建立目標節點和其他「其他專案」節點。
+將目標節點新增至體驗的最底層節點時（無論是根「全部」節點、目標特定節點還是「其他一切」節點），您可以直接定義目標，而不需要建立同層級節點。 新增底層的節點會在相同層級建立目標節點和其他「其他一切」節點。
 
 >[!NOTE]
 >
->若要在決策樹的現有層級之間插入目標節點，請參閱「在體驗中的節點之間插入目標節點[」](experience-target-node-add-inner.md)。
+>若要在決策樹的現有層級之間插入目標節點，請參閱[在體驗中的節點之間插入目標節點](experience-target-node-add-inner.md)。
 
 <!-- 1. [ways to get to the decision tree] -->
 
@@ -26,13 +27,13 @@ ht-degree: 0%
 
 1. 指定目標：
 
-   * 若為「Adobe對象」目標，請選取「**[!UICONTROL Adobe Audience]**」，然後執行下列動作：
+   * 針對Adobe對象目標，請選取「**[!UICONTROL Adobe Audience]**」，然後執行下列動作：
 
       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟您的[!UICONTROL Audience Targeting]選項、開啟&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;標籤、指定一或多個廣告商的[!DNL Adobe]對象目標，然後按一下&#x200B;**[!UICONTROL Create]**。
 
       1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         這會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
+         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         這會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 
    機碼值組的機碼已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定。
 
-   * 對於重新定位畫素目標，請選取&#x200B;**[!UICONTROL RT Pixel]**，選取要使用的單一重新定位畫素，以及任何必須出現的畫素屬性所需值以顯示創意，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   * 對於重新定位畫素目標，請選取&#x200B;**[!UICONTROL RT Pixel]**，選取要使用的單一重新定位畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
      重新目標畫素的屬性是在[重新目標畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         這會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 

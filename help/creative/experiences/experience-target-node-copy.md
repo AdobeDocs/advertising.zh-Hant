@@ -2,9 +2,10 @@
 title: 將子節點複製到相同層級的另一個目標節點
 description: 瞭解如何將父目標節點的所有子節點複製到相同層級的另一個目標節點
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *僅使用決策樹定位的體驗*
 *已關閉的Beta版*
 
-您可以將父目標節點的所有子節點（包括所有子目標以及指派給它們的創意組合）複製到相同層級的另一個目標節點，將複製的節點新增至現有框架或完全取代現有框架。<!-- Give the main use case or an example to explain. -->
+您可以將父目標節點的所有子節點（包括所有子目標以及指派給它們的創意組合）複製到相同層級的另一個目標節點。 您可以透過以下方式複製節點：(a)將複製的節點新增到現有框架，或(b)完全取代現有框架。<!-- Give the main use case or an example to explain. -->
 
 此功能不會影響為父節點指定的目標，只會影響子節點。
 

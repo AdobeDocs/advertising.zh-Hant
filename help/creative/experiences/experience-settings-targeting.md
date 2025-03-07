@@ -3,9 +3,9 @@ title: 目標體驗設定
 description: 請參閱目標廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]：** （現有體驗為唯讀）將對體驗中包含的創意和目標組合出價的廣告商。 儲存體驗後，您就無法變更廣告商。
 
-**[!UICONTROL Experience Name]：**&#x200B;體驗的唯一名稱。 **秘訣：**&#x200B;使用當您在Advertising DSP或其他DSP中將體驗當做廣告使用時，很容易找到的名稱。
+**[!UICONTROL Experience Name]：**&#x200B;體驗的唯一名稱。 **秘訣：**&#x200B;在Advertising DSP或其他DSP中使用體驗作為廣告時，請使用可以輕鬆找到的名稱。
 
 **[!UICONTROL Creative Library]：** （現有體驗為唯讀）要用於體驗的單一創意程式庫。 儲存體驗後，就無法變更資料庫。
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 **半徑：** （僅限使用動態廣告的體驗；選擇性）目標饋送檔案中指定的美國郵遞區號的半徑；選取從0哩到200哩的半徑。 用來為體驗建立動態廣告的摘要檔案必須包含一個[!UICONTROL ZIP]欄<!-- or a user-named column mapped to a ZIP column -->，且該檔案中的每個產品列都有值。 例如，半徑為10哩時，可向95110徑10哩內的使用者顯示95110中可用產品的廣告（由使用者的IP位址決定）。
 
-**RT畫素：** （現有體驗為唯讀；選擇性） [!UICONTROL Creative]將畫素重新定位到潛在目標。 在決策樹中設定目標定位時，您可以包含一個RT畫素目標節點，並指定每個節點的目標畫素，以及必須呈現的畫素屬性所需值，才能在指派的創意組合中顯示創意。 如果您在建立體驗時未在此欄位中指定畫素，您仍可在決策樹中指定畫素。<!-- May move this to just within the decision tree. -->
+**RT畫素：** （現有體驗為唯讀；選擇性） [!UICONTROL Creative]將畫素重新定位到潛在目標。 當您在決策樹中設定目標時，可以包含一個RT畫素目標節點層級。 對於每個節點，您將指定要定位的畫素，以及在指定的創意組合中顯示創意所需的畫素屬性值。 如果您在建立體驗時未在此欄位中指定畫素，您仍可在決策樹中指定畫素。<!-- May move this to just within the decision tree. -->
 
-**標籤：** <!-- should be "Labels" --> （選擇性）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗<!-- sic -->檢視中依標籤篩選體驗。
+**標籤：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗<!-- sic -->檢視中依標籤篩選體驗。
 
 * 若要選取現有標籤，請按一下![向下](/help/creative/assets/chevron-down.png "向下")，然後選取要套用的每個標籤旁的核取方塊。
 

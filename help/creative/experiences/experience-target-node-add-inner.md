@@ -2,9 +2,10 @@
 title: 在體驗中的節點之間新增目標節點
 description: 瞭解如何在廣告體驗中的目標節點之間新增目標節點。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 當您在現有層次之間插入目標節點時，新目標節點會保留所有現有的子目標和創意，而新節點最初稱為「全部」。 您可以選擇保留新節點，而不新增更多特定目標。
 
-若要定義特定目標，請在相同層級新增其他同層級目標節點、指定新目標，然後只將創意指派給該目標。 這會建立新的目標節點，並將先前指派給「全部」的所有子目標和創意移動到相同層級的新「其他所有專案」節點。 如此一來，新增新目標就不會影響現有的子分支，因為只有新的同層級節點包含新的目標定位資訊。
+若要定義特定目標，請在相同層級新增其他同層級目標節點、指定新目標，然後只將創意指派給該目標。 新增同層級目標節點會建立新的目標節點，並將先前指派給「全部」的所有子目標與創意移動到相同層次的新「其他所有專案」節點。 如此一來，新增目標不會影響現有的子分支，因為只有新的同層級節點包含新的目標定位資訊。
 
 >[!NOTE]
 >
@@ -32,7 +33,7 @@ ht-degree: 0%
 
       1. 選取目標型別，然後按一下&#x200B;**[!UICONTROL Apply]**：
 
-         * 若為Adobe對象目標，請選取&#x200B;**[!UICONTROL Adobe Audience]**。
+         * 針對Adobe對象目標，請選取&#x200B;**[!UICONTROL Adobe Audience]**。
 
          * 若為地理目標，請選取單一地理類別（例如[!UICONTROL Geo: Country]）。
 
@@ -44,13 +45,13 @@ ht-degree: 0%
 
    * 如果同層級節點已經存在，請執行下列動作：
 
-      * 針對「Adobe對象」目標，請執行以下作業：
+      * 針對Adobe對象目標，請執行以下作業：
 
          1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟您的[!UICONTROL Audience Targeting]選項、開啟&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;標籤、指定一或多個廣告商的[!DNL Adobe]對象目標，然後按一下&#x200B;**[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->。
 
          1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            這會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
+            此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
 
          1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
          1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            這會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+            此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
 
          1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -70,7 +71,7 @@ ht-degree: 0%
 
         機碼值組的機碼已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定。
 
-      * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及任何必須出現的畫素屬性所需值以顯示創意，然後按一下&#x200B;**[!UICONTROL Apply]**。
+      * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
         重新目標畫素的屬性是在[重新目標畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
 
@@ -80,7 +81,7 @@ ht-degree: 0%
 
          1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            這會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+            此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
 
          1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
@@ -90,7 +91,7 @@ ht-degree: 0%
 
    * （選擇性） [將創意內容](experience-assign-creative-bundles.md)指派給新的目標節點和「其他一切」節點。
 
-   * （選擇性） [新增將包含指定型別之目標的同層級目標節點](experience-target-node-add-sibling.md)。
+   * （選擇性） [新增指定目標型別的同層級目標節點](experience-target-node-add-sibling.md)。
 
    * （選用）若要儲存體驗：
 

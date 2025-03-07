@@ -3,7 +3,7 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
       1. 按一下右上角的&#x200B;**[!UICONTROL Next]**&#x200B;或按一下左側功能表中的&#x200B;**[!UICONTROL DSP link]**。
 
-      1. 選取可使用廣告標籤的促銷活動。
+      1. 選取您要上傳廣告標籤的行銷活動。
 
       1. 按一下&#x200B;**[!UICONTROL Assign Tags]**。
 

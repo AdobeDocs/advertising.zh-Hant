@@ -3,9 +3,9 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **預設率**： （僅具有決策樹定位的體驗）從目標創意內容、沒有目標或目標為「其他所有人」的一般創意內容，以及體驗的預設創意內容所產生的曝光次數。
+   * **預設率**： （僅具有決策樹定位的體驗）從目標創意內容、沒有目標的一般創意內容或目標為「其他所有人」的一般創意內容，以及體驗的預設創意內容所產生的曝光次數。
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -116,9 +116,11 @@ ht-degree: 0%
 
    * （選擇性）若要變更用於在一連串導致轉換的事件中歸因轉換資料的規則，請按一下![設定](/help/creative/assets/settings.png)並變更&#x200B;**[!UICONTROL Attribution Rule]**。
 
-   * （選擇性）若要變更報告的轉換，請按一下![設定](/help/creative/assets/settings.png)，然後在&#x200B;**[!UICONTROL Conversions]**&#x200B;功能表中選取轉換名稱。&lt;！ — 只有一或多個？ 確認這些是否會顯示 — 我需要看到已設定多次轉換的廣告商 — >
+     如需歸因規則的詳細資訊，請參閱[歸因規則的計算方式](/help/search-social-commerce/reports/attribution-rules.md)。
 
-     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 當廣告商具有[an [!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)時，這可以包括從Adobe Analytics同步的轉換和網站參與量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->如需將收集的轉換納入報表的相關詳細資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;。
+   * （選擇性）若要變更報告的轉換，請按一下![設定](/help/creative/assets/settings.png)，然後在&#x200B;**[!UICONTROL Conversions]**&#x200B;功能表中選取轉換名稱。&lt;！ — 只有一或多個？ 確認這些轉換的顯示方式 — 我需要看到已設定多個轉換的廣告商。 截至3/6，我只看到「全部選取」 — >
+
+     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 當廣告商具有[an [!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)時，清單可包含從Adobe Analytics同步的轉換和網站參與量度。 <!--Analytics calculated metrics and advanced calculated metrics aren't available.-->如需將收集的轉換納入報表的相關詳細資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;。
 
 1. （在[!UICONTROL Overview]索引標籤上）：
 
@@ -136,7 +138,7 @@ ht-degree: 0%
 
       * 將游標放在任何裝置類別的值上，即可檢視該條件的資料。
 
-      * 按一下任何裝置類別的值，即可檢視符合該條件的前<!-- NN-->個創意內容清單。
+      * 按一下任何裝置類別的值，即可檢視與該條件搭配使用的前<!-- NN-->個創意內容清單。
 
 1. （選擇性）若要依創意、組合或廣告標籤檢視資料，請按一下&#x200B;**[!UICONTROL Creative Performance]**&#x200B;標籤。
 
@@ -163,3 +165,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [自訂創意報告](/help/creative/report-custom-creative.md)
+>* [下載檢視中的所有體驗](/help/creative/experiences/experience-download-view.md)
+>* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
