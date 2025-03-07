@@ -1,19 +1,19 @@
 ---
-title: Adobe Advertising支援加州消費者隱私法&#58；消費者選擇退出銷售支援
+title: Adobe Advertising對加州消費者隱私法的支援&#58；消費者選擇退出銷售支援
 description: 瞭解如何支援擷取消費者選擇退出銷售的要求。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# 加州消費者隱私法的Adobe Advertising支援：消費者選擇退出銷售支援
+# Adobe Advertising對加州消費者隱私法的支援：消費者選擇退出銷售支援
 
-用於Adobe AdvertisingDemand Side Platform(DSP)的&#x200B;**
+適用於Adobe Advertising Demand Side Platform (DSP)的&#x200B;**
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 企業能決定哪些個人資料要交由Adobe Experience Cloud代表您處理和儲存。
 
-作為您的服務提供者，Adobe Advertising會為您的企業提供支援，以履行CCPA所規範的適用於使用Adobe Advertising產品和服務的義務，包括管理消費者存取和刪除個人資訊的請求，以及管理消費者選擇退出個人資訊銷售的請求。
+身為您的服務提供者，Adobe Advertising會支援您的企業履行CCPA所規範的義務，這些義務適用於使用Adobe Advertising產品和服務，包括管理消費者存取和刪除個人資訊的請求，以及管理消費者選擇退出個人資訊銷售的請求。
 
-本檔案說明Adobe AdvertisingDemand Side Platform(DSP)身為服務提供者，如何支援消費者選擇退出「個人資訊」銷售（每個詞語由CCPA定義）的權利。 其中包括如何向Adobe Advertising傳達選擇退出銷售請求，以及如何擷取您組織的選擇退出銷售請求報表的資訊。
+本檔案說明Adobe Advertising Demand Side Platform (DSP)身為服務提供者，如何支援消費者選擇退出「個人資訊銷售」的權利，因為CCPA會定義每個詞語。 其中包括如何向Adobe Advertising傳達選擇退出銷售請求，以及如何擷取您組織的選擇退出銷售請求報表的資訊。
 
 如需[!DNL Advertising Search, Social, & Commerce]、Advertising Creative和[!DNL Advertising DCO]如何支援消費者的個人資訊存取和刪除許可權的詳細資訊，請參閱[加州消費者隱私法的Adobe Advertising支援：消費者資料存取和刪除支援](/help/privacy/ccpa/ccpa-access-delete.md)。
 
-如需CCPAAdobe隱私權服務的詳細資訊，請參閱[Adobe隱私權中心](https://www.adobe.com/privacy/ccpa.html)。
+如需CCPA適用Adobe隱私權服務的詳細資訊，請參閱[Adobe隱私權中心](https://www.adobe.com/privacy/ccpa.html)。
 
 ## 將消費者選擇退出銷售的請求傳達給Adobe Advertising
 
@@ -55,27 +55,27 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >請求某些Adobe Experience Cloud解決方案不需要JavaScript資料庫，但Adobe Advertising請求需要它。
+   >請求某些Adobe Experience Cloud解決方案不需要JavaScript資料庫，但請求給Adobe Advertising則需要它。
 
-   您應該將資料庫部署在客戶可以提交選擇退出銷售請求的網頁上，例如您公司的隱私權入口網站。 資料庫可協助您擷取AdobeCookie （名稱空間ID： `gsurferID`），以便您可以透過Adobe Experience Platform Privacy Service API將這些身分識別作為選擇退出銷售請求的一部分提交。
+   您應該將資料庫部署在客戶可以提交選擇退出銷售請求的網頁上，例如您公司的隱私權入口網站。 資料庫可協助您擷取Adobe Cookie （名稱空間ID： `gsurferID`），以便您可以透過Adobe Experience Platform Privacy Service API將這些身分識別作為選擇退出銷售請求的一部分提交。
 
 1. 識別您的Experience Cloud組織ID，並確定其已連結至您的Adobe Advertising帳戶。
 
-   Experience Cloud組織ID是24個字元的英數字串，後面接著「@AdobeOrg」。 大部分Experience Cloud客戶已指派組織ID。 如果您的行銷團隊或內部Adobe系統管理員不知道您的組織ID，或不確定其是否已布建，請聯絡您的Adobe帳戶團隊。 您需要組織識別碼，才能使用`imsOrgID`名稱空間將請求提交至隱私權API。
+   Experience Cloud組織ID是24個字元的英數字串，通常會加上「@AdobeOrg」。 大部分Experience Cloud客戶已指派組織ID。 如果您的行銷團隊或內部Adobe系統管理員不知道您的組織ID，或不確定其是否已布建，請聯絡您的Adobe帳戶團隊。 您需要組織識別碼，才能使用`imsOrgID`名稱空間將請求提交至隱私權API。
 
    >[!IMPORTANT]
    >
-   >請聯絡貴公司的Adobe Advertising代表，確認貴組織的所有Adobe Advertising帳戶（包括[!DNL DSP]帳戶或廣告商、[!DNL Search, Social, & Commerce]帳戶及[!DNL Creative]或[!DNL DCO]帳戶）皆已連結至您的Experience Cloud組織ID。
+   >請聯絡貴公司的Adobe Advertising代表，確認貴組織的所有Adobe Advertising帳戶（包括[!DNL DSP]帳戶或廣告商、[!DNL Search, Social, & Commerce]帳戶及[!DNL Creative]或[!DNL DCO]帳戶）都與您的Experience Cloud組織ID連結。
 
-1. 使用Adobe Experience Platform Privacy Service API來[提交選擇退出銷售請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)以代表消費者Adobe Advertising，並檢查現有請求的狀態。
+1. 使用Adobe Experience Platform Privacy Service API代表消費者[提交選擇退出銷售請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)給Adobe Advertising，並檢查現有請求的狀態。
 
    如需選擇退出銷售的請求範例，請參閱下文附錄。
 
    >[!NOTE]
    >
-   >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 但是，您可以向多個Adobe Advertising子解決方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）發出一個API請求，每個子解決方案使用一個帳戶。
+   >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 但是，您可以向多個Adobe Advertising子解決方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）提出一個API請求，每個子解決方案使用一個帳戶。
 
-若要獲得Adobe Advertising的支援，所有這些步驟都是必要的。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
+您必須執行上述所有步驟，才能獲得Adobe Advertising的支援。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
 
 ## 擷取提交選擇退出銷售請求的消費者報表
 
@@ -92,9 +92,9 @@ Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的
 
 此功能適用於使用[!DNL Trafficking API]的組織。 如需詳細資訊，請參閱[!DNL Trafficking API]的檔案。<!-- Add link to API doc once it's published. -->
 
-如果貴組織未使用[!DNL Trafficking API]，但想取得更多資訊，請連絡您的Adobe客戶團隊。
+如果貴組織未使用[!DNL Trafficking API]，但想要瞭解更多資訊，請聯絡您的Adobe客戶團隊。
 
-## 附錄：範例[!UICONTROL CCPA Opt-Out-of-Sale]的Privacy ServiceAPI使用者要求
+## 附錄：Privacy Service API使用者的範例[!UICONTROL CCPA Opt-Out-of-Sale]要求
 
 ```
 curl -X POST \
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "adCloud",
+            "namespace": "AdCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-其中：
+其中，根據[Privacy Service API規格](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)：
 
-* `"namespace": "adCloud"`表示`adCloud` Cookie空間，而對應的值是從`AdobePrivacy.js`擷取之客戶的Cookie ID
-* `"include": ["adCloud"]`指出要求適用於Adobe Advertising
+* `"namespace": "AdCloud"`表示`AdCloud` Cookie空間，而對應的值是從`AdobePrivacy.js`擷取之客戶的Cookie ID
+* `"include": ["adCloud"]`指出此要求適用於產品Adobe Advertising

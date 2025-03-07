@@ -4,9 +4,9 @@ description: 瞭解支援的資料請求型別、必要的設定和欄位值，�
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （表示[!DNL adCloud] Cookie空間）
+   * `"namespace": **411**` （表示[[!DNL AdCloud] Cookie空間](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)）
 
    * `"value":` &lt;*從`AdobePrivacy.js`*&#x200B;擷取的實際客戶的Cookie ID值>
 
-* `"include": **adCloud**` （適用於此請求的[!DNL Adobe]產品）
+* `"include": **adCloud**` （適用於此請求的[[!DNL Adobe] 產品](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)）
 
 * `"regulation": **ccpa**` （適用於此請求的隱私權法規）
 
