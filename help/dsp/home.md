@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1bc46bb8a091679226bb89f7b4d732eca505c69c
+source-git-commit: b4a6f602cd9dbc95e5af4fadd54886f1c6941af2
 workflow-type: tm+mt
 source-wordcount: '4949'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年3月10日發行 | 隱私權 | 透過與數位Advertising聯盟(DAA)的[!DNL Adobe's]合作關係，您的一般使用者現在可以選擇退出所有依賴雜湊電子郵件地址的「Adobe Marketing Cloud - Advertising服務」(包含DSP + Audience Manager Cookie的Adobe Experience Cloud舊稱)的行為目標定位。 之前，DSP僅支援Cookie和行動ID的選擇退出功能。<br><br>當一般使用者選擇退出行為鎖定目標時，DSP會擷取一般使用者的Cookie、行動ID或雜湊電子郵件地址(DSP可能會將其與[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]相關聯)。 接著，只要一般使用者保留其選擇退出Cookie （有效期5年），DSP就會排除該一般使用者廣告曝光數的行為鎖定目標。<br><br>您的使用者可以： a\)在其瀏覽器上從[https://optout.aboutads.info](https://optout.aboutads.info)選擇退出廣告、在其瀏覽器、應用程式上選擇退出廣告，或使用[https://youradchoices.com/control](https://youradchoices.com/control)的Token識別碼。<br><br>廣告商不需要任何工作。 | 請參閱&quot;[Adobe隱私權政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
+| 2025年3月10日發行 | 隱私權 | 透過[!DNL Adobe's]與數位Advertising聯盟(DAA)的合作關係，您的一般使用者現在可以選擇退出所有依賴「Adobe Marketing Cloud - Advertising服務」(包含DSP + Audience Manager Cookie的Adobe Experience Cloud舊稱)之雜湊電子郵件地址的行為鎖定目標。 之前，DSP僅支援Cookie和行動ID的選擇退出功能。<br><br>當一般使用者選擇退出行為鎖定目標時，DSP會擷取一般使用者的Cookie、行動ID或雜湊電子郵件地址(DSP可能會將其與[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]相關聯)。 接著，只要一般使用者保留其選擇退出Cookie （有效期5年），DSP就會排除該一般使用者廣告曝光數的行為鎖定目標。<br><br>您的使用者可以： a\)在其瀏覽器上從[https://optout.aboutads.info](https://optout.aboutads.info)選擇退出廣告、在其瀏覽器、應用程式上選擇退出廣告，或使用[https://youradchoices.com/control](https://youradchoices.com/control)的Token識別碼。<br><br>廣告商不需要任何工作。 | 請參閱&quot;[Adobe隱私權政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
 | 2025年2月3日 | [!UICONTROL Packages] | 對於具有[!UICONTROL Highest Return on Ad Spend]和[!UICONTROL Lowest Cost per Acquisition]最佳化目標的套件，現在需要[!UICONTROL Conversion Metric]設定。 在舊版中，則是選擇性的。<br><br> [!UICONTROL Conversion Metric]是最終的轉換事件（例如註冊）或收入事件/銷售金額（例如購買和購買值），用於計算廣告花費的回報或每次購買的成本。 | 請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)。 |
 | 2024年12月12日 | [!UICONTROL Placements]，品牌安全 | 您現在可以在位置層級鎖定[!DNL DoubleVerify Authentic Brand Safety]區段ID。 之前，您只能在廣告商層級鎖定這些使用者。<br><br>根據預設，如果在廣告商帳戶設定中指定了區段ID，則會在位置設定中輸入廣告商層級ID，但您可以將ID變更為使用其他區段，或刪除該ID以停用此功能。<br><br>在廣告商層級的設定中，已移除啟用功能的選項；現在指定區段ID即可啟用功能。 如果其中一個現有廣告商停用該功能，區段ID欄位現在會空白。 不需要使用者採取任何動作。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2024年10月29日 | [!UICONTROL Custom Reports] | (Beta功能)三個新報表提供更深入的見解，以瞭解哪些廣告互動路徑會導致轉換：<ul><li>[!UICONTROL Path to Conversion Beta]：顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。</li><li> [!UICONTROL Path Length Beta]：依路徑長度（互動點）顯示轉換次數，例如，使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。</li><li>[!UICONTROL Time to Conversion Beta]會依據上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |
