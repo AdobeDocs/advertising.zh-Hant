@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->雖然廣告網路建議和效能深入分析可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議或見解之前，建議您最好諮詢您的Adobe帳戶團隊。
+>雖然廣告網路建議和效能深入分析可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議或見解之前，建議您最好諮詢您的Adobe客戶團隊。
 
 ## [!DNL Google Ads]支援的建議型別
 
@@ -60,7 +60,6 @@ ht-degree: 0%
 | | [!UICONTROL Upgrade local campaign to performance max] | 將舊版本機行銷活動升級為最高效能行銷活動 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 將舊版智慧購物行銷活動升級為最高效能行銷活動 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 針對目前受預算限制的行銷活動建議的預算 |
-| | [!UICONTROL Enhanced CPC opt in] | 與[!UICONTROL Enhanced CPC]競標 |
 | | [!UICONTROL Forecasting campaign budget] | 針對預期未來會受預算限制的行銷活動建議的預算 |
 | | [!UICONTROL Forecasting set Target CPA] | 針對在季節性事件之前沒有設定目標CPA的行銷活動，設定目標CPA可預期增加流量 |
 | | [!UICONTROL Forecasting set Target ROAS] | 在預測會增加流量的季節性事件之前提高預算，並將競標策略從[!UICONTROL Maximize Conversion Value]變更為[!UICONTROL Target ROAS] |

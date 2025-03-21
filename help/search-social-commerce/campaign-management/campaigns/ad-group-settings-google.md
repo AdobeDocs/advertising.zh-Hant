@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]廣告群組設定'
 description: 參考 [!DNL Google Ads] 廣告群組的設定。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]* （新廣告群組的預設值）：使用現有的行銷活動層級廣告輪換設定。 **注意：**&#x200B;行銷活動層級設定在「搜尋」、「社交」和「Commerce」中不可見。
 
-如果行銷活動使用智慧出價策略（例如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]或[!UICONTROL Enhanced CPC]），則[!DNL Google Ads]會自動將選項設為&quot;[!UICONTROL Optimize]&quot;。
+如果行銷活動使用智慧競標策略（例如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]），則[!DNL Google Ads]會自動將選項設為「[!UICONTROL Optimize]」。
 
 **[!UICONTROL Custom Bid Level]：** （僅針對顯示網路的行銷活動）競標方式：由&#x200B;*[!UICONTROL Ad Group]* （預設值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* (Google Ads中的興趣與再行銷)、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （網站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
 
