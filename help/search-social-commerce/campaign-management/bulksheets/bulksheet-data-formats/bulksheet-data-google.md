@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Google Ads] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 6063d7fac0df863e4d4e06ce23603a5f678073e1
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7860'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Device OS Targets (Google Adwords)] | （僅限舊版促銷活動型別；適用於裝置目標包含「智慧型手機」或「平板電腦」時）可顯示廣告的作業系統： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（僅限舊版促銷活動型別；適用於[!UICONTROL Device Targets]包含&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Smartphones]&quot;）智慧型手機可能連線的行動電信業者： <i>[!UICONTROL All]</i>，或使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">可用電信業者清單和[!DNL Google Ads]</a>的代碼，以&lt;c<i>電信業者代碼</i>>、&lt;<i>國家/地區代碼</i>> （例如T-Mobile，US）表示的一或多個電信業者。 以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>可識別廣告群組的唯一名稱。 長度上限為255個字元；不會儲存結尾的空白字元（例如，「廣告群組1」會儲存為「廣告群組1」）。 此欄位不適用於行銷活動層級的網站連結或行銷活動層級的裝置目標。</p> |
-| [!UICONTROL Ad Group Type] | <p>廣告群組型別： <i>[!UICONTROL Discovery]</i> （僅適用於探索行銷活動）、<i>[!UICONTROL Display]</i> （適用於顯示行銷活動）、<i>[!UICONTROL Search Dynamic]</i> （適用於延展的動態搜尋廣告）、<i>[!UICONTROL Search Standard]</i> （適用於搜尋廣告）、<i>[!UICONTROL Shopping Product]</i> （適用於購物產品廣告）、<i>[!UICONTROL Shopping Showcase]</i> （不支援建立和編輯）或<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL Ad Group Type] | <p>廣告群組型別： <i>[!UICONTROL Demand Gen]</i> （僅供需求一般行銷活動使用）、<i>[!UICONTROL Display]</i> （供顯示行銷活動使用）、<i>[!UICONTROL Search Dynamic]</i> （供展開的動態搜尋廣告使用）、<i>[!UICONTROL Search Standard]</i> （供搜尋廣告使用）、<i>[!UICONTROL Shopping Product]</i> （供購物產品廣告使用）、<i>[!UICONTROL Shopping Showcase]</i> （不支援建立和編輯）或<i>[!UICONTROL Unknown]</i>。</p> |
 | [!UICONTROL Max CPC] | <p>（僅適用於CPC行銷活動）最高每次點按成本(CPC)，這是廣告網路上的廣告點按最高金額，無論是否包含貨幣符號和標點符號。 您可以設定廣告群組和關鍵字、產品群組及動態搜尋目標的值。 新關鍵字的預設值繼承自廣告群組層級。 對於產品群組，您可以設定最低產品群組層的值；新層的預設值繼承自父層。</p><p>對於最佳化產品組合中的現有產品群組和動態搜尋目標，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。</p> |
 | [!UICONTROL Max Content CPC] | <p>（僅限CPC行銷活動）最高內容每次點按成本(CPC)，這是顯示網路網站中，無論是否包含貨幣符號和標點符號，針對廣告點按而支付的最高金額。 您可以設定和編輯行銷活動中非位置鎖定目標的廣告群組層級的值。</p> |
 | [!UICONTROL Audience Target Method] | <p>（僅搜尋網路上的行銷活動，以及顯示網路上的現有唯讀[!DNL Gmail]行銷活動）是否：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：只對與目標對象相關聯且滿足廣告群組之任何其他目標的使用者顯示廣告。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：若要顯示廣告，即使是未與目標對象相關聯的使用者，只要他們符合其他廣告群組層級目標即可。</p><p>不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。</p></li></ul> |
@@ -91,7 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高級別的URL。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您附加搜尋引擎的特定引數，這些引數可能會取代為搜尋、社交和Commerce的同等引數。<br><br>對於具有最終URL的帳戶，此欄會顯示與基礎URL/最終URL欄相同的值。 |
 | [!UICONTROL Custom URL Param] | 當變數包含在搜尋帳戶或促銷活動設定的追蹤引數中時，用來取代`{custom_code}`動態變數的資料。 若要在追蹤URL中插入自訂值，您必須使用「產生追蹤URL」選項上傳大量表單檔案。 |
-| [!UICONTROL Creative Type] | 廣告格式： <i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Dynamic search ad]</i> （已棄用的廣告型別）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i> （已棄用）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i> （購物廣告）或<i>[!UICONTROL Responsive search ad]</i>。 新廣告的預設值為<i>[!UICONTROL Text ad]</i>。<br><br>需要建立或編輯產品廣告的狀態。 |
+| [!UICONTROL Creative Type] | 廣告格式： <i>[!UICONTROL Text ad]</i>、<i>[!UICONTROL Expanded text ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （多影像輪播廣告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Dynamic search ad]</i> （已棄用的廣告型別）、<i>[!UICONTROL Expanded Dynamic Search ad]</i>、&lt;[!UICONTROL i>Display ad]</i>、<i>[!UICONTROL App Install ad]</i> （已棄用）、<i>[!UICONTROL Image]</i>、<i>[!UICONTROL Product ad<]/i> （購物廣告）或<i>[!UICONTROL Responsive search ad]</i>。 新廣告的預設值為<i>[!UICONTROL Text ad]</i>。<br><br>需要建立或編輯產品廣告的狀態。 |
 | [!UICONTROL Param1] | <p>`{param1}`廣告引數的數值，可以包含在大量表單檔案中任何廣告的廣告復本或顯示URL中。 長度上限為25個字元，您可以包括下列非數字字元：</p><ul><li><p>值前面或後面可附加貨幣符號或代碼。 例如，`£2.000,00`和`2000GBP`有效。</p></li><li><p>值可以包含逗號(`,`)或句點(`.`)做為分隔符號，分數值則使用選用的句點(`.`)或逗號(`,`)。 例如，`1,000.00`和`2.000,10`有效。</p></li><li><p>值可以加上前置字元或百分比符號(`%`)、加號(`+`)或減號(`- `)。 例如，`20%`、`208+`和`-42.32`有效。</p></li><li><p>兩個數字可以用正斜線內嵌。 例如，`4/1`和`0.95/0.45`有效。</p></li></ul><p>若要刪除現有值，請使用值`[delete]` （包括括弧）。</p> |
 | [!UICONTROL Param2] | `{param2}`廣告引數的數值，可以包含在大量表單檔案中任何廣告的廣告復本或顯示URL中。 如需詳細資訊，請參閱Param1的專案。 |
 | [!UICONTROL Audience] | 搜尋廣告(RLSA)目標對象的再行銷清單，或促銷活動或廣告群組的已排除對象。 在「目標型別」欄位中指定其為目標或排除專案。 |
@@ -119,11 +119,11 @@ ht-degree: 0%
 | [!UICONTROL Sitelink ID] | 可識別現有網站連結的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄以識別網站連結或b) &quot;[!UICONTROL AMO ID]&quot;。 不過，如果您不包含[!UICONTROL Sitelink ID]或[!UICONTROL AMO ID]，而且屬性資料行符合多個網站連結，則只有其中一個網站連結的狀態會變更。</p><p><b>注意：</b>如果您編輯現有網站連結的Status以外的Sitelink屬性資料行，而且您既不包含[!UICONTROL Sitelink ID]也不包含[!UICONTROL AMO ID]，則會建立新的Sitelink，且不會變更現有的網站連結。 |
 | [!UICONTROL RLSA Target ID] | 可識別現有行銷活動或廣告群組層級RLSA目標或排除的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標或排除專案時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
 | [!UICONTROL Device Target ID] | <p>可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。</p> |
-| [!UICONTROL AMO ID] | （在產生的大量表單中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>搜尋、社交和Commerce會使用值來決定要編輯的正確身分，但不會將識別碼張貼至廣告網路。 |
+| [!UICONTROL AMO ID] | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>搜尋、社交和Commerce會使用值來決定要編輯的正確身分，但不會將識別碼張貼至廣告網路。 |
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL Exemption Request] | （包含於產生的大量表單中，以供參考）顯示廣告違反的任何[!DNL Google Ads]廣告原則的名稱和文字的預留位置。 |
-| [!UICONTROL Retail Hash] | (包含於使用進階Campaign Management產生的大量表單中以供參考)英數字元雜湊代碼(例如f9639f40cdf56524b541e5dacf55a991)，表示專案是使用進階(ACM)檢視產生的。 |
+| [!UICONTROL Retail Hash] | （包含於使用進階促銷活動管理產生的大量表單中以供參考）英數字元雜湊代碼(例如f9639f40cdf56524b541e5dacf55a991)，表示專案是使用進階(ACM)檢視產生的。 |
 
 [^1]： [!DNL Excel]在開啟檔案時將大數轉換為科學記號(例如2115585666的2.12E+09)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 

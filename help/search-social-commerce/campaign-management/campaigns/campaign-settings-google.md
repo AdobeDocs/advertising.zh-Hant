@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]：**&#x200B;行銷活動的競標策略：
 
-* *[!UICONTROL Enhanced CPC]：* （不適用於最高成效或現有的唯讀[!DNL Gmail]行銷活動）使用廣告網路的增強型每次點按成本(eCPC)模型，此模型可讓廣告網路自動變更每個拍賣的每次點按成本(CPC)競標，以嘗試使用廣告網路內指定的轉換(不在「搜尋」、「社交」和「Commerce」中)，將平均每次點按成本(CPC)保持在最高CPC以下，藉此最大化轉換率。
-
-當您將具有eCPC的行銷活動新增到最佳化的搜尋、社交和Commerce產品組合時，搜尋、社交和Commerce會最佳化基本競標，並且在啟用「[!UICONTROL Auto adjust campaign budget limits]」選項時最佳化行銷活動預算。 廣告網路會最佳化所有競標調整，並可能會在使用者查詢時根據專有資料和深入分析變更搜尋、社交和Commerce產生的競標。 **警告：**&#x200B;只有當廣告網路上的追蹤轉換總數符合產品組合目標時，才會在產品組合中使用eCPC行銷活動。<!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]：*&#x200B;已棄用。 [!DNL Google Ads]已於2025年3月15日開始自動將現有[增強型CPC競標策略](https://support.google.com/google-ads/answer/2464964)變更為手動CPC。
 
 * *[!UICONTROL Manual CPC]* （預設）： （不適用於最高成效行銷活動）使用每次點按成本(CPC)模型。 您可以選擇允許廣告網路變更行銷活動的競標：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用&quot;[!UICONTROL Enhanced CPC]&quot;選項相同。
+   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用「[!UICONTROL Enhanced CPC]」選項相同，該選項已過時。 [!DNL Google Ads]已於2025年3月15日開始自動將現有[增強型CPC競標策略](https://support.google.com/google-ads/answer/2464964)變更為手動CPC。
 
 * *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，出價是由點按權重驅動，而不是由產品組合目標驅動。
 
@@ -360,7 +358,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]：** （最高成效行銷活動中現有資產群組的唯讀欄位）為何資產群組會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]：** （最高成效行銷活動中現有資產群組的唯讀欄位）有關資產群組主要狀態的更多詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* ** {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。**
+**[!UICONTROL Primary Status Reason]：** （最高成效行銷活動中現有資產群組的唯讀欄位）有關資產群組主要狀態的更多詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* *CAMPING_PENDING，* *CAMPAIGN_REMOVED，* *未知，*&#x200B;或&#x200B;*未指定。*
 
 ## [!UICONTROL Conversion Goals]
 

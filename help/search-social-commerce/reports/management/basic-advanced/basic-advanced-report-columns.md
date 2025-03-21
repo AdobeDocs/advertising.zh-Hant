@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
 workflow-type: tm+mt
-source-wordcount: '3743'
+source-wordcount: '3745'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group] | 廣告群組。 |
 | [!UICONTROL Ad Group ID] | 可識別現有廣告群組的唯一ID。 |
 | [!UICONTROL Ad Group Status] | 廣告群組狀態： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>或<i>[!UICONTROL Deleted]</i>。 |
-| [!UICONTROL Ad Group Type] | 廣告群組型別，例如<i>[!UICONTROL Audience]</i> （僅適用於對象行銷活動）、<i>[!UICONTROL Discovery]</i> （僅適用於探索行銷活動）、<i>[!UICONTROL Display]</i> （僅適用於顯示行銷活動）、<i>[!UICONTROL Search Dynamic]</i> （僅適用於動態搜尋廣告）、<i>[!UICONTROL Search Standard]</i> （僅適用於回應式搜尋廣告和現有的擴充文字廣告）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （僅適用於標準購物行銷活動）或<i>[!UICONTROL Shopping Smart]</i> （適用於智慧購物行銷活動）。 對於某些行銷活動型別，單一行銷活動可包含多個廣告型別。 |
+| [!UICONTROL Ad Group Type] | 廣告群組型別，例如<i>[!UICONTROL Audience]</i> （僅適用於對象行銷活動）、<i>[!UICONTROL Demand Gen]</i> （僅適用於需求一般行銷活動）、<i>[!UICONTROL Display]</i> （僅適用於顯示行銷活動）、<i>[!UICONTROL Search Dynamic]</i> （僅適用於動態搜尋廣告）、<i>[!UICONTROL Search Standard]</i> （僅適用於回應式搜尋廣告和現有的擴充文字廣告）、<i>[!UICONTROL Shopping Showcase]</i>、<i>[!UICONTROL Shopping Product]</i> （僅適用於標準購物行銷活動）或<i>[!UICONTROL Shopping Smart]</i> （適用於智慧購物行銷活動）。 對於某些行銷活動型別，單一行銷活動可包含多個廣告型別。 |
 | [!UICONTROL Ad Groups] | 指派標籤值的廣告群組數目。 |
 | [!UICONTROL AD Name] | 廣告群組名稱；與[!UICONTROL Ad Group]的值相同。 |
 | [!UICONTROL Ad Recall Lift] | （僅限[!DNL Meta]個行銷活動）兩天內記住您廣告的估計人數。 |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Product Scope Filter] | （僅使用購物網路的行銷活動）商家帳戶中的產品，可為行銷活動建立產品廣告。 |
 | [!UICONTROL Campaign Start Date] | 對行銷活動出價的第一天。 |
 | [!UICONTROL Campaign Status] | 行銷活動狀態： <i>[!UICONTROL Active]</i>、<i>[!UICONTROL Paused]</i>、<i>[!UICONTROL Ended]</i>或<i>[!UICONTROL Deleted]</i>。 |
-| [!UICONTROL Campaign Type] | 行銷活動型別，例如<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Discovery]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>或<i>[!UICONTROL Others]</i>。 |
+| [!UICONTROL Campaign Type] | 行銷活動型別，例如<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Demand Gen]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>或<i>[!UICONTROL Others]</i>。 |
 | [!UICONTROL Channel Type] | 行銷管道型別： <i>[!UICONTROL Search]</i>或<i>[!UICONTROL Content]</i>。 當報告設定中的報告[!UICONTROL Search/Content]設定為&quot;[!UICONTROL Combined]&quot;時，此欄不包括在內。 |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Transaction Report])產生點按的城市。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL Click Match Type] | 關鍵字元合所點選廣告的型別。 除了具有多個相符型別的[!DNL Microsoft Advertising]關鍵字外，這與[!UICONTROL Listing Match Type]相同。 對於[!DNL Microsoft Advertising]關鍵字，這是實際點按的相符型別。 |
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Name] | （僅限[!DNL Yahoo! Japan]）廣告影像名稱。 |
 | [!UICONTROL Creative Title]，[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 廣告的標題或標題。 不同的創意型別有不同數量的必要和選用標題行。 若要在[!DNL Microsoft Advertising]個回應式廣告或多媒體廣告中檢視[!UICONTROL Creative Title4]和更高的欄，請在報表設定中加入&quot;[!UICONTROL Creative Titles]&quot;欄。 |
 | [!UICONTROL Creative Titles] | （僅適用於多媒體和回應式搜尋廣告）為每個廣告的簡短標題新增一欄（&quot;[!UICONTROL Creative Title]&quot;到&quot;[!UICONTROL Creative Title15]&quot;）。 當您包含此欄時，您不需要包含其他[!UICONTROL Creative Title]欄，但是請編輯[!UICONTROL Order Results/Limit Rows By]區段來依[!UICONTROL Creative Titles]排序，而非[!UICONTROL Creative Title]。 |
-| [!UICONTROL Creative Type] | 廣告格式。 可能的值如下： <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Discovery Ad (single-image ads)]</i>、<i>[!UICONTROL Discovery Carousel Ad]</i> （多影像輪播廣告）、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text Ad]</i>。 |
+| [!UICONTROL Creative Type] | 廣告格式。 可能的值如下： <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （多影像轉盤廣告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text Ad]</i>。 |
 | [!UICONTROL CTR] | 點進率，即點按次數除以所包含廣告的曝光次數。 |
 | [!UICONTROL Currency] | 適用的貨幣型別（例如「USD」或「GBP」）。<br><br><b>注意：</b>如果報表包含不同貨幣的帳戶資料，則任何「[!UICONTROL Total]」貨幣值只是欄中所有數字的總和，無論貨幣為何。 |
 | [!UICONTROL Current Bid] | 目標的目前出價。 |
@@ -95,7 +95,7 @@ ht-degree: 0%
 | [!UICONTROL Display URL] | 廣告的顯示URL，這是一般使用者在廣告中看到的內容。 |
 | [!UICONTROL DMA] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])點按產生的指定數值市場區域（例如751代表丹佛）。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report]， [!UICONTROL Keyword Report])產生點按的網域名稱。 |
-| [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 eCPM值會針對CPM或CPC行銷活動進行計算。 |
+| [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 會針對CPM或CPC行銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising轉換追蹤服務的廣告商和具有權杖的&quot;[!UICONTROL EF Redirect]&quot;追蹤方法)點選或轉換的權杖。<ul><li>對於[!DNL Google Ads]個搜尋廣告，EF ID是`{gclid}:G:s`，其包含Google點按識別碼(GCLID)和網路型別（搜尋的網路&quot;）。</li><li> 對於[!DNL Microsoft Advertising]個搜尋廣告，EF ID是`{msclkid}:G:s`，其包含Microsoft點按識別碼(MSCLKID)和網路型別（搜尋的網路&quot;）。</li><li>若是其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點選時間和網路型別。</li><li>若是顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；僅供搜尋、社交和Commerce使用)地理位置的內部ID，用於標準化資料。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 對於相符產品的廣告，是排除競標(<i>[!UICONTROL Yes]</i>)還是允許競標(<i>[!UICONTROL No]</i>)。 |
 | [!UICONTROL First Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
 | [!UICONTROL Frequency] | （僅限[!DNL Meta]個行銷活動）某人檢視您廣告的平均次數。 |
-| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`個[[!DNL Google Ads]追蹤的轉換] | （[!DNL Google Ads]個搜尋和購物網路行銷活動） [!DNL Google Ads]個追蹤的轉換，每個轉換最多有三個個別的量度：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當轉換型別可用時，當您追蹤時）跨裝置轉換的數量（計數），以「GGL_XD_CT_」首碼(例如GGL_XD_CT_Purchase)開頭的[!DNL Google Ads]測量。</li></ul><br>每個轉換都是依競標單位和點按日期來記錄；無法在事件層級使用。 如需有關[!DNL Google Ads]追蹤的轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」。 |
+| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`個[[!DNL Google Ads]追蹤的轉換] | （[!DNL Google Ads]個搜尋和購物網路行銷活動） [!DNL Google Ads]個追蹤的轉換，每個轉換最多有三個個別的量度：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）以「GGL_XD_CT_」首碼(例如GGL_XD_CT_Purchase)開頭的[!DNL Google Ads]所測量的跨裝置轉換次數（計數）。</li></ul><br>每個轉換都是依競標單位和點按日期來記錄；無法在事件層級使用。 如需有關[!DNL Google Ads]追蹤的轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （僅限[!DNL Google Ads]）在自然搜尋結果上方顯示為第一個廣告的廣告印象百分比。 |
 | [!UICONTROL Impr. (Top) %] | （僅限[!DNL Google Ads]）顯示在有機搜尋結果上方的廣告印象百分比。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
