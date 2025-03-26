@@ -2,9 +2,9 @@
 title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 ### 疑難排解
 
-如需一般登入問題，另請參閱&quot;[解決Adobe帳戶登入問題]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)。
+如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)。
 
 #### 啟用新的[!DNL Adobe] IMS登入是否有任何先決條件？
 
@@ -57,7 +57,7 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 同時，使用者可以繼續使用其舊的DSP憑證。
 
-#### 使用Adobe IMS帳戶登入後，系統不會將我重新導向回adobe.advertising.com登入頁面。
+#### 使用Adobe IMS帳戶登入後，我未重新導向回adobe.advertising.com。
 
 請洽詢您的IMS組織管理員，確認您使用的電子郵件已新增至IMS組織。
 
