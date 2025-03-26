@@ -3,7 +3,7 @@ title: 編輯版位
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或促銷活動中的所有刊登版位的設定；變更關鍵欄位的有限子集；並一次將設定上傳回DSP。 請參閱[使用Bulksheets檢閱及編輯位置設定](placement-qa.md)。
+>您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定；變更大部分欄位；一次將設定上傳回DSP。 請參閱[使用Bulksheets檢閱及編輯位置設定](placement-qa.md)。
 
 ## 快速編輯金鑰位置設定 {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Update placement]**。
 
-## 編輯多個位置 {#edit-multiple-placements}
+## 對多個版位進行相同變更 {#edit-multiple-placements}
 
 只有在您想要將相同的變更套用至所有選取的位置時，才使用此選項。
 
