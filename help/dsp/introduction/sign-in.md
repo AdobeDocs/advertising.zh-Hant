@@ -2,7 +2,8 @@
 title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
-source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
+exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
+source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # 登入Adobe Advertising DSP
 
-Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS之所有[!DNL Adobe]產品的單一登入(SSO)存取權，包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics。 隨著變更：
+Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的單一登入(SSO)存取權。 隨著變更：
 
 * 您可以使用一個[!DNL Adobe ID]從Experience Cloud登入頁面或舊版DSP登入頁面登入[!DNL Adobe]個產品。 您的[!DNL Adobe ID]提供使用者設定檔管理。 在未來版本中，您將可從頂端功能表變更DSP帳戶、IMS組織帳戶和[!DNL Adobe]產品。
 
