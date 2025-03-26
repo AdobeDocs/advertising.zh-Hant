@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: bbda1153767ff999b3ba6269593ef92718225be9
+source-git-commit: 6e28ef53a485e3e8401444026f3a96a22b56f7ac
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年2月發行 | [！UICONTROL促銷活動管理 | 搜尋、Social和Commerce現在會同步[!DNL Google Ads]需求一般促銷活動（先前稱為探索促銷活動）的產品廣告和影片廣告。 「搜尋」、「社交」和「Commerce」以及「Adobe Analytics」中的報表（適用於具有[!DNL Adobe Analytics for Advertising]的廣告商）現在包含所有可用廣告型別的廣告層級績效和支出資料。  在[!UICONTROL Ads]檢視和[!UICONTROL Ad Variation Report]中，您可以篩選[!UICONTROL Creative Type]欄以包含[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]和[!UICONTROL Demand Gen Video Ad]。<br><br>目標上傳支援適用於所有支援的廣告型別。 Demand Gen促銷活動的最佳化功能尚未推出。 | 如需詳細資訊：請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 |
 | 2024年12月5日 | [!DNL Microsoft Advertising]個離線轉換 | 下列支援現在可用於離線轉換的[!DNL Microsoft Advertising]增強型轉換，您可以使用這些轉換事件而不使用點選ID，例如網站潛在客戶產生的電話銷售。<ul><li>搜尋、社交和Commerce會同步您現有的離線轉換增強型轉換目標，以便用於報告和最佳化。 資料會在廣告商的時區每日的05:00進行同步。</li><li>您可以上傳對應至現有增強型轉換目標的第一方離線轉換資料。</li></li></ul>為[!DNL Microsoft Advertising]內的潛在客戶建立增強的轉換目標。 | 如需工作流程的大綱，請參閱&quot;[實作 [!DNL Microsoft Advertising] 離線轉換的增強型轉換](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)&quot;，並參閱&quot;[上傳離線轉換資料的增強型轉換](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)&quot;。 |
 | 2024年10月29日發行 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]最高成效行銷活動的廣告商）現在，當您為最高成效行銷活動在追蹤URL中實作新的AMO ID ([!DNL s_kwcid])引數時（不包含廣告和關鍵字），您可在Adobe Analytics中使用最高成效行銷活動的資產群組層級資料。 對大多數具有最高成效行銷活動的帳戶的追蹤已移轉到新格式。 對於沒有[!UICONTROL Auto Upload]追蹤選項的具有最高成效行銷活動的帳戶，這些行銷活動尚未移轉到新格式，不過，您必須手動更新每個登陸頁面尾碼，以包含新的AMO ID格式。<br><br>您最高成效行銷活動的Adobe Analytics資料也可在Search、Social和Commerce中使用。 | 檢視新的[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)和[何時以及如何新增引數至您的追蹤URL](/help/integrations/analytics/ids.md#amo-id-implement)。 |
 | | [!UICONTROL Campaigns] | 針對每個最高績效與搜尋行銷活動，您現在可以選擇是否允許[!DNL Google Ads]為新客戶出價更高、僅為新客戶出價，或為新客戶和現有客戶平等出價。 若要為新客戶出價更高，您必須先使用[!DNL Google Ads]為您的[!DNL Google Ads]帳戶或經理帳戶啟動新的客戶贏取目標。 目標定義包括合格的現有客戶清單，以及新客戶的額外轉換值。 | 請參閱&quot;[[!DNL Google Ads] 促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;。<br><br>另請參閱[!DNL Google Ads]說明&quot;[關於新客戶贏取目標](https://support.google.com/google-ads/answer/12080169)&quot;以及&quot;[啟用新客戶贏取目標](https://support.google.com/google-ads/answer/14007601)&quot;中的步驟1-2。 |
