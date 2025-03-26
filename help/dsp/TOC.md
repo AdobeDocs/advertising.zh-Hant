@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
+source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '938'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 3%
 -->
 
 + [新增功能](/help/dsp/home.md)
++ [登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + 簡介{#introduction}
    + [Adobe Advertising DSP簡介](/help/dsp/introduction/dsp-about.md)
    + 主要功能{#features}
@@ -34,10 +35,10 @@ ht-degree: 3%
    + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
-   + [Campaign Management結構概觀](/help/dsp/campaign-management/campaign-management-overview.md)
++ 行銷活動管理{#campaign-management}
+   + [Campaign管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
    + 行銷活動{#campaigns}
-      + [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [關於行銷活動管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [建立行銷活動](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [編輯行銷活動](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [複製行銷活動](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -96,9 +97,9 @@ ht-degree: 3%
          + [前段廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支援廣告型別的規格](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Campaign Management檢視中的效能報表{#campaign-reports}
-      + [Campaign Management檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [從Campaign Management檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
+   + 行銷活動管理檢視中的效能報表{#campaign-reports}
+      + [行銷活動管理檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [從行銷活動管理檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [檢視刊登版位的網站、廣告、頻率和詳細目錄資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
@@ -106,7 +107,7 @@ ht-degree: 3%
       + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + [DSP巨集](/help/dsp/campaign-management/macros.md)
    + [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign Management常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Campaign管理常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
    + [通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 + 最佳化{#optimization}
    + [ [!DNL DSP] 如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
