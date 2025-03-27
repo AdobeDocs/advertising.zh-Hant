@@ -3,7 +3,7 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
+source-git-commit: 19d96e6016c2d170c2a08091249c024ee92e5e64
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 0%
@@ -164,7 +164,7 @@ AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 ##### [!DNL Baidu]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+`s_kwcid=AL!{userid}!{88}!{creative}!{placement}!{keywordid}`
 
 其中：
 
@@ -178,11 +178,11 @@ AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 * 使用最新AMO ID格式的帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * 所有其他帳戶：
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 其中：
 
@@ -207,7 +207,7 @@ AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 ##### [!DNL Meta]
 
-`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+`s_kwcid=AL!{userid}!{45}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
 
 where:
 
@@ -223,7 +223,7 @@ where:
 
 * 所有行銷活動型別：
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+  `s_kwcid=AL!{userid}!{10}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 其中：
 
@@ -237,15 +237,15 @@ where:
 > 對於沒有[!UICONTROL Auto Upload]追蹤選項的行銷活動帳戶，如果尚未移轉至新格式，請手動更新每個登入頁面尾碼，以包含上述格式。
 >同時，舊版格式（如下）仍可運作：
 >* 搜尋行銷活動：
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 購物行銷活動（使用[!DNL Microsoft Merchant Center]）：
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{CriterionId}`
 >* 對象網路行銷活動：
->  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+`s_kwcid=AL!{userid}!{94}!{creative}!{matchtype}!{network}!{keyword}`
 
 其中：
 
@@ -256,7 +256,7 @@ where:
 
 ##### [!DNL Yandex]
 
-`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+`s_kwcid=AL!{userid}!{90}!{ad_id}!{source_type}!!!{phrase_id}`
 
 其中：
 
