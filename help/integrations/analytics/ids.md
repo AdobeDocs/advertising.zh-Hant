@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ where:
 
 >[!NOTE]
 >
->對於具有最高成效行銷活動和[!UICONTROL Auto Upload]追蹤選項的所有帳戶，登入頁面尾碼已移轉至上述格式。 對於具有[!UICONTROL Auto Upload]追蹤選項的其他行銷活動型別，您的登入頁面尾碼將會在2025年初移轉為使用上述s_kwcid格式。
 > 對於沒有[!UICONTROL Auto Upload]追蹤選項的行銷活動帳戶，如果尚未移轉至新格式，請手動更新每個登入頁面尾碼，以包含上述格式。
 >同時，舊版格式（如下）仍可運作：
 >* 搜尋行銷活動：
