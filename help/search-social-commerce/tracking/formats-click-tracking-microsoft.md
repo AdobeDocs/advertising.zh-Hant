@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising]的點選追蹤格式'
 description: 瞭解 [!DNL Microsoft Advertising] 帳戶的點選追蹤格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列專案：
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * 當廣告商沒有Adobe Analytics整合時，尾碼必須包括下列專案：
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列專案：
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * 當廣告商沒有Adobe Analytics整合時，尾碼必須包括下列專案：
 

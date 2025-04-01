@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]的點選追蹤格式'
 description: 瞭解 [!DNL Google Ads] 帳戶的點選追蹤格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -72,13 +72,13 @@ ht-degree: 0%
 
    * 使用最新[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats) （從`s_kwcid`開始）的[!DNL Google Ads]帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的Adobe AdvertisingID。[
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帳戶：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 當廣告商沒有Adobe Analytics整合時，尾碼必須包括下列專案：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >* 較低層級的登陸頁面尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 >
->* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)當您想要包含從Adobe Advertising到Analytics的反向饋送追蹤時，請將AMO ID追蹤程式碼附加至帳戶層級登陸頁面尾碼的結尾。
+>* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要包含從Adobe Advertising到Analytics的反向摘要追蹤，請將AMO ID追蹤程式碼附加至帳戶層級登陸頁面尾碼的結尾。
 
 >[!MORELIKETHIS]
 >
