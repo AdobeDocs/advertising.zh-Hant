@@ -1,18 +1,18 @@
 ---
-title: 關於您的創意程式庫
-description: 瞭解如何管理廣告體驗的創意內容。
+title: 關於您的創意內容資料庫
+description: 了解如何管理廣告體驗的廣告素材。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
-# 關於您的創意程式庫
+# 關於您的創意內容資料庫
 
-*封閉Beta版功能*
+*封閉測試版功能*
 
 您的創意程式庫可讓您管理將在廣告體驗中使用的創意內容。 您可以建立多個程式庫，每個程式庫都包含一組創意和&#x200B;*創意組合*，這些創意組合是您可以以單一單位新增到體驗中的創意群組。
 
@@ -30,19 +30,19 @@ ht-degree: 0%
 
 ### 標準創作的格式
 
-您可以在[支援的創意大小](creative-sizes.md)中新增和管理下列創意型別。
+您可以在受支持的創意內容大小](creative-sizes.md)中添加[和管理以下創意內容類型。
 
 >[!IMPORTANT]
 >
->即使您打算將HTML5、彈性HTML5或協力廠商創意素材用於廣告體驗，您也必須為您使用的每個創意大小新增影像創意素材。
+>即使您打算在廣告體驗中使用 HTML5、靈活 HTML5 或協力廠商廣告素材，您也必須為使用的每種創意內容尺寸添加圖片廣告素材。
 >
 >每個體驗都需要為指派給體驗的每個創意大小提供預設影像創意。 當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時，就會使用預設影像創意。
 
 #### 彈性的HTML5
 
-有彈性的HTML5創意人員是HTML5創意人員，擁有其所有影像和其他屬性做為標準HTML標籤，您可以直接在[!DNL Creative]中編輯，無論是在創意資料庫中或是在個別體驗中（這會建立原始創意的變體）。 彈性的HTML5創意人員使用Interactive Advertising Bureau (IAB) Technology Laboratory的[廣告組合](https://flexibleads.iabtechlab.com/)標準，其廣告格式大小是彈性的（而非固定的），且以廣告的外觀比例和大小範圍為基礎，而廣告則維持其在裝置和發佈者網站上的解析度。
+有彈性的HTML5創意人員是HTML5創意人員，擁有其所有影像和其他屬性做為標準HTML標籤，您可以直接在[!DNL Creative]中編輯，無論是在創意資料庫中或是在個別體驗中（這會建立原始創意的變體）。 有彈性的HTML5創意人員會使用Interactive Advertising Bureau (IAB) Technology Laboratory的標準，來處理[廣告組合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->，其廣告格式大小是彈性的（而非固定的），而且是以廣告的外觀比例和大小範圍為基礎，而且其解析度會跨越裝置和發佈者網站。
 
-您可以<!-- either -->將彈性的HTML5創意內容上傳為ZIP檔案<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。 檢視彈性HTML5創意的[規格](html5-creative-specification.md)。
+您可以<!-- either -->將彈性的HTML5創意內容上傳為ZIP檔案<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->。 [請參閱靈活的 HTML5 廣告素材](html5-creative-specification.md)的規格。
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
@@ -54,11 +54,11 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
  -->
 
-您可以選擇變更彈性HTML5創意內容中所指定屬性的預設值。 稍後，您可以為特定體驗中的屬性指定自訂值，這會建立父級創意內容的變體。
+您可以選擇變更在靈活的 HTML5 創意內容中指定的屬性的預設值。 稍後，您可以為特定體驗中的屬性指定自定義值，這將創建父創意內容的變體。
 
-#### HTML5創意
+#### HTML5 創作元素
 
-您可以上傳簡單或靜態的HTML5創作，並指定所有屬性和影像做為ZIP檔案。 您無法編輯任何屬性或新增影像；請改為上傳新的ZIP檔案以新增創意。 檢視簡單和靜態HTML5創意的[規格](html5-creative-specification.md)。
+您可以將指定所有屬性和圖片的簡單或靜態 HTML5 廣告素材上傳為 ZIP 文件。 您無法編輯任何屬性或添加圖像;而是上傳新的 ZIP 文件以添加新的創意內容。 檢視簡單和靜態HTML5創意的[規格](html5-creative-specification.md)。
 
 #### 影像創意
 
@@ -82,7 +82,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 如需自訂每個檢視的詳細資訊，請參閱[自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)。
 
-### [!UICONTROL Creative Libraries]主要檢視
+### [!UICONTROL Creative Libraries]主要視圖
 
 [!UICONTROL Creative Libraries]主要檢視會顯示您的所有創意程式庫。 每個資料庫的資料包含指派給資料庫套裝的體驗數量、套裝數量、創意內容數量、創意大小數量、預設語言目標數量、建立日期，以及資料庫任何元素的最後修改日期。 表格模式也包含廣告商欄。
 
@@ -92,17 +92,17 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 * 對於每個創意內容庫：
 
-   * 編輯程式庫名稱
+   * 編輯資料庫名稱
 
-   * 開啟程式庫以檢視指派給程式庫的創意和組合
+   * 打開資料庫以視圖分配給資料庫的廣告素材和捆綁包
 
-   * 刪除程式庫
+   * 刪除資料庫
 
-### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]檢視
+### 檢視[!UICONTROL Creative Libraries]> [!UICONTROL Creatives]
 
 #### [!UICONTROL Standard Ads]
 
-[!UICONTROL Standard Ads]索引標籤會顯示您已建立的所有標準創意。 每個創意的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
+標籤 [!UICONTROL Standard Ads] 會显示您創建的所有標準廣告素材。 每個創意的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
 
 ##### 可用動作
 
@@ -112,9 +112,9 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 * [預覽標準創意](creative-preview.md)
 
-* [將標準創意新增至標準套件組合，並從標準套件組合中移除標準創意](creative-attach-detach-bundles.md)
+* [將標準廣告素材添加到標準捆綁包，並從標準捆綁包中移除標準廣告素材](creative-attach-detach-bundles.md)
 
-* [複製標準創意](creative-duplicate.md)
+* [複製標準廣告素材](creative-duplicate.md)
 
 * [下載標準創意內容](creative-download.md)
 
@@ -138,9 +138,9 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 ##### 可用動作
 
-目前僅Adobe客戶團隊可建立及編輯動態創意內容。 不過，所有使用者都可以：
+創建和修改動態廣告素材的功能目前僅供Adobe Systems客戶團隊使用。 但是，所有使用者都可以：
 
-* [預覽動態創意內容](creative-preview.md)
+* [預覽動態廣告素材](creative-preview.md)
 
 * [將動態創意新增至動態套件組合，並從動態套件組合中移除動態創意專案](creative-attach-detach-bundles.md)
 
@@ -164,7 +164,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 * 將標準創意新增至標準套件組合，並從標準套件組合中移除標準創意
 
-* 複製組合
+* 重複組合
 
 * 刪除組合
 
