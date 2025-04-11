@@ -3,9 +3,9 @@ title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 
 description: 瞭解為何以及如何將 [!DNL Analytics for Advertising] 巨集新增至您的 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶，並依照在`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`存取資料傳遞巨集的[!DNL Flashtalking]支援檔案操作。
+>如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶並遵循[!DNL Flashtalking]支援檔案，在`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`使用資料傳遞巨集來收集點選資料。
 
 針對下列型別的[!DNL Analytics for Advertising]實作，[!DNL Flashtalking]顯示廣告和視訊廣告使用巨集：
 
