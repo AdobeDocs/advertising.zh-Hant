@@ -2,9 +2,9 @@
 title: 在Adobe Target中設定Adobe Advertising DSP Ads的A/B測試
 description: 瞭解如何在 [!DNL Target] 中為您的DSP廣告設定A/B測試。
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-在Flash交談或Google Campaign Manager 360中，手動更新每個廣告的點進URL，以包含擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics和共用放置索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
+在[!DNL Flashtalking]或Google Campaign Manager 360中，手動更新每個廣告的點進URL，以包含擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics和共用放置索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
 
-* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您使用資料傳遞巨集來收集位於`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`的[!DNL Flashtalking]支援檔案的點選資料，則不需要執行此程式。
+* [將[!DNL Analytics for Advertising]巨集附加至[[!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您使用資料傳遞巨集來收集位於`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`的[!DNL Flashtalking]支援檔案的點選資料，則不需要執行此程式。
 
 * [將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
