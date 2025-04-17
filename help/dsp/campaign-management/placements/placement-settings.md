@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]：**&#x200B;要納入或排除作為目標的詳細目錄來源。 對於大多數版位型態，預設會包含所有存貨型態及每種型態的所有來源。 對於[!DNL Roku]個位置，您必須指定詳細目錄型別和來源。 您可以從下列存貨型態中選擇：
 
-* [!UICONTROL Public]： （除Roku以外的所有位置型別）DSP有權存取的所有未結交換詳細目錄。 您可以包含和排除公開詳細目錄。
+* [!UICONTROL Public]： （除Roku以外的所有版位型別）DSP可存取的所有未結Exchange詳細目錄。 您可以包含和排除公開詳細目錄。
 
   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要索引鍵或選取的特徵標籤進行搜尋。
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 **[!UICONTROL Traffic type]：**&#x200B;目標流量的型別。 選項包括&#x200B;**[!UICONTROL Websites]**&#x200B;和&#x200B;**[!UICONTROL Apps]**。
 
-**[!UICONTROL Tier]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）目標流量的品質。 第1層至第3層皆符合品牌安全規範，並已獲得DSP對應團隊的核准。
+**[!UICONTROL Tier]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）目標流量的品質。 第1層至第3層均符合品牌安全規範，並獲得DSP對應團隊的核准。
 
 * *[!UICONTROL Tier 1]：*&#x200B;全國可辨識的高階網站和應用程式。
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Unified ID2.0]*：目標為使用電子郵件地址登入您網站之使用者的[!DNL Unified ID2.0] (UID2) ID。<!-- Verify -->[!DNL UID2 IDs]不適用於歐洲經濟區和其他國家/地區的使用者。 檢視禁止的國家[清單](/help/policies/universal-id-policy.md#prohibited-countries-uid2)。
 
-  **[!UICONTROL Terms of service]**：使用通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新的ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將取得您的同意，並代表貴組織接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
+  **[!UICONTROL Terms of service]**：使用通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將代表貴組織取得您的同意並接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
 **[!UICONTROL Cross Device Targeting]：** (將[行銷活動設定為以人物為基礎的跨裝置目標定位](/help/dsp/campaign-management/campaigns/campaign-settings.md)時，即可使用；您只會目標定位舊有ID （非通用ID），而且至少要選取一個區段或對象。 可讓您將目標延伸至所有人的所有已知裝置（根據促銷活動設定中指定的裝置圖表），甚至不在指定區段中的裝置。 費用可能會根據為行銷活動指定的圖表而套用。 裝置圖表資料僅在北美提供。
 
@@ -391,11 +391,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]：** （選擇性；[!DNL DoubleVerify]客戶僅限；僅適用於案頭前段、標準及點播顯示，以及原生顯示和視訊位置；不支援交易的[預設程式化預留位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]區段ID與組織的[!DNL DoubleVerify]帳戶相關聯，以用於位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會針對節段ID的用途開立科目帳單。
+**[!UICONTROL DoubleVerify ABS segment ID]：** （選擇性；[!DNL DoubleVerify]客戶僅限；僅適用於案頭前段、標準及點播顯示，以及原生顯示和視訊位置；不支援交易的[預設程式化預留位置](/help/dsp/inventory/programmatic-guaranteed-about.md)） [!DNL DoubleVerify Authentic Brand Safety]區段ID與組織的[!DNL DoubleVerify]帳戶相關聯，以用於位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會為帳戶開立帳單，以取得區段ID的使用量。
 
 ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告商帳戶設定中指定了區段ID，則會輸入廣告商層級ID，但您可以將ID變更為使用其他區段，或刪除該ID以停用該功能。
 
-**[!UICONTROL Contextual filtering]：**&#x200B;要套用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]內容篩選器的型別。 針對新版位選取廣告商層級預設值，但您可以變更設定：
+**[!UICONTROL Contextual filtering]：** （適用於案頭和行動網頁顯示、原生和視訊廣告）要套用的[!DNL Comscore]、[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]內容篩選型別。 針對新版位選取廣告商層級預設值，但您可以變更設定：
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告�
 
 **[!UICONTROL Pre-bid fraud blocking]：**&#x200B;根據透過[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]測量的詐騙流量和可疑活動而封鎖的網站型別。 針對新版位選取廣告商層級預設值，但您可以變更設定：
 
-* [!UICONTROL DoubleVerify]：
+* [!UICONTROL DoubleVerify]： （適用於案頭和行動網頁顯示、原生和視訊廣告）
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;依預設，會封鎖所有100%無效的流量（包括被劫持裝置上的流量），以供新位置使用。 可能需支付額外費用。
 
-   * **[!UICONTROL Also block sites with]：** （選擇性）額外的詐騙和無效流量等級會導致DSP依預設封鎖廣告： *[!UICONTROL None]* （預設值，不會封鎖額外的流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需支付額外費用。
+   * **[!UICONTROL Also block sites with]：** （選擇性）額外的詐騙和無效流量層級，會導致DSP依預設封鎖廣告： *[!UICONTROL None]* （預設值，不會封鎖額外的流量）、*[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*、*[!UICONTROL >4% Average Fraud/IVT levels]*、*[!UICONTROL >6% Average Fraud/IVT levels]*、*[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或&#x200B;*[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需支付額外費用。
 
-* [!UICONTROL Peer 39]：
+* [!UICONTROL Peer 39]： （適用於案頭和行動網頁顯示、原生和視訊廣告）
 
-   * **[!UICONTROL Block sites that are]：** （選擇性）一或多種型別的詐騙，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有有欺詐的網站）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;及/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需支付額外費用。
+   * **[!UICONTROL Block sites that are]：** （選擇性）一或多個欺詐型別，預設會導致DSP封鎖廣告： *[!UICONTROL Fraud]* （會封鎖所有有欺詐的網站）、*[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*&#x200B;及/或&#x200B;*[!UICONTROL Fraud: Zero Ads]*。 可能需支付額外費用。
 
-* [!UICONTROL Integral Ad Science]：
+* [!UICONTROL Integral Ad Science]： （適用於案頭和行動網頁顯示、原生和視訊廣告）
 
-   * **[!UICONTROL Block sites that are]：** （選用）可疑DSP網站或應用程式活動的型別，依預設會封鎖廣告： *[!UICONTROL None]* （預設，不會封鎖基於可疑活動的廣告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需支付額外費用。
+   * **[!UICONTROL Block sites that are]：** （選擇性）可導致DSP預設封鎖廣告的可疑網站或應用程式活動型別： *[!UICONTROL None]* （預設，不會根據可疑活動封鎖廣告）、*[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或&#x200B;*[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需支付額外費用。
 
-**[!UICONTROL Pre-bid viewability]：**
+**[!UICONTROL Pre-bid viewability]：** （適用於案頭和行動網頁顯示、原生和視訊廣告）由[!DNL DoubleVerify]和[!DNL Integral Ad Science]篩選的競標前可見度，以套用至位置。 系統已為新版位選取廣告商層級的預設值，但您可以變更設定。 可能需支付額外費用。
 
-要套用至此位置的[!DNL DoubleVerify]和[!DNL Integral Ad Science]會篩選出哪些競標前可見度。 系統已為新版位選取廣告商層級的預設值，但您可以變更設定。 可能需支付額外費用。
-
-**[!UICONTROL Ads.txt filtering]：**
-
-套用每個發佈者的「授權數位賣家」清單，以使用哪個層級的[Ads.txt](https://iabtechlab.com/ads-txt-about/)競標前篩選。 針對新刊登版位選取廣告商層級的預設值，但您可以變更設定：
+**[!UICONTROL Ads.txt filtering]：** （適用於案頭和行動網路顯示、原生、視訊和音訊廣告）套用每個發佈者的「授權數位賣家」清單，以使用哪個層級的[Ads.txt](https://iabtechlab.com/ads-txt-about/)競標前篩選。 針對新刊登版位選取廣告商層級的預設值，但您可以變更設定：
 
 * *[!UICONTROL Opt out of ads.txt (default)]*：向所有賣家購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：優先從網域的授權直銷商和經銷商購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers only]*：僅從網域的授權直接銷售者和經銷商購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers only]*：只從網域的授權直銷商購買詳細目錄。
 
-**[!UICONTROL Attention Targeting]：** （顯示器、視訊和標準連線電視位置）根據指定的網站、格式和廣告大小，鎖定具有特定關注等級（高、中或低）的[!DNL Adelaide]競標前區段。 區段每週都會更新。 **注意：**&#x200B;使用[!DNL Adelaide]區段進行目標定位，將會針對每個含有[!DNL Adelaide]關注目標定位的曝光產生CPM費用；此費用與[關注測量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的費用不同。 對於互動式前段位置，您只需支付VAST曝光數的費用。
+**[!UICONTROL Attention Targeting]：** （適用於案頭和行動網頁顯示、視訊和標準連線電視廣告）根據指定的網站、格式和廣告大小，鎖定具有特定關注等級（高、中或低）的[!DNL Adelaide]競標前區段。 區段每週都會更新。 **注意：**&#x200B;使用[!DNL Adelaide]區段進行目標定位，將會針對每個含有[!DNL Adelaide]關注目標定位的曝光產生CPM費用；此費用與[關注測量](/help/dsp/campaign-management/campaigns/campaign-settings.md)的費用不同。 對於互動式前段位置，您只需支付VAST曝光數的費用。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告�
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* 有關Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)的[常見問題集
+>* 關於行銷活動管理的[常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
