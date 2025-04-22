@@ -2,9 +2,9 @@
 title: 關於效能分析
 description: 瞭解行銷活動的效能深入分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ ht-degree: 0%
 
 * 封裝、發行者或網站/應用程式所製作的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]的<!-- ???? -->圖表。
 
+## 開啟效能分析
+
+* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[深入分析BETA]**。
+
+* （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
+
+## 將篩選器套用至索引標籤
+
+1. 在標籤頂端的工具列中，
+按一下![篩選按鈕](/help/dsp/assets/filter.png)。
+
+1. 在左欄中選取維度，然後在右欄中選取一或多個值（如適用）。
+
+   您一次只能選取一個廣告商。
+
+1. 按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. （可選）若要進一步縮小資料範圍，請在工具列中選取實體型別，然後選取特定實體值（單一行銷活動、套件或位置）。
+
+## 變更為Insight報告的Dimension
+
+* 從insight左上方的下拉式功能表中選取維度。
+
+## 變更Insight的回報量度
+
+1. 在insight的右上角，按一下![量度設定](/help/dsp/assets/metric-settings.png "量度設定")。
+
+1. 選取度量，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
 ## 下載Insight
 
-* 在insight上方，按一下![下載](/help/creative/assets/download.png "下載")。
+* 在insight的右上角，按一下![下載](/help/creative/assets/download.png "下載")。
 
   檔案會儲存至瀏覽器的預設「下載」資料夾。
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
