@@ -2,9 +2,9 @@
 title: 關於效能分析
 description: 瞭解行銷活動的效能深入分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 對於任何insight，您可以下載Microsoft Excel試算表(XLSX)格式的報表，而不使用視覺效果。
 
-## [!UICONTROL Home]索引標籤
+## 深入分析型別
+
+### [!UICONTROL Home]索引標籤
 
 [!UICONTROL Home]索引標籤會針對廣告商的所有行銷活動<!-- active only? -->提供關鍵標準、績效和可檢視度量度。 依預設，會顯示跨行銷活動的資料。 您可以選擇設定篩選器以顯示不同廣告商的資料，或僅顯示特定行銷活動<!-- active only? -->、套件<!-- active only? -->、自訂目標和位置<!-- active only? -->的資料。 這些見解包括：
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 * 依三個客戶指定的維度（例如依促銷活動、發佈者和媒體型別）劃分特定量度的資料。 您可以為每個維度劃分選擇不同的量度。
 
-## [!UICONTROL Household Reach]索引標籤
+### [!UICONTROL Household Reach]索引標籤
 
 [!UICONTROL Household Reach]索引標籤跨廣告商的所有行銷活動<!-- active only? -->提供住戶觸及度量。 依預設，會顯示跨行銷活動的資料。 您可以選擇設定篩選器以顯示不同廣告商的資料，或僅顯示特定行銷活動的資料<!-- active only? -->。 這些見解包括：
 
