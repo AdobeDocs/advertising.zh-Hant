@@ -2,14 +2,14 @@
 title: 關於效能分析
 description: 瞭解行銷活動的效能深入分析。
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# 關於效能分析&lt;！ — 標題？—？>
+# 關於效能分析
 
 *Beta功能*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [關於自訂報告](/help/dsp/reports/report-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用的報告欄](/help/dsp/reports/report-columns.md)
