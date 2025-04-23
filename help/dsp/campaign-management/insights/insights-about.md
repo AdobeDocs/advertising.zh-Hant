@@ -3,9 +3,9 @@ title: 關於效能分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動以及探索提升效能新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。
+透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動並發現提升效能的新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。
 
 使用效能分析來：
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 * 三個客戶指定的量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Unique Reach]和[!UICONTROL Net CPM]）的趨勢圖（依日或依周）。
 
-* 顯示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]遞增家庭觸及率的環形圖。 家庭活動遞增是指僅透過單一媒體、裝置或庫存型別觸及的家庭。
+* 顯示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]遞增家庭觸及率的環形圖。 *遞增式住戶觸及率*&#x200B;定義為僅透過單一媒體、裝置或詳細目錄型別觸及的住戶。
 
 * 累加不重複家庭觸及與重疊家庭觸及的比較，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]決定。
 
-  家庭活動遞增是指僅透過單一媒體、裝置或庫存型別觸及的家庭。 透過多種媒體、裝置或詳細目錄型別連線的家庭，會視為重疊。
+  *遞增式住戶觸及率*&#x200B;定義為僅透過單一媒體、裝置或詳細目錄型別觸及的住戶。 *重疊的家庭範圍*&#x200B;定義為透過多種媒體、裝置或詳細目錄型別觸及的家庭。
 
 * 依[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]排列的行銷活動、位置、套件、發行者、網站/應用程式、媒體型別、詳細目錄型別或裝置型別效能最佳。
 
@@ -64,8 +64,7 @@ ht-degree: 0%
 
 ## 將篩選器套用至索引標籤
 
-1. 在標籤頂端的工具列中，
-按一下![篩選按鈕](/help/dsp/assets/filter.png)。
+1. 在索引標籤頂端的工具列中按一下![篩選按鈕](/help/dsp/assets/filter.png)。
 
 1. 在左欄中選取維度，然後在右欄中選取一或多個值（如適用）。
 
