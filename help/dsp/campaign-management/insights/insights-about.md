@@ -1,9 +1,9 @@
 ---
 title: 關於效能分析
-description: 瞭解行銷活動的效能深入分析。
-feature: DSP Packages, DSP Placements, DSP Ads
+description: 瞭解視覺效果的效能深入分析。
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 * 累加不重複家庭觸及與重疊家庭觸及的比較，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]決定。
 
-  家庭活動遞增是指僅透過單一媒體、裝置或庫存型別觸及的家庭。 由多種媒體、裝置或詳細目錄型別所觸及的家庭視為重疊。
+  家庭活動遞增是指僅透過單一媒體、裝置或庫存型別觸及的家庭。 透過多種媒體、裝置或詳細目錄型別連線的家庭，會視為重疊。
 
 * 依[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]排列的行銷活動、位置、套件、發行者、網站/應用程式、媒體型別、詳細目錄型別或裝置型別效能最佳。
 
