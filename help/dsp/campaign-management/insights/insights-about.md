@@ -3,9 +3,9 @@ title: 關於效能分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您可以將標籤的所有視覺效果匯出至PDF檔案，或下載特定insight的資料，而不使用Microsoft Excel試算表(XLSX)格式的視覺效果。
 
-您也可以[變更日期範圍、設定檢視並儲存自訂檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像促銷活動管理檢視一樣。
+您也可以[變更日期範圍、設定檢視並儲存自訂檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"}，就像促銷活動管理檢視一樣。
 
 ## 深入分析型別
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 開啟效能分析
 
-* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[深入分析BETA]**。
+* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[UICONTROL Insights BETA]**。
 
 * （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
 
