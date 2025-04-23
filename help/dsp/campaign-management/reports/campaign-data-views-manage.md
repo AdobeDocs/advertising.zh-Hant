@@ -3,7 +3,7 @@ title: 管理您的Campaign資料檢視
 description: 瞭解如何自訂行銷活動、套件、版位和廣告的資料檢視。
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ![欄檢視選擇器](/help/dsp/assets/column-view-selector.png)
 
-DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面時，都可檢視與您相關的測量結果。
+DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面時，都可檢視與您相關的量度。
 
 #### 變更欄檢視 {#column-view-change}
 
@@ -56,7 +56,7 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
 
    1. 在可用量度清單中，選取每個要包含的量度旁的核取方塊。
 
-      所有量度都是依類別的字母順序排列： [!UICONTROL Settings]、[!UICONTROL Spend]、[!UICONTROL Pacing]、[!UICONTROL Reporting] (DSP追蹤的標準量度)、[!UICONTROL Viewability]以及[!UICONTROL Conversions]。 附加了&quot;([!UICONTROL Lifetime])&quot;的量度會從行銷活動開始傳回值，無論頁面上選取的日期範圍為何。
+      所有量度都是依類別的字母順序排列： [!UICONTROL Settings]、[!UICONTROL Spend]、[!UICONTROL Pacing]、[!UICONTROL Reporting] (DSP追蹤的標準量度)、[!UICONTROL Viewability]和[!UICONTROL Conversions]。 附加了&quot;([!UICONTROL Lifetime])&quot;的量度會從行銷活動開始傳回值，無論頁面上選取的日期範圍為何。
 
    1. 視需要編輯欄順序，方法是按一下右側面板中的欄名稱，並將它們拖曳到所需位置。
 
@@ -82,7 +82,7 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
 
    1. 在可用量度清單中，選取每個要包含的量度旁的核取方塊，並清除每個要排除的量度旁的核取方塊。
 
-      所有量度都是依類別的字母順序排列： [!UICONTROL Settings]、[!UICONTROL Spend]、[!UICONTROL Pacing]、[!UICONTROL Reporting] (DSP追蹤的標準量度)、[!UICONTROL Viewability]以及[!UICONTROL Conversions]。 附加了&quot;([!UICONTROL Lifetime])&quot;的量度會從行銷活動開始傳回值，無論頁面上選取的日期範圍為何。
+      所有量度都是依類別的字母順序排列： [!UICONTROL Settings]、[!UICONTROL Spend]、[!UICONTROL Pacing]、[!UICONTROL Reporting] (DSP追蹤的標準量度)、[!UICONTROL Viewability]和[!UICONTROL Conversions]。 附加了&quot;([!UICONTROL Lifetime])&quot;的量度會從行銷活動開始傳回值，無論頁面上選取的日期範圍為何。
 
    1. 視需要編輯欄順序，方法是按一下右側面板中的欄名稱，並將它們拖曳到所需位置。
 
@@ -142,7 +142,6 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### 變更日期範圍
 
 使用任何資料表格上方的日期範圍選取器，變更用於所有標準和自訂檢視的日期範圍。
@@ -172,9 +171,9 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
 
 >[!MORELIKETHIS]
 >
->* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](campaign-reports-about.md)
 >* [檢視位置](placement-details-view.md)的網站、廣告和頻率詳細資訊
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [檢視位置診斷報告](placement-diagnostics.md)
->* [從Campaign Management檢視匯出資料](campaign-export-data.md)
+>* [從行銷活動管理檢視匯出資料](campaign-export-data.md)
 >* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

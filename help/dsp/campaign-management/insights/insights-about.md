@@ -3,9 +3,9 @@ title: 關於效能分析
 description: 瞭解行銷活動的效能深入分析。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您可以將標籤的所有視覺效果匯出至PDF檔案，或下載特定insight的資料，而不使用Microsoft Excel試算表(XLSX)格式的視覺效果。
 
-您也可以[設定檢視，並將其儲存為自訂檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像促銷活動管理檢視一樣。
+您也可以[變更日期範圍、設定檢視並儲存自訂檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)，就像促銷活動管理檢視一樣。
 
 ## 深入分析型別
 
@@ -102,3 +102,4 @@ ht-degree: 0%
 >* [關於自訂報告](/help/dsp/reports/report-about.md)
 >* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
+>* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
