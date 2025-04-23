@@ -3,7 +3,7 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -163,6 +163,10 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
    * 將裝置或網路上的檔案拖放至方塊中。
 
    * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+<!--  Verify wording and workflow and add when available:
+
+   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
+-->
 
 1. 新增或移除影像：
 

@@ -2,7 +2,7 @@
 title: 關於Adobe Advertising Creative
 description: 瞭解 [!DNL Creative]。
 feature: Creative Introduction
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -25,11 +25,21 @@ Advertising Creative是Adobe Advertising的一部分，它是一個自助服務�
 
 透過[!DNL Creative]，您可以使用規則型決策樹模型來建構劇本 — 展開根據您對受眾的瞭解而即時自訂的編排廣告字串，並追蹤客戶（即使客戶移至不同的網站）<!-- verify if that's true without Adobe CDP -->。 例如，故事可以根據客戶行為、地理位置、人口統計、重新定位、客戶歷程中的位置等而變更。
 
+<!-- Add when available:
+
+## [!DNL Adobe] content and data integrations
+
+[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+
+You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
+or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
+-->
+
 ### 體驗作為廣告的實作
 
 建立體驗後，您可以產生體驗的JavaScript或iframe標籤，並在Advertising DSP或任何其他DSP中將標籤實作為協力廠商廣告。<!-- Add any more info about integration with DSP? -->
 
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level REtargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
+<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
 
 Advertiser should be able to target all segments which are available in DSP for targeting
 -->
@@ -46,7 +56,7 @@ Advertiser should be able to target all segments which are available in DSP for 
 
 [!DNL Creative]會自動追蹤從體驗提供之廣告的所有曝光次數與點按次數。 您也可以選擇將協力廠商曝光追蹤和點選追蹤URL新增至Creative Libraries中的創意內容，以及體驗中的自訂追蹤URL。
 
-[!DNL Creative]也會追蹤從您的廣告體驗中建立的已提供廣告的轉換。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
+[!DNL Creative]也會追蹤從您的廣告體驗中建立的已提供廣告的轉換。<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
