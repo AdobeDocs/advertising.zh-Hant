@@ -3,9 +3,9 @@ title: 關於效能分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
+source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 開啟效能分析
 
-* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[UICONTROL Insights BETA]**。
+* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights BETA]**。
 
 * （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
 
