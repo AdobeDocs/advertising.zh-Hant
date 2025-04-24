@@ -3,7 +3,7 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3224adf97a1b32ee7b7abcbb1c6e7792bfed5c49
+source-git-commit: eaa25ce24bf00fb5ff7ea1e4a3364d4439f49b00
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
@@ -421,7 +421,7 @@ ID必須以「51」開頭，且包含8位數。 根據預設，如果在廣告�
 
 **[!UICONTROL Pre-bid fraud blocking]：**&#x200B;根據透過[!DNL DoubleVerify]、[!DNL Integral Ad Science]和[!DNL Peer39]測量的詐騙流量和可疑活動而封鎖的網站型別。 針對新版位選取廣告商層級預設值，但您可以變更設定：
 
-* [!UICONTROL DoubleVerify]： （適用於案頭和行動網頁顯示、原生和視訊廣告） <!-- native, video, and standard connected TV ads -->
+* [!UICONTROL DoubleVerify]： （適用於案頭和行動網頁顯示、原生和視訊廣告） <!-- Applicable for desktop and mobile web display, native, video, and standard connected TV ads -->
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]：**&#x200B;依預設，會封鎖所有100%無效的流量（包括被劫持裝置上的流量），以供新位置使用。 可能需支付額外費用。
 
