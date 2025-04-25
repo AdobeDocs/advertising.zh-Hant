@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年4月25日 | [!UICONTROL Placements]，品牌安全與媒體品質 | DSP現在針對標準連線電視位置提供[!DNL DoubleVerify]出價前詐騙封鎖支援。 新刊登版位會自動繼承廣告商層級的詐騙封鎖設定。 若要排除繼承的設定，請手動將其移除。<br><br>未來版本將提供對通用視訊版位的支援。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)。 |
 | 2025年4月24日 | 效能[!UICONTROL Insights] | (Beta功能)透過視覺效果提供高階效能深入分析，為您提供有效最佳化行銷活動並發現提升效能新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。 | 請參閱&quot;[關於效能深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2025年3月26日 | 登入 | DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]從Experience Cloud登入頁面或舊版DSP登入頁面登入[!DNL Adobe]個產品。 您目前的DSP憑證將會保留90天的有效狀態，以便您為變更做好準備。 | 請參閱[登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱「[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)」。 |
 | | [!UICONTROL Packages]，[!UICONTROL Placements]，[!UICONTROL Ads] | 現在提供下列大量編輯功能：<ul><li>您可以直接編輯並重新上傳包含行銷活動套件、版位和廣告設定的行銷活動層級試算表。 之前，您必須下載範本檔案並手動輸入變更以上傳。</li><li>在整個[!UICONTROL Campaigns]檢視中，這些檔案現在稱為「*bulksheets*」，而不是「QA工作表」，而且您選取「[!UICONTROL Download Bulksheet]」和「[!UICONTROL Upload Bulksheet]」的選項。</li><li>大部分的版位設定現在都可在大量表單中使用。</li></ul> | 請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯Campaign元件設定」。[<br><br>另請參閱[使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱及編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
