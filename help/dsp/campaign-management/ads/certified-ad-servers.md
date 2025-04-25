@@ -3,9 +3,9 @@ title: 認證廣告服務合作夥伴
 description: 檢視所有認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | 輸出流清查的VPAID不提供支援。 |
+| [!DNL Teads] | | X | | | 包含原生顯示。 輸出流清查的VPAID不提供支援。 |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | 在DSP中以180x150上傳自訂頁面抓取器廣告單位</br></br>當Index Exchange在拍賣中通過180x150拍賣和DSP競標並提供曝光時，創意內容會展開為全頁顯示廣告。</br></br>最初已通過Page Grabber、Expanable Adhendation和Screen Shift廣告單元的認證。 這需要進行重新認證，並針對流程標示步驟。 |
 | [!DNL Vox] | | | X | | [!DNL Athena]個廣告單位 |
