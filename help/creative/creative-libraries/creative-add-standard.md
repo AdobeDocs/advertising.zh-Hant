@@ -3,9 +3,9 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**。
 
-1. 以下列其中一種方式指定檔案：
+1. 指定影像：
 
-   * 將裝置或網路上的檔案拖放至方塊中。
+   * 針對本機影像資產，請執行下列其中一項作業：
 
-   * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
-<!--  Verify wording and workflow and add when available:
+      * 將裝置或網路上的檔案拖放至方塊中。
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+
+   * 針對Adobe Experience Manager資料庫中的影像，請執行下列動作：
+
+      1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
+
+      1. 登入您的Experience Manager帳戶。
+
+      1. 在您的[!UICONTROL Assets]或[!UICONTROL Collections]檢視中尋找並選取檔案，然後按一下右上角的&#x200B;**[!UICONTROL Select]**。
 
 1. 新增或移除影像：
 
