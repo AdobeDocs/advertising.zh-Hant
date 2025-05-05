@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在Adobe Experience Platform中，使用在DSP來源設定中產生的[!UICONTROL Source Key]來設定Advertising DSP目的地連線。
 
-   如需啟用DSP目的地連線、選取區段及存取控制許可權的指示，請參閱「[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」。
+   如需啟用DSP目的地連線、選取區段及存取控制許可權的指示，請參閱「[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)」。
 
    來源電子郵件地址必須使用SHA-256演演算法執行雜湊處理。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
+>* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant)
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)

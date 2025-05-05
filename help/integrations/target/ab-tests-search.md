@@ -21,7 +21,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * 提供與廣告相關的更個人化的登陸頁面體驗（例如，比對登陸頁面的影像/影片創意、復本、關鍵字或其他廣告訊號）。
 
-您也可以結合Advertising[&#128279;](/help/integrations/analytics/overview.md)的原生[[!DNL Analytics] 與整合至Adobe Analytics的 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合報表維度的[!DNL Analytics] ，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
+您也可以結合Advertising[&#128279;](/help/integrations/analytics/overview.md)的原生[[!DNL Analytics] 與整合至Adobe Analytics的 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合報表維度的[!DNL Analytics] ，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
 
 請參閱下列各節以瞭解先決條件、在[!DNL Target]中設定A/B測試的指示(來自Search、Social和Commerce中的廣告點進流量)，以及如何在[!DNL Analytics]中測量和視覺化測試的秘訣。
 
@@ -38,15 +38,15 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合
+* [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合
 
 ## 步驟1：在[!DNL Target]中建立A/B測試活動，以搜尋、社交和Commerce
 
 下列指示會醒目顯示與搜尋、社交和Commerce使用案例相關的資訊。
 
-1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html)。
+1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant)。
 
-1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)：
+1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)：
 
    1. 在&#x200B;**[!UICONTROL Enter Activity URL]**&#x200B;欄位中，輸入測試的登陸頁面URL。
 
@@ -61,7 +61,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
    1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;內，選取連線至您搜尋、社交和Commerce帳戶的&#x200B;**[!UICONTROL Company Name]**&#x200B;和&#x200B;**[!UICONTROL Report Suite]**。
 
-      如需其他報告秘訣，請參閱「[報告最佳實務和疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)」。
+      如需其他報告秘訣，請參閱「[報告最佳實務和疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=zh-Hant)」。
 
    1. 在&#x200B;**[!UICONTROL Date Range]**&#x200B;欄位中，輸入適當的測試開始與結束日期。
 
@@ -77,7 +77,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
    1. 儲存活動。
 
-1. 使用[Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)，對A/B測試登入頁面範本進行設計變更。
+1. 使用[Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)，對A/B測試登入頁面範本進行設計變更。
 
    * 體驗A：請勿編輯，因為這是沒有個人化的預設/控制登陸頁面體驗。
 
@@ -91,7 +91,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 [!DNL Analytics for Target] (A4T)是跨解決方案的整合，可讓廣告商根據[!DNL Analytics]轉換量度和受眾區段來建立[!DNL Target]個活動，然後使用[!DNL Analytics]做為報表來源來測量結果。 該活動的所有報表和區段都以[!DNL Analytics]資料收集為基礎。
 
-如需[!DNL Analytics for Target]的詳細資訊，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的報告來源&quot;。
+如需[!DNL Analytics for Target]的詳細資訊，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)的報告來源&quot;。
 
 ### 設定[!DNL Analytics for Target]面板
 
@@ -119,7 +119,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 在Analysis Workspace中，如果您發現活動和體驗資料很少或未填入，則請執行以下操作：
 
-* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)，以驗證SDID值。
+* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hant)，以驗證SDID值。
 
 [Adobe Debugger中的補充資料ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +133,8 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 ## 進一步閱讀
 
-* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) — 說明如何在Analysis Workspace中設定[!DNL Target]報告。
-* [A/B測試概覽](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) — 說明A/B測試活動，您可以將其用於搜尋、社交和Commerce廣告。
+* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=zh-Hant) — 說明如何在Analysis Workspace中設定[!DNL Target]報告。
+* [A/B測試概覽](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=zh-Hant) — 說明A/B測試活動，您可以將其用於搜尋、社交和Commerce廣告。
 * [Advertising適用的Analytics概觀](/help/integrations/analytics/overview.md) — 介紹Advertising適用的Analytics，其可讓您追蹤Analytics執行個體中的點進和檢視網站互動。
 
 >[!MORELIKETHIS]

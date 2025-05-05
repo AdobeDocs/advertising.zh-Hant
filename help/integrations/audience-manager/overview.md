@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需有關如何在Audience Manager和Experience Cloud[!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;。
+>如需有關如何在Audience Manager和Experience Cloud[!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)&quot;。
 
 ## 將DSP媒體曝光度資料傳送至Audience Manager
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ## 透過Audience Analytics獲得更豐富的網站活動見解
 
-具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
+具有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
 
 如需詳細資訊，請參閱[[!DNL Adobe Audience Analytics] Adobe Advertising客戶](/help/integrations/audience-manager/audience-analytics.md)。

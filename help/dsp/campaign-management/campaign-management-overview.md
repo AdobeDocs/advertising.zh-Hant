@@ -56,4 +56,4 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)

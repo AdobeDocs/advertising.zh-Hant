@@ -38,4 +38,4 @@ ht-degree: 0%
 >* [暫停或啟動位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
->* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hant)

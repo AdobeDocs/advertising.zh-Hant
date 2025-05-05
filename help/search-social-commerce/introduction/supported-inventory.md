@@ -64,6 +64,6 @@ ht-degree: 0%
 
 [^2]：請參閱「最佳化指南」中的「依行銷活動競標策略區分的合格產品組合型別」，此指南可從「搜尋」、「社交」和「Commerce」中取得。
 
-[^3]：需要與Adobe Analytics整合。 請參閱「[Adobe Advertising分析總覽](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)」。
+[^3]：需要與Adobe Analytics整合。 請參閱「[Adobe Advertising分析總覽](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)」。
 
 [^4]： [!DNL Analytics]資料會使用升級的AMO ID追蹤引數（從`s_kwcid`開始）傳送至Search、Social和Commerce，無論您通常用於帳戶的AMO ID格式為何。 如果您通常使用舊版的AMO ID，建議您升級至新的AMO ID格式，以享有最佳的體驗。 不過，即使您的點按數/成本資料和收入資料是使用不同的AMO ID進行追蹤，兩組資料仍會在相同的促銷活動和帳戶下完全分類和彙總。

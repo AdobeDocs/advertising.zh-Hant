@@ -49,4 +49,4 @@ ht-degree: 10%
 + 與Adobe Target整合 {#target}
    + [在Adobe Target中設定DSP廣告的A/B測試](/help/integrations/target/ab-tests-dsp.md)
    + [在Adobe Target中設定搜尋、社交和Commerce廣告的A/B測試](/help/integrations/target/ab-tests-search.md)
-+ [有關Adobe Advertising整合的影片Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [有關Adobe Advertising整合的影片Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)<!-- rename if the tutorials TOC structure changes -->

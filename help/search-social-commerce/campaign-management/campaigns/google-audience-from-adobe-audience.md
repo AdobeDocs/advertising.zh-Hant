@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （若要建立使用者ID再行銷清單對象） [!DNL Adobe]管理員使用者或帳戶管理員必須選取廣告商層級的設定，才能啟用客戶比對對象。
 
-   1. 實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 2.0或更新版本。
+   1. 實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 2.0或更新版本。
 
    1. 在廣告商的網頁上儘可能部署以下標籤，並從中追蹤對象
 

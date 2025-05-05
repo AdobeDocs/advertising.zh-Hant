@@ -55,5 +55,5 @@ ht-degree: 0%
 >* [基礎（共 [!DNL Analytics Marketing Channels]](mc-overview.md)個）
 >* [使用Adobe Advertising識別碼來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
 >* [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之間可能不同
->* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
 >* [總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

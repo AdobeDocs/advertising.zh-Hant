@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 所有新實作都使用JavaScript版本3。
->* 具有ECID的JavaScript標籤使用[Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)以及舊版ef_id和gsurferid來測量轉換。 此最新標籤會建立[第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，並提供與其他Experience Cloud產品更緊密整合的功能。
+>* 具有ECID的JavaScript標籤使用[Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)以及舊版ef_id和gsurferid來測量轉換。 此最新標籤會建立[第一方Experience Clouds_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hant)，並提供與其他Experience Cloud產品更緊密整合的功能。
 >* 只有在廣告商的網頁上已實作標籤時，才使用JavaScript第2版標籤。
 >* 最佳實務是使用JavaScript標籤，而非影像標籤，除非網站設有禁止使用這些標籤的原則。
 >* 廣告商若想要鎖定在Adobe Experience Cloud中建立、在Adobe Audience Manager中建立或從Audience Manager或Adobe Analytics發佈至Adobe Experience Cloud的受眾，則需要JavaScript標籤。

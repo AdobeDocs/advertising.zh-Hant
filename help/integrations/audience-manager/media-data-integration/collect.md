@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 步驟1：在Audience Manager中設定資料Source {#set-up-data-source}
 
-在Audience Manager中，為DSP曝光數建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)，然後按一下資料。 在每個事件標籤[&#128279;](#implement-dsp-pixels)中包含資料來源識別碼，以便所有追蹤的事件都歸因於資料來源。
+在Audience Manager中，為DSP曝光數建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hant)，然後按一下資料。 在每個事件標籤[&#128279;](#implement-dsp-pixels)中包含資料來源識別碼，以便所有追蹤的事件都歸因於資料來源。
 
 >[!NOTE]
 > 您可以在單一資料來源中，針對在多個DSP上執行的廣告行銷活動，收集其所有曝光次數和點按資料。
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)傳送給Audience Manager。
+>如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)傳送給Audience Manager。
 
 ### 畫素語法
 
@@ -79,9 +79,9 @@ ht-degree: 0%
 
 在索引鍵/值組中，值變數可以是硬式編碼ID或&#x200B;*巨集*，這是獨立程式碼的一個小單位，當廣告標籤載入促銷活動和使用者追蹤時，會動態取代為對應的值。 對於促銷活動相關引數，您可以使用[DSP巨集](/help/dsp/campaign-management/macros.md)，而不是Audience Manager巨集，在所有廣告中使用單一畫素，連同對應的曝光數或點按資料一起傳送促銷活動屬性以進行Audience Manager。 您插入事件畫素的DSP巨集必須是包含在畫素中的機碼值組的適當值。 例如，若是`d_placement`鍵，您會使用DSP巨集`${TM_PLACEMENT_ID_NUM}`作為值，擷取Adobe Advertising巨集產生的位置ID。
 
-如需Audience Manager支援曝光事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)。
+如需Audience Manager支援曝光事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hant#supported-key-value-pairs)。
 
-如需Audience Manager支援點選事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的點選資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)。
+如需Audience Manager支援點選事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的點選資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=zh-Hant)。
 
 >[!TIP]
 >
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 ### 建立[!DNL Amazon S3]貯體和資料Source
 
-一旦您的資料位於Audience Manager伺服器上，您必須建立[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])貯體，然後建立資料來源，所有畫素資料都會傳送至該來源。 如果您需要支援，請連絡您的Audience Manager顧問或[客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)。
+一旦您的資料位於Audience Manager伺服器上，您必須建立[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])貯體，然後建立資料來源，所有畫素資料都會傳送至該來源。 如果您需要支援，請連絡您的Audience Manager顧問或[客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=zh-Hant)。
 
 ### 建立Audience Manager特徵和區段
 
-您的事件資料會以[未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)流入Audience Manager。 從擷取的資料手動建立[規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)，然後使用這些特徵建立[區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html)，您才可以在報表中使用資料。
+您的事件資料會以[未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hant)流入Audience Manager。 從擷取的資料手動建立[規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hant)，然後使用這些特徵建立[區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hant)，您才可以在報表中使用資料。
 
 為在DSP中展示特定創意內容的使用者填入使用者層級資料的特徵範例：
 

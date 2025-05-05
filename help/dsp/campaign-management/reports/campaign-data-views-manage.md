@@ -176,4 +176,4 @@ DSP會將您最近的檢視儲存為預設檢視，因此每次您返回頁面�
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [檢視位置診斷報告](placement-diagnostics.md)
 >* [從行銷活動管理檢視匯出資料](campaign-export-data.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)

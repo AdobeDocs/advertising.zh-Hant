@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [建立行銷活動](campaign-create.md)
 >* [行銷活動設定](campaign-settings.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)

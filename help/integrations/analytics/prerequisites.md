@@ -41,7 +41,7 @@ ht-degree: 0%
 * [!DNL Analytics]報告套裝ID，用於付費媒體活動的報告，以及饋送網站活動以最佳化及Adobe Advertising中的報告
 * 公司的Experience Cloud組織ID （組織ID）。
 
-您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的摘要標籤上找到這兩個ID。
+您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)的摘要標籤上找到這兩個ID。
 
 ![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要針對不同的時間範圍分段資料，您可以在Analysis Workspace中[設定具有不同回顧視窗的自訂區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+>若要針對不同的時間範圍分段資料，您可以在Analysis Workspace中[設定具有不同回顧視窗的自訂區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
 
 ## 支援的廣告環境
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 為了進行精確的資料整合，[!DNL Analytics for Advertising]活動用來傳遞內容或記錄目標量度的所有Adobe Advertising呼叫必須具有共用相同補充ID的對應[!DNL Analytics]點選。
 
-當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在「Adobe Advertising」標籤中看到此ID為`sdid`引數。
+當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)中，您可以在「Adobe Advertising」標籤中看到此ID為`sdid`引數。
 
 >[!NOTE]
 >

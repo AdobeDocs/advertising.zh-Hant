@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [關於廣告管理](ad-about.md)
 >* [廣告規格](ad-specs.md)
 >* [建立單一廣告](ad-create.md)
->* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=zh-Hant)
 >* 關於通用視訊的[常見問題集](/help/dsp/campaign-management/faq-universal-video.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳訊給Adobe Advertising的資訊，請參閱[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)。
+>* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳訊給Adobe Advertising的資訊，請參閱[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hant)。
 >* 若要追蹤出於與追蹤CCPA選擇退出銷售事件無關之目的而造訪網頁的使用者，以及接觸到來自案頭、行動和CTV裝置廣告的使用者，請建立[自訂區段](/help/dsp/audiences/custom-segment-create.md)。
 
 1. 建立區段：

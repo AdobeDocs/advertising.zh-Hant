@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 在所有其他情況下，廣告網路會直接將點按傳送至Adobe Advertising畫素伺服器。 畫素伺服器會將Cookie放在使用者的電腦上（如果沒有），然後將使用者重新導向至您網站上的相關URL。 一般使用者的整體體驗，與沒有重新導向時相同。
 
-Cookie在[!DNL Adobe]網域(`everesttech.net`)中設定為第一方Cookie。 重新導向後，使用者位在廣告商的網域上，接著系統會將此Cookie視為第三方Cookie。 如需Adobe AdvertisingCookie的詳細資訊，請參閱[Adobe AdvertisingCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)。
+Cookie在[!DNL Adobe]網域(`everesttech.net`)中設定為第一方Cookie。 重新導向後，使用者位在廣告商的網域上，接著系統會將此Cookie視為第三方Cookie。 如需Adobe AdvertisingCookie的詳細資訊，請參閱[Adobe AdvertisingCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant)。
 
 ## 轉換資料
 
