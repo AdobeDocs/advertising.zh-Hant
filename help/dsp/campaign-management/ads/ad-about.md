@@ -51,7 +51,7 @@ DSP提供下列所有廣告型別。 如需每種廣告型別的完整規格，�
 
 當DSP核准廣告時，廣告的狀態列會顯示綠色點。
 
-[!UICONTROL Status]欄](/help/dsp/assets/ad-approval-status.png)中的![核准指標
+[!UICONTROL Status]欄![&#128279;](/help/dsp/assets/ad-approval-status.png)中的核准指標
 
 >[!NOTE]
 >

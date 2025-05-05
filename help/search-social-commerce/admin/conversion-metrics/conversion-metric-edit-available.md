@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 若要搜尋特定的量度名稱或顯示名稱，請按一下![搜尋](/help/search-social-commerce/assets/search.png "搜尋")，在輸入欄位中輸入字詞或字串，然後按&#x200B;**[!DNL Enter]**&#x200B;鍵。
 
-     您可以搜尋出現在片語中任何位置的字串（例如第一個字母或最後三個字母），而且搜尋字詞不會區分大小寫[](/help/search-social-commerce/glossary.md#c-d)。
+     您可以搜尋出現在片語中任何位置的字串（例如第一個字母或最後三個字母），而且搜尋字詞不會區分大小寫[&#128279;](/help/search-social-commerce/glossary.md#c-d)。
 
    * 若要依據轉換量度在管理檢視和報告中的可用性來搜尋轉換量度，請按一下![篩選器](/help/search-social-commerce/assets/filter.png "篩選器")，然後選取篩選器&#x200B;**[!UICONTROL Show in UI and Reports]**。 然後選取&#x200B;**[!UICONTROL Show]** （以檢視可包含在報告和管理檢視中的轉換量度）或&#x200B;**[!UICONTROL Hide]** （以檢視報告和管理檢視中不可用的轉換量度）。
 

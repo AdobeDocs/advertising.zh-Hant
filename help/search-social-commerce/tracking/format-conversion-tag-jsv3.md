@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需何時使用版本2與版本3的相關資訊，請參閱追蹤標籤](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的[常見問題集。
+>如需何時使用版本2與版本3的相關資訊，請參閱追蹤標籤[&#128279;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的常見問題集。
 
 ```
 <script type='text/javascript'>

@@ -11,6 +11,6 @@ ht-degree: 0%
 
 * 網站：輸入[有效的URL](https://support.google.com/google-ads/answer/2454012)，例如www.example.com。
 
-* 主題：主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案](https://developers.google.com/adwords/api/docs/appendix/verticals)的[清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
+* 主題：主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案[&#128279;](https://developers.google.com/adwords/api/docs/appendix/verticals)的清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
 
 您可以在行銷活動和廣告群組層級設定負面網站。 行銷活動層級的負數會套用至廣告群組層級。

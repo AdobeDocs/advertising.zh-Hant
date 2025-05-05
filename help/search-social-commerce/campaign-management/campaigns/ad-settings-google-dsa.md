@@ -14,7 +14,7 @@ ht-degree: 0%
 
 動態搜尋廣告(DSA)僅適用於[!DNL Google Ads]在僅限搜尋行銷活動中的搜尋動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面和顯示URL，然後自動產生最終URL。
 
-請參閱Google廣告說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[廣告限制。
+請參閱Google廣告說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的廣告限制。
 
 >[!NOTE]
 >

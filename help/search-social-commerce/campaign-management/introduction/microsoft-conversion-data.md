@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 [當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 當兩個不同的量度具有相同的名稱時，報表並不準確。
 >* 競標單位層級的資料符合相同層級廣告網路中的資料。 不過，廣告網路自己的更高層級轉換資料可能包含未歸因至子競標單位的額外轉換。 搜尋、Social和Commerce中的資料一律會從競標單位層級彙總，因此（舉例來說）行銷活動層級報表的總數可能與廣告網路中的行銷活動層級報表不同。
 >* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
 >* 對象或地理位置層級沒有資料，因此不會用來自動最佳化RLSA和位置競標調整。

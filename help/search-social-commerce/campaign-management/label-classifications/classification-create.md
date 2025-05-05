@@ -22,7 +22,7 @@ ht-degree: 0%
 
    廣告商帳戶的名稱必須是唯一的，且包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。 名稱不能與現有報表欄或現有Bulksheet欄的名稱相同。 檢視[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的大量表單欄名稱 日本廣告](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)，[Yahoo！ 顯示網路](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
 
-建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或[將標籤值指派給帳戶實體。
+建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets[&#128279;](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或將標籤值指派給帳戶實體。
 
 >[!MORELIKETHIS]
 >

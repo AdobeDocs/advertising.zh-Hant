@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動[所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 

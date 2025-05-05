@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
 
-* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)」。[
+* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)」。
 
 可編輯欄位包含大部分通常可編輯的設定。
 

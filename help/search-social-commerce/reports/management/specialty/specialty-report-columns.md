@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])資產型別： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]個報表）實體對與不同實體相關聯的轉換所貢獻的次數。 |
 | [!UICONTROL Audience ID] | 數值的受眾ID。 |
-| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[！DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
+| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[!DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由於每日或每月預算太低，您在Microsoft對象網路上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由於廣告排名不佳，您在Microsoft Audience Network上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的預估曝光次數百分比除以您可能已收到的可用曝光總數。 |
@@ -135,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio報告)投資組合的支出策略： *[!UICONTROL Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*、*[!UICONTROL ROI]*、*[!UICONTROL Day of week]*、*[!UICONTROL Day of month]*、*[!UICONTROL CPT]*、*[!UICONTROL Marginal CPT]*、*[!UICONTROL Google Target CPA]*&#x200B;或&#x200B;*[!UICONTROL Google Target ROAS]*。 |
 | [!UICONTROL Portfolio Status] | 投資組合狀態：<ul><li>*[!UICONTROL Optimize]*：最佳化功能正在收集相關行銷活動的點按和收入資料、建立用於最佳化的資料模型，以及最佳化出價、行銷活動預算和行銷活動競標策略目標（視最佳化型別和競標策略而定）。</li><li>*[!UICONTROL Active]*：最佳化功能正在收集相關行銷活動的點按和收入資料，並正在模型化資料，但並未最佳化出價或行銷活動預算。</li><li>*[!UICONTROL Inactive]*：最佳化功能正在收集相關行銷活動的點選資料以用於報表用途，但是它不會建立資料模型，也不會最佳化競標或行銷活動預算。</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report])資產群組為何會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。* |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report])資產群組主要狀態的其他詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* ** {CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。** |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report])資產群組主要狀態的其他詳細資料。 值可能包括&#x200B;*ASSET_GROUP_DISAPPROVED，* *ASSET_GROUP_LIMITED，* *ASSET_GROUP_PAUSED，* *ASSET_GROUP_REMOVED，* *ASSET_GROUP_UNDER_REVIEW，* *CAMPAIGN_ENDED，* *CAMPAIGN_PAUSED，* **&#x200B; &lbrace;CAMPAIGN_REMOVED，**&#x200B;未知，*或未指定*。** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report])隨廣告一起顯示之產品的產品ID。 <b>注意：</b>只有當產品清單包含追蹤引數`ev_plx=<GMC product ID>`時，才會擷取識別碼，您必須在[!DNL Google Merchant Center]內新增該引數。 |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report])第一層到第五層產品型別（您為產品群組定義的屬性）。 |
 | [!UICONTROL Query Match Type] | （AdWords搜尋查詢報告）搜尋查詢的關鍵字相符型別。 |

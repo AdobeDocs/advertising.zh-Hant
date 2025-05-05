@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 標籤值
 
-每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視](classification-values-assign-campaign-management.md)或[使用大量表單](classification-values-assign-bulksheets.md)，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組[。
+每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視[&#128279;](classification-values-assign-campaign-management.md)或[使用大量表單](classification-values-assign-bulksheets.md)，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組。
 
 每個符合資格的實體都可以有多個分類的標籤值，但每個分類只有一個標籤值。 標籤值由子實體繼承，但可以覆寫。 在最低層次指定的值一律會覆寫在父層次指定的值。
 

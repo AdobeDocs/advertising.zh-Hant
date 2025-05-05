@@ -38,12 +38,12 @@ ht-degree: 0%
       + [管理創意組合](/help/creative/creative-libraries/bundle-manage.md)
 + 廣告體驗{#creative-experiences}
    + [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
-   + 具有鎖定目標{#experience-targeted}的體驗
+   + 具有鎖定目標的體驗{#experience-targeted}
       + [決策樹配置](/help/creative/experiences/experience-decision-tree.md)
       + [建立使用定位的體驗](/help/creative/experiences/experience-create-targeting.md)
       + [編輯使用鎖定目標的體驗](/help/creative/experiences/experience-edit-targeting.md)
       + [目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)
-      + 建立和編輯體驗{#subtasks}的子任務
+      + 建立和編輯體驗的子任務{#subtasks}
          + 目標節點{#nodes}
             + [新增目標節點至最終層級](/help/creative/experiences/experience-target-node-add-final.md)
             + [在節點之間插入目標節點](/help/creative/experiences/experience-target-node-add-inner.md)
@@ -54,7 +54,7 @@ ht-degree: 0%
             + [指派和取消指派創意套件組合至最終節點](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [自訂創意作品的追蹤URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + 未鎖定目標{#experience-nontargeted}的體驗
+   + 未鎖定目標的體驗{#experience-nontargeted}
       + [建立體驗而不進行目標定位](/help/creative/experiences/experience-create-no-targeting.md)
       + [編輯體驗而不進行目標定位](/help/creative/experiences/experience-edit-no-targeting.md)
       + [非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)

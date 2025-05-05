@@ -26,9 +26,9 @@ ht-degree: 0%
 
 1. 在左側功能表中按一下&#x200B;**[!UICONTROL Campaigns]**，然後移除行銷活動：
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。![
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。![
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

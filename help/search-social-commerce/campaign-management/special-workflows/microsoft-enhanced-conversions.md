@@ -37,7 +37,7 @@ ht-degree: 0%
 
      所有上傳的資料已即時同步至[!DNL Microsoft Advertising]。
 
-   * 如需在[!DNL Microsoft Advertising]內上傳資料的詳細資訊，請參閱[!DNL Microsoft Advertising]說明「2}增強型轉換](https://help.ads.microsoft.com/#apex/ads/en/60178)」中的「設定離線轉換的增強型轉換」一節。[
+   * 如需在[!DNL Microsoft Advertising]內上傳資料的詳細資訊，請參閱[!DNL Microsoft Advertising]說明「2&rbrace;增強型轉換[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/60178)」中的「設定離線轉換的增強型轉換」一節。
 
 >[!MORELIKETHIS]
 >

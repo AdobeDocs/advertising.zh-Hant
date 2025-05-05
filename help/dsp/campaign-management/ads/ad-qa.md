@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以下載XLSX （Excel試算表）格式的促銷活動所有廣告詳細資訊，以供檢閱。 *大量表單*&#x200B;詳細資料包括一個標籤，其中包含每個廣告的設定和相關聯的版位，以及另一個標籤，其中包含促銷活動中用於廣告的每個畫素。
 
-若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)」。[
+若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)」。
 
 >[!NOTE]
 >

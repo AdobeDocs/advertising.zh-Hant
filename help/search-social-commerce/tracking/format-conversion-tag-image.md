@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的[常見問題集。
+>如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[&#128279;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的常見問題集。
 
 * 具有HTTP的網站的不安全標籤：
 

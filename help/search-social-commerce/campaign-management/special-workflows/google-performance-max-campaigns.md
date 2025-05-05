@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 指定第一個資產群組的設定，並上傳資產群組的影像、標誌和選用影片。
 
-      請參閱資產群組設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)的[說明，瞭解需求和規格。
+      請參閱資產群組設定[&#128279;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)的說明，瞭解需求和規格。
 
    1. 視需要新增其他資產群組。
 

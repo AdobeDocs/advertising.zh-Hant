@@ -57,7 +57,7 @@ ht-degree: 0%
 {{$include /help/_includes/end-date.md}}
 
 **[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）節目
-您在廣告網路的搜尋合作夥伴網路上的廣告。 依預設，此選項為*[!UICONTROL Off]*。
+您在廣告網路的搜尋合作夥伴網路上的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
 
 ## [!UICONTROL Budget Options]
 

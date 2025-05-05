@@ -45,14 +45,14 @@ ht-degree: 0%
 | 一般 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 作業完全失敗。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
 | 所有實體 | [!UICONTROL Invalid Fields.] \[無效的欄位和錯誤\] | 指定的資料遺失或無效。 |
 |  | [!UICONTROL Invalid Reference Given] | 該實體在廣告網路上的ID，或上層實體的ID （例如帳戶ID），不會對應至搜尋、社交和Commerce中的實體。 當您在大量表單中編輯ID時，可能會發生這種情況。 |
-|  | [!UICONTROL <Entity> is deleted or expired] | 實體已過期或已刪除，您無法變更其屬性。 當有人手動編輯狀態時，實體可能會被刪除。 |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | （新實體）新實體只能是「作用中」或「已暫停」。 |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | 實體已過期或已刪除，您無法變更其屬性。 當有人手動編輯狀態時，實體可能會被刪除。 |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | （新實體）新實體只能是「作用中」或「已暫停」。 |
 |  | [!UICONTROL Duplicate Entries are present] | 同一實體包含多個列，每一列都有不同的屬性。 將變更合併為一列。 |
 |  | [!UICONTROL Invalid AMO ID given] | 該列的AMO ID不存在。 如果您在大量表單中編輯ID，便可能發生這種情況。 |
 |  | [!UICONTROL Invalid row given] | 列包含的資訊不足，無法判斷實體型別。 編輯該列以包含實體型別的所有必填欄位。 |
 | 帳戶 | [!UICONTROL Provide Valid Account Details] | （多個帳戶的批次工作表）帳戶識別碼未包含在所有列中。 為每列輸入下列任一資料行組合的值： a) &quot;[!UICONTROL AMO ID]&quot;或b) &quot;[!UICONTROL Account Name]&quot;和&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜尋、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯行銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。[ |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads][&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。 |
 | 所有行銷活動元件 | [!UICONTROL Campaign creation failed] | 父級行銷活動未建立，因此未建立此實體。 請確定所有父系實體都包含所有必要欄位。 |
 | 廣告群組 | [!UICONTROL Campaign Row missing] | 指定的父級行銷活動不存在，因此未建立廣告群組。 在新列中建立父行銷活動。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 廣告群組可以包含關鍵字或版位，但不能同時包含兩者。 為關鍵字和版位建立個別的廣告群組。 |
@@ -62,7 +62,7 @@ ht-degree: 0%
 | 所有廣告群組元件 | [!UICONTROL Adgroup creation failed] | 未建立父級廣告群組，因此無法建立此實體。 這可能是由於廣告群組欄位中發生錯誤或父級行銷活動失敗所致。 請確定所有父系實體都包含所有必要欄位。 |
 |  | [!UICONTROL Adgroup Row Missing] | 指定的父廣告群組不存在，因此無法建立實體。 在新列中建立上層廣告群組。 |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | 「[!UICONTROL Tracking Template]」欄位僅適用於使用最終/進階URL的帳戶。 移除值，直到移轉帳戶使用最終/進階URL為止。 |
-| 廣告 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | （文字、展開文字、產品、應用程式安裝和動態搜尋以外的廣告型別）您只能編輯此廣告型別的狀態和URL。 |
+| 廣告 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | （文字、展開文字、產品、應用程式安裝和動態搜尋以外的廣告型別）您只能編輯此廣告型別的狀態和URL。 |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 每個廣告群組最多可包含50個廣告，而此Bulksheet包含超過50個。 減少廣告數量。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 廣告位於已過期或已刪除的父實體中，因此您無法進行編輯。 |
 | 關鍵字 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父級行銷活動或廣告群組已刪除或過期，因此您無法變更實體。 |
@@ -85,7 +85,7 @@ ht-degree: 0%
 |----|----|----|
 | 一般 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 作業完全失敗。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
 | 所有實體 | [!UICONTROL Entity]已張貼至廣告網路 | 實體已發佈至廣告網路，但未同時同步至Search、Social和Commerce，因此實體資料無法立即用於Search、Social和Commerce。 同步程式現在會自動觸發。<br><br>當大量資料同步時，搜尋、社交和Commerce中可能會有數小時或更長時間無法使用資料。 |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 無法建立父實體，因此未建立此子實體。 |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 無法建立父實體，因此未建立此子實體。 |
 
 >[!MORELIKETHIS]
 >

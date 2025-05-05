@@ -22,7 +22,7 @@ ht-degree: 0%
 
    1. 在範本名稱旁邊的&quot;[!UICONTROL Last Prop. Status]&quot;欄中，按一下&#x200B;**[!UICONTROL Cancel]**。
 
-* 如果資料已經傳播，則從[!UICONTROL Bulksheets]檢視](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中[取消張貼工作。
+* 如果資料已經傳播，則從[!UICONTROL Bulksheets]檢視[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消張貼工作。
 
 >[!MORELIKETHIS]
 >

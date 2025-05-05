@@ -45,7 +45,7 @@ ht-degree: 0%
 
 若要使用[!DNL Analytics]作為您的付費媒體報告工具，您的組織需要Experience Cloud登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝與未對應的報表套裝。依報表套裝而定，這可能會變更報告的資料。
 
- [!DNL Analytics]](ids.md)內的[個Adobe AdvertisingID與其他[!DNL eVars]一樣運作，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+ [!DNL Analytics][&#128279;](ids.md)內的個Adobe AdvertisingID與其他[!DNL eVars]一樣運作，具有自訂、持續的有效期。 在Adobe Advertising實施期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 如需可用維度的清單，請參閱&quot;[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)&quot;。
 
@@ -132,7 +132,7 @@ Adobe Advertising可使用[!DNL Analytics]與Experience Cloud之間的原生Expe
 
 ### 建立Adobe Advertising儀表板
 
-若要瞭解如何根據Analysis Workspace中的目標追蹤您的Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。[
+若要瞭解如何根據Analysis Workspace中的目標追蹤您的Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。
 
 ### 使用Adobe AdvertisingID進行網站專案分析
 

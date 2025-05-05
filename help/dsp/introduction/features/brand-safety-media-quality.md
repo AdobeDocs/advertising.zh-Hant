@@ -24,7 +24,7 @@ Advertising DSP提供一套品牌保護功能，以確保您的每個行銷活�
 
 ### 支援[!DNL Ads.txt]的詳細目錄驗證
 
-表示 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)的[[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月啟動的方案，以便在公開市場上適當地呈現詳細目錄，藉此打擊非法的流量來源和網域詐騙。 參與的發行者與發行者公開宣告獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是在網域的最上層維護`ads.txt`頁面（例如`example.com/ads.txt`）。
+表示 [!DNL Authorized Digital Sellers][&#128279;](https://iabtechlab.com/ads-txt)的[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月啟動的方案，以便在公開市場上適當地呈現詳細目錄，藉此打擊非法的流量來源和網域詐騙。 參與的發行者與發行者公開宣告獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是在網域的最上層維護`ads.txt`頁面（例如`example.com/ads.txt`）。
 
 DSP可透過讀取每個發行者的`ads.txt`檔案並讓您選擇只向已驗證的[!DNL ads.txt]個賣家購買來支援[!DNL ads.txt]。 例如，藉由比對我們看到存取`nytimes.com`到《紐約時報》的`ads.txt`檔案的賣家，我們可以識別哪些是合法賣家，哪些是非法賣家；如果位置設定為僅向經過驗證的賣家購買，我們會封鎖罪犯。<!-- can we actually mention NY Times? -->
 
@@ -66,7 +66,7 @@ DSP已建立強大的內部工具與系統，以便與業界領先廠商（例�
 
    * **[!UICONTROL T3]** — 使用者產生的內容和細分內容
 
-* **網站分類：**&#x200B;為確保內容目標定位和封鎖容易進行，我們會根據屬性的內容，以DSP定義的網站類別標籤每個屬性。 您可以根據版位目標，針對每個版位](/help/dsp/campaign-management/placements/placement-settings.md) [目標或排除這些網站類別。
+* **網站分類：**&#x200B;為確保內容目標定位和封鎖容易進行，我們會根據屬性的內容，以DSP定義的網站類別標籤每個屬性。 您可以根據版位目標，針對每個版位[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md) 目標或排除這些網站類別。
 
 ### 網站封鎖的完整支援
 
@@ -122,7 +122,7 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 [位置層級競標前注意目標定位](/help/dsp/campaign-management/placements/placement-settings.md)可讓廣告商將特定注意層級鎖定為目標，以改善客戶參與度。
 
-此外，廣告商可以為任何促銷活動啟用位置層級[!UICONTROL Attention Score]量度](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) （各曝光的[!DNL Attention Units]加權平均數）的[追蹤，以瞭解哪些位置策略產生最佳的業務成果。
+此外，廣告商可以為任何促銷活動啟用位置層級[!UICONTROL Attention Score]量度[&#128279;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) （各曝光的[!DNL Attention Units]加權平均數）的追蹤，以瞭解哪些位置策略產生最佳的業務成果。
 
 每項獨立功能需額外付費。
 
@@ -130,7 +130,7 @@ DSP會維護全球封鎖的網站清單，列出被認為不安全的網站，�
 
 DSP主題目標定位可讓您利用我們領先業界的情境式合作夥伴[!DNL Comscore]，鎖定或封鎖關鍵字清單。 主題鎖定目標可協助您確保廣告始終在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保產生更大結果的環境中花費。
 
-主題鎖定目標需要您直接與合作夥伴平台建立自訂主題區段。 建立區段後，您可以在[!UICONTROL Audience Targeting]區段中為每個位置](/help/dsp/campaign-management/placements/placement-settings.md)鎖定或排除區段ID [。 此功能可能需支付額外費用。
+主題鎖定目標需要您直接與合作夥伴平台建立自訂主題區段。 建立區段後，您可以在[!UICONTROL Audience Targeting]區段中為每個位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md)鎖定或排除區段ID 。 此功能可能需支付額外費用。
 
 若要建立[!DNL Comscore]帳戶及建立自訂主題區段，您可以在[https://agents.comscore.com](https://agents.comscore.com)要求[!DNL Activation Segment Manager]的登入。 如需設定自訂區段的完整指示，請參閱[[!DNL Comscore] 說明中心](https://comscoreactivation.zendesk.com/hc/)。 建立自訂區段時，[!DNL Segment Manager]中會顯示自訂區段的費用。
 

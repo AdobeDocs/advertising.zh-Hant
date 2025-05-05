@@ -41,7 +41,7 @@ ht-degree: 0%
 * [!DNL Analytics]報告套裝ID，用於付費媒體活動的報告，以及饋送網站活動以最佳化及Adobe Advertising中的報告
 * 公司的Experience Cloud組織ID （組織ID）。
 
-您可以在Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要標籤上找到這兩個ID。
+您可以在Adobe Experience Cloud Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的摘要標籤上找到這兩個ID。
 
 ![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
 

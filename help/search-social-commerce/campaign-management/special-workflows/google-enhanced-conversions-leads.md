@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 設定並實作標籤以追蹤轉換動作。
 
-   如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的[建立增強型轉換的標籤。
+   如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤[&#128279;](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的建立增強型轉換的標籤。
 
 1. 為[搜尋、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google廣告](https://support.google.com/google-ads/answer/12216226)中的潛在客戶建立增強型轉換的轉換動作。
 

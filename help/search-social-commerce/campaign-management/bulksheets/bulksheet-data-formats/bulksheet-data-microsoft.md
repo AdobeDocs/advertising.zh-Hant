@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Start Date] | 可以在廣告商的時區中，以下列格式之一對廣告群組提出競標的第一個日期： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 若為新廣告群組，預設值為目前日期。 |
 | [!UICONTROL Ad Group End Date] | 可能為廣告群組下標的最後日期，在廣告商的時區及以下格式之一中： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 新廣告群組的預設值為[blank] （即無結束日期）。 |
 | [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>若為Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。<br><br>對於協力廠商重新導向與追蹤，請輸入值。<br><br>如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
-| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Microsoft Advertising]編輯器。 |
+| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Microsoft Advertising]編輯器。 |
 | 搜尋網路狀態 | 是否要將廣告群組的廣告放置在「搜尋網路」的各種元素上：<ul><li><i>全部：</i>若要在所有Bing搜尋網路和聯合發行搜尋合作夥伴上刊登廣告。</li><li><i>OwnedAndOperatedOnly：</i>僅在Bing和Yahoo上刊登廣告！ 網站。</li><li><i>SyndicatedSearchOnly：</i>僅在Bing和Yahoo上刊登廣告！ 財團搜尋合作夥伴。</li><li><i>關閉：</i>只在「內容網路」（非「搜尋網路」）上刊登廣告。</li></ul> 若為新廣告群組，預設值為「開啟」。 |
 | [!UICONTROL Content Network Status] | 已棄用 |
 | [!UICONTROL Languages] | 廣告群組中廣告的目標語言： [!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]或[!UICONTROL Swedish]。 新行銷活動的預設值為[!UICONTROL English]。<br><br>此設定會決定您的廣告可以顯示的國家和地區。 請務必選擇與行銷活動位置目標相容的語言。 |
@@ -466,5 +466,5 @@ ht-degree: 0%
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

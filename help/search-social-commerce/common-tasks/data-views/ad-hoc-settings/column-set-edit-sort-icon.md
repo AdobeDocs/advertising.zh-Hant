@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以暫時變更檢視中的欄，而不需變更檢視中任何欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序順序[。
+>您也可以暫時變更檢視中的欄，而不需變更檢視中任何欄標題[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序順序。
 >
 >您可以編輯預設檢視或[建立自訂檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，以儲存對特定廣告商所包含欄的變更。
 

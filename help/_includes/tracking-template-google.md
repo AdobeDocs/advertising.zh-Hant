@@ -13,7 +13,7 @@ ht-degree: 0%
 
 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動為其自己的重新導向和追蹤代碼加上前置詞。
 
-* 如需支援的引數以內嵌最終URL，請參閱支援的 [!DNL ValueTrack] 格式](https://support.google.com/google-ads/answer/6305348)的[[!DNL Google Ads] 檔案。 （前往「可用[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數。）
+* 如需支援的引數以內嵌最終URL，請參閱支援的 [!DNL ValueTrack] 格式[&#128279;](https://support.google.com/google-ads/answer/6305348)的[!DNL Google Ads] 檔案。 （前往「可用[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數。）
 
 * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數（以&amp;分隔），例如{lpurl}？matchtype={matchtype}&amp;device={device}。
 

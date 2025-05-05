@@ -39,8 +39,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [於 [!DNL Baidu]](formats-click-tracking-baidu.md)贊助廣告的點選追蹤格式
->*  [!DNL Google Ads]](formats-click-tracking-google.md)的[點選追蹤格式
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)的[點選追蹤格式
+>*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)的點選追蹤格式
+>*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的點選追蹤格式
 >* [於 [!DNL Naver]](formats-click-tracking-naver.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)贊助廣告的點選追蹤格式

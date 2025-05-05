@@ -74,7 +74,7 @@ ht-degree: 0%
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)使用的[Adobe Advertising ID。
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id-implement)使用的Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帳戶：
 

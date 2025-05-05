@@ -133,4 +133,4 @@ ht-degree: 0%
 >* [編輯封裝](package-edit.md)
 >* [將位置附加至封裝](package-attach-placement.md)
 >* [檢視封裝的變更記錄](package-change-log.md)
->* 有關Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)的[常見問題集
+>* 有關Campaign Management[&#128279;](/help/dsp/campaign-management/faq-campaign-management.md)的常見問題集

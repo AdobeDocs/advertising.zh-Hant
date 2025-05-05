@@ -16,7 +16,7 @@ ht-degree: 0%
 
 搜尋、Social和Commerce使用帳戶層級的登陸頁面尾碼和追蹤範本來追蹤僅限來電的廣告，但您可以選擇在[!DNL Google Ads]管理員內覆寫廣告層級的帳戶層級追蹤。
 
-請參閱[!DNL Google Ads]說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[廣告限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的廣告限制。
 
 <!-- ## Call-only Ad -->
 

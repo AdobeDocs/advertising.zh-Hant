@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以為使用搜尋和顯示網路的行銷活動建立關鍵字。
 
-請參閱Google廣告說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658)的[關鍵字限制。
+請參閱Google廣告說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658)的關鍵字限制。
 
 ## [!UICONTROL Keyword Details]
 

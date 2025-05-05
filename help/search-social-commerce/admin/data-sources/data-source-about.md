@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Advertising DSP使用者可將轉換量度作為自訂目標和報表使用。
 
-所有資料傳輸的API使用量皆已評估至適用[!DNL Google Analytics]帳戶中的專案。 您可以在[ [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas)中檢視此專案的配額。 請參閱[!DNL Google Analytics]檔案以取得報告API要求](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)的[配額和呼叫限制的相關資訊。
+所有資料傳輸的API使用量皆已評估至適用[!DNL Google Analytics]帳戶中的專案。 您可以在[ [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas)中檢視此專案的配額。 請參閱[!DNL Google Analytics]檔案以取得報告API要求[&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)的配額和呼叫限制的相關資訊。
 
 下列步驟概述從[!DNL Google Analytics]同步轉換資料的程式。
 

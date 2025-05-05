@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 關於管理廣告商的轉換量度
 
-Adobe Advertising廣告商追蹤的[轉換](/help/search-social-commerce/glossary.md#c-d)量度(包括從Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)同步的[轉換和網站參與量度)會用於搜尋、社交和Commerce以及Advertising DSP。
+Adobe Advertising廣告商追蹤的[轉換](/help/search-social-commerce/glossary.md#c-d)量度(包括從Adobe Analytics[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)同步的轉換和網站參與量度)會用於搜尋、社交和Commerce以及Advertising DSP。
 
 * 在「搜尋」、「社交」和「Commerce」中，您可以使用轉換量度來建立目標，這些目標是用來最佳化產品組合。 此外，轉換量度的資料可顯示在行銷活動和產品組合管理檢視以及報表的欄中。
 

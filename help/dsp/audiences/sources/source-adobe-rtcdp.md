@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
 
-   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID。
+   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的AMO ID和EF ID。
 
    1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 

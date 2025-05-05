@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. （可選）篩選檢視以包含具有特定名稱、要評估的資料範圍或其他條件的列。
 
-   您可以從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用[。
+   您可以從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用。
 
 1. 在範本名稱旁邊，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 

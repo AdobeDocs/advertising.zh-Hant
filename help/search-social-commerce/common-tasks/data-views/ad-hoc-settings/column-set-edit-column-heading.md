@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您也可以暫時變更檢視中的欄，並從工具列右側的[!UICONTROL Columns]圖示](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)變更排序順序[。
+>* 您也可以暫時變更檢視中的欄，並從工具列右側的[!UICONTROL Columns]圖示[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)變更排序順序。
 >* 您可以編輯預設檢視或[建立自訂檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，以變更特定廣告商所包含的欄。
 
 * （若要顯示所有廣告商的特定欄）在任何欄標題的右側，按一下![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，反白顯示&#x200B;**[!UICONTROL Select Columns]**，選取要包含的每個欄旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Apply]**。

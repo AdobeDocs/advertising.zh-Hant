@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 步驟1：在Audience Manager中設定資料Source {#set-up-data-source}
 
-在Audience Manager中，為DSP曝光數建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)，然後按一下資料。 在每個事件標籤](#implement-dsp-pixels)中包含資料來源識別碼[，以便所有追蹤的事件都歸因於資料來源。
+在Audience Manager中，為DSP曝光數建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)，然後按一下資料。 在每個事件標籤[&#128279;](#implement-dsp-pixels)中包含資料來源識別碼，以便所有追蹤的事件都歸因於資料來源。
 
 >[!NOTE]
 > 您可以在單一資料來源中，針對在多個DSP上執行的廣告行銷活動，收集其所有曝光次數和點按資料。

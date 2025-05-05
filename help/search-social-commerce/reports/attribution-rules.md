@@ -24,8 +24,8 @@ ht-degree: 0%
 >
 >* 歸因規則適用於任何頻道中付費廣告的點按次數，以及顯示廣告和社交廣告的曝光數。 它們不適用於付費搜尋廣告的曝光數，無法在事件層級進行追蹤。
 >* Adobe Advertising一律會在轉換前儲存每位網路瀏覽者的下列事件： a)第一次付費點按； b)每個管道最多10次點按（搜尋、社交或顯示），包括第一次點按；以及c)最多10次顯示曝光數。<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* 在Advertising DSP和Advertising Creative中，跨裝置定義只會考慮所選歸因規則中的事件路徑。<!-- cross-device attribution via LiveRamp only -->
-* 在報表和管理檢視中，為值顯示的小數位數會依貨幣而定，但Adobe Advertising會儲存更精確的值。
+>* 在Advertising DSP和Advertising Creative中，跨裝置定義只會考慮所選歸因規則中的事件路徑。<!-- cross-device attribution via LiveRamp only -->
+>* 在報表和管理檢視中，為值顯示的小數位數會依貨幣而定，但Adobe Advertising會儲存更精確的值。
 
 ## 上次事件（預設）
 

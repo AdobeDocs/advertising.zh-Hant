@@ -18,7 +18,7 @@ ht-degree: 0%
 
 動態再行銷對象具有對象型別「[!UICONTROL Dynamic Remarketing] \&lt;訪客型別\>」（例如「動態再行銷過往買家」）。
 
-如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷](https://help.ads.microsoft.com/#apex/ads/en/56910)的[[!DNL Microsoft Advertising] 檔案。
+如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/56910)的[!DNL Microsoft Advertising] 檔案。
 
 ## 建立動態的再行銷對象
 

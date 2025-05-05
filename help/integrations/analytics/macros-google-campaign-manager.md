@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* 如果登陸頁面URL包含雜湊符號(#)，這是不常見的情況，請將`amo`引數放在雜湊符號之前。
+>&#x200B;>* 如果登陸頁面URL包含雜湊符號(#)，這是不常見的情況，請將`amo`引數放在雜湊符號之前。
 >* 如果未在`amo`引數後面包含其他引數，則在其後面新增引數（例如&amp;a=b）。 範例： `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 設定廣告商層級登陸頁面URL尾碼

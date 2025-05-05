@@ -174,7 +174,7 @@ ht-degree: 0%
 
 **JavaScriptCode：**&#x200B;指向協力廠商廣告伺服器上創意的JavaScript標籤(以及不支援JavaScript的瀏覽器適用的替代標籤)。 指令碼可能會因廣告伺服器而異。 當您編輯多個創意時，相同的值會套用至每個選取的創意。
 
-所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將影像貼到標籤中您想要的位置。![
+所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將影像貼到標籤中您想要的位置。
 
 當您將此創意內容納入您實作為DSP廣告的體驗時，DSP會使用此標籤中的資訊來顯示廣告並追蹤其曝光次數和點按次數。 然後DSP會將標籤推送至廣告交換。 當廣告顯示並按一下時，廣告伺服器、DSP和[!DNL Creative]會追蹤事件。
 

@@ -317,7 +317,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*： （預設）根據使用者的Cookie、行動廣告ID或連線電視(CTV) ID鎖定使用者。 系統會根據瀏覽器、應用程式內或CTV詳細目錄來選取ID。
 
-* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
+* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
 
    * *[!UICONTROL ID5]*：目標[!DNL ID5] ID是依概率從電子郵件地址和其他訊號建立的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免費提供。 **注意：**&#x200B;來自[!DNL Eyeota]的第三方區段可能包含ID5 ID。
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

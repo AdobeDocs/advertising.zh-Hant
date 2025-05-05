@@ -21,7 +21,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * 提供與廣告相關的更個人化的登陸頁面體驗（例如，比對登陸頁面的影像/影片創意、復本、關鍵字或其他廣告訊號）。
 
-您也可以結合Advertising](/help/integrations/analytics/overview.md)的原生[[!DNL Analytics] 與整合至Adobe Analytics的 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合報表維度的[[!DNL Analytics] ，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
+您也可以結合Advertising[&#128279;](/help/integrations/analytics/overview.md)的原生[[!DNL Analytics] 與整合至Adobe Analytics的 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合報表維度的[!DNL Analytics] ，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
 
 請參閱下列各節以瞭解先決條件、在[!DNL Target]中設定A/B測試的指示(來自Search、Social和Commerce中的廣告點進流量)，以及如何在[!DNL Analytics]中測量和視覺化測試的秘訣。
 
@@ -36,7 +36,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * [!DNL Analytics]
 
-* 用於Advertising](/help/integrations/analytics/overview.md)整合的[[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
+* 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合
 
@@ -69,7 +69,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
       您可以[將相關的識別碼資料行新增至實體檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)來尋找識別碼。
 
-      在[!UICONTROL Accounts]檢視")的[!UICONTROL Accounts]檢視](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]資料行中的![[!UICONTROL Network Account ID]資料行
+      在[!UICONTROL Accounts]檢視")的[!UICONTROL Accounts]檢視&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]資料行中的!&lbrack;[!UICONTROL Network Account ID]資料行
 
       如果您需要協助，請與您的Adobe客戶團隊合作。
 

@@ -16,11 +16,11 @@ ht-degree: 0%
 以下連結會帶您前往一些要求較嚴格的發佈者的廣告規格。
 
 * [!DNL Channel 10] （[!DNL Viacom]；僅限AU）： https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
-* 
+* &#x200B;
   [!DNL CBS Interactive Advanced Media]: https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media
-* 
+* &#x200B;
   [!DNL Hulu]: https://advertising.hulu.com/ad-products/video-commercial
-* 
+* &#x200B;
   [!DNL NBCUniversal]: https://together.nbcuni.com/nbcu-creative-guidelines
 
 >[!MORELIKETHIS]

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts]和[!UICONTROL Associations]檢視
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]資料庫會列出您所有的帳戶層級圖說文字，您可以在此處建立和管理您的共用圖說文字。 請參閱廣告網路說明，瞭解每個 [!DNL Google Ads] 帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[最大廣告擴充功能數目。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]資料庫會列出您所有的帳戶層級圖說文字，您可以在此處建立和管理您的共用圖說文字。 請參閱廣告網路說明，瞭解每個 [!DNL Google Ads] 帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的最大廣告擴充功能數目。
 
 資料庫中的圖說文字不會與廣告搭配使用，直到您將它們指派給行銷活動或廣告群組為止。 從「[!UICONTROL Extensions] > [!UICONTROL Associations]」檢視中，您可以將任何圖說作為可能的副檔名指派給促銷活動層級或廣告群組層級的所有廣告。 您必須為每個行銷活動或廣告群組至少指派兩個圖說文字，廣告才有資格顯示圖說文字。 廣告群組層級的編號說明會覆寫行銷活動層級的編號說明。
 

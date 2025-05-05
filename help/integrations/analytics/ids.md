@@ -268,7 +268,7 @@ where:
 
 在Analytics報表中，您可以搜尋[!UICONTROL AMO ID]維度並使用[!UICONTROL AMO ID Instances]量度來尋找AMO ID資料。 [!UICONTROL AMO ID]維度內含所有擷取的AMO ID值，而[!UICONTROL AMO ID Instances]量度則表示網站擷取AMO ID值的頻率。 例如，如果同一個搜尋廣告被點按四次，但Analytics追蹤了七個網站專案，則[!UICONTROL AMO ID Instances]會是七(7)，[!UICONTROL Clicks]會是四(4)。
 
-對於[!DNL Analytics]內的任何報告或稽核，最佳實務是使用AMO ID及其對應的執行個體。 如需詳細資訊，請參閱「在[!DNL Analytics]和Adobe Advertising之間的預期資料差異」中的 [!DNL Analytics for Advertising]](data-variances.md#data-validation)的[點進資料驗證。
+對於[!DNL Analytics]內的任何報告或稽核，最佳實務是使用AMO ID及其對應的執行個體。 如需詳細資訊，請參閱「在[!DNL Analytics]和Adobe Advertising之間的預期資料差異」中的 [!DNL Analytics for Advertising][&#128279;](data-variances.md#data-validation)的點進資料驗證。
 
 ## 關於Analytics分類
 

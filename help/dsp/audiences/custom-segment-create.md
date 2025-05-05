@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * 針對Adobe Analytics中的測量，您必須：
 
-   1. 完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，並確定已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+   1. 完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確定已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
-   1. 在初始化最後一個事件服務之前的任何位置，將下列引數新增至您網頁(在 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)所需的[JavaScript程式碼之前或之內)。
+   1. 在初始化最後一個事件服務之前的任何位置，將下列引數新增至您網頁(在 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript程式碼之前或之內)。
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
          1. 複製標示為&quot;[!UICONTROL Desktop or mobile ads]&quot;的曝光追蹤標籤。
 
-         1. 將標籤新增至每個相關廣告的[!UICONTROL Pixel]標籤或每個相關位置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[[!UICONTROL Tracking]設定的[!UICONTROL Event Pixels]區段。
+         1. 將標籤新增至每個相關廣告的[!UICONTROL Pixel]標籤或每個相關位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]設定的[!UICONTROL Event Pixels]區段。
 
 實施追蹤標籤後，您即可在任何位置的對象目標或排除專案中使用區段。
 

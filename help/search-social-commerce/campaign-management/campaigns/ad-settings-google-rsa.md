@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >每個廣告群組最多可包含三個啟用的回應式搜尋廣告。
 
-請參閱[!DNL Google Ads]說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[廣告限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的廣告限制。
 
 ## [!UICONTROL Responsive Search Ad Details]
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    1. 將包含雜湊電子郵件ID的欄對應至訪客ID型別的屬性。
 
-   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)的[[!DNL Tealium] 檔案。
+   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性[&#128279;](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)的[!DNL Tealium] 檔案。
 
 1. 廣告商必須提供區段對應資料給Adobe帳戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 

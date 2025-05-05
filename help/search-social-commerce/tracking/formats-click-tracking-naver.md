@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
-* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
+>* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 
 >[!MORELIKETHIS]
 >

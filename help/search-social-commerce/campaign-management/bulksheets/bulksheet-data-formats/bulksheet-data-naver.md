@@ -59,6 +59,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)
 >* [實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
