@@ -3,9 +3,9 @@ title: 使用Bulksheets檢閱和編輯Campaign元件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以在XLSX （[!DNL Microsoft Excel]試算表）格式的單一行銷活動中下載套件、版位和廣告的設定，以檢閱和編輯設定。 根據預設，下載的檔案&#x200B;*大量表單*&#x200B;包含封裝設定、封裝航班資訊、位置設定和位置廣告排程的個別標籤。 您可以選擇排除某些行銷活動元件型別的設定。
 
-若要一次更新多個設定，請上傳包含變更的有效Bulksheet檔案。 若要建立大量表單，請使用現有設定來編輯已下載的大量表單。 可編輯欄位包含大部分通常可編輯的設定。
+若要一次更新多個設定，請上傳包含變更的有效Bulksheet檔案。 若要建立大量表單，請使用現有設定來編輯已下載的大量表單。 可編輯欄位包含大部分通常可編輯的設定。 未使用的設定欄位包含空白值。
 
 >[!NOTE]
 >
