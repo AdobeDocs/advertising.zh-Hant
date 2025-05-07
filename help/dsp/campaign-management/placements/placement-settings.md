@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ ht-degree: 0%
 >
 >如果您已訂閱[!UICONTROL On Demand]詳細目錄，但找不到要鎖定的發行者或交易，請檢查交易的狀態。 如需有關狀態的詳細資訊，請參閱[關於 [!DNL On Demand] 進階詳細目錄](/help/dsp/inventory/on-demand-inventory-about.md)。
 
-**[!UICONTROL Exclude out-stream]：** （僅限視訊位置）排除輸出流量。
+**[!UICONTROL Video targeting]：**&#x200B;依詳細目錄屬性的目標（但不排除）詳細目錄。 當您針對相同視訊屬性鎖定多個值時，可以鎖定任何選取的屬性（例如\[播放器大小=大或播放器大小= HD\]）。 當您鎖定多個屬性時，每個指定的屬性都必須存在（例如，\[Duration = 30-60分鐘]和\[Player size = large OR Player size = HD\]）。
 
-串流廣告通常以快顯視窗或填入內容（在原生體驗中）的形式出現在內容上，而不是在視訊播放器中一般視訊廣告。
+* **[!UICONTROL Player size]：**&#x200B;依播放器大小區分的目標（但不排除）詳細目錄。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有大小。 若要縮小目標範圍，請選取特定目標大小和/或&#x200B;*未知*。
+
+* **[!UICONTROL Playback mode]：**&#x200B;目標（但不排除）清查（依播放起始方式）。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有模式。 若要縮小目標範圍，請選取特定的目標模式和/或&#x200B;*未知*。
+
+* **[!UICONTROL Skippability]：**&#x200B;目標（但不排除）清查（根據它是否可跳過）。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有選項。 若要縮小目標範圍，請選取特定目標和/或&#x200B;*未知*。
+
+**[!UICONTROL Position targeting]：**&#x200B;依廣告位置的目標（但不排除）詳細目錄。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有位置。 若要縮小目標範圍，請選取特定目標位置和/或&#x200B;*未知*。
 
 ## [!UICONTROL Site and App Targeting]
 
@@ -317,7 +323,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*： （預設）根據使用者的Cookie、行動廣告ID或連線電視(CTV) ID鎖定使用者。 系統會根據瀏覽器、應用程式內或CTV詳細目錄來選取ID。
 
-* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
+* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
 
    * *[!UICONTROL ID5]*：目標[!DNL ID5] ID是依概率從電子郵件地址和其他訊號建立的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免費提供。 **注意：**&#x200B;來自[!DNL Eyeota]的第三方區段可能包含ID5 ID。
 
@@ -342,7 +348,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

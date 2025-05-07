@@ -3,9 +3,9 @@ title: 使用Bulksheets檢閱和編輯Campaign元件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
+source-git-commit: e4df27ec0e4864d5604920f3e8ebe427152187d9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 0%
      檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      若要編輯任何設定，請直接編輯檔案，然後上傳變更。 所有可編輯的欄都會以藍色反白。 若要針對欄位使用正確的格式，請從相關的封裝設定或位置設定中選取並複製值。 對於某些目標設定，例如時段、自訂目標和轉換量度，設定中提供了複製選項。
+
+     >[!NOTE]
+     >
+     >對於某些目標設定，除非您將選取範圍縮小至特定目標，否則預設會鎖定所有選項。 當您尚未縮小目標範圍時，大量表單欄位會空白，表示所有選項都已設為目標。
 
 ## 上傳含有行銷活動套件、位置和廣告設定的大量表單{#upload-bulksheet-campaign-components}
 
@@ -116,7 +120,6 @@ ht-degree: 0%
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
