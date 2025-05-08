@@ -3,7 +3,7 @@ title: 登入
 description: 瞭解登入方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的公司必須在Adobe Experience Cloud中布建，而且您必須將您的Experience Cloud帳戶[連結至搜尋、社交和Commerce帳戶](https://experiencecloud.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
+>您的公司必須在Adobe Experience Cloud中布建，而且您必須將您的Experience Cloud帳戶[連結至搜尋、社交和Commerce帳戶](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant#signin)。
+1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
 
 1. 在頂端功能表中，選取![方案選擇器](/help/search-social-commerce/assets/menu-icon.png "方案選擇器")。
 
