@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您的公司必須在Adobe Experience Cloud中布建，而且您必須將您的Experience Cloud帳戶[連結至搜尋、社交和Commerce帳戶](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+>您的公司必須在Adobe Experience Cloud中布建，而且您必須將您的Experience Cloud帳戶[連結至搜尋、社交和Commerce帳戶](https://experiencecloud.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
-1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin)。
+1. [登入Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hant#signin)。
 
 1. 在頂端功能表中，選取![方案選擇器](/help/search-social-commerce/assets/menu-icon.png "方案選擇器")。
 
