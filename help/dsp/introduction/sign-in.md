@@ -3,7 +3,7 @@ title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 7cfc6f263b16f34211ace1c89dc0fa672c65235d
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -36,21 +36,21 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 1. 輸入您的認證：
 
-   * 如果您已使用[!DNL Adobe]帳戶，則請使用現有認證登入。
+   * 如果您已經使用[!DNL Adobe]帳戶，請使用現有的認證登入。
 
    * 如果您沒有[!DNL Adobe]帳戶，請尋找電子郵件邀請您建立[!DNL Adobe]帳戶。 您將收到每個DSP帳戶的一個邀請。 請依照電子郵件中的連結來設定您的認證。 如果您有多個DSP帳戶，請依照指示連結它們。
 
 1. 選擇您的組織：
 
-   * 如果出現提示，請選取&#x200B;**個人帳戶」或&#x200B;**&#x200B;公司或學校帳戶**。
+   * 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。
 
    * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ### 疑難排解
 
-如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/tw/manage-account/kb/account-password-sign-help.linkfree.html)。
+如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)。
 
 #### 啟用新的[!DNL Adobe] IMS登入是否有任何先決條件？
 

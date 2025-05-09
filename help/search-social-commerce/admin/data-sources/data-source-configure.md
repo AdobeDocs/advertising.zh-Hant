@@ -4,7 +4,7 @@ description: 瞭解如何從 [!DNL Google Analytics] 檢視設定資料來源。
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -35,11 +35,11 @@ ht-degree: 0%
 
       1. 輸入[!DNL Google Analytics]帳戶的數值ID。
 
-      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics][&#128279;](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的指示。
+      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的[指示。
 
          >[!TIP]
          >
-         >若要確保Adobe Advertising內只有特定的[!DNL Google Analytics]屬性和檢視可用，請使用只能存取這些屬性和檢視的電子郵件地址登入。
+         >若要確保Adobe Advertising中只有特定的[!DNL Google Analytics]屬性和檢視可供使用，請使用只能存取這些屬性和檢視的電子郵件地址登入。
 
          >[!NOTE]
          >
@@ -57,7 +57,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關 [!DNL Google Analytics][&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)之API要求的配額和呼叫限制的詳細資訊。
+      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)之API要求的配額和呼叫限制的[詳細資訊。
 
    1. 在[!UICONTROL Metric Tag]區段中，輸入要附加至資料來源之每個量度的標籤名稱。
 

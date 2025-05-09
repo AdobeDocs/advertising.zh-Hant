@@ -4,7 +4,7 @@ description: 瞭解如何支援擷取消費者選擇退出銷售的要求。
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -45,6 +45,7 @@ ht-degree: 0%
 >使用者會無限期留在CCPA選擇退出銷售區段中。
 
 1. 在[https://advertising.adobe.com/](https://advertising.adobe.com/)登入Advertising DSP中的廣告商帳戶。
+
 1. [建立CCPA選擇退出銷售區段，並實作區段畫素以擷取選擇退出請求](/help/dsp/audiences/ccpa-opt-out-segment-create.md)。
 
 ### 方法2：使用Adobe Experience Platform Privacy Service API通訊CCPA選擇退出銷售請求
@@ -67,7 +68,7 @@ ht-degree: 0%
    >
    >請聯絡貴公司的Adobe Advertising代表，確認貴組織的所有Adobe Advertising帳戶（包括[!DNL DSP]帳戶或廣告商、[!DNL Search, Social, & Commerce]帳戶及[!DNL Creative]或[!DNL DCO]帳戶）都與您的Experience Cloud組織ID連結。
 
-1. 使用Adobe Experience Platform Privacy Service API代表消費者[提交選擇退出銷售請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=zh-Hant)給Adobe Advertising，並檢查現有請求的狀態。
+1. 使用Adobe Experience Platform Privacy Service API代表消費者[提交選擇退出銷售請求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)給Adobe Advertising，並檢查現有請求的狀態。
 
    如需選擇退出銷售的請求範例，請參閱下文附錄。
 
@@ -75,7 +76,7 @@ ht-degree: 0%
    >
    >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 但是，您可以向多個Adobe Advertising子解決方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）提出一個API請求，每個子解決方案使用一個帳戶。
 
-您必須執行上述所有步驟，才能獲得Adobe Advertising的支援。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)。
+您必須執行上述所有步驟，才能獲得Adobe Advertising的支援。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
 
 ## 擷取提交選擇退出銷售請求的消費者報表
 
@@ -86,6 +87,7 @@ Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的
 ### 方法1：在Advertising DSP中擷取消費者選擇退出銷售報表
 
 1. 在[https://advertising.adobe.com/](https://advertising.adobe.com/)登入Advertising DSP中的廣告商帳戶。
+
 1. [擷取報告](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)。
 
 ### 方法2：使用Advertising DSP [!DNL Trafficking API]擷取消費者選擇退出銷售報告
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-其中，根據[Privacy Service API規格](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix)：
+其中，根據[Privacy Service API規格](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)：
 
 * `"namespace": "AdCloud"`表示`AdCloud` Cookie空間，而對應的值是從`AdobePrivacy.js`擷取之客戶的Cookie ID
 * `"include": ["adCloud"]`指出此要求適用於產品Adobe Advertising

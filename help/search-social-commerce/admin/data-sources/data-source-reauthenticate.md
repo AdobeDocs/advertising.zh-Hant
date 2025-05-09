@@ -4,7 +4,7 @@ description: 瞭解如何在變更相關密碼或憑證過期時，重新驗證 
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Connect to Google Analytics]區段中，執行下列動作。
 
-      1. （如有必要）輸入新的電子郵件地址，以使用此資料來源的資料進行存取。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics][&#128279;](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的指示。
+      1. （如有必要）輸入新的電子郵件地址，以使用此資料來源的資料進行存取。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的[指示。
 
          >[!TIP]
          >
-         >為確保搜尋、社交和Commerce中只有特定的[!DNL Google Analytics]屬性和檢視可用，請使用只能存取這些屬性和檢視的電子郵件地址登入。
+         >若要確定搜尋、社交和Commerce中只有特定的[!DNL Google Analytics]屬性和檢視可用，請使用只能存取這些屬性和檢視的電子郵件地址登入。
 
    1. 選取核取方塊以授權搜尋、社交和Commerce存取帳戶的量度。
 

@@ -3,7 +3,7 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * ![警示通知](/help/search-social-commerce/assets/notifications-panel.png "警示通知")列出您搜尋、社交和Commerce通知的面板。
 
-  當您[透過Adobe Experience Cloud](log-in.md)登入時，此面板會顯示您來自Experience Cloud的通知。
+  當您[透過Adobe Experience Cloud](sign-in.md)登入時，此面板會顯示您來自Experience Cloud的通知。
 
 * ![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")說明功能表，包含檔案和其他資訊的連結。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 * ![使用者設定檔](/help/search-social-commerce/assets/user-profile.png "使用者設定檔")連至您的設定檔的連結，您可以從中登出。
 
-  當您[透過Adobe Experience Cloud](log-in.md)登入時，您也可以編輯您的Experience Cloud設定檔，包括Experience Cloud密碼和通知設定。
+  當您[透過Adobe Experience Cloud](sign-in.md)登入時，您也可以編輯您的Experience Cloud設定檔，包括Experience Cloud密碼和通知設定。
 
 >[!MORELIKETHIS]
 >
->* [登入](log-in.md)
->* [登出](log-out.md)
+>* [登入](sign-in.md)
+>* [登出](sign-out.md)
