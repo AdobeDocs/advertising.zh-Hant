@@ -31,7 +31,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 * [!DNL Target]
 
-* 用於Advertising](/help/integrations/analytics/overview.md)整合的[[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
+* 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合
 
@@ -77,7 +77,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
    1. 確認區段資料可供使用：
 
-      1. [搜尋[索引鍵值配對](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)，以決定區段使用者在哪個層級分組。
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)搜尋[索引鍵值配對](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的訊號，以決定區段使用者在哪個層級分組。
 
          使用具有對應至您新增至Audience Manager曝光事件畫素之巨集值的[支援索引鍵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)。
 
