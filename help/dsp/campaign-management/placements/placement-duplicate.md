@@ -3,9 +3,9 @@ title: 復製版位
 description: 瞭解如何複製一或多個刊登版位。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 暫停新位置，直到您準備好要啟動它們為止。
 
-* 請考量下列事項，並視需要編輯新的位置設定：
+* 考量下列事項，並視需要編輯新位置：
 
    * 帳戶是否有足夠的資金來因應新的職位安排預算？
 

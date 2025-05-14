@@ -3,9 +3,9 @@ title: 複製行銷活動
 description: 瞭解如何複製行銷活動。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 暫停新的行銷活動，直到您準備好要啟動為止。
 
-* 考量下列事項，並視需要編輯新的行銷活動設定：
+* 考量下列事項，並視需要編輯新的行銷活動：
 
    * 帳戶是否有足夠的資金來因應新的行銷活動預算？
 
