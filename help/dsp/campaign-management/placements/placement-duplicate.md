@@ -3,9 +3,9 @@ title: 復製版位
 description: 瞭解如何複製一或多個刊登版位。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 0%
 來自原始版位的所有設定都會重複，除了：
 
 * 實驗設定
+* 位置層級最低預算
 * （如果您變更投放日期）自訂廣告排程
 * （如果您未附加廣告）自訂廣告加權和排程
 * 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
@@ -82,7 +83,7 @@ ht-degree: 0%
 
    * 帳戶是否有足夠的資金來因應新的職位安排預算？
 
-   * 新刊登版位是否需要與舊刊登版位不同的預算？
+   * 新刊登版位是否需要與舊刊登版位不同的預算？ 需要最低預算嗎？
 
    * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
 

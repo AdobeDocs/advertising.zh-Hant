@@ -3,9 +3,9 @@ title: 複製行銷活動
 description: 瞭解如何複製行銷活動。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 0%
 來自原始版位的所有設定都會重複，除了：
 
 * 實驗設定
+* 位置層級最低預算
 * （如果您變更投放日期）自訂廣告排程
 * （如果您未附加廣告）自訂廣告加權和排程
 * 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
@@ -66,6 +67,8 @@ ht-degree: 0%
    * 帳戶是否有足夠的資金來因應新的行銷活動預算？
 
    * 新行銷活動是否需要與舊行銷活動不同的預算？
+
+   * 任何刊登版位是否需要最低預算？
 
    * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
 
