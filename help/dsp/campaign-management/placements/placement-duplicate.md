@@ -3,9 +3,9 @@ title: 復製版位
 description: 瞭解如何複製一或多個刊登版位。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ ht-degree: 0%
    * 事件畫素
    * 廣告
    * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
+
+## 設定新刊登版位的最佳實務
+
+>[!TIP]
+>
+>* 使用Bulksheets一次[變更多個行銷活動元件](/help/dsp/campaign-management/campaign-components-review-edit.md)。
+* 使用廣告標籤工作表來[上傳多個協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+
+* 暫停新位置，直到您準備好要啟動它們為止。
+
+* 請考量下列事項，並視需要編輯新的位置設定：
+
+   * 帳戶是否有足夠的資金來因應新的職位安排預算？
+
+   * 新刊登版位是否需要與舊刊登版位不同的預算？
+
+   * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
+
+   * 視需要附加事件畫素至版位和廣告。
+
+   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Safety]區段至位置。
+
+   * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
+
+   * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
 
 >[!MORELIKETHIS]
 >

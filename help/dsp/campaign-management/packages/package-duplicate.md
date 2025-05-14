@@ -3,9 +3,9 @@ title: 複製套裝
 description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 複製套件以建立具有類似設定的套件。 您可以：
 
 * 在原始廣告商和行銷活動或不同行銷活動內複製套件
+
 * 選擇性地複製封裝內的版位
+
 * （適用於原始行銷活動內的重複套件）可選擇複製原始廣告和版位層級的事件畫素
+
 * 修改新套件的投放日期
 
 如需未複製的位置設定清單，請參閱&quot;[未複製的專案](#package-not-duplicated)&quot;。
@@ -58,6 +61,33 @@ ht-degree: 0%
    * 事件畫素
    * 廣告
    * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
+
+## 設定新封裝的最佳實務
+
+>[!TIP]
+>
+>* 使用Bulksheets一次[變更多個行銷活動元件](/help/dsp/campaign-management/campaign-components-review-edit.md)。
+* 使用廣告標籤工作表來[上傳多個協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+
+* 暫停新封裝，直到您準備好要啟動它為止。
+
+* 請考量下列事項，並視需要編輯新的封裝設定：
+
+   * 帳戶是否有足夠的資金來容納新的套件預算？
+
+   * 新套件是否需要與先前套件不同的預算？
+
+   * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
+
+   * 視需要附加事件畫素至版位和廣告。
+
+   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Safety]區段以進行位置。
+
+   * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
+
+   * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
+
+* 對於使用自訂最佳化目標的封裝，請使用每個封裝的[[!UICONTROL Linked Package for Optimization Learnings Carryover]設定](/help/dsp/campaign-management/packages/package-settings.md)，以使用先前行銷活動的歷史資料作為最佳化封裝的輸入。
 
 >[!MORELIKETHIS]
 >
