@@ -74,7 +74,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >* 使用Bulksheets一次[變更多個行銷活動元件](/help/dsp/campaign-management/campaign-components-review-edit.md)。
-* 使用廣告標籤工作表來[上傳多個協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
+>* 使用廣告標籤工作表來[上傳多個協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 * 暫停新位置，直到您準備好要啟動它們為止。
 
