@@ -3,9 +3,9 @@ title: 預覽創意
 description: 瞭解如何開啟創意內容預覽。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. （選擇性）若要調整熒幕中的影像大小，請選取&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中的選項，從影像大小的10%到100%。
 
-<!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
+1. (彈性的HTML5創意；選擇性)若要在創意的框架之間捲動，請按一下&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
 
 1. （選擇性）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
 
