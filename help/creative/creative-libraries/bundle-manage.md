@@ -3,9 +3,9 @@ title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ ht-degree: 0%
 
 您可以將[現有的標準創意](/help/creative/creative-libraries/creative-libraries-about.md)附加至標準組合，並將現有的動態創意<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->附加至動態組合。 將創意附加至搭售方案會讓創意內容可在指派給搭售方案的所有體驗中使用。 每個組合只能包含每個\[創意大小+語言\]組合中的一個。
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>您也可以[從標準廣告和動態廣告檢視](creative-attach-detach-bundles.md)將創意內容附加至組合。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -127,6 +125,8 @@ ht-degree: 0%
    * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Attach Creatives]**。
 
    符合束型別資格的每個創意內容都會列在右方框架中。 已附加至該套裝的創意內容會列出，但無法選取。
+
+1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表格/清單檢視](/help/creative/assets/table-view-button.png "表格檢視")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
 
 1. 在右方框架中，選取每個要附加至搭售方案之創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
@@ -182,6 +182,10 @@ ht-degree: 0%
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. （選擇性）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
 
    檔案會依照瀏覽器的正常程式下載。
@@ -205,6 +209,10 @@ ht-degree: 0%
 1. （選擇性）若要依大小篩選創意，請在&#x200B;**[!UICONTROL Size]**&#x200B;清單中選取選項，然後按一下預覽右上角的&#x200B;**[!UICONTROL Preview]**。
 
 1. （選擇性）若要調整熒幕中影像的大小，請選取&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中的選項，從影像大小的10%到100%。
+
+1. （選用）若要開啟創意內容的登陸頁面，請按一下創意內容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （選用）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
 

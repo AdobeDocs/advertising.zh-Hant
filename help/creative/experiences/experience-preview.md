@@ -3,9 +3,9 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 
-
 ## 在沒有決策樹定位的情況下預覽體驗中的創意內容
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
@@ -97,11 +96,15 @@ ht-degree: 0%
 
    依預設，會列出所有大小的創意。
 
-1. 按一下廣告標籤的名稱，可展開列並預覽創意。
+1. 按一下廣告標籤的名稱，可展開列並預覽創意內容。
+
+1. （選用）若要前往創意內容的登陸頁面，請按一下創意內容。
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （選用）若要複製體驗的示範URL以與其他人共用，且未登入[!DNL Creative]：
 
-   1. 在預覽的右上角，按一下![共用](/help/creative/assets/share.png "共用")。
+   1. 在預覽的右上角，按一下![共用](/help/creative/assets/share2.png "共用")。
 
    1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 

@@ -3,14 +3,14 @@ title: 將創意內容附加至創意組合
 description: 瞭解如何將創意內容附加至創意套裝。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# 將<!-- and detach -->個創意內容附加至創意組合
+# 將創意內容附加至創意組合
 
 *已關閉的Beta*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >您可以<!-- also --> [將創意內容附加至組合，並將創意內容從組合檢視](/help/creative/creative-libraries/bundle-manage.md)中分離。
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Attach to Bundles]**。
 
    符合創意型別資格的每個組合都會列在右方框架中。 已附加創意的套件組合會列出，但無法選取。
+
+1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表格/清單檢視](/help/creative/assets/table-view-button.png "表格檢視")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
 
 1. 在右方框架中，選取要附加創意的每個組合旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
