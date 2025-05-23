@@ -3,7 +3,7 @@ title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （選擇性）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 1. （選用）若要開啟創意內容的登陸頁面，請按一下創意內容。
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. （選用）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
 
