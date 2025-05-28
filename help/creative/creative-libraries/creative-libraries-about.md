@@ -3,7 +3,7 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: c69b01e12801947f156120e50615225eb3dad261
+source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 #### 彈性的HTML5
 
-有彈性的HTML5創意人員是HTML5創意人員，擁有其所有影像和其他屬性做為標準HTML標籤，您可以直接在[!DNL Creative]中編輯，無論是在創意資料庫中或是在個別體驗中（這會建立原始創意的變體）。 有彈性的HTML5創意人員會使用Interactive Advertising Bureau (IAB) Technology Laboratory的標準，來處理[廣告組合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->，其廣告格式大小是彈性的（而非固定的），而且是以廣告的外觀比例和大小範圍為基礎，而且其解析度會跨越裝置和發佈者網站。
+有彈性的HTML5創意人員是HTML5創意人員，擁有其所有影像和其他屬性做為標準HTML標籤，您可以直接在[!DNL Creative]中編輯，無論是在創意資料庫中或是在個別體驗中（這會建立原始創意的變體）。 有彈性的HTML5創意人員會使用Interactive Advertising Bureau (IAB) Technology Laboratory的標準，來處理[廣告組合](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->，其廣告格式大小是彈性的（而非固定的），而且是以廣告的外觀比例和大小範圍為基礎，而廣告則會在裝置和發佈者網站上維持其解析度。<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
 
-您可以上傳彈性的HTML5創意內容當作ZIP檔案，或使用其中一個範本作為起點 — >。 檢視彈性HTML5創意的[規格](html5-creative-specification.md)。
+您可以上傳彈性的HTML5創意內容當作ZIP檔案，或使用其中一個範本作為起點。 檢視彈性HTML5創意的[規格](html5-creative-specification.md)。
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
