@@ -3,9 +3,9 @@ title: 編輯具有決策樹定位的體驗
 description: 瞭解如何使用決策樹編輯目標廣告體驗的設定。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[一般體驗設定](experience-settings-targeting.md)。
+   決策樹依預設會開啟。
 
-1. （選擇性）若要編輯決策樹，請按一下右上方的&#x200B;**[!UICONTROL Decision Tree]**，然後執行下列任一項作業：
+1. （可選）視需要在決策樹和一般設定之間切換：
+
+   * 若要從決策樹開啟一般設定，請按一下右上角的&#x200B;**[!UICONTROL Experience Form]**。
+
+   * 若要從一般設定開啟決策樹，請按一下右上角的&#x200B;**[!UICONTROL Decision Tree]**。
+
+1. （可選）若要編輯決策樹，請執行下列任一項作業：
 
    * （[正在處理](experience-about.md#experience-statuses)個體驗）執行下列其中一項作業：
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
 
          * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+
+1. （選擇性）編輯[一般體驗設定](experience-settings-targeting.md)。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**，然後執行下列動作。
 

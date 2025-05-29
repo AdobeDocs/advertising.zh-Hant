@@ -3,9 +3,9 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
 
          * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+
+1. （可選）在決策樹和一般設定之間切換：
+
+   * 若要從決策樹開啟一般設定，請按一下右上角的&#x200B;**[!UICONTROL Experience Form]**。
+
+   * 若要從一般設定開啟決策樹，請按一下右上角的&#x200B;**[!UICONTROL Decision Tree]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**，然後執行下列動作。
 
