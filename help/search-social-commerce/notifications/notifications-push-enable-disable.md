@@ -3,7 +3,7 @@ title: 啟用和停用[!UICONTROL Notification Center]的推播通知
 description: 瞭解如何啟用和停用[!UICONTROL Notification Center]的推播通知。
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 3. 在確認訊息中，按一下&#x200B;**[!UICONTROL Enable]**。
 
-4. 設定瀏覽器以允許來自[!UICONTROL Notification Center] at`https://alert-center-ui-na.efrontier.com`的通知。
+4. 設定瀏覽器以允許來自[!UICONTROL Notification Center] （在`https://alert-center-ui-na.efrontier.com`）的通知。
 
    預設通知設定因瀏覽器而異，您可以a)自動顯示允許來自[!UICONTROL Notification Center]的通知的選項，或b)需要手動管理通知設定。 例如，在[!DNL Microsoft Edge]中，您可以從瀏覽器工具列允許來自[!UICONTROL Notification Center]的通知。 請參閱瀏覽器說明中的指示。
 
