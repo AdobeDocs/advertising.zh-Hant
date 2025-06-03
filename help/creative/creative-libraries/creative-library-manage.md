@@ -3,7 +3,7 @@ title: 管理您的創意程式庫
 description: 瞭解如何建立、重新命名和刪除您的創意程式庫。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
      若要選取所有列，請選取左上方的全域核取方塊。
 
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete].** <!--Verify wording -->
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 {{$include /help/_includes/end-date.md}}
 
 **[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）節目
-您在廣告網路的搜尋合作夥伴網路上的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
+您在廣告網路的搜尋合作夥伴網路上的廣告。 依預設，此選項為*[!UICONTROL Off]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -347,7 +347,7 @@ ht-degree: 0%
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的行動號召。 依預設，已選取&#x200B;*[!UICONTROL Automated]*，且[!DNL Google Ads]已選取呼叫動作。 您可以選擇不同的動作。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的call to action。 依預設，已選取&#x200B;*[!UICONTROL Automated]*，且[!DNL Google Ads]已選取call to action。 您可以選擇不同的動作。
 
 **[!UICONTROL Business Name]：**&#x200B;公司名稱，最多25個字元。
 
@@ -370,7 +370,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果行銷活動是混合專案組合的一部分，最佳實務是使用符合專案組合目標中的轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
+>如果行銷活動是混合專案組合的一部分，則最佳實務是使用符合專案組合目標中轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
 >
 >不過，對於混合產品組合中您[將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)的行銷活動，請在廣告網路的編輯器中執行下列動作，而非這裡： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為行銷活動的轉換動作，以及b)新增任何包含[!DNL Google]追蹤轉換的行銷活動目標，因為廣告網路追蹤量度未上傳至具有目標的廣告網路。
 
