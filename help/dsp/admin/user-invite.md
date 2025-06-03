@@ -3,14 +3,16 @@ title: 邀請新的使用者加入您的組織帳戶
 description: 瞭解如何邀請新使用者加入帳戶。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 邀請新的使用者加入您的組織帳戶
+
+*僅限系統管理員使用者*
 
 管理員使用者可以邀請新的使用者加入帳戶。 使用者接受邀請後，即可存取該帳戶的所有廣告商。 新使用者預設為唯讀存取權。
 
