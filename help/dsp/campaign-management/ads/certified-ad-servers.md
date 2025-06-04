@@ -3,9 +3,9 @@ title: 認證廣告服務合作夥伴
 description: 檢視所有認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
+source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 0%
 | [!DNL Medialets] | | X | | | |
 | [!DNL Minute Media] | | X | | | 桌上型電腦外觀(970x250) |
 | [!DNL Moat] | X | X | | X | |
+| [!DNL Nova] | | X | | | |
 | [!DNL PLAYGROUND XYZ] | | | X | | |
 | [!DNL Pubmatic] | | | | X | 僅限VAST |
 | [!DNL RevJet] | | | | X | 僅限VAST |
