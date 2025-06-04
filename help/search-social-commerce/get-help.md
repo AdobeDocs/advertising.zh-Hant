@@ -1,10 +1,11 @@
 ---
 title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ ht-degree: 0%
 
    * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和Commerce最佳化指南**。
 
-## 詢問Adobe Advertising社群
+<!--
+## Ask the Adobe Advertising community
 
-在[Adobe Advertising社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)中尋找您問題的答案。
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## 連絡人[!DNL Adobe]
 
