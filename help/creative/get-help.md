@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 開啟線上說明
 
-若要開啟說明如何使用所有功能的完整說明集，請按一下主功能表中的「**[!UICONTROL Help]**」，然後開啟「[DNL Creative]」章節。
+若要開啟說明如何使用所有功能的完整說明集，請按一下主功能表中的「**[!UICONTROL Help]**」，然後開啟「[!DNL Creative]」章節。
 
 <!--
 ## Ask the Adobe Advertising community
