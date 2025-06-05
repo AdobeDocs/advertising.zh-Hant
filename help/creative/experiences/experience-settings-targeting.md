@@ -3,9 +3,9 @@ title: 目標體驗設定
 description: 請參閱目標廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced]節
 
-**Data Pass：** （現有體驗為唯讀；選擇性）根據DSP、發行者或合作夥伴在曝光時即時傳遞的特定索引鍵值配對，鎖定使用者。 您最多可以指定五個資料傳遞索引鍵（引數）。 在決策樹中設定鎖定目標時，您可以納入一個資料傳遞目標節點層級，並指定每個節點的目標值。 如果您在建立體驗時未在此欄位中指定索引鍵，您仍可在決策樹中指定索引鍵。<!-- May move this to just within the decision tree.  -->
+**Data Pass：** （現有體驗為唯讀；選擇性）根據DSP、發行者或合作夥伴在曝光時即時傳遞的特定索引鍵值配對，鎖定使用者。 您可以指定最多五個預設的資料傳遞索引鍵（引數）。 在決策樹中設定鎖定目標時，您可以納入一個資料傳遞目標節點層級、選擇性地自訂索引鍵，以及指定每個節點的目標值。 如果您在建立體驗時未在此欄位中指定任何索引鍵，您仍可在決策樹中指定它們。
 
-每個鍵都會附加為廣告體驗中的巨集
-標籤，您可產生並實作為DSP中的廣告。
+每個鍵都會附加為廣告體驗標籤中的巨集，您可產生該巨集以實施為DSP中的廣告。
 
 **半徑：** （僅限使用動態廣告的體驗；選擇性）目標饋送檔案中指定的美國郵遞區號的半徑；選取從0哩到200哩的半徑。 用來為體驗建立動態廣告的摘要檔案必須包含一個[!UICONTROL ZIP]欄<!-- or a user-named column mapped to a ZIP column -->，且該檔案中的每個產品列都有值。 例如，半徑為10哩時，可向95110徑10哩內的使用者顯示95110中可用產品的廣告（由使用者的IP位址決定）。
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 **曝光追蹤URL：** （選用）要附加至從體驗建立之任何廣告的登陸頁面URL的協力廠商曝光追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >
@@ -81,7 +80,7 @@ ht-degree: 0%
 
 **點選追蹤URL：** （選用） （選用）要附加至登陸頁面URL的協力廠商點選追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >

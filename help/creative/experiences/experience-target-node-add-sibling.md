@@ -2,9 +2,10 @@
 title: 在體驗中的節點之間新增同層級目標節點
 description: 瞭解如何將同層級節點新增至具有目標或與具有目標之節點位於相同層級的任何節點。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. 指定目標：
 
-   * 針對「Adobe對象」目標，請執行以下作業：
+   * 針對Adobe對象目標，請執行以下作業：
 
       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟您的[!UICONTROL Audience Targeting]選項、開啟&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;標籤、指定一或多個廣告商的[!DNL Adobe]對象目標，然後按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
-   * 針對資料傳遞目標，請輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-   機碼值組的機碼已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定，您無法新增其他機碼。
+     已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
 
    * 如果要重新定位畫素目標，請選取要使用的重新定位畫素，以及顯示創意所必須呈現之任何畫素屬性的必要值。 然後按一下&#x200B;**[!UICONTROL Apply]**。
 
