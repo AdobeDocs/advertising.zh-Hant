@@ -3,9 +3,9 @@ title: 將目標節點新增到體驗中的最終層級
 description: 瞭解如何將目標節點新增至廣告體驗的最終目標層級。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 0%
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
-   * 針對資料傳遞目標，請選取&#x200B;**[!UICONTROL Data Pass]**，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   * 針對資料傳遞目標，選取&#x200B;**[!UICONTROL Data Pass]**，並選擇性地自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-   機碼值組的機碼已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定。
+   已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
 
    * 對於重新定位畫素目標，請選取&#x200B;**[!UICONTROL RT Pixel]**，選取要使用的單一重新定位畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
