@@ -3,9 +3,9 @@ title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 0%
 >
 >您也可以[從標準廣告和動態廣告檢視](creative-attach-detach-bundles.md)將創意內容附加至組合。
 
+### 從組合清單將創意附加至組合
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
@@ -129,6 +131,24 @@ ht-degree: 0%
 1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表格/清單檢視](/help/creative/assets/table-view-button.png "表格檢視")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
 
 1. 在右方框架中，選取每個要附加至搭售方案之創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
+
+### 從套裝的創意清單將創意內容附加至套裝
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 按一下程式庫名稱。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 按一下束卡或列以檢視束中的所有創意。
+
+1. 按一下右上角的&#x200B;**[!UICONTROL Attach Creatives]**。
+
+1. 在右側面板中，選取您要附加的每個創意內容的核取方塊。
+
+1. 按一下&#x200B;**[!UICONTROL Attach Creatives to Bundle]**。
 
 ## 將創意內容從套件中分離 {#bundle-detach-creatives}
 
