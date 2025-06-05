@@ -3,9 +3,9 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **創意績效**&#x200B;標籤*：依創意和套裝或廣告標籤區分的績效概觀，包括：
+* **Creative效能**&#x200B;索引標籤*：依創意和套裝或廣告標籤區分的效能概觀，包括：
 
    * **創意內容**&#x200B;子標籤：體驗中每個創意內容的曝光數、點按數和CTR總數。<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,12 +158,14 @@ ht-degree: 0%
 
    * （只有決策樹定位的體驗；選擇性）若要針對每個套用的廣告目標中斷效能，請啟用&#x200B;**[!UICONTROL Split targeting]**。
 
-1. （選擇性）若要以試算表(XLSX)格式下載[!DNL Microsoft Excel]檔案中的資料，請按一下工具列中的![下載](/help/creative/assets/download.png "下載")。
+## 下載體驗的效能報表
 
-   檔案會依照瀏覽器的正常程式下載。
+* 在效能報表頂端的工具列中按一下![下載](/help/creative/assets/download.png "下載")。
+
+  根據瀏覽器的正常程式，檔案會以[!DNL Microsoft Excel]檔案的試算表(XLSX)格式下載。
 
 >[!MORELIKETHIS]
 >
->* [自訂創意報告](/help/creative/report-custom-creative.md)
+>* [自訂Creative報告](/help/creative/report-custom-creative.md)
 >* [下載檢視中的所有體驗](/help/creative/experiences/experience-download-view.md)
 >* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
