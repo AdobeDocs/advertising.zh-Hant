@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,11 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025年5月21日 | [!UICONTROL Creative Libraries] | 您現在可以將影像從Adobe Experience Manager資產庫新增至[!UICONTROL Creative Libraries]，以便在廣告體驗中使用這些影像。 | 請參閱&quot;[設定Adobe Experience Manager影像資產的存取權](/help/creative/creative-libraries/aem-assets-configure.md)&quot;和&quot;[將標準創意內容新增至創意資源庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年2月10日 | [!UICONTROL Creative Libraries] | 之前，您有一個創意程式庫。 現在，您可以為每個廣告商建立多個程式庫。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;。 |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | [!UICONTROL Creatives]檢視包含[!UICONTROL Standard Ads]和[!UICONTROL Dynamic Ads]的索引標籤。<ul><li>**[!UICONTROL Standard Ads]標籤**&#x200B;可讓您上傳和管理影像、HTML5、彈性的HTML5和協力廠商創意內容。</li><li>**[!UICONTROL Dynamic Ads]**&#x200B;索引標籤可讓您管理使用定義的廣告範本從上傳摘要檔案建立的動態產生廣告；之前，動態廣告是在[!DNL Adobe Advertising Dynamic Creative Optimization (DCO)]內產生。<br><br>目前，您可以預覽、複製和刪除動態廣告。 您也可以將動態廣告附加至目標廣告體驗的創意套件組合或非目標體驗的廣告標籤。 只有管理員使用者可以動態產生廣告。</li></ul> | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;。 |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | 將多個創意內容分組到&#x200B;*組合*&#x200B;中，以便輕鬆新增到體驗中。 您可以建立標準廣告組合，並將標準創意附加至這些組合。 同樣地，您可以建立動態廣告套裝，並將動態創意附加至這些套裝。 | 請參閱[管理Creative組合](/help/creative/creative-libraries/bundle-manage.md)。 |

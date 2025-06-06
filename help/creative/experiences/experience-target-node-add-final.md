@@ -3,9 +3,9 @@ title: 將目標節點新增到體驗中的最終層級
 description: 瞭解如何將目標節點新增至廣告體驗的最終目標層級。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
+         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 

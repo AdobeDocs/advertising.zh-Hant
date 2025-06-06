@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增同層級目標節點
 description: 瞭解如何將同層級節點新增至具有目標或與具有目標之節點位於相同層級的任何節點。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In an existing experience,
 
       1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象。
+         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -48,7 +48,7 @@ In an existing experience,
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -66,7 +66,7 @@ In an existing experience,
 
       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置。
+         此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
