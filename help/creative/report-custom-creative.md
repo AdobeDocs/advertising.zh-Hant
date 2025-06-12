@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 瞭解如何產生跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
+source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
-* *[!UICONTROL FTP SSL] (目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+* *[!UICONTROL FTP SSL](目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
@@ -183,8 +183,6 @@ ht-degree: 0%
 
 ## 可用報表欄 {#report-custom-creative-columns}
 
-<!-- Need to finish these definitions -->
-
 | 量度型別 | 子型別 | 欄名稱 | 說明 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 已發佈廣告的維度。 |
@@ -196,16 +194,12 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative ID] | [!UICONTROL Creative]指派給上層創意內容的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Name] | 上層創意內容的名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | 父級創意型別（例如[!UICONTROL HTML5]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | 。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | 按一下型別。 |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | 登陸頁面URL。 |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | 使用者互動的特定型別。 |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | 使用者在創意體驗中點按互動的定向流程或導覽路徑。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | 顯示廣告的瀏覽器（例如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | 顯示廣告的作業系統（例如[!UICONTROL Windows]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | 顯示廣告的裝置型別（例如[!UICONTROL Desktop]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | 廣告ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | 廣告刊登的購買ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | 創意的ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 執行廣告之DSP的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | 執行廣告的DSP名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | 執行廣告之版位的ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 執行廣告之位置的名稱。 |
@@ -216,8 +210,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | 事件的日期和時間。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | [!UICONTROL Creative]指派給體驗的識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | 體驗的名稱。 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | 目標。 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | 通過目標決策樹的特定路徑，可確定向使用者提供的創意體驗變體。 |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | 廣告標籤的名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | 報告資料所屬的城市。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | 報告資料所屬國家/地區的國家/地區代碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | 報告資料所屬的指定市場區域(DMA)。 |
@@ -232,22 +226,22 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | （動態廣告）第五個創意屬性。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | （動態廣告）目標產品ID。 |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | （動態廣告）目標產品名稱。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 報表資料所屬的對象區段的ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | 報表資料所屬之對象區段的區段ID。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | 報表資料所屬的對象區段名稱。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 最多五個符合廣告主題的使用者區段的ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | 報告資料所屬之重新定位畫素的ID。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | 報告資料所屬的重新定位畫素名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | 報表資料所屬對象區段的屬性。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | 對廣告的所有點按總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | 點進率，即點按百分比除以廣告曝光數。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | 提供並導致使用者參與的曝光百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 已投放廣告的互動次數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | 廣告印象總數。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 產品廣告的所有點按總和。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 產品廣告的所有轉換總數。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 產品導致轉換的廣告百分比。 |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 產品廣告的點進率，即點按百分比除以廣告曝光數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 產品的曝光總數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 已提供產品廣告的總收入。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | 具有重新目標定位Cookie的曝光百分比。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | （僅限動態廣告）產品廣告的所有點按總和。 當產品為Null時，此值為零(0)。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | （僅限動態廣告）產品廣告上所有轉換的總和。 當產品為Null時，此值為零(0)。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | （僅限動態廣告）產品導致轉換的廣告百分比。 當產品為Null時，此值為零(0)。 |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | （僅限動態廣告）產品廣告的點進率，即點按百分比除以廣告曝光數。 當產品為Null時，此值為零(0)。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | （僅限動態廣告）產品的曝光總數。 當產品為Null時，此值為零(0)。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | （僅限動態廣告）為產品提供的廣告總收入。 當產品為Null時，此值為零(0)。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 已投放廣告的總收入。 |
 | [!UICONTROL Conversion Metrics] | [在報告設定中依廣告商分組] | [廣告商特定轉換] | 指定的廣告商特定轉換量度或Adobe Analytics事件的總計。 |
 | [!UICONTROL Custom Goals] | [在報告設定中依廣告商分組] | [廣告商特定自訂目標] | (使用Advertising DSP的廣告商)指定[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)中包含的所有轉換的加權總和。 |
