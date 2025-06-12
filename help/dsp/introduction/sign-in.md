@@ -3,7 +3,7 @@ title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 登入Adobe Advertising DSP
 
-Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品(包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics)的單一登入(SSO)存取權。 隨著變更：
+Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS之所有[!DNL Adobe]產品的單一登入(SSO)存取權，包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics。 隨著變更：
 
 * 您可以使用一個[!DNL Adobe ID]從Experience Cloud登入頁面或舊版DSP登入頁面登入[!DNL Adobe]個產品。 您的[!DNL Adobe ID]提供使用者設定檔管理。 在未來版本中，您將可從頂端功能表變更DSP帳戶、IMS組織帳戶和[!DNL Adobe]產品。
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 1. 選擇您的組織：
 
-   * 如果出現提示，請選取&#x200B;**個人帳戶」或&#x200B;**&#x200B;公司或學校帳戶**。
+   * 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。
 
    * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ### 疑難排解
 
-如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/tw/manage-account/kb/account-password-sign-help.linkfree.html)。
+如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)。
 
 #### 啟用新的[!DNL Adobe] IMS登入是否有任何先決條件？
 
