@@ -3,9 +3,9 @@ title: 關於發佈者建議和深入分析支援
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 每個[!DNL Google Ads]建議都會根據您帳戶的效能歷程記錄、您的行銷活動設定和[!DNL Google Ads]中的趨勢，針對行銷活動的不同效能方面（從新增資產到增加預算）提供自訂建議。
 
-* 每個[!DNL Microsoft Advertising]效能分析和建議都會根據機器學習演演算法和最佳實務建議變更以最佳化行銷活動效能。
+* 每個[!DNL Microsoft Advertising]效能insight和建議會根據機器學習演演算法和最佳實務建議變更以最佳化行銷活動效能。
 
 ## [!UICONTROL Recommendations & Publisher Insights]檢視
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   當您開啟檢視時，資料可以即時取得。 若要重新整理資料，請按一下頁面左下角的![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理")。
 
-* 針對[!DNL Microsoft Advertising]帳戶，檢視[!DNL Microsoft Advertising]帳戶在過去30天內產生的每個效能深入分析。 深入分析會以不同格式提供與建議類似的資訊。 每個深入分析都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟[!DNL Microsoft Advertising]編輯器連結的建議動作，您可以在編輯器中對特定深入分析執行動作。
+* 若為[!DNL Microsoft Advertising]帳戶，請一覽insight在過去30天內為[!DNL Microsoft Advertising]帳戶產生的每個效能。 深入分析會以不同格式提供與建議類似的資訊。 每個insight都包含日期、問題說明、受影響的實體、根本原因（可能包含更多詳細資訊的連結），以及帶有開啟[!DNL Microsoft Advertising]編輯器連結的建議動作，您可以在編輯器中對特定insight採取行動。
 
 * 檢視建議的詳細資料，並直接套用或拒絕建議。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->雖然廣告網路建議和效能深入分析可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議或見解之前，建議您最好諮詢您的Adobe客戶團隊。
+>雖然廣告網路建議和效能深入分析可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議或insight之前，建議您最好諮詢您的Adobe客戶團隊。
 
 ## [!DNL Google Ads]支援的建議型別
 
@@ -46,6 +46,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] （在[!DNL Google Ads]中現在稱為「[!DNL Ads and assets]」） | [!UICONTROL Call extension] | 將來電分機新增至行銷活動 |
 | | [!UICONTROL Callout extension] | 將圖說文字擴充功能新增至行銷活動 |
+|  | [!UICONTROL Improve demand gen ad strength] | 改善需求一般廣告廣告強度的建議 |
 | | [!UICONTROL Optimize ad rotation] | 使用最佳化的廣告輪換 |
 | | [!UICONTROL Responsive search ad] | 新增回應式搜尋廣告 |
 | | [!UICONTROL Responsive search ad asset] | 將回應式搜尋廣告資產新增至廣告 |
@@ -77,6 +78,7 @@ ht-degree: 0%
 | | [!UICONTROL Target ROAS opt in] | 變更至[!UICONTROL Target ROAS]競標策略 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 透過更新行銷活動以使用顯示展開來擴展觸及範圍 |
 | | [!UICONTROL Keyword] | 新增關鍵字 |
+|  | [!UICONTROL Refresh customer match list] | 重新整理客戶比對清單，向最近的客戶顯示個人化廣告 |
 | | [!UICONTROL Search partners opt in] | 透過[!DNL Google]個搜尋合作夥伴擴大觸及範圍 |
 | | [!UICONTROL Use broad match keyword] | 透過全自動的轉換型競標，針對轉換型行銷活動使用廣泛比對 |
 

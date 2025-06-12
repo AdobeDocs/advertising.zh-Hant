@@ -3,7 +3,7 @@ title: 預覽創意
 description: 瞭解如何開啟創意內容預覽。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 # 預覽創意
 
-*僅限標準創意*
-*已關閉的Beta版*
+*已關閉的Beta*
 
 您可以在檢視者看到創意時加以預覽，包括超連結。
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 1. 按一下程式庫名稱。
 
-1. 在&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**&#x200B;索引標籤上，選取創意內容：
+1. 在&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**&#x200B;標籤或&#x200B;**[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]**&#x200B;標籤上，選取創意內容：
 
    * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
