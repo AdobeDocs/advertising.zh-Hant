@@ -3,7 +3,7 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ ht-degree: 0%
 
 * **總覽**&#x200B;標籤：整個體驗之所有轉換量度的效能總覽，包括：
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **整體效能**&#x200B;區段：
+   * **整體效能**&#x200B;區段：
 
-* **整體效能**：曝光總數、點按、點進率(CTR)、檢視轉換和點進轉換。
+      * **整體效能**：曝光總數、點按、點進率(CTR)、檢視轉換和點進轉換。
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **預設率**： （僅具有決策樹定位的體驗）從目標創意內容、沒有目標的一般創意內容或目標為「其他所有人」的一般創意內容，以及體驗的預設創意內容所產生的曝光次數。
+      * **預設率**： （僅具有決策樹定位的體驗）從目標創意內容、沒有目標的一般創意內容或目標為「其他所有人」的一般創意內容，以及體驗的預設創意內容所產生的曝光次數。
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **效能劃分**&#x200B;區段：
+   * **效能劃分**&#x200B;區段：
 
-   * **地區績效：*：依地理位置區分的個別量度。
+      * **地區績效：*：依地理位置區分的個別量度。
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **裝置效能：**&#x200B;依裝置型別、作業系統和瀏覽器區分的個別量度。 可選擇按一下任何裝置類別的值，以檢視與該條件搭配使用的前<!-- NN -->個創意內容清單。
+      * **裝置效能：**&#x200B;依裝置型別、作業系統和瀏覽器區分的個別量度。 可選擇按一下任何裝置類別的值，以檢視與該條件搭配使用的前<!-- NN -->個創意內容清單。
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
