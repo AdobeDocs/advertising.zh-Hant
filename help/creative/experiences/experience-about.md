@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
+source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # 關於Advertising Creative 2.0中的體驗
 
 *已關閉的Beta*
-
-<!-- Revisit Description metadata  -->
-
-<!-- MORE -->
 
 [!DNL Advertising Creative 2.0]為創意程式庫中的廣告提供兩種不同的廣告體驗結構<!-- can use a single library only -->：
 
@@ -36,9 +32,9 @@ ht-degree: 0%
 
    * 特定裝置型別、作業系統和瀏覽器
 
-  您可以將創意組合指派給每個體驗。 對於每個體驗，您可以自訂創意組合的最佳化和排程，並變更每個組合中個別創意的預設登陸頁面和追蹤URL<!-- and any flexible attributes -->。
+  在決策樹中建立目標對象分支後，您可以透過將創意套件組合指派給分支，將目標對象與潛在創意配對。 對於每個體驗，您可以自訂創意組合的最佳化和排程，並變更每個組合中個別創意的預設登陸頁面和追蹤URL<!-- later: and any flexible attributes -->。
 
-* **沒有決策樹定位的體驗：** [!DNL Creative]會最佳化廣告體驗的廣告元素，而不會縮小對象範圍。<!-- For first-party creatives, [!DNL Creative] serves the ads. -->您可以為每個體驗指定開始和結束日期以及某些預設設定，但大部分的工作流程並非直接在體驗內。 您不直接將創意內容加入體驗，而是使用[!UICONTROL Tag Manager]為體驗的每個廣告大小建立廣告標籤，然後新增創意內容、設定創意最佳化和排程，以及自訂登陸頁面和追蹤URL。
+* **沒有決策樹定位的體驗：** [!DNL Creative]會最佳化廣告體驗的廣告元素，而不會縮小對象範圍。 您可以為每個體驗指定開始和結束日期以及某些預設設定，但大部分工作流程並非直接在體驗內。 您不直接將創意內容加入體驗，而是使用[!UICONTROL Tag Manager]為體驗的每個廣告大小建立廣告標籤，然後新增創意內容、設定創意最佳化和排程，以及自訂登陸頁面和追蹤URL<!-- later: and any flexible attributes -->。
 
 ## 廣告最佳化
 
@@ -47,35 +43,34 @@ ht-degree: 0%
 
 ## 實作和管理體驗
 
-建立即時體驗（包含所有必要的廣告元素）後，您可以[為整個體驗](experience-tag-export.md)產生JavaScript或iframe標籤。 您可以將體驗標籤上傳至Adobe Advertising DSP中的行銷活動，或實施為協力廠商DSP中的廣告。 [!DNL Creative]會根據鎖定目標和廣告輪換選項以及可用的廣告詳細目錄，提供體驗的廣告。
+建立即時體驗（包含所有必要的廣告元素）後，您可以[為整個體驗](experience-tag-export.md)產生JavaScript或iframe標籤。 您可以將體驗標籤作為廣告上傳至Adobe Advertising DSP中的行銷活動，或將其實作協力廠商DSP中的廣告。 [!DNL Creative]會根據目標定位和廣告輪換選項以及可用的廣告詳細目錄，提供第一方廣告並觸發體驗的第三方廣告。
 
 ## 您體驗的效能資料
 
-當您在「[!UICONTROL Creative] > [!UICONTROL Experiences]」檢視中啟用「[!UICONTROL Metrics]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
+下列效能資料可供使用：
 
-![量度選項](/help/creative/assets/metrics-option.png "量度選項")
+* 當您在「[!UICONTROL Creative] > [!UICONTROL Experiences]」檢視中啟用「[!UICONTROL Metrics]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
 
-<!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
+  ![量度選項](/help/creative/assets/metrics-option.png "量度選項")
 
-<!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
+  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
 
-您可以從[!UICONTROL Experiences]檢視[檢視任何體驗](experience-performance-details.md)的詳細效能資料。
+  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/report-custom-creative.md)。
+* 您可以從[!UICONTROL Experiences]檢視[檢視任何體驗](experience-performance-details.md)的詳細效能資料。
+
+* 若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/report-custom-creative.md)。
 
 ## 體驗狀態 {#experience-statuses}
 
-<!-- verify that these are all still the same -->
+除了您手動設定的&#x200B;*已刪除，*&#x200B;之外，體驗的狀態是自動設定的。
 
-除了您手動設定的&#x200B;*已刪除、*&#x200B;之外，體驗的狀態是自動設定的。
-
-*即時：*&#x200B;體驗包含所有必要的元素，因此您可以產生體驗標籤，以在DSP中實作廣告。<!-- A live experience may be scheduled to start in the future -->
-
-*草稿：*&#x200B;體驗的所有分支均未指派創意，因此體驗不完整，您無法產生體驗標籤。
-
-*處理中：*&#x200B;先前上線的體驗已經編輯過，但現在尚未完成。 您無法為其產生體驗標籤。 **注意：**&#x200B;如果您已實作體驗的體驗標籤，則仍可提供先前上線的版本。 如果您稍後完成體驗（讓體驗再次上線），則可使用現有的標籤實作提供新版本。
-
-*已刪除：*&#x200B;體驗已從[!DNL Creative]中刪除，並且不再顯示在[!UICONTROL Experiences]檢視中。
+| 狀態 | 說明 |
+| ------ | ----------- |
+| [!UICONTROL Live] | 體驗包含所有必要的元素，因此您可以產生體驗標籤，以在DSP中實作廣告。 即時體驗可能已排程在未來開始。 |
+| [!UICONTROL Draft] | 由於體驗的所有分支皆未指派創意，因此體驗並不完整，且您無法產生體驗標籤。 |
+| [!UICONTROL Processing] | 先前上線的體驗已經過編輯，但現在尚未完成。 您無法為其產生體驗標籤。 **注意：**&#x200B;如果您已實作體驗的體驗標籤，則仍可提供先前上線的版本。 如果您稍後完成體驗（讓體驗再次上線），則可使用現有的標籤實作提供新版本。 |
+| [!UICONTROL Deleted] | 體驗已從[!DNL Creative]中刪除，且不再顯示在[!UICONTROL Experiences]檢視中。 |
 
 >[!NOTE]
 >
@@ -85,33 +80,27 @@ ht-degree: 0%
 
 [!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Experiences]檢視中啟用[!UICONTROL Metrics]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
 
-您可以建立和管理您的體驗，包括最佳化並將創意和創意組合指派給您的體驗。 您也可以建立和重新命名廣告體驗標籤，並匯出JavaScript和iframe格式的標籤，以在DSP上實作。 使用Advertising DSP的廣告商可選擇將標籤直接上傳至Advertising DSP促銷活動作為廣告。
+您可以建立並管理您的體驗、建立及重新命名廣告體驗標籤，以及匯出JavaScript和iframe格式的標籤，以在DSP上實作。 使用Advertising DSP的廣告商可選擇將廣告標籤直接上傳至Advertising DSP行銷活動。
 
-<!--
-### Available actions
+### 可用動作
 
-* [Download data within the view](experience-download-view.md)
+以下是可用的主要動作。 如需完整清單，請參閱「創意內容>體驗」一章的目錄。
 
-        + [Assign and unassign creative bundles to a final node](/help/creative/experiences/experience-assign-creative-bundles.md)
-* Experiences with decision tree targeting: [Create](/help/creative/experiences/experience-create-targeting.md) and [edit](/help/creative/experiences/experience-edit-targeting.md) experiences, [assign and unassign creative bundles](/help/creative/experiences/experience-assign-creative-bundles.md), [customize creative optimization and scheduling](/help/creative/experiences/experience-optimization-scheduling-targeting.md), and [customize the tracking URLs for creatives](/help/creative/experiences/experience-tracking-urls-targeting.md)
+* [下載檢視中的資料](experience-download-view.md)
 
-* Experiences without decision tree targeting: [Create](experience-create-no-targeting.md) and [edit](/help/creative/experiences/experience-edit-no-targeting.md)
+* [建立](/help/creative/experiences/experience-create-targeting.md)和[編輯](/help/creative/experiences/experience-edit-targeting.md)目標定位體驗
 
-* [Clone](experience-clone.md) an experience
+* [建立](/help/creative/experiences/experience-create-no-targeting.md)、[編輯](/help/creative/experiences/experience-edit-no-targeting.md)，以及[手動建立廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)，讓體驗不必鎖定目標
 
-* [Preview](experience-preview.md) an experience
+* [複製](experience-clone.md)體驗
 
-* [Share a demo URL](experience-share-demo-url.md) for an experience
+* [預覽](experience-preview.md)體驗
 
-* [Export ad tags for an experience](experience-tag-export.md)
+* [分享體驗的示範URL](experience-share-demo-url.md)
 
-* [Delete](experience-delete.md) an experience
+* [匯出體驗的廣告標籤](experience-tag-export.md)，包括選擇性直接將廣告標籤上傳至Advertising DSP行銷活動
 
--->
-
-<!-- You can add or remove labels for your experiences.-->
-
-<!-- Add links to workflows once they're done -->
+* [刪除](experience-delete.md)體驗
 
 >[!MORELIKETHIS]
 >
