@@ -3,7 +3,7 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 「報表」檢視包含下列資料：
 
-* **總覽**&#x200B;標籤：整個體驗之所有轉換量度的效能總覽，包括：
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* **總覽**&#x200B;標籤：整個體驗<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->所有轉換量度的效能總覽，包括：
 
    * **整體效能**&#x200B;區段：
 
