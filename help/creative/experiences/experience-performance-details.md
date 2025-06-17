@@ -3,9 +3,9 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **裝置效能：**&#x200B;依裝置型別、作業系統和瀏覽器區分的個別量度。 可選擇按一下任何裝置類別的值，以檢視與該條件搭配使用的前<!-- NN -->個創意內容清單。
+      * **裝置效能：**&#x200B;依裝置型別、作業系統和瀏覽器區分的個別量度。 可選擇按一下任何裝置類別的值，以檢視符合該條件的前10大創意內容清單。
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}

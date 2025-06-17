@@ -2,9 +2,10 @@
 title: 將創意內容指派給體驗的廣告標籤，而不需鎖定目標
 description: 瞭解如何將創意內容指派給特定創意大小的廣告標籤。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *只有沒有決策樹定位的體驗*
 *已關閉的Beta版*
 
-您可以將適用創意大小的創意內容指派給用於體驗的廣告標籤。 對於標準廣告體驗，您只能指派標準創意內容。 對於動態廣告體驗，您只能指派動態創意內容。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+您可以將適用創意大小的創意內容指派給用於體驗的廣告標籤。 您可以使用體驗設定中指定的創意程式庫中的創意內容。 對於標準廣告體驗，您只能指派標準創意內容。 對於動態廣告體驗，您只能指派動態創意內容。<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 您稍後可以[自訂追蹤URL](experience-tracking-urls-no-targeting.md)和[自訂廣告標籤使用之創意的創意最佳化和排程](experience-optimization-scheduling-no-targeting.md)。
 
