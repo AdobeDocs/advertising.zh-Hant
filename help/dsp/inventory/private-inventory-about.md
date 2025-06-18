@@ -3,9 +3,9 @@ title: 關於私人詳細目錄
 description: 關於私人詳細目錄
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,14 @@ ht-degree: 0%
 
 您可以套用篩選器、自訂可見欄位，並選擇儲存自訂檢視表、排序欄位，以及以圖表形式檢視資料，藉此自訂現有交易資料的顯示方式。
 
+## 交易清單檢視
+
+在[!UICONTROL Inventory] > [!UICONTROL Deal Lists]檢視中，您可以將私人交易分組到清單中，以更輕鬆地進行目標定位。
+
 >[!MORELIKETHIS]
 >
 >* [詳細目錄功能概觀](/help/dsp/inventory/inventory-overview.md)
 >* [關於[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
 >* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
 >* [手動建立交易識別碼詳細資料](deal-id-create.md)
+>* [管理交易清單](/help/dsp/inventory/lists-deals-manage.md)

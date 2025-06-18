@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ ht-degree: 0%
 
   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要索引鍵或選取的特徵標籤進行搜尋。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您與已在DSP中設定的發行者之間的現有私人交易（或[!DNL Roku]個刊登版位的現有私人[!DNL Roku]交易）。 您可以包含（但不排除）公用詳細目錄。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您與已在DSP中設定的發行者之間的現有私人交易（或針對[!DNL Roku]個位置現有的私人[!DNL Roku]交易），以及您現有的[私人交易清單](/help/dsp/inventory/lists-deals-manage.md)。 您可以包含（但不排除）公用詳細目錄。
 
-  您可以依關鍵字、金鑰、交易ID或自訂標籤來搜尋清單。
+  從[!UICONTROL Deals]索引標籤，您可以依關鍵字、金鑰、交易ID或自訂標籤來搜尋清單。 從[!UICONTROL Deal Lists]索引標籤，您可以依交易清單名稱或交易清單ID搜尋清單。
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*： （選擇性）覆寫競標價演演算法，以至少對交易的固定與最低價格出價。
 
@@ -199,12 +199,15 @@ ht-degree: 0%
       1. （[!UICONTROL Public]和[!UICONTROL On Demand]詳細目錄）按一下&#x200B;**[!UICONTROL View by Source]**&#x200B;或&#x200B;**[!UICONTROL View by Feed]**&#x200B;以變更來源的列示方式。
       1. （適用時）視需要篩選詳細目錄。
       1. 指定要包含和排除的來源：
-         * 若要包含[!UICONTROL Public]或[!UICONTROL On Demand]來源，請按一下來源名稱旁的&#x200B;**[!UICONTROL Include]**。
-         * 若要包含[!UICONTROL Private]來源：
-            * 若要在交易中包含所有詳細目錄，請按一下交易名稱旁的&#x200B;**[!UICONTROL Include all]**。
-            * 若要包含個別存貨來源，請展開交易名稱，然後按一下來源名稱旁的核取方塊。
-         * 若要排除[!UICONTROL Public]或[!UICONTROL On source]，請按一下來源名稱旁的&#x200B;**[!UICONTROL Exclude]**。
-   1. （選擇性）若要將包含目標資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下&#x200B;**[!UICONTROL Save & Export]**。
+         * 針對[!UICONTROL Public]或[!UICONTROL On Demand]詳細目錄：
+            * 若要包含來源，請按一下來源名稱旁的&#x200B;**[!UICONTROL Include]**。
+            * 若要排除來源，請按一下來源名稱旁的&#x200B;**[!UICONTROL Exclude]**。
+         * 針對[!UICONTROL Private]詳細目錄：
+            * 在[!UICONTROL Deals]索引標籤上：
+               * 若要在交易中包含所有詳細目錄，請按一下交易名稱旁的&#x200B;**[!UICONTROL Include all]**。
+               * 若要包含個別存貨來源，請展開交易名稱，然後按一下來源名稱旁的核取方塊。
+            * 在[!UICONTROL Deal Lists]標籤上，按一下交易清單名稱旁的核取方塊。
+   1. （選擇性）若要將包含目標資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下&#x200B;**[!UICONTROL Export]**。
    1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!TIP]
@@ -256,30 +259,34 @@ ht-degree: 0%
 1. （選擇性）若要將包含目標資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下&#x200B;**[!UICONTROL Export]**。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Exclude Sites or Apps]：** （選擇性；當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）要排除的網站。 您可以搜尋及選取網站，或輸入或貼上網域名稱：
+**[!UICONTROL Exclude Sites or Apps]：** （選擇性；當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）要排除的網站/應用程式和[URL清單](/help/dsp/resources/lists-url-manage.md)。 從[!UICONTROL Paste URL]索引標籤中，您可以搜尋及選取網站，或輸入或貼上網域名稱。 您可以從[!UICONTROL URL Lists]標籤中選取URL清單。
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定網站：
-   * 若要搜尋網站：
-      1. 按一下&#x200B;**[!UICONTROL Search]**。
-      1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
-      1. 在搜尋結果中，選取要排除的網站：
-         * 若要排除個別場地，請選取相鄰的核取方塊。
-         * （可用結果超過50個時）若要排除前50個結果，請按一下&#x200B;**[!UICONTROL Exclude these 50]**。 若要排除所有搜尋結果，請按一下&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
-   * 若要輸入網域名稱，請執行下列動作：
-      1. 按一下&#x200B;**[!UICONTROL Paste]**。
-      1. 在不同行中輸入一或多個網域名稱。
-      1. 按一下&#x200B;**[!UICONTROL Exclude All]**。
+   * 從[!UICONTROL Paste URL]索引標籤：
+      * 若要搜尋網站：
+         1. 按一下&#x200B;**[!UICONTROL Search]**。
+         1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
+         1. 在搜尋結果中，選取要排除的網站：
+            * 若要排除個別場地，請選取相鄰的核取方塊。
+            * （可用結果超過50個時）若要排除前50個結果，請按一下&#x200B;**[!UICONTROL Exclude these 50]**。 若要排除所有搜尋結果，請按一下&#x200B;**[!UICONTROL Exclude these \<*NN *\>]**。
+      * 若要輸入網域名稱，請執行下列動作：
+         1. 按一下&#x200B;**[!UICONTROL Paste]**。
+         1. 在不同行中輸入一或多個網域名稱。
+         1. 按一下&#x200B;**[!UICONTROL Exclude All]**。
+   * 從[!UICONTROL URL Lists]索引標籤：
+      1. （選擇性）在搜尋欄位中輸入全部或部分清單名稱，以搜尋URL清單。
+      1. 選取每個要排除的URL清單旁的核取方塊。
 1. 完成後，請按一下「**[!UICONTROL Done]**」。
 
 >[!NOTE]
 >
 >* 除了套用DSP [全域封鎖的網站清單](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，也會套用帳戶層級和廣告商層級的封鎖網站清單，此清單包含被視為不安全的廣告網站。
->* 封鎖的網站清單一律會覆寫目標網站清單。 如果位置同時排除並包含廣告的相同目標，則會排除目標。
+>* 封鎖的網站清單一律會覆寫目標網站和網站清單。 如果位置同時排除並包含廣告的相同目標，則會排除目標。
 
 **[!UICONTROL Language]：** （選擇性）目標單一語言。
 
-**[!UICONTROL Site or App List Preview]：** （唯讀）此位置的所有鎖定和封鎖網站。
+**[!UICONTROL Site or app list preview]：** （唯讀）所有針對此位置鎖定和封鎖的網站/應用程式，包括帳戶層級、廣告商層級和DSP全域封鎖的網站清單上的網站/應用程式。
 
 您可以選擇將目標網站和封鎖網站的清單匯出為逗號分隔值(CSV)檔案。 若要匯出清單，請按一下&#x200B;**[!UICONTROL Export full site list]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
 
@@ -287,21 +294,30 @@ ht-degree: 0%
 
 **[!UICONTROL Paste list of targeted sites]：**&#x200B;僅允許您鎖定特定網站。 啟用此選項時，其他網站鎖定目標選項會停用。
 
-**[!UICONTROL Sites]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;是&#x200B;*[!UICONTROL On]*&#x200B;時可用）要定位的網站。 您可以搜尋及選取網站，或輸入或貼上網域名稱：
+**[!UICONTROL Sites or Apps]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;是&#x200B;*[!UICONTROL On]*&#x200B;時可用）要定位的網站。 從[!UICONTROL Paste URL]索引標籤中，您可以搜尋及選取網站，或輸入或貼上網域名稱。 您可以從[!UICONTROL URL Lists]標籤中選取URL清單。
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定網站：
-   * 若要搜尋網站：
-      1. 按一下&#x200B;**[!UICONTROL Search]**。
-      1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
-      1. 在搜尋結果中，選取要包含的網站：
-         * 若要排除個別場地，請選取相鄰的核取方塊。
-         * （可用結果超過50個時）若要包含前50個結果，請按一下&#x200B;**[!UICONTROL Include these 50]**。 若要包含所有搜尋結果，請按一下&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
-   * 若要輸入網域名稱，請執行下列動作：
-      1. 按一下&#x200B;**[!UICONTROL Paste]**。
-      1. 在不同行中輸入一或多個網域名稱。
-      1. 按一下&#x200B;**[!UICONTROL Include All]**。
-1. 按一下&#x200B;**[!UICONTROL Done]**。
+   * 從[!UICONTROL Paste URL]索引標籤：
+      * 若要搜尋網站：
+         1. 按一下&#x200B;**[!UICONTROL Search]**。
+         1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
+         1. 在搜尋結果中，選取要包含的網站：
+            * 若要包含個別場地，請選取相鄰的核取方塊。
+            * （可用結果超過50個時）若要包含前50個結果，請按一下&#x200B;**[!UICONTROL Include these 50]**。 若要包含所有搜尋結果，請按一下&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
+      * 若要輸入網域名稱，請執行下列動作：
+         1. 按一下&#x200B;**[!UICONTROL Paste]**。
+         1. 在不同行中輸入一或多個網域名稱。
+         1. 按一下&#x200B;**[!UICONTROL Include All]**。
+   * 從[!UICONTROL URL Lists]索引標籤：
+      1. （選擇性）在搜尋欄位中輸入全部或部分清單名稱，以搜尋URL清單。
+      1. 選取每個要包含的URL清單旁的核取方塊。
+1. 完成後，請按一下「**[!UICONTROL Done]**」。
+
+>[!NOTE]
+>
+>* 除了套用DSP [全域封鎖的網站清單](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，也會套用帳戶層級和廣告商層級的封鎖網站清單，此清單包含被視為不安全的廣告網站。
+>* 封鎖的網站清單一律會覆寫目標網站和網站清單。 如果位置同時排除並包含廣告的相同目標，則會排除該目標。您可以搜尋並選取網站，或輸入或貼上網域名稱：
 
 ## [!UICONTROL Audience Targeting]
 
@@ -323,7 +339,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*： （預設）根據使用者的Cookie、行動廣告ID或連線電視(CTV) ID鎖定使用者。 系統會根據瀏覽器、應用程式內或CTV詳細目錄來選取ID。
 
-* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
+* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
 
    * *[!UICONTROL ID5]*：目標[!DNL ID5] ID是依概率從電子郵件地址和其他訊號建立的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免費提供。 **注意：**&#x200B;來自[!DNL Eyeota]的第三方區段可能包含ID5 ID。
 
@@ -348,7 +364,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
