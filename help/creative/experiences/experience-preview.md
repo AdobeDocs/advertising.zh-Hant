@@ -3,7 +3,7 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. （選用）若要複製體驗的示範URL以與其他人共用，且未登入[!DNL Creative]：
 
-   1. 在預覽的右上角，按一下![共用](/help/creative/assets/share2.png "共用")。
+   1. 在預覽的右上角，按一下![共用](/help/creative/assets/share.png "共用")。
 
    1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 

@@ -3,7 +3,7 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
+source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
    * *一般：*&#x200B;對於您將在其他DSP中建立的廣告。 **注意：**&#x200B;您可能需要視需要手動加入[額外的巨集](/help/creative/creative-macros.md)。
 
-   * *Adobe Advertising：*&#x200B;針對您將在Advertising DSP中建立的廣告。
+   * *Adobe AdCloud：*&#x200B;針對您將在Advertising DSP中建立的廣告。
 
-   * *Google DCM：*&#x200B;針對您將在[!DNL Google Campaign Manager 360]中建立的廣告。 **注意：**&#x200B;您可能需要視需要手動加入[額外的巨集](/help/creative/creative-macros.md)。
+   * *Google CM360：*&#x200B;針對您將在[!DNL Google Campaign Manager 360]中建立的廣告。 **注意：**&#x200B;您可能需要視需要手動加入[額外的巨集](/help/creative/creative-macros.md)。
 
 1. 按一下&#x200B;**[!UICONTROL Generate tags]**。
 
