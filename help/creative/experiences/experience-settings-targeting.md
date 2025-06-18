@@ -3,9 +3,9 @@ title: 目標體驗設定
 description: 請參閱目標廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **RT畫素：** （現有體驗為唯讀；選擇性） [!UICONTROL Creative]將畫素重新定位到潛在目標。 當您在決策樹中設定目標時，可以包含一個RT畫素目標節點層級。 對於每個節點，您將指定要定位的畫素，以及在指定的創意組合中顯示創意所需的畫素屬性值。 如果您在建立體驗時未在此欄位中指定畫素，您仍可在決策樹中指定畫素。<!-- May move this to just within the decision tree. -->
 
-**標籤：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗<!-- sic -->檢視中依標籤篩選體驗。
+**標籤：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗檢視中依標籤篩選體驗，並在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Experience Label]維度。
 
 * 若要選取現有標籤，請按一下![向下](/help/creative/assets/chevron-down.png "向下")，然後選取要套用的每個標籤旁的核取方塊。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **曝光追蹤URL：** （選用）要附加至從體驗建立之任何廣告的登陸頁面URL的協力廠商曝光追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 **點選追蹤URL：** （選用） （選用）要附加至登陸頁面URL的協力廠商點選追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >

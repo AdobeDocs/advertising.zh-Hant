@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增目標節點
 description: 瞭解如何在廣告體驗中的目標節點之間新增目標節點。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ ht-degree: 0%
          1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
          1. 按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. （選用）為使用者定義的分支指定自訂分支名稱。
+
+   依預設，使用者定義的分支會加上套用目標的標籤。
+
+   您無法為「全部」或「其他所有人」分支建立自訂分支名稱。
+
+   1. 將游標停留在目標節點上並按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**。
+
+   1. 輸入&#x200B;**[!UICONTROL Node Name]**，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 執行下列任一項作業：
 

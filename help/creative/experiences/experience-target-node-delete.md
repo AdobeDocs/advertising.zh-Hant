@@ -3,9 +3,9 @@ title: 刪除體驗中的目標節點或創意葉節點
 description: 瞭解如何刪除體驗中的節點。
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. 將游標停留在目標節點或創意葉節點上，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
+1. 將游標停留在目標節點或創意葉節點上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
 
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete Node]**。
 

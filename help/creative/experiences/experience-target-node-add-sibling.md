@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增同層級目標節點
 description: 瞭解如何將同層級節點新增至具有目標或與具有目標之節點位於相同層級的任何節點。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. （選用）為使用者定義的分支指定自訂分支名稱。
+
+   依預設，使用者定義的分支會加上套用目標的標籤。
+
+   您無法為「全部」或「其他所有人」分支建立自訂分支名稱。
+
+   1. 將游標停留在目標節點上並按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**。
+
+   1. 輸入&#x200B;**[!UICONTROL Node Name]**，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 執行下列任一項作業：
 

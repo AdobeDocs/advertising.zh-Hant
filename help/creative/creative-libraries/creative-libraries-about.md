@@ -3,9 +3,9 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * **個別創意：**&#x200B;您可以直接在廣告體驗中包含沒有定義使用者目標的個別創意。 您也可以使用您的創意內容來建立組合，這些組合可包含在鎖定的[廣告體驗](/help/creative/experiences/experience-about.md)中。
 
-   * **標準創意：**&#x200B;您可以上傳和管理[各種格式的創意](#creative-creative-formats)。 針對每個創意，您可為與創意建立關聯的每個廣告指定預設語言、當使用者按一下包含創意的廣告時開啟的預設登陸頁面，以及在[!DNL Creative]內的各種檢視中用作篩選器的選用標籤。
+   * **標準創意：**&#x200B;您可以上傳和管理[各種格式的創意](#creative-creative-formats)。 對於每個創意，您為與創意相關的每個廣告指定預設語言，並指定當使用者按一下包含創意的廣告時開啟的預設登陸頁面。 您可以選擇指定標籤，以在[!DNL Creative]內的各種檢視中作為篩選器使用，並在包含使用[!UICONTROL Creative Label]維度時作為[!UICONTROL Custom Creative Report]中的欄值使用。
 
    * **動態創意：** (僅限現有Adobe Advertising DCO客戶)管理員使用者可以將廣告範本中的動態變數對應到摘要檔案中的值，以建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
 
@@ -90,6 +90,8 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 [!UICONTROL Creative Libraries]主要檢視會顯示您的所有創意程式庫。 每個資料庫的資料包含指派給資料庫套裝的體驗數量、套裝數量、創意內容數量、創意大小數量、預設語言目標數量、建立日期，以及資料庫任何元素的最後修改日期。 表格模式也包含廣告商欄。
 
+當您處於卡片模式時，可以使用&lt;和>按鈕，捲動程式庫中多個創意部分的影像。
+
 #### 可用動作
 
 * 建立新程式庫
@@ -156,7 +158,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]檢視
 
-[!UICONTROL Bundles]檢視會顯示您的所有標準和動態套件組合容器。 您可以檢視每個套件組合中包含的創意內容名稱、創意大小和語言。
+[!UICONTROL Bundles]檢視會顯示您的所有標準和動態套件組合容器。 您可以檢視每個套件組合中包含的創意內容名稱、創意大小和語言。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的套件組合中的影像。
 
 #### 可用動作
 

@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences]檢視
 
-[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Experiences]檢視中啟用[!UICONTROL Metrics]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
+[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Experiences]檢視中啟用[!UICONTROL Metrics]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的體驗中的創意。
 
 您可以建立並管理您的體驗、建立及重新命名廣告體驗標籤，以及匯出JavaScript和iframe格式的標籤，以在DSP上實作。 使用Advertising DSP的廣告商可選擇將廣告標籤直接上傳至Advertising DSP行銷活動。
 

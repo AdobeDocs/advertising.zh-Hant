@@ -3,7 +3,7 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
       * 目標：
 
-        *[將目標節點新增到體驗中的最終層級](experience-target-node-add-final.md)。
+         * [將目標節點新增到體驗中的最終層級](experience-target-node-add-final.md)。
 
          * [在節點之間插入目標節點](experience-target-node-add-inner.md)。
 
