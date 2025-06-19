@@ -3,9 +3,9 @@ title: 非目標體驗的設定
 description: 請參閱不含決策樹定位之廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced]節
 
-**Data Pass：** （僅限使用動態廣告的體驗；選用）根據DSP、發佈者或合作夥伴在曝光時即時傳遞的特定索引鍵/值組來鎖定使用者。 您最多可以指定5個資料傳遞金鑰（引數）。<!-- May move this to just within the decision tree. -->
+**資料傳遞：** （僅限具有動態廣告的體驗；選用）根據DSP、發佈者或合作夥伴在曝光時即時傳遞的特定索引鍵/值組來鎖定使用者(例如SKU=01234567890123或Cart=empty)。 您最多可以指定5個資料傳遞金鑰（引數）。<!-- May move this to just within the decision tree. -->
 
 當您為特定創意大小建立廣告體驗標籤時，在此欄位中指定的每個鍵都會附加為標籤中的巨集。 在DSP中實作標籤作為廣告之前，請輸入標籤內每個索引鍵/值組的值。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Impression Tracking URL]：** （選用）要附加至從體驗建立之任何廣告的登陸頁面URL的協力廠商曝光追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 **[!UICONTROL Click Tracking URL]：** （選用） （選用）要附加至登陸頁面URL的協力廠商點選追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]**&#x200B;並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。![
 
 >[!NOTE]
 >

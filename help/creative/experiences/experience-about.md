@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 特定地理位置，包括國家、州、美國境內的DMA、城市和郵遞區號
 
-   * 從DSP、發佈者或合作夥伴傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
+   * 從DSP、發佈者或合作夥伴(例如SKU=01234567890123或Cart=empty)傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
 
    * [!DNL Creative]正在重新定位畫素和指定的屬性值
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 由於這兩種體驗型別的工作流程不同，您無法在儲存體驗後變更是否使用決策樹目標定位。 這表示您無法將非目標體驗變更為目標體驗。 同樣地，您無法將目標體驗變更為非目標體驗。
+> 由於這兩種體驗型別的工作流程不同，因此您無法將非目標體驗變更為目標體驗，也無法將目標體驗變更為非目標體驗。
 
 ## 廣告服務與最佳化
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative]會根據指定的目標定位（適用時）、排程、廣告輪換和最佳化目標選項，以及可用的廣告詳細目錄，提供第一方廣告並觸發體驗的第三方廣告。
 
@@ -61,6 +61,10 @@ ht-degree: 0%
 
 建立即時體驗（包含所有必要的廣告元素）後，您可以[為整個體驗](experience-tag-export.md)產生JavaScript或iframe標籤。 您可以將體驗標籤作為廣告上傳至Adobe Advertising DSP中的行銷活動，或將其實作協力廠商DSP中的廣告。
 
+>[!NOTE]
+>
+>階層式鎖定目標行為可能因DSP而異。 Advertising DSP會套用廣告層級鎖定目標到版位層級鎖定目標。
+
 ## 您體驗的效能資料
 
 下列為可用的效能資料：
@@ -68,10 +72,6 @@ ht-degree: 0%
 * 當您在「[!UICONTROL Creative] > [!UICONTROL Experiences]」檢視中啟用「[!UICONTROL Metrics]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
 
   ![量度選項](/help/creative/assets/metrics-option.png "量度選項")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * 您可以從[!UICONTROL Experiences]檢視[檢視任何體驗](experience-performance-details.md)的詳細效能資料。
 

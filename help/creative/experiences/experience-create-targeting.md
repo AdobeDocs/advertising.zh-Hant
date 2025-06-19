@@ -3,9 +3,9 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 建立目標體驗後，您之後將無法變更為使用不同工作流程的非目標體驗。
+>* 建立目標體驗後，您之後將無法變更為使用不同工作流程的非目標體驗。
+>* 請確定您的廣告體驗包含與您將要實作它的行銷活動相容的目標定位。 階層式鎖定目標行為可能因DSP而異。 當您將廣告體驗標籤上傳至Advertising DSP並將其附加至刊登版位時，廣告層級鎖定目標會套用至刊登版位層級鎖定目標上方（而非取代該）。 例如，如果位置鎖定澳洲的使用者，而廣告鎖定日本的使用者，則廣告會鎖定「其他所有人」分支。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

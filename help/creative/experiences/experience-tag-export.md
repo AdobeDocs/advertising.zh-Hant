@@ -3,9 +3,9 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 >* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
 >* 當您建立沒有決策樹定位的體驗時，您必須針對每個適用的創意大小[手動建立廣告標籤](experience-tag-create-manually.md)。
 >* 體驗標籤是動態的。 如果您編輯體驗，則不需要更新標籤。
+>* 請確定您將在其中實作廣告體驗的行銷活動包含與體驗相容的目標定位。 階層式鎖定目標行為可能因DSP而異。 在Advertising DSP中，廣告層級鎖定目標是在位置層級鎖定目標後套用，不會取代位置層級鎖定目標。 例如，如果Advertising DSP位置鎖定澳洲的使用者，而廣告鎖定日本的使用者，則該廣告會鎖定「其他所有人」分支。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
