@@ -3,9 +3,9 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
+source-git-commit: 9782471837db19d14839027ea7a576484863bb69
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 #### 影像創意
 
-您可以在GIF、JPEG、JPG或PNG格式中包含影像創意。 您可以從您的Adobe Experience Manager帳戶上傳影像，或從您的裝置或網路上傳影像。
+您可以在GIF、JPEG、JPG或PNG格式中包含影像創意。 您可以從您的Adobe Experience Manager帳戶上傳已核准的影像，或從您的裝置或網路上傳影像。
 
 每個廣告體驗都需要為指派給體驗的每個創意大小提供預設影像創意。
 

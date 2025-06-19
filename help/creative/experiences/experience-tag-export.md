@@ -3,9 +3,9 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 特定創意大小的廣告標籤可用於[即時](experience-about.md#experience-statuses)體驗後，您就可以在JavaScript和iframe格式中產生並複製該標籤，以在Advertising DSP或其他DSP上實作。 DSP的標籤包含DSP所需的所有巨集。
 
-使用Advertising DSP的廣告商可選擇將標籤直接上傳至Advertising DSP促銷活動作為廣告。
+使用Advertising DSP的廣告商可選擇直接將標籤上傳至Advertising DSP行銷活動，作為廣告型別為「標準顯示」的廣告。
 
 >[!NOTE]
 >
 >* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
 >* 當您建立沒有決策樹定位的體驗時，您必須針對每個適用的創意大小[手動建立廣告標籤](experience-tag-create-manually.md)。
 >* 體驗標籤是動態的。 如果您編輯體驗，則不需要更新標籤。
->* 請確定您將在其中實作廣告體驗的行銷活動包含與體驗相容的目標定位。 階層式鎖定目標行為可能因DSP而異。 在Advertising DSP中，廣告層級鎖定目標是在位置層級鎖定目標後套用，不會取代位置層級鎖定目標。 例如，如果Advertising DSP位置鎖定澳洲的使用者，而廣告鎖定日本的使用者，則該廣告會鎖定「其他所有人」分支。
+>* 請確定您將在其中實作廣告體驗的行銷活動包含與體驗相容的目標定位。 階層式鎖定目標行為可能因DSP而異。 在Advertising DSP中，廣告層級鎖定目標會套用在（而非）位置層級鎖定目標上方。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -81,7 +81,6 @@ ht-degree: 0%
 
       1. 在[!UICONTROL Create ads]檢視中，檢閱廣告標籤，選取您要建立廣告的每個標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-         [!UICONTROL Ads]檢視現在包含新廣告，其名稱與[!DNL Creative]中的廣告標籤相同。 您可以[將廣告附加至行銷活動中的任何位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)。
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
