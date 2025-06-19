@@ -3,9 +3,9 @@ title: 建立不含決策樹定位的體驗
 description: 瞭解如何在不鎖定目標的情況下建立廣告體驗。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 1. （選用）繼續設定體驗：
 
    * [手動建立適用創意大小的廣告標籤](experience-tag-create-manually.md)。
+
+     然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
 
      [!DNL Creative]不會自動為非目標體驗建立廣告標籤。
 

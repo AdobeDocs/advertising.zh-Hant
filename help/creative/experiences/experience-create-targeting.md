@@ -3,9 +3,9 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
       * 目標：
 
-         * [將目標節點新增到體驗中的最終層級](experience-target-node-add-final.md)。
+         * [新增目標節點至最終層級](experience-target-node-add-final.md)。
 
          * [在節點之間插入目標節點](experience-target-node-add-inner.md)。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
       * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
 
-當體驗上線時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
+當體驗上線時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。 然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
 
 >[!MORELIKETHIS]
 >
