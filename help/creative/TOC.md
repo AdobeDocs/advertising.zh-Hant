@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative指南
 hide: true
-source-git-commit: 1d48dd40b0803220ab933c06e1f9d25a18aefde4
+source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + 簡介 {#introduction}
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -69,7 +69,7 @@ ht-degree: 0%
    + [預覽體驗](/help/creative/experiences/experience-preview.md)
    + [匯出並實作即時體驗的廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)
    + [分享體驗的示範URL](/help/creative/experiences/experience-share-demo-url.md)
-   + [下載檢視中的所有體驗](/help/creative/experiences/experience-download-view.md)
+   + [從[!UICONTROL Experiences]檢視下載資料](/help/creative/experiences/experience-download-view.md)
    + [重新命名廣告標籤](/help/creative/experiences/experience-tag-rename.md)
    + [刪除體驗](/help/creative/experiences/experience-delete.md)
 + 效能報表 {#reports}
@@ -78,4 +78,4 @@ ht-degree: 0%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
