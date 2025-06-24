@@ -3,7 +3,7 @@ title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
+source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 * 您可以維持24小時的登入狀態，而不需每小時登入。
 
-您目前的DSP憑證將保持作用中狀態直至2025年6月26日，以便您能夠為變更做好準備。
+您目前的DSP憑證將保持作用中狀態直至2025年7月15日，以便您能夠為變更做好準備。
 
 ## 使用舊版DSP登入進行驗證
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 1. 選擇您的組織：
 
-   * 如果出現提示，請選取&#x200B;**個人帳戶」或&#x200B;**&#x200B;公司或學校帳戶**。
+   * 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。
 
    * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ### 疑難排解
 
-如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/tw/manage-account/kb/account-password-sign-help.linkfree.html)。
+如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)。
 
 #### 啟用新的[!DNL Adobe] IMS登入是否有任何先決條件？
 
