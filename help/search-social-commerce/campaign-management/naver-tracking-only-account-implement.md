@@ -18,7 +18,7 @@ ht-degree: 0%
 
 追蹤行銷活動會復寫您現有的行銷活動、廣告群組和關鍵字。 您在「搜尋」、「社交」和「Commerce」中建立帳戶結構，並將追蹤新增至廣告網路內的原始行銷活動後，就可以上傳關鍵字或廣告的每日網路流量量度。 然後搜尋、Social和Commerce可以將您的轉換歸因於廣告和關鍵字。
 
-您可以追蹤所有行銷活動以及任何個別行銷活動、廣告群組或關鍵字/廣告的績效量度。 您也可以在最基本、進階和協助報表中包含這些報表的相關資訊，以及其他廣告網路的資料。 不支援將量度匯出至Adobe Analytics，但搜尋、社交和Commerce可將您在 [!DNL Analytics]](/help/integrations/analytics/analytics-data-in-advertising.md)中追蹤的[量度同步至搜尋、社交和Commerce。
+您可以追蹤所有行銷活動以及任何個別行銷活動、廣告群組或關鍵字/廣告的績效量度。 您也可以在最基本、進階和協助報表中包含這些報表的相關資訊，以及其他廣告網路的資料。 不支援將量度匯出至Adobe Analytics，但搜尋、社交和Commerce可將您在 [!DNL Analytics][&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中追蹤的量度同步至搜尋、社交和Commerce。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
          您可以包含關鍵字的相關資料，包括父促銷活動和廣告群組。
 
-      1. 如有必要，請編輯大量表單檔案，使其遵循 [!DNL Naver] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)所需的Search、Social和Commerce [大量表單格式。
+      1. 如有必要，請編輯大量表單檔案，使其遵循 [!DNL Naver] 帳戶[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)所需的Search、Social和Commerce 大量表單格式。
 
       1. 在「搜尋」、「社交」和「Commerce」中，[上傳Bulksheet檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       您可以將檔案上傳至廣告網路編輯器中的網路，藉此將URL新增至相關實體。 在這種情況下，您可能需要根據網路的資料需求移除一些欄。 否則，您必須在網路上手動輸入URL。
 
-1. 定期從廣告網路下載您正在追蹤的關鍵字或廣告群組層級品牌廣告的每日累計點按和成本資料，然後以[必要格式](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)將點按和成本資料](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)上傳到Search， Social， &amp; Commerce。[
+1. 定期從廣告網路下載您正在追蹤的關鍵字或廣告群組層級品牌廣告的每日累計點按和成本資料，然後以[必要格式](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)將點按和成本資料[&#128279;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)上傳到Search， Social， &amp; Commerce。
 
    包含完整的帳戶階層以及您要包含的任何量度。 搜尋、Social和Commerce會將上傳的資料與現有行銷活動中的資料比對。
 
@@ -75,4 +75,4 @@ ht-degree: 0%
 >* [附錄 —  [!DNL Naver] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)的必要大量表單資料
 >* [上傳 [!DNL Naver] 僅限追蹤帳戶](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)的流量和轉換量度
 >* [僅追蹤帳戶 [!DNL Naver] 的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式

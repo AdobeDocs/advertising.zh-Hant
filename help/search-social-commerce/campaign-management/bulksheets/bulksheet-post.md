@@ -35,7 +35,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 >
 >* 大量資料需要更長的時間才能發佈。 您可以在[!UICONTROL Bulksheets]檢視的[!UICONTROL Progress]資料行中追蹤檔案進度。
 >* 所有張貼的資料都受限於網路的編輯程式。
-* 在張貼Bulksheet檔案之前，您可以取消張貼。
+>* 在張貼Bulksheet檔案之前，您可以取消張貼。
 
 ## 張貼大量工作表和已更正錯誤檔案的設定 {#bulksheet-post-settings}
 

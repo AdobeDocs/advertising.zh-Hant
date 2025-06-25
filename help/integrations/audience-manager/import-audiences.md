@@ -30,7 +30,7 @@ Advertising DSP和[!DNL Advertising Search, Social, & Commerce]可以各自提�
 
   實作包括將[!DNL Identity service]程式碼新增至廣告商網站上的每個網頁。
 
-* 組織必須已啟用Experience Cloud服務[](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)，且具有Experience Cloud [!DNL Organization ID] （先前稱為[!DNL IMS org ID]）。
+* 組織必須已啟用Experience Cloud服務[&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)，且具有Experience Cloud [!DNL Organization ID] （先前稱為[!DNL IMS org ID]）。
 
   [!UICONTROL Organization ID]可讓擁有多個Adobe Experience Cloud產品的組織在某些產品之間共用資料。
 

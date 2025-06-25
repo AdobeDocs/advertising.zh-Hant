@@ -21,6 +21,6 @@ ht-degree: 0%
 
   您可以選擇下載含有現有[!DNL Pinterest]、[!DNL Yahoo Native]和[!DNL Yahoo! Display Network]帳戶資料的Bulksheet檔案，但無法上傳或張貼。
 
-* 選項3：設定自動化程式，以根據您在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]中建立的廣告網路特定廣告範本，[建立帳戶結構，以及針對您詳細目錄](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)中每個專案的動態廣告和關鍵字。 根據您手動上傳或上傳至FTP位置的詳細目錄資料檔案內容，或[!DNL Google Merchant Center]或[!DNL Microsoft Merchant Center]帳戶的內容建立範本。 您可以設定您的資料在建立後立即自動張貼，或是在您檢閱資料後手動張貼至廣告網路。 此選項適用於[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]和[!DNL Yandex]帳戶。
+* 選項3：設定自動化程式，以根據您在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]中建立的廣告網路特定廣告範本，[建立帳戶結構，以及針對您詳細目錄](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)中每個專案的動態廣告和關鍵字。 根據您手動上傳或上傳至FTP位置的詳細目錄資料檔案內容，或[!DNL Google Merchant Center]或[!DNL Microsoft Merchant Center]帳戶的內容建立範本。 您可以設定您的資料在建立後立即自動張貼，或是在您檢閱資料後手動張貼至廣告網路。 此選項適用於[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]和[!DNL Yandex]帳戶。
 
   您無法使用此方法建立版位。

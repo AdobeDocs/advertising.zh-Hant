@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * 網站：輸入有效的URL，例如www.example.com。 請參閱「如何新增您的排除URL」中的允許格式，網址為https://support.google.com/google-ads/answer/2454012。
 
-   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案](https://developers.google.com/adwords/api/docs/appendix/verticals)的[清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
+   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案[&#128279;](https://developers.google.com/adwords/api/docs/appendix/verticals)的清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
 
 1. 按一下&#x200B;**[!UICONTROL Post]**。
 

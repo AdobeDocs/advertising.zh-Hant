@@ -35,7 +35,7 @@ ht-degree: 0%
 
       1. 輸入[!DNL Google Analytics]帳戶的數值ID。
 
-      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的[指示。
+      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics][&#128279;](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的指示。
 
          >[!TIP]
          >
@@ -57,7 +57,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)之API要求的配額和呼叫限制的[詳細資訊。
+      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關 [!DNL Google Analytics][&#128279;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)之API要求的配額和呼叫限制的詳細資訊。
 
    1. 在[!UICONTROL Metric Tag]區段中，輸入要附加至資料來源之每個量度的標籤名稱。
 
