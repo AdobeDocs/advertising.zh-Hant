@@ -3,9 +3,9 @@ title: 將行銷活動指派至投資組合
 description: 瞭解如何在產品組合中加入行銷活動以進行最佳化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告，最佳化出價、行銷活動預算和競標策略目標。 您可以在建立投資組合時，或透過編輯投資組合的設定，從[!UICONTROL Campaigns]檢視將行銷活動指派給投資組合。
 
-並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請查閱最佳化指南中「Portfolio」一章的「依行銷活動競標策略的合格Portfolio型別」(位於「搜尋」、「社交」和「Commerce」中)，以驗證每個行銷活動競標策略的最佳化支援。<!-- verify convention for referencing Optimization Guide here -->
+並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請透過參閱「產品組合」上「最佳化指南」一章中的「依行銷活動競標策略區分的合格Portfolio型別」(可在Search、Social和Commerce中取得)，驗證每個行銷活動競標策略的最佳化支援。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >每個行銷活動只能指派給一個投資組合。 如果您將已與其他投資組合關聯的行銷活動指派給新投資組合，則會將其從原始投資組合中移除。
 
-## 從[!UICONTROL Campaigns]檢視指派行銷活動至投資組合
+## （新UI）從[!UICONTROL Manage] > [!UICONTROL Campaigns]檢視將行銷活動指派給現有投資組合
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 選取每個行銷活動旁的核取方塊，以指派至單一投資組合。
+
+1. 在工具列中按一下![更多動作](/help/search-social-commerce/assets/more-actions.png "更多動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/assign.png "指派") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** 。
+
+1. 選取投資組合。
+
+1. 按一下&#x200B;**[!UICONTROL Assign Now]**。
+
+## （新UI）從「[!UICONTROL Manage] > [!UICONTROL Campaigns]」檢視將行銷活動指派給新的投資組合
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 選取您要為其建立新投資組合的每個行銷活動旁的核取方塊。
+
+1. 在工具列中按一下![其他動作](/help/search-social-commerce/assets/more-actions.png "其他動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/assign.png "指派") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
+
+1. 在[!UICONTROL Create Portfolio]畫面中，指定[投資組合設定](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)。
+
+   您先前選取的行銷活動已指派給行銷活動。 您可以選擇編輯投資組合的行銷活動清單。
+
+1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
+
+## （舊版UI）從[!UICONTROL Campaigns]檢視將行銷活動指派給產品組合
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
@@ -58,7 +84,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從[!UICONTROL Portfolios]檢視變更產品組合中的行銷活動
+## （舊版UI）從[!UICONTROL Portfolios]檢視變更產品組合中的行銷活動
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**，然後找到投資組合。
 
@@ -72,9 +98,9 @@ ht-degree: 0%
 
    * 若要在[!UICONTROL Available Campaigns]區段中新增個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Assigned Campaigns]清單或按一下![將行銷活動指派給投資組合](/help/search-social-commerce/assets/arrow-assign.png "將行銷活動指派給投資組合")。
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。![
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。![
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
