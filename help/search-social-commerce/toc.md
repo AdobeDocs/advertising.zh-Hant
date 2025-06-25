@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1746'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,16 @@ ht-degree: 2%
    + [支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)
    + 與Adobe Experience Cloud整合 {#integrations}
       + [與Adobe Experience Cloud解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}
-      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hant){target="_blank"}
-   + [消費者隱私權支援（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hant){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [消費者隱私權支援（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入門 {#getting-started}
    + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系統需求](/help/search-social-commerce/getting-started/system-requirements.md)
    + [登入](/help/search-social-commerce/getting-started/sign-in.md)
    + [使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)
+   + [在新的和舊版使用者介面之間切換](/help/search-social-commerce/getting-started/ui-switch.md)
    + [登出](/help/search-social-commerce/getting-started/sign-out.md)
 + 常見任務 {#common-tasks}
    + [檢視其他廣告商的資料](/help/search-social-commerce/common-tasks/change-advertiser.md)
@@ -80,7 +81,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
+      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID (s_kwcid)追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 轉換追蹤 {#conversion-tracking}
       + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)
