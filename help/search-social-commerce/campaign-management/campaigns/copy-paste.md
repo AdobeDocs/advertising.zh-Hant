@@ -3,7 +3,7 @@ title: 使用複製並貼上大量建立和編輯行銷活動資料
 description: 瞭解如何使用複製並貼上功能大量管理行銷活動資料。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 複製資料列
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**。
 
 1. 選取要複製的每一列旁的核取方塊。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 在[!DNL Excel]或其他編輯器中，複製相關的定位字元分隔列。
 
-1. 在「搜尋、社交及Commerce」主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**」。 開啟要貼上資料的檢視(**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**)。
+1. 在「搜尋、社交及Commerce」主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**」。 開啟要貼上資料的檢視(**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**)。
 
 1. 在資料表上方的工具列中，按一下![更多](/help/search-social-commerce/assets/more.png "更多")，然後按一下&#x200B;**[!UICONTROL Paste]**。
 

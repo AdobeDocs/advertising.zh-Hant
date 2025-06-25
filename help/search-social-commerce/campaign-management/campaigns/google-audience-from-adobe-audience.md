@@ -3,7 +3,7 @@ title: 建立來自 [!DNL Adobe] 受眾的 [!DNL Google Ads] 客戶比對受眾
 description: 瞭解如何從您現有的Adobe Analytics和Audience Manager對象建立 [!DNL Google Ads] 客戶比對對象。
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. （若要建立使用者ID再行銷清單對象） [!DNL Adobe]管理員使用者或帳戶管理員必須選取廣告商層級的設定，才能啟用客戶比對對象。
 
-   1. 實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 2.0或更新版本。
+   1. 實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 2.0或更新版本。
 
    1. 在廣告商的網頁上儘可能部署以下標籤，並從中追蹤對象
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    1. （如果尚未完成）授權的使用者必須將廣告商帳戶設定為[與Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md)中的廣告商組織帳戶同步。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 

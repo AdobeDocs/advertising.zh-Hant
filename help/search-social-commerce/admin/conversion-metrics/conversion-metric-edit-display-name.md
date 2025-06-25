@@ -3,7 +3,7 @@ title: 變更轉換量度的顯示名稱
 description: 瞭解如何變更管理檢視和報告欄標題中顯示的轉換量度名稱。
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於來自Google Analytics[&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)的量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則會忽略Google Analytics中的任何名稱變更。
+>對於來自Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md)的[量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則Google Analytics中的任何名稱變更都會被忽略。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
 
 1. 在量度的&#x200B;**[!UICONTROL Display Name]**&#x200B;欄中，按一下儲存格內部。
 

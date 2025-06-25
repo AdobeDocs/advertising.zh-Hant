@@ -4,7 +4,7 @@ description: 瞭解如何在變更相關密碼或憑證過期時，重新驗證 
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 如果您變更用於資料來源的電子郵件帳戶密碼，或帳戶的[!DNL OAuth]憑證過期，則會關閉與電子郵件帳戶的所有開啟連線，您必須重新驗證以繼續同步資料。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
 
 1. 選取您要重新驗證的資料來源旁的核取方塊。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Connect to Google Analytics]區段中，執行下列動作。
 
-      1. （如有必要）輸入新的電子郵件地址，以使用此資料來源的資料進行存取。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics][&#128279;](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的指示。
+      1. （如有必要）輸入新的電子郵件地址，以使用此資料來源的資料進行存取。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的[指示。
 
          >[!TIP]
          >

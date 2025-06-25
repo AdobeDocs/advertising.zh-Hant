@@ -3,7 +3,7 @@ title: 啟動自訂警報範本
 description: 瞭解如何啟用暫停的警報範本。
 exl-id: d821d431-24fc-45ee-bb3f-7c9691ab15be
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以啟動暫停的警報範本。
 
-1. 在主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**」，此動作會開啟至「警報範本」檢視。
+1. 在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**」，此動作會開啟至「警報範本」檢視。
 
 1. 執行下列任一項作業：
 

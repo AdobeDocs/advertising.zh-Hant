@@ -3,7 +3,7 @@ title: 管理購物產品群組
 description: 瞭解如何在購物行銷活動中建立和管理購物產品群組。
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]購物行銷活動*
 
-您可以在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]檢視中建立和編輯產品群組，以及刪除產品群組及其子產品群組。
+您可以在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups]檢視中建立和編輯產品群組，以及刪除產品群組及其子產品群組。
 
 ## 建立&quot;[!UICONTROL All Products]&quot;產品群組
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >若要同時建立多個帳戶元件，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >若要同時建立多個帳戶元件，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （選擇性）若要在樹狀檢視中檢視產品群組及其子產品群組節點，請將游標停留在產品群組名稱上，按一下![功能表圖示](/help/search-social-commerce/assets/arrow-dropdown-menu.png "功能表圖示")，然後選取&#x200B;**[!UICONTROL Tree View]**。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 您可以編輯廣告群組中包含之單位產品群組節點（沒有子產品群組節點的產品群組）的競標與追蹤範本。 您無法編輯已排除的單位產品群組或已包含或已排除的細分節點的任何資訊，這些節點是具有子項產品群組節點的產品群組。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （選擇性）若要在樹狀檢視中檢視產品群組及其子產品群組節點，請將游標停留在產品群組名稱上，按一下![功能表圖示](/help/search-social-commerce/assets/arrow-dropdown-menu.png "功能表圖示")，然後選取&#x200B;**[!UICONTROL Tree View]**。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 您可以刪除任何產品群組（當其他產品群組位於相同層級時，則除了「其他所有專案」群組），這些產品群組用於決定您的商家中心帳戶中的哪些產品包含在廣告群組的購物廣告中。 刪除產品群組將會刪除所有子產品群組。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Product Groups]**。
 
 1. （選用）篩選清單以包含特定產品群組。
 

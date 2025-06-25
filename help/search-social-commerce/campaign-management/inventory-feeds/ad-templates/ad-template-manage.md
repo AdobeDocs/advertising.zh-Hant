@@ -3,7 +3,7 @@ title: 管理詳細目錄摘要的廣告範本
 description: 瞭解如何管理廣告範本，透過這些範本可處理您的詳細目錄資料，以管理帳戶結構並提供動態廣告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 為文字和擴充/延伸文字廣告、回應式搜尋廣告、[!DNL Google Ads]購物廣告和[!DNL Microsoft Advertising]購物廣告建立個別範本。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 執行下列任一項作業：
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >您可以手動透過暫停的範本傳播資料，但資料不會自動透過它傳播。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 選取每個要變更其狀態的範本旁的核取方塊。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 ## 刪除摘要範本
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 選取要刪除的每個範本旁的核取方塊。
 

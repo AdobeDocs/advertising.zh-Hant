@@ -3,7 +3,7 @@ title: 使用客戶資料清單管理客戶比對受眾
 description: 瞭解如何從您的客戶資料清單建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客戶比對對象。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[上傳雜湊資料格式化指南](https://support.google.com/google-ads/answer/7476159)」的[!DNL Google Ads]檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[準備客戶比對清單](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -91,9 +91,9 @@ ht-degree: 0%
 
 1. 針對現有資料型別，以所需格式產生含有客戶資料的檔案。
 
-名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[上傳雜湊資料格式化指南](https://support.google.com/google-ads/answer/7476159)」的[!DNL Google Ads]檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[準備客戶比對清單](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
+名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[上傳雜湊資料格式化指南](https://support.google.com/google-ads/answer/7476159)」的[!DNL Google Ads]檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[準備客戶比對清單]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 選取要編輯的對象旁的核取方塊。
 

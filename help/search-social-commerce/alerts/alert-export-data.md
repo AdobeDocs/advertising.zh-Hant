@@ -3,7 +3,7 @@ title: 匯出自訂警報的資料
 description: 瞭解如何將觸發式警報的資料匯出至檔案。
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * （若要匯出最近觸發警示範本的資料）在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此動作會開啟警示範本檢視。
+   * （若要匯出最近觸發警示範本的資料）在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，此動作會開啟警示範本檢視。
 
-   * （若要匯出特定觸發警示的資料）在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Triggered Alerts]**。
+   * （若要匯出特定觸發警示的資料）在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Triggered Alerts]**。
 
 1. 在範本或報表名稱旁的[!UICONTROL Export]欄中，按一下格式的名稱，然後依照瀏覽器的正常程式開啟或儲存檔案：
 

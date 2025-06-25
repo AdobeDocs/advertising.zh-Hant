@@ -3,7 +3,7 @@ title: 關於使用大量表單管理行銷活動資料
 description: 瞭解廣告網路、大量表單工作流程和錯誤處理可用的大量表單功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 每個檔案的相關資訊
 
-可從[!UICONTROL Search] > [!UICONTROL Bulksheets]取得所有已下載的資料檔、已上傳的檔案和錯誤檔。
+可從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]取得所有已下載的資料檔、已上傳的檔案和錯誤檔。
 
 每個檔案的資訊包括目前任務狀態以及完成任務的百分比、建立日期、（適用時）張貼至指定廣告網路的日期、排程的刪除日期，以及起始任務之使用者的登入名稱。
 

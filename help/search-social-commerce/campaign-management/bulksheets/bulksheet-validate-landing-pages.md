@@ -3,7 +3,7 @@ title: 驗證Bulksheet檔案中的登入頁面
 description: 瞭解如何驗證單一帳戶大量表單檔案中的目的地URL。
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* 此功能不會驗證基礎URL/最終URL欄中的值。
 >* 您可以在驗證Bulksheet檔案時張貼這些檔案，即使發現錯誤也是如此。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 選取每個要驗證的檔案旁的核取方塊。
 

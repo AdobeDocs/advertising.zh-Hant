@@ -3,7 +3,7 @@ title: 變更刊登版位和負面刊登版位的狀態
 description: 瞭解如何變更 [!DNL Google Ads]的刊登版位和負面刊登版位狀態。
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您也可以刪除作用中或暫停的位置或負面位置。 刪除的版位/負面版位會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下「**[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \|」 [!UICONTROL Negatives]\]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下「**[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \|」 [!UICONTROL Negatives]\]**。
 
 1. （選用）篩選清單以包含特定版位或負面版位。
 

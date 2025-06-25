@@ -3,7 +3,7 @@ title: 編輯報表範本
 description: 瞭解如何編輯可重複使用報表範本的設定。
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以變更您建立的任何報表範本的設定。 新設定會套用至使用未來產生之範本的任何報表。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 按一下「**[!UICONTROL Templates]**」標籤。
 

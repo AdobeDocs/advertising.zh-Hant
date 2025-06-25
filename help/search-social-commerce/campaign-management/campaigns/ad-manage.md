@@ -3,7 +3,7 @@ title: 管理廣告
 description: 瞭解如何建立和管理廣告。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >若要同時建立多個廣告，請使用[複製並貼上功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Post]**。
 
-1. (促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用)若要追蹤廣告上的點按，[使用追蹤URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，然後手動將其新增至帳戶、促銷活動或產品群組設定。
+1. (促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用)若要追蹤廣告上的點選次數，[請使用追蹤URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，然後手動將其新增至帳戶、促銷活動或產品群組設定。
 
 ## 編輯廣告設定
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >若要一次編輯大量資料，請使用[複製並貼上功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
 
 1. 執行下列任一項作業：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 您也可以刪除任何作用中或暫停的搜尋廣告。 刪除的廣告會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Ads]**。
 
 1. （選用）篩選清單以包含特定廣告。
 

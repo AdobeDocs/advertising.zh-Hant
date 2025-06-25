@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* （[!DNL Google Ads]僅限） [!UICONTROL Channel]可能的值為&quot;[!UICONTROL Local]&quot;或&quot;[!UICONTROL Online]&quot;，[!UICONTROL ChannelExclusivity]可能的值為&quot;[!UICONTROL SingleChannel]&quot;和&quot;[!UICONTROL MultiChannel]&quot;。
->* 當您從[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中的[!UICONTROL Product Groups]索引標籤為廣告群組建立第二層（子項）產品群組時，系統會使用預設廣告群組競標自動建立另一個名為「[!UICONTROL Everything Else]」的產品群組。 但是，使用庫存摘要範本時，會排除&quot;[!UICONTROL Everything Else]&quot;產品群組。
+>* 當您從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中的[!UICONTROL Product Groups]索引標籤為廣告群組建立第二層（子項）產品群組時，系統會使用預設廣告群組競標自動建立另一個名為「[!UICONTROL Everything Else]」的產品群組。 但是，使用庫存摘要範本時，會排除&quot;[!UICONTROL Everything Else]&quot;產品群組。
 >* 如果您包含多個層級，且最終（最高編號）層級沒有可用值，則次高層級會用作可競標產品群組。 例如，如果您包含五個層級，但層級5沒有可用的值，則層級4會作為可競標的產品群組（單位）。 但是，如果中間層沒有可用的值，則會忽略該列。 例如，如果您包含五個層級，而層級5有一個值，但層級4沒有，則會忽略第4列。

@@ -3,7 +3,7 @@ title: 關於自訂警報
 description: 瞭解自訂警報，包括如何建立警報範本及何時觸發警報。
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 指定的收件者會收到電子郵件通知。 當警示最多包含1000筆記錄時，電子郵件通知會包含含有警示資料的[CSV](/help/search-social-commerce/glossary.md#c-d)檔案，其中包含觸發警示之所有實體的資料。
 
-* 警示列在[!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]的[!UICONTROL Triggered Alerts]檢視中。 觸發警報後，10天內皆可使用可下載的報表。
+* 警示列在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]的[!UICONTROL Triggered Alerts]檢視中。 觸發警報後，10天內皆可使用可下載的報表。
 
 * 警示會列在適用實體檢視的[!UICONTROL Notifications]中心，此檢視可從右側工具列取得。 除非您刪除通知或將其標示為已讀取，否則通知會保留在[!UICONTROL Notifications]中心。
 

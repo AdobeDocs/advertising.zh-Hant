@@ -3,7 +3,7 @@ title: 將共用的網站連結與帳戶、行銷活動和廣告群組建立關�
 description: 瞭解如何將共用網站連結擴充功能指派給帳戶、行銷活動和廣告群組。
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您必須至少有六個案頭和行動裝置的有效網站連結，網站連結才會與廣告一同顯示。 您最多可以為每個帳戶、行銷活動或廣告群組指派20個網站連結。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")，然後選取&#x200B;**[!UICONTROL Sitelink]**。
 

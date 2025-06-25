@@ -3,7 +3,7 @@ title: 編輯試算表報表摘要設定
 description: 瞭解如何編輯試算表摘要的設定。
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 > 如果您編輯報表範本中的欄，或使用新的或更新後的報表範本，則必須相應地更新[!DNL Excel]範本並再次上傳。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
 1. （選用）若要更新用於試算表摘要的報表範本或[!DNL Excel]範本：
 

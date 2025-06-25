@@ -3,7 +3,7 @@ title: 產生基本報表或進階報表
 description: 瞭解如何產生自訂的基本或進階報表。
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產生基本報表或進階報表
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Report]**，將游標放在&#x200B;**[!UICONTROL Basic Reports]**&#x200B;或&#x200B;**[!UICONTROL Advanced Reports]**&#x200B;上，然後按一下[報告型別](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)。
 

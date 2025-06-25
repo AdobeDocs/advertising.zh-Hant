@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising]轉換資料'
 description: 瞭解搜尋、社交和Commerce中可用的 [!DNL Microsoft Advertising]追蹤轉換資料型別。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 [當兩個不同的量度具有相同的名稱時，報表並不準確。
 >* 競標單位層級的資料符合相同層級廣告網路中的資料。 不過，廣告網路自己的更高層級轉換資料可能包含未歸因至子競標單位的額外轉換。 搜尋、Social和Commerce中的資料一律會從競標單位層級彙總，因此（舉例來說）行銷活動層級報表的總數可能與廣告網路中的行銷活動層級報表不同。
 >* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
 >* 對象或地理位置層級沒有資料，因此不會用來自動最佳化RLSA和位置競標調整。
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 在「搜尋」、「社交」和「Commerce」中，使用檢視或報表選項，根據點按日期（而非交易日期）檢視轉換。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Report]**，將游標放在&#x200B;**[!UICONTROL Basic Reports]**&#x200B;上，然後按一下&#x200B;**[!UICONTROL Search Engine Account Report]**。
 

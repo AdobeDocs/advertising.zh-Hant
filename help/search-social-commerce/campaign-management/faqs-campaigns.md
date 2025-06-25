@@ -3,7 +3,7 @@ title: 行銷活動的相關常見問題集
 description: 檢視有關行銷活動管理和行銷活動資料檢視的問答。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >（擁有產品組合的廣告商）搜尋、Social和Commerce收集資料以建立模型時，期望新關鍵字和相符型別組合的效能不穩定。
 
-**動作（在[!UICONTROL Search] > [!UICONTROL Campaigns]檢視中、在Bulksheet張貼程式中，以及在廣告網路自己的編輯器中）：**
+**動作（在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]檢視中、在Bulksheet張貼程式中，以及在廣告網路自己的編輯器中）：**
 
 在下列情況下，現有關鍵字或廣告會遭到刪除，並會建立另一個關鍵字或廣告：
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 在廣告商時區的08:00和16:00提取當天搜尋網路上的[!DNL Google Ads]行銷活動層級績效量度。
 
-在[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視和[!UICONTROL Optimization] > [!UICONTROL Portfolios]檢視的[!UICONTROL Campaigns]索引標籤中，當您在[!UICONTROL Today]或包含當天的自訂日期範圍上報告時，資料包含最近同步處理的資料。
+在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視和[!UICONTROL Optimization] > [!UICONTROL Portfolios]檢視的[!UICONTROL Campaigns]索引標籤中，當您在[!UICONTROL Today]或包含當天的自訂日期範圍上報告時，資料包含最近同步處理的資料。
 
 >[!NOTE]
 >
@@ -119,9 +119,9 @@ ht-degree: 0%
 
 平行追蹤會直接將客戶從您的廣告傳送至最終URL，其中可能包含最終URL尾碼或「登陸頁面尾碼」的附加引數。 您的追蹤範本URL （以及點選測量的其他引數）會單獨在背景中載入，讓您的登入頁面載入更快。
 
-搜尋、社交和Commerce支援使用廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`；[!DNL Google Ads]為`gclid`）來平行追蹤搜尋和購物行銷活動。 使用[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] （在廣告網路中稱為「[!DNL final URL suffix]」），其會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 檢視 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+搜尋、社交和Commerce支援使用廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`；[!DNL Google Ads]為`gclid`）來平行追蹤搜尋和購物行銷活動。 使用[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] （在廣告網路中稱為「[!DNL final URL suffix]」），其會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
-當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在[!UICONTROL Landing Page Suffix]中使用的相同點按識別碼引數。 檢視 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[追蹤範本格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的追蹤範本格式。
+當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在[!UICONTROL Landing Page Suffix]中使用的相同點按識別碼引數。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[追蹤範本格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[追蹤範本格式。
 +++
 
 +++為什麼我的廣告的追蹤URL包含&quot;`&EV_HASH={<hash>}`&quot;？

@@ -3,7 +3,7 @@ title: 產生協助報告
 description: 瞭解如何產生協助報告。
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 產生協助報告
 
-*廣告商具有搜尋、社交和Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
+*廣告商具有搜尋、社交及Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Report]**，將游標停留在&#x200B;**[!UICONTROL Assist Reports]**&#x200B;上，然後按一下報表型別。
 

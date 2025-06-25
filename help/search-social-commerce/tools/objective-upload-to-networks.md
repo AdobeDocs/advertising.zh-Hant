@@ -3,7 +3,7 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Google廣告和Microsoft Advertising通用事件追蹤(UET)標籤追蹤的轉換不會重新上傳至廣告網路。 如果您將它們包含在目標中，則必須將它們新增至廣告網路編輯器中的行銷活動目標。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**。
 
 1. 選取&#x200B;**[!UICONTROL Enable Objective Upload]**&#x200B;旁的核取方塊。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-1. （若您的轉換是在經理帳戶層級追蹤） [在&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;為您的經理帳戶新增認證](/help/search-social-commerce/admin/manager-accounts.md)。
+1. （若您的轉換是在經理帳戶層級追蹤） [在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;為您的經理帳戶新增認證](/help/search-social-commerce/admin/manager-accounts.md)。
 
 1. 確認每個名為`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目標在兩天內都出現在廣告網路上。
 
@@ -75,7 +75,7 @@ GGL_Lead不會包含在計算/上傳中，因為這是Google的廣告追蹤量�
 
 * ([!DNL Google Ads])檢查是否應將轉換上傳到帳戶或經理層級。 若應在管理員層級上傳：
 
-   * 檢查[!DNL Google Ads]管理員帳戶的認證是否在&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;提供。 如有必要，[請為管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)新增認證。
+   * 檢查[!DNL Google Ads]管理員帳戶的認證是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;提供。 如有必要，[請為管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)新增認證。
 
    * 檢查廣告網路帳戶是否已包含相同的量度名稱。 如果有，則重新命名量度，以便建立正確的管理員層級屬性。
 

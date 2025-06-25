@@ -3,7 +3,7 @@ title: 上傳離線轉換資料以增強轉換
 description: 瞭解如何上傳第一方離線轉換資料，以對應至 [!DNL Google Ads] 潛在客戶的增強型轉換和 [!DNL Microsoft Advertising] 增強型轉換。
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: eb7320fdddce4895a689c32ec6fb1e44cb8f2705
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 上傳資料以增強轉換
 
-1. 在主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**」，然後按一下「**[!UICONTROL Upload]**」標籤。
+1. 在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**」，然後按一下「**[!UICONTROL Upload]**」標籤。
 
 1. 選取廣告網路，然後選取帳戶。
 
@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [針對潛在客戶](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)實作 [!DNL Google Ads] 增強型轉換
 >* [實作 [!DNL Microsoft Advertising] 增強的離線轉換](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only]) [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only])[為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

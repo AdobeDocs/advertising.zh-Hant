@@ -3,7 +3,7 @@ title: 管理 [!DNL Microsoft Advertising] 動態再行銷對象
 description: 瞭解如何建立和管理 [!DNL Microsoft Advertising] 動態再行銷對象。
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 動態再行銷對象具有對象型別「[!UICONTROL Dynamic Remarketing] \&lt;訪客型別\>」（例如「動態再行銷過往買家」）。
 
-如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/56910)的[!DNL Microsoft Advertising] 檔案。
+如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷](https://help.ads.microsoft.com/#apex/ads/en/56910)的[[!DNL Microsoft Advertising] 檔案。
 
 ## 建立動態的再行銷對象
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    您將在後續步驟中需要標籤名稱。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 您可以變更[!DNL Microsoft Advertising]動態再行銷對象的名稱和資料來源。 您無法編輯[!UICONTROL Membership Days]設定的值。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. 選取要編輯的對象旁的核取方塊。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 刪除動態再行銷對象
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
 1. （選用）篩選清單以包含特定對象。
 

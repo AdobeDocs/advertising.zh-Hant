@@ -3,7 +3,7 @@ title: 從行銷活動管理檢視下載資料
 description: 瞭解如何從大多數的行銷活動管理檢視下載資料。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 從行銷活動管理檢視下載資料
 
-您可以從[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視下載資料，但[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]、[!UICONTROL Placements] - [!UICONTROL Placement Negatives]、[!UICONTROL Audiences]和[!UICONTROL Extensions]檢視除外。 您可以下載：
+您可以從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視下載資料，但[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives]、[!UICONTROL Placements] - [!UICONTROL Placement Negatives]、[!UICONTROL Audiences]和[!UICONTROL Extensions]檢視除外。 您可以下載：
 
 * [!DNL XLSM] （啟用巨集的[!DNL Microsoft Excel]試算表）格式的報告。 如果您在檢視中選取特定列，則報表會為每個選取的列包含一個列。 如果您未選取任何列，則會為檢視中的每一列建立一個列。
 

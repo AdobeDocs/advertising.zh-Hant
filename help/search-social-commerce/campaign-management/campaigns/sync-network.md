@@ -3,7 +3,7 @@ title: 手動同步處理廣告網路資料
 description: 瞭解如何針對支援的廣告網路，手動觸發行銷活動結構和行銷活動實體的同步。
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >每當[建立Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)時，您都可以選擇在建立Bulksheet之前與廣告網路同步。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]>[!UICONTROL Campaigns]**。 在子功能表中，選取&#x200B;**[!UICONTROL Accounts]**&#x200B;以同步特定帳戶中的所有促銷活動，或選取&#x200B;**[!UICONTROL Campaigns]**&#x200B;以同步特定促銷活動。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**。 在子功能表中，選取&#x200B;**[!UICONTROL Accounts]**&#x200B;以同步特定帳戶中的所有促銷活動，或選取&#x200B;**[!UICONTROL Campaigns]**&#x200B;以同步特定促銷活動。
 
 1. （選用）篩選清單以包含特定帳戶或行銷活動。
 

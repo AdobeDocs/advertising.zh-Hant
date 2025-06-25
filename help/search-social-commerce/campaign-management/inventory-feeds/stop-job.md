@@ -3,7 +3,7 @@ title: 停止庫存摘要資料的張貼工作
 description: 瞭解如何停止詳細目錄摘要資料的發佈工作。
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 * 當資料仍在傳輸時，請停止傳輸工作，讓沒有資料可供發佈：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
    1. 在範本名稱旁邊的&quot;[!UICONTROL Last Prop. Status]&quot;欄中，按一下&#x200B;**[!UICONTROL Cancel]**。
 
-* 如果資料已經傳播，則從[!UICONTROL Bulksheets]檢視[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消張貼工作。
+* 如果資料已經傳播，則從[!UICONTROL Bulksheets]檢視](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中[取消張貼工作。
 
 >[!MORELIKETHIS]
 >

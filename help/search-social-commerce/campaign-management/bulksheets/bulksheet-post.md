@@ -3,7 +3,7 @@ title: 張貼大量工作表或已修正的錯誤檔案
 description: 瞭解如何將大量表單檔案張貼至您的廣告網路。
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 >[!NOTE]
 >上傳檔案時，您也可以張貼大量表單檔案或錯誤檔案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 選取每個要張貼的檔案旁的核取方塊。
 
@@ -35,7 +35,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 >
 >* 大量資料需要更長的時間才能發佈。 您可以在[!UICONTROL Bulksheets]檢視的[!UICONTROL Progress]資料行中追蹤檔案進度。
 >* 所有張貼的資料都受限於網路的編輯程式。
->* 在張貼Bulksheet檔案之前，您可以取消張貼。
+* 在張貼Bulksheet檔案之前，您可以取消張貼。
 
 ## 張貼大量工作表和已更正錯誤檔案的設定 {#bulksheet-post-settings}
 

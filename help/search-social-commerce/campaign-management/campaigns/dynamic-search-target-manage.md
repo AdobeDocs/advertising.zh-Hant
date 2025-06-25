@@ -3,7 +3,7 @@ title: 管理 [!DNL Google Ads] 動態搜尋目標
 description: 瞭解如何建立和管理 [!DNL Google Ads] 動態搜尋目標。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >若要同時建立多個帳戶元件，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >若要一次編輯大量資料，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
 
 1. 選取要編輯之每一列旁的核取方塊。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 您也可以刪除任何動態目標。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Auto Targets]**。
 
 1. （選擇性）篩選清單以包含特定的動態目標。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]：**&#x200B;廣告的最大每次點按成本(CPC)或廣告的每1000次曝光成本(CPM)，適用於廣告網路和促銷活動定價模型。 此值會覆寫廣告群組層級值。
+**[!UICONTROL Bid]：**&#x200B;廣告的最大每次點按成本(CPC)或廣告的每1000次曝光成本(CPM)，適用於廣告網路和行銷活動定價模型。 此值會覆寫廣告群組層級值。
 
 >[!NOTE]
 >

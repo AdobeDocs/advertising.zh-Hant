@@ -3,7 +3,7 @@ title: 變更您的密碼
 description: 瞭解如何變更您的帳戶密碼。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 變更您的密碼會將您登出目前的作業階段。 若要繼續工作，您必須使用新密碼登入。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**。
 
 1. 在欄位中輸入資訊，然後按一下&#x200B;**[!UICONTROL Submit]**。
 

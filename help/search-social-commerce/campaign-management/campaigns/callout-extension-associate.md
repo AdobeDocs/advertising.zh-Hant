@@ -3,7 +3,7 @@ title: 將 [!DNL Google Ads] 共用圖說文字擴充功能與行銷活動或廣
 description: 瞭解如何將 [!DNL Google Ads] 共用圖說文字擴充功能指派給行銷活動或廣告群組。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 請為每個行銷活動或廣告群組至少指派兩個圖說文字，讓您的廣告符合與圖說文字一起出現的資格。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")，然後選取&#x200B;**[!UICONTROL Callout]**。
 

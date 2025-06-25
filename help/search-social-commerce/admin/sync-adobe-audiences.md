@@ -3,7 +3,7 @@ title: 同步 [!DNL Adobe] 個對象
 description: 瞭解如何同步處理 [!DNL Adobe] 對象的中繼資料、階層資料和不重複對象資料。
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 * 使用Adobe Experience Cloud [!DNL Audience Library]建立的區段
 
-廣告商或機構必須實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)，並提供其組織識別碼（先前稱為[!DNL IMS Org ID]），才能符合資格。
+廣告商或機構必須實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)，並提供其組織識別碼（先前稱為[!DNL IMS Org ID]），才能符合資格。
 
 初始同步處理大約需要24小時。 之後，資料會即時同步，延遲一到兩秒。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**。
 
 1. 輸入廣告商Adobe Experience Cloud帳戶的唯一組織識別碼，然後按一下&#x200B;**[!UICONTROL Submit]**。
 

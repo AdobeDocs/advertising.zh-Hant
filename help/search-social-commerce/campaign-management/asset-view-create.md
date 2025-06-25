@@ -3,7 +3,7 @@ title: 從您的[!UICONTROL Asset Library]檢視及建立廣告資產
 description: 瞭解如何檢視和建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級資產庫的可重複使用影像、視訊和文字資產。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 建立及上傳資產
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**。
 
 1. 在右上角，選取廣告網路和帳戶。
 

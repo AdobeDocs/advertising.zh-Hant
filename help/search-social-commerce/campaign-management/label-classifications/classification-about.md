@@ -3,7 +3,7 @@ title: 關於標籤分類
 description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## 標籤值
 
-每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視[&#128279;](classification-values-assign-campaign-management.md)或[使用大量表單](classification-values-assign-bulksheets.md)，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組。
+每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視](classification-values-assign-campaign-management.md)或[使用大量表單](classification-values-assign-bulksheets.md)，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組[。
 
 每個符合資格的實體都可以有多個分類的標籤值，但每個分類只有一個標籤值。 標籤值由子實體繼承，但可以覆寫。 在最低層次指定的值一律會覆寫在父層次指定的值。
 
 ## 標籤分類檢視
 
-[!UICONTROL Search] > [!UICONTROL Campaigns]功能表中的[!UICONTROL Labels Classifications]檢視包含[!UICONTROL Classifications]和[!UICONTROL Label Values]個子檢視。 您可以檢視標籤分類的資料、[建立](classification-create.md)和[刪除](classification-delete.md)標籤分類，以及檢視標籤分類值的資料。 預設會顯示關鍵字層級標籤分類和值的資料，但您可以選擇檢視廣告層級分類和值的資料。
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]功能表中的[!UICONTROL Labels Classifications]檢視包含[!UICONTROL Classifications]和[!UICONTROL Label Values]個子檢視。 您可以檢視標籤分類的資料、[建立](classification-create.md)和[刪除](classification-delete.md)標籤分類，以及檢視標籤分類值的資料。 預設會顯示關鍵字層級標籤分類和值的資料，但您可以選擇檢視廣告層級分類和值的資料。
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: 解碼點選追蹤URL
 description: 瞭解如何從基本URL中移除搜尋、社交和Commerce點選追蹤程式碼。
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* 您可以一次解碼任意數量的URL，但效能取決於您使用的瀏覽器。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**。
 
 1. 在輸入欄位中，輸入每個包含搜尋、社交和Commerce追蹤代碼的URL。
 

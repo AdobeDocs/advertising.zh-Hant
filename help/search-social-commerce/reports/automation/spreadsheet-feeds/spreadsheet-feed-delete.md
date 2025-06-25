@@ -3,7 +3,7 @@ title: 刪除試算表報表摘要
 description: 瞭解如何刪除試算表摘要。
 exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >如果刪除與摘要相關的報表範本，則會自動刪除摘要。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
 1. 選取要刪除的每個摘要旁的核取方塊。
 

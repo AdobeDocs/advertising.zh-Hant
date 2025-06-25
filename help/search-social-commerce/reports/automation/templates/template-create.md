@@ -3,7 +3,7 @@ title: 建立報表範本
 description: 瞭解如何建立可重複使用的報表範本。
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * 從[!UICONTROL Templates]索引標籤：
 
-      * 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+      * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
       * 按一下「**[!UICONTROL Templates]**」標籤。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * 若要根據現有範本建立範本：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
 
    1. 按一下「**[!UICONTROL Templates]**」標籤。
 

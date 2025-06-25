@@ -3,7 +3,7 @@ title: 暫停自訂警報範本
 description: 瞭解如何暫停作用中的警報範本。
 exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以暫停作用中的警示範本。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
 
 1. 執行下列任一項作業：
 

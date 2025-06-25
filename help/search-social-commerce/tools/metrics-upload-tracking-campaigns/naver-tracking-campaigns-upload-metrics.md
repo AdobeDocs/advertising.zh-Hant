@@ -3,7 +3,7 @@ title: 上傳 [!DNL Naver] 僅限追蹤帳戶的流量和轉換量度
 description: 瞭解如何上傳 [!DNL Naver] 帳戶的流量和轉換量度，以僅進行追蹤和報告。
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 搜尋、社交和Commerce不會將資料與廣告網路同步，也不會對帳戶投標。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**。
 
 1. 選取廣告網路。
 

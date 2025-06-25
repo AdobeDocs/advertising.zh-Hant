@@ -3,7 +3,7 @@ title: 建立負面版位
 description: 瞭解如何為 [!DNL Google Ads] 行銷活動和廣告群組建立負面刊登版位。
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!TIP]
 >若要一次建立許多負面版位，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")，然後按一下&#x200B;**[!UICONTROL Campaign]**&#x200B;以建立行銷活動層級的負面刊登版位，或按一下&#x200B;**[!UICONTROL Ad Group]**&#x200B;以建立廣告群組層級的負面刊登版位。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * 網站：輸入有效的URL，例如www.example.com。 請參閱「如何新增您的排除URL」中的允許格式，網址為https://support.google.com/google-ads/answer/2454012。
 
-   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案[&#128279;](https://developers.google.com/adwords/api/docs/appendix/verticals)的清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
+   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案](https://developers.google.com/adwords/api/docs/appendix/verticals)的[清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
 
 1. 按一下&#x200B;**[!UICONTROL Post]**。
 

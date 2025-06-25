@@ -3,7 +3,7 @@ title: 變更關鍵字和負關鍵字的狀態
 description: 瞭解如何變更關鍵字和負面關鍵字的狀態。
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您也可以刪除作用中或暫停的搜尋關鍵字或負關鍵字。 已刪除的關鍵字/負面關鍵字會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下「**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \|」 [!UICONTROL Negatives]\]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下「**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \|」 [!UICONTROL Negatives]\]**。
 
 1. （選擇性）篩選清單以包含特定關鍵字或負面關鍵字。
 

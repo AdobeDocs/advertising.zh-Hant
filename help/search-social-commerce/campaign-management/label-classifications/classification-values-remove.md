@@ -3,7 +3,7 @@ title: 從帳戶元件中移除標籤分類值
 description: 瞭解如何移除標籤分類值與帳戶元件之間的關聯。
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >若要從標籤分類刪除值，請參閱&quot;[刪除標籤分類值](classification-values-delete.md)&quot;。
 
-1. 在&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;中，選取實體檢視。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;中，選取實體檢視。
 
 1. 執行下列任一項作業：
 

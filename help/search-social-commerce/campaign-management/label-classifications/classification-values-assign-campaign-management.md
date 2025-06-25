@@ -3,7 +3,7 @@ title: 從行銷活動管理檢視將分類值指派給帳戶元件
 description: 瞭解如何將分類值指派給帳戶元件。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >您某些廣告網路和行銷活動型別的關鍵字和廣告復本是[不可變動](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新的實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
 
-1. 按一下「**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**」，然後選取帳戶元件檢視。
+1. 按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**」，然後選取帳戶元件檢視。
 
 1. 執行下列任一項作業：
 

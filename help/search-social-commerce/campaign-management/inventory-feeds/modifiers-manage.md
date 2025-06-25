@@ -3,7 +3,7 @@ title: 管理修飾元
 description: 瞭解如何設定和管理詳細目錄資料摘要之廣告範本的修飾元。
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 建立修正因子群組
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Modifiers]**。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 編輯修飾元群組
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Modifiers]**。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >當您刪除修飾元群組時，請從現有範本的欄位中移除該修飾元群組（表示為`<modifier_group_name>`）的所有變數。 如果您嘗試使用不存在的修飾元變數，透過範本傳播資料，作業會失敗1。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Modifiers]**。
 

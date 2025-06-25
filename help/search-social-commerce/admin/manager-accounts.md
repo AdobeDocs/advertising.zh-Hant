@@ -3,7 +3,7 @@ title: 管理廣告網路管理員帳戶的認證
 description: 瞭解如何為您的 [!DNL Google Ads] 管理員帳戶提供認證。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 若要為新的管理員帳戶新增認證
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
 
 1. 選取&#x200B;**[!UICONTROL Create new manager account]**。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 若要重新驗證現有的管理員帳戶
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**。
 
 1. 選取&#x200B;**[!UICONTROL Reauthenticate existing manager account]**。
 

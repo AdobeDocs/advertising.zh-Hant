@@ -3,7 +3,7 @@ title: 從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔
 description: 瞭解如何刪除您已下載行銷活動管理檢視的報告或大量表單檔案。
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >刪除Bulksheet檔案會將其從[!UICONTROL Downloads]清單中移除，也會從[!UICONTROL Bulksheets]檢視中移除。
 
-1. 在主功能表中，按一下「[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]」，然後開啟任何實體檢視。
+1. 在主功能表中，按一下「[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]」，然後開啟任何實體檢視。
 
 1. 在工具列右側，按一下![報告下載](/help/search-social-commerce/assets/download.png "報告下載")以檢視「下載」面板。
 

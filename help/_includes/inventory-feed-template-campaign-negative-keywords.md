@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
    * 負面字詞相符： `"keyword"`
    * 完全相符的負值： `[keyword]`
 
-當您透過範本傳播摘要資料時，產生的大量表單會使用詞句和完全相符型別的慣用語法。 **注意：**&#x200B;您無法在[!UICONTROL Keywords]索引標籤或[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中看到負關鍵字。
+當您透過範本傳播摘要資料時，產生的大量表單會使用詞句和完全相符型別的慣用語法。 **注意：**&#x200B;您無法在[!UICONTROL Keywords]索引標籤或[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中看到負關鍵字。
 
 **[!UICONTROL All other campaigns: Apply these negatives]：** （除[!DNL Yandex]以外的所有廣告網路；選擇性）任何靜態行銷活動層級的負關鍵字，可針對名稱不符合指定字串的行銷活動新增。 若要為相同關鍵字指定多個關鍵字或多個相符型別，請在不同的行中輸入它們。 請使用下列語法，不含減號：
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 * 負面字詞相符： `"keyword"`
 * 完全相符的負值： `[keyword]`
 
-當您透過範本傳播摘要資料時，產生的大量表單會使用詞句和完全相符型別的慣用語法。 **注意：**&#x200B;您無法在[!UICONTROL Keywords]索引標籤或[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中看到負關鍵字。
+當您透過範本傳播摘要資料時，產生的大量表單會使用詞句和完全相符型別的慣用語法。 **注意：**&#x200B;您無法在[!UICONTROL Keywords]索引標籤或[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視中看到負關鍵字。

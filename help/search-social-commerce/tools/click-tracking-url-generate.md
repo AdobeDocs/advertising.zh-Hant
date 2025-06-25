@@ -3,7 +3,7 @@ title: 產生點選追蹤URL
 description: 瞭解如何手動產生搜尋、社交和Commerce點選追蹤URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >此功能未在相關廣告帳戶中實作追蹤範本或目的地URL。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**。
 
 1. 從清單中選取廣告網路帳戶。
 

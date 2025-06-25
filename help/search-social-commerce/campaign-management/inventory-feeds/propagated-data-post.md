@@ -3,7 +3,7 @@ title: 從摘要產生的行銷活動資料張貼至廣告網路
 description: 瞭解如何將詳細目錄資料摘要產生的資料發佈到廣告網路。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
   >
   >如果您先前未驗證登入頁面，但想要驗證，請[傳播資料並從[!UICONTROL Bulksheets]檢視預覽](feed-data-propagate.md)，而非張貼至廣告網路。 您可以[先驗證URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，再手動將檔案張貼至廣告網路。
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
    1. 選取範本旁的核取方塊。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               若要指定日期，請使用DD/MM/YYYY或D/M/YYYY格式，或按一下![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆")開啟行事曆，然後[選取日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 若要變更時間，請以24小時格式（HH/MM或H/M）輸入時間，或從清單中選取時間（以30分鐘為間隔）。
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;建立可從[!UICONTROL Search] > [!UICONTROL Bulksheets]檢視取得的大量工作表檔案。 您可以選擇從那裡發佈檔案。
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]：**&#x200B;建立可從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]檢視取得的大量工作表檔案。 您可以選擇從那裡發佈檔案。
 
            當產生的大量表單檔案超過2 MB時，該檔案會採用ZIP格式。 您不需要解壓縮檔案即可發佈。
 

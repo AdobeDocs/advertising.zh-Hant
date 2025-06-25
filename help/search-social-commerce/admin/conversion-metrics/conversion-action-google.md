@@ -2,7 +2,8 @@
 title: 為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作
 description: 瞭解如何為潛在客戶的增強型轉換建立 [!DNL Google Ads] 轉換動作。
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 您可以針對要針對個別[!DNL Google Ads]帳戶追蹤的潛在客戶（而不是在經理帳戶層級追蹤的轉換），建立[!DNL Google Ads]增強型轉換的轉換動作。
 
-1. 在主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**」，開啟「**[!UICONTROL Summary]**」索引標籤。
+1. 在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**」，開啟「**[!UICONTROL Summary]**」索引標籤。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 

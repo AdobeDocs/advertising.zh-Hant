@@ -3,7 +3,7 @@ title: 從現有報表產生報表
 description: 瞭解如何使用先前產生的報告建立報告。
 exl-id: f094c767-629a-4e3c-91f6-12761927fe89
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 從現有報表產生報表
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
 
 1. 按一下現有報告旁的![建立類似按鈕](/help/search-social-commerce/assets/create-similar.png "建立類似按鈕")。
 

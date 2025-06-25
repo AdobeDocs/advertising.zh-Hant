@@ -3,7 +3,7 @@ title: 編輯自訂警報範本
 description: 瞭解如何編輯範本以產生自訂警報。
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 編輯自訂警報範本
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
 
 1. （可選）篩選檢視以包含具有特定名稱、要評估的資料範圍或其他條件的列。
 
-   您可以從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用。
+   您可以從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用[。
 
 1. 在範本名稱旁邊，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 

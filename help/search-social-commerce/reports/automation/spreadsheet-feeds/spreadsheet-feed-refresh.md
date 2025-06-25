@@ -3,7 +3,7 @@ title: 手動重新整理試算表報表摘要
 description: 瞭解如何手動重新整理試算表摘要中的資料。
 exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >試算表摘要會在當地時區的每天08:00自動重新整理。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**。
 
 1. 選取您要重新整理的每個摘要旁的核取方塊。
 

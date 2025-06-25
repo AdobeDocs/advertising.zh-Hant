@@ -3,7 +3,7 @@ title: 管理可競標的關鍵字
 description: 瞭解如何建立和管理搜尋廣告群組的可競標關鍵字。
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >若要同時建立多個關鍵字，請使用[複製並貼上功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >若要一次編輯大量關鍵字資料，包括不同廣告網路上的關鍵字，請使用[複製並貼上功能](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)或[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**。
 
 1. 選取要編輯之每一列旁的核取方塊。
 

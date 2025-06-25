@@ -3,7 +3,7 @@ title: 建立 [!DNL Google Ads]的轉換標籤
 description: 瞭解如何建立 [!DNL Google Ads] 轉換標籤。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 若要產生現有轉換的轉換標籤，請使用廣告網路的編輯器。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**，這會開啟至&#x200B;**[!UICONTROL Summary]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**，這會開啟至&#x200B;**[!UICONTROL Summary]**&#x200B;索引標籤。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 

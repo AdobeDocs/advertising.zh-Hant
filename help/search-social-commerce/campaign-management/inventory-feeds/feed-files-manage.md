@@ -3,7 +3,7 @@ title: 管理詳細目錄資料摘要檔案
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * **自動使用FTP：**&#x200B;您可以直接將檔案上傳到FTP目錄；摘要服務每兩小時會檢查一次新檔案。 第一次上傳檔案後，您可以將其與廣告網路專用範本建立關聯。 稍後，您上傳的所有同名檔案會自動與相同範本建立關聯。 根據您[設定摘要資料設定的方式](feed-settings-manage.md)，搜尋、社交和Commerce可能會透過所有適用的範本自動傳播摘要資料，並選擇性地將產生的行銷活動和廣告資料發佈到相關的廣告網路。
 
-  若要設定FTP目錄以儲存及自動處理資料檔案，請聯絡您的Adobe帳戶團隊。
+  若要設定FTP目錄以儲存及自動處理資料檔案，請聯絡您的Adobe客戶團隊。
 
 * **手動處理：**&#x200B;您可以從[!UICONTROL Advanced] (ACM)檢視手動[上傳摘要檔案](#feed-file-upload)。 將摘要檔案與一個或多個廣告網路特定的[範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)產生關聯後，您就可以根據[摘要資料設定](feed-settings-manage.md)，透過範本[傳播摘要資料](feed-data-propagate.md)來產生行銷活動和廣告資料。 您可以選擇在行銷活動階層檢視中預覽產生的資料、產生大量表單檔案以供檢閱，或產生大量表單檔案以供立即張貼至廣告網路。 如果您未立即張貼資料，則可以[預覽](propagated-data-view.md)並在稍後[張貼](propagated-data-post.md)。 您可以稍後[以新檔案](#feed-file-replace)取代現有的摘要檔案，而不會失去任何現有的範本關聯。
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 您可以開啟或下載手動或使用FTP上傳的任何摘要檔案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 找到摘要檔案：
 
@@ -101,7 +101,7 @@ shoes<TAB>Clarks<TAB>20
 >[!NOTE]
 > 如果您將範本與手動上傳的檔案相關聯，但接著透過FTP上傳另一個具有相同名稱、副檔名和文法大小寫的檔案，則當您透過範本傳播資料時會使用FTP檔案。 例如，myfile.csv會取代myfile.csv，但Myfile.CSV則不會。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Feeds]**。
 
@@ -117,7 +117,7 @@ shoes<TAB>Clarks<TAB>20
 
 當您取代摘要檔案時，即使新檔案具有不同的檔案名稱或副檔名，所有現有的範本關聯仍會保留。 當您透過最初與先前檔案相關聯的所有範本傳播資料時，會使用新檔案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 執行下列任一項作業：
 
@@ -141,7 +141,7 @@ shoes<TAB>Clarks<TAB>20
 
 您可以刪除任何手動或透過FTP上傳的摘要檔案。 當您刪除摘要檔案時，該檔案不再與任何範本相關聯。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Feeds]**。
 

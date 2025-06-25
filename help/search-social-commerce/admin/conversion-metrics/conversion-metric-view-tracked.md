@@ -3,7 +3,7 @@ title: 檢視為廣告商追蹤的轉換量度
 description: 瞭解如何檢視為廣告商追蹤的轉換量度清單。
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以檢視Adobe Advertising已針對廣告商追蹤的所有[轉換](/help/search-social-commerce/glossary.md#c-d)量度清單。 每個量度列都包含量度的來源。
 
-* 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
+* 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**。
 
 會列出為廣告商收集的所有轉換量度，以及指派給他們的任何不同顯示名稱。
 

@@ -3,7 +3,7 @@ title: 復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活�
 description: 瞭解如何將a [!DNL Google Ads] 帳戶中同步的行銷活動直接匯出至同步的 [!DNL Microsoft Advertising] 帳戶。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center][&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 [復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)匯入的專案。
 
-1. 在「搜尋、社交及Commerce」主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**」。
+1. 在「搜尋、社交及Commerce」主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**」。
 
 1. 按一下&#x200B;**[!UICONTROL +Import]**。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)匯入的專案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 選取匯入工作旁的核取方塊，然後按一下[編輯]。![](/help/search-social-commerce/assets/edit.png "")
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * 執行下列任一項作業：
 
-   * 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
      依預設，檢視會開啟至[!UICONTROL List of Import Jobs]標籤。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## 執行行銷活動匯入工作
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 選取匯入工作旁的核取方塊。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 您可以列出所有已完成或失敗的匯入工作，包括開始時間、來源[!DNL Google Ads]帳戶、目標[!DNL Microsoft Advertising]帳戶、建立工作的使用者、成功和失敗的作業數目，以及接收每個工作之通知的任何電子郵件地址。 您可以檢視每個工作目標[!DNL Microsoft Advertising]帳戶變更的詳細資料，包括新增、同步、刪除的專案數，以及帳戶中每個實體層級（例如促銷活動或關鍵字）產生錯誤的專案數。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
 1. 按一下「**[!UICONTROL Import Logs]**」標籤。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]：** [!DNL Microsoft Advertising]用來代表您[!DNL Google Ads]認證的ID。
 
-因為[!DNL Microsoft Advertising]限制，無法自動產生匯入的[!DNL Microsoft Advertising]認證。 請聯絡您的Adobe帳戶團隊，他們將會產生憑證並提供ID。
+因為[!DNL Microsoft Advertising]限制，無法自動產生匯入的[!DNL Microsoft Advertising]認證。 請聯絡您的Adobe帳戶團隊，他們將會產生認證並提供ID。
 
 **[!UICONTROL Target Microsoft Ads account]：**&#x200B;已同步的[!DNL Microsoft Advertising]帳戶已匯入行銷活動資料。
 

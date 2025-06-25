@@ -4,7 +4,7 @@ description: 瞭解如何暫停資料來源以停止同步。
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 暫停資料來源的同步處理
 
-*僅限機構管理員（基本角色）、Adobe帳戶管理員及管理員*
+*僅限機構管理員（基礎角色）、Adobe帳戶管理員及管理員*
 
 暫停資料來源會停止日後與該資料來源同步。 如果摘要目前正在同步，程式會先完成，讓Adobe Advertising中的資料為最新狀態。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
 
 1. 選取您要暫停的資料來源旁的核取方塊。
 

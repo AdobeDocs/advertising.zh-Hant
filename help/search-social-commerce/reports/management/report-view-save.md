@@ -3,7 +3,7 @@ title: 檢視或儲存報告
 description: 瞭解如何檢視產生的報告或將報告另存為檔案。
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「Adobe帳戶專案團隊」成員和管理員使用者可以檢視由客戶與機構角色所建立的報告。
+>Adobe帳戶團隊成員和管理員使用者可以檢視由客戶和代理商角色建立的報告。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
 
 1. 執行下列任一項作業：
 

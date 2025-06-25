@@ -3,7 +3,7 @@ title: 透過範本傳播詳細目錄摘要資料
 description: 瞭解如何透過廣告範本從您的詳細目錄摘要傳播資料，以管理帳戶結構並傳遞動態廣告。
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 從[!UICONTROL Templates]索引標籤傳播摘要檔案
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 選取要傳播的範本旁的核取方塊。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 從[!UICONTROL Feeds]清單傳播摘要檔案
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Feeds]**。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 檢視傳輸摘要
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 按一下「**[!UICONTROL Propagations]**」標籤。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 您可以在工作仍在佇列時，停止清查摘要資料的傳播工作。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
 1. 在範本名稱旁邊的&quot;[!UICONTROL Last Prop. Status]&quot;欄中，按一下&#x200B;**[!UICONTROL Cancel]**。
 

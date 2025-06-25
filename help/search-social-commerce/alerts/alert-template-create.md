@@ -3,7 +3,7 @@ title: 建立自訂警報範本
 description: 瞭解如何建立範本以產生自訂警報。
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 從[!UICONTROL Alert Templates]檢視建立警報範本
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]檢視。
 
 1. 在工具列中按一下![建立](/help/search-social-commerce/assets/add.png "建立")，然後選取要評估的實體型別（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad]或[!UICONTROL Product Group]）。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 >此選項不適用於產品組合層級的警示範本。
 
-1. 在&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;檢視中，開啟要評估之實體型別的行銷活動管理子檢視（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]或[!UICONTROL Product Groups]）。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;檢視中，開啟要評估之實體型別的行銷活動管理子檢視（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]或[!UICONTROL Product Groups]）。
 
-例如，若要建立關鍵字層級的警示範本，請移至[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然後選取[!UICONTROL Keywords]。
+例如，若要建立關鍵字層級的警示範本，請移至[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然後選取[!UICONTROL Keywords]。
 
 1. 在資料表上方的工具列右側，按一下![建立警報](/help/search-social-commerce/assets/add-alert.png "建立警報")。
 

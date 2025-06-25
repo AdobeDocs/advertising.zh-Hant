@@ -3,7 +3,7 @@ title: 檢視帳戶的發行者建議記錄
 description: 瞭解如何檢視套用至 [!DNL Google Ads] 或 [!DNL Microsoft Advertising] 帳戶的每個建議記錄。
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 無法從廣告網路取得已解除的建議。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，選取廣告網路和帳戶。
 

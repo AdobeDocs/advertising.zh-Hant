@@ -3,7 +3,7 @@ title: 套用或關閉發佈者建議
 description: 瞭解如何檢視、套用或關閉發佈者建議。
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->雖然建議可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議之前，建議您最好諮詢您的Adobe帳戶團隊。
+>雖然建議可協助您改善行銷活動績效，但有些可能不會符合您更廣的目標。 因此，在實作任何建議之前，建議您最好諮詢您的Adobe客戶團隊。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**。
 
 1. 在右上角，選取廣告網路和帳戶。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. （選用）依類別和型別篩選建議。
 
-1. 在建議或分析列的[!UICONTROL Actions]欄中，按一下&#x200B;**[!UICONTROL View]**。
+1. 在建議或insight列的[!UICONTROL Actions]欄中，按一下&#x200B;**[!UICONTROL View]**。
 
-1. (含有子建議的Recommendations)按一下子建議旁的&#x200B;**[!UICONTROL View]**。
+1. （含有子建議的建議）按一下子建議旁的&#x200B;**[!UICONTROL View]**。
 
 1. （可選）執行下列任一項作業：
 

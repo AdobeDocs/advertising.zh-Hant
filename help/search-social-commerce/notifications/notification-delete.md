@@ -3,7 +3,7 @@ title: 刪除通知
 description: 瞭解如何刪除通知。
 exl-id: 242c30dc-7e53-42cb-a027-908f2e53998d
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 刪除[!UICONTROL Notification Center]中的通知
 
-1. (從Search、Social和Commerce中)在主功能表中，按一下「**[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**」。
+1. (從Search、Social和Commerce中)在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**」。
 
 1. （選擇性）若要依型別篩選通知，請按一下&#x200B;*[!UICONTROL Notices]*、*[!UICONTROL Recommendations]*、*[!UICONTROL Warnings]*&#x200B;或&#x200B;*[!UICONTROL Issues]*。
 

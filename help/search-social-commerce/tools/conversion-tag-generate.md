@@ -1,9 +1,9 @@
 ---
 title: 產生Adobe Advertising轉換追蹤標籤
-description: 瞭解如何建立Adobe Advertising轉換標籤以追蹤您的轉換事件。
+description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >此功能不會將影像標籤或[!DNL JavaScript]標籤新增至廣告商的網頁。 標籤必須根據廣告商更新網頁的正常程式進行新增。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
 
 1. 指定[轉換標籤設定](#conversion-tag-settings)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 * *[!UICONTROL JavaScript]：*&#x200B;若要建立JavaScript標籤。
 
-如需標籤型別之間差異的詳細資訊，請參閱[有關Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。
+如需關於標籤型別之間差異的詳細資訊，請參閱[關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。
 
 **[!UICONTROL Tag Properties]：**&#x200B;當一般使用者檢視包含轉換標籤的頁面時，要追蹤的一或多個轉換量度。 若要新增量度至清單，請在&quot;[!UICONTROL Add new property]&quot;欄位中輸入量度名稱，然後按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 選取此選項時，當交易完成時，廣告商必須產生`<transid>`的唯一值（例如實際訂單ID），並將其傳回Adobe Advertising，例如`ev_transid=0123`。 Adobe Advertising使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID不能包含保留為引數分隔符號的&amp;符號(`&`)。 交易ID包含在[的[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)中，您可以使用它來驗證Search、Social和Commerce中與廣告商資料相關的資料。
 
-如果資料並未包含每個交易的唯一ID，則Adobe Advertising仍會根據交易時間產生唯一ID。
+如果資料並未包含每個交易的唯一ID，Adobe Advertising仍會根據交易時間產生唯一ID。
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **[!UICONTROL JS Version]：** （僅限[!DNL JavaScript]個標籤）要建立的[!DNL JavaScript]標籤版本： *[!UICONTROL v2]* （預設）或&#x200B;*[!UICONTROL v3]*。
 
-請參閱[有關Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。 以取得差異的詳細資訊。
+請參閱[關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。 以取得差異的詳細資訊。
 
 >[!MORELIKETHIS]
 >
@@ -80,5 +80,5 @@ ht-degree: 0%
 >* [JavaScript轉換追蹤標籤格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [JavaScript轉換追蹤標籤2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Adobe AdvertisingJavaScript轉換對應標籤](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Adobe Advertising JavaScript轉換對應標籤](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
 >* [關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

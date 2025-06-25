@@ -3,7 +3,7 @@ title: 設定Cookie型點選追蹤
 description: 瞭解如何設定及驗證點選追蹤標籤。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 請針對每個廣告網路帳戶，執行下列動作：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Accounts]**。
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Accounts]**。
 
    1. 將游標停留在帳戶名稱上，按一下![功能表圖示](/help/search-social-commerce/assets/arrow-dropdown-menu.png "功能表圖示")，然後選取&#x200B;**[!UICONTROL Edit]**。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 針對每個行銷活動，執行下列動作：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]>[!UICONTROL Campaigns]**。
 
    1. 將游標停留在行銷活動名稱上，按一下![功能表圖示](/help/search-social-commerce/assets/arrow-dropdown-menu.png "功能表圖示")，然後選取&#x200B;**[!UICONTROL Edit]**。
 

@@ -3,7 +3,7 @@ title: 設定摘要資料設定
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過摘要設定，設定如何處理摘要資料檔案中的廣告群組、關鍵字和廣告，以及如何專門處理FTP檔案中的資料。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Settings]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （預設值）：透過範本傳播資料後，將大量工作表檔案張貼到相關的廣告網路。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 &#x200B;** 秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 **秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]：**&#x200B;排除將超過指定字數的關鍵字短語張貼到廣告網路。 選取此選項時，會傳播超過字數上限的關鍵字片語並列在[!UICONTROL Keywords]索引標籤上，但當您嘗試張貼資料時不會張貼。
 

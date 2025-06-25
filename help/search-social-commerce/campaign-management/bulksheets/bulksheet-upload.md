@@ -3,7 +3,7 @@ title: 上傳大量表單或已修正的錯誤檔案
 description: 瞭解如何手動上傳大量表單檔案或已修正的登陸頁面驗證錯誤檔案。
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以從您的裝置或網路為[支援的廣告網路](bulksheet-about.md#bulksheet-functionality-by-network)上傳大量表單檔案、修正的登陸頁面驗證錯誤檔案及其他修正的錯誤檔案。 上傳檔案時，檔案中的任何自訂欄都會被刪除。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Upload Bulksheet]**。
 
