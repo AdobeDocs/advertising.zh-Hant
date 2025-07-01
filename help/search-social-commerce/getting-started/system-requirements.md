@@ -3,9 +3,9 @@ title: 系統需求
 description: 瞭解軟體和帳戶需求。
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ ht-degree: 0%
 
 ## 軟體
 
-* 下列任一瀏覽器：
+* （新使用者介面）最新版本減去下列任一瀏覽器：
+
+   * 為獲得最佳體驗：
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* （舊版使用者介面）下列任一瀏覽器：
 
    * [!DNL Apple Safari] （包括[!DNL iOS]的[!DNL Safari]） 10或以上
 
