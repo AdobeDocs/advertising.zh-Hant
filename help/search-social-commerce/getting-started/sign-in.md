@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 選擇您的組織：
 
-   * 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。<!-- Will it necessarily be "Company or School Account?" -->
+   * 如果出現提示，請選取&#x200B;**個人帳戶」或&#x200B;**&#x200B;公司或學校帳戶**。<!-- Will it necessarily be "Company or School Account?" -->
 
    * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 
