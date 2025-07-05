@@ -3,7 +3,7 @@ title: 登出
 description: 瞭解在何處登出。
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: b0b4c6e41310102fc46d30f197a746c7b79f8dd6
+source-git-commit: 1717795d835eb7970a10ba7cd254fd32ad98e6d2
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 在任何頁面的右上方，按一下![使用者設定檔](/help/search-social-commerce/assets/user-profile.png "使用者設定檔")，然後按一下&#x200B;**[!UICONTROL Sign Out]**。
 
-## 從測試版使用者介面登出
+## 從新的使用者介面登出
 
 * 在任何頁面的右上角，按一下![帳戶](/help/search-social-commerce/assets/account.png "帳戶")，然後按一下&#x200B;**[!UICONTROL Sign Out]**。
 

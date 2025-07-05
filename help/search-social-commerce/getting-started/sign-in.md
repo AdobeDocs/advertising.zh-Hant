@@ -3,9 +3,9 @@ title: 登入
 description: 瞭解登入方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您目前的搜尋、社交和Commerce憑證將保持作用中狀態直至2025年7月15日，以便您為變更做好準備。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ## 從舊版搜尋、社交和Commerce登入頁面登入
 
@@ -30,15 +30,21 @@ ht-degree: 0%
 
 此選項的有效期限至2025年7月15日。
 
-* 移至[enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/)或[enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)，並使用舊版搜尋、社交和Commerce憑證登入。
+* 前往[enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/)或[enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)，並使用舊版搜尋、社交和Commerce使用者名稱與密碼登入。
 
   預設會開啟舊版使用者介面。
 
 ## 使用[!DNL Adobe ID]進行驗證
 
-1. 移至[enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/)或[enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)，並使用您的[!DNL Adobe] ID登入。
+1. 移至[enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/)或[enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)，然後按一下&#x200B;**[!UICONTROL Sign in with SSO]**。
 
-新使用者介面預設會開啟。
+1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
+
+1. 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。<!-- Will it necessarily be "Company or School Account?" -->
+
+   新使用者介面預設會開啟。
+
+1. 如果您可存取多個IMS組織，請在頁面的右上角選取正確的組織。
 
 ## 使用[!DNL Adobe ID]登入Adobe Experience Cloud
 
@@ -46,19 +52,17 @@ ht-degree: 0%
 
 1. 移至[experience.adobe.com](https://experience.adobe.com)。
 
-1. 輸入您的[!DNL Adobe] ID認證。
+1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**..
 
-1. 選擇您的組織：
-
-   * 如果出現提示，請選取&#x200B;**個人帳戶」或&#x200B;**&#x200B;公司或學校帳戶**。<!-- Will it necessarily be "Company or School Account?" -->
-
-   * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
+1. 如果出現提示，請選取**個人帳戶」或&#x200B;**公司或學校帳戶**。<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在首頁的[!UICONTROL Quick Access]區段中，按一下&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 
 ![Advertising搜尋、社交和Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising搜尋、社交和Commerce)")
 
 新使用者介面預設會開啟。
+
+1. 如果您可存取多個IMS組織，請在頁面的右上角選取正確的組織。
 
 >[!MORELIKETHIS]
 >
