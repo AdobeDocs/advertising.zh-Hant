@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視[中，檢視行銷活動](/help/dsp/campaign-management/reports/campaign-reports-about.md)所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)。 無法針對通用ID的位置使用資料。
 
-   * **[!UICONTROL Path to Conversion Beta]：** (Beta功能)使用此報告來識別如何最佳化預算，以及根據表現最佳的廣告互動序列來個人化廣告。 報表會顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表會在首次互動與轉換之間使用指定的回顧期間，且可包含一個維度：
+   * **[!UICONTROL Path to Conversion]：**&#x200B;使用此報告來識別如何最佳化預算，以及根據表現最佳的廣告互動序列來個人化廣告。 報表會顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表會在首次互動與轉換之間使用指定的回顧期間，且可包含一個維度：
 
       * [!UICONTROL Channel Assist Type]：顯示下列行銷管道協助轉換程式的方式： [!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
 
@@ -97,11 +97,11 @@ ht-degree: 0%
 
      若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)。
 
-   * **[!UICONTROL Path Length Beta]：** (Beta功能)使用此報告      追蹤一段時間中轉換所需的使用者互動點數量，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+   * **[!UICONTROL Path Length]：**&#x200B;使用此報告      追蹤一段時間中轉換所需的使用者互動點數量，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
      會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
-   * **[!UICONTROL Time to Conversion Beta]：** (Beta功能)使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
+   * **[!UICONTROL Time to Conversion]：**&#x200B;使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]：** （僅限週期性報表）報表的一或多個執行個體可供下載，且已排程多個報表執行個體。
 
-* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體對報表拖曳執行失敗，請按一下[!UICONTROL Download]旁的![向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
+* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體對報表拖曳執行失敗，請按一下![旁的](/help/dsp/assets/chevron-down.png "向下箭頭")向下箭頭[!UICONTROL Download]。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
 
 * **[!UICONTROL Completed]：**&#x200B;對於非週期性報表，報表已完成。 對於週期性報表，所有報表例項都會完成。 您可以下載過去四個月內完成的所有報表。
 

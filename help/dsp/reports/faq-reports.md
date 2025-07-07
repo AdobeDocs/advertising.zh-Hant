@@ -2,9 +2,9 @@
 title: 自訂報表常見問題集
 description: 進一步瞭解自訂報告，包括家庭報告和轉換路徑分析報告。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 例如，即使一個家庭中的三個裝置收到一個曝光數，不重複家庭觸及的量度仍為一。
 
-##### 支援的Dimension
+##### 支援的維度
 
 [!UICONTROL Household Reach & Frequency]報告支援[下列維度](/help/dsp/reports/report-columns.md)：「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（不提供對重疊量度的存取權）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」以及使用者建立的位置「[!UICONTROL Tags]」。 |
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 重疊量度的報表會輸出最多三個值的交集。 例如，若您使用量度[!UICONTROL Unique Household (Overlap)]檢視10個刊登版位，則您可看到個別刊登版位所觸及的唯一家庭、任意兩個刊登版位組合所觸及的共同家庭，以及任意三個刊登版位組合所觸及的共同家庭。 您無法看到四個或更多位置觸及的普通家庭。
 
-對於行銷活動、套件或位置以外的維度，報表支援每個維度中最多10個值。 例如，若要產生[!UICONTROL Audience]維度的[!UICONTROL Unique Household Reached]報表，唯一受眾的數目應少於或等於10。 如果您包含超過10個不重複受眾，則會產生空白報表。
+對於行銷活動、套件或位置以外的維度，報表支援每個維度中最多10個值。 例如，若要產生[!UICONTROL Unique Household Reached]維度的[!UICONTROL Audience]報表，唯一受眾的數目應少於或等於10。 如果您包含超過10個不重複受眾，則會產生空白報表。
 
 #### 為什麼我的[!UICONTROL Custom]報告與[!UICONTROL Household Reach & Frequency]報告之間的頻率和唯一觸及值不同？
 
@@ -83,13 +83,11 @@ ht-degree: 0%
 
 #### 在Adobe Analytics中，住戶轉換報表與CTV觀看報告有何不同？
 
-[!DNL Analytics]中的CTV檢視資料已支援[!DNL Analytics]追蹤，而家用轉換資料使用透過Adobe Advertising轉換追蹤所收集的資料。 此外，[!DNL Analytics]中的DSP歸因邏輯僅使用最後一個事件，但家用轉換報表支援兩種不同的歸因方法：「唯一」和MTA。
+* 在[!DNL Analytics]中，[!DNL CTV View-Through Conversion]報告會顯示轉換前CTV曝光為最後接觸點的轉換次數。 相較之下，DSP [!UICONTROL Household Conversions]報表則顯示轉換前，在定義的回顧期間內，任何時間點接觸到CTV曝光的不重複家庭數量。
 
-#### 我可以同時在[!DNL Analytics for Advertising]和自訂報表中檢視CTV檢視資料嗎？
+* 在[!DNL Analytics]中，歸因邏輯會專門將轉換指派給Adobe Advertising的最後一個接觸點。 相反地，DSP [!UICONTROL Household Conversions]報表支援其他歸因模型&#x200B;*[!UICONTROL Unique]*&#x200B;和&#x200B;*[!UICONTROL Multi-Touch Attribution (MTA)]*。
 
-不含[!DNL Analytics for Advertising]的廣告商只能使用家用轉換報表來製作家用轉換報表。
-
-如果您的組織有[!DNL Analytics for Advertising]，請同時使用這兩種型別的報表。 雖然CTV檢視報告適用於廣泛頻道分析、網站行為等，但自訂報告可提供精細的檢視（包含依媒體型別、發佈者等劃分的資料），以指出驅動轉換率的因素。
+* [!DNL Analytics]報告資料對於依行銷管道、網站參與量度等進行分析，特別有用。 DSP [!UICONTROL Household Conversions]報表可允許轉換資料依各種維度（例如媒體型別和發佈者）分割，以提供更精細的深入分析。
 
 ### [!UICONTROL Household Reach & Frequency]和[!UICONTROL Household Conversions]報告與來自[!DNL Advanced Measurement Services]的資料
 
@@ -109,15 +107,15 @@ ht-degree: 0%
 
 | | 轉換報表的路徑 | Advanced Measurement Services對搜尋報表的光暈效果 | Analysis Workspace中的報表 |
 | --- | --- | --- |---|
-| 客戶價值 | 產生自助式自訂報表，瞭解廣告歷程的哪些路徑導致更多轉換，以提升最佳化 | 瞭解連線電視(CTV)策略對搜尋點選數的影響 | 瞭解您的整體Adobe Advertising投資以及其他行銷管道對搜尋點選的影響 |
+| 客戶價值 | 產生自助式自訂報表，瞭解廣告歷程的哪些路徑導致更多轉換，以提升最佳化 | 瞭解連線電視(CTV)策略對搜尋點選數的影響 | 瞭解整體Adobe Advertising投資以及其他行銷管道對搜尋點選的影響 |
 | 家庭層級 | 是 | 是 | 否 |
 | 是否支援CTV？ | 是 | 是 | 是 |
 | 歸因方法 | 上次接觸事件（曝光數或點按數）必須在回顧期間內。 | 不重複 | 上次接觸 |
 | | 系統會針對轉換路徑考量上次接觸事件前30天以上的互動點。 | （CTV會獲得點數，無論使用者的點按路徑中會出現CTV曝光） | （如果曝光是回顧期間的最後一個事件，且在曝光之前或之後沒有其他格式的付費點按，CTV就會獲得點數） |
 | 報告層級 | 粒度 | 粒度 | 廣泛 |
-| | （頻道型別、創意/廣告、關鍵字、路徑、長度、轉換時間） | （CTV策略， CTV應用程式/發佈者） | (Adobe Advertising與其他行銷管道) |
-| 行銷管道 | DSP +搜尋(從搜尋、社交和Commerce) | DSP +搜尋(從搜尋、社交和Commerce) | Adobe Advertising點進EF ID未追蹤的行銷管道（例如有機搜尋、有機社交、電子郵件和附屬機構） |
-| 支援的轉換量度 | 使用Adobe Advertising事件畫素(AMO ID)和Adobe Analytics追蹤功能來追蹤量度 | 點按次數（無轉換） | 使用Adobe Analytics追蹤功能追蹤的量度 |
+| | (頻道型別、Creative/廣告、關鍵字、路徑、長度、轉換時間) | （CTV策略， CTV應用程式/發佈者） | (Adobe Advertising和其他行銷管道) |
+| 行銷管道 | DSP +搜尋(從搜尋、社交和Commerce) | DSP +搜尋(從搜尋、社交和Commerce) | Adobe Advertising點進次數EF ID未追蹤的行銷管道（例如有機搜尋、有機社交、電子郵件和附屬機構） |
+| 支援的轉換量度 | 使用Adobe Advertising事件畫素(AMO ID)和Adobe Analytics追蹤功能進行追蹤的量度 | 點按次數（無轉換） | 使用Adobe Analytics追蹤功能追蹤的量度 |
 
 如需有關進階測量服務光暈對搜尋報表影響的詳細資訊，請參閱[進階測量服務](/help/dsp/introduction/advanced-measurement-services.md)。
 
