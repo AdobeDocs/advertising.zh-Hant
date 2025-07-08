@@ -3,16 +3,18 @@ title: 顯示和隱藏趨勢圖
 description: 瞭解如何在某些行銷活動管理檢視中檢視和隱藏資料的趨勢圖表。
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # 顯示和隱藏趨勢圖
 
-您可以在[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]-[!UICONTROL Keywords]、[!UICONTROL Ads]和[!UICONTROL Product Groups]檢視中檢視資料的趨勢圖。
+*僅舊版使用者介面*
+
+您可以在[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]和[!UICONTROL Product Groups]檢視中檢視資料的趨勢圖。
 
 根據預設，圖表會針對使用指定貨幣的科目，顯示所選日期範圍內的點按次數與成本。 您可以選擇變更要比較的量度，並在帳戶具有多個貨幣時，變更要包含資料的貨幣。
 
