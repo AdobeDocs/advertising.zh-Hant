@@ -3,9 +3,9 @@ title: 建立自訂量度
 description: 瞭解如何設定自訂量度（從標準量度計算）。
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 1. 在資料表格上方，執行下列任一項作業：
 
-   * 按一下![檢視選擇器](/help/search-social-commerce/assets/view.png "檢視選擇器") \[預設檢視或自訂檢視的名稱\]以開啟檢視設定。 範例： ![範例檢視](/help/search-social-commerce/assets/view-selector-example.png "範例檢視")
+   * 按一下目前套用檢視的名稱（![檢視](/help/search-social-commerce/assets/view.png "檢視")）。 將游標放在任何可編輯檢視的名稱上，然後按一下![編輯](/help/search-social-commerce/assets/edit-new.png "編輯")開啟檢視設定。
+
+     您建立的自訂量度將可在您的所有檢視中使用。
 
    * 按一下![自訂資料行](/help/search-social-commerce/assets/custom-columns-new.png "自訂資料行")以開啟資料行組態設定。
 
