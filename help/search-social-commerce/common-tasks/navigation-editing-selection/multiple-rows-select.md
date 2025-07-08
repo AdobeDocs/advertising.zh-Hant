@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 選取多列
-ì
-您可以從管理檢視中選取新使用者介面中的多個列，以及從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]選取舊版UI中的多個列：
+# 選取多列ì您可以從管理檢視中選取新使用者介面中的多個列，以及從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]選取舊版UI中的多個列：
 
 * 鍵盤快速鍵：
 
