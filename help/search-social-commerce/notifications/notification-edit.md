@@ -3,7 +3,7 @@ title: 編輯您的通知設定
 description: 瞭解如何編輯通知的設定。
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * 在任何頁面的右上方，按一下![通知](/help/search-social-commerce/assets/notifications-panel.png "通知")以開啟[!UICONTROL Notifications]面板。 按一下右上角的![設定](/help/search-social-commerce/assets/settings-nc.png "設定")。
 
-   * 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。 在左側功能表中，按一下![設定](/help/search-social-commerce/assets/settings-nc.png "設定")。
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。 在左側功能表中，按一下![設定](/help/search-social-commerce/assets/settings-nc.png "設定")。
 
 1. 變更任何[通知類別](notification-about.md)的設定：
 

@@ -3,7 +3,7 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 主功能表
 
-* **[!UICONTROL Search]** — 在Search、Social和Commerce中管理您的廣告網路帳戶，包括Search、Social和Commerce正在追蹤但不競標帳戶。
+* **[!UICONTROL Search, Social, & Commerce]** \> — 在Search、Social和Commerce中管理您的廣告網路帳戶，包括Search、Social和Commerce正在追蹤但不競標帳戶。
 
 ## [!UICONTROL Search]個功能表
 

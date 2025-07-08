@@ -3,7 +3,7 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 建立廣告網路帳戶詳細資料 {#create-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 若要啟用帳戶的同步或追蹤，您必須建立包含帳戶存取認證和追蹤選項且狀態為&#x200B;*作用中*&#x200B;的對應帳戶記錄。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >* 新[!DNL Baidu]帳戶不提供支援。
 >* 若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
       1. 輸入帳戶的&#x200B;**[!UICONTROL Login]**&#x200B;值，選擇性地輸入密碼，然後按一下&#x200B;**[!UICONTROL Authenticate]**。
 
-         最佳實務是使用登入對帳戶進行API存取。 當您想要加密並儲存密碼時，請輸入密碼，以便Adobe帳戶團隊可視需要重新整理權杖。
+         最佳實務是使用登入對帳戶進行API存取。 輸入您想要加密並儲存的密碼，讓Adobe帳戶團隊能夠視需要重新整理Token。
 
       1. （如果您未登入廣告商的帳戶）登入廣告商的廣告帳戶。 最佳實務是使用認證來存取帳戶的API。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 編輯廣告網路帳戶詳細資料 {#edit-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 如果帳戶認證變更，您想要變更整個帳戶的預設追蹤引數，或想要啟用或停用帳戶的活動，然後編輯帳戶詳細資料。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >若要編輯廣告網路上的實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 將游標放在帳戶名稱上，按一下![更多](/help/search-social-commerce/assets/more-filters.png "更多")，然後選取&#x200B;**[!UICONTROL Edit]**。
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 
 ## 重新整理搜尋帳戶的oAuth存取權杖 {#refresh-oauth-tokens}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 如果「搜尋」、「社交」和「Commerce」使用[OAuth授權通訊協定](https://oauth.net/2/)存取帳戶，且帳戶認證變更，或需要其他存取權來支援「搜尋」、「社交」和「Commerce」的新功能，則您必須取得帳戶的新存取權杖。
 
-如果您的新功能需要新的Token，您的Adobe帳戶團隊將會通知您。
+如果您的新功能需要新的Token，您的Adobe客戶團隊將通知您。
 
 1. （如果您為同一瀏覽器應用程式中的相同廣告網路登入其他帳戶），請登出廣告商帳戶以外的任何帳戶。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 將游標放在帳戶名稱上，按一下![更多](/help/search-social-commerce/assets/more-filters.png "更多")，然後選取&#x200B;**[!UICONTROL Edit]**。
 
@@ -117,11 +117,11 @@ ht-degree: 0%
 
 ## 啟用或停用廣告網路帳戶 {#enable-disable-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步促銷活動資料（若有支援），並針對產品組合中的促銷活動推送自動競標和/或促銷活動預算。當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼([!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`)。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼(`msclkid`為[!DNL Microsoft Advertising]； Google為`gclid`)。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要尾碼格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要尾碼格式。
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 * 若要內嵌最終URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案[[!DNL Microsoft Advertising] 中「可用的](https://help.ads.microsoft.com/#apex/3/en/56799)引數」一節中的（[!DNL Google Ads]僅限） [!DNL ValueTrack]檔案[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)僅限）「追蹤範本」引數。
 
    * （僅限[!DNL Yahoo! Japan Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 對於[!DNL Google Ads]，請避免使用巨集，這些巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作以新增巨集。
+>* 對於[!DNL Google Ads]，請避免使用巨集，這些巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作，以新增巨集。
 >* 最精細層級的追蹤範本會覆寫所有較高層級的值。 例如，如果帳戶設定和關鍵字設定都包含值，則會套用關鍵字值。
 >* 如果您在廣告、網站連結或關鍵字層級更新追蹤範本，則會重新提交相關廣告以供檢閱。 您可以在帳戶、行銷活動或廣告群組層級更新追蹤範本，無需重新提交廣告進行核准。
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid格式：** (現有[!DNL Google Ads]帳戶是具有Adobe Advertising-Adobe Analytics整合且尚未移轉AMO ID (s_kwcid)的廣告商)
+* **S_kwcid格式：** (現有[!DNL Google Ads]帳戶是使用Adobe Advertising-Adobe Analytics整合，且尚未移轉AMO ID (s_kwcid)的廣告商)
 
 此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
 

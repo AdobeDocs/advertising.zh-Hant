@@ -3,7 +3,7 @@ title: 檢視[!UICONTROL Change History]報告
 description: 瞭解如何檢視廣告商帳戶的最近變更。
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以依任何欄排序及篩選資料。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**。
 
 1. （可選）透過下列任何方式變更報表中包含的資料：
 

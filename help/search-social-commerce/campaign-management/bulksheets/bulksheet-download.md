@@ -3,7 +3,7 @@ title: 下載/建立Bulksheet檔案
 description: 瞭解如何下載廣告網路的帳戶資料，以建立Bulksheet檔案。
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1759'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >您也可以[根據行銷活動管理檢視中的可見資料行](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)建立大量工作表檔案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Bulksheets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Bulksheets]**。
 
 1. 在工具列中按一下&#x200B;**[!UICONTROL Download Bulksheet]**。
 
@@ -46,8 +46,8 @@ ht-degree: 0%
 
 | 標籤 | 引數 | 說明 |
 |----|----|----|
-| [!UICONTROL Selections] | [!UICONTROL SE Accounts] | 要上傳資料的帳戶、行銷活動或廣告群組：<ul><li>若要選取帳戶及其所有行銷活動和廣告群組，請選取帳戶名稱旁的核取方塊，然後按一下>>將其移至[!UICONTROL Selected Filters]欄。</li><li>若要選取個別行銷活動或廣告群組，請按一下帳戶旁以展開，（如有必要）按一下行銷活動旁以展開，選取行銷活動或廣告群組名稱旁的核取方塊，然後按一下>>以移動至[!UICONTROL Selected Filters]欄。 例如，若要取得帳戶1中促銷活動1的資料，請展開帳戶1，選取促銷活動1旁的核取方塊，然後將其移至[!UICONTROL Selected Filters]欄。</li></ul><b>附註：</b><ul><li>單一大量表單可套用至多個廣告網路中的多個帳戶。 廣告網路專用欄會在大量表單中以廣告網路名稱標示(例如「行動電信業者(Google Ads)」)。</li><li>若要檢視任何專案的元件型別，請將游標停留在它上。</li><li>對於行銷活動，廣告網路名稱的第一個字母位於帳戶名稱后的括弧中(例如[!DNL Google Ads]帳戶的「Acme Realty (G)」)。</li><li>依預設，只會列出使用中和已啟用的帳戶及其使用中的元件。 若要檢視暫停和刪除的元件，請按一下[!UICONTROL Show]旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取**[!UICONTROL All]。 |
-| | [!UICONTROL Generate Tracking URLs] | （可選）在具有追蹤範本的帳戶中包含追蹤範本和登入頁面尾碼（適用於適用的廣告網路），或在具有目的地URL的帳戶中包含內嵌追蹤程式碼的目的地URL，適用於大量表單中的關鍵字、廣告、位置、網站連結和[!DNL Google Ads]產品群組。 依預設，會選取此選項。<br><br>選取此選項時，會根據帳戶設定或行銷活動設定的[!UICONTROL Campaign Tracking]區段中的引數產生URL。 根據預設，如果追蹤URL已存在，則不會重新產生，除非需要新專案（例如關鍵字元合型別、廣告文字或帳戶的追蹤引數已變更）。<br><br><b>附註：</b><ul><li>如果廣告商使用Adobe Advertising轉換追蹤，且相關帳戶未設定為自動產生和上傳追蹤URL，則您必須在基本URL已變更時產生新的追蹤URL。</li><li>如果您未選取此選項，您稍後仍可在上傳或發佈檔案時產生追蹤URL。</li></ul> |
+| [!UICONTROL Selections] | [!UICONTROL SE Accounts] | 要上傳資料的帳戶、行銷活動或廣告群組：<ul><li>若要選取帳戶及其所有行銷活動和廣告群組，請選取帳戶名稱旁的核取方塊，然後按一下>>將其移至[!UICONTROL Selected Filters]欄。</li><li>若要選取個別行銷活動或廣告群組，請按一下帳戶旁以展開，（如有必要）按一下行銷活動旁以展開，選取行銷活動或廣告群組名稱旁的核取方塊，然後按一下>>以移動至[!UICONTROL Selected Filters]欄。 例如，若要取得帳戶1中促銷活動1的資料，請展開帳戶1，選取促銷活動1旁的核取方塊，然後將其移至[!UICONTROL Selected Filters]欄。</li></ul><b>附註：</b><ul><li>單一大量表單可套用至多個廣告網路中的多個帳戶。 廣告網路專用欄會在大量表單中以廣告網路名稱標示(例如「行動電信業者(Google Ads)」)。</li><li>若要檢視任何專案的元件型別，請將游標停留在它上。</li><li>對於行銷活動，廣告網路名稱的第一個字母位於帳戶名稱后的括弧中(例如[!DNL Google Ads]帳戶的「Acme Realty (G)」)。</li><li>依預設，只會列出使用中和已啟用的帳戶及其使用中的元件。 若要檢視暫停和刪除的元件，請按一下![旁的](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")向下箭頭[!UICONTROL Show]，然後選取**[!UICONTROL All]。 |
+| | [!UICONTROL Generate Tracking URLs] | （可選）在具有追蹤範本的帳戶中包含追蹤範本和登入頁面尾碼（適用於適用的廣告網路），或在具有目的地URL的帳戶中包含內嵌追蹤程式碼的目的地URL，適用於大量表單中的關鍵字、廣告、位置、網站連結和[!DNL Google Ads]產品群組。 依預設，會選取此選項。<br><br>選取此選項時，會根據帳戶設定或行銷活動設定的[!UICONTROL Campaign Tracking]區段中的引數產生URL。 根據預設，如果追蹤URL已存在，則不會重新產生，除非需要新專案（例如關鍵字元合型別、廣告文字或帳戶的追蹤引數已變更）。<br><br><b>附註：</b><ul><li>如果廣告商使用Adobe Advertising轉換追蹤，且相關帳戶未設定為自動產生和上傳追蹤URL，則您必須在基本URL變更時產生新的追蹤URL。</li><li>如果您未選取此選項，您稍後仍可在上傳或發佈檔案時產生追蹤URL。</li></ul> |
 | | [!UICONTROL Perform Pre-sync] | （可選）指示Search、Social和Commerce將其檔案與指定的行銷活動同步，以確保所有資料都相同。 依預設，不會選取此選項。<br><b>注意：</b>搜尋、社交和Commerce每天都會自動與廣告網路同步一次，無論何時在廣告網路偵測到新的行銷活動，以及每次您從Search、Social和Commerce中變更行銷活動資料時。 如果您認為行銷活動或帳戶資料的最近變更是直接在廣告網路中或使用廣告網路的案頭編輯器，請選取此選項。 選取此選項時，建立大量表單所需的時間會比較長。 |
 | | [!UICONTROL Bulksheet Name] | 新大量表單的名稱和檔案型別。 依預設，檔案會以定位字元分隔值格式建立，並以下列其中一個專案的名稱命名：<ul><li>（適用於廣告網路的所有帳戶） `&lt;search_engine name&gt;_&lt;creation date in the format MMDDYYYY&gt;.tsv`</li><li>（適用於單一帳戶） `&lt;account name&gt;_&lt;search_engine name&gt;_&lt;creation date in the format MMDDYYYY&gt;.tsv`</li><li>（適用於多個帳戶） `MultipleAccounts_&lt;search_engine name&gt;_&lt;creation date in the format MMDDYYYY&gt;.tsv`。</li></ul>您可以重新命名檔案。 名稱不能包含下列字元： `# % &amp; * | \ : &quot; &lt; &gt; . ? or /`。<br><br>可選擇變更檔案型別。 選項包括&#x200B;*[!UICONTROL .tsv]* （用於定位點分隔值）、*[!UICONTROL .txt]* （用於符合Unicode的ASCII文字）、*[!UICONTROL .csv]* （用於逗號分隔值）或&#x200B;*[!UICONTROL .zip]* （用於解壓縮至TSV檔案的壓縮ZIP格式）。<br><br><b>秘訣：</b>如果大量工作表包含國際字元，請使用TSV或TXT格式。 |
 | [!UICONTROL Rows and Columns] | [!UICONTROL Bulksheet Rows] | 實體及其對應狀態會包含在大量表單中，每個專案會有一個資料列。 例如，若您包含作用中行銷活動，則大量表單會針對每個作用中行銷活動包含一列。 只包含具有所選狀態的所選圖元。 系統會根據指定的廣告網路預先選取預設值。 依預設，只包含所選實體的活動例證。 如需可用大量表單列的清單，請參閱[依廣告網路大量表單列](#bulksheet-rows-by-ad-network)。<br><br>若要新增或移除實體，請分別選取或清除實體旁的核取方塊。 若要新增或移除實體的狀態，請按一下狀態選單旁的，然後分別選取或清除實體旁的核取方塊。 |

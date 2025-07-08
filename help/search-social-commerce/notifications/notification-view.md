@@ -3,7 +3,7 @@ title: 檢視您的通知
 description: 瞭解檢視通知的不同方式。
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-當您[訂閱有關帳戶驗證錯誤、觸發的自訂警示以及產生的[!UICONTROL Advertising Insights]的通知](notification-edit.md)時，您可以在[!UICONTROL Notifications]面板或[!UICONTROL Notification Center]中檢視您的通知。
+當您[訂閱有關帳戶驗證錯誤、觸發的自訂警示以及產生的](notification-edit.md)的通知[!UICONTROL Advertising Insights]時，您可以在[!UICONTROL Notifications]面板或[!UICONTROL Notification Center]中檢視您的通知。
 
 ## 在[!UICONTROL Notifications]面板中檢視通知
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 在[!UICONTROL Notification Center]中檢視通知
 
-1. (從Search、Social和Commerce中)在主功能表中，按一下「**[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**」。
+1. (從Search、Social和Commerce中)在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**」。
 
 1. （選擇性）若要依型別篩選通知，請按一下&#x200B;*[!UICONTROL Notices]、[!UICONTROL Recommendations]、[!UICONTROL Warnings]或[!UICONTROL Issues]*。
 

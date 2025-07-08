@@ -3,7 +3,7 @@ title: 管理商家帳戶
 description: 瞭解如何設定及管理商戶中心帳戶的帳戶詳細資料。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理商家帳戶
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 搜尋、社交和Commerce每天都可以下載並顯示廣告商的Google商家中心或Microsoft商家中心帳戶的產品資料。 此外，搜尋、Social和Commerce可以根據商家帳戶的內容自動建立廣告。若要直接在Search、Social和Commerce中處理產品資料，您必須建立包含帳戶存取認證且啟用&#x200B;*存取權的對應帳戶記錄*。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 建立商家帳戶詳細資料 {#create-merchant-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 若要檢視產品資料並為商家帳戶產生追蹤範本，以及根據資料建立廣告，您必須建立包含帳戶存取認證且有帳戶&#x200B;*啟用*&#x200B;存取權的對應帳戶記錄。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >若要在商家網路上建立實際帳戶，請前往該網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**，這會開啟至[!UICONTROL Accounts]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**，這會開啟至[!UICONTROL Accounts]索引標籤。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Account]**。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 編輯商家帳戶詳細資料 {#edit-merchant-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 如果帳戶認證變更，或您想要停止擷取和使用商家帳戶的資料，請編輯帳戶詳細資料。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 ## 停用對商家帳戶的存取權 {#disable-merchant-account}
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 當您停用商家帳戶時，搜尋、社交和Commerce不會登入該帳戶，因此不會擷取更新的產品資料。 帳戶啟用時收集的資料仍會儲存，且使用產品資料建立的現有廣告不會根據摘要範本和摘要資料設定進行更新、暫停或刪除。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** ，這會開啟至[!UICONTROL Accounts]索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** ，這會開啟至[!UICONTROL Accounts]索引標籤。
 
 1. 在帳戶名稱旁邊，按一下![檢視/編輯設定](/help/search-social-commerce/assets/settings.png "檢視/編輯設定")。
 
