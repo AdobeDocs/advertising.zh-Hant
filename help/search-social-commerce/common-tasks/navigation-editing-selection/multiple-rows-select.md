@@ -3,14 +3,16 @@ title: 選取多列
 description: 瞭解如何選取多個列，以便對所有列執行相同動作。
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 選取多列ì您可以從管理檢視中選取新使用者介面中的多個列，以及從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]選取舊版UI中的多個列：
+# 選取多列
+
+您可以從管理檢視中選取新使用者介面中的多個列，以及從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]、[!UICONTROL Search > Label Classifications]和[!UICONTROL Optimization] > [!UICONTROL Constraints]選取舊版使用者介面中的多個列：
 
 * 鍵盤快速鍵：
 
