@@ -3,16 +3,16 @@ title: 直接在列中編輯設定
 description: 瞭解如何在列內的管理檢視中編輯資料。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 # 直接在列中編輯設定
 
-*舊版使用者介面*
+*僅舊版使用者介面*
 
 >[!NOTE]
 >
