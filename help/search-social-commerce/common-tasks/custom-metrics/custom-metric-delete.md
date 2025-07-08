@@ -3,9 +3,9 @@ title: 刪除自訂量度
 description: 瞭解如何刪除自訂量度（從標準量度計算）。
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 如果自訂量度包含在目前檢視中作為欄，則刪除欄會立即刪除它。 如果欄包含在其他預設檢視或自訂檢視中，或包含在報表範本中，則下次您分別重新整理檢視或檢視範本時會顯示欄變更。
 
-## 從行銷活動管理檢視中刪除自訂量度
+## （新UI）從管理檢視中刪除自訂量度
+
+*可在[!UICONTROL Simulations]、[!UICONTROL Portfolios]、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]檢視中使用*
+
+1. 在資料表格上方，執行下列任一項作業：
+
+   * 按一下![檢視選擇器](/help/search-social-commerce/assets/view.png "檢視選擇器") \[預設檢視或自訂檢視的名稱\]以開啟檢視設定。 範例： ![範例檢視](/help/search-social-commerce/assets/view-selector-example.png "範例檢視")
+
+   * 按一下![自訂資料行](/help/search-social-commerce/assets/custom-columns-new.png "自訂資料行")以開啟資料行組態設定。
+
+1. 將游標停留在資料行名稱上，然後按一下資料行名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Cpnfirm]**。
+
+## （舊版UI）從行銷活動管理檢視中刪除自訂量度
 
 1. 在資料表格上方，執行下列任一項作業：
 
@@ -26,7 +40,7 @@ ht-degree: 0%
 
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL OK]**。
 
-## 從報表或報表範本表單中刪除自訂量度
+## （舊版UI）從報表或報表範本表單中刪除自訂量度
 
 1. 在報表或報表範本表單中，移至&#x200B;**[!UICONTROL Columns]**&#x200B;標籤。
 
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Yes]**。
 
-## 從[!UICONTROL Portfolios]檢視中刪除自訂量度
+## （舊版UI）從[!UICONTROL Portfolios]檢視中刪除自訂量度
 
 1. 在資料表上方，按一下![編輯選取的檢視](/help/search-social-commerce/assets/view-settings.png "編輯選取的檢視")。
 
