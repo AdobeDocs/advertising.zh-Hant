@@ -3,9 +3,9 @@ title: 目標體驗設定
 description: 請參閱目標廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]節
 
+**[!UICONTROL Ad Type]：** （現有體驗為唯讀）體驗中包含的廣告型別： *[!UICONTROL Standard Display]*、*[!UICONTROL Dynamic Display]*&#x200B;或&#x200B;*[!UICONTROL Video]*。 儲存體驗後，您就無法變更廣告型別。
+
 **[!UICONTROL Advertiser]：** （現有體驗為唯讀）將對體驗中包含的創意和目標組合出價的廣告商。 儲存體驗後，您就無法變更廣告商。
 
 **[!UICONTROL Experience Name]：**&#x200B;體驗的唯一名稱。 **秘訣：**&#x200B;在Advertising DSP或其他DSP中使用體驗作為廣告時，請使用可以輕鬆找到的名稱。
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives]節
 
-**\[指定的預設創意\]：**&#x200B;當瀏覽器無法顯示指派給體驗的創意時(例如當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時)，所使用的預設影像創意。 針對體驗適用的每個廣告大小包含一個影像創意。 您的選擇決定體驗可使用的創意大小。<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. This feels a little wonky in that there isn't a distinct/obvious "Creative Sizes" setting to reference. -->
+**\[指定的預設創意\]：**&#x200B;當瀏覽器無法顯示指派給體驗的創意時(例如當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時)，所使用的預設創意。 對於標準顯示體驗，針對體驗適用的每個廣告大小包含一個影像創意內容。 對於標準視訊體驗，請針對體驗適用的每個廣告大小包含一個視訊創意。 您的選擇決定了可用於體驗的創意大小。
 
 對於決策樹目標定位的體驗，您可以使用決策樹內包含相同大小創意的創意套件組合來覆寫預設創意內容。<!-- verify -->
 
@@ -39,8 +41,6 @@ ht-degree: 0%
 ## [!UICONTROL Targeting]節
 
 **[!UICONTROL Targeting]：** （現有體驗為唯讀）使用決策樹和自動建立標籤來啟用創意目標定位。 儲存體驗後，便無法變更此設定。
-
-**[!UICONTROL Dynamic ads]：** （現有體驗為唯讀）表示體驗包含動態廣告。 **注意：**&#x200B;體驗可以包含所有標準廣告或所有動態廣告。 儲存體驗後，便無法變更此設定。
 
 **[!UICONTROL Language Targeting]：** （僅含標準廣告的體驗；選擇性；現有體驗為唯讀）檢查使用者的瀏覽器語言設定，並在可以使用指定語言的創意內容時，使用該語言顯示創意內容。 無法使用瀏覽器指定語言的創意內容時，將改用[!UICONTROL Preferred language]設定。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **RT畫素：** （現有體驗為唯讀；選擇性） [!UICONTROL Creative]將畫素重新定位到潛在目標。 當您在決策樹中設定目標時，可以包含一個RT畫素目標節點層級。 對於每個節點，您將指定要定位的畫素，以及在指定的創意組合中顯示創意所需的畫素屬性值。 如果您在建立體驗時未在此欄位中指定畫素，您仍可在決策樹中指定畫素。<!-- May move this to just within the decision tree. -->
 
-**標籤：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗檢視中依標籤篩選體驗，並在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Experience Label]維度。
+**標籤：**<!-- should be "Labels" --> （選用）任何套用至體驗的[!DNL Creative]特定標籤。 您可以在體驗檢視中依標籤篩選體驗，並在[!UICONTROL Experience Label]中包含[!UICONTROL Custom Creative Report]維度。
 
 * 若要選取現有標籤，請按一下![向下](/help/creative/assets/chevron-down.png "向下")，然後選取要套用的每個標籤旁的核取方塊。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **曝光追蹤URL：** （選用）要附加至從體驗建立之任何廣告的登陸頁面URL的協力廠商曝光追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![ [複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png "，然後將巨集貼到URL欄位中您想要的任何位置。")
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 **點選追蹤URL：** （選用） （選用）要附加至登陸頁面URL的協力廠商點選追蹤URL。 您最多可以包含五個URL。 若要新增其他URL，請按一下![圖示](/help/creative/assets/create.png) **[!UICONTROL Add More]並輸入URL。
 
-輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將巨集貼到URL欄位中您想要的任何位置。
+輸入URL後，頁面下方會列出所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料。 若要在URL中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![ [複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png "，然後將巨集貼到URL欄位中您想要的任何位置。")
 
 >[!NOTE]
 >

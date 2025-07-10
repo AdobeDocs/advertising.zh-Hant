@@ -3,9 +3,9 @@ title: Creative設定
 description: 瞭解xxxx。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**標籤：** （選擇性）要套用至所有選取創意內容的任何標籤。 您可以在[!DNL Creative]內的不同檢視中依標籤篩選創意，並在[!UICONTROL Custom Creative Report]中包含[!UICONTROL Creative Label]維度。
+**標籤：** （選擇性）要套用至所有選取創意內容的任何標籤。 您可以在[!DNL Creative]內的不同檢視中依標籤篩選創意，並在[!UICONTROL Creative Label]中包含[!UICONTROL Custom Creative Report]維度。
 
 * 若要選取現有標籤，請按一下![向下](/help/creative/assets/chevron-down.png "向下")，然後選取要套用的每個標籤旁的核取方塊。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 **JavaScriptCode：**&#x200B;指向協力廠商廣告伺服器上創意的JavaScript標籤(以及不支援JavaScript的瀏覽器適用的替代標籤)。 指令碼可能會因廣告伺服器而異。 當您編輯多個創意時，相同的值會套用至每個選取的創意。
 
-所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#128279;](/help/creative/assets/copy-to-clipboard.png " [複製到剪貼簿] ")，然後將影像貼到標籤中您想要的位置。
+所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![ [複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png "，然後將影像貼到標籤中您想要的位置。")
 
 當您將此創意內容納入您實作為DSP廣告的體驗時，DSP會使用此標籤中的資訊來顯示廣告並追蹤其曝光次數和點按次數。 然後DSP會將標籤推送至廣告交換。 當廣告顯示並按一下時，廣告伺服器、DSP和[!DNL Creative]會追蹤事件。
 
@@ -183,10 +183,32 @@ ht-degree: 0%
 **Creative名稱：**&#x200B;創意的名稱。 **秘訣：**&#x200B;請使用將創意內容納入體驗時可以輕鬆找到的名稱。
 
 **Creative大小：** （現有廣告為唯讀）創意的尺寸。 如需新創意，請從標準廣告大小的清單中選取。
-u
+
 **語言：**&#x200B;您與創意內容建立關聯的每個廣告的預設語言。
 
 **登陸頁面URL：**&#x200B;用來驗證您與創意內容建立關聯的每個廣告的登陸頁面URL。 協力廠商廣告伺服器會決定每個廣告的實際登陸頁面。
+
+**標籤：** （選擇性）要套用至所有選取創意內容的任何標籤。 您可以在[!DNL Creative]內的各種檢視中依標籤篩選創意。
+
+* 若要選取現有標籤，請按一下![向下](/help/creative/assets/chevron-down.png "向下")，然後選取要套用的每個標籤旁的核取方塊。
+
+* 若要搜尋現有標籤，請在標簽名稱內開始輸入文字字串。
+
+* 若要建立新標籤以套用至創作，請開啟清單，按一下&#x200B;**+新增標籤**，在[!UICONTROL Label]欄位中輸入新標簽名稱，然後按一下&#x200B;**建立**。
+
+* 若要移除標籤，請取消選取標簽名稱旁的核取方塊。
+
+## 視訊創意設定 {#creative-settings-video}
+
+**Creative資產名稱：**&#x200B;創意的名稱。 對於新創意，預設會使用檔案名稱，但您可以變更名稱。 對於多個影像，您可以編輯個別的創意名稱。 **秘訣：**&#x200B;請使用將創意內容納入體驗時可以輕鬆找到的名稱。
+
+**持續時間：** （唯讀）自動填入的視訊持續時間。
+
+**語言：**&#x200B;您與創意內容建立關聯的每個廣告的預設語言。 相同的值會套用至所有選取的影像。 將創意內容納入體驗時，您可以選擇自訂體驗的語言偏好設定。
+
+**登陸頁面URL：**&#x200B;您與創意內容建立關聯的每個廣告的預設登陸頁面URL。 登入頁面URL必須是以http://或https://開頭的有效URL。 其中可能包含您自己的協力廠商追蹤引數或[[!DNL Creative] 巨集](/help/creative/creative-macros.md)。 相同的值會套用至所有選取的影像。
+
+當您將創意內容納入套件組合，然後將套件組合指派給體驗時，您可以選擇變更登陸頁面URL，並為套件組合中的每個創意新增曝光次數和點選追蹤URL以及JavaScript 。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **標籤：** （選擇性）要套用至所有選取創意內容的任何標籤。 您可以在[!DNL Creative]內的各種檢視中依標籤篩選創意。
 

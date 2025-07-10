@@ -3,9 +3,9 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 0%
       * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
 
 當體驗上線時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。 然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
+
+對於視訊廣告體驗，視訊創意內容會由DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇將發行者特定的轉碼[套用至任何視訊廣告體驗標籤。](experience-tag-video-transcoding.md)
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-[!DNL Advertising Creative 2.0]在單一創意資料庫中為廣告提供兩種不同的廣告體驗結構。
+每個廣告體驗可包含一種廣告型別（標準顯示、標準視訊或動態顯示）。 [!DNL Advertising Creative 2.0]在單一創意資料庫中為廣告提供兩種不同的廣告體驗結構。
 
 * **決策樹目標定位的體驗：** [!DNL Creative]可讓您使用決策樹模型，在整個客戶歷程中設定個人化的廣告體驗。 您可以根據目標受眾自訂所有廣告元素 — 影像、標題、選件和登陸頁面。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 下列為可用的效能資料：
 
-* 當您在「[!UICONTROL Creative] > [!UICONTROL Experiences]」檢視中啟用「[!UICONTROL Metrics]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
+* 當您在「[!UICONTROL Metrics] > [!UICONTROL Creative]」檢視中啟用「[!UICONTROL Experiences]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
 
   ![量度選項](/help/creative/assets/metrics-option.png "量度選項")
 
-* 您可以從[!UICONTROL Experiences]檢視[檢視任何體驗](experience-performance-details.md)的詳細效能資料。
+* 您可以從[檢視](experience-performance-details.md)檢視任何體驗[!UICONTROL Experiences]的詳細效能資料。
 
 * 若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/report-custom-creative.md)。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences]檢視
 
-[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Experiences]檢視中啟用[!UICONTROL Metrics]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的體驗中的創意。
+[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Metrics]檢視中啟用[!UICONTROL Experiences]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的體驗中的創意。
 
 您可以建立並管理您的體驗、建立及重新命名廣告體驗標籤，以及匯出JavaScript和iframe格式的標籤，以在DSP上實作。 使用Advertising DSP的廣告商可選擇將廣告標籤直接上傳至Advertising DSP行銷活動。
 

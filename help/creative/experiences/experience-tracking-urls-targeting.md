@@ -3,9 +3,9 @@ title: 自訂體驗的追蹤URL
 description: 瞭解如何使用決策樹定位來自訂體驗中每個創意內容的追蹤URL。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 將游標停留在目標節點下方的創意組合分葉/資料夾上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**。
 
-   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]索引標籤會以指派的組合中適用的大小列出所有創意專案的名稱。 體驗的預設影像創意大小決定可用的大小。<!-- There's no distinct "Creative Sizes" setting. -->
+   [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]索引標籤會以指派的組合中適用的大小列出所有創意專案的名稱。 體驗的預設創意大小決定可用的大小。<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. 在&#x200B;**[!UICONTROL Click Tracking URLs]**、**[!UICONTROL Impression Tracking URLs]**&#x200B;和&#x200B;**[!UICONTROL Landing URLs]**&#x200B;索引標籤上，視需要對每個創意內容執行以下操作：
 

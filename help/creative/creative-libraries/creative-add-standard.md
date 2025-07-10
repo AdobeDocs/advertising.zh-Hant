@@ -3,9 +3,9 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * 將裝置或網路上的檔案拖放至方塊中。
 
-   * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;以找出裝置或網路上的檔案。
+   * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;以找出裝置或網路上的檔案。
 
    檢視[彈性廣告規格](#flexible-ad-spec)。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 使用範本新增彈性創意 {#flexible-creative-use-template}
 
-您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意] (flexible-creative-upload)。>
+您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * 將裝置或網路上的檔案拖放至方塊中。
 
-   * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+   * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
 
    請參閱[HTML5廣告規格](/help/creative/creative-libraries/html5-creative-specification.md)。
 
@@ -167,9 +167,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       * 將裝置或網路上的檔案拖放至方塊中。
 
-      * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+      * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
 
-   * 針對連線至您DSP帳戶[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Adobe Experience Manager資料庫中已核准的影像，請執行下列動作：
+   * 針對連線至您DSP帳戶[的](/help/creative/creative-libraries/aem-assets-configure.md)Adobe Experience Manager資料庫中已核准的影像，請執行下列動作：
 
       1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
 
@@ -206,6 +206,30 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 1. 在[協力廠商創意設定](#creative-settings-third-party)中指定創意的JavaScript標籤和其他設定。
 
    您可以將任何[可用的巨集](/help/creative/creative-macros.md)複製並貼到JavaScript標籤中。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**
+
+## 將視訊創意內容新增至創意內容庫
+
+檢視[視訊創意規格](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)和[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下程式庫名稱。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Standard Ads]**&#x200B;子標籤。
+
+1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**。
+
+1. 以下列其中一種方式指定視訊檔案：
+
+   * 將裝置或網路上的檔案拖放至方塊中。
+
+   * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+
+1. 指定[視訊創作設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)。
+
+   預設會選取您剛上傳的創意，而您指定的任何設定會套用至選取的創意。<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. 按一下&#x200B;**[!UICONTROL Create]**
 

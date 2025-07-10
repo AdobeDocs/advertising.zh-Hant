@@ -3,9 +3,9 @@ title: 廣告規格
 description: 參考一般和發佈者特有的廣告規格。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以使用來自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的標籤工作表。 如需支援廠商的完整清單，請參閱[認證廣告服務合作夥伴](certified-ad-servers.md)。
 
-### 高解析度視訊Assets的需求（必要）
+### 高解析度視訊Assets的需求
 
 **視訊標籤型別：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID廣告單位都必須遵循Interactive Advertising Bureau (IAB)所定義的[VPAID 2.0規格](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)。
 
@@ -80,15 +80,15 @@ ht-degree: 0%
 
 ### 支援的檔案型別
 
-**影像：** GIF，JPG/JPEG，PNG
+**影像：** GIF、JPG/JPEG、PNG
 
 **HTML5：**&#x200B;影像檔案型別：GIF、JPG/JPEG、PNG、SVG
 
-### 影像Assets的需求（必要）
+### 影像Assets的需求
 
 支援通用顯示。
 
-**建議的廣告大小：** 120x60， 160x600， 180x150， 300x50， 300x100， 300x1050， 300x250， 300x600， 320x50， 320x480， 480x60， 640x48 0， 88x31， 728x90， 970x250， 970x90
+**建議的廣告大小：** 120x60， 160x600， 180x150， 300x50， 300x100， 300x1050， 300x250， 300x600， 320x50， 320x480， 480x60， 640x480， 88x31， 728x90， 970x250， 970x90
 
 **支援的協力廠商廣告伺服器：**&#x200B;您可以使用來自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的標籤工作表。 如需支援廠商的完整清單，請參閱[認證廣告服務合作夥伴](certified-ad-servers.md)。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 您可以使用來自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的標籤工作表。 如需支援廠商的完整清單，請參閱[認證廣告服務合作夥伴](certified-ad-servers.md)。
 
-### 音訊Assets的需求（必要）
+### 音訊Assets的需求
 
 **檔案型別：** MP3、OGG、AAC
 
@@ -154,33 +154,33 @@ ht-degree: 0%
 #### 其他發行者需求
 
 * **[!DNL iHeartRadio]：**
-   * 檔案型別：JPEG、JPG、PNG、GIF、SWF、HTML
+   * 檔案型別： JPEG、JPG、PNG、GIF、SWF、HTML
    * 檔案大小上限： 2.2 MB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 * **[!DNL Pandora]：**
-   * 檔案型別：JPEG、GIF
+   * 檔案型別： JPEG、GIF
    * 檔案大小上限：大小： 100 KB
-   * Dimension：300x250 （行動或桌上型電腦）或500x500 （桌上型電腦）
+   * 尺寸：300x250 （行動或桌上型電腦）或500x500 （桌上型電腦）
 
 * **[!DNL SoundCloud]：**
    * 檔案型別：靜態JPG、PNG
    * 檔案大小上限：低於400 KB
-   * Dimension：1024x1024
+   * 尺寸：1024x1024
 
 * **[!DNL Spotify]：**
    * 檔案型別：靜態JPG、PNG
    * 檔案大小上限： 200 KB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 * **[!DNL TuneIn]：**
-   * 檔案型別：JPEG、JPG、PNG、GIF、HTML
+   * 檔案型別： JPEG、JPG、PNG、GIF、HTML
    * 檔案大小上限： 2 MB
-   * Dimension：300x250
+   * 尺寸：300x250
 
 ## 原生顯示廣告
 
-每個廣告都可以包含靜態影像或移動GIF（動態靜圖）。
+每個廣告都可以包含靜態影像或移動GIF （動態靜圖）。
 
 ### 支援的Screens
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 **解析度：**&#x200B;最小為600x600px；建議的最小為1200x627px
 
-**檔案型別：** JPEG（影像廣告或視訊廣告封面影像）、GIF(cinemograph)
+**檔案型別：** JPEG （影像廣告或視訊廣告封面影像）、GIF (cinemograph)
 
 **檔案大小：**&#x200B;小於1 MB （影像應不含文字。）
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 **贊助者：**&#x200B;最多200個字元；建議30個字元
 
-**呼叫動作（僅限MoPub）：**&#x200B;最多15個字元
+**Call to action （僅限MoPub）：**&#x200B;最多15個字元
 
 >[!NOTE]
 >

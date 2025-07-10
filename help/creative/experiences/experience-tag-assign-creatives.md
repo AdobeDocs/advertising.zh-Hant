@@ -3,9 +3,9 @@ title: 將創意內容指派給體驗的廣告標籤，而不需鎖定目標
 description: 瞭解如何將創意內容指派給特定創意大小的廣告標籤。
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
 1. 將游標停留在適用廣告標籤的列上，然後按一下&#x200B;**[!UICONTROL + Add Creatives]**。<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ ht-degree: 0%
 >* [手動建立適用創意大小的廣告標籤](experience-tag-create-manually.md)
 >* [自訂創作的追蹤URL](experience-tracking-urls-no-targeting.md)。
 >* [為創意人士自訂創意最佳化和排程](experience-optimization-scheduling-no-targeting.md)
+>* [自訂視訊廣告體驗標籤的轉碼選項](experience-tag-video-transcoding.md)
 >* [匯出並實作即時體驗的廣告體驗標籤](experience-tag-export.md)

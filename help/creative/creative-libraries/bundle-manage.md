@@ -3,9 +3,9 @@ title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-組合是創意作品群組，您可以將其作為一個單元新增到體驗中。 建立束容器後，您可以將創意附加至束。 標準套件組合只能包含標準廣告，而動態套件組合只能包含動態廣告。 您可以覆寫套件中所有創意的登陸頁面、曝光追蹤標籤，以及點選追蹤標籤，這些創意會從體驗決策樹內指派給體驗，而不會影響基本創意內容。
+組合是創意作品群組，您可以將其作為一個單元新增到體驗中。 建立束容器後，您可以將創意附加至束。 標準顯示套件組合只能包含標準顯示廣告，標準視訊套件組合只能包含標準視訊廣告，而動態顯示套件組合只能包含動態顯示廣告。 您可以覆寫套件中所有創意的登陸頁面、曝光追蹤標籤，以及點選追蹤標籤，這些創意會從體驗決策樹內指派給體驗，而不會影響基本創意內容。
 
 [!DNL Creative]會依指派給組合的每個體驗之指定，在組合中旋轉創意。 您可以選擇允許[!DNL Creative]使用演演算法廣告輪換(由Adobe Sensei提供技術支援)，根據效能最佳化任何體驗的廣告元素。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**。
 
-1. 輸入唯一的&#x200B;**[!UICONTROL Bundle Name]**&#x200B;和&#x200B;**[!UICONTROL Bundle Type]：** *標準* （適用於標準創意）或&#x200B;*動態* (適用於動態創意。
+1. 輸入唯一的&#x200B;**[!UICONTROL Bundle Name]**&#x200B;和&#x200B;**[!UICONTROL Bundle Type]：** *標準顯示* （適用於標準顯示創意）、*動態顯示* （適用於動態顯示創意）、*標準視訊* （適用於標準視訊創意）。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ## 將創意內容附加至組合
 
-您可以將[現有的標準創意](/help/creative/creative-libraries/creative-libraries-about.md)附加至標準組合，並將現有的動態創意<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->附加至動態組合。 將創意附加至搭售方案會讓創意內容可在指派給搭售方案的所有體驗中使用。 每個組合只能包含每個\[創意大小+語言\]組合中的一個。
+您可以將現有的標準顯示創意附加至標準顯示組合，將標準視訊創意附加至標準視訊組合，以及將動態顯示創意附加至動態組合。 將創意附加至搭售方案會讓創意內容可在指派給搭售方案的所有體驗中使用。 每個組合只能包含每個\[創意大小+語言\]組合中的一個。
 
 >[!NOTE]
 >

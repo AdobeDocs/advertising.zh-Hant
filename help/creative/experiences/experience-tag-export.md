@@ -3,9 +3,9 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ ht-degree: 0%
 
    * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**
+   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+
+>[!NOTE]
+>
+>對於標準視訊廣告體驗，請等候[!UICONTROL Tag Status]欄顯示「[!UICONTROL Ready]」，表示體驗中的所有視訊都已轉碼。 DSP會自動轉碼所有視訊創意，但您可以選擇將[發佈者特有的轉碼](experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -81,7 +85,6 @@ ht-degree: 0%
 
       1. 在[!UICONTROL Create ads]檢視中，檢閱廣告標籤，選取您要建立廣告的每個標籤，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ ht-degree: 0%
 >* [手動建立適用創意大小的廣告標籤](experience-tag-create-manually.md)
 >* [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](experience-tag-assign-creatives.md)
 >* [重新命名廣告標籤](experience-tag-rename.md)
+>* [自訂視訊廣告體驗標籤的轉碼選項](experience-tag-video-transcoding.md)
