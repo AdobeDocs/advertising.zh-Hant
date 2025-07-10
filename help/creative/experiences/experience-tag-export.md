@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
