@@ -2,9 +2,10 @@
 title: 自訂視訊廣告體驗標籤的轉碼選項
 description: 瞭解如何自訂視訊廣告標籤的轉碼選項。
 feature: Creative Experiences
-source-git-commit: b67bb63fd5f87e6bd900aa5d957973d11355280c
+exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-您可以自訂視訊廣告體驗的轉碼選項。
+您可以自訂視訊廣告體驗的轉碼選項，以確保跨發佈商的快速播放和品質控制。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -28,4 +29,3 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Publisher specific transcodes]**&#x200B;清單中，選取轉碼型別。
 
 1. 按一下&#x200B;**[!UICONTROL Save Settings]**。
-

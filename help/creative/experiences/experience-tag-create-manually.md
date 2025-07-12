@@ -3,9 +3,9 @@ title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *只有沒有決策樹定位的體驗*
 *已關閉的Beta版*
 
-您可以為體驗所使用的每個創意大小建立一或多個廣告標籤。 您稍後可以將[創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
+您可以針對體驗所使用的每個創意大小或視訊持續時間，針對每種語言建立一或多個廣告標籤。 您稍後可以將[創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
->對於決策樹定位的體驗，[!DNL Creative]會自動為每個適用的創意大小建立一個標籤。
+>對於決策樹定位的體驗，[!DNL Creative]會為每個適用的創意大小或視訊持續期間，針對每種語言自動建立一個標籤。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Create Tag]**。
 
-1. 輸入唯一的&#x200B;**[!UICONTROL Tag name]**&#x200B;並選取&#x200B;**[!UICONTROL Tag size]**。
+1. 輸入唯一的&#x200B;**[!UICONTROL Tag name]**，並選取（標準顯示廣告） **[!UICONTROL Tag size]**&#x200B;或（標準視訊廣告） **[!UICONTROL Duration]**。
 
-   體驗的預設創意大小會決定可用的創意大小。
+   體驗預設創意的大小或持續時間會決定可用的創意大小或視訊持續時間。
 
-   您可以為相同的創意大小建立多個標籤。<!-- What are the implications? -->
+   您可以為相同的創意大小或持續時間建立多個標籤。<!-- What are the implications? -->
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
