@@ -3,7 +3,7 @@ title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ## 一般問題
 
 +++如果報表的日期範圍在報表資料可用之前開始，該怎麼辦？
-報表會產生，但僅包含資料可用的日期資料。 如需每個報表型別何時有可用資料的詳細資訊，請參閱&quot;[報表使用的資料](data-used-for-reports.md)&quot;。
+報表會產生，但僅包含資料可用的日期資料。 如需每個報表型別何時有資料可用的詳細資訊，請參閱&quot;[用於報表的資料](data-used-for-reports.md)&quot;。
 +++
 
 +++點按日期和交易日期型報表之間有何差異？
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)會分別決定付費點按或顯示曝光發生後，事件可歸因於轉換的天數。 將值變更為較長或較短的期間，對於點按至收入或顯示曝光至收入期間特別短的廣告商可能很重要。
 
-**最佳實務：**&#x200B;請確定回顧期間比大多數關鍵字或廣告的點按收入時間和顯示曝光收入時間長。 較短時，某些轉換不會與初始點按或曝光建立關聯。
+**最佳實務：**請確定回顧期間比大多數關鍵字或廣告的點按收入時間和顯示曝光收入時間長。 較短時，某些轉換不會與初始點按或曝光建立關聯。
 +++
 
 +++我如何知道哪些轉換來自[!DNL Google Ads]廣告延長或產品清單？
-您可以產生[!UICONTROL Transaction Report]，藉此檢視哪些轉換是由於點選[!DNL Google Ads]廣告延伸（而不是廣告本身）或產品清單所導致。 [!UICONTROL Link Type]欄值顯示所點按連結的型別和標題：
+您可以產生[!DNL Google Ads]，藉此檢視哪些轉換是由於點選[!UICONTROL Transaction Report]廣告延伸（而不是廣告本身）或產品清單所導致。 [!UICONTROL Link Type]欄值顯示所點按連結的型別和標題：
 
 * 產品清單列為`pla:<product ID>`，例如`pla:8525822`。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 +++我可以在特定帳戶屬性量度（例如[!UICONTROL Device]或[!UICONTROL Objective Name]）上建立報告嗎？
 對於行銷活動實體報表（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Product Group Report]），度量資料會依您包含在報表中的屬性欄動態彙總。 您可以選擇移除報表的索引鍵欄，並僅包含您要彙總資料的屬性欄。
 
-例如，如果您產生包含[!UICONTROL Ad Group]和裝置欄的[!UICONTROL Keyword Report]，則依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您在產生報表之前移除[!UICONTROL Keyword]欄，則報表會依裝置型別動態產生指定廣告群組的量度。
+例如，如果您產生包含[!UICONTROL Keyword Report]和[!UICONTROL Ad Group]裝置欄的，則依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您在產生報表之前移除[!UICONTROL Keyword]欄，則報表會依裝置型別動態產生指定廣告群組的量度。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 * 產品組合篩選器選取範圍會排除導致轉換的某些事件。
 
-  如果您針對投資組合的子集製作報表，則可能無法納入包含根據某一項歸因規則將轉換歸因之事件的行銷活動。 例如，假設使用者從Portfolio_1按一下Keyword_1，從Portfolio_2按一下Keyword_2，然後轉換。 如果報表使用&quot;[!UICONTROL First Event]&quot;歸因規則，則必須包含Portfolio_1，轉換才能包含在報表中。 不過，如果報表使用「上次Portfolio」歸因規則，則必須包含Event_2。
+  如果您針對投資組合的子集製作報表，則可能無法納入包含根據某一項歸因規則將轉換歸因之事件的行銷活動。 例如，假設使用者從Portfolio_1按一下Keyword_1，從Portfolio_2按一下Keyword_2，然後轉換。 如果報表使用&quot;[!UICONTROL First Event]&quot;歸因規則，則必須包含Portfolio_1，轉換才能包含在報表中。 不過，如果報表使用「最後事件」歸因規則，則必須包含Portfolio_2。
 
 >[!TIP]
 >
@@ -92,15 +92,15 @@ ht-degree: 0%
 +++雖然總計正確，但個別資料欄位仍不正確。
 當量度格式使用整數時，可能會發生這種情況：
 
-* 如果您建立格式為&#x200B;*不含小數點*&#x200B;的數字[自訂量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) （以整數顯示資料），並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 在這種情況下，個別資料欄位可能不正確，儘管總數正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要解決此問題，請[將量度格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)變更為&#x200B;*數字為2小數點*。
+* 如果您建立格式為[不含小數點](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)的數字&#x200B;*自訂量度* （以整數顯示資料），並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 在這種情況下，個別資料欄位可能不正確，儘管總數正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要解決此問題，請[將量度格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)變更為&#x200B;*數字為2小數點*。
 
-* 同樣地，如果您的收入量度是以整數傳送，則會發生相同的問題。 （收入格式是由提交資料的轉換標籤所控制。） 若要解決此問題，[建立僅包含收入量度，且格式為&#x200B;*數字至2小數點*&#x200B;的自訂量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)，並將其納入檢視和報表中，而非原始量度。
+* 同樣地，如果您的收入量度是以整數傳送，則會發生相同的問題。 （收入格式是由提交資料的轉換標籤所控制。） 若要解決此問題，[建立僅包含收入量度，且格式為](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)數字至2小數點&#x200B;*的自訂量度*，並將其納入檢視和報表中，而非原始量度。
 +++
 
 +++當點選或收入資料遺失時，我如何防止它影響未來的競標？
-搜尋、社交和Commerce與廣告網路不同步時，會發生點按資料問題。 請連絡您的Adobe帳戶團隊，以手動同步帳戶。 如果整天的點選資料遺失，請要求您的Adobe帳戶團隊將當天排除在成本模型之外。
+搜尋、社交和Commerce與廣告網路不同步時，會發生點按資料問題。 請聯絡您的Adobe帳戶團隊，以手動同步帳戶。 如果整天的點選資料遺失，請要求您的Adobe客戶團隊將當天排除在成本模型之外。
 
-追蹤或摘要檔案問題可能會導致收入資料問題。 請聯絡您的Adobe客戶團隊以調查問題。 如果一整天的收入資料都遺失，請要求您的Adobe帳戶團隊將該天從收入模型中排除。
+追蹤或摘要檔案問題可能會導致收入資料問題。 請聯絡您的Adobe客戶團隊以調查問題。 如果整天的收入資料都遺失，請要求Adobe客戶團隊將當天排除在收入模型之外。
 +++
 
 +++貨幣資料以錯誤的格式顯示。
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 1. 確認已在所有適用網頁上實施正確的轉換追蹤標籤。 如有必要，請要求您的Adobe帳戶團隊為每個適用的轉換追蹤標籤建立測試交易，並從Cookie擷取交易的詳細資料（例如`transactionid`和詳細資料） （例如`trackingid`、`clickid`等）。
 
-1. 如果促銷活動停用「[!UICONTROL Auto Upload]」選項，且您已新增關鍵字或廣告，則請確定您已產生追蹤範本或目的地URL，其中包含每個的搜尋、社交和Commerce點選重新導向追蹤。 您的Adobe帳戶團隊可以執行內部報表，以檢視是否有任何點選追蹤URL （追蹤範本或目的地URL）遺失或格式錯誤。
+1. 如果促銷活動停用「[!UICONTROL Auto Upload]」選項，且您已新增關鍵字或廣告，則請確定您已產生追蹤範本或目的地URL，其中包含每個的搜尋、社交和Commerce點選重新導向追蹤。 您的Adobe帳戶團隊可執行內部報表，以檢視是否有任何點選追蹤URL （追蹤範本或目的地URL）遺失或格式錯誤。
 
    如有必要，請使用正確的URL建立大量表單檔案來產生追蹤，並使用&#x200B;**產生追蹤URL**&#x200B;選項將檔案張貼至適當的帳戶。
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 +++
 
 +++有些進階報表並不包含廣告商摘要所提供的轉換資料。
-[!UICONTROL Geo Distribution Report]和[!UICONTROL Domain Referral Report]使用透過Adobe Advertising轉換追蹤服務擷取的資料，而且只能為該服務的廣告商產生。 報表不包含在Adobe Advertising轉換追蹤系統之外追蹤的轉換資料。
+[!UICONTROL Geo Distribution Report]和[!UICONTROL Domain Referral Report]使用透過Adobe Advertising轉換追蹤服務擷取的資料，而且只能為該服務的廣告商產生。 這些報表不包含在Adobe Advertising轉換追蹤系統外部所追蹤的轉換資料。
 +++
 
 +++收入資料與廣告商自己的收入資料不同。
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 1. 如果部分交易不正確或遺失，請確定相關轉換追蹤標籤已在所有適用網頁上實作，而且除非您的Adobe帳戶團隊建議您這麼做，否則系統不會進行編輯。 如果最近更新了網站，標籤可能會遺失或變更。
 
-   搜尋、Social和Commerce預期在`ef_transaction_properties`變數內和`img`標籤的`src`元素內有格式正確的URL （具有名稱 — 值配對中的引數）。
+   搜尋、Social和Commerce預期在`ef_transaction_properties`變數內和`src`標籤的`img`元素內有格式正確的URL （具有名稱 — 值配對中的引數）。
 
 1. 如果您無法判斷及解決問題，請[連絡客戶服務](/help/search-social-commerce/get-help.md)。
 
@@ -294,13 +294,13 @@ ht-degree: 0%
 +++
 
 +++收入資料與Adobe Analytics中的資料不同
-請參閱[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=zh-Hant).<!-- change link URL to relative link -->
+請參閱[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## 特定報告
 
 +++[!UICONTROL Portfolio Report]是否應該顯示與[!UICONTROL Portfolios]檢視相同的數字？
-當檢視的所有篩選器、報表引數以及檢視和報表的資料欄相同時，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]檢視會顯示相同的資料。 例如，如果[!UICONTROL Portfolios]檢視在日期範圍「[!UICONTROL Last 7 days]」顯示為「[!UICONTROL All but inactive]」的投資組合，且只顯示預設資料欄，則使用預設引數的[!UICONTROL Portfolio Report]會顯示相同的資料。 如果您變更任何報表引數，或在[!UICONTROL Portfolios]檢視中使用不同的篩選器，則資料值可能會不同。
+當檢視的所有篩選器、報表引數以及檢視和報表的資料欄相同時，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]檢視會顯示相同的資料。 例如，如果[!UICONTROL Portfolios]檢視在日期範圍「[!UICONTROL All but inactive]」顯示為「[!UICONTROL Last 7 days]」的投資組合，且只顯示預設資料欄，則使用預設引數的[!UICONTROL Portfolio Report]會顯示相同的資料。 如果您變更任何報表引數，或在[!UICONTROL Portfolios]檢視中使用不同的篩選器，則資料值可能會不同。
 +++
 
 +++我的[!UICONTROL Portfolio Report]中的資料與我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的資料不相符。
@@ -308,7 +308,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]與投資組合層級[!UICONTROL Model Accuracy Report]有何不同？
-(僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者) [!UICONTROL Reports] > [!UICONTROL Model Accuracy]中可用的[!UICONTROL Forecast Accuracy Report]提供與投資組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個投資組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
+(僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者) [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]提供與產品組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個產品組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
 +++
 
 +++廣告層級資料不適用於[!DNL Google Ads]動態搜尋廣告(DSA)、最高效能、智慧購物和[!DNL YouTube]行銷活動。
@@ -316,7 +316,7 @@ ht-degree: 0%
 +++
 
 +++在[!UICONTROL Transaction Report]中，我如何知道哪個轉換量度來自資料摘要或由Adobe Advertising追蹤畫素追蹤？
-在交易報表中，如果您包含自訂欄&quot;[!UICONTROL Tracking URL]&quot;，您可以分辨是否有Adobe Advertising追蹤畫素追蹤包含的轉換量度。 以Adobe Advertising追蹤畫素的追蹤URL以&quot;`http://pixel.everesttech.net`&quot;開頭。
+在交易報表中，如果您包含自訂欄&quot;[!UICONTROL Tracking URL]&quot;，您可以分辨包含的轉換量度是否受到Adobe Advertising追蹤畫素的追蹤。 使用Adobe Advertising追蹤畫素追蹤URL的開頭為&quot;`http://pixel.everesttech.net`&quot;。
 +++
 
 +++我的[!UICONTROL Transaction Report]中的資料與我的[!UICONTROL Keyword Report]中的資料不符。
