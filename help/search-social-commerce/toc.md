@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+source-git-commit: 190f2e5bbf394de05e0d47b46090795d9ee19552
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1867'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)
    + 與Adobe Experience Cloud整合 {#integrations}
       + [與Adobe Experience Cloud解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}
-      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hant){target="_blank"}
-   + [消費者隱私權支援（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hant){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [消費者隱私權支援（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 快速入門 {#getting-started}
    + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系統需求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -65,6 +65,41 @@ ht-degree: 2%
       + 下載管理檢視中的資料 {#download-data-views}
          + [從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
++ (Beta)新使用者介面 {#new-ui}
+   + [檢視您的效能儀表板](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + 計畫 {#plan}
+      + 目標 {#objectives}
+         + [關於目標](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
+         + [建立目標](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
+         + [編輯目標](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
+         + [刪除目標](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
+         + [將權重建議套用至目標](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
+         + [目標設定](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+      + 模擬 {#simulations}
+         + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [執行或重新執行自訂模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [下載模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+   + 管理 {#manage}
+      + 產品組合 {#portfolios}
+         + [關於投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [建立投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [複製投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [編輯投資組合詳細資訊](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [使用大量工作表檔案大量編輯投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Portfolio設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [檢視投資組合績效詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+      + 行銷活動 {#campaigns}
+         + [關於[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [將行銷活動指派給投資組合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [從投資組合移除行銷活動](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+      + 廣告群組 {#ad-groups}
+         + [關於[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 + 追蹤 {#tracking}
    + [關於追蹤](/help/search-social-commerce/tracking/tracking-about.md)
    + 點選追蹤 {#click-tracking}
@@ -81,7 +116,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
+      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID (s_kwcid)追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 轉換追蹤 {#conversion-tracking}
       + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)

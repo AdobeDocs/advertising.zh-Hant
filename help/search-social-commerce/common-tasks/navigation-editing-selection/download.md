@@ -3,14 +3,14 @@ title: 從行銷活動管理檢視下載資料
 description: 瞭解如何從大多數的行銷活動管理檢視下載資料。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# 從行銷活動管理檢視下載資料
+# （舊版UI）從行銷活動管理檢視下載資料
 
 *舊版使用者介面*
 
@@ -23,6 +23,10 @@ ht-degree: 0%
   如果您產生多個行銷活動的資料，且合併的資料包含超過500,000列，則行銷活動會視需要將資料進一步分割為兩個或多個檔案（名為`<bulksheet name>_1.txt`、`<bulksheet name>_2.txt`等）。
 
   [!UICONTROL Downloads]面板中的每個Bulksheet檔案也會列在[!UICONTROL Bulksheets]檢視中。 建立檔案時，您會收到電子郵件通知，其中包含下載檔案的連結；根據編譯的資料量，通知可能需要幾分鐘或更長時間。 但是，如果檔案產生失敗，則「大量表單」檢視中會列出錯誤檔案，而您會收到電子郵件通知，其中包含錯誤檔案的連結。 從[!UICONTROL Download]面板或[!UICONTROL Bulksheets]索引標籤刪除Bulksheet檔案時，會將它從這兩個位置刪除。
+
+>[!NOTE]
+>
+>另請參閱從&quot;[[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;、&quot;[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot;和&quot;[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;下載新使用者介面中的資料的相關說明。
 
 1. （可選）選取要包含在檔案中的個別列。
 
@@ -42,4 +46,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [（新UI）從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [（新UI）從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
