@@ -3,9 +3,9 @@ title: 從投資組合中移除行銷活動
 description: 瞭解如何從產品組合移除行銷活動。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯") **[!UICONTROL Edit]**。
 
-1. 在投資組合設定<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->中，移至[!UICONTROL Assign Campaigns]區段並變更行銷活動指派。
+1. 在投資組合設定中，前往[!UICONTROL Assign Campaigns]區段並變更行銷活動指派。
+
+   如需產品組合設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -40,9 +42,9 @@ ht-degree: 0%
 
 1. 在左側功能表中按一下&#x200B;**[!UICONTROL Campaigns]**，然後移除行銷活動：
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![從產品組合移除所有行銷活動](/help/search-social-commerce/assets/arrow-remove-all.png "。")
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "。")
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
