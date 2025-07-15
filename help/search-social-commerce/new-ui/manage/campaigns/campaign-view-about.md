@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 可用動作
 
-* [將行銷活動指派給現有或新的產品組合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，以及[從產品組合取消指派行銷活動](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [將行銷活動指派給現有或新的產品組合](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，以及[從產品組合取消指派行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [為行銷活動指派限制，並從行銷活動取消指派限制](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [將行銷活動指派給投資組合](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [從投資組合移除行銷活動](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [將行銷活動指派給投資組合](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [從投資組合移除行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [管理行銷活動的限制指派](campaign-constraint-assignments-manage.md)
 >* [從[!UICONTROL Campaigns]檢視下載資料](campaign-view-report.md)
