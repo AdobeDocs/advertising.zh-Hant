@@ -3,7 +3,8 @@ title: （新UI）檢視您的效能儀表板
 description: 瞭解效能儀表板中可用的資料。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # （新UI）檢視您的效能儀表板
 
 *Beta功能*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 可自訂的[!UICONTROL Dashboard]可讓您監視所有產品組合<!-- May later include other entity-level data -->的效能，以便識別要調查和解決的潛在效能問題。 您可以檢視過去90天內任何時段的每日、每週或每月資料。
 
@@ -57,4 +56,3 @@ ht-degree: 0%
    * 變更報告的量度（[!UICONTROL Cost] \[預設選取\]、[!UICONTROL Clicks]或[!UICONTROL Objective Value]）。
 
    * 若要開啟[!UICONTROL Portfolios]檢視，請按一下圖表右下角的&#x200B;**[!UICONTROL View More]**。<!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
