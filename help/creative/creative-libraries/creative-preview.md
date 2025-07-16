@@ -3,9 +3,9 @@ title: 預覽創意
 description: 瞭解如何開啟創意內容預覽。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
+source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,21 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Preview]**。
 
-1. （選擇性）若要調整熒幕中的影像大小，請選取&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中的選項，從影像大小的10%到100%。
+1. （可用時為選擇性）若要調整畫面中影像的大小，請在&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中選取影像大小的10%至100%選項。
 
 1. (彈性的HTML5創意；選擇性)若要在創意的框架之間捲動，請按一下&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
 
-1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
+1. （視訊創意；選用）使用創意底下的控制項，執行下列任一項作業：
+
+   * 播放或停止視訊。
+
+   * 將聲音設為靜音或取消靜音。
+
+   * 以全熒幕模式開啟視訊並退出全熒幕模式。
+
+   * 從[!UICONTROL More Options]下載視訊、變更播放速度，或變更為子母畫面。
+
+1. （選用；非視訊創意）若要開啟創作的登陸頁面，請按一下創意。
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
