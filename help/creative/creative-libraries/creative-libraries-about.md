@@ -3,7 +3,7 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >* 即使您打算將HTML5、彈性HTML5或協力廠商創意內容用於標準顯示廣告體驗，您也必須為您使用的每個創意大小新增影像創意內容。
 >* 每個標準顯示體驗都需要為指派給體驗的每個創意大小提供預設影像創意。 當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時，就會使用預設影像創意。
->* 每個標準視訊體驗都需要為指派給體驗的每個創意大小預設視訊創意。<!-- when is it used? -->
+>* 每個標準視訊體驗都需要為指派給體驗的每個創意期間提供預設的視訊創意。<!-- when is it used? -->
 
 #### 彈性的HTML5
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 #### 視訊創意 {#creative-video-specs}
 
-您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個標準視訊廣告體驗都需要為指派給體驗的每個創意大小提供預設的視訊創意。 DSP會自動將所有影片創意內容轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將[發行者特定的轉碼](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
+您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個標準視訊廣告體驗都需要為指派給體驗的每個創意期間提供預設的視訊創意。 DSP會自動將所有影片創意內容轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將[發行者特定的轉碼](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
 
 請參閱下列視訊創作需求。
 
