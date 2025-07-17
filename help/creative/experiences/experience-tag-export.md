@@ -3,9 +3,9 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 *已關閉的Beta*
 
-特定創意大小的廣告標籤可用於[即時](experience-about.md#experience-statuses)體驗後，您就可以在JavaScript、iframe和視訊格式中產生並複製該標籤，以在Advertising DSP或其他DSP上實作。 DSP的標籤包含DSP所需的所有巨集。
+特定創意大小或視訊持續時間的廣告標籤可用於[即時](experience-about.md#experience-statuses)體驗後，您就可以在JavaScript、iframe和視訊格式中產生並複製標籤，以在Advertising DSP或其他DSP上實作。 DSP的標籤包含DSP所需的所有巨集。
 
 使用Advertising DSP的廣告商可選擇直接將標籤上傳至Advertising DSP行銷活動，作為廣告型別「標準顯示」或「通用視訊」的廣告。
 
 >[!NOTE]
 >
->* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小建立廣告標籤。
->* 當您建立沒有決策樹定位的體驗時，您必須針對每個適用的創意大小[手動建立廣告標籤](experience-tag-create-manually.md)。
+>* 當您使用決策樹目標定位建立體驗時，[!DNL Creative]會自動為每個適用的創意大小（非視訊創意）或視訊持續時間（視訊創意）建立廣告標籤。
+>* 當您建立沒有決策樹定位的體驗時，必須為每個適用的創意大小（非視訊創意）或視訊持續時間（視訊創意）手動[建立廣告標籤](experience-tag-create-manually.md)。
 >* 體驗標籤是動態的。 如果您編輯體驗，則不需要更新標籤。
 >* 請確定您將在其中實作廣告體驗的行銷活動包含與體驗相容的目標定位。 階層式鎖定目標行為可能因DSP而異。 在Advertising DSP中，廣告層級鎖定目標會套用在（而非）位置層級鎖定目標上方。
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
->對於標準視訊廣告體驗，請等候[!UICONTROL Tag Status]欄顯示「[!UICONTROL Ready]」，表示體驗中的所有視訊都已轉碼。 DSP會自動轉碼所有視訊創意，但您可以選擇將[發佈者特有的轉碼](experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
+>對於標準視訊廣告體驗，請等候[!UICONTROL Tag Status]欄顯示「[!UICONTROL Ready]」，表示體驗中的所有視訊都已轉碼。 DSP會自動轉碼所有視訊創意，但您可以選擇將其他DSP的轉碼[套用至任何視訊廣告體驗標籤。](experience-tag-video-transcoding.md)
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * （非視訊體驗） ** *JavaScript<!-- sic -->* **或** *IFRAME* ** <!-- sic -->。
 
-   * （視訊體驗） **&#x200B; *視訊***訊。
+   * （視訊體驗） ** *視訊***訊。
 
 1. 在[!UICONTROL Destinations]清單中，選取您將為體驗建立廣告的位置。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 複製或下載標籤：
 
-   * 若要複製單一廣告大小的標籤，請展開標籤列，將游標停留在列上，然後按一下![複製](/help/creative/assets/copy.png "複製") **[!UICONTROL Copy]**。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * 若要複製單一廣告大小（非視訊廣告）或持續時間（視訊廣告）的標籤，請展開標籤列，將游標停留在列上，然後按一下[複製]。![](/help/creative/assets/copy.png "[複製]") **[!UICONTROL Copy]**。<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
    * 若要以檔案形式將所有產生的標籤下載至瀏覽器的預設下載位置，請按一下![下載標籤](/help/creative/assets/download.png "下載標籤")。
 

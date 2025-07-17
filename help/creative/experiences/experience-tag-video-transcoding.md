@@ -3,9 +3,9 @@ title: 自訂視訊廣告體驗標籤的轉碼選項
 description: 瞭解如何自訂視訊廣告標籤的轉碼選項。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 將游標停留在適用廣告標籤的列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Video Settings]**。
 
-1. 在&#x200B;**[!UICONTROL Publisher specific transcodes]**&#x200B;清單中，選取轉碼型別。
+1. 在&#x200B;**[!UICONTROL Publisher-specific transcodes]**&#x200B;清單中，選取您要套用轉碼的DSP。
 
 1. 按一下&#x200B;**[!UICONTROL Save Settings]**。
 

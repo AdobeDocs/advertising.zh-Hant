@@ -3,9 +3,9 @@ title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *只有沒有決策樹定位的體驗*
 *已關閉的Beta版*
 
-您可以針對體驗所使用的每個創意大小或視訊持續時間，針對每種語言建立一或多個廣告標籤。 您稍後可以將[創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
+您可以針對用於體驗的每個創意大小（非視訊創意）或視訊持續時間，針對每種語言建立一或多個廣告標籤。 您稍後可以將[創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    您可以展開標籤列來檢視包含的創意。
 
-   對於視訊廣告體驗，視訊創意內容會由DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇性[套用發行者特定轉碼](experience-tag-video-transcoding.md)。
+   對於視訊廣告體驗，視訊創意內容會使用Adobe Advertising DSP編碼自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇為其他DSP[套用](experience-tag-video-transcoding.md)轉碼。
 
 >[!MORELIKETHIS]
 >
