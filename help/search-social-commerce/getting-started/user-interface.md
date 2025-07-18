@@ -3,7 +3,7 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-![使用者介面](/help/search-social-commerce/assets/new-ui.png "使用者介面")
+![使用者介面](/help/search-social-commerce/assets/ui-new.png "使用者介面")
 
 每個頁面都包含主功能表和其他工作與資訊型功能表。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;開啟新的[!UICONTROL Objectives]檢視，您可以從中檢視所有現有目標以及建立、編輯和刪除目標。 目標設定與位於[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta]之舊版使用者介面中的設定相同。
 
-   * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]開啟舊版[!UICONTROL Spend Recommendation]工具。
+   * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]開啟舊版[!UICONTROL Spend Recommendation]工具。
 
 * **[!UICONTROL Manage]**&#x200B;子功能表：
 
