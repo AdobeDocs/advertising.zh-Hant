@@ -2,9 +2,9 @@
 title: 關於新的使用者介面
 description: 瞭解新的使用者介面。
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 >
 >* [使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)
 >* [在新舊使用者介面之間切換](/help/search-social-commerce/getting-started/ui-switch.md)
+>* 有關「常見工作」的章節，以瞭解管理自訂和預設檢視、檢視其他廣告商的資料、套用資料篩選器，以及在新使用介面和舊版使用者介面中的其他導覽和資料相關工作的相關資訊
