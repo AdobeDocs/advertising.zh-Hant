@@ -3,9 +3,10 @@ title: （新UI）建立投資組合
 description: 瞭解如何建立投資組合。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 在資料表上方的工具列中，按一下![新增](/help/search-social-commerce/assets/add-new.png "新增")。
+1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Portfolio]**&#x200B;或![新增](/help/search-social-commerce/assets/add-new.png "新增")。
+
+   顯示的按鈕視瀏覽器寬度而定。
 
 1. 指定投資組合設定。
 
