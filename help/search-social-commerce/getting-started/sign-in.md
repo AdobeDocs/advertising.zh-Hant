@@ -3,16 +3,16 @@ title: 登入
 description: 瞭解登入方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
+source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # 登入
 
-搜尋、社交和Commerce正在轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS之所有[!DNL Adobe]產品的單一登入(SSO)存取權，包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics。 隨著變更：
+搜尋、社交和Commerce正在轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS使用Federated ID為所有支援IMS的[!DNL Adobe]產品提供單一登入(SSO)存取，包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics。 隨著變更：
 
 * 您可以使用一個[!DNL Adobe ID]從Experience Cloud登入頁面或舊版搜尋、社交和Commerce登入頁面登入[!DNL Adobe]個產品。 您的[!DNL Adobe ID]提供使用者設定檔管理，並可從頂端功能表切換至其他[!DNL Adobe]產品。 在未來版本中，您將可從頂端功能表變更搜尋、社交和Commerce帳戶以及IMS組織帳戶。
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 * 您可以維持24小時的登入狀態。
 
-您目前的搜尋、社交和Commerce憑證將維持作用中狀態直至2025年7月21日，以便您為變更做好準備。
+您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ## 從舊版搜尋、社交和Commerce登入頁面登入
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    新使用者介面預設會開啟。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在首頁的[!UICONTROL Quick Access]區段中，按一下&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 
