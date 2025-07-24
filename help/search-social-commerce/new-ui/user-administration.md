@@ -101,7 +101,7 @@ Admin Console提供多種管理員型別，但只有下列管理員型別和許�
 
    1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-   1. 選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. 選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. 選取適用的Experience Cloud組織。
 
@@ -121,7 +121,7 @@ Admin Console提供多種管理員型別，但只有下列管理員型別和許�
 
 1. [登入Adobe Admin Console並開啟它以搜尋、社交和Commerce](#open-admin-console)。
 
-1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
 1. （選擇性）為每個產品執行個體建立[使用者群組](https://helpx.adobe.com/enterprise/using/user-groups.html)，並將使用者指派給每個使用者群組。
 
@@ -135,7 +135,7 @@ Admin Console提供多種管理員型別，但只有下列管理員型別和許�
 
    除了現有的四個預設產品設定檔之外，還新增了自訂設定檔。
 
-   組織的每個產品設定檔都必須有唯一名稱。 如果您的組織使用多個Search、Social和Commerce執行個體（例如Acme_US和Acme_JP），則您無法在多個執行個體中複製產品設定檔名稱。 **最佳實務：**&#x200B;使用命名慣例»<Name>_<Instance>、」，例如「Simulations_Only_JP」。
+   組織的每個產品設定檔都必須有唯一名稱。 如果您的組織使用多個Search、Social和Commerce執行個體（例如Acme_US和Acme_JP），則您無法在多個執行個體中複製產品設定檔名稱。 **最佳實務：**&#x200B;使用命名慣例»&lt;Name>_&lt;Instance>、」，例如「Simulations_Only_JP」。
 
 1. [手動或大量指派每個使用者或使用者群組至相關的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
