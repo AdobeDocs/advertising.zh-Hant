@@ -370,7 +370,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
