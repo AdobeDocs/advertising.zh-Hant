@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 1. 選取標籤型別：
 
-   * （非視訊體驗） ** *JavaScript* **或** *Iframe***。
+   * （非視訊體驗） **&#x200B; *JavaScript* &#x200B;** 或**&#x200B; *Iframe***。
 
-   * （視訊體驗） ** *視訊***訊。
+   * （視訊體驗） **&#x200B; *視訊***訊。
 
 1. 在[!UICONTROL Destinations]清單中，選取您將為體驗建立廣告的位置。
 
