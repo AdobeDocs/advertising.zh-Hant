@@ -3,7 +3,7 @@ title: 匯出並實作即時體驗的廣告體驗標籤
 description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertising DSP行銷活動。
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 1. 選取標籤型別：
 
-   * （非視訊體驗） ** *JavaScript<!-- sic -->* **或** *IFRAME* ** <!-- sic -->。
+   * （非視訊體驗） ** *JavaScript* **或** *Iframe***。
 
-   * （視訊體驗） **&#x200B; *視訊***訊。
+   * （視訊體驗） ** *視訊***訊。
 
 1. 在[!UICONTROL Destinations]清單中，選取您將為體驗建立廣告的位置。
 
