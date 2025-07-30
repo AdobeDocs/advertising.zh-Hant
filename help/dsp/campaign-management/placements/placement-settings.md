@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ ht-degree: 0%
    * *[!UICONTROL Minimum Budget]*：最小預算佔套件預算的百分比。 指定間隔上限時，最小預算值一律會計算為間隔上限的百分比。 否則，會以套件預算的百分比計算。
 
 **[!UICONTROL Max Bid]：**&#x200B;為1000次曝光需支付的最大金額。
+
+**[!UICONTROL Min Bid]：** （僅適用於私人和[!DNL On-Demand]交易）根據存貨型別的最低出價。 選取一個選項：
+
+* *[!UICONTROL None]*：沒有任何存貨型別的最低出價。 如果計算的競標價小於目標交易的固定/底價，則DSP不會競標。 這可能會影響規模。
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*： DSP至少會以固定/底價對鎖定目標的私人交易出價，即使演演算法運算出的出價較低。 這可能會影響效能。
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*： DSP至少會以目標[!DNL On-Demand]交易的固定/底價出價，即使演演算法運算出的出價較低。 這可能會影響效能。
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*： DSP至少會針對目標私人和[!DNL On-Demand]個交易出價固定/底價，即使演演算法運算出的出價較低。 這可能會影響效能。
 
 **[!UICONTROL Placement Pre-bid Filters]：**&#x200B;最多必須達到五個KPI臨界值（例如最低可檢視度量度或點進率），才能進行競標。 您可以將競標前篩選器作為最佳化策略，但瞭解每個規則可能會限制此位置競標的機會。 若要新增或編輯篩選器：
 
@@ -181,13 +191,9 @@ ht-degree: 0%
 
   從[!UICONTROL Deals]索引標籤，您可以依關鍵字、金鑰、交易ID或自訂標籤來搜尋清單。 從[!UICONTROL Deal Lists]索引標籤，您可以依交易清單名稱或交易清單ID搜尋清單。
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*： （選擇性）覆寫競標價演演算法，以至少對交易的固定與最低價格出價。
-
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[!DNL DSP]中訂閱的所有[優質、不保證的[!UICONTROL On Demand]詳細目錄](/help/dsp/inventory/on-demand-inventory-about.md) （或[!DNL Roku]個位置的[!UICONTROL On Demand] [!DNL Roku]交易）。 您可以包含和排除[!UICONTROL On Demand]詳細目錄。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[中訂閱的所有[!UICONTROL On Demand]優質、不保證的](/help/dsp/inventory/on-demand-inventory-about.md)詳細目錄[!UICONTROL On Demand] （或[!DNL Roku]個位置的[!DNL Roku] [!DNL DSP]交易）。 您可以包含和排除[!UICONTROL On Demand]詳細目錄。
 
   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要金鑰或選取的發佈者區域、類別標籤或特性標籤進行搜尋。
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*： （選擇性）覆寫競標價演演算法，以至少對交易的固定與最低價格出價。
 
 若要指定詳細目錄目標定位：
 
@@ -323,15 +329,15 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]：**&#x200B;此位置的任何對象目標，包括[第三方區段、第一方區段、Adobe區段、自訂區段和儲存的對象](/help/dsp/audiences/audience-settings.md)。 也會顯示所有所選區段和已儲存對象的作用中重複資料刪除對象人數總計。 您可以選取現有對象、建立可稍後重複使用的對象，或選取特定對象區段：
 
-* 若要選取現有對象，請按一下[!UICONTROL Included Audiences]旁的![選取](/help/dsp/assets/chevron-down.png)，然後選取對象。
-* 若要建立對象，請按一下[!UICONTROL Included Audiences]旁的![選取](/help/dsp/assets/chevron-down.png)，然後選取&#x200B;**[!UICONTROL + Create Audience]**。 如需指示，請參閱[從步驟3開始建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)。
+* 若要選取現有對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Included Audiences]，然後選取對象。
+* 若要建立對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Included Audiences]，然後選取&#x200B;**[!UICONTROL + Create Audience]**。 如需指示，請參閱[從步驟3開始建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)。
 * 若要選取特定對象區段，請按一下&#x200B;**[!UICONTROL Select segments for this placement only]**。 選取區段邏輯；如需指示，請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;中的步驟6。 完成時，按一下&#x200B;**儲存**。
 
 **[!UICONTROL Excluded Audiences]：**&#x200B;要排除以進行位置的任何對象，包括具有[第三方區段、第一方區段、Adobe區段、自訂區段和已儲存對象的對象](/help/dsp/audiences/audience-settings.md)。 也會顯示所有排除對象中的總計和作用中重複資料刪除對象人數。 您可以選取現有對象或建立新對象，以便稍後重複使用：
 
-* 若要選取現有對象，請按一下[!UICONTROL Excluded Audiences]旁的![選取](/help/dsp/assets/chevron-down.png)，然後選取對象。
+* 若要選取現有對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Excluded Audiences]，然後選取對象。
 
-* 若要建立對象，請按一下[!UICONTROL Excluded Audiences]旁的![選取](/help/dsp/assets/chevron-down.png)，然後選取&#x200B;**+建立對象**。 如需指示，請參閱[從步驟3開始建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)。
+* 若要建立對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Excluded Audiences]，然後選取&#x200B;**+建立對象**。 如需指示，請參閱[從步驟3開始建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)。
 
 **[!UICONTROL Targeting]：**&#x200B;要鎖定的使用者識別碼型別。 在投放位置上線後（即航班開始後），您無法變更此設定。
 
@@ -339,7 +345,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*： （預設）根據使用者的Cookie、行動廣告ID或連線電視(CTV) ID鎖定使用者。 系統會根據瀏覽器、應用程式內或CTV詳細目錄來選取ID。
 
-* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
+* *[!UICONTROL Universal ID Beta]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[[!DNL RampID] 的](/help/dsp/audiences/sources/source-import-liveramp-segments.md)區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
 
    * *[!UICONTROL ID5]*：目標[!DNL ID5] ID是依概率從電子郵件地址和其他訊號建立的。<!-- What countries/geos are these available for? Everywhere?--> ID5 ID免費提供。 **注意：**&#x200B;來自[!DNL Eyeota]的第三方區段可能包含ID5 ID。
 
@@ -364,7 +370,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
