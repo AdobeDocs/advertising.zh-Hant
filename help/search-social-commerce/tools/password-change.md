@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能僅適用於您的舊版搜尋、社交和Commerce帳戶。 大部分的使用者現在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>此功能僅適用於您的舊版搜尋、社交和Commerce帳戶。 大部分的使用者現在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 變更您的密碼會將您登出目前的作業階段。 若要繼續工作，您必須使用新密碼登入。
 
