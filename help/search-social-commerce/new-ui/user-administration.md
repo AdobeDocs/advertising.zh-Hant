@@ -111,9 +111,9 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
 1. [登入Adobe Admin Console並開啟它以搜尋、社交和Commerce](#open-admin-console)。
 
-1. （選擇性） [新增其他系統管理員](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)作為備份。
+1. （選擇性） [新增其他系統管理員](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)作為備份。
 
-1. 由[新增產品管理員](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)委派產品和使用者管理。
+1. 由[新增產品管理員](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)委派產品和使用者管理。
 
 ### 產品管理員的工作流程
 
@@ -121,9 +121,9 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
 1. [登入Adobe Admin Console並開啟它以搜尋、社交和Commerce](#open-admin-console)。
 
-1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
 
-1. （選擇性）為執行個體建立[使用者群組](https://helpx.adobe.com/enterprise/using/user-groups.html)，並將使用者指派給每個使用者群組。
+1. （選擇性）為執行個體建立[使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)，並將使用者指派給每個使用者群組。
 
    如果執行個體有許多使用者，請建立使用者群組，以確保根據使用者的專業知識層級為其指派正確的設定檔。 （請參閱步驟4，將使用者群組指派至產品設定檔。） 您可以根據業務範圍、使用者存取需求、使用者僱用日期或其他條件來建立使用者群組。
 
@@ -131,7 +131,7 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
    >
    >使用者群組名稱應清楚傳達使用者群組應獲指派的許可權。 例如，如果您想要建立具有「唯讀」許可權的使用者群組，請在使用者群組名稱中加入「唯讀」，例如「Acme_Uk_ReadOnly」或「Acme_ReadOnly」。
 
-1. （選擇性） [使用定義的許可權集建立自訂產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+1. （選擇性） [使用定義的許可權集建立自訂產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
 
    除了現有的四個預設產品設定檔之外，還新增了自訂設定檔。
 
@@ -139,10 +139,10 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
    **警告：**&#x200B;產品許可權非常精細。 設定自訂產品設定檔時請務必小心，否則可能會忽略要包含的功能。
 
-1. [手動或大量指派每個使用者或使用者群組至相關的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+1. [手動或大量指派每個使用者或使用者群組至相關的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
 
 ## 完整的使用者管理指南和其他連結
 
-* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/tw/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 * Admin Console： [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
