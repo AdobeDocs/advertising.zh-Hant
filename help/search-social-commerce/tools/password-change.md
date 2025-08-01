@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能僅適用於您的舊版搜尋、社交和Commerce登入憑證。 大部分的使用者現在改用[!DNL Adobe] ID進行驗證。 若要變更[!DNL Adobe] ID的密碼，請參閱&quot;[重設或變更Adobe密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;。
+>此功能僅適用於您的舊版搜尋、社交和Commerce登入憑證。 大部分的使用者現在改用[!DNL Adobe] ID進行驗證。 若要變更[!DNL Adobe] ID的密碼，請參閱&quot;[重設或變更Adobe密碼](https://helpx.adobe.com/tw/manage-account/using/change-or-reset-password.html)&quot;。
 
 變更您的密碼會將您登出目前的作業階段。 若要繼續工作，您必須使用新密碼登入。
 
