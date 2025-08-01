@@ -3,18 +3,20 @@ title: 變更您的密碼
 description: 瞭解如何變更您的帳戶密碼。
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
+source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # 變更您的密碼
 
+<!-- Replace this with just a link to the DX page once we remove the legacy option? -->
+
 >[!NOTE]
 >
->此功能僅適用於您的舊版搜尋、社交和Commerce帳戶。 大部分的使用者現在改用[!DNL Adobe] ID。<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>此功能僅適用於您的舊版搜尋、社交和Commerce登入憑證。 大部分的使用者現在改用[!DNL Adobe] ID進行驗證。 若要變更[!DNL Adobe] ID的密碼，請參閱&quot;[重設或變更Adobe密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;。
 
 變更您的密碼會將您登出目前的作業階段。 若要繼續工作，您必須使用新密碼登入。
 
