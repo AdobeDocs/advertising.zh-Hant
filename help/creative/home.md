@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: 1772c9fcefe01b70ef553035aa157e4da08916b8
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年8月4日 | 廣告體驗的對象目標&rbrack; | 對象目標設定中提供包含和排除對象的更複雜邏輯，與Advertising DSP中提供的邏輯相同。 設定廣告體驗的對象目標時，您現在可以設定多個區段群組，並根據邏輯指定是否要包含或排除使用者。<br><br>使用此選項，&quot;[!UICONTROL Split targets to create nodes]&quot;的現有選項將無法再使用。 | 請參閱&quot;[新增目標節點至最終層級](/help/creative/experiences/experience-target-node-add-final.md)&quot;、&quot;[在節點](/help/creative/experiences/experience-target-node-add-inner.md)之間插入目標節點&quot;以及&quot;[新增同層級目標節點](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;。 |
+| 2025年8月4日 | 廣告[!DNL]體驗的對象目標 | 對象目標設定中提供包含和排除對象的更複雜邏輯，與Advertising DSP中提供的邏輯相同。 設定廣告體驗的對象目標時，您現在可以設定多個區段群組，並根據邏輯指定是否要包含或排除使用者。<br><br>您可以看到每個區段的對象成員總數，以及每個區段群組的作用中對象成員與對象成員總數。<br><br>使用此選項，&quot;[!UICONTROL Split targets to create nodes]&quot;的現有選項將無法再使用。<br><br>如果您有現有的體驗，其中包含以多個區段為目標的受眾節點，現在會使用&quot;[!UICONTROL Include Any]&quot;選項鎖定這些節點，而且使用者必須只屬於其中一個區段，才能符合曝光資格。 之前，使用者必須屬於所有區段。 | 請參閱&quot;[新增目標節點至最終層級](/help/creative/experiences/experience-target-node-add-final.md)&quot;、&quot;[在節點](/help/creative/experiences/experience-target-node-add-inner.md)之間插入目標節點&quot;以及&quot;[新增同層級目標節點](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;。 |
 | 2025年7月10日 | 視訊創意 | 支援現在適用於第一方視訊創作以及視訊專用套件和體驗：<ul><li>您現在可以上傳第一方視訊創意，並將其新增至視訊專用組合。 在套件設定中，「[!UICONTROL Bundle Type]」選項現在包含[!UICONTROL Standard Display]、[!UICONTROL Dynamic Display]和[!UICONTROL Standard Video]。</li><li>您可以使用視訊套件建立視訊專用廣告體驗。 廣告體驗設定現在包含&quot;[!UICONTROL Ad Type]&quot;設定，包含[!UICONTROL Standard Display]、[!UICONTROL Dynamic Display]和[!UICONTROL Video]選項。 您可以根據點進率、完成率或自訂目標來最佳化視訊廣告。</li><li>視訊廣告體驗標籤的標籤是由視訊持續時間和位元速率所定義，而非廣告大小。</li><li>視訊廣告會自動轉碼為Adobe Advertising DSP編碼，以便您預覽。 您可以選擇將其他DSP的轉碼套用至[!UICONTROL Tag Manager]中的任何廣告體驗標籤。</li></ul> | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;、&quot;[管理創意組合](/help/creative/creative-libraries/bundle-manage.md)&quot;、&quot;[目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)&quot;、&quot;[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)以及&quot;[自訂視訊廣告體驗標籤的轉碼選項](/help/creative/experiences/experience-tag-video-transcoding.md)&quot;。 |
 | 2025年5月21日 | [!UICONTROL Creative Libraries] | 您現在可以將影像從Adobe Experience Manager資產庫新增至[!UICONTROL Creative Libraries]，以便在廣告體驗中使用這些影像。 | 請參閱&quot;[設定Adobe Experience Manager影像資產的存取權](/help/creative/creative-libraries/aem-assets-configure.md)&quot;和&quot;[將標準創意內容新增至創意資源庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年2月10日 | [!UICONTROL Creative Libraries] | 之前，您有一個創意程式庫。 現在，您可以為每個廣告商建立多個程式庫。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;。 |
