@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增同層級目標節點
 description: 瞭解如何將同層級節點新增至具有目標或與具有目標之節點位於相同層級的任何節點。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,31 @@ In an existing experience,
 
    * 針對對象目標，請執行以下作業：
 
-      1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，並指定要鎖定的一或多個廣告商對象。
+      1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，然後執行下列動作：
 
-      1. 在右欄中，選取為節點&#x200B;*[!UICONTROL Include any]* （預設）或&#x200B;*[!UICONTROL Include all]*&#x200B;指定的目標。
+         * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
 
-     此選項決定使用者必須屬於至少一個指定的對象（[!DNL Boolean] `OR`陳述式）或所有指定的對象（[!DNL Boolean] `AND`陳述式），才能符合曝光資格。
+         * 若要將區段新增至現有區段群組：
+
+            1. 按一下右側面板中的區段群組。
+
+            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+
+               *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在您將它新增至DSP中的位置時，排除該對象。
+
+            1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
+
+               區段群組會自動更新為新區段。
+
+         * 若要新增區段群組：
+
+         1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
+
+         1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+
+         1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
+
+         1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
       1. 按一下&#x200B;**[!UICONTROL Create]**。
 
