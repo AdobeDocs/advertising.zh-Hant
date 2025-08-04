@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增目標節點
 description: 瞭解如何在廣告體驗中的目標節點之間新增目標節點。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. 選取目標型別，然後按一下&#x200B;**[!UICONTROL Apply]**：
 
-         * 針對Adobe對象目標，請選取&#x200B;**[!UICONTROL Adobe Audience]**。
+         * 針對對象目標，選取&#x200B;**[!UICONTROL Audience]**。
 
          * 若為地理目標，請選取單一地理類別（例如[!UICONTROL Geo: Country]）。
 
@@ -45,13 +45,15 @@ ht-degree: 0%
 
    * 如果同層級節點已經存在，請執行下列動作：
 
-      * 針對Adobe對象目標，請執行以下作業：
+      * 針對對象目標，請執行以下作業：
 
-         1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟您的[!UICONTROL Audience Targeting]選項、開啟&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;標籤、指定一或多個廣告商的[!DNL Adobe]對象目標，然後按一下&#x200B;**[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->。
+         1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，並指定要鎖定的一或多個廣告商對象。
 
-         1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
+         1. 在右欄中，選取為節點&#x200B;*[!UICONTROL Include any]* （預設）或&#x200B;*[!UICONTROL Include all]*&#x200B;指定的目標。
 
-            此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象（[!DNL Boolean] `AND`陳述式）。
+        此選項決定使用者必須屬於至少一個指定的對象（[!DNL Boolean] `OR`陳述式）或所有指定的對象（[!DNL Boolean] `AND`陳述式），才能符合曝光資格。
+
+         1. 按一下&#x200B;**[!UICONTROL Create]**。
 
          1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
       * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-        已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
+        已在&#x200B;**[!UICONTROL Data Pass]**&#x200B;體驗設定[!UICONTROL Advanced]的[區段的](experience-settings-targeting.md)欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
 
       * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 

@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增同層級目標節點
 description: 瞭解如何將同層級節點新增至具有目標或與具有目標之節點位於相同層級的任何節點。
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. 指定目標：
 
-   * 針對Adobe對象目標，請執行以下作業：
+   * 針對對象目標，請執行以下作業：
 
-      1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟您的[!UICONTROL Audience Targeting]選項、開啟&#x200B;**[!UICONTROL Adobe Segments]**&#x200B;標籤、指定一或多個廣告商的[!DNL Adobe]對象目標，然後按一下&#x200B;**[!UICONTROL Save]**。
+      1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，並指定要鎖定的一或多個廣告商對象。
 
-      1. （選擇性）若要在指定多個對象時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
+      1. 在右欄中，選取為節點&#x200B;*[!UICONTROL Include any]* （預設）或&#x200B;*[!UICONTROL Include all]*&#x200B;指定的目標。
 
-         此功能會為每個指定對象建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的對象（[!DNL Boolean] `AND`陳述式）。
+     此選項決定使用者必須屬於至少一個指定的對象（[!DNL Boolean] `OR`陳述式）或所有指定的對象（[!DNL Boolean] `AND`陳述式），才能符合曝光資格。
+
+      1. 按一下&#x200B;**[!UICONTROL Create]**。
 
       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -54,7 +56,7 @@ In an existing experience,
 
    * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-     已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
+     已在&#x200B;**[!UICONTROL Data Pass]**&#x200B;體驗設定[!UICONTROL Advanced]的[區段的](experience-settings-targeting.md)欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
 
    * 如果要重新定位畫素目標，請選取要使用的重新定位畫素，以及顯示創意所必須呈現之任何畫素屬性的必要值。 然後按一下&#x200B;**[!UICONTROL Apply]**。
 
