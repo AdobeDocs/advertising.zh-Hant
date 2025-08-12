@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 其中，`<network_ID>`是Search、Social和Commerce用於廣告網路的數值ID，`<objective_id>`是數值目標ID，而`<network_account_ID>`是廣告網路帳戶或管理員帳戶的數值ID。
 
-上傳至[!DNL Google Ads]會在廣告商的時區每天的06:00進行。 上傳至[!DNL Microsoft Advertising]會在廣告商的時區每天的09:00進行。
+對於大多數廣告商，上傳至[!DNL Google Ads]每小時發生一次；對於擁有大型帳戶或自訂設定的廣告商，上傳至少每天發生三次。 在廣告商的時區中，每天於09[!DNL Microsoft Advertising]上傳至:00。
 
 >[!IMPORTANT]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-1. （若您的轉換是在經理帳戶層級追蹤） [在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;為您的經理帳戶新增認證](/help/search-social-commerce/admin/manager-accounts.md)。
+1. （若您的轉換是在經理帳戶層級追蹤） [在](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin]為您的經理帳戶新增認證[!UICONTROL Manager Accounts]**。
 
 1. 確認每個名為`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目標在兩天內都出現在廣告網路上。
 
