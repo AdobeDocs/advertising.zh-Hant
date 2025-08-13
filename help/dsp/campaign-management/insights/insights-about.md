@@ -3,9 +3,9 @@ title: 關於深入分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 0%
 * 從insight左上方的下拉式功能表中選取維度。
 
 ## 變更Insight的回報量度
+
+對於轉換量度，可同時支援Adobe Advertising追蹤和Adobe Analytics追蹤的轉換。
 
 1. 在insight的右上角，按一下![量度設定](/help/dsp/assets/metric-settings.png "量度設定")。
 
