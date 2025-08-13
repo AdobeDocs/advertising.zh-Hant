@@ -1,22 +1,20 @@
 ---
-title: 關於效能分析
+title: 關於深入分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-# 關於效能分析
+# 關於深入分析
 
 *Beta功能*
 
-<!-- Edit title and metadata as necessary -->
-
-透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動並發現提升效能的新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。
+透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動並發現提升效能的新機會所需的資訊。 您可以檢視指定廣告商的各個促銷活動的資料，或向下展開至較低層級。
 
 使用效能分析來：
 
@@ -34,27 +32,57 @@ ht-degree: 0%
 
 ### [!UICONTROL Home]索引標籤
 
-[!UICONTROL Home]索引標籤會針對廣告商的所有行銷活動<!-- active only? -->提供關鍵標準、績效和可檢視度量度。 依預設，會顯示跨行銷活動的資料。 您可以選擇設定篩選器以顯示不同廣告商的資料，或僅顯示特定行銷活動<!-- active only? -->、套件<!-- active only? -->、自訂目標和位置<!-- active only? -->的資料。 這些見解包括：
+[!UICONTROL Home]索引標籤會針對廣告商的所有行銷活動，提供關鍵標準、績效和可見度量度。 依預設，會顯示特定廣告商和自訂目標的跨位置資料。 您可以選擇設定篩選條件，以顯示不同廣告商、不同自訂目標或特定位置的資料。 <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. -->深入分析包括：
 
-* 三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Impressions]和[!UICONTROL Net CPM]）的趨勢圖。
+* **[!UICONTROL Trends]：**&#x200B;三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Impressions]和[!UICONTROL Net CPM]）的趨勢圖。
 
-* 依三個客戶指定的維度（例如依促銷活動、發佈者和媒體型別）劃分特定量度的資料。 您可以為每個維度劃分選擇不同的量度。
+* **[!UICONTROL Delivery Breakdown]：**&#x200B;依三個客戶指定的維度（例如依促銷活動、發行者和媒體型別）劃分特定量度的資料。 您可以為每個維度劃分選擇不同的量度。
 
 ### [!UICONTROL Household Reach]索引標籤
 
-[!UICONTROL Household Reach]索引標籤跨廣告商的所有行銷活動<!-- active only? -->提供住戶觸及度量。 依預設，會顯示跨行銷活動的資料。 您可以選擇設定篩選器以顯示不同廣告商的資料，或僅顯示特定行銷活動的資料<!-- active only? -->。 這些見解包括：
+[!UICONTROL Household Reach]標籤跨廣告商的所有行銷活動提供住戶觸及度量。 依預設，會顯示跨行銷活動的資料。 您可以選擇設定篩選器，以顯示不同廣告商、特定行銷活動、跨套件或位置，或特定套件或位置的資料。 這些見解包括：
 
-* 三個客戶指定的量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Unique Reach]和[!UICONTROL Net CPM]）的趨勢圖（依日或依周）。
+* **[!UICONTROL Trends]：**&#x200B;三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Unique Reach]和[!UICONTROL Net CPM]）的趨勢圖（依日或依周）。
 
-* 顯示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]遞增家庭觸及率的環形圖。 *遞增式住戶觸及率*&#x200B;定義為僅透過單一媒體、裝置或詳細目錄型別觸及的住戶。
+* **[!UICONTROL Incremental Household Reach]：**&#x200B;環圈圖，顯示[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]的遞增家庭觸及率。 *遞增式住戶觸及率*&#x200B;定義為僅透過單一媒體、裝置或詳細目錄型別觸及的住戶。
 
-* 累加不重複家庭觸及與重疊家庭觸及的比較，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]決定。
+* **[!UICONTROL Reach Breakdown]：**&#x200B;遞增不重複家庭觸及與重疊家庭觸及的比較，由[!UICONTROL Media Type]、[!UICONTROL Device Type]或[!UICONTROL Inventory Type]決定。
 
   *遞增式住戶觸及率*&#x200B;定義為僅透過單一媒體、裝置或詳細目錄型別觸及的住戶。 *重疊的家庭範圍*&#x200B;定義為透過多種媒體、裝置或詳細目錄型別觸及的家庭。
 
-* 依[!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]排列的行銷活動、位置、套件、發行者、網站/應用程式、媒體型別、詳細目錄型別或裝置型別效能最佳。
+* **[!UICONTROL Top Performers]：** [!UICONTROL Unique Reach]、[!UICONTROL Net Spend]和[!UICONTROL Cost per Reach]在行銷活動、位置、套件、發行者、網站/應用程式、媒體型別、詳細目錄型別或裝置型別方面表現最佳的行銷活動。
 
-* 封裝、發行者或網站/應用程式所使用的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]。 使用此insight可檢視哪些套件、發佈者或網站/應用程式顯示有大幅增加觸及的潛力。
+* **[!UICONTROL Performance Analysis]：**&#x200B;封裝、發行者或網站/應用程式所使用的[!UICONTROL Cost per Reach]和[!UICONTROL Net Spend]。 使用此insight可檢視哪些套件、發佈者或網站/應用程式顯示有大幅增加觸及的潛力。
+
+  每個泡泡的大小表示遞增觸及分數，較大的泡泡表示平均遞增觸及較高。 若要檢視任何泡泡的完整實體名稱和關鍵量度，請將游標停留在泡泡上。
+
+  影響的層級包括：
+
+   * **高影響：**&#x200B;請考慮增加預算。
+   * **中等影響**
+   * **有限影響：**&#x200B;需要注意
+
+### [!UICONTROL Household Conversion]索引標籤
+
+[!UICONTROL Household Conversion]索引標籤會針對廣告商的所有行銷活動<!-- active only? -->提供家庭轉換量度。 依預設，會顯示特定廣告商的跨促銷活動資料以及特定的轉換量度。 您可以選擇設定篩選器，以顯示不同廣告商或轉換量度、特定行銷活動、跨套件或位置，或特定套件或位置的資料。 這些見解包括：
+
+* **[!UICONTROL Trends]：**&#x200B;三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Conversions]和[!UICONTROL Net CPM]）的趨勢圖（依日或依周）。
+
+* **[!UICONTROL Conversion Participation Overview]：**&#x200B;條狀圖顯示哪些媒體型別、詳細目錄型別和裝置型別導致大部分的家庭轉換。
+
+  在回顧期間（30天）內傳送的曝光次數會視為適用於轉換參與率。
+
+* **[!UICONTROL Top Performers]：**&#x200B;促銷活動、套件、位置、發佈者、網站/應用程式、媒體型別和詳細目錄型別的表格，可提升三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL CPA]和[!UICONTROL Conversions]）的效能。 首先列出績效最高的人。
+
+* **[!UICONTROL Performance Analysis]：**&#x200B;封裝、發行者或網站/應用程式所使用的[!UICONTROL CPA]和[!UICONTROL Net Spend]。 使用此insight可檢視哪些套件、發佈者或網站/應用程式顯示有大幅增加觸及的潛力。
+
+  每個泡泡的大小表示遞增觸及分數，較大的泡泡表示平均遞增觸及較高。 若要檢視任何泡泡的完整實體名稱和關鍵量度，請將游標停留在泡泡上。
+
+  影響的層級包括：
+
+   * **高影響：**&#x200B;請考慮增加預算。
+   * **中等影響**
+   * **有限影響：**&#x200B;需要注意
 
 ## 開啟效能分析
 

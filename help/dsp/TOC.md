@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 2e69bc68ca4553d6e908b766cb236c1b582bc1a2
+source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -83,7 +83,7 @@ ht-degree: 3%
       + [使用試算表檢閱廣告詳細資訊](/help/dsp/campaign-management/ads/ad-qa.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [將廣告附加至刊登版位](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [將廣告附加至刊登版位](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [檢視廣告的詳細報表](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [前段廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [通用視訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支援廣告型別的規格](/help/dsp/campaign-management/ads/ad-specs.md)
-   + 跨行銷活動績效深入分析 {#insights}
-      + [關於效能分析](/help/dsp/campaign-management/insights/insights-about.md)
+   + 跨行銷活動深入分析 {#insights}
+      + [關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)
    + 行銷活動管理檢視中的效能報表 {#campaign-reports}
       + [行銷活動管理檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [從行銷活動管理檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
@@ -238,6 +238,6 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [關於警示訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
