@@ -3,16 +3,14 @@ title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # 管理重新目標畫素
-
-*已關閉的Beta*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Copy to Clipboard]**&#x200B;將標籤複製到電腦的剪貼簿，您可以將文字貼到檔案中儲存。
 
-1. 在畫素標籤中，將「`Insert <attribute>`」替換為值，以指定`<img src>`和`<script src>`區段中每個屬性的值。 如果標籤擷取通用ID，請指定ID5合作夥伴ID。
+1. 在畫素標籤中，將「`<img src>`」替換為值，以指定`<script src>`和`Insert <attribute>`區段中每個屬性的值。 如果標籤擷取通用ID，請指定ID5合作夥伴ID。
 
    如果您手動新增其他屬性，則必須包含URL編碼。
 
@@ -111,7 +109,7 @@ ht-degree: 0%
 
 將廣告體驗目標定位給曝光於畫素的使用者時，目標定位設定會指定必須呈現的屬性值，才能顯示創意。
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：** (Beta功能；僅限新畫素；選用)要追蹤的畫素標籤通用ID型別：
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]：** （僅限新畫素；選擇性）要追蹤的畫素標籤通用ID型別：
 
 * *[!UICONTROL ID5]：*&#x200B;畫素標籤追蹤[!DNL ID5]個ID。 對於傳遞到通用ID的曝光，不會產生任何費用。
 
