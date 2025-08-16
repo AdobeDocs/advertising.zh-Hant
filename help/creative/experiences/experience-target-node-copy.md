@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 若要取代節點的所有子項節點和創意，請按一下您要將複製資訊貼到其中的節點，按一下&#x200B;**...**，然後a\)選取&#x200B;**[!UICONTROL Replace ctrl+shift+v]**&#x200B;或b\)在鍵盤上輸入&#x200B;**[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh])。
 
-   * （具有多個子目標的節點，沒有「全部」節點，僅沒有創意）若要將所有子節點和創意新增至節點，而不刪除現有的節點，請按一下您要貼上複製資訊的節點，按一下&#x200B;**...**，然後a\)選取&#x200B;**[!UICONTROL Add ctrl+v]** **或b\)，在鍵盤上輸入&#x200B;**[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-V]** ([!DNL Apple Macintosh])。
+   * （具有多個子目標的節點，沒有「全部」節點，僅沒有創意）若要將所有子節點和創意新增至節點，而不刪除現有的節點，請按一下您要貼上複製資訊的節點，按一下&#x200B;**...**，然後a\)選取&#x200B;**[!UICONTROL Add ctrl+v]** **或b\)，在鍵盤上輸入&#x200B;**&#x200B;[!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows])或&#x200B;**&#x200B;[!UICONTROL Command-V]** ([!DNL Apple Macintosh])。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
