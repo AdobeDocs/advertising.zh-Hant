@@ -3,9 +3,9 @@ title: 刪除體驗中的目標節點或創意葉節點
 description: 瞭解如何刪除體驗中的節點。
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 刪除體驗中的目標節點或創意葉節點
 
 *僅使用決策樹定位的體驗*
-*已關閉的Beta版*
 
 您可以刪除目標節點，包括所有子目標以及指派給它們的創意組合。 您也可以刪除創意葉節點。
 

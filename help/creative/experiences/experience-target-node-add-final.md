@@ -3,9 +3,9 @@ title: 將目標節點新增到體驗中的最終層級
 description: 瞭解如何將目標節點新增至廣告體驗的最終目標層級。
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 將目標節點新增到體驗中的最終層級
 
 *僅使用決策樹定位的體驗*
-*已關閉的Beta版*
 
 將目標節點新增至體驗的最底層節點時（無論是根「全部」節點、目標特定節點還是「其他一切」節點），您可以直接定義目標，而不需要建立同層級節點。 新增底層的節點會在相同層級建立目標節點和其他「其他一切」節點。
 

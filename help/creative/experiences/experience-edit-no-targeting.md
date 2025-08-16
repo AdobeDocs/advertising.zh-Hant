@@ -2,16 +2,15 @@
 title: 編輯不含決策樹定位的體驗
 description: 瞭解如何編輯廣告體驗的設定而不鎖定目標。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # 編輯不含決策樹定位的體驗
-
-*已關閉的Beta*
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

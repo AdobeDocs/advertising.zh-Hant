@@ -3,9 +3,9 @@ title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # （沒有鎖定目標的體驗）手動建立適用創意大小的廣告標籤
 
 *只有沒有決策樹定位的體驗*
-*已關閉的Beta版*
 
 您可以針對用於體驗的每個創意大小（非視訊創意）或視訊持續時間，針對每種語言建立一或多個廣告標籤。 您稍後可以將[創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
 

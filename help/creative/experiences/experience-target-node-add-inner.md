@@ -3,9 +3,9 @@ title: 在體驗中的節點之間新增目標節點
 description: 瞭解如何在廣告體驗中的目標節點之間新增目標節點。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 在體驗中的節點之間新增目標節點
 
 *僅使用決策樹定位的體驗*
-*已關閉的Beta版*
 
 當您在現有層次之間插入目標節點時，新目標節點會保留所有現有的子目標和創意，而新節點最初稱為「全部」。 您可以選擇保留新節點，而不新增更多特定目標。
 

@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 針對使用決策樹定位的體驗自訂創意最佳化和排程
 
 *僅具有現有創意的目標節點*
-*已關閉的Beta版*
 
 根據預設，體驗的創意輪換會以演演算法方式決定以最佳化整體點進率，而創意最佳化設定會套用至所有指派的組合。 您可以自訂創意輪換，以根據相對權重手動執行每個組合中的創意，或針對指定的Advertising DSP自訂目標進行演演算法最佳化。 您也可以排程特定的創意組合在指定的連續時段內執行，並為每個排程套用自訂創意輪換設定。
 

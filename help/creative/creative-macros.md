@@ -3,16 +3,14 @@ title: 可用於追蹤URL的巨集
 description: 參考您可新增至登陸頁面URL、追蹤URL和協力廠商創意的巨集。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # 可用於追蹤URL的巨集
-
-*已關閉的Beta*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ ht-degree: 0%
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)
->*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)

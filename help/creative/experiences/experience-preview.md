@@ -3,16 +3,14 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 預覽體驗
-
-*已關閉的Beta*
 
 您可以預覽具有特定廣告大小的創意，而目標檢視者可以看到該廣告大小的體驗，包括所有超連結。 對於決策樹目標定位的體驗，您可以預覽單一創意、特定分支的創意（目標型別）或體驗中的所有創意。 針對沒有決策樹定位的體驗，您可以預覽單一創意內容。<!-- verify -->
 

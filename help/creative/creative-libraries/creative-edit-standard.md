@@ -3,16 +3,14 @@ title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # 在創意程式庫中編輯標準創意內容
-
-*已關閉的Beta*
 
 您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容<!-- or creative variations --> (只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方<!-- , or dynamic -->)。
 

@@ -2,9 +2,10 @@
 title: 複製體驗
 description: 瞭解如何複製現有體驗來建立體驗。
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -12,8 +13,6 @@ ht-degree: 0%
 # 複製體驗
 
 <!-- "Duplicate" like for creatives and bundles? If we change this, change text throughout -->
-
-*已關閉的Beta*
 
 複製現有體驗來建立體驗。 新體驗命名為`<original name> (copy) # 1` （或序列中的下一個數字）。 例如，如果您複製兩個「測試體驗」，則這些複製會分別命名為「測試體驗（副本） # 1」和「測試體驗（副本） # 2」。
 

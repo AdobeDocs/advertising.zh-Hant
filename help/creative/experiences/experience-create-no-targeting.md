@@ -3,16 +3,14 @@ title: 建立不含決策樹定位的體驗
 description: 瞭解如何在不鎖定目標的情況下建立廣告體驗。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # 建立不含決策樹定位的體驗
-
-*已關閉的Beta*
 
 建立廣告體驗，而不使用目標定位。 每個體驗都可以使用來自單一創意資料庫的廣告。
 

@@ -3,16 +3,14 @@ title: 編輯具有決策樹定位的體驗
 description: 瞭解如何使用決策樹編輯目標廣告體驗的設定。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 編輯具有決策樹定位的體驗
-
-*已關閉的Beta*
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 

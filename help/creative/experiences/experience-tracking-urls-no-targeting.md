@@ -3,16 +3,14 @@ title: 自訂體驗的追蹤URL而不鎖定目標
 description: 瞭解如何為體驗中的每個創意自訂追蹤URL，而不需要決策樹定位。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # 自訂沒有決策樹定位的體驗的追蹤URL
-
-*已關閉的Beta*
 
 對於沒有決策樹鎖定目標的體驗，您可以為用於廣告體驗標籤的每一個個別創意建立最多五個自訂曝光追蹤URL、五個自訂點選追蹤URL和一個自訂登陸頁面URL。 您可以從[!UICONTROL Tag Manager]內自訂追蹤URL。
 

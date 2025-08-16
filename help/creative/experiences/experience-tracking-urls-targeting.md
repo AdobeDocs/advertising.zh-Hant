@@ -3,9 +3,9 @@ title: 自訂體驗的追蹤URL
 description: 瞭解如何使用決策樹定位來自訂體驗中每個創意內容的追蹤URL。
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 使用決策樹定位來自訂體驗中創意分子的追蹤URL
 
 *僅具有現有創意的目標節點*
-*已關閉的Beta版*
 
 對於決策樹鎖定目標的體驗，您可以為體驗使用的每個個別創意建立最多五個自訂曝光追蹤URL、五個自訂點選追蹤URL和一個自訂登陸頁面URL。 您可以從決策樹內自訂追蹤URL。
 

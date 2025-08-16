@@ -3,16 +3,14 @@ title: 管理創意組合
 description: 瞭解xxxx。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
 
 # 管理創意組合
-
-*已關閉的Beta*
 
 <!--
 **I'll probably split this up into multiple pages since the creative-related topics are separate**

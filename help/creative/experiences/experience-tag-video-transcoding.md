@@ -3,16 +3,14 @@ title: 自訂視訊廣告體驗標籤的轉碼選項
 description: 瞭解如何自訂視訊廣告標籤的轉碼選項。
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # 自訂視訊廣告體驗標籤的轉碼選項
-
-*已關閉的Beta*
 
 您可以自訂視訊廣告體驗的轉碼選項，以確保跨發佈商的快速播放和品質控制。
 

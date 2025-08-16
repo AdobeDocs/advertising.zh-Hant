@@ -3,9 +3,9 @@ title: 指派和取消指派創意套件組合至體驗中的最終節點
 description: 瞭解如何將創意內容指派給廣告體驗中的每個目標。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 指派和取消指派創意套件組合至體驗中的最終節點
 
 *僅使用決策樹定位的體驗*
-*已關閉的Beta版*
 
 您可以在體驗決策樹的最底層將創意套件組合指派給目標節點。 對於您尚未設定目標的體驗，最下層位於「全部」下。
 
