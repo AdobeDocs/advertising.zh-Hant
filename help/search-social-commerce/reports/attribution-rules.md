@@ -2,10 +2,10 @@
 title: 歸因規則的計算方式
 description: 瞭解Adobe Advertising如何計算每種型別的歸因規則。
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 廣告商層級歸因規則是用來將轉換資料（可能跨多個廣告管道）歸因於一系列導致轉換的事件。
 
-在Advertising Search、Social和Commerce (Search、Social和Commerce)的報表預設和自訂檢視中，以及Search、Social和Commerce的（某些使用者角色）產品組合層級模擬中，選取的規則僅用於檢視、報表或模擬資料。 各種歸因規則的套用方式如下。
+您也可以在下列位置選取歸因規則，以僅將規則套用至產生的資料：
+
+* DSP
+
+   * 具有多重接觸歸因的自訂報表
+
+* 搜尋、社交和Commerce
+
+   * 自訂報表
+
+   * 預設和自訂檢視
+
+   * （部分使用者角色） Portfolio層級模擬。
 
 >[!NOTE]
 >
