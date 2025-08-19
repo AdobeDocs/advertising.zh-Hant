@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 瞭解如何產生跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
+source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!UICONTROL Custom Creative Report]可讓您自訂所有廣告體驗的內容與報表資料的傳送。
 
-您可以根據指定條件（例如每15天或每個月1日），在指定時區的03:00產生一次報表，或安排每日、每週或每月產生報表。 報告產生後，您可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]或以下列型別的已連結[報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)下載報告：
+您可以產生一次報表，或根據指定條件（例如每15天或每個月1日），於指定時區的03:00排程報表。 報告產生後，您可以從[!UICONTROL Reports] > [!UICONTROL Custom Reports]或以下列型別的已連結[報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)下載報告：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
-* *[!UICONTROL FTP SSL] (目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+* *[!UICONTROL FTP SSL](目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
