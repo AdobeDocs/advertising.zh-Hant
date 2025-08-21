@@ -3,9 +3,9 @@ title: 直接在列中編輯設定
 description: 瞭解如何在列內的管理檢視中編輯資料。
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## （新UI）編輯列中的設定
 
-1. 在儲存格內按一下以將其啟用，或將游標停留在值上，然後按一下![編輯](/help/search-social-commerce/assets/edit-new.png "編輯")。
+1. 在儲存格內按一下以將其啟用，或將游標停留在值上。
 
-1. 變更值。
+1. 變更值：
 
-1. 按一下&#x200B;**套用**。
+   * （清單中的選項）從清單中選取新選項。
 
-<!--
-1. Change the value:
+   * （自由格式值）按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ")，變更值，然後按一下[套用] ****。
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## （舊版UI）編輯列中的設定
 
