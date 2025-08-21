@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * （清單中的選項）從清單中選取新選項。
 
-   * （自由格式值）按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ")，變更值，然後按一下[套用] ****。
+   * （自由格式值）按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ")，變更值，然後按一下[套用] **&#x200B;**。
 
 
 ## （舊版UI）編輯列中的設定
