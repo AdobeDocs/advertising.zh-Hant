@@ -2,9 +2,9 @@
 title: Adobe Advertising與Adobe Customer Journey Analytics之間整合的概述
 description: 瞭解將Adobe Advertising與Adobe Customer Journey Analytics整合的選項。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
+source-git-commit: ed3c3b4331b743d0c40f04fb8543c535d80ca1d5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
-Adobe Advertising已與Adobe Customer Journey Analytics整合，以擴充和增強每個產品的功能。 您有兩個選項可設定整合：
+Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向資料共用。 您有兩個選項可設定整合：
 
 * 同時具有[!DNL Analytics for Advertising]和Customer Journey Analytics的廣告商具有透過[!DNL Analytics for Advertising]提供的相同功能，並在Customer Journey Analytics中新增視覺效果。
 
   您仍可使用Adobe Experience Platform Web SDK (`alloy.js`)或Adobe Experience Cloud Identity Service (`visitorAPI.js`)追蹤點進事件。 使用Advertising DSP的廣告商仍會使用JavaScript程式碼片段來追蹤瀏覽事件。 Customer Journey Analytics中可用的資料包括：
 
    * 來自Adobe Advertising的行銷活動績效資料
+
+     **注意：**&#x200B;來自[!DNL Apple]和[!DNL Tiktok]的資料無法使用。
 
    * 由[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Meta]追蹤的網站活動和轉換
 
