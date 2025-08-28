@@ -28,7 +28,7 @@ ht-degree: 0%
 
    * Adobe Experience Platform Web SDK資料庫： `alloy.js`
 
-     用於Web SDK及Adobe Advertising廣告商帳戶的[!DNL Org ID]必須相同。 您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)摘要標籤上找到此ID。
+     用於Web SDK及Adobe Advertising廣告商帳戶的[!DNL Org ID]必須相同。 您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)摘要標籤上找到此ID。
 
      ![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
 
