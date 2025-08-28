@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6fa4e5d06271789edc915d67d320f775a83ed653
+source-git-commit: 41a1485539e6943287b04ee31f64088025c2af80
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 AMO ID會在較不細微的層級追蹤每個不重複廣告組合，並用於[!DNL Analytics]和Customer Journey Analytics資料分類以及從Adobe Advertising擷取廣告量度（例如曝光數、點按數和成本）。
 
-針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)或rVar維度(AMO ID)中。
+針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar維度(AMO ID)中。
 
 對於Customer Journey Analytics，AMO ID儲存在`trackingCode`物件的`conversionDetails`屬性中，該物件是[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]的一部分。
 
@@ -35,7 +35,7 @@ AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 * 未實作伺服器端插入功能時：
 
-   * DSP客戶： [JavaScript程式碼](javascript.md)會自動記錄點進和檢視。 當瀏覽器不支援第三方Cookie時，您仍可追蹤下列廣告型別的點按型轉換：
+   * DSP客戶： [JavaScript程式碼](/help/integrations/analytics/javascript.md)會自動記錄點進和檢視。 當瀏覽器不支援第三方Cookie時，您仍可追蹤下列廣告型別的點按型轉換：
 
       * 針對[!DNL Flashtalking]廣告標籤，手動插入每個[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)的其他巨集。 **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據`s_kwcid`支援檔案(位於`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking])中的[與](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)追蹤引數，則不需要執行此程式。
 
@@ -148,13 +148,13 @@ where:
 >[!NOTE]
 >
 > 對於沒有[!UICONTROL Auto Upload]追蹤選項的行銷活動帳戶，如果尚未移轉至新格式，請手動更新每個登入頁面尾碼，以包含上述格式。
-> &#x200B;>同時，舊版格式（如下）仍可運作：
+> >同時，舊版格式（如下）仍可運作：
 >* 搜尋行銷活動：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 購物行銷活動（使用[!DNL Microsoft Merchant Center]）：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* 對象網路行銷活動：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
