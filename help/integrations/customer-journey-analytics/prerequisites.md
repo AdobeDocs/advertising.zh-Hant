@@ -3,9 +3,9 @@ title: 將Adobe Advertising與Customer Journey Analytics整合的先決條件
 description: 將Adobe Advertising與Customer Journey Analytics整合的先決條件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 3ddda4ed7b644e8c6bcb28547a98982769b08c2e
+source-git-commit: ba23ab97c916f829cf9d640669423dd8e72949c0
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,26 @@ ht-degree: 0%
 * 同時具有[!DNL Analytics for Advertising]和Customer Journey Analytics的廣告商：
 
    * Adobe Customer Journey Analytics<!-- any specific version? -->
+
    * [ [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有其他必要條件。
+
+* 使用Customer Journey Analytics但不使用[!DNL Analytics for Advertising]的廣告商：
+
+   * Adobe Experience Platform Web SDK資料庫： `alloy.js`
+
+     用於Web SDK及Adobe Advertising廣告商帳戶的[!DNL Org ID]必須相同。 您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)摘要標籤上找到此ID。
+
+     ![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
+
+     您需要來自Experience Platform網站管理員的支援，才能建立Experience Platform資料流和XDM結構描述。
+
+   * Adobe Customer Journey Analytics<!-- any specific version? -->
+
+     您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
+
+>[!TIP]
+>
+>若要改善資料保真度，請使用每個程式庫的最新版本。
 
 >[!MORELIKETHIS]
 >
