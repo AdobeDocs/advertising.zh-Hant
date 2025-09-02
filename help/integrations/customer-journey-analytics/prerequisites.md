@@ -3,40 +3,26 @@ title: 將Adobe Advertising與Customer Journey Analytics整合的先決條件
 description: 將Adobe Advertising與Customer Journey Analytics整合的先決條件
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
+source-git-commit: 277b2ccb4d1daad7b5f94a94b283226881c90ab4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # 將Adobe Advertising與Customer Journey Analytics整合的先決條件
 
+*Beta功能*
+
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
-* 同時具有[!DNL Analytics for Advertising]和Customer Journey Analytics的廣告商：
+* Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）
 
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
+  這些技術需要Experience Platform網站管理員的支援。
 
-   * [ [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有其他必要條件。
+* Adobe Customer Journey Analytics可存取資料管理工具
 
-* (Beta功能)具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商：
-
-   * Adobe Experience Platform Web SDK資料庫： `alloy.js`
-
-     用於Web SDK及Adobe Advertising廣告商帳戶的[!DNL Org ID]必須相同。 您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)摘要標籤上找到此ID。
-
-     ![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
-
-     您需要來自Experience Platform網站管理員的支援，才能建立Experience Platform資料流和XDM結構描述。
-
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
-
-     您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
-
->[!TIP]
->
->若要改善資料保真度，請使用每個程式庫的最新版本。
+  您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
 
 >[!MORELIKETHIS]
 >
