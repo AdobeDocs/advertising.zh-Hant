@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* 「XDM欄位名稱」是Adobe Experience Platform中的欄位名稱。
 >* 「XDM欄位顯示名稱」表示Customer Journey Analytics中的顯示名稱。
 
