@@ -3,18 +3,20 @@ title: Customer Journey Analytics使用的Adobe Advertising ID
 description: Customer Journey Analytics使用的Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: 576c196abb22b3e8728aee6bfca31115bd061167
+source-git-commit: 1026871782c257a70278c4f4bb4208d321bd8200
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# [!DNL Customer Journey Analytics]使用的Adobe Advertising ID
+# Customer Journey Analytics使用的Adobe Advertising ID
 
 *僅整合Adobe Advertising-Adobe Customer Journey Analytics的廣告商*
 
 *適用於Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*
+
+*Beta功能*
 
 Adobe Advertising使用兩個ID進行網站上的效能追蹤： *EF ID*&#x200B;和&#x200B;*AMO ID*。
 
@@ -63,3 +65,10 @@ In Analytics reports, you can find AMO ID data by searching for the [!UICONTROL 
 For any reporting or auditing within [!DNL Analytics], the best practice is to use the AMO ID along with its corresponding instance. For more information, see "[Click-Through Data Validation for [!DNL Analytics for Advertising]](data-variances.md#data-validation)" in "Expected Data Variances Between [!DNL Analytics] and Adobe Advertising."
 
 -->
+
+>[!MORELIKETHIS]
+>
+>* [總覽](overview.md)
+>* [必要條件](prerequisites.md)
+>* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
+

@@ -2,9 +2,9 @@
 title: Customer Journey Analytics中的Adobe Advertising量度和維度
 description: 參考Customer Journey Analytics中可用的Adobe Advertising量度和維度。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: c3836d8af50061701434790b2bd9214df29e8a01
+source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Customer Journey Analytics中的Adobe Advertising量度和維度
 
 *僅整合Adobe Advertising-Customer Journey Analytics的廣告商*
+
+*Beta功能*
 
 Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Analytics]。 [!DNL Web SDK]會即時擷取Adobe Advertising點進和檢視點進，並將它們傳遞給Customer Journey Analytics。
 
