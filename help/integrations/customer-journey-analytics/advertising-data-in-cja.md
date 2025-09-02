@@ -2,9 +2,9 @@
 title: Customer Journey Analytics中的Adobe Advertising量度和維度
 description: 參考Customer Journey Analytics中可用的Adobe Advertising量度和維度。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
+source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Anal
 
 <!-- Verify column names -->
 
->[!NOTE]
->
->* 「XDM欄位名稱」是Adobe Experience Platform中的欄位名稱。
->* 「XDM欄位顯示名稱」表示Customer Journey Analytics中的顯示名稱。
+在下表中：
+
+* 「XDM欄位名稱」是Adobe Experience Platform中的欄位名稱。
+
+* 「XDM欄位顯示名稱」表示Customer Journey Analytics中的顯示名稱。
 
 | Adobe Advertising欄位名稱 | XDM欄位名稱 | XDM欄位顯示名稱 | Source |
 |------------------------------|----------------|------------------------|--------|
@@ -59,10 +60,11 @@ Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Anal
 
 ## Adobe Advertising維度
 
->[!NOTE]
->
->* 「XDM欄位」是Adobe Experience Platform中的欄位名稱。
->* 「XDM欄位顯示名稱」表示Customer Journey Analytics中的顯示名稱。
+在下表中：
+
+* 「XDM欄位名稱」是Adobe Experience Platform中的欄位名稱。
+
+* 「XDM欄位顯示名稱」表示Customer Journey Analytics中的顯示名稱。
 
 | Adobe Advertising欄位名稱 | XDM欄位名稱 | XDM欄位顯示名稱 | Source |
 |------------------------------|----------------|------------------------|--------|
