@@ -34,7 +34,7 @@ Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向�
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* （即將推出的測試版功能） Customer Journey Analytics的廣告商若沒有[!DNL Analytics for Advertising]，則可使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)，在Adobe Advertising與Customer Journey Analytics之間原生交換資料。 您可以使用Cookie、雜湊IP和通用ID （[!DNL LiveRamp RampIDs]和ID5 ID）追蹤網站事件，並將網站事件歸因於付費媒體活動。 行銷活動、廣告群組、套件、位置和關鍵字層級提供下列資料：
+* （即將推出的測試版功能） Customer Journey Analytics的廣告商若沒有[!DNL Analytics for Advertising]，則可使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)，在Adobe Advertising與Customer Journey Analytics之間原生交換資料。 您可以使用Cookie、雜湊IP和通用ID （[!DNL LiveRamp RampIDs]和ID5 ID）追蹤網站事件，並將網站事件歸因於付費媒體活動。 行銷活動、廣告群組、套件、位置和關鍵字層級提供下列資料：
 
    * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
 
