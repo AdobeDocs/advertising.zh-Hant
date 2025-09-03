@@ -3,9 +3,9 @@ title: 對象設定
 description: 請參閱可用對象設定的說明。
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 ## 第一方區段
 
 （可選）任何為帳戶匯入的第一方區段和/或匯入的自訂區段，以包含在對象設定中。
+
+>[!NOTE]
+>
+>(DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商)未附加至使用中、已排程或暫停位置的第一方RampID區段現在會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
 ## Adobe區段
 

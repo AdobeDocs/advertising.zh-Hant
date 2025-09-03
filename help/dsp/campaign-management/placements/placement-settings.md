@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -333,6 +333,10 @@ ht-degree: 0%
 * 若要建立對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Included Audiences]，然後選取&#x200B;**[!UICONTROL + Create Audience]**。 如需指示，請參閱[從步驟3開始建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)。
 * 若要選取特定對象區段，請按一下&#x200B;**[!UICONTROL Select segments for this placement only]**。 選取區段邏輯；如需指示，請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;中的步驟6。 完成時，按一下&#x200B;**儲存**。
 
+>[!NOTE]
+>
+>未附加至使用中、排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
+
 **[!UICONTROL Excluded Audiences]：**&#x200B;要排除以進行位置的任何對象，包括具有[第三方區段、第一方區段、Adobe區段、自訂區段和已儲存對象的對象](/help/dsp/audiences/audience-settings.md)。 也會顯示所有排除對象中的總計和作用中重複資料刪除對象人數。 您可以選取現有對象或建立新對象，以便稍後重複使用：
 
 * 若要選取現有對象，請按一下![旁的](/help/dsp/assets/chevron-down.png)選取[!UICONTROL Excluded Audiences]，然後選取對象。
@@ -370,7 +374,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

@@ -3,9 +3,9 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 0%
 
       1. 縮小對象範圍。 這包括選取要定位在位置中的對象區段。
 
-         對於[!DNL Roku]個位置，您可以納入一或多個可與[!DNL Roku] （選擇加入）確定性資料集比對的對象區段，以善用[DSP與 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)的唯一對象比對。
+         對於[!DNL Roku]個位置，您可以納入一或多個可與[ （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
+
+         未附加至使用中、排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
       1. （適用於具有人物層級跨裝置目標定位的行銷活動；選用）當刊登版位鎖定一或多個特定對象時，請為刊登版位啟用人物型跨裝置目標定位。
 
-         [!DNL LiveRamp]僅使用美國資料提供以人物為基礎的跨裝置目標定位。 所有廣告商皆可透過$0.35 CPM使用該服務，透過使用[!DNL LiveRamp]裝置圖表傳送的曝光數（亦即，在目標受眾區段中找不到裝置）來取得曝光數。
+         [!DNL LiveRamp]僅使用美國資料提供以人物為基礎的跨裝置目標定位。 所有廣告商都可在CPM使用$0.35購買此服務，以取得使用[!DNL LiveRamp]裝置圖表傳送的曝光數（亦即，在目標受眾區段中找不到裝置）。
 
    1. （選用）在[!DNL Brand Safety and Media Targeting]區段中，為您的位置套用品牌安全限制。
 
