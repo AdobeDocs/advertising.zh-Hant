@@ -3,9 +3,9 @@ title: Customer Journey Analytics使用的Adobe Advertising ID
 description: Customer Journey Analytics使用的Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: 1026871782c257a70278c4f4bb4208d321bd8200
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -70,5 +70,5 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 >
 >* [總覽](overview.md)
 >* [必要條件](prerequisites.md)
+>* [設定資料收集、資料傳輸及報告](set-up.md)
 >* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
-

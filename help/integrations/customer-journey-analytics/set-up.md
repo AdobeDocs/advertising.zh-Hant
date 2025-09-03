@@ -2,14 +2,16 @@
 title: 設定資料收集、資料傳輸及報告
 description: 瞭解如何設定資料收集、資料傳輸和報告。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: cbfdc1ca3334debe984c1a86249cc65d3567ff5b
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # 設定資料收集、資料傳輸及報告
+
+*Beta功能*
 
 在Customer Journey Analytics中檢視Advertising Cloud資料需要下列工作。
 
@@ -36,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [個Adobe Advertising ID已由 [!DNL Customer Journey Analytics]](ids.md)使用
 >* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
 >* [收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
->* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)
->* Adobe Analytics使用者的Customer Journey Analytics [使用手冊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Adobe Analytics使用者的Customer Journey Analytics [使用手冊](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
