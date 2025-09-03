@@ -3,9 +3,9 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * **排程：** （選擇性）排程特定創意在指定的連續時段內執行。
 
-* **廣告旋轉：**&#x200B;根據相對權重手動旋轉創意，或根據指定的最佳化目標採用演演算法。
+* **廣告旋轉：**&#x200B;根據指定的最佳化目標、根據指定的組合順序或根據相對權重，以演演算法方式旋轉創意。
 
 * **最佳化目標：**&#x200B;針對最佳點進率或現有[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)最佳化廣告元素
 

@@ -3,7 +3,7 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
    * 對於演演算法廣告輪換，會根據最佳化目標選取創意。
 
-   * 對於加權廣告輪換，創意是根據指定的權重來選取(例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%)。
+   * 對於已排程的廣告輪換，會顯示排程中的第一個創意內容。 您可以繼續重新整理預覽以繼續完成序列。
 
-   * 對於已排程的廣告輪換，會顯示排程中的第一個創意內容。 您可以繼續重新整理預覽以繼續完成序列。<!-- Refresh isn't there as of 2/3 -->
+   * 對於加權廣告輪換，創意是根據指定的權重來選取(例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%)。
 
 ## 使用決策樹定位預覽體驗中的創意內容
 

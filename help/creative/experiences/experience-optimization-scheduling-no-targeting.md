@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Ad Schedule]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Creative Optimization]**。&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -39,6 +39,16 @@ ht-degree: 0%
    * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
       * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+
+   * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並指定各組合順序的曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以針對三(3)次曝光在組合1中顯示任何創意，然後針對一(1)次曝光在組合2中顯示任何創意，接著針對兩(2)次曝光在組合3中顯示任何創意，然後再次開始回圈。 或者，一旦「束3」中的創意顯示出來，您就可以繼續無限期地在「束3」中顯示這些創意，而不是建立一個回圈。 啟用排序時：
+
+      1. 將指派的組合拖放至所需的順序。
+
+     依預設，指派的組合會依照其加入體驗的順序排序。
+
+      1. 輸入每個序列的曝光次數。
+
+      1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -56,7 +66,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Ad Schedule]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
 
 1. 啟用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -74,6 +84,16 @@ ht-degree: 0%
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
+      * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並指定各組合順序的曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以針對三(3)次曝光在組合1中顯示任何創意，然後針對一(1)次曝光在組合2中顯示任何創意，接著針對兩(2)次曝光在組合3中顯示任何創意，然後再次開始回圈。 或者，一旦「束3」中的創意顯示出來，您就可以繼續無限期地在「束3」中顯示這些創意，而不是建立一個回圈。 啟用排序時：
+
+         1. 將指派的組合拖放至所需的順序。
+
+            依預設，指派的組合會依照其加入體驗的順序排序。
+
+         1. 輸入每個序列的曝光次數。
+
+         1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
+
 1. 對於每個額外的排程：
 
    1. 按一下&#x200B;**[!UICONTROL + Add Schedule]**。
@@ -89,6 +109,16 @@ ht-degree: 0%
       * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
          * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+
+      * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合，每個組合順序具有指定的曝光總數。 啟用排序時：
+
+         1. 將指派的組合拖放至所需的順序。
+
+            依預設，指派的組合會依照其加入體驗的順序排序。
+
+         1. 輸入每個序列的曝光次數。
+
+         1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
