@@ -3,9 +3,9 @@ title: Adobe Advertising與Adobe Customer Journey Analytics之間整合的概述
 description: 瞭解將Adobe Advertising與Adobe Customer Journey Analytics整合的選項。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: ca039c91a976d79ed732ad7e0435566d58f3f843
+source-git-commit: 14f2bd22c44237a817443d48e798457e6c78312e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向�
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* （即將推出的測試版功能） Customer Journey Analytics的廣告商若沒有[!DNL Analytics for Advertising]，則可使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)，在Adobe Advertising與Customer Journey Analytics之間原生交換資料。 您可以使用Cookie、雜湊IP和通用ID （[!DNL LiveRamp RampIDs]和ID5 ID）追蹤網站事件，並將網站事件歸因於付費媒體活動。 行銷活動、廣告群組、套件、位置和關鍵字層級提供下列資料：
+* （即將推出的測試版功能） Customer Journey Analytics的廣告商若沒有[!DNL Analytics for Advertising]，則可使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)，在Adobe Advertising與Customer Journey Analytics之間原生交換資料。 您可以使用Cookie、雜湊IP和通用ID （[!DNL LiveRamp RampIDs]和ID5 ID）追蹤網站事件，並將網站事件歸因於付費媒體活動。 行銷活動、廣告群組、套件、位置和關鍵字層級提供下列資料：
 
    * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
 
@@ -53,4 +53,6 @@ Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向�
 >[!MORELIKETHIS]
 >
 >* [必要條件](prerequisites.md)
+>* [個Adobe Advertising ID已由 [!DNL Customer Journey Analytics]](ids.md)使用
+>* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
 >* (Adobe Analytics使用者) [收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
