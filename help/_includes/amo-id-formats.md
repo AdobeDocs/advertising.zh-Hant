@@ -1,13 +1,11 @@
 ---
-source-git-commit: 4428fb626de79a98d6a37c36057a0d468ce23166
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-# ADOBE ADVERTISING AMO ID
-
-### AMO ID格式 {#amo-id-formats}
+# AMO ID格式 {#amo-id-formats}
 
 #### [!DNL DSP]的AMO ID格式
 
@@ -106,13 +104,13 @@ where:
 >[!NOTE]
 >
 > 對於沒有[!UICONTROL Auto Upload]追蹤選項的行銷活動帳戶，如果尚未移轉至新格式，請手動更新每個登入頁面尾碼，以包含上述格式。
-> &#x200B;>同時，舊版格式（如下）仍可運作：
+> >同時，舊版格式（如下）仍可運作：
 >* 搜尋行銷活動：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 購物行銷活動（使用[!DNL Microsoft Merchant Center]）：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* 對象網路行銷活動：
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

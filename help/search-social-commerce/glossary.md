@@ -3,9 +3,9 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **廣告變數：**&#x200B;廣告群組或廣告策略中的任何廣告。
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;允許Adobe Advertising與Adobe Analytics共用行銷活動相關資料的追蹤程式碼。 它以`s_kwcid=`開頭。
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;追蹤程式碼，可讓Adobe Advertising與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。 它以`s_kwcid=`開頭。
 
 **競標單位：**&#x200B;發出競標之單位的搜尋、社交和Commerce辭彙。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **轉換追蹤：**&#x200B;轉換追蹤使用Cookie來追蹤a)廣告商在廣告網路上的廣告點選次數，以及b)廣告商網站上產生的交易。
 
-**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型準確度報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型準確度，而[[!UICONTROL Model Accuracy]深入分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型準確度的建議。
+**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
 
 **成本模型：** （具有產品組合的廣告商）使用歷史資料和數學預測技術預測成本數量、贏得每個位置或位置所需的出價以及每個出價單位的CPC （搜尋）或CPM （顯示）的搜尋、社交和Commerce技術。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
+**半衰期：**將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
 請參閱「成本模型半衰期」和「收入模型半衰期」。
 
 ## I-J {#i-j}
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **孤立交易：**&#x200B;無法與特定關鍵字或廣告關聯的交易事件。
 
-**畫素：**&#x200B;透明的、逐畫素的影像，內嵌在網頁上以供追蹤。 Adobe Advertising轉換 — 追蹤標籤包含HTML影像畫素或JavaScript ，用於追蹤點按及其產生的交易。
+**畫素：**&#x200B;透明的、逐畫素的影像，內嵌在網頁上以供追蹤。 Adobe Advertising轉換追蹤標籤包含HTML影像畫素或JavaScript ，用於追蹤點按次數及其產生的交易。
 
 **位置：**&#x200B;顯示網路上可顯示廣告的位置。 可以是整個網站、網站的子集，或特定頁面上的廣告位置。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **投資報酬率：** (ROI)收入減去成本。
 
-**收入準確度：** （具有產品組合的廣告商）產品組合的實際收入除以預測收入。 [模型準確度報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的收入模型準確度，而[[!UICONTROL Model Accuracy]深入分析](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型準確度的建議。
+**收入準確度：** （具有產品組合的廣告商）產品組合的實際收入除以預測收入。 [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的收入模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
 
 **收入模型：** （具有產品組合的廣告商）搜尋、社交和Commerce技術，此技術會根據點按資料（搜尋和社交）或曝光資料（顯示）以及廣告商的轉換資料，預測每個競標單位的轉換率和預估回報。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 ## S-T {#s-t}
 
-**模擬：** （具有產品組合的廣告商）Portfolio模型，使用歷史資料來估計產品組合針對不同支出層級和對應每日預算可預期的點按和轉換次數。
+**模擬：** （具有產品組合的廣告商） Portfolio模型，使用歷史資料來估計產品組合針對不同支出等級和對應每日預算可預期的點按和轉換次數。
 
 **支出策略：** （具有產品組合的廣告商）選取用來最佳化產品組合的關鍵字/廣告競標的策略。
 

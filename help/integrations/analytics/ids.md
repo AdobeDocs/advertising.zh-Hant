@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]使用的Adobe Advertising ID'
 description: ' [!DNL Analytics]使用的Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 1a0a111e25efd7d0f38c2d18f4b57b9428ec4ed7
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,13 @@ Adobe Advertising會使用下列條件來區分網站的點進或檢視專案：
 
 *圖2： Adobe Advertising點選以URL為基礎的[!DNL Analytics]整合*
 
-<!-- ## Adobe Advertising EF IDs -->
+## ADOBE ADVERTISING EF ID
 
 {{$include /help/_includes/ef-id.md}}
+
+### EF ID格式 {#ef-id-formats}
+
+{{$include /help/_includes/ef-id-formats.md}}
 
 ### [!DNL Analytics]中的EF ID Dimension
 
@@ -52,7 +56,11 @@ Adobe Advertising會使用下列條件來區分網站的點進或檢視專案：
 
 EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦達到500k值，所有新追蹤程式碼都會報告於單行專案標題&quot;[!UICONTROL Low Traffic]&quot;下。 由於可能遺失報表精確度，EF ID不會進行分類，您不應該在[!DNL Analytics]中將其用於區段或報表。
 
-<!-- ## Adobe Advertising AMO IDs {#amo-id} -->
+## ADOBE ADVERTISING AMO ID {#amo-id}
+
+{{$include /help/_includes/amo-id.md}}
+
+## AMO ID格式 {#amo-id-formats}
 
 {{$include /help/_includes/amo-id.md}}
 
@@ -94,7 +102,7 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 
 ## 關於Analytics分類
 
-在[!DNL Analytics]中，[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)是指定追蹤代碼（例如帳戶、促銷活動或廣告）的中繼資料。 Adobe Advertising會使用分類來分類原始Adobe Advertising資料，以便在您產生報表時，可以不同方式（例如依廣告型別或促銷活動）顯示資料。 在[!DNL Analytics]中以Adobe Advertising報告為基礎的分類，可與AMO量度（例如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）搭配使用，也可與自訂和標準站上事件（例如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）搭配使用。
+在[!DNL Analytics]中，[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是指定追蹤代碼（例如帳戶、促銷活動或廣告）的中繼資料。 Adobe Advertising會使用分類來分類原始Adobe Advertising資料，以便在您產生報表時，可以不同方式（例如依廣告型別或促銷活動）顯示資料。 在[!DNL Analytics]中以Adobe Advertising報告為基礎的分類，可與AMO量度（例如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）搭配使用，也可與自訂和標準站上事件（例如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）搭配使用。
 
 >[!MORELIKETHIS]
 >
