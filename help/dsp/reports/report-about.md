@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -97,11 +97,13 @@ ht-degree: 0%
 
      若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)。
 
-   * **[!UICONTROL Path Length]：**&#x200B;使用此報告      追蹤一段時間中轉換所需的使用者互動點數量，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+   * **[!UICONTROL Path Length]：**&#x200B;使用此報表來追蹤一段時間轉換所需的使用者互動點數，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
      會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
    * **[!UICONTROL Time to Conversion]：**&#x200B;使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
+
+   * **[!UICONTROL Content BETA]：**&#x200B;使用此報告來依照指定的內容維度（例如型別、生產品質和內容評等）瞭解曝光傳遞和其他量度，以便您最佳化目標定位並確保品牌安全。 除了內容維度之外，該報表還包含大部分的標準維度、量度和篩選器。 依內容維度的資料可用於[!DNL Freewheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 內容訊號會由發佈者在資料流期間傳遞，並受到可用性限制。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 

@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP中促銷活動的唯一識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 使用者指派的行銷活動名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 行銷活動的第一個日期。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 內容標題。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 內容系列。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 內容型別。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[IAB技術實驗室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定義的生產品質。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB技術實驗室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)所定義的內容型別。 值可以包含`Video,` `Game`、`Music`、`Application`、`Text`、`Other`或`Unknown`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | 內容分級，例如PG或R。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 廣告是否出現在直播串流中： `Not Live`或`Live`。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | 內容長度（以秒為單位）；通常用於視訊或音訊。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | 使用ISO-639-1-alpha-2的內容語言。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | 年、月、日。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | 日[!UICONTROL of Week] | 特定日期，例如[!UICONTROL Monday]或[!UICONTROL Tuesday]。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | 年、月、日和小時。 |
@@ -115,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | 將裝置圖表用於以人物為基礎的跨裝置鎖定目標所獲得的曝光總數。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | 僅依報告的維度觸及家庭的頻率，包括維度最多三個值的交集。 例如，如果您使用[!UICONTROL Placement]維度，則可檢視個別版位所達到的頻率、任意兩個版位組合所達到的頻率，以及任意三個版位組合所達到的頻率。 |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的<code>&lbrack;IP位址 — 由任何其他維度觸及的[IP位址]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度<code>[觸及的]IP位址 — 由任何其他維度觸及的[IP位址]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為<code>[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
@@ -126,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 總支出除以已達的遞增家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 總支出除以達到的不重複家庭。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的[IP位址 — 任何其他維度]觸及的&lbrack;IP位址。 |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度[觸及的]IP位址 — 任何其他維度[觸及的]IP位址。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
