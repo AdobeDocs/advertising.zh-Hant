@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
+source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP中促銷活動的唯一識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 使用者指派的行銷活動名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 行銷活動的第一個日期。 |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 內容標題。 |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 內容/影片標題。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 內容系列。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 內容型別。 |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | 由[IAB技術實驗室](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)定義的生產品質。 值可以`Unknown`、`Professionally Produced`、`Prosumer`或`User Generated`。 |
