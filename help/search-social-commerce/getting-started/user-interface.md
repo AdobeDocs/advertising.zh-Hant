@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
+source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Manage]**&#x200B;子功能表：
 
-   * **[!UICONTROL Portfolio Groups]：**&#x200B;退出新的UI網站並開啟舊版[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios]檢視> [!UICONTROL Portfolio Groups]索引標籤。
+<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
 
-   * **[!UICONTROL Portfolios]：**&#x200B;開啟新的[!UICONTROL Portfolios]檢視，其中列出廣告商的所有產品組合。 您可以從此檢視管理您的投資組合。 您可以開啟指派的限制清單，並檢視任何投資組合的績效和組成詳細資訊。
+* **[!UICONTROL Portfolios]：**&#x200B;開啟新的[!UICONTROL Portfolios]檢視，其中列出廣告商的所有產品組合。 您可以從此檢視管理您的投資組合。 您可以開啟指派的限制清單，並檢視任何投資組合的績效和組成詳細資訊。
 
-     產品組合設定包含可指派目標和行銷活動、管理支出、管理限制和控制最佳化的標籤。 只有具有「專家最佳化」角色或更高角色的使用者才能編輯[!UICONTROL Control Optimization]標籤上的設定。
+  產品組合設定包含可指派目標和行銷活動、管理支出、管理限制和控制最佳化的標籤。 只有具有「專家最佳化」角色或更高角色的使用者才能編輯[!UICONTROL Control Optimization]標籤上的設定。
 
-   * **[!UICONTROL Campaigns]：**&#x200B;開啟新的[!UICONTROL Campaigns]檢視，其中顯示廣告商的所有行銷活動。 您可以將行銷活動指派給產品組合，並管理選定行銷活動的限制指派。 您也可以下載資料表格內容的報表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+* **[!UICONTROL Campaigns]：**&#x200B;開啟新的[!UICONTROL Campaigns]檢視，其中顯示廣告商的所有行銷活動。 您可以將行銷活動指派給產品組合，並管理選定行銷活動的限制指派。 您也可以下載資料表格內容的報表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
+  若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
 
 * **[!UICONTROL Ad Groups]：**&#x200B;開啟新的[!UICONTROL Ad Groups]檢視，其中顯示廣告商的所有廣告群組。 您可以管理所選廣告群組的限制指派。 您也可以下載資料表格內容的報表。
 
