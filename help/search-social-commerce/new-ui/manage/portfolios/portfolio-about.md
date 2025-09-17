@@ -3,9 +3,10 @@ title: （新UI）關於投資組合
 description: 瞭解投資組合。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 有些使用者角色可以建立和設定投資組合。 根據投資組合型別，投資組合設定可能包括投資組合目標、指派的行銷活動、花費策略、任何投資組合層級競標限制，以及建模和最佳化引數。 當您準備好進行搜尋、Social和Commerce以開始最佳化產品組合時，請將狀態變更為「已最佳化」。
 
-您可以選擇將投資組合分組到投資組合群組中，以便檢視整個群組的複合點按和收入資料。 從[舊版UI](/help/search-social-commerce/getting-started/ui-switch.md)建立投資組合群組。
+您可以選擇將投資組合分組為[投資組合群組](portfolio-group-manage.md)，以便檢視整個群組的複合資料。
 
 視您的角色而定，您或許可以產生效能模擬，使用預測模型來識別最佳花費點與詳細的預測準確度報表。<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
