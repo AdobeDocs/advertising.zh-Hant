@@ -3,7 +3,7 @@ title: 附加和移除刊登版位的廣告
 description: 瞭解如何將廣告附加至刊登版位，以及從刊登版位移除廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
