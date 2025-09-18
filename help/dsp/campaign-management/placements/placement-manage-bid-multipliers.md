@@ -3,7 +3,7 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
 
-1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**」。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]**」。
 
 1. 調整合格目標的競標乘數：
 
@@ -119,8 +119,8 @@ ht-degree: 1%
 | 詳細目錄 | 動態消息 | 100 |
 | 網站 | 網站類別 | 100 |
 | 網站 | 網站/應用程式 | 100 |
-| 對象 | 區段 | 500 |
-| 對象 | 主題 | 100 |
+| 客群 | 區段 | 500 |
+| 客群 | 主題 | 100 |
 | 品牌安全 | Ads.txt | 不適用 |
 
 >[!MORELIKETHIS]

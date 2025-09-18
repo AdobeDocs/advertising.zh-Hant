@@ -3,9 +3,9 @@ title: 檢視刊登版位的網站、廣告、頻率和詳細目錄資訊
 description: 瞭解如何檢視刊登版位的目標網站、廣告、頻率和詳細目錄資料。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ads]：**&#x200B;位置中的所有廣告。
 
-  [!UICONTROL Ads]索引標籤包含搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每列的快速動作按鈕，例如[!UICONTROL Pause] （以便您快速暫停廣告）。
+  [!UICONTROL Ads]索引標籤包含搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每一列中的快速動作按鈕，例如[!UICONTROL View Ad Approvals]。
 
 * **[!UICONTROL Frequency]：**&#x200B;位置之每個廣告頻率層級的資料，包括：
    * 廣告頻率層級（例如「1」，適用於使用者看過一次廣告的所有例項）
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   [!UICONTROL Inventory]索引標籤可顯示效能統計資料，例如[!UICONTROL Auctions]、[!UICONTROL Bids]和[!UICONTROL Win Rate]，以啟用快速疑難排解。 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及每一列的快速動作按鈕，包括[!UICONTROL Edit]、[!UICONTROL View Report]和[[!UICONTROL Auction Insights]，以供進一步疑難排解](/help/dsp/inventory/private-deal-auction-insights.md)。
 
-## 開啟[!UICONTROL Placement Inspector]
+## 開啟[!UICONTROL Placement Inspector] {#inspector-open}
 
 1. 開啟父行銷活動或套件的版位檢視：
 
@@ -58,21 +58,21 @@ ht-degree: 0%
 
       1. 按一下父套件的名稱。
 
-1. 將游標停留在位置列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下選項：
-
-   * 若要檢視位置所瞄準的所有網站，請按一下&#x200B;**[!UICONTROL Sites]**。
-
-   * 若要檢視位置中的所有廣告，請按一下&#x200B;**[!UICONTROL Ads]**。
-
-   * 若要檢視位置頻率資料，請按一下&#x200B;**[!UICONTROL Frequency]**。
-
-   * 若要檢視位置所目標的所有交易，請按一下&#x200B;**[!UICONTROL Inventory]**。
+1. 將游標停留在位置列上，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**。
 
 1. （選擇性） [視需要變更資料行檢視](campaign-data-views-manage.md#column-view-change)，以檢視必要的量度。
 
 1. （選擇性）若要匯出任何標籤上的資料，請按一下右上方的![更多](/help/search-social-commerce/assets/more.png "更多")，然後按一下&#x200B;**[!UICONTROL Export]**。
 
    資料會以XLSM格式儲存至瀏覽器的預設下載資料夾作為報表。
+
+## 從[!UICONTROL Placement Inspector]移除刊登版位的廣告 {#remove-ads-placement-inspector}
+
+1. [開啟[!UICONTROL Placement Inspector]](#inspector-open)。
+
+1. 按一下「**[!UICONTROL Ads]**」標籤。
+
+1. 在廣告名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Detach]**」。
 
 ## 疑難排解詳細目錄
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](campaign-data-views-manage.md)

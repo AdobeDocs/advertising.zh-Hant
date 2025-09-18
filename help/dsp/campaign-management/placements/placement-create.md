@@ -3,7 +3,7 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * 若要在行銷活動中附加現有廣告：
 
-      1. 按一下&#x200B;**[!UICONTROL Select an Ad]**。
-
-      1. 執行下列任一項作業：
-
-         * 若要一次新增一個廣告：
-
-            1. 在廣告名稱旁，按一下&#x200B;**[!UICONTROL Select].**
-
-            1. （選擇性）針對您想要附加的每個其他廣告，按一下「**[!UICONTROL Attach Another Ad]**」，然後重複此程式。
-
-         * 若要一次新增最多20個廣告：
-
-            1. 選取廣告清單上方的核取方塊。
-
-            1. 選取每個要新增的廣告旁的核取方塊。
-
-            1. 按一下&#x200B;**[!UICONTROL Attach]**。
-
-            1. 在廣告名稱旁邊，按一下&#x200B;**[!UICONTROL Select]**。
-
-      1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
-
-         1. 按一下&#x200B;**[!UICONTROL Custom Schedule Ads]**。
+         1. 按一下&#x200B;**[!UICONTROL Select an Ad]**。
 
          1. 執行下列任一項作業：
 
-            * 若要新增航班，請按一下&#x200B;**[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+            * 若要一次新增一個廣告：
 
-            * 若要將現有航班新增至廣告，請按一下航班欄的廣告列中的&#x200B;**[!UICONTROL +]**。
+               1. 在廣告名稱旁，按一下&#x200B;**[!UICONTROL Select].**
 
-            * 若要從廣告中移除現有的航班，請按一下航班欄的廣告列中的&#x200B;**[!UICONTROL x]**。
+               1. （選擇性）針對您想要附加的每個其他廣告，按一下「**[!UICONTROL Attach Another Ad]**」，然後重複此程式。
 
-            * （如果有多個廣告有相同的投放位置）若要不平均旋轉廣告，請按一下投放位置資訊中的&#x200B;**[!UICONTROL Even Rotation]**，然後輸入每個廣告旋轉的相對權重，以百分比表示。
+            * 若要一次新增最多20個廣告：
 
-              總重量必須等於100。
+               1. 選取廣告清單上方的核取方塊。
 
-         1. 按一下右上角的&#x200B;**[!UICONTROL Continue]**。
+               1. 選取每個要新增的廣告旁的核取方塊。
 
-         1. 檢閱航班詳細資料，然後按一下&#x200B;**[!UICONTROL Save & Finish]**。
+               1. 按一下&#x200B;**[!UICONTROL Attach]**。
+
+               1. 在廣告名稱旁邊，按一下&#x200B;**[!UICONTROL Select]**。
+
+         1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
+
+            1. 按一下&#x200B;**[!UICONTROL Custom Schedule Ads]**。
+
+            1. 執行下列任一項作業：
+
+               * 若要新增航班，請按一下&#x200B;**[!UICONTROL Add Flight]**，然後指定開始日期和結束日期。
+
+               * 若要將現有航班新增至廣告，請按一下航班欄的廣告列中的&#x200B;**[!UICONTROL +]**。
+
+               * 若要從廣告中移除現有的航班，請按一下航班欄的廣告列中的&#x200B;**[!UICONTROL x]**。
+
+               * （如果有多個廣告有相同的投放位置）若要不平均旋轉廣告，請按一下投放位置資訊中的&#x200B;**[!UICONTROL Even Rotation]**，然後輸入每個廣告旋轉的相對權重，以百分比表示。
+
+                 總重量必須等於100。
+
+            1. 按一下右上角的&#x200B;**[!UICONTROL Continue]**。
+
+            1. 檢閱航班詳細資料，然後按一下&#x200B;**[!UICONTROL Save & Finish]**。
 
 >[!MORELIKETHIS]
 >
@@ -140,7 +140,7 @@ ht-degree: 0%
 >* [編輯版位](placement-edit.md)
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)
 >* [編輯刊登版位的廣告排程](placement-edit-ad-schedule.md)
->* [暫停或啟動位置](placement-pause-activate.md)
+>* [停用或啟用位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)

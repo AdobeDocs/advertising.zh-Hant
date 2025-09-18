@@ -3,7 +3,7 @@ title: 編輯刊登版位的廣告時程表
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
 
-1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**」。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Ad schedule]**」。
 
 1. 執行下列任一項作業：
 

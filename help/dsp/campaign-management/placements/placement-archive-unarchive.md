@@ -3,7 +3,7 @@ title: 封存或取消封存位置
 description: 瞭解如何封存或取消封存版位。
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [暫停或啟動位置](placement-pause-activate.md)
+>* [停用或啟用位置](placement-pause-activate.md)
 >* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)

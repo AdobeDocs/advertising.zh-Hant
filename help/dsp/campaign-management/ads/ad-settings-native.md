@@ -3,9 +3,9 @@ title: 原生顯示廣告設定
 description: 請參閱原生顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]：**&#x200B;檢視者按一下廣告時所登陸的URL。
 
-**[!UICONTROL Final Landing Page]：**&#x200B;已插入包含必要[Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md)的[!UICONTROL Landing Page] URL （如果適用）。
+**[!UICONTROL Final Landing Page]：**&#x200B;已插入包含必要[!UICONTROL Landing Page]Advertising DSP追蹤巨集[的](/help/dsp/campaign-management/macros.md) URL （如果適用）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]：**&#x200B;廣告的廣告商。
 
 **[!UICONTROL Call to Action]：** （選用）觀看者看到此廣告時所要採取的步驟。
 
-**[!UICONTROL Advertiser Logo]：** （選用）廣告要包含的1:1比率標誌，以獲得更多品牌認可。 按一下&#x200B;**[!UICONTROL Browse]**，在您的裝置或網路上找到檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+**[!UICONTROL Advertiser Logo]：** （選用）要包含在廣告中的1:1比率標誌，以獲得更多品牌認可。 按一下&#x200B;**[!UICONTROL Browse]**，在您的裝置或網路上找到檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
 ### [!UICONTROL Pixel]
 
-系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：**&#x200B;若要使用[!UICONTROL Ad Tools]檢視一次編輯一個位置中多個廣告的第三方追蹤畫素，請參閱[將第三方追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)。
+系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：**&#x200B;若要使用[!UICONTROL Ad Tools]檢視一次編輯一個位置中多個廣告的第三方追蹤畫素，請參閱[將第三方追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)。
 
 下列設定會套用至您建立或編輯的每個畫素。
 

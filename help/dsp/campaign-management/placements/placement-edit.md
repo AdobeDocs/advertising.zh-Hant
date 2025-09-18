@@ -3,7 +3,7 @@ title: 編輯版位
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
-1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**」。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**」。
 1. 編輯任何可用的[位置設定](placement-settings.md)： **[!UICONTROL Placement Name]**、**[!UICONTROL Status]**、**[!UICONTROL Max Bid]**&#x200B;和&#x200B;**[!UICONTROL Budget]**。
 1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
 
-1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]**」。
+1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** >」。
 
 1. 編輯[位置設定](placement-settings.md)。
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 >* [複製位置](placement-duplicate.md)
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)
 >* [編輯刊登版位的廣告排程](placement-edit-ad-schedule.md)
->* [暫停或啟動位置](placement-pause-activate.md)
+>* [停用或啟用位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hant)
+>* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

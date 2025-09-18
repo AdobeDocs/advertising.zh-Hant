@@ -3,7 +3,7 @@ title: 音訊廣告設定
 description: 請參閱音訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]：** （僅使用VAST標籤的廣告）已插入第三方廣告來源的URL以及必要的[Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) （如果適用）。
 
-**[!UICONTROL Select Rate]：** （僅具有許可權的使用者）透過Adobe記帳的預先議定費率，或是您議定且透過廠商記帳的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
+**[!UICONTROL Select Rate]：** （僅具有許可權的使用者）透過Adobe計費的預先議定費率，或您已經議定且透過廠商計費的費率之一。 若要新增費率，請聯絡您的Adobe客戶團隊。
 
 ### [!UICONTROL Pixel]
 
-系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：**&#x200B;若要使用[!UICONTROL Ad Tools]檢視一次編輯一個位置中多個廣告的第三方追蹤畫素，請參閱[將第三方追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)。
+系統會自動附加位置的所有現有事件追蹤畫素。 您可以根據個別廣告的追蹤需求，分離現有畫素並視需要建立新畫素。 **秘訣：**&#x200B;若要使用[!UICONTROL Ad Tools]檢視一次編輯一個位置中多個廣告的第三方追蹤畫素，請參閱[將第三方追蹤畫素附加至位置中的廣告](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)。
 
 下列設定會套用至您建立或編輯的每個畫素。
 
