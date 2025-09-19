@@ -3,9 +3,9 @@ title: 管理交易清單
 description: 瞭解如何建立和管理投放位置目標的交易清單。
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * 若為私人交易，請依發行者、SSP或交易型別（*[!UICONTROL Guaranteed]*&#x200B;或&#x200B;*[!UICONTROL Non-Guaranteed]*）篩選清單；或依交易名稱或交易ID搜尋清單。
 
-   * 若為[!UICONTROL On Demand]筆交易，請依發行者、地區或媒體型別篩選清單，或依交易名稱搜尋清單。
+   * 若為[!UICONTROL On Demand]筆交易，請依發行者、地區或媒體型別篩選清單，或依交易名稱搜尋清單。 此清單僅包含您已訂閱的[!DNL On Demand]筆交易。
 
 1. 選取每個要納入清單的交易旁的核取方塊。
 
