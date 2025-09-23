@@ -4,7 +4,7 @@ description: 瞭解效能儀表板中可用的資料。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-可自訂的[!UICONTROL Dashboard]可讓您監視所有產品組合<!-- May later include other entity-level data -->的效能，以便識別要調查和解決的潛在效能問題。 您可以檢視過去90天內任何時段的每日、每週或每月資料。
+可自訂的[!UICONTROL Dashboard] > [!UICONTROL Overview]可讓您監視所有產品組合<!-- May later include other entity-level data -->的效能，以便識別要調查和解決的潛在效能問題。 您可以檢視過去90天內任何時段的每日、每週或每月資料。
 
 您的[!UICONTROL Dashboard]包含下列視覺化報表：
 
