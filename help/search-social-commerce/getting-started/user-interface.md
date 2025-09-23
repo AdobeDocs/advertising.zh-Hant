@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ ht-degree: 0%
 
 ## 主功能表
 
-新的使用者介面在左側有一個新的主要功能表，可依工作階段（計畫、管理、稽核、設定）來組織任務。 稍後會新增舊版使用者介面的其他子功能表和選項。
+新的使用者介面在左側有一個新的主功能表，該功能表會按工作階段組織任務。 稍後會新增舊版使用者介面的其他子功能表和選項。
 
 ### 主要功能表選項
 
 您的角色決定可用的選項： <!-- add link when available -->
 
-* **[!UICONTROL Dashboard]**&#x200B;開啟可設定的[!UICONTROL Dashboard]檢視，其中包含您所有投資組合的效能視覺效果。
+* **[!UICONTROL Dashboard]**&#x200B;子功能表：
+
+   * **[!UICONTROL Overview]**&#x200B;開啟可設定的[!UICONTROL Dashboard]檢視，其中包含您所有投資組合的效能視覺效果。
+
+   * **[!UICONTROL Recommendations]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。
+
+* **[!UICONTROL Alerts & Notifications]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]檢視。
+
+* **[!UICONTROL Goals]**&#x200B;子功能表：
+
+   * **[!UICONTROL Objectives]**&#x200B;開啟新的[!UICONTROL Objectives]檢視，您可以從中檢視所有現有目標以及建立、編輯和刪除目標。
+
+   * **[!UICONTROL Conversions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Conversions]檢視。
+
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。
+
+   * **[!UICONTROL Constraints]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。
 
 * **[!UICONTROL Plan]**&#x200B;子功能表：
 
-   * **[!UICONTROL Objectives]**&#x200B;開啟新的[!UICONTROL Objectives]檢視，您可以從中檢視所有現有目標以及建立、編輯和刪除目標。 目標設定與位於[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta]之舊版使用者介面中的設定相同。
-
    * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]開啟舊版[!UICONTROL Spend Recommendation]工具。
+
+   * **[!UICONTROL Spend Planner]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]檢視。
+
+   * **[!UICONTROL Label Classification]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Label Classifications]檢視。
 
 * **[!UICONTROL Manage]**&#x200B;子功能表：
 
@@ -46,27 +64,59 @@ ht-degree: 0%
 
      若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
 
-* **[!UICONTROL Ad Groups]：**&#x200B;開啟新的[!UICONTROL Ad Groups]檢視，其中顯示廣告商的所有廣告群組。 您可以管理所選廣告群組的限制指派。 您也可以下載資料表格內容的報表。
+   * **[!UICONTROL Ad Groups]：**&#x200B;開啟新的[!UICONTROL Ad Groups]檢視，其中顯示廣告商的所有廣告群組。 您可以管理所選廣告群組的限制指派。 您也可以下載資料表格內容的報表。
 
-  若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
+     若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
 
-* **[!UICONTROL Review]**&#x200B;子功能表：
+   * **[!UICONTROL Ads]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+* **[!UICONTROL Reports]**&#x200B;子功能表：
 
    * **[!UICONTROL Insights]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]檢視。
 
-   * **[!UICONTROL Reports]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Reports]檢視。
-
-   * **[!UICONTROL Recommendations]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。
+   * **[!UICONTROL Scheduled Reports]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Reports]檢視。
 
    * **[!UICONTROL Spreadsheet Feeds]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets]檢視。
 
    * **[!UICONTROL History Logs]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Change History]檢視。
 
+* **[!UICONTROL Target]**&#x200B;子功能表：
+
+   * **[!UICONTROL Audience]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。
+
+   * **[!UICONTROL Keywords]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+   * **[!UICONTROL Placements]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+* **[!UICONTROL Assets]**&#x200B;子功能表：
+
+   * **[!UICONTROL Auto Targets]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+   * **[!UICONTROL Creatives]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+   * **[!UICONTROL Extensions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+
+   * **[!UICONTROL Shopping]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]**&#x200B;子功能表：
 
    * **[!UICONTROL Accounts]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
 
-   * **[!UICONTROL Audiences]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### 摺疊主功能表
 

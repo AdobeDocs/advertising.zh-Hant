@@ -3,9 +3,10 @@ title: 管理行銷活動的限制指派
 description: 瞭解如何將限制指派給行銷活動。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 1. 選取您要指派單一限制之每個行銷活動旁的核取方塊。
 
-1. 在工具列中按一下![其他動作](/help/search-social-commerce/assets/more-actions.png "其他動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/assign.png "指派") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
+1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
 1. 選取限制。
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
 1. 選取每個行銷活動旁的核取方塊，您會從中取消指派限制。
 
-1. 在工具列中按一下![其他動作](/help/search-social-commerce/assets/more-actions.png "其他動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/unassign.png "取消指派") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
+1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
@@ -88,4 +89,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

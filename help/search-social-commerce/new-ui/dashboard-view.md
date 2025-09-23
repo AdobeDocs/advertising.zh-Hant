@@ -4,9 +4,9 @@ description: 瞭解效能儀表板中可用的資料。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 * **最大移動者 — \[選取的量度\]：**&#x200B;與上一個時段相比，對指定量度具有最大變更的10個產品組合。
 
 * **支出分配：**&#x200B;依廣告網路的支出分配。
+
+## 檢視您的效能儀表板
+
+* 在主功能表中，按一下&#x200B;**[!UICONTROL Dashboard]>[!UICONTROL Overview]**。
 
 ## 自訂您的效能儀表板
 

@@ -2,18 +2,19 @@
 title: 關於新的使用者介面
 description: 瞭解新的使用者介面。
 feature: Search Introduction
-source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
+exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 關於新的使用者介面
 
-您現在可以從新的使用者介面(UI)管理您的目標、模擬和產品組合。 您也可以對行銷活動和廣告群組執行一些任務，並開啟一些舊式檢視。 新的搜尋、社交和Commerce使用者介面會在https://experience.adobe.com網域內的新URL中執行。
+您現在可以從新的使用者介面(UI)管理您的目標、模擬和產品組合。 您也可以對行銷活動和廣告群組執行一些任務。 新的搜尋、社交和Commerce UI會在https://experience.adobe.com網域內的新URL中執行。
 
-一段時間後，會將其他功能移至新的使用者介面。 同時，您可以輕鬆在新UI和舊版UI之間切換。
+一段時間後，會將其他功能移至新UI。 同時，您可以從新UI的主功能表開啟舊版UI中的大部分功能。 您也可以輕鬆地在新版UI和舊版UI之間切換。
 
 如需有關如何組織新UI的詳細資訊，請參閱[使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)。
 

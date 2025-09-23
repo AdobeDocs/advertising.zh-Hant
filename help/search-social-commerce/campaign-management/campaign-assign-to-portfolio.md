@@ -3,9 +3,9 @@ title: 將行銷活動指派至投資組合
 description: 瞭解如何在產品組合中加入行銷活動以進行最佳化。
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 選取每個行銷活動旁的核取方塊，以指派至單一投資組合。
 
-1. 在工具列中按一下![更多動作](/help/search-social-commerce/assets/more-actions.png "更多動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/assign.png "指派") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** 。
+1. 在大量動作工具列中，按一下「**+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**」。
 
 1. 選取投資組合。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 選取您要為其建立新投資組合的每個行銷活動旁的核取方塊。
 
-1. 在工具列中按一下![其他動作](/help/search-social-commerce/assets/more-actions.png "其他動作") **[!UICONTROL More Actions]** > ![指派](/help/search-social-commerce/assets/assign.png "指派") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
+1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**。
 
 1. 在[!UICONTROL Create Portfolio]畫面中，指定投資組合設定。
 

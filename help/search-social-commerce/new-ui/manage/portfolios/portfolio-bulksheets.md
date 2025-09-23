@@ -3,9 +3,10 @@ title: 使用大量工作表檔案大量編輯投資組合設定
 description: 瞭解如何使用Bulksheet檔案編輯多個投資組合的設定。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * 含有編輯欄位相關資訊的唯讀[!UICONTROL Instructions]工作表。
 
-* [!UICONTROL Portfolio Settings Edit]索引標籤，每個包含的組合各有一列。 您可以選擇視需要編輯欄位，將檔案儲存在本機，然後[將編輯後的檔案](#portfolio-bulksheet-upload)上傳至Search、Social和Commerce。
+* [!UICONTROL Portfolio Settings Edit]索引標籤，每個包含的組合各有一列。 您可以選擇視需要編輯欄位，將檔案儲存在本機，然後[將編輯後的檔案](#portfolio-bulksheet-upload)上傳至Search、Social和Commerce。 可編輯欄位會以顏色反白顯示。
 
 ## 下載包含投資組合設定的大量表單檔案
 
