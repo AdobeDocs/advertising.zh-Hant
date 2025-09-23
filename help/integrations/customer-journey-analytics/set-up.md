@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ### 收集資料並從Adobe Advertising傳送至Experience Platform Edge Network作為資料集
 
-1. 在Experience Platform中，[為您要使用體驗資料模型(XDM)收集的資料定義手動結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)。
+1. 在Experience Platform中，[為您要使用體驗資料模型(XDM)收集的資料定義手動結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas)。
 
    * 在[!UICONTROL Schema Details]中，選取&#x200B;**[!UICONTROL Experience Event]**&#x200B;作為要擷取網站事件的結構描述的基底類別。 為結構描述命名，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
    **注意：**&#x200B;您可以建立多個結構描述，但每個資料集和資料流只能使用一個結構描述，您將在以下步驟中建立該結構描述。
 
-1. [根據結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create)以儲存和管理事件資料的集合。
+1. [根據結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/create)以儲存和管理事件資料的集合。
 
    * 選擇&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的選項並選取您的結構描述。
 
      Adobe Advertising會根據您的事件資料集，為相關的摘要量度資料（例如轉換值）和查詢資料(維度/分類中繼資料，例如Adobe Advertising促銷活動名稱)建立其他資料集。 資料集的資料會每天在Experience Platform中填入。
 
-1. [為結構描述建立資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)。
+1. [為結構描述建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)。
 
    * 針對[!UICONTROL Mapping schema]設定，選取您的結構描述。
 
@@ -66,17 +66,17 @@ ht-degree: 0%
 
 ### 將貴組織的網站資料傳送至您的Experience Platform資料流
 
-1. 使用Experience Platform [標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) （先前稱為[!DNL Launch]）來產生JavaScript標籤，以將您組織的網站資料傳送至資料流。
+1. 使用Experience Platform [標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home) （先前稱為[!DNL Launch]）來產生JavaScript標籤，以將您組織的網站資料傳送至資料流。
 
    * 建立標籤屬性，這是標籤設定的容器。
 
-   * 針對您的屬性，請從擴充功能目錄[安裝「Adobe Experience Platform Web SDK」擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
+   * 針對您的屬性，請從擴充功能目錄[安裝「Adobe Experience Platform Web SDK」擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
 
      此擴充功能會透過Experience Platform Edge Network，將資料從您的Web屬性傳送至Experience Cloud。
 
      請勿使用Adobe Advertising擴充功能。
 
-   * 建立[自訂Web SDK組建](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
+   * 建立[自訂Web SDK組建](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
 
       * 在[!UICONTROL Custom build components]區段中，啟用&#x200B;**Advertising**&#x200B;元件。
 
@@ -88,19 +88,19 @@ ht-degree: 0%
 
          * 在[!UICONTROL Datastreams]設定中，選取要用於各個Web環境（生產、測試、開發）的資料流。
 
-         * (僅限具有Adobe Advertising DSP的組織)在[[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#general)中，啟用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允許檢視追蹤，並指定要啟用檢視追蹤的廣告商。 您可以選擇從通用ID收集ID。
+         * (僅限具有Adobe Advertising DSP的組織)在[[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#general)中，啟用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允許檢視追蹤，並指定要啟用檢視追蹤的廣告商。 您可以選擇從通用ID收集ID。
 
          * 儲存組建。
 
-   * （選用） [視需要建立規則](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)，以決定Web SDK何時應將資料傳送至Edge Network。
+   * （選用） [視需要建立規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/rules)，以決定Web SDK何時應將資料傳送至Edge Network。
 
-      * 對於`[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#send-event)`動作，請使用[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)來定義如何將廣告資料用於歸因測量。 當規則包含一系列多個動作時，此設定很有幫助，而且僅當您為自訂組建元件選取&quot;[!UICONTROL Advertising]&quot;元件時可用。
+      * 對於`[sendEvent](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/action-types#send-event)`動作，請使用[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)來定義如何將廣告資料用於歸因測量。 當規則包含一系列多個動作時，此設定很有幫助，而且僅當您為自訂組建元件選取&quot;[!UICONTROL Advertising]&quot;元件時可用。
 
-   * 視需要建立[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)，以將網站上的變數對應到您先前建立的XDM結構描述結構。
+   * 視需要建立[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)，以將網站上的變數對應到您先前建立的XDM結構描述結構。
 
-1. [將標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)發佈到測試環境，您可以在其中反複開發標籤。
+1. [將標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)發佈到測試環境，您可以在其中反複開發標籤。
 
-1. 驗證資料集的傳遞，然後[將標籤發佈到您的即時生產環境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
+1. 驗證資料集的傳遞，然後[將標籤發佈到您的即時生產環境](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)。
 
    您組織的IT部門或其他群組可能需要排程標籤部署，或接收相關通知。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 請依照下列步驟，將Adobe Advertising資料從您的Experience Platform資料集提取到Customer Journey Analytics中。 您組織的Customer Journey Analytics網站管理員可以執行這些工作。
 
-1. 在Customer Journey Analytics中，[建立連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)，其中包含您的Experience Platform資料集和結構描述。
+1. 在Customer Journey Analytics中，[建立連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection)，其中包含您的Experience Platform資料集和結構描述。
 
    **注意：**&#x200B;目前，您必須將所有DSP與Search、Social與Commerce帳戶的資料傳送至單一Experience Platform執行個體與沙箱。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 在Customer Journey Analytics中，建立一或多個資料檢視以定義用於報告的量度和維度。 網頁分析人員可以執行這些工作。
 
-1. 在Customer Journey Analytics中，[建立資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)。
+1. 在Customer Journey Analytics中，[建立資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)。
 
 1. 設定檢視以包含下列資訊。
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
       * 將事件資料集加入摘要資料集，該資料集尚未加入任何專案：
 
-         * 對於每一個包含您想要在Customer Journey Analytics中可用的摘要資料的維度，[建立一個衍生欄位](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)。
+         * 對於每一個包含您想要在Customer Journey Analytics中可用的摘要資料的維度，[建立一個衍生欄位](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/derived-fields)。
 
            例如，若要檢視行銷活動的摘要資料，請建立維度`Adobe Advertising Campaign`的衍生欄位。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 在Customer Journey Analytics Workspace中，請依照下列步驟設定報表和視覺效果。 網頁分析人員可以執行這些工作。
 
-1. [在Workspace中建立專案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根據資料檢視內設定的維度和量度來建置報表和視覺效果。
+1. [在Workspace中建立專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根據資料檢視內設定的維度和量度來建置報表和視覺效果。
 
 1. （如果您有來自[!DNL Google Ads]或[!DNL Microsoft Advertising]的資料）使用廣告網路特定量度的欄位（已分組為`googleConversions`和`microsoftConversions`），建立發佈者追蹤的轉換報告。
 
@@ -207,5 +207,5 @@ ht-degree: 0%
 >* [個Adobe Advertising ID已由 [!DNL Customer Journey Analytics]](ids.md)使用
 >* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
 >* [收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
->* [Customer Journey Analytics指南](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
->* Adobe Analytics使用者的Customer Journey Analytics [使用手冊](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)
+>* Adobe Analytics使用者的Customer Journey Analytics [使用手冊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
