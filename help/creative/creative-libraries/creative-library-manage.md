@@ -3,16 +3,16 @@ title: 管理您的創意程式庫
 description: 瞭解如何建立、重新命名和刪除您的創意程式庫。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 管理您的創意程式庫
 
-您可以為每個廣告商建立多個創意程式庫。 您稍後可將[標準創意](creative-add-standard.md)<!-- , dynamic creatives, -->和[創意組合](bundle-manage.md)填入每個程式庫。 您的Adobe客戶團隊也可以將動態創意新增至程式庫。
+您可以為每個廣告商建立多個創意程式庫。 您稍後可以將[標準創意內容](creative-add-standard.md)、[動態創意內容](creative-add-dynamic.md)和[創意組合](bundle-manage.md)填入每個程式庫。
 
 ## 建立創意內容庫
 

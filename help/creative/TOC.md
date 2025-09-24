@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative指南
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,9 @@ ht-degree: 0%
 + 簡介 {#introduction}
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -30,6 +31,10 @@ ht-degree: 0%
          + [編輯標準創意內容](/help/creative/creative-libraries/creative-edit-standard.md)
          + [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5創意規格](/help/creative/creative-libraries/html5-creative-specification.md)
+      + 動態創意 {#dynamic-creatives}
+         + [將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [編輯動態創意內容](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [動態創意設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
       + [預覽創意](/help/creative/creative-libraries/creative-preview.md)
       + [將創意內容附加至組合](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [複製創意](/help/creative/creative-libraries/creative-duplicate.md)
@@ -72,10 +77,16 @@ ht-degree: 0%
    + [從[!UICONTROL Experiences]檢視下載資料](/help/creative/experiences/experience-download-view.md)
    + [重新命名廣告標籤](/help/creative/experiences/experience-tag-rename.md)
    + [刪除體驗](/help/creative/experiences/experience-delete.md)
++ 動態消息 {#feeds}
+   + [管理資產檔案](/help/creative/feeds/asset-manage.md)
+   + [管理摘要範本](/help/creative/feeds/feed-template-manage.md)
+   + [管理目錄](/help/creative/feeds/catalog-manage.md)
+   + [追蹤目錄處理作業的狀態](/help/creative/feeds/job-status-track.md)
++ [管理動態廣告範本](/help/creative/ad-templates/ad-template-manage.md)
 + 效能報表 {#reports}
    + [體驗層級效能報表](/help/creative/experiences/experience-performance-details.md)
    + [自訂Creative報表](/help/creative/report-custom-creative.md)
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

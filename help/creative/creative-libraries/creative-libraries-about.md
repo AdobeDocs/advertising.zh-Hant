@@ -3,9 +3,9 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * **標準創意：**&#x200B;您可以上傳和管理[各種格式的創意](#creative-creative-formats)。 對於每個創意，您為與創意相關的每個廣告指定預設語言，並指定當使用者按一下包含創意的廣告時開啟的預設登陸頁面。 您可以選擇指定標籤，以在[!DNL Creative]內的各種檢視中作為篩選器使用，並在包含使用[!UICONTROL Custom Creative Report]維度時作為[!UICONTROL Creative Label]中的欄值使用。
 
-   * **動態創意：** (僅限現有Adobe Advertising DCO客戶)管理員使用者可以將廣告範本中的動態變數對應到摘要檔案中的值，以建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
+   * **動態創意：**&#x200B;您可以將廣告範本中的動態變數對應到摘要檔案中的值，藉此建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
 
 * **創意組合：**&#x200B;將創意分組為組合，以搭配定義的使用者目標用於多個體驗。 您可以建立包含標準顯示廣告的&#x200B;*標準顯示組合*、包含標準視訊廣告的&#x200B;*標準視訊組合*，以及包含動態產生之顯示廣告的&#x200B;*動態顯示組合*。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個標準視訊廣告體驗都需要為指派給體驗的每個創意期間提供預設的視訊創意。 DSP會自動將所有影片創意內容轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[套用至任何視訊廣告體驗標籤。](/help/creative/experiences/experience-tag-video-transcoding.md)
 
-請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
+請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
 **檔案型別：** .mov、.mp4、.webm
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 動態廣告的格式
 
-管理員使用者可透過將廣告範本中的動態變數對應至摘要檔案中的值，以動態方式產生靜態HTML5和動態HTML5格式的創意。 動態創意內容可能包含來自舊版Adobe Advertising Dynamic Creative Optimization (DCO)體驗的創意內容。
+您可以將廣告範本中的動態變數對應至摘要檔案中的值，以動態方式產生靜態HTML5和動態HTML5格式的創意。 動態創意內容可能包括從舊版Adobe Advertising Dynamic Creative Optimization (DCO)體驗移轉過來的創意內容。
 
 ## [!UICONTROL Creative Libraries]檢視
 
@@ -144,17 +144,19 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[索引標籤](creative-delete.md)手動刪除[!UICONTROL Dynamic Ads]的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)自上次處理目錄以來的任何動態創意，則該目錄的創意清單也包含重複的創意。
+[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[索引標籤](creative-delete.md)手動刪除[!UICONTROL Dynamic Ads]的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
 
-每個創意的資料包括創意型別、創意大小、創意所屬的目錄數量和建立日期。 表格模式也包含產生創意的範本欄和選件計數。
+每個創意的資料包括創意型別、創意大小、創意所屬的目錄數量和建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
 
 >[!NOTE]
 >
->每次處理目錄時，該目錄的現有動態創意內容都會重新整理資料。
+>每次處理目錄時，都會重新整理該目錄現有動態創意的資料。<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### 可用動作
 
-目前僅Adobe客戶團隊可建立及編輯動態創意內容。 不過，所有使用者都可以：
+* [將動態創意內容新增至程式庫](creative-add-dynamic.md)
+
+* [編輯動態創意](creative-edit-dynamic.md)
 
 * [預覽動態創意內容](creative-preview.md)
 
