@@ -2,9 +2,9 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
 
-1. 使用[建立動態廣告體驗（具有鎖定目標](/help/creative/experiences/experience-create-targeting.md)或[，而不具有鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)），並[將其組合指派給您的動態廣告體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
+1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
 1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
 
