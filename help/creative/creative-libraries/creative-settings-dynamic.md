@@ -2,9 +2,9 @@
 title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## 廣告範本
 
-**[!UICONTROL Ad Template]：**&#x200B;用來建立廣告的廣告範本。&lt;！ — 也可以選擇上傳您自己的廣告範本 — 需要為此新增規格 — >
+**[!UICONTROL Ad Template]：**&#x200B;用來建立廣告的廣告範本。<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]：**&#x200B;可針對每個廣告建立的選件數目。&lt;！ — 釐清這個 — 這是頻率上限（廣告可提供的最大次數）嗎？—>
+**[!UICONTROL Number of offers (Max 50)]：**&#x200B;可針對每個廣告建立的選件數目。<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## 目錄
 
-**[!UICONTROL Template]：**&#x200B;用來建立廣告的摘要範本。&lt;！ — 也可以上傳您自己的摘要範本 — 需要為此新增規格 — >
+**[!UICONTROL Template]：**&#x200B;用來建立廣告的摘要範本。<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catalogs\]**：要從中產生廣告的一或多個指定廣告商目錄。&lt;！ — 也可以選擇上傳您自己的目錄（找不到您需要的目錄？） 下載範本、建立您自己的範本，以及從您的裝置上傳範本。) — 需要新增該範本的規格 — >
+**\[Catalogs\]**：要從中產生廣告的一或多個指定廣告商的目錄。<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
