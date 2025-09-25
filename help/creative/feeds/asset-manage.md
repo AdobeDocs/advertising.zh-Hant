@@ -2,9 +2,9 @@
 title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 0%
      您可以在ZIP檔案中上傳單一影像或多個影像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## 上傳資產檔案
+
+>[!NOTE]
+>
+>[將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)時，您也可以直接上傳目錄，而不上傳資產檔案。 您在此處建立的任何目錄都可在[!UICONTROL Catalogs]檢視中使用，以供日後使用。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Feeds]**。
 

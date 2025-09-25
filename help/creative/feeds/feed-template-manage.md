@@ -2,9 +2,9 @@
 title: 管理摘要範本
 description: 瞭解如何管理摘要範本。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-摘要範本會將摘要檔案中的欄位與Advertising Creative後端上的欄位進行對應。 動態HTML5廣告(而非靜態HTML5廣告)需要摘要範本才能建立動態廣告。
+摘要範本會將摘要檔案/目錄中的欄位與Advertising Creative後端上的欄位進行對應。 動態HTML5廣告(而非靜態HTML5廣告)需要摘要範本才能建立動態廣告。
 
 您可以使用具有多個廣告範本的摘要範本。
 

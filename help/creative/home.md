@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: d8030203f7bfce3baf18d50369067157f7cb0991
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年9月24日 | 動態創意 | 自助工作流程現在可用於使用透過廣告範本傳遞之摘要檔案的資料，產生動態廣告。 | 請參閱[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)，其中包含所有步驟的連結。 |
+| 2025年9月24日 | 動態創意 | 現在，您可以使用透過廣告範本傳遞的廣告變數目錄資料，以更簡單的自助工作流程產生動態廣告。 | 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;。 |
 | 2025年9月3日 | [!DNL experiences]的Creative最佳化和排程 | 用於設定創意最佳化和排程的功能表選項或按鈕現在稱為&quot;[!UICONTROL Creative Optimization]&quot;，而不是&quot;[!UICONTROL Edit Schedules]&quot;或&quot;[!UICONTROL Add Schedules]&quot;。 | 請參閱&quot;[針對鎖定目標體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot;以及&quot;[針對未鎖定目標的體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;。 |
 |  | [!DNL experiences]的廣告輪換和排程 | 新的創意旋轉型別&quot;[!UICONTROL Sequencing]&quot;會依指定順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並擁有每個組合序列的指定曝光總數。 您可以將序列中的最後一個束配置為a\)無限顯示或b\)回圈到第一個束。 | 請參閱&quot;[針對鎖定目標體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot;以及&quot;[針對未鎖定目標的體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;。 |
 | 2025年8月4日 | 廣告[!DNL experiences]的對象目標 | 對象目標設定中提供包含和排除對象的更複雜邏輯，與Advertising DSP中提供的邏輯相同。 設定廣告體驗的對象目標時，您現在可以設定多個區段群組，並根據邏輯指定是否要包含或排除使用者。<br><br>您可以看到每個區段的對象成員總數，以及每個區段群組的作用中對象成員與對象成員總數。<br><br>使用此選項，&quot;[!UICONTROL Split targets to create nodes]&quot;的現有選項將無法再使用。<br><br>如果您有現有的體驗，其中包含以多個區段為目標的受眾節點，現在會使用&quot;[!UICONTROL Include Any]&quot;選項鎖定這些節點，而且使用者必須只屬於其中一個區段，才能符合曝光資格。 之前，使用者必須屬於所有區段。 | 請參閱&quot;[新增目標節點至最終層級](/help/creative/experiences/experience-target-node-add-final.md)&quot;、&quot;[在節點](/help/creative/experiences/experience-target-node-add-inner.md)之間插入目標節點&quot;以及&quot;[新增同層級目標節點](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;。 |

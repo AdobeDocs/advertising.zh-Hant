@@ -2,9 +2,9 @@
 title: 管理動態廣告範本
 description: 瞭解xxxx。
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## 建立動態廣告範本
+
+>[!NOTE]
+>
+>當您[新增動態創意內容至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)時，您也可以上傳動態廣告範本。 您在此處建立的任何廣告範本都可以在[!UICONTROL Ad Templates]檢視中使用，以供日後使用。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
 
@@ -56,6 +60,10 @@ ht-degree: 0%
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**.<!-- Confirm -->
 
 ## 從廣告範本建立動態廣告
+
+>[!NOTE]
+>
+>您也可以[將動態創意內容新增至創意資源庫](/help/creative/creative-libraries/creative-add-dynamic.md) （從創意資源庫）。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
 

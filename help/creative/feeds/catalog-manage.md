@@ -2,9 +2,9 @@
 title: 管理摘要目錄
 description: 瞭解如何管理摘要目錄。
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 您必須先處理目錄，才能使用廣告變化來[將動態廣告新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)。
 
 ## 建立目錄 {#feed-catalog-create}
+
+>[!NOTE]
+>
+>當您[新增動態創意內容至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)時，您也可以直接上傳目錄。 您在此處建立的任何目錄都可在[!UICONTROL Catalogs]檢視中使用，以供日後使用。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Feeds]**。
 

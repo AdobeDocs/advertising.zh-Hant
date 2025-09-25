@@ -2,16 +2,42 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
 # 動態廣告的工作流程
 
-1. 根據可用的資產[為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本
+您可以透過下列兩種方式之一設定動態廣告：
+
+* 工作流程1：將動態廣告新增至創意程式庫時，請直接在動態廣告設定中上傳廣告範本和廣告變數目錄。 您可以下載現有的摘要範本以建立目錄。
+
+  當同一人可以提供所有資訊（摘要範本除外）來建立廣告時，請使用此工作流程。 上傳的檔案仍可供日後使用。
+
+* 工作流程2：在個別檢視中設定廣告範本和廣告變化目錄，然後使用已可取得的廣告範本和目錄，個別將動態廣告新增至創意內容。
+
+  當不同的人員將完成不同的任務或您一次只想完成一個任務時，請使用此工作流程。
+
+## 工作流程1
+
+1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請上傳廣告範本和目錄。
+
+1. 針對廣告體驗使用動態創意內容：
+
+   1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
+
+   1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
+
+   1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
+
+      若要在Adobe Advertising DSP中將廣告體驗作為廣告使用，請將廣告體驗標籤上傳至Advertising DSP行銷活動。 若要在其他DSP中將廣告體驗作為廣告使用，請在該DSP中實作廣告體驗標籤。
+
+## 工作流程2
+
+1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。
 
 1. 設定廣告元素：
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請使用指定的廣告範本和指定的目錄。
 
-1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
+1. 針對廣告體驗使用動態創意內容：
 
-1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
+   1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
 
-1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
+   1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
-   若要在Adobe Advertising DSP中將廣告體驗作為廣告使用，請將廣告體驗標籤上傳至Advertising DSP行銷活動。 若要在其他DSP中將廣告體驗作為廣告使用，請在該DSP中實作廣告體驗標籤。
+   1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
+
+      若要在Adobe Advertising DSP中將廣告體驗作為廣告使用，請將廣告體驗標籤上傳至Advertising DSP行銷活動。 若要在其他DSP中將廣告體驗作為廣告使用，請在該DSP中實作廣告體驗標籤。

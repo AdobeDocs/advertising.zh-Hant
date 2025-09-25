@@ -3,7 +3,7 @@ role: User
 user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative指南
-source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -89,4 +89,4 @@ ht-degree: 0%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
