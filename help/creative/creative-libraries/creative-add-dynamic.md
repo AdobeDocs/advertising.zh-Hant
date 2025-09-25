@@ -2,9 +2,9 @@
 title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ ht-degree: 0%
 
    1. 將指定廣告範本中的每個屬性（動態廣告欄位）對應到指定摘要檔案（目錄標籤）中的欄。
 
-   1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以預覽要產生的創意。
+   1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以預覽要產生的創意。 您可以在預覽中執行下列任一項作業：
 
-      若要預覽特定創意，請選取該列的核取方塊。 視需要依目錄、篩選值<!-- explain more-->和廣告大小篩選創意內容。
+      * 若要依目錄、篩選值<!-- explain more-->和廣告大小來篩選創意內容，請使用預覽區域上方的篩選條件。
+
+      * 若要在預覽區域下方的搜尋欄位中依產品的唯一ID搜尋產品。
+
+      * 若要變更顯示的欄，請按一下預覽區域下方的![欄篩選器](/help/creative/assets/custom-columns. "欄篩選器")。
+
+      * 若要預覽特定創意，請選取該列的核取方塊。
+
+      * 變更內容：
+
+         * 若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
+
+         * 若要將單一產品標示為預設<!--Explain what this means. -->，請將游標停留在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
+
+         * （當廣告包含多個選件時）若要將多個產品標示為預設值，請選取列（最多包含選件數）並按一下大量動作工具列中的&#x200B;**[!UICONTROL Set as Default]**。
+
+      * 若要從目錄刪除產品，請將游標放在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete Row]**。
+
+      * （當廣告包含多個優惠方案時）若要從目錄中刪除多個產品，請選取列（最多包含優惠方案數量）並按一下大量動作工具列中的&#x200B;**[!UICONTROL Delete Row]**。
 
 1. 儲存創意：
 
