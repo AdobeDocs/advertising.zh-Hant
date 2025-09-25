@@ -2,9 +2,9 @@
 title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
      對於您要上傳的影像，請使用格式`images/image_name` （例如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->參考影像
 
-   * JPEG、JPG或PNG格式的相關影像資產。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 靜態HTML5廣告：
 
-   * JPG、JPEG或PNG格式中每個廣告一個影像資產。
+   * GIF、JPG、JPEG或PNG格式中每個廣告一個影像資產。
 
      您可以在ZIP檔案中上傳單一影像或多個影像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

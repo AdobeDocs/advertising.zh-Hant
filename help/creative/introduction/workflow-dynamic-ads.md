@@ -2,14 +2,16 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # 動態廣告的工作流程
+
+*具有建立動態廣告許可權的使用者*
 
 您可以透過下列兩種方式之一設定動態廣告：
 
@@ -22,6 +24,11 @@ ht-degree: 0%
   當不同的人員將完成不同的任務或您一次只想完成一個任務時，請使用此工作流程。
 
 ## 工作流程1
+
+>[!PREREQUISITES]
+>
+>* HTML5格式的廣告範本
+>* CSV、TSV或Microsoft Excel試算表(XLSX)格式的產品目錄
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請上傳廣告範本和目錄。
 
