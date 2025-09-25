@@ -2,9 +2,9 @@
 title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,21 @@ ht-degree: 0%
 
 ## 使用動態HTML5廣告範本新增動態創意內容
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 執行下列任一項作業：
 
-1. 按一下程式庫名稱。
+   * 從創意內容庫：
 
-1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
+      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+      1. 按一下程式庫名稱。
+
+      1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
+
+   * 從廣告範本：
+
+      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
+
+      1. 將游標停留在廣告範本列上，然後按一下&#x200B;**[!UICONTROL Create Dynamic Ad]**。
 
 1. 指定[動態廣告設定](/help/creative/creative-libraries/creative-settings-dynamic.md)：
 
