@@ -2,9 +2,9 @@
 title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 0%
 
 * 動態HTML5廣告：
 
-   * Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變化有一個標題列和一個資料列。 在每一列中包含影像名稱或Adobe Experience Manager參考。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 在每一列中包含影像名稱或Adobe Experience Manager參考。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      對於您要上傳的影像，請使用格式`images/image_name` （例如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->參考影像
 
    * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
-  您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * （選用） MP4或WEBM格式的視訊資產
+
+  您可以上傳單一XLSX檔案、單一影像或視訊檔案，或包含任何XLSX、影像和視訊檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 靜態HTML5廣告：
 
