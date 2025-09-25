@@ -2,9 +2,9 @@
 title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]：**
 
-將指定廣告範本中的每個屬性（動態廣告欄位）對應到指定目錄（目錄標籤）中的欄。
+將指定廣告範本中的每個屬性（動態廣告欄位）對應到指定目錄（目錄標籤）中的欄，或輸入靜態值。
 
 >[!MORELIKETHIS]
 >

@@ -2,9 +2,9 @@
 title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    1. 選取用於建立廣告的目錄列條件。
 
-   1. 將指定廣告範本中的每個屬性（動態廣告欄位）對應到指定摘要檔案（目錄標籤）中的欄。
+   1. 將指定廣告範本中的每個屬性（動態廣告欄位）對應到指定摘要檔案（目錄標籤）中的欄，或輸入靜態值。
 
    1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以預覽要產生的創意。 您可以在預覽中執行下列任一項作業：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
       * 若要在預覽區域下方的搜尋欄位中依產品的唯一ID搜尋產品。
 
-      * 若要變更顯示的欄，請按一下預覽區域下方的![欄篩選器](/help/creative/assets/custom-columns. "欄篩選器")。
+      * 若要變更顯示的欄，請按一下預覽區域下方的![欄篩選器](/help/creative/assets/custom-columns.png "欄篩選器")。
 
       * 若要預覽特定創意，請選取該列的核取方塊。
 
