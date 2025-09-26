@@ -2,9 +2,9 @@
 title: 管理摘要目錄
 description: 瞭解如何管理摘要目錄。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 已處理的摘要目錄是從指定的摘要檔案和指定的摘要範本建立的潛在廣告變化集。 動態HTML5廣告(但不是靜態HTML5廣告)需要目錄才能建立動態廣告。
 
-您必須先處理目錄，才能使用廣告變化來[將動態廣告新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)。
+在您建立廣告變化並[將動態廣告新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)之前，請先處理目錄。 您稍後可以更新摘要檔案並重新處理目錄，以建立一組新的廣告變化。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## 建立目錄 {#feed-catalog-create}
 
