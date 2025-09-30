@@ -2,9 +2,9 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    * (適用於動態HTML5廣告)建立廣告元素的目錄：
 
-      1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中加入影像名稱或Adobe Experience Manager參考。 單獨收集關聯的影像資產。
+      1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中包含影像名稱。 單獨收集關聯的影像資產。
 
       1. [上傳摘要檔案和影像資產](/help/creative/feeds/asset-manage.md)。
 

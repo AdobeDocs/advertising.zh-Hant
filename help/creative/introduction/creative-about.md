@@ -3,9 +3,9 @@ title: 關於Adobe Advertising Creative
 description: 瞭解 [!DNL Creative]。
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising Creative是Adobe Advertising的一部分，它是一個自助服務�
 
 ### [!DNL Adobe]資產整合
 
-[!DNL Creative]直接與Adobe Experience Manager整合，可讓您輕鬆上傳設計團隊建立和核准的[!DNL Adobe]影像資產，然後用於即時指令碼和編輯廣告體驗。
+[!DNL Creative]直接與Adobe Experience Manager整合，可讓您輕鬆上傳設計團隊建立並核准用於標準影像廣告的[!DNL Adobe]影像資產。
 
 ## 規則型和非目標型體驗
 
