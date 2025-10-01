@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,4 +11,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[將行銷活動新增至產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)並啟用產品組合選項至「[!UICONTROL Auto-adjust campaign budget limits]」，讓Search、Social和Commerce自動調整預算以最佳化整個產品組合的支出。
+>[將行銷活動新增至產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)並啟用產品組合選項至「[!UICONTROL Auto adjust campaign budget limits]」，讓Search、Social和Commerce自動調整預算以最佳化整個產品組合的支出。
