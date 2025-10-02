@@ -2,9 +2,9 @@
 title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 上傳的目錄必須採用ZIP格式並包含以下專案：
 
-* 一或多個CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案。<!-- Need to add more specs for that -->
+* 一或多個CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案。 檔案大小上限為512 MB。<!-- Need to add more specs for the feed files -->
 
 * GIF、JPEG、JPG或PNG格式的影像資產
-
-* （選用） MP4或WEBM格式的視訊資產
 
 ### [!UICONTROL Attributes Mapping]
 
