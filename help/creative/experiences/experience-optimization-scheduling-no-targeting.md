@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
-1. 選取創意旋轉型別：
+1. 選取關聯套件組合中廣告變體的創意輪換型別：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
+   * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的目標，更頻繁地顯示最有效的廣告變體。
 
-      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。
 
-   * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並指定各組合順序的曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以針對三(3)次曝光在組合1中顯示任何創意，然後針對一(1)次曝光在組合2中顯示任何創意，接著針對兩(2)次曝光在組合3中顯示任何創意，然後再次開始回圈。 或者，一旦「束3」中的創意顯示出來，您就可以繼續無限期地在「束3」中顯示這些創意，而不是建立一個回圈。 啟用排序時：
+   * *[!UICONTROL Sequencing]：*&#x200B;以指定順序顯示關聯的創意組合（先提供組合1，再提供組合2，依此類推），以及每個組合順序中的指定曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以在組合1中顯示三(3)次曝光的任何廣告變體，然後在組合2中顯示一(1)次曝光的任何廣告變體，然後在組合3中顯示兩(2)次曝光的任何廣告變體，然後重新開始回圈。 或者，一旦顯示組合3中的廣告變體，您就可以繼續無限期地顯示組合3中的廣告變體，而不是建立回圈。 啟用排序時：
 
       1. 將指派的組合拖放至所需的順序。
 
