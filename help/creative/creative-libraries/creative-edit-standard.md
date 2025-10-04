@@ -3,9 +3,9 @@ title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (僅限彈性HTML5創意)您只能編輯單一創作的屬性。<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (僅限彈性的HTML5創意)您只能編輯單一創作的屬性。
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (彈性的HTML5創意；選擇性)完成變更後，按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")以預覽新創意。
 
 1. 按一下&#x200B;**儲存**。
 

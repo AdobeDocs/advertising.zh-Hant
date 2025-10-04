@@ -3,9 +3,9 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 0%
 
    * 若要移除檔案，請取消選取檔案旁邊的核取方塊。
 
+1. （選擇性）若要預覽創意，請按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")。
+
 1. 指定[彈性的HTML5廣告設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)。
 
    依預設，會選取您剛上傳的所有創意內容。 任何只有一個值的設定皆適用於所有選取的創意；對於某些設定，您可以指定個別值。 若要輸入特定創意的設定，請取消選取每個不適用創意旁的核取方塊。
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 ### 使用範本新增彈性創意 {#flexible-creative-use-template}
 
-您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意] (flexible-creative-upload)。>
+您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. （選擇性）若要預覽範本，請按一下範本名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
-   您可以選擇下載範本
+   您可以選擇下載範本：按一下範本名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Download]**。
 
 1. 在範本名稱旁，按一下&#x200B;**[!UICONTROL ...]**，然後按&#x200B;**[!UICONTROL Use Selected]**。
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    壓縮後，創意的檔案大小上限為2 MB。<!-- Still true? -->
 
+1. 新增或移除您自己的彈性創意檔案：
+
+   * 若要從您的裝置或網路新增檔案，請按一下左上方的![[新增]](/help/creative/assets/create.png "[新增]")，然後找到檔案。 選取創意內容旁的核取方塊，並取消選取其他創意內容旁的核取方塊，然後編輯[彈性HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)，以指定語言並包含您自己的點按標籤、影像和其他屬性。
+
+   * 若要移除檔案，請取消選取檔案旁邊的核取方塊。
+
+1. （選擇性）若要預覽創意，請按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")。
+
 1. 按一下&#x200B;**[!UICONTROL Create]**。
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## 將HTML5創意內容新增至創意內容庫
 
