@@ -2,16 +2,16 @@
 title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # 管理資產檔案
 
-動態HTML5廣告需要Microsoft Excel試算表(XLSX)格式的摘要檔案，以及在試算表中參照的影像資產(Adobe Experience Manager資產參照除外)。 靜態HTML5廣告的每個廣告只需要一個影像資產。
+動態HTML5廣告需要Microsoft Excel試算表(XLSX)格式的摘要檔案，以及在試算表中參照的影像資產。 靜態HTML5廣告的每個廣告只需要一個影像資產。
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ ht-degree: 0%
 
    * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- Is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
-   * （選用） MP4或WEBM格式的視訊資產
-
-  您可以上傳單一XLSX檔案、單一影像或視訊檔案，或包含任何XLSX、影像和視訊檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 靜態HTML5廣告：
 

@@ -3,9 +3,9 @@ title: 關於Adobe Advertising Creative
 description: 瞭解 [!DNL Creative]。
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
+source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Advertising Creative是Adobe Advertising的一部分，它是一個自助服務�
 
 ### 體驗作為廣告的實作
 
-建立體驗後，您可以產生體驗的JavaScript或iframe標籤，並在Advertising DSP促銷活動或任何其他DSP中將標籤實作為協力廠商標準顯示廣告。<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
+建立體驗後，您可以產生體驗的JavaScript或iframe標籤，並在Advertising DSP促銷活動或任何其他DSP中將標籤實作為協力廠商廣告。
 
 ### 廣告元素的最佳化
 
