@@ -2,9 +2,9 @@
 title: 管理摘要範本
 description: 瞭解如何管理摘要範本。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping]設定
 
-將摘要檔案中的每個欄位對應至Advertising Creative後端上的欄位。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->至少一個摘要檔案欄位必須標示為&quot;[!UICONTROL Is Unique]&quot;。 若要新增欄位對應，請按一下&#x200B;**[!UICONTROL +]**。 若要移除最後一個欄位對應，請按一下&#x200B;**[!UICONTROL +]**。
+將摘要檔案中的每個欄位對應至Advertising Creative後端上的欄位。 如需後端欄位及其必要屬性的清單，請參閱[動態廣告摘要檔案的可用欄位](/help/creative/appendix-available-feed-fields.md)。<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+至少一個摘要檔案欄位必須標示為&quot;[!UICONTROL Is Unique]&quot;。 若要新增欄位對應，請按一下&#x200B;**[!UICONTROL +]**。 若要移除最後一個欄位對應，請按一下&#x200B;**[!UICONTROL +]**。
 
 **[!UICONTROL Field Name]：**&#x200B;摘要檔案中的欄位。
 
@@ -97,7 +99,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]：**&#x200B;指出欄位是唯一ID （索引鍵）。 每個摘要範本至少必須有一個欄位是唯一的。 若要選取此選項，請按一下按鈕將其向右移動。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]：** Advertising Creative後端對應至摘要檔案中所指定[!UICONTROL Field Name]的欄位。
+**[!UICONTROL Backend Field]：** Advertising Creative後端[上對應到摘要檔案中所指定](/help/creative/appendix-available-feed-fields.md)的[!UICONTROL Field Name]欄位。
 
 >[!MORELIKETHIS]
 >

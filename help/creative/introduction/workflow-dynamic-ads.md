@@ -2,9 +2,9 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 工作流程2
 
-1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。
+1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。 廣告範本包含具有所需廣告格式的HTML5檔案，以及具有廣告屬性的檔案(僅限動態HTML5廣告)。
 
 1. 設定廣告元素：
 

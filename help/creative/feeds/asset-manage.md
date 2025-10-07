@@ -2,9 +2,9 @@
 title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 * 動態HTML5廣告：
 
-   * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 在每一列中包含影像名稱或Adobe Experience Manager參考。<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`images/image_name` （例如`images/300x250_acme_logo.png`）在每一列中包含影像名稱。
 
-     對於您要上傳的影像，請使用格式`images/image_name` （例如`images/300x250_acme_logo.png`.）<!-- Verify.  Also need to include the spec for how to reference images in AEM -->參考影像
+     廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
    * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- Is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
@@ -84,6 +84,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [動態廣告摘要檔案的可用欄位](/help/creative/appendix-available-feed-fields.md)
 >* [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [管理摘要範本](/help/creative/feeds/feed-template-manage.md)
 >* [管理目錄](/help/creative/feeds/catalog-manage.md)
