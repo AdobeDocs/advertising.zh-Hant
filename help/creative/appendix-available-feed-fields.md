@@ -1,8 +1,8 @@
 ---
 title: 動態廣告摘要檔案的可用欄位
 description: 瞭解您可以在用於建立動態廣告的摘要檔案中包含的欄位。
-feature: Creative Dynamic Ads
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+feature: Creative Dynamic Creatives
+source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
