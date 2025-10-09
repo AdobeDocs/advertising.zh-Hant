@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
+source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG支援 | 全域 | 美元、歐元、英鎊 | 音訊桌上型電腦與行動裝置 |
 | [!DNL Cadent] | [!DNL Cadent] （先前為[!DNL EMX Digital]） | Adobe Advertising | — | US/CA | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul]或Adobe Advertising | — | 美國+ EMEA | USD， EUR | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
+| [!DNL Equativ] | [!DNL Equativ] （先前為[!DNL Smart AdServer]） | [!DNL TubeMogul]或Adobe Advertising | — | EMEA | USD， EUR | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦和行動裝置 |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul]或Adobe Advertising | PG支援 | 全域 | 美元、歐元、澳元、英鎊 | 視訊案頭、行動裝置和CTV |
 | [!DNL Google Authorized Buyers] （先前為[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC和EU - 89185975 | PG支援 | 全域 | 美元，巴西雷亞爾 | 音訊桌上型電腦和行動裝置<br><br>顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和電視 |
 | [!DNL GumGum] |  | Adobe Advertising | — | 全域 | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦和行動裝置 |
