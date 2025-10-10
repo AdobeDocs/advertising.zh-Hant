@@ -3,9 +3,9 @@ title: 決策樹配置
 description: 瞭解使用目標定位的體驗的決策樹配置。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 辭彙
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 將創意套件組合指派至體驗中的每個最終目標節點。
 
-在具有創意套裝的每個節點中，您可以選擇根據指定的權重或b)以演演算法旋轉包含的創意，以最佳化點進率或自訂目標。 您也可以選擇使用相同選項，依指定時間順序旋轉創意。
+在具有創意套裝的每個節點內，您可以選擇旋轉包含的創意內容，a)以演演算法最佳化點進率或自訂目標，b)根據指定的權重，或c)以特定順序旋轉。 您也可以選擇以指定的時間順序旋轉創意，或旋轉相同選項的任何組合。
 
 您可以視需要自訂個別創意內容的登陸頁面URL、曝光追蹤URL和點選追蹤URL。<!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
