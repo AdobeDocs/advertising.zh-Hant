@@ -3,9 +3,9 @@ title: 決策樹配置
 description: 瞭解使用目標定位的體驗的決策樹配置。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 辭彙
 
@@ -36,7 +36,9 @@ ht-degree: 0%
 
 ## 決策樹中的目標
 
-每個決策樹最多可以有五個層次的目標。 每個目標層級可包含多個分支，每個分支有一或多個具有相同目標型別的節點（受眾區段、地理位置型別、指定資料傳遞索引鍵的值、指定重新定位畫素的屬性或裝置類別）。 您可以在已為其指定預設影像創意或視訊創意的每個廣告大小中，將創意組合指派給最低層級的目標節點。
+每個決策樹最多可以有五個層次的目標。 體驗層級目標會與DSP的鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。 請確定您的廣告體驗包含與您將要實作它的行銷活動相容的目標定位。
+
+每個目標層級可包含多個分支，每個分支有一或多個具有相同目標型別的節點（受眾區段、地理位置型別、指定資料傳遞索引鍵的值、指定重新定位畫素的屬性或裝置類別）。 您可以在已為其指定預設影像創意或視訊創意的每個廣告大小中，將創意組合指派給最低層級的目標節點。
 
 ![含有目標的決策樹範例](/help/creative/assets/experience-decision-tree.png "含有目標的決策樹範例")
 
