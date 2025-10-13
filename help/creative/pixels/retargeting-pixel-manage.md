@@ -3,9 +3,9 @@ title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-您可以建立重新定位畫素，以識別使用使用者Cookie或通用ID進入廣告商登陸頁面或轉換頁面的訪客，並擷取頁面正在追蹤這些訪客的特定屬性。 此畫素會追蹤訪客在頁面上執行的最新事件。 建立畫素之後，即可產生畫素標籤，插入相關網頁，開始追蹤訪客。<!-- Note to self: surfer id=cookie or universal ID -->
+您可以建立重新定位畫素，以識別使用使用者Cookie或通用ID進入廣告商登陸頁面或轉換頁面的訪客。 畫素會追蹤訪客在頁面上執行的最新事件，並擷取頁面正在追蹤這些訪客的特定屬性。 建立畫素之後，產生畫素標籤以插入相關網頁，開始追蹤訪客。<!-- Note to self: surfer id=cookie or universal ID -->
 
-然後您可以使用畫素做為廣告體驗中任何創意的目標，以只向具有指定屬性的使用者顯示廣告，這些使用者先前造訪過與畫素關聯的網頁。 例如，如果網頁追蹤這些屬性值，您可以鎖定看過10號紅色鞋子的訪客。<!-- better example? Make sure they match attribute examples below -->
+然後您可以使用畫素做為廣告體驗中任何創意的目標，以只向具有指定屬性的使用者顯示廣告，這些使用者先前造訪過與畫素關聯的網頁。 例如，如果網頁追蹤這些屬性值，您可以鎖定看過10號紅色鞋子的訪客。<!-- better example? Make sure they match attribute examples below -->體驗層級目標會與您的DSP鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。
 
 重新目標定位設定檔會儲存180天。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]目前僅支援Advertising DSP的通用ID。 未來版本將支援協力廠商DSP的通用ID。<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative]僅支援Advertising DSP的通用ID。
 >* 您也可以使用來自Adobe Audience Manager和Adobe Analytics的第一方對象作為您體驗的[創意目標](/help/creative/experiences/experience-settings-targeting.md)。
->* 當您在Advertising DSP版位內使用體驗作為廣告時，可以將版位鎖定為您在DSP中可以使用的所有對象。 您也可以[建立自訂對象區段標籤](/help/dsp/audiences/custom-segment-create.md)以追蹤特定登陸頁面的所有訪客，然後將這些區段作為刊登的創意目標。
+>* 當您在Advertising DSP版位內使用體驗作為廣告時，可以將版位鎖定為您在DSP中可以使用的所有對象。 您也可以[建立自訂對象區段標籤](/help/dsp/audiences/custom-segment-create.md)以追蹤特定登陸頁面的所有訪客，然後將這些區段作為刊登的創意目標。 Advertising DSP會將廣告層級鎖定目標套用在（而非取代）位置層級鎖定目標之上。
 >* 已選擇退出追蹤以進行廣告定位的網站訪客，不會根據對象區段或重新定位設定檔收到內含個人化創意內容的廣告。
 
 ## 建立重新定位畫素
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 1. 在畫素標籤中，將「`<img src>`」替換為值，以指定`<script src>`和`Insert <attribute>`區段中每個屬性的值。 如果標籤擷取通用ID，請指定ID5合作夥伴ID。
 
-   如果您手動新增其他屬性，則必須包含URL編碼。
+   如果您手動新增其他屬性，請包含URL編碼。
 
-   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤會包含以下引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 若要鎖定選取大小為10的紅色涼鞋的使用者，例如，將影像標籤和指令碼標籤中的引數變更為`&ut1=sandals&ut2=red&ut3=10`，並在指令碼標籤中輸入您的ID5合作夥伴ID，例如`&id5pid=0123456789`。
+   例如，如果您包含屬性「category」、「color」和「size」並擷取ID5通用ID，則畫素標籤會包含以下引數： `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--`和`&id5pid=--Insert ID5_PARTNER_ID--`。 若要鎖定選取大小為10的紅色涼鞋的使用者，請將影像標籤和指令碼標籤中的引數變更為`&ut1=sandals&ut2=red&ut3=10`，並在指令碼標籤中輸入您的ID5合作夥伴ID，例如`&id5pid=0123456789`。
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

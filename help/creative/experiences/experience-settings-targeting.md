@@ -3,9 +3,9 @@ title: 目標體驗設定
 description: 請參閱目標廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 * 若要顯示或隱藏右邊的[創意內容]窗格，請按一下右邊窗格右上角的![顯示/隱藏](/help/creative/assets/hide-show-creatives.png "顯示/隱藏")。
 
 ## [!UICONTROL Targeting]節
+
+體驗層級目標會與DSP的鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。 例如，Adobe Advertising DSP會將廣告層級鎖定目標套用在（而非）位置層級鎖定目標之上。 請確定您的廣告體驗包含與您將要實作它的行銷活動相容的目標定位。
 
 **[!UICONTROL Targeting]：** （現有體驗為唯讀）使用決策樹和自動建立標籤來啟用創意目標定位。 儲存體驗後，便無法變更此設定。
 
