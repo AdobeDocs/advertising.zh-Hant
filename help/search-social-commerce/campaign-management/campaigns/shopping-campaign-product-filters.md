@@ -35,5 +35,5 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] 詳細目錄摘要的購物廣告範本設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] 詳細目錄摘要的購物廣告範本設定](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [ [!DNL Google Ads] 大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必要資料
->* [ [!DNL Microsoft Advertising] 大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必要資料
+>* [&#x200B; [!DNL Google Ads] 大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必要資料
+>* [&#x200B; [!DNL Microsoft Advertising] 大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)的必要資料

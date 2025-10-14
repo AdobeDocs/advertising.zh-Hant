@@ -261,7 +261,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]：**&#x200B;從資產群組建立的所有廣告的最終URL。<!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]：**&#x200B;廣告的最多15個影像，包括下列大小： 1)至少三個正方形影像、2)至少三個橫向影像，以及3)至少一個直向影像。 請參閱[[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上傳影像或從[!UICONTROL Asset Library]中選取影像 — 但無法在同一作業中同時選取兩者。
+**[!UICONTROL Images]：**&#x200B;廣告的最多15個影像，包括下列大小： 1)至少三個正方形影像、2)至少三個橫向影像，以及3)至少一個直向影像。 請參閱[[!DNL Google Ads] 影像規格](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上傳影像或從[!UICONTROL Asset Library]中選取影像 — 但無法在同一作業中同時選取兩者。
 
 * 若要上傳影像：
 
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 * 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
 
-**[!UICONTROL Logos]：**&#x200B;至少一個正方形(1:1)標誌和一個橫向(4:1)標誌。 每個大小最多可包含5個。 檢視[[!DNL Google Ads] 標誌規格](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上傳影像或從[!UICONTROL Asset Library]中選取影像 — 但無法在同一作業中同時選取兩者。
+**[!UICONTROL Logos]：**&#x200B;至少一個正方形(1:1)標誌和一個橫向(4:1)標誌。 每個大小最多可包含5個。 檢視[[!DNL Google Ads] 標誌規格](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)。 您可以上傳影像或從[!UICONTROL Asset Library]中選取影像 — 但無法在同一作業中同時選取兩者。
 
 * 若要上傳影像：
 

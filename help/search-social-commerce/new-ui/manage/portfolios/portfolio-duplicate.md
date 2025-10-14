@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [建立投資組合](portfolio-create.md)
->* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [關於投資組合](portfolio-about.md)

@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 在工具列中按一下狀態按鈕：
 
-   * 若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+   * 若要啟動列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate.png " [啟動] ")。
 
    * 若要暫停資料列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
 

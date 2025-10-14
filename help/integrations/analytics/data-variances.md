@@ -134,7 +134,7 @@ Adobe Advertising報表只會擷取透過Adobe Advertising販運的付費媒體(
 
 以下是建立[!DNL Paid Search Detection]規則集的介面：
 
-![ [!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)中付費搜尋偵測規則集的範例
+![&#x200B; [!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)中付費搜尋偵測規則集的範例
 
 產生的[!DNL Paid Search Detection]報告包括[!UICONTROL Paid Search Engine]、[!UICONTROL Paid Search Keywords]、[!UICONTROL Natural Search Engine]和[!UICONTROL Natural Search Keywords]報告。
 

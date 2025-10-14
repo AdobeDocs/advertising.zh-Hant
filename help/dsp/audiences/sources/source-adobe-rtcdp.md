@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP與[ [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) (屬於Adobe Experience Platform的一部分)的整合，將雜湊電子郵件地址轉換為通用識別碼以用於目標定位廣告。
+使用DSP與[&#x200B; [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) (屬於Adobe Experience Platform的一部分)的整合，將雜湊電子郵件地址轉換為通用識別碼以用於目標定位廣告。
 
 1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
 

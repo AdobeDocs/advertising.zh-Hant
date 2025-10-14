@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. （選擇性）輸入其他詳細資料：
 
-   * （如果&#x200B;**[!UICONTROL Additional Details]**&#x200B;已壓縮）按一下[開啟] ![ ](/help/search-social-commerce/assets/chevron-up.png " [開啟] ")以展開詳細資料。
+   * （如果&#x200B;**[!UICONTROL Additional Details]**&#x200B;已壓縮）按一下[開啟] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/chevron-up.png " [開啟] ")以展開詳細資料。
 
    * 輸入選用的&#x200B;**[!UICONTROL Job Name]**&#x200B;和/或選用的&#x200B;**[!UICONTROL Job Description]**。
 

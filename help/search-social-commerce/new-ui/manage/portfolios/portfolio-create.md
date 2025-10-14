@@ -35,9 +35,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [（新UI）使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
 >* [（新UI）重複投資組合](portfolio-duplicate.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [（新UI）關於投資組合](portfolio-about.md)

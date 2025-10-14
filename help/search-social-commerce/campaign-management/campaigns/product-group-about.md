@@ -52,7 +52,7 @@ ht-degree: 0%
 
 * （僅限[!DNL Microsoft Advertising]）將追蹤URL新增至[!DNL Microsoft Merchant Center]帳戶內的產品資料。 若要這麼做，請在產品摘要內名為[`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0)的自訂欄位中，加入追蹤URL以及適當的`link`或`mobile_link`欄位中的值。 使用此方法產生的URL不包含帳戶中指定的任何追蹤引數，或搜尋、Social和Commerce內的促銷活動設定。
 
-您可以在[ [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)中檢視產品群組的相關資料。
+您可以在[&#x200B; [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)中檢視產品群組的相關資料。
 
 >[!MORELIKETHIS]
 >

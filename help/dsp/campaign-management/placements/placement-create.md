@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. 縮小對象範圍。 這包括選取要定位在位置中的對象區段。
 
-         對於[!DNL Roku]個位置，您可以納入一或多個可與[ （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
+         對於[!DNL Roku]個位置，您可以納入一或多個可與[&#x200B; （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
 
          未附加至使用中、排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 

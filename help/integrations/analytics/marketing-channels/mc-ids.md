@@ -51,11 +51,11 @@ AMO ID中的動態值表示所追蹤的行銷管道：
 
 [!UICONTROL Paid Search]管道的[!DNL Marketing Channels]處理規則可能如下所示：
 
-![ [!UICONTROL Paid Search]規則的範例](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
+![&#x200B; [!UICONTROL Paid Search]規則的範例](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
 
 [!UICONTROL YouTube Video Ads]管道的[!DNL Marketing Channels]處理規則可能如下所示：
 
-![ [!UICONTROL YouTube Video Ads]規則的範例](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
+![&#x200B; [!UICONTROL YouTube Video Ads]規則的範例](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
 
 >[!IMPORTANT]
 >
@@ -93,6 +93,6 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 >
 >* [基礎（共 [!DNL Analytics Marketing Channels]](mc-overview.md)個）
 >* [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之間可能不同
->* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
 >* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
 >* [Adobe AdvertisingID已由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用

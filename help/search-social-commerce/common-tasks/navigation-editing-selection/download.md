@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 按一下工具列右側的![報告下載](/help/search-social-commerce/assets/download.png "報告下載")。
 
-1. 按一下[建立] ![ ](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
+1. 按一下[建立] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
 
 1. （選擇性）報告工作完成後，按一下![報告下載](/help/search-social-commerce/assets/download.png "報告下載")以檢視[!UICONTROL Available Reports]面板，然後下載或刪除報告：
 

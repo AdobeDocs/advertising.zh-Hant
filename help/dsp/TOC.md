@@ -113,7 +113,7 @@ ht-degree: 3%
    + [Campaign管理常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
    + [通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 + 最佳化 {#optimization}
-   + [ [!DNL DSP] 如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [&#x200B; [!DNL DSP] 如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)
    + [位置層級競標前篩選器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [自訂目標](/help/dsp/optimization/custom-goal.md)
