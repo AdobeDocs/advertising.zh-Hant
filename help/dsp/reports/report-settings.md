@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
   >
   >您也可以[隨時從](report-run-now.md)檢視[!UICONTROL Reports]執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期以09:00執行報表。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期(09:00)執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters]節
 
-**[!UICONTROL Filter by]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
+**[!UICONTROL Filter by]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Deal]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
 
 <!-- Add when available:
 *[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
-* *[!UICONTROL FTP SSL] (目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+* *[!UICONTROL FTP SSL](目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 

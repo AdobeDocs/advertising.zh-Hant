@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 顯示廣告之作業系統的廠商（例如[!UICONTROL Microsoft]或[!UICONTROL Apple]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 顯示廣告的作業系統版本（例如[!UICONTROL Windows 10]或[!UICONTROL iOS Mojave]） |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 顯示廣告的作業系統（例如[!UICONTROL Apple iOS]或[!UICONTROL Android]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | 透過外部供給合作夥伴指派給交易的唯一識別碼。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | 在DSP中輸入之使用者指派的交易名稱。 |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 提供存貨的供給端合作夥伴。 這通常是發佈者，但也可以是SSP。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | 在DSP中輸入之使用者指派的交易名稱。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | 交易為&#x200B;*[!UICONTROL Guaranteed]*&#x200B;或&#x200B;*[!UICONTROL Non-Guaranteed]*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | 詳細目錄的分類： *[!UICONTROL Private]、* *[!UICONTROL On Demand]、*&#x200B;或&#x200B;*[!UICONTROL Public]*。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | 透過外部供給合作夥伴指派給私人交易的唯一識別碼。 |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | 提供存貨的供給端合作夥伴。 這通常是發佈者，但也可以是SSP。 |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | 媒體歸因的供應方合作夥伴(SSP)。 |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | 裝置收到廣告的次數，根據唯一的Cookie或裝置ID而定。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | 報告資料所屬的城市。 |
