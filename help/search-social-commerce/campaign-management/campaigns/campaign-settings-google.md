@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]：*&#x200B;在搜尋網路上顯示廣告（包含[!DNL Google]個搜尋結果，並可選擇顯示搜尋夥伴網站），並可能顯示在顯示網路上的廣告。 無論行銷活動的競標策略為何，[!DNL Google Ads]在顯示網路上，都會使用自動競標選擇性地顯示您的廣告。 對於搜尋廣告，請指定每個廣告群組的關鍵字；對於顯示廣告，請指定位置，並選擇性地指定每個廣告群組的關鍵字。
 
-* *[!UICONTROL Shopping Network]：*&#x200B;顯示[!DNL Google]根據您在[!DNL Google Shopping]上的[!DNL Google Merchant Center]中的產品自動產生的產品廣告、[!DNL Google]搜尋結果旁的區域（與文字廣告分開），以及（選擇性）搜尋合作夥伴網站。 您可以為行銷活動中的每個廣告群組指定要廣告的產品群組。
+* *[!UICONTROL Shopping Network]：*&#x200B;顯示[!DNL Google]根據您在[!DNL Google Merchant Center]上的[!DNL Google Shopping]中的產品自動產生的產品廣告、[!DNL Google]搜尋結果旁的區域（與文字廣告分開），以及（選擇性）搜尋合作夥伴網站。 您可以為行銷活動中的每個廣告群組指定要廣告的產品群組。
 
 * *[!UICONTROL Display Network Only]：*&#x200B;在顯示網路上顯示廣告。 您必須為每個廣告群組指定位置，並可選擇指定關鍵字。
 
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）節目
-您在廣告網路的搜尋合作夥伴網路上的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
+**[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）在廣告網路的搜尋合作夥伴網路上顯示您的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
+
+**[!UICONTROL AI Max Enabled]：** （只針對搜尋網路的行銷活動；唯讀） [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL On]*&#x200B;或&#x200B;*[!UICONTROL Off]*。
+
+**[!UICONTROL AI Max Bundling]：** （僅針對搜尋網路的行銷活動；已啟用AI Max功能的行銷活動；唯讀）是否需要整合： *[!UICONTROL Not Required]*、*[!UICONTROL Required]*、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Unspecified]*。
 
 ## [!UICONTROL Budget Options]
 

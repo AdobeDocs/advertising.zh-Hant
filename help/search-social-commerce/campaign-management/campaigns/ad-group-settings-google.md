@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]廣告群組設定'
 description: 參考 [!DNL Google Ads] 廣告群組的設定。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 >* 當您依據關鍵字競標時，請在關鍵字層級建立追蹤範本。 同樣地，當您依版位競標時，請在版位層級建立追蹤範本。 針對所有其他維度，在廣告層級建立追蹤範本。
 >* 當您針對產品組合中的行銷活動依年齡、性別、興趣和清單或垂直方式競標時，最佳化功能不會將維度的競標最佳化。 此外，所有歸因都會套用至廣告群組。
 >* 搜尋網路上的廣告一律會使用關鍵字競標。
+
+**[!UICONTROL AI Max Search Term Matching]：** （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL Disabled]*&#x200B;或&#x200B;*[!UICONTROL Enabled]*。
 
 ## [!UICONTROL Budget Options]
 

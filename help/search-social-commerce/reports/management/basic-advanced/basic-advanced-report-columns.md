@@ -3,9 +3,9 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
+source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
 workflow-type: tm+mt
-source-wordcount: '3745'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,16 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 廣告的維度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]個回應式搜尋廣告）廣告的效果： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]行銷活動）目前的廣告群組層級行動競標調整，決定在行動裝置上顯示廣告時如何調整競標。 |
+| [!UICONTROL AI Max Bundling Required] | （僅以搜尋網路為目標的行銷活動；啟用AI Max功能的行銷活動；唯讀）是否需要整合： *[!UICONTROL NOT_REQUIRED]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Search Term Matching] | （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL true]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 廣告商名稱。 |
 | [!UICONTROL Advertiser ID] | 廣告商的搜尋、社交和Commerce帳戶的數值ID。 |
 | [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 關鍵字的基本URL，包括為促銷活動或帳戶設定的任何附加引數。 其中不包含任何搜尋、社交和Commerce重新導向與追蹤程式碼。 |
 | [!UICONTROL Bid Strategy] | （大多數廣告網路）對於行銷活動或行銷活動元件，這是行銷活動的競標策略。 對於連結至經理帳戶的廣告網路帳戶，這是跨帳戶競標策略。 可用的值會依廣告網路而異。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]個回應式廣告）企業名稱。 |
-| [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]個回應式與多媒體廣告）廣告中包含的行動號召。 |
+| [!UICONTROL Call to Action] | （[!DNL Microsoft Advertising]個回應式與多媒體廣告）廣告中包含的call to action。 |
 | [!UICONTROL Campaign] | 行銷活動。 |
 | [!UICONTROL Campaign Budget] | 行銷活動預算。 |
 | [!UICONTROL Campaign MBA] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]行銷活動）目前的行銷活動層級行動競標調整，決定在行動裝置上顯示廣告時如何調整競標。 |
@@ -54,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Type] | 行銷活動型別，例如<i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>、<i>[!UICONTROL Audience (Image)]</i>、<i>[!UICONTROL Audience (Video)]</i>、<i>[!UICONTROL Brand Shopping]</i>、<i>[!UICONTROL Demand Gen]</i>、<i>[!UICONTROL Search and Display]</i>、<i>[!UICONTROL Standard Display]</i>、<i>[!UICONTROL Standard Performance Max]</i>、<i>[!UICONTROL Standard Search]</i>、<i>[!UICONTROL Standard Shopping]</i>、<i>[!UICONTROL Store Ad]</i>、<i>[!UICONTROL Video]</i>或<i>[!UICONTROL Others]</i>。 |
 | [!UICONTROL Channel Type] | 行銷管道型別： <i>[!UICONTROL Search]</i>或<i>[!UICONTROL Content]</i>。 當報告設定中的報告[!UICONTROL Search/Content]設定為&quot;[!UICONTROL Combined]&quot;時，此欄不包括在內。 |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Transaction Report])產生點按的城市。 這是根據使用者的IP位址所決定。 |
-| [!UICONTROL Click Match Type] | 關鍵字元合所點選廣告的型別。 除了具有多個相符型別的[!DNL Microsoft Advertising]關鍵字外，這與[!UICONTROL Listing Match Type]相同。 對於[!DNL Microsoft Advertising]關鍵字，這是實際點按的相符型別。 |
+| [!UICONTROL Click Match Type] | 關鍵字元合所點選廣告的型別。 除了具有多個相符型別的[!UICONTROL Listing Match Type]關鍵字外，這與[!DNL Microsoft Advertising]相同。 對於[!DNL Microsoft Advertising]關鍵字，這是實際點按的相符型別。 |
 | [!UICONTROL Click Value] | ([!UICONTROL Portfolio Report])為投資組合目標指定的點按值。 |
 | [!UICONTROL Click/Impression Time] | ([!UICONTROL Transaction Report])造成轉換的點選或曝光發生的時間。 |
 | [!UICONTROL Clicks] | 指定日期範圍內的廣告點選次數。 |
@@ -77,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Base URL] | 廣告的基本URL，包括為促銷活動或帳戶設定的任何附加引數。 其中不包含任何搜尋、社交和Commerce重新導向與追蹤程式碼。 |
 | [!UICONTROL Creative Destination URL] | 廣告的最終URL或目的地URL （包括任何追蹤引數）。 |
 | [!UICONTROL Creative Name] | （僅限[!DNL Yahoo! Japan]）廣告影像名稱。 |
-| [!UICONTROL Creative Title]，[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 廣告的標題或標題。 不同的創意型別有不同數量的必要和選用標題行。 若要在[!DNL Microsoft Advertising]個回應式廣告或多媒體廣告中檢視[!UICONTROL Creative Title4]和更高的欄，請在報表設定中加入&quot;[!UICONTROL Creative Titles]&quot;欄。 |
+| [!UICONTROL Creative Title]，[!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 廣告的標題或標題。 不同的創意型別有不同數量的必要和選用標題行。 若要在[!UICONTROL Creative Title4]個回應式廣告或多媒體廣告中檢視[!DNL Microsoft Advertising]和更高的欄，請在報表設定中加入&quot;[!UICONTROL Creative Titles]&quot;欄。 |
 | [!UICONTROL Creative Titles] | （僅適用於多媒體和回應式搜尋廣告）為每個廣告的簡短標題新增一欄（&quot;[!UICONTROL Creative Title]&quot;到&quot;[!UICONTROL Creative Title15]&quot;）。 當您包含此欄時，您不需要包含其他[!UICONTROL Creative Title]欄，但是請編輯[!UICONTROL Order Results/Limit Rows By]區段來依[!UICONTROL Creative Titles]排序，而非[!UICONTROL Creative Title]。 |
 | [!UICONTROL Creative Type] | 廣告格式。 可能的值如下： <i>[!UICONTROL App Install Ad]</i>、<i>[!UICONTROL Call Only Ad]</i>、<i>[!UICONTROL Demand Gen Carousel Ad]</i> （多影像轉盤廣告）、<i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>、<i>[!UICONTROL Demand Gen Product Ad]</i>和<i>[!UICONTROL Demand Gen Video Ad]</i>、<i>[!UICONTROL Display Ad]</i>、<i>[!UICONTROL Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Dynamic Search Ad]</i>、<i>[!UICONTROL Expanded Text Ad]</i>、<i>[!UICONTROL Legacy Text Ad]</i>、<i>[!UICONTROL Multimedia Ad]</i>、<i>[!UICONTROL Product Ad]</i>、<i>[!UICONTROL Responsive Ad]</i>、<i>[!UICONTROL Responsive Search Ad]</i>或<i>[!UICONTROL Text Ad]</i>。 |
 | [!UICONTROL CTR] | 點進率，即點按次數除以所包含廣告的曝光次數。 |
@@ -86,7 +89,7 @@ ht-degree: 0%
 | [!UICONTROL Current First Page Bid] | （僅限[!DNL Google Ads]個行銷活動）當[!DNL Google]搜尋查詢符合關鍵字時，目前要放在搜尋結果第一頁上的廣告所需的預估每次點按成本(CPC)競標。<br><br>對於單一關鍵字和相符型別組合，此值是該組合目前所需的第一個頁面競標。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是目前所有執行個體中所需的最低第一頁競標。 |
 | [!UICONTROL Current Quality Score] | （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動）廣告網路所指定的關鍵字或競標單位的目前品質分數。 其範圍從1 （低）到10 （完美）。 對於單一關鍵字和相符型別組合，此值是該組合的目前分數。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是所有執行個體中目前的最大分數。<br><br>廣告網路會使用品質分數來決定出價與廣告位置。 它是根據許多因素計算的，包括關鍵字與其相關廣告、使用者的搜尋查詢及登入頁面品質的相關性。 對於[!DNL Google Ads]中的關鍵字，也會考量關鍵字的點進率，對於[!DNL Microsoft Advertising]中的關鍵字，也會考量登入頁面所提供的使用者體驗。 |
 | [!UICONTROL Custom Bid Level] | (只針對顯示網路的Google行銷活動)投出競價的層級為：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>。 |
-| [!UICONTROL Description1] - [!UICONTROL Description4] | 廣告內文。 不同的創意型別有不同數量的必要和選用說明行。 若要在[!DNL Microsoft Advertising]個回應式廣告或多媒體廣告中檢視[!UICONTROL Description3]和[!UICONTROL Description4]欄，請在報表設定中加入&quot;[!UICONTROL Descriptions]&quot;欄。 |
+| [!UICONTROL Description1] - [!UICONTROL Description4] | 廣告內文。 不同的創意型別有不同數量的必要和選用說明行。 若要在[!UICONTROL Description3]個回應式廣告或多媒體廣告中檢視[!UICONTROL Description4]和[!DNL Microsoft Advertising]欄，請在報表設定中加入&quot;[!UICONTROL Descriptions]&quot;欄。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]個回應式及多媒體廣告）為每個廣告的說明列（&quot;[!UICONTROL Description1]&quot;到&quot;[!UICONTROL Description4]&quot;）新增一欄。 包含此欄時，您不需要包含其他[!UICONTROL Description]欄。 |
 | [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]和[!DNL Yahoo Native]行銷活動）顯示廣告的裝置型別： <i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>或<i>[!UICONTROL N/A]</i> （無值）。 其他廣告網路的資料列值為N/A。<br><br>在搜尋行銷活動中，如果關鍵字、廣告和/或廣告擴充功能的追蹤範本或目的地URL包含引數，以便依裝置(`&ev_dvc={device}&ev_dvm={devicemodel}`)在廣告點按時追蹤資料，則每個裝置型別的資料列也會包含轉換資料。 否則，如果轉換資料無法歸因於裝置型別，則會將其彙總在具有「[!UICONTROL Device]」值[!UICONTROL N/A]的個別列中。 |
 | [!UICONTROL Display Path 1] | （僅限[!DNL Google Ads]個延伸文字廣告）廣告基底URL之後的第一個顯示路徑。 |
@@ -100,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising轉換追蹤服務的廣告商和具有權杖的&quot;[!UICONTROL EF Redirect]&quot;追蹤方法)點選或轉換的權杖。<ul><li>對於[!DNL Google Ads]個搜尋廣告，EF ID是`{gclid}:G:s`，其包含Google點按識別碼(GCLID)和網路型別（搜尋的網路&quot;）。</li><li> 對於[!DNL Microsoft Advertising]個搜尋廣告，EF ID是`{msclkid}:G:s`，其包含Microsoft點按識別碼(MSCLKID)和網路型別（搜尋的網路&quot;）。</li><li>若是其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點選時間和網路型別。</li><li>若是顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；僅供搜尋、社交和Commerce使用)地理位置的內部ID，用於標準化資料。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native] （已棄用），或<i>[!UICONTROL 106]</i>的[!DNL Pinterest] （已棄用）。 |
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Engagement Rate] | （影片廣告）參與次數除以廣告顯示次數。 |
 | [!UICONTROL Engagements] | （影片廣告）使用者觀看您的廣告至少10秒的次數，或如果廣告不到10秒則為完整廣告。 |
@@ -123,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類的值。 |
 | [!UICONTROL Language] | （顯示行銷活動）目標對象語言。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如&quot;pla：8525822&quot;。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl：請參閱目前的選件」。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如「pla:8525822」。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl:See目前的選件」。</li></ul> |
 | [!UICONTROL Listing Match Type] | 關鍵字元合廣告清單的型別、內容目標行銷活動中的廣告<i>[!UICONTROL Content]</i>或網站目標行銷活動中的版位<i>[!UICONTROL Sitecpc]</i>。 針對[!DNL Microsoft Advertising]關鍵字，這可能包含多個相符型別（例如&quot;[!UICONTROL Broad]，[!UICONTROL Exact]&quot;）。 |
 | [!UICONTROL Location] | （顯示行銷活動）目標對象位置。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （在[!DNL Microsoft Advertising]個回應式及多媒體廣告的已完成報表列中）廣告的長標題。 若要檢視這些欄，請在報表設定中加入&quot;[!UICONTROL Long Creative Titles]&quot;欄。 |
@@ -173,7 +176,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |
