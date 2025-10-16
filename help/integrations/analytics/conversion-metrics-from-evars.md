@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
 
-您可以使用成功事件量度，根據最符合您品牌目標的DSP網站資料來最佳化Adobe Analytics套件和搜尋、社交和Commerce行銷活動。 您可以將[[!DNL Analytics] [!DNL eVars]和](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)層級資料匯入事件，根據現有的[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=zh-Hant)和[!DNL eVar][!DNL prop]設定自訂成功事件量度。 其他[!DNL Analytics]個量度（包括標準、自訂和保留的轉換量度及流量量度）可自動在DSP和Search、Social及Commerce中使用。
+您可以使用成功事件量度，根據最符合您品牌目標的DSP網站資料來最佳化Adobe Analytics套件和搜尋、社交和Commerce行銷活動。 您可以將[[!DNL Analytics] [!DNL eVars]和](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)層級資料匯入事件，根據現有的[[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=zh-Hant)和[!DNL eVar]&#x200B;[!DNL prop]設定自訂成功事件量度。 其他[!DNL Analytics]個量度（包括標準、自訂和保留的轉換量度及流量量度）可自動在DSP和Search、Social及Commerce中使用。
 
 ![使用範例](/help/integrations/assets/a4adc-conversion-evar-example.jpg "使用範例")
 
