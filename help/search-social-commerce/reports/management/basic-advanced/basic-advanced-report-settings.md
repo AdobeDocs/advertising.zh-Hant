@@ -3,9 +3,9 @@ title: 基本和進階報表設定
 description: 瞭解基本和進階報告的必要和選用設定。
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3595b721b708a7e995a65cb12a809d2308eb0b80
+source-git-commit: eb4ecbbe80647e8e619c27c5cc1e466c7496db41
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 |  | [!UICONTROL Order Results/Limit Rows by] | 最多可依報表中包含的兩個欄來排序報表。 每種報表型別的預設值都不同。 若要自訂排序順序，請選取報表欄，然後選取<i>[!UICONTROL Ascending]</i> （顯示從A到Z或從1到100的結果）或<i>[!UICONTROL Descending]</i> （顯示從Z到A或從100到1的結果）。 指定至少一個要排序的資料行。 如果您依兩欄排序，則報表會先依指定的第一欄排序，然後再依指定的第二欄排序。 |
 |  | [!UICONTROL Include rows with no performance data] | （所有基本報表和[!UICONTROL Domain Referral Report]）包含指定日期沒有績效資料的列，為遺失的資料插入零(0)值。 依預設，此選項未選取，只有在資料（無論值為何）可用時才會顯示列。<br><br>選取此選項時，報表會包含不含行銷活動的廣告網路帳戶、不含有效關鍵字的行銷活動以及整個資料範圍內已停用、暫停和刪除之元件的效能資料。 此外：<ul><li>[!UICONTROL Keyword Report]包含所有關鍵字的列，無論關鍵字是否收到曝光數。</li><li>[!UICONTROL Domain Referral Report]會顯示所有關鍵字/廣告的列，無論其是否收到點按。</li></ul><b>警告：</b>如果您選取此選項，並為許多沒有資料的子元件建立大型日期範圍的報告，則報告可能需要很長時間才能產生。 |
 |  | [!UICONTROL Share with others] | 可讓有權存取相同廣告商資料的其他使用者檢視產生的報告，以及（如果您將報告另存為範本）使用範本但不編輯或刪除它。 依預設，不會選取此選項。 <b>注意：</b>無論此設定為何，您的報表和範本一律對更高層（管理員）角色的所有使用者以及任何指派的Adobe帳戶團隊成員可見。 |
+|  | [!UICONTROL Include modeled conversions] | （僅限[!UICONTROL Campaign Report]；選擇加入功能）在報表中包含模型化轉換的資料。 模型化的轉換使用資料導向的預估，來說明由於隱私許可權制、Cookie限制或跨裝置活動而無法直接觀察的轉換。 納入這些元素有助於填補測量差距，並提供更完整且準確的報表。<br><br>子選項「[!UICONTROL Discrete columns for modeled conversions]」在報告中的每個轉換欄之後新增一個標示為「\&lt;轉換名稱\> (MC)」的額外欄。 停用此選項時，模型化轉換會與測量的轉換群組在一欄中，例如「\&lt;轉換名稱\> (CT+VT+MC)」。 **注意：** [!UICONTROL Conversion Attribution]設定也會決定所報告的轉換型別以及轉換資料的顯示方式。 |
 | [!UICONTROL Classification] | \[分類\] | （[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Label Classification Report]）要納入報告的任何標籤分類，包括限制。 依預設，會包含所有分類和限制。 若要僅報告特定分類，請執行下列動作：<br><br><b>注意：</b>每個行銷活動元件，每個分類只能包含一個值。 例如，行銷活動可以有&quot;Color=Red&quot;，但不可有&quot;Color=Red and Color=Blue&quot;。<ul><li>請針對要新增的每個標籤分類和值，執行下列動作：</li><ul><li>按一下&#x200B;**[!UICONTROL Add Label Classification]**。</li><li>選取現有的標籤分類，然後選取現有值或輸入新值。<br><br>每個值的長度上限為100個字元，可以包含ASCII和非ASCII字元。</li></ul><li>若要變更現有的標籤分類值，請選取或輸入新值。<br><br>每個值的長度上限為100個字元，可以包含ASCII和非ASCII字元。</li><li>若要移除現有的標籤分類值，請按一下值旁的&#x200B;**[!UICONTROL X]**。</li></ul> |
 | [!UICONTROL Advanced Filters] | \[進階篩選器\] | 只有在量度的值符合指定條件時，才會傳回列；量度不需要納入報表當作欄。 可用量度的清單會依報告型別而異，但可能包括廣告商的自訂衍生量度、每個廣告網路和產品組合元件（例如[!UICONTROL Campaign ID]和[!UICONTROL Campaign Status]）的ID和屬性名稱、廣告商的轉換量度，以及廣告網路中與點選相關的量度。 可用的運運算元包括<i>[!UICONTROL contains]</i>、<i>[!UICONTROL starts with]</i>、<i>[!UICONTROL equals]</i>、<i>[!UICONTROL is greater than]</i>、<i>[!UICONTROL is greater than or equal to]</i>、<i>[!UICONTROL is less than]</i>、<i>[!UICONTROL is less than or equal to]</i>或<i>[!UICONTROL isn't equal to]</i>。<br><br>若要套用一或多個篩選器，請執行下列動作：<ul><li>選取量度和運運算元，然後輸入適用的值。 例如，若要只傳回點選超過100次的關鍵字，請選取[!UICONTROL Clicks]，再選取[!UICONTROL >]，然後在輸入欄位中輸入100。</li><li>（若要套用其他篩選器）對於每個其他篩選器，按一下&#x200B;**[!UICONTROL +Add Filter]**，選取&#x200B;**[!UICONTROL AND]**&#x200B;或&#x200B;**[!UICONTROL OR]**，選取量度和運運算元，然後輸入適用的值。</li></ul> |
 |  | [!UICONTROL Keyword Filters] | （[!UICONTROL Keyword Report]和所有[!UICONTROL Advanced Reports]）僅包含特定關鍵字的資料。 若要套用關鍵字篩選，請選取核取方塊，然後選取下列其中一個選項：<ul><li><i>[!UICONTROL Include keywords from comma-separated list]</i> （預設）：若要輸入最多100個關鍵字字串；查詢不區分大小寫。 以逗號分隔多個字串。</li><li><i>[!UICONTROL Include keywords from file]：</i>若要附加包含逗號分隔清單（最多100個關鍵字字串）的文字檔，查詢不區分大小寫。 輸入完整路徑和檔案名稱，或按一下&#x200B;**[!UICONTROL Browse]**&#x200B;在您的裝置或網路上尋找檔案，以指定檔案。</li></ul> |
