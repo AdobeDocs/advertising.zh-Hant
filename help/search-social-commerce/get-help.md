@@ -3,9 +3,9 @@ title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,14 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## 連絡人[!DNL Adobe]
 
-若為搜尋、社交和Commerce產品或帳戶問題，請執行下列其中一項操作：
+若為產品或帳戶問題，請執行下列動作：
 
-* 請聯絡您的Adobe客戶團隊。
+* （具有自助服務合約的廣告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開立票證。
 
-* 在頂端功能表中，按一下![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **[!UICONTROL Provide Feedback]**，輸入您的訊息，然後按一下&#x200B;**[!UICONTROL Send Feedback]**。
+  針對產品，選取&quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;。
 
-提供重現問題的詳細步驟、任何相關資料，以及有關您已執行之初步疑難排解的資訊。 如果您向Adobe帳戶團隊回報問題，請一併加入瀏覽器名稱和版本。
+* （具有完整服務合約的廣告商）請聯絡您的Adobe客戶團隊。
+
+在票證或通訊中，提供重現問題的詳細步驟、任何相關資料、瀏覽器名稱和版本，以及有關您已執行的初步疑難排解的資訊。
 
 若是報告問題，請勿刪除報告，並提供報告名稱和URL。
