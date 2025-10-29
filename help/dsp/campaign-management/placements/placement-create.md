@@ -3,9 +3,9 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 0%
 
       對於大多數版位型態，預設會包含所有存貨型態及每種型態的所有來源。 對於[!DNL Roku]個位置，您必須指定詳細目錄型別和來源。
 
-   1. （選擇性）在[!UICONTROL Site Targeting]區段中，縮小您要鎖定的網站，並指定要排除的任何網站。
+   1. （選用）在[!UICONTROL Site or app And Keyword Targeting]區段中，縮小您要鎖定和排除的網站和應用程式範圍。
 
    1. （選擇性）在[!UICONTROL Audience Targeting]區段中：
 
       1. 縮小對象範圍。 這包括選取要定位在位置中的對象區段。
 
-         對於[!DNL Roku]個位置，您可以納入一或多個可與[&#x200B; （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
+         對於[!DNL Roku]個位置，您可以納入一或多個可與[ （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
 
          未附加至使用中、排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
