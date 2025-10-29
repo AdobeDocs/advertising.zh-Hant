@@ -3,9 +3,9 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: f8f877552018de50649fbba22c56452775e72df3
 workflow-type: tm+mt
-source-wordcount: '4586'
+source-wordcount: '4436'
 ht-degree: 0%
 
 ---
@@ -230,11 +230,11 @@ ht-degree: 0%
 
 **[!UICONTROL Position targeting]：**&#x200B;依廣告位置的目標（但不排除）詳細目錄。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有位置。 若要縮小目標範圍，請選取特定目標位置和/或&#x200B;*未知*。
 
-## [!UICONTROL Site and App Targeting]
+## [!UICONTROL Site or App and Keyword Targeting]
 
 **[!UICONTROL Traffic type]：**&#x200B;目標流量的型別。 選項包括&#x200B;**[!UICONTROL Websites]**&#x200B;和&#x200B;**[!UICONTROL Apps]**。
 
-**[!UICONTROL Tier]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）目標流量的品質。 第1層至第3層均符合品牌安全規範，並獲得DSP對應團隊的核准。
+**[!UICONTROL Tier]：** （當&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;為&#x200B;*[!UICONTROL On]*&#x200B;時可用）目標流量的品質。 第1層至第3層均符合品牌安全規範，並獲得DSP對應團隊的核准。
 
 * *[!UICONTROL Tier 1]：*&#x200B;全國可辨識的高階網站和應用程式。
 
@@ -252,7 +252,7 @@ ht-degree: 0%
 >
 >針對效能行銷活動，最佳實務是選取&#x200B;*[!UICONTROL All Sites]*。
 
-**[!UICONTROL Site or App Categories]：** （選擇性；當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）所選網站層級中的網站類別要包含或排除（但不能同時包含和排除）為目標。 從DSP已根據主旨對應的垂直網站清單中選擇：
+**[!UICONTROL Site or App Categories]：** （選擇性）所選流量型別中的網站類別和（指定時）要包含或排除（但不是兩者）作為目標的網站階層。 從DSP已根據主旨對應的垂直網站清單中選擇：
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定要包含或排除的網站類別：
@@ -265,7 +265,7 @@ ht-degree: 0%
 1. （選擇性）若要將包含目標資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下&#x200B;**[!UICONTROL Export]**。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-**[!UICONTROL Exclude Sites or Apps]：** （選擇性；當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;為&#x200B;*[!UICONTROL Off]*&#x200B;時可用）要排除的網站/應用程式和[URL清單](/help/dsp/resources/lists-url-manage.md)。 從[!UICONTROL Paste URL]索引標籤中，您可以搜尋及選取網站，或輸入或貼上網域名稱。 您可以從[!UICONTROL URL Lists]標籤中選取URL清單。
+**[!UICONTROL Exclude Sites or Apps]：** （選擇性；當&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;為&#x200B;*[!UICONTROL On]*&#x200B;時可用）要排除的網站/應用程式和[URL清單](/help/dsp/resources/lists-url-manage.md)。 從[!UICONTROL Paste URL]索引標籤中，您可以搜尋及選取網站，或輸入或貼上網域名稱。 您可以從[!UICONTROL URL Lists]標籤中選取URL清單。
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 指定網站：
@@ -290,40 +290,23 @@ ht-degree: 0%
 >* 除了套用DSP [全域封鎖的網站清單](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，也會套用帳戶層級和廣告商層級的封鎖網站清單，此清單包含被視為不安全的廣告網站。
 >* 封鎖的網站清單一律會覆寫目標網站和網站清單。 如果位置同時排除並包含廣告的相同目標，則會排除目標。
 
+**[!UICONTROL Context of Sites or App]：** （選擇性）要鎖定或排除的內容相關目標區段。 從下列欄位選取
+
+* **[!UICONTROL Marketplace]**&#x200B;標籤：列出所有使用者可使用指定費用的[!DNL Peer39]個區段。
+
+* **[!UICONTROL Custom Segments]**&#x200B;標籤：列出您組織的[!DNL Peer39]自訂區段。
+
+* **[!UICONTROL Paste Segments]**&#x200B;標籤： (其組織具有[!DNL Comscore]夥伴關係的廣告商；從您的Adobe客戶團隊啟用後即可使用)輸入您組織[!DNL Comscore]內容區段的一或多個區段ID或區段名稱。 以逗號分隔多個值（例如Segment1、Segment2、Segment3）。
+
 **[!UICONTROL Language]：** （選擇性）目標單一語言。
 
-**[!UICONTROL Site or app list preview]：** （唯讀）所有針對此位置鎖定和封鎖的網站/應用程式，包括帳戶層級、廣告商層級和DSP全域封鎖的網站清單上的網站/應用程式。
+**[!UICONTROL Site or app list preview]：** （唯讀；當&#x200B;**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;為&#x200B;*[!UICONTROL On]*&#x200B;時可用）所有針對該位置鎖定和封鎖的網站/應用程式，包括帳戶層級、廣告商層級和DSP全域封鎖的網站清單上的網站/應用程式。
 
 您可以選擇將目標網站和封鎖網站的清單匯出為逗號分隔值(CSV)檔案。 若要匯出清單，請按一下&#x200B;**[!UICONTROL Export full site list]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
 
 **[!UICONTROL Allow unscreened sites]：** （僅限標準顯示位置）啟用未稽核網站上的廣告傳遞。 當此版位鎖定私人詳細目錄時，此選項可能會在封鎖的網站上傳送廣告。
 
-**[!UICONTROL Paste list of targeted sites]：**&#x200B;僅允許您鎖定特定網站。 啟用此選項時，其他網站鎖定目標選項會停用。
-
-**[!UICONTROL Sites or Apps]：** （當&#x200B;**[!UICONTROL Paste list of targeted sites]**&#x200B;是&#x200B;*[!UICONTROL On]*&#x200B;時可用）要定位的網站。 從[!UICONTROL Paste URL]索引標籤中，您可以搜尋及選取網站，或輸入或貼上網域名稱。 您可以從[!UICONTROL URL Lists]標籤中選取URL清單。
-
-1. 按一下![編輯](/help/dsp/assets/edit.png)。
-1. 指定網站：
-   * 從[!UICONTROL Paste URL]索引標籤：
-      * 若要搜尋網站：
-         1. 按一下&#x200B;**[!UICONTROL Search]**。
-         1. 輸入關鍵字、選取網站層，以及/或選取網站類別。
-         1. 在搜尋結果中，選取要包含的網站：
-            * 若要包含個別場地，請選取相鄰的核取方塊。
-            * （可用結果超過50個時）若要包含前50個結果，請按一下&#x200B;**[!UICONTROL Include these 50]**。 若要包含所有搜尋結果，請按一下&#x200B;**[!UICONTROL Include these \<*NN *\>]**。
-      * 若要輸入網域名稱，請執行下列動作：
-         1. 按一下&#x200B;**[!UICONTROL Paste]**。
-         1. 在不同行中輸入一或多個網域名稱。
-         1. 按一下&#x200B;**[!UICONTROL Include All]**。
-   * 從[!UICONTROL URL Lists]索引標籤：
-      1. （選擇性）在搜尋欄位中輸入全部或部分清單名稱，以搜尋URL清單。
-      1. 選取每個要包含的URL清單旁的核取方塊。
-1. 完成後，請按一下「**[!UICONTROL Done]**」。
-
->[!NOTE]
->
->* 除了套用DSP [全域封鎖的網站清單](/help/dsp/introduction/features/brand-safety-media-quality.md)之外，也會套用帳戶層級和廣告商層級的封鎖網站清單，此清單包含被視為不安全的廣告網站。
->* 封鎖的網站清單一律會覆寫目標網站和網站清單。 如果位置同時排除並包含廣告的相同目標，則會排除該目標。您可以搜尋並選取網站，或輸入或貼上網域名稱：
+**[!UICONTROL Toggle for Sites or Apps Tiering]：**&#x200B;可讓您指定要鎖定或排除的站台或應用程式層級。
 
 ## [!UICONTROL Audience Targeting]
 
@@ -374,7 +357,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
