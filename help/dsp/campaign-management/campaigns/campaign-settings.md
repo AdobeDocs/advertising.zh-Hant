@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]：**&#x200B;是否要管理行銷活動的利潤： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]* （預設值）。
+**[!UICONTROL Margin Management]：** （由代理商使用利潤提供的自助服務帳戶）利潤管理的選項：
 
-當您選擇&#x200B;*[!UICONTROL Yes]，*&#x200B;時，請指定利潤型別和金額：
+* **[!UICONTROL Would you like to manage margins for this campaign?]：**&#x200B;是否要管理行銷活動的利潤： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]* （預設值）。 當您選擇&#x200B;*[!UICONTROL Yes]時，*&#x200B;請指定其他設定。 一旦啟用利潤管理並儲存行銷活動，您就無法停用利潤管理。
 
-* **[!UICONTROL Margin Type]：**&#x200B;利潤型別。 一旦啟用利潤管理並儲存行銷活動，您就無法變更利潤型別。
+* **[!UICONTROL How would you like to compute agency fees?]：** （僅具有利潤管理的行銷活動）如何計算代理費用：
 
-   * *[!UICONTROL Fixed]：* （預設值）允許DSP根據[!UICONTROL Gross Budget]的固定利潤百分比自動計算並限制支出。
+   * *[!UICONTROL Margin % of Total Budget]：* （預設）以[!UICONTROL Gross Budget]的百分比計算費用。 指定[!UICONTROL Agency Fee Type] （固定或複合）以及[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Dynamic]：*&#x200B;可讓您針對行銷活動中的每個套件和位置指定個別的[!UICONTROL Budget Reserve %]和[!UICONTROL Gross Budget]，以管理至位置層級的邊界。 DSP會根據每個位置的財務效率進行最佳化，而不保證特定利潤。 對於由多個明細行料號所組成的插入訂單，請使用此選項，您已同意以固定費率傳送固定數量的單位或單位型態。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;將[!UICONTROL Gross Budget]的指定百分比新增至您的媒體成本、資料和其他成本，以及/或[!DNL Adobe]技術費用。 指定[!UICONTROL Markup %]並選取要套用標示的元件。
 
-* **[!UICONTROL Fixed Margin %]：** （僅具有固定邊界的行銷活動）每個插入訂單<!-- impression? -->的預設加成（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。
+* **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的行銷活動）代理費型別。
 
-* **[!UICONTROL Budget Reserve %]：** （只有固定邊界的行銷活動；選擇性）保留[!UICONTROL Gross Budget]的指定百分比作為保護。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。
+   * *[!UICONTROL Fixed]：* （預設值）允許DSP根據[!UICONTROL Gross Budget]的固定百分比自動計算並限制支出。 指定[!UICONTROL Margin %]。
+
+   * *[!UICONTROL Composite]：*&#x200B;允許DSP使用代理費與[!UICONTROL Gross Budget]技術費的複合百分比，根據[!DNL Adobe]的百分比自動計算並限制支出。 指定[!UICONTROL Composite Margin %]。
+
+* **[!UICONTROL Margin %]：** （使用[!UICONTROL Margin % of Total Budget]加上固定邊界的行銷活動）每個插入訂單<!-- impression? -->的預設加成（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。 邊界未套用至[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]。
+
+* **[!UICONTROL Composite Margin %]：** （使用[!UICONTROL Margin % of Total Budget]與複合利潤的行銷活動）代理費用與[!DNL Adobe]技術費用的總和（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。 邊界未套用至[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]。
+
+* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）要新增至指定成本元件的[!UICONTROL Gross Budget]百分比。
+
+* **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）套用[!UICONTROL Markup %]的成本元件。 選取所有適用的元件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。
 
 **[!UICONTROL Gross Budget]：** （僅具有利潤管理的行銷活動）套用指定邊際調整前的行銷活動預算總額。
-
-您可以選擇新增額外的每日、每週或每月毛額預算：
-
-1. 按一下&#x200B;**[!UICONTROL Add an additional Gross Budget]**。
-
-1. 輸入&#x200B;**[!UICONTROL Gross Budget]**&#x200B;並選取預算間隔： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]*。
-
-系統會根據利潤設定自動計算總淨預算（即促銷活動的支出上限），並顯示在此值下方。
 
 **[!UICONTROL Budget]：** （沒有利潤管理的行銷活動）整體行銷活動預算。
 
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 **[!UICONTROL Device Graph]：** （現有行銷活動的唯讀；僅具有以人物為基礎的跨裝置目標定位的行銷活動）用於跨裝置目標定位和頻率管理的裝置圖表：
 
-* *[!UICONTROL LiveRamp - U.S. only]：*&#x200B;對於使用[!DNL LiveRamp]裝置圖表所傳遞的曝光數（亦即目標受眾區段中找不到的裝置），跨裝置目標定位為$0.35 CPM的所有廣告商都可使用。 您可以在位置層級設定跨裝置目標定位。
+* *[!UICONTROL LiveRamp - U.S. only]：*&#x200B;針對使用[!DNL LiveRamp]裝置圖表傳送的曝光數（亦即目標受眾區段中找不到的裝置），適用於以$0.35 CPM為目標的跨裝置廣告商。 您可以在位置層級設定跨裝置目標定位。
 
   此選項也可供所有廣告商使用，且不需支付任何費用，以進行頻率管理和歸因測量。
 
@@ -130,9 +132,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]：**&#x200B;啟用位置層級[!UICONTROL Attention Score]量度的追蹤（各曝光的[!DNL Adelaide] &quot;[!DNL Attention Units]&quot;加權平均數）。 除了[!DNL Roku]個連線電視、僅限VPAID的影片前段和非播客的音訊之外，所有版位型別都能使用量度。 DSP會自動附加JavaScript標籤至所有相關的創意內容，[!DNL Adelaide]會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
+**[!UICONTROL Adelaide]：**&#x200B;啟用位置層級[!UICONTROL Attention Score]量度的追蹤（各曝光的[!DNL Adelaide] &quot;[!DNL Attention Units]&quot;加權平均數）。 除了[!DNL Roku]個連線電視、僅限VPAID的影片前段和非播客的音訊之外，所有版位型別都能使用量度。 DSP會自動將JavaScript標籤附加到所有關聯的創作者，[!DNL Adelaide]會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
 
-[!UICONTROL Attention Score]欄位可在報告的[!UICONTROL Metrics]區段中；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中；以及在[位置詳細資料檢視](/help/dsp/campaign-management/reports/placement-details-view.md)的[!UICONTROL Sites]、[!UICONTROL Ads]和[!UICONTROL Inventory]索引標籤中。
+[!UICONTROL Attention Score]欄位可在報告的[!UICONTROL Metrics]區段中；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中；以及在[!UICONTROL Sites]位置詳細資料檢視[!UICONTROL Ads]的[!UICONTROL Inventory]、[和](/help/dsp/campaign-management/reports/placement-details-view.md)索引標籤中。
 
 使用[!DNL Adelaide]區段進行測量，將會針對含有[!DNL Adelaide]測量標籤的廣告所傳遞的每個曝光產生CPM費用。 此費用與[位置層級關注目標定位](/help/dsp/campaign-management/placements/placement-settings.md)的費用不同。
 
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](campaign-about.md)
+>* [關於行銷活動管理](campaign-about.md)
 >* [建立行銷活動](campaign-create.md)
 >* [編輯行銷活動](campaign-edit.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)
