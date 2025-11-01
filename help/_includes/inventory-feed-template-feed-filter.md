@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 73c9cc7134360e073fc466dda3733cfc9bac8786
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -21,6 +21,6 @@ ht-degree: 0%
 
   可用的運運算元包括&#x200B;*[!UICONTROL contains]*、*[!UICONTROL does not contain]*、*[!UICONTROL =]*、*[!UICONTROL <>]* （不等於）、*[!UICONTROL in]*、*[!UICONTROL not in]*、*[!UICONTROL less than]*&#x200B;和&#x200B;*[!UICONTROL greater than]*。 當您選取運運算元&quot;[!UICONTROL in]&quot;時，可以輸入逗號分隔的值清單；如果記錄符合任何指定的值，則會傳播這些列的資料。 對於所有其他運運算元，僅輸入一個值。 值不區分大小寫。
 
-  例如，若您選取「product_type」欄，且只想傳回包含「鞋子」之產品名稱的列，則選取「**[!UICONTROL contains]**」並在輸入欄位中輸入`shoes`。
+  例如，如果您選取「product_type」欄，而只想傳回包含「鞋子」之產品名稱的列，則選取「**[!UICONTROL contains]**」並在輸入欄位中輸入`shoes`。
 
    1. （若要套用最多9個額外的篩選器）對於每個額外的篩選器，請按一下「**[!UICONTROL Add Condition]**」，然後指定每個步驟2的其他篩選器。
