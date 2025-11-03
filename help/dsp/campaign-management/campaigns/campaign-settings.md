@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
+source-git-commit: 9d26e097f007b570c0f0e3b7f02c683a84d5e647
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,35 @@ ht-degree: 0%
 
 * **[!UICONTROL Would you like to manage margins for this campaign?]：**&#x200B;是否要管理行銷活動的利潤： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]* （預設值）。 當您選擇&#x200B;*[!UICONTROL Yes]時，*&#x200B;請指定其他設定。 一旦啟用利潤管理並儲存行銷活動，您就無法停用利潤管理。
 
-* **[!UICONTROL How would you like to compute agency fees?]：** （僅具有利潤管理的行銷活動）如何計算代理費用：
+* **[!UICONTROL How would you like to compute agency fees?]：** （僅具有利潤管理的行銷活動）如何計算代理費，代理費是行銷活動毛預算中預扣且未納入淨支出的部分：
 
-   * *[!UICONTROL Margin % of Total Budget]：* （預設）以[!UICONTROL Gross Budget]的百分比計算費用。 指定[!UICONTROL Agency Fee Type] （固定或複合）以及[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
+   * *[!UICONTROL Margin % of Total Budget]：* （預設）以總支出百分比計算的費用。 指定[!UICONTROL Agency Fee Type] （固定或複合）以及[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;新增指定的百分比至您的媒體成本、資料和其他成本，以及/或[!DNL Adobe]技術費用。 指定[!UICONTROL Markup %]並選取要套用標示的元件。
+   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;計算費用為媒體成本、資料和其他成本的指定百分比，和/或[!DNL Adobe]技術費用。 指定[!UICONTROL Markup %]並選取要套用標示的元件。
 
 * **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的行銷活動）代理費型別。
 
-   * *[!UICONTROL Fixed]：* （預設值）允許DSP根據[!UICONTROL Gross Budget]的固定百分比自動計算並限制支出。 指定[!UICONTROL Margin %]。
+   * *[!UICONTROL Fixed]：* （預設值）允許DSP保留總支出的固定百分比作為代理費。 指定[!UICONTROL Margin %]。
 
-   * *[!UICONTROL Composite]：*&#x200B;允許DSP使用代理費與[!UICONTROL Gross Budget]技術費的複合百分比，根據[!DNL Adobe]的百分比自動計算並限制支出。 指定[!UICONTROL Composite Margin %]。
+   * *[!UICONTROL Composite]：*&#x200B;允許DSP保留總支出的百分比，以說明代理費和[!DNL Adobe]技術費。 指定[!UICONTROL Composite Margin %]。
 
-* **[!UICONTROL Margin %]：** （使用[!UICONTROL Margin % of Total Budget]加上固定邊界的行銷活動）每個插入訂單<!-- impression? -->的預設加成（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。 邊界未套用至[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]。
+* **[!UICONTROL Margin %]：** （使用[!UICONTROL Margin % of Total Budget]加上固定利潤的行銷活動）要扣留作為代理費用的總支出的百分比。 毛利值的任何變更只會套用至未來總支出，而不會套用至行銷活動的歷史總支出。 在套用毛利之前，[!UICONTROL Estimated Tax Withholding]值會從總支出中排除。 請參閱下列範例，這些範例假設行銷活動不會支出過少或超支。
 
-* **[!UICONTROL Composite Margin %]：** （使用[!UICONTROL Margin % of Total Budget]與複合利潤的行銷活動）代理費用與[!DNL Adobe]技術費用的總和（以百分比表示）。 此金額已從[!UICONTROL Gross Budget]中扣除，以定義淨行銷活動預算。 邊界未套用至[!UICONTROL Estimated Tax Withholding]上的[!UICONTROL Gross Budget]。
+   * 範例1：假設[!UICONTROL Gross Budget]是`100 USD`，而[!UICONTROL Margin %]在整個航班中是`5%`。 行銷活動結束後，代理費會計算為`5 USD` （即`5% of 100 USD`），而淨支出為`95 USD` （即`campaign budget [100 USD] - agency fees [5 USD]`）。
 
-* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）要新增到指定成本元件的百分比。
+   * 毛利變更的範例2：針對相同行銷活動，假設[!UICONTROL Margin %]在總支出為`5%`時從`10%`變更為`40 USD`。 在變更前的期間，代理費計算為`2 USD` （即`5% of 40 USD`）；在變更後的期間，代理費計算為`6 USD` （即`10% of 60 USD`）。 總代理費用計算為`8 USD` （即`2 USD + 6 USD`），而淨支出為`92 USD` （即`campaign budget [100 USD] - total agency fees [8 USD]`）。
 
-* **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）套用[!UICONTROL Markup %]的成本元件。 選取所有適用的元件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。
+   * 含代扣稅款的範例3：假設[!UICONTROL Gross Budget]為`100 USD`，促銷活動小眾測試專案結尾的[!UICONTROL Estimated Tax Withholding]為`10 USD`，且整個測試專案的[!UICONTROL Margin %]為`5%`。 行銷活動結束後，代理費會計算為`4.5 USD` （即`5% of (campaign budget [100 USD] - tax withholding [USD 10])`），而淨支出為`85.5 USD` （即`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）。
+
+* **[!UICONTROL Composite Margin %]：** （使用[!UICONTROL Margin % of Total Budget]與複合利潤的行銷活動）要扣留為[!DNL Adobe]技術費用和代理費的總支出的百分比。 代理費用的計算方式為從綜合利潤金額中扣除Adobe技術費用。 對複合毛利值所做的任何變更，只會套用至未來總支出，而不會套用至促銷活動的歷史總支出。 在套用複合利潤之前，[!UICONTROL Estimated Tax Withholding]值會從總支出中排除。
+
+  例如，假設[!UICONTROL Gross Budget]為`100 USD`，行銷活動航班結尾的[!DNL Adobe]技術費用為`10 USD`，而整個航班的[!UICONTROL Composite Margin %]為`17%`。 在行銷活動航班結束時（假設行銷活動沒有支出過少或超支），代理費計算為`7 USD` （即`(17% of 100 USD) - 10`），而淨支出為`93 USD` （即`campaign budget [100 USD] - agency fees [7 USD]`）。
+
+* **[!UICONTROL Markup %]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）要套用至指定成本元件的百分比，以計算代理費用。 對加成值所做的任何變更只會套用至未來成本，而不會套用至促銷活動的歷史成本。
+
+* **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）套用[!UICONTROL Markup %]的成本元件。 選取所有適用的元件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。 元件選取的任何變更只會套用至未來成本，而不會套用至行銷活動的歷史成本。
+
+  例如，「[!UICONTROL Markup %]」和「`10%`」的[!UICONTROL Media cost]為[!UICONTROL Data and Other costs]。 如果在行銷活動小眾測試版中的任何時間點，媒體成本為`20 USD`，資料和其他成本為`5 USD`，且[!DNL Adobe]技術費用為`2 USD`，則代理費計算為`2.50 USD` (即`10% of (20 USD + 5 USD)`，而總支出為`29.50 USD` （即`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）。
 
 **[!UICONTROL Gross Budget]：** （僅具有利潤管理的行銷活動）套用指定邊際調整前的行銷活動預算總額。
 
