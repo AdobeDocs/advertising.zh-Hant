@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
+source-git-commit: cf86f4b96ff41a9266614e8190120eaf375c8ece
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -143,40 +143,46 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 總支出。 |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 到達的不重複住戶總數（不同的IP位址）。 |
 | [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | 鎖定的ID型別。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在CPM上限出價的總出價百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 每次收購的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 每次廣告點按的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 每個廣告參與的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 每次廣告曝光的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 每個已完成視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 每1000次曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 每個視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 每1000個可檢視曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 每次廣告點按的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 每次廣告曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 每個已完成視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | 每個視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在CPM上限出價的總出價百分比。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSP為位置競標的不同使用者人數。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | 透過DSP計費的對象區段資料費用總淨成本。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | 透過DSP計費的可計費媒體總淨成本，包括技術費用。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | 透過DSP計費的其他服務費用（協力廠商驗證合作夥伴、廣告服務等）總成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Agency Fee] | 代理服務費。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Spend] | 透過DSP計費的對象區段資料費用總淨成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Spend] | 透過DSP計費的可計費媒體總淨成本，包括技術費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Spend] | 透過DSP計費的其他服務費用（協力廠商驗證合作夥伴、廣告服務等）總成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | 協力廠商對象區段和資料服務的預估稅捐。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | 預估的媒體稅金，包含套用至DSP中媒體成本再計費和技術費用服務的稅金。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | 透過DSP計費的其他服務費用（包括協力廠商驗證合作夥伴、主題鎖定目標等）估計稅金。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Gross Spend] | 總支出。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （啟用利潤管理時）利潤百分比，由<code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]計算</code>。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | 不收取任何技術費用的非收費與收費媒體成本總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | 未透過DSP計費的對象區段資料費用總淨成本。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | 非計費媒體的總淨成本，包括未透過DSP計費的技術費用。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Spend] | 未透過DSP計費的對象區段資料費用總淨成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Spend] | 非計費媒體的總淨成本，包括未透過DSP計費的技術費用。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | 未透過DSP計費的其他服務費用（協力廠商驗證合作夥伴、廣告服務等）總成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的總和。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 每1000次曝光的平均淨資料成本，計算方式為<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | 對象區段資料費用的總淨成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Spend] | 對象區段資料費用的總淨成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 每1000次曝光的平均淨媒體成本，計算方式為<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | 包括技術費用在內的媒體淨成本總計。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Spend] | 包括技術費用在內的媒體淨成本總計。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]和[!UICONTROL Net Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的總和。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 其他費用的每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>。 |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | 其他服務費用（協力廠商驗證合作夥伴、廣告服務等）的總淨成本。 |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | 其他服務費用（協力廠商驗證合作夥伴、廣告服務等）的總淨成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 觀看整個廣告的檢視百分比。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 觀看整個廣告的檢視次數。 |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 觀看整個廣告的可檢視曝光數百分比。 |
