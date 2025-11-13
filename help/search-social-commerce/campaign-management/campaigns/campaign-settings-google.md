@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
+source-git-commit: 4612b0022c6f4a2014409a546da07e4f5efe6e78
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ ht-degree: 0%
 <!-- **[!UICONTROL Budget]:** -->
 
 {{$include /help/_includes/budget.md}}
+
+**[!UICONTROL Google Recommended Budget]：** （選用；適用於具有所有必要設定且僅包含廣告群組的行銷活動）按一下「**[!UICONTROL Show Recommendation]**」以檢視[!DNL Google Ads]建議的預算。 對於複雜的行銷活動，建議最多可能需要40秒才能產生。
+
+若要達到最高成效並搜尋行銷活動，建議需要下列設定：
+
+* 競標策略型別
+* 最終URL
+* 資產群組
+
+對於搜尋行銷活動，建議還需要下列額外設定：
+
+* 競標策略目標
+* 國家/地區
+* 語言
+* 包含或排除的位置
+* 關鍵字
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
