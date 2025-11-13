@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])資產型別： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]個報表）實體對與不同實體相關聯的轉換所貢獻的次數。 |
 | [!UICONTROL Audience ID] | 數值的受眾ID。 |
-| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[！DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
+| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[!DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由於每日或每月預算太低，您在Microsoft對象網路上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由於廣告排名不佳，您在Microsoft Audience Network上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的預估曝光次數百分比除以您可能已收到的可用曝光總數。 |
