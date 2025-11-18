@@ -3,7 +3,7 @@ role: User
 user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative指南
-source-git-commit: d9b136b296834f3fb83bbd6b70a08dd14c442530
+source-git-commit: 0a0b09f91128ccc1e43163ddce843a309122c02c
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -87,9 +87,9 @@ ht-degree: 0%
 + 效能報表 {#reports}
    + [體驗層級效能報表](/help/creative/experiences/experience-performance-details.md)
    + [自訂報告]{#custom-reports}
-      + [關於自訂報表](/help/creative/report-about.md)
-      + [管理自訂報表](/help/creative/report-manage.md)
+      + [關於自訂報表](/help/creative/reports/reports-about.md)
+      + [管理自訂報表](/help/creative/reports/report-manage.md)
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
