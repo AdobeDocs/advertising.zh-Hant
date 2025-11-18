@@ -3,7 +3,7 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * 您可以從[檢視](experience-performance-details.md)檢視任何體驗[!UICONTROL Experiences]的詳細效能資料。
 
-* 若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/report-custom-creative.md)。
+* 若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/report-manage.md)。
 
 ## 體驗狀態 {#experience-statuses}
 
