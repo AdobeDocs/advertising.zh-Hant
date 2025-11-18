@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: 6e2df4268035b5461d54f1e19b4ec3526940e43b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年11月17日 | Advertising Creative的成本報表 | (僅使用Advertising Creative的廣告商；測試版功能)新的[!UICONTROL All-in Cost BETA]報表顯示多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。 | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和[可用的報告欄](/help/dsp/reports/report-columns.md)&quot;。 |
+| 2025年11月17日 | Advertising Creative的成本報表 | (僅使用Advertising Creative的廣告商；測試版功能)新的[!UICONTROL All-in Cost BETA]報表顯示多少支出歸因於Adobe Creative的廣告服務。 報表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。 |
 | 2025年9月24日 | 動態創意 | 現在，您可以使用透過廣告範本傳遞的廣告變數目錄資料，以更簡單的自助工作流程產生動態廣告。 | 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;。 |
 | 2025年9月3日 | [!DNL experiences]的Creative最佳化和排程 | 用於設定創意最佳化和排程的功能表選項或按鈕現在稱為&quot;[!UICONTROL Creative Optimization]&quot;，而不是&quot;[!UICONTROL Edit Schedules]&quot;或&quot;[!UICONTROL Add Schedules]&quot;。 | 請參閱&quot;[針對鎖定目標體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot;以及&quot;[針對未鎖定目標的體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;。 |
 |  | [!DNL experiences]的廣告輪換和排程 | 新的創意旋轉型別&quot;[!UICONTROL Sequencing]&quot;會依指定順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並擁有每個組合序列的指定曝光總數。 您可以將序列中的最後一個束配置為a\)無限顯示或b\)回圈到第一個束。 | 請參閱&quot;[針對鎖定目標體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot;以及&quot;[針對未鎖定目標的體驗自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;。 |
