@@ -3,9 +3,9 @@ title: 啟用上傳目標至廣告網路
 description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
+source-git-commit: 8b741fd9e5a2cb950bc7d8ba4f3307dab23e72fe
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 其中，`<network_ID>`是Search、Social和Commerce用於廣告網路的數值ID，`<objective_id>`是數值目標ID，而`<network_account_ID>`是廣告網路帳戶或管理員帳戶的數值ID。
 
-上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]的過程會在一天中進行，有時甚至會每小時進行。 對於擁有大型帳戶或自訂設定的廣告商，每天至少會進行三次上傳。
+上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]的過程會在一天中進行，通常每小時一次。 對於擁有大型帳戶或自訂設定的廣告商，每天至少會進行三次上傳。
 
 >[!IMPORTANT]
 >
