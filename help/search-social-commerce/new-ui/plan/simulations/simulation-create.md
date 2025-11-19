@@ -3,9 +3,10 @@ title: 執行或重新執行自訂模擬
 description: 瞭解如何執行或重新執行投資組合的自訂模擬。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -107,4 +108,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於模擬](simulation-about.md)
+>* [檢視模擬詳細資料](simulation-view.md)
 >* [下載模擬](simulation-download.md)
