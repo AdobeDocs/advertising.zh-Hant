@@ -3,9 +3,10 @@ title: 下載模擬
 description: 瞭解如何下載試算表檔案中的模擬。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以[自訂[!UICONTROL Simulations]檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含許多其他量度和大部分模擬設定的欄。 請參閱「[關於模擬](simulation-about.md#simulations-actions)」中的「可用動作」一節，以取得您可以包含之欄的詳細資訊。
+>* 您也可以在熒幕[上](simulation-view.md)檢視模擬結果。
+>* 您可以[自訂[!UICONTROL Simulations]檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含許多其他量度和大部分模擬設定的欄。 請參閱「[關於模擬](simulation-about.md#simulations-actions)」中的「可用動作」一節，以取得您可以包含之欄的詳細資訊。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
@@ -32,3 +34,4 @@ ht-degree: 0%
 >
 >* [關於模擬](simulation-about.md)
 >* [執行或重新執行模擬](simulation-create.md)
+>* [檢視模擬詳細資料](simulation-view.md)
