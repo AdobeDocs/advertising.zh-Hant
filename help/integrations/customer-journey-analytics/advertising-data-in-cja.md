@@ -2,7 +2,8 @@
 title: Customer Journey Analytics中的Adobe Advertising量度和維度
 description: 參考Customer Journey Analytics中可用的Adobe Advertising量度和維度。
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Anal
 
 | Adobe Advertising欄位名稱 | XDM欄位名稱 | XDM欄位顯示名稱 | Source |
 |------------------------------|----------------|------------------------|--------|
-| 索引鍵 | skwcid | ADOBE ADVERTISING ID |
-| 廣告平台 | adobe_advertising_ad_platform | Adobe Advertising廣告平台 |
-| 帳戶 | adobe_advertising_account | Adobe Advertising帳戶 |
-| Campaign | adobe_advertising_campaign | Adobe Advertising行銷活動 |
-| 廣告群組 | adobe_advertising_ad_group | Adobe Advertising廣告群組 |
-| 關鍵字 | adobe_advertising_keyword | Adobe Advertising關鍵字 |
-| 廣告 | adobe_advertising_ad | Adobe Advertising廣告 |
-| 產品建議放置環境 | adobe_advertising_placement | Adobe Advertising位置 |
-| 比對型別 | adobe_advertising_match_type | Adobe Advertising相符型別 |
-| 廣告標題 | adobe_advertising_ad_title | Adobe Advertising廣告標題 |
-| 廣告說明 | adobe_advertising_ad_description | Adobe Advertising廣告說明 |
-| 廣告目的地URL | adobe_advertising_ad_destination_url | Adobe Advertising廣告目的地URL |
-| 廣告顯示URL | adobe_advertising_ad_display_url | Adobe Advertising廣告顯示URL |
-| 裝置 | adobe_advertising_device | Adobe Advertising裝置 |
-| 關鍵字比對型別 | adobe_advertising_keyword_matchtype | Adobe Advertising關鍵字MatchType |
-| 網路 | adobe_advertising_network | Adobe Advertising網路 |
-| 廣告型別 | adobe_advertising_ad_type | Adobe Advertising廣告型別 |
-| 產品目標 | adobe_advertising_product_target | Adobe Advertising產品目標 |
-| 登陸型別 | adobe_advertising_landing_type | Adobe Advertising登陸型別 |
-| 最佳化 | adobe_advertising_optimization | Adobe Advertising最佳化 |
+| 索引鍵 | skwcid | ADOBE ADVERTISING ID |  |
+| 廣告平台 | adobe_advertising_ad_platform | Adobe Advertising廣告平台 |  |
+| 帳戶 | adobe_advertising_account | Adobe Advertising帳戶 |  |
+| Campaign | adobe_advertising_campaign | Adobe Advertising行銷活動 |  |
+| 廣告群組 | adobe_advertising_ad_group | Adobe Advertising廣告群組 |  |
+| 關鍵字 | adobe_advertising_keyword | Adobe Advertising關鍵字 |  |
+| 廣告 | adobe_advertising_ad | Adobe Advertising廣告 |  |
+| 產品建議放置環境 | adobe_advertising_placement | Adobe Advertising位置 |  |
+| 比對型別 | adobe_advertising_match_type | Adobe Advertising相符型別 |  |
+| 廣告標題 | adobe_advertising_ad_title | Adobe Advertising廣告標題 |  |
+| 廣告說明 | adobe_advertising_ad_description | Adobe Advertising廣告說明 |  |
+| 廣告目的地URL | adobe_advertising_ad_destination_url | Adobe Advertising廣告目的地URL |  |
+| 廣告顯示URL | adobe_advertising_ad_display_url | Adobe Advertising廣告顯示URL |  |
+| 裝置 | adobe_advertising_device | Adobe Advertising裝置 |  |
+| 關鍵字比對型別 | adobe_advertising_keyword_matchtype | Adobe Advertising關鍵字MatchType |  |
+| 網路 | adobe_advertising_network | Adobe Advertising網路 |  |
+| 廣告型別 | adobe_advertising_ad_type | Adobe Advertising廣告型別 |  |
+| 產品目標 | adobe_advertising_product_target | Adobe Advertising產品目標 |  |
+| 登陸型別 | adobe_advertising_landing_type | Adobe Advertising登陸型別 |  |
+| 最佳化 | adobe_advertising_optimization | Adobe Advertising最佳化 |  |
 
 >[!MORELIKETHIS]
 >

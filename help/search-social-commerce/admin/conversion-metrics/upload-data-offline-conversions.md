@@ -3,7 +3,7 @@ title: 上傳離線轉換資料以增強轉換
 description: 瞭解如何上傳第一方離線轉換資料，以對應至 [!DNL Google Ads] 潛在客戶的增強型轉換和 [!DNL Microsoft Advertising] 增強型轉換。
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 選取廣告網路，然後選取帳戶。
 
-1. （選擇性）若要以[!DNL Microsoft Excel]格式下載包含所有[必要資料欄位](#enhanced-conversions-leads-data)的範本，請按一下&#x200B;**[!UICONTROL View Template]**，然後依照瀏覽器的正常程式下載檔案。
+1. （選擇性）若要以[格式下載包含所有](#enhanced-conversions-leads-data)必要資料欄位[!DNL Microsoft Excel]的範本，請按一下&#x200B;**[!UICONTROL View Template]**，然後依照瀏覽器的正常程式下載檔案。
 
    您可以編輯檔案以包含您的資料並儲存變更，然後在下一個步驟中上傳檔案。
 
@@ -46,8 +46,8 @@ ht-degree: 0%
 | 轉換時間 | （必要）轉換事件發生的時間採用[支援的時間格式](https://support.google.com/google-ads/answer/7014069#prepare_data)。 如果您未在資料表格上方的`Parameters:TimeZone=insert_timezone`行中加入帳戶的時區ID，請使用a\) [支援的時區ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\) GMT時差（以+或 — 表示）和4位數的時間差（例如，紐約為–0500，柏林為+0100，格林威治標準時間為+000），來加入每列的時區。 |
 | 轉換值 | （必要）數值轉換值。 |
 | 轉換貨幣 | 轉換事件的貨幣代碼。 |
-| 廣告使用者資料 | (適用於歐洲經濟區(EEA)或英國(UK)的使用者相關資料)指出是否針對傳送使用者資料至[!DNL Google]以進行廣告個人化目的而授予使用者同意。 值可包含`Granted`、`Denied`或\[null\] （會以`Unspecified`形式傳送至[!DNL Google Ads]）。 **注意：** [!DNL Google Ads]目前並未針對潛在客戶的增強型轉換強制同意，但日後可能會強制同意。 |
-| 廣告Personalization | (適用於歐洲經濟區(EEA)或英國(UK)的使用者相關資料)指出是否針對傳送使用者資料至[!DNL Google]以用於廣告目的而授予使用者同意。 值可包含`Granted`、`Denied`或\[null\] （會以`Unspecified`形式傳送至[!DNL Google Ads]）。 **注意：** [!DNL Google Ads]目前並未針對潛在客戶的增強型轉換強制同意，但日後可能會強制同意。 |
+| 廣告使用者資料 | (適用於歐洲經濟區(EEA)或英國(UK)的使用者相關資料)指出是否針對傳送使用者資料至[!DNL Google]以進行廣告個人化目的而授予使用者同意。 值可包含`Granted`、`Denied`或\[null\] （會以[!DNL Google Ads]形式傳送至`Unspecified`）。 **注意：** [!DNL Google Ads]目前並未針對潛在客戶的增強型轉換強制同意，但日後可能會強制同意。 |
+| 廣告Personalization | (適用於歐洲經濟區(EEA)或英國(UK)的使用者相關資料)指出是否針對傳送使用者資料至[!DNL Google]以用於廣告目的而授予使用者同意。 值可包含`Granted`、`Denied`或\[null\] （會以[!DNL Google Ads]形式傳送至`Unspecified`）。 **注意：** [!DNL Google Ads]目前並未針對潛在客戶的增強型轉換強制同意，但日後可能會強制同意。 |
 
 ### [!DNL Microsoft Advertising]的資料表資料行與值
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [針對潛在客戶](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)實作 [!DNL Google Ads] 增強型轉換
+>* [針對潛在客戶 [!DNL Google Ads] 實作](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)增強型轉換
 >* [實作 [!DNL Microsoft Advertising] 增強的離線轉換](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only]) [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [([!DNL Google Ads only])為潛在客戶 [!DNL Google Ads] 的](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)增強型轉換建立轉換動作
 >* [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

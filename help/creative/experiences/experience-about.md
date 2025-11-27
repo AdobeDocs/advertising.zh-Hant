@@ -3,7 +3,7 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 9f54812a555032a7184e8a4b0dbf69ce00a32d2c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
