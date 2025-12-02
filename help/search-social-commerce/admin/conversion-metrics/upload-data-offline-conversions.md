@@ -3,7 +3,7 @@ title: 上傳離線轉換資料以增強轉換
 description: 瞭解如何上傳第一方離線轉換資料，以對應至 [!DNL Google Ads] 潛在客戶的增強型轉換和 [!DNL Microsoft Advertising] 增強型轉換。
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [針對潛在客戶 [!DNL Google Ads] 實作](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)增強型轉換
 >* [實作 [!DNL Microsoft Advertising] 增強的離線轉換](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* [([!DNL Google Ads only])為潛在客戶 [!DNL Google Ads] 的](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)增強型轉換建立轉換動作
+>* [為潛在客戶 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [將搜尋、社交和Commerce追蹤的轉換量度上傳至 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

@@ -3,9 +3,9 @@ title: ' [!DNL Microsoft Advertising] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Microsoft Advertising] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '6928'
+source-wordcount: '6895'
 ht-degree: 0%
 
 ---
@@ -131,8 +131,8 @@ ht-degree: 0%
 | 欄位 | 必填？ |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含實體的&quot;[!UICONTROL AMO ID]&quot;，否則為必要。 |
-| [!UICONTROL Campaign Name] | 必填。 可識別帳戶促銷活動的唯一名稱。 |
-| [!UICONTROL Campaign Budget] | 建立行銷活動所需。 行銷活動的每日支出限制，無論是否包含貨幣符號和標點符號。 此值會覆寫，但不能超過科目預算。 |
+| [!UICONTROL Campaign Name] | 必填。 |
+| [!UICONTROL Campaign Budget] | 建立行銷活動所需。 |
 | [!UICONTROL Channel Type] | 建立行銷活動所需。 |
 | [!UICONTROL Delivery Method] | 可選 |
 | [!UICONTROL Campaign Priority] | 建立購物行銷活動所需。 |
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 產品（購物）廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Creative (except RSA)]對話方塊中的&quot;[!UICONTROL Download Bulksheet]&quot;列。
 

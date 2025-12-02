@@ -3,10 +3,10 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 瞭解[!UICONTROL Campaign Assist Report]。
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 | [!UICONTROL EF Campaign ID] | 自訂 | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自訂 | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL EF Search Engine ID] | 自訂 | 搜尋、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native] （已棄用），或<i>[!UICONTROL 106]</i>的[!DNL Pinterest] （已棄用）。 |
-| [!UICONTROL Portfolio ID] | 數值投資組合ID。 |  |
-| [!UICONTROL User SE Account ID] | Search、Social和Commerce指派給廣告網路的數值ID。 |  |
+| [!UICONTROL Portfolio ID] | 自訂 | 數值投資組合ID。 |
+| [!UICONTROL User SE Account ID] | 自訂 | Search、Social和Commerce指派給廣告網路的數值ID。 |
 
 >[!MORELIKETHIS]
 >
