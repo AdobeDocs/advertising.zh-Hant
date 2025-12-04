@@ -3,7 +3,7 @@ title: 廣告規格
 description: 參考一般和發佈者特有的廣告規格。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * **探索：**&#x200B;檢視探索的[廣告規格](/help/dsp/assets/discovery-networks-ad-specs.pdf)。
 
-* **迪士尼(包括 Hulu)：**&#x200B;參閱迪士尼的[廣告規格](https://hulu.disneyadsales.com/ad-products/video-commercial/)。
+* **迪士尼(包括 Hulu)：**&#x200B;參閱迪士尼的[廣告規格](https://www.disneyadvertising.com/mediakit/#specifications)。
 
 * **HBO最大值：**&#x200B;檢視HBO最大值[廣告規格](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)。
 
