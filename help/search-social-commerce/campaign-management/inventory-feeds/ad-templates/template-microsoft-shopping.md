@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Ads]個詳細目錄摘要的購物廣告範本設定'
+title: 詳細目錄摘要的[!DNL Microsoft Ads]購物廣告範本設定
 description: 請參考詳細目錄摘要之 [!DNL Microsoft Ads] 購物廣告範本的設定。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 在範本中保留下列字元以指定欄名稱和修飾元名稱，因此禁止在所有屬性欄位中做為文字： `[ ] < > `
-
 
 ## \[在所有索引標籤上方\]
 
@@ -73,7 +72,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其產品用於行銷活動的商家帳戶的客戶識別碼。
 
-**[!UICONTROL Sales Country]：**&#x200B;促銷活動產品銷售的國家/地區。 因為產品是相關聯的
+**[!UICONTROL Sales Country]：**促銷活動產品銷售的國家/地區。 因為產品是相關聯的
 若使用目標國家/地區，此設定會決定促銷活動中要公告哪些產品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -98,13 +97,15 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]：**&#x200B;當多個行銷活動廣告
+**[!UICONTROL Campaign Priority]：**當多個行銷活動廣告
 相同的產品： *[!UICONTROL Low]* （新行銷活動的預設值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 當同一個產品包含在多個行銷活動中時，廣告網路會使用
 行銷活動優先順序會先決定哪個行銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]：**([!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動，僅適用以歐盟(EU)受眾為目標的行銷活動)無論行銷活動是否包含政治廣告，符合歐盟法規2024/90所服務廣告的每一項需求： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Ad Groups]
 
@@ -122,7 +123,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （選用）廣告群組層級追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本會覆寫此值。
 
-若為Adobe Advertising轉換追蹤，則不需要輸入值。 行銷活動層級值就足夠了。
+針對Adobe Advertising轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
 
 對於協力廠商重新導向和追蹤，請輸入值。
 
@@ -155,7 +156,7 @@ ht-degree: 0%
 **[!UICONTROL Tracking Template]：** （沒有子產品群組的單位；選擇性）產品的追蹤範本
 群組，這會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在[!DNL ValueTrack]引數中。 此範本會覆寫較高層級的範本。
 
-若為Adobe Advertising轉換追蹤，則不需要輸入值。 行銷活動層級值就足夠了。
+針對Adobe Advertising轉換追蹤，您不需要輸入值。 行銷活動層級值就足夠了。
 
 對於協力廠商重新導向和追蹤，請輸入值。
 

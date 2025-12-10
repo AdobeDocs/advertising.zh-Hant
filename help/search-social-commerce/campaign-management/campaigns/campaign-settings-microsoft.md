@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising]行銷活動設定'
 description: 參考 [!DNL Microsoft Advertising] 行銷活動的設定。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]：*&#x200B;在對象網路上顯示標準視訊廣告。
 
-* *[!UICONTROL Performance Max]：*&#x200B;使用[!DNL Microsoft Advertising]智慧型出價顯示所有網路上的多個廣告型別。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的行動號召和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
+* *[!UICONTROL Performance Max]：*&#x200B;使用[!DNL Microsoft Advertising]智慧型出價顯示所有網路上的多個廣告型別。 在行銷活動設定中，您必須指定一或多個資產群組，包括影像、標誌、標題、說明、選用的call to action和受眾訊號。 廣告網路會自動結合資產，以根據頻道提供廣告。
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]：**(適用於以歐盟(EU)受眾為目標的行銷活動)行銷活動是否根據歐盟法規2024/90提供的廣告需求，包含政治廣告： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 ## [!UICONTROL Budget Options]
 
@@ -282,9 +284,9 @@ ht-degree: 0%
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的行動號召。 預設會選取&#x200B;*[!UICONTROL Act Now]*。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的call to action。 預設會選取&#x200B;*[!UICONTROL Act Now]*。
 
-**[!UICONTROL Business Name]：**&#x200B;公司名稱，最多25個字元。 它不能包含指令碼、HTML或其他標籤語言。
+**[!UICONTROL Business Name]：**&#x200B;公司名稱，最多25個字元。 不可包含指令碼、HTML或其他標籤語言。
 
 **[!UICONTROL Audience Signal]：** （選用） [!DNL Microsoft Advertising]個對象，以作為行銷活動的對象訊號。 [!DNL Microsoft Advertising]機器學習模型會使用受眾來尋找類似的網頁瀏覽者來鎖定目標，也可能會向未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
 

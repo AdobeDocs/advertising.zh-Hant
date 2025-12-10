@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Google Ads] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7898'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 0%
 | [!UICONTROL DSA Domain Language] | （僅限搜尋網路；僅適用於擴充的動態搜尋廣告）指定網站網域的語言。 <b>注意：</b>如果網域包含多種語言的頁面，而您想要鎖定所有語言，請為每個語言建立個別的行銷活動。 |
 | [!UICONTROL GDN Custom Bid Level] | （僅針對顯示網路的行銷活動）競標方式：由<i>[!UICONTROL Ad Group]</i> （預設）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （網站）或<i>[!UICONTROL None]</i> （重設現有值）。 其他維度（<i>年齡</i>、<i>性別</i>、<i>興趣和清單</i>、<i>主題</i>和<i>垂直</i>）可從[!DNL Google Ads]介面取得。 如果您已使用[!DNL Google Ads]介面設定其他維度的競標，則會顯示該值，但您無法在這裡選取或輸入這些維度。</p><p><b>附註：</b></p><ul><li><p>當您依據關鍵字競標時，請在關鍵字層級建立追蹤範本。 同樣地，當您依版位競標時，請在版位層級建立追蹤範本。 針對所有其他維度，在廣告層級建立追蹤範本。</p></li><li><p>如果您以不支援的維度（年齡、性別、興趣和清單或主題）競標，搜尋、社交和Commerce不會最佳化維度的競標，而所有歸因都會套用至廣告群組。</p></li><li><p>搜尋網路上的廣告一律會使用關鍵字競標。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（僅限購物行銷活動）當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： <i>[!UICONTROL Low]</i> （新行銷活動的預設值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。</p><p>當同一個產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。 |
+| [!UICONTROL Has EU Political Ads] | (適用於以歐盟(EU)受眾為目標的行銷活動)行銷活動是否根據歐盟法規2024/90提供的廣告需求，包含政治廣告： <i>[!UICONTROL Yes]</i>或<i>[!UICONTROL No]</i>。 |
 | [!UICONTROL Merchant ID] | （僅限於連結至商家摘要的購物行銷活動和對象行銷活動）其產品用於行銷活動的商家帳戶的客戶ID。 |
 | [!UICONTROL Sales Country] | （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動產品銷售的國家/地區。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。 |
 | [!UICONTROL Product Scope Filter] | （僅使用[!DNL Google Ads]購物網路的行銷活動）您[!DNL Google Merchant Center]帳戶中可為其建立購物廣告的行銷活動。 您可以使用格式dimension=attribute，輸入最多七種產品維度和屬性組合，以篩選產品。 使用「>>」分隔符號分隔多個篩選器。 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;。</p><p>範例：「CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies」</p><p>若要刪除現有值，請使用值<code>[delete]</code> （包括括弧）。</p> |
@@ -150,6 +151,7 @@ ht-degree: 0%
 | [!UICONTROL DSA Domain Name] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
 | [!UICONTROL DSA Domain Language] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
 | [!UICONTROL Campaign Priority] | 建立購物行銷活動所需。 |
+| [!UICONTROL Has EU Political Ads] | 建立行銷活動所需。 |
 | [!UICONTROL Merchant ID] | 建立購物行銷活動所需。 |
 | [!UICONTROL Sales Country] | 建立購物行銷活動所需。 |
 | [!UICONTROL Product Scope Filter] | （購物行銷活動）選填 |
@@ -239,7 +241,7 @@ ht-degree: 0%
 
 ### 已展開的動態搜尋廣告
 
-此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hant)&quot;。
+此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Creative (except RSA)]對話方塊中的&quot;[!UICONTROL Download Bulksheet]&quot;列。
 
@@ -264,7 +266,7 @@ ht-degree: 0%
 
 ### 產品清單/購物廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Creative (except RSA)]對話方塊中的&quot;[!UICONTROL Download Bulksheet]&quot;列。
 

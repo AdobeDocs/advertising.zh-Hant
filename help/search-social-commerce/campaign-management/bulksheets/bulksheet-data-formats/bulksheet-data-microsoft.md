@@ -3,9 +3,9 @@ title: ' [!DNL Microsoft Advertising] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Microsoft Advertising] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '6895'
+source-wordcount: '6934'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Channel Type] | 行銷活動鎖定的管道型別： <i>[!UICONTROL Audience]</i>、<i>[!UICONTROL DynamicSearchAds]</i>、<i>[!UICONTROL Search]</i>或<i>[!UICONTROL Shopping]</i>。 |
 | [!UICONTROL Delivery Method] | （僅含每日預算的行銷活動）每天顯示行銷活動廣告的速度：<ul><li><i>[!UICONTROL Standard (Distributed)]</i> （新行銷活動的預設值）：將您的廣告印象分散在一天當中。</li><li><i>[!UICONTROL Accelerated]：</i>在達到預算之前，儘可能顯示您的廣告。 因此，您的廣告可能不會在當天稍後出現。</li></ul> |
 | [!UICONTROL Campaign Priority] | （僅限購物行銷活動）當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： <i>[!UICONTROL Low]</i> （新行銷活動的預設值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。<br><br>當同一個產品包含在多個行銷活動中時，廣告網路會先使用行銷活動優先順序來判斷哪個行銷活動（及相關競標）符合廣告拍賣的資格。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。 |
+| [!UICONTROL Has EU Political Ads] | (適用於以歐盟(EU)受眾為目標的行銷活動)行銷活動是否根據歐盟法規2024/90提供的廣告需求，包含政治廣告： <i>[!UICONTROL Yes]</i>或<i>[!UICONTROL No]</i>。 |
 | [!UICONTROL Merchant ID] | （僅限於連結至商家摘要的購物行銷活動和對象行銷活動）其產品用於行銷活動的商家帳戶的客戶ID。 |
 | [!UICONTROL Sales Country] | （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動產品銷售的國家/地區。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。 |
 | [!UICONTROL Product Scope Filter] | （僅使用購物網路的行銷活動）商家帳戶中的產品，可為行銷活動建立產品廣告。 您可以使用格式dimension=attribute，輸入最多七種產品維度和屬性組合，以篩選產品。 使用「>>」分隔符號分隔多個篩選器。 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;。<br><br>範例： &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
@@ -136,6 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Channel Type] | 建立行銷活動所需。 |
 | [!UICONTROL Delivery Method] | 可選 |
 | [!UICONTROL Campaign Priority] | 建立購物行銷活動所需。 |
+| [!UICONTROL Has EU Political Ads] | 建立行銷活動所需。 |
 | [!UICONTROL Merchant ID] | 建立購物行銷活動所需。 |
 | [!UICONTROL Sales Country] | 建立購物行銷活動所需。 |
 | [!UICONTROL Product Scope Filter] | （購物行銷活動）選填 |
@@ -230,7 +232,7 @@ ht-degree: 0%
 
 ### 產品（購物）廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Microsoft Advertising] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Creative (except RSA)]對話方塊中的&quot;[!UICONTROL Download Bulksheet]&quot;列。
 

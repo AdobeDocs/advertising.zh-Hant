@@ -3,9 +3,9 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]：**&#x200B;帳戶中唯一的促銷活動名稱。
+
+**[!UICONTROL Status]：**&#x200B;行銷活動的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新廣告行銷活動的預設值為&#x200B;*作用中*。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
+
+<!-- **[!UICONTROL End Date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）在廣告網路的搜尋合作夥伴網路上顯示您的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
 
 **[!UICONTROL Audience Target Method]：**（僅限現有、唯讀的Gmail行銷活動）是否：
 
@@ -50,13 +60,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid Only]：*&#x200B;若要顯示廣告，即使是未與目標對象相關聯的使用者，只要他們符合其他廣告群組層級的目標即可。 不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。
 
-**[!UICONTROL Status]：**&#x200B;行銷活動的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新廣告行銷活動的預設值為&#x200B;*作用中*。
-
-<!-- **[!UICONTROL End Date]:** -->
-
-{{$include /help/_includes/end-date.md}}
-
-**[!UICONTROL Search Partners]：** （僅以搜尋網路為目標的行銷活動，包括購物行銷活動）在廣告網路的搜尋合作夥伴網路上顯示您的廣告。 依預設，此選項為&#x200B;*[!UICONTROL Off]*。
+**[!UICONTROL Contains EU Political Ads]：**(適用於以歐盟(EU)受眾為目標的行銷活動)行銷活動是否根據歐盟法規2024/90提供的廣告需求，包含政治廣告： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
 
 **[!UICONTROL AI Max Enabled]：** （只針對搜尋網路的行銷活動；唯讀） [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL On]*&#x200B;或&#x200B;*[!UICONTROL Off]*。
 

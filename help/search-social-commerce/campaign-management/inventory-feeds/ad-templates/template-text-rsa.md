@@ -3,15 +3,14 @@ title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
-
 
 *[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
 
@@ -66,11 +65,11 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （僅具有最終/進階URL的帳戶；選用）行銷活動層級追蹤範本，其會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-* 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤代碼。
+* 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 * 若要內嵌最終URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案[[!DNL Microsoft Advertising] 中「可用的](https://help.ads.microsoft.com/#apex/3/en/56799/2)引數」一節中的（[!DNL Google Ads]僅限） [!DNL ValueTrack]檔案[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)僅限）「追蹤範本」引數。
 
    * （僅限[!DNL Yahoo! Japan Ads]）使用引數`!{unescapedurl}`來指示登陸頁面URL。
 
@@ -120,6 +119,8 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]：**([!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動，僅適用以歐盟(EU)受眾為目標的行銷活動)無論行銷活動是否包含政治廣告，符合歐盟法規2024/90所服務廣告的每一項需求： *[!UICONTROL Yes]*&#x200B;或&#x200B;*[!UICONTROL No]*。
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -136,13 +137,13 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]：** （僅具有最終/進階URL的帳戶）廣告群組層級追蹤範本，此範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。
 
-針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤代碼。
+針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 對於協力廠商重新導向和追蹤，請輸入值。 若要指出登入頁面URL：
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
 
-* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或「僅追蹤範本」引數。
+* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
 
 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
@@ -196,17 +197,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
->* （[!DNL Google Ads]帳戶）避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作以新增它們。
+>* （[!DNL Google Ads]帳戶）避免使用巨集，巨集不會取代來自啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作，以新增巨集。
 
 **[!UICONTROL Keyword Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，其會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
-* 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤代碼。
+* 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 * 您可以選擇輸入協力廠商重新導向與追蹤。
 
 * 若要指出登入頁面URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案[[!DNL Microsoft Advertising] 中「可用的](https://help.ads.microsoft.com/#apex/3/en/56799)引數」一節中的（[!DNL Google Ads]僅限） [!DNL ValueTrack]檔案[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)僅限）「追蹤範本」引數。
 
    * （僅限[!DNL Yahoo! Japan Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
 
@@ -228,7 +229,7 @@ ht-degree: 0%
 
    * 值前面或後面可附加貨幣符號或代碼。 例如，2.000,00英鎊和2000GBP有效。
 
-   * 該值可以包括逗號(，)或句點(.) 做為分隔符號，並加上選用的句號(.) 或逗號(，)表示分數值。 例如，1,000.00和2.000,10有效。
+   * 值可以包含逗號(，)或句點(.)做為分隔符號，分數值則使用選用的句點(.)或逗號(，)。 例如，1,000.00和2.000,10有效。
 
    * 值可以在前面加上百分比符號(%)、加號(+)或減號(-)。 例如，20%、208+和–42.32有效。
 
@@ -238,7 +239,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** （僅限[!DNL Microsoft Advertising]個範本）標題、文字、顯示URL或最終URL包含`{Param3}`動態替代字串時，要做為廣告替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 
@@ -320,7 +321,7 @@ ht-degree: 0%
 
 **[!UICONTROL Base URL]：** （僅具有目的地URL的帳戶）使用者被帶往的頁面。 其中可能包含協力廠商重新導向和追蹤程式碼。 如果您使用Adobe Advertising轉換追蹤服務，且行銷活動設定包含使用[!UICONTROL EF Redirect]和在廣告層級新增追蹤，則Search、Social和Commerce會自動將其自己的重新導向和追蹤程式碼新增至廣告。
 
-若要將欄名稱或修飾元群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或在[!UICONTROL Modifiers]清單中的[修飾元名稱](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)。
+若要將欄名稱或修飾元群組插入為動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱或在[清單中的](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)修飾元名稱[!UICONTROL Modifiers]。
 
 **[!UICONTROL Final URL]：** （具有最終/進階URL的帳戶）使用者按一下您的廣告時所前往的登陸頁面URL。 其必須包含與顯示URL相同的網域，而且最終URL中的任何引數都必須符合廣告點選後登陸頁面URL中的引數。 登陸頁面網域或子網域內可包含重新導向，但登陸頁面網域外不可包含重新導向。
 
@@ -329,17 +330,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果您在張貼透過範本傳播的資料時產生追蹤URL，則追蹤引數會根據帳戶追蹤設定附加至此值。
->* （[!DNL Google Ads]帳戶）避免使用巨集，巨集不會取代啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作以新增巨集。
+>* （[!DNL Google Ads]帳戶）避免使用巨集，巨集不會取代啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作，以新增巨集。
 
 **[!UICONTROL Tracking Template]：** （具有最終/進階URL的帳戶；選用）追蹤範本，其會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細層級的追蹤範本（以關鍵字為最精細）會覆寫所有其他層級的值。
 
-針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤代碼。
+針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。
 
 對於協力廠商重新導向和追蹤，請輸入值。 若要指出登入頁面URL：
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
 
-* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或「僅追蹤範本」引數。
+* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
 
 **\[原始廣告欄位下方的替代廣告欄位\]：** （選擇性）廣告的替代廣告復本集，如果原始廣告復本中的任何一行超過傳播期間填入資料後的動態引數允許長度上限，就可以使用此替代廣告復本。
 
