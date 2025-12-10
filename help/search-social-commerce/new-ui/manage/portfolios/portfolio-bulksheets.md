@@ -4,9 +4,9 @@ description: 瞭解如何使用Bulksheet檔案編輯多個投資組合的設定�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 已上傳大量工作表檔案的資料需求
 
-檢視已下載Bulksheet檔案上的[!UICONTROL Instructions]標籤。
+所有Bulksheet檔案都必須包含資料行[!UICONTROL Portfolio ID]，而且每個資料列都必須包含[!UICONTROL Portfolio ID]的值才能執行。 如需資料需求的詳細資訊，請參閱已下載Bulksheet檔案上的[!UICONTROL Instructions]標籤。
 
 如需[!UICONTROL Portfolio Settings Edit]標籤上產品組合設定欄的解釋，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
@@ -79,6 +79,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [建立投資組合](portfolio-create.md)
 >* [（新UI）關於投資組合](portfolio-about.md)
