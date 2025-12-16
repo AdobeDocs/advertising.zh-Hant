@@ -2,7 +2,7 @@
 title: 關於自訂報表
 description: 瞭解建立自訂報告的選項。
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## 可用報表
 
-* **[!UICONTROL All-in Cost BETA]**： (僅同時具有Advertising Creative和DSP的廣告商；測試版功能)使用此報告可檢視Advertising DSP有多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
+* **[!UICONTROL All-in Cost]**： (僅同時具有Advertising Creative和DSP的廣告商；測試版功能)使用此報告可檢視Advertising DSP有多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
 
 * **[!UICONTROL Custom Creative Report]：**&#x200B;使用此報表來監視您Advertising Creative廣告體驗的效能。
