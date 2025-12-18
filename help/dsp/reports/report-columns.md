@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7b7e9687bf79fce564103606efbe8c5997d3c05c
+source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | 報告資料所屬的城市。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | 報告資料所屬的國家/地區。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | 報告資料所屬的指定市場區域(DMA)。 |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Pin Code] | 報告資料所屬的郵遞區號編號(PIN)代碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | 報告資料的歸因狀態。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | 對象。 報表支援最多10個不重複受眾。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | 行銷活動。 |
@@ -85,6 +86,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | 媒體型別。 （例如顯示器、音訊等） |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | 發行者。 |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | 位置。 |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Budget] | 套件航班的預算。 |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight End Date] | 套件飛行的結束日期。 |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Rollover] | 套件小眾測試版的任何變換預算。 |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Start Date] | 套件飛行的開始日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | 封裝的結束日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | 套件的步調目標金額。 此金額以支出或曝光次數表示。 |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | DSP中套件的唯一識別碼。 |
@@ -144,13 +149,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 到達的不重複住戶總數（不同的IP位址）。 |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | 鎖定的ID型別。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在CPM上限出價的總出價百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 每次收購的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 每次收購的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 每次廣告點按的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 每個已完成視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 每個廣告參與的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 每次廣告曝光的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 每1000次曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 每個視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>，其中[!UICONTROL Custom Goal]是附加到自訂目標之所有轉換的目標加權。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 每1000個可檢視曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 每次廣告點按的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 每個已完成視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>。 |
@@ -229,7 +235,6 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
 <!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
