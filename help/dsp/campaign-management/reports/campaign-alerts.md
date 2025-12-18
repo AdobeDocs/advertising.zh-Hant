@@ -3,9 +3,9 @@ title: 檢視警示
 description: 瞭解如何檢視行銷活動和行銷活動元件的警示和建議解決方案。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題�
 
    所有與行銷活動及其元件相關聯的警報（包括目標交易）都會列在清單中。 依照預設，嚴重警示會先列出。
 
+1. (使用Advertising Creative的廣告商；選用)按一下&#x200B;**[!UICONTROL Creative]**&#x200B;索引標籤，檢視包含Advertising Creative體驗之刊登版位的警示。
+
 1. （選擇性）若要根據第一個偵測日期將警報分組，或依警報狀態、元件狀態、元件型別或特定促銷活動名稱來篩選警報，請按一下面板右上角的![篩選按鈕](/help/dsp/assets/filter.png)、選取篩選選項，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
 1. 若要檢視特定警示型別的所有受影響行銷活動元件清單，請按一下警示名稱，例如&quot;[!UICONTROL Package: No Active Placement (*N*)]&quot;。 若要檢視每個受影響元件的詳細資料，包括建議的動作，請按一下[!UICONTROL EXPAND ALL]或按一下元件名稱。 若要開啟任何受影響元件的相關行銷活動管理檢視，以便進行建議的變更，請將游標停留在元件名稱上，然後按一下[執行]以檢視![[執行]以檢視](/help/dsp/assets/go-to-view.png "。")
@@ -54,7 +56,7 @@ DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題�
 
 在略過警示以復原動作後，您還有幾秒鐘的時間。 選項訊息關閉後，您就無法取消動作。
 
-1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![&#x200B; [取消忽略] &#x200B;](/help/dsp/assets/alert-un-ignore.png "。")
+1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![ [取消忽略] ](/help/dsp/assets/alert-un-ignore.png "。")
 
 ## 關閉[!UICONTROL Pulse Panel]
 
