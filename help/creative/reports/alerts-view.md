@@ -2,16 +2,16 @@
 title: 檢視警報
 description: 瞭解如何檢視您體驗的警示和建議的解決方案。
 feature: Creative Experiences
-source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
+source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # 檢視警示
 
-[!DNL Creative]可協助您識別任何體驗（包括體驗內的創意內容）何時發生問題。 對於每個問題，[!DNL Creative]都會發出具有時間戳記的警報，以及解決此問題的建議動作。 警報的原因包括預設廣告的過期體驗和高傳送量，而非目標廣告。 警報可在體驗層級使用。
+[!DNL Creative]可協助您識別任何體驗（包括體驗內的創意內容）何時發生問題。 對於每個問題，[!DNL Creative]都會發出具有時間戳記的警報，以及解決此問題的建議動作。 警報的原因包括即時體驗過期和預設廣告的高傳送率，而非目標廣告。 警報可在體驗層級使用。
 
 您可以開啟任何警報的相關體驗，以便視需要編輯以解決問題。 您也可以選擇忽略個別警報，這會將其從[!UICONTROL Pulse]面板中移除。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 在略過警示以復原動作後，您還有幾秒鐘的時間。 選項訊息關閉後，您就無法取消動作。
 
-1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![&#x200B; [取消忽略] &#x200B;](/help/creative/assets/alert-un-ignore.png "。")
+1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![ [取消忽略] ](/help/creative/assets/alert-un-ignore.png "。")
 
 ## 關閉[!UICONTROL Pulse Panel]
 
