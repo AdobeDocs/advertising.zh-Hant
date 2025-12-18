@@ -3,7 +3,7 @@ title: 體驗層級效能報表
 description: 瞭解如何檢視體驗層級的效能報表。
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 39e0b8b57fd54e99b09e56ecf9cef753b0c6ea44
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -132,4 +132,4 @@ ht-degree: 0%
 >* [管理自訂報告](/help/creative/reports/report-manage.md)
 >* [下載檢視中的所有體驗](/help/creative/experiences/experience-download-view.md)
 >* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
->* [檢視警示](/help/creative/experiences/alerts.md)
+>* [檢視警示](/help/creative/reports/alerts-view.md)
