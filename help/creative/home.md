@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 237d05e2ca97325aa45c2ed64665079e785acb68
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025年12月17日 | 警報 | [!UICONTROL Pulse Panel]檢視中的[!UICONTROL Experiences]圖示表示您的體驗是否有任何警報可用。 您可以開啟面板以檢視每個警報，並選擇開啟適用的體驗，以便您視需要編輯它以解決問題。 您也可以選擇解除任何警報。<br><br>對於使用Advertising DSP的廣告商，從[!DNL Creative]個體驗建立的DSP位置相關警示可在DSP內的行銷活動層級取得。 | 請參閱&quot;[檢視警示](/help/creative/reports/alerts-view.md)&quot;。 |
+| 2025年12月17日 | 警報 | [!UICONTROL Pulse Panel]檢視中的[!UICONTROL Experiences]圖示表示您的體驗是否有任何警報可用。 您可以開啟面板以檢視每個警報，並選擇開啟適用的體驗或創意，以便您視需要編輯它以解決問題。 您也可以選擇解除任何警報。<br><br>對於使用Advertising DSP的廣告商，從[!DNL Creative]個體驗建立的DSP位置相關警示可在DSP內的行銷活動層級取得。 | 請參閱&quot;[檢視警示](/help/creative/reports/alerts-view.md)&quot;。 |
 | 2025年11月26日 | Advertising Creative的成本報表 | (僅同時具有Advertising Creative和Advertising DSP的廣告商；測試版功能)新的[!UICONTROL All-in Cost]報告已移出Beta版，為一般可用功能。 | 請參閱&quot;[關於自訂報告](/help/creative/reports/reports-about.md)&quot;和&quot;[管理自訂報告](/help/creative/reports/report-manage.md)&quot;。 |
 | 2025年11月17日 | Advertising Creative的成本報表 | (僅同時具有Advertising Creative和Advertising DSP的廣告商；測試版功能)新的[!UICONTROL All-in Cost BETA]報告顯示有多少支出歸因於Adobe Creative的廣告服務。 報表的支出量度包括[!UICONTROL Billable Creative Spend]、[!UICONTROL Non Billable Creative Spend]、[!UICONTROL Total Creative Spend]、[!UICONTROL Total Creative CPM]和[!UICONTROL Estimated Tax on Creative]。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。 | 請參閱&quot;[關於自訂報告](/help/creative/reports/reports-about.md)&quot;和&quot;[管理自訂報告](/help/creative/reports/report-manage.md)&quot;。 |
 | 2025年9月24日 | 動態創意 | 現在，您可以使用透過廣告範本傳遞的廣告變數目錄資料，以更簡單的自助工作流程產生動態廣告。 | 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;。 |
