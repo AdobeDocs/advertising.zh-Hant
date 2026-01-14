@@ -3,7 +3,7 @@ title: DSP如何最佳化您的行銷活動
 description: 瞭解DSP如何最佳化行銷活動中的套件。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP如何最佳化您的行銷活動
 
-此頁面概述由[!DNL Adobe Sensei]提供支援的DSP最佳化引擎如何最佳化行銷活動中的套件。 如需手動最佳化行銷活動的相關秘訣與技巧，請聯絡您的Adobe客戶團隊。<!-- add link to trading playbook if we add it to help -->
+此頁面概述由[!DNL Adobe AI]提供支援的DSP最佳化引擎如何最佳化行銷活動中的套件。 如需手動最佳化行銷活動的相關秘訣與技巧，請聯絡您的Adobe客戶團隊。<!-- add link to trading playbook if we add it to help -->
 
 套件最佳化目標會在兩個層級運作：
 
@@ -36,11 +36,11 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 ### 排定效能率優先順序的套裝程式
 
-對於設定效能率優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
+針對將效能率排定優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
 
 此最佳化模式適用於以下情況：
 
-* 您已經知道有效/可接受的CPM層次（例如，歷史基準）。
+* 您已經知道有效/可接受的CPM層級（例如歷史基準）。
 
 * 如果您在縮放時遇到問題，您願意手動調整每個位置的[!UICONTROL Max Bid]。
 
@@ -58,15 +58,15 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 ### 排定成本效益與效能比之間平衡優先順序的套件
 
-對於某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，永遠不會超過刊登的[!UICONTROL Max Bid]。 適用的最佳化目標範例包括[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click]等。
+針對某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，不會超過刊登的[!UICONTROL Max Bid]。 適用的最佳化目標範例包括[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click]等。
 
 #### 步調邏輯 {#pacing-logic-balanced}
 
-* 如果消費如期進行，則DSP會變得更具價格敏感性，會以較低的價格出價，來權衡步調計畫的優惠率。
+* 如果消費如期進行，DSP就會變得對價格比較敏感，降低出價金額，以透過步調計畫來權衡中標率。
 
 * 如果同時平衡績效量度（除了[!UICONTROL Lowest CPM]以外的所有目標），則預測的KPI會混合到競標量中。 因此，您針對「每筆成本」預測效能更高的拍賣，出價更高。
 
-* 如果支出落後於節奏，則DSP會降低價格敏感性，並會競標更高的金額（最高可達[!UICONTROL Max Bid]），以透過節拍計畫來平衡中標率。
+* 如果支出落後於節奏，則DSP會降低價格敏感性，並會競標更高的金額（最高至[!UICONTROL Max Bid]），以透過節拍計畫來平衡中標率。
 
 #### 結算價格/競標著色 {#clearing-price-balanced}
 

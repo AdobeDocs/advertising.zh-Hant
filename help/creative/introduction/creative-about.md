@@ -3,9 +3,9 @@ title: 關於Adobe Advertising Creative
 description: 瞭解 [!DNL Creative]。
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Advertising Creative是Adobe Advertising的一部分，它是一個自助服務�
 
 ### 廣告元素的最佳化
 
-您可以選擇允許[!DNL Creative]使用Adobe Sensei提供支援的最佳化加權廣告輪換，根據效能（無論您是否定義特定對象目標）將任何體驗的廣告元素最佳化。
+您可以選擇允許[!DNL Creative]使用最佳化、加權廣告輪換（由[!DNL Adobe AI]提供技術支援），根據效能（無論您是否定義特定對象目標）將任何體驗的廣告元素最佳化。
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
