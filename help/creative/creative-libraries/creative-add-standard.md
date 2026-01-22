@@ -3,9 +3,9 @@ title: 將標準創意內容新增至創意內容庫
 description: 瞭解如何將標準（非動態）創意內容新增至創意內容庫。
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 使用範本新增彈性創意 {#flexible-creative-use-template}
 
-您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意] (flexible-creative-upload)。>
+您可以使用任何上傳至您帳戶的彈性創意範本，建置預先定義大小的廣告。 選取要使用的範本後，您將會編輯點按標籤和屬性。&lt;！ — 如果我們將範本下載功能新增回，則將最後一句取代為：您可以a\)選取要使用的範本，然後編輯點按標籤和屬性；或b\) [將範本下載為ZIP檔](#download-flexible-creative-template)，離線編輯內容以建置您自己的創意，然後[將編輯後的檔案上傳為新的創意](flexible-creative-upload)。>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. 找到並選取顯示廣告體驗，然後按一下右上角的&#x200B;**[!UICONTROL Select]**。
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     所選體驗中的每個創意變體都將匯入為單獨的HTML5創意內容。
 
 1. 新增或移除創意：
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 指定[HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)或[影像創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)。
 
-   依預設，會選取您剛上傳的所有創意內容，而您指定的任何設定會套用至所有選取的創意內容。 任何只有一個值的設定皆適用於所有選取的創意。 若要輸入特定創意的設定，請取消選取每個不適用的創意內容。
+   依預設，會選取您剛才上傳的所有創意內容或GenStudio體驗，而您指定的任何設定會套用至所有已選取的專案。 任何只有一個值的設定會套用至所有選取的專案。 若要輸入特定創意內容或GenStudio體驗的設定，請取消選取每個不適用的創意內容或體驗。
 
-1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;或&#x200B;**[!UICONTROL Import]**。
+1. 按一下&#x200B;**[!UICONTROL Create]**。
 
 ## 將協力廠商創意內容新增至創意內容庫 {#creative-add-third-party}
 
