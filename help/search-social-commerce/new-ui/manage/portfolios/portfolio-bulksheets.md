@@ -4,9 +4,9 @@ description: 瞭解如何使用Bulksheet檔案編輯多個投資組合的設定�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 檔案必須是XLSX格式。
 
-1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。 &lt;！ — 應為「匯入Portfolio設定」 — 「詳細資訊」可能太模糊，並建議它可能包含其他內容。—>
+1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。
 
-1. 在[!UICONTROL Import Portfolio Details File]對話方塊中： <!-- reword if we change the name of the operation -->
+1. 在[!UICONTROL Import Portfolio Details File]對話方塊：
 
-   1. 將檔案拖放至方塊中，或按一下&#x200B;**[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->從您的裝置或網路選取檔案。
+   1. 將檔案拖放至方塊中，或按一下&#x200B;**[!UICONTROL Browse File]**&#x200B;從您的裝置或網路選取檔案。
 
    1. 按一下&#x200B;**[!UICONTROL Import]**。
 
-您可以從日期範圍選取器旁的[!UICONTROL Global Sync Status]按鈕（![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")）檢查上傳狀態。<!-- icon similar to Refresh -->。 如果有任何變更未成功，您可以下載顯示失敗內容的錯誤檔案。
+您可以從日期範圍選取器旁的[!UICONTROL Global Sync Status]按鈕（![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")）檢查上傳狀態。 如果有任何變更未成功，您可以下載顯示失敗內容的錯誤檔案。
 
 通知也會新增至通知中心，您可以從![按鈕(](/help/search-social-commerce/assets/notifications-new.png ")旁的")通知[!UICONTROL Global Sync Status]通知![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")圖示開啟「通知」窗格。
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [建立投資組合](portfolio-create.md)
 >* [（新UI）關於投資組合](portfolio-about.md)
