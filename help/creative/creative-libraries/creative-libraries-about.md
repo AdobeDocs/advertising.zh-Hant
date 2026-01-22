@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ##### HTML5 創意
 
-* **GenStudio 體驗：**&#x200B;你可以將 GenStudio 用於績效行銷[的展示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)[中，匯入所有廣告變體](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)，作為 HTML5 創意。外部連結已轉換為當地參考資料。 HTML 內容可達 20 MB，單張圖片可達 50 MB。
+* **GenStudio 體驗：**&#x200B;你可以將 GenStudio 用於績效行銷[的展示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) [中，匯入所有廣告變體](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)，作為 HTML5 創意。外部連結已轉換為當地參考資料。 HTML 內容可達 20 MB，單張圖片可達 50 MB。
 
   一旦你匯入了 GenStudio 體驗，你可以編輯匯入的創意內容的元資料（名稱、語言、標籤），但無法編輯創意內容。 如果你在 GenStudio 裡編輯 GenStudio 體驗，然後重新匯入 [!DNL Creative] 體驗以使用最新版本。
 
