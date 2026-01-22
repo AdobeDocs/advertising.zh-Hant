@@ -4,9 +4,9 @@ description: 瞭解如何使用Bulksheet檔案編輯多個投資組合的設定�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ ht-degree: 0%
 
 ## 下載包含投資組合設定的大量表單檔案
 
-1. 選取每個投資組合旁的核取方塊，以包含在大量表單中。
+1. （選擇性）選取每個投資組合旁的核取方塊，以包含在Bulksheet中。
 
-1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
+   如果您未選取特定產品組合，則可下載所有產品組合的設定。
+
+1. 在資料表格上方的工具列中，按一下：
+
+   * （適用於所有投資組合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**。
+
+   * （針對選取的投資組合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
 
 1. 輸入要建立的Bulksheet檔案名稱，然後按一下&#x200B;**[!UICONTROL Export Now]**。
 
@@ -79,6 +85,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [建立投資組合](portfolio-create.md)
 >* [（新UI）關於投資組合](portfolio-about.md)
