@@ -1,11 +1,11 @@
 ---
 title: 實施搜尋、社交和Commerce概觀
-description: 瞭解
+description: 瞭解啟動和維護投資組合的一般工作流程。
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ ht-degree: 0%
 
    * 如果帳戶尚未包含行銷活動資料，請從Search、Social和Commerce內或廣告網路內新增行銷活動、廣告群組、關鍵字、廣告和版位。
 
-     如需設定搜尋促銷活動的詳細資訊，請參閱「Campaign Management」的說明章節。
+     如需設定搜尋促銷活動的詳細資訊，請參閱「促銷活動管理」的說明章節。
 
 1. 設定您希望Adobe Advertising追蹤轉換之所有廣告的追蹤：
 
    1. （如有必要）透過產生及上傳點選追蹤URL來設定廣告的點選追蹤，以及選擇性地設定關鍵字、[!DNL Google Ads]位置和[!DNL Google Ads]副檔名的點選追蹤。
 
-      使用Adobe Advertising畫素型轉換追蹤服務的廣告商的點選追蹤URL包含重新導向至[!DNL Adobe]伺服器。
+      使用Adobe Advertising畫素式轉換追蹤服務的廣告商點選追蹤URL包含重新導向至[!DNL Adobe]伺服器。
 
    1. 設定轉換追蹤。 根據實作，這可能需要將轉換追蹤標籤新增到適當的網頁，和/或為您使用自己的方法收集的轉換資料設定每日摘要拖放功能。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 設定與其他產品的整合：
 
-   1. (使用Adobe Analytics和/或Adobe Audience Manager的廣告商)設定各種帳戶之間的整合，讓Adobe Advertising可以與其交換資料。
+   1. (使用Adobe Analytics和/或Adobe Audience Manager的廣告商)設定各種帳戶之間的整合，讓Adobe Advertising可以與他們交換資料。
 
       請參閱「[與Experience Cloud](/help/integrations/home.md)的整合」指南。
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 新增投資組合。
 
-如需有關監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理Portfolio」>「監控和管理效能」，可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
+如需有關監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理產品組合」>「監控和管理效能」，可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
