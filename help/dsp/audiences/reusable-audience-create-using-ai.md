@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 建立對象：
 
-   <!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->若使用者擁有測試版許可權，預設為AI選項。 若要[自行組合對象](/help/dsp/audiences/reusable-audience-create.md)，請按一下底部的「切換到手動模式」按鈕。
+   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->若使用者擁有測試版許可權，預設為AI選項。 若要[自行組合對象](/help/dsp/audiences/reusable-audience-create.md)，請按一下底部的「切換到手動模式」按鈕。
 
    1. 輸入一或多個提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
