@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### AI代理程式回應會要求您從多個選項中選擇
 
-&#39;您希望：
-1) 繼續此運算式，
-2) 取得最大的觸及率替代方案，或
-3) 要手動修改運算式嗎？
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
 
