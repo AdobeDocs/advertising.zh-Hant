@@ -4,9 +4,10 @@ description: 瞭解如何使用AI輔助受眾代理在Adobe Advertising DSP中�
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此功能目前處於Beta版模式，可能會有變動。 在建立對象並將其用於您的位置之前，請確定產生的對象運算式代表您想要的對象。
+
+## 使用產生AI建立可重複使用的對象
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
@@ -57,7 +60,7 @@ ht-degree: 0%
 
       您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。
 
-1. （如有必要）指定其他條件。 當AI代理程式呈現符合您所有條件的對象運算式時，請告訴AI代理程式繼續組裝對象。
+   1. （如有必要）指定其他條件。 當AI代理程式呈現符合您所有條件的對象運算式時，請告訴AI代理程式繼續組裝對象。
 
 1. 當您對集合的對象感到滿意時，請按一下「**[!UICONTROL Create]**」以建立指定的對象。
 
@@ -65,7 +68,7 @@ ht-degree: 0%
    >
    >您之後無法使用AI代理程式編輯對象。 請改用[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
 
-## 正在寫入提示 {#writing-prompts}
+## 寫入提示的基本知識 {#writing-prompts}
 
 ### 提示應包含哪些內容？
 
@@ -119,12 +122,10 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### AI代理程式回應會要求您從多個選項中選擇
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+&#39;您希望：
+1) 繼續此運算式，
+2) 取得最大的觸及率替代方案，或
+3) 要手動修改運算式嗎？
 
 您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
 
@@ -136,9 +137,7 @@ Would you like to:
 
 ### 有效受眾簡介的基本元件
 
-#### 對象屬性
-
-在簡報中包含下列清單中儘可能多的屬性型別。 指定有關要排除的屬性的特定資訊。
+在您的簡介中儘可能加入以下清單中的對象屬性型別。 指定有關要排除的屬性的特定資訊。
 
 <!-- What about these:
 
