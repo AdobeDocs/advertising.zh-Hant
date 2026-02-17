@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ ht-degree: 0%
 
       如需詳細資訊，請參閱[撰寫提示](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
 
-      當AI代理程式找到相關的區段時，就會根據您的條件建立對象運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。
+      當受眾代理程式找到相關的區段時，會根據您的條件建立受眾運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。
 
       您可以選擇忽略請求，然後繼續指定其他對象條件。
 
-   1. 當AI代理程式呈現足以描述您的對象的對象運算式時，請告訴AI代理程式繼續組裝對象。
+   1. 當受眾代理程式呈現的受眾運算式足以描述您的受眾時，請告訴受眾代理程式繼續組裝受眾。
 
       您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。
 
-   1. （如有必要）指定其他條件。 當AI代理程式呈現符合您所有條件的對象運算式時，請告訴AI代理程式繼續組裝對象。
+   1. （如有必要）指定其他條件。 當受眾代理程式呈現符合您所有條件的受眾運算式時，請告訴受眾代理程式繼續組裝受眾。
+
+      若要集合對象，請輸入「繼續」、「確定」、「是」或其他類似字詞。
 
 1. 當您對集合的對象感到滿意時，請按一下「**[!UICONTROL Create]**」以建立指定的對象。
 
    >[!NOTE]
    >
-   >您之後無法使用AI代理程式編輯對象。 請改用[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
+   >您之後無法再使用對象代理程式來編輯對象。 請改用[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
 
 ## 寫入提示的基本知識 {#writing-prompts}
 
@@ -74,7 +76,11 @@ ht-degree: 0%
 
 * 使用清楚的描述性語言來說明目標對象。
 
-  一般而言，提示不區分大小寫，除清楚表述外，不需要使用標點符號。
+   * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
+
+   * 一般而言，提示不區分大小寫。
+
+   * 對象代理程式會辨識最常見的同義字。
 
 * 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 您提供的詳細資料越多，取得符合您需求之結果的機會就越大。
 
@@ -83,6 +89,8 @@ ht-degree: 0%
 * 在儲存對象之前，會反複提供詳細資訊，以調整您的條件和產生的對象運算式。
 
 * 瞭解透過實驗進行提示。
+
+  如果您的提示不清楚，受眾代理只會要求另一個提示，以便您可以再試一次。
 
   對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域之外的[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * 英文以外的其他語言文字。
 
-### AI代理程式回應範例及回覆方式
+### 對象代理程式回應範例及回覆方式
 
-當AI代理程式需要您的回應時，您可以使用要求中的關鍵字或相當的常用詞匯進行回覆。
+當對象代理程式需要您的回應時，您可以使用請求中的關鍵字或使用常見同義字進行回覆。
 
-#### AI代理程式回應詢問您問題
+#### Audience Agent詢問您問題
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 您也可以忽略請求，改為繼續指定其他對象條件。
 
-#### AI代理程式回應會要求您從多個選項中選擇
+#### 受眾代理程式會要求您從多個選項中選擇
 
 `Would you like to:`
 `1) Proceed with this expression,`
