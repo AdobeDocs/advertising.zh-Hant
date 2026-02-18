@@ -2,9 +2,10 @@
 title: 管理摘要範本
 description: 瞭解如何管理摘要範本。
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-摘要範本會將摘要檔案/目錄中的欄位與Advertising Creative後端上的欄位進行對應。 動態HTML5廣告(而非靜態HTML5廣告)需要摘要範本才能建立動態廣告。
+摘要範本會將摘要檔案/目錄中的欄位與Advertising Creative後端上的欄位進行對應。 動態HTML5和影片廣告(但不是靜態HTML5廣告)需要摘要範本才能建立動態廣告。 您可以選擇下載並填入主摘要範本（[!UICONTROL Retail]和[!UICONTROL Adobe Creative Template]）。
 
 您可以使用具有多個廣告範本的摘要範本。
+
+>[!TIP]
+>
+>對於具有動態視訊的所有帳戶，最佳實務是[下載主要摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)、將資產檔案中的每個欄位對應到Advertising Creative後端上的欄位，然後重新命名並上傳摘要範本。 使用新的摘要範本以及資產檔案來[建立目錄](catalog-manage.md)。
 
 ## 建立摘要範本
 

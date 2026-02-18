@@ -3,9 +3,9 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * **動態創意：**&#x200B;您可以將廣告範本中的動態變數對應到摘要檔案中的值，藉此建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
 
-* **創意組合：**&#x200B;將創意分組為組合，以搭配定義的使用者目標用於多個體驗。 您可以建立包含標準顯示廣告的&#x200B;*標準顯示組合*、包含標準視訊廣告的&#x200B;*標準視訊組合*，以及包含動態產生之顯示廣告的&#x200B;*動態顯示組合*。
+* **創意組合：**&#x200B;將創意分組為組合，以搭配定義的使用者目標用於多個體驗。 您可以建立包含標準顯示廣告的&#x200B;*標準顯示組合*、包含標準視訊廣告的&#x200B;*標準視訊組合*、包含動態產生顯示廣告的&#x200B;*動態顯示組合*，以及包含動態產生視訊廣告的&#x200B;*動態視訊組合*。
 
 ## 支援的Creative格式 {#creative-creative-formats}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ##### HTML5創意
 
-* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
+* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[顯示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
 
   匯入GenStudio體驗後，您可以編輯已匯入創意的中繼資料（名稱、語言、標籤），但無法編輯創意內容。 如果您在GenStudio中編輯GenStudio體驗，請在[!DNL Creative]中重新匯入體驗以使用最新版本。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 #### 視訊創意 {#creative-video-specs}
 
-您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個標準視訊廣告體驗都需要為指派給體驗的每個創意期間提供預設的視訊創意。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[套用至任何視訊廣告體驗標籤。](/help/creative/experiences/experience-tag-video-transcoding.md)
+您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[套用至任何視訊廣告體驗標籤。](/help/creative/experiences/experience-tag-video-transcoding.md)
 
-請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
+請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
 **檔案型別：** .mov、.mp4、.webm
 
@@ -109,7 +109,17 @@ ht-degree: 0%
 
 ### 動態廣告的格式
 
-您可以將廣告範本中的動態變數對應至摘要檔案中的值，以動態方式產生靜態HTML5和動態HTML5格式的創意。 動態創意內容可能包括從舊版Adobe Advertising Dynamic Creative Optimization (DCO)體驗移轉過來的創意內容。
+您可以將廣告範本中的動態變數對應至摘要檔案中的值，以動態產生顯示或視訊創意。 動態創意內容可能包括從舊版Adobe Advertising Dynamic Creative Optimization (DCO)體驗移轉過來的創意內容。
+
+#### 動態顯示創意
+
+動態顯示創意內容採用HTML5格式，搭配GIF、JPG、JPEG或PNG格式的影像。
+
+#### 動態視訊創意
+
+動態視訊創作元素包含與標準視訊創作元素具有相同規格的視訊檔案。 請參閱&quot;[視訊創意](#creative-video-specs)&quot;。
+
+支援的廣告格式包括開始卡、結束卡、頂端覆蓋、底部覆蓋或L形。
 
 ## [!UICONTROL Creative Libraries]檢視
 

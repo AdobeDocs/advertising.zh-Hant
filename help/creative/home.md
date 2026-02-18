@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年1月21日 | Creative資料庫，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)的廣告商現在可以從GenStudio將顯示廣告體驗匯入您的創意資料庫。 匯入體驗中的每個創意變體都會匯入為單獨的HTML5創意內容。 您可以在您的Advertising Creative體驗中包含匯入的創意內容。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
+| 2026年2月18日 | 動態創意 | 您現在可以使用摘要來產生VAST相容的視訊廣告，以便用於CTV、網頁和行動應用程式。<ul><li>視訊廣告範本必須採用ZIP格式，並包含.scene檔案。</li><li>您的資產檔案必須包括MP4、MOV或WEBM格式的視訊資產。 支援的廣告範本包括開始卡片、結束卡片、頂端覆蓋、底部覆蓋或L形，以及每個視訊的持續時間必須介於1至90秒之間。 每個摘要檔案最多可處理500列視訊資產。</li><li>您的創意程式庫中，動態創意的設定現在包含包含選項為&quot;[!UICONTROL Creative Type]&quot;和&quot;[!UICONTROL Display]&quot;的[!UICONTROL Video]設定。 套件組合的設定也包含&quot;[!UICONTROL Dynamic Video]&quot;。</li><li>廣告體驗的設定也包含&quot;[!UICONTROL Dynamic Video]&quot;。</li><li>[!UICONTROL Custom Creative Report]現在包含各種視訊量度（例如曝光數、四分位元組以及靜音/取消靜音），以供摘要式視訊變化使用。</li></ul> | 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;、&quot;[將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)&quot;、&quot;[動態創意設定](/help/creative/creative-libraries/creative-settings-dynamic.md)&quot;以及&quot;[管理資產檔案](/help/creative/feeds/asset-manage.md)&quot;。 |
+| 2026年1月21日 | Creative資料庫，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)的廣告商現在可以從GenStudio將顯示廣告體驗匯入您的創意資料庫。 匯入體驗中的每個創意變體都會匯入為單獨的HTML5創意內容。 您可以在您的Advertising Creative體驗中包含匯入的創意內容。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 |  | 標準創意 | 建立影像和HTML5廣告的功能表選項現在已合併至單一「[!UICONTROL Standard Display]」選項，您也可以使用它從GenStudio匯入顯示廣告體驗。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年12月17日 | 警報 | [!UICONTROL Pulse Panel]檢視中的[!UICONTROL Experiences]圖示表示您的體驗是否有任何警報可用。 您可以開啟面板以檢視每個警報，並選擇開啟適用的體驗或創意，以便您視需要編輯它以解決問題。 您也可以選擇解除任何警報。<br><br>對於使用Advertising DSP的廣告商，從[!DNL Creative]個體驗建立的DSP位置相關警示可在DSP內的行銷活動層級取得。 | 請參閱&quot;[檢視警示](/help/creative/reports/alerts-view.md)&quot;。 |
 | 2025年11月26日 | Advertising Creative的成本報表 | (僅同時具有Advertising Creative和Advertising DSP的廣告商；測試版功能)新的[!UICONTROL All-in Cost]報告已移出Beta版，為一般可用功能。 | 請參閱&quot;[關於自訂報告](/help/creative/reports/reports-about.md)&quot;和&quot;[管理自訂報告](/help/creative/reports/report-manage.md)&quot;。 |

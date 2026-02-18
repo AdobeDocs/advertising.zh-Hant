@@ -2,9 +2,10 @@
 title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ ht-degree: 0%
 
 1. 指定[動態廣告設定](/help/creative/creative-libraries/creative-settings-dynamic.md)：
 
-   1. 指定基本廣告詳細資料。
+   1. 指定基本廣告細節，包括創意型別。
 
    1. 選取創意內容使用的廣告範本。
+
+      將HTML5廣告範本用於顯示廣告，並將視訊廣告範本用於視訊廣告。
 
    1. 選取製作廣告的來源目錄。
 

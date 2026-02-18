@@ -3,16 +3,16 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # 關於Advertising Creative 2.0中的體驗
 
-每個廣告體驗可包含一種廣告型別（標準顯示、標準視訊或動態顯示）。 [!DNL Advertising Creative 2.0]在單一創意資料庫中為廣告提供兩種不同的廣告體驗結構。
+每個廣告體驗可包含一種廣告型別（標準顯示、標準視訊、動態顯示或動態視訊）。 [!DNL Advertising Creative 2.0]在單一創意資料庫中為廣告提供兩種不同的廣告體驗結構。
 
 * **決策樹目標定位的體驗：** [!DNL Creative]可讓您使用決策樹模型，在整個客戶歷程中設定個人化的廣告體驗。 您可以根據目標受眾自訂所有廣告元素 — 影像、標題、選件和登陸頁面。
 

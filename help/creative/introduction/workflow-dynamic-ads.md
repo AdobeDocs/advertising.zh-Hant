@@ -2,9 +2,10 @@
 title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->* HTML5格式的廣告範本
+>* 廣告範本：顯示廣告範本(包含HTML5檔案的ZIP檔案)或視訊廣告範本（包含.scene檔案的ZIP檔案）
 >* CSV、TSV或Microsoft Excel試算表(XLSX)格式的產品目錄
 
-1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請上傳廣告範本和目錄。
+1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5和影片廣告，請上傳或選取現有的廣告範本和目錄。
 
 1. 針對廣告體驗使用動態創意內容：
 
@@ -44,25 +45,29 @@ ht-degree: 0%
 
 ## 工作流程2
 
-1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。 廣告範本包含具有所需廣告格式的HTML5檔案，以及具有廣告屬性的檔案(僅限動態HTML5廣告)。
+1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。 廣告範本必須是ZIP格式並包含：<!-- Need to add more specs for templates -->
+
+* 顯示創意：具有所需廣告格式的HTML5檔案，以及具有廣告屬性(.tdf)的檔案(僅限動態HTML5廣告)
+
+* 視訊創意：具有所需廣告格式的.scene檔案和具有廣告屬性(.tdf)的檔案
 
 1. 設定廣告元素：
 
    * (適用於單一靜態HTML5廣告)收集並[上傳廣告的影像資產](/help/creative/feeds/asset-manage.md)。
 
-   * (適用於動態HTML5廣告)建立廣告元素的目錄：
+   * (適用於動態HTML5和影片廣告)建立廣告元素的目錄：
 
-      1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中包含影像名稱。 單獨收集關聯的影像資產。
+      1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中加入影像或視訊名稱。 分別收集關聯的影像和視訊資產。
 
-      1. [上傳摘要檔案和影像資產](/help/creative/feeds/asset-manage.md)。
+      1. [上傳摘要檔案和資產](/help/creative/feeds/asset-manage.md)。
 
-      1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。
+      1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。 您可以選擇下載主摘要範本並填入與零售業<!-- and what is the creative template?-->相關的欄位。
 
       1. [從指定的摘要檔案和指定的摘要範本建立目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然後[處理目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以檢視可從中建立的廣告變化。
 
          您只能將每個摘要檔案用於一個目錄。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
+         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請使用指定的廣告範本和指定的目錄。
 

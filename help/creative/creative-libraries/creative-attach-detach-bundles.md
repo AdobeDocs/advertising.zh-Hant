@@ -3,9 +3,9 @@ title: 將創意內容附加至創意組合
 description: 瞭解如何將創意內容附加至創意套裝。
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-您可以將標準顯示創意附加至標準顯示組合，將標準視訊創意附加至標準視訊組合，以及將動態顯示創意附加至動態顯示組合，以便將其新增至[廣告體驗](/help/creative/experiences/experience-about.md)。 每個組合只能包含每個\[創意大小或持續時間+語言\]組合之一。
+您可以將標準顯示創意附加至標準顯示組合，將標準視訊創意附加至標準視訊組合，將動態顯示創意附加至動態顯示組合，以及將動態視訊創意附加至動態視訊組合，如此一來，您就可以將其新增至[廣告體驗](/help/creative/experiences/experience-about.md)。 每個組合只能包含每個\[創意大小或持續時間+語言\]組合之一。
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

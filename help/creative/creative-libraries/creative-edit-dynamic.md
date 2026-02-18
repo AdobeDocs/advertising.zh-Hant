@@ -2,9 +2,10 @@
 title: 在創意內容庫中編輯動態創意內容
 description: 瞭解如何在創意內容庫中編輯動態創意內容。
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * 變更內容：
 
-      * 若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
+      * （僅顯示廣告）若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
 
       * 若要將單一產品標示為預設<!--Explain what this means. -->，請將游標停留在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 

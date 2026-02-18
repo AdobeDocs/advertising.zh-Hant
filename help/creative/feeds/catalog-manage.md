@@ -2,18 +2,25 @@
 title: 管理摘要目錄
 description: 瞭解如何管理摘要目錄。
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # 管理摘要目錄
 
-已處理的摘要目錄是從指定的摘要檔案和指定的摘要範本建立的潛在廣告變化集。 動態HTML5廣告(但不是靜態HTML5廣告)需要目錄才能建立動態廣告。
+已處理的摘要目錄是從指定的摘要檔案和指定的摘要範本建立的潛在廣告變化集。 動態HTML5和影片廣告(但不是靜態HTML5廣告)需要目錄才能建立動態廣告。
 
 在您建立廣告變化並[將動態廣告新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)之前，請先處理目錄。 您稍後可以更新摘要檔案並重新處理目錄，以建立一組新的廣告變化。<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+每個摘要檔案最多可處理500列視訊資產。
+
+>[!TIP]
+>
+>對於具有動態視訊的所有帳戶，最佳實務是[下載主要摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)、將資產檔案中的每個欄位對應到Advertising Creative後端上的欄位，然後重新命名並上傳摘要範本。 使用新的摘要範本以及資產檔案來建立目錄。
 
 ## 建立目錄 {#feed-catalog-create}
 
