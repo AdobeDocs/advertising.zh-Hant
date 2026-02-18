@@ -3,7 +3,7 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 顯示廣告的瀏覽器供應商(例如Google或Mozilla)。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 顯示廣告的瀏覽器版本（例如[!UICONTROL Safari 4.3]或[!UICONTROL Chrome 7.0]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 顯示廣告的瀏覽器（例如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | 廣告是否顯示在&#x200B;*[!UICONTROL sites]*&#x200B;或&#x200B;*[!UICONTROL Apps]*&#x200B;上。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | 位置要定位的裝置環境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | 顯示廣告的裝置型別（例如[!UICONTROL Set Top Box]或[!UICONTROL Mobile Phone]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | 顯示廣告之裝置的製造商（例如[!UICONTROL Samsung]、[!UICONTROL Lenovo]或[!UICONTROL Apple]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | 顯示廣告的裝置型號（例如[!UICONTROL iPhone XS]或[!UICONTROL Galaxy Note 7]）。 |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | 使用者指派的位置名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | 位置預算。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | 此位置的最高出價。 |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | 位置要定位的裝置環境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | 位置結束日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | 刊登開始日期。 |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | 作為刊登版位自訂識別碼使用的刊登版位標籤。 |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | 與區段相關聯的資料提供者名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP中網站或應用程式的唯一識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 網站的名稱。 |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 廣告是否顯示在&#x200B;*[!UICONTROL sites]*&#x200B;或&#x200B;*[!UICONTROL Apps]*&#x200B;上。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | 上傳後處理的視訊長度。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSP中視訊創意的唯一識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | 使用者指派的創意內容名稱。 |
