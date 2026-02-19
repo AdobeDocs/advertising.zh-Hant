@@ -3,9 +3,9 @@ title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
       * 變更內容：
 
-         * 若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
+         * （僅顯示廣告）若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
 
          * 若要將單一產品標示為預設<!--Explain what this means. -->，請將游標停留在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 
