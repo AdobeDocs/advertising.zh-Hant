@@ -3,7 +3,7 @@ title: 管理摘要目錄
 description: 瞭解如何管理摘要目錄。
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->對於具有動態視訊的所有帳戶，最佳實務是[下載主要摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)、將資產檔案中的每個欄位對應到Advertising Creative後端上的欄位，然後重新命名並上傳摘要範本。 使用新的摘要範本以及資產檔案來建立目錄。
+>對於具有動態視訊的所有帳戶，最佳實務是[下載通用摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)、將資產檔案中的每個欄位對應到Advertising Creative後端上的欄位，然後重新命名並上傳摘要範本。 使用新的摘要範本以及資產檔案來建立目錄。
 
 ## 建立目錄 {#feed-catalog-create}
 

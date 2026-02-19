@@ -3,7 +3,7 @@ title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-     對於所有具有動態視訊的帳戶，最佳實務是搭配使用資產檔案和[主要摘要範本](catalog-manage.md)的復本[建立目錄[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，您可以在其中將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
+     對於所有具有動態視訊的帳戶，最佳實務是搭配使用[通用摘要範本](catalog-manage.md)的復本，使用資產檔案[建立目錄[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
 
    * 以MP4、MOV或WEBM格式關聯的視訊資產。 支援的廣告範本包括開始卡、結束卡、頂端覆蓋、底部覆蓋或L形。 每個視訊的持續時間必須介於1至90秒之間。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 

@@ -3,9 +3,9 @@ title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 0%
 
       1. [上傳摘要檔案和資產](/help/creative/feeds/asset-manage.md)。
 
-      1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。 您可以選擇下載主摘要範本並填入與零售業<!-- and what is the creative template?-->相關的欄位。
+      1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。 您可以選擇下載通用摘要範本，並填入與任何促銷活動型別相關的欄位。
 
       1. [從指定的摘要檔案和指定的摘要範本建立目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然後[處理目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以檢視可從中建立的廣告變化。
 
          您只能將每個摘要檔案用於一個目錄。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
+         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請使用指定的廣告範本和指定的目錄。
 
