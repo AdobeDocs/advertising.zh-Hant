@@ -67,7 +67,7 @@ ht-degree: 0%
 
          您只能將每個摘要檔案用於一個目錄。
 
-         您可以在[ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
+         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請使用指定的廣告範本和指定的目錄。
 
