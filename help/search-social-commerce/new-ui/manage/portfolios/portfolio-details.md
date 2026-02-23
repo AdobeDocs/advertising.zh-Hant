@@ -3,9 +3,10 @@ title: （新UI）檢視檢視產品組合績效詳細資料
 description: 瞭解如何檢視產品組合績效詳細資料，包括產品組合層級和每個指派行銷活動的實際和預測量度。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ ht-degree: 0%
 
    * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
+1. 按一下&#x200B;**[!UICONTROL Download report]**。
+
 ## 列出產品組合中的行銷活動
 
 * 按一下「**[!UICONTROL Campaigns]**」標籤。
@@ -104,8 +107,16 @@ ht-degree: 0%
 
 如需產品組合設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
+## 下載投資組合效能報表和投資組合元件清單
+
+1. 在工具列中按一下&#x200B;**[!UICONTROL Download report]**。
+
+1. 選取每個效能報表旁的核取方塊，並選取要納入的組合元件型別。
+
+   對於某些效能報表，您可以選擇將資料下載為購物車或表格。
+
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於投資組合](portfolio-about.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
