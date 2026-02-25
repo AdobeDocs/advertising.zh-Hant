@@ -3,9 +3,9 @@ title: 從行銷活動管理檢視將分類值指派給帳戶元件
 description: 瞭解如何將分類值指派給帳戶元件。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您某些廣告網路和行銷活動型別的關鍵字和廣告復本是[不可變動](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新的實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
+
+## （新UI）指派分類值給帳戶元件
+
+您可以將分類值指派給新UI中可用的任何適用帳戶元件。
+
+1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;功能表開啟實體檢視。
+
+1. 選取每個相關列旁的核取方塊。
+
+   如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+
+1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**。
+
+1. 請針對每個適用的分類值，執行下列動作：
+
+   1. 在&#x200B;**[!UICONTROL Classifications]**&#x200B;欄中指定分類：
+
+      * 若要使用現有的分類，請按一下分類名稱將其展開。
+
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+
+        名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
+
+   1. 在&#x200B;**[!UICONTROL Value Name]**&#x200B;欄中，指定所選分類的值：
+
+      * 若要使用現有值，請選取該值。
+
+      * 若要建立值，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入值，然後按一下![儲存](/help/search-social-commerce/assets/save-checkmark.png "儲存")，立即儲存值並依預設選取。
+
+        長度上限為100個字元，可包含ASCII和非ASCII字元。
+
+1. 按一下&#x200B;**+[!UICONTROL Assign Now]**。
+
+## （舊版UI）將分類值指派給帳戶元件
 
 1. 按一下「**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**」，然後選取帳戶元件檢視。
 
@@ -58,7 +92,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/select.png " [儲存] ")，立即儲存分類。
+      * 若要建立分類，請按一下[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/select.png " [儲存] ")，立即儲存分類。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 

@@ -3,7 +3,7 @@ title: 使用大量表單指派分類值給帳戶元件
 description: 瞭解如何使用大量表單將分類值指派給帳戶元件。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)，其中包含您要指派標籤分類值的實體：
 
-   * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]清單。
+   * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Campaign]窗格中的[!UICONTROL Bulksheet Columns]清單。
 
    * 展開[!UICONTROL Label Classification]清單。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    除了新增值之外，您也可以從相關列移除現有值以將其刪除。 若要從父項實體及其子項實體中移除值，請a)僅包含父項實體列，並移除現有的分類值，或b)同時包含父項實體及其子項實體，並從所有父項列與子項列移除現有的分類值。
 
-1. [上傳檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以建立關聯。
+1. [上傳檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以建立關聯。<!-- Update once the new bulksheet UI is GA -->
 
 上傳的標籤值會顯示在相關實體檢視中。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 此範例包含標籤分類「顏色」和「地理」的欄。 針對您自己的大量表單，將欄取代您自己的標籤分類名稱。
 
-| 帳戶 | Campaign | 廣告群組 | 關鍵字 | 廣告 | 位置 | 標籤 | 顏色 | 地理 |
+| 帳戶 | Campaign | 廣告群組 | 關鍵字 | 廣告 | 產品建議放置環境 | 標籤 | 顏色 | 地理 |
 |---|---|---|---|---|---|---|---|---|
 | Acct1 | C1 | | | | | | 綠色 | |
 | Acct1 | C1 | AG1 | | | | | | |

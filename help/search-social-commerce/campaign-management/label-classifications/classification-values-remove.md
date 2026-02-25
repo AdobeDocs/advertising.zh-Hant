@@ -3,9 +3,9 @@ title: 從帳戶元件中移除標籤分類值
 description: 瞭解如何移除標籤分類值與帳戶元件之間的關聯。
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要從標籤分類刪除值，請參閱&quot;[刪除標籤分類值](classification-values-delete.md)&quot;。
+
+## （新UI）從帳戶元件中移除標籤分類值
+
+您可以從新UI中可用的任何適用帳戶元件中移除分類值。
+
+1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;功能表開啟實體檢視。
+
+1. 選取每個相關列旁的核取方塊。
+
+   如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+
+1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
+
+1. 選取每個分類值旁的核取方塊，以從選取的實體中移除。<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   若要選取所有指派的值，請按一下&#x200B;**[!UICONTROL Select All]**。 若要取消選取所有指派的值，請按一下&#x200B;**[!UICONTROL Deselect All]**。
+
+1. 按一下&#x200B;**[!UICONTROL Unassign Selected]**。
+
+## （舊版UI）從帳戶元件中移除標籤分類值
 
 1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;中，選取實體檢視。
 

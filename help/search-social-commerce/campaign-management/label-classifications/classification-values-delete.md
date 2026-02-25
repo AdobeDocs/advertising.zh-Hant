@@ -3,9 +3,9 @@ title: 刪除標籤分類值
 description: 瞭解如何刪除標籤分類的值。
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要解除分類值與帳戶元件的關聯，請參閱&quot;[從行銷活動元件移除分類值](classification-values-remove.md)&quot;。
+
+## （新UI）刪除標籤分類值
+
+1. 按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
+
+1. 按一下「**[!UICONTROL Label Values]**」標籤。
+
+1. （選用）篩選清單以包含特定標籤值。
+
+1. 選取要刪除的每個標籤值旁的核取方塊。
+
+   您一次最多可以刪除200列。
+
+   如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+
+1. 在大量動作工具列中按一下![刪除](/help/search-social-commerce/assets/delete.png "刪除")。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+
+## （舊版UI）刪除標籤分類值
 
 1. 按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**。
 

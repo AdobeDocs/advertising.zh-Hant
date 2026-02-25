@@ -4,9 +4,9 @@ description: 瞭解投資組合。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 0%
 
 [!UICONTROL Portfolios]檢視會列出您現有的產品組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選資料以包含特定投資組合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
+在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。
+
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
 ### 可用動作
@@ -77,6 +79,8 @@ ht-degree: 0%
 * [編輯投資組合設定](portfolio-edit.md)
 
 * [使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
+
+* [檢視檢視中所有產品組合的效能圖表](portfolio-view-performance-graph.md)
 
 * [檢視投資組合績效詳細資料](portfolio-details.md)
 
