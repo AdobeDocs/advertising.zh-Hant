@@ -3,16 +3,14 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # 管理廣告網路帳戶
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 以下為建立和編輯廣告網路帳戶詳細資料、重新整理帳戶的[!DNL oAuth]權杖以及停用帳戶的指示。
 
@@ -21,6 +19,8 @@ ht-degree: 0%
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
+
+如需在新UI中管理廣告網路帳戶的指示，請參閱&quot;[（新UI）透過API連線管理廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)&quot;。
 
 ## 建立廣告網路帳戶詳細資料 {#create-account}
 
