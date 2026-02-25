@@ -49,7 +49,7 @@ ht-degree: 0%
 
 資料必須符合廣告網路的資料要求，因此每個實體的資料欄位可能會因廣告網路而異。
 
-1. <!-- For all ad networks (excluding DSP), -->以下列其中一種方式上傳單一帳戶的初始資料：
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->以下列其中一種方式上傳單一帳戶的初始資料：
 
 * 從您的裝置或網路手動上傳檔案。
 
