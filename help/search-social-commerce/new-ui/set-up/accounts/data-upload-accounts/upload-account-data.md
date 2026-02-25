@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-# 將帳戶資料上傳至[!DNL Amazon] [!DNL S3]貯體 {#data-upload-s3}
+&#x200B;# 將帳戶資料上傳至[!DNL Amazon] [!DNL S3]貯體 {#data-upload-s3}
 
 您可以將資料上傳至[!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])貯體中的搜尋、社交和Commerce指派資料夾，藉此將促銷活動內容和成本、點選和轉換資料填入帳戶。
 
