@@ -201,7 +201,7 @@ ht-degree: 0%
 >* 如果您從[!UICONTROL Standard]切換至[!UICONTROL Token] （或反之），則必須重新產生帳戶的追蹤URL。
 >* 您可以在行銷活動層級覆寫帳戶層級設定。
 
-**[!UICONTROL Auto Update]：** (啟用搜尋、社交和Commerce追蹤時)將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[和](/help/integrations/analytics/ids.md#amo-id)帳戶的[!DNL Google Ads]AMO ID引數[!DNL Microsoft Advertising]。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
+**[!UICONTROL Auto Update]：** (啟用搜尋、社交和Commerce追蹤時)將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[和](/help/integrations/analytics/ids.md#amo-id)帳戶的[!DNL Google Ads]AMO ID引數[!DNL Microsoft Advertising]。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
 
 追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式將處理未來的變更。
 
