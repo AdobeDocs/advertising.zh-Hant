@@ -2,9 +2,10 @@
 title: 設定用於資料上載的廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，編輯帳戶詳細資料。
 
-   1. (具有[[!DNL Adobe Analytics for Advertising]整合] (/help/integrations/analytics/overview.md)的廣告商)按一下「**[!UICONTROL Set up Adobe Analytics]**」標籤，然後編輯[!DNL Analytics]報告套裝，以用於追蹤和報告行銷活動活動。
+   1. （具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商）按一下「**[!UICONTROL Set up Adobe Analytics]**」標籤，然後編輯[!DNL Analytics]報告套裝，以用於追蹤和報告行銷活動活動。
 
    1. （選擇性）在&#x200B;**[!UICONTROL Upload File]**&#x200B;索引標籤上，上傳帳戶的資料檔案。
 
