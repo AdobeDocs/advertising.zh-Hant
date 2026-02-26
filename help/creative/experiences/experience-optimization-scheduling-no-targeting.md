@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何在不鎖定目標的情況下為體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Creative Optimization]**。&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
 1. 選取關聯套件組合中廣告變體的創意輪換型別：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 若要將相等權重套用至所有關聯的組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的目標，更頻繁地顯示最有效的廣告變體。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![廣告排程](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
 
 1. 啟用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -74,11 +74,11 @@ ht-degree: 0%
 
    1. 在左欄中，選取每個要新增至第一個排程的創意內容旁的核取方塊。
 
-   1. 指定排程的開始和結束日期。
+   1. 指定排程的開始日期和開始時間，以及結束日期和結束時間。
 
    1. 選取創意旋轉型別：
 
-      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 所有選取創意的權重加起來最多必須為100。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉創意。 以百分比輸入每個創意內容的權重。 若要將相等權重套用至排程中的所有組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選取創意的權重加起來最多必須為100。
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 

@@ -3,7 +3,7 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 7031347edb4491a91d622c0357ea2d3fb63f0a8a
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -55,9 +55,9 @@ ht-degree: 0%
 
            如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
 
-         * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
-
          * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+
+         * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
 
 1. （可選）在決策樹和一般設定之間切換：
 

@@ -3,7 +3,7 @@ title: 建立不含決策樹定位的體驗
 description: 瞭解如何在不鎖定目標的情況下建立廣告體驗。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
      將創意內容指派給廣告標籤，而非在體驗設定中指派。
 
-   * [自訂追蹤URL](experience-tracking-urls-no-targeting.md)
-
    * [自訂創意最佳化與排程](experience-optimization-scheduling-no-targeting.md)。
+
+   * [自訂追蹤URL](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >

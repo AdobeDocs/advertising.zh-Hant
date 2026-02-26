@@ -3,9 +3,9 @@ title: 指派和取消指派創意套件組合至體驗中的最終節點
 description: 瞭解如何將創意內容指派給廣告體驗中的每個目標。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * （沒有創意的最終節點）在節點底下，按一下[新增] ![](/help/creative/assets/add.png "[新增] ")，然後選取&#x200B;**[!UICONTROL Assign Bundles]**。
+   * （沒有創意的最終節點）在節點底下，按一下&#x200B;**[!UICONTROL Assign Bundles]**。
 
-   * （具有現有創意的節點）將游標停留在目標節點<!-- wording???? -->下方的創意組合方塊上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+   * （具有現有創意的節點）將游標停留在目標節點下方的創意組合方塊上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
 
 1. 選取要指派給目標節點的每個束旁的核取方塊，並取消選取要取消指派的每個束旁的核取方塊。
 
    只會列出體驗（標準或動態）的相關套件組合型別的套件組合。
 
-1. 按一下&#x200B;**[!UICONTROL Attach to Bundles]**。
-
-1. （選擇性） [自訂指派的組合中創作的追蹤URL](experience-tracking-urls-targeting.md)。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 1. （選擇性） [自訂指派的組合之創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+
+1. （選擇性） [自訂指派的組合中創作的追蹤URL](experience-tracking-urls-targeting.md)。
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

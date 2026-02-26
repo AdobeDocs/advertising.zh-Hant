@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何針對目標體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ ht-degree: 0%
 
 停用創意排程時，創意最佳化設定會套用至所有指派的創意內容。
 
-1. 將游標停留在目標節點下方的創意葉節點上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**。
+1. 當您[建立](experience-create-targeting.md)或[編輯](experience-edit-targeting.md)體驗時，請開啟創意最佳化設定：
+
+   1. 將游標停留在目標節點下方的創意葉節點上，並執行下列動作：
+
+      * 針對現有組合，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+      * 針對新組合，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;並[指派組合](experience-assign-creative-bundles.md)。
+
+1. 按一下「**[!UICONTROL Creative Optimization]**」標籤。
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
 1. 選取關聯套件組合中廣告變體的創意輪換型別：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 若要將相等權重套用至所有關聯的組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的目標，更頻繁地顯示最有效的廣告變體。
 
@@ -54,7 +62,15 @@ ht-degree: 0%
 
 使用排程時，必須在體驗期間排程組合。
 
-1. 將游標停留在目標節點下方的創意葉節點上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**。
+1. 當您[建立](experience-create-targeting.md)或[編輯](experience-edit-targeting.md)體驗時，請開啟創意最佳化設定：
+
+   1. 將游標停留在目標節點下方的創意葉節點上，並執行下列動作：
+
+      * 針對現有組合，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+      * 針對新組合，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]**&#x200B;並[指派組合](experience-assign-creative-bundles.md)。
+
+1. 按一下「**[!UICONTROL Creative Optimization]**」標籤。
 
 1. 啟用&#x200B;**[!UICONTROL Schedule]**。
 
@@ -62,11 +78,11 @@ ht-degree: 0%
 
    1. 在左欄中，選取要新增至第一個排程的每個創意套件組合旁的核取方塊。
 
-   1. 指定排程的開始和結束日期。
+   1. 指定排程的開始日期和開始時間，以及結束日期和結束時間。
 
    1. 選取創意旋轉型別：
 
-      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 所有選定套裝的重量最多必須相加100個。
+      * *[!UICONTROL Weighted]：*&#x200B;根據相對權重手動旋轉每個組合中的創意。 以百分比輸入每個束的重量。 若要將相等權重套用至排程中的所有組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選定套裝的重量最多必須相加100個。
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標，以演演算法方式旋轉每個組合中的創意。
 
