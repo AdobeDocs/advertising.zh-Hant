@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Advertising Creative指南
 user-guide-description: 瞭解使用Advertising Creative所需的主要功能、工作、設定和其他資源。
-breadcrumb-title: Creative指南
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+breadcrumb-title: Creative 指南
+source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
+   + [對消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -58,8 +58,8 @@ ht-degree: 0%
             + [刪除目標節點或創意葉節點](/help/creative/experiences/experience-target-node-delete.md)
          + Creative套件組合與創意 {#bundles}
             + [指派和取消指派創意套件組合至最終節點](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [自訂創意作品的追蹤URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [自訂創意最佳化和排程](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [自訂創意作品的追蹤URL](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + 未鎖定目標的體驗 {#experience-nontargeted}
       + [建立體驗而不進行目標定位](/help/creative/experiences/experience-create-no-targeting.md)
       + [編輯體驗而不進行目標定位](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -67,8 +67,8 @@ ht-degree: 0%
       + 廣告標籤和創意內容{#non-targeted-creatives}
          + [手動建立適用創意大小的廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)
          + [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [自訂體驗的追蹤URL而不鎖定目標](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
          + [針對體驗自訂創意最佳化和排程，而不需要鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [自訂體驗的追蹤URL而不鎖定目標](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
    + [複製體驗](/help/creative/experiences/experience-clone.md)
    + [預覽體驗](/help/creative/experiences/experience-preview.md)
    + [自訂視訊廣告體驗標籤的轉碼選項](/help/creative/experiences/experience-tag-video-transcoding.md)
@@ -93,4 +93,4 @@ ht-degree: 0%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
