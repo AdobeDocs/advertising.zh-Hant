@@ -1,7 +1,7 @@
 ---
 title: 上傳離線帳戶資料以用於報表和模擬
 description: 瞭解如何手動上傳離線帳戶資料或上傳至 [!DNL Amazon] [!DNL S3]儲存貯體，以支援報告和模擬。 記錄檔會追蹤上載工作的進度。
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-&#x200B;# 將帳戶資料上傳至[!DNL Amazon] [!DNL S3]貯體 {#data-upload-s3}
+## 將帳戶資料上傳至[!DNL Amazon] [!DNL S3]貯體 {#data-upload-s3}
 
 您可以將資料上傳至[!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])貯體中的搜尋、社交和Commerce指派資料夾，藉此將促銷活動內容和成本、點選和轉換資料填入帳戶。
 
