@@ -2,9 +2,10 @@
 title: 動態廣告摘要檔案的可用欄位
 description: 瞭解您可以在用於建立動態廣告的摘要檔案中包含的欄位。
 feature: Creative Dynamic Creatives
-source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
+exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
+source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,37 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 | 欄位名稱 | 資料型別 | 必填？ |
 |------------|-----------|-----------|
-| PART_NUM | varchar(64) | 是 |
-| PRODUCT_NAME | 文字 | 否 |
-| PRODUCT_URL | 文字 | 否 |
-| 價格 | decimal(10,2) | 否 |
+| AD_SIZE | varchar(32) | 否 |
+| ADDITIONAL_PRICE_1 | decimal(10,2) | 否 |
+| ADDITIONAL_PRICE_2 | decimal(10,2) | 否 |
+| ADDITIONAL_PRICE_3 | decimal(10,2) | 否 |
+| 區域代碼 | 文字 | 否 |
+| AUDIENCE_SEGMENT | 文字 | 否 |
+| AUDIO_1 | varchar(1024) | 否 |
+| AUDIO_2 | varchar(1024) | 否 |
+| AUDIO_3 | varchar(1024) | 否 |
+| AUDIO_4 | varchar(1024) | 否 |
+| AUDIO_5 | varchar(1024) | 否 |
+| 城市 | 文字 | 否 |
+| 國家 | 文字 | 否 |
+| Creative_ATTRIBUTE_1 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_2 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_3 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_4 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_5 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_6 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_7 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_8 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_9 | varchar(256) | 否 |
+| Creative_ATTRIBUTE_10 | varchar(256) | 否 |
+| DATAPASS_FILTER_1 | 文字 | 否 |
+| DATAPASS_FILTER_2 | 文字 | 否 |
+| DATAPASS_FILTER_3 | 文字 | 否 |
+| DATAPASS_FILTER_4 | 文字 | 否 |
+| DATAPASS_FILTER_5 | 文字 | 否 |
 | DISCOUNT_PRICE | decimal(10,2) | 否 |
+| DMA | 文字 | 否 |
 | 影像 | varchar(1024) | 否 |
-| IMAGE_HEIGHT | int | 否 |
-| IMAGE_WIDTH | int | 否 |
 | IMAGE_1 | varchar(1024) | 否 |
 | IMAGE_2 | varchar(1024) | 否 |
 | IMAGE_3 | varchar(1024) | 否 |
@@ -57,6 +81,21 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | IMAGE_8 | varchar(1024) | 否 |
 | IMAGE_9 | varchar(1024) | 否 |
 | IMAGE_10 | varchar(1024) | 否 |
+| IMAGE_HEIGHT | int | 否 |
+| IMAGE_WIDTH | int | 否 |
+| IS_DEFAULT | 列舉 | 否 |
+| 語言 | 文字 | 否 |
+| PART_NUM | varchar(64) | 是 |
+| 價格 | decimal(10,2) | 否 |
+| PRODUCT_NAME | 文字 | 否 |
+| PRODUCT_URL | 文字 | 否 |
+| PROFILE_FILTER_1 | 文字 | 否 |
+| PROFILE_FILTER_2 | 文字 | 否 |
+| PROFILE_FILTER_3 | 文字 | 否 |
+| PROFILE_FILTER_4 | 文字 | 否 |
+| PROFILE_FILTER_5 | 文字 | 否 |
+| 排名 | int | 否 |
+| 狀態 | 文字 | 否 |
 | TEXT_1 | 文字 | 否 |
 | TEXT_2 | 文字 | 否 |
 | TEXT_3 | 文字 | 否 |
@@ -72,39 +111,12 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | TEXT_13 | 文字 | 否 |
 | TEXT_14 | 文字 | 否 |
 | TEXT_15 | 文字 | 否 |
-| ADDITIONAL_PRICE_1 | decimal(10,2) | 否 |
-| ADDITIONAL_PRICE_2 | decimal(10,2) | 否 |
-| ADDITIONAL_PRICE_3 | decimal(10,2) | 否 |
-| AD_SIZE | varchar(32) | 否 |
-| 排名 | int | 否 |
-| 國家 | 文字 | 否 |
-| 狀態 | 文字 | 否 |
-| 城市 | 文字 | 否 |
+| VIDEO_1 | varchar(1024) | 否 |
+| VIDEO_2 | varchar(1024) | 否 |
+| VIDEO_3 | varchar(1024) | 否 |
+| VIDEO_4 | varchar(1024) | 否 |
+| VIDEO_5 | varchar(1024) | 否 |
 | ZIP | 文字 | 否 |
-| DMA | 文字 | 否 |
-| PROFILE_FILTER_1 | 文字 | 否 |
-| PROFILE_FILTER_2 | 文字 | 否 |
-| PROFILE_FILTER_3 | 文字 | 否 |
-| PROFILE_FILTER_4 | 文字 | 否 |
-| PROFILE_FILTER_5 | 文字 | 否 |
-| DATAPASS_FILTER_1 | 文字 | 否 |
-| DATAPASS_FILTER_2 | 文字 | 否 |
-| DATAPASS_FILTER_3 | 文字 | 否 |
-| DATAPASS_FILTER_4 | 文字 | 否 |
-| DATAPASS_FILTER_5 | 文字 | 否 |
-| AUDIENCE_SEGMENT | 文字 | 否 |
-| 語言 | 文字 | 否 |
-| Creative_ATTRIBUTE_1 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_2 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_3 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_4 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_5 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_6 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_7 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_8 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_9 | varchar(256) | 否 |
-| Creative_ATTRIBUTE_10 | varchar(256) | 否 |
-| IS_DEFAULT | 列舉 | 否 |
 
 >[!MORELIKETHIS]
 >
