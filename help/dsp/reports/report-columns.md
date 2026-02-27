@@ -3,9 +3,9 @@ title: 可用報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的總和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 其他費用的每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | 其他服務費用（協力廠商驗證合作夥伴、廣告服務等）的總淨成本。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | 點按總數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | 點按次數百分比除以曝光數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | 已投放廣告的互動次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | 已投放廣告的互動百分比除以曝光數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | 曝光總數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | 創意已成功符合預期媒體/詳細目錄或對象的曝光次數（或事件）比例。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | 歸因於特定產品的總點按。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | 歸因至特定產品的總轉換次數。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions]除以[!UICONTROL Product Impressions]歸因於特定產品。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks]除以[!UICONTROL Product Impressions]歸因於特定產品。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | 歸因於特定產品的曝光總數。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | 歸因於特定產品的總收入。 當您的創意人員顯示多個產品（例如，在輪播廣告中）時，請依產品使用。 |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | 總收入。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 觀看整個廣告的檢視百分比。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 觀看整個廣告的檢視次數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 觀看整個廣告的可檢視曝光數百分比。 |
