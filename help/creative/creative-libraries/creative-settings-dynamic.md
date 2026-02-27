@@ -3,9 +3,9 @@ title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]：**&#x200B;要建立廣告的創意內容庫。 如果您是從[!UICONTROL Creatives] > [!UICONTROL Creative Libraries]內建立廣告，則資料庫名稱已經選取且是唯讀的。
 
-**[!UICONTROL Ad Template Size]：** （僅限動態顯示廣告）要從中建立廣告之廣告範本的[廣告維度](/help/creative/creative-libraries/creative-sizes.md)。 如果您先選取特定[!UICONTROL Ad Template]，則會自動選取此值。
-
 ## 廣告範本
 
 **[!UICONTROL Ad Template]：**&#x200B;用來建立廣告的廣告範本。 選取現有的廣告範本，或上傳新的廣告範本，然後選取範本型別（*靜態*&#x200B;或&#x200B;*動態*）。 範本必須是ZIP格式並包含：<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 若要繼續，請按一下&#x200B;**[!UICONTROL Select Ad Template]**。
 
+**[!UICONTROL Size]：** （僅限動態顯示廣告；唯讀）用來建立廣告的所選廣告範本的[廣告維度](/help/creative/creative-libraries/creative-sizes.md)。
+
 **[!UICONTROL Card Count (Max 50)]：** （僅限顯示廣告）轉盤中顯示的產品數量。
 
 **[!UICONTROL Duration]：** （僅限視訊廣告；唯讀）從選取的廣告範本衍生的視訊持續時間。 每個視訊的持續時間必須介於1至90秒之間。
 
 ## 目錄
-
-**[!UICONTROL Template]：**&#x200B;用來建立廣告的摘要範本。
 
 **\[Catalogs\]**：要從中產生廣告的一或多個目錄。 選取現有目錄，或下載現有摘要範本並建立及上傳新目錄來建立新目錄。 按一下&#x200B;**[!UICONTROL Select Catalog]**。
 
