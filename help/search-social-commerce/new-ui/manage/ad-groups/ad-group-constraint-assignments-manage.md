@@ -83,4 +83,4 @@ ht-degree: 0%
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派
+>[管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派
