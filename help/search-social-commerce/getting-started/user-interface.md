@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Conversions]檢視。
 
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Constraints]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。
 
@@ -62,13 +62,15 @@ ht-degree: 0%
 
    * **[!UICONTROL Campaigns]：**&#x200B;開啟新的[!UICONTROL Campaigns]檢視，其中顯示廣告商的所有行銷活動。 您可以將行銷活動指派給產品組合，並管理選定行銷活動的限制指派。 您也可以下載資料表格內容的報表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
+     若要建立、編輯和刪除行銷活動，請按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Ad Groups]：**&#x200B;開啟新的[!UICONTROL Ad Groups]檢視，其中顯示廣告商的所有廣告群組。 您可以管理所選廣告群組的限制指派。 您也可以下載資料表格內容的報表。
 
-     若要建立、編輯和刪除行銷活動，請按一下主功能表中的&#x200B;**[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;或按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)，以返回舊版使用者介面。
+     若要建立、編輯和刪除行銷活動，請按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Ads]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Ads]**&#x200B;開啟新的[!UICONTROL Ads]檢視，其中顯示廣告商的所有廣告。 您可以管理所選廣告的限制指派。
+
+     若要建立、編輯和刪除廣告，請按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 * **[!UICONTROL Reports]**&#x200B;子功能表：
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Creatives]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
 
-   * **[!UICONTROL Extensions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Extensions]**&#x200B;開啟您現有廣告擴充功能的唯讀檢視。 若要管理您的擴充功能，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Shopping]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。<!-- Should this go to Campaigns > Products? -->
 
