@@ -1,17 +1,16 @@
 ---
-title: 管理廣告群組的限制指派
-description: 瞭解如何將限制指派給廣告群組。
+title: 管理關鍵字的限制指派
+description: 瞭解如何將限制指派給關鍵字。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# （新UI）管理廣告群組的限制指派
+# （新UI）管理關鍵字的限制指派
 
 *Beta功能*
 
@@ -21,11 +20,18 @@ ht-degree: 0%
 
 取消指定限制會移除與帳號元件及其所有子元件的關聯，且這些元件無法再使用該限制的報表資料。 取消指定限制並不會刪除限制或帳戶元件本身。
 
-## 從新[!UICONTROL Ad Groups]檢視指派限制給選取的廣告群組
+>[!NOTE]
+>
+>* 如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
+>* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 若競標單位位於作用中產品組合、混合產品組合或不在產品組合中，則會忽略這些專案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+## 從新[!UICONTROL Keywords]檢視指派限制給選取的廣告
 
-1. 選取您要將單一限制指定至的每個廣告群組旁的核取方塊。
+您可以將單一限制指派給一或多個行銷活動。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
+
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤上，選取您要指派單一限制的每個關鍵字旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -53,11 +59,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從新[!UICONTROL Ad Groups]檢視取消指派所選廣告群組的限制
+## 從新[!UICONTROL Ads]檢視取消指派所選行銷活動的限制
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
 
-1. 選取每個廣告群組旁的核取方塊，您會從中取消指派限制。
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤上，選取每個要取消指派限制之關鍵字旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -82,5 +88,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派

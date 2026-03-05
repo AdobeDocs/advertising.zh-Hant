@@ -4,9 +4,9 @@ description: 瞭解如何將限制指派給行銷活動。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,4 @@ ht-degree: 0%
 >
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+[管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派

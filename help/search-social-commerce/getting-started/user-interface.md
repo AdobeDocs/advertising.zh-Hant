@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Target]**&#x200B;子功能表：
 
-   * **[!UICONTROL Audience]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。
+   * **[!UICONTROL Audience]**：開啟新的[!UICONTROL Audiences]檢視，其中顯示該廣告商的所有現有對象。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Keywords]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Keywords]**&#x200B;開啟新的[!UICONTROL Keywords]檢視，其中顯示廣告商的現有關鍵字和負關鍵字。 您可以管理所選關鍵字的限制指定。
+
+     若要建立、編輯和刪除關鍵字和負關鍵字，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Placements]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
 
