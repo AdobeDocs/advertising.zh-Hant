@@ -4,9 +4,9 @@ description: 瞭解如何將限制指派給廣告群組。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)

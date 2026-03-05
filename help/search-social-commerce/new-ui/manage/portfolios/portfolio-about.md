@@ -4,9 +4,9 @@ description: 瞭解投資組合。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]檢視
 
-[!UICONTROL Portfolios]檢視會列出您現有的產品組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選資料以包含特定投資組合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選資料以包含特定投資組合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
 在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。
 

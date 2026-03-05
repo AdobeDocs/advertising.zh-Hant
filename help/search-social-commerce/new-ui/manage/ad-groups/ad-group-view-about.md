@@ -4,9 +4,9 @@ description: 瞭解您可以在[!UICONTROL Ad Groups]檢視中執行哪些操作
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,18 @@ ht-degree: 0%
 
 *Beta功能*
 
-[!UICONTROL Manage] > [!UICONTROL Ad Groups]檢視會列出您帳戶中的所有廣告群組。
-
-在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視內指定日期範圍內所有廣告群組的量度。
+[!UICONTROL Manage] > [!UICONTROL Ad Groups]檢視會列出所選廣告商帳戶之篩選檢視中的所有廣告群組。
 
 ## 可用動作
 
-* [在檢視表中檢視所有廣告群組的效能圖表](ad-group-view-performance-graph.md)
+<!-- Not available as of 3/4/26:
+
+* [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
+-->
+
+* 從列重新命名廣告群組。
+
+* 從列中刪除或變更廣告群組的狀態。
 
 * [將限制指派給廣告群組，並從廣告群組取消指派限制](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 

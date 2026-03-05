@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Conversions]檢視。
 
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。
 
    * **[!UICONTROL Constraints]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。
 
