@@ -3,9 +3,9 @@ title: 管理關鍵字的限制指派
 description: 瞭解如何將限制指派給關鍵字。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從新[!UICONTROL Ads]檢視取消指派所選行銷活動的限制
+## 從新[!UICONTROL Keywords]檢視取消指派所選行銷活動的限制
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
 
@@ -90,3 +90,4 @@ ht-degree: 0%
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
