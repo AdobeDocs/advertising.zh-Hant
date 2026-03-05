@@ -3,9 +3,9 @@ title: 使用者介面的組織方式
 description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ ht-degree: 0%
 
      若要建立、編輯和刪除關鍵字和負關鍵字，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Placements]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Placements]**&#x200B;開啟新的[!UICONTROL Placements]檢視，其中顯示廣告商的現有版位和負面的版位。 您可以管理所選位置的限制指派。
+
+     若要建立、編輯和刪除版位和負面版位，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 * **[!UICONTROL Assets]**&#x200B;子功能表：
 
