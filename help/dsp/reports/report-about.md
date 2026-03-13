@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
+source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 * 預先設定的報表範本
 
-   * **[!UICONTROL All-in Cost BETA]**： (僅同時具有Advertising Creative和Advertising DSP的廣告商；測試版功能)使用此報表來檢視Advertising DSP有多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
+   * **[!UICONTROL All-in Cost]**： （僅具有Advertising Creative和Advertising DSP的廣告商）使用此報表可檢視Advertising DSP將多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
 
    * **[!UICONTROL Billing]：**&#x200B;使用此報告來瞭解關鍵計費量度，例如依行銷活動的媒體計費的支出量度。 無法針對通用ID的位置使用資料。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversion]：**&#x200B;請使用此報表，根據使用Adobe Advertising轉換追蹤擷取的轉換量度，瞭解行銷活動的執行狀況。 此報表包含多重接觸歸因。
 
-   * **[!UICONTROL Custom Creative]：** (僅具有Advertising Creative的廣告商)使用此報告可監控您Advertising Creative廣告體驗的效能。
+   * **[!UICONTROL Custom Creative]：** （僅具有Advertising Creative的廣告商）使用此報告可監控您Advertising Creative廣告體驗的效能。
 
    * **[!UICONTROL Device]：**&#x200B;使用此預先填入的範本，依裝置相關維度檢視關鍵量度。
 
