@@ -84,7 +84,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >有關設定和收集這些解決方案中段資料的資訊，請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[分析](https://experienceleague.adobe.com/docs/analytics.html)和[ [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文檔。
+  >有關設定和收集這些解決方案中段資料的資訊，請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[分析](https://experienceleague.adobe.com/docs/analytics.html)和[&#x200B; [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的文檔。
 
 ## 對象人數資料
 
