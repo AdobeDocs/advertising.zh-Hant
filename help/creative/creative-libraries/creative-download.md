@@ -3,9 +3,9 @@ title: 下載創意
 description: 瞭解如何將創意內容下載為ZIP檔案。
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ ht-degree: 0%
 >
 >* [將標準創意內容新增至創意內容庫](creative-add-standard.md)
 >* [預覽創意](creative-preview.md)
+>* [檢視創意內容的變更記錄](/help/creative/creative-libraries/creative-view-change-log.md)

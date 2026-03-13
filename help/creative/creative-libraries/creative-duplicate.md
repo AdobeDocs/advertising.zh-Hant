@@ -3,9 +3,9 @@ title: 複製創意
 description: 瞭解如何在創意內容庫中複製創意內容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ ht-degree: 0%
 >* [將標準創意內容新增至創意內容庫](creative-add-standard.md)
 >* [編輯標準創意](creative-edit-standard.md)
 >* [標準創意設定](creative-settings-standard.md)
+>* [檢視創意內容的變更記錄](/help/creative/creative-libraries/creative-view-change-log.md)

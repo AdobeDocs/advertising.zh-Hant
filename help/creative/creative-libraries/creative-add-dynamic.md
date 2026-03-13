@@ -3,9 +3,9 @@ title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->您必須先完成其他步驟(包括建立廣告範本、上傳資產，以及(動態HTML5廣告)建立摘要範本和目錄，才能將動態創意內容新增至創意程式庫。 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;。
+>您必須先完成其他步驟(包括建立廣告範本、上傳資產，以及（動態HTML5廣告）建立摘要範本和目錄，才能將動態創意內容新增至創意程式庫。 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;。
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -110,4 +110,5 @@ ht-degree: 0%
 >
 >* [動態創意設定](creative-settings-dynamic.md)
 >* [在創意內容庫中編輯動態創意內容](creative-edit-dynamic.md)
+>* [檢視創意內容的變更記錄](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)

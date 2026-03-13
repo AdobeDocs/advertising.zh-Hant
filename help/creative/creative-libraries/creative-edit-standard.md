@@ -3,16 +3,16 @@ title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # 在創意程式庫中編輯標準創意內容
 
-您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容<!-- or creative variations --> (只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方<!-- , or dynamic -->)。
+您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容<!-- or creative variations --> （只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方<!-- , or dynamic -->）。
 
 針對彈性的HTML5和靜態的HTML5創意內容，您可以上傳具有不同版面但屬性名稱集相同的新範本檔案。 對於簡單的HTML5創意內容，您可以上傳具有新屬性或影像的新範本，以編輯任何屬性或新增影像。 在所有情況下，範本都必須是ZIP格式的本機檔案，而且最大為2 MB。
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (僅限彈性的HTML5創意)您只能編輯單一創作的屬性。
+   >* （僅限彈性的HTML5創意）您只能編輯單一創作的屬性。
 
-1. (彈性的HTML5創意；選擇性)完成變更後，按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")以預覽新創意。
+1. （彈性的HTML5創意；選擇性）完成變更後，按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")以預覽新創意。
 
 1. 按一下&#x200B;**儲存**。
 
@@ -63,3 +63,4 @@ ht-degree: 0%
 >* [將標準創意內容新增至創意內容庫](creative-add-standard.md)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [預覽創意](/help/creative/creative-libraries/creative-preview.md)
+>* [檢視創意內容的變更記錄](/help/creative/creative-libraries/creative-view-change-log.md)
