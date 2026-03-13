@@ -1,16 +1,16 @@
 ---
-title: 編輯不含決策樹定位的體驗
-description: 瞭解如何編輯廣告體驗的設定而不鎖定目標。
+title: Edit an experience without decision tree targeting
+description: Learn how to edit the settings for an ad experience without targeting.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# 編輯不含決策樹定位的體驗
+# Edit an experience without decision tree targeting
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -22,16 +22,17 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[體驗設定](experience-settings-no-targeting.md)。
+1. Edit the [experience settings](experience-settings-no-targeting.md).
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
->* [非目標體驗的設定](experience-settings-no-targeting.md)
+>* [Settings for non-targeted experiences](experience-settings-no-targeting.md)
 >* [手動建立適用創意大小的廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)
 >* [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](experience-tag-assign-creatives.md)
->* [自訂體驗的追蹤URL而不鎖定目標](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
->* [自訂體驗的創意最佳化和排程，而不需要鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+>* [Customize the tracking URLs for an experience without targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+>* [Customize creative optimization and scheduling for an experience without targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [匯出並實作即時體驗的廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)
->* [建立沒有決策樹定位的體驗](experience-create-no-targeting.md)
+>* [Create an experience without decision tree targeting](experience-create-no-targeting.md)
+>* [檢視體驗的變更記錄](/help/creative/experiences/experience-view-change-log.md)

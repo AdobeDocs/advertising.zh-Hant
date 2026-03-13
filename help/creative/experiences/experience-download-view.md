@@ -3,9 +3,9 @@ title: 從[!UICONTROL Experiences]檢視下載資料
 description: 瞭解如何從[!UICONTROL Experiences]檢視匯出中繼資料。
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [關於Advertising Creative中的體驗](/help/creative/experiences/experience-about.md)
+>* [檢視體驗的變更記錄](/help/creative/experiences/experience-view-change-log.md)

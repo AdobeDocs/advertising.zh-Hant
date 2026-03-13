@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何在不鎖定目標的情況下為體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -127,3 +127,4 @@ ht-degree: 0%
 >* [手動建立適用創意大小的廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)
 >* [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](experience-tag-assign-creatives.md)
 >* [自訂沒有決策樹定位之體驗的追蹤URL](experience-tracking-urls-no-targeting.md)
+>* [檢視體驗的變更記錄](/help/creative/experiences/experience-view-change-log.md)

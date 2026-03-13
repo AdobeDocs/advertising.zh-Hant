@@ -1,24 +1,24 @@
 ---
-title: 建立不含決策樹定位的體驗
-description: 瞭解如何在不鎖定目標的情況下建立廣告體驗。
+title: 建立無決策樹目標的體驗
+description: 瞭解如何建立廣告體驗而不以目標為目標。
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# 建立不含決策樹定位的體驗
+# 建立無決策樹目標的體驗
 
-建立廣告體驗，而不使用目標定位。 每個體驗都可以使用來自單一創意資料庫的廣告。
+建立無目標廣告體驗。 每種體驗都可以使用單個創意庫的廣告。
 
 >[!NOTE]
 >
-> 建立非目標體驗後，您之後無法將其變更為使用不同工作流程的目標體驗。
+> 建立非目標體驗後，您以後無法將其更改為使用其他工作流的目標體驗。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
+1. 在主菜單中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create New Experience]**。
 
@@ -26,28 +26,29 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. （選用）繼續設定體驗：
+1. （可選）繼續配置體驗：
 
-   * [手動建立適用創意大小的廣告標籤](experience-tag-create-manually.md)。
+   * [手動為適用的創作大小建立廣告標籤](experience-tag-create-manually.md)。
 
-     然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
+     然後，您可以[導出廣告標籤並在{DSP1}中實現。](/help/creative/experiences/experience-tag-export.md)
 
-     [!DNL Creative]不會自動為非目標體驗建立廣告標籤。
+     [!DNL Creative]不會自動為非目標體驗建立ad標籤。
 
-   * [將創意內容指派給廣告標籤](experience-tag-assign-creatives.md)。
+   * [將創意分配給廣告標籤](experience-tag-assign-creatives.md)。
 
      將創意內容指派給廣告標籤，而非在體驗設定中指派。
 
-   * [自訂創意最佳化與排程](experience-optimization-scheduling-no-targeting.md)。
+   * [自定義創意優化和計畫](experience-optimization-scheduling-no-targeting.md)。
 
-   * [自訂追蹤URL](experience-tracking-urls-no-targeting.md)
+   * [自定義跟蹤URL](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >
->* [非目標體驗的設定](experience-settings-no-targeting.md)
->* [編輯沒有決策樹定位的體驗](experience-edit-no-targeting.md)
->* [手動建立適用創意大小的廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)
->* [將創意內容指派給體驗的廣告標籤，而不需鎖定目標](experience-tag-assign-creatives.md)
->* [自訂體驗的追蹤URL而不鎖定目標](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
->* [自訂體驗的創意最佳化和排程，而不需要鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
->* [匯出並實作即時體驗的廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)
+>* [非目標體驗設定](experience-settings-no-targeting.md)
+>* [編輯沒有針對決策樹的體驗](experience-edit-no-targeting.md)
+>* [手動為適用的創作大小建立廣告標籤](/help/creative/experiences/experience-tag-create-manually.md)
+>* [將創意分配給廣告標籤，以獲得無目標體驗](experience-tag-assign-creatives.md)
+>* [自定義跟蹤URL以獲得無目標體驗](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+>* [自定義創意優化和計畫以獲得無目標體驗](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+>* [導出並實現即時體驗的廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)
+>* [查看體驗更改日誌](/help/creative/experiences/experience-view-change-log.md)

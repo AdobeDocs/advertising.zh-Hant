@@ -3,9 +3,9 @@ title: 指派和取消指派創意套件組合至體驗中的最終節點
 description: 瞭解如何將創意內容指派給廣告體驗中的每個目標。
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [編輯決策樹定位的體驗](experience-edit-targeting.md)
 >* [目標體驗設定](experience-settings-targeting.md)
 >* [匯出並實作即時體驗的廣告體驗標籤](experience-tag-export.md)
+>* [檢視體驗的變更記錄](/help/creative/experiences/experience-view-change-log.md)
