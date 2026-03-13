@@ -25,14 +25,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hant).
 -->
 
 ## 連絡人[!DNL Adobe]
 
 若為產品或帳戶問題，請執行下列動作：
 
-* （具有自助服務合約的廣告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開立票證。
+* （具有自助服務合約的廣告商）在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開立票證。
 
   針對產品，選取&quot;[!UICONTROL Advertising - DSP]&quot;。
 
