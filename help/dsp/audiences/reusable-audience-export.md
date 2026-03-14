@@ -3,16 +3,16 @@ title: 匯出關於可重複使用對象的詳細資料
 description: 瞭解如何檢視可重複使用對象的設定、對象人數和鎖定位置。
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1e573c443cff2db2cd59ad8a77ab47a3cdd93e07
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # 匯出關於可重複使用對象的詳細資料
 
-您可以下載[!DNL Microsoft Excel]工作表檔案，其中包含對象設定規則、依裝置型別區分的作用中對象成員數目和總對象成員數目、對象中每個區段的詳細資訊，以及所有鎖定對象為目標的版位。
+您可以下載[!DNL Microsoft Excel]工作表檔案，其中包含對象設定規則、依裝置型別區分的有效對象成員數目、對象中每個區段的詳細資訊，以及所有鎖定對象為目標的版位。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**。
 
