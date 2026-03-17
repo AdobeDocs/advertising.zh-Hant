@@ -60,7 +60,7 @@ Adobe會與每個廣告商合作，設定其廣告網路帳戶和行銷活動。
 
    1. 設定轉換追蹤。 根據實作，這可能涉及將轉換追蹤標籤新增到廣告商的網頁，和/或針對廣告商已單獨收集的轉換資料設定每日摘要拖放。
 
-      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[ （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)標籤。
+      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[&#x200B; （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)標籤。
 
    1. 驗證所追蹤的資料。
 

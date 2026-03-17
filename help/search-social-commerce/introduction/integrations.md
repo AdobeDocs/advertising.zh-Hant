@@ -26,7 +26,7 @@ Advertising Search、Social和Commerce已整合下列[!DNL Adobe]項產品。
 
    * Adobe Advertising和[!DNL Analytics]可順暢地共用資料。 [!DNL Analytics]可以每天傳送網站互動和轉換資料至Search、Social和Commerce，以供其改善廣告和建立報表。 此外，Adobe Advertising亦可每天從您的廣告網路傳送廣告流量資料（包括曝光數、點按數和成本）至[!DNL Analytics]，以便該資料可在所有報告工具中使用。
 
-     如需每個廣告網路和廣告型別[支援的詳細資訊，請參閱](/help/search-social-commerce/introduction/supported-inventory.md)支援的詳細目錄[!DNL Analytics]。 如需資料交換的詳細資訊，另請參閱&quot;[ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}的概觀&quot;。
+     如需每個廣告網路和廣告型別[支援的詳細資訊，請參閱](/help/search-social-commerce/introduction/supported-inventory.md)支援的詳細目錄[!DNL Analytics]。 如需資料交換的詳細資訊，另請參閱&quot;[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}的概觀&quot;。
 
      若要交換資料，必須先設定Adobe Advertising和[!DNL Analytics]。 如需初始設定的詳細資訊，請聯絡您的Adobe客戶團隊。
 
