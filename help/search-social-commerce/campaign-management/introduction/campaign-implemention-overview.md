@@ -3,18 +3,18 @@ title: 實作廣告網路帳戶和行銷活動的概觀
 description: 瞭解設定、同步及管理廣告網路帳戶的相關工作。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # 實作廣告網路帳戶和行銷活動的概觀
 
-Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。 這包括設定Search、Social和Commerce來連線廣告商的帳戶並與其同步、視需要建立新的行銷活動和行銷活動元件、設定元件廣告的追蹤、選擇將行銷活動新增至產品組合以允許Search、Social和Commerce最佳化廣告競標，以及驗證初始成本、點選和收入資料。
+Adobe會與每個廣告商合作，設定其廣告網路帳戶和行銷活動。 這包括設定Search、Social和Commerce來連線廣告商的帳戶並與其同步、視需要建立新的行銷活動和行銷活動元件、設定元件廣告的追蹤、選擇將行銷活動新增至產品組合以允許Search、Social和Commerce最佳化廣告競標，以及驗證初始成本、點選和收入資料。
 
-啟用行銷活動並選擇性地新增至產品組合後，Adobe客戶管理團隊、機構團隊或廣告商（視服務等級協定的條款而定）將需要監視每個行銷活動，並視需要變更相關元件和設定以達成廣告商的目標。
+啟用行銷活動並選擇性地新增至產品組合後，Adobe客戶管理團隊、機構團隊或廣告商（根據service level agreement的條款）將需要監視每個行銷活動，並視需要變更相關元件和設定以達成廣告商的目標。
 
 此頁面包含所有帳戶型別的相關資訊，包括如何設定已同步帳戶的促銷活動結構。 如需為[!DNL Naver]設定僅追蹤帳戶的其他指示，請參閱[實作 [!DNL Naver] 僅追蹤帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)。
 
@@ -38,7 +38,7 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
       然後搜尋、社交和Commerce會與廣告網路同步。 如果帳戶已包含行銷活動資料，則可在24小時內取得資料。
 
-   1. ([您可以在Search、Social和Commerce中建立/編輯](/help/search-social-commerce/introduction/supported-inventory.md)的廣告型別)如果帳戶尚未包含行銷活動資料，則透過以下任何可用於廣告型別的方法，從Search、Social和Commerce中建立行銷活動結構和行銷活動元件：
+   1. （[您可以在Search、Social和Commerce中建立/編輯](/help/search-social-commerce/introduction/supported-inventory.md)的廣告型別）如果帳戶尚未包含行銷活動資料，則透過以下任何可用於廣告型別的方法，從Search、Social和Commerce中建立行銷活動結構和行銷活動元件：
 
       * (Google Ads、Microsoft Advertising、Yahoo！ 僅限廣告和Yandex帳戶)設定[自動化程式，以根據您建立的廣告網路特定廣告範本，以及您上傳至FTP位置的詳細目錄資料檔案內容，建立針對詳細目錄中的每個專案的動態廣告和關鍵字](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。
 
@@ -52,7 +52,7 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
 1. 設定Adobe Advertising將追蹤轉換之所有廣告的追蹤：
 
-   1. (使用Adobe Advertising轉換追蹤服務的廣告商)如有必要，請產生/上傳搜尋、社交和Commerce點選追蹤URL，以[設定廣告的點選追蹤](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)，並可選擇設定關鍵字、刊登版位和廣告副檔名。
+   1. （使用Adobe Advertising轉換追蹤服務的廣告商）如有必要，請[產生並上傳搜尋、社交和Commerce點選追蹤URL，以便為廣告設定點選追蹤](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)，並可選擇為關鍵字、刊登版位和廣告副檔名設定點選追蹤。
 
       針對[!DNL Google Ads]最高成效行銷活動，請在[行銷活動的追蹤設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中設定所有追蹤。
 
@@ -60,15 +60,15 @@ Adobe可與每個廣告商合作，設定其廣告網路帳戶和促銷活動。
 
    1. 設定轉換追蹤。 根據實作，這可能涉及將轉換追蹤標籤新增到廣告商的網頁，和/或針對廣告商已單獨收集的轉換資料設定每日摘要拖放。
 
-      如果您使用Adobe Advertising轉換追蹤服務，則可以使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=zh-Hant)在Search、Social和Commerce[&#128279;](/help/search-social-commerce/tools/conversion-tag-generate.md)內產生轉換追蹤標籤或。
+      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[ （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)標籤。
 
    1. 驗證所追蹤的資料。
 
    如需設定追蹤的詳細資訊，請參閱「追蹤」一章。
 
-1. (使用Adobe Analytics的廣告商) [整合Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)，以便交換資料。
+1. （使用Adobe Analytics的廣告商） [整合Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)，以便交換資料。
 
-1. (允許搜尋、Social和Commerce最佳化出價、行銷活動預算和/或行銷活動出價策略目標；僅[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)) [將行銷活動指派給產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
+1. （允許搜尋、Social和Commerce最佳化出價、行銷活動預算和/或行銷活動出價策略目標；僅[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)） [將行銷活動指派給產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 
    如果產品組合尚未啟動（最佳化出價和/或預算），則讓最佳化功能收集足夠的資料，以便建立成本和收入模型，以便在啟動產品組合之前建立產品組合的基準績效。
 

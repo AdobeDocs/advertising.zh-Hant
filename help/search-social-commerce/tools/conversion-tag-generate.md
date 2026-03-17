@@ -1,24 +1,26 @@
 ---
-title: 產生Adobe Advertising轉換追蹤標籤
+title: 產生和實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# 產生Adobe Advertising轉換追蹤標籤
+# 產生和實作Adobe Advertising轉換追蹤標籤
 
 *僅追蹤Adobe Advertising轉換的廣告商*
 
-為您要追蹤的每組量度建立個別的轉換標籤，並將標籤提供給廣告商或代理商，並提供要插入每組量度的網頁清單。
+為您要追蹤的每組量度建立個別的轉換標籤。
+
+## 在Search、Social和Commerce中產生並實作轉換追蹤標籤
 
 >[!NOTE]
 >
->此功能不會將影像標籤或[!DNL JavaScript]標籤新增至廣告商的網頁。 標籤必須根據廣告商更新網頁的正常程式進行新增。
+>此功能不會將影像標籤或[!DNL JavaScript]標籤新增至廣告商的網頁。 提供標籤給廣告商或代理商，並附上要插入每個標籤的網頁清單。 標籤必須根據廣告商更新網頁的正常程式進行新增。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 >
 >新轉換標籤中的每個量度都會自動列在[!UICONTROL Admin] > [!UICONTROL Conversions]中，即使它未實作或它所位於的網頁未收到任何點按。 此行為不同於手動或其他方式建立之標籤中的量度行為，這些標籤不會列在[!UICONTROL Admin] > [!UICONTROL Conversions]中，直到其中一個網頁收到點按為止。 但在所有情況下，每個量度一開始都會從投資組合目標、報表和檢視中排除，直到您明確提供它們為止。 不過，在將量度新增至投資組合目標之前，請考慮先使量度可供使用，並將量度新增至報表，以驗證量度何時收到點按。
 
-## Adobe Advertising轉換標籤設定 {#conversion-tag-settings}
+### Adobe Advertising轉換標籤設定 {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]：**&#x200B;要建立的標籤型別：
 
@@ -52,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新增至此清單的量度未儲存於任何位置，或與[!UICONTROL Admin]標籤上使用者端的[!UICONTROL Conversions]清單整合。 不過，當Adobe Advertising實際收集量度的資料後，量度就會自動新增到使用者端的[!UICONTROL Conversions]清單中，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會發生這種情況。
+>新增至此清單的量度未儲存於任何位置，或與[!UICONTROL Conversions]標籤上使用者端的[!UICONTROL Admin]清單整合。 不過，當Adobe Advertising實際收集量度的資料後，量度就會自動新增到使用者端的[!UICONTROL Conversions]清單中，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會發生這種情況。
 
 **[!UICONTROL Include unique transaction IDs]：** （選擇性）在標籤中包含交易ID屬性(`ev_transid=<transid>`)。 依預設，會選取選項。
 
@@ -71,6 +73,72 @@ ht-degree: 0%
 **[!UICONTROL JS Version]：** （僅限[!DNL JavaScript]個標籤）要建立的[!DNL JavaScript]標籤版本： *[!UICONTROL v2]* （預設）或&#x200B;*[!UICONTROL v3]*。
 
 請參閱[關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)。 以取得差異的詳細資訊。
+
+## 使用Adobe Experience Platform標籤實作轉換追蹤標籤
+
+您可以使用Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤來設定搜尋、社交和Commerce的轉換追蹤。 Adobe Experience Cloud客戶可使用標籤內含的增值功能。
+
+從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
+
+>[!PREREQUISITES]
+>
+>若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
+
+1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
+
+   1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
+
+   1. 從下拉式功能表中選取&#x200B;**SSC** （適用於「搜尋」、「社交」和「Commerce」）。
+
+   1. 在&#x200B;**SSC UserID**&#x200B;欄位中，輸入您組織的Search、Social和Commerce帳戶的數位使用者ID。
+
+      如果您不知道使用者ID，請聯絡您的Adobe帳戶團隊。
+
+   1. 按一下&#x200B;**儲存**。
+
+1. 建立新規則（例如「form_completes」）以觸發搜尋、社交和Commerce轉換標籤：
+
+   1. 在「事件設定」區段中：
+
+      1. 選取下列值：
+
+         **副檔名：** `Core`
+
+         **事件型別：** `Library Loaded (Page Top)`
+
+      1. 按一下&#x200B;**保留變更**。
+
+   1. 在「條件設定」區段中：
+
+      1. 指定下列值：
+
+         **邏輯型別：** `Regular`
+
+         **副檔名：** `Core`
+
+         **條件型別：** `Path Without Query String`
+
+         **如果路徑等於：**&#x200B;應追蹤轉換的路徑（例如，`/form_complete`），則傳回true。
+
+      1. 按一下&#x200B;**保留變更**。
+
+   1. 在「動作組態」段落中：
+
+      1. 指定下列值：
+
+         **副檔名：** `Adobe Advertising`
+
+         **動作型別：** `AMO Measurement`
+
+         **轉換屬性名稱：**&#x200B;轉換屬性的名稱（例如，`form_completes`）。
+
+         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
+
+      1. 按一下&#x200B;**保留變更**。
+
+   1. 儲存規則。
+
+1. 發佈變更。
 
 >[!MORELIKETHIS]
 >
