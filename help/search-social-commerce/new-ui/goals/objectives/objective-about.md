@@ -4,9 +4,9 @@ description: 瞭解符合您業務目標的目標。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 0%
 * 將權重建議套用至量度。
 
 >[!NOTE]
->* (搜尋、社交和Commerce)當您[建立投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍後[修改投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)時，您可以將目標與投資組合建立關聯。
->* (具有連結至Search、Social和Commerce帳戶的DSP帳戶的廣告商)在Advertising DSP中，您可以選取目標作為[自訂最佳化目標](/help/dsp/campaign-management/packages/package-settings.md)，以用於具有套件層級步調的套件。
+>* （搜尋、社交和Commerce）當您[建立投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍後[修改投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)時，您可以將目標與投資組合建立關聯。
+>* （具有連結至Search、Social和Commerce帳戶的DSP帳戶的廣告商）在Advertising DSP中，您可以選取目標作為[自訂最佳化目標](/help/dsp/campaign-management/packages/package-settings.md)，以用於具有套件層級步調的套件。
 >* 您可以對多個搜尋、社交和Commerce產品組合及/或多個DSP套件使用相同的目標。
 >* [!UICONTROL Objectives]檢視中每個目標的量度不包含DSP的資料。
 
@@ -68,3 +68,4 @@ ht-degree: 0%
 >* [刪除目標](objective-delete.md)
 >* [將加權建議套用至目標](objective-apply-weight-recommendations.md)
 >* [目標設定](objective-settings.md)
+>* [下載目標的效能資料](objective-download-performance-data.md)

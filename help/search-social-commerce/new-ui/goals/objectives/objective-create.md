@@ -4,9 +4,9 @@ description: 瞭解如何建立目標。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 輸入目標設定。
 
-如需指示，請參閱使用者介面中的說明或最佳化指南中的說明(可從搜尋、社交和Commerce中取得)。
+如需指示，請參閱使用者介面中的說明或最佳化指南中的說明（可從搜尋、社交和Commerce中取得）。
 
 1. 在設定底部，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -39,3 +39,4 @@ ht-degree: 0%
 >* [編輯目標](objective-edit.md)
 >* [將加權建議套用至目標](objective-apply-weight-recommendations.md)
 >* [目標設定](objective-settings.md)
+>* [下載目標的效能資料](objective-download-performance-data.md)
