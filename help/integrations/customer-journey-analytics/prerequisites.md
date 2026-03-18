@@ -20,7 +20,7 @@ ht-degree: 0%
 
   您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
 
-* Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）
+* Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)）
 
   這些技術需要Experience Platform網站管理員的支援。
 
