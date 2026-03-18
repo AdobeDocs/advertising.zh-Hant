@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand]亞太地區的進階庫存發佈程式'
+title: 亞太地區[!DNL On Demand]高階庫存發佈者
 description: 檢視亞太地區可用的 [!DNL On Demand] 高階庫存發佈者。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%

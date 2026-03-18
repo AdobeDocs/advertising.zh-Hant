@@ -3,7 +3,7 @@ title: 封存或取消封存私人交易
 description: 瞭解如何封存或取消封存私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 鍵盤快速鍵
 description: 參照位置設定中可用的鍵盤快速鍵。
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 1%

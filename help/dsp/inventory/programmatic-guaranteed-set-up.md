@@ -1,16 +1,16 @@
 ---
-title: 設定程式化保證交易
+title: 設定程式化預留交易
 description: 瞭解如何設定您已與發佈商洽談的程式化預留(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# 設定程式化保證交易
+# 設定程式化預留交易
 
 *[僅支援供應端平台](programmatic-guaranteed-about.md)*
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於PG交易，發佈商會處理所有預算步調、預算上限和定位。 所有允許透過DSP使用PG的SSP都確認發佈者可以設定預算上限。
+> 對於PG交易，發佈商會處理所有預算步調、預算上限和定位。 所有允許PG透過DSP的SSP都確認發佈者可以設定預算上限。
 >
 > 在[!DNL FreeWheel]上設定與發行者的程式化預留交易需要額外的許可權和步驟。 如需詳細資訊，請參閱「[在 [!DNL FreeWheel]](freewheel-overview.md)中設定程式化預留交易的概觀」。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 儲存交易後，選取要用於交易的廣告（或發佈商管理廣告的1x1追蹤畫素），並根據提示建立程式化預留(PG)預設位置。
 
-   建立交易的預設PG投放位置，必須提供您100%的購買。 此型別的版位沒有鎖定目標，因此DSP可以傳回對發佈者之每個競標要求的競標。
+   建立交易的預設PG投放位置，必須提供您100%的購買。 這類刊登版位沒有鎖定目標，因此DSP可以傳回對發佈商每個競標要求的競標。
 
    * 如果您接受單一交易，系統會自動將您重新導向至PG預設刊登版位建立工作流程。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 儲存交易後，選取要用於交易的廣告（或發佈商管理廣告的1x1追蹤畫素），並根據提示建立PG預設位置。
 
-   建立交易的PG預設刊登位置，必須提供您100%的購買內容。 此型別的版位沒有鎖定目標，因此DSP可以傳回對發佈者之每個競標要求的競標。
+   建立交易的PG預設刊登位置，必須提供您100%的購買內容。 這類刊登版位沒有鎖定目標，因此DSP可以傳回對發佈商每個競標要求的競標。
 
 1. （選用）按一下![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**，以其他PG或非PG位置鎖定該PG交易。
 

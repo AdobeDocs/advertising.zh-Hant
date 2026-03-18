@@ -1,16 +1,16 @@
 ---
-title: '[!DNL On Demand]歐洲、中東和非洲的優質庫存發佈者'
-description: '[!DNL On Demand]歐洲、中東和非洲的優質庫存發佈者'
+title: 歐洲、中東及非洲的[!DNL On Demand]高階庫存發佈者
+description: 歐洲、中東及非洲的[!DNL On Demand]高階存貨發行者
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# 歐洲、中東及非洲的[!DNL On Demand]高階存貨發行者
+# 歐洲、中東及非洲的[!DNL On Demand]高階庫存發佈者
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 

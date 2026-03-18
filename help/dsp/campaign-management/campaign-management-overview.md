@@ -1,16 +1,16 @@
 ---
-title: Advertising DSP中的Campaign Management概觀
+title: Advertising DSP中的行銷活動管理概觀
 description: 瞭解行銷活動管理階層和元件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP中的Campaign Management概觀
+# Advertising DSP中的行銷活動管理概觀
 
 DSP行銷活動具有下列階層：
 
@@ -30,7 +30,7 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 每個行銷活動可以包含一個或多個[套件](/help/dsp/campaign-management/packages/package-about.md)，每個套件都包含一組版位。
 
-使用套件將投放位置分組為設定預算、效能目標和自訂步調策略。 DSP會將預算轉移到封裝中表現最佳的版位，以最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。
+使用套件將投放位置分組為設定預算、效能目標和自訂步調策略。 DSP將預算轉移到封裝中表現最好的位置，以最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。
 
 套件是選用的，但建議使用。
 
@@ -48,12 +48,12 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [關於行銷活動管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [關於封裝管理](/help/dsp/campaign-management/packages/package-about.md)
 >* [關於位置管理](/help/dsp/campaign-management/placements/placement-about.md)
 >* [關於廣告管理](/help/dsp/campaign-management/ads/ad-about.md)
 >* [行銷活動啟動檢查清單](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
->* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

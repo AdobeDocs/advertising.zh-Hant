@@ -3,7 +3,7 @@ title: 建立行銷活動
 description: 瞭解如何建立行銷活動。
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於Campaign Management](campaign-about.md)
+>* [關於行銷活動管理](campaign-about.md)
 >* [複製行銷活動](campaign-duplicate.md)
 >* [編輯行銷活動](campaign-edit.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)

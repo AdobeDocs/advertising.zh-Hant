@@ -1,16 +1,16 @@
 ---
-title: 訂閱並要求 [!DNL On Demand] 進階詳細目錄交易的存取權
+title: 訂閱及要求存取 [!DNL On Demand] 進階詳細目錄交易
 description: 瞭解如何訂閱及要求存取[!DNL On Demand]筆交易。
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# 訂閱及要求存取[!DNL On Demand]進階詳細目錄交易
+# 訂閱及要求存取[!DNL On Demand]個進階詳細目錄交易
 
 *不適用帳戶型別為[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的使用者；類別為[!UICONTROL Other]的廣告商；以及經銷商*
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
       1. 在發行者最上層的輪播中，將游標放在發行者標誌上，然後按一下&#x200B;**[!UICONTROL See Deals]**。
 
-      1. 若要訂閱個別交易，請按一下相關列[!UICONTROL Action]欄中的&#x200B;**[!UICONTROL Request]**。
+      1. 若要訂閱個別交易，請按一下相關列&#x200B;**[!UICONTROL Request]**&#x200B;欄中的[!UICONTROL Action]。
 
    * 若要從[!UICONTROL Deal]檢視要求交易：
 
       1. 按一下&#x200B;**[!UICONTROL Deal view]**。
 
-      1. 按一下[!UICONTROL Action]欄中的&#x200B;**[!UICONTROL Request]**&#x200B;以取得相關列。
+      1. 按一下&#x200B;**[!UICONTROL Request]**&#x200B;欄中的[!UICONTROL Action]以取得相關列。
 
 >[!MORELIKETHIS]
 >

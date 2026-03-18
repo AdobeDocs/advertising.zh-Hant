@@ -3,7 +3,7 @@ title: 關於程式化預留交易
 description: 瞭解程式化預留(PG)交易，以及哪些SSP經過認證可提供這些交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
