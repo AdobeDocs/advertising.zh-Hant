@@ -65,7 +65,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >請聯絡貴公司的Adobe Advertising代表，確認貴組織的所有Adobe Advertising帳戶（包括[!DNL DSP]帳戶或廣告商、[!DNL Search, Social, & Commerce]帳戶及[!DNL Creative]或[!DNL DCO]帳戶）都與您的Experience Cloud組織ID連結。
 
-1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動要求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （適用於臨機要求）來提交要求，以代表消費者存取和刪除個人資訊給Adobe Advertising，以及檢查現有要求的狀態。
+1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant) （適用於自動要求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant) （適用於臨機要求）來提交要求，以代表消費者存取和刪除個人資訊給Adobe Advertising，以及檢查現有要求的狀態。
 
    對於擁有行動應用程式以便與客戶互動並透過[!DNL DSP]啟動行銷活動的廣告商，您必須下載適用於Experience Cloud的隱私權就緒行動SDK。 Mobile SDK可讓企業設定選擇退出狀態標幟、擷取消費者的裝置ID （名稱空間ID： `deviceID`），以及將請求提交至Privacy Service API。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
 
@@ -77,7 +77,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >如果您的企業有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 但是，您可以向多個Adobe Advertising子解決方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）提出一個API請求，每個子解決方案使用一個帳戶。
 
-若要取得Adobe Advertising的支援，所有步驟都是必要的。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)。
+若要取得Adobe Advertising的支援，所有步驟都是必要的。 如需有關這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱[https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)。
 
 ## Adobe Advertising JSON請求中的必填欄位值
 
@@ -94,11 +94,11 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
 * `"user IDs":`
 
-   * `"namespace": **411**` （表示[[!DNL AdCloud] Cookie空間](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)）
+   * `"namespace": **411**` （表示[[!DNL AdCloud] Cookie空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix)）
 
    * `"value":` &lt;*從`AdobePrivacy.js`*&#x200B;擷取的實際客戶的Cookie ID值>
 
-* `"include": **adCloud**` （適用於此請求的[[!DNL Adobe] 產品](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)）
+* `"include": **adCloud**` （適用於此請求的[[!DNL Adobe] 產品](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix)）
 
 * `"regulation": **ccpa**` （適用於此請求的隱私權法規）
 

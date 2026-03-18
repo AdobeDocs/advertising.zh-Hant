@@ -61,7 +61,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >請聯絡貴公司的Adobe Advertising代表，確認貴組織的所有Adobe Advertising帳戶（包括[!DNL DSP]帳戶或廣告商、[!DNL Search, Social, & Commerce]帳戶及[!DNL Creative]或[!DNL DCO]帳戶）都與您的Experience Cloud組織ID連結。
 
-1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （適用於自動要求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （適用於臨機要求），代表資料主體向Adobe Advertising提交存取和刪除要求，以及檢查現有要求的狀態。
+1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant) （適用於自動要求）或[Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant) （適用於臨機要求），代表資料主體向Adobe Advertising提交存取和刪除要求，以及檢查現有要求的狀態。
 
    如果廣告商擁有行動應用程式，能與資料主體互動並與DSP一起推出行銷活動，您必須下載適用於Experience Cloud的隱私權就緒行動SDK。 Mobile SDK可讓資料控管單位設定選擇退出狀態旗標、擷取資料主體的裝置ID （名稱空間ID： `deviceID`），以及將請求提交至Privacy Service API。 您的行動應用程式將需要SDK 4.15.0版或更新版本。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
    >
    >如果您的公司有多個Experience Cloud組織ID，則您必須為每個ID傳送個別的API請求。 但是，您可以向多個Adobe Advertising子解決方案（[!DNL Search, Social, & Commerce]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）提出一個API請求，每個子解決方案使用一個帳戶。
 
-Adobe Advertising需要所有步驟。 如需關於這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱&quot;[Privacy Service概觀](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;。
+Adobe Advertising需要所有步驟。 如需關於這些事項以及您需要使用Adobe Experience Platform Privacy Service執行的其他相關工作的詳細資訊，以及尋找必要專案的位置，請參閱&quot;[Privacy Service概觀](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)&quot;。
 
 ## Adobe Advertising JSON請求中的必填欄位值
 
