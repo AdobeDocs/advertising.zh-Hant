@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與 [!DNL Roku]的合作關係，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku]特定位置的最佳實務。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,22 +16,22 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 ## 對象比對
 
-[!DNL Roku]與DSP合作關係將您的[!DNL DSP]對象與[!DNL Roku]詳細目錄上1:1確定性對象目標的[!DNL Roku] ID配對。
+[!DNL Roku]與DSP合作關係將您的[!DNL DSP]個對象與[!DNL Roku]詳細目錄上1:1個確定性對象的[!DNL Roku] ID配對。
 
 ## [!DNL Roku]詳細目錄選項
 
-您可以a)直接使用[!DNL Roku]設定私人交易識別碼，然後將交易識別碼資料輸入DSP或b)造訪[!DNL On Demand]相簿以訂閱[!DNL Roku]設定檔：
+您可以a)直接使用[!DNL Roku]設定私人交易識別碼，然後將交易識別碼資料輸入至DSP或b)造訪[!DNL On Demand]相簿以訂閱[!DNL Roku]設定檔：
 
 >[!NOTE]
 >
 >[!DNL Roku]詳細目錄不適用於開放市場與交換。
 
-* 針對您的私人交易，[在DSP](/help/dsp/inventory/deal-id-create.md)中設定交易ID的相關資訊，然後在[!DNL Roku]位置中鎖定&quot;[!UICONTROL Roku Network - Audience]&quot;和&quot;[!UICONTROL The Roku Channel - Audience]&quot;。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 針對您的私人交易，[在DSP](/help/dsp/inventory/deal-id-create.md)中設定交易ID的相關資訊，然後在[!UICONTROL Roku Network - Audience]位置中鎖定&quot;[!UICONTROL The Roku Channel - Audience]&quot;和&quot;[!DNL Roku]&quot;。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* 您可以[在 [!DNL On Demand] 相簿](/help/dsp/inventory/on-demand-inventory-subscribe.md)中訂閱下列 [!DNL Roku] 詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
+* 您可以[在 [!DNL Roku] 相簿 [!DNL On Demand] 中訂閱下列](/help/dsp/inventory/on-demand-inventory-subscribe.md)詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
 
-   * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生態系統中的詳細目錄。
-   * 針對[!DNL Roku]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!UICONTROL The Roku Channel - Audience]&quot;。
+   * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL Roku]、[!DNL The CW]和[!DNL ABC]）的[!DNL ESPN]生態系統中的詳細目錄。
+   * 針對[!UICONTROL The Roku Channel - Audience]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!DNL Roku]&quot;。
 
 ### 使用[!DNL Roku]自訂私人市場的優點
 
@@ -49,28 +49,28 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 ## [!DNL Roku]個位置
 
-在DSP行銷活動中，[使用版位型別&quot;[!UICONTROL Connected TV (Roku)]&quot;建立 [!DNL Roku]專屬版位](/help/dsp/campaign-management/placements/placement-create.md)。 將[!DNL Roku]個版位包含在具有已定義目標的[!DNL Roku]特定套件中。
+在DSP行銷活動中，使用版位型別&quot;[&quot;  [!DNL Roku]建立](/help/dsp/campaign-management/placements/placement-create.md)專屬版位[!UICONTROL Connected TV (Roku)]。 將[!DNL Roku]個版位包含在具有已定義目標的[!DNL Roku]特定套件中。
 
-每個[!DNL Roku]位置都必須至少鎖定一個[!DNL Roku]交易或來源。 若要使用符合[!DNL Roku]的DSP對象，請包含一或多個可與[!DNL Roku] （選擇加入）確定性資料集相符的對象區段。
+每個[!DNL Roku]位置都必須至少鎖定一個[!DNL Roku]交易或來源。 若要使用DSP符合[!DNL Roku]的受眾比對，請包含一或多個可與[!DNL Roku] （選擇加入）確定性資料集比對的受眾區段。
 
-### [!DNL Roku]個已核准的第三方追蹤廠商
+### [!DNL Roku]個核准的第三方追蹤廠商
 
 [!DNL Roku]版位可包含來自下列廠商的第三方事件畫素和轉換畫素： [!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]和[!DNL Research Now]。
 
-### 各放置策略的最佳實務
+### 依據放置策略的最佳實務
 
 下列是[!DNL Roku]特定位置的建議作法。
 
 若要最大化遞增範圍：
 
-* 透過排除您已使用[!DNL The Roku Channel]觸及的對象，隱藏[!DNL Roku O&O]上公開的對象。
+* 透過排除您已使用[!DNL Roku O&O]觸及的對象，隱藏[!DNL The Roku Channel]上公開的對象。
 
-* 排除您透過[!DNL Roku]平台已觸及的對象，以隱藏[!DNL All Roku]上公開的對象。
+* 排除您透過[!DNL All Roku]平台已觸及的對象，以隱藏[!DNL Roku]上公開的對象。
 
 最快速的設定：
 
-* 鎖定[[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md)中[!DNL The Roku Channel]的現有、永遠開啟的交易，以快速存取[!DNL Roku]擁有且運作的詳細目錄。
-* 鎖定[[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md)中[!DNL Roku Network]的現有、永遠開啟的交易，以快速在[!DNL Roku]平台上達成規模。
+* 鎖定[!DNL The Roku Channel]詳細目錄[[!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)的現有、永遠開啟的交易，以快速存取[!DNL Roku]擁有且運作的詳細目錄。
+* 鎖定[!DNL Roku Network]詳細目錄[[!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)的現有、永遠開啟的交易，以快速在[!DNL Roku]平台上達成規模。
 
 至最大比例：
 

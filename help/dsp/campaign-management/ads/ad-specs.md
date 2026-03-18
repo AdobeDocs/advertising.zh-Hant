@@ -3,18 +3,18 @@ title: 廣告規格
 description: 參考一般和發佈者特有的廣告規格。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# 支援廣告型別的規格
+# 支援的廣告型別規格
 
 ## 影片廣告（前段、CTV和通用視訊）
 
-### 支援的Screens
+### 支援的畫面
 
 廣告預設會在桌上型電腦、行動裝置和連線電視裝置上提供。 裝置鎖定目標可用於調整傳送。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以使用來自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的標籤工作表。 如需支援廠商的完整清單，請參閱[認證廣告服務合作夥伴](certified-ad-servers.md)。
 
-### 高解析度視訊Assets的需求
+### 高解析度視訊資產的需求
 
 **視訊標籤型別：** VPAID 2.0 JavaScript或VAST (CTV)。 所有VPAID廣告單位都必須遵循Interactive Advertising Bureau (IAB)所定義的[VPAID 2.0規格](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)。
 
@@ -74,17 +74,17 @@ ht-degree: 0%
 
 ## 顯示廣告
 
-### 支援的Screens
+### 支援的畫面
 
 廣告預設會在桌上型電腦和行動裝置上提供。 裝置鎖定目標可用於調整傳送。
 
-### 支援的檔案型別
+### 支援的檔案類型
 
 **影像：** GIF、JPG/JPEG、PNG
 
 **HTML5：**&#x200B;影像檔案型別：GIF、JPG/JPEG、PNG、SVG
 
-### 影像Assets的需求
+### 影像資產的需求
 
 支援通用顯示。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## 音訊廣告
 
-### 支援的Screens
+### 支援的畫面
 
 桌上型電腦、行動裝置、平板電腦、智慧型喇叭，以及連線電視
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 您可以使用來自[!DNL DCM]、[!DNL Flashtalking]、[!DNL Innovid]和[!DNL Sizmek]的標籤工作表。 如需支援廠商的完整清單，請參閱[認證廣告服務合作夥伴](certified-ad-servers.md)。
 
-### 音訊Assets的需求
+### 音訊資產的需求
 
 **檔案型別：** MP3、OGG、AAC
 
@@ -147,7 +147,7 @@ ht-degree: 0%
    * 檔案型別： MP3、OGG
    * 音量：44.1千赫
 
-### 隨附橫幅廣告的需求（選用）
+### 隨附橫幅廣告的需求（選填）
 
 **支援的大小：** 300x250、500x500、640x640、1024x1024
 
@@ -182,11 +182,11 @@ ht-degree: 0%
 
 每個廣告都可以包含靜態影像或移動GIF （動態靜圖）。
 
-### 支援的Screens
+### 支援的畫面
 
 廣告預設會在桌上型電腦和行動裝置上提供。 裝置鎖定目標可用於調整傳送。
 
-### 所有原生資訊源格式都需要Assets
+### 所有原生摘要格式的所需資產
 
 #### 影像資產
 

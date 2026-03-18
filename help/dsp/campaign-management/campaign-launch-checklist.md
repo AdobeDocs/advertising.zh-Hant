@@ -3,7 +3,7 @@ title: 行銷活動啟動檢查清單
 description: 瞭解在啟動行銷活動之前需要做什麼。
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## 帳戶資金
 
-請確定您的帳戶有足夠的信用來執行整個行銷活動。 您可以在[!UICONTROL Settings] > [!UICONTROL Account]或連絡您的Adobe帳戶團隊以檢查並重新補充帳戶資金。
+請確定您的帳戶有足夠的信用來執行整個行銷活動。 您可以在[!UICONTROL Settings] > [!UICONTROL Account]中或連絡您的Adobe帳戶團隊以檢查並重新補充帳戶資金。
 
-## 促銷活動狀態
+## 行銷活動狀態
 
 確認已正確設定行銷活動日期和預算。
 

@@ -3,18 +3,18 @@ title: 關於 [!DNL On Demand] 進階存貨
 description: 瞭解DSP與進階發佈商合作夥伴預先磋商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
-# 關於[!DNL On Demand]進階存貨
+# 關於[!DNL On Demand]進階詳細目錄
 
 *不適用帳戶型別為[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的使用者；類別為[!UICONTROL Other]的廣告商；以及經銷商*
 
-[!DNL On Demand] Gallery是進階詳細目錄探索工具，可探索DSP與進階發行者合作夥伴所策劃的預先交涉交易。 它可讓您存取地區內頂層發佈商的不保證存貨，而不需要1:1談判或合約。 您可以請求個別交易，也可以訂閱發佈商以一次請求發佈商的所有交易。
+[!DNL On Demand] Gallery是進階詳細目錄探索工具，可探索DSP與進階發行者合作夥伴所策劃的預先交涉交易。 它可讓您存取區域內頂層發行者的非保證存貨，而不需要1:1個洽談或合約。 您可以請求個別交易，也可以訂閱發佈商以一次請求發佈商的所有交易。
 
 DSP Premium Marketplace可讓您：
 
@@ -36,7 +36,7 @@ DSP Premium Marketplace可讓您：
 
 交易核准後，即成為現有刊登版位的目標，並自動納入為鎖定所有[!DNL On Demand]詳細目錄的新刊登版位目標。 如果交易請求被拒絕，您可以與您的Adobe帳戶團隊合作以解決問題，然後重新請求交易。
 
-## 隨選檢視表
+## [!UICONTROL On Demand]檢視
 
 在[!UICONTROL Inventory] > [!UICONTROL On Demand]，可從頁面頂端的轉盤取得最新的交易和發行者<!-- how recent? -->。
 
@@ -47,7 +47,7 @@ DSP Premium Marketplace可讓您：
 * **[!UICONTROL TVB]：**&#x200B;指示發行者何時為電視廣播員
 * **[!UICONTROL Tune]：**&#x200B;表示發佈者何時接受「調入」創意（例如，\&lt;*我們的節目*\>的新集今晚的「調入」）
 * **[!UICONTROL LDA]：** （合法飲酒年齡）表示發佈者已套用21+目標定位並接受酒精廣告
-* **[!UICONTROL CPM]：**&#x200B;表示在廣告商被授與交易的存取權之前，交易的底限或固定匯率CPM何時不會顯示
+* **[!UICONTROL CPM]：**&#x200B;表示在廣告商被授與交易的存取權之前，交易的底限或固定費率CPM何時不會顯示
 * **[!UICONTROL Status]：**&#x200B;您的訂閱要求的狀態（適用時）
 * **[!UICONTROL Action]：**&#x200B;您可以執行的任何可用動作（例如[!UICONTROL Request]或[!UICONTROL Re-request]）
 

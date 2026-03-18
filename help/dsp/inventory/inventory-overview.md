@@ -3,16 +3,16 @@ title: Advertising DSP中詳細目錄功能概觀
 description: 瞭解可用的詳細目錄功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Advertising DSP中詳細目錄功能概觀
 
-無論您是要透過公開詳細目錄尋找規模、透過[!DNL On Demand]尋找優質發行者的規模，或是與發行者建立1:1私人市集(PMP)交易以針對特定對象或網站啟用，DSP都可以支援您的詳細目錄需求。 您的行銷活動目標有助於指定哪種型別的詳細目錄最適合您行銷活動的效能需求。 與頂端供應端平台(SSP)的整合可讓您順暢地設定及啟用PMP。
+無論您是要透過公開詳細目錄尋找規模、透過擁有[!DNL On Demand]的高級發行者尋找規模，或是與發行者建立1:1私人市集(PMP)交易以針對特定對象或網站啟用，DSP都可以支援您的詳細目錄需求。 您的行銷活動目標有助於指定哪種型別的詳細目錄最適合您行銷活動的效能需求。 與頂端供應端平台(SSP)的整合可讓您順暢地設定及啟用PMP。
 
 在DSP中存取或識別詳細目錄交易後，您就可以使用這些交易作為行銷活動的放置目標。
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * **[!DNL On Demand]詳細目錄：**&#x200B;探索Adobe與高階發佈商合作夥伴所策劃的預先交涉、不保證的交易。
 
-* **私人詳細目錄[!DNL Deal IDs]：**&#x200B;設定並管理您與發行者直接以1:1協商的私人市集交易(PMP)。
+* **私人詳細目錄[!DNL Deal IDs]：**&#x200B;設定並管理您已直接與發行者交涉1:1的私人市集交易(PMP)。
 
 * **[!DNL Simple Ad Serving]：**&#x200B;當您的發佈者無法透過交易ID執行您的交易時，請使用精簡的技術來進行保證、未決策的廣告傳遞與報告。
 
-## 交易檢視
+## [!UICONTROL Deals]檢視
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]：**
 

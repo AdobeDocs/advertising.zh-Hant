@@ -1,16 +1,16 @@
 ---
-title: 將PG交易的廣告提交至 [!DNL FreeWheel]
+title: 向 [!DNL FreeWheel]提交PG交易的廣告
 description: 瞭解如何在 [!DNL Freewheel]上向發佈者要求核准程式化預留交易的廣告。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-# 向[!DNL Freewheel]提交程式化保證交易的廣告
+# 向[!DNL Freewheel]提交程式化預留交易的廣告
 
 *只具有[!DNL FreeWheel]程式化保證許可權的*&#x200B;帳戶
 
@@ -55,4 +55,4 @@ ht-degree: 0%
 >* [在 [!DNL Freewheel]](freewheel-overview.md)中設定程式化預留交易的概觀
 >* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
 >* [檢查 [!DNL FreeWheel] 程式化預留交易的廣告狀態](freewheel-check-status.md)
->*  [!DNL Freewheel] 廣告提交的[錯誤碼](freewheel-error-codes.md)
+>* [廣告提交的 [!DNL Freewheel] 錯誤碼](freewheel-error-codes.md)

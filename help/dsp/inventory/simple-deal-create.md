@@ -3,7 +3,7 @@ title: 建立[!UICONTROL Simple Ad Serving]交易
 description: 瞭解如何為[!UICONTROL Simple Ad Serving]交易建立追蹤畫素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * （選擇性）從[!UICONTROL Activate Tag with Publisher]畫面傳送交易標籤給發佈者。
 
-     完成上述步驟後，DSP會產生電子郵件訊息，您可傳送給發行者。 訊息包含交易詳細資料、從中擷取交易標籤的連結，以及連結的授權代碼。
+     完成上述步驟後，DSP會產生電子郵件訊息，您可傳送給發佈者。 訊息包含交易詳細資料、從中擷取交易標籤的連結，以及連結的授權代碼。
 
       1. 檢閱交易詳細資料，然後執行下列任一項作業：
 

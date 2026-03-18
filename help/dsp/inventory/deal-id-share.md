@@ -1,16 +1,16 @@
 ---
-title: 編輯具有私人交易存取權的帳戶
+title: 編輯可存取私人交易的帳戶
 description: 瞭解如何共用及停止與不同帳戶共用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# 編輯具有私人交易存取權的帳戶
+# 編輯可存取私人交易的帳戶
 
 您可以與多個帳戶共用交易ID。 交易會與指定帳戶內的所有廣告商共用，以便這些帳戶中的所有使用者可以編輯交易或將其用作其刊登的目標。
 

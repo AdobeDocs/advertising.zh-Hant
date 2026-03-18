@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand]澳洲和紐西蘭的進階存貨發行者'
+title: 澳洲和紐西蘭的[!DNL On Demand]高階庫存發佈者
 description: 檢視澳洲和紐西蘭可用的 [!DNL On Demand] 進階庫存發佈者。
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
