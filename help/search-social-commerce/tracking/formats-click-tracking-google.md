@@ -70,7 +70,7 @@ ht-degree: 0%
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[ （從](/help/integrations/analytics/ids.md#amo-id-formats)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （從](/help/integrations/analytics/ids.md#amo-id-formats)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

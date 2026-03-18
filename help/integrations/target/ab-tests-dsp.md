@@ -51,7 +51,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手動更新每個廣告的點進URL，以包含擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics和共用放置索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
 
-* 將[巨集附加至 [!DNL Analytics for Advertising] 新增標籤 [!DNL Flashtalking] 。 ](/help/integrations/analytics/macros-flashtalking.md)**注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據`s_kwcid`支援檔案（位於`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking]）中的[與](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)追蹤引數，則不需要執行此程式。
+* 將[巨集附加至 [!DNL Analytics for Advertising] 新增標籤 [!DNL Flashtalking] 。 &#x200B;](/help/integrations/analytics/macros-flashtalking.md)**注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據`s_kwcid`支援檔案（位於`ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking]）中的[與](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)追蹤引數，則不需要執行此程式。
 
 * [將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 新增標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
