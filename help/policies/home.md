@@ -1,17 +1,18 @@
 ---
-title: Adobe Advertising 原則和指導方針
+title: Adobe Advertising原則和指導方針
 description: 瞭解Advertising DSP和Advertising Search的原則和指導方針。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 3d495d07a1f030d7c0c3a9752f405cbd73b26b3e
+exl-id: b7321fb8-49b9-4232-a70f-4646014fff61
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 21%
+ht-degree: 0%
 
 ---
 
-# Adobe Advertising 原則和指導方針
+# Adobe Advertising原則和指導方針
 
 瞭解Advertising DSP和Advertising Search的原則和指導方針：
 

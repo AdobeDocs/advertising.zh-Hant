@@ -1,18 +1,18 @@
 ---
 role: User
-user-guide-title: Adobe Advertising 原則和指導方針
+user-guide-title: Adobe Advertising原則和指導方針
 user-guide-description: 瞭解Advertising DSP和 [!DNL Advertising Search, Social, & Commerce]的原則和指導方針。
 breadcrumb-title: 原則和指導方針
 index: true
-source-git-commit: d186becf30926ddf2f5c1681d7c88de7382a2a97
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 30%
+ht-degree: 0%
 
 ---
 
 
-# Adobe Advertising 原則和指導方針 {#policies}
+# Adobe Advertising原則和指導方針 {#policies}
 
 + [關於Adobe Advertising原則和指導方針](/help/policies/home.md)
 + [廣告需求原則](/help/policies/ad-requirements-policy.md)
