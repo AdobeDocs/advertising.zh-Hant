@@ -2,7 +2,7 @@
 title: 自訂報表常見問題集
 description: 進一步瞭解自訂報告，包括家庭報告和轉換路徑分析報告。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ##### 支援的維度
 
-[!UICONTROL Household Reach & Frequency]報告支援[下列維度](/help/dsp/reports/report-columns.md)：「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（不提供對重疊量度的存取權）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」以及使用者建立的位置「[!UICONTROL Tags]」。 |
+[!UICONTROL Household Reach & Frequency]報告支援[下列維度](/help/dsp/reports/report-columns.md)：「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（不提供對重疊量度的存取權）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」以及使用者建立的位置「[!UICONTROL Tags]」。|
 
 ##### 支援的量度
 
@@ -113,8 +113,8 @@ ht-degree: 0%
 | 歸因方法 | 上次接觸事件（曝光數或點按數）必須在回顧期間內。 | 不重複 | 上次接觸 |
 | | 系統會針對轉換路徑考量上次接觸事件前30天以上的互動點。 | （CTV會獲得點數，無論使用者的點按路徑中會出現CTV曝光） | （如果曝光是回顧期間的最後一個事件，且在曝光之前或之後沒有其他格式的付費點按，CTV就會獲得點數） |
 | 報告層級 | 粒度 | 粒度 | 廣泛 |
-| | (頻道型別、Creative/廣告、關鍵字、路徑、長度、轉換時間) | （CTV策略， CTV應用程式/發佈者） | (Adobe Advertising和其他行銷管道) |
-| 行銷管道 | DSP +搜尋(從搜尋、社交和Commerce) | DSP +搜尋(從搜尋、社交和Commerce) | Adobe Advertising點進次數EF ID未追蹤的行銷管道（例如有機搜尋、有機社交、電子郵件和附屬機構） |
+| | （頻道型別、Creative/廣告、關鍵字、路徑、長度、轉換時間） | （CTV策略， CTV應用程式/發佈者） | （Adobe Advertising和其他行銷管道） |
+| 行銷管道 | DSP +搜尋（從搜尋、社交和Commerce） | DSP +搜尋（從搜尋、社交和Commerce） | Adobe Advertising點進次數EF ID未追蹤的行銷管道（例如有機搜尋、有機社交、電子郵件和附屬機構） |
 | 支援的轉換量度 | 使用Adobe Advertising事件畫素(AMO ID)和Adobe Analytics追蹤功能進行追蹤的量度 | 點按次數（無轉換） | 使用Adobe Analytics追蹤功能追蹤的量度 |
 
 如需有關進階測量服務光暈對搜尋報表影響的詳細資訊，請參閱[進階測量服務](/help/dsp/introduction/advanced-measurement-services.md)。

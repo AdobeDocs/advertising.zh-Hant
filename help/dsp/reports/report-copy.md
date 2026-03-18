@@ -1,16 +1,16 @@
 ---
-title: 複製自訂報告
+title: 複製自訂報表
 description: 瞭解如何複製現有報告來建立自訂報告。
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 複製自訂報告
+# 複製自訂報表
 
 複製自訂報告以使用類似設定建立新報告。
 

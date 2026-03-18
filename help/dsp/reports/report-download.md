@@ -2,7 +2,8 @@
 title: 下載自訂報表
 description: 瞭解如何立即下載自訂報表。
 feature: DSP Custom Reports
-source-git-commit: 02d670231e1362f902aeb8bc358986e8381512f4
+exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
    * 若要下載最新的報表執行個體，請按一下&#x200B;**[!UICONTROL Download]**。
 
-   * （具有多個執行個體的報表）按一下[!UICONTROL Download]旁的![向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")，然後按一下您要下載之報表的完成日期。 可下載的報表執行個體會以下載圖示(![下載圖示](/help/dsp/assets/indicator-downloadable.png "下載圖示"))標示。
+   * （具有多個執行個體的報表）按一下![旁的](/help/dsp/assets/chevron-down.png "向下箭頭")向下箭頭[!UICONTROL Download]，然後按一下您要下載之報表的完成日期。 可下載的報表執行個體會以下載圖示(![下載圖示](/help/dsp/assets/indicator-downloadable.png "下載圖示"))標示。
 
      當有許多執行個體可用時，如有必要，請按一下清單底部的&#x200B;**[!UICONTROL Load More]**。
 

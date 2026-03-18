@@ -1,16 +1,16 @@
 ---
-title: 可用報表欄
+title: 可用的報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '2933'
 ht-degree: 0%
 
 ---
 
-# 可用報表欄
+# 可用的報表欄
 
 <!-- Add when added:
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Month (YYYY-MM)] | 月份和年份。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Time of Day] | 從0到23的該小時時間。 |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Week (YYYY-MM-DD to YYYY-MM-DD)] | 相關周的日期範圍，從星期日至星期六。 範例： 2021-02-18到2021-03-07。 |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 顯示廣告的瀏覽器供應商(例如Google或Mozilla)。 |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 顯示廣告的瀏覽器供應商（例如Google或Mozilla）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 顯示廣告的瀏覽器版本（例如[!UICONTROL Safari 4.3]或[!UICONTROL Chrome 7.0]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 顯示廣告的瀏覽器（例如[!UICONTROL Chrome]或[!UICONTROL Firefox]）。 |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | 位置要定位的裝置環境： （*[!UICONTROL Desktop]*、*[!UICONTROL Mobile]*&#x200B;和/或&#x200B;*[!UICONTROL Connected TV]）*。 |
@@ -232,25 +232,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 對廣告的所有點按總和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | 影片廣告被檢視的總分鐘數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | 視訊廣告檢視總數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (自訂Creative報表)觀看整個廣告的檢視百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (自訂Creative報表)觀看整個廣告的檢視次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (自訂Creative報表)觀看廣告至少四分位數的檢視百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (自訂Creative報表)觀看廣告至少一個四分位數的檢視次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (自訂Creative報表)觀看廣告至少四分位數的檢視百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (自訂Creative報表)觀看廣告至少兩個四分位數的檢視次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (自訂Creative報表)觀看廣告至少四分位數的檢視百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (自訂Creative報表)觀看廣告至少四分位數的檢視次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (自訂Creative報表)觀看至完成的平均廣告百分比，考慮所有檢視。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (自訂Creative報告)提供導致視訊檢視的曝光次數百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (自訂Creative報表)視訊檢視的平均持續時間（以秒為單位）。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (自訂Creative報告)影片靜音的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (自訂Creative報表)影片暫停的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (自訂Creative報告)暫停後繼續播放視訊的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (自訂Creative報告)影片反轉的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (自訂Creative報告)影片開始播放的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (自訂Creative報告)影片取消靜音的總次數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (自訂Creative報表)影片廣告被檢視的總分鐘數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (自訂Creative報表)視訊廣告檢視總數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | （自訂Creative報表）觀看整個廣告的檢視百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | （自訂Creative報表）觀看整個廣告的檢視次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | （自訂Creative報表）觀看廣告至少四分位數的檢視百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | （自訂Creative報表）觀看廣告至少一個四分位數的檢視次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | （自訂Creative報表）觀看廣告至少四分位數的檢視百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | （自訂Creative報表）觀看廣告至少兩個四分位數的檢視次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | （自訂Creative報表）觀看廣告至少四分位數的檢視百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | （自訂Creative報表）觀看廣告至少四分位數的檢視次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | （自訂Creative報表）觀看至完成的平均廣告百分比，考慮所有檢視。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | （自訂Creative報告）提供導致視訊檢視的曝光次數百分比。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | （自訂Creative報表）視訊檢視的平均持續時間（以秒為單位）。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | （自訂Creative報告）影片靜音的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | （自訂Creative報表）影片暫停的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | （自訂Creative報告）暫停後繼續播放視訊的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | （自訂Creative報告）影片反轉的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | （自訂Creative報告）影片開始播放的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | （自訂Creative報告）影片取消靜音的總次數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | （自訂Creative報表）影片廣告被檢視的總分鐘數。 |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | （自訂Creative報表）視訊廣告檢視總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | 平均播放器寬度和高度。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 提供可測量可檢視度的曝光百分比，計算為<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>。 |

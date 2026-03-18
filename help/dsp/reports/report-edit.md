@@ -1,16 +1,16 @@
 ---
-title: 編輯自訂報告
+title: 編輯自訂報表
 description: 瞭解如何編輯自訂報告設定。
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# 編輯自訂報告
+# 編輯自訂報表
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**。
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [執行自訂報告](/help/dsp/reports/report-run-now.md)
 >* [刪除自訂報告](/help/dsp/reports/report-delete.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
->* Campaign Management檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)

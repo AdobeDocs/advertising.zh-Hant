@@ -1,15 +1,16 @@
 ---
-title: 管理URL清單
+title: 管理URL
 description: 瞭解如何建立和管理位置鎖定目標的URL清單。
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# 管理URL清單
+# 管理URL
 
 您可以建立並管理用於版位定位的網站和應用程式URL清單。 在位置設定中鎖定或排除特定URL清單。
 

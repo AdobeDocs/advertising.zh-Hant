@@ -3,14 +3,14 @@ title: 檢視封裝變更記錄
 description: 瞭解如何檢視封裝的變更。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# 檢視封裝的變更記錄
+# 檢視套件的變更記錄
 
 變更記錄會顯示所選日期範圍內對封裝所做的變更，包括封裝名稱、實體型別（封裝）、變更型別、新值和舊值、進行變更的使用者以及日期。 您可以選擇將附註新增至任何專案。
 
