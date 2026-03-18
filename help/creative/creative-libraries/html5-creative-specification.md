@@ -3,10 +3,10 @@ title: HTML5創意規格
 description: 參考Advertising Creative的HTML5創意規格。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 創意內容必須封裝為ZIP檔案（.ZIP格式）。 巢狀ZIP檔案不受支援，因此請勿在外部壓縮資料夾中包含壓縮資料夾。
 
-* ZIP檔案必須至少包含一個HTML檔案(主要HTML顯示檔案)，其中包含對[!DNL Creative] JavaScript資料庫的參照。 主要HTML檔案可在根資料夾或子資料夾中。
+* ZIP檔案必須至少包含一個HTML檔案（主要HTML顯示檔案），其中包含對[!DNL Creative] JavaScript資料庫的參照。 主要HTML檔案可在根資料夾或子資料夾中。
 
 * 主要的HTML檔案可命名為任何名稱，只要它不包含特殊字元即可，不過建議使用`index.html`。
 
@@ -88,7 +88,7 @@ var clickTag = “http://www.example.com”;
 >
 >您在HTML5創意內容中包含的靜態URL僅供本機測試使用，且將被覆寫。 當您上傳HTML5創意內容時，會為每個`clickTag`變數定義預設登陸頁面。 當您將上傳的HTML5創意內容指派給廣告體驗時，您可以選擇覆寫每個`clickTag`變數的預設登陸頁面，而[!DNL Creative]會在您儲存體驗時新增點選追蹤至URL。
 
-###### 引數
+###### 參數
 
 * `clkVar` — 點選變數的名稱（通常是「clickTag」），以雙引號括住。
 
@@ -96,7 +96,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情況
 
-在主要HTML檔案的`<head>`區段中呼叫`amo.registerClick()`。
+在主要HTML檔案的`amo.registerClick()`區段中呼叫`<head>`。
 
 ###### 範例
 
@@ -106,7 +106,7 @@ var clickTag = “http://www.example.com”;
 
 觸發退出事件，將使用者重新導向至為`clickTag`設定的登陸頁面。 在本機測試期間，此函式會提醒開發人員傳遞至函式的URL是否已註冊。
 
-###### 引數
+###### 參數
 
 * `clkTag` — 您使用`amo.registerClick()`函式指派登陸頁面URL時所使用的點選變數名稱（以單引號括住）。
 
@@ -114,7 +114,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情況
 
-在主要HTML檔案的`<body>`區段中呼叫`amo.onAdClick()`。
+在主要HTML檔案的`amo.onAdClick()`區段中呼叫`<body>`。
 
 ###### 範例
 
@@ -132,7 +132,7 @@ var clickTag = “http://www.example.com”;
 >
 >您在HTML5創意內容中包含的靜態URL僅供本機測試使用，且將被覆寫。 當您上傳HTML5創意內容時，會為每個`clickTag`變數定義預設登陸頁面。 當您將上傳的HTML5創意內容指派給廣告體驗時，您可以選擇覆寫每個`clickTag`變數的預設登陸頁面，而[!DNL Creative]會在您儲存體驗時新增點選追蹤至URL。
 
-###### 引數
+###### 參數
 
 * `clkVar` — 點選變數的名稱（通常是「clickTag」），以雙引號括住。
 
@@ -140,7 +140,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情況
 
-在主要HTML檔案的`<head>`區段中呼叫`amo.registerClick()`。
+在主要HTML檔案的`amo.registerClick()`區段中呼叫`<head>`。
 
 ###### 範例
 
@@ -150,7 +150,7 @@ var clickTag = “http://www.example.com”;
 
 觸發退出事件，將使用者重新導向至為`clickTag`設定的登陸頁面。 在本機測試期間，此函式會提醒開發人員傳遞至函式的URL是否已註冊。
 
-###### 引數
+###### 參數
 
 * `clkTag` — 您使用`amo.registerClick()`函式指派登陸頁面URL時所使用的點選變數名稱（以單引號括住）。
 
@@ -158,7 +158,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 使用情況
 
-在主要HTML檔案的`<body>`區段中呼叫`amo.onAdClick()`。
+在主要HTML檔案的`amo.onAdClick()`區段中呼叫`<body>`。
 
 ###### 範例
 
@@ -174,7 +174,7 @@ var clickTag = “http://www.example.com”;
 >
 >此方法中定義的值僅用於本機開發，不會用於即時廣告服務。
 
-###### 引數
+###### 參數
 
 * `key` — 屬性的英數字元名稱。 它必須以字母字元開頭。
 
@@ -253,7 +253,7 @@ Advertising DSP中大部分的顯示器交換都有以下創意需求：
 
 * /assets （資料夾）
 
-   * bg.jpg (JPG、PNG、SVG或GIF影像)
+   * bg.jpg （JPG、PNG、SVG或GIF影像）
 
 ### 簡單HTML5創意內容的HTML檔案範例(index.html)
 

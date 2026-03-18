@@ -3,7 +3,7 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * 特定地理位置，包括國家、州、美國境內的DMA、城市和郵遞區號
 
-   * 從DSP、發佈者或合作夥伴(例如SKU=01234567890123或Cart=empty)傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
+   * 從DSP、發佈者或合作夥伴（例如SKU=01234567890123或Cart=empty）傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
 
    * [!DNL Creative]正在重新定位畫素和指定的屬性值
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * 您可以從[檢視](experience-performance-details.md)檢視任何體驗[!UICONTROL Experiences]的詳細效能資料。
 
-* 若要監視所有體驗的效能，請建立[自訂Creative報表](/help/creative/reports/report-manage.md)。
+* 若要監視所有體驗的效能，請建立[自訂創意報告](/help/creative/reports/report-manage.md)。
 
 ## 警示指示器
 

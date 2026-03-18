@@ -3,7 +3,7 @@ title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-### 基本詳細資訊
+### 基本詳細資料
 
 **[!UICONTROL Creative Type]：**&#x200B;創意內容是&#x200B;*[!UICONTROL Display]*&#x200B;廣告(HTML5)或&#x200B;*[!UICONTROL Video]*&#x200B;廣告。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Template]：**&#x200B;用來建立廣告的廣告範本。 選取現有的廣告範本，或上傳新的廣告範本，然後選取範本型別（*靜態*&#x200B;或&#x200B;*動態*）。 範本必須是ZIP格式並包含：<!-- Need to add more specs for templates -->
 
-* 顯示創意：具有所需廣告格式的HTML5檔案，以及具有廣告屬性(.tdf)的檔案(僅限動態HTML5廣告)
+* 顯示創意：具有所需廣告格式的HTML5檔案，以及具有廣告屬性(.tdf)的檔案（僅限動態HTML5廣告）
 
 * 影片創意：具有所需廣告格式的.scene檔案。 ZIP檔案最大可達512 MB。
 

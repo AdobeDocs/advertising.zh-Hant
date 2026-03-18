@@ -2,7 +2,8 @@
 title: 管理自訂報表
 description: 瞭解如何產生和管理跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
-source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
+exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -159,7 +160,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]：**&#x200B;設定會因報告型別而異：
 
-* **\[規則型別\]：** (僅具有Adobe Advertising轉換追蹤的廣告商)在報表中，如何在一連串導致轉換的事件中歸因轉換資料。 如果要比較規則之間的差異，您可以選擇多個規則。
+* **\[規則型別\]：** （僅具有Adobe Advertising轉換追蹤的廣告商）在報表中，如何在一連串導致轉換的事件中歸因轉換資料。 如果要比較規則之間的差異，您可以選擇多個規則。
 
   >[!NOTE]
   >
@@ -207,7 +208,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]：*&#x200B;若要將完成的報表傳送至一或多個FTP位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
-* *[!UICONTROL FTP SSL] (目前在Beta中)：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
+* *[!UICONTROL FTP SSL]（目前在Beta中）：*&#x200B;若要將完成的報表傳送至一或多個FTP SSL位置，您必須在&#x200B;**[!UICONTROL Destination Name]**&#x200B;欄位中選取該位置。
 
 * *[!UICONTROL Email]：*&#x200B;若要指定電子郵件位址，以便在報告因錯誤而取消時，將已完成的報告或通知傳送至該位址。
 
@@ -230,7 +231,7 @@ ht-degree: 0%
 
 <!-- This needs a lot of updating for new report:
 
-## Available Report Columns {#report-custom-creative-columns}
+## Available report columns {#report-custom-creative-columns}
 
 |Metric Type|Subtype|Column Name|Description|
 |-----------|-------|-----------|-----------|

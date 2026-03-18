@@ -3,7 +3,7 @@ title: 標準創意設定
 description: 參考標準創意作品的設定。
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## HTML5創意設定 {#creative-settings-html5}
 
-## 詳細資訊標籤
+### 詳細資訊標籤
 
 對於新創意，以下設定不在已命名的標籤上。
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 **Creative大小：** （現有創意為唯讀）創意的尺寸。 如果創意內容中包含的任何影像大於指定大小，則會據此調整大小。
 
-**[!UICONTROL Click Tags]：** (僅限靜態HTML5創意)允許從包含的橫幅廣告重新導向點選追蹤的變數。 變數名稱和對應的登陸頁面URL會從上傳的創意單位中填入，但您可以變更預設URL。 對於多個創意，您可以編輯個別的點按標籤。
+**[!UICONTROL Click Tags]：** （僅限靜態HTML5創意）允許從包含的橫幅廣告重新導向點選追蹤的變數。 變數名稱和對應的登陸頁面URL會從上傳的創意單位中填入，但您可以變更預設URL。 對於多個創意，您可以編輯個別的點按標籤。
 
 >[!NOTE]
 >
 >將創意內容納入體驗時，您可以使用自訂登陸頁面URL來取代任何點選標籤的預設值，以產生基本創意內容的衍生。
 
-**登陸頁面URL：** (僅有一個登陸頁面的簡單HTML5創意內容)您與創意內容建立關聯的每個廣告的預設登陸頁面URL。 此URL必須是以http://或https://開頭的有效URL。 其中可能包含您自己的協力廠商追蹤引數或[[!DNL Creative] 巨集](/help/creative/creative-macros.md)。
+**登陸頁面URL：** （僅有一個登陸頁面的簡單HTML5創意內容）您與創意內容建立關聯的每個廣告的預設登陸頁面URL。 此URL必須是以http://或https://開頭的有效URL。 其中可能包含您自己的協力廠商追蹤引數或[[!DNL Creative] 巨集](/help/creative/creative-macros.md)。
 
 當您在套件中包含創意並將套件指派給體驗時，可以選擇變更登陸頁面URL，並為套件中的每個創意新增曝光和點選追蹤URL及JavaScript。<!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -170,9 +170,9 @@ ht-degree: 0%
 
 ## 協力廠商創意設定 {#creative-settings-third-party}
 
-**JavaScriptCode：**&#x200B;指向協力廠商廣告伺服器上創意的JavaScript標籤(以及不支援JavaScript的瀏覽器適用的替代標籤)。 指令碼可能會因廣告伺服器而異。 當您編輯多個創意時，相同的值會套用至每個選取的創意。
+**JavaScriptCode：**&#x200B;指向協力廠商廣告伺服器上創意的JavaScript標籤（以及不支援JavaScript的瀏覽器適用的替代標籤）。 指令碼可能會因廣告伺服器而異。 當您編輯多個創意時，相同的值會套用至每個選取的創意。
 
-所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![&#x200B; [複製到剪貼簿] &#x200B;](/help/creative/assets/copy-to-clipboard.png "，然後將影像貼到標籤中您想要的位置。")
+所有[可用的巨集](/help/creative/creative-macros.md)及其取代的資料都列在輸入欄位下方。 若要在標籤中插入其中一個巨集，請將游標停留在巨集描述上，然後按一下[複製到剪貼簿] ![ [複製到剪貼簿] ](/help/creative/assets/copy-to-clipboard.png "，然後將影像貼到標籤中您想要的位置。")
 
 當您將此創意內容納入您實作為DSP廣告的體驗時，DSP會使用此標籤中的資訊來顯示廣告並追蹤其曝光次數和點按次數。 然後DSP會將標籤推送至廣告交換。 當廣告顯示並按一下時，廣告伺服器、DSP和[!DNL Creative]會追蹤事件。
 
