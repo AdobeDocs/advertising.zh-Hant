@@ -3,7 +3,7 @@ title: Customer Journey Analytics中的Adobe Advertising量度和維度
 description: 參考Customer Journey Analytics中可用的Adobe Advertising量度和維度。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -94,5 +94,5 @@ Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Anal
 >
 >* [總覽](overview.md)
 >* [必要條件](prerequisites.md)
->* [個Adobe Advertising ID已由 [!DNL Customer Journey Analytics]](ids.md)使用
+>* [由 [!DNL Customer Journey Analytics]](ids.md)使用的Adobe Advertising ID
 >* [設定資料收集、資料傳輸及報告](set-up.md)
