@@ -1,9 +1,9 @@
 ---
 title: 將使用者ID從 [!DNL Tealium] 轉換為通用ID
-description: 瞭解如何啟用DSP以擷取您的 [!DNL Tealium] 第一方區段。
+description: 瞭解如何讓DSP擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP與[!DNL Tealium]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用識別碼，以用於目標定位廣告。 處理程式使用[!DNL Amazon Web Services] (AWS) firehose聯結器。 請依照下列步驟，與DSP共用Tealium的資料：
+使用DSP與[!DNL Tealium]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。 處理程式使用[!DNL Amazon Web Services] (AWS) firehose聯結器。 請依照下列步驟，與DSP共用Tealium的資料：
 
 1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） [設定追蹤以啟用 [!DNL Analytics] 測量](#analytics-tracking)。
 
-1. [在DSP](#source-create)中建立對象來源。
+1. [在DSP中建立對象來源](#source-create)。
 
 1. [準備並共用區段對應資料](#map-data)。
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
-   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會指示您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LiveRamp] [!DNL LaunchPad]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並提供唯一標籤給您的組織，以在您的網頁上實施。
+   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LaunchPad] [!DNL LiveRamp]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
 
 ## 步驟2：在DSP中建立對象來源 {#source-create}
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
    1. 將包含雜湊電子郵件ID的欄對應至訪客ID型別的屬性。
 
-   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性[&#128279;](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)的[!DNL Tealium] 檔案。
+   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性[[!DNL Tealium] 的](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)檔案。
 
-1. 廣告商必須提供區段對應資料給Adobe帳戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
+1. 廣告商必須將區段對應資料提供給Adobe客戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 
    * **外部區段金鑰：**&#x200B;外部區段金鑰，您稍後會在[!DNL Tealium]的聯結器動作設定中指定該金鑰。 建議的命名慣例是&quot;`<DSP source key>_<Tealium segment name>`&quot;，例如&quot;57bf424dc10_coffee-drinkers&quot;。 對於DSP來源金鑰，請使用DSP對象來源設定中的[!UICONTROL Source Key]。
 
@@ -92,9 +92,9 @@ ht-degree: 0%
 
       1. 設定觸發器：
 
-         * 針對區段的第一個聯結器，選取觸發器`Joined Audience`。 這可確保在使用者加入區段時與DSP共用資料。
+         * 針對區段的第一個聯結器，選取觸發器`Joined Audience`。 這可確保在使用者加入區段時，資料會與DSP共用。
 
-         * 針對區段的第二個聯結器，選取觸發程式`Left Audience`。 此聯結器用於處理所有退出及離開DSP區段的使用者。
+         * 針對區段的第二個聯結器，選取觸發程式`Left Audience`。 此聯結器用於處理所有退出及離開DSP中區段的使用者。
 
    1. 在組態設定中，指定AWS firehose聯結器。 如果您尚未新增DSP的firehose聯結器，請使用下列資訊新增firehose聯結器：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
                * 針對Cookie屬性，將自訂訊息命名為`cookies`。
 
-            1. 在建立自訂欄位的選項中，在[!DNL Source Key]欄位中，輸入包含在先前程式中的[區段對應資料](#map-data)中的[!UICONTROL External Segment Key]。
+            1. 在建立自訂欄位的選項中，在[!DNL Source Key]欄位中，輸入包含在先前程式中的[!UICONTROL External Segment Key]區段對應資料[中的](#map-data)。
 
                DSP將使用此索引鍵填入您的區段。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 步驟6：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
-這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾計數應在九(9)小時內顯示。
+這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾規模應在九(9)小時內顯示。
 
 驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或版位設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。 如需有關可接受的ID轉譯率以及區段計數可能有所差異的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 若要疑難排解翻譯速率和使用者計數問題，請參閱&quot;[啟用通用ID的支援](/help/dsp/audiences/universal-ids.md)&quot;。
 
-若要疑難排解轉換程式的問題，請連絡您的Adobe客戶團隊或`adcloud-support@adobe.com`。
+若要疑難排解轉換程式的問題，請聯絡您的Adobe客戶團隊或`adcloud-support@adobe.com`。
 
 >[!MORELIKETHIS]
 >

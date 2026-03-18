@@ -3,7 +3,7 @@ title: 匯出關於可重複使用對象的詳細資料
 description: 瞭解如何檢視可重複使用對象的設定、對象人數和鎖定位置。
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 1e573c443cff2db2cd59ad8a77ab47a3cdd93e07
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

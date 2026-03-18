@@ -3,7 +3,7 @@ title: 關於第一方對象來源
 description: 瞭解如何將第一方區段中的其他使用者識別碼轉換為通用ID以用於無cookie目標定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -64,35 +64,35 @@ Using your first-party data, you can create segments with IDs from the following
     >Third-party segments from [!DNL Eyeota] may automatically include ID5 IDs, in addition to users tracked by cookies or device IDs. The segment details include the size for each type. The usual usage fee for each segment, which is stated next to the segment name, applies; no additional fees are charged for the ID5 IDs.
 -->
 
-## 支援第一方區段的客戶資料平台
+## 第一方區段的支援客戶資料平台
 
 DSP已建立下列CDP的聯結器，以快速內嵌您的第一方區段。
 
-DSP也可以使用批次、串流或API型資料共用來連線至任何其他CDP。 若要與新的CDP整合，請聯絡您的Adobe客戶團隊。
+DSP也可以使用批次、串流或API型資料共用，連線至任何其他CDP。 若要與新的CDP整合，請聯絡您的Adobe客戶團隊。
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)的整合式&#x200B;*目的地*，它是Adobe Experience Platform的一部分。
+DSP是&#x200B;*the*[的整合式 [!DNL Adobe Real-Time CDP]目的地](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)，它是Adobe Experience Platform的一部分。
 
-在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以使用目的地，針對DSP中的目標定位廣告啟用雜湊電子郵件地址。 如需有關目的地的詳細資訊，請參閱Experience Platform[目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hant)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hant)。
+在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以在DSP中使用目的地來啟用雜湊電子郵件地址以用於目標定位廣告。 如需有關目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)。
 
 若要讓DSP擷取您的[!DNL Adobe] [!DNL Real-time CDP]第一方區段，並將雜湊電子郵件地址轉換為通用ID，請參閱[將使用者ID從 [!DNL Adobe Real-Time CDP] 轉換為通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)。
 
 ### [!DNL ActionIQ]
 
-您可以與DSP共用您組織從[!DNL ActionIQ]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中進行目標定位廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+您可以與DSP共用您組織從[!DNL ActionIQ]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中鎖定目標廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
 ### [!DNL Amperity]
 
-您可以與DSP共用您組織從[!DNL Amperity]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中進行目標定位廣告。 如需詳細資訊，請參閱[將使用者ID從 [!DNL Amperity] 轉換為通用ID](/help/dsp/audiences/sources/source-amperity.md)。
+您可以與DSP共用您組織從[!DNL Amperity]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中鎖定目標廣告。 如需詳細資訊，請參閱[將使用者ID從 [!DNL Amperity] 轉換為通用ID](/help/dsp/audiences/sources/source-amperity.md)。
 
 ### [!DNL Optimizely]
 
-您可以與DSP共用您組織從[!DNL Optimizely]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中進行目標定位廣告。 如需詳細資訊，請參閱[將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)。
+您可以與DSP共用您組織從[!DNL Optimizely]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中鎖定目標廣告。 如需詳細資訊，請參閱[將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)。
 
 ### [!DNL Tealium]
 
-您可以使用[!DNL Amazon Web Services]從[!DNL Tealium]客戶資料平台共用您組織的第一方資料。 如需在DSP中將雜湊電子郵件地址轉換為通用識別碼的詳細資訊，請參閱[將使用者ID從 [!DNL Tealium] 轉換為通用識別碼](/help/dsp/audiences/sources/source-tealium.md)。
+您可以使用[!DNL Tealium]從[!DNL Amazon Web Services]客戶資料平台共用您組織的第一方資料。 如需更多有關在DSP中將雜湊電子郵件地址轉換為通用識別碼的資訊，請參閱[將使用者ID從 [!DNL Tealium] 轉換為通用識別碼](/help/dsp/audiences/sources/source-tealium.md)。
 
 >[!MORELIKETHIS]
 >

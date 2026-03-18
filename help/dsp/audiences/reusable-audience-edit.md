@@ -3,7 +3,7 @@ title: 編輯可重複使用的對象
 description: 瞭解如何編輯可重複使用的對象。
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商)未附加至使用中、已排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
+>（DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商）未附加至使用中、已排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**。
 

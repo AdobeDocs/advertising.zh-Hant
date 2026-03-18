@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -143,7 +143,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 對象摘要是定義行銷活動目標對象的策略性寫入。 精心設計的摘要可協助DSP受眾代理程式識別最相關的區段，以組合您的目標受眾。
 
-### 有效受眾簡介的基本元件
+### 有效受眾簡介的重要元件
 
 在您的簡介中儘可能加入以下清單中的對象屬性型別。 指定有關要排除的屬性的特定資訊。
 
@@ -188,7 +188,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
   目前階段的瞭解包括事業階段（學生、入門級、職業生涯中期、主管、已退休）、家庭階段（新婚、新父母、空巢家庭）和主要的人生轉變。
 
-### 潛在行銷活動之結構良好的對象簡報範例
+### 適用於潛在客戶行銷活動的結構良好的對象簡介範例
 
 以下範例是促銷活動的強大對象簡報，以提高知名度並試用優質餐具訂閱服務：
 

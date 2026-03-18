@@ -3,10 +3,10 @@ title: 對象設定
 description: 請參閱可用對象設定的說明。
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商)未附加至使用中、已排程或暫停位置的第一方RampID區段現在會暫停。 該區段在區段清單中記錄為「自動暫停」。
+>（DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商）未附加至使用中、已排程或暫停位置的第一方RampID區段現在會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
 ## Adobe區段
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 自訂區段
 
-（選用）任何使用者建立的區段(使用自訂DSP區段畫素擷取)都會納入對象設定中。 這可以包括標準自訂區段和CCPA選擇退出銷售區段。
+（選用）任何使用者建立的區段（使用自訂DSP區段畫素擷取）都會納入對象設定中。 這可以包括標準自訂區段和CCPA選擇退出銷售區段。
 
 ## 已儲存的對象
 
