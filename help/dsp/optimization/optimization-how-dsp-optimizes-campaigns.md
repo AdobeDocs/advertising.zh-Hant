@@ -3,7 +3,7 @@ title: DSP如何最佳化您的行銷活動
 description: 瞭解DSP如何最佳化行銷活動中的套件。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -34,7 +34,7 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 檢視[最佳化目標及使用方式](optimization-goals.md)，以判斷哪些最佳化目標可協助您達成KPI。
 
-### 排定效能率優先順序的套裝程式
+### 排定效能率優先順序的套件
 
 針對將效能率排定優先順序的最佳化目標，DSP會預測每個拍賣的效能，並一律以最高出價競標。 適用的最佳化目標範例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
 
@@ -52,11 +52,11 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 * 如果支出落後於節奏，出價就會減少選擇性，這樣您就可以在預計效能比較低的拍賣會上出價，以趕上節拍目標。
 
-#### 結算價格/競標著色 {#clearing-price-performance}
+#### 清除價格/競標陰影 {#clearing-price-performance}
 
 在執行步調邏輯後，DSP會透過結算價格預測模型執行提議的競標。 如果預測指出出價可以以最低限度的成功率降低而降低，則根據預測會降低出價。
 
-### 排定成本效益與效能比之間平衡優先順序的套件
+### 優先權平衡成本效益與效能比率的套件
 
 針對某些最佳化目標，DSP會預測每個拍賣的效能，並自動調整競標價格，不會超過刊登的[!UICONTROL Max Bid]。 適用的最佳化目標範例包括[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click]等。
 
@@ -68,7 +68,7 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 * 如果支出落後於節奏，則DSP會降低價格敏感性，並會競標更高的金額（最高至[!UICONTROL Max Bid]），以透過節拍計畫來平衡中標率。
 
-#### 結算價格/競標著色 {#clearing-price-balanced}
+#### 清除價格/競標陰影 {#clearing-price-balanced}
 
 在執行步調邏輯後，DSP會透過結算價格預測模型執行提議的競標。 如果預測指出出價可以以最低限度的成功率降低而降低，則根據預測會降低出價。
 

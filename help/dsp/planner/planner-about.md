@@ -1,16 +1,16 @@
 ---
-title: 關於DSP Planner工具
+title: 關於DSP規劃工具
 description: 瞭解規劃工具，以根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的獨特觸及率。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# 關於DSP Planner工具
+# 關於DSP規劃工具
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 在您開始花費存貨之前，規劃工具可協助您根據指定的預算與目標定位條件，預測連線電視(CTV)刊登地點的住戶層級獨特觸及率。 評估多個觸及計畫後，您可以實施最符合套件和位置中所需結果的計畫。
 
-供需規劃工具會使用過去90天的歷史競標、曝光數和觸及率資料，來估計計畫設定的不重複觸及數、平均CPM、平均頻率和曝光數。
+規劃工具使用過去90天的歷史競標、曝光次數和觸及率資料，來估計計畫設定的不重複觸及率、平均CPM、平均頻率和曝光次數。
 
 ## 供需規劃員預測
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 +++
 
-+++為什麼會看到&quot;[!UICONTROL Unable to generate forecast]？&quot;
++++為什麼會看到「[!UICONTROL Unable to generate forecast]」？
 
 此錯誤最常見的原因之一是預算不足或最高競標。 為了獲得最佳結果，請使用至少5000美元的預算。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10美元的最高競標。
 
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 +++
 
-+++我根據預測建立了刊登版位，但並未達到觸及預測所指示的獨特觸及量。 為什麼？
++++我根據預測建立了刊登版位，但並未達到觸及預測所指示的獨特觸及量。 為什麼？ 
 
 觸及預測只是一個估計，而實際結果可能會因為多種經常變化的因素而有所差異，例如季節性、競標競爭力以及供給與需求。 它不一定完全正確，但對於深入分析行銷活動策略（可能會推動最佳結果）而言，最有用。
 
 +++
 
-+++供需規劃員是否可以使用相同的輸入設定產生不同的預測結果？
++++供需規劃員是否可以使用相同的輸入設定來產生不同的預測結果？
 
 供需規劃員會根據最新觀察資料產生預測，因此預測輸出可能會在不同時間有所差異，即使計畫設定維持相同。 考慮為相同計畫產生多個預測，並為每個計畫匯出結果。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++我可以儲存供需規劃員預測輸出嗎？
 
-可以，您可以按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**，將預測匯出至[!DNL Microsoft Excel]試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
+可以，您可以按一下右上角的[!DNL Microsoft Excel] > **[!UICONTROL ...]**，將預測匯出至&#x200B;**[!UICONTROL Export]**&#x200B;試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
 
 >[!MORELIKETHIS]
 >

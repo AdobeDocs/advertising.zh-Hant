@@ -3,7 +3,7 @@ title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 在兩種情況下，您會在自訂目標中使用多個量度：
 
-* 您的行銷活動目標有多個成功事件。 例如，您可能會針對多個網站上的動作(PDF下載、聯絡我們及電子郵件註冊)進行廣告，這些動作都會對您的CPA目標有所貢獻。 如果目標包含三個個別的量度，每個量度的非行動權重為一(1)，則[!DNL Adobe AI]支援的演演算法會將每個量度和使用者裝置型別視為同等重要性。 如果不同量度的成本或重要性不同，您可以據此調整其相對權重。
+* 您的行銷活動目標有多個成功事件。 例如，您可能會針對多個網站上的動作（PDF下載、聯絡我們及電子郵件註冊）進行廣告，這些動作都會對您的CPA目標有所貢獻。 如果目標包含三個個別的量度，每個量度的非行動權重為一(1)，則[!DNL Adobe AI]支援的演演算法會將每個量度和使用者裝置型別視為同等重要性。 如果不同量度的成本或重要性不同，您可以據此調整其相對權重。
 
 <!-- update image or delete it and adjust the wording above
 

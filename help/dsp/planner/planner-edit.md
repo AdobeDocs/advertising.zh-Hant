@@ -1,16 +1,16 @@
 ---
-title: 編輯連線電視連線計畫
+title: 編輯連線電視觸及計畫
 description: 瞭解如何編輯連線電視觸及計畫的設定。
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 編輯連線電視連線計畫
+# 編輯連線電視觸及計畫
 
 編輯計畫設定會產生新預測。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    儲存計畫後，即會顯示預測輸出。
 
-1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表&#x200B;**，請按一下右上方的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然後按一下&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表**，請按一下右上方的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
