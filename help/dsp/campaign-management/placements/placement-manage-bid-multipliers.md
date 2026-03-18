@@ -3,7 +3,7 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 * **ads.txt目標：** （當您選擇退出ads.txt時，這可讓您從所有賣家購買詳細目錄） ads.txt賣家，僅限ads.txt直銷商，以及ads.txt賣家，加上沒有ads.txt的網站<!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
-## 按目標型別列出的競標乘數上限 {#bid-multiplier-limits-by-target}
+## 依目標型別區分的競標乘數上限 {#bid-multiplier-limits-by-target}
 
 您可以為有限數量的目標設定競標乘數（具有1.00以外的值）。 例如，您可以為最多20個國家/地區目標設定競標倍數。 以下列出每種目標型別可以有競標倍數的最大目標數量。
 

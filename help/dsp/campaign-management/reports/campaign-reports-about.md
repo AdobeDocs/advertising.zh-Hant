@@ -1,16 +1,16 @@
 ---
-title: Campaign Management檢視中的效能報表型別
+title: 行銷活動管理檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Campaign Management檢視中的效能報表型別
+# 行銷活動管理檢視中的效能報表型別
 
 行銷活動管理檢視包含完整的報告資料。 可用的報表可協助您識別執行良好的套件和位置，以及需要您注意的套件和位置。 快速動作按鈕也讓您提高生產力。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 對於每個行銷活動，您可以[使用三個量度（可在每個實體檢視中使用）自訂時間序列趨勢圖](campaign-data-views-manage.md#data-visualizations-manage)。 促銷活動的所有趨勢圖表都會保留相同的量度。
 
-如需詳細資訊，請參閱跨促銷活動量度[&#128279;](#chart-view)的「圖表檢視」區段。
+如需詳細資訊，請參閱跨促銷活動量度[的](#chart-view)「圖表檢視」區段。
 
 ### 表格檢視
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 >
 >* [檢視位置](placement-details-view.md)的網站、廣告和頻率詳細資訊
 >* [管理您的行銷活動資料檢視](campaign-data-views-manage.md)
->* [從Campaign Management檢視匯出資料](campaign-export-data.md)
+>* [從行銷活動管理檢視匯出資料](campaign-export-data.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [檢視警示](campaign-alerts.md)

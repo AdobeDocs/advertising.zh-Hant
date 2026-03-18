@@ -1,32 +1,32 @@
 ---
-title: 檢視位置診斷報告
+title: 檢視位置[!UICONTROL Diagnostics]報告
 description: 瞭解如何診斷版位設定和步調的問題。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# 檢視位置診斷報告
+# 檢視位置[!UICONTROL Diagnostics]報告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 一旦行銷活動上線，診斷報告可協助您診斷位置設定和步調的問題。
 
-## 位置診斷報表中的資訊
+## 位置[!UICONTROL Diagnostics]報告中的資訊
 
 * **[!UICONTROL Change Log]：**&#x200B;顯示金鑰位置設定的變更，例如名稱、狀態和最高出價。 每個專案都包含變更者的日期和使用者名稱。
 
 * **[!UICONTROL Ad Approvals]：**&#x200B;顯示詳細目錄提供者是否核准或拒絕廣告。 您可以選擇變更任何廣告的狀態（例如，暫停已拒絕的廣告）或開啟廣告設定。
 
-* **[!UICONTROL Non Bids]：**&#x200B;顯示DSP未對位置競標的原因。
+* **[!UICONTROL Non Bids]：**&#x200B;顯示DSP未競標位置的原因。
 
-## 開啟位置診斷報告
+## 開啟位置[!UICONTROL Diagnostics]報告
 
-1. 開啟「診斷」報告：
+1. 開啟[!UICONTROL Diagnostics]報表：
 
    1. 開啟位置設定：
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       1. （選擇性）若要開啟廣告的設定，請按一下廣告旁的&#x200B;**[!UICONTROL View Ad]**。
 
-   * 若要瞭解DSP為何沒有對位置競標：
+   * 若要瞭解DSP為何沒有針對此位置競標：
 
       1. 按一下右上角的&#x200B;**[!UICONTROL Non Bids]**。
 
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* 行銷活動管理檢視中的[效能報表型別](campaign-reports-about.md)
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

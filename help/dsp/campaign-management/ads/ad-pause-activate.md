@@ -3,7 +3,7 @@ title: 暫停或啟用廣告
 description: 瞭解如何暫停或啟用廣告。
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
-1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;以開啟位置[!UICONTROL Inspector]的[!UICONTROL Ads]標籤。
+1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;以開啟位置[!UICONTROL Ads]的[!UICONTROL Inspector]標籤。
 1. 在廣告名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Pause]**」或「**[!UICONTROL Activate]**」。
 
 >[!NOTE]

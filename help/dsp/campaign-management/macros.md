@@ -3,7 +3,7 @@ title: Advertising DSP巨集
 description: 參考一般追蹤的可用巨集，以及追蹤第三方顯示廣告的點按次數。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%

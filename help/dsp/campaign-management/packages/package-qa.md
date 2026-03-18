@@ -1,16 +1,16 @@
 ---
-title: 使用Bulksheets檢閱和編輯封裝設定
+title: 使用Bulksheets檢閱及編輯套件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件設定。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# 使用Bulksheets檢閱和編輯封裝設定
+# 使用Bulksheets檢閱及編輯套件設定
 
 您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個套件的設定以供檢閱。 *Bulksheet*&#x200B;檔案包含附有航班資訊的個別標籤。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
 
-* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)」。
+* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
 
 可編輯欄位包含大部分通常可編輯的設定。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >若要快速編輯一或多個套件的多個欄位，請參閱[編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)。
 
-## 行銷活動中所有套件的下載設定
+## 下載行銷活動中所有套件的設定
 
 當您下載行銷活動中所有套件的設定時，大量表單會包含套件設定和航班資訊的個別標籤。 您可以選擇包含與套件相關聯的刊登版位和廣告設定；也會包含額外的索引標籤供刊登版位和廣告設定使用。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
      若要編輯任何設定，請直接編輯檔案，然後上傳變更。 所有可編輯的欄都會以藍色反白。
 
-## 特定封裝的下載設定
+## 下載特定封裝的設定
 
 當您下載特定封裝的設定時，大量工作表檔案會包含封裝設定和飛行資訊的個別標籤，而且檔案是可編輯的。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 當任何設定更新失敗時，您可以下載帶有顏色編碼的批次工作表錯誤檔案，以顯示哪些設定（列）已儲存且失敗，以及每次失敗的原因。 然後，您可以在相同檔案中解決問題，並再次上傳它以處理更正的資訊。
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

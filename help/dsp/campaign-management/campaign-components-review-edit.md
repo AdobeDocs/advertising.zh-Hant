@@ -1,16 +1,16 @@
 ---
-title: 使用Bulksheets檢閱和編輯Campaign元件設定
+title: 使用Bulksheet檢閱和編輯行銷活動元件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
-# 使用Bulksheets檢閱和編輯Campaign元件設定
+# 使用Bulksheet檢閱和編輯行銷活動元件設定
 
 您可以在XLSX （[!DNL Microsoft Excel]試算表）格式的單一行銷活動中下載套件、版位和廣告的設定，以檢閱和編輯設定。 根據預設，下載的檔案&#x200B;*大量表單*&#x200B;包含封裝設定、封裝航班資訊、位置設定和位置廣告排程的個別標籤。 您可以選擇排除某些行銷活動元件型別的設定。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >您也可以僅下載及編輯特定套件和特定位置的設定。 請參閱[使用Bulksheets檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。
 
-## 行銷活動中套件、版位和廣告的下載設定 {#download-bulksheet-campaign}
+## 下載行銷活動中套件、版位和廣告的設定 {#download-bulksheet-campaign}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

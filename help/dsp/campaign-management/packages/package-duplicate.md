@@ -1,16 +1,16 @@
 ---
-title: 複製套裝
+title: 複製封裝
 description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
 
-# 複製套裝
+# 複製封裝
 
 複製套件以建立具有類似設定的套件。 您可以：
 

@@ -3,7 +3,7 @@ title: 位置設定
 description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: f8f877552018de50649fbba22c56452775e72df3
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '4436'
 ht-degree: 0%
@@ -187,11 +187,11 @@ ht-degree: 0%
 
   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要索引鍵或選取的特徵標籤進行搜尋。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]：您與已在DSP中設定的發行者之間的現有私人交易（或針對[!DNL Roku]個位置現有的私人[!DNL Roku]交易），以及您現有的[私人交易清單](/help/dsp/inventory/lists-deals-manage.md)。 您可以包含（但不排除）公用詳細目錄。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]：您與已在DSP中設定的發行者之間的現有私人交易（或[!DNL Roku]個位置現有的私人[!DNL Roku]交易），以及您現有的[私人交易清單](/help/dsp/inventory/lists-deals-manage.md)。 您可以包含（但不排除）公用詳細目錄。
 
   從[!UICONTROL Deals]索引標籤，您可以依關鍵字、金鑰、交易ID或自訂標籤來搜尋清單。 從[!UICONTROL Deal Lists]索引標籤，您可以依交易清單名稱或交易清單ID搜尋清單。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[中訂閱的所有[!UICONTROL On Demand]優質、不保證的](/help/dsp/inventory/on-demand-inventory-about.md)詳細目錄[!UICONTROL On Demand] （或[!DNL Roku]個位置的[!DNL Roku] [!DNL DSP]交易）。 您可以包含和排除[!UICONTROL On Demand]詳細目錄。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]：您已在[中訂閱的所有[!UICONTROL On Demand]進階、不保證的](/help/dsp/inventory/on-demand-inventory-about.md)詳細目錄[!UICONTROL On Demand] （或[!DNL Roku]個位置的[!DNL Roku] [!DNL DSP]個交易）。 您可以包含和排除[!UICONTROL On Demand]詳細目錄。
 
   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要金鑰或選取的發佈者區域、類別標籤或特性標籤進行搜尋。
 
@@ -296,7 +296,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Custom Segments]**&#x200B;標籤：列出您組織的[!DNL Peer39]自訂區段。
 
-* **[!UICONTROL Paste Segments]**&#x200B;標籤： (其組織具有[!DNL Comscore]夥伴關係的廣告商；從您的Adobe客戶團隊啟用後即可使用)輸入您組織[!DNL Comscore]內容區段的一或多個區段ID或區段名稱。 以逗號分隔多個值（例如Segment1、Segment2、Segment3）。
+* **[!UICONTROL Paste Segments]**&#x200B;標籤： （其組織具有[!DNL Comscore]夥伴關係的廣告商；從您的Adobe客戶團隊啟用後即可使用）輸入您組織[!DNL Comscore]內容區段的一或多個區段ID或區段名稱。 以逗號分隔多個值（例如Segment1、Segment2、Segment3）。
 
 **[!UICONTROL Language]：** （選擇性）目標單一語言。
 
@@ -357,7 +357,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

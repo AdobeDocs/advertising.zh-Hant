@@ -3,7 +3,7 @@ title: 關於深入分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -84,7 +84,7 @@ ht-degree: 0%
    * **中等影響**
    * **有限影響：**&#x200B;需要注意
 
-## 開啟效能分析
+## 開啟效能深入分析
 
 * （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights BETA]**。
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
 1. （可選）若要進一步縮小資料範圍，請在工具列中選取實體型別，然後選取特定實體值（單一行銷活動、套件或位置）。
 
-## 變更為Insight報告的Dimension
+## 變更insight的維度報表
 
 * 從insight左上方的下拉式功能表中選取維度。
 
-## 變更Insight的回報量度
+## 變更insight的量度
 
 對於轉換量度，可同時支援Adobe Advertising追蹤和Adobe Analytics追蹤的轉換。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
   檔案會儲存至瀏覽器的預設「下載」資料夾。
 
-## 將特定的Insight下載至XLSX檔案
+## 將特定insight下載至XLSX檔案
 
 * 在insight的右上角，按一下![下載](/help/creative/assets/download.png "下載")。
 
@@ -131,6 +131,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於自訂報告](/help/dsp/reports/report-about.md)
->* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
 >* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

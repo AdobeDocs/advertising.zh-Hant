@@ -1,16 +1,16 @@
 ---
-title: 使用Bulksheets檢閱和編輯位置設定
+title: 使用大量表單檢閱和編輯位置設定
 description: 瞭解如何使用試算表大量檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
-# 使用Bulksheets檢閱和編輯位置設定
+# 使用大量表單檢閱和編輯位置設定
 
 您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >若要快速編輯一或多個位置的多個欄位，請參閱[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)。
 
-## 行銷活動中所有版位的下載設定
+## 下載行銷活動中所有位置的設定
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
-## 特定位置的下載設定
+## 下載特定位置的設定
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 當任何設定更新失敗時，您可以下載帶有顏色編碼的批次工作表錯誤檔案，以顯示哪些設定（列）已儲存且失敗，以及每次失敗的原因。 然後，您可以在相同檔案中解決問題，並再次上傳它以處理更正的資訊。
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

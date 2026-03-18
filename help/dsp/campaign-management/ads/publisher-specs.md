@@ -1,15 +1,15 @@
 ---
-title: 發佈者特定廣告規格
+title: 發佈者特定的廣告規格
 description: 參考支援發佈者的廣告規格。
 feature: DSP Ads
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
-# 發佈者特定廣告規格
+# 發佈者特定的廣告規格
 
 有些發行者的廣告規格比Adobe Advertising [一般廣告規格](/help/dsp/campaign-management/ads/ad-specs.md)更嚴格。 當發行者規格比Adobe Advertising規格更嚴格時，請務必遵循發行者規格。
 

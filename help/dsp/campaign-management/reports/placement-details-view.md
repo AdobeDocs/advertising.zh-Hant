@@ -1,16 +1,16 @@
 ---
-title: 檢視刊登版位的網站、廣告、頻率和詳細目錄資訊
+title: 檢視刊登位置的網站、廣告、頻率和詳細庫存資訊
 description: 瞭解如何檢視刊登版位的目標網站、廣告、頻率和詳細目錄資料。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# 檢視刊登版位的網站、廣告、頻率和詳細目錄資訊
+# 檢視刊登位置的網站、廣告、頻率和詳細庫存資訊
 
 對於每個位置，您可以[開啟（詳細資料檢視[!UICONTROL Inspector]）](placement-details-view.md)，其中列出位置中的所有目標網站、廣告和交易。 其中也包含投放位置的頻率資料。 您可以選擇從任何索引標籤匯出資料。
 

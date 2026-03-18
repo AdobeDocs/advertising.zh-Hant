@@ -3,9 +3,9 @@ title: 關於私人詳細目錄
 description: 關於私人詳細目錄
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,14 @@ ht-degree: 0%
 
 ## 交易ID
 
+
 如果您與發佈商有直接關係，您可以在您的Advertising DSP版位中使用自己的私人交易、其議定的詳細目錄和定價，精簡您的媒體購買流程和工作流程。 當您設定帳戶時，DSP會與您的所有發佈者整合。 如果您想要稍後存取其他發行者，請聯絡您的Adobe帳戶團隊以設定存取權。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 您所有交易識別碼的私人交易均由[!DNL Adobe]融資及開立商業發票。
 
 您可以透過下列其中一種方式來使用交易ID：
 
-* （需要啟用的選用功能）從[!UICONTROL Deal ID Inbox]，您可以檢閱並快速接受下列供應端平台(SSP)上發行者同意的保證和未保證私人庫存交易： [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）以及[!UICONTROL Deal ID inbox]的[!DNL Magnite DV+] （先前稱為[!DNL Rubicon]）。
+* （需要啟用的選用功能）從[!UICONTROL Deal ID Inbox]，您可以檢閱並快速接受下列供應端平台(SSP)上發行者同意的保證和未保證私人庫存交易： [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）以及[!DNL Magnite DV+]的[!DNL Rubicon] （先前稱為[!UICONTROL Deal ID inbox]）。
 
   如需詳細資訊，請參閱&quot;[關於[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)&quot;。
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 您可以使用每個私人交易作為指定廣告商多個行銷活動的版位目標。 針對保證交易，您必須在建立交易後建立預設位置，但您可以將相同交易新增到其他位置以忽略預設位置。
 
-## 交易檢視
+## [!UICONTROL Deals]檢視
 
 在「[!UICONTROL Inventory] > [!UICONTROL Deals]」檢視中，您可以建立私人交易設定。 您也可以編輯某些交易設定；列出刊登版位和廣告，並將其他刊登版位和廣告附加至私人交易；編輯可存取私人交易的廣告商和帳戶；檢視交易的績效報表；檢視私人交易的拍賣深入分析，或封存或取消封存交易。<!-- ; or edit the attribute tags for a deal -->
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 您可以套用篩選器、自訂可見欄位，並選擇儲存自訂檢視表、排序欄位，以及以圖表形式檢視資料，藉此自訂現有交易資料的顯示方式。
 
-## 交易清單檢視
+## [!UICONTROL Deal Lists]檢視
 
 在[!UICONTROL Inventory] > [!UICONTROL Deal Lists]檢視中，您可以將私人交易分組到清單中，以更輕鬆地進行目標定位。
 
