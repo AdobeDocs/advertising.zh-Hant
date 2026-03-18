@@ -1,16 +1,16 @@
 ---
-title: 附加和移除刊登版位的廣告
+title: 附加及移除刊登版位的廣告
 description: 瞭解如何將廣告附加至刊登版位，以及從刊登版位移除廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# 附加和移除刊登版位的廣告
+# 附加及移除刊登版位的廣告
 
 您可以附加及移除刊登版位的廣告。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       1. 按一下&#x200B;**[!UICONTROL I'm done for now]**。
 
-## 從[!UICONTROL Placements]檢視移除刊登版位的廣告 {#remove-ads-placement}
+## 從[!UICONTROL Placements]檢視中移除刊登版位的廣告 {#remove-ads-placement}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 

@@ -1,22 +1,22 @@
 ---
-title: 使用Bulksheets檢閱和編輯廣告詳細資料
+title: 使用大量表單檢閱和編輯廣告詳細資料
 description: 瞭解如何使用試算表大量檢閱廣告設定。
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# 使用Bulksheets檢閱和編輯廣告詳細資料
+# 使用大量表單檢閱和編輯廣告詳細資料
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
 您可以下載XLSX （Excel試算表）格式的促銷活動所有廣告詳細資訊，以供檢閱。 *大量表單*&#x200B;詳細資料包括一個標籤，其中包含每個廣告的設定和相關聯的版位，以及另一個標籤，其中包含促銷活動中用於廣告的每個畫素。
 
-若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)」。
+若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
 
 >[!NOTE]
 >

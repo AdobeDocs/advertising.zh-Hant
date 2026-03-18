@@ -2,7 +2,8 @@
 title: 附加和移除廣告中的畫素
 description: 瞭解如何從廣告中附加及移除第三方追蹤畫素。
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -119,4 +120,3 @@ ht-degree: 0%
 >* [列出與廣告](ad-list-placements.md)關聯的版位
 >* [編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 關於通用視訊的[常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
-

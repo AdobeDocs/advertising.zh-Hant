@@ -3,7 +3,7 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *Beta功能*
 
-DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無cookiless、single-device (not cross-device)目標定位。
+DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無cookie、單一裝置（而非跨裝置）目標定位。
 
-* 您可以使用[!DNL LiveRamp] [!DNL Connect]儀表板，直接手動將已驗證的[[!DNL LiveRamp] [!DNL RampIDs]]傳送至DSP。 請參閱&quot;[從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段。&quot;
+* 您可以使用[!DNL LiveRamp] [!DNL RampIDs]儀表板，直接手動將已驗證的[[!DNL LiveRamp] [!DNL Connect]]傳送至DSP。 請參閱&quot;[從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段。&quot;
 
 * DSP可以擷取您的第一方區段(由您客戶資料平台(CDP)內建的雜湊電子郵件ID所組成)，並將其轉換為[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 如需關於受支援客戶資料平台、每種受支援通用ID型別的可用功能及相關工作流程的詳細資訊，請參閱[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)。
 
@@ -64,7 +64,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
       1. （如有必要）接受使用通用ID的服務合約條款。
 
-         您必須先接受DSP帳戶的使用者服務合約條款，才能將資料轉換為新的ID型別。 每個帳戶的每個ID型別只能接受一次條款。
+         您必須先接受DSP帳戶的使用者服務合約條款，才能將資料轉換為新ID型別。 每個帳戶的每個ID型別只能接受一次條款。
 
 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。
 
@@ -72,7 +72,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 針對可使用Adobe Analytics測量的[!DNL RampID]型區段和ID5型區段，使用下列最佳實務。
 
-* 啟用區段約24小時後，請在[!UICONTROL Audiences] > [!UICONTROL All Audiences]內檢查區段的轉換識別碼計數。 如果ID計數屬意外，請聯絡您的Adobe帳戶團隊。
+* 啟用區段約24小時後，請在[!UICONTROL Audiences] > [!UICONTROL All Audiences]內檢查區段的轉換識別碼計數。 如果ID計數屬意外，請聯絡您的Adobe客戶團隊。
 
   請參閱&quot;[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)&quot;，以取得有關區段計數差異方式的詳細資訊。
 
@@ -88,7 +88,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
    * 若要比較瀏覽器的總觸及率，請在相同位置鎖定通用ID型區段和舊有以ID型區段。 使用與上一個使用案例相同的行銷活動設定，除了您不需要分割行銷活動預算。
 
-     通用ID會獲得競標偏好設定，但舊有ID會在無法使用通用ID時收到競標。 請務必比較不同瀏覽器(包括Chrome、Safari和Mozilla)中的觸及率。
+     通用ID會獲得競標偏好設定，但舊有ID會在無法使用通用ID時收到競標。 請務必比較不同瀏覽器（包括Chrome、Safari和Mozilla）中的觸及率。
 
      >[!NOTE]
      >
@@ -100,7 +100,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 ### 可接受的差異層級
 
-雜湊電子郵件地址轉換為通用ID的翻譯率應大於90%；如果所有雜湊電子郵件地址都是唯一的，則[!DNL RampIDs]的翻譯率尤其應是95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個[!DNL RampIDs]或超過90種其他型別的通用ID。 較低的翻譯率可能表示有問題。 如需可能的解釋，請參閱&quot;[變異的原因] (#universal-ids-data-variances-causes&quot;。
+雜湊電子郵件地址轉換為通用ID的翻譯率應大於90%；如果所有雜湊電子郵件地址都是唯一的，則[!DNL RampIDs]的翻譯率尤其應是95%。 例如，如果您從客戶資料平台傳送100個雜湊電子郵件地址，應將其轉譯為至少95個[!DNL RampIDs]或超過90種其他型別的通用ID。 較低的翻譯率可能表示有問題。 如需可能的解釋，請參閱&quot;[變異的原因]&#x200B;(#universal-ids-data-variances-causes&quot;。
 
 若翻譯率低於70%，請與[!DNL RampIDs]的Adobe客戶團隊連絡以進行進一步調查。
 
@@ -108,7 +108,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 所有區段：
 
-  區段對裝置計數使用錯誤變異為+/- 5%的概率模型。 這表示可能會高估或低估對象人數5%。
+  區段對裝置計數使用錯誤變異為+/- 5%的概率模型。 這表示可能會高估或低估受眾規模5%。
 
 * 已轉譯為[!DNL RampIDs]的雜湊電子郵件ID：
 
@@ -126,7 +126,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP支援的數位格式無coo
 
 * 請確定您的網站上已實作正確的、通用ID合作夥伴專用程式碼，以符合站上事件和廣告曝光。 視需要與您的[!DNL LiveRamp]或[!DNL ID5]代表合作。
 
-* （針對[!DNL RampIDs]與[!DNL UID 2.0] ID）請確定您的[DSP資料來源已正確設定](/help/dsp/audiences/sources/source-manage.md#source-settings)，而且已針對產生的對象區段填入使用者計數。
+* （針對[!DNL RampIDs]與[!DNL UID 2.0] ID）確定您的[DSP資料來源已正確設定](/help/dsp/audiences/sources/source-manage.md#source-settings)，且已針對產生的對象區段填入使用者計數。
 
 * 如果您的觸及率低於預期，請檢查對象區段邏輯是否不太精細。
 

@@ -3,7 +3,7 @@ title: 複製廣告
 description: 瞭解如何複製廣告。
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >只有在DSP和SSP皆核准創意內容後，才能提供您的廣告。 每個SSP都有各自的核准需求和流程。
+   >只有在DSP和SSP皆已核准創意內容時，才能提供您的廣告。 每個SSP都有各自的核准需求和流程。
 
 >[!MORELIKETHIS]
 >
