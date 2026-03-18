@@ -3,7 +3,7 @@ title: Analysis Workspace中的Adobe Advertising量度
 description: Analysis Workspace中的Adobe Advertising量度
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -18,29 +18,29 @@ ht-degree: 0%
 >
 >* Adobe Advertising每日傳遞流量量度和維度至[!DNL Analytics]。
 >* [!DNL Analytics]會即時擷取Adobe Advertising點進和檢視點進。
->* 對於[!DNL Search, Social, & Commerce]，大部分廣告網路和行銷活動型別都支援此功能。 如需詳細資訊，請參閱「[!DNL Search, Social, & Commerce]指南」中的[支援詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)」。
+>* 對於[!DNL Search, Social, & Commerce]，大部分廣告網路和行銷活動型別都支援此功能。 如需詳細資訊，請參閱「[指南」中的](/help/search-social-commerce/introduction/supported-inventory.md)支援詳細目錄[!DNL Search, Social, & Commerce]」。
 
-## 來自Adobe Advertising的流量量度
+## Adobe Advertising的流量量度
 
-[!DNL Analytics]中的Adobe Advertising流量量度通常以「Adobe Advertising」開頭，「[!UICONTROL AMO ID Instances]」除外。 不過，對於使用自訂事件（而不是保留事件）最初建立點按數、成本和曝光次數的量度的長期客戶，這些量度仍以「AMO」開頭。
+除&quot;[!DNL Analytics]&quot;外，[!UICONTROL AMO ID Instances]中的Adobe Advertising流量量度通常以「Adobe Advertising」開頭。 不過，對於使用自訂事件（而不是保留事件）最初建立點按數、成本和曝光次數的量度的長期客戶，這些量度仍以「AMO」開頭。
 
 | 流量量度 | 說明 |
 | -------------- | ----------- |
-| [!UICONTROL Adobe Advertising Clicks]或（部分舊客戶） [!UICONTROL AMO Clicks] | Adobe Advertising點按總數。 |
-| [!UICONTROL Adobe Advertising Cost]或（部分舊客戶） [!UICONTROL AMO Cost] | 以報表套裝貨幣為單位的Adobe Advertising支出。 |
+| [!UICONTROL Adobe Advertising Clicks]或（部分舊客戶） [!UICONTROL AMO Clicks] | Adobe Advertising點按總次數。 |
+| [!UICONTROL Adobe Advertising Cost]或（部分舊客戶） [!UICONTROL AMO Cost] | Adobe Advertising支出（以報表套裝的貨幣表示）。 |
 | [!UICONTROL Adobe Advertising Impressions]或（部分舊客戶） [!UICONTROL AMO Impressions] | Adobe Advertising曝光次數。 |
 | [!UICONTROL Adobe Advertising Measurable Impressions] | 已針對可檢視度檢測成功初始化的提供曝光數。 此值的計算方式為（儀器曝光次數 — 無法測量的曝光次數）。 |
 | [!UICONTROL Adobe Advertising Minutes Viewed] | Adobe Advertising影片被檢視的分鐘數。 |
 | [!UICONTROL Adobe Advertising Not Viewable Impressions] | 判斷為無法檢視的曝光次數。 這個值的計算方式為([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable])。 |
 | [!UICONTROL Adobe Advertising Viewable Impressions] | 根據版位組態測量為可檢視的曝光次數。 |
-| [!UICONTROL Adobe Advertising Views] | 廣告的檢視次數。 當檢視器起始Adobe Advertising影片時會計入一次檢視。 |
-| [!UICONTROL Adobe Advertising Views 25% Complete] | 觀看了至少25%之Adobe Advertising影片的檢視次數。 |
-| [!UICONTROL Adobe Advertising Views 50% Complete] | 觀看了至少50%之Adobe Advertising影片的檢視次數。 |
-| [!UICONTROL Adobe Advertising Views 75% Complete] | 觀看了至少75%之Adobe Advertising影片的檢視次數。 |
+| [!UICONTROL Adobe Advertising Views] | 廣告的檢視次數。 當檢視器起始Adobe Advertising視訊時，即會計入一次檢視。 |
+| [!UICONTROL Adobe Advertising Views 25% Complete] | 已觀看至少25%之Adobe Advertising影片的檢視次數。 |
+| [!UICONTROL Adobe Advertising Views 50% Complete] | 觀看至少50%之Adobe Advertising影片的檢視次數。 |
+| [!UICONTROL Adobe Advertising Views 75% Complete] | 已觀看至少75%之Adobe Advertising影片的檢視次數。 |
 | [!UICONTROL Adobe Advertising Views 100% Complete] | 觀看了100%Adobe Advertising影片的檢視次數。 |
 | [!UICONTROL AMO ID Instances] | 設定[!UICONTROL AMO ID]的次數。 |
 
-## Adobe AdvertisingDimension
+## Adobe Advertising維度
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP]和[!DNL Search, Social, & Commerce]資料 | 登入頁面專案是瀏覽還是點進。 |
 | [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce]資料 | 產品清單廣告的產品目標。 |
 
-## 實用的Adobe Advertising自訂計算量度
+## 適用於Adobe Advertising的實用自訂計算量度
 
 請考慮為您的Adobe Advertising資料建立下列量度。
 
@@ -79,4 +79,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Adobe Advertising中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* Adobe Advertising中的[[!DNL Analytics] 資料](/help/integrations/analytics/analytics-data-in-advertising.md)

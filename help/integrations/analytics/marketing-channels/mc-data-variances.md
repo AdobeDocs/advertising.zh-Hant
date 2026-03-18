@@ -1,16 +1,16 @@
 ---
-title: 為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]之間可能不同
+title: 為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]之間會有所不同
 description: 瞭解AMO ID所追蹤的管道資料為何與 [!DNL Analytics Marketing Channels]所追蹤的管道資料有所不同。
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# 為什麼管道資料在Adobe Advertising和[!DNL Marketing Channels]之間可能不同
+# 為什麼管道資料在Adobe Advertising和[!DNL Marketing Channels]之間會有所不同
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
 
@@ -26,12 +26,12 @@ ht-degree: 0%
 
   為了收集此資料，[!DNL Analytics for Advertising]整合會在Adobe Analytics的AMO ID維度中傳遞可轉譯為點進和檢視追蹤程式碼的原始AMO ID，此維度會儲存為自訂變數(eVar)或保留變數(rVar)。 其他頻道的點進次數未在AMO ID維度中設定，因此AMO ID維度無法追蹤來自這些其他頻道的登入。 結果是AMO ID會在[!DNL Marketing Channels]進入點持續存在。
 
-如需有關Adobe Advertising追蹤的資料和[!DNL Analytics]追蹤的資料之間可能存在的資料差異的詳細資訊，請參閱「[介於 [!DNL Analytics] 和Adobe Advertising](../data-variances.md)之間的預期資料差異」。
+如需有關Adobe Advertising追蹤的資料和[!DNL Analytics]追蹤的資料之間可能存在的資料差異的詳細資訊，請參閱「[在 [!DNL Analytics] 和Adobe Advertising](../data-variances.md)之間的預期資料差異」。
 
 >[!MORELIKETHIS]
 >
->* [預期資料差異介於 [!DNL Analytics] 和Adobe Advertising](/help/integrations/analytics/data-variances.md)之間
+>* [ [!DNL Analytics] 與Adobe Advertising](/help/integrations/analytics/data-variances.md)之間的預期資料差異
 >* [基礎（共 [!DNL Analytics Marketing Channels]](mc-overview.md)個）
 >* [使用Adobe Advertising ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
->* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
+>* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

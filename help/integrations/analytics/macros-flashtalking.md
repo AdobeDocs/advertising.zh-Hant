@@ -1,9 +1,9 @@
 ---
-title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 廣告標籤
+title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤
 description: 瞭解為何以及如何將 [!DNL Analytics for Advertising] 巨集新增至您的 [!DNL Flashtalking] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶，並依照位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)的[!DNL Flashtalking]支援檔案操作，以使用資料傳遞巨集來追蹤`s_kwcid`和`ef_id`追蹤引數。
+>如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶，並依照位於[!DNL Flashtalking]https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[的](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)支援檔案操作，以使用資料傳遞巨集來追蹤`s_kwcid`和`ef_id`追蹤引數。
 
-針對下列型別的[!DNL Analytics for Advertising]實作，[!DNL Flashtalking]顯示廣告和視訊廣告使用巨集：
+針對下列型別的[!DNL Flashtalking]實作，[!DNL Analytics for Advertising]顯示廣告和視訊廣告使用巨集：
 
 * **在其網站上實作[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript程式碼的廣告商**： JavaScript程式碼已記錄AMO ID (`s_kwcid`)和`ef_id`查詢字串引數。 不過，當不支援第三方Cookie時，使用巨集可延伸追蹤功能，加入點按式轉換。 最佳實務是將下列區段中的巨集新增至廣告標籤，以擷取未透過JavaScript程式碼擷取的其他點進資料。
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* [個Adobe Advertising ID已由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用
+>* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 

@@ -1,9 +1,9 @@
 ---
-title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 廣告標籤
+title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 新增標籤
 description: 瞭解為何以及如何將 [!DNL Analytics for Advertising] 巨集新增至您的 [!DNL Google Campaign Manager 360] 廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *僅適用於Advertising DSP*
 
-如果您針對Advertising DSP廣告使用[!DNL Google Campaign Manager 360]中的廣告標籤，請使用[`%p`巨集](https://support.google.com/campaignmanager/table/6096962)將[!DNL Analytics for Advertising]引數附加至您的登陸頁面URL。 引數會在登陸頁面URL中記錄AMO ID (`s_kwcid`)和`ef_id`查詢字串引數，允許Adobe Advertising將廣告的點選資料傳送至Adobe Analytics。
+如果您針對Advertising DSP廣告使用[!DNL Google Campaign Manager 360]中的廣告標籤，請使用[!DNL Analytics for Advertising]巨集[`%p`將](https://support.google.com/campaignmanager/table/6096962)引數附加至您的登陸頁面URL。 這些引數會在登陸頁面URL中記錄AMO ID (`s_kwcid`)和`ef_id`查詢字串引數，以允許Adobe Advertising將廣告的點選資料傳送至Adobe Analytics。
 
-針對下列型別的[!DNL Analytics for Advertising]實作，[!DNL Campaign Manager 360]顯示廣告和視訊廣告使用巨集：
+針對下列型別的[!DNL Campaign Manager 360]實作，[!DNL Analytics for Advertising]顯示廣告和視訊廣告使用巨集：
 
 * **在其網站上實作[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript程式碼的廣告商**： JavaScript程式碼已記錄AMO ID (`s_kwcid`)和`ef_id`查詢字串引數。 不過，當不支援第三方Cookie時，使用巨集可延伸追蹤功能，加入點按式轉換。 最佳實務是將下列區段中的巨集新增至廣告標籤，以擷取未透過JavaScript程式碼擷取的其他點進資料。
 
@@ -42,29 +42,29 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->&#x200B;>* 如果登陸頁面URL包含雜湊符號(#)，這是不常見的情況，請將`amo`引數放在雜湊符號之前。
+>>* 如果登陸頁面URL包含雜湊符號(#)，這是不常見的情況，請將`amo`引數放在雜湊符號之前。
 >* 如果未在`amo`引數後面包含其他引數，則在其後面新增引數（例如&amp;a=b）。 範例： `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 設定廣告商層級登陸頁面URL尾碼
 
 1. 請參閱[指示以開啟廣告商屬性](https://support.google.com/campaignmanager/answer/2829344)。
-1. 在[!UICONTROL Landing page URL suffix]設定中，在[!UICONTROL URL suffix]欄位中包含`%pamo!;`。
+1. 在[!UICONTROL Landing page URL suffix]設定中，在`%pamo!;`欄位中包含[!UICONTROL URL suffix]。
 
 ### 設定行銷活動層級登陸頁面URL尾碼
 
 1. 請參閱[指示以開啟行銷活動屬性](https://support.google.com/campaignmanager/answer/2838056#set)。
-1. 在[!UICONTROL Landing page URL suffix]設定中，在[!UICONTROL URL suffix]欄位中包含`%pamo!;`。
+1. 在[!UICONTROL Landing page URL suffix]設定中，在`%pamo!;`欄位中包含[!UICONTROL URL suffix]。
 
-### 設定創意層級登陸頁面URL尾碼
+### 設定創意層級的登陸頁面URL尾碼
 
 1. 開啟創意屬性。
-1. 在[!UICONTROL Click tags]設定中，在點選標籤的[!UICONTROL Landing page]欄中加入`%pamo!;`。
+1. 在[!UICONTROL Click tags]設定中，在點選標籤的`%pamo!;`欄中加入[!UICONTROL Landing page]。
 
 ## 如何在DSP中展開[!DNL Analytics for Advertising]巨集
 
 在DSP中，當您建立包含[!DNL Analytics for Advertising]引數(`amo`)的廣告時，`ef_id`和`s_kwcid`巨集會自動附加至點選URL。 最佳實務是檢查DSP中的標籤，以確保`ef_id`和`s_kwcid`巨集存在。
 
-以下是[!DNL Google Campaign Manager 360] [ins標籤](https://support.google.com/campaignmanager/answer/6080468)在DSP中顯示的範例。
+以下是[!DNL Google Campaign Manager 360] [ins標籤](https://support.google.com/campaignmanager/answer/6080468)在DSP中的範例。
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -83,5 +83,5 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe AdvertisingID已由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用
+>* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
 >* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](macros-flashtalking.md)

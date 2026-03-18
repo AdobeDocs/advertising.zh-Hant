@@ -1,9 +1,9 @@
 ---
-title: 廣告DSP中的受眾管理
-description: 瞭解受眾管理功能。
+title: 關於Advertising DSP中的對象管理
+description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 在DSP中，您可以建立和管理受眾區段和受眾集，並作為刊登版位的目標：
 
-* 透過建立和實作DSP區段來收集您自己的第一方對象資料。 您以後可以將廣告重新定位到網段中的用戶，或阻止網段中的用戶接收廣告。 可以建立以下類型的段：
+* 透過建立和實作DSP區段來收集您自己的第一方對象資料。 您稍後可以在區段中以廣告重新鎖定使用者，或避免區段中的使用者接收廣告。 您可以建立下列型別的區段：
 
-   * [自定義網段](/help/dsp/audiences/custom-segment-create.md)，用於跟蹤a)暴露在案頭和移動設備廣告中的用戶和b)訪問特定網頁的用戶。 跟蹤標籤可以跟蹤基於cookie的用戶或與ID5通用ID關聯的用戶。
+   * [自訂區段](/help/dsp/audiences/custom-segment-create.md)以追蹤a)從案頭和行動裝置向廣告公開的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
 
    * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，以根據加州消費者隱私法(CCPA)，追蹤您網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
    * 允許DSP從您的客戶資料平台匯入第一方區段，並將其轉譯為支援的通用ID型別。
 
-   * 在放置目標中包括包含通用ID的第三方段，而不需要任何額外步驟。
+   * 將包含通用ID的第三方區段加入您的位置目標，無需執行任何額外步驟。
 
-* 建立[可重用受眾的受眾庫](/help/dsp/audiences/reusable-audience-create.md)。 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
+* 建立[個可重複使用對象](/help/dsp/audiences/reusable-audience-create.md)的對象庫。 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
 
   儲存的對象可讓媒體規劃人員視需要將對象分組，方法是使用複雜的布林邏輯包含和排除多個區段。 當您建立受眾時，會指出每個個別區段的（可鎖定目標）大小和整體作用中受眾大小。 Campaign執行者隨後只需選取一或多個儲存的對象作為位置目標，而非手動設定每個位置的對象目標。
 
@@ -74,17 +74,17 @@ ht-degree: 0%
 
   您可以鎖定特定區段，根據對象資料鎖定使用者（例如，具有特定人口統計資料、興趣或意圖和/或行為設定檔的使用者）。 您可以依資料提供者和類別瀏覽、依名稱或區段ID搜尋區段，或依資料提供者、作用中區段大小、網頁瀏覽器計數或裝置計數篩選結果。
 
-  第三方分部產生額外費用，這些費用在每個分部名稱旁邊注明。
+  協力廠商區段會產生額外費用，這些費用會顯示在每個區段名稱旁。
 
-* (只使用Adobe AdvertisingJavaScript轉換標籤的Adobe Experience Platform和[!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics的廣告主)您所有可用的第一、第二或第三方受眾段在[!DNL Real-Time CDP]中建立、在Audience Manager中建立或從Audience Manager或[!DNL Analytics]發佈到Adobe Experience Cloud。
+* （僅使用Adobe Experience Platform轉換標籤且具有Adobe Advertising JavaScript和[!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics的廣告商）您在[!DNL Real-Time CDP]中建立、在Audience Manager中建立或從Audience Manager或[!DNL Analytics]發佈至Adobe Experience Cloud的所有可用第一方、第二方或第三方受眾區段。
 
-  使用分部之定價乃經預先磋商後釐定，且於中不可DSP見。
+  使用區段的定價是預先議定的，在DSP中不可見。
 
-  [!DNL Analytics]的段在您建立或發佈為Experience Cloud受眾約一小時後可用。 直接來自Audience Manager或[!DNL Real-Time CDP]的段在您共用後24小時內可用。
+  [!DNL Analytics]中的區段在您建立或發佈為Experience Cloud對象後約一小時可使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段在您共用後24小時內即可使用。
 
   >[!NOTE]
   >
-  >有關設定和收集這些解決方案中段資料的資訊，請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant)、[分析](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)和[&#x200B; [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hant)的文檔。
+  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
 
 ## 對象人數資料
 
@@ -106,15 +106,15 @@ ht-degree: 0%
 
   ![個別區段或儲存的對象詳細資料](/help/dsp/assets/audience-size-segment-details.png)
 
-## 受眾觀點
+## 對象檢視
 
-### 所有受眾視圖
+### 所有對象檢視
 
-在[!UICONTROL All Audiences]視圖或「受眾庫」中，您可以保存和管理可重用的受眾，其中包括受眾段組，甚至包括其他已保存的受眾。 您可以將受眾用作多個放置的目標。 每個受眾使用的放映次數在放置名稱旁邊指示。
+在「[!UICONTROL All Audiences]」檢視或「對象庫」中，您可以儲存和管理可重複使用的對象，其中包括對象區段群組，甚至是其他儲存的對象。 您可以使用受眾作為多個位置的目標。 版位名稱旁會顯示各對象所使用的版位數量。
 
-您可以編輯、克隆、刪除、導出或共用任何受眾。
+您可以編輯、複製、刪除、匯出或共用任何對象。
 
-### 段視圖
+### 區段檢視
 
 在[!UICONTROL Segments]檢視中，所有使用者都可以建立其他自訂區段。
 
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 * 所有使用者建立的自訂區段皆可供使用者使用。
 
-  您可以查看您建立的任何自定義段的跟蹤標籤，並與其他用戶共用這些段。 也可以編輯或刪除您建立的自定義段。
+  您可以檢視您建立的任何自訂區段的追蹤標籤，並和其他使用者共用這些區段。 您也可以編輯或刪除您建立的自訂區段。
 
-  您無法編輯或共用其他用戶已與您共用的自定義段。
+  您無法編輯或共用其他使用者與您共用的自訂區段。
 
 * 使用者可使用的所有第一方區段依原樣匯入。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
   您無法編輯或共用與您共用的第三方區段。 如果您需要與其他使用者共用協力廠商區段，請聯絡您的Adobe客戶團隊。
 
-### 「源」視圖
+### 來源檢視
 
 在[!UICONTROL Sources]檢視中，您可以在支援的客戶資料平台中設定第一方區段的來源，以將其轉換為包含指定通用ID型別的區段。 來源設定包括自動產生的來源金鑰，您會將其提供給客戶資料平台以建立連線。
 
