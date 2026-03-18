@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]的點選追蹤格式'
 description: 瞭解 [!DNL Google Ads] 帳戶的點選追蹤格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
 >
 >* 追蹤範本中表示最終URL的[!DNL ValueTrack]引數必須是`{lpurl}`或`!{unescapedurl}`。
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
 >
 >* 追蹤範本中表示最終URL的[!DNL ValueTrack]引數必須是`{lpurl}`或`!{unescapedurl}`。
 >
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 ## 登陸頁面尾碼（最終URL尾碼）格式
 
-使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Google Ads]為`gclid`）：
+使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`gclid`為[!DNL Google Ads]）：
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * 使用最新[AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats) （從`s_kwcid`開始）的[!DNL Google Ads]帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+   * 使用最新[!DNL Google Ads]AMO ID格式[ （從](/help/integrations/analytics/ids.md#amo-id-formats)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id-implement)使用的Adobe Advertising ID。
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帳戶：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >* 較低層級的登陸頁面尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 >
->* (動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要包含從Adobe Advertising到Analytics的反向摘要追蹤，請將AMO ID追蹤程式碼附加至帳戶層級登陸頁面尾碼的結尾。
+>* （動態搜尋廣告；具有Adobe Analytics且沒有伺服器端追蹤的廣告商）如果您想要包含從Adobe Advertising到Analytics的反向摘要追蹤，請將AMO ID追蹤程式碼附加至帳戶層級登陸頁面尾碼的結尾。
 
 >[!MORELIKETHIS]
 >

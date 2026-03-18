@@ -3,7 +3,7 @@ title: 更新 [!DNL Google Ads] 帳戶的AMO ID (s_kwcid)追蹤代碼
 description: 瞭解如何切換至 [!DNL Google Ads] 帳戶的最新AMO ID追蹤代碼。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -69,5 +69,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
->* [個Adobe Advertising ID已由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用
->* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant){target="_blank"}
+>* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
+>* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

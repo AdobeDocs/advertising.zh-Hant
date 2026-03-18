@@ -3,7 +3,7 @@ title: 實作 [!DNL Google Ads] 動態搜尋廣告
 description: 瞭解設定 [!DNL Google Ads] 動態搜尋廣告的工作流程。
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
       >
       >您的網域必須由[!DNL Google Ads]有機搜尋索引編制索引，才能定位。 此外，如果網域包含多種語言的頁面，而您想要鎖定所有頁面，請針對每種語言建立個別的行銷活動。
 
-      如果您未使用網站網域來鎖定您的廣告，請為每個廣告群組建立動態搜尋目標（請參閱步驟4）。 您可以個別建立目標[&#128279;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)，或使用[大量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
+      如果您未使用網站網域來鎖定您的廣告，請為每個廣告群組建立動態搜尋目標（請參閱步驟4）。 您可以個別建立目標[](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)，或使用[大量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
    1. 請確定行銷活動目標是搜尋頻道，而且只鎖定了[!DNL Google Ads]搜尋網路（不是顯示網路）。 這些設定可從[!UICONTROL Networks and Devices]標籤取得。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. （可選）設定行銷活動層級的追蹤範本，以覆寫帳戶層級的追蹤範本，但可以在較低層級覆寫。
 
-      (使用Adobe Analytics且沒有伺服器端追蹤的廣告商)如果您想要在Analytics中加入搜尋、Social和Commerce反向摘要的追蹤，請將AMO ID追蹤程式碼新增至帳戶層級的附加引數，如此可將程式碼新增至最終URL。 檢視 [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)使用的Adobe AdvertisingID。
+      （使用Adobe Analytics且沒有伺服器端追蹤的廣告商）如果您想要在Analytics中加入搜尋、Social和Commerce反向摘要的追蹤，請將AMO ID追蹤程式碼新增至帳戶層級的附加引數，如此可將程式碼新增至最終URL。 檢視[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID。
 
 1. [在行銷活動中建立廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)，包括以下步驟：
 
