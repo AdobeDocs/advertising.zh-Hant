@@ -1,16 +1,16 @@
 ---
-title: 暫停或啟用行銷活動
+title: 暫停或啟動行銷活動
 description: 瞭解如何暫停或啟用即時行銷活動。
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# 暫停或啟用行銷活動
+# 暫停或啟動行銷活動
 
 暫停即時行銷活動，或是在行銷活動位於設定的航班排程內時啟用暫停的行銷活動。
 
