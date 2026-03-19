@@ -78,13 +78,13 @@ ht-degree: 0%
 
 您可以使用Adobe Experience Platform中的標籤來設定「搜尋」、「社交」和「Commerce」的轉換追蹤。 Adobe Experience Cloud客戶可使用標籤內含的增值功能。
 
-從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
+從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
 
 >[!PREREQUISITES]
 >
 >若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
 
-1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
+1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)：
 
    1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
          **轉換屬性名稱：**&#x200B;轉換屬性的名稱（例如，`form_completes`）。
 
-         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)。
 
       1. 按一下&#x200B;**保留變更**。
 
