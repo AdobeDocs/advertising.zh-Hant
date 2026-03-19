@@ -3,7 +3,7 @@ title: 手動建立交易識別碼詳細資料
 description: 瞭解如何手動輸入交易ID的詳細資料。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. 輸入位置名稱。
 
-      1. （選擇性）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
+      1. （可選）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
 
       此交易會在「詳細目錄目標」區段中自動定位。 所有其他鎖定目標選項均不適用。
 
@@ -68,6 +68,6 @@ ht-degree: 0%
 >
 >* [手動交易識別碼設定](deal-id-settings.md)
 >* [設定程式化保證交易](programmatic-guaranteed-set-up.md)
->* [提交廣告以進行程式化保證交易 [!DNL FreeWheel]](freewheel-submit.md)
+>* [針對程式化保證交易提交廣告 [!DNL FreeWheel]](freewheel-submit.md)
 >* [關於程式化預留交易](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

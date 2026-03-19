@@ -3,7 +3,7 @@ title: 指定私人交易的版位和廣告
 description: 瞭解如何搭配其他刊登版位和廣告使用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 您也可隨時[將廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)附加至與PG及非保證交易相關的位置。
 
-## 指定不保證交易作為刊登的詳細目錄目標
+## 指定非保證交易作為位置的詳細目錄目標
 
 * [從[!UICONTROL Placements]檢視](/help/dsp/campaign-management/placements/placement-create.md)建立位置。 在[!UICONTROL Inventory Targeting]設定中，選取私人交易。
 
@@ -34,13 +34,13 @@ ht-degree: 0%
        
        1。 從可用廣告清單中，選取要用於交易的每個廣告旁的核取方塊。
        
-       1。 按一下&#x200B;**[!UICONTROL Apply]**.
+       1。 按一下**[!UICONTROL Apply]**.
    
    1. 在位置設定畫面中：
 
       1. 輸入位置名稱。
 
-      1. （選擇性）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
+      1. （可選）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
 
       此交易會在「詳細目錄目標」區段中自動定位。 所有其他鎖定目標選項均不適用。
 

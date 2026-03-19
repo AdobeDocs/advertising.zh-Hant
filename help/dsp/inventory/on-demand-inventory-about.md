@@ -3,9 +3,9 @@ title: 關於 [!DNL On Demand] 進階存貨
 description: 瞭解DSP與進階發佈商合作夥伴預先磋商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ DSP Premium Marketplace可讓您：
 
 >[!MORELIKETHIS]
 >
->* [訂閱及要求存取 [!DNL On Demand] 進階詳細目錄交易](on-demand-inventory-subscribe.md)
->* [重新要求隨選進階存貨交易](on-demand-inventory-rerequest.md)
->* [檢視您的 [!DNL On Demand] 交易要求與訂閱狀態](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] 亞太地區的進階庫存發佈者](on-demand-inventory-publishers-apac.md)
+>* [訂閱並要求 [!DNL On Demand] 進階庫存交易](on-demand-inventory-subscribe.md)的存取權
+>* [重新要求 [!DNL On Demand] 進階存貨交易](on-demand-inventory-rerequest.md)
+>* [檢視您 [!DNL On Demand] 交易要求與訂閱的狀態](on-demand-inventory-view-status.md)
+>* 亞太地區[[!DNL On Demand] 高階庫存發佈者](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳洲和紐西蘭的優質庫存發佈者](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東及非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美地區的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] 歐洲、中東及非洲的優質存貨發行者](on-demand-inventory-publishers-emea.md)
+>* 北美地區的[[!DNL On Demand] 高階庫存發佈者](on-demand-inventory-publishers-na.md)

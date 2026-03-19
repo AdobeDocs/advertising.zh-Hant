@@ -3,9 +3,9 @@ title: ' [!DNL FreeWheel] 個廣告提交的錯誤碼'
 description: 參考向 [!DNL FreeWheel]提交廣告時傳回的錯誤碼。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
@@ -65,6 +65,6 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [在 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)中設定程式化預留交易的概觀
->* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
->* [提交程式化保證交易的廣告給 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [檢查 [!DNL FreeWheel] 程式化預留交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
+>* [將程式化保證交易的廣告提交至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [檢查 [!DNL FreeWheel] PG交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)

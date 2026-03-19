@@ -3,7 +3,7 @@ title: 檢視位置的詳細報告
 description: 瞭解如何開啟包含[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]和[!UICONTROL Ads]資料區段的位置層級報表。
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [檢視位置](/help/dsp/campaign-management/reports/placement-details-view.md)的網站、廣告和頻率詳細資訊
+>* [檢視位置](/help/dsp/campaign-management/reports/placement-details-view.md)的網站、廣告和頻率詳細資料
 >* [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [關於自訂報告](/help/dsp/reports/report-about.md)
 >* [檢視位置的變更記錄](placement-change-log.md)

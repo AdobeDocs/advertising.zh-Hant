@@ -2,7 +2,7 @@
 title: 編輯交易ID的屬性標籤
 description: 瞭解如何建立和編輯交易ID的屬性標籤。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

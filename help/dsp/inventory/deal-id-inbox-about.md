@@ -1,24 +1,24 @@
 ---
 title: 關於[!UICONTROL Deal ID Inbox]
-description: 瞭解[!UICONTROL Deal ID inbox]功能，此功能可讓您接受已在 [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+]  （先前稱為 [!DNL Rubicon]）上與發佈者協商的私人交易。
+description: 瞭解[!UICONTROL Deal ID Inbox]功能，此功能可讓您接受已在 [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+]  （先前稱為 [!DNL Rubicon]）上與發佈者協商的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # 關於[!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID inbox]可讓您快速設定DSP透過供應端平台(SSP)從發佈者匯入的交易，因此您不必手動設定每個交易。 您可以接受已經與[!UICONTROL Deal ID inbox]的[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）和[!DNL Magnite DV+] （先前稱為[!DNL Rubicon]）發行者交涉的已保證和未保證私人詳細目錄交易。
+Advertising DSP [!UICONTROL Deal ID Inbox]可讓您快速設定DSP透過供應端平台(SSP)從發佈者匯入的交易，因此您不必手動設定每個交易。 您可以接受已經與[!DNL FreeWheel]的[!DNL Google Authorized Buyers]、[!DNL AdX] （先前稱為[!DNL Magnite DV+]）和[!DNL Rubicon] （先前稱為[!UICONTROL Deal ID Inbox]）發行者交涉的已保證和未保證私人詳細目錄交易。
 
 >[!NOTE]
 >
 >Advertising DSP是第一個與[!DNL FreeWheel] API整合的DSP。
 
-在[!UICONTROL Deal ID inbox]中，您可以看到發行者看到的交易詳細資料、加速交易設定，以及避免手動輸入錯誤。
+在[!UICONTROL Deal ID Inbox]中，您可以看到發行者看到的交易詳細資料、加速交易設定，以及避免手動輸入錯誤。
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -36,27 +36,27 @@ DSP每天凌晨4:30 （東部標準時間）自動重新整理所有交易詳細
 
 >[!NOTE]
 >
->對於透過[!DNL Google Authorized Buyers]的程式化預留交易，您必須提供至少90%的預算，否則您的帳戶將無法存取[!UICONTROL Deal ID inbox]中的[!DNL Google]交易。
+>對於透過[!DNL Google Authorized Buyers]的程式化預留交易，您必須提供至少90%的預算，否則您的帳戶將無法存取[!DNL Google]中的[!UICONTROL Deal ID Inbox]交易。
 
 ## 實作[!UICONTROL Deal ID Inbox]
 
-若要在[!UICONTROL Deal ID inbox]中接收交易，您的SSP帳戶必須將您組織的DSP帳戶對應至您的SSP帳戶。 DSP可與相關SSP共用組織的帳戶名稱。 如需指示，請聯絡您的Adobe客戶團隊。
+若要在[!UICONTROL Deal ID Inbox]中接收交易，您的SSP帳戶必須將您組織的DSP帳戶對應至您的SSP帳戶。 DSP可與相關SSP共用組織的帳戶名稱。 如需指示，請聯絡您的Adobe客戶團隊。
 
 在交易洽談期間，請告訴發佈者將交易傳送給您的購買者，而不是傳送給上層DSP帳戶。 交易識別碼可以是名稱或ID，具體取決於SSP。
 
-## 您可以對交易執行的動作
+## 您可以對交易採取的行動
 
 * **檢閱交易**，以確認SSP已傳送正確的發行者、發行日期、CPM和其他交易詳細資料。 如果發佈者發生錯誤，請在DSP外部聯絡他們，以便他們更正並重新傳送交易。
 
-* 在檢閱後&#x200B;**接受交易**，這些交易不再出現在[!UICONTROL Deal ID inbox]中。 接受的交易列在[!UICONTROL Inventory] > [!UICONTROL Deals]中，並準備在廣告商的位置中鎖定目標。
+* 在檢閱後&#x200B;**接受交易**，這些交易不再出現在[!UICONTROL Deal ID Inbox]中。 接受的交易列在[!UICONTROL Inventory] > [!UICONTROL Deals]中，並準備在廣告商的位置中鎖定目標。
 
-* **忽略不需要或未經請求的交易**。 已忽略的交易會移至[!UICONTROL Deal ID inbox]內的[!UICONTROL Ignored Deals]索引標籤（作為封存）。 當您忽略交易時，DSP不會提醒SSP和發佈者。
+* **忽略不需要或未經請求的交易**。 已忽略的交易會移至[!UICONTROL Ignored Deals]內的[!UICONTROL Deal ID Inbox]索引標籤（作為封存）。 當您忽略交易時，DSP不會提醒SSP和發佈者。
 
-* 從[!UICONTROL Inventory] > [!UICONTROL Deals] （不在[!UICONTROL Deal ID inbox]中）修改已接受交易的詳細資料&#x200B;**。**&#x200B;同樣地，當發佈者傳送變更至交易時，廣告商有責任在[!UICONTROL Inventory] > [!UICONTROL Deals]中實作這些變更，因為[!UICONTROL Deal ID inbox]在交易設定後不會同步處理來自SSP的變更。
+* 從&#x200B;**>** （不在[!UICONTROL Inventory]中）修改已接受交易的詳細資料[!UICONTROL Deals]。 [!UICONTROL Deal ID Inbox]同樣地，當發佈者傳送變更至交易時，廣告商有責任在[!UICONTROL Inventory] > [!UICONTROL Deals]中實作這些變更，因為[!UICONTROL Deal ID Inbox]在交易設定後不會同步處理來自SSP的變更。
 
 ## 無法接受哪些型別的交易？
 
-當交易清單不包含![接受](/help/dsp/assets/accept.png)圖示或[!UICONTROL Accept]按鈕時，您無法從[!UICONTROL Deal ID inbox]接受它。 您可以[手動](/help/dsp/inventory/deal-id-create.md)建立交易ID詳細資料。
+當交易清單不包含![接受](/help/dsp/assets/accept.png)圖示或[!UICONTROL Accept]按鈕時，您無法從[!UICONTROL Deal ID Inbox]接受它。 您可以[手動](/help/dsp/inventory/deal-id-create.md)建立交易ID詳細資料。
 
 您無法接受下列交易型別：
 
@@ -74,5 +74,5 @@ DSP每天凌晨4:30 （東部標準時間）自動重新整理所有交易詳細
 
 >[!MORELIKETHIS]
 >
->* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [詳細目錄功能概觀](inventory-overview.md)

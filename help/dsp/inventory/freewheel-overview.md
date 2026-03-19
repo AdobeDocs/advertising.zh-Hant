@@ -3,9 +3,9 @@ title: 在 [!DNL Freewheel]中設定PG交易的概觀
 description: 瞭解在 [!DNL Freewheel]上執行發行者程式化保證交易的廣告的必要條件和額外步驟。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
->* [提交程式化保證交易的廣告給 [!DNL Freewheel]](freewheel-submit.md)
->* [檢查 [!DNL FreeWheel] 程式化預留交易的廣告狀態](freewheel-check-status.md)
->* [廣告提交的 [!DNL Freewheel] 錯誤碼](freewheel-error-codes.md)
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
+>* [將程式化保證交易的廣告提交至 [!DNL Freewheel]](freewheel-submit.md)
+>* [檢查 [!DNL FreeWheel] PG交易的廣告狀態](freewheel-check-status.md)
+>* [ [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)
