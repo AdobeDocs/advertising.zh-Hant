@@ -28,5 +28,5 @@ Adobe Advertising DSP (DSP)透過進階的第一方資料細分和啟動功能�
 
 >[!MORELIKETHIS]
 >
->* [影片： Advertising DSP簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [影片： Advertising DSP簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=zh-Hant)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)
