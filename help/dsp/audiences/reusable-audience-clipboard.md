@@ -3,7 +3,7 @@ title: 將可重複使用對象的區段金鑰複製到剪貼簿
 description: 瞭解如何檢視可重複使用對象的設定和對象規模。
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [重複可重複使用的對象](reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
 >* [編輯可重複使用的對象](reusable-audience-edit.md)
 >* [檢視可重複使用對象的詳細資料](reusable-audience-view-details.md)
 >* [共用可重複使用的對象](reusable-audience-share.md)

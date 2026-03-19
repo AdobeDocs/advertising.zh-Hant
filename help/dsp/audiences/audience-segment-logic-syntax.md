@@ -3,7 +3,7 @@ title: 對象區段邏輯的語法
 description: 參考您可用來定義對象區段邏輯的語法。
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 建立可重複使用的對象時，您可以使用英數字元區段ID （索引鍵）及下列語法來手動定義區段邏輯：
 
 * ()表示群組
-* [!DNL OR]的`||` <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* `||`的[!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * [!DNL AND]的&amp;&amp;
 * ！ 針對[!DNL NOT] （排除）
 
 >[!NOTE]
 >
 >* 所有指定的區段群組都會包括在內，除非其前面有！ （會將其排除）。
->* 您可以[從[!UICONTROL Audiences] > [!UICONTROL All audiences]尋找對象](reusable-audience-clipboard.md)的區段ID。
+>* 您可以[從](reusable-audience-clipboard.md) > [!UICONTROL Audiences]尋找對象[!UICONTROL All audiences]的區段ID。
 
 例如，下列邏輯：
 

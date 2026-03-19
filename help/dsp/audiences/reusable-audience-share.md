@@ -3,7 +3,7 @@ title: 共用可重複使用的對象
 description: 瞭解如何與您的帳戶可用的其他廣告商共用可重複使用的對象。
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [重複可重複使用的對象](reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
 >* [編輯可重複使用的對象](reusable-audience-edit.md)
 >* [檢視可重複使用對象的詳細資料](reusable-audience-view-details.md)
 >* [匯出可重複使用的對象](reusable-audience-export.md)

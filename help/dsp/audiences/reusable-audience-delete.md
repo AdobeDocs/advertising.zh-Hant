@@ -3,7 +3,7 @@ title: 刪除可重複使用的對象
 description: 瞭解如何刪除可重複使用的對象。
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [重複可重複使用的對象](reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
 >* [編輯可重複使用的對象](reusable-audience-edit.md)
 >* [檢視可重複使用對象的詳細資料](reusable-audience-view-details.md)
 >* [共用可重複使用的對象](reusable-audience-share.md)
