@@ -3,9 +3,9 @@ title: 編輯套裝
 description: 瞭解如何編輯套件。
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以以XLSX （Excel試算表）格式下載一或多個套件的設定；變更大部分欄位；一次將設定上傳回DSP。 請參閱[使用Bulksheets檢閱及編輯封裝設定](package-qa.md)。
+>您也可以以XLSX （Excel試算表）格式下載一或多個套件的設定；變更大部分欄位；一次將設定上傳回DSP。 請參閱&quot;[使用大量表單](package-qa.md)來檢閱及編輯封裝設定。&quot;
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱以開啟[!UICONTROL Packages]檢視。
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
+>* [關於Advertising DSP中的封裝管理](package-about.md)
 >* [使用Bulksheets檢閱及編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)
 >* [建立封裝](package-create.md)
 >* [複製封裝](package-duplicate.md)

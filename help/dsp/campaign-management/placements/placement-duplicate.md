@@ -3,9 +3,9 @@ title: 復製版位
 description: 瞭解如何複製一或多個刊登版位。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置管理](placement-about.md)
+>* [關於Advertising DSP中的位置管理](placement-about.md)
 >* [建立位置](placement-create.md)
 >* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)

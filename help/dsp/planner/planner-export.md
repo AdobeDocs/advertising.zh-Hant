@@ -3,9 +3,9 @@ title: 匯出連線電視觸及計畫的預測
 description: 瞭解如何匯出連線電視觸及計畫的預測。
 feature: DSP Planner
 exl-id: f4bad569-1b56-439a-8c41-92a24a710476
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於DSP Planner工具](planner-about.md)
->* [建立連線電視觸及計畫](planner-create.md)
+>* [關於DSP [!UICONTROL Planner]工具](planner-about.md)
+>* [建立連線電視連線計畫](planner-create.md)
 >* [複製連線電視連線計畫](planner-duplicate.md)
->* [編輯連線電視觸及計畫](planner-edit.md)
+>* [編輯連線電視連線計畫](planner-edit.md)
 >* [重新產生連線電視觸及計畫的預測](planner-forecast.md)
 >* [封存連線電視觸及計畫](planner-archive.md)
->* [連線電視觸及計畫的設定](planner-settings.md)
+>* [連線電視存取計畫的設定](planner-settings.md)
