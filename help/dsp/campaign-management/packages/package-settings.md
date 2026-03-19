@@ -3,9 +3,9 @@ title: 封裝設定
 description: 請參閱可用封裝設定的說明。
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ ht-degree: 0%
 
 **[!UICONTROL Gross Budget]：** （僅具有封裝層級步調與動態利潤管理的封裝）封裝期間的毛預算上限。
 
-**[!UICONTROL Optimization Goal]：** （僅具有封裝層級步調的封裝）封裝的最佳化目標。 在[最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)檢視每個最佳化目標的說明。
+**[!UICONTROL Optimization Goal]：** （僅具有封裝層級步調的封裝）封裝的最佳化目標。 請在[最佳化目標檢視每個最佳化目標的說明，以及如何使用它們](/help/dsp/optimization/optimization-goals.md)。
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （具有套件層級步調的套件，以及僅具有&quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot;和&quot;[!UICONTROL Lowest Cost per Reach]&quot;最佳化目標的套件）使用促銷活動中所有程式化預留位置的住家觸及資料，以最佳化遞增觸及率。
 
-**[!UICONTROL Custom Goal for Model Learning]：** （僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）包含用來計算CPA或ROAS量度的收入或轉換事件的[自訂目標](/help/dsp/optimization/custom-goal.md)。 自訂目標必須包含其他加權的上funnel事件（例如頁面瀏覽次數和購物車新增），以便除了用於套件最佳化的CPA或ROAS量度之外使用。 如需自訂目標的詳細資訊，包括建立自訂目標的最佳實務和使用這些目標的行銷活動，請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]：** （僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）包含用來計算CPA或ROAS量度的收入或轉換事件的[自訂目標](/help/dsp/optimization/custom-goal.md)。 自訂目標必須包含其他加權的上funnel事件（例如頁面瀏覽次數和購物車新增），以便除了用於套件最佳化的CPA或ROAS量度之外使用。 如需自訂目標的詳細資訊，包括針對自訂目標建立的最佳實務，以及使用這些目標的行銷活動，請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** （選擇性；僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）告訴最佳化模型只從點按式轉換中學習。 否則，最佳化模型會同時學習點按和曝光轉換的機制。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
+>* [關於Advertising DSP中的封裝管理](package-about.md)
 >* [建立封裝](package-create.md)
 >* [編輯封裝](package-edit.md)
 >* [將位置附加至封裝](package-attach-placement.md)

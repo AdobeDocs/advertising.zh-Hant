@@ -3,7 +3,7 @@ title: 列出私人交易的版位和廣告
 description: 瞭解如何開啟與私人交易相關的刊登版位和廣告清單。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%

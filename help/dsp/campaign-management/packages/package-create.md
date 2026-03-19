@@ -3,9 +3,9 @@ title: 建立套件
 description: 瞭解如何建立套件。
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
+>* [關於Advertising DSP中的封裝管理](package-about.md)
 >* [編輯封裝](package-edit.md)
 >* [將位置附加至封裝](package-attach-placement.md)
 >* [檢視封裝的變更記錄](package-change-log.md)
 >* [暫停或啟動封裝](package-pause-activate.md)
 >* [封裝設定](package-settings.md)
->* [影片：如何建立封裝](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=zh-Hant)
+>* [影片：如何建立封裝](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

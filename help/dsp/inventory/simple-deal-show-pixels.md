@@ -2,7 +2,7 @@
 title: 檢視[!UICONTROL Simple Ad Serving]交易的事件畫素
 description: 瞭解如何取得[!UICONTROL Simple Ad Serving]交易的事件追蹤畫素副本。
 feature: DSP Simple Ad Serving
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

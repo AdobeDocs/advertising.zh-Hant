@@ -3,9 +3,9 @@ title: 檢視封裝變更記錄
 description: 瞭解如何檢視封裝的變更。
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
+>* [關於Advertising DSP中的封裝管理](package-about.md)
 >* [建立封裝](package-create.md)
 >* [編輯封裝](package-edit.md)
 >* [將位置附加至封裝](package-attach-placement.md)

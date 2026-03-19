@@ -3,7 +3,7 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與 [!DNL Roku]的合作關係，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku]特定位置的最佳實務。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -79,5 +79,5 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 >[!MORELIKETHIS]
 >
 >* [手動建立交易識別碼詳細資料](/help/dsp/inventory/deal-id-create.md)
-> * [訂閱及要求存取 [!DNL On Demand] 進階詳細目錄交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+> * [訂閱並要求 [!DNL On Demand] 進階庫存交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)的存取權
 >* [建立位置](/help/dsp/campaign-management/placements/placement-create.md)

@@ -3,7 +3,7 @@ title: DSP如何最佳化您的行銷活動
 description: 瞭解DSP如何最佳化行銷活動中的套件。
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 
 * 優先平衡成本效益與效能比
 
-檢視[最佳化目標及使用方式](optimization-goals.md)，以判斷哪些最佳化目標可協助您達成KPI。
+檢視[最佳化目標以及如何使用它們](optimization-goals.md)，以判斷哪些最佳化目標可以協助您達成KPI。
 
 ### 排定效能率優先順序的套件
 
@@ -80,12 +80,12 @@ DSP能以兩種基本方式將您的傳送最佳化，有20種變數可用來符
 >
 >可用的競標前篩選器會依廣告型別而異。 例如，對於標準顯示位置，您可以按點進率和可檢視度進行篩選，但不能按完成率進行篩選。
 
-請參閱[位置層級出價前篩選條件及使用方式](optimization-pre-bid-filters.md)，判斷哪個出價前篩選條件可以協助您達成KPI。
+檢視[位置層級競標前篩選條件以及如何使用它們](optimization-pre-bid-filters.md)，以判斷哪些競標前篩選條件可以協助您達成KPI。
 
 >[!MORELIKETHIS]
 >
 >* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [最佳化目標及使用方式](optimization-goals.md)
->* [位置層級競標前篩選及使用方式](optimization-pre-bid-filters.md)
+>* [位置層級競標前篩選器及其使用方式](optimization-pre-bid-filters.md)
 >* [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)

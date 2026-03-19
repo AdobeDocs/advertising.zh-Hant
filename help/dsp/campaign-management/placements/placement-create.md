@@ -3,9 +3,9 @@ title: 建立位置
 description: 瞭解如何建立版位。
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. 縮小對象範圍。 這包括選取要定位在位置中的對象區段。
 
-         對於[!DNL Roku]個位置，您可以納入一或多個可與[&#x200B; （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
+         對於[!DNL Roku]個位置，您可以納入一或多個可與[ （選擇加入）確定性資料集比對的對象區段，以善用 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)DSP與[!DNL Roku]的唯一對象比對。
 
          未附加至使用中、排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置管理](placement-about.md)
+>* [關於Advertising DSP中的位置管理](placement-about.md)
 >* [編輯版位](placement-edit.md)
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)
 >* [編輯刊登版位的廣告排程](placement-edit-ad-schedule.md)

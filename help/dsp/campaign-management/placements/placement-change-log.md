@@ -3,9 +3,9 @@ title: 檢視位置變更記錄
 description: 瞭解如何檢視對位置所做的變更。
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置管理](placement-about.md)
+>* [關於Advertising DSP中的位置管理](placement-about.md)
 >* [建立位置](placement-create.md)
 >* [編輯版位](placement-edit.md)
 >* [複製位置](placement-duplicate.md)

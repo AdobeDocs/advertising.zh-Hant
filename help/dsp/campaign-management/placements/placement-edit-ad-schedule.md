@@ -3,9 +3,9 @@ title: 編輯刊登版位的廣告排程
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**，並指定要上傳的檔案。
 
-## 編輯單一位置的廣告排程
+## 編輯單一刊登的廣告排程
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置管理](placement-about.md)
+>* [關於Advertising DSP中的位置管理](placement-about.md)
 >* [編輯版位](placement-edit.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
