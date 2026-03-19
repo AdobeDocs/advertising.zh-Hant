@@ -3,9 +3,9 @@ title: 編輯版位
 description: 瞭解如何編輯版位。
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定；變更大部分欄位；一次將設定上傳回DSP。 請參閱[使用Bulksheets檢閱及編輯位置設定](placement-qa.md)。
+>您也可以以XLSX （Excel試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定；變更大部分欄位；一次將設定上傳回DSP。 請參閱&quot;[使用大量表單](placement-qa.md)檢閱和編輯位置設定。&quot;
 
 ## 快速編輯金鑰位置設定 {#placement-quick-edit}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 若只要編輯位置名稱、狀態、最高競標及預算，請參閱[快速編輯金鑰位置設定](#placement-quick-edit)。
+> 若只要編輯位置名稱、狀態、最高競標及預算，請參閱[快速編輯索引鍵位置設定](#placement-quick-edit)。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於位置管理](placement-about.md)
+>* [關於Advertising DSP中的位置管理](placement-about.md)
 >* [使用Bulksheets檢閱和編輯位置設定](placement-qa.md)
 >* [建立位置](placement-create.md)
 >* [複製位置](placement-duplicate.md)
@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [位置設定](placement-settings.md)
 >* [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hant)
+>* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

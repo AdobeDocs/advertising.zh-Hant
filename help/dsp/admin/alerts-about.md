@@ -1,16 +1,16 @@
 ---
-title: 關於警示訂閱
+title: 關於警報訂閱
 description: 瞭解自動電子郵件警示。
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# 關於警示訂閱
+# 關於警報訂閱
 
 您可以建立稱為訂閱的自動電子郵件警示群組，當符合指定的帳戶、行銷活動、廣告和私人詳細目錄交易引數時，這些群組會傳送電子郵件通知。
 

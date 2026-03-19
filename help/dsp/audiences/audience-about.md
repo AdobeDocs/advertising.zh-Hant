@@ -3,9 +3,9 @@ title: 關於Advertising DSP中的對象管理
 description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hant)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
+  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
 
 ## 對象人數資料
 
@@ -106,15 +106,15 @@ ht-degree: 0%
 
   ![個別區段或儲存的對象詳細資料](/help/dsp/assets/audience-size-segment-details.png)
 
-## 對象檢視
+## [!UICONTROL Audiences]檢視
 
-### 所有對象檢視
+### [!UICONTROL All Audiences]檢視
 
 在「[!UICONTROL All Audiences]」檢視或「對象庫」中，您可以儲存和管理可重複使用的對象，其中包括對象區段群組，甚至是其他儲存的對象。 您可以使用受眾作為多個位置的目標。 版位名稱旁會顯示各對象所使用的版位數量。
 
 您可以編輯、複製、刪除、匯出或共用任何對象。
 
-### 區段檢視
+### [!UICONTROL Segments]檢視
 
 在[!UICONTROL Segments]檢視中，所有使用者都可以建立其他自訂區段。
 
@@ -134,11 +134,11 @@ ht-degree: 0%
 
   您無法編輯或共用與您共用的第三方區段。 如果您需要與其他使用者共用協力廠商區段，請聯絡您的Adobe客戶團隊。
 
-### 來源檢視
+### [!UICONTROL Sources]檢視
 
 在[!UICONTROL Sources]檢視中，您可以在支援的客戶資料平台中設定第一方區段的來源，以將其轉換為包含指定通用ID型別的區段。 來源設定包括自動產生的來源金鑰，您會將其提供給客戶資料平台以建立連線。
 
-如需關於支援的客戶資料平台、支援的通用ID型別，以及設定每個客戶資料平台連線的工作流程的詳細資訊，請參閱&quot;[關於來源](/help/dsp/audiences/sources/source-about.md)&quot;。
+如需關於支援的客戶資料平台、支援的通用ID型別以及設定每個客戶資料平台連線的工作流程的詳細資訊，請參閱&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;。
 
 翻譯後的區段可納入可重複使用的對象和無曲別目標定位的放置設定中。
 

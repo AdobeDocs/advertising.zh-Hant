@@ -3,9 +3,9 @@ title: 編輯廣告
 description: 瞭解如何編輯廣告。
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->若要一次變更多個廣告的第三方追蹤畫素，請參閱[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)。
+>若要一次變更多個廣告的第三方追蹤畫素，請參閱&quot;[將廣告附加至位置](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
 >* [建立多個協力廠商廣告](ad-create-multiple.md)
 >* [複製廣告](ad-duplicate.md)
->* [列出與廣告](ad-list-placements.md)關聯的版位
+>* [列出與廣告相關的版位](ad-list-placements.md)
 >* [廣告規格](ad-specs.md)

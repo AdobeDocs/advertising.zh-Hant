@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;只有在您的組織已設定為[跨帳戶報告](report-about.md#cross-account-reporting)時，才可用於下列報告型別： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]以及[!UICONTROL Conversion]。 如需跨帳戶報告的詳細資訊，請連絡您的Adobe客戶團隊。
 
-**[!UICONTROL Include data from Adobe Advertising SSC]：** （僅轉換路徑、路徑長度和轉換時間報表）包含指定Advertising Search、Social和Commerce行銷活動之搜尋廣告點選資料。 選取此選項時：
+**[!UICONTROL Include data from Adobe Advertising SSC]：** （僅限[!UICONTROL Path to Conversion]、[!UICONTROL Path Length]和[!UICONTROL Time to Conversion]個報告）包含來自指定Advertising Search、Social和Commerce行銷活動之搜尋廣告點按資料。 選取此選項時：
 
 1. 使用&#x200B;**篩選依據[!UICONTROL SSC Account]**&#x200B;篩選器選取搜尋、社交和Commerce帳戶。
 

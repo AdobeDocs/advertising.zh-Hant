@@ -3,7 +3,7 @@ title: 關於Advertising DSP中的廣告管理
 description: 瞭解廣告管理。
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 行銷活動管理檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [檢視位置](placement-details-view.md)的網站、廣告和頻率詳細資訊
+>* [檢視位置](placement-details-view.md)的網站、廣告和頻率詳細資料
 >* [管理您的行銷活動資料檢視](campaign-data-views-manage.md)
 >* [從行銷活動管理檢視匯出資料](campaign-export-data.md)
 >* [檢視行銷活動的詳細報告](/help/dsp/campaign-management/campaigns/campaign-view-report.md)

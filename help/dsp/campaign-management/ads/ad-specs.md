@@ -3,9 +3,9 @@ title: 廣告規格
 description: 參考一般和發佈者特有的廣告規格。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
 >* [建立多個協力廠商廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)

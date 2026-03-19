@@ -1,9 +1,9 @@
 ---
 title: 檢視廣告的詳細報告
-description: 瞭解如何開啟包含「概觀」、「地理位置」和「可檢視度」資料的廣告層級報表。
+description: 瞭解如何開啟包含概述、地理位置和可檢視度資料的廣告層級報表。
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 41be6988fdc3f824f5f838c109c608e2b3f3afee
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%

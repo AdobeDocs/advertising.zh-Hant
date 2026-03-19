@@ -3,7 +3,7 @@ title: 最佳化目標及使用方式
 description: 參考可用的最佳化目標，並瞭解何時使用這些目標。
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [位置層級競標前篩選及使用方式](optimization-pre-bid-filters.md)
+>* [位置層級競標前篩選器及其使用方式](optimization-pre-bid-filters.md)
 >* [行銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
