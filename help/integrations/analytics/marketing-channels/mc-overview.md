@@ -3,9 +3,9 @@ title: ' [!DNL Marketing Channels]的基礎知識'
 description: 瞭解 [!DNL Analytics Marketing Channels] 使用者應該瞭解的 [!DNL Analytics for Advertising] 相關重要資訊。
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 此頁面說明[!DNL Analytics Marketing Channels]使用者需要瞭解的[!DNL Analytics for Advertising]相關重要資訊。
 
-如需[!DNL Marketing Channels]的完整檔案，請參閱[開始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=zh-Hant)。
+如需[!DNL Marketing Channels]的完整檔案，請參閱[開始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html)。
 
 ## [!DNL Marketing Channels]的概觀
 
@@ -36,12 +36,12 @@ ht-degree: 0%
 
 Adobe建議您與分析團隊合作，建立一整套的[!DNL Marketing Channels]處理規則，以追蹤與您的業務相關的所有管道。 這麼做可讓您建立強大的歸因報表。
 
-若要瞭解Adobe Advertising如何對建立自訂行銷管道所需的訊號做出貢獻，請參閱&quot;[使用Advertising ID建立 [!DNL Marketing Channels] 規則](mc-ids.md)&quot;。
+若要瞭解Adobe Advertising如何對建立自訂行銷管道所需的訊號做出貢獻，請參閱[使用Adobe Advertising ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)。
 
 >[!MORELIKETHIS]
 >
 >* [使用Adobe Advertising ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
 >* [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之間會有所不同
->* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
+>* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
