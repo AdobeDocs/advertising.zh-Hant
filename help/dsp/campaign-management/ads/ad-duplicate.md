@@ -3,9 +3,9 @@ title: 複製廣告
 description: 瞭解如何複製廣告。
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
 >* [建立多個協力廠商廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)

@@ -3,9 +3,9 @@ title: 將位置附加至封裝
 description: 瞭解如何將位置附加至套件。
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於封裝管理](package-about.md)
+>* [關於Advertising DSP中的封裝管理](package-about.md)
 >* [建立封裝](package-create.md)
 >* [檢視封裝的變更記錄](package-change-log.md)
 >* [封裝設定](package-settings.md)

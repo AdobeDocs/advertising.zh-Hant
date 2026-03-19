@@ -1,9 +1,9 @@
 ---
 title: 將使用者ID從 [!DNL Amperity] 轉換為通用ID
-description: 瞭解如何啟用DSP以擷取您的 [!DNL Amperity] 第一方區段。
+description: 瞭解如何讓DSP擷取您的 [!DNL Amperity] 第一方區段。
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP與[!DNL Amperity]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用識別碼，以用於目標定位廣告。
+使用DSP與[!DNL Amperity]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
 
 1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)） [設定追蹤以啟用 [!DNL Analytics] 測量](#analytics-tracking)。
 
-1. [在DSP](#source-create)中建立對象來源。
+1. [在DSP中建立對象來源](#source-create)。
 
 1. [準備並共用區段對應資料](#map-data)。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
-   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會指示您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LiveRamp] [!DNL LaunchPad]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並提供唯一標籤給您的組織，以在您的網頁上實施。
+   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LaunchPad] [!DNL LiveRamp]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
 
 ## 步驟2：在DSP中建立對象來源 {#source-create}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 在[!DNL Amperity]內，使用SHA-256演演算法雜湊對象的電子郵件ID。
 
-1. 廣告商必須提供區段對應資料給Adobe帳戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
+1. 廣告商必須將區段對應資料提供給Adobe客戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 
    * **外部區段索引鍵：**&#x200B;與區段相關聯的[!DNL Amperity]區段索引鍵。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 在DSP內對應區段後，廣告商必須與其[!DNL Amperity]代表合作，將區段資料發佈至DSP。
 
-1. 接著，廣告商必須向Adobe客戶團隊確認已收到區段資料。
+1. 廣告商必須向Adobe客戶團隊確認已收到區段資料。
 
 這些區段應該會在24小時內提供給DSP。 驗證您的對象庫（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版位設定中建立或編輯對象時可用）中是否有該區段可用且正在填入。
 
@@ -80,15 +80,15 @@ ht-degree: 0%
 
 ## 步驟5：比較通用ID數量與雜湊電子郵件地址數量 {#compare-id-count}
 
-DSP收到區段資料後，受眾計數應在九(9)小時內顯示。
+DSP收到區段資料後，受眾規模應在九(9)小時內顯示。
 
-在對象庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版位設定中建立或編輯對象時可用），比較通用ID的數量與原始雜湊電子郵件地址的數量。 如需有關可接受的ID轉譯率以及區段計數可能有所差異的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
+在對象庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版位設定中建立或編輯對象時可用），比較通用ID的數量與原始雜湊電子郵件地址的數量。 如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
 
 ## 疑難排解
 
 若要疑難排解翻譯速率和使用者計數問題，請參閱&quot;[啟用通用ID的支援](/help/dsp/audiences/universal-ids.md)&quot;。
 
-若要疑難排解轉換程式的問題，請連絡您的Adobe客戶團隊或`adcloud-support@adobe.com`。
+若要疑難排解轉換程式的問題，請聯絡您的Adobe客戶團隊或`adcloud-support@adobe.com`。
 
 >[!MORELIKETHIS]
 >

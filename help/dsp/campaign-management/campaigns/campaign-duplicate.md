@@ -3,9 +3,9 @@ title: 複製行銷活動
 description: 瞭解如何複製行銷活動。
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於行銷活動管理](campaign-about.md)
+>* [關於Advertising DSP中的行銷活動管理](campaign-about.md)
 >* [建立行銷活動](campaign-create.md)
 >* [編輯行銷活動](campaign-edit.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)

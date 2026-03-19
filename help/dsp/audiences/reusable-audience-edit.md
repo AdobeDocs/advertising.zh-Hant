@@ -3,7 +3,7 @@ title: 編輯可重複使用的對象
 description: 瞭解如何編輯可重複使用的對象。
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [重複可重複使用的對象](reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
 >* [檢視可重複使用對象的詳細資料](reusable-audience-view-details.md)
 >* [共用可重複使用的對象](reusable-audience-share.md)
 >* [匯出可重複使用的對象](reusable-audience-export.md)

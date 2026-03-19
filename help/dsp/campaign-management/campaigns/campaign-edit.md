@@ -3,9 +3,9 @@ title: 編輯行銷活動
 description: 瞭解如何編輯行銷活動。
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於行銷活動管理](campaign-about.md)
+>* [關於Advertising DSP中的行銷活動管理](campaign-about.md)
 >* [建立行銷活動](campaign-create.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)
 >* [暫停或啟動行銷活動](campaign-pause-activate.md)

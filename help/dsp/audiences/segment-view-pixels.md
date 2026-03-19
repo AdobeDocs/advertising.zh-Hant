@@ -3,7 +3,7 @@ title: 檢視區段的追蹤畫素
 description: 瞭解如何檢視自訂或CCPA選擇退出銷售區段的追蹤畫素。
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

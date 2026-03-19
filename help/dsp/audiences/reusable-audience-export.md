@@ -3,7 +3,7 @@ title: 匯出關於可重複使用對象的詳細資料
 description: 瞭解如何檢視可重複使用對象的設定、對象人數和鎖定位置。
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* [關於對象管理](audience-about.md)
 >* [建立可重複使用的對象](reusable-audience-create.md)
->* [重複可重複使用的對象](reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](reusable-audience-duplicate.md)
 >* [編輯可重複使用的對象](reusable-audience-edit.md)
 >* [檢視可重複使用對象的詳細資料](reusable-audience-view-details.md)
 >* [共用可重複使用的對象](reusable-audience-share.md)

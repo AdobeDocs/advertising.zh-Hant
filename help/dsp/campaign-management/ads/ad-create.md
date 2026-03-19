@@ -3,9 +3,9 @@ title: 建立單一廣告
 description: 瞭解如何建立單一協力廠商廣告。
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 您可以在各種[廣告型別](ad-about.md#ad-types)中建立個別原生顯示廣告或協力廠商廣告。
 
-若要一次建立多個協力廠商廣告，請參閱[建立多個協力廠商廣告](ad-create-multiple.md)。
+若要一次建立多個第三方廣告，請參閱[建立多個第三方廣告](ad-create-multiple.md)。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立多個協力廠商廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)
 >* [廣告規格](ad-specs.md)

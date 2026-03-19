@@ -3,7 +3,7 @@ title: 將使用者ID從 [!DNL Tealium] 轉換為通用ID
 description: 瞭解如何讓DSP擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾規模應在九(9)小時內顯示。
 
-驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或版位設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。 如需有關可接受的ID轉譯率以及區段計數可能有所差異的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
+驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或版位設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。 如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
 
 區段每24小時會重新整理一次。 不過，根據預設，區段中的內容會在30天後過期，或是會在客戶指定的有效期後過期。 在到期之前從[!DNL Tealium]重新推播您的區段，以重新整理區段。 若要請求自訂區段有效期，請聯絡您的Adobe客戶團隊。
 

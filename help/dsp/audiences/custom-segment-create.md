@@ -3,7 +3,7 @@ title: 建立和實施自訂區段
 description: 瞭解如何建立及實作自訂區段，以追蹤曝光於廣告的使用者或造訪您網頁的使用者。
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%

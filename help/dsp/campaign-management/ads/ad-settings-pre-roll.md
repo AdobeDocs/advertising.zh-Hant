@@ -3,9 +3,9 @@ title: 前段廣告設定
 description: 請參閱前段廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
->* [列出與廣告](/help/dsp/campaign-management/ads/ad-list-placements.md)關聯的版位
+>* [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [廣告規格](ad-specs.md)
 >* [DSP巨集](/help/dsp/campaign-management/macros.md)

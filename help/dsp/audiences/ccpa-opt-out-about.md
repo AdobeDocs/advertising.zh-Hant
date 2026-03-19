@@ -3,7 +3,7 @@ title: 關於[!UICONTROL CCPA Opt-out-of-Sale]個區段和報表
 description: 瞭解如何建立區段來追蹤CCPA選擇退出銷售請求中的ID，以及如何擷取ID報表。
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的
 
 每個報表都可壓縮為GZIP格式，以定位點分隔的文字檔案提供。 在CCPA選擇退出銷售區段中擷取的使用者ID會依區段和廣告商識別。
 
-您可以[從DSP中或使用DSP &#x200B;](ccpa-opt-out-segment-report-retrieve.md)，擷取前三個月建立的每月報表[!DNL Trafficking API]連結。 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
+您可以[從DSP中或使用DSP ](ccpa-opt-out-segment-report-retrieve.md)，擷取前三個月建立的每月報表[!DNL Trafficking API]連結。 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
 
 >[!MORELIKETHIS]
 >

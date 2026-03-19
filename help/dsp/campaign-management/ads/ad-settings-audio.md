@@ -3,9 +3,9 @@ title: 音訊廣告設定
 description: 請參閱音訊廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [建立單一廣告](ad-create.md)
->* [列出與廣告](/help/dsp/campaign-management/ads/ad-list-placements.md)關聯的版位
+>* [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [廣告規格](ad-specs.md)
 >* [DSP巨集](/help/dsp/campaign-management/macros.md)

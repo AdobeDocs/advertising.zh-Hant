@@ -3,9 +3,9 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **[!UICONTROL Packages]：**&#x200B;要包含在行銷活動中的[套件](/help/dsp/campaign-management/packages/package-about.md)。 選取現有的封裝和/或建立要包含的封裝。 如果您建立封裝，請參閱[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)的說明，以取得詳細資訊。
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]：** （選擇性）使用指定的設定，啟用[!DNL IAS]可檢視度、詐騙、品牌安全和對象驗證的測量與報告。 需額外付費。
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [關於行銷活動管理](campaign-about.md)
+>* [關於Advertising DSP中的行銷活動管理](campaign-about.md)
 >* [建立行銷活動](campaign-create.md)
 >* [編輯行銷活動](campaign-edit.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)

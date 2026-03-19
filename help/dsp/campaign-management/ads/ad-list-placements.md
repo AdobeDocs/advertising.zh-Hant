@@ -3,9 +3,9 @@ title: 列出與廣告相關的版位
 description: 瞭解如何檢視與廣告相關的刊登版位。
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [編輯廣告](ad-edit.md)
 >* [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [檢視位置的詳細報告](/help/dsp/campaign-management/placements/placement-view-report.md)

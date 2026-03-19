@@ -3,9 +3,9 @@ title: 建立多個第三方廣告
 description: 瞭解如何同時建立多個第三方廣告。
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
       * 若要預覽廣告，請按一下廣告列中的![播放](/help/dsp/assets/play.png)。
 
-      * 若要編輯廣告詳細資料，請按一下[編輯] ![](/help/dsp/assets/edit.png)，編輯詳細資料，然後按一下[儲存] **&#x200B;**。
+      * 若要編輯廣告詳細資料，請按一下[編輯] ![](/help/dsp/assets/edit.png)，編輯詳細資料，然後按一下[儲存] ****。
 
       * 若要移除廣告，請按一下廣告列中的&#x200B;**[!UICONTROL X]**。
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [廣告規格](ad-specs.md)
 >* [建立單一廣告](ad-create.md)
->* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=zh-Hant)
+>* [影片：如何大量上傳協力廠商廣告標籤](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* 關於通用視訊的[常見問題集](/help/dsp/campaign-management/faq-universal-video.md)

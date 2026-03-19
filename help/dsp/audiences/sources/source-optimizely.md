@@ -3,7 +3,7 @@ title: 將使用者ID從 [!DNL Optimizely] 轉換為通用ID
 description: 瞭解如何讓DSP擷取您的 [!DNL Optimizely] 第一方區段。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾規模應在九(9)小時內顯示。
 
-驗證您的對象庫（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版位設定中建立或編輯對象時可存取）中是否有該區段可用且已填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。 如需有關可接受的ID轉譯率以及區段計數可能有所差異的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
+驗證您的對象庫（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在版位設定中建立或編輯對象時可存取）中是否有該區段可用且已填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。 如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
 
 ## 疑難排解
 
