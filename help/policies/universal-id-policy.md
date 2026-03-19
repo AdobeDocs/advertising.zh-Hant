@@ -3,7 +3,7 @@ title: Adobe Advertising通用ID需求原則
 description: 請參閱通用ID的使用原則。
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 禁止的資料
 
-若您選擇使用透過服務提供的通用ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或以其他方式提供的所有使用者端資料均符合下列通用ID規格及本原則的任何其他要求，這些規定可由[!DNL Adobe]不時修訂。
+若您選擇使用透過服務提供的通用ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或以其他方式提供的所有使用者端資料均符合下列通用ID規格及本原則的任何其他要求，可能由[!DNL Adobe]不時修訂。
 
 * 使用者端資料是由您直接從使用者收集的，或由您從另一方授權，該方會(i)直接從與此類資料相關的使用者收集使用者端資料，或(ii)透過中介取得使用者端資料，該中介取得從另一方收集此類資料的使用者資料，但前提是您能夠識別從與資料相關的使用者收集使用者端資料的原始當事方。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### UID2禁止的國家/地區
 
-您透過服務選擇使用UID2 Universal ID，即同意確保透過隨選服務傳輸、儲存、顯示、分發或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A[所列](#prohibited-countries-uid2)UID2 Provisibled Country之個人相關。
+您透過服務選擇使用UID2 Universal ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A[所列](#prohibited-countries-uid2)UID2 Provisibled Country之居民有關。
 
 ## 無區別
 
