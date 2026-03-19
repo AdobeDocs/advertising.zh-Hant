@@ -3,7 +3,7 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative 指南
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 5%
@@ -18,8 +18,8 @@ ht-degree: 5%
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
+   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

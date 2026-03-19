@@ -2,9 +2,9 @@
 title: 自訂報表常見問題集
 description: 進一步瞭解自訂報告，包括家庭報告和轉換路徑分析報告。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### 如何設定[!UICONTROL Placement Tags]維度的報表？
 
-若要建立位置標籤，請[開啟位置設定](/help/dsp/campaign-management/placements/placement-edit.md)，並在[位置標籤欄位](/help/dsp/campaign-management/placements/placement-settings.md)中輸入值。
+若要建立位置標籤，請[開啟位置設定](/help/dsp/campaign-management/placements/placement-edit.md)，並在[[!UICONTROL Placement Tags]欄位](/help/dsp/campaign-management/placements/placement-settings.md)中輸入值。
 
 當位置包含多個標籤時，報表會將整個字串視為一個標籤。 報表的每個唯一字串都包含一列。
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 ## 轉換路徑分析報表
 
-### 轉換路徑報表與[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace建立的報表有何不同？
+### [!UICONTROL Path to Conversion]報告與[!DNL Advanced Measurement Services]和Adobe Analytics Analysis Workspace建立的報告有何不同？
 
-| | 轉換報表的路徑 | Advanced Measurement Services對搜尋報表的光暈效果 | Analysis Workspace中的報表 |
+| | [!UICONTROL Path to Conversion]報告 | Advanced Measurement Services對搜尋報表的光暈效果 | Analysis Workspace中的報表 |
 | --- | --- | --- |---|
 | 客戶價值 | 產生自助式自訂報表，瞭解廣告歷程的哪些路徑導致更多轉換，以提升最佳化 | 瞭解連線電視(CTV)策略對搜尋點選數的影響 | 瞭解整體Adobe Advertising投資以及其他行銷管道對搜尋點選的影響 |
 | 家庭層級 | 是 | 是 | 否 |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | 行銷管道 | DSP +搜尋（從搜尋、社交和Commerce） | DSP +搜尋（從搜尋、社交和Commerce） | Adobe Advertising點進次數EF ID未追蹤的行銷管道（例如有機搜尋、有機社交、電子郵件和附屬機構） |
 | 支援的轉換量度 | 使用Adobe Advertising事件畫素(AMO ID)和Adobe Analytics追蹤功能進行追蹤的量度 | 點按次數（無轉換） | 使用Adobe Analytics追蹤功能追蹤的量度 |
 
-如需有關進階測量服務光暈對搜尋報表影響的詳細資訊，請參閱[進階測量服務](/help/dsp/introduction/advanced-measurement-services.md)。
+如需有關進階測量服務在搜尋報表上的光暈效果的詳細資訊，請參閱[進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)。
 
 >[!MORELIKETHIS]
 >
