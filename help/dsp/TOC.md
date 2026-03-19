@@ -4,15 +4,15 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 962a366b4bcfb74505677f6c73bfb26781c2a69c
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
 
-# Advertising DSP指南 {#dsp}
+# Advertising DSP 指南 {#dsp}
 
 + [新增功能](/help/dsp/home.md)
 + [登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
@@ -24,11 +24,11 @@ ht-degree: 3%
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
-   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
+   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用AI輔助聊天搜尋產品檔案](/help/dsp/agent-chat.md)
-+ Campaign Management {#campaign-management}
++ 行銷活動管理 {#campaign-management}
    + [Advertising DSP中的行銷活動管理概觀](/help/dsp/campaign-management/campaign-management-overview.md)
    + 行銷活動 {#campaigns}
       + [關於Advertising DSP中的行銷活動管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -54,16 +54,16 @@ ht-degree: 3%
       + [檢視套件的變更記錄](/help/dsp/campaign-management/packages/package-change-log.md)
       + [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)
    + 版位 {#placements}
-      + [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
+      + [關於Advertising DSP中的版位管理](/help/dsp/campaign-management/placements/placement-about.md)
       + [建立位置](/help/dsp/campaign-management/placements/placement-create.md)
-      + [使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [使用大量表單檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)
       + [編輯版位](/help/dsp/campaign-management/placements/placement-edit.md)
       + [復製版位](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [管理位置的競標乘數](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [附加和移除刊登版位的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [附加及移除刊登版位的廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [附加和移除廣告中的畫素](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
-      + [檢視位置的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
+      + [檢視位置的詳細報告](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [檢視位置的變更記錄](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [停用或啟用位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [封存或取消封存位置](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [使用大量表單檢閱和編輯廣告詳細資料](/help/dsp/campaign-management/ads/ad-qa.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [從版位附加及移除廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)
+      + [從版位附加及移除廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -96,14 +96,14 @@ ht-degree: 3%
    + 行銷活動管理檢視中的效能報表 {#campaign-reports}
       + [行銷活動管理檢視中的效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [從行銷活動管理檢視匯出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [檢視刊登版位的網站、廣告、頻率和詳細目錄資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [檢視刊登版位預測報表](/help/dsp/campaign-management/reports/placement-forecast.md)
+      + [檢視刊登位置的網站、廣告、頻率和詳細庫存資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [檢視刊登版位預測報告](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + [檢視警示](/help/dsp/campaign-management/reports/campaign-alerts.md)
-      + [管理您的Campaign資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [DSP巨集](/help/dsp/campaign-management/macros.md)
+      + [檢視警報](/help/dsp/campaign-management/reports/campaign-alerts.md)
+      + [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+   + [Advertising DSP巨集](/help/dsp/campaign-management/macros.md)
    + [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign管理常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [關於行銷活動管理的常見問題集](/help/dsp/campaign-management/faq-campaign-management.md)
    + [通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 + 最佳化 {#optimization}
    + [Advertising DSP如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -130,7 +130,7 @@ ht-degree: 3%
    + 區段 {#segments}
       + [建立和實施自訂區段](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale]區段 {#ccpa-opt-out-of-sale-segments}
-         + [關於[!UICONTROL CCPA Opt-out-of-Sale]個區段](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [關於[!UICONTROL CCPA Opt-out-of-Sale]個區段和報表](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [建立並實作[!UICONTROL CCPA Opt-out-of-Sale]區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [擷取[!UICONTROL Consumer Opt-Out-of-Sale]報告](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [編輯區段資訊](/help/dsp/audiences/segment-edit.md)
@@ -145,10 +145,10 @@ ht-degree: 3%
          + [將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)
          + [將使用者ID從 [!DNL Tealium] 轉換為通用ID](/help/dsp/audiences/sources/source-tealium.md)
       + [管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)
-   + [手動從 [!DNL LiveRamp]匯入已驗證的區段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [從 [!DNL LiveRamp]手動匯入已驗證的區段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方資料提供者](/help/dsp/audiences/third-party-data-providers.md)
 + 詳細目錄 {#inventory}
-   + [庫存功能概觀](/help/dsp/inventory/inventory-overview.md)
+   + [Advertising DSP中詳細目錄功能概觀](/help/dsp/inventory/inventory-overview.md)
    + [使用 [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand]詳細目錄 {#on-demand}
@@ -156,42 +156,42 @@ ht-degree: 3%
       + 可用的[!DNL On Demand]高階庫存發佈程式 {#publishers}
          + [亞太地區[!DNL On Demand]高階庫存發佈者](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [澳洲和紐西蘭的[!DNL On Demand]高階庫存發佈者](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [歐洲、中東及非洲的[!DNL On Demand]高階存貨發行者](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [歐洲、中東及非洲的[!DNL On Demand]高階庫存發佈者](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [北美地區的[!DNL On Demand]高階庫存發佈者](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [訂閱並要求 [!DNL On Demand] 進階詳細目錄交易的存取權](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [訂閱及要求存取 [!DNL On Demand] 進階詳細目錄交易](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [重新要求 [!DNL On Demand] 進階存貨交易](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [檢視您的 [!DNL On Demand] 交易要求與訂閱的狀態](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + 私人詳細目錄 {#private-inventory}
       + [關於私人詳細目錄](/help/dsp/inventory/private-inventory-about.md)
       + 交易ID {#deal-ids}
-         + [!UICONTROL Deal ID Inbox] {#inbox}
+         + [!UICONTROL Deal ID inbox] {#inbox}
             + [關於[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [在[!UICONTROL Deal ID Inbox]中接受交易](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 手動輸入的交易ID {#manual}
-            + [手動建立[!UICONTROL Deal ID]詳細資料](/help/dsp/inventory/deal-id-create.md)
-            + [手動[!UICONTROL Deal ID]設定](/help/dsp/inventory/deal-id-settings.md)
+            + [手動建立交易識別碼詳細資料](/help/dsp/inventory/deal-id-create.md)
+            + [手動交易識別碼設定](/help/dsp/inventory/deal-id-settings.md)
          + 程式化預留交易 {#programmatic-guaranteed-deal}
             + [程式化預留交易概觀](/help/dsp/inventory/programmatic-guaranteed-about.md)
-            + [談判程式化保證交易的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
-            + [設定程式化保證交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
+            + [商議程式化預留交易的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+            + [設定程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel]個程式化預留交易 {#freewheel}
-               + [在 [!DNL FreeWheel]中設定程式化預留交易的概觀](/help/dsp/inventory/freewheel-overview.md)
-               + [向 [!DNL FreeWheel]提交程式化保證交易的廣告](/help/dsp/inventory/freewheel-submit.md)
-               + [檢查 [!DNL FreeWheel] 程式化預留交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)
-               + [FreeWheel廣告提交的錯誤碼](/help/dsp/inventory/freewheel-error-codes.md)
+               + [在 [!DNL Freewheel]中設定程式化預留交易的概觀](/help/dsp/inventory/freewheel-overview.md)
+               + [將程式化預留交易的廣告提交至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [檢查 [!DNL FreeWheel] PG交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)
+               + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
       + [編輯私人交易設定](/help/dsp/inventory/deal-id-edit.md)
       + [指定私人交易的版位和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
-      + [編輯具有私人交易存取權的帳戶](/help/dsp/inventory/deal-id-share.md)
+      + [編輯可存取私人交易的帳戶](/help/dsp/inventory/deal-id-share.md)
       + [編輯具有私人交易存取權的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
       + [檢視私人交易的拍賣深入分析](/help/dsp/inventory/private-deal-auction-insights.md)
-      + [列出私人交易的刊登版位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
+      + [列出私人交易的版位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
       + [封存或取消封存私人交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving]個交易 {#sas}
+   + [!UICONTROL Simple Ad Serving]筆交易 {#sas}
       + [關於[!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
       + [建立[!UICONTROL Simple Ad Serving]交易](/help/dsp/inventory/simple-deal-create.md)
       + [編輯[!UICONTROL Simple Ad Serving]交易設定](/help/dsp/inventory/simple-deal-edit.md)
-      + [[!UICONTROL Simple Ad Serving]交易設定](/help/dsp/inventory/simple-deal-settings.md)
-   + [檢視交易的詳細報表](/help/dsp/inventory/deal-view-report.md)
+      + [[!UICONTROL Simple Ad Serving]個交易設定](/help/dsp/inventory/simple-deal-settings.md)
+   + [檢視交易的詳細報告](/help/dsp/inventory/deal-view-report.md)
    + [管理交易清單](/help/dsp/inventory/lists-deals-manage.md)
 + 自訂報表 {#custom-reports}
    + [關於自訂報表](/help/dsp/reports/report-about.md)
@@ -205,17 +205,17 @@ ht-degree: 3%
    + [可用的報表欄](/help/dsp/reports/report-columns.md)
    + [自訂報表常見問題集](/help/dsp/reports/faq-reports.md)
    + 報表目的地 {#report-destinations}
-      + [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [編輯[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [刪除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [[!UICONTROL Report Destination]設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
+      + [關於報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [建立報表目的地](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [編輯報表目的地](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [刪除報表目的地](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 計畫者 {#planner}
-   + [關於DSP Planner工具](/help/dsp/planner/planner-about.md)
-   + [建立連線電視連線計畫](/help/dsp/planner/planner-create.md)
-   + [複製連線電視連線計畫](/help/dsp/planner/planner-duplicate.md)
-   + [編輯連線電視連線計畫](/help/dsp/planner/planner-edit.md)
-   + [連線電視連線方案的設定](/help/dsp/planner/planner-settings.md)
+   + [關於DSP [!UICONTROL Planner]工具](/help/dsp/planner/planner-about.md)
+   + [建立連線電視觸及計畫](/help/dsp/planner/planner-create.md)
+   + [複製連線電視觸及計畫](/help/dsp/planner/planner-duplicate.md)
+   + [編輯連線電視觸及計畫](/help/dsp/planner/planner-edit.md)
+   + [連線電視觸及計畫的設定](/help/dsp/planner/planner-settings.md)
    + [匯出連線電視觸及計畫的預測](/help/dsp/planner/planner-export.md)
    + [重新產生連線電視觸及計畫的預測](/help/dsp/planner/planner-forecast.md)
    + [封存連線電視觸及計畫](/help/dsp/planner/planner-archive.md)
@@ -233,15 +233,15 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
-<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
-      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+<!-- add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
+      + [Edit the attribute tags for a deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
 -->
 
 <!-- add back to Inventory > SAS section when reimplemented:
-      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+      +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
