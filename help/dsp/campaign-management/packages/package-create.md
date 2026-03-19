@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [檢視封裝的變更記錄](package-change-log.md)
 >* [暫停或啟動封裝](package-pause-activate.md)
 >* [封裝設定](package-settings.md)
->* [影片：如何建立封裝](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [影片：如何建立封裝](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=zh-Hant)
