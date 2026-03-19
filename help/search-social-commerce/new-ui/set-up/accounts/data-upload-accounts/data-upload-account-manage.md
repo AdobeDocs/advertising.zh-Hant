@@ -3,7 +3,7 @@ title: 設定用於資料上載的廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需有關使用廣告網路的API管理廣告網路帳戶(搜尋、社交和Commerce同步)的帳戶詳細資訊的指示，請改為參閱「透過API連線管理廣告網路帳戶[」。](../api-accounts/api-account-manage.md)
+>如需有關使用廣告網路的API管理廣告網路帳戶（搜尋、社交和Commerce同步）的帳戶詳細資訊的指示，請改為參閱「透過API連線管理廣告網路帳戶[」。](../api-accounts/api-account-manage.md)
 
 ## 建立帳戶詳細資料 {#create-account}
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]：**&#x200B;搜尋、Social和Commerce允許針對指定的S3儲存貯體自動擷取資料。
 
-## [!UICONTROL Setup Analytics]索引標籤
+### [!UICONTROL Setup Analytics]索引標籤
 
 **[!UICONTROL Adobe Analytics Report Suite]：** （具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商；選擇性）一或多個Analytics報告套裝會傳送您為廣告網路上傳的資料（包括帳戶的實體分類和點按資料），給Search、Social和Commerce傳送這些資料。
 
