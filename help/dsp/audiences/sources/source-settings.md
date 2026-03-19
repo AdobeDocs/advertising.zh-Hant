@@ -46,5 +46,5 @@ ht-degree: 0%
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [關於第一方對象來源](source-about.md)
 >* [從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
