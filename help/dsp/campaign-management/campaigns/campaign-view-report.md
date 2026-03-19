@@ -1,9 +1,9 @@
 ---
 title: 檢視行銷活動的詳細報告
-description: 瞭解如何開啟包含「地理」、「裝置」、「可檢視度」和「對象效能」資料區段的行銷活動層級報表。
+description: 瞭解如何使用地理位置、裝置、可檢視度和對象績效資料的區段來開啟行銷活動層級報表。
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* [檢視位置的詳細報告](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
->* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [關於自訂報告](/help/dsp/reports/report-about.md)
 >* [檢視行銷活動的變更記錄](campaign-change-log.md)
 >* [暫停或啟動行銷活動](campaign-pause-activate.md)

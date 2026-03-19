@@ -3,9 +3,9 @@ title: 關於私人詳細目錄
 description: 關於私人詳細目錄
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 您可以透過下列其中一種方式來使用交易ID：
 
-* （需要啟用的選用功能）從[!UICONTROL Deal ID Inbox]，您可以檢閱並快速接受下列供應端平台(SSP)上發行者同意的保證和未保證私人庫存交易： [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）以及[!DNL Magnite DV+]的[!DNL Rubicon] （先前稱為[!UICONTROL Deal ID inbox]）。
+* （需要啟用的選用功能）從[!UICONTROL Deal ID Inbox]，您可以檢閱並快速接受下列供應端平台(SSP)上發行者同意的保證和未保證私人庫存交易： [!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）以及[!DNL Magnite DV+]的[!DNL Rubicon] （先前稱為[!UICONTROL Deal ID Inbox]）。
 
   如需詳細資訊，請參閱&quot;[關於[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)&quot;。
 
@@ -49,6 +49,6 @@ ht-degree: 0%
 >
 >* [詳細目錄功能概觀](/help/dsp/inventory/inventory-overview.md)
 >* [關於[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [在交易識別碼收件匣中接受交易](deal-id-inbox-accept.md)
+>* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [手動建立交易識別碼詳細資料](deal-id-create.md)
 >* [管理交易清單](/help/dsp/inventory/lists-deals-manage.md)
