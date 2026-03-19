@@ -24,7 +24,7 @@ ht-degree: 0%
 
    儲存計畫後，即會顯示預測輸出。
 
-1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表**，請按一下右上方的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Export]**。
+1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表&#x200B;**，請按一下右上方的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然後按一下&#x200B;**&#x200B;[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >
