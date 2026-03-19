@@ -3,7 +3,7 @@ title: 管理警報訂閱
 description: 瞭解如何管理自動電子郵件警示。
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
       設定會依警示型別而異。
 
-   1. （選擇性）若要立即執行警示，請選取&#x200B;**[!UICONTROL Alert immediately]**。 預設情況下，警示會在帳戶時區的08:00執行。
+   1. （選擇性）若要立即執行警示，請選取&#x200B;**[!UICONTROL Alert immediately]**。 依預設，警示會在帳戶時區的08:00執行。
 
    1. （選擇性）若要新增其他警示至訂閱，請按一下&#x200B;**[!UICONTROL Add Alert]**&#x200B;並建立警示。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**儲存**。
 
-## 管理訂閱的警示
+## 管理訂閱的警報
 
 * 若要新增警示至訂閱：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   請以空格分隔多個位址。
 
-* 若要移除訂閱的訂閱者，請按一下&#x200B;**[!UICONTROL Subscribers]**&#x200B;下電子郵件地址旁的&#x200B;**[!UICONTROL X]**。
+* 若要移除訂閱的訂閱者，請按一下&#x200B;**[!UICONTROL X]**&#x200B;下電子郵件地址旁的&#x200B;**[!UICONTROL Subscribers]**。
 
 ## 停用或啟用訂閱
 
