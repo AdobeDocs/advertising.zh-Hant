@@ -3,7 +3,7 @@ title: 使用Bulksheet檢閱和編輯行銷活動元件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以僅下載及編輯特定套件和特定位置的設定。 請參閱[使用Bulksheets檢閱和編輯封裝設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。
+>您也可以僅下載及編輯特定套件和特定位置的設定。 請參閱&quot;[使用Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)檢閱及編輯套件設定&quot;，以及&quot;[使用Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)檢閱及編輯位置設定&quot;。
 
 ## 下載行銷活動中套件、版位和廣告的設定 {#download-bulksheet-campaign}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      若要編輯任何設定，請直接編輯檔案，然後上傳變更。 所有可編輯的欄都會以藍色反白。 若要針對欄位使用正確的格式，請從相關的封裝設定或位置設定中選取並複製值。 對於某些目標設定，例如時段、自訂目標和轉換量度，設定中提供了複製選項。
 
