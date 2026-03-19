@@ -3,9 +3,9 @@ title: 亞太地區[!DNL On Demand]高階庫存發佈者
 description: 檢視亞太地區可用的 [!DNL On Demand] 高階庫存發佈者。
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於 [!DNL On Demand] 進階存貨](on-demand-inventory-about.md)
->* [訂閱並要求 [!DNL On Demand] 進階詳細目錄](on-demand-inventory-subscribe.md)的存取權
+>* [訂閱並要求 [!DNL On Demand] 進階庫存交易](on-demand-inventory-subscribe.md)的存取權
 >* [[!DNL On Demand] 澳洲和紐西蘭的優質庫存發佈者](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東及非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] 北美地區庫存發佈者](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] 歐洲、中東及非洲的優質存貨發行者](on-demand-inventory-publishers-emea.md)
+>* 北美地區的[[!DNL On Demand] 高階庫存發佈者](on-demand-inventory-publishers-na.md)
