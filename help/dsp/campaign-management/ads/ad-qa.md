@@ -3,7 +3,7 @@ title: 使用大量表單檢閱和編輯廣告詳細資料
 description: 瞭解如何使用試算表大量檢閱廣告設定。
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以下載XLSX （Excel試算表）格式的促銷活動所有廣告詳細資訊，以供檢閱。 *大量表單*&#x200B;詳細資料包括一個標籤，其中包含每個廣告的設定和相關聯的版位，以及另一個標籤，其中包含促銷活動中用於廣告的每個畫素。
 
-若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
+若要編輯廣告詳細資料，請參閱「使用Bulksheets檢閱和編輯行銷活動元件設定[」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
