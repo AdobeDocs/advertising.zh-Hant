@@ -3,9 +3,9 @@ title: 連線電視觸及計畫的設定
 description: 請參閱連線電視觸及計畫的設定說明。
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於DSP Planner工具](planner-about.md)
->* [建立連線電視觸及計畫](planner-create.md)
+>* [關於DSP [!UICONTROL Planner]工具](planner-about.md)
+>* [建立連線電視連線計畫](planner-create.md)
 >* [複製連線電視連線計畫](planner-duplicate.md)
->* [編輯連線電視觸及計畫](planner-edit.md)
+>* [編輯連線電視連線計畫](planner-edit.md)
 >* [匯出連線電視觸及計畫](planner-export.md)
 >* [重新產生連線電視觸及計畫的預測](planner-forecast.md)
 >* [封存連線電視觸及計畫](planner-archive.md)

@@ -3,7 +3,7 @@ title: 停用或啟用位置
 description: 瞭解如何停用或啟用位置。
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 1. 在子功能表中，按一下&#x200B;**[!UICONTROL Placements]**。
 1. 在位置名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Deactivate]**」。
 
-## 啟用暫停的版位
+## 啟用暫停的位置
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 1. 按一下行銷活動的名稱。

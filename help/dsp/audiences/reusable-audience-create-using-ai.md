@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -196,7 +196,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 >[!MORELIKETHIS]
 >
->* [重複可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
+>* [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
 >* [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
 >* [檢視可重複使用對象的詳細資料](/help/dsp/audiences/reusable-audience-view-details.md)
 >* [共用可重複使用的對象](/help/dsp/audiences/reusable-audience-share.md)

@@ -3,7 +3,7 @@ title: 封存或取消封存套件
 description: 瞭解如何封存或取消封存套件。
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

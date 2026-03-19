@@ -3,9 +3,9 @@ title: 附加及移除刊登版位的廣告
 description: 瞭解如何將廣告附加至刊登版位，以及從刊登版位移除廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Detach Selected Ads]**。
 
-## 從[!UICONTROL Placement Inspector]移除刊登版位的廣告 {#remove-ads-placement-inspector}
+## 從版位[!UICONTROL Inspector]移除刊登版位的廣告 {#remove-ads-placement-inspector}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於廣告管理](ad-about.md)
+>* [關於Advertising DSP中的廣告管理](ad-about.md)
 >* [從廣告附加及移除畫素](ad-pixel-attach-detach.md)
 >* [建立單一廣告](ad-create.md)
 >* [建立多個協力廠商廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)
->* [列出與廣告](ad-list-placements.md)關聯的版位
+>* [列出與廣告相關的版位](ad-list-placements.md)
 >* [編輯刊登版位的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 關於通用視訊的[常見問題集](/help/dsp/campaign-management/faq-universal-video.md)

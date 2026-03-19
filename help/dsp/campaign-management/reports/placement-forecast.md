@@ -1,16 +1,16 @@
 ---
-title: 檢視刊登版位預測報表
+title: 檢視刊登版位預測報告
 description: 檢視針對某個投放位置的特定鎖定目標策略所預測的曝光數、花費和最佳最高出價。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# 檢視刊登版位預測報表
+# 檢視刊登版位預測報告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* Campaign Management檢視中的[效能報表型別](campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](campaign-reports-about.md)
 >* [檢視位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

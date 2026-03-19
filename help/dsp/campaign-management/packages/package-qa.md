@@ -3,7 +3,7 @@ title: 使用Bulksheets檢閱及編輯套件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件設定。
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 * 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
 
-* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets檢閱和編輯Campaign元件設定[」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
+* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets[檢閱和編輯行銷活動元件設定」。](/help/dsp/campaign-management/campaign-components-review-edit.md)
 
 可編輯欄位包含大部分通常可編輯的設定。
 
 >[!TIP]
 >
->若要快速編輯一或多個套件的多個欄位，請參閱[編輯套裝](/help/dsp/campaign-management/packages/package-edit.md)。
+>若要快速編輯一或多個套件的多個欄位，請參閱&quot;[編輯套件](/help/dsp/campaign-management/packages/package-edit.md)&quot;。
 
 ## 下載行銷活動中所有套件的設定
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      若要編輯任何設定，請直接編輯檔案，然後上傳變更。 所有可編輯的欄都會以藍色反白。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
-     檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱[已下載/上傳大量表單中的位置欄](#qa-sheet-columns)。
+     檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱&quot;[在已下載/已上傳大量表單中的位置欄](#qa-sheet-columns)&quot;。
 
      若要編輯任何設定，請直接編輯檔案，然後上傳變更。 所有可編輯的欄都會以藍色反白。 若要針對欄位使用正確的格式，請從相關的封裝設定或位置設定中選取並複製值。 對於某些目標設定，例如時段、自訂目標和轉換量度，設定中提供了複製選項。
 
@@ -166,6 +166,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [使用Bulksheets檢閱和編輯Campaign元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [使用大量表單檢閱及編輯行銷活動元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [編輯封裝](/help/dsp/campaign-management/packages/package-edit.md)
 >* [封裝設定](/help/dsp/campaign-management/packages/package-settings.md)

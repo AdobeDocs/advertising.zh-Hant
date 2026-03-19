@@ -3,9 +3,9 @@ title: 檢視刊登位置的網站、廣告、頻率和詳細庫存資訊
 description: 瞭解如何檢視刊登版位的目標網站、廣告、頻率和詳細目錄資料。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   [!UICONTROL Inventory]索引標籤可顯示效能統計資料，例如[!UICONTROL Auctions]、[!UICONTROL Bids]和[!UICONTROL Win Rate]，以啟用快速疑難排解。 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及每一列的快速動作按鈕，包括[!UICONTROL Edit]、[!UICONTROL View Report]和[[!UICONTROL Auction Insights]，以供進一步疑難排解](/help/dsp/inventory/private-deal-auction-insights.md)。
 
-## 開啟[!UICONTROL Placement Inspector] {#inspector-open}
+## 開啟位置[!UICONTROL Inspector] {#inspector-open}
 
 1. 開啟父行銷活動或套件的版位檢視：
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
    資料會以XLSM格式儲存至瀏覽器的預設下載資料夾作為報表。
 
-## 從[!UICONTROL Placement Inspector]移除刊登版位的廣告 {#remove-ads-placement-inspector}
+## 從[!UICONTROL Inspector]移除刊登版位的廣告 {#remove-ads-placement-inspector}
 
-1. [開啟[!UICONTROL Placement Inspector]](#inspector-open)。
+1. [開啟位置[!UICONTROL Inspector]](#inspector-open)。
 
 1. 按一下「**[!UICONTROL Ads]**」標籤。
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 行銷活動管理檢視中的[效能報表型別](campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](campaign-data-views-manage.md)

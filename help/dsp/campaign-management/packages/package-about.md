@@ -1,18 +1,18 @@
 ---
-title: 關於Advertising DSP中的封裝管理
+title: 關於Advertising DSP中的套件管理
 description: 了解封裝管理。
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# 關於Advertising DSP中的封裝管理
+# 關於Advertising DSP中的套件管理
 
-使用套件將投放位置分組為設定預算、效能目標和自訂步調策略。 DSP會將預算轉移到封裝中表現最佳的版位，以最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。 套件是選用的。
+使用套件將投放位置分組為設定預算、效能目標和自訂步調策略。 DSP將預算轉移到封裝中表現最好的位置，以最佳化封裝。 您可以依版位格式、詳細目錄型別、資料提供者、角色或其他可區別的特徵來組織套件。 套件是選用的。
 
 您可以手動建立封裝，或複製現有封裝。 您也可以編輯版位並將其附加至任何封裝。
 

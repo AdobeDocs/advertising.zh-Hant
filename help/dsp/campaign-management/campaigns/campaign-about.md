@@ -1,16 +1,16 @@
 ---
-title: 關於Advertising DSP中的Campaign Management
+title: 關於Advertising DSP中的行銷活動管理
 description: 瞭解行銷活動管理。
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# 關於Advertising DSP中的Campaign Management
+# 關於Advertising DSP中的行銷活動管理
 
 行銷活動是航班設定的總體架構。 所有行銷活動層級設定會自動套用至行銷活動中的每個套件和位置。 每個行銷活動都與特定廣告商相關聯。
 
@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [建立行銷活動](campaign-create.md)
 >* [行銷活動設定](campaign-settings.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

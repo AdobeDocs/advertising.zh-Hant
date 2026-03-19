@@ -3,7 +3,7 @@ title: 封存或取消封存廣告
 description: 瞭解如何封存或取消封存廣告。
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

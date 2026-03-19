@@ -3,9 +3,9 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      包括最多10個最近的互動點。 路徑列會依轉換次數排序。
 
-     若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)。
+     若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[自訂報告常見問題集](/help/dsp/reports/faq-reports.md)。
 
    * **[!UICONTROL Path Length]：**&#x200B;使用此報表來追蹤一段時間轉換所需的使用者互動點數，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 >* [建立自訂報告](/help/dsp/reports/report-create.md)
 >* [下載自訂報告](/help/dsp/reports/report-download.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
->* [關於家庭報告的常見問題集](/help/dsp/reports/faq-reports.md)
->* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [關於住家報告的常見問題集](/help/dsp/reports/faq-reports.md)
+>* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
->* [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)

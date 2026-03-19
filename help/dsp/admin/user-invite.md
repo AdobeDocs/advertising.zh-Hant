@@ -3,7 +3,7 @@ title: 邀請新的使用者加入您的組織帳戶
 description: 瞭解如何邀請新使用者加入帳戶。
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [重新傳送擱置中的使用者邀請](user-resend-invite.md)
+>* [重新傳送擱置的使用者邀請](user-resend-invite.md)
 >* [取消邀請擱置中的使用者](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

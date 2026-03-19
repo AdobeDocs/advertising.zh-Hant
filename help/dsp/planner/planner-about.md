@@ -1,16 +1,16 @@
 ---
-title: 關於DSP規劃工具
+title: 關於DSP [!UICONTROL Planner]工具
 description: 瞭解規劃工具，以根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的獨特觸及率。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# 關於DSP規劃工具
+# 關於DSP [!UICONTROL Planner]工具
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於DSP Planner工具](planner-about.md)
->* [建立連線電視觸及計畫](planner-create.md)
+>* [關於DSP [!UICONTROL Planner]工具](planner-about.md)
+>* [建立連線電視連線計畫](planner-create.md)
 >* [複製連線電視連線計畫](planner-duplicate.md)
->* [編輯連線電視觸及計畫](planner-edit.md)
+>* [編輯連線電視連線計畫](planner-edit.md)
 >* [匯出連線電視觸及計畫](planner-export.md)
 >* [重新產生連線電視觸及計畫的預測](planner-forecast.md)
 >* [封存連線電視觸及計畫](planner-archive.md)
->* [連線電視觸及計畫的設定](planner-settings.md)
+>* [連線電視存取計畫的設定](planner-settings.md)

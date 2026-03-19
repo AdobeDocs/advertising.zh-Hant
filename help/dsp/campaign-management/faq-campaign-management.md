@@ -1,16 +1,16 @@
 ---
-title: Campaign Management常見問題集
+title: 關於行銷活動管理的常見問題集
 description: 進一步瞭解行銷活動管理，包括變更的延遲期間，以及您在航班期間變更預算時會發生什麼事。
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Campaign Management常見問題集
+# 關於行銷活動管理的常見問題集
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
   設定變更通常會立即生效，但最多可能需要12小時的時間。
 
-  如果這是交貨的最後一天，請在當天早些時候進行變更，以便DSP有充足的時間根據變更重新校準套件。 例如，如果您從偶數步調變更為前載步調，DSP需要重新評估如何在剩餘的飛行中分配支出。 如果您在航班的最後一天只剩一小時可送達，請勿進行這類變更。
+  如果這是交付的最後一天，請在當天早些時候進行變更，以便DSP有充足的時間根據變更重新校準套件。 例如，如果您從偶數步調變更為前載步調，DSP需要重新評估如何在剩餘的飛行中分配支出。 如果您在航班的最後一天只剩一小時可送達，請勿進行這類變更。
 
-## 飛行中預算更新
+## 預算更新於稽核中
 
-* 當您變更版位時，DSP需要多久才能重新分配套件預算？
+* 若您變更版位，DSP需要多久時間重新分配套件預算？
 
   預算配置是以位置績效為基礎，使用14天平均評估。 只有在14天平均期間造成績效變更時，對刊登位置的變更才會導致預算配置變更。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 套件步調在航班最後一天會有何改變？
 
-  在航班的最後一天，該日會從24小時縮短為23小時，這樣就不會超出套件預算。 此外，封裝的步調填寫策略會自動變更為&quot;[!UICONTROL Frontload]&quot;，即使它設定為&quot;[!UICONTROL even]&quot;。 這表示每日預算的65%應於東部標準時間上午11:30前送達。
+  在航班的最後一天，該日會從24小時縮短為23小時，這樣就不會超出套件預算。 此外，封裝的步調填寫策略會自動變更為&quot;[!UICONTROL Frontload]&quot;，即使它設定為&quot;[!UICONTROL even]&quot;。 這表示每日預算的65%應於東部時間上午11:30前送達。
 
 >[!MORELIKETHIS]
 >

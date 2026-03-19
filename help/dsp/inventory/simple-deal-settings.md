@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving]個交易設定'
 description: 瞭解[!UICONTROL Simple Ad Serving]個交易的可用設定。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 <!-- 
-## Existing Simple Ad Serving Deals
+## Existing [!UICONTROL Simple Ad Serving] deals
 
 Changes aren't applied retroactively.
 -->
@@ -86,5 +86,5 @@ But I see:
 >* [檢視交易的詳細報告](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

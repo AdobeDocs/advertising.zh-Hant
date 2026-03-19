@@ -3,7 +3,7 @@ title: 從行銷活動管理檢視匯出資料
 description: 瞭解如何將資料從任何型別的行銷活動管理檢視匯出至試算表檔案。
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -30,5 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 行銷活動管理檢視中的[效能報表型別](campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

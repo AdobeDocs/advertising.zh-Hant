@@ -3,7 +3,7 @@ title: 重新傳送擱置中的使用者邀請
 description: 瞭解如何重新傳送擱置中的使用者邀請。
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
