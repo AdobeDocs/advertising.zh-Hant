@@ -3,7 +3,7 @@ title: 建立自訂報表
 description: 瞭解如何建立自訂報表。
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [執行自訂報告](/help/dsp/reports/report-run-now.md)
 >* [刪除自訂報告](/help/dsp/reports/report-delete.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
->* 行銷活動管理檢視中的[效能報表型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)

@@ -3,9 +3,9 @@ title: 報表目的地設定
 description: 按目的地型別檢視報表目的地所需的詳細資料。
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [建立報告目的地](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [編輯[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [刪除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [刪除報告目的地](/help/dsp/reports/report-destinations/report-destination-delete.md)

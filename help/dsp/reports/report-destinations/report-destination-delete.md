@@ -3,9 +3,9 @@ title: 刪除報表目的地
 description: 瞭解如何刪除報表目的地。
 feature: DSP Custom Reports
 exl-id: 4585396e-2a84-4d02-bcb9-c82de1e3638e
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於[!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination]設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [建立報告目的地](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [報告目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [編輯[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)

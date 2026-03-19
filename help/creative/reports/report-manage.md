@@ -3,9 +3,9 @@ title: 管理自訂報表
 description: 瞭解如何產生和管理跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -330,4 +330,4 @@ ht-degree: 0%
 >
 >* [體驗層級效能報告](/help/creative/experiences/experience-performance-details.md)
 >* [關於DSP自訂報告](/help/dsp/reports/report-about.md){target="_blank"}
->* [關於[!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
+>* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

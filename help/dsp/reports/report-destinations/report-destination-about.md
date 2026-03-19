@@ -1,16 +1,16 @@
 ---
-title: 關於[!UICONTROL Report Destinations]
+title: 關於報表目的地
 description: 瞭解如何管理自訂報告的傳送位置。
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# 關於[!UICONTROL Report Destinations]
+# 關於報表目的地
 
 您可以建立和管理自訂報告的傳遞位置，稱為&#x200B;*[!DNL report destinations]*。 設定報表目的地後，您可以將每個自訂報表設定為傳送到單一目的地型別的一個或多個位置。 儲存報表後，您就無法變更目的地型別。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [建立[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination]設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [建立報告目的地](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [報告目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [編輯[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [刪除[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [刪除報告目的地](/help/dsp/reports/report-destinations/report-destination-delete.md)
