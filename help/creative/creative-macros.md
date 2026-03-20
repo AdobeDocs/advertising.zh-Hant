@@ -3,7 +3,7 @@ title: 可用於追蹤URL的巨集
 description: 參考您可新增至登陸頁面URL、追蹤URL和協力廠商創意的巨集。
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 有些可用的巨集或它們的對等巨集會自動包含在體驗標籤中。
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ ht-degree: 0%
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)

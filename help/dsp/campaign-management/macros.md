@@ -3,7 +3,7 @@ title: Advertising DSP巨集
 description: 參考一般追蹤的可用巨集，以及追蹤第三方顯示廣告的點按次數。
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -48,7 +48,8 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<!-- Removed because not found in code base:
+<!--
+ Removed because not found in code base:
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 

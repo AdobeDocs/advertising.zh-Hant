@@ -3,7 +3,7 @@ title: 複製創意
 description: 瞭解如何在創意內容庫中複製創意內容。
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ ht-degree: 0%
 
    新創意命名為`<original name> (copy) # 1` （或序列中的下一個編號）。 例如，如果您製作「測試影像」的兩個復本，則復本會命名為「測試影像（復本） # 1」和「測試影像（復本） # 2」。
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

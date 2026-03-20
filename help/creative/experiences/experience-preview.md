@@ -3,7 +3,7 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * 對於已排程的廣告輪換，會顯示排程中的第一個創意內容。 您可以繼續重新整理預覽以繼續完成序列。
 
-   * 對於加權廣告輪換，創意是根據指定的權重來選取(例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%)。
+   * 對於加權廣告輪換，創意是根據指定的權重來選取（例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%）。
 
 ## 使用決策樹定位預覽體驗中的創意內容
 
@@ -52,7 +52,8 @@ ht-degree: 0%
 
       1. 選取廣告大小。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ ht-degree: 0%
 
    * 若要預覽體驗中的所有創意內容，請按一下&#x200B;**[!UICONTROL Entire Tree]**。
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

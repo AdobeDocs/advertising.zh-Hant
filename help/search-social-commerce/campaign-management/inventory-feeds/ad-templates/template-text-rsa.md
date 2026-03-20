@@ -3,7 +3,7 @@ title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -109,7 +109,9 @@ ht-degree: 0%
 
   （[!DNL Google Ads]個行銷活動）若要在[!DNL Google Ads]個搜尋合作夥伴的清單中包含競標，請選取&#x200B;**[!UICONTROL Search partners]**&#x200B;旁的核取方塊。
 
-* *[!UICONTROL Content]：*&#x200B;若要對內容（顯示）網路清單中的位置出價。 **注意：**&#x200B;您無法使用範本建立版位。 當您選取此選項時，請使用<!-- insert link -->大量表單或<!-- insert links -->廣告群組，並在[!UICONTROL Search] > [!UICONTROL Campaigns]檢視中設定版位，為每個廣告群組建立版位，並指定顯示網路上要鎖定哪些頁面。
+* *[!UICONTROL Content]：*&#x200B;若要對內容（顯示）網路清單中的位置出價。 **注意：**&#x200B;您無法使用範本建立版位。 選取此選項時，請使用Bulksheet或廣告群組，並在[!UICONTROL Search] > [!UICONTROL Campaigns]檢視中設定版位，建立每個廣告群組的版位，並指定顯示網路上要鎖定每個廣告群組的頁面。
+
+<!-- insert links above -->
 
 **[!UICONTROL Languages]：** （僅限[!DNL Google Ads]搜尋和顯示網路）行銷活動中廣告的一或多個目標語言。
 
@@ -239,7 +241,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** （僅限[!DNL Microsoft Advertising]個範本）標題、文字、顯示URL或最終URL包含`{Param3}`動態替代字串時，要做為廣告替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 
@@ -259,7 +261,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]：** (現有Microsoft Advertising標準文字廣告僅限；唯讀)廣告的標題或第一行。 Microsoft Advertising已棄用標準文字廣告的建立和編輯。
+**[!UICONTROL Ad Title]：** （現有Microsoft Advertising標準文字廣告僅限；唯讀）廣告的標題或第一行。 Microsoft Advertising已棄用標準文字廣告的建立和編輯。
 
 **[!UICONTROL Headline 1]**，**[!UICONTROL Headline 2]：** （僅限[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]擴充/延伸文字廣告範本）廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
 
@@ -271,19 +273,19 @@ ht-degree: 0%
 
 **[!UICONTROL Title]：** （僅限[!DNL Yandex]）廣告的標題或第一行。 最大為33個字元。
 
-**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** (Microsoft Advertising僅展開文字廣告)廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
+**[!UICONTROL Title Part 1]**， **[!UICONTROL Title Part 2]：** （Microsoft Advertising僅展開文字廣告）廣告的標題。 每行的長度上限（在任何動態引數取代後）為30個字元或15個雙位元組字元。
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]：** (Microsoft Advertising僅展開文字廣告)廣告內文。 長度上限（在任何動態引數取代後）為80個字元或40個雙位元組字元（例如中文、日文和韓文）。
+**[!UICONTROL Ad Text]：** （Microsoft Advertising僅展開文字廣告）廣告內文。 長度上限（在任何動態引數取代後）為80個字元或40個雙位元組字元（例如中文、日文和韓文）。
 
 ### [!UICONTROL Descriptions]
 
 **[!UICONTROL Description]：**&#x200B;廣告內文。
 
-* (Google Ads擴充文字廣告範本)長度上限（取代任何動態引數後）為90個字元或45個雙位元組字元。
+* （Google Ads擴充文字廣告範本）長度上限（取代任何動態引數後）為90個字元或45個雙位元組字元。
 
 * (Yahoo！ 日本廣告範本)長度上限（替換任何動態引數後）為80個字元或40個雙位元組字元。
 
@@ -303,7 +305,7 @@ ht-degree: 0%
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Description 2]：** (Google僅展開文字廣告範本；選擇性)廣告的第二行。 長度上限（在任何動態引數取代後）為90個字元或45個雙位元組字元。
+**[!UICONTROL Description 2]：** （Google僅展開文字廣告範本；選擇性）廣告的第二行。 長度上限（在任何動態引數取代後）為90個字元或45個雙位元組字元。
 
 ### [!UICONTROL Path]
 

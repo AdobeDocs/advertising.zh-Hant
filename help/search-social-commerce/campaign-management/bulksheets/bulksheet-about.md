@@ -3,7 +3,7 @@ title: 關於使用大量表單管理行銷活動資料
 description: 瞭解廣告網路、大量表單工作流程和錯誤處理可用的大量表單功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ ht-degree: 0%
 
 針對已同步帳戶使用大量表單的標準步驟如下：
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 

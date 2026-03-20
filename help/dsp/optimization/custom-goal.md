@@ -3,7 +3,7 @@ title: 自訂目標
 description: 瞭解自訂目標，以在針對最低CPA或最高ROAS而最佳化的套件中定義成功事件。
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;的套件都必須包含自訂目標，以協助達成整體最佳化目標。 您可以在&#x200B;*中將自訂目標建立為*&#x200B;目標[!DNL Advertising Search, Social, & Commerce]。 DSP每個目標的名稱都必須加上前置詞「ADSP_」。
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -78,7 +79,8 @@ ht-degree: 0%
 
 如果您的行銷活動目標是收入([!UICONTROL Highest Return on Ad Spend (ROAS)])，且來自所有裝置型別的收入對您而言同樣重要，則請包含非行動權重為1 (1)的&quot;[!UICONTROL Revenue]&quot;量度；行動權重會被忽略。 選取量度型別&#x200B;*[!UICONTROL Goal]*。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ ht-degree: 0%
 
 如果您的行銷活動目標是每次贏取的最低成本(CPA)，並且只需要一個成功事件（例如「應用程式提交」），則請包含該量度，並將量度型別指定為&#x200B;*[!UICONTROL Goal]*。 最佳實務是將非行動權重設定為一(1)；行動權重會被忽略。
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ ht-degree: 0%
 
 * 您的行銷活動目標有多個成功事件。 例如，您可能會針對多個網站上的動作（PDF下載、聯絡我們及電子郵件註冊）進行廣告，這些動作都會對您的CPA目標有所貢獻。 如果目標包含三個個別的量度，每個量度的非行動權重為一(1)，則[!DNL Adobe AI]支援的演演算法會將每個量度和使用者裝置型別視為同等重要性。 如果不同量度的成本或重要性不同，您可以據此調整其相對權重。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ ht-degree: 0%
 
   下列範例目標包含三個量度，每個量度具有不同的非行動權重：應用程式提交= 1、應用程式開始= 0.1，以及廣告商登陸頁面= 0.01。這表示每個應用程式提交轉換對您的企業而言平均有10個應用程式開始轉換和100個廣告商登陸頁面轉換，它們具有相同的價值。
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

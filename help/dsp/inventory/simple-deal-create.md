@@ -3,7 +3,7 @@ title: 建立[!UICONTROL Simple Ad Serving]交易
 description: 瞭解如何為[!UICONTROL Simple Ad Serving]交易建立追蹤畫素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -65,6 +65,7 @@ ht-degree: 0%
 >* [[!UICONTROL Simple Ad Serving]設定](simple-deal-settings.md)
 >* [檢視交易的詳細報告](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

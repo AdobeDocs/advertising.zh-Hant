@@ -3,7 +3,7 @@ title: 從 [!DNL LiveRamp]手動匯入已驗證的區段
 description: 瞭解如何透過 [!DNL LiveRamp]啟用已驗證的對象。
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 每個匯入工作的區段對應和上傳最多可能需要七天時間。
 
-<!--Is this first step relevant for this process?
+<!--
+Is this first step relevant for this process?
 
 1. For measurement using [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md):
 
@@ -44,5 +45,5 @@ ht-degree: 0%
 >
 >* [關於第一方對象來源](source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)

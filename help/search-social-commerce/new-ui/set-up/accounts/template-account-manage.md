@@ -2,7 +2,8 @@
 title: （新UI）僅管理 [!DNL Naver] 帳戶以進行追蹤
 description: 瞭解如何在 [!DNL Naver] 帳戶的全新UI中設定和管理帳戶詳細資料。
 feature: Search Campaign Management
-source-git-commit: 0de2a01905727314ca6c0792c5efaf6450548293
+exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -65,7 +66,8 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-<!-- What does this do?
+<!--
+ What does this do?
 
 ## Enable or disable ad network accounts {#enable-disable-account}
 

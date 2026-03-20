@@ -1,16 +1,16 @@
 ---
-title: 管理創意捆綁包
-description: 瞭解如何管理和使用創意組。
+title: 管理創意組合
+description: 瞭解如何管理和使用創意內容群組。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
 
 ---
 
-# 管理創意捆綁包
+# 管理創意組合
 
 <!--
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Creative]會依指派給組合的每個體驗之指定，在組合中旋轉創意。 您可以選擇允許[!DNL Creative]使用演演算法廣告輪換（由[!DNL Adobe AI]提供技術支援），根據效能最佳化任何體驗的廣告元素。
 
-為了在廣告體驗中跨捆綁包優化廣告元素，每個捆綁包只能包含每個\[創意大小或持續時間+語言\]組合中的一個。 例如，如果捆綁包中包含一個預設語言為「French」的250x250創作，則不能添加預設語言為「French」的第二個250x250創作。 如果您有多個相同大小的創意專案使用相同的語言，請將其個別新增至體驗。
+若要在廣告體驗中跨套件組合最佳化廣告元素，每個套件組合只能包含每個\[創意大小或持續時間+語言\]組合之一。 例如，如果套件中包含一個預設語言為「法文」的250x250創意內容，則您無法新增預設語言為「法文」的第二個250x250創意內容。 如果您有多個相同大小的創意專案使用相同的語言，請將其個別新增至體驗。
 
 附加至組合的原創作品仍可作為個別原創作品使用。 您可以將單一創意內容新增至多個組合。 如果您編輯附加至束的創意內容的任何設定，則變更會傳播至束。 不過，為體驗中的創意設定的任何自訂登陸頁面、曝光追蹤標籤，以及點選追蹤標籤，一律會用於體驗。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-## 列出捆綁包中的創意
+## 列出套件組合中的創意內容
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -52,17 +52,17 @@ ht-degree: 0%
 
 1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 按一下捆綁包卡或行可查看捆綁包中的所有創意。
+1. 按一下束卡或列以檢視束中的所有創意。
 
-## 重複的捆綁包
+## 複製組合
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. （可選）[自定義視圖](/help/creative/introduction/customize-data-views.md)以包含特定庫。
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
-1. 按一下庫名稱。
+1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
 1. 選取要複製的組合：
 
@@ -84,15 +84,15 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. 按一下庫名稱。
+1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 選擇包：
+1. 選取束：
 
-   * 在卡視圖中，按一下庫名稱旁邊的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+   * 在卡片檢視中，按一下資料庫名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-   * 在表視圖中，將游標保持在行上，然後按一下&#x200B;**[!UICONTROL Edit]**。
+   * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Edit]**。
 
 1. 編輯&#x200B;**[!UICONTROL Bundle Name]**。
 
@@ -116,17 +116,17 @@ ht-degree: 0%
 
 1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 選擇包：
+1. 選取束：
 
-   * 在卡視圖中，按一下捆綁包名稱旁邊的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Attach Creatives]**。
+   * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Attach Creatives]**。
 
-   * 在表視圖中，將游標保持在行上，然後按一下&#x200B;**[!UICONTROL Attach Creatives]**。
+   * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Attach Creatives]**。
 
-   適合捆綁類型的每個創意都列在右框架中。 已連接到捆綁包的創意會列出，但不可選。
+   符合束型別資格的每個創意內容都會列在右方框架中。 已附加至該套裝的創意內容會列出，但無法選取。
 
-1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表/清單視圖](/help/creative/assets/table-view-button.png "表視圖")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
+1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表格/清單檢視](/help/creative/assets/table-view-button.png "表格檢視")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
 
 1. 在右方框架中，選取每個要附加至搭售方案之創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
-1. 按一下庫名稱。
+1. 按一下程式庫名稱。
 
 1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
@@ -160,9 +160,9 @@ ht-degree: 0%
 
 1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 按一下捆綁包卡或行可查看捆綁包中的所有創意。
+1. 按一下束卡或列以檢視束中的所有創意。
 
 1. 選取要從束分離的創意：
 
@@ -170,15 +170,15 @@ ht-degree: 0%
 
       * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Detach]**。
 
-      * 在表視圖中，將游標保持在行上，然後按一下&#x200B;**[!UICONTROL Detach]**。
+      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Detach]**。
 
-   * 要分離一個或多個創意，請選中要分離的每個創意的複選框。 在批量操作工具欄中，按一下&#x200B;**[!UICONTROL Detach]**。
+   * 若要分離一或多個創意，請選取欲分離的每個創意的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Detach]**。
 
-     要選擇所有行，請選中左上角的全局複選框。
+     若要選取所有列，請選取左上方的全域核取方塊。
 
-## 在捆綁包中預覽單個創作
+## 預覽套件組合中的單一創意
 
-您可以預覽創意，因為觀眾將看到它，包括超連結。
+您可以在檢視者看到創意時加以預覽，包括超連結。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -194,7 +194,7 @@ ht-degree: 0%
 
    * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
-   * 在表視圖中，將游標保持在行上，然後按一下&#x200B;**[!UICONTROL Preview]**。
+   * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Preview]**。
 
 1. （選擇性）若要調整熒幕中的影像大小，請選取&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中的選項，從影像大小的10%到100%。
 
@@ -208,15 +208,15 @@ ht-degree: 0%
 
    檔案會依照瀏覽器的正常程式下載。
 
-## 預覽捆綁包中的所有創意人員
+## 預覽套件組合中的所有創意內容
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. 按一下庫名稱。
+1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 選擇包：
+1. 選取束：
 
    * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
@@ -238,7 +238,8 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 
-<!-- Not there as of 1/22/25:
+<!--
+ Not there as of 1/22/25:
 
 ## Edit the landing page and tracking tags for the creatives in a standard creative bundle
 
@@ -274,13 +275,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-1. （可選）[自定義視圖](/help/creative/introduction/customize-data-views.md)以包含特定庫。
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
-1. 按一下庫名稱。
+1. 按一下程式庫名稱。
 
-1. 按一下&#x200B;**[!UICONTROL Bundles]**&#x200B;頁籤。
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 選擇包：
+1. 選取束：
 
    * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Change Log]**。
 
@@ -290,9 +291,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 1. （選擇性）若要新增附註，請將游標停留在列上並按一下&#x200B;**[!UICONTROL Add Notes]**。 輸入筆記並按一下&#x200B;**[!UICONTROL Save]**。
 
-1. （可選）要查看更改日誌條目（包括任何添加的注釋），請將游標懸停在行上並按一下&#x200B;**[!UICONTROL View Details]**。
+1. （選擇性）若要檢視變更記錄專案，包括任何新增的附註，請將游標停留在列上，然後按一下&#x200B;**[!UICONTROL View Details]**。
 
-## 刪除捆綁包
+## 刪除組合
 
 您可以刪除未指派給[即時](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)體驗的組合。 如果將組合指派給即時體驗，請在繼續之前[從決策樹](/help/creative/experiences/experience-target-node-delete.md)移除該組合以供該體驗使用。
 
@@ -314,9 +315,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
    * 若要刪除一個或多個束，請選取要刪除的每個束的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Delete].**
 
-     要選擇所有行，請選中左上角的全局複選框。
+     若要選取所有列，請選取左上方的全域核取方塊。
 
-1. 在確認消息中，按一下&#x200B;**[!UICONTROL Delete].**
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete].**
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
@@ -329,4 +330,4 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >* [預覽創意](/help/creative/creative-libraries/creative-preview.md)
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md)
 >* [管理創意內容庫](/help/creative/creative-libraries/creative-library-manage.md)
->* [關於您的創作庫](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)

@@ -3,7 +3,7 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 0%
@@ -64,7 +64,8 @@ ht-degree: 0%
 
 **[!UICONTROL Filter by]：** （選用）篩選資料所依據的其他維度，無論維度是否包含在報表中作為欄。 可用的篩選器依報告型別而異，可能包括： *[!UICONTROL Account]*、*[!UICONTROL Ad Type]*、*[!UICONTROL Ads]*、*[!UICONTROL Advertiser]*、*[!UICONTROL Campaign]*、*[!UICONTROL Country]*、*[!UICONTROL Deal]*、*[!UICONTROL Package]*、*[!UICONTROL Placement]*、*[!UICONTROL Video]*&#x200B;和&#x200B;*[!UICONTROL Video Duration]*。
 
-<!-- Add when available:
+<!--
+ Add when available:
 *[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
 -->
 

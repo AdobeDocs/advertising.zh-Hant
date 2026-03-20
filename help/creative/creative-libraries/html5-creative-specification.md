@@ -3,7 +3,7 @@ title: HTML5創意規格
 description: 參考Advertising Creative的HTML5創意規格。
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
@@ -18,7 +18,8 @@ ht-degree: 1%
 
 [!DNL Creative]支援HTML5橫幅，其非多媒體創意內容會出現在頁面的設定邊界內。 您可以使用下列型別的HTML5創意：
 
-<!--Remove to simplify:
+<!--
+Remove to simplify:
 
 * **Simple HTML5:** Supports a single landing page URL that can be configured during creative creation and trafficking.
 
@@ -52,7 +53,8 @@ ht-degree: 1%
 
 此檔案包含的函式可確保對退出事件進行本機測試而不會發生問題。
 
-<!-- Remove to simplify:
+<!--
+ Remove to simplify:
 
 ### Simple HTML5 creative requirements
 
@@ -72,7 +74,8 @@ var clickTag = “http://www.example.com”;
 
 -->
 
-<!-- Renamed to simplify:
+<!--
+ Renamed to simplify:
 ### Static HTML5 creative requirements
 -->
 

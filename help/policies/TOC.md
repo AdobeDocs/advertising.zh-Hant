@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising原則和指導方針
 user-guide-description: 瞭解Advertising DSP和 [!DNL Advertising Search, Social, & Commerce]的原則和指導方針。
 breadcrumb-title: 原則和指導方針
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

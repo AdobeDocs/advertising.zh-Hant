@@ -3,7 +3,7 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -22,7 +22,8 @@ ht-degree: 0%
 
 ## 建立對象來源
 
-<!-- Not sure about this
+<!--
+ Not sure about this
 
 You can create one source for each combination of universal ID partner and data visibility level.
 
@@ -58,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## 變更對象來源的ID型別
 
-<!-- Clarify this:
+<!--
+ Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
 
 OR 
@@ -121,9 +123,10 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要將PII轉換為[!DNL RampID]。 您可以使用[!DNL RampIDs]來重新定位登入使用者並進行[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)測量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
+* *[!DNL Unified ID2.0](Beta)：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->

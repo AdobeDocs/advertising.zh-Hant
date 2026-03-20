@@ -3,7 +3,7 @@ title: Advertising DSP中的行銷活動管理概觀
 description: 瞭解行銷活動管理階層和元件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -18,7 +18,8 @@ DSP行銷活動具有下列階層：
    * 封裝
       * 位置
          * 廣告
-<!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
+<!--
+ Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package includes placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
@@ -56,4 +57,4 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 >* [設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [管理您的行銷活動資料檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=zh-Hant)
+>* [影片： DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

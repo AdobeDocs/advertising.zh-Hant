@@ -3,7 +3,7 @@ title: 動態廣告摘要檔案的可用欄位
 description: 瞭解您可以在用於建立動態廣告的摘要檔案中包含的欄位。
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ Advertising Creative後端提供下列摘要欄位。 您可以上傳使用您�
 
 您的摘要檔案中唯一必須具備同等值的欄位是`PART_NUM`。
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

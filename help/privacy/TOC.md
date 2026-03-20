@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising對消費者隱私權的支援
 user-guide-description: 了解 Adobe Advertising 為協助廣告商客戶遵守消費者隱私權法所提供的安全性和隱私權控制。
 breadcrumb-title: 支援消費者隱私權
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 31%

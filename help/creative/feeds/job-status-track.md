@@ -2,7 +2,8 @@
 title: 追蹤目錄處理作業的狀態
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,7 +14,8 @@ ht-degree: 0%
 
 檢視目錄處理作業的狀態。 如果在處理期間發生任何錯誤，[!UICONTROL Failed Count]欄會指出有多少列發生問題。
 
-<!-- Validate and reword:
+<!--
+ Validate and reword:
 
 By clicking on "View Failure" on the right, you can see further details about the error. The most common errors are "Image processing error" where there is a missing image asset, or "Duplicate partnum" where the unique column has a non-unique name that is referenced in another feed or within the same feed file.
 

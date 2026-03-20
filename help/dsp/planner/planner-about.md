@@ -3,7 +3,7 @@ title: 關於DSP [!UICONTROL Planner]工具
 description: 瞭解規劃工具，以根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的獨特觸及率。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -70,6 +70,8 @@ ht-degree: 0%
 +++我可以儲存供需規劃員預測輸出嗎？
 
 可以，您可以按一下右上角的[!DNL Microsoft Excel] > **[!UICONTROL ...]**，將預測匯出至&#x200B;**[!UICONTROL Export]**&#x200B;試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
+
++++
 
 >[!MORELIKETHIS]
 >

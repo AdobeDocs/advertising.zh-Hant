@@ -3,9 +3,9 @@ title: 自訂體驗的追蹤URL而不鎖定目標
 description: 瞭解如何為體驗中的每個創意自訂追蹤URL，而不需要決策樹定位。
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯追蹤URL](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Tracking URLs]**。 <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯追蹤URL](/help/creative/assets/edit-gray.png "編輯追蹤URL") **[!UICONTROL Tracking URLs]**。<!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    [!UICONTROL Click Tracking URLs]、[!UICONTROL Impression Tracking URLs]和[!UICONTROL Landing URLs]索引標籤會以指派的組合中適用的大小列出所有創意專案的名稱。 體驗的預設創意大小決定可用的大小。<!-- There's no distinct "Creative Sizes" setting. -->
 

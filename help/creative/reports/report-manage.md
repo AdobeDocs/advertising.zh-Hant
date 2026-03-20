@@ -3,7 +3,7 @@ title: 管理自訂報表
 description: 瞭解如何產生和管理跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 0%
@@ -229,7 +229,8 @@ ht-degree: 0%
       新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
 
 
-<!-- This needs a lot of updating for new report:
+<!--
+ This needs a lot of updating for new report:
 
 ## Available report columns {#report-custom-creative-columns}
 
