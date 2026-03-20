@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何在不鎖定目標的情況下為體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,18 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。&lt;！—
+截至2/2， Tag Manager只有清單檢視，但沒有卡片檢視。 >
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
 1. 選取關聯套件組合中廣告變體的創意輪換型別：
 
-   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 若要將相等權重套用至所有關聯的組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選取套裝的權重總和必須是100。<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]：*&#x200B;根據相對權重，在關聯的創意組合中顯示廣告變體。 以百分比輸入每個束的重量。 若要將相等權重套用至所有關聯的組合，請按一下（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")）。 所有選定套裝的重量最多必須相加100個。
+
+   <!-- 
+   For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. 
+   -->
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的目標，更頻繁地顯示最有效的廣告變體。
 
@@ -66,7 +71,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。 <!-- For targeted experiences, this is "Edit Schedules" -->&lt;！— Tag Manager只有清單檢視，但自2/2起沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。<!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. 啟用&#x200B;**[!UICONTROL Schedule]**。
 
