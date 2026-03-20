@@ -16,11 +16,11 @@ ht-degree: 11%
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [ [!DNL Analytics for Advertising]的概觀](/help/integrations/analytics/overview.md)
-   + [ [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
+   + [&#x200B; [!DNL Analytics for Advertising]的概觀](/help/integrations/analytics/overview.md)
+   + [&#x200B; [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
    + 規劃實作 {#planning}
       + [實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊](/help/integrations/analytics/prerequisites.md)
-      + [ [!DNL Analytics for Advertising]的(DSP) JavaScript程式碼](/help/integrations/analytics/javascript.md)
+      + [&#x200B; [!DNL Analytics for Advertising]的(DSP) JavaScript程式碼](/help/integrations/analytics/javascript.md)
       + [搭配Adobe Experience Platform [!DNL Last Event Service] 使用 [!DNL Web SDK]JavaScript資料庫](/help/integrations/analytics/web-sdk.md)
       + [收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP)廣告標籤的巨集 {#macros}
@@ -29,11 +29,11 @@ ht-degree: 11%
    + 資料交換 {#data}
       + [Analysis Workspace中的Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [Adobe Advertising中的[!DNL Analytics]資料](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [ [!DNL Analytics] 和Adobe Advertising之間的預期資料差異](/help/integrations/analytics/data-variances.md)
+      + [&#x200B; [!DNL Analytics] 和Adobe Advertising之間的預期資料差異](/help/integrations/analytics/data-variances.md)
    + 在[!DNL Analytics Marketing Channels]中工作 {#mc}
-      + [ [!DNL Marketing Channels]的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [&#x200B; [!DNL Marketing Channels]的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [使用Adobe Advertising ID建立 [!DNL Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [搭配Adobe Advertising資料使用 [!DNL Marketing Channels] ](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [搭配Adobe Advertising資料使用 [!DNL Marketing Channels] &#x200B;](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]之間會有所不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
    + [從Adobe Analytics [!DNL eVars] 和 [!DNL props]建立轉換量度](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + 與Adobe Audience Manager整合 {#audience-manager}
