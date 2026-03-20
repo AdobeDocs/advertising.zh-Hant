@@ -3,7 +3,7 @@ title: ' [!DNL Yandex] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Yandex] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 若要大量建立和更新[!DNL Yandex]行銷活動資料，您可以使用特別針對[!DNL Yandex]帳戶格式化的搜尋、社交和Commerce大量表單檔案。 您可以a) [以必要的檔案格式](../bulksheet-download.md)產生現有帳戶的批次工作表檔案，或b)手動建立這些檔案（如需支援之檔案格式的一般資訊，請參閱[支援的批次工作表檔案格式](bulksheet-file-formats.md)）。
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 可用的資料欄位
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 廣告群組的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新廣告群組的預設值為<i>[!UICONTROL active]</i>。<br><br><b>附註：</b><ul></li>如果廣告群組曾經是作用中，您無法將它刪除。 請改為封存。</li><li>您不能手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能變更這些狀態。</li></ul> |
 | [!UICONTROL Ad Status] | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 橫幅（廣告）的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新橫幅的預設值為<i>[!UICONTROL active]</i>。<br><br><b>注意：您無法手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
 | [!UICONTROL Keyword Status] | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 片語（關鍵字）的顯示狀態： <i>[!UICONTROL active]</i>。 新片段的預設值為<i>[!UICONTROL active]</i>。<br><br><b>注意：您無法手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
-| [!UICONTROL SiteLink Status] | 不適用 | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 網站連結的顯示狀態： <i>[!UICONTROL * Active]</i>或<i>[!UICONTROL *已暫停]</i>。 新網站連結的預設值為<i>[!UICONTROL * Active]</i>。 |
+| [!UICONTROL SiteLink Status] | 不適用 | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 網站連結的顯示狀態： <i>[*UICONTROL Active]</i>或<i>[*UICONTROL已暫停]</i>。 新網站連結的預設值為<i>[*UICONTROL Active]</i>。 |
 | [!UICONTROL Campaign ID] | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 可選 | 可選 | 可識別現有行銷活動的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有當您變更促銷活動名稱時才需要，除非該列包含促銷活動的AMO ID。 |
 | [!UICONTROL Ad Group ID] | 不適用 | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 不適用 | 可識別現有廣告群組的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更廣告群組名稱時才需要，除非該列包含廣告群組的AMO ID。 |
 | [!UICONTROL Ad ID] | 不適用 | 不適用 | 不適用 | 不適用：建立<br>必要/選用：編輯或刪除 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更關鍵字名稱時才需要，除非該列包含a)足夠的屬性欄以識別關鍵字或b) AMO ID。 |
@@ -72,7 +62,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Constraints] | 可選 | 可選 | 可選 | 不適用 | 不適用 | 指定給圖元的限制。 每個圖元只能指定一個限制。<br><br>限制由子實體繼承，因此除非您想要覆寫繼承的值，否則不需要為子實體輸入值。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）用來顯示來自搜尋、社交和Commerce的錯誤訊息的預留位置，這些錯誤訊息涉及列中的資料；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 
-[^1]： Excel在開啟檔案時將大數轉換為科學記號(例如2115585666的2.12E+09)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
+[^1]： Excel在開啟檔案時將大數轉換為科學記號（例如2115585666的2.12E+09）。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 >[!MORELIKETHIS]
 >
@@ -80,5 +70,5 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

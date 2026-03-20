@@ -3,7 +3,7 @@ title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 在創意程式庫中編輯標準創意內容
 
-您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容<!-- or creative variations --> （只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方<!-- , or dynamic -->）。
+您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容（只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方）。
 
 針對彈性的HTML5和靜態的HTML5創意內容，您可以上傳具有不同版面但屬性名稱集相同的新範本檔案。 對於簡單的HTML5創意內容，您可以上傳具有新屬性或影像的新範本，以編輯任何屬性或新增影像。 在所有情況下，範本都必須是ZIP格式的本機檔案，而且最大為2 MB。
 
-當您編輯包含在組合中的創意<!-- or creative variation -->時，您的變更會自動套用至包含該組合的所有體驗，除了在體驗層級指定的任何自訂登陸頁面和追蹤URL仍適用於附加至該體驗的組合。
+當您編輯包含在套裝中的創意時，您的變更會自動套用至包含該套裝的所有體驗，除了在體驗層級指定的任何自訂登陸頁面和追蹤URL仍適用於附加至該體驗的套裝。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
      若要選取所有列，請選取左上方的全域核取方塊。
 
-1. 編輯[影像創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[彈性HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[協力廠商創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. 編輯[影像創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[彈性HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[協力廠商創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。
 
    當您同時編輯多個創意內容時：
 
@@ -53,10 +53,6 @@ ht-degree: 0%
 1. （彈性的HTML5創意；選擇性）完成變更後，按一下影像上方的![預覽](/help/creative/assets/preview.png "預覽")以預覽新創意。
 
 1. 按一下&#x200B;**儲存**。
-
-<!-- Not there as of 1/16/25. If we do add it, add back in:
-1. (Flexible HTML5 or third-party creatives; optional) Regenerate the thumbnail within the table view or cards view if the change isn't visible immediately.
--->
 
 >[!MORELIKETHIS]
 >

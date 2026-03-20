@@ -3,7 +3,7 @@ title: ' [!DNL Yahoo! Japan] 帳戶的Bulksheet資料'
 description: 參考 [!DNL Yahoo! Japan] 帳戶之已下載大量表單中的標題欄位和資料欄位。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '2672'
 ht-degree: 0%
@@ -13,16 +13,6 @@ ht-degree: 0%
 # 附錄 — [!DNL Yahoo! Japan]帳戶的Bulksheet資料
 
 您可以大量下載[!DNL Yahoo! Japan]帳戶的資料，但無法上傳或張貼大量工作表到廣告網路。
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adjustment,Location,Location Type,Ad Group Name,Max CPC,Keyword,Match Type,First Page Bid, Quality Score,Ad Name (Yahoo JP),Creative Preferred Devices,Ad Title,Ad Title2,Description Line 1,Description Line 2,Creative Type,Display URL,Display Path 1,Display Path 2,Base URL/Final URL,Destination URL,Tracking Template,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Constraints,Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 可用的資料欄位
 
@@ -69,11 +59,11 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL Ad Group ID] | 不適用 | 不適用：建立<br><br>必要/選用：編輯或刪除 | 可選 | 可選 | 不適用 | 可識別現有廣告群組的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(`'`)。[^1]只有在您變更廣告群組名稱時才需要，除非該列包含廣告群組的「[!UICONTROL AMO ID]」。 |
 | [!UICONTROL Keyword ID] | 不適用 | 不適用 | 不適用：建立<br><br>必要/選用：編輯<br><br>必要：刪除 | 不適用 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(`'`)。[^1]只有在編輯或刪除關鍵字時才需要，除非該列包含a)足夠的屬性欄以識別關鍵字或b) &quot;[!UICONTROL AMO ID]&quot;。 |
 | [!UICONTROL Ad ID] | 不適用 | 不適用 | 不適用 | 不適用：建立<br><br>必要/選用：編輯或刪除 | 不適用 | 可識別現有廣告的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(`'`)。[^1]對於回應式搜尋廣告，需要[!UICONTROL Ad ID]或[!UICONTROL AMO ID]才能編輯或刪除廣告資料。 對於所有其他實體型別，只有在您變更廣告狀態時才需要[!UICONTROL AMO ID]，除非該列包含a)足夠的廣告屬性欄以識別廣告或b) &quot;[!UICONTROL AMO ID]&quot;。 不過，如果您既不包含[!UICONTROL Ad ID]也不包含[!UICONTROL AMO ID]，而且廣告屬性欄符合多個廣告，則只有其中一個廣告的狀態會變更。<br><br><b>注意：</b>如果您編輯a)現有廣告的廣告屬性欄（[!UICONTROL Status]除外）或b)回應式搜尋廣告的任何資料，而且您既未包含[!UICONTROL Ad ID]也未包含[!UICONTROL AMO ID]，則會建立新廣告，且現有廣告不會變更。 |
-| [!UICONTROL AMO ID] | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用 | （在產生的Bulksheets中）同步實體的[!DNL Adobe]產生的唯一識別碼。 針對回應式搜尋廣告，除非您包含[!UICONTROL Ad ID]，否則需要[!UICONTROL AMO ID]才能編輯或刪除廣告。 若要編輯具有[!UICONTROL AMO ID]之所有其他實體型別的資料，必須有[!UICONTROL AMO ID]才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>搜尋、社交和Commerce會使用值來決定要編輯的正確身分，但不會將識別碼張貼至廣告網路。 |
+| [!UICONTROL AMO ID] | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用：建立<br><br>選用：編輯或刪除 | 不適用 | （在產生的Bulksheets中）同步實體的[!DNL Adobe]產生的唯一識別碼。 針對回應式搜尋廣告，除非您包含[!UICONTROL AMO ID]，否則需要[!UICONTROL Ad ID]才能編輯或刪除廣告。 若要編輯具有[!UICONTROL AMO ID]之所有其他實體型別的資料，必須有[!UICONTROL AMO ID]才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>搜尋、社交和Commerce會使用值來決定要編輯的正確身分，但不會將識別碼張貼至廣告網路。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）用來顯示來自搜尋、社交和Commerce的錯誤訊息的預留位置，這些錯誤訊息涉及列中的資料；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
 
-[^1]： Excel在開啟檔案時將大數轉換為科學記號(例如2115585666的2.12E+09)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
+[^1]： Excel在開啟檔案時將大數轉換為科學記號（例如2115585666的2.12E+09）。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 >[!MORELIKETHIS]
 >
@@ -81,5 +71,5 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

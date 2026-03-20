@@ -3,7 +3,7 @@ title: ' [!DNL Yahoo! Display Network] 帳戶的Bulksheet資料'
 description: 參考 [!DNL Yahoo! Display Network] 帳戶之已下載大量表單中的標題欄位和資料欄位。
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -17,16 +17,6 @@ ht-degree: 0%
 -->
 
 您可以大量下載[!DNL Yahoo! Display Network]帳戶的資料，但無法上傳或張貼大量工作表到廣告網路。
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-The following example shows data in comma-delimited values. If you're using tab-separated values, then the data looks different.
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Line 1,Description Line 2,Base URL/Final URL,Destination URL,[Advertiser-specific Label Classification],Bid Rules,Constraints,Campaign Status,Ad Group Status,Ad Status,Campaign ID,Ad Group ID,Ad ID,AMO ID,EF Error Message
-
--->
 
 ## 可用的資料欄位
 
@@ -50,7 +40,7 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Campaign ID] | 若包含 | 若包含 | 若包含 | 可識別現有行銷活動的唯一ID。 |
 | [!UICONTROL Ad Group ID] | 不適用 | 若包含 | 若包含 | 可識別現有廣告群組的唯一ID。 |
 | [!UICONTROL Keyword ID] | 不適用 | 不適用 | 若包含 | 可識別現有關鍵字的唯一ID。 |
-| [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | （在產生的大量表單中）同步實體的Adobe產生的唯一識別碼。 |
+| [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）用來顯示來自搜尋、社交和Commerce的錯誤訊息的預留位置，這些錯誤訊息涉及列中的資料；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 |
 
 >[!MORELIKETHIS]

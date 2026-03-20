@@ -3,7 +3,7 @@ title: 動態創意設定
 description: 參考動態創意作品的設定。
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**： <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->摘要檔案中必須有值才能建立廣告的欄型別： *[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **注意：**&#x200B;這些設定與廣告體驗設定中的進階設定分開運作。<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**：摘要檔案中必須有值才能建立廣告的欄型別： *[!UICONTROL Profile data]*、*[!UICONTROL Geographic data]、*[!UICONTROL Data pass]、*[!UICONTROL Audience Segment]*。  **注意：**&#x200B;這些設定與廣告體驗設定中的進階設定分開運作。<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]：**
 

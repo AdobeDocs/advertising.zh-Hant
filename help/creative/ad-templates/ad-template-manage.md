@@ -2,16 +2,17 @@
 title: 管理動態廣告範本
 description: 瞭解如何管理動態廣告範本，以及從範本建立廣告。
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # 管理動態廣告範本
 
-上傳具有所需廣告格式的壓縮HTML5檔案，為每個廣告型別(靜態HTML5或動態HTML5)和廣告大小的組合建立個別的廣告範本。 對於動態HTML5廣告，您也可以上傳包含廣告屬性<!-- more clarification? -->的檔案。
+上傳具有所需廣告格式的壓縮HTML5檔案，為每個廣告型別（靜態HTML5或動態HTML5）和廣告大小的組合建立個別的廣告範本。 對於動態HTML5廣告，您也可以上傳包含廣告屬性<!-- more clarification? -->的檔案。
 
 <!-- add this where/how?: You can use the same feed template for multiple ad templates. -->
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 1. 將游標停留在廣告範本列上，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**.<!-- Confirm -->
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 ## 從廣告範本建立動態廣告
 
@@ -87,13 +88,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description]**： （選用）對使用廣告範本的任何人有用的資訊。
 
-<!-- I don't see this on 9/24:
+### （靜態HTML5廣告範本）點選標籤
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[按一下標籤引數\]**：按一下標籤引數可允許使用廣告範本建立的廣告的點選追蹤重新導向。 若要新增引數，請按一下&#x200B;**[!UICONTROL + Add More]**&#x200B;並輸入其他引數。 您最多可以包含五個引數。
 
 ### HTML5 zip
 
@@ -107,11 +104,9 @@ ht-degree: 0%
 
 1. 在您的裝置或網路上尋找檔案。
 
-### (動態HTML5廣告範本)屬性檔案
+### （動態HTML5廣告範本）屬性檔案
 
-<!-- EXPLAIN -->包含廣告範本屬性的檔案。 如果您已上傳檔案，則會列出檔案名稱。
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->包含廣告範本屬性的檔案。 如果您已上傳檔案，則會列出檔案名稱。
 
 若要上傳檔案：
 
@@ -126,4 +121,3 @@ ht-degree: 0%
 >* [管理摘要範本](/help/creative/feeds/feed-template-manage.md)
 >* [管理目錄](/help/creative/feeds/catalog-manage.md)
 >* [將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)
-
