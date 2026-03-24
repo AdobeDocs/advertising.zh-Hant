@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * （具有平行追蹤的廣告網路）避免使用巨集，巨集不會取代啟用平行追蹤之來源的點選。 如果廣告商必須使用巨集，則Adobe帳戶團隊應與客戶支援或實作團隊合作，以新增巨集。
 
-* （使用Adobe Advertising-Adobe Analytics整合的廣告商）若要包含AMO ID引數以將搜尋、社交和Commerce資料傳送至[!DNL Analytics]，請參閱[廣告網路特定格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)。 不需要手動為具有伺服器端AMO ID實作的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶新增引數。
+* （使用Adobe Advertising-Adobe Analytics整合的廣告商）若要包含AMO ID引數以將搜尋、社交和Commerce資料傳送至[!DNL Analytics]，請參閱[廣告網路特定格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)。 不需要手動為具有伺服器端AMO ID實作的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶新增引數。
