@@ -3,9 +3,9 @@ title: ' [!DNL Yandex]的點選追蹤格式'
 description: 瞭解 [!DNL Yandex] 帳戶的點選追蹤格式。
 exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
 >
 >* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 >
@@ -39,4 +39,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

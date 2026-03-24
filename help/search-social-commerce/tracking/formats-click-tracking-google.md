@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads]的點選追蹤格式'
 description: 瞭解 [!DNL Google Ads] 帳戶的點選追蹤格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （從](/help/integrations/analytics/ids.md#amo-id-formats)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+   * 使用最新[!DNL Google Ads]AMO ID格式[ （從](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)Adobe Advertising ID。
+     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視[ [!DNL Analytics]使用的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement)Adobe Advertising ID。
 
    * 所有其他[!DNL Google Ads]帳戶：
 
@@ -93,4 +93,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

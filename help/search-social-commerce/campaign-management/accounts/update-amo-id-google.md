@@ -3,9 +3,9 @@ title: 更新 [!DNL Google Ads] 帳戶的AMO ID (s_kwcid)追蹤代碼
 description: 瞭解如何切換至 [!DNL Google Ads] 帳戶的最新AMO ID追蹤代碼。
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-現有[帳戶的](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID追蹤代碼[!DNL Google Ads]的舊版（2019年10月之前）格式不支援Analytics中的某些功能，例如[!DNL Google Ads]最高成效行銷活動的行銷活動和廣告群組層級報告、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+相符型別組合的使用案例。
+現有[帳戶的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID追蹤代碼[!DNL Google Ads]的舊版（2019年10月之前）格式不支援Analytics中的某些功能，例如[!DNL Google Ads]最高成效行銷活動的行銷活動和廣告群組層級報告、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+相符型別組合的使用案例。
 
 目前的格式包含行銷活動ID和廣告群組ID的引數：
 
@@ -60,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 在追蹤設定中啟用「[!UICONTROL Auto Upload]」功能後，搜尋、社交和Commerce會自動更新此帳戶及其促銷活動之登陸頁面尾碼中的追蹤代碼。 您不必執行任何動作。
 
-   * 當[!UICONTROL Auto Upload]功能未啟用，而且您沒有使用[伺服器端AMO ID功能](/help/integrations/analytics/ids.md#amo-id-formats)時，您必須手動更新登陸頁面尾碼設定中的AMO ID引數。 您可以在[帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)和[行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中手動變更帳戶和行銷活動層級的尾碼，或透過[在大量表單中上傳變更](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)來手動變更帳戶和行銷活動層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。
+   * 當[!UICONTROL Auto Upload]功能未啟用，而且您沒有使用[伺服器端AMO ID功能](/help/integrations/analytics/ids.md#)時，您必須手動更新登陸頁面尾碼設定中的AMO ID引數。 您可以在[帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)和[行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)中手動變更帳戶和行銷活動層級的尾碼，或透過[在大量表單中上傳變更](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)來手動變更帳戶和行銷活動層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。
 
    * 如果您在任何促銷活動元件的基本URL設定中包含AMO ID，請將其移至相關的登陸頁面尾碼設定。
 
@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
 >* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
->* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant){target="_blank"}
+>* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

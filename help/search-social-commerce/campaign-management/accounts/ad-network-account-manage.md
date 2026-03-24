@@ -3,9 +3,9 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼(`msclkid`為[!DNL Microsoft Advertising]； Google為`gclid`)。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要尾碼格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`msclkid`為[!DNL Microsoft Advertising]； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要尾碼格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要尾碼格式。
 
 >[!NOTE]
 >
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 * **S_kwcid格式：** (現有[!DNL Google Ads]帳戶是使用Adobe Advertising-Adobe Analytics整合，且尚未移轉AMO ID (s_kwcid)的廣告商)
 
-此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](/help/integrations/analytics/ids.md#amo-id-formats)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
+此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 如需完整指示，請參閱[更新 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)的AMO ID追蹤代碼。
 
-**報表套裝名稱：** (僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用)一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
+**報表套裝名稱：** （僅適用於具有權杖的EF重新導向；具有Adobe Advertising-Adobe Analytics整合的廣告商；選用）一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
 若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)必須啟用&quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot;的廣告商層級設定。 此外，廣告商的Analytics帳戶必須設定為可從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 

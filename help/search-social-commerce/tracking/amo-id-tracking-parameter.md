@@ -3,7 +3,7 @@ title: AMO ID (s_kwcid)追蹤引數
 description: 瞭解用來與Adobe Analytics共用Adobe Advertising資料的追蹤引數。
 exl-id: 07b78f0b-624e-4dc2-8588-7cc1a86d3945
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

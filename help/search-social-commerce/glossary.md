@@ -3,9 +3,9 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **廣告變數：**&#x200B;廣告群組或廣告策略中的任何廣告。
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id)：**&#x200B;追蹤程式碼，可讓Adobe Advertising與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。 它以`s_kwcid=`開頭。
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;追蹤程式碼，可讓Adobe Advertising與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。 它以`s_kwcid=`開頭。
 
 **競標單位：**&#x200B;發出競標之單位的搜尋、社交和Commerce辭彙。
 
@@ -88,9 +88,11 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 可以針對CPM或CPC行銷活動計算eCPM值。
 
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;追蹤程式碼可讓Adobe Advertising將活動與線上點選或廣告曝光度建立關聯，並與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。
+
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
+**半衰期：**將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
 請參閱「成本模型半衰期」和「收入模型半衰期」。
 
 ## I-J {#i-j}
