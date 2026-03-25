@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 檢視可用的供應端平台(SSP)及開放交換合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d5ac30d71fb9ccab53c396dae9b37d53d59e489c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 | [!DNL ShareThrough] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 顯示桌上型電腦和行動裝置<br><br>原生顯示器<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | 所有貨幣 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | 美元 | 視訊桌上型電腦與行動裝置 |
-| [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | 輸出視訊=全域<br>顯示= NA + EMEA | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦和行動裝置 |
+| [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | 輸出視訊=全域<br>顯示= NA + EMEA | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL TripleLift] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 原生顯示 |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | 美元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL Triton] |  | Adobe Advertising | PG支援 | 全域 | 美元 | 音訊桌上型電腦與行動裝置 |
