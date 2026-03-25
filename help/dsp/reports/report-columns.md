@@ -3,9 +3,9 @@ title: 可用的報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 917441d02d8e8b43911da44e19fcc2b7a64fc301
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2947'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 |[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
 
 -->
+
+可用的報告欄會因報告型別而異。 以下是所有報表型別中的資料行超集。
 
 | 量度型別 | 子型別 | 欄名稱 | 說明 |
 |-----------|-------|-----------|-----------|
