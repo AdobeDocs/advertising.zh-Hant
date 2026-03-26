@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving]個交易設定'
 description: 瞭解[!UICONTROL Simple Ad Serving]個交易的可用設定。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | 此交易的媒體型別： *[!UICONTROL Video]、* *[!UICONTROL Display]、*&#x200B;或&#x200B;*[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | 銷售此詳細目錄的發行者名稱。 在名稱中至少輸入前兩個字元來搜尋發行者。 若要新增未列出的發行者，請聯絡您的Adobe帳戶團隊。 |
 | **[!UICONTROL Advertiser]** | 帳戶中可存取此交易的單一廣告商。 同時選取促銷活動，以及（選擇性）可從中取得交易的套件。 |
-| **[!UICONTROL Media Quality Assessment?]** | （部分使用者）讓廣告可在其他DSP上執行以進行協力廠商驗證。<!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | （部分使用者）讓廣告可在其他DSP上執行以進行協力廠商驗證。 |
 | **[!UICONTROL Ad Source]** | 唯一的選項是&#x200B;*[!UICONTROL Site Serve (Event Pixels)]*。 |
 | **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]：*&#x200B;若要為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]：*&#x200B;若要針對此交易使用現有的廣告。</li></ul> |
 | **[!UICONTROL Ad Type]** | 此交易的廣告型別。 如果您要為交易建立廣告，請根據要求包含廣告大小或持續時間。 可用的選項會因媒體型別而異。 |
