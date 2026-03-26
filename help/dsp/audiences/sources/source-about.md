@@ -3,9 +3,9 @@ title: 關於第一方對象來源
 description: 瞭解如何將第一方區段中的其他使用者識別碼轉換為通用ID以用於無cookie目標定位。
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta功能*
 
-DSP可擷取第一方區段(由您客戶資料平台(CDP)內建立的雜湊電子郵件ID所組成)，並將它們轉換為區段（由通用ID所組成）。 每個產生的ID都是以人物為基礎的，而廣告頻率上限則套用在ID層級<!-- Add that info. somewhere else too? -->。
+DSP可擷取第一方區段(由您客戶資料平台(CDP)內建立的雜湊電子郵件ID、Cookie和行動廣告ID (MAID)所組成)，並將它們轉換為由通用ID所組成的區段。 每個產生的ID都是以人物為基礎的，而廣告頻率上限則套用在ID層級<!-- Move that info. to somewhere else? -->。
 
 區段詳細資料包括每個通用ID型別的大小，以及Cookie或裝置ID追蹤的每個裝置型別的大小。
 
@@ -77,9 +77,9 @@ DSP也可以使用批次、串流或API型資料共用，連線至任何其他CD
 
 DSP是&#x200B;*the*[的整合式 [!DNL Adobe Real-Time CDP]目的地](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)，它是Adobe Experience Platform的一部分。
 
-在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以在DSP中使用目的地來啟用雜湊電子郵件地址以用於目標定位廣告。 如需有關目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hant)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hant)。
+在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以在DSP中使用目的地來啟用雜湊電子郵件地址、Cookie和行動廣告ID，以用於目標定位廣告。 如需有關目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html)。
 
-若要讓DSP擷取您的[!DNL Adobe] [!DNL Real-time CDP]第一方區段，並將雜湊電子郵件地址轉換為通用ID，請參閱[將使用者ID從 [!DNL Adobe Real-Time CDP] 轉換為通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)。
+若要讓DSP擷取您的[!DNL Adobe] [!DNL Real-time CDP]第一方區段，並將雜湊電子郵件地址、Cookie和行動廣告ID轉換為通用ID，請參閱[將使用者ID從 [!DNL Adobe Real-Time CDP] 轉換為通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)。
 
 ### [!DNL ActionIQ]
 

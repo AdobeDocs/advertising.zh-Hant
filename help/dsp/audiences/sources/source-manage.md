@@ -3,7 +3,7 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -59,13 +59,9 @@ You can create one source for each combination of universal ID partner and data 
 
 ## 變更對象來源的ID型別
 
-<!--
- Clarify this:
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
+<!-- Clarify this:
 
-OR 
-
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we delete any historical IDs of that type from the segments shared through the source.
+All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
 -->
 
@@ -123,7 +119,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]：*&#x200B;要將PII轉換為[!DNL RampID]。 您可以使用[!DNL RampIDs]來重新定位登入使用者並進行[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)測量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
+* *[!DNL Unified ID2.0](Beta)：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
 
 <!--
  Later
@@ -131,9 +127,9 @@ All changes to universal IDs translated from the source are applied after you sa
 
 -->
 
-**[!UICONTROL Terms of Service]：**&#x200B;將PII轉換為通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新ID型別。 若客戶擁有受管理的服務合約，您的Adobe客戶團隊將代表貴組織取得您的同意並接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
+**[!UICONTROL Terms of Service]：**&#x200B;將PII轉換為通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新ID型別。 對於持有受管理服務合約的客戶，您的Adobe客戶團隊會代表貴組織取得您的同意並接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
-**[!UICONTROL Source Key]：** （唯讀；自動產生）您可以在客戶資料平台中用來建立目的地連線的來源金鑰，以將對象推送到Advertising DSP。 您可以將值複製到剪貼簿，貼到目的地連線設定或檔案中。
+**[!UICONTROL Source Key]：** （唯讀；自動產生）來源金鑰，您可以在客戶資料平台中用來建立目的地連線，以將對象推送至Advertising DSP。 您可以將值複製到剪貼簿，貼到目的地連線設定或檔案中。
 
 >[!MORELIKETHIS]
 >

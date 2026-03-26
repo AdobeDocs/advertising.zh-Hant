@@ -3,9 +3,9 @@ title: 使用DSP與 [!DNL Adobe] [!DNL Real-time CDP]的整合
 description: 瞭解如何讓DSP擷取您的 [!DNL Adobe] [!DNL Real-time CDP]第一方區段。
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Beta功能*
 
-使用DSP與[&#x200B; [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) （屬於Adobe Experience Platform的一部分）的整合，將雜湊電子郵件地址轉換為通用識別碼以用於目標定位廣告。
+使用DSP與[ [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) （屬於Adobe Experience Platform的一部分）的整合，將您的使用者ID （包括雜湊電子郵件地址、Cookie和行動廣告ID）轉換為通用的ID，以用於目標定位廣告。
 
-1. （若要將電子郵件地址轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
+1. （若要將使用者ID轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
 
    1. （如果您尚未這樣做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，以及在您的追蹤URL[中的](/help/integrations/analytics/ids.md)AMO ID和EF ID。
 
@@ -30,11 +30,15 @@ ht-degree: 0%
 
 1. 在Adobe Experience Platform中，使用在Advertising DSP來源設定中產生的[!UICONTROL Source Key]來設定DSP目的地連線。
 
-   如需啟用DSP目的地連線、選取區段及存取控制許可權的說明，請參閱「[Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)」。
+   電子郵件地址必須使用SHA-256演演算法執行雜湊處理。
 
-   來源電子郵件地址必須使用SHA-256演演算法執行雜湊處理。
+   如需啟用DSP目的地連線、啟用對象及驗證資料匯出的指示，請參閱「[Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」。
 
-1. 驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或版位設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始雜湊電子郵件地址的數量進行比較。
+   >[!NOTE]
+   >
+   >舊版連線（僅支援雜湊電子郵件地址）現在稱為「[舊版Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」。 如果您已使用舊版連線，則不需要立即進行任何變更。 不過，舊版連線最終將會移除。
+
+1. 驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在位置設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始使用者ID的數量進行比較。
 
    這些區段應該會在24小時內提供給DSP。 DSP收到區段資料後，受眾規模應在九(9)小時內顯示。 如需有關可接受的ID轉譯率以及區段計數可能不同的原因的資訊，請參閱[電子郵件ID與通用ID之間的資料差異](#universal-ids-data-variances)。
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 >
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
->* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
