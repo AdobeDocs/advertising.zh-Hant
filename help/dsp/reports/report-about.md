@@ -3,7 +3,7 @@ title: 關於自訂報表
 description: 瞭解手動建立自訂報表或使用預先設定之報表範本的選項。
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
      >
      >此報表包括關於計費區段的資料。 如果向使用者或裝置提供的曝光屬於多個區段，則只會針對該曝光對一個可計費區段進行評分。
 
-   * **[!UICONTROL Content]：**&#x200B;使用此報告來依照指定的內容維度（例如型別、生產品質和內容評等）瞭解曝光傳遞和其他量度，以便您最佳化目標定位並確保品牌安全。 除了內容維度之外，該報表還包含大部分的標準維度、量度和篩選器。 依內容維度的資料可用於[!DNL Freewheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 內容訊號會由發佈者在資料流期間傳遞，並受到可用性限制。
+   * **[!UICONTROL Content]：**&#x200B;使用此報告來依照指定的內容維度（例如型別、生產品質和內容評等）瞭解曝光傳遞和其他量度，以便您最佳化目標定位並確保品牌安全。 除了內容維度之外，該報表還包含大部分的標準維度、量度和篩選器。 依內容維度的資料可用於[!DNL FreeWheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 內容訊號會由發佈者在資料流期間傳遞，並受到可用性限制。
 
    * **[!UICONTROL Conversion]：**&#x200B;請使用此報表，根據使用Adobe Advertising轉換追蹤擷取的轉換量度，瞭解行銷活動的執行狀況。 此報表包含多重接觸歸因。
 

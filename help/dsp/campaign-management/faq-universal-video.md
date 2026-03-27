@@ -3,7 +3,7 @@ title: 通用視訊常見問題集
 description: 進一步瞭解通用視訊廣告。
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 在下列任一情況下使用&#x200B;**[!UICONTROL VAST]**：
 
 * 此位置會鎖定連線電視的詳細目錄。
-* 此版位會鎖定來自Google Ad Manager、Appnexus、SpotX或Freewheel的視訊詳細目錄。 這些SSP不支援VPAID &amp; VAST視訊格式。
+* 此版位會鎖定來自Google Ad Manager、Appnexus、SpotX或FreeWheel的視訊詳細目錄。 這些SSP不支援VPAID &amp; VAST視訊格式。
 
 ## 是否可以將多個通用視訊廣告附加至相同的通用視訊位置？
 

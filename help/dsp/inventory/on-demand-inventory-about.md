@@ -3,7 +3,7 @@ title: 關於 [!DNL On Demand] 進階存貨
 description: 瞭解DSP與進階發佈商合作夥伴預先磋商的交易。
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *不適用帳戶型別為[!UICONTROL Ad Network]、[!UICONTROL Publisher Audience Extension]和[!UICONTROL Other]的使用者；類別為[!UICONTROL Other]的廣告商；以及經銷商*
 
-[!DNL On Demand] Gallery是進階詳細目錄探索工具，可探索DSP與進階發行者合作夥伴所策劃的預先交涉交易。 它可讓您存取區域內頂層發行者的非保證存貨，而不需要1:1個洽談或合約。 您可以請求個別交易，也可以訂閱發佈商以一次請求發佈商的所有交易。
+[!DNL On Demand]相簿是進階詳細目錄探索工具，可探索DSP與進階發佈商合作夥伴所策劃的預先交涉交易。 它可讓您存取區域內頂層發行者的非保證存貨，而不需要1:1個洽談或合約。 您可以請求個別交易，也可以訂閱發佈商以一次請求發佈商的所有交易。
 
 DSP Premium Marketplace可讓您：
 
@@ -45,7 +45,7 @@ DSP Premium Marketplace可讓您：
 每項交易的詳細資料包括下列欄位中的資料：
 
 * **[!UICONTROL TVB]：**&#x200B;指示發行者何時為電視廣播員
-* **[!UICONTROL Tune]：**&#x200B;表示發佈者何時接受「調入」創意（例如，\&lt;*我們的節目*\>的新集今晚的「調入」）
+* **[!UICONTROL Tune]：**&#x200B;表示發佈者何時接受「調入」創意（例如，「今晚九點鐘調入」新集\&lt;*我們的節目*\>）
 * **[!UICONTROL LDA]：** （合法飲酒年齡）表示發佈者已套用21+目標定位並接受酒精廣告
 * **[!UICONTROL CPM]：**&#x200B;表示在廣告商被授與交易的存取權之前，交易的底限或固定費率CPM何時不會顯示
 * **[!UICONTROL Status]：**&#x200B;您的訂閱要求的狀態（適用時）

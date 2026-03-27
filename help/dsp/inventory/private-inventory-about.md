@@ -3,9 +3,9 @@ title: 關於私人詳細目錄
 description: 關於私人詳細目錄
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 交易ID
 
 
-如果您與發佈商有直接關係，您可以在您的Advertising DSP版位中使用自己的私人交易、其議定的詳細目錄和定價，精簡您的媒體購買流程和工作流程。 當您設定帳戶時，DSP會與您的所有發佈者整合。 如果您想要稍後存取其他發行者，請聯絡您的Adobe帳戶團隊以設定存取權。<!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您與發佈商有直接關係，您可以在Advertising DSP版位中使用您自己的私人交易（包含議定詳細目錄和定價），精簡您的媒體購買流程和工作流程。 當您設定帳戶時，DSP會與您的所有發佈者整合。 如果您想要稍後存取其他發行者，請聯絡您的Adobe帳戶團隊以設定存取權。
 
 您所有交易識別碼的私人交易均由[!DNL Adobe]融資及開立商業發票。
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Deals]檢視
 
-在「[!UICONTROL Inventory] > [!UICONTROL Deals]」檢視中，您可以建立私人交易設定。 您也可以編輯某些交易設定；列出刊登版位和廣告，並將其他刊登版位和廣告附加至私人交易；編輯可存取私人交易的廣告商和帳戶；檢視交易的績效報表；檢視私人交易的拍賣深入分析，或封存或取消封存交易。<!-- ; or edit the attribute tags for a deal -->
+在「[!UICONTROL Inventory] > [!UICONTROL Deals]」檢視中，您可以建立私人交易設定。 您也可以編輯某些交易設定；列出刊登版位和廣告，並將其他刊登版位和廣告附加至私人交易；編輯可存取私人交易的廣告商和帳戶；檢視交易的績效報表；檢視私人交易的拍賣深入分析；或封存或取消封存交易。<!-- ; or edit the attribute tags for a deal -->
 
 「交易健康情況」欄會指出每個私人交易的健康情況：「成功」、「警告」、「嚴重」或「無法使用」。 您可以按一下狀態來檢視更多詳細資料，包括交易未按預期執行或支出的原因以及解決潛在問題的步驟。
 
-您可以套用篩選器、自訂可見欄位，並選擇儲存自訂檢視表、排序欄位，以及以圖表形式檢視資料，藉此自訂現有交易資料的顯示方式。
+您可以套用篩選器、自訂可見欄並選擇儲存自訂檢視、排序欄並以圖表形式檢視資料，以自訂可見的交易資料。
 
 ## [!UICONTROL Deal Lists]檢視
 

@@ -1,18 +1,18 @@
 ---
-title: 在 [!DNL Freewheel]中設定PG交易的概觀
-description: 瞭解在 [!DNL Freewheel]上執行發行者程式化保證交易的廣告的必要條件和額外步驟。
+title: 在 [!DNL FreeWheel]中設定PG交易的概觀
+description: 瞭解在 [!DNL FreeWheel]上執行發行者程式化保證交易的廣告的必要條件和額外步驟。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# 在[!DNL Freewheel]中設定程式化預留交易的概觀
+# 在[!DNL FreeWheel]中設定程式化預留交易的概觀
 
-在[!DNL Freewheel]上設定與發行者的程式化預留交易需要額外的許可權和步驟。
+在[!DNL FreeWheel]上設定與發行者的程式化預留交易需要額外的許可權和步驟。
 
 >[!PREREQUISITES]
 >
@@ -28,11 +28,11 @@ ht-degree: 0%
 
    對於某些英國發行者，您的廣告必須包含[!DNL Clearcast]時鐘編號。
 
-1. [接受您已於](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)使用交易識別碼收件匣與發行者交涉的交易ID[!DNL Freewheel]。
+1. [接受您已於](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)使用交易識別碼收件匣與發行者交涉的交易ID[!DNL FreeWheel]。
 
    接受交易後，請依照提示操作1)選取要用於交易的廣告，2)建立程式化預留預設位置以提供廣告。
 
-1. [將廣告提交至 [!DNL Freewheel]](freewheel-submit.md)
+1. [將廣告提交至 [!DNL FreeWheel]](freewheel-submit.md)
 
    廣告必須先提交並核准，才能執行。
 
@@ -41,6 +41,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
->* [將程式化保證交易的廣告提交至 [!DNL Freewheel]](freewheel-submit.md)
+>* [將程式化保證交易的廣告提交至 [!DNL FreeWheel]](freewheel-submit.md)
 >* [檢查 [!DNL FreeWheel] PG交易的廣告狀態](freewheel-check-status.md)
->* [&#x200B; [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)

@@ -3,7 +3,7 @@ title: 封存連線電視觸及計畫
 description: 瞭解如何封存連線電視觸及計畫。
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 封存連線電視觸及計畫
 
-封存計畫會將其從預設[!UICONTROL Planner]檢視中移除。<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+封存計畫會將其從預設[!UICONTROL Planner]檢視中移除。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Planner]**。
 

@@ -3,9 +3,9 @@ title: 建立[!UICONTROL Simple Ad Serving]交易
 description: 瞭解如何為[!UICONTROL Simple Ad Serving]交易建立追蹤畫素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. 在摘要詳細資訊中，編輯摘要詳細資訊，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-      DSP會自動為廣告產生名為「SAS位置 — &lt;*交易名稱*>」的位置。 在位置中，交易會自動在[!UICONTROL Inventory Targets]區段中定位。 所有其他鎖定目標選項均不適用。
+      DSP會自動針對廣告產生名為「SAS位置 — &lt;*交易名稱*>」的位置。 在位置中，交易會自動在[!UICONTROL Inventory Targets]區段中定位。 所有其他鎖定目標選項均不適用。
 
 1. 以下列其中一種方式將事件追蹤畫素傳送給發佈者，以進行實作：
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * 若要將資訊貼到您裝置上電子郵件應用程式的電子郵件訊息中，請按一下&#x200B;**[!UICONTROL Email & Done]**&#x200B;並選取電子郵件應用程式。 [!UICONTROL CC:]欄位已預先填入[!DNL Adobe]支援地址。 然後，您可以將訊息傳送給發行者的適當連絡人。
 
-         * 若要將資訊複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy Email]。**&#x200B;您可以手動將內容貼入電子郵件訊息，並傳送給發行者的適當連絡人。 您必須包含副本（副本：）至`publisher-support-global@adobe.com`。 當您完成複製郵件時，請按一下&#x200B;**[!UICONTROL Email & Done]**。
+         * 若要將資訊複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy Email]。**&#x200B;您可以手動將內容貼入電子郵件訊息，並傳送給發行者的適當連絡人。 包含副本（副本：）至`publisher-support-global@adobe.com`。 當您完成複製郵件時，請按一下&#x200B;**[!UICONTROL Email & Done]**。
 
       1. （如有必要）請洽詢發佈者，檢視標籤是否包含適當的巨集，讓標籤可與發佈者的廣告伺服器搭配使用。
 

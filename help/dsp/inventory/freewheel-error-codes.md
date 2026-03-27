@@ -3,16 +3,16 @@ title: ' [!DNL FreeWheel] 個廣告提交的錯誤碼'
 description: 參考向 [!DNL FreeWheel]提交廣告時傳回的錯誤碼。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
 # [!DNL FreeWheel]個廣告提交的錯誤碼
 
-失敗的廣告提交錯誤訊息可能來自Advertising DSP或[!DNL FreeWheel]。 錯誤訊息顯示在[!UICONTROL API Response]對話方塊[[!UICONTROL Freewheel Status]的](freewheel-check-status.md)欄中。
+失敗的廣告提交錯誤訊息可能來自Advertising DSP或[!DNL FreeWheel]。 在[!UICONTROL API Response]對話方塊[[!UICONTROL FreeWheel Status]的](freewheel-check-status.md)欄中尋找錯誤訊息。
 
 ## Advertising DSP內部錯誤
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API錯誤
+## [!DNL FreeWheel] API錯誤
 
 | 程式碼 | 含義 | 說明 | 後續步驟 |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API 422錯誤 {#freewheel-422-errors}
+## [!DNL FreeWheel] API 422錯誤 {#freewheel-422-errors}
 
 | 程式碼 | HTTP程式碼 | 說明 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->* [在 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)中設定程式化預留交易的概觀
+>* [在 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)中設定程式化預留交易的概觀
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
->* [將程式化保證交易的廣告提交至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [將程式化保證交易的廣告提交至 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [檢查 [!DNL FreeWheel] PG交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)

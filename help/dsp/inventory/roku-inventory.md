@@ -3,9 +3,9 @@ title: 使用 [!DNL Roku] 詳細目錄
 description: 瞭解DSP與 [!DNL Roku]的合作關係，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku]特定位置的最佳實務。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 ## [!DNL Roku]詳細目錄選項
 
-您可以a)直接使用[!DNL Roku]設定私人交易識別碼，然後將交易識別碼資料輸入至DSP或b)造訪[!DNL On Demand]相簿以訂閱[!DNL Roku]設定檔：
+您可以：
+
+* 直接使用[!DNL Roku]設定私人交易識別碼，然後將交易識別碼資料輸入至DSP。
+
+* 瀏覽[!DNL On Demand]相簿以訂閱[!DNL Roku]設定檔：
 
 >[!NOTE]
 >
@@ -28,9 +32,10 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 * 針對您的私人交易，[在DSP](/help/dsp/inventory/deal-id-create.md)中設定交易ID的相關資訊，然後在[!UICONTROL Roku Network - Audience]位置中鎖定&quot;[!UICONTROL The Roku Channel - Audience]&quot;和&quot;[!DNL Roku]&quot;。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* 您可以[在 [!DNL Roku] 相簿 [!DNL On Demand] 中訂閱下列](/help/dsp/inventory/on-demand-inventory-subscribe.md)詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
+* 您可以[在 [!DNL Roku] 相簿 [!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)訂閱以下詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
 
    * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL Roku]、[!DNL The CW]和[!DNL ABC]）的[!DNL ESPN]生態系統中的詳細目錄。
+
    * 針對[!UICONTROL The Roku Channel - Audience]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!DNL Roku]&quot;。
 
 ### 使用[!DNL Roku]自訂私人市場的優點

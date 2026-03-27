@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -24,8 +24,8 @@ ht-degree: 4%
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
-   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
+   + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用AI輔助聊天搜尋產品檔案](/help/dsp/agent-chat.md)
 + 行銷活動管理 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [使用大量表單檢閱和編輯廣告詳細資料](/help/dsp/campaign-management/ads/ad-qa.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [從版位附加及移除廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)
+      + [從版位附加及移除廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -175,8 +175,8 @@ ht-degree: 4%
             + [商議程式化預留交易的秘訣](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [設定程式化預留交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel]個程式化預留交易 {#freewheel}
-               + [在 [!DNL Freewheel]中設定程式化預留交易的概觀](/help/dsp/inventory/freewheel-overview.md)
-               + [將程式化預留交易的廣告提交至 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [在 [!DNL FreeWheel]中設定程式化預留交易的概觀](/help/dsp/inventory/freewheel-overview.md)
+               + [將程式化預留交易的廣告提交至 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [檢查 [!DNL FreeWheel] PG交易的廣告狀態](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
       + [編輯私人交易設定](/help/dsp/inventory/deal-id-edit.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + 通知 {#notifications}
       + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [與Adobe Experience Cloud的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
