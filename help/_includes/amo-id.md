@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,17 +11,18 @@ ht-degree: 0%
 
 AMO ID會在較不細微的層級追蹤每個不重複廣告組合，並用於[!DNL Analytics]和Customer Journey Analytics資料分類以及從Adobe Advertising擷取廣告量度（例如曝光數、點按數和成本）。
 
-針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)或rVar維度(AMO ID)中。
+針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar維度(AMO ID)中。
 
-對於Customer Journey Analytics，AMO ID儲存在`trackingCode`物件的`conversionDetails`屬性中，它是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+對於Customer Journey Analytics，AMO ID儲存在`trackingCode`物件的`conversionDetails`屬性中，它是[ [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 ### AMO ID格式 {#amo-id-formats}
 
-請參閱「Adobe Analytics元件指南」中AMO ID維度專案[的](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)格式。
+請參閱「Adobe Analytics元件指南」中AMO ID維度專案[的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)格式。
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
