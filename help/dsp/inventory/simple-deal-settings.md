@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving]個交易設定'
 description: 瞭解[!UICONTROL Simple Ad Serving]個交易的可用設定。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
+source-git-commit: 1af0dd2cdcfdf7f63f4ad9be5bec445d5fd78687
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 新[!UICONTROL Simple Ad Serving]筆交易
 
-### [!UICONTROL Select ad source]
+### [!UICONTROL Ad Source]
 
 | 引數 | 說明 |
 |-----------|-------------|
@@ -28,15 +28,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select ad(s)]
+### [!UICONTROL Select/Upload Creative]
 
-（當您使用現有廣告時）要納入交易的廣告。 選取每個要包含的廣告旁的核取方塊。
+* 使用現有廣告時，選取要納入交易中各廣告旁的核取方塊。
 
-### [!UICONTROL Select & upload [Media Type]]
+* 當您建立新廣告時，請使用畫面來建立新的[第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
-（僅限新廣告） Screens可建立新的[協力廠商廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
-
-### [!UICONTROL Feed details]
+### [!UICONTROL Feed Details]
 
 | 引數 | 說明 |
 |-----------|-------------|
