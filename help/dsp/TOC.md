@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [消費者隱私權的支援](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
    + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ [使用AI輔助聊天搜尋產品檔案](/help/dsp/agent-chat.md)
++ {hide-from-toc}[使用AI輔助聊天來搜尋產品檔案](/help/dsp/agent-chat.md)
 + 行銷活動管理 {#campaign-management}
    + [Advertising DSP中的行銷活動管理概觀](/help/dsp/campaign-management/campaign-management-overview.md)
    + 行銷活動 {#campaigns}
@@ -117,7 +117,7 @@ ht-degree: 4%
    + [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
    + 可重複使用的對象 {#reusable-audiences}
       + [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)
-      + [使用產生AI建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + {hide-from-toc}[使用產生AI建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
       + [檢視可重複使用對象的詳細資訊](/help/dsp/audiences/reusable-audience-view-details.md)

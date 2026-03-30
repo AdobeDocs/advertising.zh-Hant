@@ -3,9 +3,9 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何在不鎖定目標的情況下為體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。&lt;！—
-截至2/2， Tag Manager只有清單檢視，但沒有卡片檢視。 >
+1. 將游標停留在適用廣告標籤的列上，然後按一下![編輯創意最佳化](/help/creative/assets/edit-gray.png "編輯創意最佳化") **[!UICONTROL Creative Optimization]**。
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. 停用&#x200B;**[!UICONTROL Schedule]**。
 
