@@ -3,16 +3,20 @@ title: 使用客戶資料清單管理客戶比對受眾
 description: 瞭解如何從您的客戶資料清單建立和編輯 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 客戶比對對象。
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # 使用客戶資料清單管理[!DNL Google Ads]和[!DNL Microsoft Advertising]客戶比對對象
 
-您可以從您的客戶資料清單中建立[!DNL Google Ads]和[!DNL Microsoft Advertising]個客戶比對對象。 您也可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客戶比對對象，但從[!DNL Adobe]對象建立的[!DNL Google Ads]對象除外。
+您可以從您的客戶資料清單中建立[!DNL Google Ads]和[!DNL Microsoft Advertising]個客戶比對對象。 您也可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客戶比對對象，但從[!DNL Google Ads]對象建立的[!DNL Adobe]對象除外。
 
 ## 從客戶資料清單建立客戶比對對象
 
@@ -24,11 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->搜尋、Social和Commerce不會儲存您上傳或用來建立或編輯[!DNL Google Ads]或[!DNL Microsoft Advertising]對象之[!DNL Adobe]區段的任何客戶資料。
+>搜尋、Social和Commerce不會儲存您上傳或用來建立或編輯[!DNL Adobe]或[!DNL Google Ads]對象之[!DNL Microsoft Advertising]區段的任何客戶資料。
 
 1. 以所需格式產生含有客戶資料的檔案。
 
-   名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[上傳雜湊資料格式化指南](https://support.google.com/google-ads/answer/7476159)」的[!DNL Google Ads]檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[準備客戶比對清單](https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
+   名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[!DNL Google Ads]上傳雜湊資料格式化指南[」的](https://support.google.com/google-ads/answer/7476159)檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[!DNL Microsoft Advertising]準備客戶比對清單[上的](https://help.ads.microsoft.com/#apex/ads/en/56921)檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 
@@ -46,13 +50,13 @@ ht-degree: 0%
 
       1. 選取[!UICONTROL Data Upload Type]： *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*、*[!UICONTROL User IDs]*&#x200B;或&#x200B;*[!UICONTROL Mobile Device IDs]*。
 
-         使用者ID選項僅供選擇加入[使用者ID區段](https://support.google.com/google-ads/answer/9199250)的美國[!DNL Google Ads]廣告商使用
+         使用者ID選項僅供選擇加入[!DNL Google Ads]使用者ID區段[的美國](https://support.google.com/google-ads/answer/9199250)廣告商使用
 
       1. （僅限行動裝置識別碼清單）選取&#x200B;**[!UICONTROL OS Type]** （*[!UICONTROL Android™]*&#x200B;或&#x200B;*[!UICONTROL iOS]*），然後輸入&#x200B;**[!UICONTROL App ID]**。
 
          應用程式ID是行動作業系統使用的唯一識別碼，可讓您的應用程式連線至Google Play或Apple App Store：
 
-         * （[!DNL Android™]個應用程式）[!DNL Google Play]內的[!DNL Android™]封裝名稱，由「`id=<package_name>`」識別。
+         * （[!DNL Android™]個應用程式）[!DNL Android™]內的[!DNL Google Play]封裝名稱，由「`id=<package_name>`」識別。
 
            例如，在`https://play.google.com/store/apps/details?id=com.example.game`中，封裝名稱為com.example.game。
 
@@ -85,13 +89,13 @@ ht-degree: 0%
 
 ## 使用客戶資料清單編輯客戶比對對象
 
-您可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客戶比對對象，但從[!DNL Adobe]對象建立的[!DNL Google Ads]對象除外。 您可以上傳資料，以新增、刪除或取代對象的所有現有資料。
+您可以更新任何[!DNL Google Ads]或[!DNL Microsoft Advertising]客戶比對對象，但從[!DNL Google Ads]對象建立的[!DNL Adobe]對象除外。 您可以上傳資料，以新增、刪除或取代對象的所有現有資料。
 
 資料型別必須與原始客戶清單的型別相同（電子郵件地址、郵寄地址、電話號碼、使用者ID，或特定行動作業系統上特定應用程式的行動裝置ID）。
 
 1. 針對現有資料型別，以所需格式產生含有客戶資料的檔案。
 
-名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[上傳雜湊資料格式化指南](https://support.google.com/google-ads/answer/7476159)」的[!DNL Google Ads]檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[準備客戶比對清單]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921)上的[!DNL Microsoft Advertising]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
+名字和姓氏、電子郵件地址和電話號碼必須使用SHA-256演演算法進行雜湊處理。 <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. -->若為[!DNL Google Ads]個對象，請參閱有關「[!DNL Google Ads]上傳雜湊資料格式化指南[」的](https://support.google.com/google-ads/answer/7476159)檔案，以取得允許的連絡資訊欄位和需求清單。 若為[!DNL Microsoft Advertising]個對象，請參閱[!DNL Microsoft Advertising]準備客戶比對清單[(https://help.ads.microsoft.com/#apex/ads/en/56921)上的]檔案。 您可以選擇下載[!DNL Microsoft Excel]範本以取得連絡資訊。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**。
 

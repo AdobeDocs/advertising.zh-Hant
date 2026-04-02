@@ -3,16 +3,20 @@ title: 關於廣告網路帳戶
 description: 瞭解搜尋、社交和Commerce中的廣告網路帳戶。
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
 # 關於廣告網路帳戶
 
-*僅限代理商帳戶管理員、Adobe帳戶管理員及系統管理員使用者角色*
+*僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
 搜尋、社交和Commerce可以在支援的廣告網路上追蹤任何廣告商帳戶。 若要啟用帳戶追蹤，您必須建立對應的帳戶記錄。 您必須為任何型別的帳戶設定帳戶詳細資料，無論Search、Social和Commerce是否與其同步，或最佳化其廣告的出價和預算。
 
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 同步期間，搜尋、Social和Commerce會提取廣告商的促銷活動結構和支援的促銷活動實體，包括其在Search、Social和Commerce中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾詞，這些資料會單獨收集。 搜尋、Social和Commerce會每天自動同步一次您的廣告網路帳戶，每當在其中一個廣告網路偵測到新促銷活動時，也會進行同步。 此外，它會立即將所有從「搜尋」、「社交」和「Commerce」內所做的行銷活動資料變更傳送至廣告網路。 您可以視需要選擇要求手動同步。
 
-如需建立和編輯同步化行銷活動的詳細資訊，請參閱「Campaign Management」一章。
+如需建立和編輯同步化行銷活動的詳細資訊，請參閱「行銷活動管理」一章。
 
 ## 僅限追蹤的帳戶
 

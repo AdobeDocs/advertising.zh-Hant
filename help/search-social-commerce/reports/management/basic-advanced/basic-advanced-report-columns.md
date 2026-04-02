@@ -3,9 +3,13 @@ title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
+TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3806'
+source-wordcount: 3806
 ht-degree: 0%
 
 ---
@@ -88,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Current Bid] | 目標的目前出價。 |
 | [!UICONTROL Current First Page Bid] | （僅限[!DNL Google Ads]個行銷活動）當[!DNL Google]搜尋查詢符合關鍵字時，目前要放在搜尋結果第一頁上的廣告所需的預估每次點按成本(CPC)競標。<br><br>對於單一關鍵字和相符型別組合，此值是該組合目前所需的第一個頁面競標。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是目前所有執行個體中所需的最低第一頁競標。 |
 | [!UICONTROL Current Quality Score] | （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動）廣告網路所指定的關鍵字或競標單位的目前品質分數。 其範圍從1 （低）到10 （完美）。 對於單一關鍵字和相符型別組合，此值是該組合的目前分數。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是所有執行個體中目前的最大分數。<br><br>廣告網路會使用品質分數來決定出價與廣告位置。 它是根據許多因素計算的，包括關鍵字與其相關廣告、使用者的搜尋查詢及登入頁面品質的相關性。 對於[!DNL Google Ads]中的關鍵字，也會考量關鍵字的點進率，對於[!DNL Microsoft Advertising]中的關鍵字，也會考量登入頁面所提供的使用者體驗。 |
-| [!UICONTROL Custom Bid Level] | (只針對顯示網路的Google行銷活動)投出競價的層級為：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>。 |
+| [!UICONTROL Custom Bid Level] | （只針對顯示網路的Google行銷活動）投出競價的層級為：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 廣告內文。 不同的創意型別有不同數量的必要和選用說明行。 若要在[!UICONTROL Description3]個回應式廣告或多媒體廣告中檢視[!UICONTROL Description4]和[!DNL Microsoft Advertising]欄，請在報表設定中加入&quot;[!UICONTROL Descriptions]&quot;欄。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]個回應式及多媒體廣告）為每個廣告的說明列（&quot;[!UICONTROL Description1]&quot;到&quot;[!UICONTROL Description4]&quot;）新增一欄。 包含此欄時，您不需要包含其他[!UICONTROL Description]欄。 |
 | [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Display Network]、[!DNL Yahoo! Japan Ads]和[!DNL Yahoo Native]行銷活動）顯示廣告的裝置型別： <i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>或<i>[!UICONTROL N/A]</i> （無值）。 其他廣告網路的資料列值為N/A。<br><br>在搜尋行銷活動中，如果關鍵字、廣告和/或廣告擴充功能的追蹤範本或目的地URL包含引數，以便依裝置(`&ev_dvc={device}&ev_dvm={devicemodel}`)在廣告點按時追蹤資料，則每個裝置型別的資料列也會包含轉換資料。 否則，如果轉換資料無法歸因於裝置型別，則會將其彙總在具有「[!UICONTROL Device]」值[!UICONTROL N/A]的個別列中。 |
@@ -100,8 +104,8 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report]， [!UICONTROL Keyword Report])產生點按的網域名稱。 |
 | [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 會針對CPM或CPC行銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (具有Adobe Advertising轉換追蹤服務的廣告商和具有權杖的&quot;[!UICONTROL EF Redirect]&quot;追蹤方法)點選或轉換的權杖。<ul><li>對於[!DNL Google Ads]個搜尋廣告，EF ID是`{gclid}:G:s`，其包含Google點按識別碼(GCLID)和網路型別（搜尋的網路&quot;）。</li><li> 對於[!DNL Microsoft Advertising]個搜尋廣告，EF ID是`{msclkid}:G:s`，其包含Microsoft點按識別碼(MSCLKID)和網路型別（搜尋的網路&quot;）。</li><li>若是其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點選時間和網路型別。</li><li>若是顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
-| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]；僅供搜尋、社交和Commerce使用)地理位置的內部ID，用於標準化資料。 |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) （具有Adobe Advertising轉換追蹤服務的廣告商和具有權杖的&quot;[!UICONTROL EF Redirect]&quot;追蹤方法）點選或轉換的權杖。<ul><li>對於[!DNL Google Ads]個搜尋廣告，EF ID是`{gclid}:G:s`，其包含Google點按識別碼(GCLID)和網路型別（搜尋的網路&quot;）。</li><li> 對於[!DNL Microsoft Advertising]個搜尋廣告，EF ID是`{msclkid}:G:s`，其包含Microsoft點按識別碼(MSCLKID)和網路型別（搜尋的網路&quot;）。</li><li>若是其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點選時間和網路型別。</li><li>若是顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
+| [!UICONTROL EF Pixel Location ID] | （[!UICONTROL Geo Distribution Report]；僅供搜尋、社交和Commerce使用）地理位置的內部ID，用於標準化資料。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
 | [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native] （已棄用），或<i>[!UICONTROL 106]</i>的[!DNL Pinterest] （已棄用）。 |
 | [!UICONTROL End Date] | 最後報告日期。 |
@@ -111,9 +115,9 @@ ht-degree: 0%
 | [!UICONTROL Estimated Cost] | Search、Social和Commerce已追蹤之相關廣告的總估計成本。 此值可能與廣告網路提供的值不同。 |
 | [!UICONTROL Estimated Impressions] | （僅限顯示行銷活動） Search、Social和Commerce已追蹤的估計廣告曝光數。 此值可能與[!UICONTROL Impressions]欄的值不同（可用時），後者顯示廣告網路提供的值。 |
 | [!UICONTROL Exclude (yes/no)] | 對於相符產品的廣告，是排除競標(<i>[!UICONTROL Yes]</i>)還是允許競標(<i>[!UICONTROL No]</i>)。 |
-| [!UICONTROL First Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
+| [!UICONTROL First Page CPC] | （僅限Google行銷活動）指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
 | [!UICONTROL Frequency] | （僅限[!DNL Meta]個行銷活動）某人檢視您廣告的平均次數。 |
-| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`個[[!DNL Google Ads]追蹤的轉換] | （[!DNL Google Ads]個搜尋和購物網路行銷活動） [!DNL Google Ads]個追蹤的轉換，每個轉換最多有三個個別的量度：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）以「GGL_XD_CT_」首碼(例如GGL_XD_CT_Purchase)開頭的[!DNL Google Ads]所測量的跨裝置轉換次數（計數）。</li></ul><br>每個轉換都是依競標單位和點按日期來記錄；無法在事件層級使用。 如需有關[!DNL Google Ads]追蹤的轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」。 |
+| `GGL*`、`GGL_CT*`和`GGL_XD_CT*`個[[!DNL Google Ads]追蹤的轉換] | （[!DNL Google Ads]個搜尋和購物網路行銷活動） [!DNL Google Ads]個追蹤的轉換，每個轉換最多有三個個別的量度：<ul><li>`GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。</li><li>`GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。</li><li>`GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）以「GGL_XD_CT_」首碼（例如GGL_XD_CT_Purchase）開頭的[!DNL Google Ads]所測量的跨裝置轉換次數（計數）。</li></ul><br>每個轉換都是依競標單位和點按日期來記錄；無法在事件層級使用。 如需有關[!DNL Google Ads]追蹤的轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」。 |
 | [!UICONTROL Impr. (Abs. Top) %] | （僅限[!DNL Google Ads]）在自然搜尋結果上方顯示為第一個廣告的廣告印象百分比。 |
 | [!UICONTROL Impr. (Top) %] | （僅限[!DNL Google Ads]）顯示在有機搜尋結果上方的廣告印象百分比。 |
 | [!UICONTROL Impressions] | 指定日期範圍內的廣告曝光次數。 |
@@ -170,13 +174,13 @@ ht-degree: 0%
 | [!UICONTROL Search (Top) IS] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您在上層位置收到的曝光數（在有機搜尋結果上方）除以您有資格在上層位置收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;或&quot;`0.0999`&quot;。 |
 | [!UICONTROL Search Engine] | 廣告網路。 |
 | [!UICONTROL Search exact match IS] | 您收到的完全符合關鍵字的搜尋閱聽次數，除以您符合資格收到的預估完全符合閱聽次數。 如果此數字偏低，可能是因為您的出價太低，或是因為廣告品質或相關性太低。 |
-| [!UICONTROL Search impr. share] | （僅限[!DNL Google Ads]）您收到的曝光數除以您符合資格接收的預估曝光數。 低於10%的百分比會顯示為「&lt;10%」，高於90%的百分比會顯示為「`>90%`」。 |
+| [!UICONTROL Search impr. share] | （僅限[!DNL Google Ads]）您收到的曝光數除以您符合資格接收的預估曝光數。 低於10%的百分比會以「&lt;10%」表示，高於90%的百分比會以「`>90%`」表示。 |
 | [!UICONTROL Search lost abs. top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告不是優先於自然搜尋結果的時間百分比，因為您的每日或每月預算太低。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost abs. top IS (rank)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）由於廣告排名不佳，您的廣告不是優先於有機搜尋結果的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |
@@ -184,7 +188,7 @@ ht-degree: 0%
 | [!UICONTROL State] | （地理分佈報表，[!UICONTROL Keyword Report]）產生交易的狀態。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report])完成交易的使用者識別碼。 |
 | [!UICONTROL Thru Plays] | （僅限[!DNL Meta]個行銷活動）完整觀看廣告的檢視次數。 |
-| [!UICONTROL Top of Page CPC] | (僅限Google行銷活動)指定日期範圍內出現在搜尋結果頁面頂端的廣告每次點按成本(CPC)。 |
+| [!UICONTROL Top of Page CPC] | （僅限Google行銷活動）指定日期範圍內出現在搜尋結果頁面頂端的廣告每次點按成本(CPC)。 |
 | [!UICONTROL Tracking URL] | （僅限以搜尋為目標的關鍵字）追蹤範本或內嵌有（如適用）搜尋、社交和Commerce追蹤程式碼的目標URL。 |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report])交易貸記的廣告商特定轉換量度。 |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report])將指定的轉換量度貸記的時間。 |

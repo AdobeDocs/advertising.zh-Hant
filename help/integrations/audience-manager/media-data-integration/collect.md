@@ -3,9 +3,15 @@ title: 收集來自Advertising DSP行銷活動的點選和曝光資料
 description: 瞭解如何使用Audience Manager畫素從Advertising DSP廣告擷取Cookie型曝光次數和點選事件
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 ## 步驟1：在Audience Manager中設定資料來源 {#set-up-data-source}
 
-在Audience Manager中，為DSP曝光數及點選數資料建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=zh-Hant)。 在每個事件標籤[中包含資料來源識別碼](#implement-dsp-pixels)，以便所有追蹤的事件都歸因於資料來源。
+在Audience Manager中，為DSP曝光數及點選數資料建立[資料來源](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)。 在每個事件標籤[中包含資料來源識別碼](#implement-dsp-pixels)，以便所有追蹤的事件都歸因於資料來源。
 
 >[!NOTE]
 > 您可以在單一資料來源中，針對在多個DSP上執行的廣告行銷活動，收集其所有曝光次數和點按資料。
@@ -33,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)傳送給Audience Manager。
+>如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)傳送給Audience Manager。
 
 ### 畫素語法
 
@@ -79,9 +85,9 @@ ht-degree: 0%
 
 在索引鍵/值組中，值變數可以是硬式編碼ID或&#x200B;*巨集*，這是獨立程式碼的一個小單位，當廣告標籤載入促銷活動和使用者追蹤時，會動態取代為對應的值。 對於促銷活動相關引數，您可以使用[DSP巨集](/help/dsp/campaign-management/macros.md)，而非Audience Manager巨集，以在所有廣告中使用單一畫素，將促銷活動屬性連同對應的曝光數或點按資料傳送至Audience Manager。 您插入事件畫素的DSP巨集必須是包含在畫素中的機碼值組的適當值。 例如，若是`d_placement`鍵，您會使用DSP巨集`${TM_PLACEMENT_ID_NUM}`作為值，擷取Adobe Advertising巨集產生的位置ID。
 
-如需Audience Manager支援曝光事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hant#supported-key-value-pairs)。
+如需Audience Manager支援曝光事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)。
 
-如需Audience Manager支援點選事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的點選資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=zh-Hant)。
+如需Audience Manager支援點選事件畫素的巨集清單，請參閱[透過畫素呼叫擷取促銷活動的點選資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)。
 
 >[!TIP]
 >
@@ -116,11 +122,11 @@ ht-degree: 0%
 
 ### 建立[!DNL Amazon S3]貯體和資料來源
 
-資料放在Audience Manager伺服器上後，您必須建立[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])貯體，然後建立資料來源，所有畫素資料都會傳送至該來源。 如果您需要支援，請連絡您的Audience Manager顧問或[客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=zh-Hant)。
+資料放在Audience Manager伺服器上後，您必須建立[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])貯體，然後建立資料來源，所有畫素資料都會傳送至該來源。 如果您需要支援，請連絡您的Audience Manager顧問或[客戶服務](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)。
 
 ### 建立Audience Manager特徵和區段
 
-您的事件資料會以[未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=zh-Hant)形式傳輸至Audience Manager。 從擷取的資料手動建立[規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hant)，然後使用這些特徵建立[區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=zh-Hant)，您才可以在報表中使用資料。
+您的事件資料會以[未使用的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)形式傳輸至Audience Manager。 從擷取的資料手動建立[規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)，然後使用這些特徵建立[區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html)，您才可以在報表中使用資料。
 
 為在DSP中接觸到特定創意內容的使用者填入使用者層級資料的特徵範例：
 

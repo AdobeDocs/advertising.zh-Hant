@@ -3,9 +3,14 @@ title: 檢查 [!DNL FreeWheel] PG交易的廣告狀態
 description: 瞭解如何尋找 [!DNL FreeWheel] 程式化預留交易的廣告狀態。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/7R-cPRv2W4FnAvif5tT-N-oAm-NrlTSkCQ5nTfTxjhI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -50,5 +55,5 @@ ht-degree: 0%
 >
 >* [在 [!DNL FreeWheel]](freewheel-overview.md)中設定程式化預留交易的概觀
 >* [將程式化保證交易的廣告提交至 [!DNL FreeWheel]](freewheel-submit.md)
->* [&#x200B; [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易

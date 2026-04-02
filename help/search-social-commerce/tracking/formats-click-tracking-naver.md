@@ -3,9 +3,12 @@ title: ' [!DNL Naver]的點選追蹤格式'
 description: 瞭解 [!DNL Naver] 帳戶的點選追蹤格式。
 exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/c1zAy1aKgr4MRpyiitdmO4VxP7kfKfFWHzYk88lvX2w
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 0%
 
 ---
@@ -26,9 +29,9 @@ ht-degree: 0%
 >
 >* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
 >
->* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
+* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

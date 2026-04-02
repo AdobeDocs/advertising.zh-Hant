@@ -3,9 +3,13 @@ title: 行銷活動的相關常見問題集
 description: 檢視有關行銷活動管理和行銷活動資料檢視的問答。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
+TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: 1585
 ht-degree: 0%
 
 ---
@@ -70,7 +74,7 @@ ht-degree: 0%
 如果您在「搜尋」、「社交」和「Commerce」中變更轉換量度的顯示名稱，您的變更會以[!DNL Google Ads]中設定的名稱覆寫。 在[!DNL Google Ads]中進行任何名稱變更。
 +++
 
-+++(Google Ads行銷活動)我可以在產品組合中使用行銷活動的共用預算嗎？
++++（Google Ads行銷活動）我可以在產品組合中使用行銷活動的共用預算嗎？
 
 為了獲得最佳結果，如果[!DNL Google Ads]行銷活動位於設定為「[!DNL Google Ads]」的最佳化產品組合，請勿將其新增至[!UICONTROL Auto adjust campaign budget limits]共用預算。 若您這麼做，[!DNL Google Ads]會覆寫Search、Social和Commerce最佳化的行銷活動預算，這可能會造成競標效率低下。
 +++

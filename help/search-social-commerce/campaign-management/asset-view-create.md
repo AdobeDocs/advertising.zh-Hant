@@ -3,9 +3,12 @@ title: 從您的[!UICONTROL Asset Library]檢視及建立廣告資產
 description: 瞭解如何檢視和建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級資產庫的可重複使用影像、視訊和文字資產。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 *僅適用於[!DNL Google Ads]與[!DNL Microsoft Advertising]帳戶*
 
-在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Google Ads]使用）文字資產。 您也可以為廣告網路帳戶建立新資產，並將其上傳至廣告網路。
+在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在您的[!DNL Google Ads]和[!DNL Google Ads]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Microsoft Advertising]使用）文字資產。 您也可以為廣告網路帳戶建立新資產，並將其上傳至廣告網路。
 
 您可以將任何資產用於發揮最大成效的行銷活動。
 

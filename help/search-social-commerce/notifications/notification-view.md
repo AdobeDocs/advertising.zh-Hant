@@ -3,9 +3,13 @@ title: 檢視您的通知
 description: 瞭解檢視通知的不同方式。
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 ## 在[!UICONTROL Notification Center]中檢視通知
 
-1. (從Search、Social和Commerce中)在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**」。
+1. （從Search、Social和Commerce中）在主功能表中，按一下「**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**」。
 
 1. （選擇性）若要依型別篩選通知，請按一下&#x200B;*[!UICONTROL Notices]、[!UICONTROL Recommendations]、[!UICONTROL Warnings]或[!UICONTROL Issues]*。
 

@@ -3,9 +3,14 @@ title: 搭配 [!DNL Last Event Service] 使用 [!DNL Web SDK]JavaScript資料庫
 description: 瞭解從使用 [!DNL Analytics] [!DNL visitorAPI]資料庫切換到您 [!DNL Experience Platform] [!DNL Web SDK]實作的 [!DNL Analytics for Advertising] 資料庫的步驟。
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
 
-如果您的組織使用舊版Adobe Analytics `visitorAPI.js`資料庫進行資料彙集，您可以選擇切換為使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)資料庫(`alloy.js`)，讓您透過[!DNL Edge Network]與各種Experience Cloud服務互動。
+如果您的組織使用舊版Adobe Analytics `visitorAPI.js`資料庫進行資料彙集，您可以選擇切換為使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)資料庫(`alloy.js`)，讓您透過[!DNL Edge Network]與各種Experience Cloud服務互動。
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript程式庫（依原樣）會記錄檢視和點進事件，並使用補充ID (`SDID`)將其彙整至關聯的轉換。 但[!DNL Web SDK]資料庫未提供[!DNL stitch ID]。 若要針對[!DNL Web SDK]使用[!DNL Analytics for Advertising]，您必須修改1)您在網頁上使用的[!DNL Last Event Service]標籤，以及2)您的[!DNL Web SDK] `sendEvent`命令。
 

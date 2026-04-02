@@ -3,9 +3,12 @@ title: 在創意內容庫中編輯動態創意內容
 description: 瞭解如何在創意內容庫中編輯動態創意內容。
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 323
 ht-degree: 0%
 
 ---
@@ -57,6 +60,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [動態創意設定](creative-settings-dynamic.md)
->* [Add dynamic creatives to a creative library](creative-add-dynamic.md)
+>* [將動態創意內容新增至創意內容庫](creative-add-dynamic.md)
 >* [檢視創意內容的變更記錄](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)

@@ -3,9 +3,13 @@ title: Adobe Advertising中的[!DNL Analytics]資料
 description: Adobe Advertising中的[!DNL Analytics]資料
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 277
 ht-degree: 0%
 
 ---
@@ -33,8 +37,8 @@ ht-degree: 0%
 * [!UICONTROL Timespent_secs_total]：在點按回顧期間內，所有造訪在網站上逗留的總秒數。
 * [!UICONTROL Pageviews_1stvisit]：訪客首次造訪期間網站上的頁面檢視次數。
 * [!UICONTROL Pageviews_total]：點按回顧期間內的所有造訪在網站上檢視的頁面總數。
-* [[!UICONTROL Bounces]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=zh-Hant)
-* [[!UICONTROL Visits]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)
+* [[!UICONTROL Bounces]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]： [!DNL Analytics]收集[!UICONTROL EF ID]的次數。
 
 ## 轉換量度
@@ -43,14 +47,14 @@ ht-degree: 0%
 
 ### 標準轉換量度
 
-* [[!UICONTROL Revenue]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=zh-Hant)
-* [[!UICONTROL Orders]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=zh-Hant)
-* [[!UICONTROL Units]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=zh-Hant)
-* [[!UICONTROL Carts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=zh-Hant)
-* [[!UICONTROL Cart Views]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=zh-Hant)
-* [[!UICONTROL Checkouts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=zh-Hant)
-* [[!UICONTROL Cart Additions]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=zh-Hant)
-* [[!UICONTROL Cart Removals]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=zh-Hant)
+* [[!UICONTROL Revenue]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### 自訂轉換量度
 

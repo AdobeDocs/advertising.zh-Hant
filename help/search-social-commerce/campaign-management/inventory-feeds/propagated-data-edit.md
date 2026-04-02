@@ -3,9 +3,12 @@ title: 編輯從摘要產生的資料
 description: 瞭解如何編輯從詳細目錄資料摘要產生的資料。
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 * 如果您使用&quot;[!UICONTROL Propagate and Preview]&quot;的選項，則您可以編輯產生的大量表單檔案（名為&quot;`<feed file name>_<template name>`&quot;），方法是從[!UICONTROL Bulksheets]檢視下載該檔案，編輯該檔案，然後再次上傳。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤上未包含任何資料。
 
-* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤，編輯行銷活動階層檢視中[[!UICONTROL New]狀態為](propagated-data-status.md)之元件的已產生資料。
+* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[[!UICONTROL New]、](propagated-data-status.md)、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]索引標籤，編輯行銷活動階層檢視中[!UICONTROL Keywords]狀態為[!UICONTROL Ads]之元件的已產生資料。
 
   行銷活動階層檢視只會顯示摘要檔案產生的資料，不會顯示現有的帳戶元件。 元件及其所有子元件的資料發佈至廣告網路後，即不再列於行銷活動階層中。
 

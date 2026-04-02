@@ -3,9 +3,12 @@ title: 設定摘要資料設定
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +98,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 對於FTP檔案，摘要服務每兩小時檢查FTP目錄中的更新（PST時區為偶數小時）。 此選項會處理自上次檢查以來上傳的所有檔案。
->* 對於商家中心帳戶，搜尋、社交和Commerce每天在廣告商時區的約06:00與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
+>* 對於商家中心帳戶，搜尋、社交和Commerce會在廣告商時區的大約06:00每天與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
 >* 從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤可以使用已傳播的資料，直到資料張貼到廣告網路或[!UICONTROL Bulksheets]檢視為止。
 
 **[!UICONTROL Post to the SE]：** （廣告商透過FTP或商戶中心帳戶上傳資料檔案）透過適用的範本傳播新資料後，自動以正確格式建立相關廣告網路的Bulksheet檔案。 此選項也會從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤移除資料，除非任何子元件發生錯誤。
@@ -104,7 +107,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （預設值）：透過範本傳播資料後，將大量工作表檔案張貼到相關的廣告網路。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 &#x200B;** 秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 **秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]：**&#x200B;排除將超過指定字數的關鍵字短語張貼到廣告網路。 選取此選項時，會傳播超過字數上限的關鍵字片語並列在[!UICONTROL Keywords]索引標籤上，但當您嘗試張貼資料時不會張貼。
 

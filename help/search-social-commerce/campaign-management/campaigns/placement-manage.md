@@ -3,9 +3,13 @@ title: 管理 [!DNL Google Ads] 位置
 description: 瞭解如何建立和管理 [!DNL Google Ads] 廣告群組的可出價刊登版位。
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 367
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**。
 
-1. &#x200B;
+1. 
    1. 在資料表上方的工具列中，按一下![建立](/help/search-social-commerce/assets/add.png "建立")。
 
 1. 選取廣告網路、帳戶、行銷活動和廣告群組，然後按一下&#x200B;**[!UICONTROL Continue]**。
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-您的廣告可以出現在內容網路上的&#x200B;**[!UICONTROL Placements]：**&#x200B;網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 URL不能包含問號(`?`)。 **注意：**&#x200B;您可以[從[!UICONTROL Placements] > [!UICONTROL Negatives]檢視，以及廣告群組和行銷活動設定中，排除網站位置](placement-negative-create.md)。
+您的廣告可以出現在內容網路上的&#x200B;**[!UICONTROL Placements]：**&#x200B;網站。 輸入有效的URL，例如www.example.com、example.com或www.example.com/shoes/kids。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。 URL不能包含問號(`?`)。 **注意：**&#x200B;您可以[從](placement-negative-create.md) > [!UICONTROL Placements]檢視，以及廣告群組和行銷活動設定中，排除網站位置[!UICONTROL Negatives]。
 
 **[!UICONTROL Status]：**&#x200B;位置的顯示狀態： *啟用* （啟用競標；預設值）、*已暫停* （停用競標）或&#x200B;*已刪除* （刪除位置；僅現有位置）。
 

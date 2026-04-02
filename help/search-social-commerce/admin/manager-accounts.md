@@ -3,9 +3,14 @@ title: 管理廣告網路管理員帳戶的認證
 description: 瞭解如何為您的 [!DNL Google Ads] 管理員帳戶提供認證。
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/NHgpx-F19gX8jsOIPijPzNlGVhBje-CVsj4jjlV1OR0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 您可以為新的管理員帳戶記錄新增認證，或重新驗證現有的管理員帳戶。
 
-新增管理員帳戶的認證後，帳戶設定會將關聯的管理員帳戶ID顯示為唯讀。 此外，[!UICONTROL Campaigns] > [!UICONTROL Accounts]檢視中的選用&quot;[!UICONTROL Manager Account for Cross-Account Conversions]&quot;欄會顯示每個子帳戶的管理員帳戶ID，並在管理員帳戶未驗證時指出錯誤。 [!UICONTROL Notification Center]包含遺失管理員帳戶認證（[該[!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)）或管理員帳戶驗證Token過期時（[該[!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)）的通知。
+新增管理員帳戶的認證後，帳戶設定會將關聯的管理員帳戶ID顯示為唯讀。 此外，[!UICONTROL Manager Account for Cross-Account Conversions] > [!UICONTROL Campaigns]檢視中的選用&quot;[!UICONTROL Accounts]&quot;欄會顯示每個子帳戶的管理員帳戶ID，並在管理員帳戶未驗證時指出錯誤。 [!UICONTROL Notification Center]包含遺失管理員帳戶認證（[該[!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)）或管理員帳戶驗證Token過期時（[該[!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)）的通知。
 
 ## 若要為新的管理員帳戶新增認證
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
    需要&#x200B;**[!UICONTROL Manager Account ID]**&#x200B;和&#x200B;**[!UICONTROL Login Email]**。 搜尋、Social和Commerce會自動擷取並儲存用於驗證的帳戶權杖。
 
-   您可以選擇在Search、Social和Commerce以及帳戶&#x200B;**[!UICONTROL Password]**&#x200B;中加入&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;以識別。 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
+   您可以選擇在Search、Social和Commerce以及帳戶&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;中加入&#x200B;**[!UICONTROL Password]**&#x200B;以識別。 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
 
 1. 按一下&#x200B;**[!UICONTROL Authenticate]**。
 
@@ -50,7 +55,7 @@ ht-degree: 0%
 
    需要&#x200B;**[!UICONTROL Manager Account ID]**&#x200B;和&#x200B;**登入電子郵件**。 搜尋、Social和Commerce會自動擷取並儲存用於驗證的帳戶權杖。
 
-   您可以選擇在Search、Social和Commerce以及帳戶&#x200B;**[!UICONTROL Password]**&#x200B;中加入&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;以識別。 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
+   您可以選擇在Search、Social和Commerce以及帳戶&#x200B;**[!UICONTROL MCC Account Name]**&#x200B;中加入&#x200B;**[!UICONTROL Password]**&#x200B;以識別。 當您想要加密並儲存密碼時，請輸入密碼，以便帳戶管理員視需要重新整理權杖。
 
 1. 按一下&#x200B;**[!UICONTROL Authenticate]**。
 

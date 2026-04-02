@@ -3,16 +3,19 @@ title: 關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式
 description: 瞭解支援廣告網路的點選追蹤格式。
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
 # 關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式
 
-使用Adobe Advertising轉換追蹤服務的廣告帳戶和促銷活動的追蹤範本、登入頁面尾碼（最終URL尾碼）和目的地URL格式如下：
+使用Adobe Advertising轉換追蹤服務的廣告帳戶和促銷活動的追蹤範本、登陸頁面尾碼（最終URL尾碼）和目的地URL格式如下：
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 * `http://pixel.everesttech.net`將使用者重新導向至Adobe Advertising畫素伺服器。
 
-* `<advertiser_ID>`是Adobe Advertising內指派給廣告商的不重複使用者ID變數。
+* `<advertiser_ID>`是指派給Adobe Advertising中廣告商的不重複使用者ID變數。
 
 * `<token passing parameter>`是下列其中一個專案的變數：
 
@@ -28,7 +31,7 @@ ht-degree: 0%
 
    * `c?`或`r`表示已停用Token傳遞。
 
-* `<ad network ID>`是指定廣告網路數值ID的變數，例如[!DNL Google Ads]的&#x200B;*3*、[!DNL Microsoft Advertising]的&#x200B;*10*、[!DNL Meta]的&#x200B;*45*、[!DNL Yahoo! Display Network]的&#x200B;*86*、[!DNL Naver]的&#x200B;*87*、[!DNL Baidu]的&#x200B;*88*、[!DNL Yandex]的&#x200B;*90*、*94*&#x200B;的[!DNL Yahoo! Japan Ads] [!DNL Yahoo Native]的&#x200B;*105*（已棄用）或[!DNL Pinterest]的&#x200B;*106*（已棄用）。
+* `<ad network ID>`是指定廣告網路數值ID的變數，例如&#x200B;*的* 3[!DNL Google Ads]、*的* 10[!DNL Microsoft Advertising]、*的* 45[!DNL Meta]、*的* 86[!DNL Yahoo! Display Network]、*的* 87[!DNL Naver]、*的* 88[!DNL Baidu]、*的* 90[!DNL Yandex]、*94*&#x200B;的 [!DNL Yahoo! Japan Ads]的&#x200B;*、* 105[!DNL Yahoo Native]（已棄用）或&#x200B;*的* 106[!DNL Pinterest]（已棄用）。
 
 * `<tracking ID>`是系統產生的追蹤ID字串的變數，可識別帳戶中唯一的關鍵字、廣告或位置。 字串會因廣告網路而異。
 
@@ -39,8 +42,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [於 [!DNL Baidu]](formats-click-tracking-baidu.md)贊助廣告的點選追蹤格式
->*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)的點選追蹤格式
->*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的點選追蹤格式
+>* [的 [!DNL Google Ads]](formats-click-tracking-google.md)點選追蹤格式
+>* [的 [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)點選追蹤格式
 >* [於 [!DNL Naver]](formats-click-tracking-naver.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)贊助廣告的點選追蹤格式

@@ -3,9 +3,14 @@ title: 複製連線電視觸及計畫
 description: 瞭解如何使用現有方案的設定，建立連線電視觸及計畫。
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
+TQID: https://experienceleague.adobe.com/y1Qd-vey3TaAJGg4g0Lg1--CfL7vcmxs1p6O9RVObsg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 127
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Planner]**。
 
-1. &#x200B;
+1. 
    1. 將游標停留在計畫列上，然後按一下&#x200B;**[!UICONTROL More]** > **[!UICONTROL Duplicate]**。
 
 1. （選擇性）編輯計畫名稱和[計畫設定](planner-settings.md)。
@@ -25,7 +30,7 @@ ht-degree: 0%
 
    儲存計畫後，即會顯示預測輸出。
 
-1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表&#x200B;**，請按一下右上方的&#x200B;**&#x200B;[!UICONTROL ...]&#x200B;**，然後按一下&#x200B;**&#x200B;[!UICONTROL Export]**。
+1. （選擇性）若要將[!UICONTROL Budget vs Reach]預測匯出至[!DNL Microsoft Excel]試算表**，請按一下右上方的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Export]**。
 
 >[!MORELIKETHIS]
 >

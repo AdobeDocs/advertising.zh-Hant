@@ -3,9 +3,13 @@ title: 管理詳細目錄資料摘要檔案
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 0%
 
   若要設定FTP目錄以儲存及自動處理資料檔案，請聯絡您的Adobe客戶團隊。
 
-* **手動處理：**&#x200B;您可以從[!UICONTROL Advanced] (ACM)檢視手動[上傳摘要檔案](#feed-file-upload)。 將摘要檔案與一個或多個廣告網路特定的[範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)產生關聯後，您就可以根據[摘要資料設定](feed-settings-manage.md)，透過範本[傳播摘要資料](feed-data-propagate.md)來產生行銷活動和廣告資料。 您可以選擇在行銷活動階層檢視中預覽產生的資料、產生大量表單檔案以供檢閱，或產生大量表單檔案以供立即張貼至廣告網路。 如果您未立即張貼資料，則可以[預覽](propagated-data-view.md)並在稍後[張貼](propagated-data-post.md)。 您可以稍後[以新檔案](#feed-file-replace)取代現有的摘要檔案，而不會失去任何現有的範本關聯。
+* **手動處理：**&#x200B;您可以從[ (ACM)檢視手動](#feed-file-upload)上傳摘要檔案[!UICONTROL Advanced]。 將摘要檔案與一個或多個廣告網路特定的[範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)產生關聯後，您就可以根據[摘要資料設定](feed-data-propagate.md)，透過範本[傳播摘要資料](feed-settings-manage.md)來產生行銷活動和廣告資料。 您可以選擇在行銷活動階層檢視中預覽產生的資料、產生大量表單檔案以供檢閱，或產生大量表單檔案以供立即張貼至廣告網路。 如果您未立即張貼資料，則可以[預覽](propagated-data-view.md)並在稍後[張貼](propagated-data-post.md)。 您可以稍後[以新檔案](#feed-file-replace)取代現有的摘要檔案，而不會失去任何現有的範本關聯。
 
 ## 摘要檔案需求
 

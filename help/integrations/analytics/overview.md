@@ -3,9 +3,15 @@ title: ' [!DNL Analytics for Advertising]的概觀'
 description: ' [!DNL Analytics for Advertising]的概觀'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1223
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 觀看[介紹 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hant#analytics)的影片。
+> 觀看[介紹 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics)的影片。
 
 ## 使用Analytics製作付費媒體報表
 
@@ -51,7 +57,7 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 
 >[!NOTE]
 >
-> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
+> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
 
 ## 使用Analytics來推動Adobe Advertising行銷活動和產品組合
 
@@ -86,17 +92,17 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
 
 Adobe Advertising可使用[!DNL Analytics]與Experience Cloud之間的原生Advertising DSP受眾整合，擷取[!DNL Search, Social, & Commerce]個區段以用於Experience Cloud和[!DNL Analytics]個廣告的再行銷。
 
-若要存取[!DNL Analytics]區段，廣告商帳戶必須啟用[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 ID服務啟用後，所有Experience Cloud區段（包括在[!DNL Analytics]中建立並發佈至Experience Cloud的區段、在Adobe Audience Manager中建立的區段、在Experience Cloud中使用[!DNL People core service]建立的區段，以及在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段）一經處理，即可在Adobe Advertising中使用。
+若要存取[!DNL Analytics]區段，廣告商帳戶必須啟用[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 ID服務啟用後，所有Experience Cloud區段（包括在[!DNL Analytics]中建立並發佈至Experience Cloud的區段、在Adobe Audience Manager中建立的區段、在Experience Cloud中使用[!DNL People core service]建立的區段，以及在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段）一經處理，即可在Adobe Advertising中使用。
 
 [!DNL Analytics]區段可在24小時內提供並每日更新。
 
-如需Experience Cloud對象服務的詳細資訊，請參閱[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。
+如需Experience Cloud對象服務的詳細資訊，請參閱[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 
 ## 如何使用整合的範例 {#integration-examples}
 
 ### 在Analysis Workspace中使用Adobe Advertising資料
 
-若要瞭解如何使用Adobe Advertising資料在Analysis Workspace中建立視覺化報表，請參閱影片「[Workspace和報表簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant)」。
+若要瞭解如何使用Adobe Advertising資料在Analysis Workspace中建立視覺化報表，請參閱影片「[Workspace和報表簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)」。
 
 #### 在報表中使用連線電視觀看轉換
 
@@ -132,11 +138,11 @@ Adobe Advertising可使用[!DNL Analytics]與Experience Cloud之間的原生Adve
 
 ### 建立Adobe Advertising控制面板
 
-若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[」。](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=zh-Hant)
+若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[」。](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)
 
 ### 使用Adobe Advertising ID進行網站專案分析
 
-若要瞭解如何建立Adobe Advertising網站專案報告，以監視一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片「[建立Adobe Advertising網站專案報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=zh-Hant)」。
+若要瞭解如何建立Adobe Advertising網站專案報告，以監視一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片「[建立Adobe Advertising網站專案報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)」。
 
 ## 如何起始[!DNL Analytics for Advertising]實作
 
@@ -144,10 +150,10 @@ Adobe Advertising可使用[!DNL Analytics]與Experience Cloud之間的原生Adve
 
 >[!MORELIKETHIS]
 >
->* [影片： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hant)簡介
+>* [影片： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)簡介
 >* [實作的必要條件和關鍵資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analytics使用的[Adobe Advertising ID](ids.md)
 >* 適用於Advertising的Analytics的[JavaScript程式碼](/help/integrations/analytics/javascript.md)
->* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
+>* [ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
 >* Analysis Workspace中的[Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising中的[[!DNL Analytics] 資料](/help/integrations/analytics/analytics-data-in-advertising.md)

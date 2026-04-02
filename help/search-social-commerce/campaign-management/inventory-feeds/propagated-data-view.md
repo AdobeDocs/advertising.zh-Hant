@@ -3,9 +3,12 @@ title: 檢視從摘要產生的資料
 description: 瞭解如何檢視從詳細目錄資料摘要產生的資料。
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 當您傳播摘要資料而不將其同時張貼至廣告網路時，可以使用下列其中一種方式預覽資料。 您稍後可以選擇從任一位置[張貼資料](propagated-data-post.md)至相關廣告網路。
 
-* 如果您使用&quot;[!UICONTROL Propagate and Preview]&quot;的選項，請從[!UICONTROL Bulksheets]檢視中檢視產生的Bulksheet （名為&quot;`<feed file name>_<template name>`&quot;）。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤上未包含任何資料。 此選項可讓您在張貼資料之前[驗證與廣告和關鍵字相關聯的登入頁面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
+* 如果您使用&quot;[!UICONTROL Propagate and Preview]&quot;的選項，請從`<feed file name>_<template name>`檢視中檢視產生的Bulksheet （名為&quot;[!UICONTROL Bulksheets]&quot;）。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤上未包含任何資料。 此選項可讓您在張貼資料之前[驗證與廣告和關鍵字相關聯的登入頁面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)。
 
 * 如果您使用「[!UICONTROL Propagate only]」選項，請在[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤中，檢視促銷活動階層檢視內產生的資料。
 

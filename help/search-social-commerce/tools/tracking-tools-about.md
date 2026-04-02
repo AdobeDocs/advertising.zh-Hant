@@ -3,9 +3,12 @@ title: 關於建立和解碼追蹤標籤的工具
 description: 瞭解建立Adobe Advertising轉換追蹤標籤和搜尋、Social和Commerce點選追蹤標籤的工具，以及如何解碼現有的點選追蹤標籤。
 exl-id: ca8058a7-6a36-44e9-a42f-3b7cd91e664a
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 211
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >Adobe帳戶團隊通常會提供Adobe轉換追蹤標籤，因此您可能不需要此功能。
+  >Adobe客戶團隊通常會為您提供Adobe轉換追蹤標籤，因此您可能不需要此功能。
 
 * [[!UICONTROL Tracking URLs]工具](click-tracking-url-generate.md)可讓您手動產生點選追蹤URL，對於[支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)的任何關鍵字、廣告、動態搜尋廣告、位置、產品群組或網站連結，此追蹤範本或目的地URL具有搜尋、社交和Commerce追蹤功能。
 

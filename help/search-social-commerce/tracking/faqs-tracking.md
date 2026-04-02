@@ -3,9 +3,13 @@ title: 關於追蹤的常見問題集
 description: 瞭解關於追蹤的常見問題解答，包括疑難排解問題。
 exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: 1190
 ht-degree: 0%
 
 ---
@@ -64,9 +68,9 @@ ht-degree: 0%
 
 +++什麼是孤立交易？
 
-孤立交易是無法與特定關鍵字或廣告關聯的交易事件。 Adobe Advertising會將交易/收入歸因於關鍵字或廣告，方法是比對從收入事件收到的追蹤ID與關鍵字或廣告的追蹤URL中的唯一追蹤ID。
+孤立交易是無法與特定關鍵字或廣告關聯的交易事件。 Adobe Advertising會將交易/收入歸因於關鍵字或廣告，其方式是將收到的追蹤ID連同收入事件符合關鍵字或廣告追蹤URL中的唯一追蹤ID。
 
-當Adobe帳戶團隊懷疑導致收入下降的原因是孤立交易，客戶服務團隊會檢查孤立專案，如果發現任何孤立專案，則會調查問題。
+當Adobe帳戶團隊懷疑導致收入下降的原因是孤立交易，客戶服務團隊會檢查孤立者，如果發現任何孤立者，則會調查問題。
 
 在下列情況下會發生孤立。
 

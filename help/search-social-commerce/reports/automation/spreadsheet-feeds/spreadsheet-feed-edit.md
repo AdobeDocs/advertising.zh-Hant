@@ -3,9 +3,13 @@ title: 編輯試算表報表摘要設定
 description: 瞭解如何編輯試算表摘要的設定。
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xsq7qkYTc5p7Q4Q-LKHeCX7-W8DRW80ET6ylOWocYG0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 1. （選用）若要更新用於試算表摘要的報表範本或[!DNL Excel]範本：
 
-   * （選擇性）若要針對摘要使用不同或更新後的報表範本，請[為報表範本](spreadsheet-feed-create-excel-template.md)建立新的 [!DNL Excel] 範本。
+   * （選擇性）若要針對摘要使用不同或更新後的報表範本，請[為報表範本 [!DNL Excel] 建立新的](spreadsheet-feed-create-excel-template.md)範本。
 
      在下一步中，您將需要上傳報告範本和新的[!DNL Excel]檔案。
 
@@ -46,7 +50,7 @@ ht-degree: 0%
      >
      > 如果之後刪除與摘要相關聯的報告範本，則也會刪除摘要。
 
-     試算表摘要會在廣告商的時區每天的08:00自動重新整理。 如果報表範本包含任何電子郵件收件者的地址，則這些地址會在重新整理試算表時收到通知。
+     在廣告商的時區，試算表摘要會在每天的08:00自動重新整理。 如果報表範本包含任何電子郵件收件者的地址，則這些地址會在重新整理試算表時收到通知。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,13 @@ title: 登入
 description: 瞭解登入方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
+TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ## 從舊版搜尋、社交和Commerce登入頁面登入
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    新使用者介面預設會開啟。
 
@@ -54,7 +58,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在首頁的[!UICONTROL Quick Access]區段中，按一下&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 

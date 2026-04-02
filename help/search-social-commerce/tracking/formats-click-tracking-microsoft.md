@@ -3,9 +3,13 @@ title: ' [!DNL Microsoft Advertising]的點選追蹤格式'
 description: 瞭解 [!DNL Microsoft Advertising] 帳戶的點選追蹤格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -107,4 +111,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

@@ -3,9 +3,13 @@ title: '[!UICONTROL Bing Ads Geo Report]'
 description: 瞭解[!UICONTROL Bing Ads Geo Report]。
 exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/eHhR6-ryKtKJFBuvC-U1a3D72b8QgJip8D5pf3kKZKM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -20,8 +24,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 由於決定地理位置的廠商和方法不同，此報表的總數可能與[!UICONTROL Geo Distribution Report] (Search、Social和Commerce編譯的)中相同行銷活動和時段的總數不同。
->* 此報表的資料會在前一天的23:00 （晚上11:00）提取。 例如6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00執行報表（在提取6月18日的資料之前），則報表會包含截至6月17日23:00的資料。
+>* 由於決定地理位置的廠商和方法不同，此報表的總數可能與[!UICONTROL Geo Distribution Report] （Search、Social和Commerce編譯的）中相同行銷活動和時段的總數不同。
+>* 此報告的資料會在前一天的23:00 （晚上11:00）提取。 例如，在6月18日的23:00，它會提取6月17日的資料。 如果您在6月19日的09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日的23:00資料。
 
 ## 預設欄
 

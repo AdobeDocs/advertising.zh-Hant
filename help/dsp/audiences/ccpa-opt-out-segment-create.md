@@ -3,9 +3,15 @@ title: 建立並實作CCPA選擇退出銷售區段
 description: 瞭解如何建立並實作區段，以追蹤消費者選擇退出銷售請求中的使用者ID。
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+TQID: https://experienceleague.adobe.com/NYXgnUkEw4uSilL8LO8qlRPp5AVAjXeXNS0pVeIZl3Y
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: 405
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳送給Adobe Advertising的資訊，請參閱[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=zh-Hant)。
+>* 如需有關如何使用Adobe Experience Platform Privacy Service API將CCPA選擇退出銷售請求傳送給Adobe Advertising的資訊，請參閱[https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)。
 >* 若要追蹤出於與追蹤CCPA選擇退出銷售事件無關之目的而造訪網頁的使用者，以及接觸到來自案頭、行動和CTV裝置廣告的使用者，請建立[自訂區段](/help/dsp/audiences/custom-segment-create.md)。
 
 1. 建立區段：
@@ -29,7 +35,7 @@ ht-degree: 0%
 
    1. 輸入唯一的&#x200B;**[!UICONTROL Segment Name]**。
 
-      建議的區段名稱： &quot;&lt;*您的廣告商名稱*> - CCPA選擇退出銷售&quot; （例如「Acme - CCPA選擇退出銷售」）
+      建議的區段名稱： &quot;&lt;*您的廣告商名稱*> - CCPA選擇退出銷售&quot; （例如&quot;Acme - CCPA選擇退出銷售&quot;）
 
    1. 針對[!UICONTROL Segment Type]，選取&#x200B;**[!UICONTROL CCPA Opt-out of sale]**。
 

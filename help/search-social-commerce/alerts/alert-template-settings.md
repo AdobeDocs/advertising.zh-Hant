@@ -3,9 +3,13 @@ title: 自訂警報範本設定
 description: 瞭解自訂警報範本的設定。
 exl-id: c9cff26b-e6be-4dad-ac3a-b5a53387c4e6
 feature: Search Alerts
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/zPTijDSnrxMys8g0qByEvfh1XyvnAzwwqpVmBHUDdLk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | （當警報追蹤一或多個量度欄中的增加或減少時可用；唯讀）比較資料的兩個日期範圍。 |
 |  | [!UICONTROL Date Comparison Format] | （當警報追蹤一或多個量度欄中的增加或減少時可用）如何表示兩個日期範圍中的資料差異：<ul><li><p><i>[!UICONTROL Variance]</i> （預設） — 將差異顯示為數值。</p></li><li><p><i>[!UICONTROL % Change]</i>  — 以百分比顯示差異。</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | 警示名稱。 它必須至少包含五個字元。 |
-|  | [!UICONTROL Trigger this Alert] [時間] | 警報檢查指定條件篩選器的頻率，並在符合所有條件時傳送電子郵件通知：<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*星期*> &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*第NN*>天&lt;*NN*> `[AM\|PM]`]</p></li></ul>**注意：**&#x200B;此值不會影響評估期間。 |
+|  | [!UICONTROL Trigger this Alert] [時間] | 警報檢查指定條件篩選器的頻率，並在符合所有條件時傳送電子郵件通知：<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*工作日*> &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*第NN*>天，於&lt;*NN*> `[AM\|PM]`]</p></li></ul>**注意：**&#x200B;此值不會影響評估期間。 |
 |  | [!UICONTROL Email Recipients] | （僅可由警報範本的建立者編輯；其他人都只能唯讀）產生警報時傳送通知的電子郵件地址。 依預設，會輸入範本建立者的地址。<br><br>若要新增地址，請輸入地址，然後按一下&#x200B;**[!UICONTROL Add]**。 若要指定多個位址，請以逗號或空格加以分隔，或個別新增。<br><br>當警示包含最多1000筆記錄時，會將CSV版本的警示附加至電子郵件訊息。 |
 
 >[!MORELIKETHIS]

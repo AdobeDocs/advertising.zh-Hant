@@ -3,9 +3,12 @@ title: 管理商家帳戶
 description: 瞭解如何設定及管理商戶中心帳戶的帳戶詳細資料。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +65,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-   下次進行每日同步程式後，可在Search、Social和Commerce中使用帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
+   下次進行每日同步程式後，可在Search、Social和Commerce中取得帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
 
 ## 編輯商家帳戶詳細資料 {#edit-merchant-account}
 
@@ -84,7 +87,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->搜尋、Social和Commerce必須將新帳戶資料與商家網路上的資料同步。 這會在使用者的當地時區中每天大約06:00自動發生一次。
+>搜尋、Social和Commerce必須將新帳戶資料與商家網路上的資料同步。 這會在使用者當地時區的大約06:00每天自動發生一次。
 
 ## 停用對商家帳戶的存取權 {#disable-merchant-account}
 

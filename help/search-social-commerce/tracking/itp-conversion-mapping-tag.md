@@ -3,20 +3,23 @@ title: Adobe Advertising轉換對應標籤
 description: 瞭解適用於ITP 2.2的JavaScript型轉換對應標籤，其可讓Adobe Advertising追蹤發生於非登陸頁面上的轉換事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# Adobe AdvertisingJavaScript轉換對應標籤
+# Adobe Advertising JavaScript轉換對應標籤
 
 *僅追蹤Adobe Advertising轉換的廣告商*
 
-Adobe AdvertisingJavaScript型轉換對應標籤與Adobe AdvertisingJavaScript v2或v3轉換追蹤標籤搭配使用時，可讓Adobe Advertising追蹤發生於非登陸頁面之頁面上的轉換事件。 ITP 2.2解決方案會將使用者的Cookie儲存在廣告商擁有的iFrame中的本機儲存空間中。 接著，本機儲存空間就能將Cookie值從點按下游保留至轉換頁面。
+Adobe Advertising JavaScript型轉換對應標籤與Adobe Advertising JavaScript v2或v3轉換追蹤標籤搭配使用時，可讓Adobe Advertising追蹤發生於非登陸頁面上的轉換事件。 ITP 2.2解決方案會將使用者的Cookie儲存在廣告商擁有的iFrame中的本機儲存空間中。 接著，本機儲存空間就能將Cookie值從點按下游保留至轉換頁面。
 
-使用轉換對應標籤，確保Adobe Advertising可追蹤在Apple Safari和Mozilla Firefox瀏覽器內發生的所有轉換，進而限制第一方Cookie的持續性。<!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+使用轉換對應標籤，確保Adobe Advertising可追蹤發生在Apple Safari和Mozilla Firefox瀏覽器內的所有轉換，而這會限制第一方Cookie的持續性。<!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 使用轉換對應標籤：
 
@@ -32,7 +35,7 @@ Adobe AdvertisingJavaScript型轉換對應標籤與Adobe AdvertisingJavaScript v
 >
 >如果您使用ITP 2.0的JavaScript轉換對應標籤，請以下列其中一個標籤取代所有轉換頁面中的現有標籤。<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* 如果您的組織使用單一組織ID (用於搜尋、社交和Commerce帳戶)，請使用以下標籤：
+* 如果您的組織使用單一組織ID （用於搜尋、社交和Commerce帳戶），請使用以下標籤：
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
@@ -98,7 +101,7 @@ window.ad_cloud.userid = "99999"
 
 ### 新增標籤的位置
 
-在任何可能是搜尋點按的登陸頁面的頁面中新增標籤（理想情況下，在所有頁面上，因為登陸頁面可能會隨著時間變更）。 必須在Adobe AdvertisingJavaScript v3轉換追蹤標籤之前載入它。
+在任何可能是搜尋點按的登陸頁面的頁面中新增標籤（理想情況下，在所有頁面上，因為登陸頁面可能會隨著時間變更）。 必須在Adobe Advertising JavaScript v3轉換追蹤標籤之前載入。
 
 若將其置於iframe或容器標籤中，則：
 
@@ -188,4 +191,4 @@ effp();
 
 ## 驗證標籤部署 {#validate-conversion-mapping}
 
-請您的Adobe帳戶團隊協助您驗證轉換對應標籤和一般轉換標籤（如果您已更新此標籤）。
+請洽詢Adobe帳戶團隊，協助驗證轉換對應標籤和一般轉換標籤（如果您已更新）。

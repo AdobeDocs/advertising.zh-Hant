@@ -3,9 +3,15 @@ title: Adobe Advertising與Adobe Audience Manager整合
 description: 瞭解Adobe Advertising與Adobe Audience Manager交換資料的各種方式。
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -42,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需如何在Audience Manager和Experience Cloud [!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)&quot;。
+>如需如何在Audience Manager和Experience Cloud [!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;。
 
 ## 將DSP媒體曝光資料傳送至Audience Manager
 
@@ -54,6 +60,6 @@ ht-degree: 0%
 
 ## 透過Audience Analytics取得更豐富的網站活動深入分析
 
-擁有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
+擁有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
 
 如需詳細資訊，請參閱「[[!DNL Adobe Audience Analytics] Adobe Advertising客戶](/help/integrations/audience-manager/audience-analytics.md)」。

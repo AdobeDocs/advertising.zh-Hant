@@ -3,9 +3,13 @@ title: '[!DNL Google Ads]行銷活動設定'
 description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: 2617
 ht-degree: 0%
 
 ---
@@ -100,23 +104,23 @@ ht-degree: 0%
 
    * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用「[!UICONTROL Enhanced CPC]」選項相同，該選項已過時。 [!DNL Google Ads]已於2025年3月15日開始自動將現有[增強型CPC競標策略](https://support.google.com/google-ads/answer/2464964)變更為手動CPC。
 
-* *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，出價是由點按權重驅動，而不是由產品組合目標驅動。
+* *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，出價是由點按權重驅動，而不是由產品組合目標驅動。
 
-* *[!UICONTROL Maximize Conversion Value]：* （搜尋、最高成效和智慧型購物行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換價值最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作為百分比。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
+* *[!UICONTROL Maximize Conversion Value]：* （搜尋、最高成效和智慧型購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將轉換價值最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target Return on Ad Spend]** (ROAS)作為百分比。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
 
-* *[!UICONTROL Maximize Conversions]：* （搜尋、顯示和效能最大化行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以將轉換最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target CPA]** （每次取得的成本）。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化行銷活動層級或（可用時）廣告群組層級的目標CPA。
+* *[!UICONTROL Maximize Conversions]：* （搜尋、顯示和效能最大化行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將轉換最大化。 選擇性地輸入&#x200B;**[!UICONTROL Target CPA]** （每次取得的成本）。 **注意：**&#x200B;此選項適用於混合專案組合中的行銷活動，但不適用於標準專案組合。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化行銷活動層級或（可用時）廣告群組層級的目標CPA。
 
-* *[!UICONTROL Target CPA]：* （顯示行銷活動）廣告網路(而非Search、Social和Commerce)會根據選擇性的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）來最佳化競標，這是您想要為贏取（轉換）支付的30天平均金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化行銷活動層級或（可用時）廣告群組層級的目標CPA。
-
-  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
-
-* *[!UICONTROL Target Impression Share]：* （搜尋行銷活動）廣告網路(而非Search、Social和Commerce)會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作為百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]** （每次點按成本）。 **注意：**&#x200B;投資組合不支援此選項。
-
-* *[!UICONTROL Target Return on Ad Spend]：* （顯示和購物行銷活動）廣告網路(不是Search、Social和Commerce)會根據指定的百分比&#x200B;**[!UICONTROL Target ROAS]** （廣告投資報酬率）來最佳化競標。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
+* *[!UICONTROL Target CPA]：* （顯示行銷活動）廣告網路（而非Search、Social和Commerce）會根據選擇性的&#x200B;**[!UICONTROL Target CPA]** （每次贏取成本）來最佳化競標，這是您想要為贏取（轉換）支付的30天平均金額。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target CPA]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，「搜尋」、「社交」和「Commerce」會最佳化行銷活動層級或（可用時）廣告群組層級的目標CPA。
 
   使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
 
-* *[!UICONTROL Viewable CPM]：* （僅限現有、唯讀的[!DNL Gmail]行銷活動）廣告網路(而非Search、Social和Commerce)僅針對測量為可檢視的廣告出價。 **注意：**&#x200B;任何型別的投資組合都不支援此策略的最佳化。
+* *[!UICONTROL Target Impression Share]：* （搜尋行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以實現目標曝光比重和廣告位置。 選擇性地輸入&#x200B;**[!UICONTROL Target Impression Share]**&#x200B;作為百分比、**[!UICONTROL Target Ad Position]**&#x200B;和&#x200B;**[!UICONTROL Max CPC]** （每次點按成本）。 **注意：**&#x200B;投資組合不支援此選項。
+
+* *[!UICONTROL Target Return on Ad Spend]：* （顯示和購物行銷活動）廣告網路（不是Search、Social和Commerce）會根據指定的百分比&#x200B;**[!UICONTROL Target ROAS]** （廣告投資報酬率）來最佳化競標。 **注意：**&#x200B;將此選項用於具有任何支出策略（除了[!UICONTROL Weekly]或[!UICONTROL Google Target ROAS]）的混合產品組合（而非標準產品組合）中的行銷活動。 在混合專案組合中，搜尋、Social和Commerce會最佳化行銷活動層級或（可用時）廣告群組層級的Target ROAS。
+
+  使用此競標策略的行銷活動無法使用平均位置和CPC競標資料。
+
+* *[!UICONTROL Viewable CPM]：* （僅限現有、唯讀的[!DNL Gmail]行銷活動）廣告網路（而非Search、Social和Commerce）僅針對測量為可檢視的廣告出價。 **注意：**&#x200B;任何型別的投資組合都不支援此策略的最佳化。
 
 ## [!UICONTROL Shopping Settings]
 

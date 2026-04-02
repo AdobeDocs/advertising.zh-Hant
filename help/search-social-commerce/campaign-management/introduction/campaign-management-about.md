@@ -3,9 +3,13 @@ title: 關於搜尋、社交和Commerce中的行銷活動管理
 description: 瞭解搜尋、社交和Commerce中的行銷活動管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 ## 點選追蹤以將點選次數與轉換次數連結起來
 
-如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和最終/目的地URL中，包含搜尋、Social和Commerce點選追蹤程式碼，以搜尋廣告、關鍵字和位置、網站連結和產品清單。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL。
+如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[」和「](/help/search-social-commerce/introduction/supported-inventory.md)」的[!UICONTROL EF Redirect]支援的廣告網路和行銷活動型別[!UICONTROL Auto Upload]，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL。
 
 如需追蹤的詳細資訊，請參閱「追蹤」一章。
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 對於[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，您可以將行銷活動分組到產品組合中，每個產品組合都有特定的業務目標和特定的預算或績效目標。 在標準產品組合中，「搜尋」、「社交」和「Commerce」會最佳化CPC關鍵字競標和促銷活動預算。 混合產品組合結合搜尋、社交和Commerce的最佳化技術以及您的廣告網路。
 
-如需有關可用產品組合選項以及如何設定產品組合的詳細資訊，請參閱有關「Portfolio」的「最佳化指南」章節，此章節可在Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
+如需有關可用投資組合選項以及如何設定投資組合的詳細資訊，請參閱「投資組合」的「最佳化指南」章節，此章節可在Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 行銷活動管理檢視
 
@@ -46,11 +50,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Products]** — [!UICONTROL Products]檢視會顯示每個已同步的[[!DNL Google] 或 [!DNL Microsoft] 商家中心帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)的資料。 預設[!UICONTROL Accounts]子檢視會列出所有同步的帳戶；有些使用者型別可以從此檢視新增帳戶。 [!UICONTROL Products]子檢視會列出帳戶內的每個產品。
 
-* **[!UICONTROL Advanced (ACM)]** — 從[!DNL Advanced] ([!DNL AMC]，針對進階Campaign Management)檢視，您可以設定自動化程式，以根據您建立的廣告網路特定廣告範本，以及您上傳至FTP位置的[!DNL Google Merchant Center]帳戶或詳細目錄資料檔案的內容，建立以詳細目錄中的每個專案為目標的[動態廣告和關鍵字](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。 子檢視會顯示廣告商的每個摘要範本的詳細資訊，以及摘要中包含的每個促銷活動、廣告群組、關鍵字和廣告（透過摘要範本傳播但未張貼至廣告網路）。
+* **[!UICONTROL Advanced (ACM)]** — 您可以從[!DNL Advanced] （[!DNL AMC]，針對進階行銷活動管理）檢視，設定自動化程式，以根據您建立的廣告網路特定廣告範本，以及您上傳至FTP位置的[帳戶或詳細目錄資料檔的內容，建立](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)動態廣告和以詳細目錄中的每個專案為目標的關鍵字[!DNL Google Merchant Center]。 子檢視會顯示廣告商的每個摘要範本的詳細資訊，以及摘要中包含的每個促銷活動、廣告群組、關鍵字和廣告（透過摘要範本傳播但未張貼至廣告網路）。
 
 * **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]檢視來建立[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的[支援廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)帳戶資料量，然後將它們張貼至廣告網路。
 
-* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe Experience Cloud對象和客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
+* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)和[!DNL Google Ads]對象。 [!DNL Microsoft Advertising]您可以從現有的Adobe Experience Cloud對象和客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
 
 * **[!UICONTROL Label Classifications]** — 使用此檢視來建立和刪除[標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，這可以協助您將標籤分組為有意義的組合。
 

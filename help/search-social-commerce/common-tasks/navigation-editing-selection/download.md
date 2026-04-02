@@ -3,9 +3,12 @@ title: 從行銷活動管理檢視下載資料
 description: 瞭解如何從大多數的行銷活動管理檢視下載資料。
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+TQID: https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 1. 按一下工具列右側的![報告下載](/help/search-social-commerce/assets/download.png "報告下載")。
 
-1. 按一下[建立] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
+1. 按一下[建立] ![ ](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
 
 1. （選擇性）報告工作完成後，按一下![報告下載](/help/search-social-commerce/assets/download.png "報告下載")以檢視[!UICONTROL Available Reports]面板，然後下載或刪除報告：
 

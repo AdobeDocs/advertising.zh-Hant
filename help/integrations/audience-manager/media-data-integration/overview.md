@@ -3,9 +3,15 @@ title: 將DSP媒體曝光度資料傳送至Adobe Audience Manager的相關概述
 description: 瞭解如何使用Audience Manager事件畫素，從Advertising DSP行銷活動中擷取曝光層級和點選層級的資料
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: 529
 ht-degree: 0%
 
 ---
@@ -40,15 +46,15 @@ Audience Manager曝光次數和點選事件畫素會以Cookie為基礎。 畫素
 
 ### 曝光追蹤畫素
 
-當您在廣告中附加1xl-pixel透明事件追蹤畫素時，Audience Manager會追蹤廣告的曝光資料。 每次將廣告提供給使用者並由網頁瀏覽器載入時，都會載入事件畫素。 此畫素是從Audience Manager的舊版網域[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)的使用者端特定子網域載入，並包含索引鍵值配對的引數。 事件呼叫會收集曝光次數和轉換資料，並傳送至Audience Manager資料收集伺服器。
+當您在廣告中附加1xl-pixel透明事件追蹤畫素時，Audience Manager會追蹤廣告的曝光資料。 每次將廣告提供給使用者並由網頁瀏覽器載入時，都會載入事件畫素。 此畫素是從Audience Manager的舊版網域[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)的使用者端特定子網域載入，並包含索引鍵值配對的引數。 事件呼叫會收集曝光次數和轉換資料，並傳送至Audience Manager資料收集伺服器。
 
 ### 點選追蹤畫素
 
-Audience Manager追蹤的點按次數與曝光數類似，唯一例外是它不會在每次提供廣告時載入透明事件畫素。 相反地，點選資料會在廣告的點進URL中追蹤。 廣告指向[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)的使用者端特定子網域，這是Audience Manager的舊網域，可供Audience Manager資料收集伺服器處理。 然後，伺服器會將使用者重新導向至預期的登陸頁面。 URL包含做為機碼值組的引數。
+Audience Manager追蹤的點按次數與曝光數類似，唯一例外是它不會在每次提供廣告時載入透明事件畫素。 相反地，點選資料會在廣告的點進URL中追蹤。 廣告指向[`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)的使用者端特定子網域，這是Audience Manager的舊網域，可供Audience Manager資料收集伺服器處理。 然後，伺服器會將使用者重新導向至預期的登陸頁面。 URL包含做為機碼值組的引數。
 
 >[!NOTE]
 >
->如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)傳送給Audience Manager。
+>如果您的組織使用[!DNL Analytics]追蹤，則您可能不需要Audience Manager點選追蹤。 Adobe Analytics會擷取點選訊號，並可透過[伺服器端轉送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)傳送給Audience Manager。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,12 @@ title: 關於 [!DNL Google Ads] 圖說文字延伸
 description: 瞭解Search、Social和Commerce中的 [!DNL Google Ads] 圖說文字擴充功能。
 exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts]和[!UICONTROL Associations]檢視
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Callout]資料庫會列出您所有的帳戶層級圖說文字，您可以在此處建立和管理您的共用圖說文字。 請參閱廣告網路說明，瞭解每個 [!DNL Google Ads] 帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的最大廣告擴充功能數目。
+[!UICONTROL Extensions] > [!UICONTROL Callout]中的[!UICONTROL Campaigns] > [!UICONTROL Campaigns]資料庫會列出您所有的帳戶層級圖說文字，您可以在此處建立和管理您的共用圖說文字。 請參閱廣告網路說明，瞭解每個[帳戶 [!DNL Google Ads] 的](https://support.google.com/google-ads/answer/6372658?hl=en)最大廣告擴充功能數目。
 
 資料庫中的圖說文字不會與廣告搭配使用，直到您將它們指派給行銷活動或廣告群組為止。 從「[!UICONTROL Extensions] > [!UICONTROL Associations]」檢視中，您可以將任何圖說作為可能的副檔名指派給促銷活動層級或廣告群組層級的所有廣告。 您必須為每個行銷活動或廣告群組至少指派兩個圖說文字，廣告才有資格顯示圖說文字。 廣告群組層級的編號說明會覆寫行銷活動層級的編號說明。
 

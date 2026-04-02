@@ -3,9 +3,13 @@ title: Adobe Advertising可接受的健康情況區段
 description: 請參閱准則，瞭解可接受的健康相關受眾區段，以及作為健康相關受眾區段目標定位的替代方案使用的戰術。
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+TQID: https://experienceleague.adobe.com/HXCrKYSJnDsmQjt2StdBJZaq9Px4TwpRHc2-0cjDZDE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 350
 ht-degree: 0%
 
 ---

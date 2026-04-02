@@ -3,9 +3,13 @@ title: 建立 [!DNL Google Ads]的轉換標籤
 description: 瞭解如何建立 [!DNL Google Ads] 轉換標籤。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 1. 複製轉換標籤，並在您要追蹤轉換量度的網站上實作。
 
-   請參閱「[2」的[!DNL Google Ads]說明中的「安裝[!DNL Google]標籤」。 設定您的Google標籤](https://support.google.com/google-ads/answer/12215519)。」
+   請參閱「[!DNL Google]2」的[!DNL Google Ads]說明中的「安裝[標籤」。 設定您的Google標籤](https://support.google.com/google-ads/answer/12215519)。」
 
 1. 按一下&#x200B;**[!UICONTROL Done].**
 
@@ -42,7 +46,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select an Account]：**&#x200B;適用的Google Ads帳戶。
 
-**[!UICONTROL Type of Conversion]：**&#x200B;要追蹤的轉換型別： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用於不同的目的；請參閱「[為潛在客戶](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)的增強型轉換建立 [!DNL Google Ads] 轉換動作。」
+**[!UICONTROL Type of Conversion]：**&#x200B;要追蹤的轉換型別： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用於不同的目的；請參閱「[為潛在客戶 [!DNL Google Ads] 的增強型轉換建立](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)轉換動作。」
 
 **[!UICONTROL Conversion Name]：**&#x200B;轉換量度的唯一名稱。
 

@@ -3,9 +3,12 @@ title: 清查摘要何時建立或刪除帳戶元件？
 description: 瞭解當您發佈詳細目錄摘要時，在哪些情況下會建立和刪除帳戶元件。
 exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/lo1FGJlZyyrO49IVCt308TaH65Eq-ZgRTafKSMTomHI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 0%
 |----|----|----|
 | 摘要資料包含在行銷活動名稱、廣告群組名稱、關鍵字或產品群組中使用的欄新值。 | 先前的檔案：<br>Campaign=Hats<br>Campaign=Gloves<br><br>新檔案：<br>Campaign=Shoes | 如果廣告網路上不存在新的行銷活動、廣告群組、關鍵字或產品群組，則會建立該行銷活動。 |
 | 摘要資料包含在廣告中使用的欄的新值。 | 上一個檔案：廣告包含的價格=20<br><br>新檔案：對於相同的廣告，價格=10 | 當[!DNL Microsoft Advertising]個展開的文字廣告、[!DNL Yahoo! Japan ads]或[!DNL Yandex]個廣告的廣告文案變更時，現有的廣告會遭到刪除並建立新的廣告。<br><br>當其他廣告型別的廣告復本已變更，或廣告中的[!DNL Google Ads]廣告引數（{param1}或{param2}）使用了適用的欄時，則會更新現有的廣告。 |
-| 自上次傳播以來，行銷活動、廣告群組、關鍵字或產品群組的範本設定已變更。 | 先前的設定:Keyword=[關鍵字]<br><br>新設定： Keyword=&lt;Color>[關鍵字] | 如果廣告網路上不存在新的行銷活動、廣告群組、關鍵字或產品群組，則會建立該行銷活動。 |
+| 自上次傳播以來，行銷活動、廣告群組、關鍵字或產品群組的範本設定已變更。 | 先前的設定:Keyword=[關鍵字]<br><br>新設定： Keyword=&lt;Color>[Keyword] | 如果廣告網路上不存在新的行銷活動、廣告群組、關鍵字或產品群組，則會建立該行銷活動。 |
 | 自上次傳播後，廣告的範本設定已變更。 | 先前的設定：廣告說明=&quot;立即購買[類別]&quot;。<br><br>新設定：廣告說明=「立即購買[品牌]」。 | 當[!DNL Microsoft Advertising]個展開的文字廣告、[!DNL Yahoo! Japan ads]或[!DNL Yandex]個廣告的廣告文案變更時，現有的廣告會遭到刪除並建立新的廣告。<br><br>當其他廣告型別的廣告復本有所變更，或此變更反映廣告中用於單一[!DNL Google Ads]廣告引數（{param1}或{param2}）的欄位有所變更，則會更新現有的廣告。 |
 | 新的摘要資料不包含現有行銷活動或廣告群組的列。 | 不適用 | 現有行銷活動和廣告群組維持不變。 |
 | 新的摘要資料不包含現有廣告群組、廣告、關鍵字或產品群組的列。 | 不適用 | 根據[摘要資料設定](feed-settings-manage.md#feed-data-settings)，現有的廣告群組、廣告、關鍵字或產品群組會維持原狀、暫停或刪除。 |

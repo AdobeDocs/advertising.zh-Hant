@@ -3,9 +3,13 @@ title: 為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作
 description: 瞭解如何為潛在客戶的增強型轉換建立 [!DNL Google Ads] 轉換動作。
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 459
 ht-degree: 0%
 
 ---
@@ -34,9 +38,9 @@ ht-degree: 0%
 
    建立轉換標籤，並視需要在您要追蹤轉換量度的網站上實作。 如需指示，請參閱下列內容：
 
-   * 若要使用[!DNL Google]標籤，請參閱[為具有 [!DNL Google] 標籤](https://support.google.com/google-ads/answer/11347292)的銷售機會設定增強型轉換[!DNL Google Ads]中「設定[!DNL Google]標籤設定」的說明。
+   * 若要使用[!DNL Google]標籤，請參閱[!DNL Google Ads]為具有[!DNL Google]標籤[的銷售機會設定增強型轉換 [!DNL Google] 中「設定](https://support.google.com/google-ads/answer/11347292)標籤設定」的說明。
 
-   * 若要使用[!DNL Google Tag Manager]，請參閱「[為具有 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)的銷售機會設定增強型轉換」中的[!DNL Google Ads]指示，以「設定[!DNL Google]標籤設定」和「驗證您的設定並發佈容器」。
+   * 若要使用[!DNL Google Tag Manager]，請參閱「[!DNL Google Ads]為具有[!DNL Google][的銷售機會設定增強型轉換」中的 [!DNL Google Tag Manager]指示，以「設定](https://support.google.com/google-ads/answer/11021502?#configure)標籤設定」和「驗證您的設定並發佈容器」。
 
 1. 按一下&#x200B;**[!UICONTROL Done].**
 
@@ -73,4 +77,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [上傳離線轉換資料以進行增強型轉換](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
->* [針對潛在客戶](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)實作 [!DNL Google Ads] 增強型轉換
+>* [針對潛在客戶 [!DNL Google Ads] 實作](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)增強型轉換

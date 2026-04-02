@@ -3,9 +3,13 @@ title: 實作廣告網路帳戶和行銷活動的概觀
 description: 瞭解設定、同步及管理廣告網路帳戶的相關工作。
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
@@ -60,13 +64,13 @@ Adobe會與每個廣告商合作，設定其廣告網路帳戶和行銷活動。
 
    1. 設定轉換追蹤。 根據實作，這可能涉及將轉換追蹤標籤新增到廣告商的網頁，和/或針對廣告商已單獨收集的轉換資料設定每日摘要拖放。
 
-      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[&#x200B; （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=zh-Hant)標籤。
+      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[ （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)標籤。
 
    1. 驗證所追蹤的資料。
 
    如需設定追蹤的詳細資訊，請參閱「追蹤」一章。
 
-1. （使用Adobe Analytics的廣告商） [整合Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)，以便交換資料。
+1. （使用Adobe Analytics的廣告商） [整合Adobe Advertising和Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)，以便交換資料。
 
 1. （允許搜尋、Social和Commerce最佳化出價、行銷活動預算和/或行銷活動出價策略目標；僅[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)） [將行銷活動指派給產品組合](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)。
 

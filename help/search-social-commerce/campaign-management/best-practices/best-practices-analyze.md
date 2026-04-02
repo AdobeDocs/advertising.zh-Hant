@@ -3,9 +3,13 @@ title: 分析報告以精簡您的關鍵字和行銷活動設定
 description: 瞭解使用報告來調整您的關鍵字和行銷活動設定的最佳實務。
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
@@ -20,11 +24,11 @@ ht-degree: 0%
 
 * 保守地將網站排除在行銷活動之外，因為內容和市場變化可能會迅速改變網站流量的值。
 
-如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」的「Portfolio」區段中的「調整產品組合策略」，此指南可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
+如需有關調整您的關鍵字和促銷活動設定的詳細資訊，請參閱「最佳化指南」中「產品組合」區段的「調整產品組合策略」，此指南可從「搜尋、社交和Commerce」中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實務，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理產品組合>產品組合的最佳實務區段，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

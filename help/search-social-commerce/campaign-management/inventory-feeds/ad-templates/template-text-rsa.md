@@ -3,9 +3,13 @@ title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: 3360
 ht-degree: 0%
 
 ---
@@ -241,7 +245,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]：** （僅限[!DNL Microsoft Advertising]個範本）標題、文字、顯示URL或最終URL包含`{Param3}`動態替代字串時，要做為廣告替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 

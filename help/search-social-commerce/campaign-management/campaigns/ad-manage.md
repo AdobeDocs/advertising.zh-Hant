@@ -3,9 +3,13 @@ title: 管理廣告
 description: 瞭解如何建立和管理廣告。
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: 745
 ht-degree: 0%
 
 ---
@@ -34,15 +38,15 @@ ht-degree: 0%
 
    如需不同廣告型別的詳細資訊，請參閱[關於廣告](ad-about.md)。
 
-1. 輸入[[!DNL Baidu] 文字廣告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 僅通話廣告](ad-settings-google-call.md)、[[!DNL Google Ads] 延展型動態搜尋廣告](ad-settings-google-dsa.md) (現在在Google Ads中只稱為「動態搜尋廣告」)、[[!DNL Google Ads] 回應式搜尋廣告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒體廣告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 產品廣告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 回應式（對象）廣告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文字廣告](ad-settings-yandex-text.md)設定。
+1. 輸入[[!DNL Baidu] 文字廣告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 僅通話廣告](ad-settings-google-call.md)、[[!DNL Google Ads] 延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中只稱為「動態搜尋廣告」）、[[!DNL Google Ads] 回應式搜尋廣告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒體廣告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 產品廣告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 回應式（對象）廣告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文字廣告](ad-settings-yandex-text.md)設定。
 
    >[!NOTE]
    >
-   >(具有Adobe Advertising轉換追蹤的行銷活動)如果帳戶或行銷活動設定僅在關鍵字層級指定追蹤，則Search、Social和Commerce不會產生廣告的追蹤。
+   >（具有Adobe Advertising轉換追蹤的行銷活動）如果帳戶或行銷活動設定僅在關鍵字層級指定追蹤，則Search、Social和Commerce不會產生廣告的追蹤。
 
 1. 按一下&#x200B;**[!UICONTROL Post]**。
 
-1. (促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用)若要追蹤廣告上的點選次數，[請使用追蹤URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，然後手動將其新增至帳戶、促銷活動或產品群組設定。
+1. （促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點選次數，[請使用追蹤URL工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，然後手動將其新增至帳戶、促銷活動或產品群組設定。
 
 ## 編輯廣告設定
 
@@ -70,7 +74,7 @@ ht-degree: 0%
 
       1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-1. 編輯[[!DNL Baidu] 文字廣告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 僅通話廣告](ad-settings-google-call.md)、[[!DNL Google Ads] 已展開的動態搜尋廣告](ad-settings-google-dsa.md) (現在在Google Ads中僅稱為「動態搜尋廣告」)、[[!DNL Google Ads] 回應式搜尋廣告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 已展開的動態搜尋廣告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒體廣告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 產品廣告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 回應式（對象）廣告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文字廣告](ad-settings-yandex-text.md)設定。
+1. 編輯[[!DNL Baidu] 文字廣告](ad-settings-baidu-text.md)、[[!DNL Google Ads] 僅通話廣告](ad-settings-google-call.md)、[[!DNL Google Ads] 已展開的動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中僅稱為「動態搜尋廣告」）、[[!DNL Google Ads] 回應式搜尋廣告](ad-settings-google-rsa.md)、[[!DNL Microsoft Advertising] 已展開的動態搜尋廣告](ad-settings-microsoft-dsa.md)、[[!DNL Microsoft Advertising] 多媒體廣告](ad-settings-microsoft-multimedia.md)、[[!DNL Microsoft Advertising] 產品廣告](ad-settings-microsoft-product.md)、[[!DNL Microsoft Advertising] 回應式（對象）廣告](ad-settings-microsoft-responsive.md)、[[!DNL Microsoft Advertising] 回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[[!DNL Yandex] 文字廣告](ad-settings-yandex-text.md)設定。
 
    對於多個廣告，您只能編輯所有選定廣告的共同欄位，並且您的變更會套用至所有選定廣告。 對於某些英數字元欄位，您可以將現有值變更為指定值、以指定字串取代現有字串、在每個值的開頭加上指定首碼，或在每個值的結尾附加尾碼。 對於某些貨幣欄位，您可以將現有值變更為指定值，或透過指定百分比或貨幣金額來增加或減少金額，但需有限制。
 
@@ -96,11 +100,11 @@ ht-degree: 0%
 
 1. 在工具列中按一下狀態按鈕：
 
-   * 若要啟動列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+   * 若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
 
    * 若要暫停資料列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
 
-   * 若要刪除列，請按一下[其他] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+   * 若要刪除列，請按一下[其他] ![ ](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

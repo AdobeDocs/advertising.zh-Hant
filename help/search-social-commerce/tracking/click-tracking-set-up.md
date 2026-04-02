@@ -3,9 +3,12 @@ title: 設定Cookie型點選追蹤
 description: 瞭解如何設定及驗證點選追蹤標籤。
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: 542
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 若要讓「搜尋」、「社交」和「Commerce」追蹤點按，必須設定並驗證下列元素。
 
-1. (Adobe客戶團隊)將廣告商設定為畫素客戶。
+1. （Adobe客戶團隊）將廣告商設定為畫素客戶。
 
 1. [請為每個廣告商的廣告網路帳戶和行銷活動指定正確的追蹤選項](#set-up-click-tracking-options)。
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
    1. 針對[!UICONTROL Tracking Type]設定，選取&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (若要允許搜尋、社交和Commerce與Adobe Analytics交換資料，或追蹤[!DNL Apple Safari]中發生的轉換)選取[!UICONTROL Redirect Type]選項&#x200B;**[!UICONTROL Token]**。
+   1. （若要允許搜尋、社交和Commerce與Adobe Analytics交換資料，或追蹤[!DNL Apple Safari]中發生的轉換）選取[!UICONTROL Redirect Type]選項&#x200B;**[!UICONTROL Token]**。
 
    1. （選用）開啟&#x200B;**[!UICONTROL Auto Upload]**&#x200B;選項，在下次Search、Social和Commerce與其同步時，自動將新追蹤URL上傳至廣告網路。 此值繼承為帳戶中所有促銷活動的預設值，但可在促銷活動層級覆寫。
 
@@ -50,7 +53,7 @@ ht-degree: 0%
 
    1. 針對[!UICONTROL Tracking Type]設定，選取&#x200B;**[!UICONTROL EF Redirect]**。
 
-   1. (若要允許搜尋、社交和Commerce與Adobe Analytics交換資料，或追蹤[!DNL Apple Safari]中發生的轉換)選取[!UICONTROL Redirect Type]選項&#x200B;**[!UICONTROL Token]**。
+   1. （若要允許搜尋、社交和Commerce與Adobe Analytics交換資料，或追蹤[!DNL Apple Safari]中發生的轉換）選取[!UICONTROL Redirect Type]選項&#x200B;**[!UICONTROL Token]**。
 
    1. （選用）開啟&#x200B;**[!UICONTROL Auto Upload]**&#x200B;選項，在下次Search、Social和Commerce與其同步時，自動將新追蹤URL上傳至廣告網路。 此值繼承為帳戶中所有促銷活動的預設值，但可在促銷活動層級覆寫。
 

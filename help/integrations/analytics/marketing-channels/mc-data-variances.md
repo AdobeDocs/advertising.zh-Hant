@@ -3,9 +3,14 @@ title: 為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]之
 description: 瞭解AMO ID所追蹤的管道資料為何與 [!DNL Analytics Marketing Channels]所追蹤的管道資料有所不同。
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: c31d30d3ab5195bd4fe2e81bec04a5ce690b63dc
+TQID: https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: dba482e5-29a8-4127-afa2-c4b913512ef8id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 414
 ht-degree: 0%
 
 ---
@@ -30,8 +35,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; [!DNL Analytics] 與Adobe Advertising](/help/integrations/analytics/data-variances.md)之間的預期資料差異
+>* [ [!DNL Analytics] 與Adobe Advertising](/help/integrations/analytics/data-variances.md)之間的預期資料差異
 >* [基礎（共 [!DNL Analytics Marketing Channels]](mc-overview.md)個）
 >* [使用Adobe Advertising ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
->* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
+>* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

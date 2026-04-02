@@ -3,9 +3,14 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: 1586
 ht-degree: 0%
 
 ---
@@ -51,7 +56,7 @@ ht-degree: 0%
 
 ##### HTML5創意
 
-* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
+* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[顯示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
 
   匯入GenStudio體驗後，您可以編輯已匯入創意的中繼資料（名稱、語言、標籤），但無法編輯創意內容。 如果您在GenStudio中編輯GenStudio體驗，請在[!DNL Creative]中重新匯入體驗以使用最新版本。
 
@@ -79,7 +84,7 @@ ht-degree: 0%
 
 您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[套用至任何視訊廣告體驗標籤。](/help/creative/experiences/experience-tag-video-transcoding.md)
 
-請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
+請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
 **檔案型別：** .mov、.mp4、.webm
 

@@ -3,9 +3,13 @@ title: 使用EF ID摘要的轉換追蹤
 description: 瞭解如何使用EF ID摘要來追蹤轉換資料。
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
    >* 此方法不需要廣告商使用Adobe Advertising轉換追蹤標籤。
    >* 如果您將現有帳戶或行銷活動的重新導向型別從[!UICONTROL Standard]切換為[!UICONTROL Token] （或反之），則必須重新產生所有適用的追蹤URL。
 
-   一般使用者按一下廣告時，會填入ef_id並附加至登陸頁面URL，且會重新導向至Adobe Advertising伺服器。 然後，ef_id會傳遞至廣告或關鍵字目的地URL或最終URL中的廣告商。 以下是在重新導向期間傳遞給廣告商的目標URL範例：
+   一般使用者按一下廣告時，會填入ef_id並附加至登陸頁面URL，而系統會將其重新導向至Adobe Advertising伺服器。 然後，ef_id會傳遞至廣告或關鍵字目的地URL或最終URL中的廣告商。 以下是在重新導向期間傳遞給廣告商的目標URL範例：
 
    `http://pixel.everesttech.net/1180/cq?ev_sid=3&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx=&ev_pl={placement}&url=http%3A//www.example.com&ef_id=D59Nu0u@BD0AAM1q:20110630172936:s`
 
@@ -34,7 +38,7 @@ ht-degree: 0%
 
 1. 廣告商會將含有[必要轉換資料](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)的檔案上傳到指定的伺服器位置。
 
-1. 技術服務會剖析上傳檔案中的轉換資料，然後將資料上傳至Adobe Advertising。 然後Adobe Advertising會根據個別關鍵字、廣告和刊登版位追蹤資料，並為每個建立收入預測。
+1. 技術服務會剖析上傳檔案中的轉換資料，然後將資料上傳至Adobe Advertising。 Adobe Advertising接著會根據個別關鍵字、廣告和刊登版位追蹤資料，並針對每個關鍵字建立收入預測。
 
 1. 技術服務會根據摘要資料驗證已處理的資料，並檢查是否有任何[孤立交易](/help/search-social-commerce/glossary.md#o-p)。
 

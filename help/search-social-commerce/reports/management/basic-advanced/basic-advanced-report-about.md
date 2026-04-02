@@ -3,9 +3,13 @@ title: 關於基本報告和進階報告
 description: 瞭解可自訂的基本和進階報告。
 exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/zKPVAfyStkc6bjL552SSoCc4dEmhyzHThTXqylslMFg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: 373
 ht-degree: 0%
 
 ---
@@ -58,7 +62,7 @@ ht-degree: 0%
 
 進階報表可協助您透過重新設定地理定位或網路設定，找出您從中獲益的位置，進而做出廣告策略的策略決策。 它們也可以協助您根據廣告商的內部轉換追蹤資料，驗證「搜尋」、「社交」和「Commerce」中可用的轉換資料。
 
-所有使用者都可以產生[!UICONTROL Transaction Report]，依關鍵字顯示個別交易。 所有其他進階報表都會使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能為該服務的廣告商產生。
+所有使用者都可以產生[!UICONTROL Transaction Report]，依關鍵字顯示個別交易。 所有其他進階報表都會使用透過Adobe Advertising轉換追蹤服務擷取的資料，且只能透過該服務為廣告商產生。
 
 所有進階報表可選擇性地包含轉換資料或您建立的任何其他量度。 由產品組合（而非廣告網路）產生的進階報表，會顯示目前對應至指定產品組合之行銷活動的資料。 報告
 不要納入日期範圍內位於產品組合中，但仍不存在的行銷活動的資料。

@@ -3,18 +3,22 @@ title: 使用交易ID摘要的轉換追蹤
 description: 瞭解如何使用交易ID摘要來追蹤轉換資料。
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # 使用交易ID摘要的轉換追蹤
 
-當廣告商同時具有線上和離線交易時，Adobe Advertising可以透過Adobe Advertising轉換追蹤畫素來追蹤線上交易，而廣告商可以使用交易ID來追蹤離線交易，並透過摘要進行傳遞：
+當廣告商同時具有線上和離線交易時，Adobe Advertising可以透過Adobe Advertising轉換追蹤畫素追蹤線上交易，而廣告商可以使用交易ID追蹤離線交易，並透過摘要進行傳遞：
 
-* 對於線上交易，Adobe Advertising會追蹤廣告的點按次數，以及在網站上產生的交易。
+* 對於線上交易，Adobe Advertising會追蹤您廣告的點按次數，以及在您的網站上產生的交易。
 
 * 廣告商必須追蹤離線轉換，並將交易層級的摘要檔案傳送至Adobe Advertising。
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 1. 廣告商會將含有[必要轉換資料](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)的檔案上傳到指定的伺服器位置。
 
-1. 技術服務會剖析上傳檔案中的轉換資料，然後將資料上傳至Adobe Advertising。 然後Adobe Advertising會根據個別關鍵字、廣告和刊登版位追蹤資料，並為每個建立收入預測。
+1. 技術服務會剖析上傳檔案中的轉換資料，然後將資料上傳至Adobe Advertising。 Adobe Advertising接著會根據個別關鍵字、廣告和刊登版位追蹤資料，並針對每個關鍵字建立收入預測。
 
 1. 技術服務會根據摘要資料驗證已處理的資料，並檢查是否有任何[孤立交易](/help/search-social-commerce/glossary.md#o-p)。
 
