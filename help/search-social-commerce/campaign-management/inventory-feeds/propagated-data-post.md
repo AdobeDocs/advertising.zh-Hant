@@ -3,9 +3,14 @@ title: 從摘要產生的行銷活動資料張貼至廣告網路
 description: 瞭解如何將詳細目錄資料摘要產生的資料發佈到廣告網路。
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 0%
 
 ---
@@ -18,11 +23,11 @@ ht-degree: 0%
 
 為了張貼成功，所有廣告群組都必須指派給促銷活動，所有關鍵字和廣告都必須指派給廣告群組，並且必須包括所有必要的資訊，不得有任何長度違規。
 
-* 如果您使用選項「[!UICONTROL Propagate and Preview]」，則[從[!UICONTROL Bulksheets]檢視張貼產生的Bulksheet檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) （名為「`<feed file name>_<template name>`」）。
+* 如果您使用選項「[!UICONTROL Propagate and Preview]」，則[從](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)檢視張貼產生的Bulksheet檔案`<feed file name>_<template name>` （名為「[!UICONTROL Bulksheets]」）。
 
   如果您先前未[驗證登入頁面](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，您可以在張貼檔案之前先進行驗證。
 
-* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[!UICONTROL Templates]索引標籤在行銷活動階層檢視中張貼具有[[!UICONTROL New]狀態](propagated-data-status.md)之元件的已產生資料。
+* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[[!UICONTROL New]索引標籤在行銷活動階層檢視中張貼具有](propagated-data-status.md)狀態[!UICONTROL Templates]之元件的已產生資料。
 
   >[!NOTE]
   >
@@ -30,7 +35,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >如果您先前未驗證登入頁面，但想要驗證，請[傳播資料並從[!UICONTROL Bulksheets]檢視預覽](feed-data-propagate.md)，而非張貼至廣告網路。 您可以[先驗證URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，再手動將檔案張貼至廣告網路。
+  >如果您先前未驗證登入頁面，但想要驗證，請[傳播資料並從](feed-data-propagate.md)檢視預覽[!UICONTROL Bulksheets]，而非張貼至廣告網路。 您可以[先驗證URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)，再手動將檔案張貼至廣告網路。
 
    1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
@@ -48,9 +53,9 @@ ht-degree: 0%
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]：*&#x200B;建立Bulksheet檔案並於稍後發佈。 指定下列專案：
 
-            * **[!UICONTROL Start Time]：**&#x200B;將來應該將Bulksheet檔案張貼至廣告網路的日期和時間。 預設情況下，檔案會在隔天的00:00 (12:00 a.m.)傳送。 **注意：**&#x200B;對於需要較長處理時間的大型檔案，已發佈的資料無法立即在行銷活動管理檢視或網路的廣告管理員中使用。
+            * **[!UICONTROL Start Time]：**&#x200B;將來應該將Bulksheet檔案張貼至廣告網路的日期和時間。 預設會在隔天的00:00 (12:00 a.m.)傳送檔案。 **注意：**&#x200B;對於需要較長處理時間的大型檔案，已發佈的資料無法立即在行銷活動管理檢視或網路的廣告管理員中使用。
 
-            * **[!UICONTROL End Time]：**&#x200B;根據「[!UICONTROL When the Scheduled End Date is reached]」的[摘要資料設定](feed-settings-manage.md#feed-data-settings)，未來可能會暫停或刪除已張貼廣告的日期和時間。 預設的結束時間是從今天開始的00:00 （上午12:00） 30天。 選取「**[!UICONTROL None]**」以無限期地讓資料保持作用中（或直到您為範本傳播新資料為止），或指定日期和時間。
+            * **[!UICONTROL End Time]：**&#x200B;根據「[」的](feed-settings-manage.md#feed-data-settings)摘要資料設定[!UICONTROL When the Scheduled End Date is reached]，未來可能會暫停或刪除已張貼廣告的日期和時間。 依預設，結束時間是從今天開始的30天後的00:00 （上午12:00）。 選取「**[!UICONTROL None]**」以無限期地讓資料保持作用中（或直到您為範本傳播新資料為止），或指定日期和時間。
 
               若要指定日期，請使用DD/MM/YYYY或D/M/YYYY格式，或按一下![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆")開啟行事曆，然後[選取日期](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)。 若要變更時間，請以24小時格式（HH/MM或H/M）輸入時間，或從清單中選取時間（以30分鐘為間隔）。
 
@@ -60,7 +65,7 @@ ht-degree: 0%
 
       * **[!UICONTROL Generate Tracking URLs]：**&#x200B;是否要在大量表單檔案中包含關鍵字和廣告變數的追蹤URL： *[!UICONTROL Yes]* （預設）或&#x200B;*[!UICONTROL No]*。
 
-        如果您選取&#x200B;*[!UICONTROL Yes]*，則會根據[帳戶設定](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)中的[!UICONTROL Tracking Methods]引數，或如果您要將資料對應到現有的促銷活動，則將資料對應到現有[促銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)中的[!UICONTROL Tracking Methods]引數，從關鍵字和廣告的基本URL產生URL。
+        如果您選取&#x200B;*[!UICONTROL Yes]*，則會根據[!UICONTROL Tracking Methods]帳戶設定[中的](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)引數，或如果您要將資料對應到現有的促銷活動，則將資料對應到現有[!UICONTROL Tracking Methods]促銷活動設定[中的](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)引數，從關鍵字和廣告的基本URL產生URL。
 
         如果相關專案存在追蹤URL，則不會重新產生，除非需要新專案（例如如果關鍵字元合型別、創意文字或帳戶的追蹤引數已變更）。
 

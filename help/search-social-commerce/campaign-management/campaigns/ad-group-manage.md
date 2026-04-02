@@ -3,9 +3,14 @@ title: 管理廣告群組
 description: 瞭解如何建立及管理廣告群組。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 廣告群組包含一組廣告及其相關關鍵字。 行銷活動中以顯示網路為目標的廣告群組也可以包含版位，即顯示網路上的廣告可出現位置。 適用於廣告群組所有元件的廣告群組設定，會因廣告網路而異。
 
-您可以在Search、Social和Commerce中，針對[已同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)建立廣告群組。 您也可以編輯及變更廣告群組的狀態。
+您可以在Search、Social和Commerce中，針對[已同步化的廣告網路帳戶](/help/search-social-commerce/introduction/supported-inventory.md)中的[支援行銷活動型別](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)建立廣告群組。 您也可以編輯及變更廣告群組的狀態。
 
 ## 建立廣告群組
 

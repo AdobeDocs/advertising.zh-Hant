@@ -3,9 +3,14 @@ title: 管理 [!DNL Microsoft Advertising] 動態再行銷對象
 description: 瞭解如何建立和管理 [!DNL Microsoft Advertising] 動態再行銷對象。
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 動態再行銷對象具有對象型別「[!UICONTROL Dynamic Remarketing] \&lt;訪客型別\>」（例如「動態再行銷過往買家」）。
 
-如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷[&#128279;](https://help.ads.microsoft.com/#apex/ads/en/56910)的[!DNL Microsoft Advertising] 檔案。
+如需有關動態再行銷以及如何實作必要的JavaScript標籤的詳細資訊，請參閱有關動態再行銷[[!DNL Microsoft Advertising] 的](https://help.ads.microsoft.com/#apex/ads/en/56910)檔案。
 
 ## 建立動態的再行銷對象
 

@@ -3,9 +3,17 @@ title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 231
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 0%
 
 * 若要檢視具有相鄰說明圖示（![說明圖示](/help/search-social-commerce/assets/help-field.png "說明圖示")）的辭彙說明，請將游標停留在說明圖示上，直到完成為止，或按一下說明快顯視窗內部以捲動內容。
 
-  若要開啟說明主題中的連結，您可能需要設定瀏覽器設定，以允許從您使用的Search、Social和Commerce網站(例如北美使用者為https://enterprise-na.efrontier.com或所有其他使用者為https://enterprise-intl.efrontier.com)出現快顯視窗。
+  若要開啟說明主題中的連結，您可能需要設定瀏覽器設定，以允許從您使用的Search、Social和Commerce網站（例如北美使用者為https://enterprise-na.efrontier.com或所有其他使用者為https://enterprise-intl.efrontier.com）出現快顯視窗。
 
 * 若要開啟說明如何使用所有功能的完整說明集，請按一下任何頁面頂端的下列連結：
 

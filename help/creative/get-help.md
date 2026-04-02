@@ -1,11 +1,20 @@
 ---
 title: 取得協助
-description: Learn how to view online help and community resources and how to get technical support.
+description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
+TQID: https://experienceleague.adobe.com/3JnaHzyXhsIcBipdgJtjPWbv3LF2UGuWRJpyy4KORIU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 169
 ht-degree: 0%
 
 ---
@@ -14,7 +23,7 @@ ht-degree: 0%
 
 <!-- Can remove this page when we move this into DSP help -->
 
-You can submit an AI-assisted query across all [!DNL Creative] and (advertisers with Advertising DSP) [!DNL DSP] documentation or open a full user guide for [!DNL Creative]. 如果檔案未回答您的問題，請連絡我們。
+您可以在所有[!DNL Creative]和（使用Advertising DSP的廣告商） [!DNL DSP]檔案中提交AI輔助查詢，或開啟[!DNL Creative]的完整使用手冊。 如果檔案未回答您的問題，請連絡我們。
 
 ## 使用AI輔助聊天介面搜尋資訊
 
@@ -22,7 +31,7 @@ You can submit an AI-assisted query across all [!DNL Creative] and (advertisers 
 
 ## 開啟完整的使用手冊
 
-To open a full user guide explaining how to use all features, click **[!UICONTROL Help]** in the main menu, and open the &quot;[!DNL Creative]&quot; chapter.
+若要開啟說明如何使用所有功能的完整使用手冊，請按一下主功能表中的「**[!UICONTROL Help]**」，然後開啟「[!DNL Creative]」章節。
 
 <!--
 ## Ask the Adobe Advertising community

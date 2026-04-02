@@ -3,9 +3,17 @@ title: '[!DNL Google Ads]廣告群組設定'
 description: 參考 [!DNL Google Ads] 廣告群組的設定。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
+TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 如果行銷活動使用智慧競標策略（例如[!UICONTROL Target CPA]、[!UICONTROL Target ROAS]），則[!DNL Google Ads]會自動將選項設為「[!UICONTROL Optimize]」。
 
-**[!UICONTROL Custom Bid Level]：** （僅針對顯示網路的行銷活動）競標方式：由&#x200B;*[!UICONTROL Ad Group]* （預設值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* (Google Ads中的興趣與再行銷)、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （網站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
+**[!UICONTROL Custom Bid Level]：** （僅針對顯示網路的行銷活動）競標方式：由&#x200B;*[!UICONTROL Ad Group]* （預設值）、*[!UICONTROL Age]*、*[!UICONTROL Gender]*、*[!UICONTROL Interest and List]* （Google Ads中的興趣與再行銷）、*[!UICONTROL Keyword]*、*[!UICONTROL Placement]* （網站）、*[!UICONTROL Unknown]*&#x200B;或&#x200B;*[!UICONTROL Vertical]*。
 
 >[!NOTE]
 >

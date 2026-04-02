@@ -3,9 +3,14 @@ title: 預覽創意
 description: 瞭解如何開啟創意內容預覽。
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 1. （可用時為選擇性）若要調整畫面中影像的大小，請在&#x200B;**[!UICONTROL Zoom]**&#x200B;清單中選取影像大小的10%至100%選項。
 
-1. (彈性的HTML5創意；選擇性)若要在創意的框架之間捲動，請按一下&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
+1. （彈性的HTML5創意；選擇性）若要在創意的框架之間捲動，請按一下&#x200B;**\&lt;**&#x200B;和&#x200B;**\>**。
 
 1. （視訊創意；選用）使用創意底下的控制項，執行下列任一項作業：
 

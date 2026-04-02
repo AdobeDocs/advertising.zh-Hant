@@ -3,9 +3,18 @@ title: '[!DNL Microsoft Advertising]轉換資料'
 description: 瞭解搜尋、社交和Commerce中可用的 [!DNL Microsoft Advertising]追蹤轉換資料型別。
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: 629
 ht-degree: 0%
 
 ---
@@ -40,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)中變更其中一個重複量度的顯示名稱[!UICONTROL Admin]。 [!UICONTROL Conversions]當兩個不同的量度具有相同的名稱時，報表並不準確。
 >* 競標單位層級的資料符合相同層級廣告網路中的資料。 不過，廣告網路自己的更高層級轉換資料可能包含未歸因至子競標單位的額外轉換。 搜尋、Social和Commerce中的資料一律會從競標單位層級彙總，因此（舉例來說）行銷活動層級報表的總數可能與廣告網路中的行銷活動層級報表不同。
 >* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
 >* 對象或地理位置層級沒有資料，因此不會用來自動最佳化RLSA和位置競標調整。

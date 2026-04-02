@@ -3,9 +3,19 @@ title: 非目標體驗的設定
 description: 請參閱不含決策樹定位之廣告體驗的所有設定說明。
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+TQID: https://experienceleague.adobe.com/Qz-MUPLNsdn4PvnaF-uDAZQjd-iXJD0oEZOkMSUGuEs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1126
 ht-degree: 0%
 
 ---
@@ -24,7 +34,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives]節
 
-**\[指定的預設創意\]：**&#x200B;當瀏覽器無法顯示指派給體驗的創意時(例如當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時)，所使用的預設創意。 對於標準顯示體驗，針對體驗適用的每個廣告大小包含一個影像創意內容。 對於標準視訊體驗，請針對體驗適用的每個廣告大小包含一個視訊創意。 您的選擇決定了可用於體驗的創意大小。
+**\[指定的預設創意\]：**&#x200B;當瀏覽器無法顯示指派給體驗的創意時（例如當瀏覽器未啟用JavaScript或廣告伺服器因延遲而無法個人化廣告時），所使用的預設創意。 對於標準顯示體驗，針對體驗適用的每個廣告大小包含一個影像創意內容。 對於標準視訊體驗，請針對體驗適用的每個廣告大小包含一個視訊創意。 您的選擇決定了可用於體驗的創意大小。
 
 對於沒有決策樹定位的體驗，您可以在[!UICONTROL Tag Manager]內以相同大小的創意內容覆寫預設創意內容。
 
@@ -46,7 +56,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced]節
 
-**資料傳遞：** （僅限具有動態廣告的體驗；選用）根據DSP、發佈者或合作夥伴在曝光時即時傳遞的特定索引鍵/值組來鎖定使用者(例如SKU=01234567890123或Cart=empty)。 您最多可以指定5個資料傳遞金鑰（引數）。<!-- May move this to just within the decision tree. -->
+**資料傳遞：** （僅限具有動態廣告的體驗；選用）根據DSP、發佈者或合作夥伴在曝光時即時傳遞的特定索引鍵/值組來鎖定使用者（例如SKU=01234567890123或Cart=empty）。 您最多可以指定5個資料傳遞金鑰（引數）。<!-- May move this to just within the decision tree. -->
 
 當您為特定創意大小建立廣告體驗標籤時，在此欄位中指定的每個鍵都會附加為標籤中的巨集。 在DSP中實作標籤作為廣告之前，請輸入標籤內每個索引鍵/值組的值。
 

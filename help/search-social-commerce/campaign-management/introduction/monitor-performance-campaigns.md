@@ -3,16 +3,24 @@ title: 監視和管理行銷活動的績效
 description: 瞭解如何監視每個行銷活動和產品組合的效能，並進行變更以符合您的目標。
 exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/h2A5-yD17ScGBWJxVC39wfbTBIGhheITAsJ-zEJE6lU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # 監視和管理廣告網路行銷活動的績效
 
-Adobe客戶團隊、機構團隊或廣告商（視服務等級合約條款而定）需要監控每個行銷活動和產品組合（如適用）的績效，並根據需要變更相關元件和設定，以達到廣告商的目標。
+Adobe客戶團隊、機構團隊或廣告商（取決於service level agreement的條款）需要監視每個行銷活動和產品組合的績效（如果適用），並根據需要變更相關元件和設定以達成廣告商的目標。
 
 ## 監視行銷活動和產品組合的績效
 

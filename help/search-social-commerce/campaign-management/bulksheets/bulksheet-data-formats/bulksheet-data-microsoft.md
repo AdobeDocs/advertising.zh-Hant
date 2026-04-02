@@ -3,9 +3,16 @@ title: ' [!DNL Microsoft Advertising] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Microsoft Advertising] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -63,7 +70,7 @@ ht-degree: 0%
 | [!UICONTROL Promotion Line] | （僅限產品清單廣告）搜尋結果中產品清單所包含的不重複促銷明細行（例如「立即免運費！」）。 長度上限為45個字元。<br><br>根據廣告在頁面上出現的位置，促銷活動行可能會出現在與廣告相關的不同位置（例如廣告下方）。 |
 | [!UICONTROL Display URL] | 廣告中包含的URL。<br><br>對於展開的動態搜尋廣告，廣告網路會從網站網域動態產生此值，而您不需要輸入值。<br><br>對於展開的文字廣告和回應式搜尋廣告，您不需要輸入值。 顯示URL會自動從最終URL的網域中擷取。 您可以選擇使用「路徑1」和「路徑2」欄位自訂URL。<br><br><b>附註：</b><ul><li>（具有最終URL的帳戶）顯示URL和最終URL中的網域名稱必須相符。</li><li>[!DNL Microsoft Advertising]個已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。</li></ul> |
 | [!UICONTROL Display Path 1] | （僅限展開的文字廣告、動態搜尋廣告和回應式搜尋廣告）新增到顯示URL的文字，會自動從最終URL擷取。 URL中的每個路徑前面都會加上正斜線(/)。 路徑不能包含正斜線(/)或新行(\n)字元。 每個路徑的長度上限為15個字元或7個雙位元組字元。<br><br>若要插入廣告自訂程式，請使用下列格式，其中「預設文字」是當摘要檔案未包含有效值時要插入的選用值： `{CUSTOMIZER.Attribute name:Default text}` （例如`{CUSTOMIZER.Discount:10%}`<br><br>）例如，如果[!UICONTROL Display Path 1]是「交易」，則顯示URL會是&lt;顯示URL>/交易，例如www.example.com/deals。<br><br>[!DNL Microsoft Advertising]個已於2022年8月汰除的擴充文字廣告，您現在只能報告及刪除這些廣告。 |
-| [!UICONTROL Display Path 1] | （僅限展開的文字廣告、動態搜尋廣告和回應式搜尋廣告）其他顯示路徑；請參閱[!UICONTROL Display Path 1]的專案。<br><br>範例：如果[!UICONTROL Display Path 1]是「deals」，[!UICONTROL Display Path 2]是「local」，則顯示URL將是&lt;<i>顯示URL</i>>/deals/local，例如www.example.com/deals/local。 |
+| [!UICONTROL Display Path 1] | （僅限展開的文字廣告、動態搜尋廣告和回應式搜尋廣告）其他顯示路徑；請參閱[!UICONTROL Display Path 1]的專案。<br><br>範例：如果[!UICONTROL Display Path 1]是「deals」，[!UICONTROL Display Path 2]是「local」，則顯示URL會是&lt;<i>顯示URL</i>>/deals/local，例如www.example.com/deals/local。 |
 | [!UICONTROL Start Date] | （僅限增強型網站連結）對網站連結發出投標的第一個日期，在廣告商的時區以及下列格式之一中： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 新增強型網站連結的預設值為當天。 <b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。 |
 | [!UICONTROL End Date] | 網站連結可以和廣告一起出現的最後日期，在廣告商的時區中且以下列格式之一顯示：m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 新網站連結的預設值為`[blank]` （即無結束日期）。 |
 | [!UICONTROL Call To Action] | 要包含在廣告中的call to action。 檢視[API參考以取得可能的值清單](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)，但在大量表單中輸入多字呼叫動作做為多個字詞（例如「Bet Now」而非「BetNow」）。 |
@@ -96,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL Location Status] | 位置目標的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （僅限現有位置）。 新位置的預設值為[!UICONTROL Active]。 若要刪除使用中的位置，請輸入值`Deleted`。 |
 | [!UICONTROL Product Group Status] | 產品群組的顯示狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （僅限現有產品群組）。 新產品群組的預設值為[!UICONTROL Active]。 若要刪除使用中的產品群組，請輸入值`Deleted`。 |
 | [!UICONTROL Device Target Status] | 行銷活動或廣告群組層級裝置目標的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>。 對於新的行銷活動和廣告群組，預設值為[!UICONTROL Active]。 |
-| [!UICONTROL RLSA Target Status] | 行銷活動或廣告群組層級RLSA目標或(僅限Google廣告)排除的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （僅限現有目標）。 新目標或排除專案的預設值為[!UICONTROL Active]。 若要刪除作用中的目標或排除專案，請輸入值`Deleted`。 |
+| [!UICONTROL RLSA Target Status] | 行銷活動或廣告群組層級RLSA目標或（僅限Google廣告）排除的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （僅限現有目標）。 新目標或排除專案的預設值為[!UICONTROL Active]。 若要刪除作用中的目標或排除專案，請輸入值`Deleted`。 |
 | \[廣告商特定標籤分類\] | (以廣告商專屬的標籤分類命名，例如「顏色」（針對稱為「顏色」的標籤分類）與實體相關聯的指定分類值。 每個實體的每個分類只能包含一個值（例如促銷活動A的「顏色」標籤分類為「紅色」）。 最大長度為100個字元，此值可包含ASCII和非ASCII字元。<br><br>標籤分類及其標籤值會套用至所有子元件；稍後新增的新元件會自動與標籤建立關聯。 產品群組的標籤分類會套用至單位（最精細）層級。<br><br>分類名稱和分類值都不區分大小寫。 |
 | [!UICONTROL Constraints] | 指定給圖元的限制。 每個圖元只能指定一個限制。<br><b>>限制由子實體繼承，因此除非您想要覆寫繼承的值，否則不需要為子實體輸入值。 |
 | [!UICONTROL Campaign ID] | 可識別現有行銷活動的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有當您變更促銷活動名稱時才需要，除非該列包含促銷活動的「[!UICONTROL AMO ID]」。 |
@@ -113,9 +120,9 @@ ht-degree: 0%
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL Exemption Request] | （包含於產生的大量表單中，以供參考）顯示廣告違反的任何Google廣告原則的名稱和文字的預留位置。 |
-| [!UICONTROL Retail Hash] | （包含於使用進階促銷活動管理產生的大量表單中以供參考）英數字元雜湊代碼(例如f9639f40cdf56524b541e5dacf55a991)，表示專案是使用進階(ACM)檢視產生的。 |
+| [!UICONTROL Retail Hash] | （包含於使用進階促銷活動管理產生的大量表單中以供參考）英數字元雜湊代碼（例如f9639f40cdf56524b541e5dacf55a991），表示專案是使用進階(ACM)檢視產生的。 |
 
-[^1]： [!DNL Excel]在開啟檔案時將大數轉換為科學記號(例如2115585666的2.12E+09)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
+[^1]： [!DNL Excel]在開啟檔案時將大數轉換為科學記號（例如2115585666的2.12E+09）。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 ## 建立、編輯或刪除每個帳戶元件所需的欄位 {#bulksheet-fields-per-component-microsoft}
 

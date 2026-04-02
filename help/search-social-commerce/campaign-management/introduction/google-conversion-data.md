@@ -3,9 +3,18 @@ title: '[!DNL Google Ads]轉換資料'
 description: 瞭解搜尋、社交和Commerce中可用的 [!DNL Google Ads]追蹤轉換資料型別。
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: 661
 ht-degree: 0%
 
 ---
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 搜尋、Social和Commerce同步已啟用「[!DNL Include in 'Conversions']」選項的轉換資料，提取過去35天的資料，然後每天以09:00-10:00在廣告商時區提取資料的變更。 歷史資料可能會每天變更，因為每次點按都會追蹤新的轉換。
 
-使用[!DNL Google Ads]中設定的轉換名稱，在Search、Social和Commerce中可自動使用每個[[!DNL Google Ads]追蹤的轉換](https://support.google.com/google-ads/answer/4677036) （您在[!DNL Google Ads]中設定）最多三個量度。 每次轉換的量度包括：
+使用[[!DNL Google Ads]中設定的轉換名稱，在Search、Social和Commerce中可自動使用每個](https://support.google.com/google-ads/answer/4677036)追蹤的轉換[!DNL Google Ads] （您在[!DNL Google Ads]中設定）最多三個量度。 每次轉換的量度包括：
 
 <!--
 
@@ -36,13 +45,13 @@ ht-degree: 0%
 
 * `GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。
 
-* `GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）由Google測量的跨裝置轉換次數（計數），以「GGL_XD_CT_」首碼(例如GGL_XD_CT_Purchase)開頭。
+* `GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）由Google測量的跨裝置轉換次數（計數），以「GGL_XD_CT_」首碼（例如GGL_XD_CT_Purchase）開頭。
 
 [!DNL Google Ads]會依[競標單位](/help/search-social-commerce/glossary.md#a-b)、裝置和點選日期（非轉換日期）來記錄每次轉換。 歸因是以[!DNL Google Ads]中每個量度的預設歸因設定為基礎；Adobe Advertising歸因未計入中，因為無法使用點選事件層級的資料。
 
 >[!NOTE]
 >
->* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Admin] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)。 當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)中變更其中一個重複量度的顯示名稱[!UICONTROL Admin]。 [!UICONTROL Conversions]當兩個不同的量度具有相同的名稱時，報表並不準確。
 >* 競標單位層級的資料與相同層級[!DNL Google Ads]中的資料相符。 但是，[!DNL Google Ads]自己的較高層級轉換資料可能包含未歸因至子競標單位的額外轉換。 搜尋、Social和Commerce中的資料一律會從競標單位層級彙總，因此（舉例來說）行銷活動層級報表的總數可能與Google Ads中的行銷活動層級報表不同。
 >* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
 >* 轉換資料不適用於[!DNL Google Display Network]、[!DNL Gmail]、[!DNL Mobile App]和[!DNL YouTube]廣告。 當您比較[!DNL Google Ads]中的資料與「搜尋」、「社交」和「Commerce」中的資料時，請篩除這些型別的廣告。

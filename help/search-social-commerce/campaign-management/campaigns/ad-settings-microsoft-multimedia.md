@@ -3,9 +3,14 @@ title: '[!DNL Microsoft Advertising]多媒體廣告設定'
 description: 參考 [!DNL Microsoft Advertising] 多媒體廣告的設定。
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -36,9 +41,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Text]：**&#x200B;說明至少有兩個，最多四個，每個至少有一個單字，最多有90個字元。
 
-**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的行動號召。 預設會選取「自動」，且廣告網路會選取行動號召。 您可以選擇不同的動作。
+**[!UICONTROL Call to Action]：**&#x200B;要包含在廣告中的call to action。 預設會選取「自動」，而廣告網路會選取call to action。 您可以選擇不同的動作。
 
-**[!UICONTROL Call to Action Language]：**&#x200B;行動號召選項的語言。
+**[!UICONTROL Call to Action Language]：** call to action選項的語言。
 
 ## [!UICONTROL Tracking URLs]
 

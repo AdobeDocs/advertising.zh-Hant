@@ -3,10 +3,15 @@ title: 大量表單錯誤
 description: 請參考每個大量表單錯誤的潛在原因。
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 0%
+source-wordcount: 1137
+ht-degree: 1%
 
 ---
 
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 ## [!UICONTROL EF Error]則訊息
 
-下列錯誤可能包含在[!UICONTROL EF Errors]檔案的[!UICONTROL EF Error]資料行中。
+下列錯誤可能包含在[!UICONTROL EF Error]檔案的[!UICONTROL EF Errors]資料行中。
 
 ### 下載/建立錯誤
 
@@ -52,7 +57,7 @@ ht-degree: 0%
 |  | [!UICONTROL Invalid row given] | 列包含的資訊不足，無法判斷實體型別。 編輯該列以包含實體型別的所有必填欄位。 |
 | 帳戶 | [!UICONTROL Provide Valid Account Details] | （多個帳戶的批次工作表）帳戶識別碼未包含在所有列中。 為每列輸入下列任一資料行組合的值： a) &quot;[!UICONTROL AMO ID]&quot;或b) &quot;[!UICONTROL Account Name]&quot;和&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜尋、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯行銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads][&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。 |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視[&#x200B; [!DNL Google Ads]的有效國家](https://support.google.com/merchants/answer/160637#countrytable)和[&#x200B; [!DNL Microsoft Advertising]的有效國家/地區清單。](https://help.ads.microsoft.com/#apex/3/en/51083) |
 | 所有行銷活動元件 | [!UICONTROL Campaign creation failed] | 父級行銷活動未建立，因此未建立此實體。 請確定所有父系實體都包含所有必要欄位。 |
 | 廣告群組 | [!UICONTROL Campaign Row missing] | 指定的父級行銷活動不存在，因此未建立廣告群組。 在新列中建立父行銷活動。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 廣告群組可以包含關鍵字或版位，但不能同時包含兩者。 為關鍵字和版位建立個別的廣告群組。 |
@@ -66,8 +71,8 @@ ht-degree: 0%
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 每個廣告群組最多可包含50個廣告，而此Bulksheet包含超過50個。 減少廣告數量。 |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 廣告位於已過期或已刪除的父實體中，因此您無法進行編輯。 |
 | 關鍵字 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父級行銷活動或廣告群組已刪除或過期，因此您無法變更實體。 |
-| 位置 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父級行銷活動或廣告群組已刪除或過期，因此您無法變更實體。 |
-|  | [!UICONTROL Cannot specify placement bids for websites under Display Select enabled Campaign with Search and Display Networks] | (Google廣告)您只能在搜尋網路上的行銷活動中或僅在內容網路上的刊登版位競標，但不得在目標搜尋和內容網路上的行銷活動中競標。 |
+| 產品建議放置環境 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父級行銷活動或廣告群組已刪除或過期，因此您無法變更實體。 |
+|  | [!UICONTROL Cannot specify placement bids for websites under Display Select enabled Campaign with Search and Display Networks] | （Google廣告）您只能在搜尋網路上的行銷活動中或僅在內容網路上的刊登版位競標，但不得在目標搜尋和內容網路上的行銷活動中競標。 |
 | 購物產品群組 | [!UICONTROL Cannot delete Everything Else manually. It will be deleted automatically when all Product Group Conditions under the same parent are removed] | 每個產品群組層級都必須包含&quot;[!UICONTROL Everything Else]&quot;群組。 您無法手動刪除&quot;[!UICONTROL Everything Else]&quot;群組；當您刪除相同層級的所有其他產品群組時，會自動刪除該群組。 |
 |  | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 父級行銷活動或廣告群組已刪除或過期，因此您無法變更實體。 |
 | Sitelink | [!UICONTROL Sitelinks Cannot update more than 10 site links per campaign] | （[!DNL Yandex]僅限）訊息不準確；每個行銷活動最多可包含四個（非10個）網站連結，而此大量表單包含四個以上。 移除部分網站連結。 |

@@ -3,9 +3,16 @@ title: 實作 [!DNL Google Ads] 購物行銷活動
 description: 瞭解設定 [!DNL Google Ads] 購物行銷活動的工作流程。
 exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+TQID: https://experienceleague.adobe.com/9xk2sCRBNJdRI1az99RyUkAlL-8P9s3OD70Htmnt4r8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -14,13 +21,13 @@ ht-degree: 0%
 
 購物行銷活動中的廣告會使用您現有[!DNL Google Merchant Center]產品摘要中的產品相關資料（而非關鍵字），來決定顯示廣告的方式和位置。
 
-[!DNL Google Ads]行銷活動可使用[!UICONTROL Campaign Type] &quot;[!UICONTROL Shopping Network]&quot;鎖定目標[!DNL Google Shopping Network]。 [!DNL Google Shopping]行銷活動的設定包含優先順序（[!UICONTROL High]、[!UICONTROL Medium]或[!UICONTROL Low]）。 您可以選擇使用行銷活動層級設定，在購物廣告中顯示當地詳細目錄資訊。
+[!DNL Google Ads]行銷活動可使用[!DNL Google Shopping Network] &quot;[!UICONTROL Campaign Type]&quot;鎖定目標[!UICONTROL Shopping Network]。 [!DNL Google Shopping]行銷活動的設定包含優先順序（[!UICONTROL High]、[!UICONTROL Medium]或[!UICONTROL Low]）。 您可以選擇使用行銷活動層級設定，在購物廣告中顯示當地詳細目錄資訊。
 
 您可以在廣告群組層級設定多重層級&#x200B;*[產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)*，以控制哪些產品會與您的購物廣告一起顯示。 產品群組是以任何產品屬性（類別、產品型別、品牌、條件、產品ID和自訂標籤）為基礎，您可以建立最多七個層級的產品群組，以納入競標或從競標排除。 您可以針對所有相符產品使用相同出價，在最低層級產品群組設定出價。 當同一個產品包含在多個行銷活動中時，[!DNL Google Ads]會先使用行銷活動層級的優先順序來判斷哪個行銷活動（及相關競標）符合廣告拍賣的資格。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
 ## 設定[!DNL Google Ads]購物行銷活動的步驟
 
-您可以使用[!DNL Google Shopping]的[詳細目錄摘要範本](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)、使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或個別使用，來設定購物行銷活動。 下列指示包含建立個別實體的連結。
+您可以使用[的](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)詳細目錄摘要範本[!DNL Google Shopping]、使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或個別使用，來設定購物行銷活動。 下列指示包含建立個別實體的連結。
 
 1. 設定您的[!DNL Google Merchant Center]帳戶，並填入產品資料。
 
@@ -55,5 +62,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 檢視使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)和[詳細目錄摘要範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)管理[!DNL Google Shopping]行銷活動和產品群組的必要欄位。
+>* 檢視使用[!DNL Google Shopping]大量表單[和](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)詳細目錄摘要範本[管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)行銷活動和產品群組的必要欄位。
 >* 如需[!DNL Google Shopping]行銷活動的詳細資訊，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2454022)。

@@ -3,9 +3,16 @@ title: ' [!DNL Yahoo! Japan] 帳戶的Bulksheet資料'
 description: 參考 [!DNL Yahoo! Japan] 帳戶之已下載大量表單中的標題欄位和資料欄位。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: 2672
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Budget] | 必要： Create<br><br>選用：編輯或刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的每日支出限制，無論是否包含貨幣符號和標點符號。 此值會覆寫，但不能超過科目預算。 |
 | [!UICONTROL Delivery Method] | 必要： Create<br><br>選用：編輯或刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 每天顯示行銷活動廣告的速度如何：<ul><li>*[!UICONTROL Standard (Distributed)]* （新行銷活動的預設值）：將您的廣告印象分散在一天當中。</li><li>*[!UICONTROL Accelerated]：*&#x200B;在達到預算之前，儘可能顯示您的廣告。 因此，您的廣告可能不會在當天稍後出現。</li></ul> |
 | [!UICONTROL Mobile Bid Adjustment] | 可選 | 可選 | 不適用 | 不適用 | 不適用 | 無論是在行銷活動層級或廣告群組層級，是否要在行動裝置上競標廣告：<ul><li>若要使用現有的行動競標調整，請將此項留空。</li><li>若要不競標行動裝置上的廣告，請輸入`-100`。</li><li>若要在行動裝置上競標與桌上型電腦和平板電腦裝置上的廣告競標（0%差異），請輸入`0`。 對於新的行銷活動，您也可以將此項留空。</li><li>若要使用不同出價在行動裝置上競標廣告，請輸入增加或減少出價的百分比。 值可以從`-90`到`300`。</li></ul>如果您在行銷活動層級排除裝置，就無法覆寫廣告群組層級的排除。<br><br><b>附註：</b><ul><li>廣告群組會繼承行銷活動層級設定，但您可以覆寫這些設定。</li><li>如果您將行銷活動指派給最佳化的產品組合，則最佳化功能會自動決定基本關鍵字層級的競標，以協助產品組合達成其目標。 接著，廣告網路會依行動廣告的指定方式調整競標。</li><li>如果您將行銷活動或廣告群組指派給最佳化的產品組合：<ul><li>最佳化功能會自動決定基本關鍵字層級的競標，以協助產品組合達成其目標。 搜尋網路接著會根據行動廣告的指定來調整競標。</li><li>如果產品組合設定為「[!UICONTROL Auto-optimize Bid Adjustment Values]」，則最佳化功能會變更廣告群組層級的競標調整，只要其計算的理想值落在產品組合設定中指定的最小值和最大值內，且廣告群組不排除行動廣告的競標。</li></ul></li></ul> |
-| [!UICONTROL Location] | 不適用 | 不適用 | 不適用 | 不適用 | 可選 | 為行銷活動放置廣告的地理位置。 若為城市，請使用「&lt;<i>城市</i>>、&lt;</i>縣</i>>」格式（例如安達致、東京）。 若要排除位置，請在位置前面加上減號(`-`)。 如果您未輸入促銷活動的特定值，則會鎖定所有位置。 |
+| [!UICONTROL Location] | 不適用 | 不適用 | 不適用 | 不適用 | 可選 | 為行銷活動放置廣告的地理位置。 若為城市，請使用格式「&lt;<i>City</i>>， &lt;</i>Previous</i>>」（例如Adachi， Tokyo）。 若要排除位置，請在位置前面加上減號(`-`)。 如果您未輸入促銷活動的特定值，則會鎖定所有位置。 |
 | [!UICONTROL Location Type] | 不適用 | 不適用 | 不適用 | 不適用 | 必要/選用 | （當您鎖定特定位置時為必要）指定的位置是型別[!UICONTROL Prefecture]還是[!UICONTROL City]。 |
 | [!UICONTROL Ad Group Name] | 不適用 | 必填 | 必填 | 必填 | 不適用 | 促銷活動中的唯一廣告群組名稱。 長度上限為50個字元。 |
 | [!UICONTROL Max CPC] | 不適用 | 可選 | 可選 | 不適用 | 不適用 | 最高每次點按成本(CPC)，這是搜尋網路上廣告點按的最高金額，無論是否包含貨幣符號和標點符號。 您可以設定廣告群組和關鍵字的值。 新關鍵字的預設值繼承自廣告群組層級。 |

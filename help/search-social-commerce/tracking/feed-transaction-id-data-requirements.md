@@ -3,9 +3,16 @@ title: 使用交易ID的資料摘要資料需求
 description: 參考使用交易ID之資料摘要的資料需求。
 exl-id: 055b1417-3185-4081-83f0-9f4798058c04
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/TONScPVaJyxsORRD-sOrYXwEzO9rsa6ERPUo8oSRono
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 295
 ht-degree: 0%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 | 標題欄位/欄名稱 | 型別 | 說明 |
 | ---- | ---- | ---- |
-| 交易ID (ev_transid) | 區分大小寫的字串 | 與交易相關聯的廣告商產生的識別碼。 由於Adobe Advertising轉換追蹤標籤是用於交易的線上部分，因此這必須與Adobe Advertising為交易前部分提供的交易ID (ev_transid)相同。 這表示交易的線上部分的轉換標籤必須包含唯一交易ID的轉換量度。<br><br>**注意：** Adobe Advertising會使用識別碼來尋找舊的交易資料，並根據商定的插入模式來更新資料（例如，取代現有資料或增加新資料）。 |
+| 交易ID (ev_transid) | 區分大小寫的字串 | 與交易相關聯的廣告商產生的識別碼。 由於Adobe Advertising轉換追蹤標籤是用於交易的線上部分，因此這必須與Adobe Advertising為交易前部分提供的交易ID (ev_transid)相同。 這表示交易的線上部分的轉換標籤必須包含唯一交易ID的轉換量度。<br><br>**注意：** Adobe Advertising會使用此ID來尋找舊的交易資料，並根據商定的插入模式來更新資料（例如，取代現有資料或使用新資料來擴充資料）。 |
 | 交易日期 | 日期時間 | 交易的日期。 每個交易的格式必須一致。 |
 | 使用者端特定轉換 | 字串 | 正在追蹤的轉換（例如交易型別或金額）。 在開始摘要之前，請先與Adobe Advertising實作團隊討論要包含的轉換。 |
 

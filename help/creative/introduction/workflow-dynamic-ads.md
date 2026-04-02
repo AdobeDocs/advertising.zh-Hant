@@ -3,9 +3,16 @@ title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->* 廣告範本：顯示廣告範本(包含HTML5檔案的ZIP檔案)或視訊廣告範本（包含.scene檔案的ZIP檔案）
+>* 廣告範本：顯示廣告範本（包含HTML5檔案的ZIP檔案）或視訊廣告範本（包含.scene檔案的ZIP檔案）
 >* CSV、TSV或Microsoft Excel試算表(XLSX)格式的產品目錄
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5和影片廣告，請上傳或選取現有的廣告範本和目錄。
@@ -47,15 +54,15 @@ ht-degree: 0%
 
 1. [根據可用的資產，為您的動態廣告](/help/creative/ad-templates/ad-template-manage.md)建立廣告範本。 廣告範本必須是ZIP格式並包含：<!-- Need to add more specs for templates -->
 
-* 顯示創意：具有所需廣告格式的HTML5檔案，以及具有廣告屬性(.tdf)的檔案(僅限動態HTML5廣告)
+* 顯示創意：具有所需廣告格式的HTML5檔案，以及具有廣告屬性(.tdf)的檔案（僅限動態HTML5廣告）
 
 * 視訊創意：具有所需廣告格式的.scene檔案和具有廣告屬性(.tdf)的檔案
 
 1. 設定廣告元素：
 
-   * (適用於單一靜態HTML5廣告)收集並[上傳廣告的影像資產](/help/creative/feeds/asset-manage.md)。
+   * （適用於單一靜態HTML5廣告）收集並[上傳廣告的影像資產](/help/creative/feeds/asset-manage.md)。
 
-   * (適用於動態HTML5和影片廣告)建立廣告元素的目錄：
+   * （適用於動態HTML5和影片廣告）建立廣告元素的目錄：
 
       1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中加入影像或視訊名稱。 分別收集關聯的影像和視訊資產。
 

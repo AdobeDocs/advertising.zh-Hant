@@ -3,9 +3,14 @@ title: 建立負面版位
 description: 瞭解如何為 [!DNL Google Ads] 行銷活動和廣告群組建立負面刊登版位。
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -34,7 +39,7 @@ ht-degree: 0%
 
    * 網站：輸入有效的URL，例如www.example.com。 請參閱「如何新增您的排除URL」中的允許格式，網址為https://support.google.com/google-ads/answer/2454012。
 
-   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案[&#128279;](https://developers.google.com/adwords/api/docs/appendix/verticals)的清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
+   * 主題、類別或垂直檔案。 請參閱[[!DNL Google Ads] 指南](https://support.google.com/google-ads/editor/answer/30517)以及所有垂直專案[的](https://developers.google.com/adwords/api/docs/appendix/verticals)清單。 範例： `category::Industries > Energy & Utilities > Oil & Gas`。
 
 1. 按一下&#x200B;**[!UICONTROL Post]**。
 

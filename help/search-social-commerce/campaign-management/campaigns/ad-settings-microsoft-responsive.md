@@ -1,11 +1,16 @@
 ---
-title: '[!DNL Microsoft Advertising]回應式廣告設定'
+title: '[!DNL Microsoft Advertising]個回應式廣告設定'
 description: 參考 [!DNL Microsoft Advertising] 回應式廣告的設定。
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 0%
 >
 >廣告網路會使用商店的產品資訊和廣告群組層級的使用者目標定位，自動為連結至商家中心商店的對象行銷活動建立廣告。 您不需要手動建立廣告。
 
-**[!UICONTROL Images]：**&#x200B;廣告的最多15個JPEG或PNG影像。 至少加入一個長寬比為1.91:1的影像。 檢視[對象廣告影像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)允許的外觀比例和維度。
+**[!UICONTROL Images]：**&#x200B;廣告的最多15個JPEG或PNG影像。 至少包含一個具有1.91:1外觀比例的影像。 檢視[對象廣告影像](https://help.ads.microsoft.com/#apex/ads/en/56912/0)允許的外觀比例和維度。
 
 針對對象廣告，[!DNL Microsoft Advertising]會針對所有可能的長寬比自動裁切此影像。
 

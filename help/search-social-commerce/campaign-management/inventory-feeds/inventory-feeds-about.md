@@ -3,9 +3,14 @@ title: 關於使用庫存摘要自動化廣告管理
 description: 瞭解進階行銷活動管理，其可讓您根據產品或服務詳細目錄的相關資料，自動管理帳戶結構並提供動態廣告。
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -49,7 +54,7 @@ ht-degree: 0%
 
    如果您使用FTP，一開始請勿自動將資料張貼至廣告網路。 驗證第一個檔案的輸出並對結果滿意後，您可以變更設定。
 
-1. 將資料檔案上傳至FTP目錄、[在[!UICONTROL Advanced (ACM) view]中手動上傳資料檔案](feed-files-manage.md)，或[啟用Google或Microsoft商家中心帳戶的存取權](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. 將資料檔案上傳至FTP目錄、[在](feed-files-manage.md)中手動上傳資料檔案[!UICONTROL Advanced (ACM) view]，或[啟用Google或Microsoft商家中心帳戶的存取權](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 若要手動上傳檔案，您可以等到您建立使用資料檔案的範本為止。
 
@@ -59,7 +64,7 @@ ht-degree: 0%
 
 1. [透過範本傳播摘要資料](feed-data-propagate.md)，範本中的資料行名稱會以檔案或帳戶中的資料取代。 根據範本選項，搜尋、Social和Commerce會使用預設設定為廣告建立新的帳戶結構（促銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 
-1. （選擇性） [在[!UICONTROL Advanced (ACM)]檢視中預覽輸出](propagated-data-view.md)，並選擇性地檢視[!UICONTROL Propagations]標籤上的資料變更摘要。
+1. （選擇性） [在](propagated-data-view.md)檢視中預覽輸出[!UICONTROL Advanced (ACM)]，並選擇性地檢視[!UICONTROL Propagations]標籤上的資料變更摘要。
 
 1. [將資料](propagated-data-post.md)張貼到相關的廣告網路帳戶。
 

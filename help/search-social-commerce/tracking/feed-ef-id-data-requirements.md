@@ -3,9 +3,16 @@ title: 使用EF ID的資料摘要資料需求
 description: 參考使用EF ID之資料摘要的資料需求。
 exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >* 只要後續列中的資料遵循相同順序，標題就可以採用任何順序。 如果您不包含標題，則資料列的順序必須與每個摘要檔案一致。
->* 摘要檔案的每一行都必須包含一個交易的資料，而該交易必須由Adobe Advertising產生的ef_id (token)識別。
+>* 摘要檔案的每一行都必須包含一個交易的資料，而該交易必須由Adobe Advertising產生的ef_id （權杖）識別。
 
 | 標題欄位/欄名稱 | 型別 | 說明 |
 | ---- | ---- | ---- |

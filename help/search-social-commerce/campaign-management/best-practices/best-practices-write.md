@@ -3,9 +3,16 @@ title: 撰寫有效文字和復本
 description: 瞭解撰寫有效廣告文案的最佳實務。
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理Portfolio>Portfolio的最佳實務，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
+>如需專屬於產品組合中行銷活動的更多最佳實務，另請參閱最佳化指南>管理產品組合>產品組合的最佳實務區段，此區段可從Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
 ## 所有廣告網路的一般需求
 
@@ -40,7 +47,7 @@ ht-degree: 0%
 
 * 禁止使用不適當的語言。
 
-## 適用於有效廣告的Recommendations
+## 有效廣告的建議
 
 * 撰寫強大的標題來吸引潛在客戶。
 
@@ -62,11 +69,11 @@ ht-degree: 0%
 
 * 如果可能的話，請在標題/標題和說明/內文的兩行中都使用關鍵字。 [1]
 
-* 一律在文字中加入行動號召，例如「檢視」、「取出」、「訂購」或「註冊」，以提高點進率。 如果是影像廣告，請在連結至您網站的按鈕上加入行動號召；如果是多媒體廣告，請在早期影格中加入行動號召。
+* 請一律在文字中加入call to action （例如「檢視」、「取出」、「訂購」或「註冊」），以提高點進率。 如果是影像廣告，請在連結至您網站的按鈕上加入call to action；如果是多媒體廣告，請在早期影格中加入call to action。
 
 * 注意廣告商希望如何看待其品牌。 例如，廣告商可能不想在廣告中顯示「便宜」一詞。
 
-* 研究您的競爭對手在做什麼。 檢視某個空間的熱門廣告(在www.spyfu.com之類的網站)，並嘗試瞭解哪些廣告在運作。
+* 研究您的競爭對手在做什麼。 檢視某個空間的熱門廣告（在www.spyfu.com之類的網站），並嘗試瞭解哪些廣告在運作。
 
 [1]：如果您使用關鍵字插入，請使用正確的大寫作為插入代碼：
 

@@ -3,9 +3,18 @@ title: 同步 [!DNL Adobe] 個對象
 description: 瞭解如何同步處理 [!DNL Adobe] 對象的中繼資料、階層資料和不重複對象資料。
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 0%
 
 ---
@@ -32,7 +41,7 @@ ht-degree: 0%
 
 1. 輸入廣告商Adobe Experience Cloud帳戶的唯一組織識別碼，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
-   如果您不知道廣告商的組織ID，請在[!UICONTROL Admin] > [!UICONTROL Manage Client]的廣告商設定中的&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;欄位中查詢它。
+   如果您不知道廣告商的組織ID，請在&#x200B;**[!UICONTROL IMS Org ID]** > [!UICONTROL Admin]的廣告商設定中的[!UICONTROL Manage Client]欄位中查詢它。
 
 >[!MORELIKETHIS]
 >

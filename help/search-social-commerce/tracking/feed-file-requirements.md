@@ -3,9 +3,17 @@ title: 轉換摘要檔案的檔案需求
 description: 參考轉換摘要檔案的需求。
 exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 0%
 
 ---
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->轉換資料摘要一天會處理多次。 在當地時間午夜12:00後儘快上傳每日摘要，讓Adobe Advertising可以處理您的資料，並在凌晨於報表UI中提供。
+>轉換資料摘要一天會處理多次。 請在當地時間午夜12:00後儘快上傳每日摘要，以便Adobe Advertising可以處理您的資料，並在凌晨於報表UI中提供。
 
 >[!MORELIKETHIS]
 >

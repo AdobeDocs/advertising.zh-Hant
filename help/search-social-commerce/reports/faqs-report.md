@@ -3,9 +3,20 @@ title: 自訂報表常見問題集
 description: 瞭解效能報表相關常見問題的解答，包括疑難排解資料問題。
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -18,7 +29,7 @@ ht-degree: 0%
 報表會產生，但僅包含資料可用的日期資料。 如需每個報表型別何時有資料可用的詳細資訊，請參閱&quot;[用於報表的資料](data-used-for-reports.md)&quot;。
 +++
 
-+++點按日期和交易日期型報表之間有何差異？
++++點按日期型報表和交易日期型報表之間有何差異？
 當您依交易日期報告轉換時，資料會包含交易日期在指定期間內發生的交易。 此選項是基本報表和進階報表中的預設設定，可顯示指定期間內已賺取的收入。
 
 當您依點選日期報告轉換時，資料包含在指定時段內發生點選所產生的交易。 當投資組合在點按和交易之間有重大延遲時，此類報告會顯示投資組合的每次點按歷史收入，這讓您可以瞭解一段時間內會期待哪些收入行為。
@@ -26,8 +37,8 @@ ht-degree: 0%
 ![依點按日期的報告與依交易日期的報告](/help/search-social-commerce/assets/click-date-vs-txn-date.png "依點按日期的報告與依交易日期的報告")
 +++
 
-+++如果我變更點選回顧期間或曝光回顧期間，會發生什麼事？
-(僅使用Advertising畫素式轉換追蹤服務的廣告商)系統會在較長或較短的時段內收集由初始點選所產生之事件的資料。
++++如果變更點選回顧期間或曝光回顧期間，會發生什麼事？
+（僅使用Advertising畫素式轉換追蹤服務的廣告商）系統會在較長或較短的時段內收集由初始點選所產生之事件的資料。
 
 廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)會分別決定付費點按或顯示曝光發生後，事件可歸因於轉換的天數。 將值變更為較長或較短的期間，對於點按至收入或顯示曝光至收入期間特別短的廣告商可能很重要。
 
@@ -49,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-+++我的報告中的&quot;[!UICONTROL Keyword]&quot;欄包含值&quot;（廣告群組內容） &lt;*廣告群組名稱*>。&quot;
++++我的報告中的「[!UICONTROL Keyword]」欄包含值「(adgroup content) &lt;*廣告群組名稱*>」。
 當列包含啟用內容的搜尋行銷活動、顯示行銷活動或社交行銷活動的資料時（不包含關鍵字），[!UICONTROL Keyword]欄會改為顯示適用的廣告群組名稱。
 +++
 
@@ -59,7 +70,7 @@ ht-degree: 0%
 如果您不希望該期間的資料影響未來的出價，則可以選擇從模型中排除這些日期。 請聯絡您的Adobe客戶團隊以排除日期。
 +++
 
-+++我可以在特定帳戶屬性量度（例如[!UICONTROL Device]或[!UICONTROL Objective Name]）上建立報告嗎？
++++我可以建立特定帳戶屬性量度（例如[!UICONTROL Device]或[!UICONTROL Objective Name]）的報告嗎？
 對於行銷活動實體報表（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Product Group Report]），度量資料會依您包含在報表中的屬性欄動態彙總。 您可以選擇移除報表的索引鍵欄，並僅包含您要彙總資料的屬性欄。
 
 例如，如果您產生包含[!UICONTROL Keyword Report]和[!UICONTROL Ad Group]裝置欄的，則依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您在產生報表之前移除[!UICONTROL Keyword]欄，則報表會依裝置型別動態產生指定廣告群組的量度。
@@ -107,7 +118,7 @@ ht-degree: 0%
 依預設，報表中的所有貨幣資料都會以美元格式顯示（例如1,000.00）。 若要以正確的貨幣格式顯示值（但不含CSV和TSV格式的任何貨幣符號），請新增&quot;[!UICONTROL Currency]&quot;欄至報表。 如果報表包含不同貨幣的帳戶資料，則任何&quot;[!UICONTROL Total]&quot;貨幣值只是欄中所有數字的總和，無論貨幣為何。
 +++
 
-+++為什麼我會看到轉換量度應該是自然數字（1、2等等）的小數值？
++++為什麼我會看到轉換量度應是自然數字（1、2等）的小數值？
 在下列情況下，您可能會看到小數值：
 
 * 如果您使用[!UICONTROL Last Event]或[!UICONTROL First Event]以外的任何轉換歸因規則引數執行報表，則收入可能會在轉換路徑中的多個事件之間分割。
@@ -140,7 +151,7 @@ ht-degree: 0%
 +++報表中的效能資料與[!DNL Google Analytics]中的資料不同。
 這兩個系統會測量不同的資料，因此您應該會看到不同的資料。 例如：
 
-* 搜尋、社交和Commerce (以及Google廣告)追蹤點選次數，而[!DNL Google Analytics]則追蹤每30分鐘瀏覽器工作階段的造訪次數。 例如，如果使用者按一下您的廣告一次，按一下「上一步」按鈕，然後再次按一下廣告，則Search、Social和Commerce會記錄兩次點按，但[!DNL Google Analytics]會記錄一次造訪。
+* 搜尋、社交和Commerce （以及Google廣告）追蹤點選次數，而[!DNL Google Analytics]則追蹤每30分鐘瀏覽器工作階段的造訪次數。 例如，如果使用者按一下您的廣告一次，按一下「上一步」按鈕，然後再次按一下廣告，則Search、Social和Commerce會記錄兩次點按，但[!DNL Google Analytics]會記錄一次造訪。
 
 * [!DNL Google Analytics]顯示所有流量資料，而搜尋、社交和Commerce （和[!DNL Google Ads]）會篩選無效的點按（例如過多、重複的點按）。
 
@@ -210,7 +221,7 @@ ht-degree: 0%
    客戶服務將檢查檔案是否已收到並剖析。 如果檔案已順利處理，且未發生錯誤，則會檢查孤立的交易。
 +++
 
-+++有些進階報表並不包含廣告商摘要所提供的轉換資料。
++++某些進階報表不包含廣告商摘要所提供的轉換資料。 
 [!UICONTROL Geo Distribution Report]和[!UICONTROL Domain Referral Report]使用透過Adobe Advertising轉換追蹤服務擷取的資料，而且只能為該服務的廣告商產生。 這些報表不包含在Adobe Advertising轉換追蹤系統外部所追蹤的轉換資料。
 +++
 
@@ -303,12 +314,12 @@ ht-degree: 0%
 當檢視的所有篩選器、報表引數以及檢視和報表的資料欄相同時，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]檢視會顯示相同的資料。 例如，如果[!UICONTROL Portfolios]檢視在日期範圍「[!UICONTROL All but inactive]」顯示為「[!UICONTROL Last 7 days]」的投資組合，且只顯示預設資料欄，則使用預設引數的[!UICONTROL Portfolio Report]會顯示相同的資料。 如果您變更任何報表引數，或在[!UICONTROL Portfolios]檢視中使用不同的篩選器，則資料值可能會不同。
 +++
 
-+++我的[!UICONTROL Portfolio Report]中的資料與我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的資料不相符。
++++我的[!UICONTROL Portfolio Report]中的資料與我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的資料不符。
 [!UICONTROL Portfolio Report]只會顯示指派給指定投資組合之行銷活動的資料，但[!UICONTROL Search Engine Report]和[!UICONTROL Search Engine Account Report]可能也會包含未指派給投資組合之行銷活動的資料。
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]與投資組合層級[!UICONTROL Model Accuracy Report]有何不同？
-(僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者) [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]提供與產品組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個產品組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
+（僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者） [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]提供與產品組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個產品組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
 +++
 
 +++廣告層級資料不適用於[!DNL Google Ads]動態搜尋廣告(DSA)、最高效能、智慧購物和[!DNL YouTube]行銷活動。
@@ -331,14 +342,14 @@ ht-degree: 0%
 若要解決此問題，請更新試算表摘要，以包含每日彙總的資料。 此工作包括更新報告範本、使用該範本產生報告、使用該報告建立自訂[!DNL Microsoft Excel]範本，以及更新摘要設定以包括新的Excel範本。 如需詳細資訊，請參閱[編輯試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)。
 +++
 
-+++試算表摘要會導致內部錯誤。
++++試算表摘要會產生內部錯誤。
 如果您變更報表範本中的欄，但沒有相應地更新[!DNL Microsoft Excel]範本，就可能會發生此錯誤。
 
 若要解決此問題，請更新試算表摘要以包含新欄。 此工作包括更新報告範本、使用該範本產生報告、使用該報告建立自訂[!DNL Excel]範本，以及更新摘要設定以包括新的Excel範本。 如需詳細資訊，請參閱[編輯試算表報表摘要設定](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)。
 +++
 
 +++當我嘗試在[!DNL Excel]中開啟試算表摘要時，[!DNL Excel]報告「無法讀取的內容」錯誤，並且資料會從復原的內容中移除。
-當[!DNL Microsoft Excel]範本未依開始日期遞增順序排序資料時，試算表摘要可能會包含空白列。 特別是，[!DNL Excel]報告錯誤「Excel在&#39;&lt;*報告名稱*>.xlsx中找到無法讀取的內容」。 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
+當[!DNL Microsoft Excel]範本未依開始日期遞增順序排序資料時，試算表摘要可能會包含空白列。 尤其是，[!DNL Excel]報告錯誤「Excel在&#39;&lt;*報告名稱*>.xlsx中發現無法讀取的內容」。 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
 
 若要解決此問題，請編輯與摘要相關的[!DNL Excel]範本，以依[!DNL Start date in Ascending (Oldest to Newest) order]排序資料，然後透過試算表摘要設定上傳更新的範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;。
 +++

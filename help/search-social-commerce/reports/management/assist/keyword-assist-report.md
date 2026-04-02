@@ -3,16 +3,23 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 瞭解[!UICONTROL Keyword Assist Report]。
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 781
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Assist Report]
 
-*廣告商具有搜尋、社交和Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
+*廣告商具有搜尋、社交及Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
 
 [!UICONTROL Keyword Assist Report]指出哪些關鍵字或位置可驅動點按。 報表會顯示轉換路徑中收到點按的付費搜尋關鍵字或版位的每個模式，並指出該模式對整體轉換的貢獻。 例如，您可以檢視當使用者第一次按下關鍵字搜尋「皮鞋」產生的廣告，然後在關鍵字搜尋「山羊皮鞋」後按一下廣告，然後下達訂單時，發生的轉換次數；或者，您可以檢視使用者按下關鍵字超過10個產生的廣告後發生的轉換次數。
 

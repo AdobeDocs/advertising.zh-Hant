@@ -3,9 +3,14 @@ title: 變更關鍵字和負關鍵字的狀態
 description: 瞭解如何變更關鍵字和負面關鍵字的狀態。
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 您也可以刪除作用中或暫停的搜尋關鍵字或負關鍵字。 已刪除的關鍵字/負面關鍵字會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下「**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \|」 [!UICONTROL Negatives]\]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**。
 
 1. （選擇性）篩選清單以包含特定關鍵字或負面關鍵字。
 

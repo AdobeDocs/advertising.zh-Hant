@@ -3,9 +3,14 @@ title: 可在大量表單中執行的作業
 description: 參考使用大量表單新增、編輯和刪除行銷活動資料的一般資訊。
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 0%
 
 ---
@@ -30,9 +35,9 @@ ht-degree: 0%
 
 * 正在刪除：
 
-   * 若要刪除現有元件，請包含編輯該元件所需的所有欄位，並將其狀態變更為[!UICONTROL Deleted]。 例如，若要刪除[!DNL Google Ads]廣告群組，您必須包含值為<i>[!UICONTROL Deleted]</i>的[!UICONTROL Campaign Name]、[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]以及[!UICONTROL Ad Group ID]。
+   * 若要刪除現有元件，請包含編輯該元件所需的所有欄位，並將其狀態變更為[!UICONTROL Deleted]。 例如，若要刪除[!DNL Google Ads]廣告群組，您必須包含值為[!UICONTROL Campaign Name]的[!UICONTROL Ad Group Name]、[!UICONTROL Ad Group Status]、<i>[!UICONTROL Deleted]</i>以及[!UICONTROL Ad Group ID]。
 
-   * （[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]個值）若要刪除關鍵字的現有[!DNL paramN]值，請包含編輯關鍵字所需的所有欄位，並在對應欄位中輸入值`[delete]` （包括括弧）來刪除現有[!DNL paramN]值。
+   * （[!UICONTROL Param1]、[!UICONTROL Param2]和[!UICONTROL Param3]個值）若要刪除關鍵字的現有[!DNL paramN]值，請包含編輯關鍵字所需的所有欄位，並在對應欄位中輸入值[!DNL paramN] （包括括弧）來刪除現有`[delete]`值。
 
    * （允許的屬性欄位）若要刪除元件的現有屬性值，請包含編輯該元件所需的所有欄位，並輸入值`[delete]` （包括括弧）來刪除屬性值。 允許的欄位包括：
 

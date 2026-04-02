@@ -3,9 +3,17 @@ title: ' [!DNL Google Ads] 帳戶必要的大量表單資料'
 description: 參考 [!DNL Google Ads] 帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '7898'
+source-wordcount: 7898
 ht-degree: 0%
 
 ---
@@ -40,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Delivery Method] | <p>每天顯示行銷活動廣告的速度如何：</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i> （新行銷活動的預設值）：將您的廣告印象分散在一天當中。</p></li><li><p><i>[!UICONTROL Accelerated]：</i> （2019年10月淘汰）在達到預算前儘可能顯示您的廣告。 因此，您的廣告可能不會在當天稍後出現。</p></li></ul> |
 | [!UICONTROL Channel Type] | <p>要放置廣告的管道。 指定一或多個選項：</p><ul><li><p><i>[!UICONTROL Search]</i> （新行銷活動的預設值）：若要在[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登廣告，以及選擇性地在[!DNL Google Ads]顯示網路上刊登廣告。 <b>注意：</b>針對搜尋網路和顯示網路的行銷活動無法新增至競標最佳化的產品組合。</p></li><li><p><i>[!UICONTROL Display]</i>：只在[!DNL Google Ads]顯示網路上刊登廣告。</p></li><li><p><i>[!UICONTROL Shopping]</i>：若要在[!DNL Google Ads]購物網路（在選取的國家/地區）和[!DNL Google Ads]搜尋網路（包括[!DNL Google Ads]搜尋和搜尋合作夥伴網站）上刊登購物廣告。 若要建立購物廣告，您必須擁有[!DNL Google Merchant Center]帳戶中的產品，且[允許Search、Social和Commerce從帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)下載資料。 如需建立購物廣告程式的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot;。</p></li></ul> |
 | [!UICONTROL Networks] | <p>廣告的放置位置。 指定一或多個選項：</p><ul><li><p><i>[!UICONTROL Google Search]</i>：僅在Google搜尋網路上贊助的搜尋清單。</p></li><li><p><i>[!UICONTROL Search Partners]</i>： Google搜尋合作夥伴的贊助搜尋清單。</p></li><li><p><i>[!UICONTROL Content]</i>：對顯示網路清單出價。</p></li><li><p><i>[!UICONTROL All]</i> （新行銷活動的預設值）：目標Google搜尋、搜尋合作夥伴和內容。</p></li></ul> |
-| [!UICONTROL DSA Domain Name] | <p>（僅限搜尋網路；僅適用於展開的動態搜尋廣告）廣告網路用來鎖定動態搜尋廣告之內容的網站根網域(例如example.com)或子網域(例如shoes.example.com)。<br><br><b>附註：</b></p><ul><li><p>展開的動態搜尋廣告會以網站內容為目標，而非關鍵字。</p></li><li><p>您的網域必須依廣告網路的有機搜尋索引編制索引，才能定位。</p></li><li><p>如果您未指定網域，則必須建立動態搜尋目標，將目標設為每個廣告群組的所有網站頁面或其子集。</p></li></ul> |
+| [!UICONTROL DSA Domain Name] | <p>（僅限搜尋網路；僅適用於展開的動態搜尋廣告）廣告網路用來鎖定動態搜尋廣告之內容的網站根網域（例如example.com）或子網域（例如shoes.example.com）。<br><br><b>附註：</b></p><ul><li><p>展開的動態搜尋廣告會以網站內容為目標，而非關鍵字。</p></li><li><p>您的網域必須依廣告網路的有機搜尋索引編制索引，才能定位。</p></li><li><p>如果您未指定網域，則必須建立動態搜尋目標，將目標設為每個廣告群組的所有網站頁面或其子集。</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | （僅限搜尋網路；僅適用於擴充的動態搜尋廣告）指定網站網域的語言。 <b>注意：</b>如果網域包含多種語言的頁面，而您想要鎖定所有語言，請為每個語言建立個別的行銷活動。 |
 | [!UICONTROL GDN Custom Bid Level] | （僅針對顯示網路的行銷活動）競標方式：由<i>[!UICONTROL Ad Group]</i> （預設）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （網站）或<i>[!UICONTROL None]</i> （重設現有值）。 其他維度（<i>年齡</i>、<i>性別</i>、<i>興趣和清單</i>、<i>主題</i>和<i>垂直</i>）可從[!DNL Google Ads]介面取得。 如果您已使用[!DNL Google Ads]介面設定其他維度的競標，則會顯示該值，但您無法在這裡選取或輸入這些維度。</p><p><b>附註：</b></p><ul><li><p>當您依據關鍵字競標時，請在關鍵字層級建立追蹤範本。 同樣地，當您依版位競標時，請在版位層級建立追蹤範本。 針對所有其他維度，在廣告層級建立追蹤範本。</p></li><li><p>如果您以不支援的維度（年齡、性別、興趣和清單或主題）競標，搜尋、社交和Commerce不會最佳化維度的競標，而所有歸因都會套用至廣告群組。</p></li><li><p>搜尋網路上的廣告一律會使用關鍵字競標。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（僅限購物行銷活動）當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： <i>[!UICONTROL Low]</i> （新行銷活動的預設值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。</p><p>當同一個產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。 |
@@ -49,14 +57,14 @@ ht-degree: 0%
 | [!UICONTROL Sales Country] | （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動產品銷售的國家/地區。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。 |
 | [!UICONTROL Product Scope Filter] | （僅使用[!DNL Google Ads]購物網路的行銷活動）您[!DNL Google Merchant Center]帳戶中可為其建立購物廣告的行銷活動。 您可以使用格式dimension=attribute，輸入最多七種產品維度和屬性組合，以篩選產品。 使用「>>」分隔符號分隔多個篩選器。 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;。</p><p>範例：「CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies」</p><p>若要刪除現有值，請使用值<code>[delete]</code> （包括括弧）。</p> |
 | [!UICONTROL Languages] | <p>（僅限搜尋和顯示網路）行銷活動中廣告的目標語言。</p><p>如果您未針對此欄位或新促銷活動的[!UICONTROL Geo Targeting]欄位輸入值，則為帳戶指定的貨幣會決定預設語言，但貨幣未對應至特定語言的促銷活動（例如EUR）會鎖定至所有語言。 如果您未輸入此欄位的值，但在新行銷活動的[!UICONTROL Geo Targeting]欄位中輸入值，則預設為<i>[!UICONTROL All]</i>。 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定所有語言，請輸入<span style="font-style: italic;">&lt;i[!UICONTROL >All]</i></span>。 若要鎖定特定語言，請輸入使用<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">[!DNL Google Ads]語言名稱</a> （例如<i>英文；日文</i>，以正確的數字代碼取代）或數字代碼（例如<i>1000；1005</i>）以分號分隔的值。 值不區分大小寫。</p> |
-| [!UICONTROL Location] | 為促銷活動放置廣告或排除廣告的地理位置。 如果您未針對新促銷活動在此欄位或「語言」欄位中輸入任何值，則為帳戶指定的貨幣會決定預設地點，除非其貨幣未對應至特定地點的促銷活動（例如EUR）會鎖定至所有地點。 如果您未輸入此欄位的值，但在新行銷活動的[!UICONTROL Languages]欄位中輸入值，則預設為<i>[!UICONTROL All]</i>。 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定特定位置，請使用其中一個[[!DNL Google Ads] 位置名稱](https://developers.google.com/adwords/api/docs/appendix/geotargeting) （以正確的數字代碼取代）或位置代碼：</p><ul><li><p>國家/地區：輸入國家/地區名稱（例如<i>美國；日本</i>）或數值代碼（例如<i>2840；2392</i>）。</p></li><li><p>州/省/地區：輸入州/省/地區名稱以及相關國家/地區的縮寫（例如<i>Tokyo， JP；New York， US</i>）或數值代碼(例如<i>20636；21167</i>)。</p></li><li><p>非美國城市：輸入城市名稱、州/省/地區名稱以及國家/地區縮寫（例如<i>Adachi， Tokyo， JP；Kita， Tokyo， JP</i>），或數值代碼(例如<i>1028850；1009293</i>)</p></li><li><p>美國都市區：輸入城市名稱、州名和國家/地區縮寫（例如<i>Buffalo NY， US；New York NY， US</i>）或數值代碼（例如<i>514；501</i>）。</p></li></ul><p>若要排除位置，請在位置名稱或程式碼前面加上減號(`-`)，例如<i>-Japan</i>。</p><p><b>注意：</b>值不區分大小寫。</p> |
+| [!UICONTROL Location] | 為促銷活動放置廣告或排除廣告的地理位置。 如果您未針對新促銷活動在此欄位或「語言」欄位中輸入任何值，則為帳戶指定的貨幣會決定預設地點，除非其貨幣未對應至特定地點的促銷活動（例如EUR）會鎖定至所有地點。 如果您未輸入此欄位的值，但在新行銷活動的[!UICONTROL Languages]欄位中輸入值，則預設為<i>[!UICONTROL All]</i>。 如果您將現有行銷活動的此欄位留空，則會保留現有值。</p><p>若要鎖定特定位置，請使用其中一個[[!DNL Google Ads] 位置名稱](https://developers.google.com/adwords/api/docs/appendix/geotargeting) （以正確的數字代碼取代）或位置代碼：</p><ul><li><p>國家/地區：輸入國家/地區名稱（例如<i>美國；日本</i>）或數值代碼（例如<i>2840；2392</i>）。</p></li><li><p>州/省/地區：輸入州/省/地區名稱以及相關國家/地區的縮寫（例如<i>Tokyo， JP；New York， US</i>）或數值代碼（例如<i>20636；21167</i>）。</p></li><li><p>非美國城市：輸入城市名稱、州/省/地區名稱以及國家/地區縮寫（例如<i>Adachi， Tokyo， JP；Kita， Tokyo， JP</i>），或數值代碼（例如<i>1028850；1009293</i>）</p></li><li><p>美國都市區：輸入城市名稱、州名和國家/地區縮寫（例如<i>Buffalo NY， US；New York NY， US</i>）或數值代碼（例如<i>514；501</i>）。</p></li></ul><p>若要排除位置，請在位置名稱或程式碼前面加上減號(`-`)，例如<i>-Japan</i>。</p><p><b>注意：</b>值不區分大小寫。</p> |
 | [!UICONTROL Location Type] | （當您包含位置時） [位置型別](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（當您包含[!UICONTROL Location]、[!UICONTROL Device]或[!UICONTROL RLSA]目標時）是否調整特定位置、特定裝置型別或特定對象目標中廣告的競標：</p><ul><li><p>若要使用關鍵字層級的競標（0%差異），請輸入0。 若為新目標，您也可以將此專案留空。</p></li><li><p>若要對此目標使用不同的競標，請輸入增加或減少競標的百分比。</p></li><ul><li><p>對於位置和RLSA目標，有效百分比包括從–90到900。</p></li><li><p>針對裝置競標調整，有效百分比包括：</p></li><ul><li><p>（行銷活動）–100 （不對裝置型別上的廣告投標）或從–90到900。</p></li><li><p>（廣告群組） -100適用於智慧型手機和平板電腦（不得競標裝置型別），以及從–90到900適用於所有裝置型別。</p></li></ul></ul><li><p>（現有行銷活動和廣告群組）若要使用現有競標調整，請將此項留空。</p></li></ul> |
 | [!UICONTROL Adobe Rec Bid Adjustment] | （包含在產生的大量表單中以供參考） Adobe建議用於行銷活動層級位置目標或RLSA的唯讀競標調整。 只有當行銷活動位於其目標使用加權轉換量度（而非[!UICONTROL Maximize Clicks]目標）的投資組合中，且行銷活動包含至少兩個位置目標或過去90天內具有至少五次點按或成本為5美元的RLSA時，才會計算此值。</p><p>如果您想要手動編輯位置目標或RLSA以使用建議值，請在建立位置目標或RLSA後至少等待兩週，以允許足夠的資料收集，並且不要每週變更值超過一次。 |
 | [!UICONTROL Device Targets] | <p>（僅限舊版行銷活動型別）廣告可能會顯示的裝置： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>或<i>[!UICONTROL Tablets]</i>。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （僅限舊版促銷活動型別；適用於裝置目標包含「智慧型手機」或「平板電腦」時）可顯示廣告的作業系統： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（僅限舊版促銷活動型別；適用於[!UICONTROL Device Targets]包含&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Smartphones]&quot;）智慧型手機可能連線的行動電信業者： <i>[!UICONTROL All]</i>，或使用<i>可用電信業者清單和</i>的代碼，以&lt;c<i>電信業者代碼</i>>、&lt;<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">國家/地區代碼[!DNL Google Ads]</a>> （例如T-Mobile，US）表示的一或多個電信業者。 以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（僅舊版促銷活動型別；適用於[!UICONTROL Device Targets]包含&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Smartphones]&quot;）智慧型手機可能連線的行動電信業者： <i>[!UICONTROL All]</i>，或使用<i>的</i>可用電信業者和代碼清單以&lt;c<i>電信業者代碼</i>>、&lt;<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">國家代碼[!DNL Google Ads]</a>> （例如T-Mobile，US）表示的一或多個電信業者。 以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>可識別廣告群組的唯一名稱。 長度上限為255個字元；不會儲存結尾的空白字元（例如，「廣告群組1」會儲存為「廣告群組1」）。 此欄位不適用於行銷活動層級的網站連結或行銷活動層級的裝置目標。</p> |
 | [!UICONTROL Ad Group Type] | <p>廣告群組型別： <i>[!UICONTROL Demand Gen]</i> （僅供需求一般行銷活動使用）、<i>[!UICONTROL Display]</i> （供顯示行銷活動使用）、<i>[!UICONTROL Search Dynamic]</i> （供展開的動態搜尋廣告使用）、<i>[!UICONTROL Search Standard]</i> （供搜尋廣告使用）、<i>[!UICONTROL Shopping Product]</i> （供購物產品廣告使用）、<i>[!UICONTROL Shopping Showcase]</i> （不支援建立和編輯）或<i>[!UICONTROL Unknown]</i>。</p> |
 | [!UICONTROL Max CPC] | <p>（僅適用於CPC行銷活動）最高每次點按成本(CPC)，這是廣告網路上的廣告點按最高金額，無論是否包含貨幣符號和標點符號。 您可以設定廣告群組和關鍵字、產品群組及動態搜尋目標的值。 新關鍵字的預設值繼承自廣告群組層級。 對於產品群組，您可以設定最低產品群組層的值；新層的預設值繼承自父層。</p><p>對於最佳化產品組合中的現有產品群組和動態搜尋目標，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。</p> |
@@ -81,7 +89,7 @@ ht-degree: 0%
 | [!UICONTROL Display Path 2] | 第二個顯示路徑；請參閱[!UICONTROL Display Path 1]的專案。<br><br>範例：如果[!UICONTROL Display Path 1]是「deals」，[!UICONTROL Display Path 2]是「local」，則顯示URL是&lt;<i>顯示URL</i>>/deals/local，例如www.example.com/deals/local。</p><p>您無法建立或編輯已展開的文字廣告，[!DNL Google Ads]已於2022年6月淘汰。</p> |
 | [!UICONTROL Promotion Line] | （僅限產品清單廣告）搜尋結果中產品清單所包含的選擇性促銷明細行。 長度上限為45個字元。</p><p>促銷明細行可能會出現在與廣告相關的不同位置（例如廣告下方），視廣告在頁面上出現的位置而定。 |
 | [!UICONTROL Link Name] | <p>網站連結文字。 最多可包含25個字元。</p><p>若是新的網站連結，您必須在網站連結列中包含行銷活動名稱。 針對廣告群組層級網站連結，您也必須包含廣告群組名稱。</p><p><b>注意：</b> 35個字元的現有文字仍會顯示在桌上型電腦和平板電腦的廣告中，但不會顯示在行動裝置上。</p> |
-| [!UICONTROL Mobile App Platform (Google Adwords)] | （僅限現有應用程式安裝廣告）行動應用程式執行的作業系統： <i>Android™</i>或<i>ios</i>。 |
+| [!UICONTROL Mobile App Platform (Google Adwords)] | （僅限現有應用程式安裝廣告）行動應用程式執行的作業系統： <i>™</i>或<i>ios</i>。 |
 | [!UICONTROL Mobile App ID (Google Adwords)] | （僅限現有應用程式安裝廣告） <p>應用程式ID或封裝名稱。 |
 | [!UICONTROL Mobile App Name (Google Adwords)] | （僅限現有應用程式安裝廣告）應用程式的名稱。 |
 | [!UICONTROL Start Date] | <p>（僅限增強型網站連結）可在廣告商的時區及下列格式之一中，對網站連結發出競標的第一天： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新增強型網站連結的預設值為當天。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
@@ -124,9 +132,9 @@ ht-degree: 0%
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL Exemption Request] | （包含於產生的大量表單中，以供參考）顯示廣告違反的任何[!DNL Google Ads]廣告原則的名稱和文字的預留位置。 |
-| [!UICONTROL Retail Hash] | （包含於使用進階促銷活動管理產生的大量表單中以供參考）英數字元雜湊代碼(例如f9639f40cdf56524b541e5dacf55a991)，表示專案是使用進階(ACM)檢視產生的。 |
+| [!UICONTROL Retail Hash] | （包含於使用進階促銷活動管理產生的大量表單中以供參考）英數字元雜湊代碼（例如f9639f40cdf56524b541e5dacf55a991），表示專案是使用進階(ACM)檢視產生的。 |
 
-[^1]： [!DNL Excel]在開啟檔案時將大數轉換為科學記號(例如2115585666的2.12E+09)。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
+[^1]： [!DNL Excel]在開啟檔案時將大數轉換為科學記號（例如2115585666的2.12E+09）。 若要以標準標籤法檢視數字，請選取欄中的任何儲存格，然後按一下公式列內的「 」。
 
 ## 建立、編輯或刪除每個帳戶元件所需的欄位 {#bulksheet-fields-per-component-google}
 

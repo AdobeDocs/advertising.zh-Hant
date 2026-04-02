@@ -3,9 +3,16 @@ title: 用於報表的資料
 description: 瞭解資料檢視和自訂報告中可用的不同型別資料。
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -30,7 +37,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Average Position]：** （適用時）已刊登廣告的平均位置，以曝光次數加權。
 
-   * **[!UICONTROL Estimated Clicks]：** (僅包含在具有Adobe Advertising轉換追蹤服務的廣告商的進階報表中)反向連結網站之城市或網域名稱的預估點按總數。 這可能包括廣告商沒有廣告帳戶的廣告網路資料。
+   * **[!UICONTROL Estimated Clicks]：** （僅包含在具有Adobe Advertising轉換追蹤服務的廣告商的進階報告中）反向連結網站之城市或網域名稱的預估點按總數。 這可能包括廣告商沒有廣告帳戶的廣告網路資料。
 
 * **轉換量度：**&#x200B;每個廣告商的轉換量度或追蹤至轉換量度的交易資料的總轉換次數。 這可能包括轉換和網站參與量度，但不會包括從Adobe Analytics同步的計算量度和進階計算量度。
 

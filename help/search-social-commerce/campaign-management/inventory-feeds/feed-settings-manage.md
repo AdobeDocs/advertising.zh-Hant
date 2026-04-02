@@ -3,9 +3,14 @@ title: 設定摘要資料設定
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 對於FTP檔案，摘要服務每兩小時檢查FTP目錄中的更新（PST時區為偶數小時）。 此選項會處理自上次檢查以來上傳的所有檔案。
->* 對於商家中心帳戶，搜尋、社交和Commerce每天在廣告商時區的約06:00與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
+>* 對於商家中心帳戶，搜尋、社交和Commerce會在廣告商時區的大約06:00每天與帳戶同步。 此選項會處理自上次同步後更新的所有資料。
 >* 從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤可以使用已傳播的資料，直到資料張貼到廣告網路或[!UICONTROL Bulksheets]檢視為止。
 
 **[!UICONTROL Post to the SE]：** （廣告商透過FTP或商戶中心帳戶上傳資料檔案）透過適用的範本傳播新資料後，自動以正確格式建立相關廣告網路的Bulksheet檔案。 此選項也會從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤移除資料，除非任何子元件發生錯誤。

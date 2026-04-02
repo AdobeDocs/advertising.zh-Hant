@@ -3,9 +3,14 @@ title: 影像轉換追蹤標籤的格式
 description: 參考影像轉換追蹤標籤的格式。
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[&#128279;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的常見問題集。
+>如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[上的](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)常見問題集。
 
 * 具有HTTP的網站的不安全標籤：
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 * `<transid>`是廣告商產生並傳遞以識別交易的唯一交易ID （例如實際訂單ID）。 只有在選取&quot;[!UICONTROL Include unique transaction IDs]&quot;選項時才會包含它。
 
-  搜尋、Social和Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用它來驗證包含廣告商資料的Adobe Advertising中的資料。 **注意：**&#x200B;如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生一個ID。
+  搜尋、Social和Commerce會使用交易ID來消除具有相同交易ID和屬性值的重複交易。 交易ID包含在[!UICONTROL Transaction Report]中，您可以使用它來驗證Adobe Advertising中的資料與廣告商的資料。 **注意：**&#x200B;如果廣告商的資料並未包含每個交易的唯一ID，則Search、Social和Commerce仍會根據交易時間產生一個ID。
 
 <!-- add more links -->
 
