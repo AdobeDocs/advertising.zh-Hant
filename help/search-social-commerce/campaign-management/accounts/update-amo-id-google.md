@@ -24,7 +24,7 @@ ht-degree: 0%
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-現有[帳戶的](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID追蹤代碼[!DNL Google Ads]的舊版（2019年10月之前）格式不支援Analytics中的某些功能，例如[!DNL Google Ads]最高成效行銷活動的行銷活動和廣告群組層級報告、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+相符型別組合的使用案例。
+現有[帳戶的](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID追蹤代碼[!DNL Google Ads]的舊版（2019年10月之前）格式不支援Analytics中的某些功能，例如[!DNL Google Ads]最高成效行銷活動的行銷活動和廣告群組層級報告、草稿和實驗行銷活動，以及其他在多個行銷活動中存在相同廣告+關鍵字+相符型別組合的使用案例。
 
 目前的格式包含行銷活動ID和廣告群組ID的引數：
 
@@ -78,4 +78,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [管理廣告網路帳戶](ad-network-account-manage.md)
 >* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID
->* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [總覽 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant){target="_blank"}

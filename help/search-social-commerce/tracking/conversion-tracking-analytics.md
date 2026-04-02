@@ -25,7 +25,7 @@ ht-degree: 0%
 
 對於整合Adobe Advertising-Adobe Analytics的廣告商，當您在您的[!DNL Analytics]競標單位`ef_id`的點選追蹤URL中使用含有Token （[引數）的重新導向，Advertising Cloud即可將您的廣告點選次數和曝光次數與](/help/search-social-commerce/glossary.md#a-b)追蹤的網站參與和轉換量度連結。 [!DNL Analytics]資料會透過每日摘要檔案自動傳送至Advertising Cloud。
 
-如需整合的詳細資訊，請參閱「[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}的概觀」。
+如需整合的詳細資訊，請參閱「[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview){target="_blank"}的概觀」。
 
 >[!PREREQUISITES]
 >

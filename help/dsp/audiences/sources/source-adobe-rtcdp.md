@@ -44,11 +44,11 @@ ht-degree: 0%
 
    電子郵件地址必須使用SHA-256演演算法執行雜湊處理。
 
-   如需啟用DSP目的地連線、啟用對象及驗證資料匯出的指示，請參閱「[Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)」。
+   如需啟用DSP目的地連線、啟用對象及驗證資料匯出的指示，請參閱「[Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)」。
 
    >[!NOTE]
    >
-   >舊版連線（僅支援雜湊電子郵件地址）現在稱為「[舊版Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」。 如果您已使用舊版連線，則不需要立即進行任何變更。 不過，舊版連線最終將會移除。
+   >舊版連線（僅支援雜湊電子郵件地址）現在稱為「[舊版Adobe Advertising Cloud DSP連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」。 如果您已使用舊版連線，則不需要立即進行任何變更。 不過，舊版連線最終將會移除。
 
 1. 驗證在您的對象資料庫中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在位置設定中建立或編輯對象時，可使用此資料庫）有區段正在填入，並將通用ID的數量與原始使用者ID的數量進行比較。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >
 >* [關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
+>* Adobe Experience Platform [目的地目錄總覽](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant)
 >* [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
