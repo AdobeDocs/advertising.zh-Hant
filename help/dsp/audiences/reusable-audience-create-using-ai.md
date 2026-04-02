@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *Beta功能*
 
 *僅支援英文*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ ht-degree: 0%
 
       如需詳細資訊，請參閱[撰寫提示](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
 
-      當受眾代理程式找到相關的區段時，會根據您的條件建立受眾運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。
+      當受眾代理程式找到相關的區段時，會根據您的條件建立布林值受眾運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。
 
       您可以選擇忽略請求，然後繼續指定其他對象條件。
 
    1. 當受眾代理程式呈現的受眾運算式足以描述您的受眾時，請告訴受眾代理程式繼續組裝受眾。
 
-      您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。
+      您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 展開任何特徵可檢視針對該特徵建議的個別區段的相關詳細資訊。
 
    1. （如有必要）指定其他條件。 當受眾代理程式呈現符合您所有條件的受眾運算式時，請告訴受眾代理程式繼續組裝受眾。
 
-      若要集合對象，請輸入「繼續」、「確定」、「是」或其他類似字詞。
+      若要集合對象，請輸入「繼續」、「確定」、「是」或其他類似字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 展開任何特徵可檢視針對該特徵建議的個別區段的相關詳細資訊。
 
 1. 當您對集合的對象感到滿意時，請按一下「**[!UICONTROL Create]**」以建立指定的對象。
 
