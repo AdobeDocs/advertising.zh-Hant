@@ -4,9 +4,12 @@ description: 瞭解如何將大量表單檔案張貼至您的廣告網路。
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 726
@@ -39,7 +42,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 >
 >* 大量資料需要更長的時間才能發佈。 您可以在[!UICONTROL Progress]檢視的[!UICONTROL Bulksheets]資料行中追蹤檔案進度。
 >* 所有張貼的資料都受限於網路的編輯程式。
-* 在張貼Bulksheet檔案之前，您可以取消張貼。
+>* 在張貼Bulksheet檔案之前，您可以取消張貼。
 
 ## 張貼大量工作表和已更正錯誤檔案的設定 {#bulksheet-post-settings}
 

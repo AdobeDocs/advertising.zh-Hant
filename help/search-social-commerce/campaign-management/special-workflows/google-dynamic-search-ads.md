@@ -4,8 +4,10 @@ description: 瞭解設定 [!DNL Google Ads] 動態搜尋廣告的工作流程。
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 614
@@ -35,7 +37,7 @@ ht-degree: 0%
       >
       >您的網域必須由[!DNL Google Ads]有機搜尋索引編制索引，才能定位。 此外，如果網域包含多種語言的頁面，而您想要鎖定所有頁面，請針對每種語言建立個別的行銷活動。
 
-      如果您未使用網站網域來鎖定您的廣告，請為每個廣告群組建立動態搜尋目標（請參閱步驟4）。 您可以個別建立目標[](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)，或使用[大量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
+      如果您未使用網站網域來鎖定您的廣告，請為每個廣告群組建立動態搜尋目標（請參閱步驟4）。 您可以個別建立目標[&#128279;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)，或使用[大量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
    1. 請確定行銷活動目標是搜尋頻道，而且只鎖定了[!DNL Google Ads]搜尋網路（不是顯示網路）。 這些設定可從[!UICONTROL Networks and Devices]標籤取得。
 

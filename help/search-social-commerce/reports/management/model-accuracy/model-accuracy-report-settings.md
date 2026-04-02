@@ -4,9 +4,12 @@ description: 瞭解模型準確性報表的必要和選用設定。
 exl-id: 11782a75-9141-4a4e-b3b3-60679b0e36de
 feature: Search Reports, Search Model Accuracy Reports
 TQID: https://experienceleague.adobe.com/ITabJVxDxGloBaUT8FqMfX7IWlU5rLYCiuCjVNYrX6c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1793
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 | 標籤 | 引數 | 說明 |
 |----|----|----|
-| 不適用 | [!UICONTROL Name] | （選用）報表和範本的名稱（若您將報表另存為範本）。 如果您套用現有的範本，則預設會填入範本名稱。 如果您未套用範本或輸入名稱，則報表名稱為<code><client name>-<date and time>-<report type></code> 預設為（例如「acme - Apr 3， 2009 11:25:19 AM PDT - Keyword」）。<br><br>您可以選擇輸入自訂名稱，但不要使用副檔名。<br><br>如果您正在建立範本以[將報表傳送至FTP目錄](/help/search-social-commerce/reports/automation/ftp-reports.md)，則您可以選擇在檔案名稱的任何位置加入「CSV」（大寫字母），以以CSV格式而非預設的TSV格式建立檔案。 檢視傳送至FTP目錄[之報告的](/help/search-social-commerce/reports/automation/ftp-reports.md)檔案名稱要求。 |
+| 不適用 | [!UICONTROL Name] | （選用）報表和範本的名稱（若您將報表另存為範本）。 如果您套用現有的範本，則預設會填入範本名稱。 如果您未套用範本或輸入名稱，則報表名稱為<code>&lt;client name>-&lt;date and time>-&lt;report type></code> 預設為（例如「acme - Apr 3， 2009 11:25:19 AM PDT - Keyword」）。<br><br>您可以選擇輸入自訂名稱，但不要使用副檔名。<br><br>如果您正在建立範本以[將報表傳送至FTP目錄](/help/search-social-commerce/reports/automation/ftp-reports.md)，則您可以選擇在檔案名稱的任何位置加入「CSV」（大寫字母），以以CSV格式而非預設的TSV格式建立檔案。 檢視傳送至FTP目錄[之報告的](/help/search-social-commerce/reports/automation/ftp-reports.md)檔案名稱要求。 |
 |  | [!UICONTROL Save as template] | （除非您要根據排程執行報告，否則為選用）將報告設定儲存為範本，可在[!UICONTROL Reports] > [!UICONTROL Report Templates]檢視中使用，且可重複使用以建立新報告。 若要將報表另存為範本，請選取核取方塊。<br><br>若要根據排程執行報表，您必須將設定儲存為範本。<br><br><b>注意：</b>您可以將目前的引數集儲存為新範本，即使是以現有範本為基礎。 |
 |  | [!UICONTROL Type] | 要產生的報表型別。 |
 | [!UICONTROL Basic  Settings] | [!UICONTROL Template] | （選用）要套用的報表範本，它會根據範本預先填入報表選項。 系統會列出為報表型別儲存且可供您使用的所有範本。<br><br>如果選取範本，您仍可以變更報表選項，甚至可以將報表另存為新範本。 |

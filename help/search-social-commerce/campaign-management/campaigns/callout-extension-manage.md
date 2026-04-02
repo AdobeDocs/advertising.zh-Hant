@@ -4,9 +4,12 @@ description: 瞭解如何建立和管理 [!DNL Google Ads] 圖說文字延伸。
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 376
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-從[ >  [!DNL Google Ads] 為任何](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)已同步的[!UICONTROL Extensions]帳戶[!UICONTROL Callout library]建立並管理帳戶層級的共用圖說文字延伸。
+從[&#x200B; >  [!DNL Google Ads] 為任何](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)已同步的[!UICONTROL Extensions]帳戶[!UICONTROL Callout library]建立並管理帳戶層級的共用圖說文字延伸。
 
 ## 建立[!DNL Google Ads]共用圖說文字
 

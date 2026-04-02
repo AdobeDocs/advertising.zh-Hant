@@ -4,9 +4,13 @@ description: 瞭解如何管理帳戶或廣告商的封鎖網站清單。
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
 TQID: https://experienceleague.adobe.com/6-OvXB2LkLy-ZFIuR9Kf9lzfQnaEfWq0BlgnT4q-A3U
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 183
@@ -26,7 +30,7 @@ ht-degree: 0%
 
       1. 按一下&#x200B;**貼上網站/應用程式**。
 
-      1. 在輸入欄位中，每行輸入或貼上一個值，然後按一下[繼續]。****
+      1. 在輸入欄位中，每行輸入或貼上一個值，然後按一下[繼續]。**&#x200B;**
 
       1. （如果有任何值被識別為無效）按一下&#x200B;**貼上網站和應用程式**&#x200B;標籤，更正值，然後按一下&#x200B;**繼續**。
 
@@ -34,9 +38,9 @@ ht-degree: 0%
 
    * （選用）若要刪除一或多個值，請執行下列任一項作業：
 
-      * 若要移除所有值，請按一下[全部清除]。**** 在確認訊息中，按一下&#x200B;**確定**。
+      * 若要移除所有值，請按一下[全部清除]。**&#x200B;** 在確認訊息中，按一下&#x200B;**確定**。
 
-      * 若要移除一或多個值，請選取每個值旁的核取方塊，然後按一下[刪除已核取的專案]。****
+      * 若要移除一或多個值，請選取每個值旁的核取方塊，然後按一下[刪除已核取的專案]。**&#x200B;**
 
       * 若要移除單一值，請按一下值旁的&#x200B;**X**。
 

@@ -5,9 +5,13 @@ feature: Search Portfolios, Search Optimization
 hide: yes
 exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
 TQID: https://experienceleague.adobe.com/QEt73KG8zm1DEIOP5G9Leho3Zb4rzech7U0gFGnpMdA
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 125
@@ -39,9 +43,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [（新UI）使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
 >* [（新UI）重複投資組合](portfolio-duplicate.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [（新UI）關於投資組合](portfolio-about.md)

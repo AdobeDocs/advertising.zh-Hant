@@ -4,10 +4,14 @@ description: 瞭解如何匯出廣告體驗標籤並可選擇上傳至Advertisin
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
 TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 635
@@ -36,7 +40,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Tag Manager]**。
 
-1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或**[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**。
+1. 將游標停留在適用廣告標籤的列上，然後按一下![匯出廣告標籤](/help/creative/assets/export.png "匯出廣告標籤") **[!UICONTROL Export ad tags]**&#x200B;或&#x200B;**[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**。
 
 >[!NOTE]
 >
@@ -54,9 +58,9 @@ ht-degree: 0%
 
 1. 選取標籤型別：
 
-   * （非視訊體驗） ** *JavaScript* **或** *Iframe***。
+   * （非視訊體驗） **&#x200B; *JavaScript* &#x200B;** 或**&#x200B; *Iframe***。
 
-   * （視訊體驗） ** *視訊***訊。
+   * （視訊體驗） **&#x200B; *視訊***訊。
 
 1. 在[!UICONTROL Destinations]清單中，選取您將為體驗建立廣告的位置。
 

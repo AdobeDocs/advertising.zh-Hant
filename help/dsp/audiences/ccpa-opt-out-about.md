@@ -4,11 +4,16 @@ description: 瞭解如何建立區段來追蹤CCPA選擇退出銷售請求中的
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
 TQID: https://experienceleague.adobe.com/Bp8Fj0z7lqSXmHd-aJQa6ocQyj6FVQuydArNBucpJp4
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 245
@@ -28,7 +33,7 @@ Adobe Advertising會產生客戶針對帳戶選擇退出銷售請求所提交的
 
 每個報表都可壓縮為GZIP格式，以定位點分隔的文字檔案提供。 在CCPA選擇退出銷售區段中擷取的使用者ID會依區段和廣告商識別。
 
-您可以[從DSP中或使用DSP ](ccpa-opt-out-segment-report-retrieve.md)，擷取前三個月建立的每月報表[!DNL Trafficking API]連結。 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
+您可以[從DSP中或使用DSP &#x200B;](ccpa-opt-out-segment-report-retrieve.md)，擷取前三個月建立的每月報表[!DNL Trafficking API]連結。 每個連結的有效期為七天，但每當客戶嘗試擷取連結時，都會重新整理。
 
 >[!MORELIKETHIS]
 >

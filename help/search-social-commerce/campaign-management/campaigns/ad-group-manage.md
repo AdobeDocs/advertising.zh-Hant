@@ -4,8 +4,10 @@ description: 瞭解如何建立及管理廣告群組。
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 677
@@ -90,11 +92,11 @@ ht-degree: 0%
    如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
 1. 在工具列中按一下狀態按鈕：
-   * 若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+   * 若要啟動列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate.png " [啟動] ")。
 
    * 若要暫停資料列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
 
-   * 若要刪除列，請按一下[其他] ![ ](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+   * 若要刪除列，請按一下[其他] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

@@ -5,11 +5,18 @@ role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 568
@@ -41,7 +48,7 @@ ht-degree: 0%
 
       1. 輸入[!DNL Google Analytics]帳戶的數值ID。
 
-      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱[ [!DNL Google Analytics]中指派使用者許可權的](https://support.google.com/analytics/answer/9305587)指示。
+      1. 輸入用來存取此資料來源資料的電子郵件地址。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱[&#x200B; [!DNL Google Analytics]中指派使用者許可權的](https://support.google.com/analytics/answer/9305587)指示。
 
          >[!TIP]
          >
@@ -63,7 +70,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關[ [!DNL Google Analytics]之API要求的配額和呼叫限制的](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)詳細資訊。
+      >[!DNL Google Analytics]在單一資料摘要中最多允許10個量度。 搜尋、社交和Commerce最多可支援兩個摘要，總共20個量度，但使用第二個摘要會將您的API呼叫加倍為[!DNL Google Analytics]。 如果您有許多量度，請僅選取您想在最佳化目標中使用的量度。 檢視有關[&#x200B; [!DNL Google Analytics]之API要求的配額和呼叫限制的](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)詳細資訊。
 
    1. 在[!UICONTROL Metric Tag]區段中，輸入要附加至資料來源之每個量度的標籤名稱。
 
