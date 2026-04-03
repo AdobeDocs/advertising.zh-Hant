@@ -3,9 +3,15 @@ title: 關於深入分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 1371
 ht-degree: 0%
 
 ---
@@ -84,13 +90,41 @@ ht-degree: 0%
    * **中等影響**
    * **有限影響：**&#x200B;需要注意
 
-## 開啟效能深入分析
+### [!UICONTROL Audience Analysis]索引標籤
 
-* （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights BETA]**。
+[!UICONTROL Audience Analysis]標籤可讓您即時深入分析在版位層級鎖定目標對象區段的有效性。 其中包括一段時間的區段大小趨勢，以及funnel的每日競標劃分。 使用這些見解來監控目標受眾集區的穩定性，並識別在受眾比對和曝光傳送之間哪裡遺失數量。 資料僅適用於以受眾區段為目標的位置。
 
-* （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
+依預設，會顯示特定廣告商和特定位置的資料。 您可以選擇設定篩選器以顯示不同廣告商的資料，或選取不同的位置。
 
-* （若要開啟特定位置的見解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Analyze]**」>「**[!UICONTROL Insights]**」。
+這些見解包括：
+
+* **[!UICONTROL Audience Segment Size Trends]：**&#x200B;趨勢圖表會顯示某個位置所有對象區段中的每日不重複使用者計數。 使用此圖表來監視目標對象是否隨時間的推移而成長、穩定或收縮。 持續下降可能表示區段即將到期或縮小，且可能需要重新整理區段資料或擴大目標定位。
+
+  若要檢視特定資料點的確切使用者計數和日期，請將游標停留在點上。
+
+* **[!UICONTROL Audience Funnel Analysis]：**&#x200B;每日時間序清單格，顯示套用所有目標定位和適用篩選器後，目標對象如何從可用的集區總計縮小為實際的曝光獲勝。 會顯示前一天的資料。 funnel包含下列量度，依序為從最廣泛到最窄：
+
+   * **[!UICONTROL Audience Segment Size]：**&#x200B;彙總對象中的不重複使用者總數。
+
+   * **[!UICONTROL Cookies in Bid Stream]：**&#x200B;在前24小時期間在競標資料流中處於作用中狀態的目標對象使用者人數。 此計數包括範圍內的每位使用者，無論他們是否收到刊登競標。 從[!UICONTROL Total Target Audience]減少到[!UICONTROL Reachable Audience]反映了報表期間在競標資料流中處於非作用中狀態的那部分對象，這並非競標效能的反映。
+
+   * **[!UICONTROL Eligible cookies]：**&#x200B;套用地理、裝置型別、作業系統和瀏覽器篩選器後仍保留的可存取使用者子集。 如果此數字明顯低於[!UICONTROL Reachable Audience]，請考慮檢閱您的地理或裝置型別目標定位是否過於嚴格。
+
+  **[!UICONTROL Cookies Bid On]：**&#x200B;位置已提交出價的合格機會數目。 此階段的銳減可能表示預算或步調限制限制了競標量。
+
+   * **[!UICONTROL Impression Wins]：**&#x200B;此位置贏得印象的機會數量。 如果成功率遠低於出價，則您的出價可能會低於目標存貨的現行市場價格。
+
+## 檢視效能深入分析
+
+1. 開啟一組深入分析：
+
+   * （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights BETA]**。
+
+   * （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
+
+   * （若要開啟特定位置的見解）在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Analyze]**」>「**[!UICONTROL Insights]**」。
+
+1. （可選）若要檢視上任何點的資料
 
 ## 將篩選器套用至索引標籤
 
@@ -102,13 +136,17 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
-1. （可選）若要進一步縮小資料範圍，請在工具列中選取實體型別，然後選取特定實體值（單一行銷活動、套件或位置）。
+1. （可選）若要進一步縮小資料範圍，請在工具列中選取維度型別，然後選取特定維度（單一行銷活動、套件或位置）。
+
+1. （[!UICONTROL Audience Funnel Analysis]僅限；選擇性）若要變更每日與每週之間的時間增量，請選取&#x200B;**[!UICONTROL Day]**&#x200B;或&#x200B;**[!UICONTROL Week]**。
 
 ## 變更insight的維度報表
 
 * 從insight左上方的下拉式功能表中選取維度。
 
 ## 變更insight的量度
+
+*可用於某些深入分析*
 
 對於轉換量度，可同時支援Adobe Advertising追蹤和Adobe Analytics追蹤的轉換。
 
@@ -118,7 +156,7 @@ ht-degree: 0%
 
 ## 將索引標籤的所有視覺效果匯出至PDF檔案
 
-* 在索引標籤上方，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
+* 在索引標籤的右上角，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**。
 
   檔案會儲存至瀏覽器的預設「下載」資料夾。
 
@@ -127,6 +165,11 @@ ht-degree: 0%
 * 在insight的右上角，按一下![下載](/help/creative/assets/download.png "下載")。
 
   檔案會儲存至瀏覽器的預設「下載」資料夾。
+
+<!-- 
+Add:
+## Save a custom view for a tab
+-->
 
 >[!MORELIKETHIS]
 >
