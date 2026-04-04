@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]：** [!DNL Google Ads]在廣告群組中相互關聯地傳遞您作用中廣告的頻率：
 
-* *[!UICONTROL Optimize]：* Google廣告偏愛其預期表現優於廣告群組中其他廣告的廣告。 這些廣告更常進入廣告拍賣，一段時間過後，系統會偏好使用單一廣告。 這可能與您的業務和最佳化目標不一致。
+* *[!UICONTROL Optimize]：* [!DNL Google Ads]偏好其預期表現優於廣告群組中其他廣告的廣告。 這些廣告更常進入廣告拍賣，一段時間過後，系統會偏好使用單一廣告。 這可能與您的業務和最佳化目標不一致。
 
 * *[!UICONTROL Rotate forever]：*   您的每個廣告進入廣告拍賣的次數都比較平均，這使得Search、Social和Commerce不僅可根據點進率，也可根據轉換為您的廣告評分。
 

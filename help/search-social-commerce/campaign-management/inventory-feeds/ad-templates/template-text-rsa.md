@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
 
-* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
+* 如需[!DNL Microsoft Advertising]和[!DNL Google Ads]帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
 
 此值會覆寫帳戶和促銷活動層級的設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
@@ -350,7 +350,7 @@ ht-degree: 0%
 
 * 適用於Yahoo！ Japan Ads帳戶，使用引數{lpurl}。
 
-* 如需Microsoft Advertising和Google Ads帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
+* 如需[!DNL Microsoft Advertising]和[!DNL Google Ads]帳戶可用的引數，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)中「可用的[!DNL ValueTrack]引數」一節中的[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)或「僅追蹤範本」引數。
 
 **\[原始廣告欄位下方的替代廣告欄位\]：** （選擇性）廣告的替代廣告復本集，如果原始廣告復本中的任何一行超過傳播期間填入資料後的動態引數允許長度上限，就可以使用此替代廣告復本。
 

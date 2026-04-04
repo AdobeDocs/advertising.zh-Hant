@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 189
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 您可以為使用搜尋和顯示網路的行銷活動建立關鍵字。
 
-請參閱Google廣告說明，瞭解每個帳戶[的](https://support.google.com/google-ads/answer/6372658)關鍵字限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶[的](https://support.google.com/google-ads/answer/6372658)關鍵字限制。
 
 ## [!UICONTROL Keyword Details]
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 轉換標籤設定 {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]：**&#x200B;適用的Google Ads帳戶。
+**[!UICONTROL Select an Account]：**&#x200B;適用的[!DNL Google Ads]帳戶。
 
 **[!UICONTROL Type of Conversion]：**&#x200B;要追蹤的轉換型別： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用於不同的目的；請參閱「[為潛在客戶 [!DNL Google Ads] 的增強型轉換建立](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)轉換動作。」
 

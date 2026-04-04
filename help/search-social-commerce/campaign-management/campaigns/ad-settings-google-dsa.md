@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 動態搜尋廣告(DSA)僅適用於[!DNL Google Ads]在僅限搜尋行銷活動中的搜尋動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面和顯示URL，然後自動產生最終URL。
 
-請參閱Google廣告說明，瞭解每個帳戶[的](https://support.google.com/google-ads/answer/6372658?hl=en)廣告限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶[的](https://support.google.com/google-ads/answer/6372658?hl=en)廣告限制。
 
 >[!NOTE]
 >

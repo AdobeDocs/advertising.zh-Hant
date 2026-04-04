@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （使用者端摘要檔案的範本為選用）行銷活動層級追蹤範本，可指定所有離登陸網域重新導向與追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請為Google廣告購物促銷活動使用[追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
+若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請對[購物促銷活動 [!DNL Google Ads] 使用](/help/search-social-commerce/tracking/formats-click-tracking-google.md)追蹤範本格式。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
 對於協力廠商重新導向和追蹤，請輸入值。
 
