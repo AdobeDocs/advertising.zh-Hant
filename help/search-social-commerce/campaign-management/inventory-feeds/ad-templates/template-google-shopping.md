@@ -4,16 +4,12 @@ description: 請參考詳細目錄摘要之 [!DNL Google Ads] 購物廣告範本
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （使用者端摘要檔案的範本為選用）行銷活動層級追蹤範本，可指定所有離登陸網域重新導向與追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請為Google廣告購物促銷活動使用[追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
+若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請對[購物促銷活動 [!DNL Google Ads] 使用](/help/search-social-commerce/tracking/formats-click-tracking-google.md)追蹤範本格式。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
 對於協力廠商重新導向和追蹤，請輸入值。
 
@@ -76,7 +72,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其產品用於行銷活動的商家帳戶的客戶識別碼。
 
-**[!UICONTROL Sales Country]：**&#x200B;促銷活動產品銷售的國家/地區。 因為產品是相關聯的
+**[!UICONTROL Sales Country]：**促銷活動產品銷售的國家/地區。 因為產品是相關聯的
 若使用目標國家/地區，此設定會決定促銷活動中要公告哪些產品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -103,7 +99,7 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：**&#x200B;要放置廣告的網路。 已選取&#x200B;*[!UICONTROL Search]*。 若要在[!DNL Google Ads]搜尋合作夥伴的清單中包含競標，請選取&#x200B;**[!UICONTROL Search partners]**&#x200B;旁的核取方塊。
 
-**[!UICONTROL Campaign Priority]：**&#x200B;當多個行銷活動廣告
+**[!UICONTROL Campaign Priority]：**當多個行銷活動廣告
 相同的產品： *[!UICONTROL Low]* （新行銷活動的預設值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 當同一個產品包含在多個行銷活動中時，廣告網路會使用
 行銷活動優先順序會先決定哪個行銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
