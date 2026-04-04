@@ -4,11 +4,9 @@ description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +29,7 @@ ht-degree: 0%
 
 ## 標籤分類檢視
 
-在舊版UI中，[!UICONTROL Labels Classifications]檢視位於[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]。 在新的UI中，[!UICONTROL Labels Classifications]檢視位於[!UICONTROL Reports] > [!UICONTROL Labels Classifications]。
+在新的UI中，[!UICONTROL Labels Classifications]檢視位於[!UICONTROL Reports] > [!UICONTROL Labels Classifications]。 在舊版UI中，[!UICONTROL Labels Classifications]檢視位於[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]。
 
 [!UICONTROL Labels Classifications]檢視包含[!UICONTROL Classifications]和[!UICONTROL Label Values]個子檢視。 您可以檢視標籤分類的資料、[建立](classification-create.md)和[刪除](classification-delete.md)標籤分類，以及檢視標籤分類值的資料。 預設會顯示關鍵字層級標籤分類和值的資料，但您可以選擇檢視廣告層級分類和值的資料。
 
