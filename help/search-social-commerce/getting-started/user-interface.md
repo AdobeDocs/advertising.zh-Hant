@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +48,17 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;開啟新的[!UICONTROL Objectives]檢視，您可以從中檢視所有現有目標以及建立、編輯和刪除目標。
 
-   * **[!UICONTROL Conversions]**&#x200B;退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Conversions]檢視。
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+* **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Constraints]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。
+* **[!UICONTROL Constraints]**&#x200B;開啟現有限制的唯讀檢視。 若要管理您的限制，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 * **[!UICONTROL Plan]**&#x200B;子功能表：
 
    * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]開啟舊版[!UICONTROL Spend Recommendation]工具。
 
    * **[!UICONTROL Spend Planner]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]檢視。
-
-   * **[!UICONTROL Label Classification]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Label Classifications]檢視。
 
 * **[!UICONTROL Manage]**&#x200B;子功能表：
 
@@ -90,9 +88,15 @@ ht-degree: 0%
 
    * **[!UICONTROL History Logs]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Change History]檢視。
 
+   * **[!UICONTROL Label Classification]**&#x200B;開啟新的[!UICONTROL Label Classifications]檢視。 您可以管理分類，以及指派/取消指派分類值給新UI中可用的任何適用帳戶元件。
+
+   * **[!UICONTROL Bulksheets]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Bulksheets]檢視。
+
 * **[!UICONTROL Target]**&#x200B;子功能表：
 
-   * **[!UICONTROL Audience]**：開啟新的[!UICONTROL Audiences]檢視，其中顯示該廣告商的所有現有對象。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+   * **[!UICONTROL Audiences]**：開啟新的[!UICONTROL Audiences]檢視，其中顯示廣告商的所有現有對象、所有對象目標和所有對象排除。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+
+   * **[!UICONTROL Auto Targets]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
 
    * **[!UICONTROL Keywords]**&#x200B;開啟新的[!UICONTROL Keywords]檢視，其中顯示廣告商的現有關鍵字和負關鍵字。 您可以管理所選關鍵字的限制指定。
 
@@ -104,8 +108,6 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]**&#x200B;子功能表：
 
-   * **[!UICONTROL Auto Targets]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
-
    * **[!UICONTROL Creatives]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
 
    * **[!UICONTROL Extensions]**&#x200B;開啟您現有廣告擴充功能的唯讀檢視。 若要管理您的擴充功能，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
@@ -114,13 +116,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]**&#x200B;子功能表：
 
-   * **[!UICONTROL Accounts]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Manager Accounts]**：退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Manager Accounts]檢視。
+
+   * **[!UICONTROL Accounts]**：開啟新的[!UICONTROL Accounts]檢視。 您可以管理透過API連線同步的廣告網路帳戶，或透過資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。
+
+   * **[!UICONTROL Import Campaigns]**：退出新網站並開啟舊版[!UICONTROL Tools] > [!UICONTROL Import Campaigns]檢視。
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +132,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

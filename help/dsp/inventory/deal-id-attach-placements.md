@@ -13,9 +13,9 @@ subfeature_v2:
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +40,21 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Ad & Campaign Selection]設定中，選取要用於此位置的廣告：
 
-       1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
-       
-       1。 從可用廣告清單中，選取要用於交易的每個廣告旁的核取方塊。
-       
-       1。 按一下&#x200B;**[!UICONTROL Apply]**.
-   
-   1. 在位置設定畫面中：
+   1. 選取廣告商、行銷活動和廣告型別。 選擇性地選取廣告狀態，以篩選廣告。
 
-      1. 輸入位置名稱。
+   1. 從可用廣告清單中，選取要用於交易的每個廣告旁的核取方塊。
 
-      1. （可選）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
+   1. 按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. 在位置設定畫面中：
+
+   1. 輸入位置名稱。
+
+   1. （可選）編輯[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，包括覆寫預設出價（自動以交易的CPM值填入）、變更日期範圍或附加更多廣告。
 
       此交易會在「詳細目錄目標」區段中自動定位。 所有其他鎖定目標選項均不適用。
 
-      1. 按一下&#x200B;**[!UICONTROL Create placement]**。
+   1. 按一下&#x200B;**[!UICONTROL Create placement]**。
 
 發佈者啟用您的PG交易ID後，位置就會開始執行。
 
