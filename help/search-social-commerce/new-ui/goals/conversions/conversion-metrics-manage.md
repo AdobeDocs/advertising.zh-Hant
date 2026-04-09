@@ -2,20 +2,20 @@
 title: 管理廣告商的轉換量度
 description: 瞭解如何將Adobe Advertising追蹤的轉換量度用於廣告商。
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # 管理廣告商的轉換量度
 
-廣告商的[轉換](/help/search-social-commerce/glossary.md#c-d)量度用於搜尋、社交和Commerce以及Advertising DSP：
+廣告商的[轉換](/help/search-social-commerce/glossary.md#c-d)量度在整個Adobe Advertising中使用：
 
 * 在「搜尋」、「社交」和「Commerce」中，轉換量度的資料可顯示在行銷活動、投資組合和目標管理檢視及報表中的欄中。 具有足夠存取許可權的使用者也可以使用轉換量度來建立目標，這些目標是用來最佳化產品組合。
 
-* 在Advertising DSP中，您可以使用轉換量度來建立[自訂目標](/help/dsp/optimization/custom-goal.md)，這些目標用來最佳化套件。
+* （使用Advertising DSP的廣告商）在DSP中，您可以在行銷活動管理檢視、自訂目標和自訂報表中包含轉換量度。 您也可以使用轉換量度來建立[自訂目標](/help/dsp/optimization/custom-goal.md)，這些目標用於最佳化封裝。
 
 可用的量度包括：
 
@@ -23,19 +23,21 @@ ht-degree: 0%
 
 * [從Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md)同步的轉換和網站參與量度。
 
+* [網站事件已從Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)同步。
+
 * 由[!DNL Google Ads]追蹤的轉換，以及由[!DNL Microsoft Advertising]通用事件追蹤標籤追蹤的轉換。
 
 * （當[您已設定特定 [!DNL Google Analytics] 帳戶、屬性和檢視組合作為搜尋、社交和Commerce的資料來源](/help/search-social-commerce/admin/data-sources/data-source-about.md)時） [!DNL Google Analytics]所追蹤的轉換。
 
-從可用的轉換量度清單中，有權存取廣告商資料的每位使用者都可以自訂他們看到的可用於管理檢視和報表的量度，包括或省略他們選擇的特定量度。
+* 來自自訂摘要的轉換。
+
+從可用的轉換量度清單中，有權存取廣告商資料的每位使用者都可以自訂他們看到的可用於管理檢視和報表的量度，包括或省略他們選擇的特定量度。 您可以使用與擷取資料中拼字完全相同的量度名稱，或是變更欄標題中所顯示的名稱，以提高可讀性。
 
 >[!IMPORTANT]
 >
 >依預設，廣告商的轉換量度（除了[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件追蹤標籤所追蹤的轉換之外）無法納入行銷活動和產品組合管理檢視、目標和報告中。 若要讓轉換量度可供使用，您必須明確提供該量度。
 >
 >由[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件追蹤標籤追蹤的新轉換一律會自動提供。
-
-您可以使用與擷取資料中拼字完全相同的量度名稱，或是變更欄標題中所顯示的名稱，以提高可讀性。
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ ht-degree: 0%
 
    顯示名稱必須是唯一的，而且不能包括下列特殊字元： `\"<'>&`
 
-## 變更管理檢視和報告中的可用轉換量度 {#conversion-metrics-change-available}
+## 變更管理檢視、目標和報告中可用的轉換量度 {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
@@ -93,4 +95,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
