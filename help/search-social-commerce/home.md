@@ -6,9 +6,18 @@ product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
 TQID: https://experienceleague.adobe.com/9zlMhoA39Q5Yt5g39oXrl8LNn9mkD0VPusAOf6qBGBg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c516c2560b4922f291af2d684ba9e8ca6326ed54
 workflow-type: tm+mt
 source-wordcount: 4551
@@ -25,7 +34,7 @@ ht-degree: 0%
 | 2026年2月25日 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]顯示[!DNL Google Ads AI Max]根據搜尋網路內的搜尋使用的特定廣告組合和登入頁面的效能。 | 請參閱&quot;[該[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;。 |
 | | 新增UI > [!UICONTROL Portfolio]設定 | 在[!UICONTROL Manage Constraints]標籤上，設定&quot;[!UICONTROL Reserve a percentage of the spend target for each campaign]&quot;已重新命名為&quot;[!UICONTROL Set Campaign Spend Allocation Limits]&quot;，現在可用於具有所有支出策略的產品組合。 以前，它僅適用於具有每日支出策略的產品組合。<br><br>此設定可讓您指定行銷活動支出比例。 例如，您可以將25% — 產品組合預算的40%分配至促銷活動A，至少10%分配至促銷活動B，而最多50%分配至促銷活動C。總計不得超過100%。 | 如需產品組合設定的詳細資訊，請參閱[!DNL Optimization Guide]，此工具可在Search、Social和Commerce中使用。 |
 | | 新增UI > [!UICONTROL Portfolios] | 您現在可以下載特定資料型別的「模型準確度」報表，並指示如何劃分資料（依競標單位及/或按一下音量）。 | 請參閱[檢視投資組合效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)。 |
-| | 新增UI > [!UICONTROL Portfolios]，新增UI > [!UICONTROL Campaigns]，新增UI > [!UICONTROL Ad Groups] | 您現在可以在檢視內下載所有促銷活動或廣告群組的效能詳細資料。 之前，您可以下載檢視表中所有產品組合的效能圖表。 | 瞭解如何在[ [!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)、[ [!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)和[檢視[!UICONTROL Ad Groups]中下載效能圖表](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)。 |
+| | 新增UI > [!UICONTROL Portfolios]，新增UI > [!UICONTROL Campaigns]，新增UI > [!UICONTROL Ad Groups] | 您現在可以在檢視內下載所有促銷活動或廣告群組的效能詳細資料。 之前，您可以下載檢視表中所有產品組合的效能圖表。 | 瞭解如何在[&#x200B; [!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)、[&#x200B; [!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)和[檢視[!UICONTROL Ad Groups]中下載效能圖表](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)。 |
 | | 新增UI > [!UICONTROL Accounts] | 您現在可以管理透過API連線同步的廣告網路帳戶，或透過[!UICONTROL Setup] > [!UICONTROL Accounts]中的資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。 | 請參閱[關於廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)。 |
 | | 新增UI > [!UICONTROL Label Classifications] | 現在提供標籤分類，包括標籤值。 您可以從[!UICONTROL Reports] > [!UICONTROL Label Classifications]管理分類，並將分類值指派/取消指派給新UI中可用的任何適用帳戶元件。 | 請參閱&quot;[關於標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)&quot;。 |
 | 2026年1月21日 | 產品組合（新UI） | 您現在可以下載含有所有產品組合設定的大量表單檔案。 若您未選取特定投資組合，**[!UICONTROL Bulk Operations]**&#x200B;功能表會包含選項&#x200B;**[!UICONTROL Export All Portfolios]**。 | 請參閱[使用大量工作表檔案大量編輯投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)。 |
