@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2023'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
          + [從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
       + 廣告 {#ads}
          + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+         + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 報表 {#reports}
       + 標籤分類 {#label-classifications}
          + [關於標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)

@@ -2,9 +2,9 @@
 title: 管理廣告商的轉換量度
 description: 瞭解如何將Adobe Advertising追蹤的轉換量度用於廣告商。
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 >對於來自[的 [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[!DNL Google Analytics]更新[或](/help/search-social-commerce/admin/data-sources/data-source-edit.md)重新驗證[整合，否則會忽略](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)內的任何名稱變更。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
+
+1. 從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選清單](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
 1. 在度量的&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;欄中，將游標放在度量名稱上，然後按一下&#x200B;**...** > **[!UICONTROL Rename]**。
 
