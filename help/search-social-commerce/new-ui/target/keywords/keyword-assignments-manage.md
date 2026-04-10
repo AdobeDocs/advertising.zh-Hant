@@ -3,9 +3,10 @@ title: 管理關鍵字的限制指派
 description: 瞭解如何將限制指派給關鍵字。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
+source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -89,5 +90,4 @@ ht-degree: 0%
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理廣告的限制指派](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
