@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *僅適用於舊版關鍵字層級產品組合中CPC行銷活動的競標單位*
 
-競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
+競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=zh-Hant)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
 
 ## 關於限制
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 除了開啟[[!UICONTROL Constraints]檢視](#constraints-view)之外，您還可以透過下列方式檢視限制的相關資訊：
 
-* 您所有的限制都是名為「[」的單一](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)標籤分類[!UICONTROL Constraints]的標籤值。
+* 您所有的限制都是名為「[」的單一](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)標籤分類[!UICONTROL Constraints]的標籤值。
 
    * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
 
