@@ -1,7 +1,7 @@
 ---
 title: 使用[!UICONTROL Spend Planner]
-description: 瞭解如何使用[!UICONTROL Spend Planner]來識別產品組合間的最佳支出分配。
-feature: Search Optimization, Search Portfolios, Search Simulations
+description: 瞭解如何產生、下載和套用產品組合預算建議，以幫助您在產品組合中達成最佳的支出分配。
+feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
 product_v2:
@@ -11,18 +11,16 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: 798
 ht-degree: 0%
 
 ---
 
 # 使用[!UICONTROL Spend Planner]
 
-<!-- When this becomes a menu item, move file and TOC entry accordingly -->
-
-[!UICONTROL Spend Planner] （在舊版使用者介面中稱為「支出建議工具」）會識別具有相同目標與貨幣之最佳化與使用中投資組合的最佳支出分配，好讓您可以為投資組合集設定最高的收入或目標目標。
+[!UICONTROL Spend Planner] （在舊版使用者介面中稱為「[!UICONTROL Spend Recommendation Tool]」）會識別具有相同目標與貨幣之最佳化與使用中投資組合的最佳支出分配，因此您可以最大化投資組合集的收入或目標目標。
 
 檢視具有每日預算之產品組合的支出建議報告時，您可以將任何產品組合的預算變更為建議預算。
 
@@ -38,7 +36,15 @@ ht-degree: 0%
 
 * 每個產品組合的長條圖，顯示當您維護所有選定產品組合或建議的總支出目標的目前總每日支出目標時，建議的每日支出（成本）和預測的收入分佈或點按分佈。 您可以選擇將建議的支出目標套用至選取的投資組合，這會影響下一個競標執行週期的競標。
 
-## （新UI）產生[!UICONTROL Spend Planner]報表
+## 可用動作
+
+* 從[!UICONTROL Spend Planner]新使用者介面[或](#spend-recommendations-generate)舊使用者介面[產生](#spend-recommendations-generate-legacy)報告
+
+* [套用支出建議](#spend-recommendations-apply)至對應的投資組合。
+
+* [開啟或儲存支出建議報表資料至檔案](#spend-recommendations-download)
+
+## （新UI）產生[!UICONTROL Spend Planner]報表 {#spend-recommendations-generate}
 
 1. 執行下列任一項作業：
 
@@ -68,7 +74,39 @@ ht-degree: 0%
 
    支出建議工具會使用每週模擬的資料，因此建議支出總計會與您提議的支出目標最相符，並提供理想的支出組合。
 
-## （舊版UI）從[!UICONTROL Spend Recommendation] > [!UICONTROL Optimization]檢視產生[!UICONTROL Spend Recommendation]報告
+<!--
+
+New UI; validate post-Update steps once I get it to generate a report:
+
+## Generate a spend recommendation report {#spend-recommendations-generate}
+
+1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
+
+1. View data using the current, combined budgets for the selected portfolios:
+
+   1. Click **[!UICONTROL Select Objective]**.
+
+   1. Select the portfolio objective.
+
+   1. Select the currency.
+
+   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
+
+   1. Select the check box next to each portfolio to include.
+
+      Only optimized and active portfolios with the selected parameters are listed.
+
+   1. Click **[!UICONTROL Update]**.
+
+   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
+
+1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+
+   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
+
+-->
+
+## （舊版UI）從[!UICONTROL Spend Recommendation] > [!UICONTROL Optimization]檢視產生[!UICONTROL Spend Recommendation]報告 {#spend-recommendations-generate-legacy}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Spend Recommendation]**。
 
@@ -92,29 +130,44 @@ ht-degree: 0%
 
    支出建議工具會使用每週模擬的資料，因此建議支出總計會與您提議的支出目標最相符，並提供理想的支出組合。
 
-## 套用支出建議
+## 套用支出建議 {#spend-recommendations-apply}
 
 *僅含每日預算的產品組合*
 
 >[!NOTE]
 >
->* 如果套用的變更將導致任何投資組合的支出目標增加或減少20%以上，則您會收到通知，且必須核准變更。
+>* 如果套用的變更將導致任何產品組合的支出目標增加或減少超過20%，則您必須核准變更。
 >* 當產品組合的支出目標變更超過20%時，搜尋、社交和Commerce最多需要3-4天才能調整其模型並達成新目標。
 
 1. 檢視一或多個具有每日預算的產品組合的支出建議報告。
 
-1. 選取您要套用建議支出目標之每個投資組合旁的核取方塊。 若要選取所有投資組合，請選取[!UICONTROL Select All Recommendations]旁的核取方塊。
+1. 選取您要套用建議支出目標之每個投資組合旁的核取方塊。 若要選取所有投資組合，請選取&#x200B;**[!UICONTROL Select All Recommendations]**&#x200B;旁的核取方塊。
 
 1. 按一下&#x200B;**[!UICONTROL Apply Selected Recommendations]**。
 
 1. （如果任何預算變更超過20%）在確認訊息中，按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以核准變更。
 
-## 開啟資料或將資料儲存到檔案
+<!-- 
 
-您可以從[!UICONTROL Spend Recommendation]報表的任何區段匯出報表資料。 您可以開啟資料或將資料儲存為[!DNL Microsoft Excel]活頁簿檔案。
+New UI: Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+...
+
+ -->
+
+## 開啟資料或將資料儲存為[!DNL Microsoft Excel]活頁簿檔案 {#spend-recommendations-download}
 
 1. 產生所選投資組合的支出建議報告。
 
 1. 在報表上方，按一下![下載](/help/search-social-commerce/assets/download-spend-recommendation.png "下載")。
 
-   依照瀏覽器的正常程式開啟或儲存檔案。  如需詳細資訊，請參閱瀏覽器的線上說明。
+   依照瀏覽器的正常程式開啟或儲存檔案。 如需詳細資訊，請參閱瀏覽器的線上說明。
+
+<!--
+
+New UI:  Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate).
+...
+-->
