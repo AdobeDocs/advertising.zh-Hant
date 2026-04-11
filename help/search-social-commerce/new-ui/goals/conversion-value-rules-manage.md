@@ -34,7 +34,7 @@ ht-degree: 0%
 
 例如，假設目標使用單一轉換量度「銷售機會」，並將來自行動裝置的轉換權重設為10，將來自非行動裝置的轉換權重設為10。 搜尋、Social和Commerce會將任一裝置型別的事件計為一(1)次轉換，並將轉換值計為10。 然而，假設該投資組合中的行銷活動使用轉換值規則「如果裝置為行動，則乘以2。」 當為該行銷活動追蹤行動銷售機會事件時，[!DNL Google Ads]也會將轉換計數計為一(1)，但轉換值計為(10 x 2) = 20。
 
-若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱[ [!DNL Google Ads]中的](https://support.google.com/google-ads/answer/10519848)轉換值規則報告。
+若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱[&#x200B; [!DNL Google Ads]中的](https://support.google.com/google-ads/answer/10519848)轉換值規則報告。
 
 ## 建立[!DNL Google Ads]轉換值規則 {#google-conversion-value-rule-create}
 
@@ -140,5 +140,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
 
