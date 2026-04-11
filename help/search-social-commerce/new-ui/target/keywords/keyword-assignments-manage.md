@@ -4,9 +4,9 @@ description: 瞭解如何將限制指派給關鍵字。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
+>* 如果您稍後編輯非可變廣告的關鍵字或廣告復本（因此建立新的關鍵字或廣告），則限制不會指派給新圖元。
 >* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 若競標單位位於作用中產品組合、混合產品組合或不在產品組合中，則會忽略這些專案。
 
 ## 從新[!UICONTROL Keywords]檢視指派限制給選取的廣告
