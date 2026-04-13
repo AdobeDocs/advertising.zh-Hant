@@ -2,10 +2,8 @@
 title: 使用AI輔助聊天搜尋產品檔案
 description: 瞭解如何使用AI輔助聊天來搜尋Adobe Advertising DSP和 [!DNL Creative] 檔案。 透過引文和建議的後續提示獲得答案。
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-使用AI聊天介面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中搜尋概念和操作說明內容。 答案僅以[Experience League](https://experienceleague.adobe.com/zh-hant/docs/advertising)中針對這些產品所記載的內容為基礎。
+使用AI聊天介面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中搜尋概念和操作說明內容。 答案僅以[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中針對這些產品所記載的內容為基礎。
 
 回應包括引文以及其他提示和後續問題，可幫助您縮小查詢範圍並尋找更多資訊。 您的聊天記錄會在整個工作階段中維護，您的查詢不會與其他使用者共用。
 
