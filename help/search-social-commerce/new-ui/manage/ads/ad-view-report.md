@@ -3,7 +3,7 @@ title: （新UI）從[!UICONTROL Ads]檢視管理資料檢視報告
 description: 瞭解如何在報表的[!UICONTROL Ads]檢視中產生、下載及刪除包含一或多個廣告資料列的報表。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
