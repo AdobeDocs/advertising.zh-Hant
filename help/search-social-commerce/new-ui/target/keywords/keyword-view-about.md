@@ -3,7 +3,8 @@ title: （新UI）關於[!UICONTROL Keywords]檢視
 description: 瞭解您可以在[!UICONTROL Keywords]檢視中執行哪些操作。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
