@@ -2,10 +2,8 @@
 title: 使用AI輔助聊天搜尋產品檔案
 description: 瞭解如何使用AI輔助聊天來搜尋Adobe Advertising DSP和 [!DNL Creative] 檔案。 透過引文和建議的後續提示獲得答案。
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
