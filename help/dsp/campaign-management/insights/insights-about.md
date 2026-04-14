@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Audience Funnel Analysis]：**&#x200B;每日時間序清單格，顯示套用所有目標定位和適用篩選器後，目標對象如何從可用的集區總計縮小為實際的曝光獲勝。 會顯示前一天的資料。 funnel包含下列量度，依序為從最廣泛到最窄：
 
-   * **[!UICONTROL Audience Segment Size]：**&#x200B;彙總對象中的不重複使用者總數。
+   * **[!UICONTROL Total Target Audience]：**&#x200B;彙總對象中的不重複使用者總數。
 
-   * **[!UICONTROL Cookies in Bid Stream]：**&#x200B;在前24小時期間在競標資料流中處於作用中狀態的目標對象使用者人數。 此計數包括範圍內的每位使用者，無論他們是否收到刊登競標。 從[!UICONTROL Total Target Audience]減少到[!UICONTROL Reachable Audience]反映了報表期間在競標資料流中處於非作用中狀態的那部分對象，這並非競標效能的反映。
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]：**&#x200B;在前24小時期間在競標資料流中處於作用中狀態的目標對象使用者人數。 此計數包括範圍內的每位使用者，無論他們是否收到刊登競標。 從[!UICONTROL Total Target Audience]減少到[!UICONTROL Reachable Audience]反映了報表期間在競標資料流中處於非作用中狀態的那部分對象，這並非競標效能的反映。
 
-   * **[!UICONTROL Eligible cookies]：**&#x200B;套用地理、裝置型別、作業系統和瀏覽器篩選器後仍保留的可存取使用者子集。 如果此數字明顯低於[!UICONTROL Reachable Audience]，請考慮檢閱您的地理或裝置型別目標定位是否過於嚴格。
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]：**&#x200B;套用地理、裝置型別、作業系統和瀏覽器篩選器後仍保留的可存取使用者子集。 如果此數字明顯低於[!UICONTROL Reachable Audience]，請考慮檢閱您的地理或裝置型別目標定位是否過於嚴格。
 
-  **[!UICONTROL Cookies Bid On]：**&#x200B;位置已提交出價的合格機會數目。 此階段的銳減可能表示預算或步調限制限制了競標量。
+  **[!UICONTROL Devices/Ad Opportunities Bid On]：**&#x200B;位置已提交出價的合格機會數目。 此階段的銳減可能表示預算或步調限制限制了競標量。
 
    * **[!UICONTROL Impression Wins]：**&#x200B;此位置贏得印象的機會數量。 如果成功率遠低於出價，則您的出價可能會低於目標存貨的現行市場價格。
 

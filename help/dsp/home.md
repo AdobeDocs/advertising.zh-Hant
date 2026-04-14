@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
-source-wordcount: 6986
+source-wordcount: 7001
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年4月8日 | [!UICONTROL Insights] | 已重新命名[!UICONTROL Audience Funnel Analysis]標籤上[!UICONTROL Audience Analysis] insight的量度。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2026年4月7日 | AI輔助檔案搜尋 | 使用新的AI聊天介面，在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中搜尋概念和操作說明內容。 回應包括引文以及其他提示和後續問題，可幫助您縮小查詢範圍並尋找更多資訊。 | 請參閱&quot;[使用AI輔助的聊天](/help/dsp/agent-chat.md)搜尋產品檔案。&quot; |
 | 2026年3月25日 | [!UICONTROL Insights] | 新的[!UICONTROL Audience Analysis]深入分析顯示在版位層級鎖定目標對象區段的有效性：區段大小在一段時間內的趨勢，以及每日競標funnel劃分。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2026年3月16日 | 第一方對象來源，通用ID | 您現在可以使用與[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) （屬於Adobe Experience Platform的一部分）的DSP整合，將您的Cookie和行動廣告ID （加上雜湊電子郵件地址）轉換為目標廣告的通用ID。 之前，您只能轉換雜湊電子郵件地址。<br><br>若要使用這項新功能，請在Experience Platform中使用新的&quot;[Adobe Advertising DSP連線]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot;。 舊版連線（僅支援雜湊電子郵件地址）已重新命名為「[舊版Adobe Advertising Cloud DSP連線]&#x200B;(https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)」。<br><br>如果您目前使用舊版連線，則不需要立即進行任何變更。 不過，舊版連線最終將會移除。 | 請參閱[將使用者ID從 [!DNL Adobe Real-Time CDP] 轉換為通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)、[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)以及[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)。 |
