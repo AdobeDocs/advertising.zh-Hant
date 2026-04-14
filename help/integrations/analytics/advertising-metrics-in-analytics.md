@@ -37,7 +37,7 @@ ht-degree: 0%
 
 除&quot;[!DNL Analytics]&quot;外，[!UICONTROL AMO ID Instances]中的Adobe Advertising流量量度通常以「Adobe Advertising」開頭。 不過，對於使用自訂事件（而不是保留事件）最初建立點按數、成本和曝光次數的量度的長期客戶，這些量度仍以「AMO」開頭。
 
-如需清單，請參閱&quot;[Adobe Advertising量度](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)&quot;。
+如需清單，請參閱&quot;[Adobe Advertising量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)&quot;。
 
 <!--
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe Advertising分類
 
-請參閱「[AMO ID維度](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)的分類」。
+請參閱「[AMO ID維度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)的分類」。
 <!--
 
 >[!NOTE]
