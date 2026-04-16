@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # 關於深入分析
-
-*Beta功能*
 
 透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動並發現提升效能的新機會所需的資訊。 您可以檢視指定廣告商的各個促銷活動的資料，或向下展開至較低層級。
 
@@ -125,7 +123,7 @@ ht-degree: 0%
 
 1. 開啟一組深入分析：
 
-   * （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights BETA]**。
+   * （若要開啟所有行銷活動的深入分析）在主功能表中，按一下&#x200B;**[!UICONTROL Insights]**。
 
    * （若要開啟特定行銷活動、封裝或位置的深入分析），請在[!UICONTROL Campaigns]、[!UICONTROL Packages]或[!UICONTROL Placements]檢視中的實體名稱旁，按一下「**[!UICONTROL ...]**」>「**[!UICONTROL Insights]**」。
 
