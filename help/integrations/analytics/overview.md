@@ -4,11 +4,20 @@ description: ' [!DNL Analytics for Advertising]的概觀'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
 TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 1306
@@ -51,13 +60,13 @@ ht-degree: 0%
 
 若要使用[!DNL Analytics]作為您的付費媒體報告工具，您的組織需要Adobe CX Enterprise （前身為Adobe Experience Cloud）登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝以及尚未對應的報表套裝。 依報表套裝而定，這可能會變更報告的資料。
 
- [!DNL Analytics]](ids.md)內的[Adobe Advertising ID與其他[!DNL eVars]一樣運作，具有自訂、永久的有效期。 在Adobe Advertising實作期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+ [!DNL Analytics][&#128279;](ids.md)內的Adobe Advertising ID與其他[!DNL eVars]一樣運作，具有自訂、永久的有效期。 在Adobe Advertising實作期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 如需可用維度的清單，請參閱&quot;[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)&quot;。
 
 >[!NOTE]
 >
-> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
+> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
 
 ## 使用Analytics來推動Adobe Advertising行銷活動和產品組合
 
@@ -138,7 +147,7 @@ You can measure the full-funnel effectiveness of your connected TV (CTV) campaig
 
 ### 建立Adobe Advertising控制面板
 
-若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。[
+若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。
 
 ### 使用Adobe Advertising ID進行網站專案分析
 
@@ -154,6 +163,6 @@ You can measure the full-funnel effectiveness of your connected TV (CTV) campaig
 >* [實作的必要條件和關鍵資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analytics使用的[Adobe Advertising ID](ids.md)
 >* 適用於Advertising的Analytics的[JavaScript程式碼](/help/integrations/analytics/javascript.md)
->* [ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
+>* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
 >* Analysis Workspace中的[Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Data in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
