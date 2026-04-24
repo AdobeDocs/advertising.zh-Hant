@@ -1,49 +1,45 @@
 ---
-title: 關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集
-description: 請參閱Adobe Advertising轉換與頁面檢視追蹤標籤的比較。
+title: FAQs about Adobe Advertising conversion and page view tracking tags
+description: See a comparison of the Adobe Advertising conversion and page view tracking tags.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
 
-# 關於Adobe Advertising轉換和頁面檢視追蹤標籤的常見問題集
+# FAQs about Adobe Advertising conversion and page view tracking tags
 
-下列專案適用於Adobe Advertising轉換追蹤標籤和頁面檢視追蹤標籤。
+The following apply to Adobe Advertising conversion tracking tags and page view tracking tags.
 
-| | 具有ECID的JS標籤 | JS第3版標籤 | JS版本2標籤 | 影像標籤 |
+| | JS Tags with ECID | JS Version 3 Tags | JS Version 2 Tags | Image Tags |
 | ---- | ---- | ---- | ---- | ---- |
-| 可以在與其他JS版本相同的網頁上使用 | — | — | — | 不適用 |
-| 允許在同一網頁上使用具有相同廣告商使用者ID的多個標籤 | 是 | 是 | 是 | — |
-| 允許在同一個網頁上使用具有不同廣告商使用者ID的多個標籤 | 是 | 是 | — | — |
-| 供Adobe Experience Platform的Adobe Advertising擴充功能使用，並與使用Experience Platform產生的其他標籤相容 | 是 | 是 | — | — |
-| 允許與Adobe Advertising JavaScript轉換對應標籤一起使用時，追蹤源自[!DNL Apple Safari]和[!DNL Mozilla Firefox]的所有轉換 | 是 | 是 | 是 | — |
+| Can be used on the same webpage as another JS version | — | — | — | n/a |
+| Allows the use of multiple tags with the same advertiser user IDs on the same webpage | Yes | Yes | Yes | — |
+| Allows the use of multiple tags with different advertiser user IDs on the same webpage | Yes | Yes | — | — |
+| Used by the Adobe Advertising extension for Adobe Experience Platform, and compatible with other tags generated using Experience Platform | Yes | Yes | — | — |
+| Allows all conversions that originate from [!DNL Apple Safari] and [!DNL Mozilla Firefox] to be tracked when used with the Adobe Advertising JavaScript conversion mapping tag | Yes | Yes | Yes | — |
 
 <!-- add link to page on conversion mapping tag above? -->
 
 >[!NOTE]
 >
->* 所有新實作都使用JavaScript版本3。
->* 具有ECID的JavaScript標籤使用[Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)以及舊版ef_id和gsurferid來測量轉換。 此最新標籤會建立[第一方Experience Cloud s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hant)，並提供與其他Experience Cloud產品更緊密整合的功能。
->* 只有在廣告商的網頁上已實作標籤時，才使用JavaScript第2版標籤。
->* 最佳實務是使用JavaScript標籤，而非影像標籤，除非網站設有禁止使用這些標籤的原則。
->* 廣告商若想要鎖定在Adobe Experience Cloud中建立、在Adobe Audience Manager中建立或從Audience Manager或Adobe Analytics發佈至Adobe Experience Cloud的受眾，則需要JavaScript標籤。
+>* All new implementations use JavaScript Version 3.
+>* The JavaScript tag with ECID uses the [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) as well as the legacy ef_id and gsurferid to measure conversions. This latest tag creates [first-party CX Enterprise s_ecid cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) and provides tighter integration with other CX Enterprise products.
+>* Use JavaScript Version 2 tags only when they&#39;re already implemented tags on the advertiser&#39;s webpages.
+>* The best practice is to use JavaScript tags instead of image tags unless the site has a policy against using them.
+>* JavaScript tags are required for advertisers who want to target audiences created in Adobe CX Enterprise, created in Adobe Audience Manager, or published to Adobe CX Enterprise from Audience Manager or Adobe Analytics.
 
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generate an Adobe Advertising conversion tag](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [JavaScript轉換追蹤標籤格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [JavaScript轉換追蹤標籤2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

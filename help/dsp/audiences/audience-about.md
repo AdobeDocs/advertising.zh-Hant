@@ -1,105 +1,96 @@
 ---
-title: 關於Advertising DSP中的對象管理
-description: 瞭解對象管理功能。
+title: About audience management in Advertising DSP
+description: Learn about audience management features.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
 TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: c193c532-b70e-4556-bde7-857186cbe140
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: 1394
 ht-degree: 0%
 
 ---
 
-# 關於Advertising DSP中的對象管理
+# About audience management in Advertising DSP
 
-在DSP中，您可以建立和管理受眾區段和受眾集，並作為刊登版位的目標：
+In DSP, you can create and manage audience segments and audience sets, which you can use as targets for your placements:
 
-* 透過建立和實作DSP區段來收集您自己的第一方對象資料。 您稍後可以在區段中以廣告重新鎖定使用者，或避免區段中的使用者接收廣告。 您可以建立下列型別的區段：
+* Collect your own first-party audience data by creating and implementing DSP segments. You can later retarget users in the segment with ads or prevent users in the segment from receiving ads. You can create the following types of segments:
 
-   * [自訂區段](/help/dsp/audiences/custom-segment-create.md)以追蹤a)從案頭和行動裝置向廣告公開的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
+   * [Custom segments](/help/dsp/audiences/custom-segment-create.md) to track a) users exposed to ads from desktop and mobile devices and b) users who visit specific webpages. The tracking tag can track either cookie-based users or users associated with ID5 universal IDs.
 
-   * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，以根據加州消費者隱私法(CCPA)，追蹤您網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
+   * [CCPA opt-out-of-sale segments](/help/dsp/audiences/ccpa-opt-out-segment-create.md) to track the users IDs from consumer opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA). You can retrieve monthly reports of the user IDs from opt-out-of-sale requests.
 
-     如需有關Adobe Advertising對CCPA選擇退出銷售要求的支援資訊，請參閱[加州消費者隱私法的Adobe Advertising支援：消費者選擇退出銷售支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
+     For more information about Adobe Advertising support for CCPA opt-out-of-sale requests, see [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt-out of sale support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* （Beta功能） [取得並使用通用ID進行無cookies目標定位](/help/dsp/audiences/universal-ids.md)：
+* (Beta feature) [Obtain and use universal IDs for cookieless targeting](/help/dsp/audiences/universal-ids.md):
 
-   * 手動將已驗證的[!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP。
+   * Manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP.
 
-   * 允許DSP從您的客戶資料平台匯入第一方區段，並將其轉譯為支援的通用ID型別。
+   * Allow DSP to import first-party segments from your customer data platform and translate them to supported universal ID types.
 
-   * 將包含通用ID的第三方區段加入您的位置目標，無需執行任何額外步驟。
+   * Include third-party segments that contain universal IDs in your placement targets without any extra steps.
 
-* 建立[個可重複使用對象](/help/dsp/audiences/reusable-audience-create.md)的對象庫。 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
+* Create an audience library of [reusable audiences](/help/dsp/audiences/reusable-audience-create.md). Saved audiences are composed of any of your available audience segments and any of your other saved audiences. Any changes you make to a saved audience are automatically applied to all placements that target or exclude the audience and to all other audiences that include the saved audience.
 
-  儲存的對象可讓媒體規劃人員視需要將對象分組，方法是使用複雜的布林邏輯包含和排除多個區段。 當您建立受眾時，會指出每個個別區段的（可鎖定目標）大小和整體作用中受眾大小。 Campaign執行者隨後只需選取一或多個儲存的對象作為位置目標，而非手動設定每個位置的對象目標。
+  Saved audiences allow media planners to group audiences as needed, by including and excluding multiple segments using complex Boolean logic. The  (targetable) size of each individual segment and the overall active audience size are indicated as you build an audience. Campaign executioners can then simply select one or more saved audiences as placement targets rather than manually configure audience targets for each placement.
 
-位置鎖定目標也可使用其他對象型別。
+Additional audience types are also available for placement targeting.
 
-## 匯入第一方和第三方資料區段
+## Importing first-party and third-party data segments
 
-您有許多選項可使用DSP使用者介面及/或透過自訂匯入服務，將第一方和第三方資料區段匯入DSP。
+You have many options to import first-party and third-party data segments into DSP, using the DSP user interface and/or through custom import services.
 
-* DSP可提取您的Adobe Audience Manager和其他[!DNL Adobe]個對象以用於目標定位。 如需必要條件和指示，請參閱[匯入廣告目標定位的Adobe Audience Manager區段](/help/integrations/audience-manager/import-audiences.md)。
+* DSP can pull in your Adobe Audience Manager and other [!DNL Adobe] audiences for targeting. For prerequisites and instructions, see &quot;[Import Adobe Audience Manager segments for ad targeting](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP可使用[來源功能](/help/dsp/audiences/sources/source-about.md)，將第一方資料區段從支援的客戶資料平台轉譯為具有通用ID的區段。 您也可以[手動將已驗證的 [!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)。
+* DSP can translate first-party data segments from supported customer data platforms to segments with universal IDs using the [Sources feature](/help/dsp/audiences/sources/source-about.md). You can also [manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
-* DSP可以直接從您的資料管理平台(DMP)匯入您的其他第一方資料區段，並視需要將其提供給任何一組廣告商。
+* DSP can import your other first-party data segments directly from your data management platform (DMP) and provide them to any set of advertisers, as needed.
 
-* DSP可匯入自訂的第三方區段，包括第三方區段的複雜組合。 您可以視需要將這些區段提供給任何一組廣告商。
+* DSP can import custom third-party segments, including complex combinations of third-party segments. You can provide the segments to any set of advertisers, as needed.
 
 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-## 可作為放置目標的對象
+## Audiences available as placement targets
 
-您可以將位置鎖定在下列所有型別的對象中。
+You can target your placements to all of the following types of audiences.
 
-* 所有使用者建立並儲存在DSP中的對象集。
+* All user-created audience sets that were saved in DSP.
 
-* 在DSP中建立的所有使用者建立受眾區段：
+* All user-created audience segments that were created in DSP:
 
-   * 造訪特定網頁的使用者與公開特定廣告曝光次數的使用者的自訂區段。
+   * Custom segments for users who visited specific webpages and users exposed to impressions of specific ads.
 
-     對於傳遞到通用ID的曝光，不會產生任何費用。
+     No fees are incurred for impressions delivered to universal IDs.
 
-   * CCPA根據加州消費者隱私法(CCPA)，對在您的網站上提交選擇退出銷售請求的使用者選擇退出銷售的對象區段。
+   * CCPA opt-out-of-sale audience segments for users who submitted opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA).
 
-* 所有匯入的第一方資料區段，包括轉換為通用ID的區段。
+* All of your imported first-party data segments, including segments that were translated to universal IDs.
 
-  若要取得為通用ID傳送的曝光數，則需支付額外費用。 如需費率，請參閱&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;。
+  Additional fees are charged for impressions delivered to universal IDs. See &quot;[About first-party audience sources](/help/dsp/audiences/sources/source-about.md)&quot; for rates.
 
-* 所有匯入的自訂第三方資料區段。
+* All of your imported custom third-party data segments.
 
-* （僅針對美國的位置） [所有協力廠商資料區段都可供30個以上提供者的DSP客戶使用](/help/dsp/audiences/third-party-data-providers.md)，包括[!DNL eXelate]、([!DNL Eyeota])、([!DNL LiveRamp])、[!DNL Lotame]、[!DNL Neustar]等。
+* (Placements targeting the U.S. only) [All third-party data segments available to DSP customers from over 30 providers](/help/dsp/audiences/third-party-data-providers.md), including [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], and many more.
 
-  您可以鎖定特定區段，根據對象資料鎖定使用者（例如，具有特定人口統計資料、興趣或意圖和/或行為設定檔的使用者）。 您可以依資料提供者和類別瀏覽、依名稱或區段ID搜尋區段，或依資料提供者、作用中區段大小、網頁瀏覽器計數或裝置計數篩選結果。
+  You can target specific segments, which target users based on audience data (for example, users with specific demographics, interests or intents, and/or behavioral profiles). You can browse by data provider and category, search for segments by name or segment ID, or filter the results by data provider, active segment size, web browser count, or devices count.
 
   協力廠商區段會產生額外費用，這些費用會顯示在每個區段名稱旁。
 
-* （僅使用Adobe Experience Platform轉換標籤且具有Adobe Advertising JavaScript和[!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics的廣告商）您在[!DNL Real-Time CDP]中建立、在Audience Manager中建立或從Audience Manager或[!DNL Analytics]發佈至Adobe Experience Cloud的所有可用第一方、第二方或第三方受眾區段。
+* （僅使用Adobe Experience Platform轉換標籤且具有Adobe Advertising JavaScript和[!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics的廣告商）您在[!DNL Real-Time CDP]中建立、在Audience Manager中建立或從Audience Manager或[!DNL Analytics]發佈至Adobe CX Enterprise的所有可用第一方、第二方或第三方受眾區段。
 
   使用區段的定價是預先議定的，在DSP中不可見。
 
-  [!DNL Analytics]中的區段在您建立或發佈為Experience Cloud對象後約一小時可使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段在您共用後24小時內即可使用。
+  [!DNL Analytics]中的區段在您建立或發佈為CX Enterprise對象後約一小時可使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段在您共用後24小時內即可使用。
 
   >[!NOTE]
   >
-  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=zh-Hant)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
+  >請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)的檔案，以取得關於在這些解決方案中設定和收集區段資料的資訊。
 
 ## 對象人數資料
 

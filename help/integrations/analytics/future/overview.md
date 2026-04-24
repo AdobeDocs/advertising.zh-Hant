@@ -3,9 +3,9 @@ title: Adobe Advertising與Adobe Analytics整合
 description: 瞭解Adobe Advertising如何與Adobe Analytics交換資料，以及如何在Search、Social和Commerce中使用資料。
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 透過[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)、[!DNL Search, Social, & Commerce]和DSP提取：
 
-* **[!DNL Analytics]區段：**&#x200B;在[!DNL Analytics]中建立並發佈至Experience Cloud的所有廣告商或機構區段的中繼資料、階層資料和不重複受眾資料。
+* **[!DNL Analytics]區段：**&#x200B;在[!DNL Analytics]中建立並發佈至Adobe CX Enterprise的所有廣告商或機構區段的中繼資料、階層資料和不重複受眾資料。
 
 * **[!DNL Analytics]網站參與量度**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 <!-- Verify all -->
 
-在[!DNL Search, Social, & Commerce]內，您可以使用現有的[!DNL Google Ads]區段，從使用者ID建立[!DNL Analytics]個Google客戶比對對象。 這包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)的客戶比對對象。&quot;
+在[!DNL Search, Social, & Commerce]內，您可以使用現有的[!DNL Analytics]區段，從使用者ID建立[!DNL Google Ads]個Google客戶比對對象。 這包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)的客戶比對對象。&quot;
 
 [來自使用者ID的客戶相符對象](https://support.google.com/google-ads/answer/9199250)的工作方式與網站標籤型對象類似，但會將非PII ID指派給不重複對象成員，以區別於標準客戶相符和網站標籤型對象的好處。
 

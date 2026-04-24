@@ -4,15 +4,12 @@ description: 瞭解登入方式。
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 搜尋、社交和Commerce正在轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS使用Federated ID為所有支援IMS的[!DNL Adobe]產品提供單一登入(SSO)存取，包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics。 隨著變更：
 
-* 您可以使用一個[!DNL Adobe ID]從Experience Cloud登入頁面或舊版搜尋、社交和Commerce登入頁面登入[!DNL Adobe]個產品。 您的[!DNL Adobe ID]提供使用者設定檔管理，並可從頂端功能表切換至其他[!DNL Adobe]產品。 在未來版本中，您將可從頂端功能表變更搜尋、社交和Commerce帳戶以及IMS組織帳戶。
+* 您可以使用一個[!DNL Adobe ID]從CX Enterprise登入頁面或舊版搜尋、社交和Commerce登入頁面登入[!DNL Adobe]個產品。 您的[!DNL Adobe ID]提供使用者設定檔管理，並可從頂端功能表切換至其他[!DNL Adobe]產品。 在未來版本中，您將可從頂端功能表變更搜尋、社交和Commerce帳戶以及IMS組織帳戶。
 
 * 支援企業驗證。
 
@@ -29,7 +26,7 @@ ht-degree: 0%
 
 您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。
 
-如需Experience Cloud介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[Experience Cloud介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[CX Enterprise介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ## 從舊版搜尋、社交和Commerce登入頁面登入
 
@@ -43,37 +40,37 @@ ht-degree: 0%
 
 ## 使用[!DNL Adobe ID]進行驗證
 
-1. 移至[enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/)或[enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)，然後按一下&#x200B;**[!UICONTROL Sign in with SSO]**。
+1. Go to [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) or [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) and click **[!UICONTROL Sign in with SSO]**.
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. If prompted, select either **[!UICONTROL Personal Account]&quot; or **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   新使用者介面預設會開啟。
+   The new user interface opens by default.
 
-1. 如果您可存取多個IMS組織，請在頁面的右上角選取正確的組織。
+1. If you have access to multiple IMS organizations, select the correct organization in the upper right of the page.
 
-## 使用[!DNL Adobe ID]登入Adobe Experience Cloud
+## Sign in from Adobe CX Enterprise using an [!DNL Adobe ID]
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
-1. 移至[experience.adobe.com](https://experience.adobe.com)。
+1. Go to [experience.adobe.com](https://experience.adobe.com).
 
-1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**..
+1. Enter your [!DNL Adobe] ID, and click **[!UICONTROL Continue]**..
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. If prompted, select either **[!UICONTROL Personal Account]&quot; or **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-1. 在首頁的[!UICONTROL Quick Access]區段中，按一下&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
+1. In the [!UICONTROL Quick Access] section of your home page, click **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
-![Advertising搜尋、社交和Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising搜尋、社交和Commerce)")
+![Advertising Search, Social, &amp; Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce)")
 
-新使用者介面預設會開啟。
+The new user interface opens by default.
 
-1. 如果您可存取多個IMS組織，請在頁面的右上角選取正確的組織。
+1. If you have access to multiple IMS organizations, select the correct organization in the upper right of the page.
 
 >[!MORELIKETHIS]
 >
->* [在新舊使用者介面之間切換](ui-switch.md)
->* [登出](sign-out.md)
->* [變更您的密碼](/help/search-social-commerce/tools/password-change.md)
->* [使用者介面的組織方式](user-interface.md)
+>* [Switch between the new and legacy user interfaces](ui-switch.md)
+>* [Sign out](sign-out.md)
+>* [Change your password](/help/search-social-commerce/tools/password-change.md)
+>* [How the user interface is organized](user-interface.md)

@@ -4,18 +4,12 @@ description: 瞭解啟動和維護投資組合的一般工作流程。
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -62,60 +56,60 @@ ht-degree: 0%
 
       使用Adobe Advertising畫素式轉換追蹤服務的廣告商點選追蹤URL包含重新導向至[!DNL Adobe]伺服器。
 
-   1. 設定轉換追蹤。 根據實作，這可能需要將轉換追蹤標籤新增到適當的網頁，和/或為您使用自己的方法收集的轉換資料設定每日摘要拖放功能。
+   1. Set up conversion tracking. Depending on the implementation, this may involve adding conversion tracking tags to the appropriate webpages and/or setting up a daily feed drop for conversion data that you&#39;ve collected using your own method.
 
-      如需設定追蹤的詳細資訊，請參閱「追蹤」上的說明章節。
+      For details about setting up tracking, see the help chapter on &quot;Tracking.&quot;
 
-1. 設定與其他產品的整合：
+1. Set up integrations with additional products:
 
-   1. （使用Adobe Analytics和/或Adobe Audience Manager的廣告商）設定各種帳戶之間的整合，讓Adobe Advertising可以與他們交換資料。
+   1. (Advertisers with Adobe Analytics and/or Adobe Audience Manager) Set up integrations between the various accounts so that Adobe Advertising can exchange data with them.
 
-      請參閱「[與Experience Cloud](/help/integrations/home.md)的整合」指南。
+      See the guide on &quot;[Integrations with CX Enterprise](/help/integrations/home.md).&quot;
 
-   1. （具有[!DNL Google Analytics]的廣告商）同步[!DNL Google Analytics]帳戶、屬性和檢視組合的轉換量度，以進行最佳化和報告。
+   1. (Advertisers with [!DNL Google Analytics]) Sync conversion metrics for a [!DNL Google Analytics] account, property, and view combination for optimization and reporting.
 
-      請參閱說明子章節「管理員」>「[設定資料來源](/help/search-social-commerce/admin/data-sources/data-source-about.md)」。
+      See the help subchapter &quot;Admin&quot; > &quot;[Configuring Data Sources](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
 
-1. 設定和啟動產品組合：
+1. Set up and launch portfolios:
 
-   1. 透過適當的行銷活動，設定已設定成符合您目標與業務目標的產品組合。 接下來，實作團隊會收集並驗證點按和收入資料至少14天，並驗證產品組合設定。
+   1. Set up portfolios configured to meet your objective and business goals, with the appropriate campaigns. The implementation team then gathers and validates click and revenue data for at least 14 days and validates the portfolio settings.
 
       >[!NOTE]
       >
-      >搜尋、Social和Commerce仍會追蹤和報告未指派給產品組合的促銷活動的資料，但不會為他們提供最佳化。
+      >Search, Social, &amp; Commerce still tracks and reports data for campaigns that aren&#39;t assigned to portfolios, but it doesn&#39;t provide optimization for them.
 
-   1. 在有足夠的資料可用來建立基準後，團隊就可以啟動產品組合 — 讓Search、Social和Commerce根據最佳化型別最佳化產品組合的競標和/或預算。
+   1. After enough data is available to create a baseline, then the team can launch the portfolio — allowing Search, Social, &amp; Commerce to optimize bids and/or budgets for the portfolio, based on the optimization type.
 
-   如需設定和啟動產品組合的詳細資訊，請參閱「最佳化」的說明，此說明可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
+   For details about setting up and launching portfolios, see the help on &quot;Optimization,&quot; which is available from the [!UICONTROL Help] menu (![Help menu](/help/search-social-commerce/assets/help-main-menu.png "Help menu")) in the upper right of any page within Search, Social, &amp; Commerce.
 
-1. 監控您的產品組合績效：
+1. Monitor your portfolios&#39; performance:
 
-   1. 產生廣告深入分析，這些是有關您最佳化和作用中產品組合的視覺化、可操作的資料。
+   1. Generate advertising insights, which are visual, actionable data about your optimized and active portfolios.
 
-   1. 設定並可能會自動化自訂報表以進行效能監視。
+   1. Set up, and potentially automate, customized reports for performance monitoring.
 
-   如需有關執行廣告深入分析和設定報表的詳細資訊，請參閱「深入分析和報表」的說明章節。
+   For details about running advertising insights and setting up reports, see the help chapter on &quot;Insights &amp; Reports.&quot;
 
-1. （選擇性）設定您的[效能資料檢視](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)，以顯示您要檢視的資料。
+1. (Optional) Configure your [performance data views](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) to show the data that you want to see.
 
-## 進行中的任務
+## Ongoing Tasks
 
-初次啟動後，需要下列持續性工作。 根據您的參與條款，[!DNL Adobe]、附屬機構或廣告商會執行下列工作：
+After the initial launch, the following ongoing tasks are required. Depending on your terms of engagement, either [!DNL Adobe], an affiliate agency, or the advertiser performs these tasks:
 
-* 檢視警報、每個產品組合及其元件行銷活動的效能資料、可自訂的報表，以及（某些角色）模擬，繼續監視和分析每個產品組合的效能。
+* Continue to monitor and analyze the performance of each portfolio by viewing alerts, performance data for each portfolio and its component campaigns, customizable reports, and (some roles) simulations.
 
-* 視需要，根據產品組合的實際和預測績效以及成長機會，調整用於管理產品組合的各種策略和設定：
+* Adjust the various strategies and settings that you use to manage the portfolio set, as necessary, based on the portfolio&#39;s actual and predicted performance and opportunities for growth:
 
-   * 調整投資組合預算、目標和其他設定。
+   * Adjust the portfolio budgets, objectives, and other settings.
 
-   * 調整帳戶/行銷活動結構，以配合行銷策略的變更。
+   * Adjust account/campaign structures to accommodate changes in marketing strategy.
 
-   * 新增/暫停/刪除行銷活動元件。 這可能包括根據搜尋字詞分析擴展關鍵字集，以及測試廣告文案和登陸頁面。
+   * Add/pause/delete campaign components. This may include expanding keyword sets based on search term analysis, and testing ad copy and landing pages.
 
-   * 根據進階效能報告更新地理和網站目標定位策略。
+   * Update geographical- and site-targeting strategies based on advanced performance reports.
 
-   * （選用）將競標限制新增至個別搜尋關鍵字或廣告群組、行銷活動或產品組合中的所有關鍵字。
+   * (Optional) Add bidding constraints to individual search keywords or to all keywords in an ad group, campaign, or portfolio.
 
-   * 新增投資組合。
+   * Add new portfolios.
 
-如需有關監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理產品組合」>「監控和管理效能」，可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
+For instructions on monitoring portfolios and adjusting the portfolio strategies, see the help subchapter &quot;Optimization&quot; > &quot;Managing Portfolios&quot; > &quot;Monitoring and Managing Performance,&quot; which is available from the [!UICONTROL Help] menu (![Help menu](/help/search-social-commerce/assets/help-main-menu.png "Help menu")) in the upper right of any page within Search, Social, &amp; Commerce.
