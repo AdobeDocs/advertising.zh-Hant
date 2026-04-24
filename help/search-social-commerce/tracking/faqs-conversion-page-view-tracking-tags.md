@@ -35,7 +35,7 @@ The following apply to Adobe Advertising conversion tracking tags and page view 
 >[!NOTE]
 >
 >* All new implementations use JavaScript Version 3.
->* The JavaScript tag with ECID uses the [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) as well as the legacy ef_id and gsurferid to measure conversions. This latest tag creates [first-party CX Enterprise s_ecid cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) and provides tighter integration with other CX Enterprise products.
+>* The JavaScript tag with ECID uses the [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant) as well as the legacy ef_id and gsurferid to measure conversions. This latest tag creates [first-party CX Enterprise s_ecid cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hant) and provides tighter integration with other CX Enterprise products.
 >* Use JavaScript Version 2 tags only when they&#39;re already implemented tags on the advertiser&#39;s webpages.
 >* The best practice is to use JavaScript tags instead of image tags unless the site has a policy against using them.
 >* JavaScript tags are required for advertisers who want to target audiences created in Adobe CX Enterprise, created in Adobe Audience Manager, or published to Adobe CX Enterprise from Audience Manager or Adobe Analytics.

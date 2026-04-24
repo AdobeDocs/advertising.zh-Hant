@@ -50,7 +50,7 @@ This use case requires the following products and integrations:
 
 * [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integration
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) integration
 
 * Audience Manager (required for view-through testing only)
 
@@ -94,15 +94,15 @@ By adding an Audience Manager impression event pixel in your ad tags and placeme
 
    1. Verify that segment data is available:
 
-      1. [Search for the signal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) for the [key-value pair](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) that determines at what level the segment users are grouped.
+      1. [Search for the signal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=zh-Hant) for the [key-value pair](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=zh-Hant) that determines at what level the segment users are grouped.
 
-         Use a [supported key](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) with a value that corresponds to a macro that you added to the Audience Manager impression event pixel.
+         Use a [supported key](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hant) with a value that corresponds to a macro that you added to the Audience Manager impression event pixel.
 
          For example, to group users for a particular placement, use the `d_placement` key. For the value, use an actual numeric placement ID (such as 2501853) that&#39;s captured by the DSP macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
          If the search results show user counts for the key-value pair, which indicates that the pixel was placed correctly and data is flowing, then continue to the next step.
 
-   1. [Create a rule-based trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) for segment creation in Audience Manager.
+   1. [Create a rule-based trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hant) for segment creation in Audience Manager.
 
       * Name the trait so that it’s easily identifiable within test activities. Store the trait in whichever folder you prefer.
 
@@ -110,7 +110,7 @@ By adding an Audience Manager impression event pixel in your ad tags and placeme
 
       * For the trait expression, use `d_event` as the **[!UICONTROL Key]** and `imp` as the **[!UICONTROL Value]**.
 
-   1. [Set up a test segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) for the new trait in Audience Manager, selecting `Ad Cloud` as the **[!UICONTROL Data Source]**.
+   1. [Set up a test segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=zh-Hant) for the new trait in Audience Manager, selecting `Ad Cloud` as the **[!UICONTROL Data Source]**.
 
       Audience Manager automatically splits the segment into a control group that receives the standard landing page experience and a test group that received a personalized onsite experience.
 
@@ -118,15 +118,15 @@ By adding an Audience Manager impression event pixel in your ad tags and placeme
 
 The following instructions highlight information pertaining to the DSP use case.
 
-1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant).
 
-1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant):
 
    1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
 
       >[!NOTE]
       >
-      >You can use multiple URLs to test view-through site entry. For more information, see &quot;[Multipage Activity](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，依頁面URL輕鬆識別熱門專案。
+      >You can use multiple URLs to test view-through site entry. For more information, see &quot;[Multipage Activity](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=zh-Hant).&quot; 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，依頁面URL輕鬆識別熱門專案。
 
    1. 在&#x200B;**[!UICONTROL Goal]**&#x200B;欄位中輸入測試的成功量度。
 
@@ -138,7 +138,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
    1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;內，選取連線至您DSP帳戶的&#x200B;**[!UICONTROL Company Name]**&#x200B;和&#x200B;**[!UICONTROL Report Suite]**。
 
-      如需其他報告秘訣，請參閱「[報告最佳實務和疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)」。
+      如需其他報告秘訣，請參閱「[報告最佳實務和疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=zh-Hant)」。
 
    1. 在&#x200B;**[!UICONTROL Date Range]**&#x200B;欄位中，輸入適當的測試開始與結束日期。
 
@@ -152,7 +152,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
    1. 儲存活動。
 
-1. 使用[Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)，對A/B測試登入頁面範本進行設計變更。
+1. 使用[Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)，對A/B測試登入頁面範本進行設計變更。
 
    * 體驗A：請勿編輯，因為這是沒有個人化的預設/控制登陸頁面體驗。
 
@@ -168,7 +168,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
 [!DNL Analytics for Target] (A4T)是跨解決方案的整合，可讓廣告商根據[!DNL Analytics]轉換量度和受眾區段來建立[!DNL Target]個活動，然後使用[!DNL Analytics]做為報表來源來測量結果。 該活動的所有報表和區段都以[!DNL Analytics]資料收集為基礎。
 
-如需[!DNL Analytics for Target]的詳細資訊，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)的報告來源&quot;。
+如需[!DNL Analytics for Target]的詳細資訊，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)的報告來源&quot;。
 
 ### 設定[!DNL Analytics for Target]面板
 
@@ -196,7 +196,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
 在Analysis Workspace中，如果您發現活動和體驗資料很少或未填入，則請執行以下操作：
 
-* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)，以驗證SDID值。
+* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hant)，以驗證SDID值。
 
   [Adobe Debugger中的補充資料ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -210,10 +210,10 @@ The following instructions highlight information pertaining to the DSP use case.
 
 ## 進一步閱讀
 
-* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) — 說明如何在Analysis Workspace中設定[!DNL Target]報告。
-* [A/B測試總覽](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) — 說明可搭配DSP廣告使用的A/B測試活動。
-* [體驗與選件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) — 說明[!DNL Target]用來判斷DSP測試使用者公開之站上內容的工具。
-* [訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) — 定義有助於進行DSP閱覽測試的一些Audience Manager工具。
+* [將Target與Analytics整合](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=zh-Hant) — 說明如何在Analysis Workspace中設定[!DNL Target]報告。
+* [A/B測試總覽](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=zh-Hant) — 說明可搭配DSP廣告使用的A/B測試活動。
+* [體驗與選件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=zh-Hant) — 說明[!DNL Target]用來判斷DSP測試使用者公開之站上內容的工具。
+* [訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hant) — 定義有助於進行DSP閱覽測試的一些Audience Manager工具。
 * [總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) — 介紹[!DNL Analytics for Advertising]，它可讓您在Analytics執行個體中追蹤點進和檢視網站互動。
 
 >[!MORELIKETHIS]

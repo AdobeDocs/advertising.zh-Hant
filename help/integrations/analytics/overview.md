@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 觀看[介紹 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics)的影片。
+> 觀看[介紹 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hant#analytics)的影片。
 
 ## 使用Analytics製作付費媒體報表
 
@@ -101,17 +101,17 @@ See &quot;[Analytics Metrics in Adobe Advertising](analytics-data-in-advertising
 
 Adobe Advertising can ingest [!DNL Analytics] segments for remarketing purposes for [!DNL Creative], [!DNL DSP], and [!DNL Search, Social, & Commerce] ads using the native CX Enterprise Audiences integration between [!DNL Analytics] and CX Enterprise.
 
-To access the [!DNL Analytics] segments, an advertiser account must enable the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). When the ID Service is enabled, all CX Enterprise segments become available within Adobe Advertising as soon as they are processed. CX Enterprise segments include segments created in [!DNL Analytics] and published to CX Enterprise, segments created in Adobe Audience Manager, segments created in CX Enterprise using the [!DNL People core service], and segments created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager.
+To access the [!DNL Analytics] segments, an advertiser account must enable the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant). When the ID Service is enabled, all CX Enterprise segments become available within Adobe Advertising as soon as they are processed. CX Enterprise segments include segments created in [!DNL Analytics] and published to CX Enterprise, segments created in Adobe Audience Manager, segments created in CX Enterprise using the [!DNL People core service], and segments created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager.
 
 [!DNL Analytics] segments are available within 24 hours and are updated daily.
 
-For more information about the CX Enterprise Audiences service, see [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+For more information about the CX Enterprise Audiences service, see [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant).
 
 ## Examples of how to use the integration {#integration-examples}
 
 ### Using Adobe Advertising data in Analysis Workspace
 
-To learn how you can use your Adobe Advertising data to create visual reports in Analysis Workspace, see the video &quot;[Introduction to Workspace and Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+To learn how you can use your Adobe Advertising data to create visual reports in Analysis Workspace, see the video &quot;[Introduction to Workspace and Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant).&quot;
 
 #### Using connected TV view-through conversions in reports
 
@@ -147,11 +147,11 @@ You can measure the full-funnel effectiveness of your connected TV (CTV) campaig
 
 ### 建立Adobe Advertising控制面板
 
-若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。
+若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=zh-Hant)」。
 
 ### 使用Adobe Advertising ID進行網站專案分析
 
-若要瞭解如何建立Adobe Advertising網站專案報告，以監視一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片「[建立Adobe Advertising網站專案報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)」。
+若要瞭解如何建立Adobe Advertising網站專案報告，以監視一週中的某天、一天中的某一時間、瀏覽器和地理影響，請參閱影片「[建立Adobe Advertising網站專案報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=zh-Hant)」。
 
 ## 如何起始[!DNL Analytics for Advertising]實作
 
@@ -159,7 +159,7 @@ You can measure the full-funnel effectiveness of your connected TV (CTV) campaig
 
 >[!MORELIKETHIS]
 >
->* [影片： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)簡介
+>* [影片： [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=zh-Hant)簡介
 >* [實作的必要條件和關鍵資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analytics使用的[Adobe Advertising ID](ids.md)
 >* 適用於Advertising的Analytics的[JavaScript程式碼](/help/integrations/analytics/javascript.md)

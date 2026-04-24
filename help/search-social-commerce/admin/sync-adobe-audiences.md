@@ -33,7 +33,7 @@ You can allow Search, Social, &amp; Commerce to pull in metadata, hierarchy data
 
 * Segments that are created using the Adobe CX Enterprise [!DNL Audience Library]
 
-To be eligible, the advertiser or agency must implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) and provide its organization ID (formerly called [!DNL IMS Org ID]).
+To be eligible, the advertiser or agency must implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) and provide its organization ID (formerly called [!DNL IMS Org ID]).
 
 The initial sync takes about 24 hours. After that, data is synced in real time, with a one- to two- second delay.
 
