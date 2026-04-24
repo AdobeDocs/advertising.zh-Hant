@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 + 簡介 {#intro}
    + [關於Adobe Advertising Search、Social和Commerce](/help/search-social-commerce/introduction/about.md)
    + [支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)
-   + 與Adobe Experience Cloud整合 {#integrations}
-      + [與Adobe Experience Cloud解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
+   + 與Adobe CX Enterprise整合 {#integrations}
+      + [與Adobe CX Enterprise解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}
       + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hant){target="_blank"}
-   + [消費者隱私權支援（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
+   + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
    + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hant){target="_blank"}
 + 快速入門 {#getting-started}
    + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
@@ -97,8 +97,8 @@ ht-degree: 2%
          + [從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 行銷活動 {#campaigns}
          + [關於[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [將行銷活動指派給投資組合](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [從投資組合移除行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [將行銷活動指派至投資組合](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [從投資組合中移除行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 廣告群組 {#ad-groups}
@@ -112,9 +112,9 @@ ht-degree: 2%
       + 標籤分類 {#label-classifications}
          + [關於標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
          + [建立標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [從行銷活動管理檢視指派分類值給帳戶元件](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [從行銷活動管理檢視將分類值指派給帳戶元件](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
          + [使用大量表單指派分類值給帳戶元件](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [從帳戶元件移除標籤分類值](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [從帳戶元件中移除標籤分類值](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
          + [刪除標籤分類值](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
          + [刪除標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
@@ -156,7 +156,7 @@ ht-degree: 2%
       + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising轉換追蹤 {#advertising-conversion-tracking}
          + [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [產生並實作Adobe Advertising轉換標籤](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [產生和實作Adobe Advertising轉換標籤](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
          + [JavaScript轉換追蹤標籤第3版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript轉換追蹤標籤第2版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -207,31 +207,31 @@ ht-degree: 2%
                + [[!DNL Yahoo! Japan Ads]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Yandex]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 關鍵字 {#keywords}
-            + [關於關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
-            + [管理可競標的關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-            + [建立負面關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
-            + [變更關鍵字和負關鍵字的狀態](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
-            + 依廣告網路區分的關鍵字設定 {#keyword-settings-by-network}
-               + [[!DNL Baidu]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
-               + [[!DNL Google Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
-               + [[!DNL Microsoft Advertising]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
-               + [[!DNL Yandex]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
+            + [About keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
+            + [Manage biddable keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+            + [Create negative keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+            + [Change the status of keywords and negative keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
+            + Keyword settings by ad network {#keyword-settings-by-network}
+               + [[!DNL Baidu] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
+               + [[!DNL Google Ads] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [[!DNL Microsoft Advertising] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
+               + [[!DNL Yandex] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
          + 廣告 {#ads}
-            + [關於廣告](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
-            + [管理廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-            + 依廣告網路區分的廣告設定 {#ad-settings-by-network}
-               + [[!DNL Baidu]文字廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
-               + [[!DNL Google Ads]僅限通話的廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
-               + [[!DNL Google Ads]延展的動態搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
-               + [[!DNL Google Ads]個回應式搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
-               + [[!DNL Microsoft Advertising]延展的動態搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
-               + [[!DNL Microsoft Advertising]多媒體廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
-               + [[!DNL Microsoft Advertising]產品廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
+            + [About ads](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
+            + [Manage ads](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
+            + Ad settings by ad network {#ad-settings-by-network}
+               + [[!DNL Baidu] text ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
+               + [[!DNL Google Ads] call-only ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
+               + [[!DNL Google Ads] expanded dynamic search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
+               + [[!DNL Google Ads] responsive search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
+               + [[!DNL Microsoft Advertising] expanded dynamic search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
+               + [[!DNL Microsoft Advertising] multimedia ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
+               + [[!DNL Microsoft Advertising] product ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
                + [[!DNL Microsoft Advertising]個回應式（對象）廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-responsive.md)
-               + [[!DNL Microsoft Advertising]個回應式搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
-               + [[!DNL Yandex]文字廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
-         + 產品群組 {#product-groups}
+               + [[!DNL Microsoft Advertising] responsive search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
+               + [[!DNL Yandex] text ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
+         + Product groups {#product-groups}
             + [關於產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [管理產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
             + [[!DNL Google Ads]產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
@@ -248,7 +248,7 @@ ht-degree: 2%
          + 對象和對象目標 {#audiences-and-targets}
             + 對象 {#audiences}
                + [關於對象](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [建立來自 [!DNL Google Ads] 受眾的 [!DNL Adobe] 客戶比對受眾](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [建立來自 [!DNL Adobe] 受眾的 [!DNL Google Ads] 客戶比對受眾](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [從Adobe Campaign電子郵件清單建立 [!DNL Google Ads] 客戶比對對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [使用客戶資料清單管理客戶比對受眾](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [管理動態再行銷對象](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -465,7 +465,7 @@ ht-degree: 2%
       + [上傳 [!DNL Naver] 僅限追蹤帳戶的流量和轉換量度](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [&#x200B; [!DNL Naver] 僅追蹤帳戶的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [啟用其他清查同步處理](/help/search-social-commerce/tools/sync-inventory.md)
-   + [復寫 [!DNL Google Ads] 中的 [!DNL Microsoft Advertising]個行銷活動](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活動](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}
    + [關於角色](/help/search-social-commerce/admin/role-about.md)
    + [管理廣告網路管理員帳戶的認證](/help/search-social-commerce/admin/manager-accounts.md)

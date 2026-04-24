@@ -1,6 +1,6 @@
 ---
-title: Adobe Advertising中的[!DNL Analytics]資料
-description: Adobe Advertising中的[!DNL Analytics]資料
+title: '[!DNL Analytics] Data in  Adobe Advertising'
+description: '[!DNL Analytics] Data in Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
@@ -11,68 +11,68 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising中的[!DNL Analytics]資料
+# [!DNL Analytics] Data in Adobe Advertising
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
 
-## Analytics區段
+## Analytics segments
 
-在[!DNL Analytics]中建立並發佈至Experience Cloud的所有區段。
+All segments created in [!DNL Analytics] and published to Adobe CX Enterprise (formerly Adobe) Experience Cloud).
 
-新區段需要24到48小時才會出現在Adobe Advertising中。 現有區段的更新會在約八小時內同步。
+New segments take 24-48 hours to appear in Adobe Advertising. Updates to existing segments are synchronized within about eight hours.
 
 <!-- I added "metric" to some of the links below, even though it looks redundant, because of syntax limitations: If you use [!DNL] or [!UICONTROL] as the sole text of a link (such as [[!UICONTROL Revenue]], the tag is included in the link text (such as "[!UICONTROL Revenue]") when it's published. -->
 
-## 網站參與量度
+## Site engagement metrics
 
 >[!NOTE]
 >
->* [!DNL Analytics]會將EF ID [!DNL eVar]的事件傳入Adobe Advertising。  預設整合不支援將計算量度或其他維度([!DNL eVars])傳送到Adobe Advertising。 不過，如果計算量度可在自訂事件中完整擷取，則Adobe Advertising可擷取自訂事件。
->* [!DNL Analytics]每小時傳遞資料給Adobe Advertising。
+>* [!DNL Analytics] passes events for the EF ID [!DNL eVar] into Adobe Advertising.  The default integration doesn&#39;t support sending calculated metrics or other dimensions ([!DNL eVars]) into Adobe Advertising. If the calculated metric can be wholly captured in a custom event, however, then Adobe Advertising can ingest the custom event.
+>* [!DNL Analytics] passes data to Adobe Advertising hourly.
 
-* [!UICONTROL Timespent_secs_1stvisit]：訪客首次造訪期間在網站上逗留的秒數。
-* [!UICONTROL Timespent_secs_total]：在點按回顧期間內，所有造訪在網站上逗留的總秒數。
-* [!UICONTROL Pageviews_1stvisit]：訪客首次造訪期間網站上的頁面檢視次數。
-* [!UICONTROL Pageviews_total]：點按回顧期間內的所有造訪在網站上檢視的頁面總數。
-* [[!UICONTROL Bounces]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=zh-Hant)
-* [[!UICONTROL Visits]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)
-* [!UICONTROL ef_id_instances]： [!DNL Analytics]收集[!UICONTROL EF ID]的次數。
+* [!UICONTROL Timespent_secs_1stvisit]: The number of seconds spent on the site during the visitor&#39;s first visit.
+* [!UICONTROL Timespent_secs_total]: The total number of seconds spent on the site across all visits within the click lookback window.
+* [!UICONTROL Pageviews_1stvisit]: The number of page views on the site during the visitor&#39;s first visit.
+* [!UICONTROL Pageviews_total]: The total number of page views on the site across all visits within the click lookback window.
+* [[!UICONTROL Bounces] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=zh-Hant)
+* [[!UICONTROL Visits] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)
+* [!UICONTROL ef_id_instances]: The number of times that [!DNL Analytics] collected an [!UICONTROL EF ID].
 
 ## 轉換量度
 
-[!DNL Analytics]每日傳遞轉換量度至Adobe Advertising。
+[!DNL Analytics] passes conversion metrics to Adobe Advertising daily.
 
-### 標準轉換量度
+### Standard conversion metrics
 
-* [[!UICONTROL Revenue]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=zh-Hant)
-* [[!UICONTROL Orders]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=zh-Hant)
-* [[!UICONTROL Units]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=zh-Hant)
-* [[!UICONTROL Carts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=zh-Hant)
-* [[!UICONTROL Cart Views]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=zh-Hant)
-* [[!UICONTROL Checkouts]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=zh-Hant)
-* [[!UICONTROL Cart Additions]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=zh-Hant)
-* [[!UICONTROL Cart Removals]個量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=zh-Hant)
+* [[!UICONTROL Revenue] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=zh-Hant)
+* [[!UICONTROL Orders] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=zh-Hant)
+* [[!UICONTROL Units] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=zh-Hant)
+* [[!UICONTROL Carts] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=zh-Hant)
+* [[!UICONTROL Cart Views] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=zh-Hant)
+* [[!UICONTROL Checkouts] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=zh-Hant)
+* [[!UICONTROL Cart Additions] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=zh-Hant)
+* [[!UICONTROL Cart Removals] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=zh-Hant)
 
-### 自訂轉換量度
+### Custom conversion metrics
 
-這些量度是報表套裝專用，因此每個客戶和報表套裝的可用量度會有所不同。
+These metrics are specific to the report suite, so the available metrics vary for each customer and report suite.
 
-### 從[!DNL eVars]和[!DNL Props]建立的自訂轉換量度
+### Custom conversion metrics created from [!DNL eVars] and [!DNL Props]
 
-可用的量度因每個客戶而異。 請參閱&quot;[從Adobe Analytics [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)建立轉換量度。&quot;
+The available metrics vary for each customer. 請參閱&quot;[從Adobe Analytics [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)建立轉換量度。&quot;
 
-### 保留的轉換量度
+### Reserved conversion metrics
 
-這些量度是報表套裝專用，因此每個客戶和報表套裝的可用量度會有所不同。
+These metrics are specific to the report suite, so the available metrics vary for each customer and report suite.
 
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* Analysis Workspace中的[Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Adobe Advertising Metrics in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)

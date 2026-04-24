@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->在您建立客戶資料平台的來源後，必須完成其他步驟以匯入對象。 檢視[的 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)工作流程、<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->的[的 [!DNL Amperity]](source-amperity.md)工作流程、[的 [!DNL Optimizely]](source-optimizely.md)工作流程以及[的 [!DNL Tealium]](source-tealium.md)工作流程。
+>After you create a source for your customer data platform, you must complete additional steps to import your audience. See the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> the [workflow for [!DNL Amperity]](source-amperity.md), the [workflow for [!DNL Optimizely]](source-optimizely.md), and the [workflow for [!DNL Tealium]](source-tealium.md).
 
-## 變更對象來源的ID型別
+## Change the ID types for an audience source
 
 <!-- 
 Clarify this:
@@ -79,39 +79,39 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
+1. Hold the cursor over the source row and click **[!UICONTROL Edit]**.
 
-1. 變更為來源[選取的](#source-settings)ID。
+1. Change the [IDs selected for the source](#source-settings).
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 刪除對象來源
+## Delete an audience source
 
-刪除來源會移除透過來源轉譯的區段。<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
-
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
-
-1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Delete]**。
-
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
-
-## 檢視對象來源的變更記錄
-
-您可以檢視對象來源記錄變更的詳細資料，並可選擇將附註附加至記錄。
+Deleting a source removes the segments translated through the source.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Change log]**。
+1. Hold the cursor over the source row and click **[!UICONTROL Delete]**.
 
-1. （選擇性）若要在變更記錄中附加附註：
+1. In the confirmation message, click **[!UICONTROL Delete]**.
 
-   1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Add Notes]**。
+## View the change log for an audience source
 
-   1. 輸入備註，然後按一下&#x200B;**[!UICONTROL Save]**。
+You can view details about changes to an audience source record and optionally attach notes to the log.
 
-      長度上限為256個字元。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. （選擇性）若要在較大的詳細資訊畫面中開啟記錄檔，請將游標停留在來源列上，然後按一下&#x200B;**[!UICONTROL View Details]**。
+1. Hold the cursor over the source row and click **[!UICONTROL Change log]**.
+
+1. (Optional) To attach a note to the change log:
+
+   1. Hold the cursor over the source row and click **[!UICONTROL Add Notes]**.
+
+   1. Enter the note, and then click **[!UICONTROL Save]**.
+
+      The maximum length is 256 characters.
+
+1. (Optional) To open the log in a larger detail screen, hold the cursor over the source row and click **[!UICONTROL View Details]**.
 
 ## 對象來源設定 {#source-settings}
 
@@ -119,7 +119,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Advertiser]：** （僅限廣告商層級的可見度）可提供區段的廣告商。 從可存取該帳戶的廣告商清單中選取一個廣告商。
 
-**[!UICONTROL Enter IMS Org Id]：** （僅限[!DNL Real-Time CDP]個來源） [!DNL Adobe Experience Platform]帳戶的Adobe Experience Cloud組織識別碼。
+**[!UICONTROL Enter IMS Org Id]：** （僅限[!DNL Real-Time CDP]個來源） [!DNL Adobe Experience Platform]帳戶的Adobe CX Enterprise組織識別碼。
 
 **[!UICONTROL Convert PII to the following IDs]：**&#x200B;您要將個人識別資訊(PII)轉換為的ID型別。 如果您選取多個型別，則產生的區段會填入每個所選ID型別的值（例如每個電子郵件地址的[!DNL RampID]和[!DNL Unified ID2.0]）。 據此套用資料費用。
 

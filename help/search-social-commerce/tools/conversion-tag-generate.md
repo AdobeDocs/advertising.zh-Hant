@@ -3,9 +3,9 @@ title: 產生和實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新增至此清單的量度未儲存於任何位置，或與[!UICONTROL Conversions]標籤上使用者端的[!UICONTROL Admin]清單整合。 不過，當Adobe Advertising實際收集量度的資料後，量度就會自動新增到使用者端的[!UICONTROL Conversions]清單中，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會發生這種情況。
+>新增至此清單的量度未儲存於任何位置，或與[!UICONTROL Admin]標籤上使用者端的[!UICONTROL Conversions]清單整合。 不過，當Adobe Advertising實際收集量度的資料後，量度就會自動新增到使用者端的[!UICONTROL Conversions]清單中，當轉換標籤在頁面上實作，且一般使用者完成開啟該頁面的交易時，就會發生這種情況。
 
 **[!UICONTROL Include unique transaction IDs]：** （選擇性）在標籤中包含交易ID屬性(`ev_transid=<transid>`)。 依預設，會選取選項。
 
@@ -76,53 +76,53 @@ ht-degree: 0%
 
 ## 使用Adobe Experience Platform標籤和Adobe Advertising擴充功能實作轉換追蹤標籤
 
-您可以使用Adobe Experience Platform中的標籤來設定「搜尋」、「社交」和「Commerce」的轉換追蹤。 Adobe Experience Cloud客戶可使用標籤內含的增值功能。
+You can set up conversion tracking for Search, Social, &amp; Commerce using tags in Adobe Experience Platform. Tags are available to Adobe CX Enterprise customers as an included, value-add feature.
 
-從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
+The following tasks are required to configure conversion tracking tags for Search, Social, &amp; Commerce from the Experience Platform user interface or from the Experience Platform Data Collection user interface. For full information and instructions for configuring tags, see the Experience Platform Tags Guide, beginning with the &quot;[Tags overview](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot; and &quot;[Quickstart guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start).&quot;
 
 >[!PREREQUISITES]
 >
->若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
+>To install the required tag extension, ask your organization administrator for access to Data Collection features in the UI, including the `manage_properties` permission.
 
-1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)：
+1. From the [Data Collection UI](https://experience.adobe.com/#/data-collection/), install the Adobe Advertising [Extension](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview):
 
-   1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
+   1. From the applicable property, open the extension catalog and select **Adobe Advertising**.
 
-   1. 從下拉式功能表中選取&#x200B;**SSC** （適用於「搜尋」、「社交」和「Commerce」）。
+   1. From the pulldown menu, select **SSC** (for Search, Social, &amp; Commerce).
 
-   1. 在&#x200B;**SSC UserID**&#x200B;欄位中，輸入您組織的Search、Social和Commerce帳戶的數位使用者ID。
+   1. In the **SSC UserID** field, enter the numeric user ID for your  organization&#39;s Search, Social, &amp; Commerce account.
 
-      如果您不知道使用者ID，請聯絡您的Adobe帳戶團隊。
+      If you don&#39;t know your user ID, contact your Adobe Account Team.
 
    1. 按一下&#x200B;**儲存**。
 
-1. 建立新規則（例如「form_completes」）以觸發搜尋、社交和Commerce轉換標籤：
+1. Create a new rule (for example, &quot;form_completes&quot;) to trigger the Search, Social, &amp; Commerce conversion tag:
 
-   1. 在「事件設定」區段中：
+   1. In the Event Configuration section:
 
-      1. 選取下列值：
+      1. Select the following values:
 
-         **副檔名：** `Core`
+         **Extension:** `Core`
 
-         **事件型別：** `Library Loaded (Page Top)`
+         **Event Type:** `Library Loaded (Page Top)`
 
-      1. 按一下&#x200B;**保留變更**。
+      1. Click **Keep Changes**.
 
-   1. 在「條件設定」區段中：
+   1. In the Condition Configuration section:
 
-      1. 指定下列值：
+      1. Specify the following values:
 
-         **邏輯型別：** `Regular`
+         **Logic Type:** `Regular`
 
-         **副檔名：** `Core`
+         **Extension:** `Core`
 
-         **條件型別：** `Path Without Query String`
+         **Condition Type:** `Path Without Query String`
 
-         **如果路徑等於：**&#x200B;應追蹤轉換的路徑（例如，`/form_complete`），則傳回true。
+         **Return true if path equals:** The path where the conversion should be tracked (for example, `/form_complete`).
 
-      1. 按一下&#x200B;**保留變更**。
+      1. Click **Keep Changes**.
 
-   1. 在「動作組態」段落中：
+   1. In the Action Configuration section:
 
       1. 指定下列值：
 

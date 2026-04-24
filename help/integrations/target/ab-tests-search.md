@@ -18,9 +18,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * 提供與廣告相關的更個人化的登陸頁面體驗（例如，比對登陸頁面的影像/影片創意、復本、關鍵字或其他廣告訊號）。
 
-您也可以結合Advertising[[!DNL Analytics] 的原生](/help/integrations/analytics/overview.md)與整合至Adobe Analytics的[[!DNL Analytics]  [!DNL Target]整合報表維度的](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
+您也可以結合Advertising[&#128279;](/help/integrations/analytics/overview.md)的原生[[!DNL Analytics] 與整合至Adobe Analytics的 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合報表維度的[!DNL Analytics] ，以透過[!DNL Analytics]量度和成功事件測量及視覺化您的測試資料。
 
 請參閱下列各節以瞭解先決條件、在[!DNL Target]中設定A/B測試的指示（來自Search、Social和Commerce中的廣告點進流量），以及如何在[!DNL Analytics]中測量和視覺化測試的秘訣。
 
@@ -52,60 +52,60 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 * [!DNL Analytics]
 
-* 用於Advertising[[!DNL Analytics] 整合的](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合
 
-## 步驟1：在[!DNL Target]中為「搜尋」、「社交」和「Commerce」建立A/B測試活動
+## Step 1: Create an A/B test activity in [!DNL Target] for Search, Social, &amp; Commerce
 
-下列指示會醒目顯示與搜尋、社交和Commerce使用案例相關的資訊。
+The following instructions highlight information pertaining to the Search, Social, &amp; Commerce use case.
 
-1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant)。
+1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant).
 
-1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)：
+1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant):
 
-   1. 在&#x200B;**[!UICONTROL Enter Activity URL]**&#x200B;欄位中，輸入測試的登陸頁面URL。
+   1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
 
-   1. 在&#x200B;**[!UICONTROL Goal]**&#x200B;欄位中輸入測試的成功量度。
+   1. In the **[!UICONTROL Goal]** field, enter the success metric for the test.
 
       >[!NOTE]
       >
-      >請確定[!DNL Analytics]已在[!DNL Target]內啟用為資料來源，且已選取正確的報表套裝。
+      >Make sure that [!DNL Analytics] is enabled as a data source within [!DNL Target], and that the correct report suite is selected.
 
-   1. 將&#x200B;**[!UICONTROL Priority]**&#x200B;設為`High`或`999`，以防止測試區段中的使用者收到錯誤的站台體驗時發生衝突。
+   1. Set the **[!UICONTROL Priority]** to `High` or `999` to prevent conflicts when users in the test segment receive an incorrect on-site experience.
 
 
-   1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;內，選取連線至您搜尋、社交和Commerce帳戶的&#x200B;**[!UICONTROL Company Name]**&#x200B;和&#x200B;**[!UICONTROL Report Suite]**。
+   1. Within **[!UICONTROL Reporting Settings]**, select the **[!UICONTROL Company Name]** and **[!UICONTROL Report Suite]** connected to your Search, Social, &amp; Commerce account.
 
-      如需其他報告秘訣，請參閱「[報告最佳實務和疑難排解](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=zh-Hant)」。
+      For additional reporting tips, see &quot;[Reporting best practices and troubleshooting](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=zh-Hant).&quot;
 
-   1. 在&#x200B;**[!UICONTROL Date Range]**&#x200B;欄位中，輸入適當的測試開始與結束日期。
+   1. In the **[!UICONTROL Date Range]** field, enter the appropriate start and end dates for the test.
 
-   1. 選取&#x200B;**[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**。 在&#x200B;**[!UICONTROL Value]**&#x200B;欄位中，針對「搜尋」、「社交」和「Commerce」的相關廣告網路實體，輸入[!UICONTROL Network Account ID]、[!UICONTROL Network Campaign ID]、[!UICONTROL Network Adgroup ID]或[!UICONTROL Network Ad ID]。 這可讓您針對實體的點進對象使用[!DNL Target]查詢字串引數。
+   1. Select **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. In the **[!UICONTROL Value]** field, enter the [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], or [!UICONTROL Network Ad ID] for the relevant ad network entity in Search, Social, &amp; Commerce. This allows you to use the [!DNL Target] query string parameters for click-through audiences for the entity.
 
-      您可以[將相關的識別碼資料行新增至實體檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)來尋找識別碼。
+      You can find the ID by [adding the relevant ID column to the entity view](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-      在![[!UICONTROL Network Account ID]檢視[!UICONTROL Accounts]的](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID]檢視[!UICONTROL Accounts]資料行中的")資料行
+      ![[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view")
 
-      如果您需要協助，請與您的Adobe客戶團隊合作。
+      Work with your Adobe Account Team if you need assistance.
 
-   1. 針對&#x200B;**[!UICONTROL Traffic Allocation Method]**，選取&#x200B;**[!UICONTROL Manual (Default)]**&#x200B;並以50/50分割對象。
+   1. For the **[!UICONTROL Traffic Allocation Method]**, select **[!UICONTROL Manual (Default)]** and split the audience 50/50.
 
-   1. 儲存活動。
+   1. Save the activity.
 
-1. 使用[Target視覺化體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)，對A/B測試登入頁面範本進行設計變更。
+1. Use [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant) to make design changes to the A/B test landing page template.
 
-   * 體驗A：請勿編輯，因為這是沒有個人化的預設/控制登陸頁面體驗。
+   * Experience A: Don&#39;t edit because it&#39;s the default/control landing page experience without personalization.
 
-   * 體驗B：使用[!DNL Target]使用者介面，根據測試中包含的資產自訂登入頁面範本（例如標題、復本、按鈕位置和創意）。
+   * Experience B: Use the [!DNL Target] user interface to customize the landing page template based on the assets included in the test (such as headlines, copy, button placement, and creatives).
 
    >[!NOTE]
    >
-   >例如創意測試使用案例，請聯絡您的Adobe客戶團隊。
+   >For example creative test use cases, contact your Adobe Account Team.
 
-## 步驟2：在[!DNL Analytics for Target]中設定您的[!DNL Analytics] Analysis Workspace
+## Step 2: Set up your [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
 
-[!DNL Analytics for Target] (A4T)是跨解決方案的整合，可讓廣告商根據[!DNL Target]轉換量度和受眾區段來建立[!DNL Analytics]個活動，然後使用[!DNL Analytics]做為報表來源來測量結果。 該活動的所有報表和區段都以[!DNL Analytics]資料收集為基礎。
+[!DNL Analytics for Target] (A4T) is a cross-solution integration that lets advertisers create [!DNL Target] activities based on [!DNL Analytics] conversion metrics and audience segments and then measure the results using [!DNL Analytics] as the reporting source. 該活動的所有報表和區段都以[!DNL Analytics]資料收集為基礎。
 
 如需[!DNL Analytics for Target]的詳細資訊，包括實作指示的連結，請參閱&quot;[Adobe Analytics作為Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)的報告來源&quot;。
 
@@ -135,17 +135,17 @@ Adobe Advertising和Adobe Target可讓您輕鬆為數位廣告流量[!DNL Google
 
 在Analysis Workspace中，如果您發現活動和體驗資料很少或未填入，則請執行以下操作：
 
-* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hant)，以驗證SDID值。
+* 確認相同的[!UICONTROL Supplemental Data ID] (SDID)同時用於[!DNL Target]和[!DNL Analytics]。 您可以在行銷活動驅動使用者的登陸頁面上使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=zh-Hant)，以驗證SDID值。
 
-[Adobe Debugger中的補充資料ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Adobe Debugger中的補充資料ID (SDID)值](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 在相同登入頁面上，確認a) [!UICONTROL Hostname] > [!UICONTROL Solutions]底下之Adobe Debugger中顯示的[!UICONTROL Target]符合b)活動（[!UICONTROL Tracking Server] > [!DNL Target]底下） [!UICONTROL Goals & Settings]中顯示的[!UICONTROL Reporting Settings]。
+* 在相同登入頁面上，確認a) [!UICONTROL Solutions] > [!UICONTROL Target]底下之Adobe Debugger中顯示的[!UICONTROL Hostname]符合b)活動（[!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]底下） [!DNL Target]中顯示的[!UICONTROL Tracking Server]。
 
-  [!DNL Analytics For Target]需要從[!DNL Analytics]傳送追蹤伺服器至Analytics之[!DNL Target]資料收集伺服器的呼叫中的[!DNL Modstats]追蹤伺服器。<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]需要從[!DNL Target]傳送追蹤伺服器至Analytics之[!DNL Modstats]資料收集伺服器的呼叫中的[!DNL Analytics]追蹤伺服器。<!-- just "to Analytics?"-->
 
-[Adobe Debugger中的主機名稱值](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Adobe Debugger中的主機名稱值](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Target中的追蹤伺服器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Target中的追蹤伺服器值](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## 進一步閱讀
 

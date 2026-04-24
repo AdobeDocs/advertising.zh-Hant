@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
 
 # 自訂目標
 
-自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;的套件都必須包含自訂目標，以協助達成整體最佳化目標。 您可以在&#x200B;*中將自訂目標建立為*&#x200B;目標[!DNL Advertising Search, Social, & Commerce]。 DSP每個目標的名稱都必須加上前置詞「ADSP_」。
+自訂目標定義廣告商實現其業務目標所需的成功事件。 每個使用最佳化目標&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]或&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;的套件都必須包含自訂目標，以協助達成整體最佳化目標。 您可以在[!DNL Advertising Search, Social, & Commerce]中將自訂目標建立為&#x200B;*目標*。 DSP每個目標的名稱都必須加上前置詞「ADSP_」。
 
 <!--
  update image or omit it
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 建立自訂目標 {#custom-goal-create}
 
-若要建立自訂目標，DSP帳戶必須從[!DNL Search, Social, & Commerce]使用者端設定中，連結至具有相同Adobe Experience Cloud組織ID的[!DNL Search, Social, & Commerce]帳戶。 如果您的DSP帳戶未連結至[!DNL Search, Social, & Commerce]帳戶，請連絡您的Adobe帳戶團隊。
+若要建立自訂目標，DSP帳戶必須從[!DNL Search, Social, & Commerce]使用者端設定中，連結至具有相同Adobe CX Enterprise組織ID的[!DNL Search, Social, & Commerce]帳戶。 如果您的DSP帳戶未連結至[!DNL Search, Social, & Commerce]帳戶，請連絡您的Adobe帳戶團隊。
 
 1. [登入Advertising Search、Social和Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 針對任何裝置上的顯示廣告所追蹤的每個$1收入，以一(1)的非行動權重等於一(1)的值。 例如，非行動權重為1 (1)的$250轉換會回報為$250的轉換。 如果將轉換量度指派給0.5的非行動權重，則$250轉換在Adobe Advertising中會報告為$125 （$250轉換* 0.5 [!UICONTROL Non-mobile Weight] = $125）。
+> A non-mobile weight of one (1) equates to a value of one (1) for each $1 of revenue that&#39;s tracked for display ads on any device. For example, a $250 conversion with a non-mobile weight of one (1) is reported as $250 for conversions. If the conversion metric is assigned a non-mobile weight of 0.5, then the $250 conversion is reported as $125 in Adobe Advertising ($250 Conversion * 0.5 [!UICONTROL Non-mobile Weight] = $125).
 
 #### 具有&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;最佳化目標的行銷活動範例
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
   當您將支援量度新增至自訂目標時，請根據支援量度對主要成功事件的相對重要性為其加權，並牢記資料點的數量。 這可讓[!DNL Adobe AI]支援的演演算法平衡多個量度，並針對您的目標最佳化。
 
-  下列範例目標包含三個量度，每個量度具有不同的非行動權重：應用程式提交= 1、應用程式開始= 0.1，以及廣告商登陸頁面= 0.01。這表示每個應用程式提交轉換對您的企業而言平均有10個應用程式開始轉換和100個廣告商登陸頁面轉換，它們具有相同的價值。
+  下列範例目標包含三個量度，每個量度具有不同的非行動權重：應用程式提交= 1、應用程式開始= 0.1，以及廣告商登陸頁面= 0.01。 這表示每個應用程式提交轉換對您的企業而言平均有10個應用程式開始轉換和100個廣告商登陸頁面轉換，它們具有相同的價值。
 
 <!--
  update image or delete it and adjust the wording above

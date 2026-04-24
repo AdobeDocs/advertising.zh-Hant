@@ -10,9 +10,9 @@ feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: 545
 ht-degree: 0%
 
 ---
@@ -23,21 +23,21 @@ ht-degree: 0%
 
 受眾資料庫會列出您所有[!DNL Google Ads]以客戶資料為根據、以市場內和類似的受眾，以及您的[!DNL Microsoft Advertising]再行銷和動態再行銷、自訂、客戶符合、市場內和類似的受眾。 您可以使用任何[!DNL Google Ads]個對象做為[!DNL Google Ads]個行銷活動層級和廣告群組層級的目標和排除專案，也可以使用任何[!DNL Microsoft Advertising]個對象做為[!DNL Microsoft Advertising]個行銷活動層級和廣告群組層級目標和（僅限動態再行銷對象）排除專案。 您可以新增或編輯任何對象目標的競標調整。
 
-您也可以使用現有Adobe Experience Cloud對象中的區段或電子郵件清單，以及客戶關係管理(CRM)系統中的各種客戶資料，來建立和管理對象：
+您也可以使用現有Adobe CX Enterprise對象中的區段或電子郵件清單，以及客戶關係管理(CRM)系統中的各種客戶資料，來建立和管理對象：
 
-* **Adobe對象區段：**&#x200B;選擇加入Adobe Audience Manager或Adobe Analytics帳戶的廣告商可以從其[!DNL Google Ads]區段中建立[!DNL Adobe]個客戶相符對象：
+* **Adobe對象區段：**&#x200B;選擇加入Adobe Audience Manager或Adobe Analytics帳戶的廣告商可以從其[!DNL Adobe]區段中建立[!DNL Google Ads]個客戶相符對象：
 
-   * （具有[!DNL Analytics]個帳戶的廣告商，他們也不具有Audience Manager）您可以使用與Adobe Experience Cloud共用的[!DNL Google Ads]區段中的使用者ID，建立[!DNL Analytics]個客戶相符對象。
+   * （具有[!DNL Analytics]個帳戶的廣告商，他們也不具有Audience Manager）您可以使用與Adobe CX Enterprise共用的[!DNL Analytics]區段中的使用者ID，建立[!DNL Google Ads]個客戶相符對象。
 
-   * （具有Audience Manager帳戶的廣告商）您可以使用以Search、Social和Commerce作為目的地的Audience Manager區段中的使用者ID，建立[!DNL Google Ads]個客戶相符對象。 這可能包括發佈至Adobe Experience Cloud的Adobe Analytics區段，以及使用Adobe Experience Cloud對象庫建立的區段。
+   * （具有Audience Manager帳戶的廣告商）您可以使用以Search、Social和Commerce作為目的地的Audience Manager區段中的使用者ID，建立[!DNL Google Ads]個客戶相符對象。 這可能包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise對象庫建立的區段。
 
   若要建立客戶相符對象，廣告商的[!DNL Google Ads]帳戶必須[符合自訂相符的條件](https://support.google.com/adspolicy/answer/6299717)並選擇加入[使用者ID區段](https://support.google.com/google-ads/answer/9199250)。 此外，搜尋、社交和Commerce中的廣告商帳戶必須設定為允許建立客戶相符對象。
 
   客戶資料型對象的[!DNL Adobe]區段資料和Cookie同步檔案每天都會同步至[!DNL Google Ads]。
 
-* **Adobe Campaign電子郵件清單：**&#x200B;您的Adobe客戶團隊可以協助您設定工作流程，以從[!DNL Google Ads]內的電子郵件清單建立和更新[!DNL Campaign]個客戶相符對象。
+* **Adobe Campaign電子郵件清單：**&#x200B;您的Adobe客戶團隊可以協助您設定工作流程，以從[!DNL Campaign]內的電子郵件清單建立和更新[!DNL Google Ads]個客戶相符對象。
 
-* **客戶資料清單：**&#x200B;擁有[!DNL Google Ads]或[!DNL Microsoft Advertising]帳戶且符合客戶比對資格的廣告商，可以建立和更新廣告網路特定客戶資料型對象&lt;！ — 或動態再行銷對象 — 至少針對[!DNL Google Ads]？—>包含在客戶資料型對象中，方式為上傳具有主要識別碼的CSV檔案。
+* **客戶資料清單：**&#x200B;帳戶符合「客戶比對」資格的[!DNL Google Ads]或[!DNL Microsoft Advertising]廣告商，可上傳具有主要識別碼的CSV檔案，建立和更新廣告網路特定客戶資料型對象&lt;！ — 或動態再行銷對象 — 包含於客戶資料型對象中，至少針對[!DNL Google Ads]？—>。
 
 * **動態再行銷清單：**&#x200B;擁有[!DNL Microsoft Advertising]帳戶的廣告商可以建立和管理動態再行銷對象，您可以使用這些對象，以多種方式之一重新鎖定最近與您產品互動的潛在客戶（例如產品檢視者或過去的買家）。 動態再行銷對象需要您在網頁上使用廣告網路的JavaScript轉換和對象追蹤標籤。 透過搜尋和受眾網路上的購物行銷活動，使用動態再行銷清單，透過產品廣告以及搜尋行銷活動，重新鎖定受眾，透過文字廣告和動態搜尋廣告重新鎖定受眾。<!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->搜尋、Social和Commerce不會儲存您上傳或用來建立或編輯[!DNL Adobe]或[!DNL Google Ads]對象之[!DNL Microsoft Advertising]區段的任何客戶資料。
+>搜尋、Social和Commerce不會儲存您上傳或用來建立或編輯[!DNL Google Ads]或[!DNL Microsoft Advertising]對象之[!DNL Adobe]區段的任何客戶資料。
 
 >[!MORELIKETHIS]
 >

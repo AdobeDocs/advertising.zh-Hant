@@ -1,18 +1,18 @@
 ---
-user-guide-title: Adobe Experience Cloud 的整合
-user-guide-description: 了解 Advertising DSP 和 Advertising Search 與其他 Adobe Experience Cloud 產品和服務的整合。
-breadcrumb-title: Experience Cloud 的整合
+user-guide-title: Adobe CX Enterprise的整合
+user-guide-description: 瞭解Advertising DSP和Advertising Search與其他Adobe CX Enterprise （前身為Adobe Experience Cloud）產品和服務的整合。
+breadcrumb-title: CX Enterprise的整合
 role: User, Developer
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 11%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
 
-# Adobe Advertising與Adobe Experience Cloud整合 {#integrations}
+# Adobe Advertising與Adobe CX Enterprise整合 {#integrations}
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -21,7 +21,7 @@ ht-degree: 11%
    + 規劃實作 {#planning}
       + [實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊](/help/integrations/analytics/prerequisites.md)
       + [&#x200B; [!DNL Analytics for Advertising]的(DSP) JavaScript程式碼](/help/integrations/analytics/javascript.md)
-      + [搭配Adobe Experience Platform [!DNL Last Event Service] 使用 [!DNL Web SDK]JavaScript資料庫](/help/integrations/analytics/web-sdk.md)
+      + [搭配Adobe Experience Platform [!DNL Web SDK]使用 [!DNL Last Event Service] JavaScript資料庫](/help/integrations/analytics/web-sdk.md)
       + [收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP)廣告標籤的巨集 {#macros}
          + [將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤](/help/integrations/analytics/macros-flashtalking.md)
@@ -53,4 +53,4 @@ ht-degree: 11%
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [設定資料收集、資料傳輸及報告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和維度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [有關Adobe Advertising整合的教學課程影片](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)
++ [Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)

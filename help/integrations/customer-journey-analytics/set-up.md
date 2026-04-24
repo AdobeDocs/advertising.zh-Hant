@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1792
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * 針對您的屬性，請從擴充功能目錄[安裝「Adobe Experience Platform Web SDK」擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。
 
-     此擴充功能會透過Experience Platform Edge Network，將資料從您的Web屬性傳送至Experience Cloud。
+     此擴充功能會透過Experience Platform Edge Network，將資料從您的Web屬性傳送至Adobe CX Enterprise。
 
      請勿使用Adobe Advertising擴充功能。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 1. 設定檢視以包含下列資訊。
 
-   * 如果您有Adobe Analytics帳戶，請在[!UICONTROL Time Zone]索引標籤的[!DNL Analytics]區段中，使用您[!UICONTROL Calendar]帳戶的[!UICONTROL Configure]。
+   * 如果您有Adobe Analytics帳戶，請在[!UICONTROL Configure]索引標籤的[!UICONTROL Calendar]區段中，使用您[!DNL Analytics]帳戶的[!UICONTROL Time Zone]。
 
    * 在[!UICONTROL Components]索引標籤上：
 

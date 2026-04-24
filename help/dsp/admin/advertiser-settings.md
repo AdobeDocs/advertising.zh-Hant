@@ -2,9 +2,9 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-使用其他Adobe Experience Cloud產品的廣告商，可以使用組織在Experience Cloud中使用的唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
+使用其他Adobe CX Enterprise產品的廣告商，可以使用組織在CX Enterprise中使用的唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
 
-**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他Experience Cloud產品，這些產品是透過具有多個廣告商的Experience Cloud帳戶所授權；選用）廣告商的Experience Cloud組織ID。
+**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他CX Enterprise產品，這些產品是透過具有多個廣告商的CX Enterprise帳戶所授權；選用）廣告商的CX Enterprise組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]：** （具有其他Experience Cloud產品的直接授權的廣告商；選擇性）廣告商的Experience Cloud組織ID。
+**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise產品的直接授權的廣告商；選擇性）廣告商的CX Enterprise組織ID。
 
 ### [!UICONTROL Integrations]
 
-（選用）連結至DSP帳戶的其他Experience Cloud產品。 產品必須與[!UICONTROL Adobe IMS IDs]區段中提供的相同Experience Cloud組織ID相關聯。
+（選用）連結至DSP帳戶的其他CX Enterprise產品。 產品必須與[!UICONTROL Adobe IMS IDs]區段中提供的相同CX Enterprise組織ID相關聯。
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]：** （具有[!DNL Advertising Search, Social, & Commerce]或使用Adobe Advertising轉換畫素的廣告商） DSP與其交換歸因資料的[!DNL Search, Social, & Commerce]帳戶。
 
@@ -56,8 +56,8 @@ ht-degree: 0%
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]：** （使用Adobe Audience Manager或Adobe Analytics的廣告商；選用） Audience Manager或[!DNL Analytics]帳戶，DSP會從中提取廣告商所有Adobe對象的區段中繼資料、階層資料和唯一對象資料。 這包含下列專案的資料：
 
 * Audience Manager區段
-* 發佈至Adobe Experience Cloud的[!DNL Analytics]區段
-* 使用Adobe Experience Cloud [!DNL Audience Library]建立的區段
+* 發佈至Adobe CX Enterprise的[!DNL Analytics]區段
+* 使用Adobe CX Enterprise [!DNL Audience Library]建立的區段
 * 在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段
 
 初始同步處理大約需要24小時。 之後，資料會即時同步，延遲一到兩秒。
@@ -133,23 +133,23 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 影片
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**。 使用此選項，選取條件。
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 使用此選項，選取條件。
 
 **&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**。 使用此選項，選取條件。
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 使用此選項，選取條件。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**。 使用此選項，選取條件。
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 使用此選項，選取條件。
 
 **&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 顯示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**。 使用此選項，選取條件。
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 使用此選項，選取條件。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
-* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**。 使用此選項，選取條件。
+* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. 使用此選項，選取條件。
 
 * **[!UICONTROL Impressions with Insufficient BXD Performance Data]**
 
@@ -159,7 +159,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]：**&#x200B;依預設，利用每個發行者的[[!DNL Ads.txt] 清單來使用哪個層級的](https://iabtechlab.com/ads-txt-about/)競標前篩選[!DNL Authorized Digital Sellers]：
+**[!UICONTROL Ads.txt Filtering]：**&#x200B;依預設，利用每個發行者的[!DNL Authorized Digital Sellers]清單來使用哪個層級的[[!DNL Ads.txt] 競標前篩選](https://iabtechlab.com/ads-txt-about/)：
 * *[!UICONTROL Opt out of ads.txt (default)]*：向所有賣家購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*：優先從網域的授權直銷商和經銷商購買詳細目錄。
 * *[!UICONTROL Ads.txt sellers only]*：僅從網域的授權直接銷售者和經銷商購買詳細目錄。
@@ -173,7 +173,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織的[!DNL DoubleVerify Authentic Brand Safety]帳戶相關聯的[!DNL DoubleVerify]區段ID，預設用於所有位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會為帳戶開立帳單，以取得區段ID的使用量。
+**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織的[!DNL DoubleVerify]帳戶相關聯的[!DNL DoubleVerify Authentic Brand Safety]區段ID，預設用於所有位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會為帳戶開立帳單，以取得區段ID的使用量。
 
 ID必須以「51」開頭，且包含8位數。 您可以在位置層級變更或刪除廣告商層級ID。
 

@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Marketing Channels]的基礎知識'
-description: 瞭解 [!DNL Analytics Marketing Channels] 使用者應該瞭解的 [!DNL Analytics for Advertising] 相關重要資訊。
+description: 瞭解 [!DNL Analytics for Advertising] 使用者應該瞭解的 [!DNL Analytics Marketing Channels] 相關重要資訊。
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics Marketing Channels]的基礎知識
 
-此頁面說明[!DNL Analytics Marketing Channels]使用者需要瞭解的[!DNL Analytics for Advertising]相關重要資訊。
+此頁面說明[!DNL Analytics for Advertising]使用者需要瞭解的[!DNL Analytics Marketing Channels]相關重要資訊。
 
 如需[!DNL Marketing Channels]的完整檔案，請參閱[開始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/c-getting-started-mchannel)。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Marketing Channels]是Adobe Analytics的主要功能。 [!DNL Marketing Channels]報表顯示客戶如何透過報表期間到達您的網站，以及每個管道如何影響收入或網站上的行為。
 
-考量下列跨造訪歷程的範例。 訪客每次造訪網站時，都會透過訪客進入的行銷管道表示。 首次造訪（也稱為首次接觸管道）是電子郵件。 「瀏覽時顯示2」為參與管道，而「免費搜尋」則視為「上次接觸管道」。 如果您在[!UICONTROL Last Touch Attribution]內使用[!UICONTROL Attribution IQ]，則免費搜尋會收到$250轉換事件的完整評價。 您可以使用Experience Cloud ID Service將這些個別造訪連結在一起，以顯示單一訪客的歷程。
+考量下列跨造訪歷程的範例。 訪客每次造訪網站時，都會透過訪客進入的行銷管道表示。 首次造訪（也稱為首次接觸管道）是電子郵件。 「瀏覽時顯示2」為參與管道，而「免費搜尋」則視為「上次接觸管道」。 如果您在[!UICONTROL Attribution IQ]內使用[!UICONTROL Last Touch Attribution]，則免費搜尋會收到$250轉換事件的完整評價。 您可以使用Adobe CX Enterprise ID Service將這些個別造訪連結在一起，以顯示單一訪客的歷程。
 
 ![行銷管道中的跨造訪轉換歷程範例](/help/integrations/assets/a4adc-mc-sample-journey.png)
 

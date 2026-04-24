@@ -18,9 +18,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 0%
 為Adobe Advertising實作團隊提供下列專案：
 
 * 用於付費媒體活動報告的[!DNL Analytics]報告套裝ID，以及用於饋送網站活動以在Adobe Advertising中最佳化和報告
-* 公司的Experience Cloud組織ID （組織ID）。
+* 公司的CX Enterprise組織ID （組織ID）。
 
-您可以在Adobe Experience Cloud Debugger[的](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)摘要標籤上找到這兩個ID。
+您可以在Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)的摘要標籤上找到這兩個ID。
 
-![Experience Cloud Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Platform Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## Adobe Advertising中的[!DNL Analytics]資料 {#lookback-a4adc}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 * 整合只會將[!DNL Analytics]個標準和自訂事件傳遞至Adobe Advertising，以便最佳化後續付費媒體和廣告工作的競標。 它不會將[!DNL Analytics]區段、計算量度和[!DNL eVars]傳遞至Adobe Advertising以進行競標最佳化。
 
-* Adobe Advertising會根據Adobe Advertising中設定的[!DNL Analytics]點按及檢視回顧期間[，根據使用者進入網站前最後點按或檢視的廣告，在](#lookback-a4adc)內建立永久ID。 如果網站訪客的設定檔中同時具有兩種型別的網站專案互動，且點按在回顧期間內，則訪客的點進ID會覆寫網站報表的點進ID。
+* Adobe Advertising會根據Adobe Advertising中設定的[點按及檢視回顧期間](#lookback-a4adc)，根據使用者進入網站前最後點按或檢視的廣告，在[!DNL Analytics]內建立永久ID。 如果網站訪客的設定檔中同時具有兩種型別的網站專案互動，且點按在回顧期間內，則訪客的點進ID會覆寫網站報表的點進ID。
 
 * Adobe Analytics中的[!DNL Analytics for Advertising]轉換追蹤使用可設定的追蹤回顧期間（預設為60天）。 Adobe Advertising報表會反映在此追蹤回顧期間結束時的網站轉換和參與。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 為了進行精確的資料整合，[!DNL Analytics for Advertising]活動用來傳遞內容或記錄目標量度的所有Adobe Advertising呼叫必須具有共用相同補充ID的對應[!DNL Analytics]點選。
 
-當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)中，您可以在Adobe Advertising標籤中看到此ID為`sdid`引數。
+當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)中，您可以在Adobe Advertising標籤中看到此ID為`sdid`引數。
 
 >[!NOTE]
 >
