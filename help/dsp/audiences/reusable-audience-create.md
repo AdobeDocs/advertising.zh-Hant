@@ -12,9 +12,9 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
 workflow-type: tm+mt
-source-wordcount: 558
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -23,11 +23,16 @@ ht-degree: 0%
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以儲存和管理可重複使用的對象，這些對象是對象區段群組，甚至是其他儲存的對象，您可將其用作多個位置的目標或排除專案。
+您可以儲存和管理可重複使用的對象，這些對象是對象區段群組，甚至是其他儲存的對象，您可將其用作多個位置的目標或排除專案。<!-- Create audiences manually or use the AI-assisted audience agent to generate new reusable audiences using all first-party and third-party segments that are available to you, according to your stated requirements. -->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 >[!NOTE]
 >
 >（DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商）未附加至使用中、已排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
+
+
+<!-- ## Manually create a reusable audience -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
