@@ -2,12 +2,11 @@
 title: 使用產生AI建立可重複使用的對象
 description: 瞭解如何使用AI輔助受眾代理在Adobe Advertising DSP中建立可重複使用的受眾。 以自然語言提示描述您的目標對象；代理程式會建議協力廠商區段，並建立對象運算式以作為目標或排除專案。
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *僅支援英文*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-使用AI輔助受眾代理，根據您宣告的要求，使用您可用的所有第三方區段來產生新的可重複使用受眾。 您可以使用對象作為多個位置的目標或排除專案。
+使用AI輔助受眾代理程式，根據您宣告的要求，使用您可用的所有第一方和第三方區段來產生新的可重複使用受眾。 您可以使用對象作為多個位置的目標或排除專案。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ ht-degree: 0%
 >此功能目前處於Beta版模式，可能會有變動。 在建立對象並將其用於您的位置之前，請確定產生的對象運算式代表您想要的對象。
 
 ## 使用產生AI建立可重複使用的對象
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
@@ -70,6 +81,8 @@ ht-degree: 0%
 
 ## 寫入提示的基本知識 {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### 提示應包含哪些內容？
 
 * 使用清楚的描述性語言來說明目標對象。
@@ -95,17 +108,11 @@ ht-degree: 0%
 請參閱[建立對象簡介的最佳實務](#audience-brief-best-practices)，以取得最佳化對象提示的進一步方法。
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### Audience Agent詢問您問題
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 您的肯定回覆： 「繼續」、「確定」、「確定」、「是」或其他類似字詞
 
