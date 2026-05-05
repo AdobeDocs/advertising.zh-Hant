@@ -57,11 +57,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於來自 [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)的[量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則會忽略[!DNL Google Analytics]內的任何名稱變更。
+>對於來自 [!DNL Google Analytics][&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)的量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則會忽略[!DNL Google Analytics]內的任何名稱變更。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
-1. 從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
+1. 從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 在度量的&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;欄中，將游標放在度量名稱上，然後按一下&#x200B;**...** > **[!UICONTROL Rename]**。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    已針對廣告商收集的所有轉換量度，以及已針對顯示指定的任何不同名稱都會列示。
 
-1. （選擇性）從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
+1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 變更管理檢視和報告可用的轉換量度：
 
