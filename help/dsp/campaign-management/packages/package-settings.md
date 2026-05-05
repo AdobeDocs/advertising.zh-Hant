@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]：** （具有套件層級步調的套件，以及僅具有&quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot;和&quot;[!UICONTROL Lowest Cost per Reach]&quot;最佳化目標的套件）使用促銷活動中所有程式化預留位置的住家觸及資料，以最佳化遞增觸及率。
 
-**[!UICONTROL Custom Goal for Model Learning]：** （僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）包含用來計算CPA或ROAS量度的收入或轉換事件的[自訂目標](/help/dsp/optimization/custom-goal.md)。 自訂目標必須包含其他加權的上funnel事件（例如頁面瀏覽次數和購物車新增），以便除了用於套件最佳化的CPA或ROAS量度之外使用。 如需自訂目標的詳細資訊，包括針對自訂目標建立的最佳實務，以及使用這些目標的行銷活動，請參閱&quot;[自訂目標](/help/dsp/optimization/custom-goal.md)&quot;和&quot;[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]：** （僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）包含用來計算CPA或ROAS量度的收入或轉換事件的自訂目標。 自訂目標必須包含其他加權的上funnel事件（例如頁面瀏覽次數和購物車新增），以便除了用於套件最佳化的CPA或ROAS量度之外使用。 如需自訂目標的詳細資訊，請參閱&quot;[管理自訂目標](/help/dsp/admin/custom-objectives-manage.md)&quot;、&quot;[自訂目標的最佳實務](/help/dsp/optimization/custom-goal.md)&quot;以及&quot;[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;。
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]：** （選擇性；僅具有&quot;[!UICONTROL Highest Return on Ad Spend]&quot;和&quot;[!UICONTROL Lowest Cost per Acquisition]&quot;最佳化目標的套件）告訴最佳化模型只從點按式轉換中學習。 否則，最佳化模型會同時學習點按和曝光轉換的機制。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-（具有套件層級步調的套件）套件的投放期間，包括套件整體[!UICONTROL Flight Dates]內的任何自訂投放期間。 您必須在[!UICONTROL Activate Custom Flighting]區段中啟用[!UICONTROL Goals & Budget]選項，才能設定自訂航班。
+（具有套件層級步調的套件）套件的投放期間，包括套件整體[!UICONTROL Flight Dates]內的任何自訂投放期間。 您必須在[!UICONTROL Goals & Budget]區段中啟用[!UICONTROL Activate Custom Flighting]選項，才能設定自訂航班。
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]：** （僅在啟用[!UICONTROL Activate Custom Flighting]選項時可用）自動將上一個航班的任何剩餘預算新增到下一個航班的現有預算。
 

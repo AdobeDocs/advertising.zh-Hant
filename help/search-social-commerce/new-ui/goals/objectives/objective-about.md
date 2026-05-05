@@ -2,7 +2,7 @@
 title: （新UI）關於目標
 description: 瞭解符合您業務目標的目標。
 feature: Search Objectives, Search Optimization
-hide: 'yes'
+hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
 product_v2:
@@ -15,9 +15,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 * [!DNL Google]個量度：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 已從同步的[[!DNL Google Ads]帳戶追蹤](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)個轉換[!DNL Google Ads]。
+   * 已從同步的[!DNL Google Ads]帳戶追蹤[[!DNL Google Ads]個轉換](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
 
    * （具有[[!DNL Google Analytics] 整合](/help/search-social-commerce/admin/data-sources/data-source-about.md)的廣告商）頁面檢視、工作階段、跳出率（以跳出數/工作階段數計算）和工作階段持續時間。
 

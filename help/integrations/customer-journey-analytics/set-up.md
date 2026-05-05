@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1814
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 *Beta功能*
 
 在Customer Journey Analytics中檢視Advertising Cloud資料需要下列工作。
+
+>[!PREREQUISITES]
+>
+>當此功能處於測試版模式時，請要求您的Adobe帳戶團隊提供廣告商帳戶以存取`Adobe Advertising`服務的許可權。
 
 1. （您組織的網頁分析人員；選擇性） [收集AMO ID和EF ID的歷史資料](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
 
@@ -63,7 +67,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的選項並選取您的結構描述。
 
-     Adobe Advertising會根據您的事件資料集，為相關的摘要量度資料（例如轉換值）和查詢資料（維度/分類中繼資料，例如Adobe Advertising促銷活動名稱）建立其他資料集。 資料集的資料會每天在Experience Platform中填入。
+     <!-- Manual process during beta -->Adobe Advertising會根據您的事件資料集，為相關的摘要量度資料（例如轉換值）和查詢資料（維度/分類中繼資料，例如Adobe Advertising促銷活動名稱）建立其他資料集。 資料集的資料會每天在Experience Platform中填入。
 
 1. [為結構描述建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)。
 

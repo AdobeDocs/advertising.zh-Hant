@@ -2,7 +2,7 @@
 title: 下載模擬
 description: 瞭解如何下載試算表檔案中的模擬。
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: 'yes'
+hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
 TQID: https://experienceleague.adobe.com/5FVQv17adrIz6OJU1K3ftG8NRO-0evlIzc1tGIFoHfY
 product_v2:
@@ -15,7 +15,7 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:04:41.270Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您也可以在熒幕[上](simulation-view.md)檢視模擬結果。
+>* 您也可以在熒幕[&#128279;](simulation-view.md)上檢視模擬結果。
 >* 您可以[自訂[!UICONTROL Simulations]檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含許多其他量度和大部分模擬設定的欄。 請參閱「[關於模擬](simulation-about.md#simulations-actions)」中的「可用動作」一節，以取得您可以包含之欄的詳細資訊。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。

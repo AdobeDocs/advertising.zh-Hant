@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1063'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 3%
    + [Advertising DSP如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)
    + [位置層級競標前篩選器及其使用方式](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + [自訂目標](/help/dsp/optimization/custom-goal.md)
+   + [自訂目標的最佳成績](/help/dsp/optimization/custom-goal.md)
    + [設定成效行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
 + 對象 {#audiences}
@@ -221,19 +221,21 @@ ht-degree: 3%
    + [封存連線電視觸及計畫](/help/dsp/planner/planner-archive.md)
 + 資源 {#resources}
    + [管理URL](/help/dsp/resources/lists-url-manage.md)
-+ 管理 {#admin}
++ 設定/管理 {#admin}
    + [編輯您的使用者設定檔](/help/dsp/admin/user-own-profile-edit.md)
    + 使用者 {#users}
       + [邀請新的使用者加入您的組織帳戶](/help/dsp/admin/user-invite.md)
       + [重新傳送擱置中的使用者邀請](/help/dsp/admin/user-resend-invite.md)
       + [取消邀請擱置中的使用者](/help/dsp/admin/user-uninvite.md)
+   + [管理轉換](/help/dsp/admin/conversion-metrics-manage.md)
+   + [管理自訂目標](/help/dsp/admin/custom-objectives-manage.md)
    + 封鎖的網站 {#sites}
       + [關於帳戶層級和廣告商層級的封鎖網站清單](/help/dsp/admin/blocked-sites-list-about.md)
       + [編輯帳戶層級或廣告商層級的封鎖網站清單](/help/dsp/admin/blocked-sites-list-edit.md)
    + 通知 {#notifications}
       + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterprise的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [與Adobe CX Enterprise整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
 + [取得協助](/help/dsp/get-help.md)
 + [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
 
