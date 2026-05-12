@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
-   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
+   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + [使用AI輔助聊天搜尋產品檔案](/help/dsp/agent-chat.md)
 + 行銷活動管理 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [使用大量表單檢閱和編輯廣告詳細資料](/help/dsp/campaign-management/ads/ad-qa.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)
+      + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
    + 可重複使用的對象 {#reusable-audiences}
       + [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[使用產生AI建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
       + [檢視可重複使用對象的詳細資訊](/help/dsp/audiences/reusable-audience-view-details.md)
@@ -235,9 +234,9 @@ ht-degree: 3%
    + 通知 {#notifications}
       + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
       + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [與Adobe CX Enterprise整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [與Adobe CX Enterprise整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
