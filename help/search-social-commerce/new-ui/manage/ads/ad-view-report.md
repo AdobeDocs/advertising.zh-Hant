@@ -3,7 +3,7 @@ title: （新UI）從[!UICONTROL Ads]檢視管理資料檢視報告
 description: 瞭解如何在報表的[!UICONTROL Ads]檢視中產生、下載及刪除包含一或多個廣告資料列的報表。
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    * 若要下載所有廣告的資料，您不需要選取任何核取方塊。 預設會包含所有廣告。
 
-1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Report]**。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]設定中，輸入唯一的報告名稱，然後按一下&#x200B;**[!UICONTROL Generate]**。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ads]**。
 
-1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Report]**。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]對話方塊的[!UICONTROL Grid Reports]清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
 
    檔案會依照瀏覽器的正常程式下載。
 
@@ -56,12 +56,12 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ads]**。
 
-1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Report]**。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]對話方塊的[!UICONTROL Grid Reports]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
 
 >[!MORELIKETHIS]
 >
 >* [關於[!UICONTROL Ads view]](ad-view-about.md)
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

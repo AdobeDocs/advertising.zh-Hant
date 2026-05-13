@@ -3,7 +3,7 @@ title: 產生和實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -16,7 +16,62 @@ ht-degree: 0%
 
 為您要追蹤的每組量度建立個別的轉換標籤。 您可以在「搜尋」、「社交」和「Commerce」中產生標籤，或將Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤與Adobe Advertising擴充功能搭配使用。
 
-## 在Search、Social和Commerce中產生並實作轉換追蹤標籤
+<!--
+
+## (New UI) Generate and implement a conversion-tracking tag within Search, Social, & Commerce
+
+>[!NOTE]
+>
+>This feature doesn't add image tags or [!DNL JavaScript] tags to the advertiser's webpages. Provide the tags to the advertiser or agency with a list of webpages on which to insert each. The tags must be added according to the advertiser's normal procedure for updating webpages.
+
+1. In the main menu, click **[!UICONTROL Goals] > [!UICONTROL Conversions]**.
+
+1. In the main toolbar, click **[!UICONTROL Conversion Tag]**.
+
+1. Specify the [conversion tag settings](#conversion-tag-settings).
+
+1. Click **[!UICONTROL Generate]**.
+   
+1. Click **[!UICONTROL Copy]** to copy the tag to your clipboard. Give the tag to the advertiser or agency to implement.
+
+>[!NOTE]
+>
+>Each metric in the new conversion tag is automatically listed in [!UICONTROL Admin] > [!UICONTROL Conversions], even if it isn't implemented or the webpages that it's on haven't received any clicks. This behavior is different from the behavior of metrics in tags created manually or elsewhere, which aren't listed in [!UICONTROL Admin] > [!UICONTROL Conversions] until one of the webpages that it's on has received a click. In all cases, however, each metric is initially excluded from portfolio objectives, reports, and views until you explicitly make them available. Before you add the metrics to portfolio objectives, consider first making the metrics available and adding them to reports to verify when they receive clicks.
+
+### Adobe Advertising conversion tag settings {#conversion-tag-settings}
+
+**[!UICONTROL Tag Type]:** The type of tag to create:
+
+* *[!UICONTROL JavaScript]:* To create a JavaScript tag.
+
+* *[!UICONTROL Image]:* To create an image tag to display a 1-pixel x 1-pixel transparent image (pixel), which is invisible to end users, on the webpage. The best practice is to use image tags only when the site has a policy against using JavaScript tags.
+
+For more information about the differences between the tag types, see "[FAQs about Adobe Advertising conversion and page view tracking tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)."
+
+**[!UICONTROL Include unique transaction IDs]:** (Optional) Includes a transaction ID property (`ev_transid=<transid>`) in the tag. The option is selected by default.
+
+When you select this option, the advertiser must generate a unique value for `<transid>` (for example, an actual order ID) when the transaction is complete and pass it back to Adobe Advertising, such as `ev_transid=0123`. Adobe Advertising uses the transaction ID to eliminate duplicate transactions with the same transaction ID and property value. The transaction ID can't contain ampersand symbols (`&`), which are reserved as parameter separators. The transaction ID is included in [the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), which you can use to validate data within Search, Social, & Commerce with the advertiser's data.
+
+If the data doesn't include a unique ID per transaction, then Adobe Advertising still generates one based on transaction time.
+
+>[!NOTE]
+>
+>If you send [transaction ID feeds](/help/search-social-commerce/tracking/feed-transaction-id.md) with conversion data for offline conversions, then you must submit the transaction ID (`ev_transid`) for the online part of the transaction in the feed data for offline parts of the transaction.
+
+**[!UICONTROL JS Version]:** ([!DNL JavaScript] tags only) Which version of the [!DNL JavaScript] tag to create: *[!UICONTROL v2]* (the default) or *[!UICONTROL v3]*.
+
+**[!UICONTROL Security]:** The security protocol for your website create: *[!UICONTROL Standard]* (for websites that use HTTP) or *[!UICONTROL Secure]* (for websites that use HTTPs).
+
+**[!UICONTROL Properties]:** One or more conversion metrics to be tracked when an end user views a page containing the conversion tag. To add a metric to the list, enter the metric name in the "[!UICONTROL Property name]" field and click **[!UICONTROL Add]**.
+
+When multiple metrics are tracked, they're joined by an ampersand (`&`) in the tag, such as `ev_Property1=<Property1>&ev_Property2=<Property2>`.
+
+>[!NOTE]
+>
+>Metrics added to this list aren't saved anywhere or integrated with the client's [!UICONTROL Conversions] list on the [!UICONTROL Admin] tab. However, metrics are added to the client's [!UICONTROL Conversions] list automatically once Adobe Advertising actually gathers data for a metric, which happens when the conversion tag is implemented on a page and an end user completes a transaction that opens that page.
+
+-->
+## <!-- (Legacy UI) --> 在Search、Social和Commerce中產生並實作轉換追蹤標籤
 
 >[!NOTE]
 >
@@ -76,53 +131,53 @@ ht-degree: 0%
 
 ## 使用Adobe Experience Platform標籤和Adobe Advertising擴充功能實作轉換追蹤標籤
 
-You can set up conversion tracking for Search, Social, &amp; Commerce using tags in Adobe Experience Platform. Tags are available to Adobe CX Enterprise customers as an included, value-add feature.
+您可以使用Adobe Experience Platform中的標籤來設定「搜尋」、「社交」和「Commerce」的轉換追蹤。 Adobe CX Enterprise客戶可使用標籤內含的增值功能。
 
-The following tasks are required to configure conversion tracking tags for Search, Social, &amp; Commerce from the Experience Platform user interface or from the Experience Platform Data Collection user interface. For full information and instructions for configuring tags, see the Experience Platform Tags Guide, beginning with the &quot;[Tags overview](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot; and &quot;[Quickstart guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start).&quot;
+從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
 
 >[!PREREQUISITES]
 >
->To install the required tag extension, ask your organization administrator for access to Data Collection features in the UI, including the `manage_properties` permission.
+>若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
 
-1. From the [Data Collection UI](https://experience.adobe.com/#/data-collection/), install the Adobe Advertising [Extension](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview):
+1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
 
-   1. From the applicable property, open the extension catalog and select **Adobe Advertising**.
+   1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
 
-   1. From the pulldown menu, select **SSC** (for Search, Social, &amp; Commerce).
+   1. 從下拉式功能表中選取&#x200B;**SSC** （適用於「搜尋」、「社交」和「Commerce」）。
 
-   1. In the **SSC UserID** field, enter the numeric user ID for your  organization&#39;s Search, Social, &amp; Commerce account.
+   1. 在&#x200B;**SSC UserID**&#x200B;欄位中，輸入您組織的Search、Social和Commerce帳戶的數位使用者ID。
 
-      If you don&#39;t know your user ID, contact your Adobe Account Team.
+      如果您不知道使用者ID，請聯絡您的Adobe帳戶團隊。
 
    1. 按一下&#x200B;**儲存**。
 
-1. Create a new rule (for example, &quot;form_completes&quot;) to trigger the Search, Social, &amp; Commerce conversion tag:
+1. 建立新規則（例如「form_completes」）以觸發搜尋、社交和Commerce轉換標籤：
 
-   1. In the Event Configuration section:
+   1. 在「事件設定」區段中：
 
-      1. Select the following values:
+      1. 選取下列值：
 
-         **Extension:** `Core`
+         **副檔名：** `Core`
 
-         **Event Type:** `Library Loaded (Page Top)`
+         **事件型別：** `Library Loaded (Page Top)`
 
-      1. Click **Keep Changes**.
+      1. 按一下&#x200B;**保留變更**。
 
-   1. In the Condition Configuration section:
+   1. 在「條件設定」區段中：
 
-      1. Specify the following values:
+      1. 指定下列值：
 
-         **Logic Type:** `Regular`
+         **邏輯型別：** `Regular`
 
-         **Extension:** `Core`
+         **副檔名：** `Core`
 
-         **Condition Type:** `Path Without Query String`
+         **條件型別：** `Path Without Query String`
 
-         **Return true if path equals:** The path where the conversion should be tracked (for example, `/form_complete`).
+         **如果路徑等於：**&#x200B;應追蹤轉換的路徑（例如，`/form_complete`），則傳回true。
 
-      1. Click **Keep Changes**.
+      1. 按一下&#x200B;**保留變更**。
 
-   1. In the Action Configuration section:
+   1. 在「動作組態」段落中：
 
       1. 指定下列值：
 
@@ -132,7 +187,7 @@ The following tasks are required to configure conversion tracking tags for Searc
 
          **轉換屬性名稱：**&#x200B;轉換屬性的名稱（例如，`form_completes`）。
 
-         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
 
       1. 按一下&#x200B;**保留變更**。
 
