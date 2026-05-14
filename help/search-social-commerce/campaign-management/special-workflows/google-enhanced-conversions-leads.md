@@ -4,16 +4,12 @@ description: 瞭解為潛在客戶設定 [!DNL Google Ads] 增強型轉換的工
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
 TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 在「搜尋」、「社交」和「Commerce」中，您可以：
 
-* 檢視潛在客戶的現有增強型轉換。
+* 檢視潛在客戶的現有增強型轉換。<!-- Where is this? -->
 
   搜尋、社交和Commerce會在廣告商時區的每日05:00同步潛在客戶的現有增強型轉換。
 
@@ -48,7 +44,7 @@ ht-degree: 0%
 
 1. 設定並實作標籤以追蹤轉換動作。
 
-   如需指示，請參閱[!DNL Google Ads]說明，為使用[標籤 [!DNL Google] 的銷售機會](https://support.google.com/google-ads/answer/11021502)或使用[&#x200B; [!DNL Google Tag Manager]的](https://support.google.com/google-ads/answer/11347292)建立增強型轉換的標籤。
+   如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的[建立增強型轉換的標籤。
 
 1. 為[搜尋、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google廣告](https://support.google.com/google-ads/answer/12216226)中的潛在客戶建立增強型轉換的轉換動作。
 
