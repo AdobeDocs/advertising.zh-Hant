@@ -2,9 +2,9 @@
 title: 上傳離線轉換資料以增強轉換
 description: 瞭解如何上傳第一方離線轉換資料，以對應至 [!DNL Google Ads] 潛在客戶的增強型轉換和 [!DNL Microsoft Advertising] 增強型轉換。
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,15 @@ ht-degree: 0%
 
 <!-- Renamed file to start with "conversions-"-->
 
-<!-- Update to add procedure in new UI -->
+<!-- Added procedure in new UI, which isn't available to all yet -->
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶*
 
 您可以上傳第一方離線轉換資料（包括雜湊電子郵件地址和電話號碼），以對應至潛在客戶的現有[[!DNL Google Ads] 增強型轉換](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增強型轉換](https://help.ads.microsoft.com/#apex/ads/en/60178)。 所有上傳的資料都會即時同步至廣告網路。
 
 ## （新UI）上傳資料以增強轉換
+
+*Beta功能*
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 `Parameters:TimeZone=insert_timezone`
 
-請在此位置或在每一列的&quot;[!UICONTROL Conversion Time]&quot;欄中輸入帳戶的時區。 請使用a\) （僅限[!DNL [!DNL Google Ads]]） [支援的時區ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\) GMT時差，如+或 — 和4位數時間差（例如，紐約為–0500，柏林為+0100，格林威治標準時間為+000）。
+請在此位置或在每一列的&quot;[!UICONTROL Conversion Time]&quot;欄中輸入帳戶的時區。 請使用a\) （僅限[！DNL [!DNL Google Ads]]） [支援的時區ID格式](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids)或b\) GMT時差，如+或 — 和4位數時間差（例如，紐約為–0500，柏林為+0100，格林威治標準時間為+000）。
 
 ### [!DNL Google Ads]的資料表資料行與值
 

@@ -2,22 +2,24 @@
 title: 為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作
 description: 瞭解如何為潛在客戶的增強型轉換建立 [!DNL Google Ads] 轉換動作。
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # 為潛在客戶的[!DNL Google Ads]增強型轉換建立轉換動作
 
-<!-- Includes procedure in new UI -->
+<!-- Includes procedure in new UI, which isn't available to all yet -->
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
 
 您可以針對要針對個別[!DNL Google Ads]帳戶追蹤的潛在客戶，而不是在經理帳戶層級追蹤的轉換，建立[!DNL Google Ads]個增強型轉換的轉換動作。<!-- I don't see a list of synced conversion actions here; supposedly we do list them, but I don't see them in the legacy UI either (unless they're just listed as conversions, but not identified differently). Clarify and reword if necessary. -->
 
 ## （新UI）建立轉換動作
+
+*Beta功能*
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
