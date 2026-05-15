@@ -4,19 +4,14 @@ description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
 TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +67,7 @@ ht-degree: 0%
    * 地理目標
    * 事件畫素
    * 廣告
-   * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
+   * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
 
 ## 設定新封裝的最佳實務
 
@@ -95,7 +90,7 @@ ht-degree: 0%
 
    * 視需要附加事件畫素至版位和廣告。
 
-   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Safety]區段以進行位置。
+   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段以進行位置。
 
    * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
 

@@ -2,7 +2,7 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-使用其他Adobe CX Enterprise產品的廣告商，可以使用組織在CX Enterprise中使用的唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
+使用其他Adobe CX Enterprise產品的廣告商，可以使用組織的CX Enterprise唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
 
-**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他CX Enterprise產品，這些產品是透過具有多個廣告商的CX Enterprise帳戶所授權；選用）廣告商的CX Enterprise組織ID。
+**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他CX Enterprise產品，這些產品是透過具有多個廣告商的CX Enterprise帳戶所授權；選擇性）廣告商的CX Enterprise組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise產品的直接授權的廣告商；選擇性）廣告商的CX Enterprise組織ID。
+**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise產品直接授權的廣告商；選擇性）廣告商的CX Enterprise組織ID。
 
 ### [!UICONTROL Integrations]
 
@@ -133,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 影片
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 使用此選項，選取條件。
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. 使用此選項，選取條件。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 使用此選項，選取條件。
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 使用此選項，選取條件。
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 使用此選項，選取條件。
+** **[!UICONTROL Include URL's whose average player size composition is]**. 使用此選項，選取條件。
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 顯示
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 使用此選項，選取條件。
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 使用此選項，選取條件。
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -173,7 +173,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織的[!DNL DoubleVerify]帳戶相關聯的[!DNL DoubleVerify Authentic Brand Safety]區段ID，預設用於所有位置。 指定ID會使用針對指定區段ID設定的自訂品牌安全規則，封鎖出價後的曝光數。 DSP會為帳戶開立帳單，以取得區段ID的使用量。
+**[!UICONTROL DoubleVerify Account]：** （僅限[!DNL DoubleVerify]個客戶；選用）與組織的[!DNL DoubleVerify]帳戶相關聯的[!DNL DoubleVerify Authentic Brand Suitability]區段ID，預設用於所有位置。 指定ID會使用針對指定區段ID設定的自訂品牌適用性規則，封鎖出價後的曝光數。 DSP會為帳戶開立帳單，以取得區段ID的使用量。
 
 ID必須以「51」開頭，且包含8位數。 您可以在位置層級變更或刪除廣告商層級ID。
 
