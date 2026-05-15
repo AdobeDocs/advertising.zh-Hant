@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 433b4d40-de83-46ec-8859-44c8bc36f060
 TQID: https://experienceleague.adobe.com/8U2Z7EU4miPXfpgKmoPg2M8zRmY7sKVLzU0V0VtOSzY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +23,11 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 選取投資組合旁的核取方塊。
+1. 執行下列任一項作業：
 
-1. 在資料表上方的工具列中，按一下![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**。
+   * 將游標停留在投資組合列上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**。
+
+   * 選取投資組合旁的核取方塊。 在大量動作工具列中按一下![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**。
 
 1. 編輯投資組合設定。
 
@@ -44,7 +42,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [建立投資組合](portfolio-create.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [關於投資組合](portfolio-about.md)
