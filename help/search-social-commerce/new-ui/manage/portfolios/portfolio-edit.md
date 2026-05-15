@@ -5,9 +5,13 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: c1be8634-47f6-465e-a6c9-88cbb3456592
 TQID: https://experienceleague.adobe.com/PvRUorKnHZJPyLSDJapXOrCokNZ1Wg6l4bm-s4EiuYU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
 source-wordcount: 151
@@ -21,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 若要一次編輯多個投資組合的設定，請參閱&quot;[ （新UI）使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)&quot;。
+>* 若要一次編輯多個投資組合的設定，請參閱&quot;[&#x200B; （新UI）使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)&quot;。
 >* 若要快速重新命名投資組合而不開啟完整投資組合設定，請參閱&quot;[重新命名投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)&quot;。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
@@ -45,5 +49,5 @@ ht-degree: 0%
 >* [（新UI）使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
 >* [建立投資組合](portfolio-create.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [關於投資組合](portfolio-about.md)

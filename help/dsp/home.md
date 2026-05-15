@@ -6,11 +6,25 @@ product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
 workflow-type: tm+mt
 source-wordcount: 7264
@@ -45,7 +59,7 @@ ht-degree: 0%
 | | [!UICONTROL Placements], [!UICONTROL Ads] | 您現在可以從[!UICONTROL Placements]檢視和版位[!DNL Inspector]分離廣告。 位置[!DNL Inspector]不再提供暫停廣告的選項。<br><br>若要使用Bulksheets從刊登版位移除廣告，請移除刊登版位的廣告資訊（包括核准狀態），並上傳編輯過的Bulksheet。 | 請參閱[從版位附加及移除廣告](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)，以及[檢視版位的網站、廣告、頻率和詳細庫存資訊](/help/dsp/campaign-management/reports/placement-details-view.md)。<br><br>另請參閱[使用大量表單檢閱及編輯行銷活動元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)。 |
 | | 位置鎖定目標的[!DNL On Demand]個詳細目錄清單 | 您現在可以從[!UICONTROL Inventory] > [!UICONTROL Deal Lists]建立位置中包含或排除的[!DNL On Demand]交易清單。 在版位設定中使用您的清單。 | 請參閱&quot;[管理交易清單](/help/dsp/inventory/lists-deals-manage.md)&quot;和&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;。 |
 | 2025年9月3日 | [!UICONTROL Custom Reports] | （Beta功能）位於「[!UICONTROL Reports] > [!UICONTROL Custom Reports]」的新「[!UICONTROL Content BETA]」報告可讓您檢視一組新內容維度（例如標題、型別和內容評等）的標準、支出、效能、可見度、注意度和轉換量度，以及自訂目標。 | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[可用的報告欄](/help/dsp/reports/report-columns.md)&quot;。 |
-|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警示中的第一方區段 | （DSP將其雜湊電子郵件ID轉換為[!DNL  LiveRamp RampID]區段的廣告商）未附加至使用中、已排程或暫停位置的第一方[!DNL RampID]區段現在會暫停。  區段暫停時：<ul><li>在對象庫的[!UICONTROL First Party Segments]標籤上（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在位置設定中建立或編輯對象時可用），區段標示為「[!UICONTROL Auto paused]」。</li><li> [!UICONTROL Pulse]會顯示所有關聯位置的警報，指出區段已暫停。</li></ul>DSP會繼續從您的客戶資料平台收集雜湊電子郵件ID，並保留7天的資料，除了根據要納入區段的有效期限更早到期的資料。 當您透過a\)將其新增至活動、排程或暫停的位置或b\)將現有指派的位置變更為活動、排程或暫停狀態來啟用區段時，保留的雜湊電子郵件ID會轉譯為[!DNL RampIDs]。 | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;和&quot;[對象設定](/help/dsp/audiences/audience-settings.md)&quot;。 |
+|  | [!UICONTROL Audiences]、[!UICONTROL Placements]、[!UICONTROL Pulse]警示中的第一方區段 | （DSP將其雜湊電子郵件ID轉換為[!DNL &#x200B; LiveRamp RampID]區段的廣告商）未附加至使用中、已排程或暫停位置的第一方[!DNL RampID]區段現在會暫停。  區段暫停時：<ul><li>在對象庫的[!UICONTROL First Party Segments]標籤上（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在位置設定中建立或編輯對象時可用），區段標示為「[!UICONTROL Auto paused]」。</li><li> [!UICONTROL Pulse]會顯示所有關聯位置的警報，指出區段已暫停。</li></ul>DSP會繼續從您的客戶資料平台收集雜湊電子郵件ID，並保留7天的資料，除了根據要納入區段的有效期限更早到期的資料。 當您透過a\)將其新增至活動、排程或暫停的位置或b\)將現有指派的位置變更為活動、排程或暫停狀態來啟用區段時，保留的雜湊電子郵件ID會轉譯為[!DNL RampIDs]。 | 請參閱&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;和&quot;[對象設定](/help/dsp/audiences/audience-settings.md)&quot;。 |
 | 2025年8月13日 | [!UICONTROL Placements] | 您現在可以在相同套件中復製版位。 在[!UICONTROL Duplicate Placement]設定中，&quot;[!UICONTROL Choose Package]&quot;設定有&quot;[!UICONTROL Same Package]&quot;選項。 | 請參閱&quot;[重複版位](/help/dsp/campaign-management/placements/placement-duplicate.md)&quot;。 |
 | | [!UICONTROL Insights] | （Beta功能）深入分析現在包含「家庭轉換」標籤，內含四個資料視覺效果。 支援Adobe Advertising追蹤和Adobe Analytics追蹤的轉換。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2025年7月30日 | [!UICONTROL Placements]、[!UICONTROL Private]和[!DNL On-Demand]個交易 | 在位置設定中，已移除私人和[!DNL On-Demand]交易的現有「[!UICONTROL Ensure Fixed or Floor Price for the bid]」設定，並移動功能。 現在，使用&quot;[!UICONTROL Goals]&quot;區段中的新&quot;[!UICONTROL Min Bid]&quot;設定，根據詳細目錄型別指定最低出價：<ul><li><i>[!UICONTROL None]：</i>沒有任何存貨型別的最低出價。 如果計算的競標價小於目標交易的固定/底價，則DSP不會競標。 這可能會影響規模。</li><li><i>[!UICONTROL Fixed/floor price for Private deals only],</i> <i>[!UICONTROL Fixed/floor price for On-demand deals only]、</i>和<i>[!UICONTROL Fixed/floor price for both Private and On-demand deals]</i>： DSP至少會對指定之交易型別的固定/底價出價，即使演演算法計算的出價較小時。 這可能會影響效能。</li></ul> | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
@@ -57,7 +71,7 @@ ht-degree: 0%
 | | 位置鎖定目標的URL清單 | 您現在可以從[!UICONTROL Resources] > [!UICONTROL URL Lists]建立位置中包含或排除的URL清單。 在版位設定中使用您的清單。 | 請參閱[管理URL清單](/help/dsp/resources/lists-url-manage.md)和[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2025年6月4日 | 認證廣告服務合作夥伴 | 現在支援從[!DNL Nova]提供的顯示廣告單位。 | 請參閱[認證的廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)。 |
 | 2025年5月7日 | 視訊投放位置的增強型目標定位 | 您現在可以依詳細目錄屬性（包括播放器大小、播放模式、可略過性和廣告位置）鎖定視訊位置。 檢視[!UICONTROL Inventory Targeting]區段中&#39;&#39;[!UICONTROL Video targeting]&#39;&#39;和&#39;&#39;[!UICONTROL Position targeting]&#39;&#39;的新位置設定。<br><br>因為視訊廣告位置目標現在已在新位置目標定位設定中指定，所以已移除舊設定[!UICONTROL Exclude out-stream]。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
-|  | [!UICONTROL Bulksheets], [!UICONTROL Placements] | 現在可以在使用者介面中編輯的所有位置設定，都可以透過Bulksheets進行編輯。 | 請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯行銷活動元件設定」。[ |
+|  | [!UICONTROL Bulksheets], [!UICONTROL Placements] | 現在可以在使用者介面中編輯的所有位置設定，都可以透過Bulksheets進行編輯。 | 請參閱「使用Bulksheets[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯行銷活動元件設定」。 |
 | 2025年5月5日 | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | DSP現在與Amazon Publisher Services (APS)建立策略合作關係，讓DSP使用者可直接存取APS Unified Ad Marketplace中的網站，包括Fire TV、Twitch、IMDb、Goodreads和6pm。 針對非程式化預留私人交易，可在公共詳細目錄、隨選詳細目錄和私人詳細目錄中存取。 支援的廣告型別包括顯示器、線上視訊和連線電視。<br><br>除歐盟、巴西和日本以外，所有區域都提供Access，但Twitch目前只在澳洲和紐西蘭處於試驗模式。 | — |
 | 2025年4月25日 | [!UICONTROL Placements]，品牌安全與媒體品質 | DSP現在針對標準連線電視位置提供[!DNL DoubleVerify]出價前詐騙封鎖支援。 新刊登版位會自動繼承廣告商層級的詐騙封鎖設定。 若要排除繼承的設定，請手動將其移除。<br><br>未來版本將提供對通用視訊版位的支援。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)。 |
 | 2025年4月24日 | 效能[!UICONTROL Insights] | （Beta功能）透過視覺效果提供高階效能深入分析，為您提供有效最佳化行銷活動並發現提升效能新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
@@ -122,7 +136,7 @@ ht-degree: 0%
 | 2022年11月23日 | 交易 | [!UICONTROL Inventory] > [!UICONTROL Deals]檢視現在包含「[!UICONTROL Deal Health]」欄，其表示每個私人交易的健康狀態：「[!UICONTROL Success]」、「[!UICONTROL Warning]」、「[!UICONTROL Critical]」或「[!UICONTROL Unavailable]」。 您可以按一下狀態來檢視更多詳細資訊，包括交易未按預期執行或支出的原因以及疑難排解潛在問題的步驟。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 現在每個封裝和位置都可使用變更記錄，其中顯示所選日期範圍內所做的變更。 | 請參閱&quot;[檢視封裝](/help/dsp/campaign-management/packages/package-change-log.md)的變更記錄&quot;和&quot;[檢視位置](/help/dsp/campaign-management/placements/placement-change-log.md)的變更記錄。&quot; |
 |  |  | 您現在可以同時變更多個位置的[!UICONTROL Intraday Pacing]設定。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot;和&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;。 |
-|  |  | Excel QA試算表中有&#39;&#39;[!UICONTROL Intraday Pacing]&#39;&#39;欄。 | 請參閱已下載/已上傳試算表](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)中的[欄。 |
+|  |  | Excel QA試算表中有&#39;&#39;[!UICONTROL Intraday Pacing]&#39;&#39;欄。 | 請參閱已下載/已上傳試算表[&#128279;](/help/dsp/campaign-management/placements/placement-qa.md#qa-sheet-columns)中的欄。 |
 |  |  | 行銷活動檢視中提供&quot;[!UICONTROL Intraday Pacing]&quot;欄。 | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;。 |
 |  |  | 您可以依[!UICONTROL Intraday Pacing]設定來篩選「封裝」和「位置」檢視。 | 請參閱&quot;[篩選行銷活動資料](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#filter-data-tables)&quot;。 |
 | 2022年10月6日 | 行銷活動 | 新的與步調相關的量度欄可用於行銷活動views：「昨天的OTS」（目標支出）、「昨天的傳遞」、「昨天的目標」、「今天的OTS」（目標支出）、「今天的傳遞」和「今天的目標」。 | 請參閱&quot;[建立自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;。 |
