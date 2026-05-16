@@ -4,16 +4,12 @@ description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +30,13 @@ ht-degree: 0%
 
 ### 主要功能表選項
 
-您的角色決定可用的選項： <!-- add link when available -->
+您的[產品設定檔](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)決定可用的選項：
 
 * **[!UICONTROL Dashboard]**&#x200B;子功能表：
 
    * **[!UICONTROL Overview]**&#x200B;開啟可設定的[!UICONTROL Dashboard]檢視，其中包含您所有投資組合的效能視覺效果。
 
-   * **[!UICONTROL Recommendations]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。
+   * **[!UICONTROL Recommendations]**：開啟來自[!DNL Google Ads]和[!DNL Microsoft Advertising]的發行者建議以及來自[!DNL Microsoft Advertising.]的發行者深入分析的唯讀檢視。若要檢視和回應您的建議和深入分析，請使用舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Alerts & Notifications]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]檢視。
 
@@ -148,13 +144,13 @@ Tools > Admin > Data Source Setup
 
 ## 右上角的其他工作與資訊功能表
 
-### 頂列： CX Enterprise功能表
+### 頂列：CX Enterprise功能表
 
-* 您可存取的CX Enterprise組織之可選清單。
+* 您有權存取的CX Enterprise組織的可選取清單。
 
 * ![說明中心](/help/search-social-commerce/assets/help-main-menu.png "說明中心")說明功能表包含檔案和其他資訊的連結。
 
-* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")列出來自CX Enterprise的請求、通知和公告的面板。
+* ![通知](/help/search-social-commerce/assets/notifications-aec.png "通知")此面板會列出CX Enterprise的要求、通知和公告。
 
 * ![應用程式](/help/search-social-commerce/assets/apps.png "應用程式")您可以切換的Adobe CX Enterprise解決方案和服務清單。
 
@@ -208,7 +204,7 @@ Tools > Admin > Data Source Setup
 
 * ![警示通知](/help/search-social-commerce/assets/notifications-panel.png "警示通知")列出您搜尋、社交和Commerce通知的面板。
 
-  當您[透過Adobe CX Enterprise](sign-in.md)登入時，此面板會顯示您來自CX Enterprise的通知。
+  當您透過Adobe CX Enterprise [登入時，此面板會顯示您的CX Enterprise通知。](sign-in.md)
 
 * ![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")說明功能表，包含檔案和其他資訊的連結。
 
@@ -216,7 +212,7 @@ Tools > Admin > Data Source Setup
 
 * ![使用者設定檔](/help/search-social-commerce/assets/user-profile.png "使用者設定檔")連至您的設定檔的連結，您可以從中登出。
 
-  當您[透過Adobe CX Enterprise](sign-in.md)登入時，您也可以編輯您的CX Enterprise設定檔，包括CX Enterprise密碼和通知設定。
+  透過Adobe CX Enterprise ](sign-in.md)登入時，您也可以編輯CX Enterprise設定檔，包括CX Enterprise密碼和通知設定。[
 
 >[!MORELIKETHIS]
 >
