@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 在資料表格上方的工具列中，按一下：
 
-   * （適用於所有投資組合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**。
+   * （針對所有投資組合） ![大量作業](/help/search-social-commerce/assets/chevron-down.png "大量作業") > **[!UICONTROL Export All Portfolios]**。
 
    * （針對選取的投資組合） **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 檔案必須是XLSX格式。
 
-1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**。
+1. 在資料表上方的工具列中，按一下![大量作業](/help/search-social-commerce/assets/chevron-down.png "大量作業") > **[!UICONTROL Import Portfolio Details]**。
 
 1. 在[!UICONTROL Import Portfolio Details File]對話方塊：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 您可以從日期範圍選取器旁的[!UICONTROL Global Sync Status]按鈕（![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")）檢查上傳狀態。 如果有任何變更未成功，您可以下載顯示失敗內容的錯誤檔案。
 
-通知也會新增至通知中心，您可以從![按鈕(](/help/search-social-commerce/assets/notifications-new.png ")旁的")通知[!UICONTROL Global Sync Status]通知![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")圖示開啟「通知」窗格。
+通知也會新增至通知中心，您可以從[!UICONTROL Global Sync Status]按鈕(![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態"))旁的![通知](/help/search-social-commerce/assets/notifications-new.png "通知")圖示開啟「通知」窗格。
 
 ## 已上傳大量工作表檔案的資料需求
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ ht-degree: 0%
       * **整體效能**：曝光總數、點按、點進率(CTR)、檢視轉換和點進轉換。
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **預設率**： （僅具有決策樹定位的體驗）從目標創意內容、沒有目標的一般創意內容或目標為「其他所有人」的一般創意內容，以及體驗的預設創意內容所產生的曝光次數。
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * **效能劃分**&#x200B;區段：
 
-      * **地區績效：*：依地理位置區分的個別量度。
+      * **區域效能：**：依地理位置區分的個別量度。
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **裝置效能：**&#x200B;依裝置型別、作業系統和瀏覽器區分的個別量度。 可選擇按一下任何裝置類別的值，以檢視符合該條件的前10大創意內容清單。
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Creative效能**&#x200B;索引標籤*：依創意和套裝或廣告標籤區分的效能概觀，包括：
 

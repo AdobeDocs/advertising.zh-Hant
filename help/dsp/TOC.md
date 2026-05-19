@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [支援啟用通用ID](/help/dsp/audiences/universal-ids.md)
    + 可重複使用的對象 {#reusable-audiences}
       + [建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[使用產生AI建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [複製可重複使用的對象](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [編輯可重複使用的對象](/help/dsp/audiences/reusable-audience-edit.md)
       + [檢視可重複使用對象的詳細資訊](/help/dsp/audiences/reusable-audience-view-details.md)

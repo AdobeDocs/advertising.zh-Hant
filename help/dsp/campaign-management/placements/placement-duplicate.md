@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    依預設，新版位會用於原始廣告型別、指派給原始廣告商和促銷活動、具有從當天開始的航班排程、暫停且不包含原始廣告。
 
-   建立多個版位時，新版位名稱會依序附加一個數字，使用&lt;*original_placement_name #N*>慣例，例如「我的版位#2」。
+   當您建立多個版位時，新版位名稱會依序附加一個數字，使用慣例&lt;*original_placement_name #N*>，例如「我的版位#2」。
 
 1. 按一下&#x200B;**[!UICONTROL Submit]**。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
    * 地理目標
    * 事件畫素
    * 廣告
-   * 位置層級[!DNL DoubleVerify Authentic Brand Safety]區段（覆寫廣告商層級區段）
+   * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
 
 ## 設定新刊登版位的最佳實務
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    * 視需要附加事件畫素至版位和廣告。
 
-   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Safety]區段至位置。
+   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段至位置。
 
    * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
 

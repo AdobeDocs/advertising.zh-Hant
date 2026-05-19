@@ -2,14 +2,16 @@
 title: 管理廣告商的轉換量度
 description: 瞭解如何將Adobe Advertising追蹤的轉換量度用於廣告商。
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 管理廣告商的轉換量度
+# （新UI）管理和檢視廣告商轉換量度的績效資料
+
+*Beta功能*
 
 廣告商的[轉換](/help/search-social-commerce/glossary.md#c-d)量度在整個Adobe Advertising中使用：
 
@@ -94,6 +96,50 @@ ht-degree: 0%
       1. 在大量動作工具列中，按一下![可見度](/help/search-social-commerce/assets/visible.png "可見度")以顯示度量，或按一下![可見度關閉](/help/search-social-commerce/assets/visibility-off.png "可見度關閉")隱藏度量。
 
       1. （若要隱藏量度）在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以隱藏量度，包括從包含量度的任何衍生量度中移除量度。
+
+## 管理轉換的效能資料報表
+
+您可以下載下列有關追蹤的轉換的資訊：同步的量度名稱，「搜尋」、「社交」和「Commerce」管理檢視與報表中量度的顯示名稱，量度是否顯示在管理檢視與報表中，轉換ID以及量度來源。 將資料下載至[!DNL Microsoft Excel]活頁簿（XLSX檔案）格式的檔案。
+
+### 產生含有已篩選資料列的報表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
+
+1. 指定要下載其資料的轉換：
+
+   * 若要下載特定列的資料，請選取列旁的核取方塊。
+
+   * 若要下載所有列的資料，您不需要選取任何核取方塊。 預設會包含所有列。
+
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]設定中，輸入唯一的報告名稱，然後按一下&#x200B;**[!UICONTROL Generate]**。
+
+   依預設，該檔案的名稱為「conversionsReport_YYYYYMMDD_NNNN」，其中「NNNN」為循序工作編號（例如「conversionsReport_20260402_1326）。
+
+   檔案已新增至[!UICONTROL Recently Generated]清單。
+
+1. （選擇性）若要在檔案完成後下載檔案，請按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+### 下載完成的報表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
+
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+### 刪除已完成的報告
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
+
+1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
 
 <!--
 >[!MORELIKETHIS]

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 選取投資組合旁的核取方塊。
+1. 執行下列任一項作業：
 
-1. 在資料表上方的工具列中，按一下![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**。
+   * 將游標停留在投資組合列上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**。
+
+   * 選取投資組合旁的核取方塊。 在大量動作工具列中按一下![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**。
 
 1. 編輯投資組合設定。
 

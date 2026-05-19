@@ -2,16 +2,14 @@
 title: 管理搜尋競標單位的限制
 description: 瞭解限制條件，以限制舊式關鍵字層級產品組合中CPC促銷活動競標單位的競標。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 327f2214d601849008a3e6c8b804ea0f109b53d0
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # 管理搜尋競標單位的限制
-
-<!-- Read through all and edit as appropriate -->
 
 *僅適用於舊版關鍵字層級產品組合中CPC行銷活動的競標單位*
 
@@ -58,15 +56,15 @@ ht-degree: 0%
 
 * 提升品牌或促銷活動中重要的特定辭彙。
 
-### 在何處檢視整個UI<!-- wording? -->中限制的相關資訊
+### 在UI中檢視限制相關資訊的位置
 
 除了開啟[[!UICONTROL Constraints]檢視](#constraints-view)之外，您還可以透過下列方式檢視限制的相關資訊：
 
-* 您所有的限制都是名為「[」的單一](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)標籤分類[!UICONTROL Constraints]的標籤值。
+* 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)的標籤值。
 
    * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
 
-   * 當您下載大量表單時，[!UICONTROL Constraints]對話方塊中適用實體的[!UICONTROL Classifications]欄下會列出[!UICONTROL Download Bulksheet]。 當您包含欄時，下載的大量工作表會包含指定給相關圖元的任何限制。
+   * 當您下載大量表單時，[!UICONTROL Download Bulksheet]對話方塊中適用實體的[!UICONTROL Classifications]欄下會列出[!UICONTROL Constraints]。 當您包含欄時，下載的大量工作表會包含指定給相關圖元的任何限制。
 
   [!UICONTROL Constraints]分類未包含在[!UICONTROL Label Classifications]檢視中 — [!UICONTROL Constraints]檢視是獨立的。 [!UICONTROL Constraints]分類也不包含在30標籤分類限制中。
 
@@ -80,11 +78,9 @@ ht-degree: 0%
 >
 >[!UICONTROL Constraints]檢視中資料列的效能資料可能不符合指派限制之最上層實體的效能資料。 因為在最低層級指定的限制一律會覆寫在父層級指定的限制，所以指定給促銷活動或廣告群組的限制可能不會持續指定給子廣告群組和關鍵字。 例如，如果促銷活動A被指派為限制A，則促銷活動A中的所有廣告群組和關鍵字會自動繼承限制A。但是，這些廣告群組和關鍵字稍後可以指派給其他限制，例如「限制B」，然後它們就會失去與「限制A」的關聯。
 
-您可以從[!UICONTROL Constraints]檢視建立、編輯和變更條件約束的狀態。
-
 >[!NOTE]
 >
->您可以從相關實體管理檢視（例如促銷活動層級限制的[!UICONTROL Campaigns]檢視）將限制指派給競標單位，以及取消指派。
+>從相關實體管理檢視（例如促銷活動層級限制的[!UICONTROL Campaigns]檢視），將限制指派給競標單位，以及取消指派。
 
 #### 可用動作
 
@@ -116,7 +112,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （選擇性）從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選清單](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 選取要編輯的限制旁的核取方塊。
 
@@ -138,7 +134,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （選擇性）從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選清單](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 選取每個要變更其狀態的限制旁的核取方塊。
 
@@ -168,9 +164,9 @@ ht-degree: 0%
 | | [!UICONTROL Set constraint options for Bid Shift] | （僅限[!UICONTROL Bid Shift]個限制）要持續套用至基本競價的競標轉換型別和金額：<ul><li>*[!UICONTROL Increases]：*&#x200B;以指定的百分比或貨幣值增加競標。 輸入要變更的金額，然後選取&#x200B;*$*&#x200B;或&#x200B;*%*。 同時輸入&#x200B;**[!UICONTROL Max Limit]**，這是套用限制時的最高可能競標（上限）。 **注意：**&#x200B;如果目前的CPC競標已經等於或大於[!UICONTROL Max Limit]，則會忽略限制且不會變更競標。</li><li>*[!UICONTROL Decreases]：*&#x200B;以指定的百分比或貨幣值減少競標。 輸入要變更的金額，然後選取&#x200B;*$或%*。 同時輸入&#x200B;**[!UICONTROL Min Limit]**，這是套用限制時的最低出價（下限）。 **注意：**&#x200B;如果目前的CPC競標已經等於或小於[!UICONTROL Min Limit]，則會忽略限制且不會變更競標。</li></ul>**附註：**<ul><li>不論投資組合的&quot;[!UICONTROL Spend Around Constraints]&quot;設定為何，競標轉換導致的總金額中，競標轉換將導致相關投資組合出現支出過多或不足的情況。</li><li>如果您指定限制的結束日期，且最佳化功能會自動調整產品組合中行銷活動的支出限制，則競標不會單純在結束日期後恢復為原始金額，而是會調整為最佳金額。</li><li>競標轉換不會套用至資料不足無法產生成本和收入模型的競標單位。</li></ul> |
 | | [!UICONTROL Set constraint options for Incremental Bidding] | （僅限[!UICONTROL Incremental Bidding]個限制）競標目標，以及遞增或遞減競標直到達到目標為止的頻率與數量：<ul><li>**[!UICONTROL Bid target]：**&#x200B;目標競標金額。</li><li>**[!UICONTROL Incrementally change bids by]**&#x200B;和&#x200B;**[型別]：**&#x200B;要以增量方式增加或減少出價的數目，以及要依貨幣值(**$**)或百分比(*%*)變更出價。</li><li>**[!UICONTROL Every __ days]：**&#x200B;遞增出價的頻率。</li></ul>例如，假設其中一個關鍵字目前的競標是100美分，而您想要每天變更10%的競標，直到達到500美分的競標目標為止。 在設定限制後的第1天，該關鍵字的競標是110美分（目前競標+ 10%）。 第2天的出價為120美分（第1天的目前出價+ 20%），以此類推。 不過，如果競標目標是50美分，而其他引數相同，則競標會逐步減少，直到競標達到50美分。 |
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | （[!UICONTROL Search Engine Min Bid]個限制）使用在Google ([!UICONTROL Google First Page CPC])上搜尋結果第一頁顯示競標單位所需的最低競標。 選擇性地輸入&#x200B;**[!UICONTROL Min Bid]**&#x200B;值及/或&#x200B;**[!UICONTROL Max Bid]**&#x200B;值，以定義限制的合格競標範圍。 例如，若您指定2.50 USD的[!UICONTROL Min Bid]與4 USD的[!UICONTROL Max Bid]，則如果[!DNL Google Ads]第一頁競標低於2.50 USD或高於4 USD，則您將不會競標出價單位。 |
-| | [!UICONTROL Set constraint options for Impression Share] | （僅限[!UICONTROL Impression Share]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]** （選擇性）相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：** （選擇性）相關競標單位的最大基底競標。</li><li>**[!UICONTROL Min Impression Share]：**&#x200B;最低曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li><li>**[!UICONTROL Max Impression Share]：**&#x200B;最高曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。**注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li></ul>> |
+| | [!UICONTROL Set constraint options for Impression Share] | （僅限[!UICONTROL Impression Share]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]** （選擇性）相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：** （選擇性）相關競標單位的最大基底競標。</li><li>**[!UICONTROL Min Impression Share]：**&#x200B;最低曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li><li>**[!UICONTROL Max Impression Share]：**&#x200B;最高曝光比重（以百分比表示）將會觸發適用競標單位的限制。 它必須介於10到90之間。**注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 是否將條件套用至限制：<ul><li>*[!UICONTROL No Condition]：* （預設）在指定的日期範圍內無條件套用限制。</li><li>*[!UICONTROL Satisfy]：*&#x200B;只有在指定的資料評估期間符合指定的條件時，才會套用限制。</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | （設定條件時）為指定條件評估資料的時間期間。 如果您選取&#x200B;*[!UICONTROL Custom date range]，**請以&#x200B;**&#x200B;[!UICONTROL Start Date]&#x200B;**&#x200B;格式輸入每個日期（例如2026年3月29日的03-29-2026）或按一下&#x200B;**&#x200B;[!UICONTROL End Date]**&#x200B;行事曆按鈕`MM-DD-YYYY`行事曆按鈕![開啟行事曆並選取每個日期，以指定](/help/search-social-commerce/assets/calendar-new.png "和")。 |
+| | [!UICONTROL Data Evaluation Period] | （設定條件時）為指定條件評估資料的時間期間。 如果您選取&#x200B;*[!UICONTROL Custom date range]，**請以`MM-DD-YYYY`格式輸入每個日期（例如2026年3月29日的03-29-2026）或按一下![行事曆按鈕](/help/search-social-commerce/assets/calendar-new.png "行事曆按鈕")開啟行事曆並選取每個日期，以指定&#x200B;**&#x200B;[!UICONTROL Start Date]&#x200B;**&#x200B;和&#x200B;**&#x200B;[!UICONTROL End Date]**。 |
 | | [!UICONTROL When to Apply Constraints] | （設定條件時）必須符合多少篩選條件才能套用限制：<ul><li>*[!UICONTROL Match All Filters]：*&#x200B;在符合每個指定的篩選條件時套用限制。</li><li>*[!UICONTROL Match Any Filters]：*&#x200B;至少符合一個指定的篩選條件時，套用條件約束。</li></ul> |
 | | [!UICONTROL Filters] | （設定條件時）必須符合的一或多個條件。 若要建立篩選器，請從清單中選取屬性或量度。 針對屬性（例如[!UICONTROL Channel Type]），在清單中選取適用的值。 針對量度（例如[!UICONTROL Clicks]），請選取運運算元，然後輸入適用的值。 例如，若要只傳回超過100次點按的競標單位，請選取&#x200B;**點按**，選取&#x200B;**大於**，然後在輸入欄位中輸入`100`。</li></ul> |
 
@@ -190,7 +186,7 @@ ht-degree: 0%
 
    <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
-1. （選擇性）從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選清單](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 選取要為其指定單一限制的每個圖元旁的核取方塊。
 

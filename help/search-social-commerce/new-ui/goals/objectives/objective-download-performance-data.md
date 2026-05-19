@@ -4,9 +4,9 @@ description: 瞭解如何下載試算表檔案中的目標。
 feature: Search Optimization, Search Portfolios
 hide: true
 exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * 若要下載所有目標的資料，您不需要選取任何核取方塊。 預設會包含所有目標。
 
-1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表")。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]設定中，輸入唯一的報告名稱，然後按一下&#x200B;**[!UICONTROL Generate]**。
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表")。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]對話方塊的[!UICONTROL Grid Reports]清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
 
    檔案會依照瀏覽器的正常程式下載。
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Report]**。
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
-1. 在[!UICONTROL Recently Generated]對話方塊的[!UICONTROL Grid Reports]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
 
 >[!MORELIKETHIS]
 >

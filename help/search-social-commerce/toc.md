@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2224'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
          + [從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta)新使用者介面 {#new-ui}
    + [關於新的使用者介面](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [檢視您的效能儀表板](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + [檢視您的效能儀表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
    + 計畫 {#plan}
       + 目標 {#objectives}
          + [關於目標](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -91,9 +91,13 @@ ht-degree: 2%
          + [複製投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
          + [編輯投資組合詳細資訊](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
          + [使用大量工作表檔案大量編輯投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [重新命名投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
+         + [變更投資組合的狀態](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
          + [Portfolio設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [從[!UICONTROL Portfolios]檢視執行自訂模擬](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
          + [在[!UICONTROL Portfolios]檢視中檢視效能圖表](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
          + [檢視投資組合績效詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [檢視投資組合的變更記錄](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
          + [從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 行銷活動 {#campaigns}
          + [關於[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
@@ -101,10 +105,14 @@ ht-degree: 2%
          + [從投資組合中移除行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+         + [變更行銷活動的狀態](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
+         + [重新命名行銷活動](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
       + 廣告群組 {#ad-groups}
          + [關於[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
          + [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
          + [從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+         + [變更廣告群組的狀態](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
+         + [重新命名廣告群組](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
       + 廣告 {#ads}
          + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -207,31 +215,31 @@ ht-degree: 2%
                + [[!DNL Yahoo! Japan Ads]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Yandex]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 關鍵字 {#keywords}
-            + [About keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
-            + [Manage biddable keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-            + [Create negative keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
-            + [Change the status of keywords and negative keywords](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
-            + Keyword settings by ad network {#keyword-settings-by-network}
-               + [[!DNL Baidu] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
-               + [[!DNL Google Ads] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
-               + [[!DNL Microsoft Advertising] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
-               + [[!DNL Yandex] keyword settings](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
+            + [關於關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
+            + [管理可競標的關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+            + [建立負面關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+            + [變更關鍵字和負關鍵字的狀態](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
+            + 依廣告網路區分的關鍵字設定 {#keyword-settings-by-network}
+               + [[!DNL Baidu]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
+               + [[!DNL Google Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [[!DNL Microsoft Advertising]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
+               + [[!DNL Yandex]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
          + 廣告 {#ads}
-            + [About ads](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
-            + [Manage ads](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-            + Ad settings by ad network {#ad-settings-by-network}
-               + [[!DNL Baidu] text ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
-               + [[!DNL Google Ads] call-only ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
-               + [[!DNL Google Ads] expanded dynamic search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
-               + [[!DNL Google Ads] responsive search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
-               + [[!DNL Microsoft Advertising] expanded dynamic search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
-               + [[!DNL Microsoft Advertising] multimedia ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
-               + [[!DNL Microsoft Advertising] product ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
+            + [關於廣告](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
+            + [管理廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
+            + 依廣告網路區分的廣告設定 {#ad-settings-by-network}
+               + [[!DNL Baidu]文字廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
+               + [[!DNL Google Ads]僅限通話的廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
+               + [[!DNL Google Ads]延展的動態搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
+               + [[!DNL Google Ads]個回應式搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
+               + [[!DNL Microsoft Advertising]延展的動態搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
+               + [[!DNL Microsoft Advertising]多媒體廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
+               + [[!DNL Microsoft Advertising]產品廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
                + [[!DNL Microsoft Advertising]個回應式（對象）廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-responsive.md)
-               + [[!DNL Microsoft Advertising] responsive search ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
-               + [[!DNL Yandex] text ad settings](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
-         + Product groups {#product-groups}
+               + [[!DNL Microsoft Advertising]個回應式搜尋廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
+               + [[!DNL Yandex]文字廣告設定](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
+         + 產品群組 {#product-groups}
             + [關於產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [管理產品群組](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
             + [[!DNL Google Ads]產品群組設定](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
