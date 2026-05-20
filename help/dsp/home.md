@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年5月20日 | 第一方對象來源，通用ID，[!UICONTROL Placements] | 澳洲的廣告商現在可以為目標廣告匯入[!DNL AdFixus]個具有區段對應的通用ID。 DSP會依原樣從[!DNL AdFixus]匯入第一方區段，而不會將其轉換為其他ID型別。 程式包括建立對象來源及與您的[!DNL AdFixus]團隊共用自動產生的金鑰。 | 請參閱&quot;[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段&quot;、&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;和&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)&quot;。 |
 | 2026年5月11日 | 可重複使用[!UICONTROL Audiences] | （Beta功能）您現在可以使用AI輔助的對象代理程式來建立可重複使用的對象。 以自然語言提示描述您的目標對象，而代理程式會建議協力廠商區段，並建立對象運算式以作為目標或排除專案。 | 請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
 | 2026年4月29日 | [!UICONTROL Conversions] | 您現在可以在DSP中管理Adobe Advertising為貴組織追蹤的所有轉換量度。 這些量度仍可在Advertising Search、Social和Commerce中使用，以便用於其中的報告和最佳化。 | 請參閱[管理轉換](/help/dsp/admin/conversion-metrics-manage.md)。 |
 | | [!UICONTROL Custom Objectives] | 您現在可以在DSP中建立和管理自訂目標所使用的目標。 | 請參閱[管理自訂目標](/help/dsp/admin/custom-objectives-manage.md)。 |
