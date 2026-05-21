@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 2%
          + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 報表 {#reports}
+      + [管理試算表報表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [檢視[!UICONTROL History Logs]報告](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [管理標籤分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
