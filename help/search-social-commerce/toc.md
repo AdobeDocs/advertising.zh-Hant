@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 報表 {#reports}
-      + [管理試算表報表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + 排程報告 {#scheduled}
+         + [關於報表](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [報告的初始設定任務](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [用於報表的資料](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + 管理報表 {#report-management}
+         + 自動化 {#automation}
+            + [管理報表範本](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [管理試算表報表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [以FTP存取報表](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [歸因規則的計算方式](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [自訂報表常見問題集](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [檢視[!UICONTROL History Logs]報告](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [管理標籤分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}

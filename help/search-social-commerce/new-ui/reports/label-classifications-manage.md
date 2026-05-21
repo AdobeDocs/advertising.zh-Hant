@@ -2,7 +2,7 @@
 title: 管理標籤分類
 description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
+1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**。
 
 1. 選取每個分類值旁的核取方塊，以從選取的實體中移除。<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 
