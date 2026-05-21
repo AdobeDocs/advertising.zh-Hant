@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 >
 >[!DNL Roku]詳細目錄不適用於開放市場與交換。
 
-* 針對您的私人交易，[在DSP](/help/dsp/inventory/deal-id-create.md)中設定交易ID的相關資訊，然後在[!UICONTROL Roku Network - Audience]位置中鎖定&quot;[!UICONTROL The Roku Channel - Audience]&quot;和&quot;[!DNL Roku]&quot;。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 針對您的私人交易，[在DSP](/help/dsp/inventory/deal-id-create.md)中設定交易ID的相關資訊，然後在[!DNL Roku]位置中鎖定&quot;[!UICONTROL Roku Network - Audience]&quot;和&quot;[!UICONTROL The Roku Channel - Audience]&quot;。<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* 您可以[在 [!DNL Roku] 相簿 [!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)訂閱以下詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
+* 您可以[在 [!DNL On Demand] 相簿](/help/dsp/inventory/on-demand-inventory-subscribe.md)中 [!DNL Roku] 訂閱以下詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
 
-   * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL Roku]、[!DNL The CW]和[!DNL ABC]）的[!DNL ESPN]生態系統中的詳細目錄。
+   * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生態系統中的詳細目錄。
 
-   * 針對[!UICONTROL The Roku Channel - Audience]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!DNL Roku]&quot;。
+   * 針對[!DNL Roku]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!UICONTROL The Roku Channel - Audience]&quot;。
 
 ### 使用[!DNL Roku]自訂私人市場的優點
 
@@ -68,13 +68,13 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 ## [!DNL Roku]個位置
 
-在DSP行銷活動中，使用版位型別&quot;[&quot;  [!DNL Roku]建立](/help/dsp/campaign-management/placements/placement-create.md)專屬版位[!UICONTROL Connected TV (Roku)]。 將[!DNL Roku]個版位包含在具有已定義目標的[!DNL Roku]特定套件中。
+在DSP行銷活動中，使用版位型別&quot;[!UICONTROL Connected TV (Roku)]&quot; [建立 [!DNL Roku]專屬版位](/help/dsp/campaign-management/placements/placement-create.md)。 將[!DNL Roku]個版位包含在具有已定義目標的[!DNL Roku]特定套件中。
 
 每個[!DNL Roku]位置都必須至少鎖定一個[!DNL Roku]交易或來源。 若要使用DSP符合[!DNL Roku]的受眾比對，請包含一或多個可與[!DNL Roku] （選擇加入）確定性資料集比對的受眾區段。
 
 ### [!DNL Roku]個核准的第三方追蹤廠商
 
-[!DNL Roku]版位可包含來自下列廠商的第三方事件畫素和轉換畫素： [!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Neustar]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]和[!DNL Research Now]。
+[!DNL Roku]版位可包含來自下列廠商的第三方事件畫素和轉換畫素： [!DNL Acxiom]、[!DNL Comscore]、[!DNL Data Plus Math]、[!DNL Experian]、[!DNL Factual]、[!DNL Kantar]、[!DNL Marketing Evolution]、[!DNL Nielsen]、[!DNL Nielsen Catalina Solutions]、[!DNL NinthDecimal]、[!DNL Oracle]、[!DNL Placed]、[!DNL Polk]、[!DNL Research Now]和[!DNL TransUnion]。
 
 ### 依據放置策略的最佳實務
 
@@ -82,14 +82,14 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 若要最大化遞增範圍：
 
-* 透過排除您已使用[!DNL Roku O&O]觸及的對象，隱藏[!DNL The Roku Channel]上公開的對象。
+* 透過排除您已使用[!DNL The Roku Channel]觸及的對象，隱藏[!DNL Roku O&O]上公開的對象。
 
-* 排除您透過[!DNL All Roku]平台已觸及的對象，以隱藏[!DNL Roku]上公開的對象。
+* 排除您透過[!DNL Roku]平台已觸及的對象，以隱藏[!DNL All Roku]上公開的對象。
 
 最快速的設定：
 
-* 鎖定[!DNL The Roku Channel]詳細目錄[[!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)的現有、永遠開啟的交易，以快速存取[!DNL Roku]擁有且運作的詳細目錄。
-* 鎖定[!DNL Roku Network]詳細目錄[[!DNL On Demand] 中](/help/dsp/inventory/on-demand-inventory-subscribe.md)的現有、永遠開啟的交易，以快速在[!DNL Roku]平台上達成規模。
+* 鎖定[[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md)中[!DNL The Roku Channel]的現有、永遠開啟的交易，以快速存取[!DNL Roku]擁有且運作的詳細目錄。
+* 鎖定[[!DNL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-subscribe.md)中[!DNL Roku Network]的現有、永遠開啟的交易，以快速在[!DNL Roku]平台上達成規模。
 
 至最大比例：
 
