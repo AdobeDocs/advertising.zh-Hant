@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2084'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,8 @@ ht-degree: 2%
          + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 報表 {#reports}
-      + 標籤分類 {#label-classifications}
-         + [關於標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [建立標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [從行銷活動管理檢視將分類值指派給帳戶元件](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [使用大量表單指派分類值給帳戶元件](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [從帳戶元件中移除標籤分類值](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [刪除標籤分類值](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [刪除標籤分類](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + [檢視[!UICONTROL History Logs]報告](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [管理標籤分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + 關鍵字 {#keywords}
          + [關於[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)

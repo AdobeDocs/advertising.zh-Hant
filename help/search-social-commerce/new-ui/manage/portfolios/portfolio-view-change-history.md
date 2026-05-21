@@ -3,7 +3,7 @@ title: （新UI）檢視產品組合的變更記錄
 description: 瞭解如何檢視投資組合的變更記錄。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
    * 按一下![篩選器](/help/search-social-commerce/assets/filter-new.png "篩選器")，依變更型別篩選資料。<!-- Not available as of 5-14: and by the user who performed the action -->。
 
    * 按一下![排序](/help/search-social-commerce/assets/sort.png "排序")，依日期遞增或遞減順序來排序清單。
-
 
 ## 管理變更記錄的效能資料報表
 
