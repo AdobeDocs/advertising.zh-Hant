@@ -52,6 +52,6 @@ Is this first step relevant for this process?
 >
 >* [關於第一方對象來源](source-about.md)
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
->* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
 >* [從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段
