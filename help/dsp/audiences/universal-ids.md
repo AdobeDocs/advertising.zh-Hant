@@ -4,11 +4,19 @@ description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
 TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
 source-wordcount: 1610
@@ -26,7 +34,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 * DSP可以內嵌您客戶資料平台(CDP)內建的第一方區段，並將其轉換為[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 如需關於支援的客戶資料平台和使用者識別碼型別、每個支援的通用ID型別的可用功能及相關工作流程的詳細資訊，請參閱[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)。
 
-* 澳洲的廣告商可以使用[!UICONTROL AdFixus ID]對象來源匯入包含[!DNL AdFixus]通用ID的第一方區段。 DSP無法在[!DNL AdFixus] ID與其他通用ID型別之間轉換。 請參閱「從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」。[
+* 澳洲的廣告商可以使用[!UICONTROL AdFixus ID]對象來源匯入包含[!DNL AdFixus]通用ID的第一方區段。 DSP無法在[!DNL AdFixus] ID與其他通用ID型別之間轉換。 請參閱「從 [!DNL AdFixus][&#128279;](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」。
 
 * 您可以建立自訂區段，以追蹤哪些使用者與ID5通用ID相關聯，且接觸到桌上型電腦和行動裝置上的廣告，以及造訪特定網頁。 ID5會使用機率模型來指派衍生自各種使用者訊號和瀏覽器訊號的ID。 如需指示，請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
