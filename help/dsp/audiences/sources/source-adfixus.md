@@ -2,11 +2,17 @@
 title: 從 [!DNL AdFixus]匯入第一方區段
 description: 瞭解如何將包含 [!DNL AdFixus] 通用ID的 [!DNL AdFixus] 第一方區段匯入至DSP。
 feature: DSP Audiences
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
 workflow-type: tm+mt
 source-wordcount: 448
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 1. （具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的廣告商）為[!DNL Analytics]測量設定追蹤：
 
-   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID。
+   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的AMO ID和EF ID。
 
    1. 在您的網頁上部署[!DNL AdFixus]專屬的程式碼，以符合從桌上型電腦和行動網頁瀏覽器（但不包括行動應用程式）上的[!DNL AdFixus] ID轉換至瀏覽次數。
 
