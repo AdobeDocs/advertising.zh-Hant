@@ -4,27 +4,19 @@ description: 瞭解如何讓DSP擷取您的 [!DNL Tealium] 第一方區段。
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
 TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1118
 ht-degree: 0%
 
 ---
 
 # 將使用者ID從[!DNL Tealium]轉換為通用ID
-
-*Beta功能*
 
 使用DSP與[!DNL Tealium]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。 處理程式使用[!DNL Amazon Web Services] (AWS) firehose聯結器。 請依照下列步驟，與DSP共用Tealium的資料：
 
@@ -46,11 +38,11 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
-   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LaunchPad] [!DNL LiveRamp]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
+   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LiveRamp] [!DNL LaunchPad]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
 
 ## 步驟2：在DSP中建立對象來源 {#source-create}
 
@@ -70,7 +62,7 @@ ht-degree: 0%
 
    1. 將包含雜湊電子郵件ID的欄對應至訪客ID型別的屬性。
 
-   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性[[!DNL Tealium] 的](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)檔案。
+   1. 使用`Tealium_visitor_id`屬性建立對象。 套用正確的擴充功能以觸發對象。 請參閱有關訪客ID屬性](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/)的[[!DNL Tealium] 檔案。
 
 1. 廣告商必須將區段對應資料提供給Adobe客戶團隊，才能在DSP中建立區段。 在逗號分隔值檔案中使用下列欄名和值：
 
@@ -136,7 +128,7 @@ ht-degree: 0%
 
                * 針對Cookie屬性，將自訂訊息命名為`cookies`。
 
-            1. 在建立自訂欄位的選項中，在[!DNL Source Key]欄位中，輸入包含在先前程式中的[!UICONTROL External Segment Key]區段對應資料[中的](#map-data)。
+            1. 在建立自訂欄位的選項中，在[!DNL Source Key]欄位中，輸入包含在先前程式中的[區段對應資料](#map-data)中的[!UICONTROL External Segment Key]。
 
                DSP將使用此索引鍵填入您的區段。
 

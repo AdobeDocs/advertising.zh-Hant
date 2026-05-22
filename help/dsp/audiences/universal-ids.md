@@ -4,22 +4,14 @@ description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
 TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -28,13 +20,13 @@ ht-degree: 0%
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
 
-*Beta功能*
-
 DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無cookie、單一裝置（而非跨裝置）目標定位。
 
-* 您可以使用[!DNL LiveRamp] [!DNL RampIDs]儀表板，直接手動將已驗證的[[!DNL LiveRamp] [!DNL Connect]]傳送至DSP。 請參閱&quot;[從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段。&quot;
+* 您可以使用[!DNL LiveRamp] [!DNL Connect]儀表板，直接手動將已驗證的[[!DNL LiveRamp] [!DNL RampIDs]]傳送至DSP。 請參閱&quot;[從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段。&quot;
 
 * DSP可以內嵌您客戶資料平台(CDP)內建的第一方區段，並將其轉換為[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 如需關於支援的客戶資料平台和使用者識別碼型別、每個支援的通用ID型別的可用功能及相關工作流程的詳細資訊，請參閱[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)。
+
+* 澳洲的廣告商可以使用[!UICONTROL AdFixus ID]對象來源匯入包含[!DNL AdFixus]通用ID的第一方區段。 DSP無法在[!DNL AdFixus] ID與其他通用ID型別之間轉換。 請參閱「從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」。[
 
 * 您可以建立自訂區段，以追蹤哪些使用者與ID5通用ID相關聯，且接觸到桌上型電腦和行動裝置上的廣告，以及造訪特定網頁。 ID5會使用機率模型來指派衍生自各種使用者訊號和瀏覽器訊號的ID。 如需指示，請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
@@ -64,7 +56,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 1. 在[!UICONTROL Audience Targeting]區段中，執行下列動作：
 
-   1. 在[!UICONTROL Included Audiences]設定中，選取要為其將使用者資料轉換為通用ID的區段。
+   1. 在[!UICONTROL Included Audiences]設定中，選取將使用者資料轉換為通用ID （例如[!DNL RampIDs]或[!DNL UID2] ID）或包含匯入[!DNL AdFixus] ID的區段。
 
       如有需要，您可以包含其他區段。
 
@@ -72,7 +64,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
       1. 選取要定位的通用ID型別。
 
-         設定包含選項&quot;[!UICONTROL Legacy IDs]&quot;和&quot;[!UICONTROL Universal ID]&quot;，其中可能包含子選項&quot;[!UICONTROL ID5]&quot;、&quot;[!UICONTROL RampID]&quot;和&quot;[!UICONTROL Unified ID2.0]&quot;。 選取的地理目標會決定可用的子選項。
+         設定包含選項&quot;[!UICONTROL Legacy IDs]&quot;和&quot;[!UICONTROL Universal ID]&quot;，其中可能包含子選項&quot;[!UICONTROL AdFixus]&quot;、&quot;[!UICONTROL ID5]&quot;、&quot;[!UICONTROL RampID]&quot;和&quot;[!UICONTROL Unified ID2.0]&quot;。 選取的地理目標會決定可用的子選項。
 
          您可以同時選取&quot;[!UICONTROL Legacy IDs]&quot;和&quot;[!UICONTROL Universal ID]&quot;，但每個位置只能選取一種型別的通用ID。 當您同時選取舊有ID和通用ID時，會為通用ID指定競標偏好設定。
 
@@ -82,7 +74,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。
 
-## 測試和資料驗證的最佳作法
+## [!DNL RampID]型區段和ID5型區段的測試和資料驗證最佳實務
 
 針對可使用Adobe Analytics測量的[!DNL RampID]型區段和ID5型區段，使用下列最佳實務。
 
@@ -140,13 +132,15 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 * 如果您使用[!DNL Flashtalking]或[!DNL Google Campaign Manager 360]廣告，請確定廣告的點進URL已附加正確的巨集。 檢視[[!DNL Flashtalking] 廣告](/help/integrations/analytics/macros-flashtalking.md)和[[!DNL Google Campaign Manager 360] 廣告](/help/integrations/analytics/macros-google-campaign-manager.md)的巨集。
 
-* 請確定您的網站上已實作正確的、通用ID合作夥伴專用程式碼，以符合站上事件和廣告曝光。 視需要與您的[!DNL LiveRamp]或[!DNL ID5]代表合作。
+* （針對[!DNL RampIDs]和[!DNL UID 2.0] ID）請確定已在您的網站上實作正確的、通用ID合作夥伴特定程式碼，以符合站上事件和廣告曝光。 視需要與您的[!DNL LiveRamp]或[!DNL ID5]代表合作。
 
 * （針對[!DNL RampIDs]與[!DNL UID 2.0] ID）確定您的[DSP資料來源已正確設定](/help/dsp/audiences/sources/source-manage.md#source-settings)，且已針對產生的對象區段填入使用者計數。
 
+* （針對[!DNL AdFixus] ID）確定您的[!UICONTROL AdFixus ID]來源已正確設定，[!DNL AdFixus]為串流區段。
+
 * 如果您的觸及率低於預期，請檢查對象區段邏輯是否不太精細。
 
-* 請確認您的行銷活動、封裝和位置設定正確。<!-- wording-->
+* 請確認您的行銷活動、封裝和位置設定正確無誤。
 
 如果您無法解決問題，請聯絡您的Adobe客戶團隊。
 
@@ -156,5 +150,6 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 >* [管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)
 >* [建立和實施自訂區段](/help/dsp/audiences/custom-segment-create.md)
 >* [從 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)手動匯入已驗證的區段
+>* [從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)
