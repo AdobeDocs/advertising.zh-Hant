@@ -12,18 +12,16 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # 從[!DNL LiveRamp]手動匯入已驗證的區段
 
-*Beta功能*
-
-您可以使用[!DNL LiveRamp] [!DNL LiveRamp]儀表板手動將已驗證的[!DNL Connect]區段傳送至DSP。 您可以將匯入的區段用於放置目標定位。 就第一方區段而言，費用為交付的每一顯示廣告曝光數0.15美元，以及交付的每一視訊廣告曝光數0.25美元。
+您可以使用[!DNL LiveRamp] [!DNL Connect]儀表板手動將已驗證的[!DNL LiveRamp]區段傳送至DSP。 您可以將匯入的區段用於放置目標定位。 就第一方區段而言，費用為交付的每一顯示廣告曝光數0.15美元，以及交付的每一視訊廣告曝光數0.25美元。
 
 每個匯入工作的區段對應和上傳最多可能需要七天時間。
 
@@ -56,3 +54,4 @@ Is this first step relevant for this process?
 >* [管理對象來源以啟用通用ID對象](source-manage.md)
 >* [Adobe Advertising DSP連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=zh-Hant)
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
+>* [從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段

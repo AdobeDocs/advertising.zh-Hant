@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -32,15 +32,13 @@ ht-degree: 0%
 
 ## 追蹤ID5 ID的區段先決條件
 
-*Beta功能*
-
 * 在您產生區段以追蹤與ID5 ID相關聯的使用者之前，請先與[!DNL ID5]簽署合約並取得您組織的合作夥伴ID。 如需指示，請聯絡您的Adobe客戶團隊。
 
 * 針對Adobe Analytics中的測量，您必須：
 
-   1. 完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，並確定已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+   1. 完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確定已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
-   1. 在初始化最後一個事件服務之前的任何位置，將下列引數新增至您網頁（在[所需的 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)JavaScript程式碼之前或之內）。
+   1. 在初始化最後一個事件服務之前的任何位置，將下列引數新增至您網頁（在 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)所需的JavaScript程式碼之前或之內）。
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -77,9 +75,11 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**[!UICONTROL Advanced]**&#x200B;以展開進階設定，然後選取區段標籤追蹤的使用者識別碼型別：
 
-      * *[!UICONTROL Cookies]：* （預設）區段標籤會追蹤Cookie。
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]：
+         * *[!UICONTROL Cookies]：* （預設）區段標籤會追蹤Cookie。
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]：*&#x200B;區段標籤追蹤[!DNL ID5]個ID。 對於傳遞到通用ID的曝光，不會產生任何費用。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            然後在標籤中以`ID5_PARTNER_ID`取代`abcde`以取得下列專案：
+            然後在標籤中以`abcde`取代`ID5_PARTNER_ID`以取得下列專案：
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
          1. 複製標示為&quot;[!UICONTROL Desktop or mobile ads]&quot;的曝光追蹤標籤。
 
-         1. 將標籤新增至每個相關廣告的[!UICONTROL Pixel]標籤或每個相關位置[!UICONTROL Event Pixels]的[[!UICONTROL Tracking]設定的](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)區段。
+         1. 將標籤新增至每個相關廣告的[!UICONTROL Pixel]標籤或每個相關位置[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)的[!UICONTROL Tracking]設定的[!UICONTROL Event Pixels]區段。
 
 實施追蹤標籤後，您即可在任何位置的對象目標或排除專案中使用區段。
 

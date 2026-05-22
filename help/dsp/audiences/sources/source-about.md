@@ -14,22 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 710
 ht-degree: 0%
 
 ---
 
 # 關於第一方對象來源
 
-*Beta功能*
+對象來源功能可讓您依原樣匯入包含通用ID的第一方區段，或將其轉換為包含指定通用ID型別的區段：
 
-DSP可擷取第一方區段(由您客戶資料平台(CDP)內建立的雜湊電子郵件ID、Cookie和行動廣告ID (MAID)所組成)，並將它們轉換為由通用ID所組成的區段。 每個產生的ID都是以人物為基礎的，而廣告頻率上限則套用在ID層級<!-- Move that info. to somewhere else? -->。
+* 澳洲的廣告商可匯入已包含[!DNL AdFixus]通用ID的第一方區段。
 
-區段詳細資料包括每個通用ID型別的大小，以及Cookie或裝置ID追蹤的每個裝置型別的大小。
+* DSP可擷取第一方區段(由其他客戶資料平台(CDP)內建的雜湊電子郵件ID、Cookie和行動廣告ID (MAID)組成)，並將它們轉換為區段（由[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID組成）。
 
-## 通用識別碼型別 {#universal-id-types}
+對於所有ID型別，每個產生的ID都是以人物為基礎的，而廣告頻率上限則套用在ID層級<!-- Move that info. to somewhere else? -->。 區段詳細資料包括每個通用ID型別的大小，以及Cookie或裝置ID追蹤的每個裝置型別的大小。
+
+## 您可以轉譯為第一方區段的通用ID型別 {#universal-id-types}
 
 <!--
   Replace below with this once ID5 sources are possible 
@@ -40,9 +42,9 @@ Using your first-party data, you can create segments with IDs from the following
 
 -->
 
-您可以將第一方區段轉譯為具有下列通用ID合作夥伴的驗證（確定性） ID的區段。
+您可以將第一方區段從[!DNL ActionIQ]、[!DNL Adobe]、[!DNL Real-time CDP]、[!DNL Amperity]、[!DNL Optimizely]和[!DNL Tealium]轉譯為具有下列通用ID合作夥伴的已驗證（確定性） ID的區段。
 
-* [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution)：
+* [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
    * 用於重新定位登入的使用者。
 
@@ -84,17 +86,21 @@ DSP已建立下列CDP的聯結器，以快速內嵌您的第一方區段。
 
 DSP也可以使用批次、串流或API型資料共用，連線至任何其他CDP。 若要與新的CDP整合，請聯絡您的Adobe客戶團隊。
 
+### [!DNL ActionIQ]
+
+您可以與DSP共用您組織從[!DNL ActionIQ]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中鎖定目標廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+
 ### [!DNL Adobe Real-Time CDP]
 
-DSP是&#x200B;*the*[的整合式 [!DNL Adobe Real-Time CDP]目的地](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)，它是Adobe Experience Platform的一部分。
+DSP是[the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)的整合式&#x200B;*目的地*，它是Adobe Experience Platform的一部分。
 
 在[!DNL Real-Time CDP]中，目的地是與外部資料平台的連線，可順暢地啟用資料。 您可以在DSP中使用目的地來啟用雜湊電子郵件地址、Cookie和行動廣告ID，以用於目標定位廣告。 如需有關目的地的詳細資訊，請參閱Experience Platform [目的地指南](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant)，包括產品概述、[建立目的地工作區](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=zh-Hant)和[建立目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant)的指示，以及[啟用資料至目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=zh-Hant)。
 
 若要讓DSP擷取您的[!DNL Adobe] [!DNL Real-time CDP]第一方區段，並將雜湊電子郵件地址、Cookie和行動廣告ID轉換為通用ID，請參閱[將使用者ID從 [!DNL Adobe Real-Time CDP] 轉換為通用ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)。
 
-### [!DNL ActionIQ]
+### [!DNL AdFixus]
 
-您可以與DSP共用您組織從[!DNL ActionIQ]客戶資料平台的第一方資料，以將雜湊電子郵件地址轉換為通用ID，以便在DSP中鎖定目標廣告。 此整合需要自訂。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+澳洲廣告商可以使用Advertising DSP與[!DNL AdFixus]的整合，匯入包含[!DNL AdFixus]通用ID的第一方區段。 此路徑與將CDP聯結器內的雜湊電子郵件ID或MAID轉譯為[!DNL RampIDs]或[!DNL UID2] ID不同。 如需詳細資訊，請參閱&quot;[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段&quot;。
 
 ### [!DNL Amperity]
 
@@ -106,7 +112,7 @@ DSP是&#x200B;*the*[的整合式 [!DNL Adobe Real-Time CDP]目的地](https://ex
 
 ### [!DNL Tealium]
 
-您可以使用[!DNL Tealium]從[!DNL Amazon Web Services]客戶資料平台共用您組織的第一方資料。 如需更多有關在DSP中將雜湊電子郵件地址轉換為通用識別碼的資訊，請參閱[將使用者ID從 [!DNL Tealium] 轉換為通用識別碼](/help/dsp/audiences/sources/source-tealium.md)。
+您可以使用[!DNL Amazon Web Services]從[!DNL Tealium]客戶資料平台共用您組織的第一方資料。 如需更多有關在DSP中將雜湊電子郵件地址轉換為通用識別碼的資訊，請參閱[將使用者ID從 [!DNL Tealium] 轉換為通用識別碼](/help/dsp/audiences/sources/source-tealium.md)。
 
 >[!MORELIKETHIS]
 >
@@ -116,5 +122,6 @@ DSP是&#x200B;*the*[的整合式 [!DNL Adobe Real-Time CDP]目的地](https://ex
 >* [將使用者ID從 [!DNL Amperity] 轉換為通用ID](/help/dsp/audiences/sources/source-amperity.md)
 >* [將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)
 >* [將使用者ID從 [!DNL Tealium] 轉換為通用ID](/help/dsp/audiences/sources/source-tealium.md)
+>* [從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)
 >* [位置設定](/help/dsp/campaign-management/placements/placement-settings.md)

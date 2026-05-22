@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 624
 ht-degree: 0%
 
 ---
 
 # 將使用者ID從[!DNL Optimizely]轉換為通用ID
-
-*Beta功能*
 
 使用DSP與[!DNL Optimizely]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
 
@@ -42,11 +40,11 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
-   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LaunchPad] [!DNL LiveRamp]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
+   * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LiveRamp] [!DNL LaunchPad]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
 
 ## 步驟2：在DSP中建立對象來源 {#source-create}
 

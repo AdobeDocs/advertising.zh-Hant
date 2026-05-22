@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 3%
          + [將使用者ID從 [!DNL Amperity] 轉換為通用ID](/help/dsp/audiences/sources/source-amperity.md)
          + [將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)
          + [將使用者ID從 [!DNL Tealium] 轉換為通用ID](/help/dsp/audiences/sources/source-tealium.md)
+         + [從 [!DNL AdFixus]匯入第一方區段](/help/dsp/audiences/sources/source-adfixus.md)
       + [管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)
    + [從 [!DNL LiveRamp]手動匯入已驗證的區段](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [可用的第三方資料提供者](/help/dsp/audiences/third-party-data-providers.md)

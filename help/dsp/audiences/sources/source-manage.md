@@ -14,31 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # 管理對象來源以啟用通用ID對象
 
-*Beta功能*
+在DSP中，為您客戶資料平台中要匯入或轉換為包含指定通用ID型別的區段的每個第一方對象建立來源。 您可以將區段匯入貴組織的DSP帳戶或廣告商帳戶。 將受眾轉換為通用ID時，會根據選取的通用ID型別套用費用。 建立來源後，需要執行其他步驟以從每個客戶資料平台串流來源對象。 請參閱程式結尾的註記以建立來源。
 
-在DSP中，為您客戶資料平台中要轉換為包含指定通用ID型別的區段的每個第一方對象建立一個來源。 您可以將區段匯入貴組織的DSP帳戶或廣告商帳戶。 系統會根據選取的通用ID型別套用資料費用。 建立來源後，需要執行其他步驟才能從每個客戶資料平台擷取對象。 請參閱程式結尾的註記以建立來源。
-
-您稍後可以變更來源對象轉譯成的通用ID型別，並檢視變更記錄。
+對於[!DNL AdFixus]以外的所有客戶資料平台，您稍後可以變更來源對象轉譯成的全域ID型別，並檢視變更記錄。
 
 您也可以刪除來源。
 
 ## 建立對象來源
 
-<!--
- Not sure about this
-
-You can create one source for each combination of universal ID partner and data visibility level.
-
--->
+您可以為通用ID合作夥伴和帳戶或個別廣告商的每個組合建立一個來源。 例如，您可以有一個帳戶的[!UICONTROL RT-CDP]來源、一個廣告商1的[!UICONTROL RT-CDP]來源及一個廣告商2的[!UICONTROL RT-CDP]來源。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
@@ -47,6 +40,8 @@ You can create one source for each combination of universal ID partner and data 
 1. 在[!UICONTROL Select a Type]功能表中，選取您的[客戶資料平台](source-about.md)：
 
    * *[!UICONTROL RT-CDP]*： [!DNL Adobe Real-Time CDP]。
+
+   * *[!UICONTROL AdFixus ID]*： [!DNL AdFixus]客戶資料平台。 僅適用於澳洲的廣告商。
 
    * *[!UICONTROL ActionIQ]*： [!DNL ActionIQ]客戶資料平台。
 
@@ -66,9 +61,13 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->After you create a source for your customer data platform, you must complete additional steps to import your audience. See the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> the [workflow for [!DNL Amperity]](source-amperity.md), the [workflow for [!DNL Optimizely]](source-optimizely.md), and the [workflow for [!DNL Tealium]](source-tealium.md).
+>在您建立客戶資料平台的來源後，必須完成其他步驟以匯入對象：
+>* 針對[!DNL ActionIQ]來源，請與您的Adobe帳戶團隊合作。
+>* 若為其他來源型別，請參閱<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->適用於 [!DNL AdFixus][&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的工作流程。
 
-## Change the ID types for an audience source
+## 變更對象來源的ID型別
+
+*適用於[!DNL AdFixus]*&#x200B;以外的所有支援客戶資料平台
 
 <!-- 
 Clarify this:
@@ -79,39 +78,39 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. Hold the cursor over the source row and click **[!UICONTROL Edit]**.
+1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. Change the [IDs selected for the source](#source-settings).
+1. 變更為來源[&#128279;](#source-settings)選取的ID。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## Delete an audience source
+## 刪除對象來源
 
-Deleting a source removes the segments translated through the source.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
-
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
-
-1. Hold the cursor over the source row and click **[!UICONTROL Delete]**.
-
-1. In the confirmation message, click **[!UICONTROL Delete]**.
-
-## View the change log for an audience source
-
-You can view details about changes to an audience source record and optionally attach notes to the log.
+刪除來源會移除透過來源匯入的區段，包括所有轉譯的ID。<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. Hold the cursor over the source row and click **[!UICONTROL Change log]**.
+1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. (Optional) To attach a note to the change log:
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
-   1. Hold the cursor over the source row and click **[!UICONTROL Add Notes]**.
+## 檢視對象來源的變更記錄
 
-   1. Enter the note, and then click **[!UICONTROL Save]**.
+您可以檢視對象來源記錄變更的詳細資料，並可選擇將附註附加至記錄。
 
-      The maximum length is 256 characters.
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Sources]**。
 
-1. (Optional) To open the log in a larger detail screen, hold the cursor over the source row and click **[!UICONTROL View Details]**.
+1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Change log]**。
+
+1. （選擇性）若要在變更記錄中附加附註：
+
+   1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Add Notes]**。
+
+   1. 輸入備註，然後按一下&#x200B;**[!UICONTROL Save]**。
+
+      長度上限為256個字元。
+
+1. （選擇性）若要在較大的詳細資訊畫面中開啟記錄檔，請將游標停留在來源列上，然後按一下&#x200B;**[!UICONTROL View Details]**。
 
 ## 對象來源設定 {#source-settings}
 
@@ -121,7 +120,7 @@ You can view details about changes to an audience source record and optionally a
 
 **[!UICONTROL Enter IMS Org Id]：** （僅限[!DNL Real-Time CDP]個來源） [!DNL Adobe Experience Platform]帳戶的Adobe CX Enterprise組織識別碼。
 
-**[!UICONTROL Convert PII to the following IDs]：**&#x200B;您要將個人識別資訊(PII)轉換為的ID型別。 如果您選取多個型別，則產生的區段會填入每個所選ID型別的值（例如每個電子郵件地址的[!DNL RampID]和[!DNL Unified ID2.0]）。 據此套用資料費用。
+**[!UICONTROL Convert PII to the following IDs]：** （除了[!DNL AdFixus]之外，可用於所有支援的客戶資料平台）您將用來轉換個人識別資訊(PII)的ID型別。 如果您選取多個型別，則產生的區段會填入每個所選ID型別的值（例如每個電子郵件地址的[!DNL RampID]和[!DNL Unified ID2.0]）。 據此套用資料費用。
 
 對於[!DNL RampID]和[!DNL Unified ID2.0]，廠商會查詢每個電子郵件地址，檢視識別碼是否已存在，並將地址轉譯成相符識別碼（可用時）。 如果地址沒有ID，則會建立新的ID。
 
@@ -131,7 +130,7 @@ You can view details about changes to an audience source record and optionally a
 
 * *[!DNL RampID]：*&#x200B;要將PII轉換為[!DNL RampID]。 您可以使用[!DNL RampIDs]來重新定位登入使用者並進行[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)測量。
 
-* *[!DNL Unified ID2.0] (Beta)：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
+* *[!DNL Unified ID2.0]：*&#x200B;若要將PII轉換為[統一識別碼2.0](https://unifiedid.com)識別碼，以重新定位登入使用者。
 
 <!--
  Later
@@ -139,9 +138,9 @@ You can view details about changes to an audience source record and optionally a
 
 -->
 
-**[!UICONTROL Terms of Service]：**&#x200B;將PII轉換為通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，才能將資料轉換為新ID型別。 對於持有受管理服務合約的客戶，您的Adobe客戶團隊會代表貴組織取得您的同意並接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
+**[!UICONTROL Terms of Service]：**&#x200B;將PII轉換為通用ID的服務合約條款。 您或DSP帳戶中的其他使用者必須接受條款一次，您才能匯入ID、將資料轉換為新的ID型別或目標ID型別。對於擁有受管服務合約的客戶，您的Adobe帳戶團隊取得您的同意，並代表貴組織接受條款。 若要閱讀條款，請按一下&#x200B;**>**。 若要接受條款，請捲動至條款底部，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
-**[!UICONTROL Source Key]：** （唯讀；自動產生）來源金鑰，您可以在客戶資料平台中用來建立目的地連線，以將對象推送至Advertising DSP。 您可以將值複製到剪貼簿，貼到目的地連線設定或檔案中。
+**[!UICONTROL Source Key]：** （唯讀；自動產生）來源金鑰，您可以在客戶資料平台中用來建立目的地連線，以將對象推送至Advertising DSP。 您可以將值複製到剪貼簿，貼到目的地連線設定或檔案中。 與將讓受眾串流到DSP的團隊共用值。
 
 >[!MORELIKETHIS]
 >
@@ -151,4 +150,5 @@ You can view details about changes to an audience source record and optionally a
 >* [將使用者ID從 [!DNL Amperity] 轉換為通用ID](/help/dsp/audiences/sources/source-amperity.md)
 >* [將使用者ID從 [!DNL Optimizely] 轉換為通用ID](/help/dsp/audiences/sources/source-optimizely.md)
 >* [將使用者ID從 [!DNL Tealium] 轉換為通用ID](/help/dsp/audiences/sources/source-tealium.md)
+>* [從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段
 >* [關於對象管理](/help/dsp/audiences/audience-about.md)

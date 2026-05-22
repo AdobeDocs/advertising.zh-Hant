@@ -15,26 +15,24 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 595
 ht-degree: 0%
 
 ---
 
 # 將使用者ID從[!DNL Adobe Real-Time CDP]轉換為通用ID
 
-*Beta功能*
-
 使用DSP與[&#x200B; [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant) （屬於Adobe Experience Platform的一部分）的整合，將您的使用者ID （包括雜湊電子郵件地址、Cookie和行動廣告ID）轉換為通用的ID，以用於目標定位廣告。
 
 1. （若要將使用者ID轉換為[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->；廣告商具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)）設定[!DNL Analytics]測量的追蹤：
 
-   1. （如果您尚未這樣做）完成實作[的所有 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)必要條件，以及在您的追蹤URL[中的](/help/integrations/analytics/ids.md)AMO ID和EF ID。
+   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的AMO ID和EF ID。
 
    1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 
-      * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LaunchPad] [!DNL LiveRamp]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
+      * **對於[!DNL RampIDs]：**，您必須在您的網頁上部署額外的JavaScript標籤，以符合從桌上型電腦和行動瀏覽器（但不包括行動應用程式）上的ID到瀏覽次數的轉換。 請連絡您的Adobe客戶團隊，他們將會提供指示，讓您從[!DNL LiveRamp]驗證流量解決方案註冊[!DNL LiveRamp] [!DNL LaunchPad]標籤。 註冊是免費的，但您必須簽署合約。 註冊後，您的Adobe客戶團隊將產生，並為您的組織提供唯一標籤，以便在您的網頁上實施。
 
 1. [建立對象來源](source-manage.md)以將對象匯入您的DSP帳戶或廣告商帳戶。 您可以選擇將您的使用者識別碼轉換為任何[可用的通用ID格式](source-about.md)。
 
