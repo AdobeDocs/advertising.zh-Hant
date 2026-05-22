@@ -1,0 +1,52 @@
+---
+title: '[!UICONTROL Bing Ads Geo Report]'
+description: 瞭解[!UICONTROL Bing Ads Geo Report]。
+feature: Search Reports, Search Specialty Reports
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Bing Ads Geo Report]
+
+僅&#x200B;*[!DNL Microsoft Advertising]個帳戶*
+
+[!UICONTROL Bing Ads Geo Report]包含一或多個帳戶中每個廣告群組的成本、點選次數、曝光次數以及（選擇性）依國家/地區/都市代碼/城市組合衍生的量度資料。 依預設，對於在指定日期範圍內每個時間單位收到至少一個曝光或點按的每個適用廣告群組，每個國家/地區/都市代碼/城市組合會包含一列。 依預設，這些列會依行銷活動名稱，然後依國家、地區、都市代碼、城市，再依廣告群組以遞增順序排列。 報告不包含[!DNL Microsoft Advertising]或[!DNL Adobe]追蹤的轉換資料。
+
+您可以檢視前兩個月的資料。
+
+>[!NOTE]
+>
+>* 由於決定地理位置的廠商和方法不同，此報表的總數可能與[!UICONTROL Geo Distribution Report] （Search、Social和Commerce編譯的）中相同行銷活動和時段的總數不同。
+>* 前一天的23:00 （晚上11:00）提取此報表的資料 每天。 例如，在6月18日的23:00，它會提取6月17日的資料。 如果您在6月19日的09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日的23:00資料。
+
+## 預設欄
+
+如需所有預設和自訂欄的說明，請參閱[專業報告的報告欄](specialty-report-columns.md)。
+
+* [!UICONTROL Account Name]
+* [!UICONTROL Start Date]
+* [!UICONTROL End Date]
+* [!UICONTROL Campaign Name]
+* [!UICONTROL Campaign Status]
+* [!UICONTROL Ad Group Name]
+* [!UICONTROL Ad Group Status]
+* [!UICONTROL Country]
+* [!UICONTROL Region]
+* [!UICONTROL Metro Code]
+* [!UICONTROL City]
+* [!UICONTROL Impressions]
+* [!UICONTROL Clicks]
+* [!UICONTROL Cost]
+* [!UICONTROL CTR]
+* [!UICONTROL CPC]
+* [!UICONTROL Average Position]
+* [!UICONTROL Ad Distribution]
+
+>[!MORELIKETHIS]
+>
+>* [關於專業報告](specialty-report-about.md)
+>* [管理排程報告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+>* [專業報告設定](specialty-report-settings.md)
