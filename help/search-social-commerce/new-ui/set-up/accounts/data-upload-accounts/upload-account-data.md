@@ -1,9 +1,9 @@
 ---
 title: 上傳離線帳戶資料以用於報表和模擬
 description: 瞭解如何手動上傳離線帳戶資料或上傳至 [!DNL Amazon] [!DNL S3]儲存貯體，以支援報告和模擬。 記錄檔會追蹤上載工作的進度。
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Upload Logs]**。
 
-1. （選擇性）若要下載已上傳檔案的資料，請按一下![欄中的](/help/search-social-commerce/assets/download.png "下載")下載[!UICONTROL Download]，然後依照瀏覽器的正常程式下載檔案。
+1. （選擇性）若要下載已上傳檔案的資料，請按一下[!UICONTROL Download]欄中的![下載](/help/search-social-commerce/assets/download.png "下載")，然後依照瀏覽器的正常程式下載檔案。
 
 ## 必要資料
 

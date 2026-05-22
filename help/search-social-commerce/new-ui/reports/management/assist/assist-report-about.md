@@ -2,7 +2,7 @@
 title: 關於協助報表
 description: 瞭解可深入分析轉換路徑的報告。
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
