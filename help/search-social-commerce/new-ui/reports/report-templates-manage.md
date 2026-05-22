@@ -2,9 +2,9 @@
 title: （新UI）管理報表範本
 description: 瞭解如何建立、檢視、編輯和刪除排程和隨選報告的可重複使用報告範本。
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-* 若要從[!UICONTROL Latest Reports]標籤或[!UICONTROL Templates]標籤從頭開始建立範本，請啟用&#x200B;**[!UICONTROL Save as Template]**&#x200B;設定以建立報表。
+   * 若要從[!UICONTROL Latest Reports]標籤或[!UICONTROL Templates]標籤從頭開始建立範本，請啟用&#x200B;**[!UICONTROL Save as Template]**&#x200B;設定以建立報表。
 
-* 若要根據現有範本建立範本：
+   * 若要根據現有範本建立範本：
 
-   1. 按一下「**[!UICONTROL Templates]**」標籤。
+      1. 按一下「**[!UICONTROL Templates]**」標籤。
 
-   1. 選取現有範本旁的核取方塊。
+      1. 執行下列任一項作業：
 
-   1. 在大量動作工具列中按一下[複製](/help/search-social-commerce/assets/duplicate.png)。
+         * 將游標停留在範本列上，然後按一下&#x200B;**...** > **[!UICONTROL Duplicate]**。
 
-   1. （可選）重新命名範本，並視需要編輯報表設定。
+         * 選取現有範本旁的核取方塊。 在大量動作工具列中按一下[複製](/help/search-social-commerce/assets/duplicate.png)。
 
-      按一下&#x200B;**[!UICONTROL Next]**&#x200B;在設定區段之間移動。
+      1. （可選）重新命名範本，並視需要編輯報表設定。
 
-   1. 啟用&#x200B;**[!UICONTROL Save as Template]**&#x200B;設定。
+         按一下&#x200B;**[!UICONTROL Next]**&#x200B;在設定區段之間移動。
 
-   1. 按一下&#x200B;**[!UICONTROL Create]**。
+1. 啟用&#x200B;**[!UICONTROL Save as Template]**&#x200B;設定。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**。
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 

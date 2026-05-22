@@ -1,15 +1,15 @@
 ---
-title: 關於發佈者建議和深入分析支援
+title: 支援發佈者建議和深入分析
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# 關於發佈者建議和深入分析支援
+# 支援發佈者建議和深入分析
 
 *[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶*
 

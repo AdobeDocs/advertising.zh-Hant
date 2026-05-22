@@ -2,7 +2,7 @@
 title: 管理搜尋競標單位的限制
 description: 瞭解限制條件，以限制舊式關鍵字層級產品組合中CPC促銷活動競標單位的競標。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   [!UICONTROL Constraints]分類未包含在[!UICONTROL Label Classifications]檢視中 — [!UICONTROL Constraints]檢視是獨立的。 [!UICONTROL Constraints]分類也不包含在30標籤分類限制中。
 
-* [&#x200B; [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)包含使用標籤分類架構之限制的成本、點選及（選擇性）轉換資料。
+* [&#x200B; [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)包含使用標籤分類架構之限制的成本、點選及（選擇性）轉換資料。
 
 ### [!UICONTROL Constraints]檢視 {#constraints-view}
 
@@ -216,4 +216,4 @@ ht-degree: 0%
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [該[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [該[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
