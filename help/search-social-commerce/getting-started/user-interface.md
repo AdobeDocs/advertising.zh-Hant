@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +28,19 @@ ht-degree: 0%
 
 每個頁面都包含主功能表和其他工作與資訊型功能表。
 
+您的[產品設定檔](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)會決定可用的選項，包括每個檢視中可用的功能。
+
 ## 主功能表
 
-新的使用者介面在左側有一個新的主功能表，該功能表會按工作階段組織任務。 稍後會新增舊版使用者介面的其他子功能表和選項。
+新的使用者介面在左側有一個新的主功能表，該功能表會按工作階段組織任務。
 
 ### 主要功能表選項
-
-您的[產品設定檔](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)決定可用的選項：
 
 * **[!UICONTROL Dashboard]**&#x200B;子功能表：
 
    * **[!UICONTROL Overview]**&#x200B;開啟可設定的[!UICONTROL Dashboard]檢視，其中包含您所有投資組合的效能視覺效果。
 
    * **[!UICONTROL Recommendations]**：開啟來自[!DNL Google Ads]和[!DNL Microsoft Advertising]的發行者建議以及來自[!DNL Microsoft Advertising.]的發行者深入分析的唯讀檢視。若要檢視和回應您的建議和深入分析，請使用舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
-
-   * **[!UICONTROL Alerts & Notifications]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]檢視。
 
 * **[!UICONTROL Goals]**&#x200B;子功能表：
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Portfolios]：**&#x200B;開啟新的[!UICONTROL Portfolios]檢視，其中列出廣告商的所有產品組合。 您可以從此檢視管理您的投資組合。 您可以開啟指派的限制清單，並檢視任何投資組合的績效和組成詳細資訊。
 
-     產品組合設定包含可指派目標和行銷活動、管理支出、管理限制和控制最佳化的標籤。 只有具有「專家最佳化」角色或更高角色的使用者才能編輯[!UICONTROL Control Optimization]標籤上的設定。
+     產品組合設定包含可指派目標和行銷活動、管理支出、管理限制和控制最佳化的標籤。 只有具有「專家最佳化」設定檔或更高版本的使用者才能編輯[!UICONTROL Control Optimization]標籤上的設定。
 
    * **[!UICONTROL Campaigns]：**&#x200B;開啟新的[!UICONTROL Campaigns]檢視，其中顯示廣告商的所有行銷活動。 您可以將行銷活動指派給產品組合，並管理選定行銷活動的限制指派。 您也可以下載資料表格內容的報表。<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +80,19 @@ ht-degree: 0%
 
    * **[!UICONTROL Insights]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]檢視。
 
-   * **[!UICONTROL Scheduled Reports]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Reports]檢視。
+   * **[!UICONTROL Scheduled Reports]**：開啟新的[!UICONTROL Scheduled Reports]檢視，讓您產生和管理排程報告。
 
-   * **[!UICONTROL Spreadsheet Feeds]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets]檢視。
+   * **[!UICONTROL Spreadsheet Feeds]**：開啟新的[!UICONTROL Spreadsheets Feeds]檢視，您可從中設定每日更新的報告摘要。
 
-   * **[!UICONTROL History Logs]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Change History]檢視。
+   * **[!UICONTROL History Logs]**：開啟新的[!UICONTROL History Logs]檢視，其中包含有關廣告商帳戶最近變更的詳細資料。
 
    * **[!UICONTROL Label Classification]**&#x200B;開啟新的[!UICONTROL Label Classifications]檢視。 您可以管理分類，以及指派/取消指派分類值給新UI中可用的任何適用帳戶元件。
 
-   * **[!UICONTROL Bulksheets]**：退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Bulksheets]檢視。
-
 * **[!UICONTROL Target]**&#x200B;子功能表：
 
-   * **[!UICONTROL Audiences]**：開啟新的[!UICONTROL Audiences]檢視，其中顯示廣告商的所有現有對象、所有對象目標和所有對象排除。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+   * **[!UICONTROL Audiences]**：開啟新檢視，顯示廣告商的所有現有對象、所有對象目標和所有對象排除。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Auto Targets]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Auto Targets]**&#x200B;開啟新檢視，其中顯示廣告商的所有現有自動目標。 若要管理您的自動目標，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Keywords]**&#x200B;開啟新的[!UICONTROL Keywords]檢視，其中顯示廣告商的現有關鍵字和負關鍵字。 您可以管理所選關鍵字的限制指定。
 
@@ -108,7 +104,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]**&#x200B;子功能表：
 
-   * **[!UICONTROL Creatives]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。
+   * **[!UICONTROL Creatives]**&#x200B;開啟新檢視，其中列出您現有的創意資產。 您可以預覽每個創意內容。 若要管理您的資產庫，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Asset Library]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Extensions]**&#x200B;開啟您現有廣告擴充功能的唯讀檢視。 若要管理您的擴充功能，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
@@ -116,23 +112,19 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]**&#x200B;子功能表：
 
-   * **[!UICONTROL Manager Accounts]**：退出新網站並開啟舊版[!UICONTROL Admin] > [!UICONTROL Manager Accounts]檢視。
+   * **[!UICONTROL Manager Accounts]**：開啟您現有經理帳戶與廣告網路的新檢視。 若要管理您的管理員帳戶，請使用舊版[!UICONTROL Admin] > [!UICONTROL Manager Accounts]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
    * **[!UICONTROL Accounts]**：開啟新的[!UICONTROL Accounts]檢視。 您可以管理透過API連線同步的廣告網路帳戶，或透過資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。
 
-   * **[!UICONTROL Import Campaigns]**：退出新網站並開啟舊版[!UICONTROL Tools] > [!UICONTROL Import Campaigns]檢視。
+   * **[!UICONTROL Import Campaigns]**：開啟新檢視，您可從其中匯入行銷活動資料。
+
+   * **[!UICONTROL Bulksheets]**：開啟新的[!UICONTROL Bulksheets]檢視。
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +160,13 @@ Tools > Admin > Data Source Setup
 
 * 目前檢視的可設定日期範圍
 
-* ![進行UI導覽](/help/search-social-commerce/assets/take-ui-tour.png "進行UI導覽")新使用者介面的導覽連結。
-
 * ![切換到舊的UI](/help/search-social-commerce/assets/switch-to-old-ui.png "切換到舊的UI")在新標籤或視窗中開啟舊版使用者介面。
+
+* ![自訂警報](/help/search-social-commerce/assets/custom-alert.png "自訂警報")可讓您在面板中建立或檢視自訂警報。
 
 * ![全域同步狀態](/help/search-social-commerce/assets/global-sync-status.png "全域同步狀態")開啟<!--what kind -->個大量作業工作的清單。
 
-* ![通知](/help/search-social-commerce/assets/notifications.png "通知")會開啟一個面板，其中列出您的搜尋、社交和Commerce通知。
+* ![通知](/help/search-social-commerce/assets/notifications.png "通知")會開啟一個面板，其中列出您的搜尋、社交和Commerce通知。 您可以篩選清單、編輯通知設定或開啟[!UICONTROL Notification Center].m
 
 ## 舊版使用者介面
 

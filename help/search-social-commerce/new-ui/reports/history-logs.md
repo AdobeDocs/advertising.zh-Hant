@@ -1,15 +1,15 @@
 ---
-title: （新UI）檢視[!UICONTROL History Logs]報告
+title: （新UI）檢視變更記錄檔
 description: 瞭解如何檢視廣告商帳戶的最近變更。
 feature: Search Reports
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# （新UI）檢視[!UICONTROL History Logs]報告
+# （新UI）檢視變更記錄檔
 
 [!UICONTROL History Logs]報表包含過去31天內對廣告商帳戶所做變更的記錄。 報表可包含對下列物件型別的變更：使用者（廣告商）、產品組合、行銷活動、廣告群組、廣告、關鍵字、位置及產品目標。 您可以依任何欄排序及篩選資料。
 
