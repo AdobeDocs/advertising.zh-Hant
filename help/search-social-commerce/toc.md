@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -209,6 +209,7 @@ ht-degree: 2%
             + [管理資料上傳的廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [管理 [!DNL Naver] 帳戶僅供追蹤](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
    + [管理自訂警報](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [使用者管理](/help/search-social-commerce/new-ui/user-administration.md)
 + 追蹤 {#tracking}
    + [關於追蹤](/help/search-social-commerce/tracking/tracking-about.md)
