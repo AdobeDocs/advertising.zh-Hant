@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [關於新的使用者介面](/help/search-social-commerce/new-ui/new-ui-about.md)
    + 儀表板 {#dashboard}
       + [檢視您的效能儀表板](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [支援發佈者建議和深入分析](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + 目標 {#goals}
       + 目標 {#objectives}
          + [關於目標](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 報表 {#reports}
       + 排程報告 {#scheduled}
-         + [報告的初始設定任務](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [用於報表的資料](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [關於排程報告](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [報告的初始設定任務](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [用於報表的資料](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [管理排程報告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + 排程報表型別 {#report-types}
             + 基本和進階報表 {#basic-advanced-reports}
