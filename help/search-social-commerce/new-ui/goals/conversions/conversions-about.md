@@ -27,4 +27,4 @@ ht-degree: 0%
 
 * 針對要針對個別[!DNL Google Ads]帳戶追蹤的銷售機會，建立[!DNL Google Ads]增強型轉換的轉換動作。
 
-* 上傳第一方離線轉換資料，以對應至潛在客戶](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增強型轉換](https://help.ads.microsoft.com/#apex/ads/en/60178)的現有[[!DNL Google Ads] 增強型轉換。
+* 上傳第一方離線轉換資料，以對應至潛在客戶[&#128279;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)和[[!DNL Microsoft Advertising] 增強型轉換](https://help.ads.microsoft.com/#apex/ads/en/60178)的現有[!DNL Google Ads] 增強型轉換。
