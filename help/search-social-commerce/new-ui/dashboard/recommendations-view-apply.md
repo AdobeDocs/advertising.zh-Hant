@@ -2,7 +2,7 @@
 title: 支援發佈者建議和深入分析
 description: 瞭解對於檢視和管理發布者建議與深入分析的支援。
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ ht-degree: 0%
 | [!UICONTROL Measurement] | 轉換追蹤和認證的建議 | 在搜尋、社交和Commerce中無法使用。 | 這些建議可能會影響效能。 在套用任何建議之前，請洽詢您的Adobe客戶團隊，以討論其優缺點。 |
 | [!UICONTROL Repairs] | 改善帳戶問題的其他建議 | 在搜尋、社交和Commerce中無法使用。 | 在[!DNL Google Ads]內定期手動檢閱修復建議。 此建議型別非常適合用於識別不核准的廣告、摘要問題、追蹤問題等。 |
 | [!UICONTROL Other] | 使用[!DNL Google Ads]行動應用程式的建議 | 在搜尋、社交和Commerce中無法使用。 | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
