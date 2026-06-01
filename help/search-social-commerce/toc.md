@@ -4,9 +4,15 @@ user-guide-title: Advertising Search, Social, & Commerce 指南
 user-guide-description: 本指南旨在說明管理、追蹤及報告您的搜尋、社交媒體和商業廣告行銷活動所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Advertising Search, Social, & Commerce 指南
 index: true
-source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -82,6 +88,10 @@ ht-degree: 2%
          + [將權重建議套用至目標](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [下載目標的效能量度](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [目標設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+         + [啟用上傳目標至廣告網路](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+      + 轉換 {#conversions}
+         + [管理和檢視廣告商轉換量度的績效資料](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + [管理 [!DNL Google Ads] 轉換值規則](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 計畫 {#plan}
       + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [執行或重新執行自訂模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -204,6 +214,7 @@ ht-degree: 2%
          + [關於廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
          + API連線帳戶 {#api}
             + [透過API連線管理廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [管理 [!DNL Google Ads] 管理員帳戶的認證](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
             + [透過API連線手動同步處理廣告網路資料](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + 資料上傳帳戶 {#data-upload}
             + [管理資料上傳的廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)

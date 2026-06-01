@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]**&#x200B;開啟新的[!UICONTROL Objectives]檢視，您可以從中檢視所有現有目標以及建立、編輯和刪除目標。
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]**&#x200B;開啟新檢視，您可以從中檢視廣告商的轉換量度，並自訂可用於管理檢視和報告量度。
 
-* **[!UICONTROL Conversion Value Rules]**&#x200B;開啟您的行銷活動層級和帳戶層級轉換值規則的唯讀檢視。 若要管理您的轉換值規則，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+   * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟新檢視，以檢視及管理[!DNL Google Ads]帳戶的行銷活動層級和帳戶層級轉換值規則。
 
-* **[!UICONTROL Constraints]**&#x200B;開啟現有限制的唯讀檢視。 若要管理您的限制，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+   * **[!UICONTROL Constraints]**&#x200B;開啟現有限制的唯讀檢視。 若要管理您的限制，請使用舊版[!UICONTROL Optimization] > [!UICONTROL Constraints]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 * **[!UICONTROL Plan]**&#x200B;子功能表：
 

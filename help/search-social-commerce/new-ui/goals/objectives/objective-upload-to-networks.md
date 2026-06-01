@@ -1,0 +1,97 @@
+---
+title: （新UI）啟用上傳目標至廣告網路
+description: 瞭解如何將混合產品組合的目標上傳至Google Ads和Microsoft Advertising。
+feature: Search Objectives, Search Optimization
+hide: true
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 0%
+
+---
+
+# （新UI）啟用上傳目標至廣告網路
+
+*Beta功能*
+
+*僅具有[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的廣告商*
+
+*僅針對混合最佳化啟用廣告商*
+
+搜尋、Social和Commerce可將廣告商帳戶的投資組合目標上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]，以便您可以使用這些目標進行混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。
+
+啟用此選項會自動觸發上傳產品組合中的目標，其中包含具有智慧競標策略的行銷活動。 搜尋、社交和Commerce會在廣告網路上為每個適用的目標建立轉換。 轉換代表目標中EF ID （點選ID）層級的所有加權轉換量度。 對於[!DNL Google Ads]點按，EF ID是[!DNL Google Ads] `gclid`；對於[!DNL Microsoft Advertising]點按，EF ID是[!DNL Microsoft Advertising] `msclkid`。 由於此點按ID，轉換資料可以對應至特定關鍵字，然後點按時間。
+
+每個上傳的轉換都有以下名稱：
+
+`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+其中，`<network_ID>`是Search、Social和Commerce用於廣告網路的數值ID，`<objective_ID>`是數值目標ID，而`<network_account_ID>`是廣告網路帳戶或管理員帳戶的數值ID。
+
+上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]的過程會在一天中進行，通常每小時一次。 對於擁有大型帳戶或自訂設定的廣告商，每天至少會進行三次上傳。
+
+>[!IMPORTANT]
+>
+>由[!DNL Google Ads]和[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤追蹤的轉換未重新上傳至廣告網路。 如果您將它們包含在目標中，則必須將它們新增至廣告網路編輯器中的行銷活動目標。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]** > **[!UICONTROL Objectives]**。
+
+1. 在工具列中按一下&#x200B;**[!UICONTROL Upload Objective]**。
+
+1. 在[!UICONTROL Objective Upload Setup]對話方塊中，將&#x200B;**[!UICONTROL Enable Objective Upload]**&#x200B;切換設定為&#x200B;**[!UICONTROL On]**。
+
+1. (有[!DNL Google Ads]帳戶在歐洲經濟區(EEA)或英國(UK)做生意的廣告商；選擇性)如果您已向EEA和英國使用者收集同意，以便上傳其資料作廣告用途，請選取核取方塊，確認已收集EEA/英國使用者同意。 這會將同意狀態以&#x200B;**[!UICONTROL GRANTED]**&#x200B;傳送至[!DNL Google Ads]和[!DNL Microsoft Advertising]。 如果未勾選，則同意狀態會以&#x200B;**[!UICONTROL UNSPECIFIED]**&#x200B;傳送。
+
+1. （如果是在管理員帳戶層級追蹤您的轉換） [在儲存之前為您的管理員帳戶新增認證](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+1. 確認每個名為`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目標在兩天內都出現在廣告網路上。
+
+   在[!DNL Google Ads]編輯器中，查詢您的[轉換動作](https://support.google.com/google-ads/answer/11461796){target="_blank"}。 在[!DNL Microsoft Advertising]編輯器中，查詢您的[轉換目標](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}。
+
+   如有必要，請更新日期範圍以包含上傳日期。
+
+## 如何計算加權目標
+
+傳遞給廣告網路的加權目標是所有收集量度值的總和，但[!DNL Google Ads]或[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤所追蹤的轉換除外。 此值是使用為廣告商的Search、Social和Commerce帳戶設定的歸因方法來計算。
+
+例如，假設目標的目標量度是權重為25的購物車新增次數，而您的協助量度包括權重為1的GGL_Lead和收入，以及權重為0.5的下載次數。
+
+![加權目標的範例](/help/search-social-commerce/assets/objective-example.png "加權目標的範例")
+
+假設關鍵字導致專案組合執行下列動作：
+
+* 10個購物車新增
+* 收入$500
+* 下載50次
+* 5 GGL_Lead
+
+GGL_Lead不會包含在計算/上傳中，因為這是Google的廣告追蹤量度。 因此，加權目標值的計算方式為((10 x 25) + (500 x 1) + (50 x 0.5)) = 775。
+
+>[!TIP]
+>
+>您可以在廣告網路的報表中檢視Adobe Advertising加權收入資料。 最佳做法是將加權收入與[!DNL Google Ads]「所有收入」進行比較。 (由conv. 時間)」量度或[!DNL Microsoft Advertising]量度「全部」 收入」，區段至O_ACS_OBJ*量度。
+
+## 疑難排解缺少的目標
+
+如果您的其中一個產品組合的目標 — 名為`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — 未出現在廣告網路上，請檢查下列專案：
+
+* ([!DNL Google Ads])檢查是否應將轉換上傳到帳戶或經理層級。 若應在管理員層級上傳：
+
+   * 檢查是否已提供[!DNL Google Ads]管理員帳戶的認證。 如有必要，[請為管理員帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)新增認證。
+
+   * 檢查廣告網路帳戶是否已包含相同的量度名稱。 如果是，請重新命名量度，以便建立正確的管理員層級屬性。
+
+* 檢查是否已選取產品組合的「混合」選項，以及目標是否具有有效的收入。
+
+>[!MORELIKETHIS]
+>
+>* [關於目標](objective-about.md)
+>* [管理和檢視廣告商轉換量度的績效資料](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [管理 [!DNL Google Ads] 管理員帳戶的認證](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+
+<!--
+I don't see this yet in new UI:
+>* [Upload Search, Social, & Commerce-tracked conversion metrics to [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+-->

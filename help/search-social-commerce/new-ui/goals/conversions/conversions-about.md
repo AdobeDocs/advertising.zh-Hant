@@ -1,15 +1,15 @@
 ---
-title: 管理轉換量度的可用功能
+title: （新UI）管理轉換量度的可用功能
 description: 瞭解可用於管理轉換量度的不同功能。
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# 管理轉換量度的可用功能
+# （新UI）管理轉換量度的可用功能
 
 您可以從[!UICONTROL Goals] > [!UICONTROL Conversions]檢視執行下列動作：
 
