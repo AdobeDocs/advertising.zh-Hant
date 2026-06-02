@@ -3,9 +3,12 @@ title: （新UI）變更廣告狀態
 description: 瞭解如何在不開啟廣告設定的情況下變更廣告狀態。
 feature: Search Campaign Management
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
 source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
 source-wordcount: 185
@@ -47,5 +50,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新UI）關於[!UICONTROL Ads]檢視](ad-view-about.md)
+>* [&#x200B; （新UI）關於[!UICONTROL Ads]檢視](ad-view-about.md)
 >* [（新UI）從[!UICONTROL Ads]檢視管理資料檢視報告](ad-view-report.md)
