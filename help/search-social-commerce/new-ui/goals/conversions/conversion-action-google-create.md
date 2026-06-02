@@ -2,8 +2,11 @@
 title: （新UI）為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作
 description: 瞭解如何為潛在客戶的增強型轉換建立 [!DNL Google Ads] 轉換動作。
 feature: Conversions
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
 source-git-commit: 0bfee2b52410b5cab8e9b3dfba35effc36fc40e1
 workflow-type: tm+mt
 source-wordcount: 510
