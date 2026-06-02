@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 2%
          + [目標設定](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [啟用上傳目標至廣告網路](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + 轉換 {#conversions}
+         + [管理轉換量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [產生和實作Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [管理和檢視廣告商轉換量度的績效資料](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + 增強型轉換 {#enhanced-conversions}
+            + [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [上傳離線轉換資料以增強轉換](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 轉換值規則](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 計畫 {#plan}
       + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
