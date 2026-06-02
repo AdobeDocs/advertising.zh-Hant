@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: 瞭解預測準確度報表，包括資料欄。
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* 對於成本預測，過去七天10%的偏差被認為是可接受的，因此預測支出的90%到110%之間的實際支出是正常的。 對於收入預測，過去七天中的15%偏差被認為是可接受的，因此預測支出的85%到115%之間的實際收入是正常的。 應該調查偏差較大的預測。
 >
->* 當產品組合中的關鍵字與競標轉換限制相關聯時，產品組合因競標轉換導致的總金額超支或少支。 因此，預測成本欄會隨著支出的增加或減少而偏離目標支出。
+>* 當投資組合中的關鍵字與[競標轉換限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)相關聯時，投資組合因競標轉換而超支或超支的總額即為專案。 因此，預測成本欄會隨著支出的增加或減少而偏離目標支出。
 
 ## 可用欄
 

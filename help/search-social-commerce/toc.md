@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: 2354
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 2%
             + [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [上傳離線轉換資料以增強轉換](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 轉換值規則](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+      + [管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 計畫 {#plan}
       + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [執行或重新執行自訂模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)

@@ -2,9 +2,9 @@
 title: 管理搜尋競標單位的限制
 description: 瞭解限制條件，以限制舊式關鍵字層級產品組合中CPC促銷活動競標單位的競標。
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 混合產品組合、作用中產品組合或不在產品組合中的競標單位會忽略它們。 **提示：**&#x200B;在產品組合設定中，開啟產品組合選項以「自動調整行銷活動預算限制」。 建議的「多個」值為「1」。
-> * 若競標單位的資料不足，無法產生成本和收入模型，則會忽略競標限制。
+>* 若競標單位的資料不足，無法產生成本和收入模型，則會忽略競標限制。
 >* （具有CPC或eCPC競標策略的行銷活動）當競標限制與產品組合層級競標限制衝突時，該限制會覆寫產品組合層級限制。 例如，如果產品組合的最低出價是5美元，但您限制產品組合中的出價單位為最低出價3美元，則出價單位將出價為3美元或更高。 不過，限制競標單位的整體支出是由產品組合的[「在限制周圍支出」引數](#spend-around-constraints)所決定。
 >* 限制會根據基本競標運作。 對基本競標進行的任何競標調整型別（例如提高行動裝置上一般使用者的競標）都可將競標移到限制允許範圍之外。 例如，如果限制需要最大CPC為6美元，則基礎競標已經是6美元，而產品組合會自動最佳化行動裝置50%-60%的競標調整，則最大CPC為9.00-9.60美元，而不是6美元。
 
@@ -172,19 +172,18 @@ ht-degree: 0%
 
 ## 將限制指派給搜尋競標單位 {#constraint-assign}
 
-您可以將競標單位限制套用至任何促銷活動、廣告群組、關鍵字、位置、單位層級的購物產品群組（最低層級的細分）或動態搜尋目標。
+您可以將競標單位限制套用至任何促銷活動、廣告群組、關鍵字、位置或動態搜尋目標（自動鎖定目標）。
 
 每個圖元只能有一個限制。 您可以同時將單一限制指定給一或多個圖元。
 
 >[!NOTE]
 >
->如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
+>* 如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 從主功能表，開啟相關的管理檢視。
 
    例如，若要指派行銷活動層級的限制，請移至[!UICONTROL Manage] > [!UICONTROL Campaigns]。
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
@@ -198,7 +197,10 @@ ht-degree: 0%
 
 ## 從搜尋競標單位取消指派限制 {#constraints-unassign}
 
-**注意：**&#x200B;若要刪除限制，使其無法供日後使用，請參閱[變更限制的狀態](#constraint-change-status)。
+>[!NOTE]
+>
+>* 若要刪除限制，使其無法供未來使用，請參閱[變更限制的狀態](#constraint-change-status)。
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 在主功能表中，開啟相關的管理檢視。
 
