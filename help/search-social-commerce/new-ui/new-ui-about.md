@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: 208
 ht-degree: 0%
 
 ---
 
 # 關於新的使用者介面
 
-您現在可以從新的使用者介面(UI)管理目標、模擬和產品組合，以及執行許多其他工作。 新的搜尋、社交和Commerce UI會在`https://experience.adobe.com`網域內的新URL中執行。
+您現在可以從新的使用者介面(UI)管理您的目標、模擬和產品組合，以及執行大多數其他關鍵工作。 新的搜尋、社交和Commerce UI會在`https://experience.adobe.com`網域內的新URL中執行。
 
 一段時間後，剩餘的功能將新增到新UI。 同時，您可以從新UI的主功能表開啟舊版UI中的大部分功能。 您也可以輕鬆地在新版UI和舊版UI之間切換。
 

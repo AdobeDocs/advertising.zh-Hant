@@ -1,5 +1,5 @@
 ---
-title: 復寫 [!DNL Google Ads] 中的 [!DNL Microsoft Advertising]個行銷活動
+title: 復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活動
 description: 瞭解如何將a [!DNL Google Ads] 帳戶中同步的行銷活動直接匯出至同步的 [!DNL Microsoft Advertising] 帳戶。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
@@ -8,14 +8,18 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 0%
 
 ---
 
-# 復寫[!DNL Google Ads]中的[!DNL Microsoft Advertising]個行銷活動
+# 復寫[!DNL Microsoft Advertising]中的[!DNL Google Ads]個行銷活動
+
+>[!NOTE]
+>
+>您可以在「（新UI） [複製 [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)中的 [!DNL Google Ads] 行銷活動」中，取得新UI中此工作的指示。
 
 您可以將[!DNL Google Ads]帳戶中同步的行銷活動直接匯出到同步的[!DNL Microsoft Advertising]帳戶，做為增強型CPC (eCPC)行銷活動。 現有競標和行銷活動預算已縮放。 現有的搜尋、社交和Commerce追蹤不會匯入。
 
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在[&#x200B; [!DNL Google Merchant Center] 中復寫您的 [!DNL Microsoft Merchant Center]產品選件。 &#x200B;](https://help.ads.microsoft.com/apex/index/3/en/56870)復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center][&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)匯入的專案。
 
