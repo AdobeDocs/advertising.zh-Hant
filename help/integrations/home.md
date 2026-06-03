@@ -1,6 +1,6 @@
 ---
 title: 新增功能
-description: 瞭解Adobe Advertising與Adobe CX Enterprise （前身為Adobe Experience Cloud）中其他產品和服務之間整合的更新。
+description: 瞭解Adobe Advertising與Adobe CX企業版（前身為Adobe Experience Cloud）中其他產品和服務整合的更新。
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 962
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2025年9月8日 | 與Customer Journey Analytics整合 | （Beta功能）具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商現在可以使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
 | 2025年3月26日 | [!DNL Adobe Analytics for Advertising] | （具有Search、Social和Commerce的廣告商； [!DNL Microsoft Advertising]帳戶；以及[!DNL Adobe Analytics for Advertising]）對於具有[!UICONTROL Auto Upload]追蹤選項的帳戶，所有行銷活動型別的登陸頁面尾碼中的AMO ID引數格式已更新為最新格式。 之前，大部分帳戶的效能最高行銷活動已移轉到新格式。<br><br>對於沒有[!UICONTROL Auto Upload]追蹤選項的帳戶，尚未移轉到新格式，但是您必須手動更新每個登入頁面尾碼，以包含新的AMO ID格式。<br><br>目前格式： `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 請參閱「[總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」和[AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
 | 2024年11月13日 | [!DNL Analytics for Advertising] | （具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的廣告商）如果您使用保留變數來擷取AMO ID和EF ID，那麼您可以透過儘快將您為AMO ID和EF ID保留的變數複製到標準[!DNL eVars]中，為Adobe Advertising和Adobe Customer Journey Analytics之間的未來整合做好準備。 這樣一來，當您完成工作時，即可立即收集AMO ID和EF ID的歷史資料，且這些歷史資料可供日後使用。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。 | 請參閱&quot;[收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)&quot;。 |

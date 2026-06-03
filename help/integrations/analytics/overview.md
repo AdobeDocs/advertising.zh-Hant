@@ -18,16 +18,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1310
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics for Advertising]的概觀
 
-*使用Advertising Creative、Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
+*使用Advertising Creative、Advertising DSP和Advertising Search、Social和Commerce的廣告商*
 
 [!DNL Analytics for Advertising]整合Adobe Analytics和Adobe Advertising以擴充和增強每個產品的功能。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 * 在[!DNL Analytics]內使用永續性Adobe Advertising檢視和點進ID來瞭解網站參與情形。
 * 利用Analysis Workspace深入瞭解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，其中包括Adobe Advertising行銷活動實體名稱（包括版位和廣告）及其相關量度，例如點按數、曝光數和成本。
 
-若要使用[!DNL Analytics]作為您的付費媒體報告工具，您的組織需要Adobe CX Enterprise （前身為Adobe Experience Cloud）登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝以及尚未對應的報表套裝。 依報表套裝而定，這可能會變更報告的資料。
+若要使用[!DNL Analytics]作為付費媒體報表工具，您的組織需要Adobe CX Enterprise （前身為Adobe Experience Cloud）登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝以及尚未對應的報表套裝。 依報表套裝而定，這可能會變更報告的資料。
 
  [!DNL Analytics][&#128279;](ids.md)內的Adobe Advertising ID與其他[!DNL eVars]一樣運作，具有自訂、永久的有效期。 在Adobe Advertising實作期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
@@ -76,48 +76,48 @@ Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO I
    * 標準量度，例如[!UICONTROL Revenue]和[!UICONTROL Cart Views]。
    * 網站參與量度，例如頁面檢視和造訪量度。
    * 自訂收入量度。
-   * reserved revenue metrics.
-* Segments created in [!DNL Analytics] and published to CX Enterprise.
+   * 保留的收入量度。
+* 在[!DNL Analytics]中建立並發佈至CX Enterprise的區段。
 
-  You can use [!DNL Analytics] segments for first-party site retargeting in [!DNL DSP], [!DNL Creative], and paid search advertisements.
+  您可以在[!DNL DSP]、[!DNL Creative]和付費搜尋廣告中使用[!DNL Analytics]區段進行第一方網站重新目標定位。
 
-  ([!DNL Search, Social, & Commerce] only) Advertisers with [!DNL Analytics] but not Audience Manager can also create Google website tag-based audiences (remarketing lists) and customer match audiences (customer lists) from [!DNL Analytics] segments that are shared with CX Enterprise.
+  （僅限[!DNL Search, Social, & Commerce]）具有[!DNL Analytics]但不具有Audience Manager的廣告商也可以從與CX Enterprise共用的[!DNL Analytics]區段中，建立Google網站標籤型對象（再行銷清單）和客戶比對對象（客戶清單）。
 
-### Site conversion metrics as bid signals
+### 網站轉換量度做為競標訊號
 
-You can use your standard events and custom events from [!DNL Analytics] to build weighted objectives in Adobe Advertising. Objectives inform bidding decisions for your [!DNL DSP] packages and Search, Social, &amp; Commerce portfolios.
+您可以使用來自[!DNL Analytics]的標準事件和自訂事件，在Adobe Advertising中建立加權目標。 目標為您的[!DNL DSP]套件和搜尋、社交和Commerce產品組合的競標決定提供資訊。
 
-For [!DNL Google Ads] and [!DNL Google Microsoft Advertising] campaigns in Search, Social, &amp; Commerce hybrid portfolios, you can optionally upload the objectives — including any [!DNL Analytics] events in the objectives — directly to the ad networks, where they become available as conversion actions for account-level and campaign-level custom conversion goals.
+對於搜尋、Social和Commerce混合專案組合中的[!DNL Google Ads]和[!DNL Google Microsoft Advertising]行銷活動，您可以選擇將目標（包括目標中的任何[!DNL Analytics]事件）直接上傳到廣告網路，以便作為帳戶層級和行銷活動層級自訂轉換目標的轉換動作使用。
 
 >[!NOTE]
 >
-> You can&#39;t map calculated metrics from [!DNL Analytics] into Adobe Advertising.
+> 您無法將[!DNL Analytics]的計算量度對應至Adobe Advertising。
 
-Your Adobe Advertising team will help you to identify and map the events that are applicable to paid media performance into Adobe Advertising.
+您的Adobe Advertising團隊將協助您識別適用於付費媒體效能的事件，並將其對應至Adobe Advertising。
 
-See &quot;[Analytics Metrics in Adobe Advertising](analytics-data-in-advertising.md)&quot; for a list of available metrics.
+如需可用量度的清單，請參閱&quot;[Adobe Advertising中的Analytics量度](analytics-data-in-advertising.md)&quot;。
 
-### Analytics segments for site retargeting
+### 網站重新目標定位的Analytics區段
 
-Adobe Advertising can ingest [!DNL Analytics] segments for remarketing purposes for [!DNL Creative], [!DNL DSP], and [!DNL Search, Social, & Commerce] ads using the native CX Enterprise Audiences integration between [!DNL Analytics] and CX Enterprise.
+Adobe Advertising可以使用[!DNL Analytics]與CX Enterprise之間的原生CX Enterprise Audiences整合，為[!DNL Creative]、[!DNL DSP]和[!DNL Search, Social, & Commerce]個廣告擷取[!DNL Analytics]個區段，以用於再行銷目的。
 
-To access the [!DNL Analytics] segments, an advertiser account must enable the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant). When the ID Service is enabled, all CX Enterprise segments become available within Adobe Advertising as soon as they are processed. CX Enterprise segments include segments created in [!DNL Analytics] and published to CX Enterprise, segments created in Adobe Audience Manager, segments created in CX Enterprise using the [!DNL People core service], and segments created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager.
+若要存取[!DNL Analytics]區段，廣告商帳戶必須啟用[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 ID服務啟用後，所有CX Enterprise區段一經處理即可在Adobe Advertising中使用。 CX Enterprise區段包含在[!DNL Analytics]中建立並發佈至CX Enterprise的區段、在Adobe Audience Manager中建立的區段、在CX Enterprise中使用[!DNL People core service]建立的區段，以及在Adobe Experience Platform中建立並透過Audience Manager傳送至Adobe Advertising的區段。
 
-[!DNL Analytics] segments are available within 24 hours and are updated daily.
+[!DNL Analytics]區段可在24小時內提供並每日更新。
 
-For more information about the CX Enterprise Audiences service, see [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant).
+如需CX Enterprise Audiences服務的詳細資訊，請參閱[CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。
 
-## Examples of how to use the integration {#integration-examples}
+## 如何使用整合的範例 {#integration-examples}
 
-### Using Adobe Advertising data in Analysis Workspace
+### 在Analysis Workspace中使用Adobe Advertising資料
 
-To learn how you can use your Adobe Advertising data to create visual reports in Analysis Workspace, see the video &quot;[Introduction to Workspace and Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant).&quot;
+若要瞭解如何使用Adobe Advertising資料在Analysis Workspace中建立視覺化報表，請參閱影片「[Workspace和報表簡介](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant)」。
 
-#### Using connected TV view-through conversions in reports
+#### 在報表中使用連線電視觀看轉換
 
-*Advertising DSP users only*
+*僅限Advertising DSP使用者*
 
-You can measure the full-funnel effectiveness of your connected TV (CTV) campaigns by linking ad exposure on CTV devices to on-site conversions. The new [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; splits conversions into separate rows for [!UICONTROL Click Through], [!UICONTROL View Through], and [!UICONTROL View Through (CTV)] values.
+您可以將CTV裝置上的廣告曝光度連結至站上轉換，藉此衡量連線電視(CTV)促銷活動的完整funnel成效。 新的[!UICONTROL Landing Type]篩選器&quot;[!UICONTROL View-through (CTV)]&quot;會針對[!UICONTROL Click Through]、[!UICONTROL View Through]和[!UICONTROL View Through (CTV)]值將轉換分割為個別的列。
 
 若要檢視您的CTV觀看轉換量度，請使用Analysis Workspace中的「位置」檢視或「行銷管道」檢視。
 
@@ -165,4 +165,4 @@ You can measure the full-funnel effectiveness of your connected TV (CTV) campaig
 >* 適用於Advertising的Analytics的[JavaScript程式碼](/help/integrations/analytics/javascript.md)
 >* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
 >* Analysis Workspace中的[Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Data in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* Adobe Advertising中的[[!DNL Analytics] 資料](/help/integrations/analytics/analytics-data-in-advertising.md)

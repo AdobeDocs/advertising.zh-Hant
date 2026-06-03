@@ -18,16 +18,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # 實作[!DNL Analytics for Advertising]的先決條件和關鍵資訊
 
-*使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
+*使用Advertising Creative、Advertising DSP和Advertising Search、Social和Commerce的廣告商*
 
 在將Adobe Advertising與Adobe Analytics整合之前，請先檢閱下列資訊。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 * 下列其中一項：
    * Adobe Experience Platform Web SDK： `alloy.js`
-   * Experience Cloud Identity服務： `visitorAPI.js` 2.0版或更新版本
+   * Experience Cloud Identity Service： `visitorAPI.js` 2.0版或更新版本
 * 任何版本的Adobe Analytics （包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
 * Adobe Analytics： `appMeasurement.js`版本2.1或更新版本
 * （Advertising DSP客戶）已在您的網頁中部署[Advertising DSP JavaScript程式碼片段](javascript.md)，以追蹤瀏覽次數。
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 與Adobe Advertising共用Analytics區段的要求
 
-* Experience Cloud Identity Service： `visitorAPI.js`版本2.1或更新版本
+* Experience Cloud Identity Service： `visitorAPI.js` 2.1版或更新版本
 * Adobe Analytics： `appMeasurement.js` 1.8版或更新版本
 
 ## 在Adobe Advertising中報告[!DNL Analytics]資料的需求

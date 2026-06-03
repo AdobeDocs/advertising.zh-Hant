@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 7340
+source-wordcount: 7432
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2026年5月20日 | 第一方對象來源，通用ID，[!UICONTROL Placements] | 澳洲的廣告商現在可以為目標廣告匯入[!DNL AdFixus]個具有區段對應的通用ID。 DSP會依原樣從[!DNL AdFixus]匯入第一方區段，而不會將其轉換為其他ID型別。 程式包括建立對象來源及與您的[!DNL AdFixus]團隊共用自動產生的金鑰。 | 請參閱&quot;[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段&quot;、&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;和&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)&quot;。 |
 | 2026年5月11日 | 可重複使用[!UICONTROL Audiences] | （Beta功能）您現在可以使用AI輔助的對象代理程式來建立可重複使用的對象。 以自然語言提示描述您的目標對象，而代理程式會建議協力廠商區段，並建立對象運算式以作為目標或排除專案。 | 請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
 | 2026年4月29日 | [!UICONTROL Conversions] | 您現在可以在DSP中管理Adobe Advertising為貴組織追蹤的所有轉換量度。 這些量度仍可在Advertising Search、Social和Commerce中使用，以便用於其中的報告和最佳化。 | 請參閱[管理轉換](/help/dsp/admin/conversion-metrics-manage.md)。 |
@@ -78,7 +79,7 @@ ht-degree: 0%
 | 2025年4月24日 | 效能[!UICONTROL Insights] | （Beta功能）透過視覺效果提供高階效能深入分析，為您提供有效最佳化行銷活動並發現提升效能新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2025年3月26日 | 登入 | DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]，從CX Enterprise登入頁面或舊版DSP登入頁面登入[!DNL Adobe]產品。 您目前的DSP憑證將會保留90天的有效狀態，以便您為變更做好準備。 | 請參閱[登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>如需有關CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱[CX Enterprise介面和管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。 |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 現在提供下列大量編輯功能：<ul><li>您可以直接編輯並重新上傳包含行銷活動套件、版位和廣告設定的行銷活動層級試算表。 之前，您必須下載範本檔案並手動輸入變更以上傳。</li><li>在整個[!UICONTROL Campaigns]檢視中，這些檔案現在稱為「*bulksheets*」，而不是「QA工作表」，而且您選取「[!UICONTROL Download Bulksheet]」和「[!UICONTROL Upload Bulksheet]」的選項。</li><li>大部分的版位設定現在都可在大量表單中使用。</li></ul> | 請參閱[使用Bulksheets檢閱和編輯行銷活動元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)。<br><br>另請參閱[使用Bulksheets檢閱和編輯套件設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
-| 2025年3月10日發行 | 隱私權 | 透過[!DNL Adobe's]與數位Advertising聯盟(DAA)的合作關係，您的一般使用者現在可以選擇退出所有仰賴「Adobe Marketing Cloud - Advertising服務」（Adobe CX Enterprise的舊稱，亦即先前的Adobe Experience Cloud，其中包含DSP + Audience Manager Cookie）之雜湊電子郵件地址的行為鎖定目標。 之前，DSP僅支援以Cookie為基礎的選擇退出。<br><br>當一般使用者選擇退出行為鎖定目標時，DSP會擷取一般使用者的Cookie、行動ID或雜湊電子郵件地址（DSP可能會將其與[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]相關聯）。 接著，只要一般使用者保留其選擇退出Cookie （有效期5年），DSP就會排除該一般使用者廣告曝光數的行為鎖定目標。<br><br>您的一般使用者可以： a\)從[https://optout.aboutads.info](https://optout.aboutads.info)選擇退出其瀏覽器上的廣告，或b\)選擇退出其瀏覽器、應用程式上的廣告，或使用[https://youradchoices.com/control](https://youradchoices.com/control)的Token識別碼。<br><br>廣告商不需要任何工作。 | 請參閱&quot;[Adobe隱私權政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
+| 2025年3月10日發行 | 隱私權 | 透過[!DNL Adobe's]與數位Advertising聯盟(DAA)的合作關係，您的一般使用者現在可以選擇退出所有仰賴「Adobe Marketing Cloud - Advertising服務」（Adobe CX Enterprise的舊稱，亦先前稱為Adobe Experience Cloud，包括DSP + Audience Manager Cookie）之雜湊電子郵件地址的行為鎖定目標。 之前，DSP僅支援以Cookie為基礎的選擇退出。<br><br>當一般使用者選擇退出行為鎖定目標時，DSP會擷取一般使用者的Cookie、行動ID或雜湊電子郵件地址（DSP可能會將其與[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]相關聯）。 接著，只要一般使用者保留其選擇退出Cookie （有效期5年），DSP就會排除該一般使用者廣告曝光數的行為鎖定目標。<br><br>您的一般使用者可以： a\)從[https://optout.aboutads.info](https://optout.aboutads.info)選擇退出其瀏覽器上的廣告，或b\)選擇退出其瀏覽器、應用程式上的廣告，或使用[https://youradchoices.com/control](https://youradchoices.com/control)的Token識別碼。<br><br>廣告商不需要任何工作。 | 請參閱&quot;[Adobe隱私權政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
 |  | 對象目標定位 | DSP已改善將連線電視ID和行動廣告ID對應至對應的雜湊IP位址和Cookie ID，以針對各種數位接觸點提供更具影響力的效能鎖定目標。 | — |
 | 2025年2月3日 | [!UICONTROL Packages] | 對於具有[!UICONTROL Highest Return on Ad Spend]和[!UICONTROL Lowest Cost per Acquisition]最佳化目標的套件，現在需要[!UICONTROL Conversion Metric]設定。 以前是選擇性的。<br><br> [!UICONTROL Conversion Metric]是最終轉換事件（例如註冊）或收入事件/銷售金額（例如購買和購買值），用於計算廣告支出回報或每次購買成本。 | 請參閱&quot;[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)&quot;。 |
 | 2024年12月12日 | [!UICONTROL Placements]，品牌安全 | 您現在可以在位置層級鎖定[!DNL DoubleVerify Authentic Brand Suitability]區段ID。 之前，您只能在廣告商層級鎖定這些使用者。<br><br>根據預設，如果在廣告商帳戶設定中指定了區段ID，則會在位置設定中輸入廣告商層級ID，但您可以將ID變更為使用其他區段，或刪除該ID以停用此功能。<br><br>在廣告商層級的設定中，已移除啟用功能的選項；現在指定區段ID即可啟用功能。 如果其中一個現有廣告商停用該功能，區段ID欄位現在會空白。 不需要使用者採取任何動作。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
