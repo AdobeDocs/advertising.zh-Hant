@@ -2,10 +2,9 @@
 title: （新UI）在Microsoft Advertising中複製Google Ads行銷活動
 description: 瞭解如何將Google Ads帳戶中同步的行銷活動直接匯出至同步的Microsoft Advertising帳戶。
 feature: Search Campaign Management
-exl-id: d4f8e452-7b3d-4a1f-9c3e-6b8d2e5a4917
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: e6649d66757333660662a058410221b73a45e6cc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -42,27 +41,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Import Campaigns]**。
 
-1. 指定[匯入設定](#campaign-import-settings)：
+1. 指定[匯入設定](#campaign-import-settings)。
 
-   1. 在&#x200B;**[!UICONTROL Select accounts]**&#x200B;步驟中：
-
-      1. 在&#x200B;**[!UICONTROL Import Name]**&#x200B;欄位中輸入匯入工作的名稱。
-
-      1. 選取來源[!DNL Google Ads]帳戶和目標[!DNL Microsoft Advertising]帳戶。
-
-      1. 輸入您的&#x200B;**[!UICONTROL Credential ID]**。 如果您沒有認證ID，請連絡您的Adobe帳戶團隊 — 因為[!DNL Microsoft Advertising]限制，無法自動產生。
-
-      1. 按一下&#x200B;**[!UICONTROL Next]**。
-
-   1. 在&#x200B;**[!UICONTROL Select campaigns & ad groups]**&#x200B;步驟中，指定要匯入的行銷活動和廣告群組，然後按一下&#x200B;**[!UICONTROL Next]**。
-
-   1. 在&#x200B;**[!UICONTROL Customize your import]**&#x200B;步驟中，選擇性地指定要匯入的專案型別、競標與預算設定，以及其他選項，然後按一下&#x200B;**[!UICONTROL Next]**。
-
-   1. 在&#x200B;**[!UICONTROL Set schedule]**&#x200B;步驟中，指定何時執行匯入工作以及如何接收通知。
+1. 按一下右上角的&#x200B;**[!UICONTROL Review and Save]**。
 
 1. 檢閱摘要中的選取專案，然後按一下&#x200B;**[!UICONTROL Start Import]**。
 
-1. （選用）在[帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
+1. （選用）在[帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
 
 ## 編輯行銷活動匯入工作的排程設定
 
@@ -70,9 +55,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
-1. 按一下「**[!UICONTROL Jobs]**」標籤。
-
-1. 按一下匯入工作的名稱，然後按一下&#x200B;**[!UICONTROL Edit]**。
+1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤上，按一下匯入工作的名稱，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;**[!UICONTROL Set schedule]**&#x200B;步驟中，指定[排程設定](#campaign-import-settings)。
 
@@ -84,15 +67,13 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
-   依預設，檢視會開啟至&#x200B;**[!UICONTROL Jobs]**&#x200B;標籤。
+   依預設，檢視會開啟至&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;標籤。
 
 ## 執行行銷活動匯入工作
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
-1. 按一下「**[!UICONTROL Jobs]**」標籤。
-
-1. 選取匯入工作旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Run Now]**。
+1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤上，選取匯入工作旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Run Now]**。
 
 ## 檢視行銷活動匯入工作的記錄 {#campaign-import-log}
 
@@ -100,13 +81,13 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
 
-1. 按一下「**[!UICONTROL Logs]**」標籤。
+1. 按一下「**[!UICONTROL Import Logs]**」標籤。
 
 1. （選擇性）若要檢視任何匯入工作的詳細資料，請按一下[!UICONTROL Summary]欄中的值。
 
 ## 行銷活動匯入工作設定 {#campaign-import-settings}
 
-### [!UICONTROL Select accounts]
+### [!UICONTROL Select Accounts]索引標籤
 
 **[!UICONTROL Import Name]：**&#x200B;識別匯入工作的名稱。
 
@@ -116,7 +97,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]：** [!DNL Microsoft Advertising]用來代表您[!DNL Google Ads]認證的ID。 因為[!DNL Microsoft Advertising]限制，無法自動產生匯入的[!DNL Microsoft Advertising]認證。 請聯絡您的Adobe帳戶團隊，他們將會產生認證並提供ID。
 
-### [!UICONTROL Select campaigns & ad groups]
+### [!UICONTROL Select Campaigns & Ad Groups]索引標籤
 
 **\[要匯入的資料\]：**&#x200B;要匯入的資料：
 
@@ -128,9 +109,9 @@ ht-degree: 0%
 
    * 若要選取行銷活動或廣告群組，請選取專案以顯示核取記號。
 
-   * 若要移除行銷活動或廣告群組，請取消選取專案或按一下[!UICONTROL Selected]欄中的刪除圖示。
+   * 若要移除行銷活動或廣告群組，請取消選取專案或按一下[!UICONTROL Selection]欄中的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
 
-### [!UICONTROL Customize your import]
+### [!UICONTROL Customize Your Import]索引標籤
 
 **[!UICONTROL Choose specific import options]：**&#x200B;可讓您指定要匯入的專案、競標和預算，以及其他選項。
 
@@ -140,7 +121,7 @@ ht-degree: 0%
 
 **[!UICONTROL Other options]：**&#x200B;定義如何處理匯入的登陸頁面URL、追蹤範本，以及其他行銷活動、廣告和目標選項，包括尋找和取代文字及插入尾碼的選項。
 
-### [!UICONTROL Set schedule]
+### [!UICONTROL Set Schedule]索引標籤
 
 **[!UICONTROL When]：**&#x200B;何時匯入指定的行銷活動： *自動* （讓[!DNL Microsoft Advertising]設定排程以最佳方式最佳化您的行銷活動）、*[!UICONTROL Now]* （在您張貼工作設定時執行工作）、*[!UICONTROL Once]*&#x200B;在指定時間、*[!UICONTROL Daily]*&#x200B;在指定時間、*[!UICONTROL Weekly]*&#x200B;在指定時間，或是&#x200B;*[!UICONTROL Monthly]*&#x200B;在指定時間。
 
