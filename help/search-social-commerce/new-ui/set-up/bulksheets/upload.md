@@ -2,10 +2,15 @@
 title: （新UI）上傳大量表單或已修正的錯誤檔案
 description: 瞭解如何在新的Search、Social和Commerce UI中手動上傳大量表單檔案或已修正登陸頁面驗證錯誤檔案。
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
 workflow-type: tm+mt
 source-wordcount: 830
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Upload]**。
 
-當工作開始時，檔案會列在[!UICONTROL Bulksheets]檢視中。 在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中[啟用Bulksheets的電子郵件通知時，當工作完成時，會傳送包含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果檔案產生失敗，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
+當工作開始時，檔案會列在[!UICONTROL Bulksheets]檢視中。 在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中啟用Bulksheets的電子郵件通知時，當工作完成時，會傳送包含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果檔案產生失敗，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
 
 >[!NOTE]
 >
@@ -48,6 +53,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
->* [ （新UI）下載/建立Bulksheet檔案](download.md)
->* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [&#x200B; （新UI）下載/建立Bulksheet檔案](download.md)
+>* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)

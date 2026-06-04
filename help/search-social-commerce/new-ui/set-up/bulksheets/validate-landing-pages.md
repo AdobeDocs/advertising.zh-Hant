@@ -2,10 +2,15 @@
 title: （新UI）驗證Bulksheet檔案中的登入頁面
 description: 瞭解如何在新的Search、Social和Commerce UI中，驗證單一帳戶大量表單檔案中的目的地URL。
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
 workflow-type: tm+mt
 source-wordcount: 585
@@ -52,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]：**&#x200B;當登入頁面重新導向至其他頁面時（例如，如果登入頁面遺失且網站顯示替代頁面），登入頁面錯誤檔案中的[!UICONTROL EF Errors]欄會指出登入頁面重新導向的URL。
 
-工作開始時，新資料列會新增至[!UICONTROL Bulksheets]檢視。 在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中[啟用Bulksheets的電子郵件通知時，會在建立檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 您可以下載檔案進行編輯，然後重新上傳以進行張貼，或者您可以依原樣張貼檔案。
+工作開始時，新資料列會新增至[!UICONTROL Bulksheets]檢視。 在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中啟用Bulksheets的電子郵件通知時，會在建立檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 您可以下載檔案進行編輯，然後重新上傳以進行張貼，或者您可以依原樣張貼檔案。
 
 >[!NOTE]
 >
@@ -63,6 +68,6 @@ ht-degree: 0%
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
->* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）刪除已上傳的大量工作表和錯誤檔案](delete.md)
 >* [（新UI）停止進行中的大量表單工作](stop-job.md)
