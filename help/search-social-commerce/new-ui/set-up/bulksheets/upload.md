@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Upload]**。
 
-當工作開始時，檔案會列在[!UICONTROL Bulksheets]檢視中。 在[!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md)中啟用Bulksheets的電子郵件通知時，當工作完成時，會傳送包含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果檔案產生失敗，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
+當工作開始時，檔案會列在[!UICONTROL Bulksheets]檢視中。 在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中啟用Bulksheets的電子郵件通知時，當工作完成時，會傳送包含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果檔案產生失敗，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
 
 >[!NOTE]
 >
