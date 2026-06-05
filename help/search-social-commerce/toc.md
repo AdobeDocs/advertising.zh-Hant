@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 2416
+source-wordcount: 2412
 ht-degree: 2%
 
 ---
@@ -93,17 +93,18 @@ ht-degree: 2%
       + 轉換 {#conversions}
          + [管理轉換量度的可用功能](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
          + [產生和實作Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-         + [管理和檢視廣告商轉換量度的績效資料](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + [管理廣告商的轉換量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
          + 增強型轉換 {#enhanced-conversions}
             + [為潛在客戶的 [!DNL Google Ads] 增強型轉換建立轉換動作](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [上傳離線轉換資料以增強轉換](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [管理 [!DNL Google Ads] 轉換值規則](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
       + [管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 計畫 {#plan}
-      + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [執行或重新執行自訂模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [檢視模擬詳細資料](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [下載模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + 模擬 {#simulations}
+         + [關於模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [執行或重新執行自訂模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [檢視模擬詳細資料](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+         + [下載模擬](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [使用[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + 管理 {#manage}
       + 產品組合 {#portfolios}

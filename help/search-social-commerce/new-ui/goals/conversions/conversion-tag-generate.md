@@ -2,9 +2,9 @@
 title: （新UI）產生並實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 為您要追蹤的每組量度建立個別的轉換標籤。 您可以在「搜尋」、「社交」和「Commerce」中產生標籤，或將Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤與Adobe Advertising擴充功能搭配使用。
 
-## 在Search、Social和Commerce中產生並實作轉換追蹤標籤
+## 在搜尋、社交和Commerce中產生轉換追蹤標籤
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**SSC UserID**&#x200B;欄位中，輸入您組織的Search、Social和Commerce帳戶的數位使用者ID。
 
-      如果您不知道使用者ID，請聯絡您的Adobe帳戶團隊。
+      如果您不知道使用者ID，請連絡您的Adobe帳戶團隊。
 
    1. 按一下&#x200B;**儲存**。
 

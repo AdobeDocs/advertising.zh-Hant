@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 新使用者應該執行下列初始設定工作：
 
-* 讓Adobe Advertising追蹤的廣告商轉換量度可用於報告和其他檢視，並可選擇重新命名欄標題中顯示的任何轉換量度，以方便閱讀。 請參閱&quot;[管理和檢視廣告商的轉換量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)的績效資料。&quot;
+* 讓Adobe Advertising追蹤的廣告商轉換量度可用於報告和其他檢視，並可選擇重新命名欄標題中顯示的任何轉換量度，以方便閱讀。 請參閱&quot;[管理廣告商的轉換量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;。
 
   除非您特別指定使用交易屬性，否則報表無法使用這些屬性。
 

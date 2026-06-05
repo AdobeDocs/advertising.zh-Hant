@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# （新UI）管理和檢視廣告商轉換量度的績效資料
+# （新UI）管理廣告商的轉換量度
 
 *Beta功能*
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
       1. （若要隱藏量度）在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以隱藏量度，包括從包含量度的任何衍生量度中移除量度。
 
-## 管理轉換的效能資料報表
+## 管理轉換可見度和來源報告
 
 您可以下載下列有關追蹤的轉換的資訊：同步的量度名稱，「搜尋」、「社交」和「Commerce」管理檢視與報表中量度的顯示名稱，量度是否顯示在管理檢視與報表中，轉換ID以及量度來源。 將資料下載至[!DNL Microsoft Excel]活頁簿（XLSX檔案）格式的檔案。
 
