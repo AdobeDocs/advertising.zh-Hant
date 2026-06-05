@@ -12,9 +12,9 @@ subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a33b121ebf568ae6b95a64a7392672d74603fe60
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: 356
 ht-degree: 0%
 
 ---
@@ -45,7 +45,8 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | 插槽內暫留時間：21x21；插槽內暫留時間行動視訊：22x22；插槽內暫留時間桌上型電腦：24x24；插槽內暫留板：25x25；插槽內速度：26x26；超級外觀：29x29；熒幕內可擴充角落：20x20 |
+| [!DNL GumGum] | | X | X | | 插槽內暫留時間：21x21；插槽內暫留時間行動視訊：22x22；插槽內暫留時間桌上型電腦：24x24；插槽內暫留板：25x25；插槽內速度：26x26；超級外觀：29x29；熒幕內可擴充角落：20x20 |
+| [!DNL Gum Gum via Celtra] | | X | X | | 熒幕內：17x17；熒幕內可擴充：18x18；熒幕內可擴充視訊：19x19；熒幕內框架：23x23；熒幕速度：26x26 |
 | [!DNL HUMAN] （先前為[!DNL White Ops]） | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
