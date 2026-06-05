@@ -2,9 +2,9 @@
 title: （新UI）產生並實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 為您要追蹤的每組量度建立個別的轉換標籤。 您可以在「搜尋」、「社交」和「Commerce」中產生標籤，或將Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤與Adobe Advertising擴充功能搭配使用。
 
-## 在Search、Social和Commerce中產生並實作轉換追蹤標籤
+## 在搜尋、社交和Commerce中產生轉換追蹤標籤
 
 >[!NOTE]
 >
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 您可以使用Adobe Experience Platform中的標籤來設定「搜尋」、「社交」和「Commerce」的轉換追蹤。 Adobe CX Enterprise客戶可使用標籤內含的增值功能。
 
-從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
+從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
 
 >[!PREREQUISITES]
 >
 >若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
 
-1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)：
+1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
 
    1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**SSC UserID**&#x200B;欄位中，輸入您組織的Search、Social和Commerce帳戶的數位使用者ID。
 
-      如果您不知道使用者ID，請聯絡您的Adobe帳戶團隊。
+      如果您不知道使用者ID，請連絡您的Adobe帳戶團隊。
 
    1. 按一下&#x200B;**儲存**。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
          **轉換屬性名稱：**&#x200B;轉換屬性的名稱（例如，`form_completes`）。
 
-         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
 
       1. 按一下&#x200B;**保留變更**。
 
