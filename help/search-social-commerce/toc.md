@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ ht-degree: 2%
             + [管理資料上傳的廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [管理 [!DNL Naver] 帳戶僅供追蹤](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活動](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + 大量表單 {#bulksheets}
+         + [關於使用大量表單管理行銷活動資料](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [設定FTP帳戶以上傳大量表單](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [下載/建立Bulksheet檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [驗證Bulksheet檔案中的登入頁面](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [匯出產生或上傳的大量表單檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [上傳大量表單或已修正的錯誤檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [張貼大量工作表或已修正的錯誤檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [大量表單錯誤](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [刪除已上傳的大量工作表和錯誤檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [停止進行中的大量表單工作](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [管理自訂警報](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [使用者管理](/help/search-social-commerce/new-ui/user-administration.md)
