@@ -2,9 +2,13 @@
 title: 管理廣告商的轉換量度
 description: 瞭解如何將Adobe Advertising追蹤的轉換量度用於廣告商。
 feature: Conversions
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
 source-wordcount: 932
@@ -62,11 +66,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於來自 [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)的[量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則會忽略[!DNL Google Analytics]內的任何名稱變更。
+>對於來自 [!DNL Google Analytics][&#128279;](/help/search-social-commerce/admin/data-sources/data-source-about.md)的量度，如果您更新或重新驗證整合，則會覆寫對顯示名稱所做的任何手動變更。 同樣地，除非您[更新](/help/search-social-commerce/admin/data-sources/data-source-edit.md)或[重新驗證](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)整合，否則會忽略[!DNL Google Analytics]內的任何名稱變更。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Conversions]**。
 
-1. 從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
+1. 從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 在度量的&#x200B;**[!UICONTROL Conversion Display Name]**&#x200B;欄中，將游標放在度量名稱上，然後按一下&#x200B;**...** > **[!UICONTROL Rename]**。
 
@@ -84,7 +88,7 @@ ht-degree: 0%
 
    已針對廣告商收集的所有轉換量度，以及已針對顯示指定的任何不同名稱都會列示。
 
-1. （選擇性）從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
+1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
 
 1. 變更管理檢視和報告可用的轉換量度：
 
