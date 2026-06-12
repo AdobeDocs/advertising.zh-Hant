@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
 
-* Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)）
+* （不含[!DNL Analytics for Advertising]的廣告商） Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)）
 
   這些技術需要Experience Platform網站管理員的支援。
 

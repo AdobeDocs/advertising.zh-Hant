@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 4687
+source-wordcount: 4731
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月9日 | 與Adobe Customer Journey Analytics整合 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
 | 2026年5月28日 | 新增UI | 現在大部分的功能都可在新的UI中使用，包括排程報表和試算表摘要、大量表單、廣告網路管理員帳戶以及[!DNL Spend Planner] （原稱為「[!DNL Spend Recommendations]」）。 | 請參閱&quot;[使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)&quot;和「新UI」一章。 |
 | 2026年2月25日 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]顯示[!DNL Google Ads AI Max]根據搜尋網路內的搜尋使用的特定廣告組合和登入頁面的效能。 | 請參閱&quot;[該[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;。 |
 | | 新增UI > [!UICONTROL Portfolio]設定 | 在[!UICONTROL Manage Constraints]標籤上，設定&quot;[!UICONTROL Reserve a percentage of the spend target for each campaign]&quot;已重新命名為&quot;[!UICONTROL Set Campaign Spend Allocation Limits]&quot;，現在可用於具有所有支出策略的產品組合。 以前，它僅適用於具有每日支出策略的產品組合。<br><br>此設定可讓您指定行銷活動支出比例。 例如，您可以將25% — 產品組合預算的40%分配至促銷活動A，至少10%分配至促銷活動B，而最多50%分配至促銷活動C。總計不得超過100%。 | 如需產品組合設定的詳細資訊，請參閱[!DNL Optimization Guide]，此工具可在Search、Social和Commerce中使用。 |

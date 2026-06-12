@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 7432
+source-wordcount: 7476
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年6月9日 | 與Adobe Customer Journey Analytics整合 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2026年5月20日 | 第一方對象來源，通用ID，[!UICONTROL Placements] | 澳洲的廣告商現在可以為目標廣告匯入[!DNL AdFixus]個具有區段對應的通用ID。 DSP會依原樣從[!DNL AdFixus]匯入第一方區段，而不會將其轉換為其他ID型別。 程式包括建立對象來源及與您的[!DNL AdFixus]團隊共用自動產生的金鑰。 | 請參閱&quot;[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段&quot;、&quot;[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)&quot;和&quot;[管理對象來源以啟用通用ID對象](/help/dsp/audiences/sources/source-manage.md)&quot;。 |
 | 2026年5月11日 | 可重複使用[!UICONTROL Audiences] | （Beta功能）您現在可以使用AI輔助的對象代理程式來建立可重複使用的對象。 以自然語言提示描述您的目標對象，而代理程式會建議協力廠商區段，並建立對象運算式以作為目標或排除專案。 | 請參閱&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |

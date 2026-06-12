@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
+source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
 workflow-type: tm+mt
-source-wordcount: 1804
+source-wordcount: 1789
 ht-degree: 0%
 
 ---
@@ -31,17 +31,15 @@ ht-degree: 0%
 
 使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)在Adobe Advertising和Customer Journey Analytics之間以原生方式交換資料時，需要執行下列工作。 資料傳輸和歸因在啟動後開始，不包含歷史資料。
 
-1. （您組織的網頁分析人員；選擇性） [收集AMO ID和EF ID的歷史資料](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}。
+具有[!DNL Analytics for Advertising]的廣告商不需要這些工作。
 
-   此步驟僅適用於具有[!DNL Analytics for Advertising]的廣告商。
+1. （您組織的Adobe Experience Platform網站管理員） [在Experience Platform中設定資料收集並實作轉換追蹤標籤](#data-collection)。
 
-2. （您組織的Adobe Experience Platform網站管理員） [在Experience Platform中設定資料收集並實作轉換追蹤標籤](#data-collection)。
+1. （您組織的Customer Journey Analytics網站管理員） [在Customer Journey Analytics中建立與Experience Platform資料集的連線](#dataset-connection)。
 
-3. （您組織的Customer Journey Analytics網站管理員） [在Customer Journey Analytics中建立與Experience Platform資料集的連線](#dataset-connection)。
+1. （您組織的網頁分析人員） [在Customer Journey Analytics中設定資料檢視](#cja-data-views)。
 
-4. （您組織的網頁分析人員） [在Customer Journey Analytics中設定資料檢視](#cja-data-views)。
-
-5. （您組織的網頁分析人員） [在Customer Journey Analytics Workspace中設定報告和視覺效果](#cja-reports)。
+1. （您組織的網頁分析人員） [在Customer Journey Analytics Workspace中設定報告和視覺效果](#cja-reports)。
 
 以下小節包含詳細的程式，其中包括整合所需的任務和設定，但並未說明工作流程中可用的所有功能。 如需完整資訊，請參閱連結的資源。
 
