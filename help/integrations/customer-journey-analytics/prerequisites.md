@@ -16,16 +16,14 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: 189
 ht-degree: 0%
 
 ---
 
 # 將Adobe Advertising與Customer Journey Analytics整合的先決條件
-
-*Beta功能*
 
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
@@ -36,6 +34,8 @@ ht-degree: 0%
 * Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)）
 
   這些技術需要Experience Platform網站管理員的支援。
+
+* （不含[!DNL Analytics for Advertising]的廣告商） Collaboration與您的Adobe帳戶團隊，他們將在設定期間完成各種工作。
 
 >[!MORELIKETHIS]
 >
