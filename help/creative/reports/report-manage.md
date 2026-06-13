@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    * 若要下載最新的報表執行個體，請按一下&#x200B;**[!UICONTROL Download]**。
 
-   * （具有多個執行個體的報表）按一下![旁的](/help/dsp/assets/chevron-down.png "向下箭頭")向下箭頭[!UICONTROL Download]，然後按一下您要下載之報表的完成日期。 可下載的報表執行個體會以下載圖示(![下載圖示](/help/dsp/assets/indicator-downloadable.png "下載圖示"))標示。
+   * （具有多個執行個體的報表）按一下[!UICONTROL Download]旁的![向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")，然後按一下您要下載之報表的完成日期。 可下載的報表執行個體會以下載圖示(![下載圖示](/help/dsp/assets/indicator-downloadable.png "下載圖示"))標示。
 
      當有許多執行個體可用時，如有必要，請按一下清單底部的&#x200B;**[!UICONTROL Load More]**。
 
@@ -130,9 +130,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >您也可以[隨時從](#report-run-now)檢視[!UICONTROL Reports]執行自訂報告。
+  >您也可以[隨時從[!UICONTROL Reports]檢視](#report-run-now)執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的完成日期前，在帳戶時區的09:00執行報表。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期(09:00)執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 

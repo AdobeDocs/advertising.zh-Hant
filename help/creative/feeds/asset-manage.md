@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
      廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-   * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- Is this true: The maximum file size is two (2) MB. -->檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- Is this true: The maximum file size is two (2) MB. --> 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
      廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-     對於所有具有動態視訊的帳戶，最佳實務是搭配使用[通用摘要範本](catalog-manage.md)的復本，使用資產檔案[建立目錄[!UICONTROL Adobe Creative Template]](feed-template-manage.md)，將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
+     對於所有具有動態視訊的帳戶，最佳實務是搭配使用[通用摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的復本，使用資產檔案[建立目錄](catalog-manage.md)，將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
 
    * 以MP4、MOV或WEBM格式關聯的視訊資產。 支援的廣告範本包括開始卡、結束卡、頂端覆蓋、底部覆蓋或L形。 每個視訊的持續時間必須介於1至90秒之間。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 

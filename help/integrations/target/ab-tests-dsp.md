@@ -32,101 +32,101 @@ ht-degree: 0%
 
 Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體和站上訊息提供個人化和連線的體驗。 透過在產品之間共用訊號，您可以：
 
-* Decrease site fall-through rates by linking customers’ ad exposure from DSP campaigns to their on-site experiences.
+* 將客戶在DSP行銷活動中的廣告曝光度連結至其站上體驗，以降低網站流失率。
 
-* Establish A/B testing by mirroring on-site experiences with advertising messaging using Adobe Audience Manager exposure data and click-to-feed [!DNL Target] audiences.
+* 透過使用Adobe Audience Manager曝光資料和點按摘要[!DNL Target]對象來映象廣告訊息的站上體驗，以建立A/B測試。
 
-* Measure the impact of unified messaging on an on-site objective lift with simple visualizations in Adobe Analytics for [!DNL Target].
+* 透過Adobe Analytics中針對[!DNL Target]的簡單視覺效果，測量整合通訊對站上目標提升的影響。
 
-See the following sections for the prerequisites and for instructions to set up click-through and view-through tracking, implement signal sharing between DSP and [!DNL Target] and set up an A/B test activity, and set up [!DNL Analytics] Analysis Workspace to view the test data.
+請參閱下列章節，瞭解先決條件，以及設定點進和檢視追蹤、實作DSP與[!DNL Target]之間的訊號共用、設定A/B測試活動，以及設定[!DNL Analytics] Analysis Workspace以檢視測試資料的指示。
 
-If you have additional questions, contact your Adobe Account Team.
+如果您有其他問題，請聯絡您的Adobe客戶團隊。
 
 ## 先決條件
 
-This use case requires the following products and integrations:
+此使用案例需要下列產品和整合：
 
 * [!DNL Target]
 
-* [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) integration<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) integration
+* [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合
 
-* Audience Manager (required for view-through testing only)
+* Audience Manager （僅針對閱覽測試需要）
 
-## Step 1: Set up the Click-through Framework {#click-through-framework}
+## 步驟1：設定點進架構 {#click-through-framework}
 
-![Click-through framework](/help/integrations/assets/target-ct-framework.png)
+![點進架構](/help/integrations/assets/target-ct-framework.png)
 
-When you add DSP macros to a click-through URL (the URL displayed when a user clicks an ad and reaches the landing page), DSP automatically captures the placement key by including `${TM_PLACEMENT_ID}` in the click-through URL. This macro captures the alphanumeric placement key and not the numeric placement ID.
+當您將DSP巨集新增至點進URL （使用者點按廣告並到達登陸頁面時顯示的URL）時，DSP會在點進URL中加入`${TM_PLACEMENT_ID}`，自動擷取位置索引鍵。 此巨集會擷取英數字元版位索引鍵，而非數值版位ID。
 
-![Click-through URL appended to the landing page URL](/help/integrations/assets/target-ct-url.jpg)
+![點進URL已附加至登陸頁面URL](/help/integrations/assets/target-ct-url.jpg)
 
-### (DSP only) Add DSP macros to your click-through URLs
+### （僅限DSP）將DSP巨集新增至您的點進URL
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-Within [!DNL Flashtalking] or Google Campaign Manager 360, manually update the click-through URL for each ad to include the macros required to capture AMO ID variables. The AMO ID variables are used to send click data to Adobe Analytics and to share placement keys for A/B testing. See the following pages for instructions:
+在[!DNL Flashtalking]或Google Campaign Manager 360中，手動更新每個廣告的點進URL，以包含擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics和共用放置索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
 
-* [Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad tags](/help/integrations/analytics/macros-flashtalking.md). **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據[!DNL Flashtalking]支援檔案（位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）中的`s_kwcid`與`ef_id`追蹤引數，則不需要執行此程式。
+* 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤[&#128279;](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據[!DNL Flashtalking]支援檔案（位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）中的`s_kwcid`與`ef_id`追蹤引數，則不需要執行此程式。
 
-* [Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md)
+* [將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 新增標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Contact your Adobe Account Team to retrieve the required placement key and finalize the setup, and to make sure that each click-through URL is populated with the placement key.
+請聯絡您的Adobe客戶團隊以擷取所需的位置索引鍵並完成設定，確保每個點進URL皆填入位置索引鍵。
 
-## Step 2: Set up the view-through framework using Audience Manager {#view-through-framework}
+## 步驟2：使用Audience Manager設定閱覽架構 {#view-through-framework}
 
-![View-through framework](/help/integrations/assets/targetr-vt-framework.png)
+![檢視框架](/help/integrations/assets/targetr-vt-framework.png)
 
-By adding an Audience Manager impression event pixel in your ad tags and placement settings, you can create a test segment for additional view-through testing opportunities.
+您可以在廣告標籤和版位設定中新增Audience Manager曝光事件畫素，藉此建立測試區段以提供其他閱覽測試機會。
 
-1. Implement an Audience Manager impression event pixel in your ad tags and DSP placement settings.
+1. 在廣告標籤和DSP版位設定中實作Audience Manager曝光事件畫素。
 
-   For instructions, see &quot;[Collect media exposure data from Advertising DSP campaigns](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
+   如需指示，請參閱&quot;[從Advertising DSP行銷活動中收集媒體曝光資料](/help/integrations/audience-manager/media-data-integration/collect.md)&quot;。
 
-   Make sure you add [DSP macros](/help/dsp/campaign-management/macros.md) to capture all data you want the impression event pixel to pass back, including `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   請務必新增[DSP巨集](/help/dsp/campaign-management/macros.md)以擷取您要讓曝光事件畫素傳回的所有資料，包括數值位置ID的`${TM_PLACEMENT_ID_NUM}`。
 
    >[!NOTE]
    >
-   >Click-tracking URLs include the `${TM_PLACEMENT_ID}` macro for the alphanumeric placement key, instead of `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   >點選追蹤URL包含英數字元版位索引鍵的`${TM_PLACEMENT_ID}`巨集，而非數值版位ID的`${TM_PLACEMENT_ID_NUM}`。
 
-1. Configure an Audience Manager segment from the DSP impression data:
+1. 從DSP曝光資料設定Audience Manager區段：
 
-   1. Verify that segment data is available:
+   1. 確認區段資料可供使用：
 
-      1. [Search for the signal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=zh-Hant) for the [key-value pair](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=zh-Hant) that determines at what level the segment users are grouped.
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=zh-Hant)搜尋[索引鍵值配對](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=zh-Hant)的訊號，以決定區段使用者在哪個層級分組。
 
-         Use a [supported key](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hant) with a value that corresponds to a macro that you added to the Audience Manager impression event pixel.
+         使用具有對應至您新增至Audience Manager曝光事件畫素之巨集值的[支援索引鍵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=zh-Hant)。
 
-         For example, to group users for a particular placement, use the `d_placement` key. For the value, use an actual numeric placement ID (such as 2501853) that&#39;s captured by the DSP macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         例如，若要針對特定位置將使用者分組，請使用`d_placement`索引鍵。 對於值，請使用DSP巨集`${TM_PLACEMENT_ID_NUM}`擷取的實際數值位置ID （例如2501853）。<!-- Explain where to find the placement ID, other than in a custom report. -->
 
-         If the search results show user counts for the key-value pair, which indicates that the pixel was placed correctly and data is flowing, then continue to the next step.
+         如果搜尋結果顯示索引鍵/值組的使用者計數（這表示畫素已正確放置且資料正在流動），則繼續下一個步驟。
 
-   1. [Create a rule-based trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hant) for segment creation in Audience Manager.
+   1. [在Audience Manager中建立規則型特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=zh-Hant)，以建立區段。
 
-      * Name the trait so that it’s easily identifiable within test activities. Store the trait in whichever folder you prefer.
+      * 為特徵命名，使其在測試活動中易於識別。 將特徵儲存在您偏好的任何資料夾中。
 
-      * Select `Ad Cloud` as the **[!UICONTROL Data Source]**.
+      * 選取`Ad Cloud`做為&#x200B;**[!UICONTROL Data Source]**。
 
-      * For the trait expression, use `d_event` as the **[!UICONTROL Key]** and `imp` as the **[!UICONTROL Value]**.
+      * 對於特徵運算式，使用`d_event`作為&#x200B;**[!UICONTROL Key]**，使用`imp`作為&#x200B;**[!UICONTROL Value]**。
 
-   1. [Set up a test segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=zh-Hant) for the new trait in Audience Manager, selecting `Ad Cloud` as the **[!UICONTROL Data Source]**.
+   1. [在Audience Manager中設定新特徵的測試區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=zh-Hant)，選取`Ad Cloud`做為&#x200B;**[!UICONTROL Data Source]**。
 
-      Audience Manager automatically splits the segment into a control group that receives the standard landing page experience and a test group that received a personalized onsite experience.
+      Audience Manager會自動將區段分割成控制組，用於接收標準登陸頁面體驗，並分割成測試組，用於接收個人化現場體驗。
 
-## Step 3: Set up an A/B test activity in [!DNL Target] for DSP
+## 步驟3：在[!DNL Target]中為DSP設定A/B測試活動
 
-The following instructions highlight information pertaining to the DSP use case.
+下列指示會強調與DSP使用案例相關的資訊。
 
-1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant).
+1. [登入Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=zh-Hant)。
 
-1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant):
+1. [建立A/B測試](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=zh-Hant)：
 
-   1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
+   1. 在&#x200B;**[!UICONTROL Enter Activity URL]**&#x200B;欄位中，輸入測試的登陸頁面URL。
 
       >[!NOTE]
       >
-      >You can use multiple URLs to test view-through site entry. For more information, see &quot;[Multipage Activity](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=zh-Hant).&quot; 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，依頁面URL輕鬆識別熱門專案。
+      >您可以使用多個URL來測試閱覽網站專案。 如需詳細資訊，請參閱[多頁活動](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=zh-Hant)。 您可以在Analytics中建立[網站專案報告](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)，依頁面URL輕鬆識別熱門專案。
 
    1. 在&#x200B;**[!UICONTROL Goal]**&#x200B;欄位中輸入測試的成功量度。
 

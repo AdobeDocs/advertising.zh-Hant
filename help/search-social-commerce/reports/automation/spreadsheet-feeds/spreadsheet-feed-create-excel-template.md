@@ -23,7 +23,7 @@ ht-degree: 0%
 
 若要建立試算表摘要，您必須先使用一般報表範本建立特別格式化的[!DNL Microsoft Excel]試算表範本。 您可以選擇自訂[!DNL Excel]試算表以包含其他欄和圖表。
 
-1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用「[!UICONTROL Date Aggregation]」的[!UICONTROL Daily]單位並搭配您想要的所有其他資料引數，產生所需的報表型別，並將報表儲存為範本。
+1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;中，使用「[!UICONTROL Daily]」的[!UICONTROL Date Aggregation]單位並搭配您想要的所有其他資料引數，產生所需的報表型別，並將報表儲存為範本。
 
    >[!NOTE]
    >
