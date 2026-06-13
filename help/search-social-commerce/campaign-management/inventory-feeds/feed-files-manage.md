@@ -12,7 +12,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1249
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
   若要設定FTP目錄以儲存及自動處理資料檔案，請聯絡您的Adobe客戶團隊。
 
-* **手動處理：**&#x200B;您可以從[&#x200B; (ACM)檢視手動](#feed-file-upload)上傳摘要檔案[!UICONTROL Advanced]。 將摘要檔案與一個或多個廣告網路特定的[範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)產生關聯後，您就可以根據[摘要資料設定](feed-data-propagate.md)，透過範本[傳播摘要資料](feed-settings-manage.md)來產生行銷活動和廣告資料。 您可以選擇在行銷活動階層檢視中預覽產生的資料、產生大量表單檔案以供檢閱，或產生大量表單檔案以供立即張貼至廣告網路。 如果您未立即張貼資料，則可以[預覽](propagated-data-view.md)並在稍後[張貼](propagated-data-post.md)。 您可以稍後[以新檔案](#feed-file-replace)取代現有的摘要檔案，而不會失去任何現有的範本關聯。
+* **手動處理：**&#x200B;您可以從[!UICONTROL Advanced] (ACM)檢視手動[上傳摘要檔案](#feed-file-upload)。 將摘要檔案與一個或多個廣告網路特定的[範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)產生關聯後，您就可以根據[摘要資料設定](feed-settings-manage.md)，透過範本[傳播摘要資料](feed-data-propagate.md)來產生行銷活動和廣告資料。 您可以選擇在行銷活動階層檢視中預覽產生的資料、產生大量表單檔案以供檢閱，或產生大量表單檔案以供立即張貼至廣告網路。 如果您未立即張貼資料，則可以[預覽](propagated-data-view.md)並在稍後[張貼](propagated-data-post.md)。 您可以稍後[以新檔案](#feed-file-replace)取代現有的摘要檔案，而不會失去任何現有的範本關聯。
 
 ## 摘要檔案需求
 

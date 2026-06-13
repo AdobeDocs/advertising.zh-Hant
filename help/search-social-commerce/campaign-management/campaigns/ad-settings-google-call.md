@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 351
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 搜尋、Social和Commerce使用帳戶層級的登陸頁面尾碼和追蹤範本來追蹤僅限來電的廣告，但您可以選擇在[!DNL Google Ads]管理員內覆寫廣告層級的帳戶層級追蹤。
 
-請參閱[!DNL Google Ads]說明，瞭解每個帳戶[的](https://support.google.com/google-ads/answer/6372658?hl=en)廣告限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的廣告限制。
 
 <!-- ## Call-only Ad -->
 

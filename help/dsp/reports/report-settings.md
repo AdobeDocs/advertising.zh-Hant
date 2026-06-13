@@ -56,7 +56,7 @@ ht-degree: 0%
   >
   >您也可以[隨時從[!UICONTROL Reports]檢視](report-run-now.md)執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在指定的完成日期前，在帳戶時區的09:00執行報表。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期(09:00)執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 

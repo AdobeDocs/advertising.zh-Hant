@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 1. （可選）篩選檢視以包含具有特定名稱、要評估的資料範圍或其他條件的列。
 
-   您可以從工具列[套用資料篩選](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或從資料行標題[套用](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+   您可以從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用。
 
 1. 在範本名稱旁邊，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-1. 在[!UICONTROL Update \[Entity Type\] Alert]視窗中，編輯[、](alert-template-settings.md)和&#x200B;**[!UICONTROL Date Range]**&#x200B;索引標籤上的&#x200B;**[!UICONTROL Filters]**&#x200B;警示設定&#x200B;**[!UICONTROL Scheduling and Delivery]**。
+1. 在[!UICONTROL Update \[Entity Type\] Alert]視窗中，編輯&#x200B;**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;索引標籤上的[警示設定](alert-template-settings.md)。
 
    您可以按一下索引標簽名稱（例如「篩選器」）或按一下右下角的&#x200B;**[!UICONTROL Next]**，在索引標籤之間移動。
 
