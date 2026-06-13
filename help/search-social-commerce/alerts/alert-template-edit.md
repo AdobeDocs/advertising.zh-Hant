@@ -4,9 +4,12 @@ description: 瞭解如何編輯範本以產生自訂警報。
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
 TQID: https://experienceleague.adobe.com/zE2vVaddZClw-kythHguZCUiX39rx7ubl79Msnqnrbo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 136
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 1. （可選）篩選檢視以包含具有特定名稱、要評估的資料範圍或其他條件的列。
 
-   您可以從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用[。
+   您可以從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)套用資料篩選[或從資料行標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用。
 
 1. 在範本名稱旁邊，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
