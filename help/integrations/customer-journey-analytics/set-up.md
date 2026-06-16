@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    * 選擇&#x200B;**[!UICONTROL Create dataset from schema]**&#x200B;的選項並選取您的結構描述。
 
-     Adobe Advertising會根據您的事件資料集建立兩個額外的資料集： 1\)包含相關摘要資料（例如點按數和曝光數）的&#x200B;*摘要資料集*&#x200B;以及2\) *查詢資料集* （包含維度/分類中繼資料，例如Adobe Advertising促銷活動名稱）。 資料集的資料會每天在Experience Platform中填入。
+     Adobe Advertising會根據您的事件資料集建立兩個額外的資料集： 1\)包含相關摘要資料（例如彙總點按次數和彙總曝光數）的&#x200B;*摘要資料集*&#x200B;以及2\) *查詢資料集* （包含維度/分類中繼資料，例如Adobe Advertising促銷活動名稱）。 資料集的資料會每天在Experience Platform中填入。
 
    >[!TIP]
    >
