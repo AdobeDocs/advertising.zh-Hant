@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Advertising Search, Social, &amp; Commerce 指南 {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [新增功能](home.md)
 + [關於本指南](help-about.md)
@@ -35,7 +29,7 @@ ht-degree: 2%
       + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}
       + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hant){target="_blank"}
    + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-   + [原則和指導方針（連結）](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=zh-Hant){target="_blank"}
+   + [原則和指導方針（連結）](https://experienceleague.adobe.com/zh-hant/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 快速入門 {#getting-started}
    + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [系統需求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -170,11 +164,11 @@ ht-degree: 2%
                + [基本和進階報表設定](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
                + [基本和進階報表的報表欄](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + 協助報表 {#assist-reports}
-               + [關於協助報告](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-協助報告格式 {#assist-report-formats}
-                  + [此[!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
-                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [關於協助報表](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+                  + 協助報表格式 {#assist-report-formats}
+                     + [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [協助報表設定](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + 專業報告 {#specialty-reports}
                + [關於專業報告](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -602,3 +596,9 @@ ht-degree: 2%
 + [取得協助](get-help.md)
 + [字彙表](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
