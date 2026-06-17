@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe CX Enterprise的整合
-user-guide-description: 瞭解Advertising DSP和Advertising Search與其他Adobe CX Enterprise （前身為Adobe Experience Cloud）產品和服務的整合。
-breadcrumb-title: CX Enterprise的整合
+user-guide-title: 與Adobe CX Enterprise整合
+user-guide-description: 瞭解Advertising DSP和Advertising Search與其他Adobe CX Enterprise （先前稱為Adobe Experience Cloud）產品和服務的整合。
+breadcrumb-title: 與CX Enterprise整合
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [&#x200B; [!DNL Analytics for Advertising]的概觀](/help/integrations/analytics/overview.md)
-   + [&#x200B; [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
+   + [ [!DNL Analytics for Advertising]的概觀](/help/integrations/analytics/overview.md)
+   + [ [!DNL Analytics]使用的Adobe Advertising ID](/help/integrations/analytics/ids.md)
    + 規劃實作 {#planning}
       + [實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊](/help/integrations/analytics/prerequisites.md)
-      + [&#x200B; [!DNL Analytics for Advertising]的(DSP) JavaScript程式碼](/help/integrations/analytics/javascript.md)
+      + [ [!DNL Analytics for Advertising]的(DSP) JavaScript程式碼](/help/integrations/analytics/javascript.md)
       + [搭配Adobe Experience Platform [!DNL Web SDK]使用 [!DNL Last Event Service] JavaScript資料庫](/help/integrations/analytics/web-sdk.md)
       + [收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP)廣告標籤的巨集 {#macros}
@@ -29,11 +29,11 @@ ht-degree: 1%
    + 資料交換 {#data}
       + [Analysis Workspace中的Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [Adobe Advertising中的[!DNL Analytics]資料](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [&#x200B; [!DNL Analytics] 和Adobe Advertising之間的預期資料差異](/help/integrations/analytics/data-variances.md)
+      + [ [!DNL Analytics] 和Adobe Advertising之間的預期資料差異](/help/integrations/analytics/data-variances.md)
    + 在[!DNL Analytics Marketing Channels]中工作 {#mc}
-      + [&#x200B; [!DNL Marketing Channels]的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [ [!DNL Marketing Channels]的基礎知識](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [使用Adobe Advertising ID建立 [!DNL Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [搭配Adobe Advertising資料使用 [!DNL Marketing Channels] &#x200B;](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [搭配Adobe Advertising資料使用 [!DNL Marketing Channels] ](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]之間會有所不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
    + [從Adobe Analytics [!DNL eVars] 和 [!DNL props]建立轉換量度](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + 與Adobe Audience Manager整合 {#audience-manager}
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [設定資料收集、資料傳輸及報告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和維度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)
+   + [疑難排解](/help/integrations/customer-journey-analytics/troubleshooting.md)
++ [Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

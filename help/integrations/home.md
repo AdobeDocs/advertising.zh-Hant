@@ -5,22 +5,12 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-TQID: https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ffaa0312ba2e1f583e11326c867838753fa9c6ff
+TQID: 'https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok'
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2bid: c3eaaeae-eb91-4543-a4dd-99c59c76fbdaid: c200bb82-3e43-4606-9aba-5cab31617ba0id: cfd751d4-ee56-4323-8fd1-dc174b031709id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 0%
@@ -34,21 +24,21 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年6月9日 | 與Adobe Customer Journey Analytics整合 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
-| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
-| 2025年9月8日 | 與Customer Journey Analytics整合 | （Beta功能）具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商現在可以使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
-| 2025年3月26日 | [!DNL Adobe Analytics for Advertising] | （具有Search、Social和Commerce的廣告商； [!DNL Microsoft Advertising]帳戶；以及[!DNL Adobe Analytics for Advertising]）對於具有[!UICONTROL Auto Upload]追蹤選項的帳戶，所有行銷活動型別的登陸頁面尾碼中的AMO ID引數格式已更新為最新格式。 之前，大部分帳戶的效能最高行銷活動已移轉到新格式。<br><br>對於沒有[!UICONTROL Auto Upload]追蹤選項的帳戶，尚未移轉到新格式，但是您必須手動更新每個登入頁面尾碼，以包含新的AMO ID格式。<br><br>目前格式： `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 請參閱「[總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」和[AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
+| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)。 |
+| 2025年9月8日 | 與Customer Journey Analytics整合 | （Beta功能）具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商現在可以使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
+| 2025年3月26日 | [!DNL Adobe Analytics for Advertising] | （具有Search、Social和Commerce的廣告商； [!DNL Microsoft Advertising]帳戶；以及[!DNL Adobe Analytics for Advertising]）對於具有[!UICONTROL Auto Upload]追蹤選項的帳戶，所有行銷活動型別的登陸頁面尾碼中的AMO ID引數格式已更新為最新格式。 之前，大部分帳戶的效能最高行銷活動已移轉到新格式。<br><br>對於沒有[!UICONTROL Auto Upload]追蹤選項的帳戶，尚未移轉到新格式，但是您必須手動更新每個登入頁面尾碼，以包含新的AMO ID格式。<br><br>目前格式： `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 請參閱「[總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」和[AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
 | 2024年11月13日 | [!DNL Analytics for Advertising] | （具有[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的廣告商）如果您使用保留變數來擷取AMO ID和EF ID，那麼您可以透過儘快將您為AMO ID和EF ID保留的變數複製到標準[!DNL eVars]中，為Adobe Advertising和Adobe Customer Journey Analytics之間的未來整合做好準備。 這樣一來，當您完成工作時，即可立即收集AMO ID和EF ID的歷史資料，且這些歷史資料可供日後使用。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。 | 請參閱&quot;[收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)&quot;。 |
-| 2024年10月29日發行 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]最高成效行銷活動的廣告商）現在，當您為最高成效行銷活動在追蹤URL中實作新的AMO ID ([!DNL s_kwcid])引數時（不包含廣告和關鍵字），您可在Adobe Analytics中使用最高成效行銷活動的資產群組層級資料。 對大多數具有最高成效行銷活動的帳戶的追蹤已移轉到新格式。 對於沒有[!UICONTROL Auto Upload]追蹤選項的具有最高成效行銷活動的帳戶，這些行銷活動尚未移轉到新格式，不過，您必須手動更新每個登陸頁面尾碼，以包含新的AMO ID格式。<br><br>您最高成效行銷活動的Adobe Analytics資料也可在Search、Social和Commerce中使用。 | 檢視新的[AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)和[何時以及如何新增引數至您的追蹤URL](/help/integrations/analytics/ids.md)。 |
+| 2024年10月29日發行 | [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]最高成效行銷活動的廣告商）現在，當您為最高成效行銷活動在追蹤URL中實作新的AMO ID ([!DNL s_kwcid])引數時（不包含廣告和關鍵字），您可在Adobe Analytics中使用最高成效行銷活動的資產群組層級資料。 對大多數具有最高成效行銷活動的帳戶的追蹤已移轉到新格式。 對於沒有[!UICONTROL Auto Upload]追蹤選項的具有最高成效行銷活動的帳戶，這些行銷活動尚未移轉到新格式，不過，您必須手動更新每個登陸頁面尾碼，以包含新的AMO ID格式。<br><br>您最高成效行銷活動的Adobe Analytics資料也可在Search、Social和Commerce中使用。 | 檢視新的[AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)和[何時以及如何新增引數至您的追蹤URL](/help/integrations/analytics/ids.md)。 |
 | 2023年12月16日 | 說明 | 新檔案將說明如何在[!DNL Target]中為來自搜尋、社交和Commerce中廣告的點進流量設定A/B測試，以及如何在[!DNL Analytics]中測量和視覺化測試的秘訣。 | 請參閱&quot;[在Adobe Target中設定A/B測試以搜尋、社交和Commerce廣告](/help/integrations/target/ab-tests-search.md)&quot;。 |
 | 2023年8月8日 | [!DNL Analytics for Advertising] | 有些[!DNL Analytics]成功事件量度（包括標準、自訂和保留的轉換量度及流量量度）可自動在DSP以及搜尋、社交和Commerce中使用。 現在，您可以將[!DNL eVar]和[!DNL prop]層級資料匯入自訂成功事件中，藉此根據現有的[!DNL Analytics] [!DNL eVars]和[!DNL props]設定自己的成功量度。 | 請參閱&quot;[從Adobe Analytics [!DNL eVars] 和 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)建立轉換量度。&quot; |
-| 2023年7月13日 | 報告 | （具有[!DNL Analytics for Advertising]的DSP使用者）連線電視(CTV)位置的瀏覽轉換現在包含在Adobe Analytics中可用的轉換資料中。 | 請參閱 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/overview.md#integration-examples)的概觀中的「如何使用整合的範例」一節。 |
+| 2023年7月13日 | 報告 | （具有[!DNL Analytics for Advertising]的DSP使用者）連線電視(CTV)位置的瀏覽轉換現在包含在Adobe Analytics中可用的轉換資料中。 | 請參閱 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples)的[概觀中的「如何使用整合的範例」一節。 |
 | 2022年11月1日 | 說明 | 新檔案將說明如何在Advertising DSP和Adobe Target之間實作點進和檢視訊號共用、在[!DNL Target]中為您的DSP廣告設定A/B測試活動，以及如何設定Adobe Analytics Analysis Workspace以檢視測試資料。 | 請參閱&quot;[在Adobe Target中設定Advertising DSP廣告的A/B測試](/help/integrations/target/ab-tests-dsp.md)&quot;。 |
 | 2022年8月17日 | 說明 | 新章節將說明Adobe Advertising與Adobe Audience Manager整合的所有方式。 | 請參閱「與Adobe Audience Manager整合」一章，包括「[Adobe Advertising與Adobe Audience Manager](/help/integrations/audience-manager/overview.md)整合」的概觀。 |
 | 2021年4月27日 | [!DNL Analytics for Advertising] | 瞭解為何以及如何將[!DNL Analytics for Advertising]巨集新增至您的[!DNL Google Campaign Manager 360]廣告標籤，以將點按資料傳送至Adobe Analytics。 | 請參閱&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;。 |
 | 2021年4月19日 | [!DNL Analytics for Advertising] | 瞭解為什麼以及如何將巨集附加至您的[!DNL Flashtalking]廣告標籤，以將點選資料傳送至Adobe Analytics。 | 請參閱&quot;[附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)&quot;。 |
-| 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的組織想從使用舊版Adobe Analytics `visitorAPI.js`資料庫切換到使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)資料庫(`alloy.js`)進行資料彙集，您必須進行一些變更以啟用識別碼拼接。 | 請參閱&quot;[搭配Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)使用 [!DNL Last Event Service] JavaScript資料庫。&quot; |
-| 2021年5月26日 | 說明 | 章節「[!DNL Analytics for Advertising]」現在包含有關「在[!DNL Analytics Marketing Channels]中工作」的子章節。 | 請參閱：「[處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)的基礎知識 [!DNL Marketing Channels][&#128279;](/help/integrations/analytics/marketing-channels/mc-overview.md)," "Using Adobe Advertising IDs to create [!DNL Marketing Channels] 」、「[搭配使用 [!DNL Analytics Marketing Channels] Adobe Advertising資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)」和「[為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之間會有所不同。」 |
-| 2021年5月26日 | 說明 | 已新增所有關於[!DNL Analytics for Advertising]的影片教學課程的連結。 | 請參閱： &quot;[Adobe Advertising整合的相關教學課程影片](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)&quot;。 |
+| 2021年10月27日 | [!DNL Analytics for Advertising] | 如果您的組織想從使用舊版Adobe Analytics `visitorAPI.js`資料庫切換到使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)資料庫(`alloy.js`)進行資料彙集，您必須進行一些變更以啟用識別碼拼接。 | 請參閱&quot;[搭配Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)使用 [!DNL Last Event Service] JavaScript資料庫。&quot; |
+| 2021年5月26日 | 說明 | 章節「[!DNL Analytics for Advertising]」現在包含有關「在[!DNL Analytics Marketing Channels]中工作」的子章節。 | 請參閱：「[處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)的基礎知識 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] 」、「[搭配使用 [!DNL Analytics Marketing Channels] Adobe Advertising資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)」和「[為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)之間會有所不同。」 |
+| 2021年5月26日 | 說明 | 已新增所有關於[!DNL Analytics for Advertising]的影片教學課程的連結。 | 請參閱： &quot;[Adobe Advertising整合的相關教學課程影片](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)&quot;。 |
 
 {style="table-layout:auto"}
 
