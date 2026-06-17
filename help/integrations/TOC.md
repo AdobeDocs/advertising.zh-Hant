@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe CX Enterprise的整合
-user-guide-description: 瞭解Advertising DSP和Advertising Search與其他Adobe CX Enterprise （前身為Adobe Experience Cloud）產品和服務的整合。
-breadcrumb-title: CX Enterprise的整合
+user-guide-title: 與Adobe CX Enterprise整合
+user-guide-description: 瞭解Advertising DSP和Advertising Search與其他Adobe CX Enterprise （先前稱為Adobe Experience Cloud）產品和服務的整合。
+breadcrumb-title: 與CX Enterprise整合
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Customer Journey Analytics使用的Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [設定資料收集、資料傳輸及報告](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics中的Adobe Advertising量度和維度](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
+   + [疑難排解](/help/integrations/customer-journey-analytics/troubleshooting.md)
 + [Adobe Advertising整合的影片教學課程](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=zh-Hant)

@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: 1802
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * 在[!UICONTROL Schema Details]中，選取&#x200B;**[!UICONTROL Experience Event]**&#x200B;作為要擷取網站事件的結構描述的基底類別。 為結構描述命名，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
-   * 在左側面板中，新增欄位群組[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)，以新增Adobe Advertising的特定欄位。 至少要包含conversionDetails物件，該物件具有`trackingCode`和`trackingIdentities`屬性，其中包括[AMO ID和EF ID](ids.md)。 其他欄位為選用欄位。
+   * 在左側面板中，新增欄位群組[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)，以新增Adobe Advertising的特定欄位。 至少要包含conversionDetails物件，該物件具有`trackingCode`和`trackingIdentities`屬性，其中包括[AMO ID和EF ID](ids.md)。 其他欄位為選用欄位。 不需要其他設定。
 
    * （選用）視需要新增其他欄位群組，將其他資料欄位連線至Adobe Advertising資料。
 
@@ -117,6 +117,8 @@ ht-degree: 0%
 
            如果您的廣告商未列出，請輸入每個廣告商的廣告商ID。 如有需要，請向您的Adobe帳戶團隊索取ID。
 
+           [!DNL RampID] JavaScript路徑的範例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+
          * 儲存組建。
 
    * （選用） [視需要建立規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/rules)，以決定Web SDK何時應將資料傳送至Edge Network。
@@ -169,7 +171,7 @@ ht-degree: 0%
 
          * **[!UICONTROL Key]** （要當作維度資料集索引鍵使用的欄位）： `Tracking Code` （與結構描述中的`trackingCode`欄位相同）。
 
-         * **[!UICONTROL Matching key]** （要做為事件資料集比對索引鍵的欄位）： `Tracking Code (Event datasets)`。<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+         * **[!UICONTROL Matching key]** （做為事件資料集比對索引鍵的欄位）： `Tracking Code (Event datasets)`。
 
          * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
@@ -181,7 +183,7 @@ ht-degree: 0%
 
          * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
-1. 在三小時內，確認資料可在Customer Journey Analytics中使用。
+2. 在三小時內，確認資料可在Customer Journey Analytics中使用。
 
    1. 在Customer Journey Analytics中，前往&#x200B;**[!UICONTROL Connections]**&#x200B;並選取您的連線。
 
@@ -274,5 +276,6 @@ Seems to not be necessary now:
 >* [由 [!DNL Customer Journey Analytics]](ids.md)使用的Adobe Advertising ID
 >* Customer Journey Analytics中的[Adobe Advertising量度和維度](advertising-data-in-cja.md)
 >* [收集AMO ID與EF ID的歷史資料，以用於Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
+>* [疑難排解](troubleshooting.md)
 >* [Customer Journey Analytics指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)
 >* Adobe Analytics使用者的Customer Journey Analytics [使用手冊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

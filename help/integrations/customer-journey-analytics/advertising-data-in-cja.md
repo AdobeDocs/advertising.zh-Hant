@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: 456
 ht-degree: 0%
 
 ---
@@ -110,3 +110,4 @@ Adobe Advertising每日傳遞流量量度和維度至[!DNL Customer Journey Anal
 >* [必要條件](prerequisites.md)
 >* [由 [!DNL Customer Journey Analytics]](ids.md)使用的Adobe Advertising ID
 >* [設定資料收集、資料傳輸及報告](set-up.md)
+>* [疑難排解](troubleshooting.md)
