@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
+source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 * Customer Journey Analytics Workspace所參照的資料檢視是正確的。
 
 如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
-.
 
 +++
 
@@ -93,8 +92,7 @@ ht-degree: 0%
 
 * Adobe Advertising設定已在WebSDK擴充功能中正確設定並發佈。
 
-如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。加入廣告網路帳戶的[!UICONTROL Account ID]。
-.
+如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
