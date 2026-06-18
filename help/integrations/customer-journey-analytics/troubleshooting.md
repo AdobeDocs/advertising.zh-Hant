@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 0%
 確認已針對廣告商2啟用從Adobe Advertising到Customer Journey Analytics的摘要。 請洽詢您的Adobe客戶團隊。
 
 如果為廣告商啟用了摘要，但您仍然看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
-.
 
 +++
 
@@ -76,9 +75,9 @@ ht-degree: 0%
 
 ## 事件層級報表
 
-+++ 案例：轉換資料（例如`Page Views`）無法用於CJA Customer Journey Analytics Workspace中的報表維度（例如`Campaign`）。
++++ CJA Customer Journey Analytics Workspace中的轉換資料（例如`Page Views`）不適用於報表維度（例如`Campaign`）。
 
-請確認下列事項，從最少的障礙專案開始：
+從驗證障礙最少的專案開始，驗證以下內容：
 
 * 適用的轉換量度為網頁/線上事件，Adobe Advertising可將其歸因於維度。
 
