@@ -254,7 +254,7 @@ ht-degree: 2%
             + [&#x200B; [!DNL Yahoo DSP]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
             + [&#x200B; [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
+      + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID (s_kwcid)追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 轉換追蹤 {#conversion-tracking}
       + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)
