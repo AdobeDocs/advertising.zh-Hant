@@ -13,13 +13,13 @@ AMO ID會在較不細微的層級追蹤每個不重複廣告組合，並用於[!
 
 針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar維度(AMO ID)中。
 
-對於Customer Journey Analytics，AMO ID儲存在`conversionDetails`物件的`trackingCode`屬性中，它是[ [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+對於Customer Journey Analytics，AMO ID儲存在`conversionDetails`物件的`trackingCode`屬性中，它是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 ### AMO ID格式 {#amo-id-formats}
 
-請參閱「Adobe Analytics元件指南」中AMO ID維度專案](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)的[格式。
+請參閱「Adobe Analytics元件指南」中AMO ID維度專案[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)的格式。
 
 <!--
 Legacy content:

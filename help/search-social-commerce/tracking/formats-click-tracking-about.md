@@ -4,8 +4,10 @@ description: 瞭解支援廣告網路的點選追蹤格式。
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 275
@@ -42,9 +44,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [於 [!DNL Baidu]](formats-click-tracking-baidu.md)贊助廣告的點選追蹤格式
->*  [!DNL Google Ads]](formats-click-tracking-google.md)的[點選追蹤格式
+>*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)的點選追蹤格式
 >* [於 [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)贊助廣告的點選追蹤格式
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)的[點選追蹤格式
+>*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的點選追蹤格式
 >* [於 [!DNL Naver]](formats-click-tracking-naver.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yandex]](formats-click-tracking-yandex.md)贊助廣告的點選追蹤格式
