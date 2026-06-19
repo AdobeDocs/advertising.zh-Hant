@@ -4,16 +4,12 @@ description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 **廣告變數：**&#x200B;廣告群組或廣告策略中的任何廣告。
 
-**[AMO ID](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id)：**&#x200B;追蹤程式碼，可讓Adobe Advertising與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。 它以`s_kwcid=`開頭。
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id)：**&#x200B;追蹤程式碼，可讓Adobe Advertising與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。 它以`s_kwcid=`開頭。
 
 **競標單位：**&#x200B;發出競標之單位的搜尋、社交和Commerce辭彙。
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * 對於具有[!DNL Maximize Clicks]、[!DNL Maximize Conversion Value]、[!DNL Maximize Conversions]、[!DNL Target Cost Per Acquisition]或[!DNL Target Return on Ad Spend]支出策略的行銷活動，每個行銷活動都是競標單位。
 
-* 針對[!DNL Yahoo! Display Network]上未使用關鍵字的行銷活動，廣告群組中的所有廣告都具有相同的競標，且視為相同的競標單位。
+* 針對[!DNL Yahoo DSP]上未使用關鍵字的行銷活動，廣告群組中的所有廣告都具有相同的競標，且視為相同的競標單位。
 
 **競標單位限制：**&#x200B;請參閱「限制」。
 
@@ -96,11 +92,11 @@ ht-degree: 0%
 
 **eCPM：**&#x200B;有效的CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 可以針對CPM或CPC行銷活動計算eCPM值。
 
-**[EF ID](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;追蹤程式碼可讓Adobe Advertising將活動與線上點選或廣告曝光度建立關聯，並與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id)：**&#x200B;追蹤程式碼可讓Adobe Advertising將活動與線上點選或廣告曝光度建立關聯，並與Adobe Analytics和Adobe Customer Journey Analytics共用行銷活動的相關資料。
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
+**半衰期：**將數量減少至其初始值一半所需的時間。對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
 請參閱「成本模型半衰期」和「收入模型半衰期」。
 
 ## I-J {#i-j}

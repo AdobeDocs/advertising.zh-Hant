@@ -4,11 +4,9 @@ description: 瞭解管理廣告網路行銷活動資料的不同方式。
 exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
 ht-degree: 0%
@@ -24,8 +22,8 @@ ht-degree: 0%
 
 * 選項2：從[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]上傳包含您想要之帳戶資料量的[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。 若為[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Naver]、[!DNL Yandex]和現有的[!DNL Baidu]帳戶，您可以將資料張貼至廣告網路。 針對[!DNL Naver]，您可以上傳資料以供搜尋、社交和Commerce使用，但無法將其張貼至廣告網路。
 
-  您可以選擇下載含有現有[!DNL Pinterest]、[!DNL Yahoo Native]和[!DNL Yahoo! Display Network]帳戶資料的Bulksheet檔案，但無法上傳或張貼。
+  您可以選擇下載含有現有[!DNL Pinterest]、[!DNL Yahoo DSP]和[!DNL Yahoo Native]帳戶資料的Bulksheet檔案，但無法上傳或張貼。
 
-* 選項3：設定自動化程式，以根據您在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]中建立的廣告網路特定廣告範本，[建立帳戶結構，以及針對您詳細目錄](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)中每個專案的動態廣告和關鍵字。 根據您手動上傳或上傳至FTP位置的詳細目錄資料檔案內容，或[!DNL Google Merchant Center]或[!DNL Microsoft Merchant Center]帳戶的內容建立範本。 您可以設定您的資料在建立後立即自動張貼，或是在您檢閱資料後手動張貼至廣告網路。 此選項適用於[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]帳戶。
+* 選項3：設定自動化程式，以根據您在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]中建立的廣告網路特定廣告範本，[建立帳戶結構，以及針對您詳細目錄](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)中每個專案的動態廣告和關鍵字。 根據您手動上傳或上傳至FTP位置的詳細目錄資料檔案內容，或[!DNL Google Merchant Center]或[!DNL Microsoft Merchant Center]帳戶的內容建立範本。 您可以設定您的資料在建立後立即自動張貼，或是在您檢閱資料後手動張貼至廣告網路。 此選項適用於[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]帳戶。
 
   您無法使用此方法建立版位。

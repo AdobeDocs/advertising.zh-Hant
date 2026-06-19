@@ -2,7 +2,7 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 0%
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!UICONTROL Custom Bid Level] | （只針對顯示網路的Google行銷活動）投出競價的層級為：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 廣告內文。 不同的創意型別有不同數量的必要和選用說明行。 若要在[!DNL Microsoft Advertising]個回應式廣告或多媒體廣告中檢視[!UICONTROL Description3]和[!UICONTROL Description4]欄，請在報表設定中加入&quot;[!UICONTROL Descriptions]&quot;欄。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]個回應式及多媒體廣告）為每個廣告的說明列（&quot;[!UICONTROL Description1]&quot;到&quot;[!UICONTROL Description4]&quot;）新增一欄。 包含此欄時，您不需要包含其他[!UICONTROL Description]欄。 |
-| [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Display Network]和[!DNL Yahoo Native]行銷活動）顯示廣告的裝置型別： <i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>或<i>[!UICONTROL N/A]</i> （無值）。 其他廣告網路的資料列值為N/A。<br><br>在搜尋行銷活動中，如果關鍵字、廣告和/或廣告擴充功能的追蹤範本或目的地URL包含引數，以便依裝置(`&ev_dvc={device}&ev_dvm={devicemodel}`)在廣告點按時追蹤資料，則每個裝置型別的資料列也會包含轉換資料。 否則，如果轉換資料無法歸因於裝置型別，則會將其彙總在具有「[!UICONTROL Device]」值[!UICONTROL N/A]的個別列中。 |
+| [!UICONTROL Device] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yaho DSP]和[!DNL Yahoo Native]行銷活動）顯示廣告的裝置型別： <i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Mobile]</i>、<i>[!UICONTROL Tablets]</i>、<i>[!UICONTROL Other]</i>或<i>[!UICONTROL N/A]</i> （無值）。 其他廣告網路的資料列值為N/A。<br><br>在搜尋行銷活動中，如果關鍵字、廣告和/或廣告擴充功能的追蹤範本或目的地URL包含引數，以便依裝置(`&ev_dvc={device}&ev_dvm={devicemodel}`)在廣告點按時追蹤資料，則每個裝置型別的資料列也會包含轉換資料。 否則，如果轉換資料無法歸因於裝置型別，則會將其彙總在具有「[!UICONTROL Device]」值[!UICONTROL N/A]的個別列中。 |
 | [!UICONTROL Display Path 1] | （僅限[!DNL Google Ads]個延伸文字廣告）廣告基底URL之後的第一個顯示路徑。 |
 | [!UICONTROL Display Path 2] | （僅限[!DNL Google Ads]個延伸文字廣告）廣告基底URL之後的第二個顯示路徑。 |
 | [!UICONTROL Display Type] | 已過時 |
@@ -102,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) （具有Adobe Advertising轉換追蹤服務的廣告商和具有權杖的&quot;[!UICONTROL EF Redirect]&quot;追蹤方法）點選或轉換的權杖。<ul><li>對於[!DNL Google Ads]個搜尋廣告，EF ID是`{gclid}:G:s`，其包含Google點按識別碼(GCLID)和網路型別（搜尋的網路&quot;）。</li><li> 對於[!DNL Microsoft Advertising]個搜尋廣告，EF ID是`{msclkid}:G:s`，其包含Microsoft點按識別碼(MSCLKID)和網路型別（搜尋的網路&quot;）。</li><li>若是其他廣告網路上的搜尋廣告，EF ID包含瀏覽者ID、點選時間和網路型別。</li><li>若是顯示廣告，EF ID包含瀏覽者ID、點選或曝光時間，以及網路型別。</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | （[!UICONTROL Geo Distribution Report]；僅供搜尋、社交和Commerce使用）地理位置的內部ID，用於標準化資料。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo DSP]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Engagement Rate] | （影片廣告）參與次數除以廣告顯示次數。 |
 | [!UICONTROL Engagements] | （影片廣告）使用者觀看您的廣告至少10秒的次數，或如果廣告不到10秒則為完整廣告。 |
@@ -175,7 +175,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |
