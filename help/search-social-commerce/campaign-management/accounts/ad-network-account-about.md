@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 透過API同步的帳戶
 
-*[!DNL Google Ads]、[!DNL LY Ads] （先前為[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yahoo! Display Network]、[!DNL Yandex]和現有的[!DNL Baidu]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （先前為[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yahoo DSP] （先前為[!DNL Yahoo! Display Network]）、[!DNL Yandex]和現有的[!DNL Baidu]帳戶*
 
-搜尋、Social和Commerce會同步（*同步*）支援的廣告網路帳戶，以便您可以追蹤、報告和視覺化廣告的效能。 對於[!DNL Yahoo! Display Network]以外的所有廣告網路，您可以選擇在Search、Social和Commerce中管理您帳戶的行銷活動；[!DNL Yahoo! Display Network]，行銷活動為唯讀。 針對所有廣告網路，您可以允許最佳化功能，將行銷活動新增至產品組合，以最佳化受管理帳戶中行銷活動的出價、行銷活動預算及行銷活動競標策略目標。
+搜尋、Social和Commerce會同步（*同步*）支援的廣告網路帳戶，以便您可以追蹤、報告和視覺化廣告的效能。 針對[!DNL Yahoo DSP]以外的所有廣告網路，您可以選擇在Search、Social和Commerce中管理您帳戶的促銷活動。 [!DNL Yahoo DSP]，行銷活動為唯讀。 針對所有廣告網路，您可以允許最佳化功能，將行銷活動新增至產品組合，以最佳化受管理帳戶中行銷活動的出價、行銷活動預算及行銷活動競標策略目標。
 
 若要啟用帳戶同步處理，帳戶記錄必須包含帳戶存取認證，並且必須啟用（作用中）。
 

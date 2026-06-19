@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 2%
@@ -251,7 +251,7 @@ ht-degree: 2%
             + [&#x200B; [!DNL LY Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
             + [&#x200B; [!DNL Naver]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo DSP]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
             + [&#x200B; [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
@@ -388,7 +388,7 @@ ht-degree: 2%
             + [&#x200B; [!DNL LY Ads] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [&#x200B; [!DNL Naver] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo DSP] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
             + [&#x200B; [!DNL Yandex] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 使用詳細目錄摘要自動化行銷活動資料 {#inventory-feeds}
          + [關於使用庫存摘要自動化廣告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)

@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 275
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
 
    * `c?`或`r`表示已停用Token傳遞。
 
-* `<ad network ID>`是指定廣告網路數值ID的變數，例如[!DNL Google Ads]的&#x200B;*3*、[!DNL Microsoft Advertising]的&#x200B;*10*、[!DNL Meta]的&#x200B;*45*、[!DNL Yahoo! Display Network]的&#x200B;*86*、[!DNL Naver]的&#x200B;*87*、[!DNL Baidu]的&#x200B;*88*、[!DNL Yandex]的&#x200B;*90*、*94*&#x200B;的[!DNL LY Ads] （以前為[!DNL Yahoo! Japan Ads]）、*105* （對於[!DNL Yahoo Native]） （已棄用）或&#x200B;*106* （對於[!DNL Pinterest]）。
+* `<ad network ID>`是指定廣告網路數值ID的變數，例如[!DNL Google Ads]的&#x200B;*3*、[!DNL Microsoft Advertising]的&#x200B;*10*、[!DNL Meta]的&#x200B;*45*、[!DNL Yahoo DSP]的&#x200B;*86*、[!DNL Naver]的&#x200B;*87*、[!DNL Baidu]的&#x200B;*88*、[!DNL Yandex]的&#x200B;*90*、*94*&#x200B;的[!DNL LY Ads] （以前為[!DNL Yahoo! Japan Ads]）、*105* （對於[!DNL Yahoo Native]） （已棄用）或&#x200B;*106* （對於[!DNL Pinterest]）。
 
 * `<tracking ID>`是系統產生的追蹤ID字串的變數，可識別帳戶中唯一的關鍵字、廣告或位置。 字串會因廣告網路而異。
 
 * `<the landing page>`是變數，代表一般使用者在網站上導向的URL。 對於具有目的地URL的帳戶，此值是一個URL。 對於具有追蹤範本的帳戶，此值是代表最終URL的引數（例如`{lpurl}`）。
 
-請參閱個別頁面，指出[[!DNL Baidu] 格式](formats-click-tracking-baidu.md)、[[!DNL Google Ads] 格式](formats-click-tracking-google.md)、[[!DNL Microsoft Advertising] 格式](formats-click-tracking-microsoft.md)、[[!DNL Naver] 格式](formats-click-tracking-naver.md)、[[!DNL Yahoo! Display Network] 格式](formats-click-tracking-yahoo-display-network.md)、[[!DNL Yahoo! Japan Ads] 格式](formats-click-tracking-yahoo-japan.md)和[[!DNL Yandex] 格式](formats-click-tracking-yandex.md)。
+請參閱個別頁面，指出[[!DNL Baidu] 格式](formats-click-tracking-baidu.md)、[[!DNL Google Ads] 格式](formats-click-tracking-google.md)、[[!DNL Microsoft Advertising] 格式](formats-click-tracking-microsoft.md)、[[!DNL Naver] 格式](formats-click-tracking-naver.md)、[[!DNL Yahoo DSP] 格式](formats-click-tracking-yahoo-display-network.md)、[[!DNL Yahoo! Japan Ads] 格式](formats-click-tracking-yahoo-japan.md)和[[!DNL Yandex] 格式](formats-click-tracking-yandex.md)。
 
 >[!MORELIKETHIS]
 >
@@ -48,5 +48,5 @@ ht-degree: 0%
 >* [於 [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)贊助廣告的點選追蹤格式
 >*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)的點選追蹤格式
 >* [於 [!DNL Naver]](formats-click-tracking-naver.md)贊助廣告的點選追蹤格式
->* [於 [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)贊助廣告的點選追蹤格式
+>* [於 [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)贊助廣告的點選追蹤格式
 >* [於 [!DNL Yandex]](formats-click-tracking-yandex.md)贊助廣告的點選追蹤格式

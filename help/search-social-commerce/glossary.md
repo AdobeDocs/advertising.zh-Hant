@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 對於具有[!DNL Maximize Clicks]、[!DNL Maximize Conversion Value]、[!DNL Maximize Conversions]、[!DNL Target Cost Per Acquisition]或[!DNL Target Return on Ad Spend]支出策略的行銷活動，每個行銷活動都是競標單位。
 
-* 針對[!DNL Yahoo! Display Network]上未使用關鍵字的行銷活動，廣告群組中的所有廣告都具有相同的競標，且視為相同的競標單位。
+* 針對[!DNL Yahoo DSP]上未使用關鍵字的行銷活動，廣告群組中的所有廣告都具有相同的競標，且視為相同的競標單位。
 
 **競標單位限制：**&#x200B;請參閱「限制」。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
+**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
 請參閱「成本模型半衰期」和「收入模型半衰期」。
 
 ## I-J {#i-j}

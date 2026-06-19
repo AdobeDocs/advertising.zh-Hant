@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2938
+source-wordcount: 2893
 ht-degree: 0%
 
 ---
@@ -64,9 +64,8 @@ ht-degree: 0%
 | [!DNL Microsoft Advertising] | 購物網路：智慧購物 | 智慧型購物（搜尋、社交和Commerce中的Beta功能） | 產品廣告 | 預設透過API自動同步，但可以[選擇退出](/help/search-social-commerce/tools/sync-inventory.md) | 無建立/編輯選項 | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 搜尋僅在混合產品組合中使用[!UICONTROL Maximize Conversion Value]和[!UICONTROL tROAS]競標策略的行銷活動<br><br>目標必須僅包含[!DNL Adobe]個量度，而且您必須啟用將搜尋、社交和Commerce目標上傳到[!DNL Microsoft Advertising]。 | 廣告層級資料<br><br>若要檢視哪些個別轉換是由購物廣告的點選所產生，請產生[交易報告](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)；產品清單的[!UICONTROL Link Type]欄是`pla:&lt;product ID&gt;`，例如pla:8525822。 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
 | [!DNL Naver] | 搜尋網路 | 網站 | 文字廣告 | —<br><br>沒有同步處理，但您可以手動復寫帳戶結構，並上傳報告和轉換歸因的每日流量量度<br><br>請參閱[實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)。 | 沒有建立/編輯選項<br><br>您可以使用[Bulksheet範本](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)手動復寫/編輯帳戶結構。 | 是，當您將點選追蹤標籤新增至廣告網路內的關鍵字設定時 | —<br><br>沒有競標 | 廣告層級資料 | 將[!DNL Analytics]資料新增至「搜尋」、「社交」和「Commerce」，反之亦然 |
 | [!DNL Pinterest] （同步處理支援已於2022年結束） | 搜尋網路 | 僅含搜尋版位的流量行銷活動，以及具有關鍵字定位的廣告群組 | 提升圖釘 | 沒有截至2022年7月21日的同步<br><br>舊帳戶資訊以唯讀形式提供。 | 無建立/編輯選項 | — | — | 舊版廣告層級的曝光數和Pinterest的點按數（無收入）已同步到2022年7月21日。 | 將[!DNL Analytics]資料新增至「搜尋」、「社交」和「Commerce」，反之亦然 |
-| [!DNL Yahoo! Display Network] | 顯示網路 | 顯示 | 橫幅廣告、回應式影像廣告 | 透過API自動同步，但唯讀 | 無建立/編輯選項 | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 只有[!UICONTROL Manual CPC]競標策略的行銷活動<br><br>相同的競標會套用至廣告群組中的所有廣告。 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
-| [!DNL Yahoo! Display Network] | 搜尋網路 | 搜尋 | 文字廣告（長與短） | 透過API自動同步 | 無建立/編輯選項 | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 僅限使用手動CPC競標策略的行銷活動<br><br>相同競標會套用至廣告群組中的所有廣告。 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
-| [!DNL Yahoo Native] （同步處理支援已於2022年結束） | 原生網路 | 原生 | 文字廣告 | 沒有截至2022年3月10日的同步<br><br>舊帳戶資訊以唯讀形式提供。 | 無建立/編輯選項 | — | — | —<br><br>已同步至2022年3月10日的舊版廣告層級資料。 | 將[!DNL Analytics]資料新增至「搜尋」、「社交」和「Commerce」，反之亦然 |
+| [!DNL Yahoo DSP] （先前為[!DNL Yahoo! Display Network]） | 顯示網路 | 顯示 | 橫幅廣告、回應式影像廣告 | 透過API自動同步，但唯讀 | 無建立/編輯選項 | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 只有[!UICONTROL Manual CPC]競標策略的行銷活動<br><br>相同的競標會套用至廣告群組中的所有廣告。 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
+| [!DNL Yahoo DSP] （先前為[!DNL Yahoo! Display Network]） | 搜尋網路 | 搜尋 | 文字廣告（長與短） | 透過API自動同步 | 無建立/編輯選項 | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | 僅限使用手動CPC競標策略的行銷活動<br><br>相同競標會套用至廣告群組中的所有廣告。 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
 | [!DNL Yandex] | 搜尋網路 | 搜尋 | 文字廣告 | 透過API自動同步 | 使用[行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)、[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)和[庫存管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)來建立/編輯 | 是 | 僅具有CPC競標策略的行銷活動 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
 | [!DNL Yandex] | 顯示網路 | 顯示/內容 | 文字廣告 | 透過API自動同步 | 使用[行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)、[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)和[庫存管理摘要](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)來建立/編輯 | 是 | 僅具有CPC競標策略的行銷活動 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
 

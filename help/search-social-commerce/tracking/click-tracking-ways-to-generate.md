@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!DNL Google Ads] | 電話分機 | 不適用 |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | 產品廣告 | <ul><li>[!DNL Microsoft Merchant Center]帳戶：使用[購物廣告的追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)，手動建立[!DNL Microsoft Merchant Center]帳戶中每個產品的追蹤URL，並手動將其新增至帳戶、行銷活動或產品群組設定中的[!UICONTROL Tracking Template]欄位。<br><br>或者，您也可以將追蹤URL新增至[!DNL Microsoft Merchant Center account]內的產品資料。 若要這麼做，請在產品摘要[&#128279;](https://help.ads.microsoft.com/#apex/3/en/51084)內的自訂欄「[!DNL bingads_redirect]」中，加入追蹤URL以及適當的「[!DNL link]」或「[!DNL mobile_link]」欄位中的值。 「[!DNL bingads_redirect]」欄位中的值會取代「[!DNL link]」和「[!DNL mobile_link]」欄位中的值。 使用此方法產生的URL不包含帳戶設定中指定的任何追蹤引數。<br><br><b>注意：</b>同步期間自動上傳追蹤的帳戶層級和促銷活動層級功能，不會產生新[!DNL Microsoft Advertising]產品群組的追蹤。 因應措施是在您上傳或張貼大量表單時產生追蹤。</li><li>[!DNL Google Merchant Center]帳戶：使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，並手動將其新增至帳戶、行銷活動或產品群組設定中的[!UICONTROL Tracking Template]欄位。</li></ul> |
 | [!DNL Naver] | 關鍵字 | 您可以透過[大量工作表](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)為所有廣告設定點選追蹤。 或者，您也可以手動產生廣告的追蹤URL，並使用廣告網路的編輯器手動將其新增至廣告設定。 請參閱&quot;[實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)&quot;。 |
-| [!DNL Yahoo! Display Network] | 文字和顯示廣告 | 當作用中行銷活動的追蹤設定包含選項&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot; （在行銷活動層級設定或繼承自帳戶設定）時，您不需要產生廣告的追蹤URL。 搜尋、Social和Commerce會在每次與廣告網路同步時，自動建立並上傳內嵌追蹤程式碼的新目的地URL至廣告網路。<br><br>如果[!UICONTROL Auto Upload]選項已停用，則您可以使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，並使用廣告網路的編輯器手動將其新增至廣告設定。 |
+| [!DNL Yahoo DSP] | 文字和顯示廣告 | 當作用中行銷活動的追蹤設定包含選項&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot; （在行銷活動層級設定或繼承自帳戶設定）時，您不需要產生廣告的追蹤URL。 搜尋、Social和Commerce會在每次與廣告網路同步時，自動建立並上傳內嵌追蹤程式碼的新目的地URL至廣告網路。<br><br>如果[!UICONTROL Auto Upload]選項已停用，則您可以使用[[!UICONTROL Tracking URLs]工具](/help/search-social-commerce/tools/click-tracking-url-generate.md)產生追蹤URL，並使用廣告網路的編輯器手動將其新增至廣告設定。 |
 
 >[!MORELIKETHIS]
 >

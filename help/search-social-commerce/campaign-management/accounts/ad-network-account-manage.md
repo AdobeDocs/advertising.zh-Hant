@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ ht-degree: 0%
 >* [!UICONTROL Auto Upload]追蹤設定未更新此欄位。
 >* 較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用廣告網路的編輯器。
 
-**時區：** （除[!DNL Baidu]和[!DNL Yahoo! Display Network]以外的所有廣告網路）廣告商的時區。 此欄位可供新[!DNL Naver]帳戶編輯及選用。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告商的搜尋、社交和Commerce帳戶設定的時區自動填入值。
+**時區：** （除[!DNL Baidu]和[!DNL Yahoo DSP]以外的所有廣告網路）廣告商的時區。 此欄位可供新[!DNL Naver]帳戶編輯及選用。 對於所有其他搜尋網路，當您儲存記錄後，系統會以廣告商的搜尋、社交和Commerce帳戶設定的時區自動填入值。
 
 **狀態：**&#x200B;搜尋、社交和Commerce中的帳戶狀態：
 
