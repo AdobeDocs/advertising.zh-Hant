@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 對於具有目的地URL的帳戶，請在適當的[!UICONTROL Base URL]欄位中輸入值。
 
-對於具有最終URL的帳戶，請在適當的[!UICONTROL Tracking Template]欄位中輸入熒幕上的值。 您必須在`&url=`引數（例如`{lpurl}`）之後新增最終URL的引數。 對於[!DNL Yahoo! Japan Ads]帳戶，請使用引數`{lpurl}`。 如需表示追蹤範本中最終URL的[!DNL Google Ads]和[!DNL Microsoft Advertising]引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348) （請參閱「可用的[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數）和[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2)。
+對於具有最終URL的帳戶，請在適當的[!UICONTROL Tracking Template]欄位中輸入熒幕上的值。 您必須在`&url=`引數（例如`{lpurl}`）之後新增最終URL的引數。 對於[!DNL LY Ads]帳戶，請使用引數`{lpurl}`。 如需表示追蹤範本中最終URL的[!DNL Google Ads]和[!DNL Microsoft Advertising]引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348) （請參閱「可用的[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數）和[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2)。
 
 >[!MORELIKETHIS]
 >

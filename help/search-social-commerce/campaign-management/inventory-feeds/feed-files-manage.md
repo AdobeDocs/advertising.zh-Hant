@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 管理詳細目錄資料摘要檔案
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 如果您提交自己的摘要資料，則必須上傳包含產品資料的檔案，以根據產品資料動態建立行銷活動結構、廣告和關鍵字。 然後，您可以將其與廣告網路特定的廣告範本建立關聯，並透過範本處理資料，最終將資料發佈到相關的廣告網路。 您可以將多個範本與一個摘要檔案相關聯，但每個範本只能與一個摘要檔案相關聯。
 

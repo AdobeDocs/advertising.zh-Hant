@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 手動同步處理廣告網路資料
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和現有的[!DNL Baidu]帳戶僅限*
+*[!DNL Google Ads]、[!DNL LY Ads] （先前為[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yandex]，且僅限現有[!DNL Baidu]帳戶*
 
 同步是Search、Social和Commerce在[支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)上收集每個廣告商已連線廣告網路帳戶之更新資訊的程式。 此資料包含廣告商的促銷活動結構和促銷活動實體，包括在「搜尋」、「社交」和「Commerce」中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾詞，這些資料會單獨收集。
 

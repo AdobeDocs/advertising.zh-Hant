@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 410
 ht-degree: 0%
 
 ---
 
 # 管理可競標的關鍵字
 
-僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和現有[!DNL Baidu]帳戶*
+僅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和現有[!DNL Baidu]帳戶*
 
 您可以在[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)中建立並編輯搜尋廣告群組的關鍵字，這些行銷活動型別是以[同步化的廣告網路帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)中的搜尋和顯示/原生網路為目標
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 選取廣告網路、帳戶、行銷活動和廣告群組，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 輸入[[!DNL Baidu] 關鍵字設定](keyword-settings-baidu.md)、[[!DNL Google Ads] 關鍵字設定](keyword-settings-google.md)、[[!DNL Microsoft Advertising] 關鍵字設定](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)或[[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)。
+1. 輸入[[!DNL Baidu] 關鍵字設定](keyword-settings-baidu.md)、[[!DNL Google Ads] 關鍵字設定](keyword-settings-google.md)、[[!DNL LY Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)、[[!DNL Microsoft Advertising] 關鍵字設定](keyword-settings-microsoft.md)或[[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)。
 
    您最多可以在一個作業中輸入或貼上2000個關鍵字。 請使用逗號分隔多個關鍵字，或在不同的行中輸入這些關鍵字。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-1. 編輯[[!DNL Baidu] 關鍵字設定](keyword-settings-baidu.md)、[[!DNL Google Ads] 關鍵字設定](keyword-settings-google.md)、[[!DNL Microsoft Advertising] 關鍵字設定](keyword-settings-microsoft.md)、[[!DNL Yahoo! Japan Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)或[[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)。
+1. 編輯[[!DNL Baidu] 關鍵字設定](keyword-settings-baidu.md)、[[!DNL Google Ads] 關鍵字設定](keyword-settings-google.md)、[[!DNL LY Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)、[[!DNL Microsoft Advertising] 關鍵字設定](keyword-settings-microsoft.md)或[[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)。
 
    對於多個關鍵字，您只能編輯所有選定關鍵字的共同欄位，並且您的變更會套用到所有選定的關鍵字。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 >* [關於關鍵字](keyword-about.md)
 >* [[!DNL Baidu] 關鍵字設定](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] 關鍵字設定](keyword-settings-google.md)
+>* [[!DNL LY Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 關鍵字設定](keyword-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 關鍵字設定](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 關鍵字設定](keyword-settings-yandex.md)
 >* [建立負關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [變更關鍵字和負關鍵字的狀態](keyword-status-edit.md)

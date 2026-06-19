@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ AMO ID會在較不細微的層級追蹤每個不重複廣告組合，並用於[!
 
 針對[!DNL Analytics]，AMO ID儲存在[eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)或rVar維度(AMO ID)中。
 
-對於Customer Journey Analytics，AMO ID儲存在`trackingCode`物件的`conversionDetails`屬性中，它是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+對於Customer Journey Analytics，AMO ID儲存在`conversionDetails`物件的`trackingCode`屬性中，它是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 AMO ID也稱為`s_kwcid`，有時發音為&quot;[!DNL squid]&quot;。
 
 ### AMO ID格式 {#amo-id-formats}
 
-請參閱「Adobe Analytics元件指南」中AMO ID維度專案[的](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)格式。
+請參閱「Adobe Analytics元件指南」中AMO ID維度專案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)的格式。
 
 <!--
 Legacy content:
@@ -64,7 +64,7 @@ The parameters vary by ad network, but the following parameters are common to al
 
 * `{userid}` is a unique user ID assigned to the advertiser.
 
-* `{sid}` is replaced by the numeric ID for the advertiser's ad network account: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (deprecated), or *106* for [!DNL Pinterest] (deprecated).
+* `{sid}` is replaced by the numeric ID for the advertiser's ad network account: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL LY Ads (formerly Yahoo! Japan) Ads], *105* for [!DNL Yahoo Native] (deprecated), or *106* for [!DNL Pinterest] (deprecated).
 
 ##### [!DNL Baidu]
 
@@ -129,7 +129,7 @@ where:
 >* Audience network campaigns:
 >  `s_kwcid=AL!{userid}!10!{AdId}`
 
-##### [!DNL Yahoo! Japan Ads]
+##### [!DNL LY Ads (formerly Yahoo! Japan) Ads]
 
 `s_kwcid=AL!{userid}!94!{creative}!{matchtype}!{network}!{keyword}`
 

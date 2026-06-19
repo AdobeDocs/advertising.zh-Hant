@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Yahoo! Japan Ads]的點選追蹤格式'
-description: 瞭解 [!DNL Yahoo! Japan Ads] 帳戶的點選追蹤格式。
+title: ' [!DNL LY Ads]的點選追蹤格式'
+description: 瞭解 [!DNL LY Ads] 帳戶的點選追蹤格式。
 exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/ZFNzA0bfxKhlNW6fvPWMwBc4naT7rOhvym-wSpxvYXg
@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 101
+source-wordcount: 115
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads]上贊助廣告的點選追蹤格式
+# [!DNL LY Ads]上贊助廣告的點選追蹤格式
 
 下列基本追蹤範本格式適用於贊助廣告：
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}`
 
-或者，當在[!DNL Yahoo! Japan Ads]中為帳戶設定自動標籤選項時：
+或者，當在[!DNL LY Ads]中為帳戶設定自動標籤選項時：
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}/?yclid=<yclid>`
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* `<the landing page>`是變數，代表一般使用者在網站上導向的URL。
 

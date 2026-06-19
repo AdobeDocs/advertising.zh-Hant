@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 管理修飾元
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 修飾詞是形容詞或副詞，可在句子中新增或移除而不變更基本句子結構。 您可以建立修飾元群組，以便在摘要資料範本的各種資料欄位中作為變數使用。 您可以在帳戶結構（行銷活動和廣告群組）欄位、關鍵字、基本URL和廣告中包含修飾元，為每個關聯的修飾元值建立一個值。 例如，如果您在廣告標題中使用修飾元群組變數，且修飾元群組包含三個修飾元（「便宜」、「折扣」及「經濟適用」），則系統會為資料摘要中的每個資料列建立三個個別的廣告，每個修飾元各一個。 同樣地，如果您在廣告群組的基礎URL中加入含有多個值的修飾元群組，則會為每個產生的基礎URL建立一組關鍵字。
 

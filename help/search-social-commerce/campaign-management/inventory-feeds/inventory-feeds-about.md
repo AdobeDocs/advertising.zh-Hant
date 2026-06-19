@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # 關於使用庫存摘要自動化廣告管理
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 進階行銷活動管理的[!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)]檢視可讓您根據產品或服務詳細目錄的相關資料，自動建立和更新廣告網路帳戶結構，並提供動態廣告。 您可以每天或視需要隨時上傳含有產品資料的新檔案，或直接連結至[!DNL Google]或[!DNL Microsoft]商家中心帳戶。 使用功能可以：
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 範本的[!UICONTROL Ad Variation]區段 | 搜尋、社交和Commerce中的修飾元 | 摘要內容 | 產生的廣告 |
 |----|----|----|----|
-| 標題：購買高階\{<i>產品類別</i>\} &lt;<i>便宜清單</i>>。<br><br>說明1： \{<i>產品名稱</i>\}庫存量龐大。<br><br>說明2：折扣百分比為\{<i>\</i>\}%。 | 修飾元群組&quot;CoeableList&quot;的值：<br><br>&quot;for coeable&quot;<br><br>&quot;at discount&quot; | 產品類別、產品名稱、折扣百分比<br>電子產品、iPod、10<br><br>服飾、襯衫、15<br><br><b>注意：</b>您可以使用逗號或索引標籤來分隔值。 | <u>以低廉價格購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>以折扣價購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>廉價購買高檔服裝。</u><br>大量的T恤。 可享受15%的折扣。<br><br><u>購買高檔服裝可享有折扣。</u><br>大量的T恤。 可享受15%的折扣。 |
+| 標題：購買高階\{<i>產品類別</i>\} &lt;<i>便宜清單</i>>。<br><br>說明1： \{<i>產品名稱</i>\}的庫存量龐大。<br><br>說明2：折扣百分比</i>\&rbrace;% \&lbrace;<i>提供。 | 修飾元群組&quot;CoeableList&quot;的值：<br><br>&quot;for coeable&quot;<br><br>&quot;at discount&quot; | 產品類別、產品名稱、折扣百分比<br>電子產品、iPod、10<br><br>服飾、襯衫、15<br><br><b>注意：</b>您可以使用逗號或索引標籤來分隔值。 | <u>以低廉價格購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>以折扣價購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>廉價購買高檔服裝。</u><br>大量的T恤。 可享受15%的折扣。<br><br><u>購買高檔服裝可享有折扣。</u><br>大量的T恤。 可享受15%的折扣。 |
 
 廣告產生後，您可以選擇檢閱廣告，然後張貼至廣告網路。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 使用詳細目錄摘要管理行銷活動資料的工作流程
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 起初，請至少測試一個摘要檔案或帳戶，然後您可以完全自動化此程式，或繼續在每個步驟控制此程式：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    如果您使用FTP，一開始請勿自動將資料張貼至廣告網路。 驗證第一個檔案的輸出並對結果滿意後，您可以變更設定。
 
-1. 將資料檔案上傳至FTP目錄、[在](feed-files-manage.md)中手動上傳資料檔案[!UICONTROL Advanced (ACM) view]，或[啟用Google或Microsoft商家中心帳戶的存取權](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
+1. 將資料檔案上傳至FTP目錄、[在[!UICONTROL Advanced (ACM) view]中手動上傳資料檔案](feed-files-manage.md)，或[啟用Google或Microsoft商家中心帳戶的存取權](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)。
 
 若要手動上傳檔案，您可以等到您建立使用資料檔案的範本為止。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. [透過範本傳播摘要資料](feed-data-propagate.md)，範本中的資料行名稱會以檔案或帳戶中的資料取代。 根據範本選項，搜尋、Social和Commerce會使用預設設定為廣告建立新的帳戶結構（促銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 
-1. （選擇性） [在](propagated-data-view.md)檢視中預覽輸出[!UICONTROL Advanced (ACM)]，並選擇性地檢視[!UICONTROL Propagations]標籤上的資料變更摘要。
+1. （選擇性） [在[!UICONTROL Advanced (ACM)]檢視中預覽輸出](propagated-data-view.md)，並選擇性地檢視[!UICONTROL Propagations]標籤上的資料變更摘要。
 
 1. [將資料](propagated-data-post.md)張貼到相關的廣告網路帳戶。
 

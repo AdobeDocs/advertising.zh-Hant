@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | 對象的狀態。 |
 | [!UICONTROL Average CPC] | 每次點按的平均成本。 |
 | [!UICONTROL Average CPM] | 每千（毫秒）曝光的平均成本。 |
-| [!UICONTROL Average Position]，[!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL LY Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]個報告）與競標關鍵字關聯的符合型別。 |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report])行銷活動預算。 |
 | [!UICONTROL Campaign Name] | 行銷活動。 |
@@ -94,11 +94,11 @@ ht-degree: 0%
 | [!UICONTROL Cost Per Conversion] | （[!UICONTROL Google AI Max Search Term Combination Report]和[!UICONTROL MSA Ad Extension]個報告）)廣告互動的成本除以轉換。 對於Google Ads，這僅包括已啟用「包含在轉換中」的轉換動作轉換。 |
 | [!UICONTROL Country] | （[!UICONTROL AdWords Geo Report]和[!UICONTROL Bing Ads Geo Report]）產生點按的國家/地區。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL CPC] | 指定日期範圍內廣告的每次點按成本(CPC)。 |
-| [!UICONTROL Creative Description 1]，[!UICONTROL Creative Description 2] | 廣告的第一行和第二行。 |
+| [!UICONTROL Creative Description 1], [!UICONTROL Creative Description 2] | 廣告的第一行和第二行。 |
 | [!UICONTROL Creative Destination URL] | 廣告的最終URL或目的地URL （包括任何追蹤引數）。 |
 | [!UICONTROL Creative Display URL] | 廣告的顯示URL，這是一般使用者在廣告中看到的內容。 |
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]個報告）廣告的狀態。 |
-| [!UICONTROL Creative Name] | （交易報告；僅限[!DNL Yahoo! Japan]）廣告影像名稱。 |
+| [!UICONTROL Creative Name] | （交易報告；僅限[!DNL LY Ads]）廣告影像名稱。 |
 | [!UICONTROL Creative Title] | 廣告的標題或標題。 |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])當使用者在單一裝置上點選廣告，然後在不同的裝置或瀏覽器上轉換時產生的轉換。 所有轉換均包含跨裝置轉換。 |
 | [!UICONTROL CTR] | 點進率，即點按次數除以所包含廣告的曝光次數。 |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 會針對CPM或CPC行銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native] （已棄用），或<i>[!UICONTROL 106]</i>的[!DNL Pinterest] （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension]個報告）擴充功能的[顯示名稱](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]個報告）廣告延伸型別識別碼。 |
@@ -146,7 +146,7 @@ ht-degree: 0%
 | [!UICONTROL Network Asset Group ID] | 由網路指派的資產群組ID。 |
 | [!UICONTROL Network Asset Group Name] | 資產群組名稱。 |
 | [!UICONTROL Network Campaign ID] | 網路指派的行銷活動ID。 |
-| [!UICONTROL Network Type] | 顯示廣告的網路：<ul><li>*[!UICONTROL google_search]*： [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*： [!DNL Google Display Network]</li></ul> |
+| [!UICONTROL Network Type] | 顯示廣告的網路：<ul><li>*[!UICONTROL google_search]*: [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*: [!DNL Google Display Network]</li></ul> |
 | [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report])可附加至廣告顯示URL的第一組文字。 |
 | [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report])可附加至廣告顯示URL的第二組文字；只有在指定Path1值時，才能使用此欄位。 |
 | [!UICONTROL Placement] | ([!UICONTROL Google Performance Max Placement Report])位置的名稱。 |
@@ -179,7 +179,7 @@ ht-degree: 0%
 | [!UICONTROL Search IS% Lost to Budget] | （[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）由於您的每日或每月預算太低，廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)] | （僅限[!DNL Microsoft Advertising]；[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]；僅截至2019年10月11日可用的資料）由於關鍵字關聯性不足，廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Search IS% Lost to Page Relevance (Bing)] | （僅限[!DNL Microsoft Advertising]；[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]；僅截至2019年10月11日可用的資料）由於頁面關聯性不足，廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
-| [!UICONTROL Search IS% Lost to Rank] | （[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）由於廣告排名不足，您的廣告在搜尋網路上未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。<br><br><b>注意：</b> [!DNL Microsoft Advertising]行銷活動的資料只能在2019年10月11日之前使用。 |
+| [!UICONTROL Search IS% Lost to Rank] | （[!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）由於廣告排名不足，您的廣告在搜尋網路上未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`。&quot;<br><br><b>注意： [!DNL Microsoft Advertising]行銷活動的資料只能使用到2019年10月11日。</b> |
 | [!UICONTROL Search lost abs. top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]； [!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）您的廣告不是優先於自然搜尋結果之廣告的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會表示為&quot;>90%&quot;或&quot;0.9001&quot;。 |
 | [!UICONTROL Search lost abs. top IS (rank)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]； [!UICONTROL Campaign Daily Impression Share Report]和[!UICONTROL Keyword Daily Impression Share Report]）由於廣告排名不佳，您的廣告不是優先於有機搜尋結果的時間百分比。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]； [!UICONTROL Keyword Daily Impression Share Report]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |

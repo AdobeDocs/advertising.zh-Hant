@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Adobe會與每個廣告商合作，設定其廣告網路帳戶和行銷活動。
 
       * (Google Ads、Microsoft Advertising、Yahoo！ 僅限廣告和Yandex帳戶)設定[自動化程式，以根據您建立的廣告網路特定廣告範本，以及您上傳至FTP位置的詳細目錄資料檔案內容，建立針對詳細目錄中的每個專案的動態廣告和關鍵字](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。
 
-      * (百度、Google Ads、Microsoft Advertising、Yahoo！ Japan Ads，僅限Yandex帳戶)上傳[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的帳戶資料量，然後再張貼至廣告網路。
+      * （僅限Baidu、Google Ads、[!DNL LY Ads]、Microsoft Advertising和Yandex帳戶）上傳[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的帳戶資料量，然後再張貼至廣告網路。
 
-      * (百度、Google Ads、Microsoft Advertising、Yahoo！ Japan Ads （僅限Yandex帳戶）將個別元件的資料直接輸入介面。 對於大多數行銷活動和廣告型別，您可以在行銷活動層級、廣告群組層級，以及個別關鍵字、版位和廣告層級建立資料。
+      * （僅限百度、Google Ads、[!DNL LY Ads]、Microsoft Advertising和Yandex帳戶）將個別元件的資料直接輸入介面。 對於大多數行銷活動和廣告型別，您可以在行銷活動層級、廣告群組層級，以及個別關鍵字、版位和廣告層級建立資料。
 
       然而，有些行銷活動和廣告型別需要唯一的工作流程。 請參閱設定[[!DNL Microsoft Advertising] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)、[[!DNL Google Ads] 動態搜尋廣告](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)、[[!DNL Google Ads] 最高成效行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)和[[!DNL Google Ads] 購物行銷活動](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)的說明。
 
@@ -69,7 +69,7 @@ Adobe會與每個廣告商合作，設定其廣告網路帳戶和行銷活動。
 
    1. 設定轉換追蹤。 根據實作，這可能涉及將轉換追蹤標籤新增到廣告商的網頁，和/或針對廣告商已單獨收集的轉換資料設定每日摘要拖放。
 
-      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[&#x200B; （先前稱為Adobe Experience Platform Launch）的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=zh-Hant)標籤。
+      如果您使用Adobe Advertising轉換追蹤服務，便可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=zh-Hant) （先前稱為Adobe Experience Platform Launch）的標籤。
 
    1. 驗證所追蹤的資料。
 

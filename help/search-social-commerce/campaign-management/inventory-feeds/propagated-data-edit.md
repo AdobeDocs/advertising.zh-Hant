@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 0%
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 編輯從摘要產生的資料
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 當您傳播摘要資料而不將其同時張貼至廣告網路時，您可以透過下列其中一種方式來編輯資料。 您稍後可以選擇從任一位置[張貼資料](propagated-data-post.md)至相關廣告網路：
 
 * 如果您使用&quot;[!UICONTROL Propagate and Preview]&quot;的選項，則您可以編輯產生的大量表單檔案（名為&quot;`<feed file name>_<template name>`&quot;），方法是從[!UICONTROL Bulksheets]檢視下載該檔案，編輯該檔案，然後再次上傳。 [!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤上未包含任何資料。
 
-* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[[!UICONTROL New]、](propagated-data-status.md)、[!UICONTROL Campaigns]和[!UICONTROL Ad Groups]索引標籤，編輯行銷活動階層檢視中[!UICONTROL Keywords]狀態為[!UICONTROL Ads]之元件的已產生資料。
+* 如果您使用「[!UICONTROL Propagate only]」選項，則可以從[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤，編輯行銷活動階層檢視中[[!UICONTROL New]狀態為](propagated-data-status.md)之元件的已產生資料。
 
   行銷活動階層檢視只會顯示摘要檔案產生的資料，不會顯示現有的帳戶元件。 元件及其所有子元件的資料發佈至廣告網路後，即不再列於行銷活動階層中。
 

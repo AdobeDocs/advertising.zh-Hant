@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # 透過範本傳播詳細目錄摘要資料
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 在您建立廣告網路專屬摘要範本，並將摘要檔案或[!DNL Google]或[!DNL Microsoft]商家中心帳戶與其建立關聯後，您可以根據[摘要資料設定](feed-settings-manage.md)，透過範本傳播摘要資料，以動態建立廣告。 在傳播期間，範本中的欄名稱會由摘要中的資料值取代，而除非範本另有指定，否則產生的行銷活動及其元件會具有預設設定。 根據範本選項，搜尋、Social和Commerce會為廣告建立新的帳戶結構（促銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 

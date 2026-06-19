@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads]關鍵字設定'
-description: 參考 [!DNL Yahoo! Japan Ads] 關鍵字的設定。
+title: '[!DNL LY Ads]關鍵字設定'
+description: 參考 [!DNL LY Ads] 關鍵字的設定。
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
@@ -10,25 +10,25 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads]關鍵字設定
+# [!DNL LY Ads]關鍵字設定
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]：**&#x200B;關鍵字。 長度上限為80個字元，包括關鍵字的任何[[!DNL Yahoo! Japan Ads] 相符型別語法](https://ads-help.yahoo-net.jp/s/article/H000044997)。
+**[!UICONTROL Keywords]：**&#x200B;關鍵字。 長度上限為80個字元，包括關鍵字的任何[[!DNL LY Ads] 相符型別語法](https://ads-help.yahoo-net.jp/s/article/H000044997)。
 
 您最多可以輸入或貼上2000個關鍵字。 請使用逗號分隔多個關鍵字，或在不同的行中輸入這些關鍵字。
 
 >[!NOTE]
 >
 >* 您可以從[!UICONTROL Keywords] > [!UICONTROL Negatives]檢視並在廣告群組和行銷活動設定中建立負面關鍵字。
->* Yahoo！ Japan關鍵字和相符型別是可變的，這表示您可以在不刪除現有關鍵字的情況下編輯它們。
+>* LY Ads關鍵字和相符型別是可變的，這表示您可以在不刪除現有關鍵字的情況下編輯它們。
 
 **[!UICONTROL Status]：**&#x200B;關鍵字的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新關鍵字的預設值為&#x200B;*Active*。
 

@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]： [!UICONTROL OAuth Token]：** （[!DNL Microsoft Advertising] [!DNL oAuth]已啟用，以及[!DNL Meta]和[!DNL Yandex]以外的所有其他網路）使用[[!DNL OAuth] 授權通訊協定](https://oauth.net/2/)授權登入的帳戶權杖。
 
-**[!UICONTROL Login Details]： [!UICONTROL Password]：** （除[!DNL Naver]以外的所有廣告網路）帳戶的密碼。 對於[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads]和[!DNL Yandex]上啟用密碼的帳戶，此欄位是必要的。 對於已啟用[!DNL oAuth]的帳戶，此欄位是選擇性的；當您想要加密並儲存密碼以便帳戶管理員視需要重新整理權杖時，請使用它。
+**[!UICONTROL Login Details]： [!UICONTROL Password]：** （除[!DNL Naver]以外的所有廣告網路）帳戶的密碼。 對於[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]上啟用密碼的帳戶，此欄位是必要的。 對於已啟用[!DNL oAuth]的帳戶，此欄位是選擇性的；當您想要加密並儲存密碼以便帳戶管理員視需要重新整理權杖時，請使用它。
 
 **[!UICONTROL Login Details]： [!UICONTROL Access Key]：** （僅限[!DNL Yandex]個帳戶）要使用的開發人員帳戶的存取金鑰。
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`msclkid`為[!DNL Microsoft Advertising]； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要尾碼格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
 
 >[!NOTE]
 >
@@ -201,13 +201,13 @@ ht-degree: 0%
 * *已啟用：*&#x200B;搜尋、社交和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。
 * *已停用：*&#x200B;搜尋、社交和Commerce已停止帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶暫停期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-**追蹤範本** - （僅限[!DNL Google Ads]、[!DNL Microsoft Advertising]和[!DNL Yahoo! Japan Ads]帳戶；選擇性）帳戶的預設追蹤範本，會指定所有離登陸網域重新導向和追蹤引數，並將最終/登陸頁面URL內嵌在引數中。 範例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重新導向。
+**追蹤範本** - （僅限[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]帳戶；選擇性）帳戶的預設追蹤範本，會指定所有離登陸網域重新導向和追蹤引數，並將最終/登陸頁面URL內嵌在引數中。 範例： `{lpurl}?source={network}&id=5`或`http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`以包含重新導向。
 
 * 若要內嵌最終URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案[[!DNL Microsoft Advertising] 中「可用的](https://help.ads.microsoft.com/#apex/3/en/56799)引數」一節中的（[!DNL Google Ads]僅限） [!DNL ValueTrack]檔案[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)僅限）「追蹤範本」引數。
+   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
 
-   * （僅限[!DNL Yahoo! Japan Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
+   * （僅限[!DNL LY Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
 
 * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數，以&amp;分隔，例如`{lpurl}?matchtype={matchtype}&device={device}`。
 

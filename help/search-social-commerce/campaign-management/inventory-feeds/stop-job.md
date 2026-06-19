@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 停止庫存摘要資料的張貼工作
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Yahoo! Japan Ads] （僅刪除動作）和僅[!DNL Yandex]帳戶*
+*[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
 
 您可以透過下列方式，停止張貼從摘要產生的促銷活動資料。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    1. 在範本名稱旁邊的&quot;[!UICONTROL Last Prop. Status]&quot;欄中，按一下&#x200B;**[!UICONTROL Cancel]**。
 
-* 如果資料已經傳播，則從[檢視[!UICONTROL Bulksheets]中](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)取消張貼工作。
+* 如果資料已經傳播，則從[!UICONTROL Bulksheets]檢視[&#128279;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)中取消張貼工作。
 
 >[!MORELIKETHIS]
 >

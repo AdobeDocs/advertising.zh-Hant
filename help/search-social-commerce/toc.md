@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 2%
@@ -248,10 +248,10 @@ ht-degree: 2%
             + [關於點選追蹤URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
             + [&#x200B; [!DNL Baidu]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
             + [&#x200B; [!DNL Google Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [&#x200B; [!DNL LY Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
             + [&#x200B; [!DNL Naver]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
             + [&#x200B; [!DNL Yahoo! Display Network]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
@@ -299,16 +299,16 @@ ht-degree: 2%
             + 依廣告網路區分的促銷活動設定 {#campaign-settings-by-network}
                + [[!DNL Baidu]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [[!DNL Google Ads]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL LY Ads]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [[!DNL Yandex]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 廣告群組 {#ad-groups}
             + [管理廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + 依廣告網路區分的廣告群組設定 {#ad-group-settings-by-network}
                + [[!DNL Baidu]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
                + [[!DNL Google Ads]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL LY Ads]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [[!DNL Yandex]廣告群組設定](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 關鍵字 {#keywords}
             + [關於關鍵字](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
@@ -318,8 +318,8 @@ ht-degree: 2%
             + 依廣告網路區分的關鍵字設定 {#keyword-settings-by-network}
                + [[!DNL Baidu]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
                + [[!DNL Google Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [[!DNL LY Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [[!DNL Microsoft Advertising]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-               + [[!DNL Yahoo! Japan Ads]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [[!DNL Yandex]關鍵字設定](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
          + 廣告 {#ads}
             + [關於廣告](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
@@ -385,10 +385,10 @@ ht-degree: 2%
             + [可在大量表單中執行的作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
             + [&#x200B; [!DNL Baidu] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
             + [&#x200B; [!DNL Google Ads] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [&#x200B; [!DNL LY Ads] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [&#x200B; [!DNL Naver] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
             + [&#x200B; [!DNL Yahoo! Display Network] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [&#x200B; [!DNL Yahoo! Japan] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 使用詳細目錄摘要自動化行銷活動資料 {#inventory-feeds}
          + [關於使用庫存摘要自動化廣告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
