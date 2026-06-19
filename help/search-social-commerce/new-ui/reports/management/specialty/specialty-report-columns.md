@@ -2,9 +2,9 @@
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])資產型別： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]個報表）實體對與不同實體相關聯的轉換所貢獻的次數。 |
 | [!UICONTROL Audience ID] | 數值的受眾ID。 |
-| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[!DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
+| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[！DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由於每日或每月預算太低，您在Microsoft對象網路上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由於廣告排名不佳，您在Microsoft Audience Network上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的預估曝光次數百分比除以您可能已收到的可用曝光總數。 |
 | [!UICONTROL Audience Status] | 對象的狀態。 |
 | [!UICONTROL Average CPC] | 每次點按的平均成本。 |
 | [!UICONTROL Average CPM] | 每千（毫秒）曝光的平均成本。 |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL LY Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
 | [!UICONTROL Bid Match Type] | （[!UICONTROL MSA Ad Extension]個報告）與競標關鍵字關聯的符合型別。 |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report])行銷活動預算。 |
 | [!UICONTROL Campaign Name] | 行銷活動。 |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | 廣告的最終URL或目的地URL （包括任何追蹤引數）。 |
 | [!UICONTROL Creative Display URL] | 廣告的顯示URL，這是一般使用者在廣告中看到的內容。 |
 | [!UICONTROL Creative Status] | （[!UICONTROL MSA Ad Extension]個報告）廣告的狀態。 |
-| [!UICONTROL Creative Name] | （交易報告；僅限[!DNL Yahoo! Japan]）廣告影像名稱。 |
+| [!UICONTROL Creative Name] | （交易報告；僅限[!DNL LY Ads]）廣告影像名稱。 |
 | [!UICONTROL Creative Title] | 廣告的標題或標題。 |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report])當使用者在單一裝置上點選廣告，然後在不同的裝置或瀏覽器上轉換時產生的轉換。 所有轉換均包含跨裝置轉換。 |
 | [!UICONTROL CTR] | 點進率，即點按次數除以所包含廣告的曝光次數。 |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 有效CPM，或指定日期範圍內每1000次曝光所支付的平均成本。 會針對CPM或CPC行銷活動計算eCPM值。 |
 | [!UICONTROL EF Campaign ID] | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL Yahoo! Japan Ads]的<i>[!UICONTROL 94]</i>、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
 | [!UICONTROL End Date] | 最後報告日期。 |
 | [!UICONTROL Extension Property Value] | （[!UICONTROL MSA Ad Extension]個報告）擴充功能的[顯示名稱](https://help.ads.microsoft.com/#apex/ads/en/51001)。 |
 | [!UICONTROL Extension Type ID] | （[!UICONTROL MSA Ad Extension]個報告）廣告延伸型別識別碼。 |

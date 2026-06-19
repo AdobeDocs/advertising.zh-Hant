@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Target all locations]*&#x200B;或&#x200B;*[!UICONTROL Target entire market]* （新行銷活動的預設值）：將指定語言的廣告放置在所有位置。
 
-* *[!UICONTROL Target specified locations]：*&#x200B;若要將廣告刊登限制在特定地理區域，或（僅限[!DNL Google Ads]和[!DNL Yahoo! Japan Ads]）排除特定地理位置的廣告刊登。 對於[!DNL Google Ads]個行銷活動，您可以選擇為您包含的每個位置新增競標調整。
+* *[!UICONTROL Target specified locations]：*&#x200B;若要將廣告刊登限制在特定地理區域，或([!DNL Google Ads]和[!DNL LY Ads] （先前僅限[!DNL Yahoo! Japan Ads]）排除特定地理位置的廣告刊登。 對於[!DNL Google Ads]個行銷活動，您可以選擇為您包含的每個位置新增競標調整。
 
-   * （若要鎖定或排除特定位置）尋找位置或子位置，然後將其拖曳至「**[!UICONTROL Locations Included]**」方塊或（[!DNL Google Ads]及[!DNL Yahoo! Japan Ads]僅限）「**[!UICONTROL Locations Excluded]**」方塊。
+   * （若要鎖定或排除特定位置）尋找位置或子位置，並將其拖曳至「**[!UICONTROL Locations Included]**」方塊或([!DNL Google Ads]及[!DNL LY Ads] （先前僅限[!DNL Yahoo! Japan Ads]）「**[!UICONTROL Locations Excluded]**」方塊。
 
      若要列出清單中任何專案的子元件（例如美國的州、大都會區域或城市），請按一下專案。
 

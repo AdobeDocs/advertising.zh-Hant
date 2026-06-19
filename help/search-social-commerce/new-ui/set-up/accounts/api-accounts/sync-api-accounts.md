@@ -2,9 +2,10 @@
 title: （新UI）手動同步處理廣告網路資料
 description: 瞭解如何從新的UI手動觸發受支援廣告網路的行銷活動結構和行銷活動實體的同步。
 feature: Search Campaign Management
-source-git-commit: 5e384445a35f81275eefeac660b31c1acdc785f3
+exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
 
-*[!DNL Google Ads]、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yahoo! Japan Ads]、[!DNL Yandex]和現有的[!DNL Baidu]帳戶僅限*
+*[!DNL Google Ads]、[!DNL LY Ads] （先前為[!DNL Yahoo! Japan Ads]）、[!DNL Microsoft Advertising] （先前為[!DNL Bing Ads]）、[!DNL Yandex]，且僅限現有[!DNL Baidu]帳戶*
 
 同步是Search、Social和Commerce在[支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)上收集每個廣告商已連線廣告網路帳戶之更新資訊的程式。 此資料包含廣告商的促銷活動結構和促銷活動實體，包括在「搜尋」、「社交」和「Commerce」中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾詞，這些資料會單獨收集。
 

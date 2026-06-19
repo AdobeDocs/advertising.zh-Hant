@@ -2,16 +2,11 @@
 title: （新增UI）下載/建立Bulksheet檔案
 description: 瞭解如何透過在新的搜尋、社交和Commerce UI中下載廣告網路的帳戶資料來建立Bulksheet檔案。
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,46 +124,46 @@ ht-degree: 0%
 
 ## 依廣告網路大量表單列 {#bulksheet-rows-by-ad-network}
 
-| Bulksheet列 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | 附註 |
+| Bulksheet列 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | 附註 |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | — |
 | [!UICONTROL Adgroup] | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | — |
-| [!UICONTROL Creative] *或* [!UICONTROL Creative (except RSA)] | 是 | 是 | 是 | — | — | 是 | 是 | 是 | 是 | ([!DNL Google Ads])用於所有廣告型別，但回應式搜尋廣告除外，這些廣告可在[!UICONTROL Responsive Search Ad]列中使用。 |
-| [!UICONTROL Responsive Search Ad] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | 是 | 是 | 是 | 是 | 是 | — | 是 | 是 | 是 | 僅用於非負數關鍵字。 若要檢視在行銷活動或廣告群組層級建立的負面關鍵字，請使用可用的[!UICONTROL Campaign Negative Keyword]或[!UICONTROL Adgroup Negative Keyword]列。 |
-| [!UICONTROL Promoted Pin] | — | — | — | — | 是 | — | — | — | — | — |
+| [!UICONTROL Creative] *或* [!UICONTROL Creative (except RSA)] | 是 | 是 | 是 | 是 | — | — | 是 | 是 | 是 | ([!DNL Google Ads])用於所有廣告型別，但回應式搜尋廣告除外，這些廣告可在[!UICONTROL Responsive Search Ad]列中使用。 |
+| [!UICONTROL Responsive Search Ad] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | 是 | 是 | 是 | 是 | 是 | 是 | — | 是 | 是 | 僅用於非負數關鍵字。 若要檢視在行銷活動或廣告群組層級建立的負面關鍵字，請使用可用的[!UICONTROL Campaign Negative Keyword]或[!UICONTROL Adgroup Negative Keyword]列。 |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | 是 | — | — | — | — |
 | [!UICONTROL Placement] | — | 是 | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | 是 | 是 | — | — | — | — | — | — | 用於廣告群組的動態搜尋目標。 |
-| [!UICONTROL Shopping Product Group] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign Negative Keyword] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | 僅用於行銷活動或廣告群組層級建立的負面關鍵字。 若要檢視非負數關鍵字，請使用可用的[!UICONTROL Keyword]列。 |
-| [!UICONTROL Campaign Negative Website] | — | 是 | 是 | — | — | — | — | 是 | — | — |
+| [!UICONTROL Auto Target] | — | 是 | — | 是 | — | — | — | — | — | 用於廣告群組的動態搜尋目標。 |
+| [!UICONTROL Shopping Product Group] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign Negative Keyword] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | 僅用於行銷活動或廣告群組層級建立的負面關鍵字。 若要檢視非負數關鍵字，請使用可用的[!UICONTROL Keyword]列。 |
+| [!UICONTROL Campaign Negative Website] | — | 是 | — | 是 | — | — | — | 是 | — | — |
 | [!UICONTROL Adgroup Site Link] | — | 是 | — | — | — | — | — | 是 | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | 是 | — |
-| [!UICONTROL Adgroup Negative Keyword] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | 是 | 是 | 是 | — | — | — | 是 | 是 | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign Device Target] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Adgroup Device Target] | — | 是 | 是 | — | — | — | — | 是 | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | 是 | 是 | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | 是 | 是 | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | 是 | 是 | 是 | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign Device Target] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Adgroup Device Target] | — | 是 | — | 是 | — | — | — | 是 | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | 是 | — | 是 | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | 是 | — | 是 | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | 是 | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | 是 | — | — | — | — | — | — | — | — |
 
 如需每個廣告網路所需欄和選用欄的詳細資訊，請參閱廣告網路專屬大量表單資料格式文章：
 
-* [&#x200B; [!DNL Baidu] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [&#x200B; [!DNL Google Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [&#x200B; [!DNL Microsoft Advertising] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [&#x200B; [!DNL Naver] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo! Display Network] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yahoo! Japan Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [&#x200B; [!DNL Yandex] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [ [!DNL Baidu] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [ [!DNL Google Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [ [!DNL LY Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [ [!DNL Microsoft Advertising] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [ [!DNL Naver] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [ [!DNL Yahoo! Display Network] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [ [!DNL Yandex] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
->* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)

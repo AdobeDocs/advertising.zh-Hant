@@ -4,15 +4,12 @@ description: 瞭解[!UICONTROL Campaign Assist Report]。
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +41,7 @@ ht-degree: 1%
 | [!UICONTROL 1st Campaign]至[!UICONTROL 5th Campaign] | 預設 | 轉換路徑中發生在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內的最早五個行銷活動。<br><br>如果您在實體名稱后面加上任何報告選項，以指出廣告網路、帳戶名稱或事件型別，則該資訊會包含在行銷活動名稱（例如「`"<"campaign name> [Google] [Account1] [impression]`」）後面。 |
 | [!UICONTROL Path Size] | 預設 | 轉換路徑中發生在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內的行銷活動數目。 |
 | [!UICONTROL First Campaign] | 預設 | 轉換路徑中的第一個行銷活動。 |
-| [!UICONTROL Last Campaign] | 預設 | 導致轉換的最後一個行銷活動（即使最後一個關鍵字超出指定的路徑大小）。<br><br>如果您在實體名稱后面加上任何報告選項，以指出廣告網路、帳戶名稱或事件型別，則該資訊會包含在行銷活動名稱（例如「`"<"campaign name> [Google] [Account1] [impression]`」）後面。 |
+| [!UICONTROL Last Campaign] | 預設 | 上次導致轉換的行銷活動（即使最後一個關鍵字在指定的路徑大小之外）<br><br>如果您在實體名稱後面包含任何報告選項來指示廣告網路、帳戶名稱或事件型別，則該資訊會包含在行銷活動名稱（例如「`"<"campaign name> [Google] [Account1] [impression]`」）後面。 |
 | \[廣告商專屬的自訂（衍生）量度\] | 自訂 | 您建立的自訂量度值（從現有量度計算）。 |
 | \[廣告商專用轉換量度\] | 自訂 | 指定的轉換量度或網站參與量度的轉換次數。 |
 | [!UICONTROL % of Total] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動納入每個包含的轉換量度的報表輸出）特定轉換量度（因行銷活動模式而產生）的轉換次數。 |
@@ -53,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[轉換量度\] | 自動 | （無法用於報告設定，但會自動包含在報告輸出中）從上次事件（在最後一次行銷活動中）到轉換的平均延遲天數。 |
 | [!UICONTROL EF Campaign ID] | 自訂 | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自訂 | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自訂 | 搜尋、Social和Commerce指派給廣告網路的數值ID： <i>[!UICONTROL 3]</i>的[!DNL Google Ads]、<i>[!UICONTROL 10]</i>的[!DNL Microsoft Advertising]、<i>[!UICONTROL 45]</i>的[!DNL Meta]、<i>[!UICONTROL 86]</i>的[!DNL Yahoo! Display Network]、<i>[!UICONTROL 87]</i>的[!DNL Naver]、<i>[!UICONTROL 88]</i>的[!DNL Baidu]、<i>[!UICONTROL 90]</i>的[!DNL Yandex]、<i>[!UICONTROL 94]</i>的[!DNL Yahoo! Japan Ads]、<i>[!UICONTROL 105]</i>的[!DNL Yahoo Native] （已棄用），或<i>[!UICONTROL 106]</i>的[!DNL Pinterest] （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 自訂 | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo! Display Network]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
 | [!UICONTROL Portfolio ID] | 自訂 | 數值投資組合ID。 |
 | [!UICONTROL User SE Account ID] | 自訂 | Search、Social和Commerce指派給廣告網路的數值ID。 |
 
