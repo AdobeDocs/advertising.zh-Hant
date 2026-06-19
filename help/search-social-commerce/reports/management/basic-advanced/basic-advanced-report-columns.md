@@ -4,15 +4,9 @@ description: 瞭解基本和進階報告的可用資料欄。
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 3846
@@ -186,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |

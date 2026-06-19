@@ -4,10 +4,8 @@ description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -109,7 +107,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]* （預設值）：透過範本傳播資料後，將大量工作表檔案張貼到相關的廣告網路。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 &#x200B;** 秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]：**不會將Bulksheet檔案張貼至相關的廣告網路，但會將其列在[!UICONTROL Bulksheets]檢視中，以便您稍後再張貼。 大量工作表檔案在[!UICONTROL Bulksheets]檢視中保持可用30天。 當大量表單檔案超過10 MB但小於2 GB時，檔案會採用ZIP格式；您不需要解壓縮檔案以進行發佈。 **秘訣：**&#x200B;如果您先前未驗證登入頁面，請使用此選項，這樣就能在將資料張貼至廣告網路之前，從[!UICONTROL Bulksheets]檢視驗證頁面。
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]：**&#x200B;排除將超過指定字數的關鍵字短語張貼到廣告網路。 選取此選項時，會傳播超過字數上限的關鍵字片語並列在[!UICONTROL Keywords]索引標籤上，但當您嘗試張貼資料時不會張貼。
 

@@ -149,7 +149,7 @@ ht-degree: 0%
 >
 >如果您已整合「搜尋」、「社交」和「Commerce-Adobe Analytics」，並變更搜尋帳戶的名稱，請要求您的Adobe帳戶團隊更新對應。
 
-**[!DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
+**[！DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
 
 **[登入詳細資料]：** （僅限Yandex帳戶）要使用的帳戶認證：
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 >* 如果您從[!UICONTROL Standard]切換至[!UICONTROL Token] （或反之），則必須重新產生帳戶的追蹤URL。
 >* 您可以在行銷活動層級覆寫帳戶層級設定。
 
-**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
+**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
 
 追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式將處理未來的變更。
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
 >[!NOTE]
 >
