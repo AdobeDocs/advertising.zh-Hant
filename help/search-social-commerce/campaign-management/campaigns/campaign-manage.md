@@ -4,8 +4,10 @@ description: 瞭解如何建立和管理廣告行銷活動。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 738
@@ -96,11 +98,11 @@ ht-degree: 0%
 
 1. 在工具列中按一下狀態按鈕：
 
-   * 若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+   * 若要啟動列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate.png " [啟動] ")。
 
    * 若要暫停資料列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
 
-   * 若要刪除列，請按一下[其他] ![ ](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+   * 若要刪除列，請按一下[其他] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >
