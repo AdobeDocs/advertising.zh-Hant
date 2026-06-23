@@ -4,16 +4,12 @@ description: 參考 [!DNL Google Ads] 廣告群組的設定。
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -36,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]：* [!DNL Google Ads]偏好其預期表現優於廣告群組中其他廣告的廣告。 這些廣告更常進入廣告拍賣，一段時間過後，系統會偏好使用單一廣告。 這可能與您的業務和最佳化目標不一致。
 
-* *[!UICONTROL Rotate forever]：*   您的每個廣告進入廣告拍賣的次數都比較平均，這使得Search、Social和Commerce不僅可根據點進率，也可根據轉換為您的廣告評分。
+* *[!UICONTROL Rotate forever]：*&#x200B;您的每個廣告進入廣告拍賣的次數都比較平均，讓Search、Social和Commerce不僅能依點進率，也能依轉換為您的廣告評分。
 
 * *[!UICONTROL Use campaign setting]* （新廣告群組的預設值）：使用現有的行銷活動層級廣告輪換設定。 **注意：**&#x200B;行銷活動層級設定在「搜尋」、「社交」和「Commerce」中不可見。
 

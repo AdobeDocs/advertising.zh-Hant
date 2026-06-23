@@ -4,17 +4,12 @@ description: 參考 [!DNL Google Ads] 行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 2617
+source-wordcount: 2700
 ht-degree: 0%
 
 ---
@@ -29,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]：*&#x200B;在搜尋網路上顯示廣告（包含[!DNL Google]個搜尋結果，並可選擇顯示搜尋夥伴網站），並可能顯示在顯示網路上的廣告。 無論行銷活動的競標策略為何，[!DNL Google Ads]在顯示網路上，都會使用自動競標選擇性地顯示您的廣告。 對於搜尋廣告，請指定每個廣告群組的關鍵字；對於顯示廣告，請指定位置，並選擇性地指定每個廣告群組的關鍵字。
 
-* *[!UICONTROL Shopping Network]：*&#x200B;顯示[!DNL Google]根據您在[!DNL Google Merchant Center]上的[!DNL Google Shopping]中的產品自動產生的產品廣告、[!DNL Google]搜尋結果旁的區域（與文字廣告分開），以及（選擇性）搜尋合作夥伴網站。 您可以為行銷活動中的每個廣告群組指定要廣告的產品群組。
+* *[!UICONTROL Shopping Network]：*&#x200B;顯示[!DNL Google]根據您在[!DNL Google Shopping]上的[!DNL Google Merchant Center]中的產品自動產生的產品廣告、[!DNL Google]搜尋結果旁的區域（與文字廣告分開），以及（選擇性）搜尋合作夥伴網站。 您可以為行銷活動中的每個廣告群組指定要廣告的產品群組。
 
 * *[!UICONTROL Display Network Only]：*&#x200B;在顯示網路上顯示廣告。 您必須為每個廣告群組指定位置，並可選擇指定關鍵字。
 
