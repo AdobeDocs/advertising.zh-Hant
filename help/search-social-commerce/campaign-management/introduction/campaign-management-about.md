@@ -1,6 +1,6 @@
 ---
-title: About campaign management in Search, Social, & Commerce
-description: Learn about campaign management features in Search, Social, & Commerce.
+title: 關於搜尋、社交和Commerce中的行銷活動管理
+description: 瞭解搜尋、社交和Commerce中的行銷活動管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
@@ -11,59 +11,59 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 822
 ht-degree: 0%
 
 ---
 
-# About campaign management in Search, Social, &amp; Commerce
+# 關於搜尋、社交和Commerce中的行銷活動管理
 
-Search, Social, &amp; Commerce allows you to track and/or manage your search, display/content, social, shopping, audience, and performance max campaigns in one place. Depending on the ad network and campaign type, the available functionality may include synchronization with your ad networks, create and edit abilities, tracking and conversion attribution, reporting, and bid and budget optimization. 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
+搜尋、社交和Commerce可讓您在一個位置追蹤和/或管理您的搜尋、顯示/內容、社交、購物、對象和最高成效行銷活動。 視廣告網路和促銷活動型別而定，可用的功能可能包括與您的廣告網路同步、建立和編輯功能、追蹤和轉換歸因、報告，以及競標和預算最佳化。 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-As you add and edit campaign data in the [!UICONTROL Campaigns] views, Search, Social, &amp; Commerce immediately pushes the data changes to the ad network. Search, Social, &amp; Commerce also pulls campaign structure data and click data from synced ad network accounts once a day (or more often when new campaigns are detected) and on demand as requested.
+當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會提取行銷活動結構資料，並且每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶點按資料，以及每天從其他同步的廣告網路帳戶點按資料，或者在偵測到新行銷活動時更頻繁地點按資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
 
-## Setting up access to your ad network accounts
+## 設定您的廣告網路帳戶的存取權
 
-To track the performance of ads in an advertiser&#39;s ad network account (and to potentially place bids for the ads), the Adobe Account Team [creates a corresponding account record](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) in Search, Social, &amp; Commerce. The account record includes tracking options.
+為了追蹤廣告商廣告網路帳戶中的廣告效益（並可能對廣告投標），Adobe帳戶團隊[會在Search、Social和Commerce中建立對應的帳戶記錄](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)。 帳戶記錄包含追蹤選項。
 
-For accounts that are synchronized via the ad network&#39;s API, the account record also includes the account access credentials. Once the account is enabled, the account data is pulled from with the ad network. You can then view the existing account data as well as create and edit campaign structure and ad data.
+對於透過廣告網路的API同步的帳戶，帳戶記錄也包含帳戶存取認證。 帳戶啟用後，系統會使用廣告網路從提取帳戶資料。 然後，您可以檢視現有的帳戶資料，以及建立和編輯行銷活動結構和廣告資料。
 
-## Click tracking to tie clicks to conversions
+## 點選追蹤以將點選次數與轉換次數連結起來
 
-If you use the Adobe Advertising conversion tracking service, then you must include Search, Social, &amp; Commerce click-tracking code in the landing page suffix, tracking templates, and final/destination URLs for ads, keywords, and placements, sitelinks and product listings. For [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md) whose campaign settings include &quot;[!UICONTROL EF Redirect]&quot; and &quot;[!UICONTROL Auto Upload],&quot; Search, Social, &amp; Commerce automatically appends its own redirect and tracking code when you save the record, so you don&#39;t need to manually add it. Otherwise, you must manually add the code to your tracking templates or final URLs.
+如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL。
 
-For more information about tracking, see the chapter on &quot;Tracking.&quot;
+如需追蹤的詳細資訊，請參閱「追蹤」一章。
 
-## Automating bidding and budget management
+## 自動化投標和預算管理
 
-For [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md), you can group your campaigns into portfolios, each with a specific business objective and a specific budget or performance target. In standard portfolios, Search, Social, &amp; Commerce optimizes CPC keyword bids and campaign budgets. Hybrid portfolios combine optimization technologies from Search, Social, &amp; Commerce and your ad networks.
+對於[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，您可以將行銷活動分組到產品組合中，每個產品組合都有特定的業務目標和特定的預算或績效目標。 在標準產品組合中，「搜尋」、「社交」和「Commerce」會最佳化CPC關鍵字競標和促銷活動預算。 混合產品組合結合搜尋、社交和Commerce的最佳化技術以及您的廣告網路。
 
-For more information about the available portfolio options and how to set up portfolios, see Optimization Guide chapter on &quot;Portfolios,&quot; which is available from within Search, Social, &amp; Commerce.<!-- verify convention for referencing Optimization Guide here -->
+如需有關可用投資組合選項以及如何設定投資組合的詳細資訊，請參閱「投資組合」的「最佳化指南」章節，此章節可在Search、Social和Commerce中取得。<!-- verify convention for referencing Optimization Guide here -->
 
-## The campaign management views
+## 行銷活動管理檢視
 
-The campaign management views allow you to monitor and manage your search accounts. The following views are available:
+行銷活動管理檢視可讓您監視和管理您的搜尋帳戶。 可使用下列檢視：
 
-* **[!UICONTROL Campaigns]** — The [!UICONTROL Campaigns] views show data from each connected ad network account. You can view cost, click, impression, and revenue data across all ad network accounts and across individual accounts, campaigns, ad groups, keywords, ads, shopping product groups, placements, auto targets (dynamic search targets), audiences, and ad extension libraries and their associated account entities. For [supported campaign types on supported ad networks](/help/search-social-commerce/introduction/supported-inventory.md), you can create and edit data for individual campaigns and campaign components directly in the interface. You can optionally export the data in most subviews to a spreadsheet file.
+* **[!UICONTROL Campaigns]** — [!UICONTROL Campaigns]檢視會顯示每個已連線廣告網路帳戶的資料。 您可以檢視所有廣告網路帳戶以及個別帳戶、行銷活動、廣告群組、關鍵字、廣告、購物產品群組、位置、自動目標（動態搜尋目標）、對象和廣告擴充程式庫及其相關帳戶實體的成本、點選、曝光和收入資料。 對於支援的廣告網路上的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，您可以直接在介面中建立和編輯個別行銷活動和行銷活動元件的資料。 您可以選擇將大多數子檢視中的資料匯出至試算表檔案。
 
   >[!NOTE]
   >
-  >Ad-level data isn&#39;t available for [!DNL Google Ads] dynamic search ad (DSA), performance max, smart shopping, and [!DNL YouTube] campaigns.
+  >廣告層級資料不適用於[!DNL Google Ads]動態搜尋廣告(DSA)、最高效能、智慧購物和[!DNL YouTube]行銷活動。
 
-* **[!UICONTROL Products]** — The [!UICONTROL Products] views show data for each [[!DNL Google] or [!DNL Microsoft] merchant center account that&#39;s synced](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). The default [!UICONTROL Accounts] subview lists all synced accounts; some user types can add new accounts from this view. The [!UICONTROL Products] subview lists each product within the account.
+* **[!UICONTROL Products]** — [!UICONTROL Products]檢視會顯示每個已同步的[[!DNL Google] 或 [!DNL Microsoft] 商家中心帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)的資料。 預設[!UICONTROL Accounts]子檢視會列出所有同步的帳戶；有些使用者型別可以從此檢視新增帳戶。 [!UICONTROL Products]子檢視會列出帳戶內的每個產品。
 
-* **[!UICONTROL Advanced (ACM)]** —  From the [!DNL Advanced] ([!DNL AMC], for Advanced Campaign Management) view, you can set up automated processes to create [dynamic ads and keywords targeted to each item in your inventory](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) according to an ad network-specific ad template you create and the contents of [!DNL Google Merchant Center] accounts or inventory data files you upload to an FTP location. Subviews show details about each feed template for the advertiser and each campaign, ad group, keyword, and ad included in a feed that was propagated through a feed template but not posted to the ad network.
+* **[!UICONTROL Advanced (ACM)]** — 您可以從[!DNL Advanced] （[!DNL AMC]，針對進階行銷活動管理）檢視，設定自動化程式，以根據您建立的廣告網路特定廣告範本，以及您上傳至FTP位置的[!DNL Google Merchant Center]帳戶或詳細目錄資料檔的內容，建立[動態廣告和以詳細目錄中的每個專案為目標的關鍵字](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)。 子檢視會顯示廣告商的每個摘要範本的詳細資訊，以及摘要中包含的每個促銷活動、廣告群組、關鍵字和廣告（透過摘要範本傳播但未張貼至廣告網路）。
 
-* **[!UICONTROL Bulksheets]** — Use the [!UICONTROL Bulksheets] view to create [bulksheet files](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) containing as much data as you want for an account on a [supported ad network](/help/search-social-commerce/introduction/supported-inventory.md), and then post them to the ad network.
+* **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]檢視來建立[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的[支援廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)帳戶資料量，然後將它們張貼至廣告網路。
 
-* **[!UICONTROL Audiences]** — [The [!UICONTROL Audiences] views](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) lists all of your [!DNL Google Ads] and [!DNL Microsoft Advertising] audiences generated from various types of user lists. You can create [!DNL Google Ads] audiences from your existing Adobe CX Enterprise audiences and your customer email lists. You can also view and manage audience targets and exclusions for your [!DNL Google Ads] and [!DNL Microsoft Advertising] ads.
+* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe CX Enterprise對象與客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
 
-* **[!UICONTROL Label Classifications]** — Use this view to create and delete [label classifications](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), which can help you group your labels into meaningful sets.
+* **[!UICONTROL Label Classifications]** — 使用此檢視來建立和刪除[標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，這可以協助您將標籤分組為有意義的組合。
 
 >[!MORELIKETHIS]
 >
->* [Overview of implementing ad network accounts and campaigns](campaign-implemention-overview.md)
->* [Monitor and manage the performance of your ad network campaigns](monitor-performance-campaigns.md)
->* [Google Ads conversion data in Search, Social, &amp; Commerce](google-conversion-data.md)
+>* [實作廣告網路帳戶和行銷活動的概觀](campaign-implemention-overview.md)
+>* [監視和管理廣告網路行銷活動的績效](monitor-performance-campaigns.md)
+>* [搜尋、社交和Commerce中的Google廣告轉換資料](google-conversion-data.md)
