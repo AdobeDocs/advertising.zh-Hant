@@ -3,9 +3,9 @@ title: （新UI）管理廣告網路帳戶
 description: 瞭解如何透過廣告網路API同步的廣告網路在新UI中設定和管理帳戶詳細資訊。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -250,9 +250,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Setup Analytics]索引標籤
 
-**[!UICONTROL Adobe Analytics Report Suite]：** （具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商；選用）一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點按資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
+這些設定可供具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商使用。
+
+**[!UICONTROL Adobe Analytics Report Suite]：** （選用）一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
 
 若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)必須啟用&quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot;的廣告商層級設定。 此外，廣告商的[!DNL Analytics]帳戶必須設定為從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+
+**[!UICONTROL Adobe Analytics Conversion Reporting]： [!UICONTROL Enable conversion reporting in Adobe Analytics]：** （[!DNL Meta Ads]個帳戶；選擇性）將[AMO ID (s_kwcid)追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)附加至行銷活動中的所有廣告。 引數可讓Adobe Analytics將轉換與指定報表套裝中的Meta Ads促銷活動建立關聯，以及實體分類和點選資料。
 
 >[!MORELIKETHIS]
 >

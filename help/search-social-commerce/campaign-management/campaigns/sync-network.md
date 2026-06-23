@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 同步是Search、Social和Commerce在[支援的廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)上收集每個廣告商已連線廣告網路帳戶之更新資訊的程式。 此資料包含廣告商的促銷活動結構和促銷活動實體，包括在「搜尋」、「社交」和「Commerce」中管理或報告的大部分屬性。 其中不包含點按資料，也不包含在Search、Social和Commerce外部輸入的競標和競標修飾詞，這些資料會單獨收集。
 
-搜尋、Social和Commerce會每天自動與您的廣告網路帳戶同步（同步）一次，也可在偵測到您其中一個廣告網路上的新促銷活動時同步。 此外，它會立即將所有從「搜尋」、「社交」和「Commerce」內所做的行銷活動資料變更傳送至廣告網路。
+搜尋、Social和Commerce每天都會自動與您的廣告網路帳戶同步（同步），每當它偵測到您其中一個廣告網路上的新促銷活動時也是如此。 此外，它會立即將所有從「搜尋」、「社交」和「Commerce」內所做的行銷活動資料變更傳送至廣告網路。
 
 您可以手動請求同步處理指定帳戶或特定使用中及暫停行銷活動中的所有使用中及暫停的行銷活動。 此任務會收集廣告網路上新增或變更的實體。
 

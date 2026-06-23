@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 [!UICONTROL Manage] > [!UICONTROL Campaigns]檢視表會針對選取的廣告商帳戶，列出篩選檢視表中的所有行銷活動。 您可以按一下行銷活動名稱，開啟行銷活動中的廣告群組清單。
 
-當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會提取行銷活動結構資料，並且每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶點按資料，以及每天從其他同步的廣告網路帳戶點按資料，或者在偵測到新行銷活動時更頻繁地點按資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會提取行銷活動結構資料，並每日點按資料，或是在偵測到新行銷活動時更頻繁地提取資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+
+搜尋、社交和Commerce會每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶提取效能資料，並每天提取其他同步廣告網路帳戶的效能資料。
 
 ## 可用動作
 
