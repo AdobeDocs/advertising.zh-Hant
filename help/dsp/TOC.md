@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 3%
    + [封存連線電視觸及計畫](/help/dsp/planner/planner-archive.md)
 + 資源 {#resources}
    + [管理URL](/help/dsp/resources/lists-url-manage.md)
+   + [管理郵遞區號清單](/help/dsp/resources/lists-postal-codes-manage.md)
 + 設定/管理 {#admin}
    + [編輯您的使用者設定檔](/help/dsp/admin/user-own-profile-edit.md)
    + 使用者 {#users}

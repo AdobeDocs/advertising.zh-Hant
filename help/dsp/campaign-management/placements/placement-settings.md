@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4532
 ht-degree: 0%
 
 ---
@@ -173,6 +173,9 @@ ht-degree: 0%
       1. 在左欄中選取位置型別。
       1. （視需要）按一下位置以展開它。
       1. 在位置旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
+   * 若要包含或排除[郵遞區號清單](/help/dsp/resources/lists-postal-codes-manage.md)：
+      1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
+      1. 在郵遞區號旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
    * 若要搜尋郵遞區號，並包含或排除所有選取的結果，請執行下列動作：
       1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
       1. 選取國家/地區。

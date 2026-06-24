@@ -12,7 +12,7 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
       * 若要選取要移除的URL：
 
-         1. 選取要從清單中移除之每個交易旁的核取方塊。
+         1. 選取每個URL旁的核取方塊，以從清單中移除。
 
          1. 按一下&#x200B;**[!UICONTROL Remove from List]**。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
       * 若要選取要移除的URL：
 
-         1. 選取要從清單中移除之每個交易旁的核取方塊。
+         1. 選取每個URL旁的核取方塊，以從清單中移除。
 
          1. 按一下&#x200B;**[!UICONTROL Remove from List]**。
 
