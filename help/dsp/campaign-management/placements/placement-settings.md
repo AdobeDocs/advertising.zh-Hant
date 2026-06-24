@@ -4,22 +4,14 @@ description: 請參閱可用位置設定的說明。
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4532
 ht-degree: 0%
 
 ---
@@ -173,6 +165,9 @@ ht-degree: 0%
       1. 在左欄中選取位置型別。
       1. （視需要）按一下位置以展開它。
       1. 在位置旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
+   * 若要包含或排除[郵遞區號清單](/help/dsp/resources/lists-postal-codes-manage.md)：
+      1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
+      1. 在郵遞區號旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
    * 若要搜尋郵遞區號，並包含或排除所有選取的結果，請執行下列動作：
       1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
       1. 選取國家/地區。
@@ -346,7 +341,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*： （預設）根據使用者的Cookie、行動廣告ID或連線電視(CTV) ID鎖定使用者。 系統會根據瀏覽器、應用程式內或CTV詳細目錄來選取ID。
 
-* *[!UICONTROL Universal ID]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP[&#128279;](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)、串流至DSP的[第一方 [!DNL AdFixus] 區段](/help/dsp/audiences/sources/source-adfixus.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
+* *[!UICONTROL Universal ID]*：鎖定以使用者隱私權為主的ID；選取一種ID型別。 可用的選項由[!UICONTROL Geo-Targeting]區段中選取的地理目標決定。 搭配直接匯入至DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md)的[[!DNL RampID] 區段、DSP將您的PII轉換為通用ID的[區段](/help/dsp/audiences/sources/source-about.md)、串流至DSP的[第一方 [!DNL AdFixus] 區段](/help/dsp/audiences/sources/source-adfixus.md)或追蹤通用ID的[自訂區段](/help/dsp/audiences/custom-segment-create.md)使用。
 
    * *[!UICONTROL AdFixus]*：目標[!DNL AdFixus] ID已匯入至Advertising DSP。
 
@@ -373,7 +368,7 @@ ht-degree: 0%
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 選取適用的時區。
 1. 指定間隔：
-   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括&#x200B;*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
+   * 若要選取預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**、*[!UICONTROL Weekdays]*、*[!UICONTROL Morning]*、*[!UICONTROL Lunch]*、*[!UICONTROL Dinner]*&#x200B;或&#x200B;*[!UICONTROL Prime]* (primetime)。
    * 若要手動選取間隔，請在儲存格內按一下，並選擇拖曳以選取間隔。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
