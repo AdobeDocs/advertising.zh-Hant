@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +174,18 @@ ht-degree: 0%
       1. （視需要）按一下位置以展開它。
       1. 在位置旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
    * 若要包含或排除[郵遞區號清單](/help/dsp/resources/lists-postal-codes-manage.md)：
-      1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
+      1. 按一下左側欄中的&#x200B;**[!UICONTROL Postal Code List]**。
       1. 在郵遞區號旁邊，按一下&#x200B;*[!UICONTROL Include]*&#x200B;以將其納入為目標，或按一下&#x200B;*[!UICONTROL Exclude]*&#x200B;以將其排除為目標。
    * 若要搜尋郵遞區號，並包含或排除所有選取的結果，請執行下列動作：
-      1. 按一下&#x200B;**[!UICONTROL Search Postal Code]**。
+      1. 按一下左側欄中的&#x200B;**[!UICONTROL Postal Code]**。
+      1. 按一下國家清單上方的&#x200B;**[!UICONTROL Search]**。
       1. 選取國家/地區。
       1. 輸入城市名稱，然後按一下[編輯]。![](/help/dsp/assets/search.png)
       1. 按一下正確的搜尋結果。
       1. 按一下&#x200B;*[!UICONTROL Include All]*&#x200B;以包含所有位置作為目標，或按一下&#x200B;*[!UICONTROL Exclude All]*&#x200B;以排除所有位置作為目標。
    * 若要輸入或貼上郵遞區號，並包含或排除所有郵遞區號：
-      1. 按一下&#x200B;**[!UICONTROL Paste Postal Code]**。
+      1. 按一下左欄中的[按一下]。**[!UICONTROL Postal Code]**
+      1. 按一下國家清單上方的&#x200B;**[!UICONTROL Paste]**。
       1. 選取國家/地區。
       1. 輸入或貼上最多1000個郵遞區號。
 每行包含一個郵遞區號，或輸入多個值，並以逗號或定位點分隔。
