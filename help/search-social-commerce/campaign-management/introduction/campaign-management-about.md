@@ -4,16 +4,12 @@ description: 瞭解搜尋、社交和Commerce中的行銷活動管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +18,9 @@ ht-degree: 0%
 
 搜尋、社交和Commerce可讓您在一個位置追蹤和/或管理您的搜尋、顯示/內容、社交、購物、對象和最高成效行銷活動。 視廣告網路和促銷活動型別而定，可用的功能可能包括與您的廣告網路同步、建立和編輯功能、追蹤和轉換歸因、報告，以及競標和預算最佳化。 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會提取行銷活動結構資料，並且每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶點按資料，以及每天從其他同步的廣告網路帳戶點按資料，或者在偵測到新行銷活動時更頻繁地點按資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會每天從同步的廣告網路帳戶提取行銷活動結構資料及點按資料，或是在偵測到新行銷活動時更頻繁地提取資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+
+搜尋、社交和Commerce會每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶提取效能資料，並每天提取其他同步廣告網路帳戶的效能資料。
 
 ## 設定您的廣告網路帳戶的存取權
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]檢視來建立[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的[支援廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)帳戶資料量，然後將它們張貼至廣告網路。
 
-* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe CX Enterprise對象與客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
+* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 ](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe CX Enterprise對象與客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
 
 * **[!UICONTROL Label Classifications]** — 使用此檢視來建立和刪除[標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，這可以協助您將標籤分組為有意義的組合。
 

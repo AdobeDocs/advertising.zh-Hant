@@ -1,11 +1,11 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 3a1bcbcb9284503a855edb9d304083451169c6ae
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-# Yahoo！中負面關鍵字欄位的注意事項 日本行銷活動和廣告群組設定
+# [!DNL LY Ads]行銷活動和廣告群組設定中負面關鍵字欄位的備註
 
 >[!NOTE]
 >
