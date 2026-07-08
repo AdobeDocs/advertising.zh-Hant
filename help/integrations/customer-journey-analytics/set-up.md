@@ -4,10 +4,18 @@ description: 瞭解如何設定資料收集、資料傳輸和報告。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
 workflow-type: tm+mt
 source-wordcount: 2095
@@ -137,7 +145,7 @@ ht-degree: 1%
 
 1. 透過[檢查您三個資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets) （您的網站事件資料集、Adobe Advertising分類資料集和Adobe Advertising摘要量度資料集）中每個資料集的活動來驗證資料傳送。
 
-   您應該會看到每日批次擷取的資料集活動。 如果事件資料集在24小時後顯示零筆記錄，請在Adobe標籤](#tags-websdk)中重新檢查您的[資料流](#dataset-datastream)和[Web SDK擴充功能組態。
+   您應該會看到每日批次擷取的資料集活動。 如果事件資料集在24小時後顯示零筆記錄，請在Adobe標籤[&#128279;](#tags-websdk)中重新檢查您的[資料流](#dataset-datastream)和Web SDK擴充功能組態。
 
 1. 請要求Adobe Experience Platform管理員[將標籤發佈至您的即時生產環境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
 
@@ -278,7 +286,7 @@ Seems to not be necessary now:
 
 >[!TIP]
 >
->摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。 相較於標準網路事件，這些新增專案微不足道。 不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。使用人員ID排除資料的範例](/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
+>摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。 相較於標準網路事件，這些新增專案微不足道。 不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。使用人員ID排除資料的範例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
 
 ![您的資料集在Customer Journey Analytics中會如何顯示](/help/integrations/assets/cja-report-example.png "您的資料集在Customer Journey Analytics中會如何顯示")
 
