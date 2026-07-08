@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 753
 ht-degree: 0%
 
 ---
 
 # 管理行銷活動
 
-僅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和現有[!DNL Baidu]帳戶*
-
 行銷活動是廣告網路帳戶的主要元件。 對於大多數行銷活動型別，它是由一組廣告群組或廣告集所組成。 行銷活動設定包含行銷活動預算引數、廣告目標，以及行銷活動中所有廣告的選用追蹤引數。 行銷活動層級追蹤引數會覆寫帳戶層級引數，但本身可能在較低層級覆寫。
 
 當您[讓廣告網路帳戶可供存取](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)，且Search、Social和Commerce已同步處理帳戶資料與廣告網路時，您就可以使用[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)來建立新的行銷活動。 您也可以編輯及變更行銷活動的狀態。
+
+如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
 ## 建立行銷活動
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
       * 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-1. 編輯[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google廣告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY廣告](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)行銷活動設定。
+1. 編輯[百度](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)、[Meta Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)行銷活動設定。
 
    對於多個行銷活動，視廣告網路而定，設定可能會分組為[!UICONTROL Campaign Details]、[!UICONTROL Budget Options]和[!UICONTROL URL Options]。 您只能編輯所有選定行銷活動的共同欄位，而您的變更會套用至所有選定行銷活動。 對於某些英數字元欄位，您可以選擇將現有值變更為指定值、將現有字串取代為指定字串、將指定首碼新增至每個值的開頭或附加尾碼至每個值的結尾。 對於某些貨幣欄位，您可以選擇將現有值變更為指定值，或者增加或減少金額指定百分比或貨幣金額，並設定限制。
 
@@ -109,5 +109,6 @@ ht-degree: 0%
 >* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[Meta Ads]行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
