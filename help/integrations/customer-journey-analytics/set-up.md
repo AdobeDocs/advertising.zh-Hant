@@ -16,10 +16,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
 workflow-type: tm+mt
-source-wordcount: 1802
-ht-degree: 0%
+source-wordcount: 2095
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
 *僅不含[!DNL Analytics for Advertising]的廣告商*
+
+<!-- may need to remove references to Experience Platform if it's not really required, just Data Collection? In that case, I may need to change all of the links accordingly.... -->
 
 使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)在Adobe Advertising和Customer Journey Analytics之間以原生方式交換資料時，需要執行下列工作。 資料傳輸和歸因在啟動後開始，不包含歷史資料。
 
@@ -47,11 +49,13 @@ ht-degree: 0%
 
 若要在Experience Platform中設定資料收集並實作轉換追蹤標籤，必須執行下列工作。 您組織的Experience Platform網站管理員可以執行這些工作，但您組織的IT部門可能需要協助部署追蹤標籤。
 
-### 收集資料並從Adobe Advertising傳送至Experience Platform Edge Network作為資料集
+### 收集資料並從Adobe Advertising傳送至Experience Platform Edge Network作為資料集 {#dataset-datastream}
 
 此程式包括建立綱要。 您可以選擇編輯現有結構描述；在這種情況下，您不需要建立資料集或資料流。
 
-1. 在Experience Platform中，[為您要使用體驗資料模型(XDM)收集的資料定義手動結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas)。
+1. 在資料收集介面中，[為您要使用Experience Data Model (XDM)收集的網站資料定義結構描述](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)。
+
+   如果您的網站資料已有結構描述，您可以改為搭配下列設定使用。
 
    * 在[!UICONTROL Schema Details]中，選取&#x200B;**[!UICONTROL Experience Event]**&#x200B;作為要擷取網站事件的結構描述的基底類別。 為結構描述命名，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
@@ -73,7 +77,7 @@ ht-degree: 0%
 
 1. [建立資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)，以指定從網站或應用程式傳送資料的位置，以及如何處理傳入的資料。
 
-   * 針對[!UICONTROL Mapping schema]設定，選取您的結構描述。
+   * 針對[!UICONTROL Mapping schema]設定，選取您在步驟1建立的結構描述。
 
    * 將服務`Adobe Advertising`和`Adobe Experience Platform`新增並啟用至資料流。
 
@@ -83,7 +87,7 @@ ht-degree: 0%
 
      每個資料流只能將資料插入一個資料集。
 
-### 將貴組織的網站資料傳送至您的Experience Platform資料流
+### 將您組織的網站資料傳送至您的<!-- ?? -->Experience Platform資料流 {#tags-websdk}
 
 在Adobe Experience Platform Tags中使用Adobe Web SDK擴充功能，將您組織的網站資料傳送至您的Experience Platform資料流。
 
@@ -117,6 +121,8 @@ ht-degree: 0%
 
            如果您的廣告商未列出，請輸入每個廣告商的廣告商ID。 如有需要，請向您的Adobe帳戶團隊索取ID。
 
+           如果您輸入的ID不正確，系統會通知您的Adobe帳戶團隊。
+
            [!DNL RampID] JavaScript路徑的範例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
          * 儲存組建。
@@ -127,11 +133,21 @@ ht-degree: 0%
 
    * 視需要建立[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)，以將網站上的變數對應到您先前建立的XDM結構描述結構。
 
-1. [將標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)發佈到測試環境，您可以在其中反複開發標籤。
+1. 請要求Adobe Experience Platform管理員[將標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)發佈到測試環境，您可以在其中反複開發標籤。
 
-1. [檢查您三個資料集的活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets)以驗證傳遞。
+### 驗證資料傳送
 
-1. [將標籤發佈至您的即時生產環境](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)。
+1. 請要求您的Adobe帳戶團隊驗證網站上的追蹤。
+
+   ![點進追蹤裝載驗證的範例](/help/integrations/assets/cja-example-click-through-validation.png "點進追蹤裝載驗證的範例")
+
+   ![瀏覽追蹤裝載驗證的範例](/help/integrations/assets/cja-example-view-through-validation.png "瀏覽追蹤裝載驗證的範例")
+
+1. 透過[檢查您三個資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets) （您的網站事件資料集、Adobe Advertising分類資料集和Adobe Advertising摘要量度資料集）中每個資料集的活動來驗證資料傳送。
+
+   您應該會看到每日批次擷取的資料集活動。 如果事件資料集在24小時後顯示零筆記錄，請在Adobe標籤[&#128279;](#tags-websdk)中重新檢查您的[資料流](#dataset-datastream)和Web SDK擴充功能組態。
+
+1. 請要求Adobe Experience Platform管理員[將標籤發佈至您的即時生產環境](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)。
 
    您組織的IT部門或其他群組可能需要排程標籤部署，或接收相關通知。
 
@@ -145,7 +161,7 @@ ht-degree: 0%
 
    <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
 
-   * 確認已選取正確的沙箱。
+   * 確認已選取正確的沙箱（由您的組織設定）。
 
    * 計算每日事件平均數量（大多陣列織不足100萬）。
 
@@ -161,19 +177,21 @@ ht-degree: 0%
 
          * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]：**&#x200B;啟用設定
+         * **[!UICONTROL Use primary identity namespace]：**&#x200B;如果您想要為Customer Journey Analytics和Adobe Real-Time CDP使用一個資料集和結構描述，請啟用此設定並在`IdentityMap`欄位群組中定義主要身分。 也支援`Required Field`。
 
          * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
          * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
-      * 針對[!UICONTROL Lookup Dataset]設定，將維度資料集對應至事件資料集：
+      * 針對分類([!UICONTROL Lookup Dataset])設定，將維度資料集對應至事件資料集：
 
          * **[!UICONTROL Key]** （要當作維度資料集索引鍵使用的欄位）： `Tracking Code` （與結構描述中的`trackingCode`欄位相同）。
 
          * **[!UICONTROL Matching key]** （做為事件資料集比對索引鍵的欄位）： `Tracking Code (Event datasets)`。
 
          * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
+
+         * **[!UICONTROL Backfill all existing data]：**&#x200B;啟用設定
 
       * 針對[!UICONTROL Metrics Dataset]設定：
 
@@ -205,7 +223,7 @@ ht-degree: 0%
 
       * 從事件資料集和查詢資料集中選取要納入資料檢視的量度。
 
-      * 搜尋「[!UICONTROL Tracking Code]」（屬於結構描述路徑為`_experience.adcloud.conversionDetails.trackingCode`的事件資料集的一部分）。<!-- and do what with it? Add it? Or is that what you --> 將&#x200B;**[!UICONTROL Persistence]**&#x200B;設為&#x200B;*[!UICONTROL Most Recent]*。
+      * 搜尋「[!UICONTROL Tracking Code]」（屬於結構描述路徑為`_experience.adcloud.conversionDetails.trackingCode`的事件資料集的一部分）。 將&#x200B;**[!UICONTROL Persistence]**&#x200B;設為&#x200B;*[!UICONTROL Most Recent]*。
 
 <!--
 
@@ -258,14 +276,17 @@ Seems to not be necessary now:
 
 1. [在Workspace中建立專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)，以根據資料檢視內設定的維度和量度來建置報表和視覺效果。
 
+   例如，包含維度[!UICONTROL Tracking Code (2)] （連結事件至行銷活動中繼資料）、[!UICONTROL Adobe Advertising Campaign] （適用於行銷活動層級資料）、[!UICONTROL Adobe Advertising Placement]或[!UICONTROL Adobe Advertising Ad Group] （適用於位置層級或廣告群組層級資料）、[!UICONTROL Events]、[!UICONTROL Impressions]和[!UICONTROL Clicks]。
+
 您可以在一個自由表格中使用相同維度，將摘要量度和事件資料分類。
 
 1. （如果您有來自[!DNL Google Ads]或[!DNL Microsoft Advertising]的資料）使用廣告網路特定量度的欄位（已分組為`googleConversions`和`microsoftConversions`），建立發佈者追蹤的轉換報告。
 
+1. 確認資料顯示。
+
 >[!TIP]
 >
->摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。相較於標準網路事件，這些新增專案微不足道。不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。
->![使用人員ID排除資料的範例](/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
+>摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。 相較於標準網路事件，這些新增專案微不足道。 不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。使用人員ID排除資料的範例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
 
 ![您的資料集在Customer Journey Analytics中會如何顯示](/help/integrations/assets/cja-report-example.png "您的資料集在Customer Journey Analytics中會如何顯示")
 
