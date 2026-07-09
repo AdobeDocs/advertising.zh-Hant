@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 搜尋、社交和Commerce可讓您在一個位置追蹤和/或管理您的搜尋、顯示/內容、社交、購物、對象和最高成效行銷活動。 視廣告網路和促銷活動型別而定，可用的功能可能包括與您的廣告網路同步、建立和編輯功能、追蹤和轉換歸因、報告，以及競標和預算最佳化。 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
-當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會提取行銷活動結構資料，並且每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶點按資料，以及每天從其他同步的廣告網路帳戶點按資料，或者在偵測到新行銷活動時更頻繁地點按資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+當您在[!UICONTROL Campaigns]檢視中新增及編輯行銷活動資料時，搜尋、社交和Commerce會立即將資料變更推送至廣告網路。 搜尋、Social和Commerce也會每天從同步的廣告網路帳戶提取行銷活動結構資料及點按資料，或是在偵測到新行銷活動時更頻繁地提取資料。 對於所有同步的廣告網路，您也可以視需求同步帳戶。
+
+搜尋、社交和Commerce會每小時從同步的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶提取效能資料，並每天提取其他同步廣告網路帳戶的效能資料。
 
 ## 設定您的廣告網路帳戶的存取權
 
 為了追蹤廣告商廣告網路帳戶中的廣告效益（並可能對廣告投標），Adobe帳戶團隊[會在Search、Social和Commerce中建立對應的帳戶記錄](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)。 帳戶記錄包含追蹤選項。
 
-對於透過廣告網路的API同步的帳戶，帳戶記錄也包含帳戶存取認證。 帳戶啟用後，系統會使用廣告網路從提取帳戶資料。 然後，您可以檢視現有的帳戶資料，以及建立和編輯行銷活動結構和廣告資料。
+對於透過廣告網路的API同步的帳戶，帳戶記錄也包含帳戶存取認證。 帳戶啟用後，系統會使用廣告網路從提取帳戶資料。 然後，您可以檢視現有的帳戶資料，並可能能夠建立和編輯行銷活動結構和廣告資料。
 
 ## 點選追蹤以將點選次數與轉換次數連結起來
 
-如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL。
+如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL （從Search、Social和Commerce內或廣告網路自己的編輯器內）。
 
 如需追蹤的詳細資訊，請參閱「追蹤」一章。
 

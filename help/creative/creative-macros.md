@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -44,7 +44,13 @@ ht-degree: 0%
 | `${TM_RANDOM}` | A random number between 1 and 1000000 | &mdash; | &mdash; |
 | `${TM_TIMESTAMP}` | The Unix Timestamp (in seconds) | &mdash; | &mdash; |
 | `${TM_CLICK_URL_URLENC}` | (For third-party ads from vendors who require URL encoding) The encoded click redirect URL, which enables ad servers to track and count ad clicks. When the ad is served and the user clicks on it, the macro is activated, and the click is recorded and counted for reporting purposes. | Yes | &mdash; |
-
+| `${TC_1}` | Custom tracking code 1. | &mdash; | &mdash; |
+| `${TC_2}` | Custom tracking code 2. | &mdash; | &mdash; |
+| `${TC_3}` | Custom tracking code 3. | &mdash; | &mdash; |
+| `${TC_4}` | Custom tracking code 4. | &mdash; | &mdash; |
+| `${TC_5}` | Custom tracking code 5. | &mdash; | &mdash; |
+| `${GDPR_ENFORCED}` | Whether GDPR enforcement is required for the bid request. Values: **1** = GDPR should be enforced, **0** = GDPR should not be enforced. | &mdash; | &mdash; |
+| `${GDPR_CONSENT}` | The GDPR consent value received from the supply partner in the bid request. Typically: **1** = consent provided, **0** = no consent provided. | &mdash; | &mdash; |
 -->
 
 | 巨集 | 說明 | 自動在Advertising DSP的Experience Tags中？ |
@@ -54,16 +60,22 @@ ht-degree: 0%
 | `${TM_PLACEMENT_ID_NUM}` | 從DSP追蹤並報告位置ID | 是 |
 | `${TM_AD_ID_NUM}` | 從DSP追蹤及報告廣告ID | 是 |
 | `${TM_CREATIVE_ID_NUM}` | 從DSP追蹤及報告創作ID | 不適用 |
-| `${TM_SESSION_ID}` | 從DSP追蹤並報告曝光ID。 如果未傳回值，Advertising Creative會產生一個值。 | 是 |
+| `${TM_SESSION_ID}` | 追蹤並報告與廣告請求關聯的工作階段ID。 如果未傳回值，則Advertising Creative會產生一個值。 | 是 |
 | `${TM_ACC_EXPERIENCE_ID}` | 追蹤及報告Advertising Creative體驗ID | — |
 | `${TM_ACC_CREATIVE_ID}` | 追蹤並報告Advertising Creative創作ID | — |
-| `${TM_RANDOM}` | 介於1到1000000之間的隨機數字 | — |
+| `${TM_RANDOM}` | 隨機產生的數字，介於1到1,000,000之間。 常用於快取破產。 | — |
 | `${TM_TIMESTAMP}` | UNIX®時間戳記（以秒為單位） | — |
-| `${TM_CLICK_URL_URLENC}` | （適用於來自需要URL編碼的廠商的第三方廣告）經過編碼的點選重新導向URL，可讓廣告伺服器追蹤及計算廣告點選次數。 當使用者按一下廣告時，就會啟用巨集，且會記錄該點按並計算在內，以用於報表用途。 | 是 |
+| `${TM_CLICK_URL_URLENC}` | （適用於來自需要URL編碼的廠商的第三方廣告）經過編碼的點選重新導向URL，可讓廣告伺服器追蹤及計算廣告點選次數。 當使用者按一下廣告時，會啟用巨集，且會記錄該點按並計算在內，以用於報表用途。 | 是 |
+| `${TC_1}` | 自訂追蹤代碼1。 | — |
+| `${TC_2}` | 自訂追蹤代碼2. | — |
+| `${TC_3}` | 自訂追蹤代碼3. | — |
+| `${TC_4}` | 自訂追蹤代碼4. | — |
+| `${TC_5}` | 自訂追蹤代碼5。 | — |
+| `${GDPR_ENFORCED}` | 投標要求是否需要GDPR強制執行。 值： **1** =應強制執行GDPR，**0** =不應強制執行GDPR。 | — |
+| `${GDPR_CONSENT}` | 從競標要求中的供應合作夥伴接收的GDPR同意值。 通常： **1** =已提供同意，**0** =未提供同意。 | — |
 
 >[!MORELIKETHIS]
 >
 >* [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [目標體驗設定](/help/creative/experiences/experience-settings-targeting.md)
->*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)
+>* &lbrack;目標體驗設定*[非目標體驗設定](/help/creative/experiences/experience-settings-no-targeting.md)
