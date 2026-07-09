@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 您的Adobe Advertising維度和摘要量度包含在Customer Journey Analytics資料檢視中。
 
-如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 確認特定廣告網路帳戶已啟用從Adobe Advertising到Customer Journey Analytics的摘要。 請洽詢您的Adobe客戶團隊。
 
-如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您確定資料不一致，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。. 包含熒幕擷取畫面和電子表格，以顯示差異的證據。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
+如果您確定資料不一致，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。. 包含熒幕擷取畫面和電子表格，以顯示差異的證據。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
 
 +++
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 * Adobe Advertising設定已在WebSDK擴充功能中正確設定並發佈。
 
-如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
