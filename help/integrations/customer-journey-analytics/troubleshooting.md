@@ -2,19 +2,11 @@
 title: 疑難排解Customer Journey Analytics中的Adobe Advertising資料
 description: 瞭解如何疑難排解及解決Customer Journey Analytics中的Adobe Advertising資料問題。
 feature: Integration with Adobe Customer Journey Analytics
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: cb1e07d89c0d8107fce38695b73352cd57246879
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -39,7 +31,7 @@ ht-degree: 0%
 
 * 您的Adobe Advertising維度和摘要量度包含在Customer Journey Analytics資料檢視中。
 
-如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -51,7 +43,7 @@ ht-degree: 0%
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -59,7 +51,7 @@ ht-degree: 0%
 
 確認特定廣告網路帳戶已啟用從Adobe Advertising到Customer Journey Analytics的摘要。 請洽詢您的Adobe客戶團隊。
 
-如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
@@ -71,11 +63,11 @@ ht-degree: 0%
 
 * 在[!DNL Workspace]和Adobe Advertising報表中套用的任何篩選器和區段都不會造成資料差異。
 
-* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]。
+* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶](/help/dsp/admin/user-own-profile-edit.md)的[[!UICONTROL Default Timezone]。
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您確定資料不一致，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。. 包含熒幕擷取畫面和電子表格，以顯示差異的證據。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
+如果您確定資料不一致，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。. 包含熒幕擷取畫面和電子表格，以顯示差異的證據。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
 
 +++
 
@@ -97,7 +89,7 @@ ht-degree: 0%
 
 * Adobe Advertising設定已在WebSDK擴充功能中正確設定並發佈。
 
-如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
