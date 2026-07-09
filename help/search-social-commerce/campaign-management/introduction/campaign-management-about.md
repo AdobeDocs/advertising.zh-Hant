@@ -4,16 +4,12 @@ description: 瞭解搜尋、社交和Commerce中的行銷活動管理功能。
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +26,11 @@ ht-degree: 0%
 
 為了追蹤廣告商廣告網路帳戶中的廣告效益（並可能對廣告投標），Adobe帳戶團隊[會在Search、Social和Commerce中建立對應的帳戶記錄](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)。 帳戶記錄包含追蹤選項。
 
-對於透過廣告網路的API同步的帳戶，帳戶記錄也包含帳戶存取認證。 帳戶啟用後，系統會使用廣告網路從提取帳戶資料。 然後，您可以檢視現有的帳戶資料，以及建立和編輯行銷活動結構和廣告資料。
+對於透過廣告網路的API同步的帳戶，帳戶記錄也包含帳戶存取認證。 帳戶啟用後，系統會使用廣告網路從提取帳戶資料。 然後，您可以檢視現有的帳戶資料，並可能能夠建立和編輯行銷活動結構和廣告資料。
 
 ## 點選追蹤以將點選次數與轉換次數連結起來
 
-如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL。
+如果您使用Adobe Advertising轉換追蹤服務，則必須在登陸頁面尾碼、追蹤範本和廣告的最終/目的地URL、關鍵字、位置、網站連結和產品清單中，包含「搜尋」、「社交」和「Commerce」點選追蹤程式碼。 對於其行銷活動設定包含「[!UICONTROL EF Redirect]」和「[!UICONTROL Auto Upload]」的[支援的廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)，搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤程式碼，因此您不需要手動新增。 否則，您必須手動將程式碼新增至您的追蹤範本或最終URL （從Search、Social和Commerce內或廣告網路自己的編輯器內）。
 
 如需追蹤的詳細資訊，請參閱「追蹤」一章。
 
@@ -60,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Bulksheets]** — 使用[!UICONTROL Bulksheets]檢視來建立[大量工作表檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)，其中包含您想要的[支援廣告網路](/help/search-social-commerce/introduction/supported-inventory.md)帳戶資料量，然後將它們張貼至廣告網路。
 
-* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe CX Enterprise對象與客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
+* **[!UICONTROL Audiences]** — [檢視[!UICONTROL Audiences]會列出您從各種使用者清單型別產生的所有[!DNL Google Ads]和[!DNL Microsoft Advertising]對象。 ](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)您可以從現有的Adobe CX Enterprise對象與客戶電子郵件清單建立[!DNL Google Ads]個對象。 您也可以檢視及管理[!DNL Google Ads]和[!DNL Microsoft Advertising]廣告的對象目標及排除專案。
 
 * **[!UICONTROL Label Classifications]** — 使用此檢視來建立和刪除[標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)，這可以協助您將標籤分組為有意義的組合。
 
