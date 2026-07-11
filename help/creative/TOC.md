@@ -18,8 +18,8 @@ ht-degree: 4%
    + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
+   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
 + Creative Studio {#creative-studio}
    + [關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
    + [管理標準廣告](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
@@ -102,4 +102,4 @@ ht-degree: 4%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
