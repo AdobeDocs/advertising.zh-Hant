@@ -4,13 +4,11 @@ description: 瞭解如何自訂每個可用檢視中的資料。
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
 TQID: https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +23,9 @@ ht-degree: 0%
 
 ## 以卡片或表格檢視資料
 
-以個別卡片或表格/清單檢視您[!UICONTROL Creative Libraries]和[!UICONTROL Experiences]檢視中的資料。 依預設，資料會以卡片檢視模式顯示。 卡片檢視會顯示相關創意的縮圖。
+<!-- Different images in Creative Studio, although pretty close -->
+
+以個別卡片或表格/清單檢視您[!UICONTROL Creative Studio]、[!UICONTROL Creative Libraries]和[!UICONTROL Experiences]檢視中的資料。 依預設，資料會以卡片檢視模式顯示。 卡片檢視會顯示相關創意的縮圖。
 
 當您在卡片檢視和表格檢視之間切換時，會保留您的篩選和選取專案。
 
