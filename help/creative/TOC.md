@@ -3,10 +3,10 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative 指南
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 5%
    + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
    + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
    + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
++ Creative Studio {#creative-studio}
+   + [關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
+   + [管理標準廣告](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+   + [管理動態創意內容](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [管理範本](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [管理資產](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Creative資料庫 {#creative-libraries}
    + [關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)
    + [支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)
@@ -79,6 +85,7 @@ ht-degree: 5%
    + [重新命名廣告標籤](/help/creative/experiences/experience-tag-rename.md)
    + [檢視體驗的變更記錄](/help/creative/experiences/experience-view-change-log.md)
    + [刪除體驗](/help/creative/experiences/experience-delete.md)
++ [管理品牌設定檔](/help/creative/brands/brand-manage.md)
 + 動態消息 {#feeds}
    + [管理資產檔案](/help/creative/feeds/asset-manage.md)
    + [管理摘要範本](/help/creative/feeds/feed-template-manage.md)

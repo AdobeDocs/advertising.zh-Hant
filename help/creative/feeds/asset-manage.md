@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 ## 檔案需求
 
+最大資料列數：2百萬
+
+檔案大小上限： 2 GB
+
 * 動態HTML5廣告：
 
    * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`images/image_name` （例如`images/300x250_acme_logo.png`）在每一列中包含影像名稱。
 
      廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-   * GIF、JPEG、JPG或PNG格式的相關影像資產。<!-- Is this true: The maximum file size is two (2) MB. --> 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+   * GIF、JPEG、JPG或PNG格式的相關影像資產。 檔案大小上限為10 MB。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
