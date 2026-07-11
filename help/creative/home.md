@@ -7,20 +7,14 @@ solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
 TQID: https://experienceleague.adobe.com/TP3z5s-DX9deihG6HKt2QMszVu699Je22revuYWN9-g
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3095c6a8f35d390d7d9b46df14f83b5e610c8e81
 workflow-type: tm+mt
-source-wordcount: 1773
+source-wordcount: 1897
 ht-degree: 0%
 
 ---
@@ -31,10 +25,11 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
-| 2025年2月25日 | [!DNL experiences]的Creative最佳化和排程 | 改善專案包括：<ul><li>對於決策樹目標定位的體驗，您現在可以在相同畫面中的個別索引標籤上指派創意套件組合併設定創意最佳化和排程。</li><li>廣告排程現在包含開始時間和結束時間。 依預設，排程從上午12:00開始，到晚上11:59結束。</li><li>[!UICONTROL Weighted]旋轉選項包含按鈕（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")），以將相等權重套用至所有指定的組合。</li></ul> | 檢視具有鎖定目標[&#128279;](/help/creative/experiences/experience-optimization-scheduling-targeting.md)的[體驗與沒有鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)的體驗的說明。 |
+| 2026年7月1日 | [!DNL Creative Studio], [!DNL Brands] | 下列為Beta版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;是AI輔助環境，您可以在單一工作階段中跨多種格式建置、調整大小和調整顯示廣告。 您透過自然語言聊天介面與AI互動，以產生和修改廣告內容 — 內容欄位不需要手動設計工作。</li><li>建立並管理可反映您品牌視覺化與訊息識別的&#x200B;**[!UICONTROL brand profiles]** — 包括您的標誌、調色盤、語音准則、影像標準及特定頻道的複製准則。 當您在[!UICONTROL Creative Studio]中建立廣告時，AI代理程式會使用品牌設定檔資訊，以基礎特定品牌中的內容產生。</li></ul> | 請參閱&quot;[關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot;和&quot;[管理品牌設定檔](/help/creative/brands/brand-manage.md)&quot;。 |
+| 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)。 |
+| 2025年2月25日 | [!DNL experiences]的Creative最佳化和排程 | 改善專案包括：<ul><li>對於決策樹目標定位的體驗，您現在可以在相同畫面中的個別索引標籤上指派創意套件組合併設定創意最佳化和排程。</li><li>廣告排程現在包含開始時間和結束時間。 依預設，排程從上午12:00開始，到晚上11:59結束。</li><li>[!UICONTROL Weighted]旋轉選項包含按鈕（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")），以將相等權重套用至所有指定的組合。</li></ul> | 檢視具有鎖定目標](/help/creative/experiences/experience-optimization-scheduling-targeting.md)的[體驗與沒有鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)的[體驗的說明。 |
 | 2026年2月18日 | 動態創意 | 您現在可以使用摘要來產生VAST相容的視訊廣告，以便用於CTV、網頁和行動應用程式。<ul><li>視訊廣告範本必須採用ZIP格式，並包含.scene檔案。</li><li>您的資產檔案必須包括MP4、MOV或WEBM格式的視訊資產。 支援的廣告範本包括開始卡片、結束卡片、頂端覆蓋、底部覆蓋或L形，以及每個視訊的持續時間必須介於1至90秒之間。 每個摘要檔案最多可處理500列視訊資產。</li><li>您的創意程式庫中，動態創意的設定現在包含包含選項為&quot;[!UICONTROL Display]&quot;和&quot;[!UICONTROL Video]&quot;的[!UICONTROL Creative Type]設定。 套件組合的設定也包含&quot;[!UICONTROL Dynamic Video]&quot;。</li><li>廣告體驗的設定也包含&quot;[!UICONTROL Dynamic Video]&quot;。</li><li>[!UICONTROL Custom Creative Report]現在包含各種視訊量度（例如曝光數、四分位元組以及靜音/取消靜音），以供摘要式視訊變化使用。</li></ul> | 請參閱&quot;[動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)&quot;、&quot;[將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)&quot;、&quot;[動態創意設定](/help/creative/creative-libraries/creative-settings-dynamic.md)&quot;以及&quot;[管理資產檔案](/help/creative/feeds/asset-manage.md)&quot;。 |
-| 2026年1月21日 | Creative資料庫，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)的廣告商現在可以從GenStudio將顯示廣告體驗匯入您的創意資料庫。 匯入體驗中的每個創意變體都會匯入為單獨的HTML5創意內容。 您可以在您的Advertising Creative體驗中包含匯入的創意內容。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
+| 2026年1月21日 | Creative資料庫，Adobe GenStudio for Performance Marketing | 使用[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)的廣告商現在可以從GenStudio將顯示廣告體驗匯入您的創意資料庫。 匯入體驗中的每個創意變體都會匯入為單獨的HTML5創意內容。 您可以在您的Advertising Creative體驗中包含匯入的創意內容。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 |  | 標準創意 | 建立影像和HTML5廣告的功能表選項現在已合併至單一「[!UICONTROL Standard Display]」選項，您也可以使用它從GenStudio匯入顯示廣告體驗。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
 | 2025年12月17日 | 警報 | [!UICONTROL Experiences]檢視中的[!UICONTROL Pulse Panel]圖示表示您的體驗是否有任何警報可用。 您可以開啟面板以檢視每個警報，並選擇開啟適用的體驗或創意，以便您視需要編輯它以解決問題。 您也可以選擇解除任何警報。<br><br>對於使用Advertising DSP的廣告商，從[!DNL Creative]個體驗建立的DSP位置相關警示可在DSP內的行銷活動層級取得。 | 請參閱&quot;[檢視警示](/help/creative/reports/alerts-view.md)&quot;。 |
 | 2025年11月26日 | Advertising Creative的成本報表 | （僅同時具有Advertising Creative和Advertising DSP的廣告商；測試版功能）新的[!UICONTROL All-in Cost]報告已移出Beta版，為一般可用功能。 | 請參閱&quot;[關於自訂報告](/help/creative/reports/reports-about.md)&quot;和&quot;[管理自訂報告](/help/creative/reports/report-manage.md)&quot;。 |
