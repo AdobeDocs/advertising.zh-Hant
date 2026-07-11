@@ -4,16 +4,12 @@ description: 瞭解在何處存取不同的功能。
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +104,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Extensions]**&#x200B;開啟您現有廣告擴充功能的唯讀檢視。 若要管理您的擴充功能，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
-   * **[!UICONTROL Shopping]**&#x200B;退出新網站並開啟舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]**&#x200B;開啟您現有購物產品群組的唯讀檢視。 若要管理您的產品群組，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Product Groups]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 * **[!UICONTROL Set Up]**&#x200B;子功能表：
 
@@ -119,6 +115,8 @@ ht-degree: 0%
    * **[!UICONTROL Import Campaigns]**：開啟新檢視，您可從其中匯入行銷活動資料。
 
    * **[!UICONTROL Bulksheets]**：開啟新的[!UICONTROL Bulksheets]檢視。
+
+   * **[!UICONTROL Products]**&#x200B;開啟您現有商家中心帳戶與產品的唯讀檢視。 若要新增商家中心帳戶，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Products]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
 <!--
  What's happening to these?
@@ -208,7 +206,7 @@ Tools > Admin > Data Source Setup
 
 * ![使用者設定檔](/help/search-social-commerce/assets/user-profile.png "使用者設定檔")連至您的設定檔的連結，您可以從中登出。
 
-  透過Adobe CX Enterprise [&#128279;](sign-in.md)登入時，您也可以編輯CX Enterprise設定檔，包括CX Enterprise密碼和通知設定。
+  透過Adobe CX Enterprise ](sign-in.md)登入時，您也可以編輯CX Enterprise設定檔，包括CX Enterprise密碼和通知設定。[
 
 >[!MORELIKETHIS]
 >
