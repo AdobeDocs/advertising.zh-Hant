@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82946754a9bd29908e00adad8721063964130999
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 7672
+source-wordcount: 7665
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年7月1日 | [!DNL Creative] | Advertising Creative提供下列Beta版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;是AI輔助環境，您可以在單一工作階段中跨多種格式建置、調整大小和調整顯示廣告。 您透過自然語言聊天介面與AI互動，以產生和修改廣告內容 — 內容欄位不需要手動設計工作。</li><li>建立並管理可反映您品牌視覺化與訊息識別的&#x200B;**[!UICONTROL brand profiles]** — 包括您的標誌、調色盤、語音准則、影像標準及特定頻道的複製准則。 當您在[!UICONTROL Creative Studio]中建立廣告時，AI代理程式會使用品牌設定檔資訊，以基礎特定品牌中的內容產生。</li></ul> | 請參閱&quot;[關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot;和&quot;[管理品牌設定檔](/help/creative/brands/brand-manage.md)&quot;。 |
+| 2026年7月1日 | [!DNL Creative] | Advertising Creative提供下列Beta版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用創作AI來協助在單一工作階段中跨多種格式建置、調整大小和調整顯示廣告。 使用自然語言聊天介面來產生和修改廣告內容 — 內容欄位不需要手動設計工作。</li><li>建立並管理可反映您品牌視覺化與訊息識別的&#x200B;**[!UICONTROL brand profiles]** — 包括您的標誌、調色盤、語音准則、影像標準及特定頻道的複製准則。 當您在[!UICONTROL Creative Studio]中建立廣告時，AI代理程式會使用品牌設定檔資訊，以基礎特定品牌中的內容產生。</li></ul> | 請參閱&quot;[關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot;和&quot;[管理品牌設定檔](/help/creative/brands/brand-manage.md)&quot;。 |
 | 2026年6月23日 | [!UICONTROL Placements]，郵遞區號 | 您現在可以為個別國家建立郵遞區號清單，以重複使用作為放置目標或排除專案。 | 請參閱[管理郵遞區號清單](/help/dsp/resources/lists-postal-codes-manage.md)和[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2026年6月9日 | 與Adobe Customer Journey Analytics整合 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
