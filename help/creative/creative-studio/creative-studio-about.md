@@ -1,13 +1,10 @@
 ---
 title: 關於Advertising Creative中的Creative Studio
 description: 瞭解如何使用Creative Studio在Adobe Advertising Creative中建置AI輔助廣告內容。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 811
 ht-degree: 0%
@@ -24,7 +21,7 @@ ht-degree: 0%
 
 [!UICONTROL Creative Studio]已組織為三個索引標籤：
 
-**[!UICONTROL Creatives]** — 廣告建立的起點。 顯示從Creative Studio產生的現有創意內容，並將其整理到可收合的創意檔案庫中。 您可以在此處從範本產生標準顯示廣告、從目錄資料建立動態顯示創意，以及管理現有創意（編輯、產生廣告變化、預覽、複製、下載、刪除、QA和檢閱變更記錄）。 請參閱「在Creative Studio中管理標準廣告[&#128279;](creative-studio-manage-standard-ads.md)」和「在Creative Studio中管理動態廣告[&#128279;](creative-studio-manage-dynamic-ads.md)」。
+**[!UICONTROL Creatives]** — 廣告建立的起點。 顯示從Creative Studio產生的現有創意內容，並將其整理到可收合的創意檔案庫中。 您可以在此處從範本產生標準顯示廣告、從目錄資料建立動態顯示創意，以及管理現有創意（編輯、產生廣告變化、預覽、複製、下載、刪除、QA和檢閱變更記錄）。 請參閱「在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)」和「在Creative Studio中管理動態廣告](creative-studio-manage-dynamic-ads.md)」。[[
 
 **[!UICONTROL Templates]** — 顯示您的帳戶可用的所有顯示和視訊廣告範本，並依來源（全部、系統範本、使用者範本）、狀態和廣告格式進行篩選。 您可以預覽、收藏、加上標籤、下載和刪除範本，或直接從現有的顯示廣告範本啟動廣告產生工作階段。 請參閱[在Creative Studio中管理範本](creative-studio-manage-templates.md)。
 
@@ -72,3 +69,4 @@ ht-degree: 0%
 >* [在Creative Studio中管理範本](creative-studio-manage-templates.md)
 >* [在Creative Studio中管理資產](creative-studio-manage-assets.md)
 >* [在Advertising Creative中管理品牌設定檔](/help/creative/brands/brand-manage.md)
+

@@ -1,13 +1,10 @@
 ---
 title: 在Advertising Creative中管理品牌設定檔
 description: 瞭解如何在Adobe Advertising Creative中建立、編輯、複製和刪除品牌設定檔。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +123,11 @@ ht-degree: 0%
 
 品牌詳細資料頁面會整理到下列索引標籤中。
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 顯示品牌名稱。 若要新增說明，請按一下&#x200B;**[!UICONTROL When to use this brand]**，輸入說明文字，然後按一下&#x200B;**[!UICONTROL Save]**。 說明會立即儲存，不需要按一下頁面層級&#x200B;**[!UICONTROL Save]**&#x200B;按鈕。
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 （選用）定義品牌的語音和訊息傳送標準。 AI代理程式在產生標題和副本時會使用這些准則。
 
@@ -142,7 +139,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Editorial Restrictions]：** （選擇性）要避免的寫入規則。 例如：「避免使用行話」、「不發表定價宣告」或「從不使用競爭者名稱」。
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 （選用）定義背景和產品影像的標準，最多可分為10個類別。 AI代理程式在產生背景影像提示時會使用這些准則。
 
@@ -168,7 +165,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Restrictions]：** （選擇性）要避免的專案。 最多包含五個專案。 範例：「無照片庫存美學」或「避免忙碌的背景」。
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 定義最多10個複製標準的<!-- Just one set of guidelines as of 7/9: channel-specific -->。 AI代理程式在產生副本變化時會使用管道指南。
 
@@ -186,7 +183,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Examples]：** （選用）說明<!-- Just one set of guidelines as of 7/9: channel's -->指定樣式的範例廣告文案（標題、副標題、本文和CTA）。 若要根據您的准則檢視廣告文案的範例，請按一下&#x200B;**[!UICONTROL Create example]**。
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 （選用）標誌用於包含標誌元素的廣告中，AI代理程式可在調換標誌版本時使用該標誌。 支援的影像型別為JPG、PNG和SVG，每個檔案最大可達5 MB。 每個品牌最多可包含10個圖志。
 
@@ -212,7 +209,7 @@ ht-degree: 0%
 
    * 若要從品牌設定中移除標誌，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 （選用）定義品牌的調色盤。 AI代理程式會在產生以顏色為基礎的廣告變化時使用指定的顏色。
 

@@ -1,13 +1,10 @@
 ---
 title: 在Creative Studio中管理廣告範本
 description: 瞭解如何在Adobe Advertising Creative的「Creative Studio範本」索引標籤中建立、匯入、整理及管理廣告範本。
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 2509
 ht-degree: 2%
@@ -27,13 +24,11 @@ ht-degree: 2%
 此索引標籤也會在頁面<!-- Only in the Templates tab -->底部將您現有的廣告範本列為[個別卡片（預設）或表格/清單](/help/creative/introduction/customize-data-views.md)。 廣告範本清單包含[!UICONTROL All]、[!UICONTROL System Templates] （由您的Adobe帳戶團隊上傳至您的帳戶）和[!UICONTROL User Templates]的標籤。 依預設，會顯示所有廣告商的廣告範本。 若只要檢視特定廣告商的廣告範本，請從頁面頂端的廣告商清單中選取。
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### 可用動作
@@ -143,7 +138,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. （顯示廣告）選取廣告範本大小，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用範本編輯器[&#128279;](#template-controls)中的控制項來設定範本設定。
+1. 使用範本編輯器](#template-controls)中的[控制項來設定範本設定。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -173,7 +168,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. 將游標停留在範本卡片或表格列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在範本編輯器[&#128279;](#template-controls)中使用控制項來編輯範本配置或元素。
+1. 在範本編輯器](#template-controls)中使用[控制項來編輯範本配置或元素。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -436,7 +431,7 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 
    [!UICONTROL Ad Variations Generator]會開啟，並預先載入範本。
 
-1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告[&#128279;](creative-studio-manage-standard-ads.md)」。
+1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)」。[
 
 ## 新增或移除廣告範本的標籤 {#template-labels}
 
@@ -516,3 +511,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [在Creative Studio中管理資產](creative-studio-manage-assets.md)
 >* [在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)
 >* [在Creative Studio中管理動態創意內容](creative-studio-manage-dynamic-ads.md)
+
