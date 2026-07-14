@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ ht-degree: 0%
 * [刪除資產](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## 支援的資產型別
+
+| 型別 | 支援的格式 | 檔案大小上限 |
+| --- | --- | --- |
+| 影像 | JPG/JPEG、PNG、GIF、WebP、SVG | 10 MB |
+| 影片 | MP4、MOV、AVI、WebM | 512毫巴 |
+| 音訊 | MP3、WAV、AAC、OGG | 50 MB |
+| 字型 | TTF、OTF、WOFF、WOFF2 | 5 MB |
 
 ## 上傳資產 {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. 從您的電腦或網路選取一或多個檔案。
 
-   支援的檔案型別如下：
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | 型別 | 支援的格式 | 檔案大小上限 |
-   | --- | --- | --- |
-   | 影像 | JPG/JPEG、PNG、GIF、WebP、SVG | 10 MB |
-   | 影片 | MP4、MOV、AVI、WebM | 512毫巴 |
-   | 音訊 | MP3、WAV、AAC、OGG | 50 MB |
-
    系統會以錯誤通知拒絕空檔案和不支援的檔案型別。
 
    資產名稱會儲存為上傳的檔案名稱，不含副檔名。 檔案名稱中的空格和非ASCII字元會取代為底線（例如，上傳`My Logo.png`會建立名為`My_Logo`的資產）。 您之後可以重新命名資產。
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## 編輯資產名稱 {#asset-rename}
 
