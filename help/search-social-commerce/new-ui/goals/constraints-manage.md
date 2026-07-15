@@ -2,11 +2,9 @@
 title: 管理搜尋競標單位的限制
 description: 瞭解限制條件，以限制舊式關鍵字層級產品組合中CPC促銷活動競標單位的競標。
 feature: Search Campaign Management, Search Optimization
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: c800239a-06eb-4249-9aef-771973d24d35
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 *僅適用於舊版關鍵字層級產品組合中CPC行銷活動的競標單位*
 
-競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=zh-Hant)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
+競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
 
 ## 關於限制
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
 除了開啟[[!UICONTROL Constraints]檢視](#constraints-view)之外，您還可以透過下列方式檢視限制的相關資訊：
 
-* 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)的標籤值。
+* 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)的標籤值。
 
    * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
   [!UICONTROL Constraints]分類未包含在[!UICONTROL Label Classifications]檢視中 — [!UICONTROL Constraints]檢視是獨立的。 [!UICONTROL Constraints]分類也不包含在30標籤分類限制中。
 
-* [&#x200B; [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)包含使用標籤分類架構之限制的成本、點選及（選擇性）轉換資料。
+* [ [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)包含使用標籤分類架構之限制的成本、點選及（選擇性）轉換資料。
 
 ### [!UICONTROL Constraints]檢視 {#constraints-view}
 
@@ -116,7 +114,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
+1. （選擇性）從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
 
 1. 選取要編輯的限制旁的核取方塊。
 
@@ -138,7 +136,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 
-1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
+1. （選擇性）從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
 
 1. 選取每個要變更其狀態的限制旁的核取方塊。
 
@@ -146,7 +144,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中，按一下狀態按鈕：
 
-   * 若要啟動所有選取的列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate-new.png " ")。
+   * 若要啟動所有選取的列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate-new.png " ")。
 
    * 若要暫停所有選取的列，請按一下![暫停](/help/search-social-commerce/assets/pause-new.png "暫停")。
 
@@ -170,7 +168,7 @@ ht-degree: 0%
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | （[!UICONTROL Search Engine Min Bid]個限制）使用在Google ([!UICONTROL Google First Page CPC])上搜尋結果第一頁顯示競標單位所需的最低競標。 選擇性地輸入&#x200B;**[!UICONTROL Min Bid]**&#x200B;值及/或&#x200B;**[!UICONTROL Max Bid]**&#x200B;值，以定義限制的合格競標範圍。 例如，若您指定2.50 USD的[!UICONTROL Min Bid]與4 USD的[!UICONTROL Max Bid]，則如果[!DNL Google Ads]第一頁競標低於2.50 USD或高於4 USD，則您將不會競標出價單位。 |
 | | [!UICONTROL Set constraint options for Impression Share] | （僅限[!UICONTROL Impression Share]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]** （選擇性）相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：** （選擇性）相關競標單位的最大基底競標。</li><li>**[!UICONTROL Min Impression Share]：**&#x200B;最低曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li><li>**[!UICONTROL Max Impression Share]：**&#x200B;最高曝光比重（以百分比表示）將會觸發適用競標單位的限制。 它必須介於10到90之間。**注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 是否將條件套用至限制：<ul><li>*[!UICONTROL No Condition]：* （預設）在指定的日期範圍內無條件套用限制。</li><li>*[!UICONTROL Satisfy]：*&#x200B;只有在指定的資料評估期間符合指定的條件時，才會套用限制。</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | （設定條件時）為指定條件評估資料的時間期間。 如果您選取&#x200B;*[!UICONTROL Custom date range]，**請以`MM-DD-YYYY`格式輸入每個日期（例如2026年3月29日的03-29-2026）或按一下![行事曆按鈕](/help/search-social-commerce/assets/calendar-new.png "行事曆按鈕")開啟行事曆並選取每個日期，以指定&#x200B;**&#x200B;[!UICONTROL Start Date]&#x200B;**&#x200B;和&#x200B;**&#x200B;[!UICONTROL End Date]**。 |
+| | [!UICONTROL Data Evaluation Period] | （設定條件時）為指定條件評估資料的時間期間。 如果您選取&#x200B;*[!UICONTROL Custom date range]，**請以`MM-DD-YYYY`格式輸入每個日期（例如2026年3月29日的03-29-2026）或按一下![行事曆按鈕](/help/search-social-commerce/assets/calendar-new.png "行事曆按鈕")開啟行事曆並選取每個日期，以指定&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 |
 | | [!UICONTROL When to Apply Constraints] | （設定條件時）必須符合多少篩選條件才能套用限制：<ul><li>*[!UICONTROL Match All Filters]：*&#x200B;在符合每個指定的篩選條件時套用限制。</li><li>*[!UICONTROL Match Any Filters]：*&#x200B;至少符合一個指定的篩選條件時，套用條件約束。</li></ul> |
 | | [!UICONTROL Filters] | （設定條件時）必須符合的一或多個條件。 若要建立篩選器，請從清單中選取屬性或量度。 針對屬性（例如[!UICONTROL Channel Type]），在清單中選取適用的值。 針對量度（例如[!UICONTROL Clicks]），請選取運運算元，然後輸入適用的值。 例如，若要只傳回超過100次點按的競標單位，請選取&#x200B;**點按**，選取&#x200B;**大於**，然後在輸入欄位中輸入`100`。</li></ul> |
 
@@ -183,13 +181,13 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
->* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 從主功能表，開啟相關的管理檢視。
 
    例如，若要指派行銷活動層級的限制，請移至[!UICONTROL Manage] > [!UICONTROL Campaigns]。
 
-1. （選擇性）從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單。
+1. （選擇性）從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選清單[。
 
 1. 選取要為其指定單一限制的每個圖元旁的核取方塊。
 
@@ -204,7 +202,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 若要刪除限制，使其無法供未來使用，請參閱[變更限制的狀態](#constraint-change-status)。
->* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 在主功能表中，開啟相關的管理檢視。
 
@@ -220,6 +218,6 @@ ht-degree: 0%
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派
->* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
+>* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [該[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
