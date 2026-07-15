@@ -89,6 +89,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [ （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [ （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [ （新UI）管理位置](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)的限制指派
+>* [&#x200B; （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [&#x200B; （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [&#x200B; （新UI）管理位置](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)的限制指派

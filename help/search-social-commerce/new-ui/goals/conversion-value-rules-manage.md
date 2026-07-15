@@ -2,8 +2,11 @@
 title: （新UI）管理 [!DNL Google Ads] 轉換值規則
 description: 瞭解如何在搜尋、社交和Commerce中檢視和管理 [!DNL Google Ads] 轉換值規則。
 feature: Conversions
-feature_v2: id: e6916c1b-e939-4e0b-99f5-768e83e1e99fid: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
 source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 1854
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Google Ads] [轉換值規則](https://support.google.com/google-ads/answer/10518330)可讓您根據使用者資訊（包括裝置型別、位置和對象區段）調整轉換事件的值。 透過Google智慧競標，您可以在搜尋、顯示、購物和效能最大化行銷活動中使用價值型競標規則。 對於具有Maximize Conversions和Target ROAS競標策略的行銷活動，[!DNL Google Ads]演演算法將開始偏好具有較高值的轉換。
 
-行銷活動層級轉換值規則會覆寫帳戶層級規則。 當轉換符合多個轉換值規則時，只會套用其中一個規則。 通常會套用最明確的規則，但請參閱不同規則條件型別](https://support.google.com/google-ads/answer/10520348)的優先順序的[[!DNL Google Ads] 檔案。
+行銷活動層級轉換值規則會覆寫帳戶層級規則。 當轉換符合多個轉換值規則時，只會套用其中一個規則。 通常會套用最明確的規則，但請參閱不同規則條件型別[&#128279;](https://support.google.com/google-ads/answer/10520348)的優先順序的[!DNL Google Ads] 檔案。
 
 ## [!UICONTROL Conversion Value Rules]檢視和功能
 
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 例如，假設目標使用單一轉換量度「銷售機會」，並將來自行動裝置的轉換權重設為10，將來自非行動裝置的轉換權重設為10。 搜尋、Social和Commerce會將任一裝置型別的事件計為一(1)次轉換，並將轉換值計為10。 然而，假設該投資組合中的行銷活動使用轉換值規則「如果裝置為行動，則乘以2。」 當為該行銷活動追蹤行動銷售機會事件時，[!DNL Google Ads]也會將轉換計數計為一(1)，但轉換值計為(10 x 2) = 20。
 
-若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱 [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848)中的[轉換值規則報告。
+若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱 [!DNL Google Ads][&#128279;](https://support.google.com/google-ads/answer/10519848)中的轉換值規則報告。
 
 ## 建立[!DNL Google Ads]轉換值規則 {#google-conversion-value-rule-create}
 
