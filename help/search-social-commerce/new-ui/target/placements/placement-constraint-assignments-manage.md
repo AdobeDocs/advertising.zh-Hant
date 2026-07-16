@@ -1,17 +1,17 @@
 ---
-title: 管理關鍵字的限制指派
-description: 瞭解如何將限制指派給關鍵字。
+title: 管理位置的限制指派
+description: 瞭解如何將限制指派給位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# （新UI）管理關鍵字的限制指派
+# （新UI）管理版位的限制指派
 
 *Beta功能*
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 >* 如果您稍後編輯非可變廣告的關鍵字或廣告復本（因此建立新的關鍵字或廣告），則限制不會指派給新圖元。
 >* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 若競標單位位於作用中產品組合、混合產品組合或不在產品組合中，則會忽略這些專案。
 
-## 從新[!UICONTROL Keywords]檢視指派限制給選取的廣告
+## 從新[!UICONTROL Placements]檢視指派限制給選取的版位
 
-您可以將單一限制指派給一或多個行銷活動。
+您可以將單一限制指派給一或多個位置。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
 
-1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤上，選取您要指派單一限制的每個關鍵字旁的核取方塊。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;標籤上，選取要指派單一限制之每個位置旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從新[!UICONTROL Keywords]檢視取消指派所選行銷活動的限制
+## 從新[!UICONTROL Placements]檢視取消指派所選位置的限制
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Keywords]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
 
-1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤上，選取每個要取消指派限制之關鍵字旁的核取方塊。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;索引標籤上，選取要從中取消指派限制之每個位置旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [&#x200B; （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [&#x200B; （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; （新UI）管理位置](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)的限制指派
+>* [&#x200B; （新UI）管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派

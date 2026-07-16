@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2405
 ht-degree: 2%
@@ -209,10 +209,10 @@ ht-degree: 2%
    + Target {#target}
       + 關鍵字 {#keywords}
          + [關於[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-         + [管理關鍵字的限制指派](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+         + [管理關鍵字的限制指派](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
       + 版位 {#placements}
          + [關於[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-         + [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+         + [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
    + 設定 {#setup}
       + 帳戶 {#accounts}
          + [關於廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)

@@ -2,7 +2,7 @@
 title: （新UI）管理通知
 description: 瞭解如何檢視、設定和管理搜尋、社交和Commerce通知，包括推播通知和通知中心Web應用程式。
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Bulksheets]**： [大量工作表作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失敗的通知。<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce遺失[廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)之認證的通知，這些是正確設定重要功能所需的認證。<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce遺失[廣告網路管理員帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)之認證的通知，這些是正確設定重要功能所需的認證。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
    * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包含[大量工作表工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、大量編輯資料表中的工作，或使用工具列、實體指派工作或使用者介面中的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派給任何實體的[標籤分類值](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)、指派行銷活動給產品組合，以及[指派或取消指派給實體的競標條件約束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 

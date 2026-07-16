@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 
    相同的設定會套用至您張貼的所有檔案。
 
-工作開始時，[!UICONTROL Bulksheets]檢視中會更新資料列的狀態和排程的張貼日期。 在[!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md)中啟用Bulksheets的電子郵件通知時，便會在張貼檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果無法張貼任何資料，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
+工作開始時，[!UICONTROL Bulksheets]檢視中會更新資料列的狀態和排程的張貼日期。 在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中啟用Bulksheets的電子郵件通知時，便會在張貼檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果無法張貼任何資料，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
 
 >[!NOTE]
 >

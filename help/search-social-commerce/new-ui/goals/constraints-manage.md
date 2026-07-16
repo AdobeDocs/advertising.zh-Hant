@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -183,7 +183,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果您稍後編輯廣告的關鍵字或廣告復本（因而建立新的關鍵字或廣告），則限制不會指派給新實體。
->* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 從主功能表，開啟相關的管理檢視。
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 若要刪除限制，使其無法供未來使用，請參閱[變更限制的狀態](#constraint-change-status)。
->* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* 檢視[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)、[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)、[[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)或[[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)中的相同指示。<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 在主功能表中，開啟相關的管理檢視。
 
@@ -220,6 +220,6 @@ ht-degree: 0%
 >
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)的限制指派
->* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
+>* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [該[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
