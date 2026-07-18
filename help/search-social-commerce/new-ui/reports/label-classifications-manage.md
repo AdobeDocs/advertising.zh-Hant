@@ -2,7 +2,7 @@
 title: 管理標籤分類
 description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ ht-degree: 0%
 >
 >您某些廣告網路和行銷活動型別的關鍵字和廣告復本是[不可變動](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新的實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
 
-1. [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)，其中包含您要指派標籤分類值的實體：
+1. [下載大量表單](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)，其中包含您要指派標籤分類值的實體：
 
    * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]清單。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    除了新增值之外，您也可以從相關列移除現有值以將其刪除。 若要從父項實體及其子項實體中移除值，請a)僅包含父項實體列，並移除現有的分類值，或b)同時包含父項實體及其子項實體，並從所有父項列與子項列移除現有的分類值。
 
-1. [上傳檔案](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)以建立關聯。<!-- Update once the new bulksheet UI is GA -->
+1. [上傳檔案](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)以建立關聯。
 
 上傳的標籤值會顯示在相關實體檢視中。
 
