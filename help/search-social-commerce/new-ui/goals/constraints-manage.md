@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 * 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)的標籤值。
 
-   * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
+  * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
 
-   * 當您下載大量表單時，[!UICONTROL Download Bulksheet]對話方塊中適用實體的[!UICONTROL Classifications]欄下會列出[!UICONTROL Constraints]。 當您包含欄時，下載的大量工作表會包含指定給相關圖元的任何限制。
+  * 當您下載大量表單時，[!UICONTROL Download Bulksheet]對話方塊中適用實體的[!UICONTROL Classifications]欄下會列出[!UICONTROL Constraints]。 當您包含欄時，下載的大量工作表會包含指定給相關圖元的任何限制。
 
   [!UICONTROL Constraints]分類未包含在[!UICONTROL Label Classifications]檢視中 — [!UICONTROL Constraints]檢視是獨立的。 [!UICONTROL Constraints]分類也不包含在30標籤分類限制中。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 您可以暫停任何作用中的限制以將其停用。 您稍後可以將其狀態變更回&#x200B;*作用中*，以啟用它。
 
-您也可以刪除限制，這會移除與帳戶元件的所有關聯，並使限制無法供日後使用。 限制的報表資料已無法使用。 **注意：**&#x200B;若要將限制與帳戶元件解除關聯，請參閱[從搜尋競標單位取消指派限制](#constraints-unassign)。
+您也可以刪除限制，這會移除與帳戶元件的所有關聯，並使限制無法供日後使用。 限制的報表資料已無法使用。 **注意：**&#x200B;若要解除限制與帳戶元件的關聯，請參閱[從搜尋競標單位移除限制](#constraints-unassign)。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Constraints]**。
 

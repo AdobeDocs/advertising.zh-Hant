@@ -12,9 +12,9 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +43,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets]檢視
 
-[!UICONTROL Auto Targets]檢視會列出所選廣告商帳戶之篩選檢視中的所有動態搜尋目標。
-
-您可以在[!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]檢視中建立、編輯和變更動態搜尋目標的狀態。
-
-您也可以[將標籤](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)套用至任何目標。
+[!UICONTROL Target] > [!UICONTROL Auto Targets]檢視會列出所選廣告商帳戶之篩選檢視中的所有動態搜尋目標。 您也可以管理動態搜尋目標。
 
 ### 可用動作
 
@@ -59,7 +55,7 @@ ht-degree: 0%
 * Change the status of dynamic search targets
 -->
 
-* [將限制指派給動態搜尋目標](#constraint-assign)，以及[從動態搜尋目標取消指派限制](#constraint-unassign)
+* [將限制](#constraint-assign)指派給動態搜尋目標，以及[從動態搜尋目標移除限制](#constraint-unassign)
 
 * [指派標籤分類](#classification-values-assign)給動態搜尋目標，以及[從動態搜尋目標移除標籤分類](#classification-values-remove)
 
@@ -192,7 +188,7 @@ You can also delete any dynamic target.
 
 1. 按一下&#x200B;**[!UICONTROL Assign Now]**。
 
-## 從新的[!UICONTROL Auto Targets]檢視取消指派所選動態搜尋目標的限制 {#constraint-unassign}
+## 從新的[!UICONTROL Auto Targets]檢視移除所選動態搜尋目標的限制 {#constraint-unassign}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**。
 
@@ -236,7 +232,7 @@ You can also delete any dynamic target.
 
 1. 按一下&#x200B;**+[!UICONTROL Assign Now]**。
 
-## 從動態搜尋目標中移除標籤分類值{#classification-values-remove}
+## 從動態搜尋目標中移除標籤分類值 {#classification-values-remove}
 
 移除分類值會移除與帳戶元件及其所有子元件的關聯。 這些元件不再提供分類值的報表資料。 移除分類值不會刪除值或帳戶元件。
 
