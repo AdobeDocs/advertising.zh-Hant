@@ -4,7 +4,7 @@ description: 瞭解如何將限制指派給位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從新[!UICONTROL Placements]檢視取消指派所選位置的限制
+## 從新[!UICONTROL Placements]檢視中移除所選位置的限制
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Placements]**。
 
@@ -89,6 +89,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [&#x200B; （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; （新UI）管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
+>* [ （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [ （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [ （新UI）管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
