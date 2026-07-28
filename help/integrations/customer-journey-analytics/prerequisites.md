@@ -28,13 +28,13 @@ ht-degree: 0%
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
 
-* （具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 2.36版或更新版本。
+* （具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 2.36版或更新版本。
 
 * Adobe Customer Journey Analytics可存取資料管理工具
 
   您需要內部網頁分析人員的支援，才能設定與資料集的連線及設定報告。
 
-* （不含[!DNL Analytics for Advertising]的廣告商） Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)）
+* （不含[!DNL Analytics for Advertising]的廣告商） Adobe Experience Platform資料模型化與管理技術（包括[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)）和[資料收集技術](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) （包括[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)和[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)）
 
   這些技術需要Experience Platform網站管理員的支援。
 
