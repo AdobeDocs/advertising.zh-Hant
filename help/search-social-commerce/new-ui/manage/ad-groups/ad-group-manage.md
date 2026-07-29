@@ -2,15 +2,11 @@
 title: 管理廣告群組
 description: 瞭解如何建立及管理廣告群組。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e120af366651028227306e993e73f125f29a431f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -61,7 +57,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Ad Group]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md)廣告群組設定。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -97,7 +93,7 @@ ht-degree: 0%
 
    * 選取廣告群組旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md)廣告群組設定。
+1. 編輯[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -221,7 +217,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -321,10 +317,10 @@ ht-degree: 0%
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md)
->* [[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md)
->* [[!DNL LY Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md)
->* [[!DNL Yandex] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+>* [[!DNL LY Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)
+>* [[!DNL Microsoft Advertising] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+>* [[!DNL Yandex] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)

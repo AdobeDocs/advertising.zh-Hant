@@ -2,9 +2,9 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 42bff10a5cf8df733b223fa96cd10c00c9e40d44
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
-source-wordcount: '3979'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 廣告的維度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]個回應式搜尋廣告）廣告的效果： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]行銷活動）目前的廣告群組層級行動競標調整，決定在行動裝置上顯示廣告時，如何調整競標。 |
-| [!UICONTROL AI Max Bundling Required] | （僅針對搜尋網路的行銷活動；啟用AI Max功能的行銷活動；唯讀）是否需要套件組合： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
+| [!UICONTROL AI Max Bundling Required] | （僅針對搜尋網路的行銷活動；已啟用AI Max功能的行銷活動；唯讀）是否必須啟用[!UICONTROL AI Max]才能遵循或修改行銷活動的文字自訂和品牌清單控制項： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
 | [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL AI Max Search Term Matching] | （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 廣告商名稱。 |
@@ -186,7 +186,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |

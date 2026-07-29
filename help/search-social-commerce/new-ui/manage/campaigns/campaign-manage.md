@@ -2,15 +2,11 @@
 title: 管理行銷活動
 description: 瞭解如何建立和管理廣告行銷活動。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7dc3ea3fe1fcb701d9d064b184922ed96626cd4a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -68,7 +64,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Campaign]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)行銷活動設定。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -104,7 +100,7 @@ ht-degree: 0%
 
    * 選取行銷活動旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)，[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)，[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)，<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)行銷活動設定。
+1. 編輯[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)，[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)，[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)，<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -148,7 +144,7 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告，最佳化出價、行銷活動預算和競標策略目標。 您可以在建立投資組合時，或透過編輯投資組合的設定，從[!UICONTROL Campaigns]檢視將行銷活動指派給投資組合。
 
-並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的最佳化支援。
+並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[最佳化支援。
 
 >[!NOTE]
 >
@@ -322,7 +318,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -424,13 +420,13 @@ ht-degree: 0%
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)
->* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)
->* [[!DNL LY Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)
->* [[!DNL Yandex] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)
+>* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)
+>* [[!DNL Microsoft Advertising] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yandex] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
 
-<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md) -->
+<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md) -->
 

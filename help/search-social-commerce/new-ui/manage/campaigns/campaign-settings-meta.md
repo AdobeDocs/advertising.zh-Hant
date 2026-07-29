@@ -26,8 +26,6 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL End Date]:** -->
 
-{{$include /help/_includes/end-date.md}}
-
 **[!UICONTROL Status]：**&#x200B;行銷活動的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。
 
 ## [!UICONTROL Campaign Tracking]
@@ -40,4 +38,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [管理行銷活動](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
