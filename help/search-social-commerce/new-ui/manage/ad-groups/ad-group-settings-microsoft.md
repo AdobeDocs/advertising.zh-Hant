@@ -4,13 +4,10 @@ description: 參考 [!DNL Microsoft Advertising] 廣告群組的設定。
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/f-mac9RGzF4qVr7P65-9AuhWKf22tdND5XSJ1YvLWyc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 0%
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Select From Below List]：*&#x200B;目標選取的型別。 從所有可用型別的清單中選取。
 
-連線電視(CTV)廣告投放視您的視訊品質和競標金額而定。 檢視CTV廣告[&#128279;](#TechnicalRequirements)的技術需求。
+連線電視(CTV)廣告投放視您的視訊品質和競標金額而定。 檢視CTV廣告](#TechnicalRequirements)的[技術需求。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -157,7 +154,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]：** （僅限顯示/原生網路的行銷活動；選擇性）您不想顯示廣告的顯示網路網站。 請輸入有效的URL，例如www.example.com。 若要指定多個字串，請以逗號分隔字串，或在個別行中輸入字串。
 
-如需有關可用性的資訊，請參閱[!DNL Microsoft Advertising] 「防止廣告出現在特定網站[&#128279;](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」的說明。
+如需有關可用性的資訊，請參閱[!DNL Microsoft Advertising] 「防止廣告出現在特定網站](https://help.ads.microsoft.com/#apex/bae/en/14061/0)」的說明。[
 
 ### [!UICONTROL Ad Group Frequency Cap Settings]
 
@@ -165,4 +162,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [管理廣告群組](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)

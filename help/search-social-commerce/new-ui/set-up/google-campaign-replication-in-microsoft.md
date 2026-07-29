@@ -2,7 +2,7 @@
 title: （新UI）在Microsoft Advertising中複製Google Ads行銷活動
 description: 瞭解如何將Google Ads帳戶中同步的行銷活動直接匯出至同步的Microsoft Advertising帳戶。
 feature: Search Campaign Management
-source-git-commit: e6649d66757333660662a058410221b73a45e6cc
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 您可以選擇更新一次行銷活動；每日、每週或每月；或根據[!DNL Microsoft Advertising]的建議排程。 您可以選擇在每次匯入工作執行或發生錯誤或變更時設定通知。 將行銷活動匯入[!DNL Microsoft Advertising]後，您可以檢查匯入工作的狀態、檢閱任何錯誤記錄檔、手動執行匯入工作，以及編輯、暫停、啟用或刪除匯入排程。
 
-並非所有行銷活動資訊都已復寫，您可能需要將一些資訊新增到[!DNL Microsoft Advertising]行銷活動。 如需匯入哪些資料的詳細資訊，請參閱[!DNL Microsoft Advertising]有關「[哪些資料是從 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}匯入」的說明。 因為未匯入搜尋、社交和Commerce追蹤，您也應該在[帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增追蹤。
+並非所有行銷活動資訊都已復寫，您可能需要將一些資訊新增到[!DNL Microsoft Advertising]行銷活動。 如需匯入哪些資料的詳細資訊，請參閱[!DNL Microsoft Advertising]有關「[哪些資料是從 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}匯入」的說明。 因為未匯入搜尋、社交和Commerce追蹤，您也應該在[帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增追蹤。
 
 ## 復寫[!DNL Google Ads]個行銷活動
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center][&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中復寫您的 [!DNL Google Merchant Center] 產品選件。 [復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}匯入的專案。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 檢閱摘要中的選取專案，然後按一下&#x200B;**[!UICONTROL Start Import]**。
 
-1. （選用）在[帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
+1. （選用）在[帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
 
 ## 編輯行銷活動匯入工作的排程設定
 
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]：*&#x200B;若要選取特定行銷活動和廣告群組。
 
-   * 若要將行銷活動展開至其子廣告群組，請按一下行銷活動名稱后面的&#x200B;**[!UICONTROL >]**。
+  * 若要將行銷活動展開至其子廣告群組，請按一下行銷活動名稱后面的&#x200B;**[!UICONTROL >]**。
 
-   * 若要選取行銷活動或廣告群組，請選取專案以顯示核取記號。
+  * 若要選取行銷活動或廣告群組，請選取專案以顯示核取記號。
 
-   * 若要移除行銷活動或廣告群組，請取消選取專案或按一下[!UICONTROL Selection]欄中的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+  * 若要移除行銷活動或廣告群組，請取消選取專案或按一下[!UICONTROL Selection]欄中的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
 
 ### [!UICONTROL Customize Your Import]索引標籤
 
