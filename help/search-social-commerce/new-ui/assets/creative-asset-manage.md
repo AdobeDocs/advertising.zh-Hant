@@ -2,10 +2,14 @@
 title: 檢視和建立創意資產
 description: 瞭解如何檢視和建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級資產庫的可重複使用影像、視訊和文字資產。
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
 workflow-type: tm+mt
 source-wordcount: 492
@@ -102,7 +106,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Remove]**。
 
-1. <!-- VERIFY -->在確認訊息中，按一下&#x200B;**[!UICONTROL Remove]**。
+1. &#x200B;<!-- VERIFY -->在確認訊息中，按一下&#x200B;**[!UICONTROL Remove]**。
 
 >[!MORELIKETHIS]
 >
