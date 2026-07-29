@@ -2,9 +2,9 @@
 title: 關於基本報告和進階報告
 description: 瞭解可自訂的基本和進階報告。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 * [[!UICONTROL Keyword Report]](keyword-report.md)
 
 * [[!UICONTROL Product Group Report]](product-group-report.md)
+
+* [[!UICONTROL Asset Report]](asset-report.md)
 
 ### 分類報告
 

@@ -2,9 +2,9 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: be8b6c1095e48b1aaba92004437de6d7e6ed181a
 workflow-type: tm+mt
-source-wordcount: '3841'
+source-wordcount: '3979'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,13 @@ ht-degree: 0%
 | [!UICONTROL AI Max Search Term Matching] | （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 廣告商名稱。 |
 | [!UICONTROL Advertiser ID] | 廣告商的搜尋、社交和Commerce帳戶的數值ID。 |
+| [!UICONTROL All Conversions] | ([!UICONTROL Asset Report])已追蹤[!DNL Google]個轉換的總數，包括未包含在主要「轉換」欄中的轉換動作。 |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Asset Report])所有[!DNL Google]追蹤的轉換值，包括未包含在主要「轉換」欄中的轉換動作值。 |
+| [!UICONTROL Asset ID] | 可識別現有資產的唯一ID。 |
+| [!UICONTROL Asset] | 資產名稱。 |
+| [!UICONTROL Asset Type] | 資產型別： *[!UICONTROL Image]*、*[!UICONTROL Text]* （例如標題或說明）或&#x200B;*[!UICONTROL Video]*。 |
+| [!UICONTROL Asset Performance Label] | ([!UICONTROL Asset Report])資產的演演算法產生效能標籤： *[!UICONTROL Best]*、*[!UICONTROL Good]*、*[!UICONTROL Low]*&#x200B;或&#x200B;*[!UICONTROL Learning]*。 |
+| [!UICONTROL Average CPC] | 每次點按的平均成本。 |
 | [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL LY Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 關鍵字的基本URL，包括為促銷活動或帳戶設定的任何附加引數。 其中不包含任何搜尋、社交和Commerce重新導向與追蹤程式碼。 |
 | [!UICONTROL Bid Strategy] | （大多數廣告網路）對於行銷活動或行銷活動元件，這是行銷活動的競標策略。 對於連結至經理帳戶的廣告網路帳戶，這是跨帳戶競標策略。 可用的值會依廣告網路而異。 |
@@ -73,6 +80,8 @@ ht-degree: 0%
 | [!UICONTROL Content IS Lost (budget)] | 由於您的每日或每月預算太低，您在顯示/對象網路上的廣告未收到的預估曝光百分比。 在[!DNL Microsoft Advertising]中，這稱為&quot;[!UICONTROL Audience lost IS (budget)]&quot;。 |
 | [!UICONTROL Content IS Lost (rank)] | 由於廣告排名不佳，您在顯示/對象網路上的廣告未顯示的預估曝光百分比。 在[!DNL Microsoft Advertising]中，這稱為&quot;[!UICONTROL Audience lost IS (rank)]&quot;。 |
 | [!UICONTROL Conversion Type] | ([!UICONTROL Transaction Report])轉換前的動作：<ul><li><i>[!UICONTROL Click:]</i>轉換前至少發生一次付費點按。</li><li><i>[!UICONTROL Impression:]</i>轉換前未發生任何付費點按，因此轉換是由檢視所產生（沒有任何付費點按的印象）。</li></ul> |
+| [!UICONTROL Conversions] | ([!UICONTROL Asset Report])已啟用「包含於轉換中」的轉換動作，在指定期間內總共追蹤[!DNL Google]個轉換。 |
+| [!UICONTROL Conversions Value] | ([!UICONTROL Asset Report])已啟用「包含於轉換中」之轉換動作的所有[!DNL Google]個追蹤轉換的值。 |
 | [!UICONTROL Cost] | 指定日期範圍內的廣告總成本。 |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])產生點按的國家/地區。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL CPC] | 指定日期範圍內廣告的每次點按成本(CPC)。 |
@@ -109,6 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | （[!UICONTROL Geo Distribution Report]；僅限搜尋和顯示行銷活動）廣告群組/行銷活動/產品組合的預估點按次數。 此值可能與廣告網路提供的值不同。 |
 | [!UICONTROL Estimated Cost] | Search、Social和Commerce已追蹤之相關廣告的總估計成本。 此值可能與廣告網路提供的值不同。 |
 | [!UICONTROL Estimated Impressions] | （僅限顯示行銷活動） Search、Social和Commerce已追蹤的估計廣告曝光數。 此值可能與[!UICONTROL Impressions]欄的值不同（可用時），後者顯示廣告網路提供的值。 |
+| [!UICONTROL Event Date] | 記錄事件的日期。 只有資料彙總為&quot;[!UICONTROL Daily]&quot;的報告才包含值。 |
 | [!UICONTROL Exclude (yes/no)] | 對於相符產品的廣告，是排除競標(<i>[!UICONTROL Yes]</i>)還是允許競標(<i>[!UICONTROL No]</i>)。 |
 | [!UICONTROL First Page CPC] | （僅限Google行銷活動）指定日期範圍內出現在搜尋結果第一頁上的廣告每次點按成本(CPC)。 |
 | [!UICONTROL Frequency] | （僅限[!DNL Meta]個行銷活動）某人檢視您廣告的平均次數。 |
@@ -125,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類的值。 |
 | [!UICONTROL Language] | （顯示行銷活動）目標對象語言。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如「pla:8525822」。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl:See目前的選件」。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如&quot;pla：8525822&quot;。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl:See目前的選件」。</li></ul> |
 | [!UICONTROL Listing Match Type] | 關鍵字元合廣告清單的型別、內容目標行銷活動中的廣告<i>[!UICONTROL Content]</i>或網站目標行銷活動中的版位<i>[!UICONTROL Sitecpc]</i>。 針對[!DNL Microsoft Advertising]關鍵字，這可能包含多個相符型別（例如&quot;[!UICONTROL Broad]，[!UICONTROL Exact]&quot;）。 |
 | [!UICONTROL Location] | （顯示行銷活動）目標對象位置。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （在[!DNL Microsoft Advertising]個回應式及多媒體廣告的已完成報表列中）廣告的長標題。 若要檢視這些欄，請在報表設定中加入&quot;[!UICONTROL Long Creative Titles]&quot;欄。 |
@@ -137,6 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Metro Code] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])做為曝光數或點按數來源的數值Metro代碼（例如Denver的us-751）。 這是根據搜尋使用者的IP位址所判斷。 |
 | [!UICONTROL Min Spend (%)] | ([!UICONTROL Network Constraint Report])為廣告網路設定的投資組合最小支出百分比。 對於使用限制型別&quot;[!UICONTROL Min-Max]&quot;的投資組合，如果設定了[!UICONTROL Min %]，則這是[!UICONTROL Min %]值。 對於使用限制型別&quot;[!UICONTROL Target Spend]&quot;的投資組合，這是[!UICONTROL Target Spend]值。 |
 | [!UICONTROL Network Account ID] | 由網路指派的帳戶ID。 |
+| [!UICONTROL Network Ad ID] | 由網路指派的廣告ID。 |
 | [!UICONTROL Network Ad Group ID] | 由網路指派的廣告群組ID。 |
 | [!UICONTROL Network Campaign ID] | 網路指派的行銷活動ID。 |
 | [!UICONTROL Network Campaign Objective] | （僅限[!DNL Meta]個行銷活動）行銷活動的目標。 |
@@ -149,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Path Position] | ([!UICONTROL Transaction Report])轉換路徑中事件的位置。 |
 | [!UICONTROL Path Total] | ([!UICONTROL Transaction Report])路徑位置的事件總數。 |
 | [!UICONTROL Portfolio] | 投資組合。 |
-| [!UICONTROL Portfolio Count] | ([!UICONTROL Portfolio Report])與目標相關聯的投資組合數目。<!-- This count is different than what I see within the Objectives view. --> |
+| [!UICONTROL Portfolio Count] | ([!UICONTROL Portfolio Report])與目標相關聯的投資組合數目。 |
 | [!UICONTROL Portfolio Group Name] | 投資組合所屬投資組合群組的名稱。 |
 | [!UICONTROL Portfolio ID] | 數值投資組合ID。 |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report])投資組合的支出策略： <i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly]</i>、<i>[!UICONTROL Monthly]</i>、<i>[!UICONTROL ROI]</i>、<i>[!UICONTROL Day of week]</i>、<i>[!UICONTROL Day of month]</i>、<i>[!UICONTROL CPT]</i>、<i>[!UICONTROL Marginal CPT]</i>、<i>[!UICONTROL Google Target CPA]</i>或<i>[!UICONTROL Google Target ROAS]</i>。 |
@@ -179,8 +190,10 @@ ht-degree: 0%
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |
+| [!UICONTROL Source] | ([!UICONTROL Asset Report])資產來源。 |
 | [!UICONTROL Start Date] | 報告的第一天。 |
-| [!UICONTROL State] | （地理分佈報表，[!UICONTROL Keyword Report]）產生交易的狀態。 這是根據使用者的IP位址所決定。 |
+| [!UICONTROL State] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])產生交易的狀態。 這是根據使用者的IP位址所決定。 |
+| [!UICONTROL Status] | ([!UICONTROL Asset Report])資產狀態。 |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report])完成交易的使用者識別碼。 |
 | [!UICONTROL Thru Plays] | （僅限[!DNL Meta]個行銷活動）完整觀看廣告的檢視次數。 |
 | [!UICONTROL Top of Page CPC] | （僅限Google行銷活動）指定日期範圍內出現在搜尋結果頁面頂端的廣告每次點按成本(CPC)。 |
