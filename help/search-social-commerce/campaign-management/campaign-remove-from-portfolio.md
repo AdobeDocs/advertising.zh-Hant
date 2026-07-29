@@ -4,15 +4,12 @@ description: 瞭解如何從產品組合移除行銷活動。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +26,9 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯") **[!UICONTROL Edit]**。
+1. 選取投資組合旁的核取方塊。
+
+1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
 1. 在投資組合設定中，前往[!UICONTROL Assign Campaigns]區段並變更行銷活動指派。
 
@@ -49,9 +48,9 @@ ht-degree: 0%
 
 1. 在左側功能表中按一下&#x200B;**[!UICONTROL Campaigns]**，然後移除行銷活動：
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![從產品組合移除所有行銷活動](/help/search-social-commerce/assets/arrow-remove-all.png "。")
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。![
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "。")
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。![
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
