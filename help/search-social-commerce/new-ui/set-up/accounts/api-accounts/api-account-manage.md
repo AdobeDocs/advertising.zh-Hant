@@ -3,9 +3,9 @@ title: （新UI）管理廣告網路帳戶
 description: 瞭解如何透過廣告網路API同步的廣告網路在新UI中設定和管理帳戶詳細資訊。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ ht-degree: 0%
 
 1. （除[!DNL Yandex]以外的所有廣告網路）使用廣告商的認證登入廣告網路。 選取「此帳戶的帳戶追蹤」選項。 然後，按一下右上角的&#x200B;**[!UICONTROL Next]**。
 
-1. 指定[帳戶設定](#account-settings-api)：
-
-   1. 在&#x200B;**[!UICONTROL Select Accounts]**&#x200B;標籤上，指定一般帳戶設定。 請為[!DNL Yandex]帳戶指定帳戶認證。
-
-   1. 按一下「**[!UICONTROL Setup Tracking]**」標籤，然後輸入追蹤設定。
-
-   1. （具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商）按一下「**[!UICONTROL Set up Adobe Analytics]**」標籤，然後選取所有[!DNL Analytics]報告套裝以用於追蹤和報告行銷活動活動。
+1. 在每個可用的索引標籤上指定[帳戶設定](#account-settings-api)。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -68,15 +62,7 @@ ht-degree: 0%
 
    * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[帳戶設定](#account-settings-api)：
-
-   1. （選擇性）在&#x200B;**[!UICONTROL Account Details]**&#x200B;索引標籤上，編輯帳戶詳細資料。
-
-   1. （選用）按一下「**[!UICONTROL Setup Tracking]**」標籤，然後編輯追蹤設定。
-
-   1. （選用；具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商）按一下「**[!UICONTROL Set up Adobe Analytics]**」標籤，然後編輯[!DNL Analytics]報告套裝，以用於追蹤和報告行銷活動活動。
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. 編輯可用標籤上的[帳戶設定](#account-settings-api)。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -114,21 +100,21 @@ ht-degree: 0%
 
    * （從[!UICONTROL Accounts]檢視）：
 
-      * （若要啟用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Activate]**。
+     * （若要啟用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Activate]**。
 
-      * （若要停用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Pause]**。
+     * （若要停用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Pause]**。
 
    * （從帳戶設定）：
 
-      1. 以下列任一方式選取該帳戶：
+     1. 以下列任一方式選取該帳戶：
 
-         * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+        * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-         * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
+        * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
 
-      1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，關閉&#x200B;**[!UICONTROL Account enabled]**。
+     1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，關閉&#x200B;**[!UICONTROL Account enabled]**。
 
-      1. 按一下&#x200B;**[!UICONTROL Save]**。
+     1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 廣告網路帳戶設定 {#account-settings-api}
 
@@ -232,9 +218,9 @@ ht-degree: 0%
 
 * 若要內嵌最終URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+  * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
 
-   * （僅限[!DNL LY Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
+  * （僅限[!DNL LY Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
 
 * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數，以&amp;分隔，例如`{lpurl}?matchtype={matchtype}&device={device}`。
 
@@ -248,11 +234,11 @@ ht-degree: 0%
 >* 最精細層級的追蹤範本會覆寫所有較高層級的值。 例如，如果帳戶設定和關鍵字設定都包含值，則會套用關鍵字值。
 >* 如果您在廣告、網站連結或關鍵字層級更新追蹤範本，則會重新提交相關廣告以供檢閱。 您可以在帳戶、行銷活動或廣告群組層級更新追蹤範本，無需重新提交廣告進行核准。
 
-## [!UICONTROL Setup Analytics]索引標籤
+## [!UICONTROL Set up Adobe Analytics]索引標籤
 
 這些設定可供具有[[!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)的廣告商使用。
 
-**[!UICONTROL Adobe Analytics Report Suite]：** （選用）一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。
+**[!UICONTROL Adobe Analytics Report Suite]：** （選用）一或多個Analytics報表套裝，Search、Social和Commerce會將其從廣告網路收集到的資料（包括帳戶的實體分類和點選資料）傳送至這些報表套裝。 此功能僅適用於支援的廣告網路。<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 若要讓資料顯示在報表套裝中，(a)必須為帳戶設定伺服器端AMO ID功能，或(b)必須啟用&quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot;的廣告商層級設定。 此外，廣告商的[!DNL Analytics]帳戶必須設定為從Search、Social和Commerce接收資料。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
 workflow-type: tm+mt
-source-wordcount: 8026
+source-wordcount: 8027
 ht-degree: 0%
 
 ---
@@ -38,6 +38,20 @@ ht-degree: 0%
 >* 當您建立新記錄並且不包含所有必要資料欄位的值時，這些欄位中的某些會被指派指定的預設值。
 >* 對於未在下方指定的欄位，會使用廣告網路的預設值。
 >* 如需[!UICONTROL Download Bulksheet]對話方塊中可用大量表單列的清單，請參閱[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)。
+
+
+<!--
+
+Add in when released:
+
+| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+
+| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+-->
 
 | 欄位 | 說明 |
 | ---- | ---- |
@@ -72,7 +86,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Target Method] | <p>（僅搜尋網路上的行銷活動，以及顯示網路上的現有唯讀[!DNL Gmail]行銷活動）是否：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：只對與目標對象相關聯且滿足廣告群組之任何其他目標的使用者顯示廣告。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：若要顯示廣告，即使是未與目標對象相關聯的使用者，只要他們符合其他廣告群組層級目標即可。</p><p>不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。</p></li></ul> |
 | [!UICONTROL Keyword] | 關鍵字字串。 長度上限為80個字元，不超過10個單字，而且只能包含字母、數字和下列特殊字元：空格`# $ & _ - " [ ] ' + . / :`</p><p><b>附註：</b></p><ul><li><p>若要在廣告群組或行銷活動層級排除關鍵字，請將[!UICONTROL Match Type]設為<i>[!UICONTROL Negative]</i>。 如果列包含廣告群組名稱，則會為廣告群組排除關鍵字。 如果列不包含廣告群組名稱，則會在整個行銷活動中排除關鍵字。</p></li><li><p>變更[!DNL Google Ads]關鍵字或比對型別會刪除現有關鍵字並建立新關鍵字。</p></li></ul> |
 | [!UICONTROL Placement] | （僅使用內容比對的行銷活動）顯示網路中可顯示您廣告的版位。 指定下列其中一項：</p><ul><li><p>網站：輸入有效的URL。 它可以是頂層網域、第一層子網域或具有單一目錄名稱的網域。 URL不能包含問號(？)。 範例：<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>特定頁面上的廣告位置：使用格式`<URL> >> <location,sublocation>` （例如`finance.google.com >> Company pages,Top right`）。</p></li><li><p>主題類別：使用語法`<category::<category> > <subcategory>`等（例如`category::Industries > Energy & Utilities > Oil & Gas`）。</p></li></ul><p><b>注意：</b>若要在廣告群組或行銷活動層級排除版位，請將[!UICONTROL Match Type]設為<i>[!UICONTROL Negative]</i>。 如果列包含廣告群組名稱，則會針對廣告群組排除該位置。 如果列不包含廣告群組名稱，則會為整個行銷活動排除該位置。</p> |
-| [!UICONTROL Auto Target Expression] | <p>（當促銷活動設定為&quot;[!UICONTROL Use my website contents to target my ads]&quot;未啟用時為必要；否則為選用）廣告群組的動態搜尋目標。</p><p>對於所有目標，請使用星號(*)。</p><p>若要鎖定最多三個動態搜尋條件，請使用格式`<category>=<target>`，其中`<category>`可以包含下列任何類別。 使用&quot;\[空白空間\]和\[空白空間\]&quot;為個別類別加入多個目標，並使用&quot;[空白空間]和[空白空間]&quot;加入多個類別。</p><ul><li><p><i>[!UICONTROL Category]</i>：針對具有特定[!DNL Google Ads]內容類別的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL URL]</i>：針對具有特定URL的索引頁面，顯示展開的動態搜尋廣告，其中值可能包含在URL內的任何位置。</p></li><li><p><i>[!UICONTROL Page Title]</i>：針對在頁面標題中有特定文字的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL Page Content]</i>：針對具有特定內容的索引頁面，顯示展開的動態搜尋廣告。</p></li></ul><p>範例： url=shoes.example.com和page title=footwear</p> |
+| [!UICONTROL Auto Target Expression] | <p>（當促銷活動設定為&quot;[!UICONTROL Use my website contents to target my ads]&quot;未啟用時為必要；否則為選用）廣告群組的動態搜尋目標。</p><p>對於所有目標，請使用星號(*)。</p><p>若要鎖定最多三個動態搜尋條件，請使用格式`<category>=<target>`，其中`<category>`可以包含下列任何類別。 使用&quot;\[blank space\]和\[blank space\]&quot;為個別類別加入多個目標，並使用&quot;[空白空間]和[空白空間]&quot;加入多個類別。</p><ul><li><p><i>[!UICONTROL Category]</i>：針對具有特定[!DNL Google Ads]內容類別的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL URL]</i>：針對具有特定URL的索引頁面，顯示展開的動態搜尋廣告，其中值可能包含在URL內的任何位置。</p></li><li><p><i>[!UICONTROL Page Title]</i>：針對在頁面標題中有特定文字的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL Page Content]</i>：針對具有特定內容的索引頁面，顯示展開的動態搜尋廣告。</p></li></ul><p>範例： url=shoes.example.com和page title=footwear</p> |
 | [!UICONTROL Parent Product Groupings] | 任何父級產品群組的階層。<br><br>範例： `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>產品群組（例如「brand=acme」或「所有產品」）。</p><p><b>附註：</b></p><ul><li><p>當指定的產品群組不存在於[!UICONTROL Parent Product Groupings]階層中時，Search、Social和Commerce會建立階層中所需的任何部分。</p></li><li><p>當您在[!DNL Google Ads]購物行銷活動中以預設競標設為廣告群組預設競標建立廣告群組時，搜尋、Social和Commerce會自動建立「[!UICONTROL All Products]」群組。 搜尋、Social和Commerce會在產品群組階層的每個層級，自動建立具有廣告群組預設競標的&quot;[!UICONTROL Everything Else]&quot;群組。 您仍然可以明確建立這些預設群組，並排除它們或變更其競標。</p></li><li><p>每個廣告群組最多可包含八層產品群組，包括&quot;[!UICONTROL All Products]&quot;和七個其他階層。</p></li></ul> |
 | [!UICONTROL Partition Type] | 產品群組的資料分割型別： <i>細分</i> （當它有子產品群組時）或<i>單位</i> （當它沒有子產品群組時）。 |
@@ -80,7 +94,7 @@ ht-degree: 0%
 | [!UICONTROL First Page Bid] | （包含在產生的Bulksheet中以供參考）在搜尋結果的第一頁上放置廣告所需的競標。 此值未發佈到廣告網路。 |
 | [!UICONTROL Quality Score] | （包含在產生的大量表單中以供參考）搜尋引擎已指派給關鍵字的目前品質分數。 此值未發佈到廣告網路。) |
 | [!UICONTROL Creative Preferred Devices] | （文字廣告、展開的動態搜尋廣告和增強型網站連結；選擇性）您偏好顯示廣告的裝置型別： <i>[!UICONTROL All]</i> （預設）或<i>[!UICONTROL Mobile]</i>。 指定<i>[!UICONTROL Mobile]</i>時，網路會嘗試向行動裝置使用者顯示廣告，而非案頭或平板電腦使用者。 否則，網路會在任何裝置型別上顯示廣告。</p><p><b>附註：</b></p><ul><li><p>只有系統管理員和[!DNL Adobe]帳戶管理員使用者可以編輯此設定。</p></li><li><p>網路不保證會在偏好的裝置型別上顯示廣告。</p></li><li><p>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | （僅限展開的文字廣告和回應式搜尋廣告）廣告的頭條，每個標題由垂直垂直垂直線條(&amp;vert；)分隔。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂者的值）。</p><p>對於回應式搜尋廣告，[!UICONTROL Ad Title]、[!UICONTROL Ad Title 2]和[!UICONTROL Ad Title 3]為必填，而所有其他廣告標題欄位為選用。 若要刪除非必要欄位的現有值，請使用值<code>[delete]</code> （包括括弧）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器： <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>，例如<code>{CUSTOMIZER.Discount:10%}</code></p><p>您無法建立或編輯已展開的文字廣告，[!DNL Google Ads]已於2022年6月淘汰。 |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | （僅限展開的文字廣告和回應式搜尋廣告）廣告的頭條，每個標題由垂直垂直垂直線條(&amp;vert；)分隔。 每個廣告標題欄位的長度上限為30個字元或15個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂者的值）。</p><p>對於回應式搜尋廣告，[!UICONTROL Ad Title]、[!UICONTROL Ad Title 2]和[!UICONTROL Ad Title 3]為必填，而所有其他廣告標題欄位為選用。 若要刪除非必要欄位的現有值，請使用值<code>[delete]</code> （包括括弧）。</p><p>對於回應式搜尋廣告，請使用以下格式插入廣告自訂器： <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>，例如<code>{CUSTOMIZER.Discount：10%}</code></p><p>您無法建立或編輯已展開的文字廣告，[!DNL Google Ads]已於2022年6月淘汰。 |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>（僅限回應式搜尋廣告；選用）釘選對應廣告標題的位置： `[null]` （沒有值，因此廣告標題適用於所有位置）、<i>1</i>、<i>2</i>或<i>3</i>。 例如，如果[!UICONTROL Ad Title Position]的值為1，則「廣告標題」僅會出現在位置1中。 依預設，所有廣告標題皆為空值（沒有值）。</p><p>若要刪除現有值，請使用值<code>[delete]</code> （包括括弧）。</p><p><b>注意：</b>您可以將多個廣告標題釘選到相同位置。 廣告網路使用已釘選至該位置的其中一個廣告標題。 釘選到位置3的標題可能無法與廣告一起顯示。</p> |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>（僅限延展的動態搜尋廣告、延展的文字廣告和回應式搜尋廣告）廣告內文。 每個說明欄位的長度上限為90個字元或45個雙位元組字元，包括任何動態文字（例如關鍵字和廣告自訂者的值）。</p><p>針對回應式搜尋廣告，請使用下列格式插入廣告自訂器： `{CUSTOMIZER.AdCustomizerName:DefaultText}`，例如`{CUSTOMIZER.Discount:10%}`</p><p>對於展開的動態搜尋廣告，僅使用[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]。 <b>注意：</b>對於此廣告型別，變更廣告復本會刪除現有廣告並建立新廣告。</p><p>您無法建立或編輯已展開的文字廣告，[!DNL Google Ads]已於2022年6月淘汰。</p><p>對於回應式搜尋廣告，[!UICONTROL Description Line 1]和[!UICONTROL Description Line 2]為必填，[!UICONTROL Description Line 3]和[!UICONTROL Description Line 4]為選用。 若要刪除現有值，請使用值<code>[delete]</code> （包括括弧）。</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | （僅限回應式搜尋廣告；選用）釘選對應說明的位置： `[null]` （沒有值，因此說明適用於所有位置）、<i>1</i>、<i>2</i>或<i>3</i>。 例如，如果[!UICONTROL Description 1 Position]的值為1，則[!UICONTROL Description 1]只出現在位置1。 依預設，系統不會將任何說明釘選到位置。</p><p>若要刪除現有值，請使用值`[delete]` （包括括弧）。</p><p><b>注意：</b>您可以將多個說明釘選到同一個位置。 廣告網路使用已釘選至位置的其中一個說明。 釘選到位置2的說明可能無法與廣告一起顯示。 |

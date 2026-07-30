@@ -2,9 +2,9 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: be8b6c1095e48b1aaba92004437de6d7e6ed181a
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
-source-wordcount: '3979'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 廣告的維度。 |
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]個回應式搜尋廣告）廣告的效果： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]行銷活動）目前的廣告群組層級行動競標調整，決定在行動裝置上顯示廣告時，如何調整競標。 |
-| [!UICONTROL AI Max Bundling Required] | （僅針對搜尋網路的行銷活動；啟用AI Max功能的行銷活動；唯讀）是否需要套件組合： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： [!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Bundling Required] | （僅針對搜尋網路的行銷活動；已啟用AI Max功能的行銷活動；唯讀）是否必須啟用[!UICONTROL AI Max]才能遵循或修改行銷活動的文字自訂和品牌清單控制項： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL AI Max Search Term Matching] | （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 廣告商名稱。 |
 | [!UICONTROL Advertiser ID] | 廣告商的搜尋、社交和Commerce帳戶的數值ID。 |

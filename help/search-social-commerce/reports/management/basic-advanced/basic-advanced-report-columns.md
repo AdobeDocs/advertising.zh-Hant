@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | （[!DNL Google Ads]個回應式搜尋廣告）廣告的效果： <i>[!UICONTROL average]</i>、<i>[!UICONTROL excellent]</i>、<i>[!UICONTROL good]</i>、<i>[!UICONTROL no_ads]</i>、<i>[!UICONTROL pending]</i>、<i>[!UICONTROL poor]</i>、<i>[!UICONTROL unknown]</i>或<i>[!UICONTROL unspecified]</i>。 |
 | [!UICONTROL Adgroup MBA] | （[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]行銷活動）目前的廣告群組層級行動競標調整，決定在行動裝置上顯示廣告時如何調整競標。 |
 | [!UICONTROL AI Max Bundling Required] | （僅針對搜尋網路的行銷活動；啟用AI Max功能的行銷活動；唯讀）是否需要套件組合： *[!UICONTROL REQUIRED]*、*[!UICONTROL NOT_REQUIRED]*、*[!UICONTROL UNSPECIFIED]*&#x200B;或null。 |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： [!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)是否已啟用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL AI Max Search Term Matching] | （以搜尋網路為目標，且已啟用[AI Max功能](https://support.google.com/google-ads/answer/15910366)和行銷活動層級搜尋字詞比對功能的行銷活動；唯讀）是否啟用廣告群組層級搜尋字詞比對： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Advertiser] | 廣告商名稱。 |
 | [!UICONTROL Advertiser ID] | 廣告商的搜尋、社交和Commerce帳戶的數值ID。 |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類。 |
 | [!UICONTROL Label Value] | （[!UICONTROL Label Classification Report]和[!UICONTROL Label Value Report]）標籤分類的值。 |
 | [!UICONTROL Language] | （顯示行銷活動）目標對象語言。 |
-| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如「pla:8525822」。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl:See目前的選件」。</li></ul> |
+| [!UICONTROL Link Type] | （[!UICONTROL Keyword Report]；[!DNL Google Ads]及[!DNL Microsoft Advertising]行銷活動；只有為報告指定的歸因規則為「最後一個事件」時，資料才可用）當資料列報告由於點選廣告副檔名（而不是廣告本身）或產品/購物廣告而導致的轉換時，此欄會顯示被點選的連結型別和標題：<ul><li>`pla:*` — 產品廣告列為`pla:<product ID>`，例如&quot;pla：8525822&quot;。</li><li>`sl:*` — 網站連結列為`sl:<Sitelink text>`，例如「sl:See目前的選件」。</li></ul> |
 | [!UICONTROL Listing Match Type] | 關鍵字元合廣告清單的型別、內容目標行銷活動中的廣告<i>[!UICONTROL Content]</i>或網站目標行銷活動中的版位<i>[!UICONTROL Sitecpc]</i>。 針對[!DNL Microsoft Advertising]關鍵字，這可能包含多個相符型別（例如&quot;[!UICONTROL Broad]，[!UICONTROL Exact]&quot;）。 |
 | [!UICONTROL Location] | （顯示行銷活動）目標對象位置。 |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | （在[!DNL Microsoft Advertising]個回應式及多媒體廣告的已完成報表列中）廣告的長標題。 若要檢視這些欄，請在報表設定中加入&quot;[!UICONTROL Long Creative Titles]&quot;欄。 |
