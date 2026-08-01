@@ -2,17 +2,13 @@
 title: 管理廣告
 description: 瞭解如何建立和管理廣告，包括可用的廣告型別。
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
 workflow-type: tm+mt
-source-wordcount: 1732
+source-wordcount: 1733
 ht-degree: 0%
 
 ---
@@ -125,7 +121,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
+1. <!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
 
 ## 重新命名廣告 {#ad-rename}
 
@@ -153,7 +149,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;**[!UICONTROL Ad Details]**&#x200B;步驟中，編輯[百度文字廣告](ad-settings-baidu-text.md)、[Google廣告擴充動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google廣告中稱為「動態搜尋廣告」）、[Google廣告回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising擴充動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定。
+1. 編輯[Baidu文字廣告](ad-settings-baidu-text.md)、[Google Ads延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定的其餘設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
