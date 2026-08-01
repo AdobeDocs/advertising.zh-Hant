@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
+source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2396
 ht-degree: 2%
 
 ---
@@ -133,9 +133,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising]廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [[!DNL Yandex]廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 廣告 {#ads}
-      + [關於[!UICONTROL Ads]檢視](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-      + [從[!UICONTROL Ads]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
-      + [變更廣告狀態](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
+      + [管理廣告](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
+      + 依廣告網路區分的廣告設定 {#ad-settings-by-network}
+        + [[!DNL Baidu]文字廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL Google Ads]延展的動態搜尋廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [[!DNL Google Ads]個回應式搜尋廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [[!DNL Microsoft Advertising]延展的動態搜尋廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising]多媒體廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [[!DNL Microsoft Advertising]產品廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [[!DNL Microsoft Advertising]個回應式（對象）廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [[!DNL Microsoft Advertising]個回應式搜尋廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [[!DNL Yandex]文字廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
   + 報表 {#reports}
     + 排程報告 {#scheduled}
       + [關於排程報告](/help/search-social-commerce/new-ui/reports/report-about.md)

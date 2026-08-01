@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯]。![](/help/search-social-commerce/assets/edit-new.png "[編輯]。")並變更行銷活動設定。
+1. 如有需要，請按一下[編輯]。![](/help/search-social-commerce/assets/edit-new.png " [編輯]。") **[!UICONTROL Edit]**&#x200B;並變更行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯]。![](/help/search-social-commerce/assets/edit-new.png "[編輯]。")並變更行銷活動設定。
+1. 如有需要，請按一下[編輯]。![](/help/search-social-commerce/assets/edit-new.png " [編輯]。") **[!UICONTROL Edit]**&#x200B;並變更行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Update]**。
 

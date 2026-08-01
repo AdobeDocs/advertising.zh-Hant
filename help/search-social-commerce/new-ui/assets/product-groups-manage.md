@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2337
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ")並變更[3&rbrace; Google Ads產品群組設定](#google-ads-product-group-settings)或[5&rbrace; Microsoft Advertising產品群組設定](#microsoft-advertising-product-group-settings)。&lbrack;&lbrack;
+1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更[&#x200B; Google Ads產品群組設定](#google-ads-product-group-settings)或[&#x200B; Microsoft Advertising產品群組設定](#microsoft-advertising-product-group-settings)。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
