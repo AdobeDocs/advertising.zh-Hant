@@ -34,8 +34,8 @@ ht-degree: 0%
 ## 在[!DNL Analytics]中報告Adobe Advertising資料的需求
 
 * 下列其中一項：
-   * Adobe Experience Platform Web SDK： `alloy.js`
-   * Experience Cloud Identity Service： `visitorAPI.js` 2.0版或更新版本
+  * Adobe Experience Platform Web SDK： `alloy.js`
+  * Experience Cloud Identity Service： `visitorAPI.js` 2.0版或更新版本
 * 任何版本的Adobe Analytics （包括[!DNL Prime]、[!DNL Premium]或[!DNL Ultimate]）
 * Adobe Analytics： `appMeasurement.js`版本2.1或更新版本
 * （Advertising DSP客戶）已在您的網頁中部署[Advertising DSP JavaScript程式碼片段](javascript.md)，以追蹤瀏覽次數。
