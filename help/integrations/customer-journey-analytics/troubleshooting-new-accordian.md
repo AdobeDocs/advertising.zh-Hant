@@ -3,10 +3,18 @@ title: 疑難排解Customer Journey Analytics中的Adobe Advertising資料
 description: 瞭解如何疑難排解及解決Customer Journey Analytics中的Adobe Advertising資料問題。
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: b0f629e862e1008ca39b7f96901d47abbe595452
 workflow-type: tm+mt
 source-wordcount: 3094
@@ -42,7 +50,7 @@ ht-degree: 0%
 
 ## 安裝和設定問題 {#issues-installation-setup}
 
-### WebSDK擴充功能未初始化{#websdk-extension-doesn&#39;t-initialize}
+### WebSDK擴充功能未初始化#websdk-extension-doesn&#39;t-initialize
 
 #### 問題：
 
@@ -131,7 +139,7 @@ ht-degree: 0%
 
 +++
 
-### 規則或事件未觸發{#rules-or-events-aren&#39;t-trigging}
+### 規則或事件未觸發#rules-or-events-aren&#39;t-trigging
 
 #### 問題：
 
@@ -290,7 +298,7 @@ ht-degree: 0%
 
 WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM結構描述或規則如何設定，在Adobe Advertising點進或檢視的追蹤運作之前，必須先明確啟用。
 
-1. 在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的[組建選項。
+1. 在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的組建選項。
 1. 啟用&#x200B;**Advertising**&#x200B;元件，並儲存設定。
 1. 重建並重新發佈程式庫。
 
@@ -389,7 +397,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 * 在[!DNL Workspace]和Adobe Advertising報表中套用的任何篩選器和區段都不會造成資料差異。
 
-* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶](/help/dsp/admin/user-own-profile-edit.md)的[[!UICONTROL Default Timezone]。
+* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]。
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
