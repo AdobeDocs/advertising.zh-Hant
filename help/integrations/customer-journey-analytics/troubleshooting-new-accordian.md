@@ -3,21 +3,13 @@ title: 疑難排解Customer Journey Analytics中的Adobe Advertising資料
 description: 瞭解如何疑難排解及解決Customer Journey Analytics中的Adobe Advertising資料問題。
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: b0f629e862e1008ca39b7f96901d47abbe595452
 workflow-type: tm+mt
-source-wordcount: 3018
+source-wordcount: 3094
 ht-degree: 0%
 
 ---
@@ -50,17 +42,19 @@ ht-degree: 0%
 
 ## 安裝和設定問題 {#issues-installation-setup}
 
-### WebSDK擴充功能未初始化#websdk-extension-doesn&#39;t-initialize
+### WebSDK擴充功能未初始化{#websdk-extension-doesn&#39;t-initialize}
 
-症狀：
+#### 問題：
 
 * 瀏覽器網路標籤中不會顯示alloy()呼叫
 * 主控台錯誤：未定義alloy
 * 沒有向edge.adobedc.net互動或收集請求
 
+#### 可能的原因和驗證/解決方案
+
 +++ 資料庫未發佈或處於草稿狀態
 
-移至[發佈流程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)，並確認包含WebSDK擴充功能的程式庫處於已核准/發佈狀態。
+移至[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)，並確認包含WebSDK擴充功能的程式庫處於已核准/發佈狀態。
 
 +++
 
@@ -84,15 +78,17 @@ ht-degree: 0%
 
 ### 資料流未設定或設定錯誤 {#datastream-not-configured-or-misconfigured}
 
-症狀：
+#### 問題：
 
 * 請求到達邊緣，但傳回400或500錯誤
 * Adobe Analytics或Adobe Advertising報表中未出現任何資料<!-- It's not useful to organize this info by cause, not symptom -->
 * 網路回應中的錯誤：「找不到資料流」
 
+#### 可能的原因和驗證/解決方案
+
 +++ 標籤屬性的資料串流ID遺失或不正確
 
-1. 在[!DNL Tags]中，開啟標籤屬性的[資料流組態設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
+1. 在[!DNL Tags]中，開啟標籤屬性的[資料流組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
 1. 確認[!UICONTROL Datastream]欄位指向每個環境（開發、測試和生產）的正確資料流，以及正確的結構描述和資料集。
 
    除非您明確在所有三個環境中共用一個資料流，否則每個環境都應該有自己的資料流。
@@ -101,7 +97,7 @@ ht-degree: 0%
 
 +++ 未針對標籤屬性啟用資料流服務
 
-[開啟資料流設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)，並確認下列服務已啟用：
+[開啟資料流設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)，並確認下列服務已啟用：
 
 * Adobe Advertising （用於轉換/對象同步）
 * Adobe Experience Platform （用於設定檔擷取）
@@ -116,10 +112,12 @@ ht-degree: 0%
 
 ### 身分和ECID問題 {#identity-and-ecid-issues}
 
-症狀：
+#### 問題：
 
 * 訪客ID在不同頁面之間變更
 * Advertising受眾區段不相符
+
+#### 可能的原因和驗證/解決方案
 
 +++ 第三方Cookie已封鎖
 
@@ -133,14 +131,16 @@ ht-degree: 0%
 
 +++
 
-### 規則或事件未觸發#rules-or-events-aren&#39;t-trigging
+### 規則或事件未觸發{#rules-or-events-aren&#39;t-trigging}
 
-症狀：
+#### 問題：
 
 * 除錯程式會顯示不符合規則條件
 * [!UICONTROL Send Event]動作永遠不會執行
 
-請確認下列專案：
+#### 驗證與解析
+
++++ 請確認下列專案：
 
 * 規則會儲存並包含在作用中的程式庫組建中。
 * 事件型別符合實際的頁面行為（例如，[!UICONTROL Library Loaded]與[!UICONTROL DOM Ready]的比較與[!UICONTROL Window Loaded]的比較）。
@@ -148,12 +148,16 @@ ht-degree: 0%
 * 規則順序正確。 如果多個規則共用相同事件，請檢查規則順序。
 * 頁面上先前沒有停止執行的JavaScript錯誤。 檢查瀏覽器主控台是否有未攔截到的例外狀況。
 
++++
+
 ### 程式庫建置和發佈問題 {#library-build-and-publishing-issues}
 
-症狀：
+#### 問題：
 
 * 在[!DNL Tags]中所做的變更未反映在已上線的網站上
 * 已套用擴充功能更新，但舊行為仍持續存在
+
+#### 可能的原因和驗證/解決方案
 
 +++ 變更未新增至程式庫
 
@@ -181,22 +185,30 @@ ht-degree: 0%
 
 ### Advertising欄位的結構描述驗證問題 {#schema-validation-for-advertising-fields}
 
-症狀：
+#### 問題：
 
 * `alloy()`傳送事件呼叫成功（回應為200個），但報表中缺少Adobe Advertising轉換資料
 * 偵錯工具中的XDM承載未顯示`_experience.adcloud`物件
 
-#### 步驟1：確認[!UICONTROL Advertising]欄位群組已新增至結構描述
+#### 可能的原因和驗證/解決方案
+
++++ 結構描述中缺少[!UICONTROL Advertising]欄位群組
+
+確定已將[!UICONTROL Advertising]欄位群組新增至結構描述。
 
 1. 前往Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]。
 1. 開啟資料流使用的結構描述。
 1. 在[!UICONTROL Field Groups]面板中，確認已列出&#x200B;**Adobe Advertising Cloud ExperienceEvent完整擴充功能**。
-1. 如果遺失，請選取「**新增**」，搜尋&#x200B;**Adobe Advertising Cloud**，選取「**Adobe Advertising Cloud ExperienceEvent完整擴充功能**」，然後選取「**儲存**」。
+1. 如果遺失，請選取「**新增**」，搜尋&#x200B;**Adobe Advertising Cloud**，選取「**Adobe Advertising Cloud ExperienceEvent完整擴充功能**」，然後儲存設定。
 
 >[!NOTE]
 >結構描述變更不需要單獨重新發佈您的[!DNL Tags]資料庫，但如果新增新欄位，則必須重新對應[!DNL Tags]中的XDM資料元素。
 
-#### 步驟2：確認`_experience.adcloud.conversionDetails`下的結構描述中存在必要的Adobe Advertising欄位
++++
+
++++ 結構描述中缺少必要的Adobe Advertising欄位。
+
+請確定`_experience.adcloud.conversionDetails`下的結構描述中存在必要的Adobe Advertising欄位。
 
 | 欄位路徑 | 型別 | 說明 |
 | ----- | --- | --- |
@@ -205,20 +217,22 @@ ht-degree: 0%
 
 如果缺少任一欄位，請確認&#x200B;**Adobe Advertising Cloud ExperienceEvent完整擴充功能**&#x200B;欄位群組已儲存至結構描述，然後重新整理結構描述編輯器。
 
-#### 步驟3：確認登入頁面URL包含查詢引數
++++
 
-在廣告點進上，登入頁面URL必須包含兩個查詢引數，例如：
++++ 登陸頁面URL不包含必要的查詢引數。
 
-`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`
+請確定登入頁面URL包含必要的查詢引數。 在廣告點進上，登入頁面URL必須包含兩個查詢引數，例如`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`
 
 | 缺少引數 | 可能的原因 |
 | ----- | --- |
 | `s_kwcid` | Adobe Advertising搜尋或DSP促銷活動設定中不會啟用自動標籤。 |
 | `ef_id` | 登陸頁面URL未使用Adobe Advertising追蹤的重新導向，或促銷活動設定中未啟用EF ID附加。 |
 
-#### 步驟4：驗證傳出XDM裝載
++++
 
-開啟AEP Debugger或瀏覽器[!UICONTROL Network]索引標籤，篩選`edge.adobedc.net`，然後檢查互動要求內文。 有效的點進裝載看起來類似以下內容：
++++ XDM承載中有些引數遺失或空白。
+
+若要驗證傳出XDM裝載，請開啟[!DNL Adobe Experience Platform]偵錯工具或瀏覽器[!UICONTROL Network]索引標籤、篩選`edge.adobedc.net`，並檢查互動要求內文。 有效的點進裝載看起來類似以下內容：
 
 ```json
 {
@@ -243,9 +257,11 @@ ht-degree: 0%
 * 觸發規則時，查詢引數不存在於頁面上。 檢查URL和規則的事件時間。
 * 結構描述中缺少欄位群組。 重新造訪上述結構描述步驟。
 
++++
+
 ## [!UICONTROL Advertising]擴充功能設定問題 {#advertising-extension-setup-issues}
 
-症狀：
+### 問題：
 
 * 不會針對網頁記錄任何瀏覽轉換或點進轉換。
 
@@ -253,15 +269,17 @@ ht-degree: 0%
 
   1. 開啟網頁並附加`ef_id=test&s_kwcid=test`至URL。
   1. 開啟瀏覽器的程式碼檢查工具（通常稱為[!DNL Inspect]），開啟[!DNL Network]標籤，並從Adobe Experience Platform尋找event_type=&quot;advertising.enrichment_ct&quot;的互動呼叫。
-  1. 在資料收集介面中，[開啟您要收集之網站資料的結構描述定義](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，並確認`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
+  1. 在資料收集介面中，[開啟您要收集之網站資料的結構描述定義](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)，並確認`xdm->_experience->adcloud->conversionDetails->trackingCode`和`trackingIdentities`包含`ef_id`和`s_kwcid`。
 
 * 點進的Experience Data Model (XDM)承載中缺少`_experience.adcloud`。
 
 * 轉換會在除錯工具中確認，但不會出現在Adobe Advertising報表中
 
+### 可能的原因和驗證/解決方案
+
 +++ 未針對資料流啟用`Adobe Advertising`服務
 
-1. 在[!DNL Tags]中，開啟標籤屬性的[資料流組態設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
+1. 在[!DNL Tags]中，開啟標籤屬性的[資料流組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。
 1. 啟用下列服務並儲存設定：
    * Adobe Advertising （用於轉換/對象同步）
    * Adobe Experience Platform （用於設定檔擷取）
@@ -272,7 +290,7 @@ ht-degree: 0%
 
 WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM結構描述或規則如何設定，在Adobe Advertising點進或檢視的追蹤運作之前，必須先明確啟用。
 
-1. 在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的組建選項。
+1. 在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的[組建選項。
 1. 啟用&#x200B;**Advertising**&#x200B;元件，並儲存設定。
 1. 重建並重新發佈程式庫。
 
@@ -293,7 +311,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
    1. 在[!DNL Tags]中，移至[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。
    1. 在[!UICONTROL Advertiser]區段下，從下拉式清單中選取並啟用一個廣告商。 若要設定多個廣告商，請選取&#x200B;**新增廣告商**。
 1. 確認正在引發檢視轉換畫素：
-   1. 在AEP Debugger中，確認interact呼叫包含`xdm.query`欄位下的`stitchId`。
+   1. 在[!DNL Adobe Experience Platform]偵錯工具中，確認interact呼叫包含`xdm.query`欄位下的`stitchId`。
    1. 在瀏覽器[!UICONTROL Network]索引標籤上確認已引發型別為`advertising.enrichment`的事件，且包含`xdm.query`下的`stitchId`。
 
 檢視轉換無論造訪次數為何，都只會每30分鐘引發一次。 如果您沒有看到互動呼叫，請清除瀏覽器快取，然後再試一次。
@@ -325,6 +343,8 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 ### 摘要報告
 
+#### 問題與驗證/解決
+
 +++ Customer Journey Analytics中沒有摘要報表資料可用於Advertising DSP或Advertising Search、Social和Commerce。
 
 請確認下列專案：
@@ -337,7 +357,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 * 您的Adobe Advertising維度和摘要量度包含在Customer Journey Analytics資料檢視中。
 
-如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有設定，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -349,7 +369,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。
+如果您已驗證上述所有條件，但仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。
 
 +++
 
@@ -357,7 +377,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 確認特定廣告網路帳戶已啟用從Adobe Advertising到Customer Journey Analytics的摘要。 請洽詢您的Adobe客戶團隊。
 
-如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果帳戶已啟用摘要，但您仍看不到摘要資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
@@ -369,15 +389,17 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 * 在[!DNL Workspace]和Adobe Advertising報表中套用的任何篩選器和區段都不會造成資料差異。
 
-* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶[&#128279;](/help/dsp/admin/user-own-profile-edit.md)的[!UICONTROL Default Timezone]。
+* 您Customer Journey Analytics資料檢視的[!UICONTROL Time Zone]符合您Advertising DSP帳戶](/help/dsp/admin/user-own-profile-edit.md)的[[!UICONTROL Default Timezone]。
 
 * 設定&quot;[!UICONTROL Backfill all existing data]&quot;已在Customer Journey Analytics連線中針對您的三個資料集（維度/分類/查詢、摘要和事件量度）啟用。
 
-如果您確定資料不一致，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。 若要顯示差異的證據，請包含熒幕擷取畫面和電子表格。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
+如果您確定資料不一致，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。 若要顯示差異的證據，請包含熒幕擷取畫面和電子表格。 您的Adobe客戶團隊可回溯修正資料摘要，以視需要解決差異。
 
 +++
 
 ### 事件層級報表
+
+#### 問題與驗證/解決
 
 +++ CJA Customer Journey Analytics Workspace中的轉換資料（例如`Page Views`）不適用於報表維度（例如`Campaign`）。
 
@@ -395,7 +417,7 @@ WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM�
 
 * Adobe Advertising設定已在WebSDK擴充功能中正確設定並發佈。
 
-如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
+如果您已驗證上述所有設定，但仍看不到轉換資料，請在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開啟支援票證。 包含廣告網路帳戶的[!UICONTROL Account ID]。
 
 +++
 
@@ -437,7 +459,7 @@ Answer
 | 標籤 | 檢查內容 |
 | ----- | --- |
 | [!UICONTROL Summary] | 確認偵測到WebSDK並顯示安裝的版本。 |
-| [!UICONTROL AEP Web SDK] | 顯示每個引發的事件、完整XDM裝載和邊緣回應。 |
+| [!UICONTROL Adobe Experience Platform WebSDK] | 顯示每個引發的事件、完整XDM裝載和邊緣回應。 |
 | [!UICONTROL Adobe Advertising] | 確認AMO ID擷取和XDM與`advertising.enrichment`事件型別的互動呼叫。 |
 
 ### 瀏覽器網路索引標籤
@@ -488,13 +510,13 @@ alloy("sendEvent", {
 * XDM結構描述包含[!UICONTROL Advertising]欄位群組。
 * [!UICONTROL Send Event]規則包含識別對應，並在正確的事件上引發。
 * 沒有CSP或瀏覽器隱私設定會封鎖邊緣請求。
-* AEP Debugger會確認事件已到達邊緣。
+* [!DNL Adobe Experience Platform]偵錯工具會確認事件已到達邊緣。
 * 瀏覽器主控台中沒有停止執行的JavaScript錯誤。
 * **Adobe Advertising Cloud ExperienceEvent完整擴充功能**&#x200B;欄位群組已新增至結構描述。
 * 結構描述中存在`_experience.adcloud.conversionDetails.trackingCode`。
 * 結構描述中存在`_experience.adcloud.conversionDetails.trackingIdentity`。
 * 登陸頁面URL同時包含`s_kwcid`和`ef_id`點進。
-* AEP Debugger會確認輸出裝載中已填入`conversionDetails`。
+* [!DNL Adobe Experience Platform]偵錯工具會確認輸出承載中已填入`conversionDetails`。
 
 ## 何時上報
 
