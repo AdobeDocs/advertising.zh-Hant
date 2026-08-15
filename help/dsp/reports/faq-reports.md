@@ -3,25 +3,30 @@ title: 自訂報表常見問題集
 description: 進一步瞭解自訂報告，包括家庭報告和轉換路徑分析報告。
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
 TQID: https://experienceleague.adobe.com/3AN4vKu3BF-c4jwMusI402Z7lTLY0Nf30uwLZWBUE1E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # 自訂報表常見問題集
+
+## 轉換報表
+
+### [!UICONTROL Conversion]報告與[!UICONTROL DSP Self-Attributed Conversions]報告有何不同？
+
+兩個報表都使用相同的維度、量度和歸因模型，包括點進和檢視劃分。
+
+在大部分的報表中（包括[!UICONTROL Conversion]報表），轉換會計入轉換前的最後一次點按。 當客戶在轉換前看到DSP廣告並在稍後按一下搜尋廣告時，DSP曝光度通常不會出現在您的轉換號碼中。
+
+但是，[!UICONTROL DSP Self-Attributed Conversions]報表會將轉換連線回DSP曝光次數和之前的Click次數，讓您能夠瞭解DSP對歷程的更廣泛貢獻。 將此報表視為DSP貢獻的補充檢視，而非[!UICONTROL Conversion]報表的更正。 此功能對同時使用Advertising DSP和Advertising Search、Social和Commerce的廣告商最有用。
+
+由於這兩個報表使用不同方法將轉換連結至廣告，因此它們的量度總計將不相符。 這是預期中的情形，而非差異。
 
 ## 家庭報表
 
@@ -35,7 +40,7 @@ ht-degree: 0%
 
 ##### 支援的維度
 
-[!UICONTROL Household Reach & Frequency]報告支援[下列維度](/help/dsp/reports/report-columns.md)：「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（不提供對重疊量度的存取權）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」以及使用者建立的位置「[!UICONTROL Tags]」。|
+[!UICONTROL Household Reach & Frequency]報告支援[下列維度](/help/dsp/reports/report-columns.md)：「[!UICONTROL Campaign]」、「[!UICONTROL Package]」、「[!UICONTROL Placement]」、「[!UICONTROL Site/Apps]」（不提供對重疊量度的存取權）、「[!UICONTROL Media Type]」、「[!UICONTROL Feed Type]」、「[!UICONTROL Device]」、「[!UICONTROL Publisher]」、「[!UICONTROL Audience]」、「[!UICONTROL Creative Length]」以及使用者建立的位置「[!UICONTROL Tags]」。 |
 
 ##### 支援的量度
 
@@ -71,7 +76,7 @@ ht-degree: 0%
 
 重疊量度的報表會輸出最多三個值的交集。 例如，若您使用量度[!UICONTROL Unique Household (Overlap)]檢視10個刊登版位，則您可看到個別刊登版位所觸及的唯一家庭、任意兩個刊登版位組合所觸及的共同家庭，以及任意三個刊登版位組合所觸及的共同家庭。 您無法看到四個或更多位置觸及的普通家庭。
 
-對於行銷活動、套件或位置以外的維度，報表支援每個維度中最多10個值。 例如，若要產生[!UICONTROL Unique Household Reached]維度的[!UICONTROL Audience]報表，唯一受眾的數目應少於或等於10。 如果您包含超過10個不重複受眾，則會產生空白報表。
+對於行銷活動、套件或位置以外的維度，報表支援每個維度中最多10個值。 例如，若要產生[!UICONTROL Audience]維度的[!UICONTROL Unique Household Reached]報表，唯一受眾的數目應少於或等於10。 如果您包含超過10個不重複受眾，則會產生空白報表。
 
 #### 為什麼我的[!UICONTROL Custom]報告與[!UICONTROL Household Reach & Frequency]報告之間的頻率和唯一觸及值不同？
 
