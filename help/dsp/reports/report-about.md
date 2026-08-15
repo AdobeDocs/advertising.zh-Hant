@@ -4,22 +4,14 @@ description: 瞭解手動建立自訂報表或使用預先設定之報表範本�
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -41,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動[所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 
@@ -65,11 +57,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]：**&#x200B;使用此預先填入的範本，依裝置相關維度檢視關鍵量度。
 
-  * **[DSP自我歸因轉換]：**&#x200B;使用此報表可檢視Advertising DSP對轉換的貢獻 — 包括DSP在其中扮演了角色但後來又有所接觸的客戶歷程，例如Adobe Advertising搜尋點選，在其他報表中得到了最後點按的評分。
+  * **[!UICONTROL DSP Self-Attributed Conversions]：**&#x200B;使用此報表來檢視Advertising DSP對轉換的貢獻 — 包括DSP在其中扮演角色但後來又有所接觸的客戶歷程，例如Adobe Advertising搜尋點選，在其他報表中獲得了最後點按的評分。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。
 
-    標準報表功勞歸於轉換前的最後一次點按。 當客戶在轉換前看到DSP廣告並在稍後按一下搜尋廣告時，DSP曝光度通常不會出現在您的轉換號碼中。 此報表會將轉換連線回DSP曝光數與前面的點選次數，讓您即使不是上次接觸，也能看到DSP的角色。 此功能對同時使用Advertising DSP和Advertising Search、Social和Commerce的廣告商最有用。
-
-    **重要：**&#x200B;此報表不會變更歸因Adobe Analytics報表或現有的歸因方法。 它提供轉換貢獻的補充DSP特定檢視。
+    **重要：**&#x200B;此報表不會變更Adobe Analytics報表中的現有歸因方法或歸因。 它提供轉換貢獻的補充DSP特定檢視。
 
   * **[!UICONTROL Frequency (by Impression)]：**&#x200B;使用此報表來瞭解向不重複檢視者顯示的曝光數分佈（例如，有多少不重複檢視者看到一個曝光數、兩個曝光數、三個曝光數等）。 資料可依位置或行銷活動取得。
 
@@ -88,9 +78,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Geo]**：使用此預先填入的範本，依地理維度檢視關鍵量度。
 
-  * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)。 無法針對通用ID的位置使用資料。
+  * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。 無法針對通用ID的位置使用資料。
 
-  * **[!UICONTROL Household Reach & Frequency]：**&#x200B;此報表可根據IP位址（而非裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及範圍和頻率。 運用見解來最佳化您的媒體組合、改善效能，並找出遞增觸及的機會。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)。 無法針對通用ID的位置使用資料。
+  * **[!UICONTROL Household Reach & Frequency]：**&#x200B;此報表可根據IP位址（而非裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及範圍和頻率。 運用見解來最佳化您的媒體組合、改善效能，並找出遞增觸及的機會。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。 無法針對通用ID的位置使用資料。
 
   * **[!UICONTROL Margin]：**&#x200B;使用此報表可依行銷活動或刊登位置檢視關鍵量度，例如利潤、利潤和其他支出量度。 無法針對通用ID的位置使用資料。
 
@@ -158,7 +148,7 @@ ht-degree: 0%
 >* [建立自訂報告](/help/dsp/reports/report-create.md)
 >* [下載自訂報告](/help/dsp/reports/report-download.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
->* [關於住家報告的常見問題集](/help/dsp/reports/faq-reports.md)
+>* [關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)
 >* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
 >* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
