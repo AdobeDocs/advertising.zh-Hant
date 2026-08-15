@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視[中，檢視行銷活動](/help/dsp/campaign-management/reports/campaign-reports-about.md)所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 
@@ -49,75 +49,79 @@ ht-degree: 0%
 
 * 預先設定的報表範本
 
-   * **[!UICONTROL All-in Cost]**： （僅具有Advertising Creative和Advertising DSP的廣告商）使用此報表可檢視Advertising DSP將多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
+  * **[!UICONTROL All-in Cost]**： （僅具有Advertising Creative和Advertising DSP的廣告商）使用此報表可檢視Advertising DSP將多少支出歸因於Adobe Creative的廣告服務。 您可以在行銷活動、套件、版位和廣告層級檢視創意、屬性、目標和其他資料。
 
-   * **[!UICONTROL Billing]：**&#x200B;使用此報告來瞭解關鍵計費量度，例如依行銷活動的媒體計費的支出量度。 無法針對通用ID的位置使用資料。
+  * **[!UICONTROL Billing]：**&#x200B;使用此報告來瞭解關鍵計費量度，例如依行銷活動的媒體計費的支出量度。 無法針對通用ID的位置使用資料。
 
-     >[!NOTE]
-     >
-     >此報表包括關於計費區段的資料。 如果向使用者或裝置提供的曝光屬於多個區段，則只會針對該曝光對一個可計費區段進行評分。
+    >[!NOTE]
+    >
+    >此報表包括關於計費區段的資料。 如果向使用者或裝置提供的曝光屬於多個區段，則只會針對該曝光對一個可計費區段進行評分。
 
-   * **[!UICONTROL Content]：**&#x200B;使用此報告來依照指定的內容維度（例如型別、生產品質和內容評等）瞭解曝光傳遞和其他量度，以便您最佳化目標定位並確保品牌安全。 除了內容維度之外，該報表還包含大部分的標準維度、量度和篩選器。 依內容維度的資料可用於[!DNL FreeWheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 內容訊號會由發佈者在資料流期間傳遞，並受到可用性限制。
+  * **[!UICONTROL Content]：**&#x200B;使用此報告來依照指定的內容維度（例如型別、生產品質和內容評等）瞭解曝光傳遞和其他量度，以便您最佳化目標定位並確保品牌安全。 除了內容維度之外，該報表還包含大部分的標準維度、量度和篩選器。 依內容維度的資料可用於[!DNL FreeWheel]、[!DNL Index]、[!DNL Magnite]、[!DNL Microsoft]、[!DNL Nexxen]、[!DNL Pubmatic]、[!DNL Sharethrough]和[!DNL Triplelift]。 內容訊號會由發佈者在資料流期間傳遞，並受到可用性限制。
 
-   * **[!UICONTROL Conversion]：**&#x200B;請使用此報表，根據使用Adobe Advertising轉換追蹤擷取的轉換量度，瞭解行銷活動的執行狀況。 此報表包含多重接觸歸因。
+  * **[!UICONTROL Conversion]：**&#x200B;請使用此報表，根據使用Adobe Advertising轉換追蹤擷取的轉換量度，瞭解行銷活動的執行狀況。 此報表包含多重接觸歸因。
 
-   * **[!UICONTROL Custom Creative]：** （僅具有Advertising Creative的廣告商）使用此報告可監控您Advertising Creative廣告體驗的效能。
+  * **[!UICONTROL Custom Creative]：** （僅具有Advertising Creative的廣告商）使用此報告可監控您Advertising Creative廣告體驗的效能。
 
-   * **[!UICONTROL Device]：**&#x200B;使用此預先填入的範本，依裝置相關維度檢視關鍵量度。
+  * **[!UICONTROL Device]：**&#x200B;使用此預先填入的範本，依裝置相關維度檢視關鍵量度。
 
-   * **[!UICONTROL Frequency (by Impression)]：**&#x200B;使用此報表來瞭解向不重複檢視者顯示的曝光數分佈（例如，有多少不重複檢視者看到一個曝光數、兩個曝光數、三個曝光數等）。 資料可依位置或行銷活動取得。
+  * **[!UICONTROL DSP Self-Attributed Conversions]：**&#x200B;使用此報表來檢視Advertising DSP對轉換的貢獻 — 包括DSP在其中扮演角色但後來又有所接觸的客戶歷程，例如Adobe Advertising搜尋點選，在其他報表中獲得了最後點按的評分。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。
 
-     >[!NOTE]
-     >
-     >* 資料在2019年3月1日之後提供。
-     >* 頻率是根據資料取樣來估計。
-     >* 對於某些詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。 此報表僅包含可使用裝置識別碼的曝光數。
+    **重要：**&#x200B;此報表不會變更Adobe Analytics報表中的現有歸因方法或歸因。 它提供轉換貢獻的補充DSP特定檢視。
 
-   * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此報告來瞭解透過應用程式或網站到達您的廣告的不重複使用者數目。 您也可以檢視您的廣告僅透過特定應用程式或網站觸及的不重複使用者人數（「不重複使用者」）。
+  * **[!UICONTROL Frequency (by Impression)]：**&#x200B;使用此報表來瞭解向不重複檢視者顯示的曝光數分佈（例如，有多少不重複檢視者看到一個曝光數、兩個曝光數、三個曝光數等）。 資料可依位置或行銷活動取得。
 
-     >[!NOTE]
-     >
-     >* 2018年11月15日之後提供資料。
-     >* 對於某些私人詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。
+    >[!NOTE]
+    >
+    >* 資料在2019年3月1日之後提供。
+    >* 頻率是根據資料取樣來估計。
+    >* 對於某些詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。 此報表僅包含可使用裝置識別碼的曝光數。
 
-   * **[!UICONTROL Geo]**：使用此預先填入的範本，依地理維度檢視關鍵量度。
+  * **[!UICONTROL Frequency (by App/Site)]：**&#x200B;使用此報告來瞭解透過應用程式或網站到達您的廣告的不重複使用者數目。 您也可以檢視您的廣告僅透過特定應用程式或網站觸及的不重複使用者人數（「不重複使用者」）。
 
-   * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)。 無法針對通用ID的位置使用資料。
+    >[!NOTE]
+    >
+    >* 2018年11月15日之後提供資料。
+    >* 對於某些私人詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。
 
-   * **[!UICONTROL Household Reach & Frequency]：**&#x200B;此報表可根據IP位址（而非裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及範圍和頻率。 運用見解來最佳化您的媒體組合、改善效能，並找出遞增觸及的機會。 如需詳細資訊，請參閱[家庭報表常見問題集](/help/dsp/reports/faq-reports.md)。 無法針對通用ID的位置使用資料。
+  * **[!UICONTROL Geo]**：使用此預先填入的範本，依地理維度檢視關鍵量度。
 
-   * **[!UICONTROL Margin]：**&#x200B;使用此報表可依行銷活動或刊登位置檢視關鍵量度，例如利潤、利潤和其他支出量度。 無法針對通用ID的位置使用資料。
+  * **[!UICONTROL Household Conversions]：**&#x200B;使用此報表來檢視根據IP位址的家庭層級檢視轉換，而非裝置/Cookie層級的檢視轉換。 使用見解來測量及最佳化行銷活動績效。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。 無法針對通用ID的位置使用資料。
 
-   * **[!UICONTROL Path to Conversion]：**&#x200B;使用此報告來識別如何最佳化預算，以及根據表現最佳的廣告互動序列來個人化廣告。 報表會顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表會在首次互動與轉換之間使用指定的回顧期間，且可包含一個維度：
+  * **[!UICONTROL Household Reach & Frequency]：**&#x200B;此報表可根據IP位址（而非裝置/Cookie層級），在家庭層級檢視跨廣告格式的單一維度的曝光數、觸及範圍和頻率。 運用見解來最佳化您的媒體組合、改善效能，並找出遞增觸及的機會。 如需詳細資訊，請參閱[自訂報告](/help/dsp/reports/faq-reports.md)的常見問題集。 無法針對通用ID的位置使用資料。
 
-      * [!UICONTROL Channel Assist Type]：顯示下列行銷管道協助轉換程式的方式： [!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
+  * **[!UICONTROL Margin]：**&#x200B;使用此報表可依行銷活動或刊登位置檢視關鍵量度，例如利潤、利潤和其他支出量度。 無法針對通用ID的位置使用資料。
 
-      * [!UICONTROL Campaign ID]或[!UICONTROL Campaign Name]：顯示哪些行銷活動協助了轉換程式。
+  * **[!UICONTROL Path to Conversion]：**&#x200B;使用此報告來識別如何最佳化預算，以及根據表現最佳的廣告互動序列來個人化廣告。 報表會顯示同一家庭中導致指定資料範圍內每個所選轉換量度的互動點順序。 報表會在首次互動與轉換之間使用指定的回顧期間，且可包含一個維度：
 
-      * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]會顯示哪些DSP廣告已產生轉換。
+    * [!UICONTROL Channel Assist Type]：顯示下列行銷管道協助轉換程式的方式： [!UICONTROL Audio Impression]、[!UICONTROL CTV Impression]、[!UICONTROL Display Click]、[!UICONTROL Display Impression]、[!UICONTROL Native Click]、[!UICONTROL Native Impression]、[!UICONTROL Search Click]、[!UICONTROL Video Click]或[!UICONTROL Video Impression]。
 
-      * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]會顯示哪些Search、Social和Commerce關鍵字導致了轉換。
+    * [!UICONTROL Campaign ID]或[!UICONTROL Campaign Name]：顯示哪些行銷活動協助了轉換程式。
 
-     報表中的欄包括&quot;[!UICONTROL Event #1]&quot;到&quot;[!UICONTROL Event #10]&quot;[!UICONTROL Path Length]&quot;、&quot;% \&lt;轉換量度名稱1\>、&quot;% \&lt;轉換量度名稱2\>&quot;等。
+    * [!UICONTROL Ad ID]或[!UICONTROL Ad Name]會顯示哪些DSP廣告已產生轉換。
 
-     包括最多10個最近的互動點。 路徑列會依轉換次數排序。
+    * [!UICONTROL Ad ID & Paid Keyword (SSC)]或[!UICONTROL Ad Name & Paid Keyword (SSC)]會顯示哪些Search、Social和Commerce關鍵字導致了轉換。
 
-     若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[自訂報告常見問題集](/help/dsp/reports/faq-reports.md)。
+    報表中的欄包括&quot;[!UICONTROL Event #1]&quot;到&quot;[!UICONTROL Event #10]&quot;[!UICONTROL Path Length]&quot;、&quot;% \&lt;轉換量度名稱1\>、&quot;% \&lt;轉換量度名稱2\>&quot;等。
 
-   * **[!UICONTROL Path Length]：**&#x200B;使用此報表來追蹤一段時間轉換所需的使用者互動點數，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
+    包括最多10個最近的互動點。 路徑列會依轉換次數排序。
 
-     會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
+    若要將此報告與[!DNL Advanced Measurement Services]和Adobe Analytics建立的報告進行比較，請參閱[自訂報告常見問題集](/help/dsp/reports/faq-reports.md)。
 
-   * **[!UICONTROL Segment]：**&#x200B;使用此預先填入的範本，依區段檢視關鍵量度。
+  * **[!UICONTROL Path Length]：**&#x200B;使用此報表來追蹤一段時間轉換所需的使用者互動點數，以便您選擇最佳廣告頻率。 報表會依路徑長度（互動點）顯示轉換次數，例如使用者只有一個廣告互動、兩個廣告互動等後發生的轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Path Length]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。
 
-     >[!NOTE]
-     >
-     >* 此報表旨在顯示不同目標區段的表現。 它使用區段會籍資料。 當向屬於兩個或多個目標區段的人或裝置提供曝光時，此報表會為每個區段包含一個列。 因此，此報表中的總計可能與實際傳送不符。
-     >* 區段的轉換量度和自訂目標資料在2019年8月2日後可供使用。 自2018年6月1日開始，可使用區段的所有其他資料。
+    會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
-   * **[!UICONTROL Site]：**&#x200B;依預設，包含標準量度、媒體淨支出總計，以及依網站區分的可計費淨支出總計。
+  * **[!UICONTROL Segment]：**&#x200B;使用此預先填入的範本，依區段檢視關鍵量度。
 
-   * **[!UICONTROL Time to Conversion]：**&#x200B;使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
+    >[!NOTE]
+    >
+    >* 此報表旨在顯示不同目標區段的表現。 它使用區段會籍資料。 當向屬於兩個或多個目標區段的人或裝置提供曝光時，此報表會為每個區段包含一個列。 因此，此報表中的總計可能與實際傳送不符。
+    >* 區段的轉換量度和自訂目標資料在2019年8月2日後可供使用。 自2018年6月1日開始，可使用區段的所有其他資料。
+
+  * **[!UICONTROL Site]：**&#x200B;依預設，包含標準量度、媒體淨支出總計，以及依網站區分的可計費淨支出總計。
+
+  * **[!UICONTROL Time to Conversion]：**&#x200B;使用此報表來決定最佳歸因回顧期間，並識別轉換時間較長的行銷活動（可能受益於重新目標定位）。 報表會依上次互動（廣告曝光度或點按）到轉換的時間長度（以天為單位）顯示轉換次數。 報表可包含多個轉換量度的資料，且會在首次互動和轉換之間使用指定的回顧期間。 報表中的欄包括「[!UICONTROL Time Taken (in days)]」、「[!UICONTROL Number of] \&lt;轉換量度名稱1\>」、「% \&lt;轉換量度名稱1\>」、「\&lt;轉換量度名稱2\>」、「% \&lt;轉換量度名稱2\>」等。 需要超過回顧期間的轉換會分組在一列中（例如，如果報表使用30天的回顧期間，則所有需要超過30天的轉換會分組在具有&quot;[!UICONTROL Time Taken (in days)]&quot;值&quot;30+&quot;的列中）。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
@@ -141,7 +145,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]：** （僅限週期性報表）報表的一或多個執行個體可供下載，且已排程多個報表執行個體。
 
-* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體對報表拖曳執行失敗，請按一下![旁的](/help/dsp/assets/chevron-down.png "向下箭頭")向下箭頭[!UICONTROL Download]。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
+* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體對報表拖曳執行失敗，請按一下[!UICONTROL Download]旁的![向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
 
 * **[!UICONTROL Completed]：**&#x200B;對於非週期性報表，報表已完成。 對於週期性報表，所有報表例項都會完成。 您可以下載過去四個月內完成的所有報表。
 
@@ -152,7 +156,7 @@ ht-degree: 0%
 >* [建立自訂報告](/help/dsp/reports/report-create.md)
 >* [下載自訂報告](/help/dsp/reports/report-download.md)
 >* [自訂報告設定](/help/dsp/reports/report-settings.md)
->* [關於住家報告的常見問題集](/help/dsp/reports/faq-reports.md)
+>* [關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)
 >* [行銷活動管理檢視中的效能報告型別](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用的報告欄](/help/dsp/reports/report-columns.md)
 >* [關於報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md)

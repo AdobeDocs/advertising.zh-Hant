@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
       來源設定將包含自動產生的來源金鑰。
 
    1. 與您的[!DNL AdFixus]團隊共用來源金鑰，好讓他們可以將所需的區段串流到DSP。
+
+      他們可以繼續對所有[!DNL AdFixus]資料使用相同的來源金鑰，以與帳戶或廣告商共用。
 
 1. 在對象庫的[!UICONTROL First Party Segments]區段中（當您從[!UICONTROL Audiences] > [!UICONTROL All Audiences]或在位置設定中建立或編輯對象時，可使用此區段）確認區段已填入。 比較[!DNL AdFixus] ID數目與[!DNL AdFixus]內的使用者ID數目。
 
