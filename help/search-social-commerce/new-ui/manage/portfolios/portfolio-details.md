@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +43,7 @@ ht-degree: 0%
 
 1. 按一下投資組合名稱。
 
-1. （選擇性）從&#x200B;**[!UICONTROL Granularity]**&#x200B;功能表，變更介於&#x200B;*[!UICONTROL Daily]、*、*[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]之間的資料粒度。*
+1. （選擇性）從&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;功能表，變更每列資料包含的時間單位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
 
 1. （選擇性）若要變更產品組合詳細資料的日期範圍，請按一下右上方的日期範圍、指定日期範圍，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
@@ -55,41 +51,41 @@ ht-degree: 0%
 
 * （選用）若要自訂[!UICONTROL Portfolio Performance]報表，請執行下列任一項作業：
 
-   * 若要變更用於總計度量和詳細度量的效能度量，請按一下&#x200B;**[!UICONTROL Metrics]**&#x200B;並選取最多三個度量。
+  * 若要變更用於總計度量和詳細度量的效能度量，請按一下&#x200B;**[!UICONTROL Metrics]**&#x200B;並選取最多三個度量。
 
-     預設量度為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+    預設量度為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
 
-   * 如需詳細量度：
+  * 如需詳細量度：
 
-      * 將開關移動到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以顯示或隱藏預測的量度值。
+    * 將開關移動到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以顯示或隱藏預測的量度值。
 
-      * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
+    * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
 
-      * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
+    * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
 * （選用）若要自訂[!UICONTROL Model accuracy]趨勢圖，請執行下列任一項作業：
 
-   * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
+  * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
 
-   * 依&#x200B;*[!UICONTROL Click Date]*&#x200B;與&#x200B;*[!UICONTROL Transaction Date]*&#x200B;切換檢視資料。
+  * 依&#x200B;*[!UICONTROL Click Date]*&#x200B;與&#x200B;*[!UICONTROL Transaction Date]*&#x200B;切換檢視資料。
 
-   * 在檢視&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的相關資料之間切換。
+  * 在檢視&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的相關資料之間切換。
 
-     [!UICONTROL 7 Day Rolling Accuracy]是前七天預測的平均準確度，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日期間的平均準確度。
+    [!UICONTROL 7 Day Rolling Accuracy]是前七天預測的平均準確度，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日期間的平均準確度。
 
-   * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
+  * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
 * （選用）若要自訂[!UICONTROL Target vs actual spend]趨勢圖，請執行下列任一項作業：
 
-   * 將開關移至&#x200B;**[!UICONTROL Display budget]**&#x200B;旁以顯示或隱藏每個日期的行銷活動總預算。
+  * 將開關移至&#x200B;**[!UICONTROL Display budget]**&#x200B;旁以顯示或隱藏每個日期的行銷活動總預算。
 
-   * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
+  * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
 * （選用）若要自訂[!UICONTROL Network Accuracy]趨勢圖，請執行下列任一項作業：
 
-   * 將報告的量度變更為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
+  * 將報告的量度變更為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
 
-   * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
+  * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
 1. 按一下&#x200B;**[!UICONTROL Download report]**。
 
@@ -111,7 +107,7 @@ ht-degree: 0%
 
 * 若要檢視或隱藏投資組合設定，請按一下&#x200B;**[!UICONTROL Portfolio Settings]**。
 
-   * 若要編輯可見的投資組合設定，請按一下設定區段旁的![編輯](/help/search-social-commerce/assets/edit.png "編輯")，然後[編輯投資組合設定](portfolio-edit.md)。
+  * 若要編輯可見的投資組合設定，請按一下設定區段旁的![編輯](/help/search-social-commerce/assets/edit.png "編輯")，然後[編輯投資組合設定](portfolio-edit.md)。
 
 如需產品組合設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
@@ -119,24 +115,24 @@ ht-degree: 0%
 
 * 若要下載所有報表：
 
-   1. 在工具列中按一下&#x200B;**[!UICONTROL Download report]**。
+  1. 在工具列中按一下&#x200B;**[!UICONTROL Download report]**。
 
-   1. 選取每個效能報表旁的核取方塊，並選取要納入的組合元件型別。
+  1. 選取每個效能報表旁的核取方塊，並選取要納入的組合元件型別。
 
-      對於某些效能報表，您可以選擇將資料下載為圖表或表格。
+     對於某些效能報表，您可以選擇將資料下載為圖表或表格。
 
-   1. 按一下&#x200B;**[!UICONTROL Download report]**。
+  1. 按一下&#x200B;**[!UICONTROL Download report]**。
 
 * 若要下載包含特定資料型別的[!DNL model accuracy]報表：
 
-   1. 在報表的工具列中，按一下&#x200B;**[!UICONTROL Download report]**。
+  1. 在報表的工具列中，按一下&#x200B;**[!UICONTROL Download report]**。
 
-   1. 選取要包含的每種資料型別旁的核取方塊，以及如何劃分資料（依競標單位及/或按一下磁碟區）。
+  1. 選取要包含的每種資料型別旁的核取方塊，以及如何劃分資料（依競標單位及/或按一下磁碟區）。
 
-   1. 按一下&#x200B;**[!UICONTROL Download report]**。
+  1. 按一下&#x200B;**[!UICONTROL Download report]**。
 
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於投資組合](portfolio-about.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
