@@ -4,15 +4,11 @@ description: 瞭解如何將位置附加至套件。
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
 TQID: https://experienceleague.adobe.com/p7LlJUt6tYId7c47g14lGL0ClF9YpJc21PVZjy99vWI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ee8a01e002bda7042e2c04f362ea9ba0276bdc69
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -45,11 +41,11 @@ ht-degree: 0%
 
    * 若要建立新版位：
 
-      1. 按一下&#x200B;**[!UICONTROL Create New Placement]**。
+     1. 按一下&#x200B;**[!UICONTROL Create New Placement]**。
 
-      1. 選取此位置的廣告型別，然後按一下&#x200B;**[!UICONTROL Build this placement]**。
+     1. 選取此位置的廣告型別，然後按一下&#x200B;**[!UICONTROL Build this placement]**。
 
-      1. 輸入[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下&#x200B;**[!UICONTROL Create Placement]**。
+     1. 輸入[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下&#x200B;**[!UICONTROL Create Placement]**。
 
    * 若要在行銷活動中附加現有版位：
 
@@ -57,13 +53,13 @@ ht-degree: 0%
      >
      >每個位置只能位於一個套件中。 只會列出封裝中沒有的版位。
 
-      1. 按一下&#x200B;**[!UICONTROL Select a Placement].**
+     1. 按一下&#x200B;**[!UICONTROL Select a Placement].**
 
-      1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL Select].**
+     1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL Select].**
 
-      1. （選擇性）針對您想要附加的每個其他位置，按一下&#x200B;**[!UICONTROL Attach Another Placement]**，然後重複步驟1-2。
+     1. （選擇性）針對您想要附加的每個其他位置，按一下&#x200B;**[!UICONTROL Attach Another Placement]**，然後重複步驟1-2。
 
-      1. 按一下&#x200B;**[!UICONTROL I'm done for now]**。
+     1. 按一下&#x200B;**[!UICONTROL I'm done for now]**。
 
 >[!MORELIKETHIS]
 >
