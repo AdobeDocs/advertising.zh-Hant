@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative 指南
-source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
 + Creative Studio {#creative-studio}
   + [關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-  + [[!UICONTROL Creative Studio]中的C2PA中繼資料](/help/creative/creative-studio/creative-studio-content-credentials.md)
+
   + [管理標準廣告](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [管理動態創意內容](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [管理範本](/help/creative/creative-studio/creative-studio-manage-templates.md)
