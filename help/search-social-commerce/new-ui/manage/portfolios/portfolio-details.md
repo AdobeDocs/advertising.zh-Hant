@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +91,21 @@ ht-degree: 0%
 
 ## 列出產品組合中的行銷活動
 
+有關每個行銷活動的詳細資訊包括競標策略；實際和預測成本、點按次數和目標值；以及成本、點按次數和目標值準確性。
+
 * 按一下「**[!UICONTROL Campaigns]**」標籤。
 
 ## 列出投資組合中的廣告群組
 
+有關每個廣告群組的詳細資訊包括成本、點按次數和目標值。
+
+* 若要檢視投資組合中的所有廣告群組，請按一下「**[!UICONTROL Ad Groups]**」標籤。
+
 * 若要檢視產品組合內行銷活動中的所有廣告群組，請按一下「**[!UICONTROL Campaigns]**」標籤，然後按一下行銷活動名稱。
 
 ## 列出投資組合中的關鍵字
+
+每個關鍵字的詳細資訊包括競標單位ID、比對型別、實際和預測成本、點按次數和目標值，以及成本、點按次數和目標值差異。
 
 * 若要檢視投資組合中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤。
 
@@ -138,5 +142,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於投資組合](portfolio-about.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
