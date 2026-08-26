@@ -14,9 +14,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -64,11 +64,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]檢視
 
-[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[或](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)欄標題[篩選資料以包含特定投資組合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合。
 
-在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。
+在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。 您也可以開啟產品組合詳細資訊，包括產品組合績效和準確性，以及產品組合中每個行銷活動、廣告群組和關鍵字的績效資料。
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+您可以直接在投資組合列中編輯某些設定，包括投資組合狀態。
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 可用動作
 

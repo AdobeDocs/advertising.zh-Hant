@@ -3,9 +3,9 @@ title: （新UI）啟用上傳目標至廣告網路
 description: 瞭解如何將混合產品組合的目標上傳至Google Ads和Microsoft Advertising。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *僅針對混合最佳化啟用廣告商*
 
-搜尋、Social和Commerce可將廣告商帳戶的投資組合目標上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]，以便您可以使用這些目標進行混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。 您可選擇不從產品組合設定中的[!UICONTROL Manage Objectives]索引標籤，將特定產品組合的目標值資料傳送至廣告網路。
+搜尋、Social和Commerce可將廣告商帳戶的投資組合目標上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]，以便您可以使用這些目標進行混合最佳化。 您上傳的目標可做為帳戶層級和促銷活動層級自訂轉換目標的轉換動作。<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 啟用此選項會自動觸發上傳產品組合中的目標，其中包含具有智慧競標策略的行銷活動。 搜尋、社交和Commerce會在廣告網路上為每個適用的目標建立轉換。 轉換代表目標中EF ID （點選ID）層級的所有加權轉換量度。 對於[!DNL Google Ads]點按，EF ID是[!DNL Google Ads] `gclid`；對於[!DNL Microsoft Advertising]點按，EF ID是[!DNL Microsoft Advertising] `msclkid`。 由於此點按ID，轉換資料可以對應至特定關鍵字，然後點按時間。
 
