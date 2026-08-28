@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +24,8 @@ ht-degree: 0%
 * 含有編輯欄位相關資訊的唯讀[!UICONTROL Instructions]工作表。
 
 * [!UICONTROL Portfolio Settings Edit]索引標籤，每個包含的組合各有一列。 您可以選擇視需要編輯欄位，將檔案儲存在本機，然後[將編輯後的檔案](#portfolio-bulksheet-upload)上傳至Search、Social和Commerce。 可編輯欄位會以顏色反白顯示。
+
+此功能適用於具有下列支出策略的產品組合：每日、每週、每月和每週的某天。
 
 ## 下載包含投資組合設定的大量表單檔案
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 ## 上傳包含更新後產品組合設定的大量表單檔案 {#portfolio-bulksheet-upload}
 
-檔案必須是XLSX格式。
+檔案必須是XLSX格式，檔案大小必須介於1 KB和1 MB之間，檔案名稱的最大長度為100個字元。
 
 1. 在資料表上方的工具列中，按一下![大量作業](/help/search-social-commerce/assets/chevron-down.png "大量作業") > **[!UICONTROL Import Portfolio Details]**。
 
@@ -93,6 +91,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [建立投資組合](portfolio-create.md)
 >* [（新UI）關於投資組合](portfolio-about.md)
