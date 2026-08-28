@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
+source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -27,8 +27,11 @@ ht-degree: 0%
 
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
 
+* （使用Customer Journey Analytics但不使用[!DNL Analytics for Advertising]的廣告商）：
 
-* （具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商） [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 2.36版或更新版本。
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 2.36版或更新版本。
+
+  * [Adobe Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)，包括[[!DNL Web SDK] 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) 2.37版或更新版本。
 
 * Adobe Customer Journey Analytics可存取資料管理工具
 

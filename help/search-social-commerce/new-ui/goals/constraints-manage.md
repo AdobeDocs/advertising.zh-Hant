@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -33,8 +33,8 @@ ht-degree: 0%
 >
 >* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 混合產品組合、作用中產品組合或不在產品組合中的競標單位會忽略它們。 **提示：**&#x200B;在產品組合設定中，開啟產品組合選項以「自動調整行銷活動預算限制」。 建議的「多個」值為「1」。
 >* 若競標單位的資料不足，無法產生成本和收入模型，則會忽略競標限制。
->* （具有CPC或eCPC競標策略的行銷活動）當競標限制與產品組合層級競標限制衝突時，該限制會覆寫產品組合層級限制。 例如，如果產品組合的最低出價是5美元，但您限制產品組合中的出價單位為最低出價3美元，則出價單位將出價為3美元或更高。 不過，限制競標單位的整體支出是由產品組合的[「在限制周圍支出」引數](#spend-around-constraints)所決定。
->* 限制會根據基本競標運作。 對基本競標進行的任何競標調整型別（例如提高行動裝置上一般使用者的競標）都可將競標移到限制允許範圍之外。 例如，如果限制需要最大CPC為6美元，則基礎競標已經是6美元，而產品組合會自動最佳化行動裝置50%-60%的競標調整，則最大CPC為9.00-9.60美元，而不是6美元。
+>* （具有CPC或eCPC競標策略的行銷活動）當競標限制與產品組合層級競標限制衝突時，該限制會覆寫產品組合層級限制。 例如，如果產品組合的最低出價是5 USD，但您將該產品組合中的出價單位限製為最低出價3 USD，則出價單位將出價為3 USD或更高。 不過，限制競標單位的整體支出是由產品組合的[「在限制周圍支出」引數](#spend-around-constraints)所決定。
+>* 限制會根據基本競標運作。 對基本競標進行的任何競標調整型別（例如提高行動裝置上一般使用者的競標）都可將競標移到限制允許範圍之外。 例如，如果限制需要最多6個USD的CPC，則基本競標已經是6個USD，而產品組合會自動最佳化行動裝置50%-60%的競標調整，則最大CPC是9.00-9.60USD — 而不是6個USD。
 
 ### 限制型別 {#constraint-types}
 
@@ -167,8 +167,8 @@ ht-degree: 0%
 | | [!UICONTROL Set constraint options for Bid] | （僅限[!UICONTROL Bid]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]：**&#x200B;相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：**&#x200B;相關競標單位的最大基礎競標。</li></ul> |
 | | [!UICONTROL Set constraint options for Bid Shift] | （僅限[!UICONTROL Bid Shift]個限制）要持續套用至基本競價的競標轉換型別和金額：<ul><li>*[!UICONTROL Increases]：*&#x200B;以指定的百分比或貨幣值增加競標。 輸入要變更的金額，然後選取&#x200B;*$*&#x200B;或&#x200B;*%*。 同時輸入&#x200B;**[!UICONTROL Max Limit]**，這是套用限制時的最高可能競標（上限）。 **注意：**&#x200B;如果目前的CPC競標已經等於或大於[!UICONTROL Max Limit]，則會忽略限制且不會變更競標。</li><li>*[!UICONTROL Decreases]：*&#x200B;以指定的百分比或貨幣值減少競標。 輸入要變更的金額，然後選取&#x200B;*$或%*。 同時輸入&#x200B;**[!UICONTROL Min Limit]**，這是套用限制時的最低出價（下限）。 **注意：**&#x200B;如果目前的CPC競標已經等於或小於[!UICONTROL Min Limit]，則會忽略限制且不會變更競標。</li></ul>**附註：**<ul><li>不論投資組合的&quot;[!UICONTROL Spend Around Constraints]&quot;設定為何，競標轉換導致的總金額中，競標轉換將導致相關投資組合出現支出過多或不足的情況。</li><li>如果您指定限制的結束日期，且最佳化功能會自動調整產品組合中行銷活動的支出限制，則競標不會單純在結束日期後恢復為原始金額，而是會調整為最佳金額。</li><li>競標轉換不會套用至資料不足無法產生成本和收入模型的競標單位。</li></ul> |
 | | [!UICONTROL Set constraint options for Incremental Bidding] | （僅限[!UICONTROL Incremental Bidding]個限制）競標目標，以及遞增或遞減競標直到達到目標為止的頻率與數量：<ul><li>**[!UICONTROL Bid target]：**&#x200B;目標競標金額。</li><li>**[!UICONTROL Incrementally change bids by]**&#x200B;和&#x200B;**[型別]：**&#x200B;要以增量方式增加或減少出價的數目，以及要依貨幣值(**$**)或百分比(*%*)變更出價。</li><li>**[!UICONTROL Every __ days]：**&#x200B;遞增出價的頻率。</li></ul>例如，假設其中一個關鍵字目前的競標是100美分，而您想要每天變更10%的競標，直到達到500美分的競標目標為止。 在設定限制後的第1天，該關鍵字的競標是110美分（目前競標+ 10%）。 第2天的出價為120美分（第1天的目前出價+ 20%），以此類推。 不過，如果競標目標是50美分，而其他引數相同，則競標會逐步減少，直到競標達到50美分。 |
-| | [!UICONTROL Set constraint options for Search Engine Min Bid] | （[!UICONTROL Search Engine Min Bid]個限制）使用在Google ([!UICONTROL Google First Page CPC])上搜尋結果第一頁顯示競標單位所需的最低競標。 選擇性地輸入&#x200B;**[!UICONTROL Min Bid]**&#x200B;值及/或&#x200B;**[!UICONTROL Max Bid]**&#x200B;值，以定義限制的合格競標範圍。 例如，若您指定2.50 USD的[!UICONTROL Min Bid]與4 USD的[!UICONTROL Max Bid]，則如果[!DNL Google Ads]第一頁競標低於2.50 USD或高於4 USD，則您將不會競標出價單位。 |
-| | [!UICONTROL Set constraint options for Impression Share] | （僅限[!UICONTROL Impression Share]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]** （選擇性）相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：** （選擇性）相關競標單位的最大基底競標。</li><li>**[!UICONTROL Min Impression Share]：**&#x200B;最低曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li><li>**[!UICONTROL Max Impression Share]：**&#x200B;最高曝光比重（以百分比表示）將會觸發適用競標單位的限制。 它必須介於10到90之間。**注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li></ul>> |
+| | [!UICONTROL Set constraint options for Search Engine Min Bid] | （[!UICONTROL Search Engine Min Bid]個限制）使用在Google ([!UICONTROL Google First Page CPC])上搜尋結果第一頁顯示競標單位所需的最低競標。 選擇性地輸入&#x200B;**[!UICONTROL Min Bid]**&#x200B;值及/或&#x200B;**[!UICONTROL Max Bid]**&#x200B;值，以定義限制的合格競標範圍。 例如，若您指定[!UICONTROL Min Bid]為2.50 USD且[!UICONTROL Max Bid]為4 USD，則當[!DNL Google Ads]第一頁競標低於2.50 USD或高於4 USD時，您將不會競標競標單位。 |
+| | [!UICONTROL Set constraint options for Impression Share] | （僅限[!UICONTROL Impression Share]個限制）設定包括：<ul><li>**[!UICONTROL Min Bid]** （選擇性）相關競標單位的最低基礎競標。</li><li>**[!UICONTROL Max Bid]：** （選擇性）相關競標單位的最大基底競標。</li><li>**[!UICONTROL Min Impression Share]：**&#x200B;最低曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li><li>**[!UICONTROL Max Impression Share]：**&#x200B;最高曝光比重（以百分比表示）將會觸發適用競標單位的限制。 必須介於10到90之間。 **注意：**&#x200B;當限制不具成本效益時，最佳化功能可能會覆寫它。</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 是否將條件套用至限制：<ul><li>*[!UICONTROL No Condition]：* （預設）在指定的日期範圍內無條件套用限制。</li><li>*[!UICONTROL Satisfy]：*&#x200B;只有在指定的資料評估期間符合指定的條件時，才會套用限制。</li></ul> |
 | | [!UICONTROL Data Evaluation Period] | （設定條件時）為指定條件評估資料的時間期間。 如果您選取&#x200B;*[!UICONTROL Custom date range]，**請以`MM-DD-YYYY`格式輸入每個日期（例如2026年3月29日的03-29-2026）或按一下![行事曆按鈕](/help/search-social-commerce/assets/calendar-new.png "行事曆按鈕")開啟行事曆並選取每個日期，以指定&#x200B;**&#x200B;[!UICONTROL Start Date]&#x200B;**&#x200B;和&#x200B;**&#x200B;[!UICONTROL End Date]**。 |
 | | [!UICONTROL When to Apply Constraints] | （設定條件時）必須符合多少篩選條件才能套用限制：<ul><li>*[!UICONTROL Match All Filters]：*&#x200B;在符合每個指定的篩選條件時套用限制。</li><li>*[!UICONTROL Match Any Filters]：*&#x200B;至少符合一個指定的篩選條件時，套用條件約束。</li></ul> |

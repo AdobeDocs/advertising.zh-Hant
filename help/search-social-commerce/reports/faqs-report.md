@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 +++
 
 +++我如何知道哪些轉換來自[!DNL Google Ads]廣告延長或產品清單？
-您可以產生[!DNL Google Ads]，藉此檢視哪些轉換是由於點選[!UICONTROL Transaction Report]廣告延伸（而不是廣告本身）或產品清單所導致。 [!UICONTROL Link Type]欄值顯示所點按連結的型別和標題：
+您可以產生[!UICONTROL Transaction Report]，藉此檢視哪些轉換是由於點選[!DNL Google Ads]廣告延伸（而不是廣告本身）或產品清單所導致。 [!UICONTROL Link Type]欄值顯示所點按連結的型別和標題：
 
 * 產品清單列為`pla:<product ID>`，例如`pla:8525822`。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-+++我的報告中的「[!UICONTROL Keyword]」欄包含值「(adgroup content) &lt;*廣告群組名稱*>」。
++++我的報告中的&quot;[!UICONTROL Keyword]&quot;欄包含值&quot;（廣告群組內容） &lt;*廣告群組名稱*>。&quot;
 當列包含啟用內容的搜尋行銷活動、顯示行銷活動或社交行銷活動的資料時（不包含關鍵字），[!UICONTROL Keyword]欄會改為顯示適用的廣告群組名稱。
 +++
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 +++我可以建立特定帳戶屬性量度（例如[!UICONTROL Device]或[!UICONTROL Objective Name]）的報告嗎？
 對於行銷活動實體報表（[!UICONTROL Campaign Report]、[!UICONTROL Ad Group Report]、[!UICONTROL Ad Variation Report]、[!UICONTROL Keyword Report]和[!UICONTROL Product Group Report]），度量資料會依您包含在報表中的屬性欄動態彙總。 您可以選擇移除報表的索引鍵欄，並僅包含您要彙總資料的屬性欄。
 
-例如，如果您產生包含[!UICONTROL Keyword Report]和[!UICONTROL Ad Group]裝置欄的，則依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您在產生報表之前移除[!UICONTROL Keyword]欄，則報表會依裝置型別動態產生指定廣告群組的量度。
+例如，如果您產生包含[!UICONTROL Ad Group]和裝置欄的[!UICONTROL Keyword Report]，則依預設，報告會依廣告群組和裝置型別彙總每個關鍵字的量度。 不過，如果您在產生報表之前移除[!UICONTROL Keyword]欄，則報表會依裝置型別動態產生指定廣告群組的量度。
 
 >[!NOTE]
 >
@@ -103,9 +103,9 @@ ht-degree: 0%
 +++雖然總計正確，但個別資料欄位仍不正確。
 當量度格式使用整數時，可能會發生這種情況：
 
-* 如果您建立格式為[不含小數點](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)的數字&#x200B;*自訂量度* （以整數顯示資料），並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 在這種情況下，個別資料欄位可能不正確，儘管總數正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要解決此問題，請[將量度格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)變更為&#x200B;*數字為2小數點*。
+* 如果您建立格式為&#x200B;*不含小數點*&#x200B;的數字[自訂量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) （以整數顯示資料），並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 在這種情況下，個別資料欄位可能不正確，儘管總數正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要解決此問題，請[將量度格式](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)變更為&#x200B;*數字為2小數點*。
 
-* 同樣地，如果您的收入量度是以整數傳送，則會發生相同的問題。 （收入格式是由提交資料的轉換標籤所控制。） 若要解決此問題，[建立僅包含收入量度，且格式為](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)數字至2小數點&#x200B;*的自訂量度*，並將其納入檢視和報表中，而非原始量度。
+* 同樣地，如果您的收入量度是以整數傳送，則會發生相同的問題。 （收入格式是由提交資料的轉換標籤所控制。） 若要解決此問題，[建立僅包含收入量度，且格式為&#x200B;*數字至2小數點*&#x200B;的自訂量度](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)，並將其納入檢視和報表中，而非原始量度。
 +++
 
 +++當點選或收入資料遺失時，我如何防止它影響未來的競標？
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 | 原因 | 偵測/分析 | 解決方法 |
 |---|---|---|
-| 從廣告帳戶擷取點選資料的程式失敗。 | 沒有系統化的方式可偵測此問題，但您可能會注意到，即使廣告帳戶花費金錢，行銷活動仍不會顯示成本或點選資訊。 | 請聯絡您的Adobe客戶團隊。<br><br>如果資料遺失超過24小時，則從成本預測中排除這些日期，直到擷取資料為止。 您的Adobe客戶團隊可以排除日期。 |
+| 從廣告帳戶擷取點選資料的程式失敗。 | 沒有系統化的方式可偵測此問題，但您可能會注意到，即使廣告帳戶花費金錢，行銷活動仍不會顯示成本或點選資訊。 | 請連絡您的Adobe客戶團隊。<br><br>如果資料遺失超過24小時，則從成本預測中排除這些日期，直到擷取資料為止。 您的Adobe客戶團隊可以排除日期。 |
 | 廣告商與廣告網路之間的計費問題導致廣告帳戶無法花費。 | 沒有系統化的方式可偵測此問題，但您可能會注意到行銷活動未顯示成本或點選資訊。 | 如果您知道廣告帳戶因帳單問題而無法支出，請從成本預測中排除這些日期。 您的Adobe客戶團隊可以排除日期。 |
 
 +++
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 1. 如果部分交易不正確或遺失，請確定相關轉換追蹤標籤已在所有適用網頁上實作，而且除非您的Adobe帳戶團隊建議您這麼做，否則系統不會進行編輯。 如果最近更新了網站，標籤可能會遺失或變更。
 
-   搜尋、Social和Commerce預期在`ef_transaction_properties`變數內和`src`標籤的`img`元素內有格式正確的URL （具有名稱 — 值配對中的引數）。
+   搜尋、Social和Commerce預期在`ef_transaction_properties`變數內和`img`標籤的`src`元素內有格式正確的URL （具有名稱 — 值配對中的引數）。
 
 1. 如果您無法判斷及解決問題，請[連絡客戶服務](/help/search-social-commerce/get-help.md)。
 
@@ -311,7 +311,7 @@ ht-degree: 0%
 ## 特定報告
 
 +++[!UICONTROL Portfolio Report]是否應該顯示與[!UICONTROL Portfolios]檢視相同的數字？
-當檢視的所有篩選器、報表引數以及檢視和報表的資料欄相同時，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]檢視會顯示相同的資料。 例如，如果[!UICONTROL Portfolios]檢視在日期範圍「[!UICONTROL All but inactive]」顯示為「[!UICONTROL Last 7 days]」的投資組合，且只顯示預設資料欄，則使用預設引數的[!UICONTROL Portfolio Report]會顯示相同的資料。 如果您變更任何報表引數，或在[!UICONTROL Portfolios]檢視中使用不同的篩選器，則資料值可能會不同。
+當檢視的所有篩選器、報表引數以及檢視和報表的資料欄相同時，[!UICONTROL Portfolio Report]和[!UICONTROL Portfolios]檢視會顯示相同的資料。 例如，如果[!UICONTROL Portfolios]檢視在日期範圍「[!UICONTROL Last 7 days]」顯示為「[!UICONTROL All but inactive]」的投資組合，且只顯示預設資料欄，則使用預設引數的[!UICONTROL Portfolio Report]會顯示相同的資料。 如果您變更任何報表引數，或在[!UICONTROL Portfolios]檢視中使用不同的篩選器，則資料值可能會不同。
 +++
 
 +++我的[!UICONTROL Portfolio Report]中的資料與我的[!UICONTROL Search Engine Report]或[!UICONTROL Search Engine Account Report]中的資料不符。
@@ -319,7 +319,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]與投資組合層級[!UICONTROL Model Accuracy Report]有何不同？
-（僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者） [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]中可用的[!UICONTROL Model Accuracy]提供與產品組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個產品組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
+（僅限代理商帳戶管理員、Adobe帳戶管理員和管理員使用者） [!UICONTROL Reports] > [!UICONTROL Model Accuracy]中可用的[!UICONTROL Forecast Accuracy Report]提供與產品組合層級[!UICONTROL Model Accuracy Report]相同的資料，但您可以跨多個產品組合執行它，並可以變更歸因規則。 您也可以使用自訂引數執行及排程報表，也可以用它建立試算表摘要。 此外，[!UICONTROL Forecast Accuracy Report]比舊版投資組合層級報表更準確，因為它是使用投資組合的歷史目標而非目前目標來評估收入準確性，並且更準確地表示適用時區的資料。
 +++
 
 +++廣告層級資料不適用於[!DNL Google Ads]動態搜尋廣告(DSA)、最高效能、智慧購物和[!DNL YouTube]行銷活動。
@@ -349,7 +349,7 @@ ht-degree: 0%
 +++
 
 +++當我嘗試在[!DNL Excel]中開啟試算表摘要時，[!DNL Excel]報告「無法讀取的內容」錯誤，並且資料會從復原的內容中移除。
-當[!DNL Microsoft Excel]範本未依開始日期遞增順序排序資料時，試算表摘要可能會包含空白列。 尤其是，[!DNL Excel]報告錯誤「Excel在&#39;&lt;*報告名稱*>.xlsx中發現無法讀取的內容」。 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
+當[!DNL Microsoft Excel]範本未依開始日期遞增順序排序資料時，試算表摘要可能會包含空白列。 特別是，[!DNL Excel]報告錯誤「Excel在&#39;&lt;*報告名稱*>.xlsx中找到無法讀取的內容」。 您要復原活頁簿的內容嗎？ 如果您信任此活頁簿的來源，請按一下[是]。 如果按一下「是」，您會收到下列訊息：「已移除記錄：/xl/worksheets/sheet1.xml零件中的儲存格資訊」，且試算表摘要包含空白列。
 
 若要解決此問題，請編輯與摘要相關的[!DNL Excel]範本，以依[!DNL Start date in Ascending (Oldest to Newest) order]排序資料，然後透過試算表摘要設定上傳更新的範本。 如需詳細資訊，請參閱&quot;[編輯試算表報表摘要](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;。
 +++
