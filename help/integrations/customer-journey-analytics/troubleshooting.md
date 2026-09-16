@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 安裝和設定問題 {#issues-installation-setup}
 
-### WebSDK擴充功能未初始化{#websdk-extension-doesn&#39;t-initialize}
+### WebSDK擴充功能未初始化#websdk-extension-doesn&#39;t-initialize
 
 #### 問題：
 
@@ -115,10 +115,10 @@ ht-degree: 0%
 | 原因 | 修正 |
 | ----- | --- |
 | 未針對資料流啟用`Adobe Advertising`服務。 | <ol><li>在[!DNL Tags]中，開啟標籤屬性的[資料流組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)。</li><li>啟用下列服務並儲存設定：<ul><li>Adobe Advertising （用於轉換/對象同步）</li><li>Adobe Experience Platform （用於設定檔擷取）</li></ul></ol> |
-| 未針對[!UICONTROL WebSDK]延伸啟用`Adobe Advertising`元件。 | WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM結構描述或規則如何設定，在Adobe Advertising點進或檢視的追蹤運作之前，必須先明確啟用。<ol><li>在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的[組建選項。</li><li>啟用&#x200B;**Advertising**&#x200B;元件，並儲存設定。</li><li>重建並重新發佈程式庫。</li></ol> |
+| 未針對[!UICONTROL WebSDK]延伸啟用`Adobe Advertising`元件。 | WebSDK擴充功能中的`Adobe Advertising`元件預設為停用，且無論XDM結構描述或規則如何設定，在Adobe Advertising點進或檢視的追蹤運作之前，必須先明確啟用。<ol><li>在[!DNL Tags]中，開啟Adobe Experience Platform Web SDK組態設定[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components)中屬性的組建選項。</li><li>啟用&#x200B;**Advertising**&#x200B;元件，並儲存設定。</li><li>重建並重新發佈程式庫。</li></ol> |
 | 系統只會記錄點進轉換，不會顯示檢視轉換。 | 這是預期的預設行為。 啟用`Adobe Advertising`元件後，點進追蹤會使用`s_kwcid`和`ef_id` URL查詢引數自動啟用。 瀏覽追蹤預設為停用，且需要其他設定 — 請參閱下一列。 |
 | 未啟用或設定閱覽追蹤。 | <ol><li>為資料流啟用Adobe Advertising服務</li><ol><li>前往Adobe Experience Platform中的[!UICONTROL Data Collection] > [!UICONTROL Datastreams]，並開啟[!DNL Tags]屬性使用的資料流。</li><li>選取「**新增服務**」，選取「**Adobe Advertising**」和「**Adobe Experience Platform**」，然後選取「**儲存**」。</li></ol><li>在Adobe Advertising DSP中設定廣告商</li><ol><li>在[!DNL Tags]中，移至[!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]。</li><li>在[!UICONTROL Advertiser]區段下，從下拉式清單中選取並啟用一個廣告商。 若要設定多個廣告商，請選取&#x200B;**新增廣告商**。</li></ol><li>確認正在引發檢視轉換畫素</li><ol><li>在Adobe Experience Platform Debugger中，確認互動呼叫包含`xdm.query`欄位下的`stitchId`。</li><li>在瀏覽器程式碼檢查工具的[!DNL Network]標籤上，確認已引發型別為`advertising.enrichment`的事件，且包含`xdm.query`下的`stitchId`。</li></ol></ol> 檢視轉換無論造訪次數為何，都只會每30分鐘引發一次。 如果您沒有看到互動呼叫，請清除瀏覽器快取，然後再試一次。 |
-| 在檢視互動呼叫觸發後，Experience Platform中沒有可用的檢視事件區域。 | 確認已在WebSDK擴充功能組態](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)的[[!UICONTROL Advertiser]區段下設定並啟用廣告商。 如果手動輸入廣告商，請改為從[!UICONTROL Advertiser]下拉式清單中重新選取廣告商。 設定廣告商後，請重建並重新發佈程式庫。 |
+| 在檢視互動呼叫觸發後，Experience Platform中沒有可用的檢視事件區域。 | 確認已在WebSDK擴充功能組態[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)的[!UICONTROL Advertiser]區段下設定並啟用廣告商。 如果手動輸入廣告商，請改為從[!UICONTROL Advertiser]下拉式清單中重新選取廣告商。 設定廣告商後，請重建並重新發佈程式庫。 |
 
 在開啟[!UICONTROL Advertising]擴充功能設定問題的支援票證之前，請先確認下列事項：
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | 第三方Cookie已封鎖。 | 透過[在資料流的Edge Network設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)中設定第一方Cookie ID，移轉至第一方CNAME資料收集。 |
 | 存在舊版`s_ecid` Cookie時，`idMigrationEnabled`設為`false`。 | [在WebSDK基底組態中設定`idMigrationEnabled: true`](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)，以從`s_ecid`或`AMCV_` Cookie移轉現有的ECID。 |
 
-### 規則或事件不會觸發{#rules-or-events-don&#39;t-fire}
+### 規則或事件不會觸發#rules-or-events-don&#39;t-fire
 
 #### 問題：
 
