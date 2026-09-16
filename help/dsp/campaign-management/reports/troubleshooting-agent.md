@@ -3,29 +3,38 @@ title: 使用AI輔助[!UICONTROL Troubleshooting Agent]診斷效能和傳遞問�
 description: 瞭解如何使用AI協助的疑難排解代理程式，以診斷DSP套件和位置的支出、步調和傳送問題。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6032b798baa78c9c28196aa58024b8ed1061af9d
+    internal-label: Administration
+source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # 使用AI輔助[!UICONTROL Troubleshooting Agent]診斷效能和傳遞問題
 
-AI輔助的[!UICONTROL Troubleshooting Agent]可以：
+AI輔助的[!UICONTROL Troubleshooting Agent]會識別限制效能的因素，並提供解決問題的建議。 [!UICONTROL Troubleshooting Agent]可以：
 
-* 協助診斷所選即時套件或位置的效能和傳遞問題。 您可以詢問關於以下方面的問題：花費問題（無法花費、低花費、超支）、步調問題（步調不足、超調）、拍賣和傳送問題（出價低、中標率低、沒有印象）以及效能問題（例如CPA、ROAS、CTR或CVR中的變更）。
+* 協助診斷所選即時套件或位置的效能和傳遞問題：
+
+  * （僅限刊登版位）支出問題，包括超支、支出過少及無法支出。 代理程式會評估診斷過程中相關的步調、競標、目標定位和預算上限因素。
+
+  * （僅限套件）效能問題，包括CPA上升或ROAS下降。 代理程式不會診斷參與量度，例如CTR、CPC、點按或曝光數。
+
+  每個交談都涵蓋單一套件或位置的單一診斷。 代理程式傳送結果後，即會開始新的交談，詢問不同的問題或不同的封裝或位置。
+
+  代理程式無法變更設定，也無法建立或編輯行銷活動或行銷活動元件。 它也無法診斷暫停、完成、封存或排程封裝或放置的問題。
 
 * 在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中，以與[Agentic Chat介面](/help/dsp/agent-chat.md)相同的方式搜尋概念性和作法內容。 您可以詢問有關行銷活動管理、最佳化、對象管理、交易、報告和其他產品功能的問題。
-
-代理程式無法變更設定，也無法建立或編輯行銷活動或行銷活動元件。 它也無法診斷暫停、完成、封存或排程封裝或放置的問題。
 
 >[!IMPORTANT]
 >
@@ -33,13 +42,27 @@ AI輔助的[!UICONTROL Troubleshooting Agent]可以：
 
 ## 範例查詢
 
-### 疑難排解效能與傳送
+>[!NOTE]
+>
+>您不需要指定日期範圍。 如果您未包含預設值，則代理程式會根據問題型別選取合理的預設值。
+
+### 版位：支出問題
 
 * 我的刊登版位昨天停止花費，即使交易進行中。 為什麼？
 
 * 為什麼這個位置在過去5天支出不足？
 
 * 我們飛行已經過半，步調明顯落後。 為什麼？
+
+### 套件：效能問題
+
+* 為什麼這個封裝的CPA在上星期有所增加？
+
+* 為何ROAS拒絕此套件？
+
+>[!TIP]
+>
+>如果您有目標CPA，請將其納入查詢中（例如「針對目標$50診斷CPA」）。 如果您未指定目標，代理程式就會使用預設目標。
 
 ### 產品功能：
 
@@ -79,10 +102,18 @@ AI輔助的[!UICONTROL Troubleshooting Agent]可以：
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 
-   回應包含內嵌引文和底部的&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;清單。 後續問題和建議也會出現。
+   針對效能和傳遞查詢，回應包括限制效能的因素，並提供解決問題的建議。
 
-1. （選用；僅限一般產品問題）若要開啟用作資料來源的頁面，請執行下列其中一項操作：
+   若是檔案查詢，回應會包含內嵌引文和底部的&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;清單。 後續問題和建議也會出現。
+
+1. （僅限檔案查詢；選用）若要開啟用作資料來源的頁面，請執行下列其中一項操作：
 
    * 按一下編號的引文。
 
    * 按一下&#x200B;**[!UICONTROL Documentation Sources]**&#x200B;以顯示回應中引用的所有頁面清單，然後按一下頁面連結。
+
+1. （選用）使用向上或向下縮圖圖示為回應評分。
+
+>[!TIP]
+>
+>若要詢問其他問題，或關於不同的包裹或位置，請開始新的對話。
