@@ -1,32 +1,40 @@
 ---
-title: 疑難排解效能
+title: 效能問題的原因
 description: 參考常見的效能問題，並瞭解如何疑難排解。
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 TQID: https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: DSP Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
+# 效能問題的原因
 
-# 疑難排解效能
+<!-- Rename file and set up a redirect -->
+
+<!-- Reword/change path as needed:  See also "[Diagnose performance and delivery issues using the AI assistant](/help\dsp\campaign-management\reports\troubleshooting-agent.md)." -->
 
 | 問題 | 可能的原因 | 要採取的動作 |
 | --- | --- | --- |
-| 投放不需花費 | 位置不包含廣告，和/或廣告未啟用。 | 確認所有預期的廣告皆已附加至位置，並已核准及啟用。<br><br>另外，檢視位置是否包含自訂廣告排程，這可能會限制每個廣告的投放時間。 若要從「刊登版位」檢視檢視刊登版位的廣告排程，請按一下刊登版位名稱旁的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**。 |
+| 投放不需花費 | 位置不包含廣告，和/或廣告未啟用。 | 確認所有預期的廣告皆已附加至位置，且已核准且作用中。<br><br>另外，檢視位置是否包含自訂廣告排程，這可能會限制每個廣告的投放時間。 若要從「刊登版位」檢視檢視刊登版位的廣告排程，請按一下刊登版位名稱旁的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**。 |
 | | 受影響的日期不在設定的投放日期內。 | 檢查投放日期在行銷活動、套件和版位層級&#x200B;是否有效。 |
 | | 預算目標已達成及/或未夠高。 | 檢查行銷活動、套件和位置等級的預算設定。 |
 | | 帳戶沒有足夠的資金。 | 若要檢視您的帳戶是否有足夠的資金，請移至&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;並檢視[!UICONTROL Usable Funds]的金額。 如果您需要新增更多基金，請聯絡您的Adobe客戶團隊。 |
@@ -34,10 +42,10 @@ ht-degree: 0%
 | | 沒有可用的使用者。 | 檢查指定的對象目標是否包含足夠的活躍使用者。 如果沒有，請新增更多對象以展開目標。 |
 | 刊登花費低 | 位置診斷報告的[!UICONTROL Non Bids]區段顯示位置未競標的可能原因。 | [檢閱[!UICONTROL Non Bids]報表](/help/dsp/campaign-management/reports/placement-diagnostics.md)以瞭解位置未競標的原因。 <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
 | | 位置使用限制競標的[競標前篩選條件](/help/dsp/campaign-management/placements/placement-settings.md)。 | 將競標前篩選的臨界值降低5%，以評估支出與效能的平衡。 <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br>請記住，使用多個位置目標（例如競標前篩選、地標、詳細目錄和對象）可能會累積限制競標和支出。 |
-| | 此位置的成功率很低。 | 增加[!UICONTROL Max Bid]以提高獲勝率。<br><br><b>注意：</b>存貨價格可能會因位置鎖定目標而有所不同。<br><br>10%的獲勝率被視為狀況良好。 |
+| | 此位置的成功率很低。 | 增加[!UICONTROL Max Bid]以提高獲勝率。<br><br><b>注意：</b>存貨價格可能會因位置目標而有所不同。<br><br>10%獲勝率被視為健康狀況。 |
 | | 可用庫存數量低。 | 儘可能鎖定其他或所有存貨來源。<br><br>請記住，使用多個位置目標（例如競標前篩選、地標、詳細目錄和對象）可能會累積限制競標和支出。 |
 | | 可用使用者人數少。 | 檢查指定的對象目標是否包含足夠的活躍使用者。 如果沒有，請新增更多對象以展開目標。<br><br>請記住，使用多個位置目標（例如競標前篩選、地標、詳細目錄和對象）可能會累積限制競標和支出。 |
-| | 此套件包含大量作用中的位置。 | 請減少套件中的作用中位置數量或增加整體的套件預算。<br><br>如果封裝中有多個版位，但預算不足，DSP可能無法為每個版位分配足夠的預算。 每個位置應該有機會每天至少花費2美元。 例如，如果您的套件預算為每天10美元，則最好包含五個或更少的版位&#x200B;。 |
+| | 此套件包含大量作用中的位置。 | 請減少套件中的作用中位置數量或增加整體的套件預算。<br><br>如果封裝中有多個版位，但預算不足，DSP可能無法為每個版位分配足夠的預算。 每個位置應該有機會每天至少花費2個USD。 例如，如果您的套件預算為10個USD/天，則最好包含五個或更少版位。 &#x200B; |
 
 {style="table-layout:auto"}
 

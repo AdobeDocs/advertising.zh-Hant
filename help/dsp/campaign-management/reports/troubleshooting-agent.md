@@ -1,6 +1,6 @@
 ---
-title: 使用AI輔助[!UICONTROL Troubleshooting Agent]診斷效能和傳遞問題
-description: 瞭解如何使用AI協助的疑難排解代理程式，以診斷DSP套件和位置的支出、步調和傳送問題。
+title: 使用AI助理疑難排解效能和傳送問題
+description: 瞭解如何使用AI助理的疑難排解代理程式，診斷DSP套件和位置的支出、步調和傳送問題。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# 使用AI輔助[!UICONTROL Troubleshooting Agent]診斷效能和傳遞問題
+# 使用DSP AI助理疑難排解效能和傳送問題
 
-AI輔助的[!UICONTROL Troubleshooting Agent]會識別限制效能的因素，並提供解決問題的建議。 [!UICONTROL Troubleshooting Agent]可以：
+AI助理的疑難排解代理程式可以識別限制效能的因素，並提供解決問題的建議。 疑難排解代理程式可以：
 
 * 協助診斷所選即時套件或位置的效能和傳遞問題：
 
