@@ -127,7 +127,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. <!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
+1. &#x200B;<!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
 
 ## 重新命名廣告 {#ad-rename}
 

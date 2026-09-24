@@ -223,7 +223,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -323,7 +323,7 @@ ht-degree: 0%
 >* [管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)

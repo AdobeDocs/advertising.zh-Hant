@@ -150,7 +150,7 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告，最佳化出價、行銷活動預算和競標策略目標。 您可以在建立投資組合時，或透過編輯投資組合的設定，從[!UICONTROL Campaigns]檢視將行銷活動指派給投資組合。
 
-並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[最佳化支援。
+並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的最佳化支援。
 
 >[!NOTE]
 >
@@ -324,7 +324,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -426,7 +426,7 @@ ht-degree: 0%
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
