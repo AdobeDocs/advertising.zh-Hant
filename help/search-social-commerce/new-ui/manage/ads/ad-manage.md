@@ -4,19 +4,21 @@ description: 瞭解如何建立和管理廣告，包括可用的廣告型別。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 # 管理廣告
 
 *Beta功能*
@@ -57,6 +59,8 @@ ht-degree: 0%
 
   * 如果行銷活動未連結到商家中心帳戶，則使用回應式廣告格式建立影像型對象廣告，其中包含多個文字和影像資產。 廣告網路會使用最有效的廣告元素組合來組合廣告，並在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]之類的網站上顯示廣告。
 
+* **在[!DNL ChatGPT Ads]行銷活動中廣告群組的對話式廣告**。 交談式廣告會出現在AI聊天轉換旁邊。
+
 * 搜尋網路上有[!DNL Google Ads]個促銷活動的&#x200B;**僅限通話的廣告**。 僅限來電廣告是包含電話號碼的文字廣告。 您可以選擇使用[!DNL Google Ads]指派的轉接號碼進行進階通話報告。
 
   >[!NOTE]
@@ -94,8 +98,6 @@ ht-degree: 0%
 
 ## 建立廣告 {#ad-create}
 
-<!-- Verify that this note is still applicable -->
-
 >[!NOTE]
 >
 >* 您不需要針對購物行銷活動建立產品廣告；廣告網路會自動建立這些廣告。 不過，對於[!DNL Microsoft Advertising]個購物行銷活動，您可以選擇定義促銷行以包含在廣告中。
@@ -113,7 +115,7 @@ ht-degree: 0%
 
    如需可用廣告型別的詳細資訊，請參閱[可用的廣告型別](#ad-types)。
 
-1. 指定[Baidu文字廣告](ad-settings-baidu-text.md)、[Google Ads擴充動態搜尋廣告](ad-settings-google-dsa.md) （在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising擴充動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定的其餘設定。
+1. 指定[Baidu文字廣告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 廣告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google廣告擴充動態搜尋廣告](ad-settings-google-dsa.md) （在Google廣告中稱為「動態搜尋廣告」）、[Google廣告回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising擴充動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式（受眾）廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字ad](ad-settings-yandex-text.md)設定。
 
    >[!NOTE]
    >
@@ -125,7 +127,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
+1. <!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
 
 ## 重新命名廣告 {#ad-rename}
 
@@ -153,7 +155,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[Baidu文字廣告](ad-settings-baidu-text.md)、[Google Ads延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定的其餘設定。
+1. 編輯[Baidu文字廣告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 廣告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google Ads延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字ad](ad-settings-yandex-text.md)設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -167,7 +169,7 @@ ht-degree: 0%
 
 您可以暫停支援廣告網路上的任何作用中廣告，以停用其競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
-您也可以刪除任何作用中或暫停的廣告。 刪除的廣告會從廣告網路中刪除。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
+您也可以刪除（在[!DNL ChatGPT Ads Manager]中稱為「封存」）任何作用中或暫停的廣告。 已刪除或封存的廣告會從廣告網路刪除或封存。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
 
 ### 啟動或暫停廣告
 
@@ -181,7 +183,7 @@ ht-degree: 0%
 
    * 若要暫停作用中的廣告，請按一下&#x200B;**[!UICONTROL Pause]**。
 
-### 刪除廣告
+### 刪除或封存廣告
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ads]**。
 
