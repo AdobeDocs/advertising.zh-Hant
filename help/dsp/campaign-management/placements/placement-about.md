@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 關於Advertising DSP中的版位管理
 
 投放位置包含相同廣告型別的一或多個廣告的目標定位引數。 您可以建立單一行銷活動或套件的版位，然後為其指派廣告。 每個行銷活動或版位均可包含多個版位，並指定廣告輪換。 依預設，廣告會平均旋轉。 您可以分別設定各種位置目標型別的競標倍增器。
@@ -34,7 +39,7 @@ ht-degree: 0%
 ## 可用的位置型別
 
 * 前置滾動
-* 行動
+* Mobile
 * 顯示
 * 原生
 * 音訊
@@ -63,4 +68,4 @@ ht-degree: 0%
 >* [管理刊登版位的競標乘數](placement-manage-bid-multipliers.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
->* [疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
+>* [效能問題原因](/help/dsp/optimization/troubleshooting-performance.md)
