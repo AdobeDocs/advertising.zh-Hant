@@ -1,13 +1,12 @@
 ---
 source-git-commit: 24aa1afe9611ca6ae46795c9bca2964e1d9c4f97
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
 # GGL和MS行銷活動和廣告群組設定中的裝置欄位
 
-**[!UICONTROL Devices]：** （選用；不適用於[!DNL Google Ads]個最高成效行銷活動或[!DNL Microsoft Advertising]個視訊或CTV視訊廣告）以關鍵字層級競標百分比設定不同裝置型別的競標調整。 例如，如果關鍵字層級的競標為1美元，而智慧型手機的競標調整為50%，則智慧型手機的競標為1.50美元。 依預設，不會輸入任何值（競標調整=0），且所有裝置都會以關鍵字層級的競標進行競標。
+**[!UICONTROL Devices]：** （選用；不適用於[!DNL Google Ads]個最高成效行銷活動或[!DNL Microsoft Advertising]個視訊或CTV視訊廣告）以關鍵字層級競標百分比設定不同裝置型別的競標調整。 例如，如果關鍵字層級的競標為1 USD，而智慧型手機的競標調整為50%，則智慧型手機的競標為1.50 USD。 依預設，不會輸入任何值（競標調整=0），且所有裝置都會以關鍵字層級的競標進行競標。
 
 對於[!DNL Google Ads]，有效百分比可包含–100 （適用於智慧型手機和平板電腦） （不針對裝置型別出價），以及從–90到900 （適用於所有裝置型別）。
 

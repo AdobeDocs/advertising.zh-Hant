@@ -1,9 +1,8 @@
 ---
 source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '145'
 ht-degree: 0%
-
 ---
 # 某些行銷活動設定和MS廣告群組設定中的「位置目標」欄位
 
