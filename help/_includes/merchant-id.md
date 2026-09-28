@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
-
 ---
 # 格線和ACM範本中GGL和MS購物行銷活動設定中的商家ID欄位
 

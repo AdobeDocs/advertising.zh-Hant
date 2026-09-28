@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
 # GGL和MS行銷活動設定、MS廣告群組設定，以及MS多媒體和回應式廣告設定中的自訂引數欄位
 
