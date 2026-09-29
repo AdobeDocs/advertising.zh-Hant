@@ -6,17 +6,18 @@ feature: Search Alerts
 TQID: https://experienceleague.adobe.com/6fPMkTJdD-TiBU45ja0E-z1XJO5Ve7-8zs4pCc7sbYQ
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # 建立自訂警報範本
 
 您可以針對產品組合、行銷活動、廣告群組、關鍵字或廣告建立警報範本，並根據定期排程觸發警報。 新通知範本的狀態為&quot;[!UICONTROL Active]&quot;。
@@ -27,9 +28,9 @@ ht-degree: 0%
 
 1. 在工具列中按一下![建立](/help/search-social-commerce/assets/add.png "建立")，然後選取要評估的實體型別（[!UICONTROL Portfolio]、[!UICONTROL Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Keyword]、[!UICONTROL Ad]或[!UICONTROL Product Group]）。
 
-1. 在[!UICONTROL Create \[Entity\] Alert]視窗中，指定[、](alert-template-settings.md)和&#x200B;**[!UICONTROL Date Range]**&#x200B;標籤上的&#x200B;**[!UICONTROL Filters]**&#x200B;警示設定&#x200B;**[!UICONTROL Scheduling and Delivery]**。
+1. 在[!UICONTROL Create \[Entity\] Alert]視窗中，指定&#x200B;**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;標籤上的[警示設定](alert-template-settings.md)。
 
-您可以按一下索引標簽名稱（例如「篩選器」）或按一下右下角的&#x200B;**[!UICONTROL Next]**，在索引標籤之間移動。
+   您可以按一下索引標簽名稱（例如「篩選器」）或按一下右下角的&#x200B;**[!UICONTROL Next]**，在索引標籤之間移動。
 
 1. 在[!UICONTROL Summary]索引標籤上，按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -41,17 +42,17 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;檢視中，開啟要評估之實體型別的行銷活動管理子檢視（[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]、[!UICONTROL Keywords]、[!UICONTROL Ads]或[!UICONTROL Product Groups]）。
 
-例如，若要建立關鍵字層級的警示範本，請移至[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然後選取[!UICONTROL Keywords]。
+   例如，若要建立關鍵字層級的警示範本，請移至[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]，然後選取[!UICONTROL Keywords]。
 
 1. 在資料表上方的工具列右側，按一下![建立警報](/help/search-social-commerce/assets/add-alert.png "建立警報")。
 
->[!NOTE]
->
->您不需要選取特定列。
+   >[!NOTE]
+   >
+   >您不需要選取特定列。
 
-1. 在[!UICONTROL Create \[Entity type\] Alert]視窗中，指定[、](alert-template-settings.md)和&#x200B;**[!UICONTROL Date Range]**&#x200B;標籤上的&#x200B;**[!UICONTROL Filters]**&#x200B;警示設定&#x200B;**[!UICONTROL Scheduling and Delivery]**。
+1. 在[!UICONTROL Create \[Entity type\] Alert]視窗中，指定&#x200B;**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;標籤上的[警示設定](alert-template-settings.md)。
 
-您可以按一下索引標簽名稱（例如「篩選器」）或按一下右下角的&#x200B;**[!UICONTROL Next]**，在索引標籤之間移動。
+   您可以按一下索引標簽名稱（例如「篩選器」）或按一下右下角的&#x200B;**[!UICONTROL Next]**，在索引標籤之間移動。
 
 1. 在[!UICONTROL Summary]索引標籤上，按一下&#x200B;**[!UICONTROL Create]**。
 
