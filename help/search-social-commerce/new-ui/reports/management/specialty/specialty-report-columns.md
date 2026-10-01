@@ -2,13 +2,11 @@
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # 專業報告的報告欄
 
 | 欄 | 說明 |
@@ -48,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report])資產型別： *[!UICONTROL Creative Title]*&#x200B;或&#x200B;*[!UICONTROL Description]*。 |
 | [!UICONTROL Assists] | （[!UICONTROL MSA Ad Extension]個報表）實體對與不同實體相關聯的轉換所貢獻的次數。 |
 | [!UICONTROL Audience ID] | 數值的受眾ID。 |
-| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[!DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
+| [!UICONTROL Audience Name] | 對象。 可用的受眾包括您的[!DNL Google Ads]客戶資料型、市場內和類似受眾，以及您的[！DNL [!DNL Microsoft Advertising]]自訂、客戶符合、動態再行銷、市場內、再行銷和類似受眾。 |
 | [!UICONTROL Audience Impression Lost To Budget Percent] | 由於每日或每月預算太低，您在Microsoft對象網路上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Lost To Rank Percent] | 由於廣告排名不佳，您在Microsoft Audience Network上損失的曝光比重百分比。 |
 | [!UICONTROL Audience Impression Share Percent] | [!DNL Microsoft Audience Network]的預估曝光次數百分比除以您可能已收到的可用曝光總數。 |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）您在顯示/對象網路上收到的廣告曝光數除以您符合資格可收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）由於您的每日或每月預算太低，您在顯示/對象網路上的廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （僅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由於廣告排名不佳，您在顯示/對象網路上的廣告未顯示的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]個報告）導致轉換的轉換動作。 |
 | [!UICONTROL Conversion Rate] | 轉換次數除以點按總數。 |
 | [!UICONTROL Conversion Type] | 在廣告商網站上追蹤的使用者定義轉換型別。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]個報告）指定期間的轉換總數。 對於[!UICONTROL MSA Ad Extension]報表，這是導致銷售或其他成功度量的點按次數。 在[!UICONTROL Google AI Max Search Term Combination]報表中，這是啟用「包含在轉換中」的轉換動作轉換總數 |
