@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Remove]**。
 
-1. <!-- VERIFY -->在確認訊息中，按一下&#x200B;**[!UICONTROL Remove]**。
+1. &#x200B;<!-- VERIFY -->在確認訊息中，按一下&#x200B;**[!UICONTROL Remove]**。
 
 >[!MORELIKETHIS]
 >
