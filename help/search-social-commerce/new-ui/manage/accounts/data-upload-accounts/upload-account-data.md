@@ -1,13 +1,11 @@
 ---
 title: 上傳離線帳戶資料以用於報表和模擬
-description: 瞭解如何手動上傳離線帳戶資料或上傳至 [!DNL Amazon] [!DNL S3]儲存貯體，以支援報告和模擬。 記錄檔會追蹤上載工作的進度。
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+description: 瞭解如何手動上傳離線帳戶資料或上傳至[!DNL Amazon] [!DNL S3]貯體，以支援報告和模擬。 記錄檔會追蹤上載工作的進度。
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # 上傳離線帳戶資料以用於報表和模擬
 
 *啟用帳戶資料上傳的廣告商*
@@ -30,31 +28,31 @@ See "XXX" for information about supported ad networks and account structures.
 [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md)
 -->
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
    * （從[!UICONTROL Accounts]檢視）：
 
-      1. 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Upload]**。
+     1. 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Upload]**。
 
-      1. 將檔案拖曳到方塊中，或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;並從您的裝置或網路選擇檔案。
+     1. 將檔案拖曳到方塊中，或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;並從您的裝置或網路選擇檔案。
 
-      1. 按一下&#x200B;**[!UICONTROL Upload Files]**。
+     1. 按一下&#x200B;**[!UICONTROL Upload Files]**。
 
    * （從帳戶設定）：
 
-      1. 以下列任一方式選取該帳戶：
+     1. 以下列任一方式選取該帳戶：
 
-         * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+        * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-         * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
+        * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
 
-      1. 按一下「**[!UICONTROL Upload File]**」標籤。
+     1. 按一下「**[!UICONTROL Upload File]**」標籤。
 
-      1. 將檔案拖曳到方塊中，或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;並從您的裝置或網路選擇檔案。
+     1. 將檔案拖曳到方塊中，或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;並從您的裝置或網路選擇檔案。
 
-      1. 按一下&#x200B;**[!UICONTROL Save]**。
+     1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 將帳戶資料上傳至[!DNL Amazon] [!DNL S3]貯體 {#data-upload-s3}
 
@@ -71,45 +69,45 @@ See "XXX" for information about supported ad networks and account structures.
 >* 請聯絡您的Adobe帳戶團隊，為您的搜尋、社交和Commerce廣告商帳戶啟用帳戶資料上傳。 團隊將協助在[!DNL S3]儲存貯體中建立組織特定的資料夾，並在完成時通知您。<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
 >* 擷取您帳戶的[!DNL S3]雲端儲存路徑、存取金鑰ID和機密存取金鑰。 組織的所有資料上傳<!-- naming convention?-->帳戶都使用相同的存取金鑰識別碼和機密存取金鑰。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
    * （從[!UICONTROL Accounts]檢視）：
 
-      1. 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Upload]**。
+     1. 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Upload]**。
 
-      1. 在[!UICONTROL Cloud Storage Link]方塊中，按一下&#x200B;**[!UICONTROL Go to the Link]**。
+     1. 在[!UICONTROL Cloud Storage Link]方塊中，按一下&#x200B;**[!UICONTROL Go to the Link]**。
 
-      1. 按一下&#x200B;**[!UICONTROL Show Access Key and Secret]**。
+     1. 按一下&#x200B;**[!UICONTROL Show Access Key and Secret]**。
 
-      1. 在[!UICONTROL Storage Link]欄位旁邊，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;以將連結複製到剪貼簿，並將連結儲存在安全的地方。
+     1. 在[!UICONTROL Storage Link]欄位旁邊，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;以將連結複製到剪貼簿，並將連結儲存在安全的地方。
 
-      1. 同樣地，複製並安全地儲存[!UICONTROL Access Key]和[!UICONTROL Secret Key]值。
+     1. 同樣地，複製並安全地儲存[!UICONTROL Access Key]和[!UICONTROL Secret Key]值。
 
-      1. 按一下&#x200B;**[!UICONTROL Done]**。
+     1. 按一下&#x200B;**[!UICONTROL Done]**。
 
    * （從帳戶設定）：
 
-      1. 以下列任一方式選取該帳戶：
+     1. 以下列任一方式選取該帳戶：
 
-         * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+        * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-         * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
+        * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
 
-      1. 按一下「**[!UICONTROL Upload File]**」標籤。
+     1. 按一下「**[!UICONTROL Upload File]**」標籤。
 
-      1. 在[!UICONTROL Cloud Storage Link]方塊中，按一下&#x200B;**[!UICONTROL Go to the Link]**。
+     1. 在[!UICONTROL Cloud Storage Link]方塊中，按一下&#x200B;**[!UICONTROL Go to the Link]**。
 
-      1. 按一下&#x200B;**[!UICONTROL Show Access Key and Secret]**。
+     1. 按一下&#x200B;**[!UICONTROL Show Access Key and Secret]**。
 
-      1. 在[!UICONTROL Storage Link]欄位旁邊，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;以將連結複製到剪貼簿，並將連結儲存在安全的地方。
+     1. 在[!UICONTROL Storage Link]欄位旁邊，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;以將連結複製到剪貼簿，並將連結儲存在安全的地方。
 
-      1. 同樣地，複製並安全地儲存[!UICONTROL Access Key]和[!UICONTROL Secret Key]值。
+     1. 同樣地，複製並安全地儲存[!UICONTROL Access Key]和[!UICONTROL Secret Key]值。
 
-      1. 按一下&#x200B;**[!UICONTROL Done]**。
+     1. 按一下&#x200B;**[!UICONTROL Done]**。
 
-      1. 按一下&#x200B;**[!UICONTROL Save]**。
+     1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 1. （每個組織一次）設定您的本機AWS環境：
 
@@ -139,7 +137,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 ## 檢視已上傳帳戶資料檔案的記錄
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Upload Logs]**。
 

@@ -2,13 +2,11 @@
 title: （新UI）在Microsoft Advertising中複製Google Ads行銷活動
 description: 瞭解如何將Google Ads帳戶中同步的行銷活動直接匯出至同步的Microsoft Advertising帳戶。
 feature: Search Campaign Management
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # （新UI）在[!DNL Microsoft Advertising]中復寫[!DNL Google Ads]個行銷活動
 
 *Beta功能*
@@ -33,13 +31,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center][&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]&#x200B;[&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}匯入的專案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
-1. 按一下&#x200B;**[!UICONTROL Import Campaigns]**。
+1. 按一下行銷活動清單上方的&#x200B;**[!UICONTROL Import Campaigns]**。
+
+1. 按一下&#x200B;**[!UICONTROL + Import Campaigns]**。
 
 1. 指定[匯入設定](#campaign-import-settings)。
 
@@ -47,13 +47,15 @@ ht-degree: 0%
 
 1. 檢閱摘要中的選取專案，然後按一下&#x200B;**[!UICONTROL Start Import]**。
 
-1. （選用）在[帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
+1. （選用）在[帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[行銷活動](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)、[廣告群組](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)或[廣告](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)設定中新增搜尋、社交和Commerce追蹤。
 
 ## 編輯行銷活動匯入工作的排程設定
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}匯入的專案。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動清單上方的&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤上，按一下匯入工作的名稱，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
@@ -65,13 +67,17 @@ ht-degree: 0%
 
 您可以列出所有匯入工作，包括來源[!DNL Google Ads]帳戶、目標[!DNL Microsoft Advertising]帳戶、匯入時間或排程，以及建立工作的使用者。 當您多次執行匯入工作時（包括定期排程的匯入期間），每次發生的情況都會列為一個單獨的工作。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動清單上方的&#x200B;**[!UICONTROL Import Campaigns]**。
 
    依預設，檢視會開啟至&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;標籤。
 
 ## 執行行銷活動匯入工作
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動清單上方的&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 在&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤上，選取匯入工作旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Run Now]**。
 
@@ -79,7 +85,9 @@ ht-degree: 0%
 
 您可以列出所有已完成或失敗的匯入工作，包括開始時間、來源[!DNL Google Ads]帳戶、目標[!DNL Microsoft Advertising]帳戶、建立工作的使用者、成功和失敗的作業數目，以及接收每個工作之通知的任何電子郵件地址。 您可以檢視每個工作目標[!DNL Microsoft Advertising]帳戶變更的詳細資料，包括新增、同步、刪除的專案數，以及帳戶中每個實體層級（例如促銷活動或關鍵字）產生錯誤的專案數。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 按一下行銷活動清單上方的&#x200B;**[!UICONTROL Import Campaigns]**。
 
 1. 按一下「**[!UICONTROL Import Logs]**」標籤。
 
@@ -131,4 +139,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [管理廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [管理廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)

@@ -2,13 +2,11 @@
 title: （新UI）管理Google Ads管理員帳戶的認證
 description: 瞭解如何在新的UI中設定和管理Google Ads管理員帳戶的認證。
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理[!DNL Google Ads]管理員帳戶的認證
 
 *Beta功能*

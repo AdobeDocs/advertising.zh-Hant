@@ -3,7 +3,7 @@ title: （新UI）管理廣告網路帳戶
 description: 瞭解如何透過廣告網路API同步的廣告網路在新UI中設定和管理帳戶詳細資訊。
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Account]**。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >若要編輯廣告網路上的實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 以下列任一方式選取該帳戶：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. （如果您為同一瀏覽器應用程式中的相同廣告網路登入其他帳戶），請登出廣告商帳戶以外的任何帳戶。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。 當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止該帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這裡不支援廣告網路管理員帳戶。 若要識別[!DNL Microsoft Advertising]的管理員帳戶，請分別使用主要帳戶ID或MCC帳戶欄位。 若要[設定 [!DNL Google Ads] 管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)的認證，請移至[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]。
+>這裡不支援廣告網路管理員帳戶。 若要識別[!DNL Microsoft Advertising]的管理員帳戶，請分別使用主要帳戶ID或MCC帳戶欄位。 若要[設定 [!DNL Google Ads] 管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)的認證，請移至[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]。
 
 **[!UICONTROL Currency]：** （唯讀）帳戶所用貨幣的縮寫。 儲存記錄後，此值會自動以廣告網路上的帳戶所設定的貨幣填入。
 

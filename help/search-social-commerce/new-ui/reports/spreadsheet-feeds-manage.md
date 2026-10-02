@@ -2,13 +2,11 @@
 title: （新UI）管理試算表報表摘要
 description: 瞭解如何建立、設定、重新整理、檢視和刪除以自訂格式試算表提供每日效能資料的試算表報表摘要。
 feature: Search Reports
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1498'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理試算表報表摘要
 
 *僅適用基本報告和模型準確度報告*
@@ -41,14 +39,14 @@ ht-degree: 0%
 
 若要建立試算表摘要，您必須先使用一般報表範本建立特別格式化的[!DNL Microsoft Excel]試算表範本。 您可以選擇自訂[!DNL Excel]試算表以包含其他欄和圖表。
 
-1. 在&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;中，使用「[!UICONTROL Daily]」的[!UICONTROL Date Aggregation]單位以及您想要的所有其他資料引數產生所需的報表型別，並將報表儲存為範本。
+1. 在&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;中，使用「[!UICONTROL Daily]」的[!UICONTROL Date Aggregation]單位以及您想要的所有其他資料引數產生所需的報表型別，並將報表儲存為範本。
 
    >[!NOTE]
    >
    > * 您可以建立[!UICONTROL Portfolio]、[!UICONTROL Search Engine]、[!UICONTROL Search Engine Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Ad Variation]、[!UICONTROL Keyword]和[!UICONTROL Forecast Accuracy]報表的試算表摘要。 如果您使用[!UICONTROL Ad Group Report]，請限制包含的廣告群組數目，以更快獲得結果。
    > * 未使用範本中定義的[!UICONTROL Date Range]單位。 您稍後設定試算表摘要時，會定義重新整理資料的日期。
 
-1. 產生報表之後，請移至&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，並將報表輸出的TSV或XLS版本匯出至檔案。
+1. 產生報表之後，請移至&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，並將報表輸出的TSV或XLS版本匯出至檔案。
 
 1. 在[!DNL Excel]中，建立報告的自訂範本：
 
@@ -128,7 +126,7 @@ ht-degree: 0%
    >
    > 如果之後刪除與摘要相關聯的報告範本，則也會刪除摘要。
 
-   在廣告商的時區，試算表摘要會在每天的08:00自動重新整理。 如果報表範本包含任何電子郵件收件者的地址，則這些地址會在重新整理試算表時收到通知。
+   試算表摘要會在廣告商的時區每天的08:00自動重新整理。 如果報表範本包含任何電子郵件收件者的地址，則這些地址會在重新整理試算表時收到通知。
 
 ## 試算表報表摘要設定 {#spreadsheet-feed-settings}
 
@@ -140,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Back Fill From] | [!UICONTROL RAW]標籤上現有資料重新整理的開始日期，以過去的天數表示。 請輸入最多90天的值；預設值為七(7)天。<br><br>例如，如果值為7，而今天是3月7日，則會重新整理[!UICONTROL RAW]標籤上從3月1日開始的現有資料（直到[!UICONTROL Back Fill Until]引數指定的結束日期）。 3月1日之前日期的現有資料列不會刪除，但不會重新整理。 |
 | [!UICONTROL Back Fill Until] | 重新整理[!UICONTROL RAW]標籤上現有資料的結束日期，以過去的天數表示。 預設值為一(1)天。<br><br>例如，如果此值為1，而今天是3月7日，則[!UICONTROL RAW]標籤上的現有資料會重新整理到3月6日（並且從[!UICONTROL Back Fill From]引數指定的開始日期開始）。 如果此值為1，[!UICONTROL Back Fill Until]引數為7，而今天是3月7日，則[!UICONTROL RAW]標籤上的現有資料會從3月1日重新整理到3月6日。 在這兩個範例中，不會刪除3月6日之後的現有資料列，但不會重新整理。 |
 | [!UICONTROL Email Recipients] | 在每次重新整理報表或每次執行報表（當範本包含排程）時傳送通知的電子郵件地址。 依預設，會輸入您使用者帳戶的地址。 若要指定多個地址，請用逗號、空格或新行加以區隔。 |
-| [!UICONTROL Schedule Time] | 重新整理試算表摘要的時間：在廣告商時區的08:00或介於10:00到23:00之間的任何時間。 新試算表摘要的預設值為10:00。<br><br><b>注意：</b>基於效能考量，您無法在產生其他報表時於09:00重新整理試算表摘要。 |
+| [!UICONTROL Schedule Time] | 試算表摘要的重新整理時間：上午8:00或廣告商時區的10:00至23:00之間的任何時間。 新試算表摘要的預設值為10:00。<br><br><b>注意：</b>基於效能考量，您無法在產生其他報表時於09:00重新整理試算表摘要。 |
 | [!UICONTROL Email Notification] | （指定電子郵件收件者時）要包含在任何指定地址的電子郵件通知中的內容：<ul><li><i>[!UICONTROL Attach feed]</i>  — 以XLSX格式傳送已完成報表的復本。 如果檔案大於10 MB，則通知不包含附件。</li><li><i>[!UICONTROL Notification Only]</i> （預設值） — 只傳送報告完成或失敗的通知，並附報告連結。</li></ul> |
 
 ## 檢視或儲存試算表報表摘要檔案 {#spreadsheet-feed-view-or-save}

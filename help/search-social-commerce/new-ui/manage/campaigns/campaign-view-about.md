@@ -7,18 +7,20 @@ exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: '257'
 ht-degree: 0%
-
 ---
-
 # （新UI）關於[!UICONTROL Campaigns]檢視
 
 *Beta功能*
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 * [為行銷活動指派限制，並從行銷活動取消指派限制](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [指派標籤分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)給行銷活動
+* [指派標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)給行銷活動
 
 * [從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 

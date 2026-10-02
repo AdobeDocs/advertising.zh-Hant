@@ -3,13 +3,11 @@ title: （新UI）啟用上傳目標至廣告網路
 description: 瞭解如何將混合產品組合的目標上傳至Google Ads和Microsoft Advertising。
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # （新UI）啟用上傳目標至廣告網路
 
 *Beta功能*
@@ -42,7 +40,7 @@ ht-degree: 0%
 
 1. (具有[!DNL Google Ads]帳戶在歐洲經濟區(EEA)或英國(UK)做生意的廣告商；選擇性)如果您已向EEA和英國使用者收集同意，可上傳其資料以供廣告用途，請選取核取方塊。 這會將同意狀態以&#x200B;**[!UICONTROL GRANTED]**&#x200B;傳送至[!DNL Google Ads]和[!DNL Microsoft Advertising]。 如果您未選取核取方塊，則同意狀態會傳送為&#x200B;**[!UICONTROL UNSPECIFIED]**。
 
-1. （如果是在管理員帳戶層級追蹤您的轉換） [在儲存之前為您的管理員帳戶新增認證](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)。
+1. （如果是在管理員帳戶層級追蹤您的轉換） [在儲存之前為您的管理員帳戶新增認證](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -79,7 +77,7 @@ GGL_Lead不包含在計算/上傳中，因為它是[!DNL Google Ads]追蹤的量
 
 * ([!DNL Google Ads])檢查是否應將轉換上傳到帳戶或經理層級。 若應在管理員層級上傳：
 
-  * 檢查是否已提供[!DNL Google Ads]管理員帳戶的認證。 如有必要，[請為管理員帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)新增認證。
+  * 檢查是否已提供[!DNL Google Ads]管理員帳戶的認證。 如有必要，[請為管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)新增認證。
 
   * 檢查廣告網路帳戶是否已包含相同的量度名稱。 如果是，請重新命名量度，以便建立正確的管理員層級屬性。
 
@@ -89,7 +87,7 @@ GGL_Lead不包含在計算/上傳中，因為它是[!DNL Google Ads]追蹤的量
 >
 >* [關於目標](objective-about.md)
 >* [管理廣告商的轉換量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [管理 [!DNL Google Ads] 管理員帳戶的認證](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [管理 [!DNL Google Ads] 管理員帳戶的認證](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

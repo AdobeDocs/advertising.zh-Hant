@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # 從帳戶元件中移除標籤分類值
 
 移除分類值會移除與帳戶元件及其所有子元件的關聯。 這些元件不再提供分類值的報表資料。 移除分類值不會刪除值或帳戶元件。
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以從新UI中可用的任何適用帳戶元件中移除分類值。
 
-1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;功能表開啟實體檢視。
+1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;功能表開啟實體檢視。
 
 1. 選取每個相關列旁的核取方塊。
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
    * （若要移除一或多個實體的值），請執行下列動作：
 
-      * 選取每列旁的核取方塊。
+     * 選取每列旁的核取方塊。
 
-        如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+       如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-      * 在資料表上方的工具列中，按一下![更多](/help/search-social-commerce/assets/more.png "更多")，然後按一下&#x200B;**[!UICONTROL Classification]**。
+     * 在資料表上方的工具列中，按一下![更多](/help/search-social-commerce/assets/more.png "更多")，然後按一下&#x200B;**[!UICONTROL Classification]**。
 
 1. 在[!UICONTROL Assignment Details]中，選取&#x200B;**[!UICONTROL Remove]**。
 

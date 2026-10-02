@@ -4,25 +4,27 @@ description: 瞭解、建立、編輯和刪除購物產品群組，以及參考G
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # 管理購物產品群組
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]購物行銷活動*
 
-您可以在[!UICONTROL Assets] > [!UICONTROL Shopping]的[!UICONTROL Product Groups]檢視中建立及管理產品群組。
+您可以在[!UICONTROL Manage] > [!UICONTROL Product Groups]檢視中建立及管理產品群組。
 
 您可以在[&#x200B; [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)中檢視產品群組的相關資料。
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups]檢視
 
-在[!UICONTROL Assets] > [!UICONTROL Shopping]檢視的[!UICONTROL Product Groups]檢視會列出所選廣告商帳戶之篩選檢視中的所有產品群組。 您也可以建立和管理產品群組。
+[!UICONTROL Manage] > [!UICONTROL Product Groups]檢視會列出所選廣告商帳戶之篩選檢視中的所有產品群組。 您也可以建立和管理產品群組。
 
 ### 可用的動作<!-- Go through all -->
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 >
 >若要同時建立多個帳戶元件，請使用[行銷活動大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create Product Group]**。
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 >
 >您無法為&quot;[!UICONTROL Everything Else]&quot;產品群組建立子產品群組。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. （選擇性）若要在樹狀檢視中檢視產品群組及其子產品群組節點，請將游標停留在產品群組名稱上，按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**。
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 您可以編輯廣告群組中包含之單位產品群組節點（沒有子產品群組節點的產品群組）的競標與追蹤範本。 您無法編輯已排除的單位產品群組或已包含或已排除的細分節點的任何資訊，這些節點是具有子項產品群組節點的產品群組。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. （選擇性）若要在樹狀檢視中檢視產品群組及其子產品群組節點，請將游標停留在產品群組名稱上，按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Tree View]**。
 
@@ -151,7 +153,7 @@ ht-degree: 0%
 
 ## 僅編輯產品群組節點的[!UICONTROL Tracking Template] {#node-edit-tracking-template}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 將游標停留在產品群組名稱上，然後按一下「**[!UICONTROL ...]>[!UICONTROL Tree View]**」以在「樹狀檢視」中檢視產品群組及其子產品群組節點。
 
@@ -161,7 +163,7 @@ ht-degree: 0%
 
 ## 僅編輯產品群組節點的[!UICONTROL Max CPC] {#node-edit-maxcpc}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 將游標停留在產品群組名稱上，然後按一下「**[!UICONTROL ...]>[!UICONTROL Tree View]**」以在「樹狀檢視」中檢視產品群組及其子產品群組節點。
 
@@ -173,7 +175,7 @@ ht-degree: 0%
 
 您可以刪除任何產品群組（當其他產品群組位於相同層級時，則除了「其他所有專案」群組），這些產品群組用於決定您的商家中心帳戶中的哪些產品包含在廣告群組的購物廣告中。 刪除產品群組將會刪除所有子產品群組。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 將游標停留在產品群組名稱上，然後按一下「**[!UICONTROL ...]>[!UICONTROL Tree View]**」以在「樹狀檢視」中檢視產品群組及其子產品群組節點。
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
 ## 將限制指派給所選產品群組 {#constraint-assign}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 選取要為其指定單一限制之每個產品群組旁的核取方塊。
 
@@ -195,7 +197,7 @@ ht-degree: 0%
 
 ## 從選取的產品群組移除限制 {#constraint-unassign}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 選取每個產品群組旁的核取方塊，您會從中取消指定限制。
 
@@ -209,7 +211,7 @@ ht-degree: 0%
 >
 >標籤值由子實體繼承，因此除非您想要覆寫繼承的值，否則請勿輸入子實體的值。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 選取要指派標籤值的每個產品群組旁的核取方塊。
 
@@ -241,7 +243,7 @@ ht-degree: 0%
 
 移除分類值會移除與帳戶元件及其所有子元件的關聯。 這些元件不再提供分類值的報表資料。 移除分類值不會刪除值或帳戶元件。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Shopping]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Product Groups]**。
 
 1. 選取每個產品群組旁的核取方塊，您將從中移除標籤值。
 

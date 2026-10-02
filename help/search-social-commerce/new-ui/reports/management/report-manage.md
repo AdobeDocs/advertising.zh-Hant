@@ -2,18 +2,16 @@
 title: 管理排程報告
 description: 瞭解如何管理排程報告。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # 管理排程報告
 
 績效報表可讓您在任意精細的層級追蹤和管理產品組合、廣告網路和廣告網路帳戶實體的績效。 大部分報表可完整顯示每個行銷管道中的廣告對整體轉換率的貢獻度。
 
-每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
+每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
 
 所有已完成的報告都可在[!UICONTROL Reports]檢視的[!UICONTROL Latest Reports]區段中取得，您可以在瀏覽器視窗中以表格格式檢視它們，或開啟或以檔案形式下載它們。
 
@@ -39,9 +37,9 @@ ht-degree: 0%
 
 * 使用[試算表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)，以每日績效資料重新整理自訂的試算表範本。
 
-## [!UICONTROL Scheduled Reports]檢視
+## [!UICONTROL Reports]檢視
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports]檢視可讓您建立和管理報告和報告範本：
+[!UICONTROL Reports] > [!UICONTROL Reports]檢視可讓您建立和管理報告和報告範本：
 
 * **[!UICONTROL Latest Reports]**&#x200B;索引標籤會列出所有可供您<!-- Doesn't seem to be true: that were requested in the last seven days -->使用的報告，手動刪除的報告除外，最新的報告預設會顯示在頂端。 每個報表所顯示的資訊包括執行時程表（若適用）、產生或將產生資料的開始和結束日期、建立報表的人員，以及報表狀態（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*&#x200B;或&#x200B;*[!UICONTROL Error]*）。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 ### 產生新報告
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Report]**，按一下左側面板中的報表類別，然後選取報表型別。<!-- Add link to list of report categories and report types --> 按一下&#x200B;**[!UICONTROL Proceed]**。
 
@@ -96,7 +94,7 @@ ht-degree: 0%
 
 ### 從現有報表產生報表
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
 
 1. 執行下列任一項作業：
 
@@ -110,7 +108,7 @@ ht-degree: 0%
 
 ### 從現有範本產生報表
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**。
 
 1. 按一下「**[!UICONTROL Templates]**」標籤。
 
@@ -136,45 +134,45 @@ ht-degree: 0%
 >
 >Adobe帳戶團隊成員和某些管理員使用者可以檢視廣告商和機構使用者建立的報告。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
 
 1. 執行下列任一項作業：
 
    * （若要在網頁瀏覽器中檢視報表），請執行下列其中一項作業：
 
-      * 將游標停留在範本列上，然後按一下&#x200B;**...** > **[!UICONTROL Preview]**。
+     * 將游標停留在範本列上，然後按一下&#x200B;**...** > **[!UICONTROL Preview]**。
 
-      * 選取現有範本旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Preview]**。
+     * 選取現有範本旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Preview]**。
 
    * （若要開啟或儲存檔案中的報表資料）在報表名稱旁的[!UICONTROL Export]欄中，按一下格式的名稱，然後依照瀏覽器的正常程式開啟或儲存檔案：
 
-      * **[!UICONTROL XLS]：**&#x200B;針對單一工作表（XLSX格式）的[!DNL Excel]活頁簿。 此報表包括一個位於頂端且以引數標示的工作表，每個元件會有一列在元件資料可用時報告。 沒有資料的列會省略。
+     * **[!UICONTROL XLS]：**&#x200B;針對單一工作表（XLSX格式）的[!DNL Excel]活頁簿。 此報表包括一個位於頂端且以引數標示的工作表，每個元件會有一列在元件資料可用時報告。 沒有資料的列會省略。
 
-        基本報表包含每個數值欄的總數。
+       基本報表包含每個數值欄的總數。
 
-      * TSV檔案的&#x200B;**[!UICONTROL TSV]：**。 報表包括引數，以及報表中每個元件的資料列。
+     * TSV檔案的&#x200B;**[!UICONTROL TSV]：**。 報表包括引數，以及報表中每個元件的資料列。
 
-      * **[!UICONTROL CSV]：**&#x200B;用於CSV檔案。 報表包括引數，以及報表中每個元件的資料列。
+     * **[!UICONTROL CSV]：**&#x200B;用於CSV檔案。 報表包括引數，以及報表中每個元件的資料列。
 
 ## 刪除報告
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，這會開啟至&#x200B;**[!UICONTROL Latest Reports]**&#x200B;索引標籤。
 
 1. 執行下列任一項作業：
 
    * （若要刪除單一報表）：
 
-      1. 將游標停留在報表列上，然後按一下&#x200B;**...** > **[!UICONTROL Run]**。
+     1. 將游標停留在報表列上，然後按一下&#x200B;**...** > **[!UICONTROL Run]**。
 
-      1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
 
    * （若要刪除一或多個報表）：
 
-      1. 選取要刪除的每個報告旁的核取方塊。
+     1. 選取要刪除的每個報告旁的核取方塊。
 
-      1. 在大量動作工具列中按一下[刪除](/help/search-social-commerce/assets/delete-new.png "刪除") **[!UICONTROL Delete]**。
+     1. 在大量動作工具列中按一下[刪除](/help/search-social-commerce/assets/delete-new.png "刪除") **[!UICONTROL Delete]**。
 
-      1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
 
 <!--
 

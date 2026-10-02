@@ -8,38 +8,46 @@ exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
 TQID: https://experienceleague.adobe.com/9zlMhoA39Q5Yt5g39oXrl8LNn9mkD0VPusAOf6qBGBg
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8321f27c6fb89234646119b3a34470d08ecec6c8
+    internal-label: Privacy
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 4986
+source-wordcount: '5019'
 ht-degree: 1%
-
 ---
-
 # 新增功能
 
 下列是新的或最近變更的功能。
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads]帳戶）搜尋網路上的新UI現在提供下列AI Max支援，以利進行Google Ads行銷活動：<ul><li>您可以在「管理>行銷活動」中建立和管理已啟用AI Max的行銷活動。 Campaign設定包含新的AI Max標籤，其中包含啟用AI Max、自動化文字自訂和最終URL擴展的選項。 您也可以檢視廣告群組是否使用地理興趣目標。</li><li>您可以在「管理>廣告群組」中建立並管理已啟用AI Max之行銷活動的廣告群組。 設定包括無關鍵字搜尋字詞比對和感興趣的目標位置。</li><li>您可在Assets > Creative中使用AI產生的創意資產。 您可以從此檢視中，移除文字資產及其相關廣告群組。</li><li>新的[!UICONTROL Asset Report]包含在啟用AI Max的行銷活動中每個AI產生的資產的資產層級效能資料。 此報表不包含Adobe Analytics轉換。</li></ul> | 請參閱&quot;[管理行銷活動](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)&quot;和&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;、&quot;[管理廣告群組](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)&quot;和&quot;[[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot;、&quot;[檢視和建立創意資產](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)&quot;。 和[該[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)。 |
+| 2026年8月26日 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]現在包含第二個工作表，其中包含每個搜尋字詞和相符型別的轉換動作，以追蹤[!DNL Google Ads]的轉換資料。 在啟用[!DNL AI Max]的行銷活動中會顯示廣告資料。 | 請參閱&quot;[該[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;。 |
+| 2026年7月29日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （[!DNL Google Ads]帳戶）搜尋網路上的新UI現在提供下列AI Max支援，以利進行Google Ads行銷活動：<ul><li>您可以在「管理>行銷活動」中建立和管理已啟用AI Max的行銷活動。 Campaign設定包含新的AI Max標籤，其中包含啟用AI Max、自動化文字自訂和最終URL擴展的選項。 您也可以檢視廣告群組是否使用地理興趣目標。</li><li>您可以在「管理>廣告群組」中建立並管理已啟用AI Max之行銷活動的廣告群組。 設定包括無關鍵字搜尋字詞比對和感興趣的目標位置。</li><li>您可在Assets > Creative中使用AI產生的創意資產。 您可以從此檢視中，移除文字資產及其相關廣告群組。</li><li>新的[!UICONTROL Asset Report]包含在啟用AI Max的行銷活動中每個AI產生的資產的資產層級效能資料。 此報表不包含Adobe Analytics轉換。</li></ul> | 請參閱&quot;[管理行銷活動](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)&quot;和&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;、&quot;[管理廣告群組](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)&quot;和&quot;[[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot;、&quot;[檢視和建立創意資產](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)&quot;。 和[該[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)。 |
 | 2026年6月9日 | 與Adobe Customer Journey Analytics整合 | 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用Adobe Experience Platform [!DNL Web SDK]在Adobe Advertising和Customer Journey Analytics之間原生交換資料。 | 請參閱「[Adobe Advertising與Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)整合的概觀」。 |
 | 2026年5月28日 | 新增UI | 現在大部分的功能都可在新的UI中使用，包括排程報表和試算表摘要、大量表單、廣告網路管理員帳戶以及[!DNL Spend Planner] （原稱為「[!DNL Spend Recommendations]」）。 | 請參閱&quot;[使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)&quot;和「新UI」一章。 |
 | 2026年2月25日 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]顯示[!DNL Google Ads AI Max]根據搜尋網路內的搜尋使用的特定廣告組合和登入頁面的效能。 | 請參閱&quot;[該[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;。 |
 | | 新增UI > [!UICONTROL Portfolio]設定 | 在[!UICONTROL Manage Constraints]標籤上，設定&quot;[!UICONTROL Reserve a percentage of the spend target for each campaign]&quot;已重新命名為&quot;[!UICONTROL Set Campaign Spend Allocation Limits]&quot;，現在可用於具有所有支出策略的產品組合。 以前，它僅適用於具有每日支出策略的產品組合。<br><br>此設定可讓您指定行銷活動支出比例。 例如，您可以將25% — 產品組合預算的40%分配至促銷活動A，至少10%分配至促銷活動B，而最多50%分配至促銷活動C。總計不得超過100%。 | 如需產品組合設定的詳細資訊，請參閱[!DNL Optimization Guide]，此工具可在Search、Social和Commerce中使用。 |
 | | 新增UI > [!UICONTROL Portfolios] | 您現在可以下載特定資料型別的「模型準確度」報表，並指示如何劃分資料（依競標單位及/或按一下音量）。 | 請參閱[檢視投資組合效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)。 |
 | | 新增UI > [!UICONTROL Portfolios]，新增UI > [!UICONTROL Campaigns]，新增UI > [!UICONTROL Ad Groups] | 您現在可以在檢視內下載所有促銷活動或廣告群組的效能詳細資料。 之前，您可以下載檢視表中所有產品組合的效能圖表。 | 瞭解如何在[&#x200B; [!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)、[&#x200B; [!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)和[檢視[!UICONTROL Ad Groups]中下載效能圖表](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)。 |
-| | 新增UI > [!UICONTROL Accounts] | 您現在可以管理透過API連線同步的廣告網路帳戶，或透過[!UICONTROL Setup] > [!UICONTROL Accounts]中的資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。 | 請參閱[關於廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)。 |
-| | 新增UI > [!UICONTROL Label Classifications] | 現在提供標籤分類，包括標籤值。 您可以從[!UICONTROL Reports] > [!UICONTROL Label Classifications]管理分類，並將分類值指派/取消指派給新UI中可用的任何適用帳戶元件。 | 請參閱&quot;[關於標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)&quot;。 |
+| | 新增UI > [!UICONTROL Accounts] | 您現在可以管理透過API連線同步的廣告網路帳戶，或透過[!UICONTROL Manage] > [!UICONTROL Accounts]中的資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。 | 請參閱[關於廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)。 |
+| | 新增UI > [!UICONTROL Label Classifications] | 現在提供標籤分類，包括標籤值。 您可以從[!UICONTROL Setup] > [!UICONTROL Label Classifications]管理分類，並將分類值指派/取消指派給新UI中可用的任何適用帳戶元件。 | 請參閱&quot;[關於標籤分類](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)&quot;。 |
 | 2026年1月21日 | 產品組合（新UI） | 您現在可以下載含有所有產品組合設定的大量表單檔案。 若您未選取特定投資組合，**[!UICONTROL Bulk Operations]**&#x200B;功能表會包含選項&#x200B;**[!UICONTROL Export All Portfolios]**。 | 請參閱[使用大量工作表檔案大量編輯投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)。 |
 | 2025年11月12日 | [!UICONTROL Campaigns] | （[!DNL Google Ads]個行銷活動）對於具有所有必要設定且包含子廣告群組的行銷活動，行銷活動設定現在包含&quot;[!UICONTROL Google Recommended Budget]&quot;欄位，其選項為檢視[!DNL Google Ads]建議的預算。 | 請參閱&quot;[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;。 |
 | 2025年11月6日 | [!UICONTROL Reports] | 新[!UICONTROL Google Performance Max Placement Report]包含指定帳戶中[!DNL Google Ads]個最高成效行銷活動中的位置曝光資料。 使用此報表來尋找要排除的URL，並改善最高成效行銷活動的效能。 | 請參閱[專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)的[!UICONTROL Google Performance Max Placement Report]&#x200B;[&#128279;](/help/search-social-commerce/reports/management/specialty/google-performance-max-placement-report.md)和報告欄。 |
@@ -57,7 +65,7 @@ ht-degree: 1%
 | | [!UICONTROL Portfolios] | （Beta功能）新的使用者介面現在支援建立和管理投資組合群組。 | 請參閱[管理投資組合群組](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)。 |
 | | [!UICONTROL Campaigns], [!UICONTROL Ad Groups] | （Beta功能）您現在可以在[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]檢視的列中編輯實體名稱、狀態、預算（行銷活動）和競標（廣告群組）。 | 請參閱「直接在列[&#128279;](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)內編輯設定」。 |
 | 2025年7月30日 | [!DNL Google Ads] [!DNL AI Max]功能 | [!DNL Google Ads]已將[!DNL AI Max]引進為現有搜尋促銷活動型別的增強功能。 雖然這些行銷活動在[!DNL Google Ads]內繼續運作並出現在Search、Social和Commerce中，但[!DNL Google Ads] API尚未支援[!DNL AI Max]。 因此，當此功能啟用時，我們觀察到報告中有差異和遺失資料，導致效能分析和最佳化不一致。<br><br>在[!DNL Google Ads]於未來幾個月將[!DNL AI Max]支援新增至其API後，Search、Social和Commerce將會實作它。 升級可讓我們正確偵測及支援啟用AI Max的行銷活動，並重新評估資料問題，以繼續完整報告和最佳化這些行銷活動。<br><br>**建議：**&#x200B;在完整API支援可用之前，我們強烈建議不要針對透過Search、Social和Commerce最佳化的行銷活動選擇[!DNL AI Max]。 這可協助確保您的報告保持正確和可操作，且最佳化是以正確的資料為基礎。 如果您有任何未透過Search、Social和Commerce最佳化、使用[!DNL AI Max]的行銷活動，請使用[!DNL Google Ads]中的資料進行分析和調整。 | — |
-| 2025年7月2日 | 登入 | 搜尋、社交和Commerce正在轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]從CX Enterprise登入頁面或舊版搜尋、社交和Commerce登入頁面登入[!DNL Adobe]產品。 您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。 | 請參閱[登入](/help/search-social-commerce/getting-started/sign-in.md)。<br><br>如需有關CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱[CX Enterprise介面和管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。 |
+| 2025年7月2日 | 登入 | 搜尋、社交和Commerce正在轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]從CX Enterprise登入頁面或舊版搜尋、社交和Commerce登入頁面登入[!DNL Adobe]個產品。 您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。 | 請參閱[登入](/help/search-social-commerce/getting-started/sign-in.md)。<br><br>如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱[CX Enterprise介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。 |
 | 2025年6月21日發行 | [!UICONTROL Objectives] | 將目標上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]現在會在一天中進行，有時甚至每小時進行，而不是像之前一樣每天上傳。 對於擁有大型帳戶或自訂設定的廣告商，每天至少會進行三次上傳。<br><br>增加頻率可讓廣告網路的智慧競標系統回應季節或特殊活動日當天趨勢。 | 請參閱&quot;[啟用將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)&quot;。 |
 | 2025年3月26日 | [!UICONTROL Tracking], [!DNL Adobe Analytics for Advertising] | （具有[!DNL Adobe Analytics for Advertising]和[!DNL Microsoft Advertising]帳戶的廣告商）對於具有[!UICONTROL Auto Upload]追蹤選項的帳戶，所有行銷活動型別的登陸頁面尾碼中的AMO ID引數格式已更新為最新格式。 之前，大部分帳戶的效能最高行銷活動已移轉到新格式。<br><br>對於沒有[!UICONTROL Auto Upload]追蹤選項的帳戶，尚未移轉到新格式，但是您必須手動更新每個登入頁面尾碼，以包含新的AMO ID格式。<br><br>目前格式： `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | 請參閱「[總覽 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)」和[AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
 | 2025年2月 | [!UICONTROL Campaign Management] | 搜尋、Social和Commerce現在會同步[!DNL Google Ads]需求一般促銷活動（先前稱為探索促銷活動）的產品廣告和影片廣告。 「搜尋」、「社交」和「Commerce」以及「Adobe Analytics」中的報表（適用於具有[!DNL Adobe Analytics for Advertising]的廣告商）現在包含所有可用廣告型別的廣告層級績效和支出資料。 在[!UICONTROL Ads]檢視和[!UICONTROL Ad Variation Report]中，您可以篩選[!UICONTROL Creative Type]欄以包含[!UICONTROL Demand Gen Image Ad]、[!UICONTROL Demand Gen Carousel Ad]、[!UICONTROL Demand Gen Product Ad]和[!UICONTROL Demand Gen Video Ad]。<br><br>目標上傳支援適用於所有支援的廣告型別。 尚未完全支援產品廣告和視訊廣告的最佳化。 | 如需詳細資訊：請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 |

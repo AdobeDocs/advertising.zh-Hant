@@ -3,13 +3,11 @@ title: （新UI）關於廣告網路帳戶
 description: 瞭解新的搜尋、社交和Commerce UI中的廣告網路帳戶。
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # （新UI）關於廣告網路帳戶
 
 搜尋、社交和Commerce可以在支援的廣告網路上追蹤任何廣告商帳戶。 若要啟用帳戶追蹤，您必須建立對應的帳戶記錄。 您必須為任何型別的帳戶設定帳戶詳細資料，無論Search、Social和Commerce是否與其同步，或最佳化其廣告的出價和預算。
@@ -42,8 +40,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [透過API連線管理廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [管理資料上傳的廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [僅管理 [!DNL Naver] 追蹤帳戶](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [透過API連線管理廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [管理資料上傳的廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [僅管理 [!DNL Naver] 追蹤帳戶](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [實作 [!DNL Naver] 僅限追蹤的帳戶](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [管理商家中心帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

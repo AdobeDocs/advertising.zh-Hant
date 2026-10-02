@@ -1,19 +1,20 @@
 ---
-title: （新UI）管理 [!DNL Google Ads] 轉換值規則
-description: 瞭解如何在搜尋、社交和Commerce中檢視和管理 [!DNL Google Ads] 轉換值規則。
+title: （新UI）管理[!DNL Google Ads]轉換值規則
+description: 瞭解如何在Search、Social和Commerce中檢視及管理[!DNL Google Ads]轉換值規則。
 feature: Conversions
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+    internal-label: Conversion value rules
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1856'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理[!DNL Google Ads]轉換值規則
 
 *Beta功能*
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 * 在已在個別帳戶或促銷活動層級追蹤轉換的帳戶中，您可以[建立](#google-conversion-value-rule-create)、[編輯](#google-conversion-value-rule-edit)和[變更帳戶層級和促銷活動層級規則的狀態](#google-conversion-value-rule-change-status)。
 
-  這些帳戶可以連結到[[!DNL Google Ads] 管理員帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)，但它們不能使用跨帳戶轉換追蹤（針對此追蹤，會跨管理員帳戶中的所有帳戶追蹤轉換）。
+  這些帳戶可以連結到[[!DNL Google Ads] 管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)，但它們不能使用跨帳戶轉換追蹤（針對此追蹤，會跨管理員帳戶中的所有帳戶追蹤轉換）。
 
 * 在使用跨帳戶轉換追蹤的帳戶中，您的帳戶層級和促銷活動層級規則繼承自管理員帳戶，且為唯讀。
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 例如，假設目標使用單一轉換量度「銷售機會」，並將來自行動裝置的轉換權重設為10，將來自非行動裝置的轉換權重設為10。 搜尋、Social和Commerce會將任一裝置型別的事件計為一(1)次轉換，並將轉換值計為10。 然而，假設該投資組合中的行銷活動使用轉換值規則「如果裝置為行動，則乘以2。」 當為該行銷活動追蹤行動銷售機會事件時，[!DNL Google Ads]也會將轉換計數計為一(1)，但轉換值計為(10 x 2) = 20。
 
-若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱 [!DNL Google Ads][&#128279;](https://support.google.com/google-ads/answer/10519848)中的轉換值規則報告。
+若要檢視規則的詳細資訊，包括套用規則之前的原始轉換值，請參閱 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/google-ads/answer/10519848)中的轉換值規則報告。
 
 ## 建立[!DNL Google Ads]轉換值規則 {#google-conversion-value-rule-create}
 

@@ -2,13 +2,11 @@
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # 專業報告的報告欄
 
 | 欄 | 說明 |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）您在顯示/對象網路上收到的廣告曝光數除以您符合資格可收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）由於您的每日或每月預算太低，您在顯示/對象網路上的廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （僅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由於廣告排名不佳，您在顯示/對象網路上的廣告未顯示的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]個報告）導致轉換的轉換動作。 |
 | [!UICONTROL Conversion Rate] | 轉換次數除以點按總數。 |
 | [!UICONTROL Conversion Type] | 在廣告商網站上追蹤的使用者定義轉換型別。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]個報告）指定期間的轉換總數。 對於[!UICONTROL MSA Ad Extension]報表，這是導致銷售或其他成功度量的點按次數。 在[!UICONTROL Google AI Max Search Term Combination]報表中，這是啟用「包含在轉換中」的轉換動作轉換總數 |

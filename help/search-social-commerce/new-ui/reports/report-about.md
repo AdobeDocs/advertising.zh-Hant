@@ -4,31 +4,36 @@ description: 瞭解排程效能報表，包括可用的不同報表型別以及�
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # （新UI）關於排程報表
 
 排程效能報告可讓您在任意精細的層級追蹤和管理產品組合、廣告網路和廣告網路帳戶實體的效能。 大部分報表可完整顯示每個行銷管道中的廣告對整體轉換率的貢獻度。
 
-每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中管理通知。
+每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中管理通知。
 
 所有已完成的報告都可在[!UICONTROL Reports]檢視的[!UICONTROL Latest Reports]區段中取得，您可以在瀏覽器視窗中以表格格式檢視它們，或開啟或以檔案形式下載它們。
 
 ## 可用的報告類別
 
-[!UICONTROL Scheduled Reports]檢視中有以下報表類別。 您可能無法存取所有報表；可用的報表及其產生的資料取決於您的角色及客戶帳戶的設定方式。
+下列報表類別可從[!UICONTROL Reports] > [!UICONTROL Reports]檢視中取得。 您可能無法存取所有報表；可用的報表及其產生的資料取決於您的角色及客戶帳戶的設定方式。
 
 | 報告類別 | 說明 |
 | ----| ---- |
@@ -48,9 +53,9 @@ ht-degree: 0%
 
 * 使用[試算表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)，以每日績效資料重新整理自訂的試算表範本。
 
-## [!UICONTROL Scheduled Reports]檢視
+## [!UICONTROL Reports]檢視
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports]檢視可讓您建立和管理報表、範本及試算表摘要。 檢視包含兩個標籤：
+[!UICONTROL Reports] > [!UICONTROL Reports]檢視可讓您建立和管理報表、範本及試算表摘要。 檢視包含兩個標籤：
 
 * **[!UICONTROL Latest Reports]**&#x200B;索引標籤會列出過去七天中要求的所有可用報表（手動刪除除外），並將最新報表預設顯示在頂端。 每個報表所顯示的資訊包括執行時程表（若適用）、產生或將產生資料的開始和結束日期以及報表狀態（*[!UICONTROL Finished]*、*[!UICONTROL In Progress]*&#x200B;或&#x200B;*[!UICONTROL Error]*）。
 

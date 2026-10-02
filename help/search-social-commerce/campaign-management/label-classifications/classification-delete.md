@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # 刪除標籤分類
 
 刪除分類會移除其子值與帳戶元件之間的所有關聯。 已刪除的分類及其值無法供日後使用。 分類值的報表資料已無法使用。
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## （新UI）刪除標籤分類
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. （選用）篩選清單以包含特定標籤分類。
 

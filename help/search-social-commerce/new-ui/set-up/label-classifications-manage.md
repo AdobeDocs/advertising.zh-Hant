@@ -2,13 +2,11 @@
 title: 管理標籤分類
 description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # 管理標籤分類
 
 標籤分類可協助您將帳戶元件分組為有意義的集合。 例如，您可以建立名為「地理」的父標籤分類，並為分類內的每個地理區域（例如「英國」和「日本」）建立不同的標籤值，然後將標籤值指派給您的[競標單位](/help/search-social-commerce/glossary.md#a-b)或父促銷活動。 然後，您就可以在檢視和報表中加入任何標籤值，做為個別的欄，並按照不同的分類群組和值對報表進行子樞紐分析。
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Create Classification]**。
 
@@ -69,7 +67,7 @@ ht-degree: 0%
 >
 >您某些廣告網路和行銷活動型別的關鍵字和廣告復本是[不可變動](/help/search-social-commerce/campaign-management/faqs-campaigns.md)，這表示編輯它們會刪除現有實體並建立新的實體。 以這種方式刪除現有實體時，不會將標籤分類指派給新實體。
 
-1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;功能表開啟實體檢視。
+1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;功能表開啟實體檢視。
 
 1. 選取每個相關列旁的核取方塊。
 
@@ -155,7 +153,7 @@ ht-degree: 0%
 >
 >若要從標籤分類刪除值，請參閱&quot;[刪除標籤分類值](#classification-values-delete)&quot;。
 
-1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Target]**&#x200B;功能表開啟實體檢視。
+1. 從&#x200B;**[!UICONTROL Manage]**&#x200B;或&#x200B;**[!UICONTROL Targeting]**&#x200B;功能表開啟實體檢視。
 
 1. 選取每個相關列旁的核取方塊。
 
@@ -177,7 +175,7 @@ ht-degree: 0%
 >
 >若要解除分類值與帳戶元件的關聯，請參閱&quot;[從帳戶元件移除標籤分類值](#classification-values-remove)&quot;。
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 按一下「**[!UICONTROL Label Values]**」標籤。
 
@@ -201,7 +199,7 @@ ht-degree: 0%
 >
 >若要解除分類值與帳戶元件的關聯，請參閱&quot;[從帳戶元件移除標籤分類值](#classification-values-remove)&quot;。
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. （選用）篩選清單以包含特定標籤分類。
 

@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 行銷活動是廣告網路帳戶的主要元件。 對於大多數行銷活動型別，它是由一組廣告群組或廣告集所組成。 行銷活動設定包含行銷活動預算引數、廣告目標，以及行銷活動中所有廣告的選用追蹤引數。 行銷活動層級追蹤引數會覆寫帳戶層級引數，但本身可能在較低層級覆寫。
 
-一旦您[透過API連線存取廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，且Search、Social和Commerce已同步處理帳戶資料與廣告網路，您就可以使用[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)來建立新的行銷活動。 您也可以編輯及變更行銷活動的狀態。
+一旦您[透過API連線存取廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，且Search、Social和Commerce已同步處理帳戶資料與廣告網路，您就可以使用[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)來建立新的行銷活動。 您也可以編輯及變更行銷活動的狀態。
 
 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -424,8 +424,8 @@ ht-degree: 0%
 >
 >* [管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [管理關鍵字](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)的限制指派
->* [管理位置的限制指派](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)的限制指派
+>* [管理位置的限制指派](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)

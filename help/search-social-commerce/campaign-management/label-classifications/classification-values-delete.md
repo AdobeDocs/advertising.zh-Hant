@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # 刪除標籤分類值
 
 刪除標籤分類值會使這些值在日後無法使用，且報表資料不再適用於這些值。 會移除值及其上層標籤分類和特定帳戶元件之間的所有指派，但不會刪除上層標籤分類和促銷活動元件。
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## （新UI）刪除標籤分類值
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 按一下「**[!UICONTROL Label Values]**」標籤。
 

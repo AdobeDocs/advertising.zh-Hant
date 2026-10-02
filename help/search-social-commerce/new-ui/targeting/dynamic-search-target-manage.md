@@ -1,24 +1,26 @@
 ---
-title: 管理 [!DNL Google Ads] 動態搜尋目標
-description: 瞭解如何建立和管理 [!DNL Google Ads] 動態搜尋目標。
+title: 管理[!DNL Google Ads]動態搜尋目標
+description: 瞭解如何建立和管理[!DNL Google Ads]動態搜尋目標。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]動態搜尋目標
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets]檢視
 
-[!UICONTROL Target] > [!UICONTROL Auto Targets]檢視會列出所選廣告商帳戶之篩選檢視中的所有動態搜尋目標。 您也可以管理動態搜尋目標。
+[!UICONTROL Targeting] > [!UICONTROL Auto Targets]檢視會列出所選廣告商帳戶之篩選檢視中的所有動態搜尋目標。 您也可以管理動態搜尋目標。
 
 ### 可用動作
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## 從新的[!UICONTROL Auto Targets]檢視指派限制給選取的動態搜尋目標 {#constraint-assign}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 選取每個動態搜尋目標旁的核取方塊，您將為其指定單一限制。
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## 從新的[!UICONTROL Auto Targets]檢視移除所選動態搜尋目標的限制 {#constraint-unassign}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 選取每個動態搜尋目標旁的核取方塊，您會從中取消指派限制。
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >標籤值由子實體繼承，因此除非您想要覆寫繼承的值，否則請勿輸入子實體的值。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 選取您要指派標籤值的每個動態搜尋目標旁的核取方塊。
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 移除分類值會移除與帳戶元件及其所有子元件的關聯。 這些元件不再提供分類值的報表資料。 移除分類值不會刪除值或帳戶元件。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Target]>[!UICONTROL Auto Targets]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**。
 
 1. 選取每個動態搜尋目標旁的核取方塊，您會從其中移除標籤值。
 
@@ -253,4 +255,4 @@ You can also delete any dynamic target.
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新UI）管理標籤分類](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [&#x200B; （新UI）管理標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

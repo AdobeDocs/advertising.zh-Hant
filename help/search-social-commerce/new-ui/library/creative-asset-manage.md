@@ -1,28 +1,30 @@
 ---
 title: 檢視和建立創意資產
-description: 瞭解如何檢視和建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級資產庫的可重複使用影像、視訊和文字資產。
+description: 瞭解如何為您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產庫檢視及建立可重複使用的影像、視訊和文字資產。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # 檢視和建立創意資產
 
 *僅適用於[!DNL Google Ads]與[!DNL Microsoft Advertising]帳戶*
 
-在[!UICONTROL Assets] > [!UICONTROL Creatives]中，您可以在您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Google Ads]使用）文字資產。 清單包含在啟用[!DNL AI Max]的行銷活動中，由AI為[!DNL Google Ads]個廣告群組產生的資產。
+在[!UICONTROL Library] > [!UICONTROL Creatives]中，您可以在您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Google Ads]使用）文字資產。 清單包含在啟用[!DNL AI Max]的行銷活動中，由AI為[!DNL Google Ads]個廣告群組產生的資產。
 
 您可以手動建立廣告網路帳戶的新資產，並將其上傳至廣告網路。 <!-- Verify if you can use the AI-generated ones -->您可以將任何已上傳的資產用於最高成效的行銷活動。
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 檢視您的創意資產
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具列中選取廣告網路和帳戶。
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 ## 建立及上傳資產
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具列中選取廣告網路和帳戶。
 
@@ -90,7 +92,7 @@ ht-degree: 0%
 
 移除的文字資產將不會再次提供，但報表中仍會提供效能資料。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Assets]>[!UICONTROL Creatives]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Library]>[!UICONTROL Creatives]**。
 
 1. 在工具列中選取廣告網路和帳戶。
 
