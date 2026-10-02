@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 廣告屬於廣告群組，包含向使用者顯示的內容，例如標題、說明、影像或其他創意元素，具體取決於廣告網路和廣告型別。
 
-當您[透過API連線存取廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，且Search、Social和Commerce已將帳戶資料與廣告網路同步之後，您就可以為[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)建立廣告。 您也可以編輯及變更廣告的狀態。
+當您[透過API連線存取廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，且Search、Social和Commerce已將帳戶資料與廣告網路同步之後，您就可以為[支援的行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)建立廣告。 您也可以編輯及變更廣告的狀態。
 
 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
+1. <!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
 
 ## 重新命名廣告 {#ad-rename}
 

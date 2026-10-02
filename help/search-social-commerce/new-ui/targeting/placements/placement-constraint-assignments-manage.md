@@ -1,27 +1,15 @@
 ---
-title: 管理行銷活動的限制指派
-description: 瞭解如何將限制指派給行銷活動。
+title: 管理位置的限制指派
+description: 瞭解如何將限制指派給位置。
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-    internal-label: Search optimization
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '464'
 ht-degree: 0%
 ---
-# （新UI）管理行銷活動的限制指派
+# （新UI）管理版位的限制指派
 
 *Beta功能*
 
@@ -36,13 +24,13 @@ ht-degree: 0%
 >* 如果您稍後編輯非可變廣告的關鍵字或廣告復本（因此建立新的關鍵字或廣告），則限制不會指派給新圖元。
 >* 作用中限制僅限制最佳化舊關鍵字層級產品組合中已指派競標單位的競標。 若競標單位位於作用中產品組合、混合產品組合或不在產品組合中，則會忽略這些專案。
 
-## 從新[!UICONTROL Campaigns]檢視指派限制給選取的行銷活動
+## 從新[!UICONTROL Placements]檢視指派限制給選取的版位
 
-您可以將單一限制指派給一或多個行銷活動。
+您可以將單一限制指派給一或多個位置。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Placements]**。
 
-1. 選取您要指派單一限制之每個行銷活動旁的核取方塊。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;標籤上，選取要指派單一限制之每個位置旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**。
 
@@ -70,11 +58,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-## 從新[!UICONTROL Campaigns]檢視中移除所選行銷活動的限制
+## 從新[!UICONTROL Placements]檢視中移除所選位置的限制
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Targeting]>[!UICONTROL Placements]**。
 
-1. 選取每個行銷活動旁的核取方塊，您會從中取消指派限制。
+1. 在&#x200B;**[!UICONTROL Placements]**&#x200B;索引標籤上，選取要從中取消指派限制之每個位置旁的核取方塊。
 
 1. 在大量動作工具列中按一下&#x200B;**-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**。
 
@@ -99,6 +87,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [ （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [ （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [ （新UI）管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)的限制指派
->* [ （新UI）管理位置](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)的限制指派

@@ -1,25 +1,25 @@
 ---
-title: 復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活動
-description: 瞭解如何將a [!DNL Google Ads] 帳戶中同步的行銷活動直接匯出至同步的 [!DNL Microsoft Advertising] 帳戶。
+title: 復寫[!DNL Microsoft Advertising]中的[!DNL Google Ads]個行銷活動
+description: 瞭解如何將[!DNL Google Ads]帳戶中同步的行銷活動直接匯出至同步的[!DNL Microsoft Advertising]帳戶。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # 復寫[!DNL Microsoft Advertising]中的[!DNL Google Ads]個行銷活動
 
 >[!NOTE]
 >
->您可以在「（新UI） [複製 [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)中的 [!DNL Google Ads] 行銷活動」中，取得新UI中此工作的指示。
+>您可以在「（新UI） [複製 [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)中的 [!DNL Google Ads] 行銷活動」中，取得新UI中此工作的指示。
 
 您可以將[!DNL Google Ads]帳戶中同步的行銷活動直接匯出到同步的[!DNL Microsoft Advertising]帳戶，做為增強型CPC (eCPC)行銷活動。 現有競標和行銷活動預算已縮放。 現有的搜尋、社交和Commerce追蹤不會匯入。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center][&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 [復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)匯入的專案。
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 * 執行下列任一項作業：
 
-   * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
+  * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**。
 
-     依預設，檢視會開啟至[!UICONTROL List of Import Jobs]標籤。
+    依預設，檢視會開啟至[!UICONTROL List of Import Jobs]標籤。
 
-   * 從[[!UICONTROL Import Logs]索引標籤](#campaign-import-log)，按一下&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤。
+  * 從[[!UICONTROL Import Logs]索引標籤](#campaign-import-log)，按一下&#x200B;**[!UICONTROL List of Import Jobs]**&#x200B;索引標籤。
 
 ## 執行行銷活動匯入工作
 
@@ -131,15 +131,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]：*&#x200B;若要選取特定行銷活動和廣告群組。
 
-   * 若要將行銷活動展開至其子廣告群組，請按一下行銷活動名稱后面的&#x200B;**[!UICONTROL >]**。
+  * 若要將行銷活動展開至其子廣告群組，請按一下行銷活動名稱后面的&#x200B;**[!UICONTROL >]**。
 
-   * 若要選取行銷活動或廣告群組，請選取專案以顯示核取記號。
+  * 若要選取行銷活動或廣告群組，請選取專案以顯示核取記號。
 
-   * 若要移除行銷活動或廣告群組：
+  * 若要移除行銷活動或廣告群組：
 
-      * 在[!UICONTROL Campaigns]或[!UICONTROL Adgroups]欄中，取消選取行銷活動或廣告群組，讓核取記號消失。
+    * 在[!UICONTROL Campaigns]或[!UICONTROL Adgroups]欄中，取消選取行銷活動或廣告群組，讓核取記號消失。
 
-      * 在[!UICONTROL Selected]欄中按一下![刪除](/help/search-social-commerce/assets/delete.png "刪除")。
+    * 在[!UICONTROL Selected]欄中按一下![刪除](/help/search-social-commerce/assets/delete.png "刪除")。
 
 ### [!UICONTROL Customize your import]
 

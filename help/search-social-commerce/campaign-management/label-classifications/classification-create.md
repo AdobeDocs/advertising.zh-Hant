@@ -6,22 +6,22 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # 建立標籤分類
 
 每個廣告商最多可以有30個標籤分類。
 
 ## （新UI）建立標籤分類
 
-1. 按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Label Classifications]**。
+1. 按一下&#x200B;**[!UICONTROL Setup]>[!UICONTROL Label Classifications]**。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Create Classification]**。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    廣告商帳戶的名稱必須是唯一的，且包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。 名稱不能與現有報表欄或現有Bulksheet欄的名稱相同。 檢視[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的大量表單欄名稱 顯示網路](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
 
-建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets[&#128279;](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或將標籤值指派給帳戶實體。
+建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或[將標籤值指派給帳戶實體。
 
 ## （舊版UI）建立標籤分類
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    廣告商帳戶的名稱必須是唯一的，且包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。 名稱不能與現有報表欄或現有Bulksheet欄的名稱相同。 檢視[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的大量表單欄名稱 顯示網路](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。
 
-建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets[&#128279;](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或將標籤值指派給帳戶實體。
+建立標籤分類之後，您就可以建立分類的特定標籤值，並使用Bulksheets](classification-values-assign-bulksheets.md)從[行銷活動管理檢視](classification-values-assign-campaign-management.md)或[將標籤值指派給帳戶實體。
 
 >[!MORELIKETHIS]
 >

@@ -2,13 +2,11 @@
 title: （新UI）管理通知
 description: 瞭解如何檢視、設定和管理搜尋、社交和Commerce通知，包括推播通知和通知中心Web應用程式。
 feature: Search Notifications
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理通知
 
 *Beta功能*
@@ -45,57 +43,57 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**： [大量工作表作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失敗的通知。<!-- Update link once file for new UI available-->
+  * **[!UICONTROL Bulksheets]**： [大量工作表作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)已完成或失敗的通知。<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce遺失[廣告網路管理員帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)之認證的通知，這些是正確設定重要功能所需的認證。<!-- Moving to Campaign Management > Setup Errors at some point -->
+  * **[!UICONTROL Manager Account Missing]**： Search、Social和Commerce遺失[廣告網路管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)之認證的通知，這些是正確設定重要功能所需的認證。<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包含[大量工作表工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、大量編輯資料表中的工作，或使用工具列、實體指派工作或使用者介面中的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派給任何實體的[標籤分類值](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)、指派行銷活動給產品組合，以及[指派或取消指派給實體的競標條件約束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
+  * **[!UICONTROL UI Actions]**：關於在背景執行的作業已完成或失敗的通知。 工作型別包含[大量工作表工作](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->、大量編輯資料表中的工作，或使用工具列、實體指派工作或使用者介面中的其他動作（例如與廣告網路同步、貼上列或重新命名實體）。 實體指派包括指派或取消指派給任何實體的[標籤分類值](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)、指派行銷活動給產品組合，以及[指派或取消指派給實體的競標條件約束](/help/search-social-commerce/new-ui/goals/constraints-manage.md)。
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**：通知已透過[手動帳戶資料上傳](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)上傳帳戶資料檔案，或帳戶資料上傳失敗。<!-- Verify description-->
+    * **[!UICONTROL Direct File Upload]**：通知已透過[手動帳戶資料上傳](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)上傳帳戶資料檔案，或帳戶資料上傳失敗。<!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**：通知已透過[帳戶資料上傳至 [!DNL Amazon] [!DNL S3]儲存貯體](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)上傳帳戶資料檔案，或帳戶資料上傳失敗。<!-- Verify description-->
+    * **[!UICONTROL File Upload to Cloud Storage]**：通知已透過[帳戶資料上傳至 [!DNL Amazon] [!DNL S3]儲存貯體](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)上傳帳戶資料檔案，或帳戶資料上傳失敗。<!-- Verify description-->
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取[廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)，因為認證無效或授權權杖無效或過期。
+    * **[!UICONTROL Account Auth Error]**：通知Search、Social和Commerce無法存取[廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)，因為認證無效或授權權杖無效或過期。
 
-      * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[廣告網路帳戶](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)之認證的通知。
+    * **[!UICONTROL Account Missing]**： Search、Social和Commerce缺少[廣告網路帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)之認證的通知。
 
-      * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與[廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)同步，因為認證無效或授權權杖無效或過期。<!-- Update link once file for new UI available-->
+    * **[!UICONTROL Manager Account Auth Error]**：通知Search、Social和Commerce無法與[廣告網路管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)同步，因為認證無效或授權權杖無效或過期。<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失敗的通知。
+  * **[!UICONTROL Advertising Insights]**： [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)已完成或失敗的通知。
 
-   * **[!UICONTROL Custom Alerts]**：已針對警示範本觸發[警示執行個體](/help/search-social-commerce/new-ui/alerts-manage.md)的通知。
+  * **[!UICONTROL Custom Alerts]**：已針對警示範本觸發[警示執行個體](/help/search-social-commerce/new-ui/alerts-manage.md)的通知。
 
-   * **[!UICONTROL Spreadsheet Feeds]**： [試算表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)完成或失敗的通知。
+  * **[!UICONTROL Spreadsheet Feeds]**： [試算表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)完成或失敗的通知。
 
-   * [!UICONTROL Reports]
+  * [!UICONTROL Reports]
 
-      * **[!UICONTROL Grid Reports]**：通知特定檢視的資料檢視報告（例如[!UICONTROL Camapigns]檢視中的資料表內容）已完成或失敗。
+    * **[!UICONTROL Grid Reports]**：通知特定檢視的資料檢視報告（例如[!UICONTROL Camapigns]檢視中的資料表內容）已完成或失敗。
 
-      * **[!UICONTROL Reports]**： [自訂或排程報告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)已完成或失敗的通知。
+    * **[!UICONTROL Reports]**： [自訂或排程報告](/help/search-social-commerce/new-ui/reports/management/report-manage.md)已完成或失敗的通知。
 
-   * [!UICONTROL Portfolio Management]
+  * [!UICONTROL Portfolio Management]
 
-      * **[!UICONTROL Intraday Optimization]**：當當天最佳化停用時通知。
+    * **[!UICONTROL Intraday Optimization]**：當當天最佳化停用時通知。
 
-      * **[!UICONTROL Simulation Report]**：關於[模擬工作](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)的通知。
+    * **[!UICONTROL Simulation Report]**：關於[模擬工作](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)的通知。
 
-      * [!UICONTROL Objective & Conversion Configuration]
+    * [!UICONTROL Objective & Conversion Configuration]
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**：廣告商層級關於成功和失敗自動指派行銷活動轉換目標的通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**：廣告商層級關於成功和失敗自動指派行銷活動轉換目標的通知。
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**：產品組合層級關於成功和失敗自動指派行銷活動轉換目標的通知。
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**：產品組合層級關於成功和失敗自動指派行銷活動轉換目標的通知。
 
-      * [!UICONTROL Portfolios]
+    * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**：關於[產品組合大量編輯工作（透過Bulksheets）](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)的通知。
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**：關於[產品組合大量編輯工作（透過Bulksheets）](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)的通知。
 
-         * **[!UICONTROL Portfolio Settings]**：有關[投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)變更的通知。
+      * **[!UICONTROL Portfolio Settings]**：有關[投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)變更的通知。
 
 <!--
 
@@ -192,9 +190,9 @@ In Campaign Management:
 
    * 若要訂閱或取消訂閱通知，請移動[!UICONTROL Subscribe]欄中的滑桿：
 
-      * 若要取消訂閱所有通知型別，請將滑桿向左移動（已停用）。
+     * 若要取消訂閱所有通知型別，請將滑桿向左移動（已停用）。
 
-      * 若要訂閱一或多個通知型別，請將滑桿移至右側（已啟用）。
+     * 若要訂閱一或多個通知型別，請將滑桿移至右側（已啟用）。
 
    * （啟用[!UICONTROL Subscribe]時）若要訂閱電子郵件通知，請選取&#x200B;**[!UICONTROL Email]**&#x200B;欄中的核取方塊。
 
@@ -298,21 +296,21 @@ In Campaign Management:
 
 * 從「搜尋」、「社交」和「Commerce」中：
 
-   1. 按一下任何頁面右上角的![通知](/help/search-social-commerce/assets/notifications.png "通知")。
+  1. 按一下任何頁面右上角的![通知](/help/search-social-commerce/assets/notifications.png "通知")。
 
-   1. 按一下&#x200B;**[!UICONTROL View All]**。
+  1. 按一下&#x200B;**[!UICONTROL View All]**。
 
-   1. 按一下右下角的![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式")。
+  1. 按一下右下角的![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式")。
 
-   1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Add]**。
+  1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Add]**。
 
-   1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
 
 * 從[!DNL Edge]主功能表：
 
-   1. 在瀏覽器工具列中按一下&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
+  1. 在瀏覽器工具列中按一下&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
 
-   1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
 
 ### 解除安裝[!DNL Google Chrome]的[!UICONTROL Notification Center]網頁應用程式
 
