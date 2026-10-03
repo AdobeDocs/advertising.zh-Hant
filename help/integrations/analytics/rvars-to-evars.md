@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-如果您使用保留的變數來擷取[AMO ID和EF ID](ids.md)，以進行[!DNL Analytics for Advertising]整合，則只要儘快將您針對AMO ID和EF ID的保留變數複製到[standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)，即可準備資料以進行Adobe Advertising與[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) （Adobe的下一代[!DNL analytics]解決方案）的整合。 如此一來，當您完成工作時，便可立即收集AMO ID與EF ID的歷史資料。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。
+如果您使用保留的變數來擷取[AMO ID和EF ID](ids.md)，以進行[!DNL Analytics for Advertising]整合，則只要儘快將您針對AMO ID和EF ID的保留變數複製到[standard [!DNL eVars]](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/evar)，即可準備資料以進行Adobe Advertising與[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) （Adobe的下一代[!DNL analytics]解決方案）的整合。 如此一來，當您完成工作時，便可立即收集AMO ID與EF ID的歷史資料。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -50,7 +50,7 @@ Customer Journey Analytics可讓您將資料從Adobe Experience Platform同步�
 
 Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics的解決方案。 解決方案發行後，Adobe Advertising會開始傳送您AMO ID和EF ID的資料，以用於Customer Journey Analytics，但發行日期前的歷史資料將不存在。
 
-不過，您可以透過建立簡單的[[!DNL Analytics] 處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)，將您的AMO ID和EF ID立即複製到[!DNL eVars]，更早開始收集您AMO ID和EF ID的資料。 建立處理規則後，AMO ID和EF ID追蹤新事件時就會開始累積資料。 解決方案可用後，歷史資料即可在Customer Journey Analytics中使用。
+不過，您可以透過建立簡單的[[!DNL Analytics] 處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)，將您的AMO ID和EF ID立即複製到[!DNL eVars]，更早開始收集您AMO ID和EF ID的資料。 建立處理規則後，AMO ID和EF ID追蹤新事件時就會開始累積資料。 解決方案可用後，歷史資料即可在Customer Journey Analytics中使用。
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
 此步驟是手動的，且必須針對您預計未來要與Adobe Advertising整合之每個追蹤AMO ID和EF ID <!-- [!DNL rVars] -->的報表套裝完成。
 
-1. [使用下列設定建立處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
+1. [使用下列設定建立處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
 
    * 選取您要將AMO ID和EF ID <!-- [!DNL rVar] -->資料移轉至Experience Platform以供Customer Journey Analytics使用的報表套裝。
 
@@ -95,7 +95,7 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
    例如，如果新eVar `eVar142`對應至`amo.s_kwcid(Context Data)`，則`eVar142`和`AMO ID`的資料應該相同。
 
-如需有關如何套用處理規則的詳細資訊，請參閱[處理規則的運作方式](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
+如需有關如何套用處理規則的詳細資訊，請參閱[處理規則的運作方式](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
 
 >[!MORELIKETHIS]
 >
