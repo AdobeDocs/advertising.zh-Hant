@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. （具有[[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)的廣告商）為[!DNL Analytics]測量設定追蹤：
 
-   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的[AMO ID和EF ID。
+   1. （如果您尚未這樣做）完成實作 [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)的所有[必要條件，以及在您的追蹤URL](/help/integrations/analytics/ids.md)中的AMO ID和EF ID。
 
    1. 在您的網頁上部署[!DNL AdFixus]專屬的程式碼，以符合從桌上型電腦和行動網頁瀏覽器（但不包括行動應用程式）上的[!DNL AdFixus] ID轉換至瀏覽次數。
 

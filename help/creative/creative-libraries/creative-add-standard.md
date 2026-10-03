@@ -147,7 +147,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
 
-   * 針對連線至您DSP帳戶](/help/creative/creative-libraries/aem-assets-configure.md)的[Experience Manager資料庫中已核准的影像，請執行下列動作：
+   * 針對連線至您DSP帳戶[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager資料庫中已核准的影像，請執行下列動作：
 
      1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
 

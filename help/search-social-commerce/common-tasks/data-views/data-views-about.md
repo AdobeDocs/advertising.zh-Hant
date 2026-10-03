@@ -38,7 +38,7 @@ ht-degree: 0%
 
   * 存取、編輯和重設您的預設檢視；以及存取、編輯和刪除您的自訂檢視。 按一下任何檢視名稱即可載入適當的檢視。
 
-* 對任何可用的資料欄套用篩選器，以變更顯示在目前索引標籤上的資料。 您可以從欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)建立篩選器[，或從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按鈕建立[。 對於行銷活動管理檢視，當您開啟子實體時，會適當地維護篩選器。 例如，如果您檢視有\> 100次點按的行銷活動，然後在該行銷活動中開啟廣告群組，則只會顯示有\> 100次點按的廣告群組。
+* 對任何可用的資料欄套用篩選器，以變更顯示在目前索引標籤上的資料。 您可以從欄標題[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)建立篩選器[，或從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)上的按鈕建立。 對於行銷活動管理檢視，當您開啟子實體時，會適當地維護篩選器。 例如，如果您檢視有\> 100次點按的行銷活動，然後在該行銷活動中開啟廣告群組，則只會顯示有\> 100次點按的廣告群組。
 
 * [變更您尚未儲存特定日期範圍的所有預設和自訂檢視中使用的日期範圍](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)。
 

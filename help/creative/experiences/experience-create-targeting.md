@@ -97,7 +97,7 @@ ht-degree: 0%
 
 當體驗上線時，[!DNL Creative]會自動為每個適用的創意大小或視訊持續時間建立一個廣告標籤。 然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
 
-對於視訊廣告體驗，視訊創意內容會由Adobe Advertising DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇將其他DSP](experience-tag-video-transcoding.md)的轉碼[套用至任何視訊廣告體驗標籤。
+對於視訊廣告體驗，視訊創意內容會由Adobe Advertising DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇將其他DSP[&#128279;](experience-tag-video-transcoding.md)的轉碼套用至任何視訊廣告體驗標籤。
 
 >[!MORELIKETHIS]
 >

@@ -163,17 +163,17 @@ ht-degree: 0%
 
 如需每個廣告網路所需欄和選用欄的詳細資訊，請參閱廣告網路專屬大量表單資料格式文章：
 
-* [ [!DNL Baidu] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [ [!DNL Google Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [ [!DNL LY Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [ [!DNL Microsoft Advertising] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [ [!DNL Naver] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [ [!DNL Yahoo DSP] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [ [!DNL Yandex] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [&#x200B; [!DNL Baidu] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [&#x200B; [!DNL Google Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [&#x200B; [!DNL LY Ads] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [&#x200B; [!DNL Microsoft Advertising] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [&#x200B; [!DNL Naver] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [&#x200B; [!DNL Yahoo DSP] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [&#x200B; [!DNL Yandex] 帳戶的必要和選用大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
->* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)

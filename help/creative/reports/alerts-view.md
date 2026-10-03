@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在Advertising DSP中，有關從 [!DNL Creative] 體驗](/help/dsp/campaign-management/reports/campaign-alerts.md)建立的版位的[警示可在行銷活動層級使用。
+>在Advertising DSP中，有關從 [!DNL Creative] 體驗[&#128279;](/help/dsp/campaign-management/reports/campaign-alerts.md)建立的版位的警示可在行銷活動層級使用。
 
 ## 在[!UICONTROL Pulse Panel]中檢視警示
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 在略過警示以復原動作後，您還有幾秒鐘的時間。 選項訊息關閉後，您就無法取消動作。
 
-1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ](/help/creative/assets/alert-un-ignore.png " [取消忽略] ")。![
+1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![&#128279;](/help/creative/assets/alert-un-ignore.png " [取消忽略] ")。
 
 ## 關閉[!UICONTROL Pulse Panel]
 

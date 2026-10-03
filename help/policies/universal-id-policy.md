@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### UID2禁止的國家/地區
 
-您透過服務選擇使用UID2 Universal ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A](#prohibited-countries-uid2)所列[UID2 Provisibled Country之居民有關。
+您透過服務選擇使用UID2 Universal ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A[&#128279;](#prohibited-countries-uid2)所列UID2 Provisibled Country之居民有關。
 
 ## 無區別
 

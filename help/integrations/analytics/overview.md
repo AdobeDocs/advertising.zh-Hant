@@ -71,13 +71,13 @@ ht-degree: 0%
 
 若要使用[!DNL Analytics]作為您的付費媒體報告工具，您的組織需要Adobe CX Enterprise （原稱Adobe Experience Cloud）登入才能存取Analysis Workspace。 您的Adobe Advertising團隊將協助您將您的Adobe Advertising資料對應至Analysis Workspace中的個別報表套裝。 您可以將Adobe Advertising資料傳送至任何報表套裝，但您應留意已對應至Adobe Advertising的報表套裝以及尚未對應的報表套裝。 依報表套裝而定，這可能會變更報告的資料。
 
- [!DNL Analytics]](ids.md)內的[Adobe Advertising ID與其他[!DNL eVars]一樣運作，具有自訂、永久的有效期。 在Adobe Advertising實作期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
+ [!DNL Analytics]&#x200B;[&#128279;](ids.md)內的Adobe Advertising ID與其他[!DNL eVars]一樣運作，具有自訂、永久的有效期。 在Adobe Advertising實作期間，歸因回顧期間預設為60天。 若要變更此設定，請與您的Adobe帳戶團隊合作。
 
 Adobe Advertising維度會附加尾碼「(AMO ID)」(例如「廣告型別(AMO ID)」)。 如需可用維度的清單，請參閱&quot;[Analysis Workspace中的Adobe Advertising量度](advertising-metrics-in-analytics.md)&quot;。
 
 >[!NOTE]
 >
-> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
+> 在[!DNL Analytics]中檢視Adobe Advertising資料（或任何資料集）時，請注意，量度和報表是根據[!DNL Analytics]中設定的規則。 資料可能不同於您在其他報告系統中看到的資料，例如廣告伺服器報告、[!DNL DSP]報告或搜尋引擎報告。 若要瞭解[!DNL Analytics]中的資料差異，您必須知道[!DNL eVar]資料何時過期、什麼定義了造訪、什麼被視為上次接觸歸因與總持續歸因，以及其他因素。 如需詳細資訊，請參閱[&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異。
 
 ## 使用Analytics來推動Adobe Advertising行銷活動和產品組合
 
@@ -158,7 +158,7 @@ Adobe Advertising可使用[!DNL Analytics]與CX Enterprise之間的原生CX Ente
 
 ### 建立Adobe Advertising控制面板
 
-若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。[
+若要瞭解如何根據Analysis Workspace中的目標追蹤Adobe Advertising資料，請參閱影片「使用Adobe Analytics建立Adobe Advertising儀表板[&#128279;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)」。
 
 ### 使用Adobe Advertising ID進行網站專案分析
 
@@ -174,6 +174,6 @@ Adobe Advertising可使用[!DNL Analytics]與CX Enterprise之間的原生CX Ente
 >* [實作的必要條件和關鍵資訊 [!DNL Analytics for Advertising]](prerequisites.md)
 >* Analytics使用的[Adobe Advertising ID](ids.md)
 >* 適用於Advertising的Analytics的[JavaScript程式碼](/help/integrations/analytics/javascript.md)
->* [ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
+>* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
 >* Analysis Workspace中的[Adobe Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising中的[[!DNL Analytics] 資料](/help/integrations/analytics/analytics-data-in-advertising.md)
