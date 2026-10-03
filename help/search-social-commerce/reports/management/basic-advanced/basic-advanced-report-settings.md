@@ -3,23 +3,34 @@ title: 基本和進階報表設定
 description: 瞭解基本和進階報告的必要和選用設定。
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8
+TQID: 'https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3822
+source-wordcount: '3838'
 ht-degree: 0%
-
 ---
-
 # 基本和進階報表設定
 
 | 標籤 | 引數 | 說明 |
@@ -52,8 +63,8 @@ ht-degree: 0%
 |  | [!UICONTROL Conversion Attribution] | （僅適用於顯示行銷活動；除[!UICONTROL Keyword Report]、[!UICONTROL Product Group Report]和[!UICONTROL Campaign Hourly Report]以外的所有報告）發生先前事件時要報告的轉換型別：<ul><li><i>[!UICONTROL Clicks]：</i>僅報告由點按產生的轉換。 每個轉換名稱都會附加&quot;[!UICONTROL (CT)]&quot;。</li><li><i>[!UICONTROL View-throughs Only]：</i>僅報告因閱覽而產生的轉換。 每個轉換名稱都會附加&quot;[!UICONTROL (VT)]&quot;。 選取此選項時，您需選擇要指定給每個轉換的值。 在檢視估價方式方塊中，選取一個選項：<ul><li><i>[!UICONTROL Raw]：</i>報告轉換而不套用加權。</li><li><i>[!UICONTROL Weighted]</i> （預設值）：根據為廣告商指定的瀏覽權數加權每個轉換。</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]：</i>報告所有轉換。 依預設，每個轉換名稱都會附加&quot;[!UICONTROL (CT+VT)]&quot;。 此轉換歸因型別包含兩個額外的選項：<ul><li>[!UICONTROL Discrete columns for click & view-through conversions]：針對您納入的每個轉換型別包含三個個別的欄：一個欄適用於1)點進轉換，附加至&quot;[!UICONTROL (CT)]&quot;、2)檢視轉換，附加至&quot;[!UICONTROL (VT)]&quot;、3)以及所有轉換，附加至&quot;[!UICONTROL (CT+VT)]&quot;。 選擇此選項時，請從[!UICONTROL Filter & sort using]清單中選取要用於篩選和排序的三個資料欄之一： <i>[!UICONTROL click]</i> （預設值）、<i>[!UICONTROL view-through]</i>或<i>[!UICONTROL click + view-through]</i>。<br><br><b>注意：</b>搜尋促銷活動的轉換會顯示在點進的資料欄中，而非檢視轉換的資料欄。</li><li>[!UICONTROL View-through valuation method]：給每次從檢視結果中產生的轉換的值為何：</li><ul><i>[!UICONTROL Weighted]</i> （預設值）：根據為廣告商指定的瀏覽權數加權每個轉換。</li><li><i>[!UICONTROL Raw]：</i>報告轉換而不套用加權。</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | 已過時 |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | （選擇性；只有選取&#39;&#39;[!UICONTROL Save as template]&#39;&#39;選項時才能使用）何時執行報告： <i>[!UICONTROL Now]</i> （執行報告一次；預設值）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [周中的某天]</i>，或<i>[!UICONTROL Every Month] [月中的某天]</i>。 針對<i>[!UICONTROL Now]</i>以外的所有時段，選取廣告商時區中的小時，從09:00 AM開始。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的已註冊Search、Social和Commerce使用者的電子郵件地址。 依預設，會輸入您使用者帳戶的地址。 若要指定多個地址，請用逗號、空格或新行加以區隔。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
-|  | [!UICONTROL Email Notification] | <b>注意：</b>只有在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的已註冊Search、Social和Commerce使用者的電子郵件地址。 依預設，會輸入您使用者帳戶的地址。 若要指定多個地址，請用逗號、空格或新行加以區隔。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
+|  | [!UICONTROL Email Notification] | <b>注意：</b>只有在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
 
 >[!MORELIKETHIS]
 >

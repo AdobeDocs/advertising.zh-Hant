@@ -4,24 +4,31 @@ description: 瞭解符合您業務目標的目標。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # （新UI）關於目標
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 * 在DSP中，目標會顯示為連結至「搜尋」、「社交」和「Commerce」帳戶的DSP帳戶的自訂目標。 每個使用最佳化目標「最高廣告投資報酬率(ROAS)」或「最低每次收購成本(CPA)」的套件都必須包含可協助達成整體最佳化目標的自訂目標。
 
-目標包含要追蹤和最佳化的轉換量度，以及這些量度的相對權重。 例如，假設一個線上雜誌有兩個線上訂閱層級和一個列印訂閱層級，並且目標「利潤最大化」有三個量度：價值20美元的「基本線上訂閱」、價值40美元的「進階線上訂閱」和價值30美元的「列印訂閱」。 如果雜誌想要根據訂閱的一次性貨幣值給予權重，則量度的相對權重將分別為1、2和1.5。
+目標包含要追蹤和最佳化的轉換量度，以及這些量度的相對權重。 例如，假設一份線上雜誌有兩個線上訂閱層級和一個印刷訂閱層級，且目標「利潤最大化」有三個量度：價值20 USD的「基本線上訂閱」、價值40 USD的「進階線上訂閱」和價值30 USD的「印刷訂閱」。 如果雜誌想要根據訂閱的一次性貨幣值給予權重，則量度的相對權重將分別為1、2和1.5。
 
 對於目標中的每個量度，您可以：
 
@@ -64,11 +71,11 @@ ht-degree: 0%
 
 * [!DNL Google]個量度：<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 已從同步的[!DNL Google Ads]帳戶追蹤[[!DNL Google Ads]個轉換](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
+  * 已從同步的[!DNL Google Ads]帳戶追蹤[[!DNL Google Ads]個轉換](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)。
 
-   * （具有[[!DNL Google Analytics] 整合](/help/search-social-commerce/admin/data-sources/data-source-about.md)的廣告商）頁面檢視、工作階段、跳出率（以跳出數/工作階段數計算）和工作階段持續時間。
+  * （具有[[!DNL Google Analytics] 整合](/help/search-social-commerce/admin/data-sources/data-source-about.md)的廣告商）頁面檢視、工作階段、跳出率（以跳出數/工作階段數計算）和工作階段持續時間。
 
-     在搜尋、社交和Commerce中，這些量度會自動納入投資組合競標演演算法中。
+    在搜尋、社交和Commerce中，這些量度會自動納入投資組合競標演演算法中。
 
 ## 上傳目標至廣告網路的選項
 

@@ -2,13 +2,19 @@
 title: 關於協助報表
 description: 瞭解可深入分析轉換路徑的報告。
 feature: Search Reports, Search Assist Reports
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # 關於協助報表
 
 *廣告商具有搜尋、社交及Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*

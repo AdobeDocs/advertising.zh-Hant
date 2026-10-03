@@ -1,15 +1,24 @@
 ---
 title: 使用AI輔助聊天搜尋產品檔案
-description: 瞭解如何使用AI輔助聊天來搜尋Adobe Advertising DSP和 [!DNL Creative] 檔案。 透過引文和建議的後續提示獲得答案。
+description: 瞭解如何使用AI輔助聊天來搜尋Adobe Advertising DSP和[!DNL Creative]檔案。 透過引文和建議的後續提示獲得答案。
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # 使用AI輔助聊天介面搜尋產品檔案
 
 *僅支援英文*
@@ -72,13 +81,13 @@ ht-degree: 0%
 
 * 在[!UICONTROL Documentation Sources]清單旁：
 
-   * 如需有用的回應，請按一下![向上縮圖](/help/dsp/assets/thumbs-up.png "向上縮圖")。
+  * 如需有用的回應，請按一下![向上縮圖](/help/dsp/assets/thumbs-up.png "向上縮圖")。
 
-   * 如需無用的回應，請按一下![向下縮圖](/help/dsp/assets/thumbs-down.png "向下縮圖")。
+  * 如需無用的回應，請按一下![向下縮圖](/help/dsp/assets/thumbs-down.png "向下縮圖")。
 
 ## 寫入提示的基本知識 {#writing-prompts}
 
-* **清楚明確。**&#x200B;使用完整問題（「如何訂閱隨選詳細目錄？」）、任務片語（「訂閱隨選詳細目錄」）或主題片語（「隨選詳細目錄」）。
+* **清楚明確。** 使用完整問題（「如何訂閱隨選詳細目錄？」）、任務片語（「訂閱隨選詳細目錄」）或主題片語（「隨選詳細目錄」）。
 
 * 儘可能與產品功能（例如「行銷活動」或「交易」）的UI辭彙&#x200B;**相符**。
 

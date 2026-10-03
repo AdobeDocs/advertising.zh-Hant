@@ -3,18 +3,21 @@ title: 關於使用大量表單管理行銷活動資料
 description: 瞭解廣告網路、大量表單工作流程和錯誤處理可用的大量表單功能。
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
+TQID: 'https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '775'
 ht-degree: 0%
-
 ---
-
 # 關於使用大量表單管理行銷活動資料
 
 大量表單是包含特定格式之行銷活動資料的檔案，可用來快速建立或修改行銷活動和廣告群組結構資料及文字廣告。 您可以針對一或多個帳戶、特定行銷活動和廣告群組，或甚至特定文字廣告、版位和產品群組，產生（下載）大量表單。 您可以使用大量表單來管理大型資料集或進行小型變更。 每個廣告網路都需要不同的資訊欄。

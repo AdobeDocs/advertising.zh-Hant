@@ -3,26 +3,37 @@ title: 設定資料收集、資料傳輸及報告
 description: 瞭解如何設定資料收集、資料傳輸和報告。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
+TQID: 'https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2103
+source-wordcount: '2103'
 ht-degree: 1%
-
 ---
-
 # 設定資料收集、資料傳輸及報告
 
 *使用Advertising DSP和[!DNL Advertising Search, Social, & Commerce]*&#x200B;的廣告商
@@ -107,29 +118,29 @@ ht-degree: 1%
 
    * 建立[自訂Web SDK組建](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build)：
 
-      * 在[!UICONTROL Custom build components]區段中，啟用&#x200B;**Advertising**&#x200B;元件。
+     * 在[!UICONTROL Custom build components]區段中，啟用&#x200B;**Advertising**&#x200B;元件。
 
-        此元件包含標籤中Adobe Advertising所需的所有JavaScript程式碼，Advertising DSP和Advertising Search、Social及Commerce客戶都需要此元件。 元件也會在標籤規則（選填）中新增「Advertising」設定，以定義如何將廣告資料用於歸因測量。
+       此元件包含標籤中Adobe Advertising所需的所有JavaScript程式碼，Advertising DSP和Advertising Search、Social及Commerce客戶都需要此元件。 元件也會在標籤規則（選填）中新增「Advertising」設定，以定義如何將廣告資料用於歸因測量。
 
-        您可以視需要選擇啟用其他元件。
+       您可以視需要選擇啟用其他元件。
 
-      * 在[!UICONTROL SDK Instances]區段中：
+     * 在[!UICONTROL SDK Instances]區段中：
 
-         * 在[!UICONTROL Datastreams]設定中，選取要用於各個Web環境（生產、測試、開發）的資料流。
+       * 在[!UICONTROL Datastreams]設定中，選取要用於各個Web環境（生產、測試、開發）的資料流。
 
-         * （僅限具有Adobe Advertising DSP的組織）在[[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，啟用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允許檢視追蹤，並指定要啟用檢視追蹤的廣告商。 您可以選擇新增組織的ID5合作夥伴ID及/或您組織的[!DNL RampIDs]的[!DNL LiveRamp] [!DNL LaunchPad] JavaScript程式碼(ats.js)路徑，以從通用ID （從您的[第一方對象來源](/help/dsp/audiences/sources/source-about.md)轉譯）收集ID。
+       * （僅限具有Adobe Advertising DSP的組織）在[[!UICONTROL Adobe Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)中，啟用&#x200B;**[!UICONTROL Adobe Advertising DSP]**&#x200B;以允許檢視追蹤，並指定要啟用檢視追蹤的廣告商。 您可以選擇新增組織的ID5合作夥伴ID及/或您組織的[!DNL RampIDs]的[!DNL LiveRamp] [!DNL LaunchPad] JavaScript程式碼(ats.js)路徑，以從通用ID （從您的[第一方對象來源](/help/dsp/audiences/sources/source-about.md)轉譯）收集ID。
 
-           如果您的廣告商未列出，請輸入每個廣告商的廣告商ID。 如有需要，請向您的Adobe帳戶團隊索取ID。
+         如果您的廣告商未列出，請輸入每個廣告商的廣告商ID。 如有需要，請向您的Adobe帳戶團隊索取ID。
 
-           如果您輸入的ID不正確，系統會通知您的Adobe帳戶團隊。
+         如果您輸入的ID不正確，系統會通知您的Adobe帳戶團隊。
 
-           [!DNL RampID] JavaScript路徑的範例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+         [!DNL RampID] JavaScript路徑的範例： `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
-         * 儲存組建。
+       * 儲存組建。
 
    * （選用） [視需要建立規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/rules)，以決定Web SDK何時應將資料傳送至Edge Network。
 
-      * 對於`[sendEvent](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`動作，請使用[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)來定義如何將廣告資料用於歸因測量。 當規則包含一系列多個動作時，此設定很有幫助，而且僅當您為自訂組建元件選取&quot;[!UICONTROL Advertising]&quot;元件時可用。
+     * 對於`[sendEvent](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`動作，請使用[[!UICONTROL Advertising]設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)來定義如何將廣告資料用於歸因測量。 當規則包含一系列多個動作時，此設定很有幫助，而且僅當您為自訂組建元件選取&quot;[!UICONTROL Advertising]&quot;元件時可用。
 
    * 視需要建立[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)，以將網站上的變數對應到您先前建立的XDM結構描述結構。
 
@@ -173,33 +184,33 @@ ht-degree: 1%
 
    * 設定資料集設定：
 
-      * 針對[!UICONTROL Event Dataset]設定：
+     * 針對[!UICONTROL Event Dataset]設定：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]：**&#x200B;如果您想要為Customer Journey Analytics和Adobe Real-Time CDP使用一個資料集和結構描述，請啟用此設定並在`IdentityMap`欄位群組中定義主要身分。 也支援`Required Field`。
+       * **[!UICONTROL Use primary identity namespace]：**&#x200B;如果您想要為Customer Journey Analytics和Adobe Real-Time CDP使用一個資料集和結構描述，請啟用此設定並在`IdentityMap`欄位群組中定義主要身分。 也支援`Required Field`。
 
-         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
+       * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
+       * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
-      * 針對分類([!UICONTROL Lookup Dataset])設定，將維度資料集對應至事件資料集：
+     * 針對分類([!UICONTROL Lookup Dataset])設定，將維度資料集對應至事件資料集：
 
-         * **[!UICONTROL Key]** （要當作維度資料集索引鍵使用的欄位）： `Tracking Code` （與結構描述中的`trackingCode`欄位相同）。
+       * **[!UICONTROL Key]** （要當作維度資料集索引鍵使用的欄位）： `Tracking Code` （與結構描述中的`trackingCode`欄位相同）。
 
-         * **[!UICONTROL Matching key]** （做為事件資料集比對索引鍵的欄位）： `Tracking Code (Event datasets)`。
+       * **[!UICONTROL Matching key]** （做為事件資料集比對索引鍵的欄位）： `Tracking Code (Event datasets)`。
 
-         * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
+       * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
-         * **[!UICONTROL Backfill all existing data]：**&#x200B;啟用設定
+       * **[!UICONTROL Backfill all existing data]：**&#x200B;啟用設定
 
-      * 針對[!UICONTROL Metrics Dataset]設定：
+     * 針對[!UICONTROL Metrics Dataset]設定：
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Timestamp]：**&#x200B;確認值
+       * **[!UICONTROL Timestamp]：**&#x200B;確認值
 
-         * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
+       * **[!UICONTROL Import all new data]：**&#x200B;啟用設定
 
 2. 在三小時內，確認資料可在Customer Journey Analytics中使用。
 
@@ -219,11 +230,11 @@ ht-degree: 1%
 
    * 在[!UICONTROL Components]索引標籤上：
 
-      * 新增查詢資料集（包含維度/分類資料）、事件資料集（包含事件層級資料）和摘要資料集（包含其他量度，例如點按次數）。
+     * 新增查詢資料集（包含維度/分類資料）、事件資料集（包含事件層級資料）和摘要資料集（包含其他量度，例如點按次數）。
 
-      * 從事件資料集和查詢資料集中選取要納入資料檢視的量度。
+     * 從事件資料集和查詢資料集中選取要納入資料檢視的量度。
 
-      * 搜尋「[!UICONTROL Tracking Code]」（屬於結構描述路徑為`_experience.adcloud.conversionDetails.trackingCode`的事件資料集的一部分）。 將&#x200B;**[!UICONTROL Persistence]**&#x200B;設為&#x200B;*[!UICONTROL Most Recent]*。
+     * 搜尋「[!UICONTROL Tracking Code]」（屬於結構描述路徑為`_experience.adcloud.conversionDetails.trackingCode`的事件資料集的一部分）。 將&#x200B;**[!UICONTROL Persistence]**&#x200B;設為&#x200B;*[!UICONTROL Most Recent]*。
 
 <!--
 
@@ -286,7 +297,8 @@ Seems to not be necessary now:
 
 >[!TIP]
 >
->摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。 相較於標準網路事件，這些新增專案微不足道。 不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。使用人員ID排除資料的範例&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
+>摘要事件通常會為報表新增少量的額外資料，例如一些額外事件、每天一個額外的工作階段或每個報表一個額外的人員。 相較於標準網路事件，這些新增專案微不足道。 不過，您可以排除虛擬人員ID `00000000-0000-0000-0000-000000000000`的資料，以篩選出此額外的摘要事件資料。
+>![使用人員ID排除資料的範例](/help/integrations/assets/cja-report-with-person-id.png "使用人員ID排除資料的範例")
 
 ![您的資料集在Customer Journey Analytics中會如何顯示](/help/integrations/assets/cja-report-example.png "您的資料集在Customer Journey Analytics中會如何顯示")
 

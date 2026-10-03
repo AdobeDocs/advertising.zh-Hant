@@ -3,24 +3,29 @@ title: 可用的報表欄
 description: 請參閱自訂報表中可用欄的說明。
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-TQID: https://experienceleague.adobe.com/xFQ-Qf74tmXr4qCwTD7MXnsvypjepRuP1MJP3ytCKv0
+TQID: 'https://experienceleague.adobe.com/xFQ-Qf74tmXr4qCwTD7MXnsvypjepRuP1MJP3ytCKv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2947
+source-wordcount: '2989'
 ht-degree: 0%
-
 ---
-
 # 可用的報表欄
 
 <!--
@@ -144,8 +149,8 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | 將裝置圖表用於以人物為基礎的跨裝置鎖定目標所獲得的曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | 僅依報告的維度觸及家庭的頻率，包括維度最多三個值的交集。 例如，如果您使用[!UICONTROL Placement]維度，則可檢視個別版位所達到的頻率、任意兩個版位組合所達到的頻率，以及任意三個版位組合所達到的頻率。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度<code>[觸及的]IP位址 — 由任何其他維度觸及的[IP位址]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為<code>[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的<code>&lbrack;IP位址 — 由任何其他維度觸及的[IP位址]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為<code>[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | 僅報告維度提供的可測量曝光總數，包括最多三個維度值的交集。 例如，如果您使用[!UICONTROL Placement]維度，則可檢視個別版位所達到的可測量曝光數、任意兩個版位組合所達到的可測量曝光數，以及任意三個版位組合所達到的可測量曝光數。 |
@@ -155,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 總支出除以已達的遞增家庭。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 總支出除以達到的不重複家庭。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度[觸及的]IP位址 — 任何其他維度[觸及的]IP位址。 |
+| [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的[IP位址 — 任何其他維度]觸及的&lbrack;IP位址。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
@@ -163,21 +168,21 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 到達的不重複住戶總數（不同的IP位址）。 |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | 鎖定的ID型別。 |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在CPM上限出價的總出價百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 每次收購的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 每次廣告點按的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 每個已完成視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 每個廣告參與的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 每次廣告曝光的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 每1000次曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 每個視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 每次收購的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 每次廣告點按的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 每個已完成視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 每個廣告參與的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 每次廣告曝光的平均總成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 每1000次曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 每個視訊檢視的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>，其中[!UICONTROL Custom Goal]是附加到自訂目標之所有轉換的目標加權。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 每1000個可檢視曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 每次廣告點按的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 每個已完成視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 每次廣告曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | 每個視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>。 |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 每1000個可檢視曝光的平均成本，計算方式為<code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 每次廣告點按的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | 每個已完成視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | 每次廣告曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | 每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | 每個視訊檢視的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSP為位置競標的不同使用者人數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Agency Fee] | 代理服務費。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Billable Creative Spend] | Adobe Creative提供的廣告總支出。 |
@@ -189,9 +194,9 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | 預估的媒體稅金，包含套用至DSP中媒體成本再計費和技術費用服務的稅金。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | 透過DSP計費的其他服務費用（包括協力廠商驗證合作夥伴、主題鎖定目標等）估計稅金。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Gross Spend] | 總支出。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （啟用利潤管理時）利潤百分比，由<code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]計算</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Margin %] | （啟用利潤管理時）利潤百分比，由<code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]計算</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | 不收取任何技術費用的非收費與收費媒體成本總和。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | 每1000個可檢視曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non Billable Creative Spend] | 未透過Adobe Creative計費的廣告總支出。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Spend] | 未透過DSP計費的對象區段資料費用總淨成本。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Spend] | 非計費媒體的總淨成本，包括未透過DSP計費的技術費用。 |
@@ -200,13 +205,13 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Billable Spend] | [!UICONTROL Billable Spend (Media)]、[!UICONTROL Billable Spend (Data)]和[!UICONTROL Billable Spend (Other)]的總和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Creative CPM] | Adobe Creative所提供廣告的每1000次曝光的平均媒體淨成本。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Creative Spend] | 從Adobe Creative提供的廣告的總可記帳和不可記帳支出。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 每1000次曝光的平均淨資料成本，計算方式為<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | 每1000次曝光的平均淨資料成本，計算方式為<code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Data Spend] | 對象區段資料費用的總淨成本。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 每1000次曝光的平均淨媒體成本，計算方式為<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | 每1000次曝光的平均淨媒體成本，計算方式為<code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Media Spend] | 包括技術費用在內的媒體淨成本總計。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)]、[!UICONTROL Net Spend (Data)]和[!UICONTROL Net Spend (Other)]的總和。 |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)]、[!UICONTROL Non-billable Spend (Data)]和[!UICONTROL Non-billable Spend (Other)]的總和。 |
-| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 其他費用的每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 其他費用的每1000次曝光的平均淨成本，計算方式為<code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | 其他服務費用（協力廠商驗證合作夥伴、廣告服務等）的總淨成本。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | 點按總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | 點按次數百分比除以曝光數。 |
@@ -267,14 +272,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | （自訂Creative報表）視訊廣告檢視總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | 平均播放器寬度和高度。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
-| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 提供可測量可檢視度的曝光百分比，計算為<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 提供可測量可檢視度的曝光百分比，計算為<code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | 由於iFrame不相容，因此無法測量可檢視度的曝光百分比。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | 由於廣告單位上不支援的可檢視度追蹤而無法測量的可檢視度曝光次數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | 由於其他原因而無法測量可檢視度的曝光百分比。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | 無法測量可檢視度的廣告曝光次數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | 無法測量可檢視度的廣告曝光百分比。 |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | 由於此廣告單位不支援的可檢視度追蹤而無法測量的可檢視度曝光百分比。 |
-| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 所有可測量曝光的可檢視曝光百分比，計算為<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>。 |
+| [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 所有可測量曝光的可檢視曝光百分比，計算為<code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 視為可檢視的廣告曝光次數。 |
 | [!UICONTROL Conversion Metrics] | [在報告設定中依廣告商分組] | [廣告商特定轉換] | 指定的廣告商特定轉換量度或Adobe Analytics事件的總計。 |
 | [!UICONTROL Custom Goals] | [在報告設定中依廣告商分組] | [廣告商特定自訂目標] | 包含在指定[自訂目標](/help/dsp/optimization/custom-goal.md)中的所有轉換的加權總和。 |

@@ -3,22 +3,29 @@ title: 手動建立適用創意大小的廣告標籤
 description: 瞭解如何針對特定創意大小建立廣告標籤。
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-TQID: https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE
+TQID: 'https://experienceleague.adobe.com/xeWVCvDYgNAoZlNeEmHIAuajuMy5QZL73oFJO4gFfFE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '277'
 ht-degree: 0%
-
 ---
-
 # （沒有鎖定目標的體驗）手動建立適用創意大小的廣告標籤
 
 *只有沒有決策樹定位的體驗*
@@ -49,7 +56,7 @@ ht-degree: 0%
 
    您可以展開標籤列來檢視包含的創意。
 
-   對於視訊廣告體驗，視訊創意內容會使用Adobe Advertising DSP編碼自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇為其他DSP[套用](experience-tag-video-transcoding.md)轉碼。
+   對於視訊廣告體驗，視訊創意內容會使用Adobe Advertising DSP編碼自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇為其他DSP[&#128279;](experience-tag-video-transcoding.md)套用轉碼。
 
 >[!MORELIKETHIS]
 >

@@ -2,13 +2,19 @@
 title: 協助報表設定
 description: 瞭解協助報表的必要和選用設定。
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 0%
-
 ---
-
 # 協助報表設定
 
 *廣告商具有搜尋、社交及Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
@@ -31,8 +37,8 @@ ht-degree: 0%
 |  | [!UICONTROL Indicate event  type after entity name] | （僅限[!UICONTROL Campaign Assist Report]）在行銷活動名稱后的方括弧中包含事件型別。 範例： `<campaign name> [click]`或`<campaign name> [Google Adwords] [Account1] [impression]` |
 | [!UICONTROL Filters] | [!UICONTROL Report Filters] | （僅限[!UICONTROL Campaign Assist Report]）只有在量度的值符合指定准則時，才會傳回列。 量度不需要作為欄包含在報表中。 可用量度的清單會依報告型別而異，但可能包括廣告商的自訂衍生量度、每個搜尋引擎和產品組合元件（例如[!UICONTROL Campaign ID]和[!UICONTROL Campaign Status]）的ID和屬性名稱、廣告商的轉換量度，以及廣告網路中與點選相關的量度。 可用的運運算元包括<i>[!UICONTROL contains]</i>、<i>[!UICONTROL starts with]</i>、<i>[!UICONTROL equals]</i>、<i>[!UICONTROL is greater than]</i>、<i>[!UICONTROL is greater than or equal to]</i>、<i>[!UICONTROL is less than]</i>、<i>[!UICONTROL is less than or equal to]</i>或<i>[!UICONTROL isn't equal to]</i>。<br><br>若要套用一或多個篩選器，請執行下列動作：<ul><li>選取量度和運運算元，然後輸入適用的值。 例如，若要只傳回點選超過100次的關鍵字，請選取[!UICONTROL Clicks]，再選取[!UICONTROL >]，然後在輸入欄位中輸入100。</li><li>（若要套用其他篩選器）對於每個其他篩選器，按一下&#x200B;**[!UICONTROL +Add Filter]**，選取&#x200B;**[!UICONTROL AND]**&#x200B;或&#x200B;**[!UICONTROL OR]**，選取量度和運運算元，然後輸入適用的值。</li></ul> |
 | [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （只有在選取&#39;&#39;[!UICONTROL Save as template]&#39;&#39;選項時才能編輯；否則設為&#39;&#39;[!UICONTROL Now]&#39;&#39;）何時執行報告： <i>[!UICONTROL Now]</i> （執行報告一次；預設）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [週日]</i>，或<i>[!UICONTROL Every Month] [月]</i>。 針對<i>[!UICONTROL Now]</i>以外的所有時段，選取廣告商時區中的小時，從09:00 AM開始。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Reports]的電子郵件通知在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的Registered Search、Social和Commerce使用者。 依預設，會選取使用者帳戶的名稱。 可選擇新增或移除有權存取廣告商資料的使用者。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
-|  | [!UICONTROL Email Notification Format] | <b>注意：</b>只有在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Reports]的電子郵件通知在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的Registered Search、Social和Commerce使用者。 依預設，會選取使用者帳戶的名稱。 可選擇新增或移除有權存取廣告商資料的使用者。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
+|  | [!UICONTROL Email Notification Format] | <b>注意：</b>只有在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
 
 >[!MORELIKETHIS]
 >

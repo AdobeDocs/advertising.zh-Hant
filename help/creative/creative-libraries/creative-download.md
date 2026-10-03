@@ -3,18 +3,24 @@ title: 下載創意
 description: 瞭解如何將創意內容下載為ZIP檔案。
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-TQID: https://experienceleague.adobe.com/fimemKnshKpVtpN18VxDiDtPtCwUSkZnPrdG9zVQOmY
+TQID: 'https://experienceleague.adobe.com/fimemKnshKpVtpN18VxDiDtPtCwUSkZnPrdG9zVQOmY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # 下載創意
 
 *僅限標準創意*
@@ -29,9 +35,9 @@ ht-degree: 0%
 
    * 若要下載單一創意內容：
 
-      * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Download]**。
+     * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Download]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Download]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Download]**。
 
    * 若要下載一或多個創意內容，請選取您要下載之每個創意內容的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Download]**。
 

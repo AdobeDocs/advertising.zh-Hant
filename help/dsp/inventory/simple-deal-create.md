@@ -3,22 +3,26 @@ title: 建立[!UICONTROL Simple Ad Serving]交易
 description: 瞭解如何為[!UICONTROL Simple Ad Serving]交易建立追蹤畫素。
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # 建立[!UICONTROL Simple Ad Serving]交易
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
@@ -44,7 +48,7 @@ ht-degree: 0%
 
    1. 在摘要詳細資訊中，編輯摘要詳細資訊，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-      DSP會自動針對廣告產生名為「SAS位置 — &lt;*交易名稱*>」的位置。 在位置中，交易會自動在[!UICONTROL Inventory Targets]區段中定位。 所有其他鎖定目標選項均不適用。
+      DSP會自動為廣告產生名為「SAS位置 — &lt;*交易名稱*>」的位置。 在位置中，交易會自動在[!UICONTROL Inventory Targets]區段中定位。 所有其他鎖定目標選項均不適用。
 
 1. 以下列其中一種方式將事件追蹤畫素傳送給發佈者，以進行實作：
 
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      完成上述步驟後，DSP會產生電子郵件訊息，您可傳送給發佈者。 訊息包含交易詳細資料、從中擷取交易標籤的連結，以及連結的授權代碼。
 
-      1. 檢閱交易詳細資料，然後執行下列任一項作業：
+     1. 檢閱交易詳細資料，然後執行下列任一項作業：
 
-         * 若要將資訊貼到您裝置上電子郵件應用程式的電子郵件訊息中，請按一下&#x200B;**[!UICONTROL Email & Done]**&#x200B;並選取電子郵件應用程式。 [!UICONTROL CC:]欄位已預先填入[!DNL Adobe]支援地址。 然後，您可以將訊息傳送給發行者的適當連絡人。
+        * 若要將資訊貼到您裝置上電子郵件應用程式的電子郵件訊息中，請按一下&#x200B;**[!UICONTROL Email & Done]**&#x200B;並選取電子郵件應用程式。 [!UICONTROL CC:]欄位已預先填入[!DNL Adobe]支援地址。 然後，您可以將訊息傳送給發行者的適當連絡人。
 
-         * 若要將資訊複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy Email]。**&#x200B;您可以手動將內容貼入電子郵件訊息，並傳送給發行者的適當連絡人。 包含副本（副本：）至`publisher-support-global@adobe.com`。 當您完成複製郵件時，請按一下&#x200B;**[!UICONTROL Email & Done]**。
+        * 若要將資訊複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy Email].** 然後，您可以手動將內容貼入電子郵件訊息，並傳送給發佈者的適當連絡人。 包含副本（副本：）至`publisher-support-global@adobe.com`。 當您完成複製郵件時，請按一下&#x200B;**[!UICONTROL Email & Done]**。
 
-      1. （如有必要）請洽詢發佈者，檢視標籤是否包含適當的巨集，讓標籤可與發佈者的廣告伺服器搭配使用。
+     1. （如有必要）請洽詢發佈者，檢視標籤是否包含適當的巨集，讓標籤可與發佈者的廣告伺服器搭配使用。
 
    * （選用）手動將事件追蹤畫素傳送給發佈者：
 
-      1. 在[!UICONTROL Deals]檢視中的交易列中，按一下![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**。
+     1. 在[!UICONTROL Deals]檢視中的交易列中，按一下![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**。
 
-         事件畫素包括[!UICONTROL Clickthrough]畫素和[!UICONTROL Impression]畫素。 視訊和音訊廣告也包含按四分位數結束的事件畫素（從[!UICONTROL 25% Complete]到[!UICONTROL 100% Complete]）。
+        事件畫素包括[!UICONTROL Clickthrough]畫素和[!UICONTROL Impression]畫素。 視訊和音訊廣告也包含按四分位數結束的事件畫素（從[!UICONTROL 25% Complete]到[!UICONTROL 100% Complete]）。
 
-      1. 複製事件追蹤畫素，並將其提供給您的發佈者。
+     1. 複製事件追蹤畫素，並將其提供給您的發佈者。
 
 >[!MORELIKETHIS]
 >

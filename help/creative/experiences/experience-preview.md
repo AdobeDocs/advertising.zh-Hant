@@ -3,21 +3,29 @@ title: 預覽體驗
 description: 瞭解如何在廣告體驗中預覽創意內容。
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # 預覽體驗
 
 您可以預覽具有特定廣告大小的創意，而目標檢視者可以看到該廣告大小的體驗，包括所有超連結。 對於決策樹目標定位的體驗，您可以預覽單一創意、特定分支的創意（目標型別）或體驗中的所有創意。 針對沒有決策樹定位的體驗，您可以預覽單一創意內容。<!-- verify -->
@@ -26,11 +34,11 @@ ht-degree: 0%
 
 * 當您預覽符合條件的單一創意和多個創意時，您每次重新整理預覽時看到的創意會根據體驗的廣告旋轉設定：
 
-   * 對於演演算法廣告輪換，會根據最佳化目標選取創意。
+  * 對於演演算法廣告輪換，會根據最佳化目標選取創意。
 
-   * 對於已排程的廣告輪換，會顯示排程中的第一個創意內容。 您可以繼續重新整理預覽以繼續完成序列。
+  * 對於已排程的廣告輪換，會顯示排程中的第一個創意內容。 您可以繼續重新整理預覽以繼續完成序列。
 
-   * 對於加權廣告輪換，創意是根據指定的權重來選取（例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%）。
+  * 對於加權廣告輪換，創意是根據指定的權重來選取（例如每次顯示Creative A的機率為80%，顯示Creative B的機率為20%）。
 
 ## 使用決策樹定位預覽體驗中的創意內容
 
@@ -48,24 +56,24 @@ ht-degree: 0%
 
    * 若要預覽單一創意：
 
-      1. 按一下&#x200B;**[!UICONTROL Creative]**。
+     1. 按一下&#x200B;**[!UICONTROL Creative]**。
 
-      1. 選取廣告大小。
+     1. 選取廣告大小。
 
-      1. 在[!UICONTROL Decision Tree Targeting]區段中，選取創意目標。
+     1. 在[!UICONTROL Decision Tree Targeting]區段中，選取創意目標。
 
    * 若要預覽特定分支的創意，請執行下列動作：
 
-      1. 按一下&#x200B;**[!UICONTROL Particular branch]**。
+     1. 按一下&#x200B;**[!UICONTROL Particular branch]**。
 
-      1. 選取廣告大小。
+     1. 選取廣告大小。
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. 選取創意目標。
+     1. 選取創意目標。
 
    * 若要預覽體驗中的所有創意內容，請按一下&#x200B;**[!UICONTROL Entire Tree]**。
 

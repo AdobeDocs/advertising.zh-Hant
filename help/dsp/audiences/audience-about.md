@@ -3,49 +3,60 @@ title: 關於Advertising DSP中的對象管理
 description: 瞭解對象管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # 關於Advertising DSP中的對象管理
 
 在DSP中，您可以建立和管理受眾區段和受眾集，並作為刊登版位的目標：
 
 * 透過建立和實作DSP區段來收集您自己的第一方對象資料。 您稍後可以在區段中以廣告重新鎖定使用者，或避免區段中的使用者接收廣告。 您可以建立下列型別的區段：
 
-   * [自訂區段](/help/dsp/audiences/custom-segment-create.md)以追蹤a)從案頭和行動裝置向廣告公開的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
+  * [自訂區段](/help/dsp/audiences/custom-segment-create.md)以追蹤a)從案頭和行動裝置向廣告公開的使用者，以及b)造訪特定網頁的使用者。 追蹤標籤可以追蹤Cookie型使用者或與ID5通用ID相關聯的使用者。
 
-   * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，以根據加州消費者隱私法(CCPA)，追蹤您網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
+  * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)，以根據加州消費者隱私法(CCPA)，追蹤您網站上消費者選擇退出銷售請求的使用者ID。 您每月可以從選擇退出銷售請求中擷取使用者ID的報表。
 
-     如需有關Adobe Advertising對CCPA選擇退出銷售要求的支援資訊，請參閱[加州消費者隱私法的Adobe Advertising支援：消費者選擇退出銷售支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
+    如需有關Adobe Advertising對CCPA選擇退出銷售要求的支援資訊，請參閱[加州消費者隱私法的Adobe Advertising支援：消費者選擇退出銷售支援](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)。
 
 * [取得並使用通用ID以進行Cookie目標定位](/help/dsp/audiences/universal-ids.md)：
 
-   * 手動將已驗證的[!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP。
+  * 手動將已驗證的[!DNL LiveRamp] [!DNL RampID]區段直接傳送至DSP。
 
-   * 允許DSP從您的客戶資料平台匯入第一方區段，並將其轉譯為支援的通用ID型別。
+  * 允許DSP從您的客戶資料平台匯入第一方區段，並將其轉譯為支援的通用ID型別。
 
-   * 匯入包含[!DNL AdFixus]通用ID的第一方[!DNL AdFixus]區段（僅限澳洲）。 接著，您就可以將位置鎖定在[!DNL AdFixus] ID中、將這些區段新增至[可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)，以及使用「[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」中所述的報表。
+  * 匯入包含[!DNL AdFixus]通用ID的第一方[!DNL AdFixus]區段（僅限澳洲）。 接著，您就可以將位置鎖定在[!DNL AdFixus] ID中、將這些區段新增至[可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)，以及使用「[從 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」中所述的報表。
 
-   * 將包含通用ID的第三方區段加入您的位置目標，無需執行任何額外步驟。
+  * 將包含通用ID的第三方區段加入您的位置目標，無需執行任何額外步驟。
 
 * 建立[個可重複使用對象](/help/dsp/audiences/reusable-audience-create.md)的對象庫。 已儲存的對象是由任何可用對象區段和任何其他已儲存的對象所組成。 您對已儲存對象所做的任何變更，都會自動套用至鎖定或排除對象的所有位置，以及包含已儲存對象的所有其他對象。
 
@@ -79,11 +90,11 @@ ht-degree: 0%
 
 * 在DSP中建立的所有使用者建立受眾區段：
 
-   * 造訪特定網頁的使用者與公開特定廣告曝光次數的使用者的自訂區段。
+  * 造訪特定網頁的使用者與公開特定廣告曝光次數的使用者的自訂區段。
 
-     對於傳遞到通用ID的曝光，不會產生任何費用。
+    對於傳遞到通用ID的曝光，不會產生任何費用。
 
-   * CCPA根據加州消費者隱私法(CCPA)，對在您的網站上提交選擇退出銷售請求的使用者選擇退出銷售的對象區段。
+  * CCPA根據加州消費者隱私法(CCPA)，對在您的網站上提交選擇退出銷售請求的使用者選擇退出銷售的對象區段。
 
 * 所有匯入的第一方資料區段，包括轉換為通用ID的區段以及包含匯入[!DNL AdFixus]通用ID的區段。
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
   使用區段的定價是預先議定的，在DSP中不可見。
 
-  [!DNL Analytics]中的區段可在您建立或發佈為CX Enterprise受眾約一小時後使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段在您共用後24小時內即可使用。
+  [!DNL Analytics]中的區段在您建立或發佈為CX Enterprise對象後約一小時可使用。 直接來自Audience Manager或[!DNL Real-Time CDP]的區段在您共用後24小時內即可使用。
 
   >[!NOTE]
   >

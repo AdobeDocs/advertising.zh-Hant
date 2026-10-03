@@ -3,24 +3,30 @@ title: 跨裝置解決方案
 description: 進一步瞭解跨裝置功能。
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # 跨裝置解決方案
 
 Advertising DSP與[!DNL LiveRamp]的整合可讓您將對象擴充至所有個人的已知裝置，而不只是您的品牌已追蹤的裝置。 此整合也提供所有裝置的頻率限定和歸因測量。
@@ -77,13 +83,13 @@ Advertising DSP與[!DNL LiveRamp]的整合可讓您將對象擴充至所有個�
 
 您可以在自訂報表中包含下列量度：
 
-* **延伸曝光次數：** （在[!UICONTROL Build Your Report] > [!UICONTROL Metrics]下的[!UICONTROL Std. Metrics]區段中）運用裝置圖表傳送的增量曝光次數（未在原始受眾區段中找到）。 此量度也可用來計算與使用協力廠商裝置圖表相關的適用費用。
+* **延伸曝光次數：** （在[!UICONTROL Metrics] > [!UICONTROL Std. Metrics]下的[!UICONTROL Build Your Report]區段中）運用裝置圖表傳送的增量曝光次數（未在原始受眾區段中找到）。 此量度也可用來計算與使用協力廠商裝置圖表相關的適用費用。
 
   若要判斷特定時段內延伸曝光的成本，請執行包含[!UICONTROL Extended Impressions]欄的自訂報表，然後將延伸曝光總數乘以$0.00035 （$0.35/1000曝光數）。
 
   彙總成本也包含在[!UICONTROL Billable Other Net Spend]欄（[!UICONTROL Metrics] > [!UICONTROL Spend]下）中，但該量度也包含您可能已新增的其他行銷活動費用。
 
-* **裝置圖表：** （在[!UICONTROL Build Your Report] > [!UICONTROL Dimensions]下的[!UICONTROL Campaign]區段中）為特定行銷活動、封裝或位置選取的裝置圖表。
+* **裝置圖表：** （在[!UICONTROL Dimensions] > [!UICONTROL Campaign]下的[!UICONTROL Build Your Report]區段中）為特定行銷活動、封裝或位置選取的裝置圖表。
 
 ## 以人物為基礎的歸因測量
 
@@ -103,9 +109,9 @@ Advertising DSP與[!DNL LiveRamp]的整合可讓您將對象擴充至所有個�
 
 * &lt;*轉換*>[!UICONTROL (tp)]：包含轉換總數（總人數），其中包含相同裝置轉換和跨裝置轉換（如果適用）。 在報表中，「[!UICONTROL (tp)]」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(tp)」)。
 
-* &lt;*轉換*>[!UICONTROL (sd)]： （選擇性）只包含在轉換路徑中追蹤單一裝置的轉換。 在報表中，「[!UICONTROL (sd)]」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(sd)」)。
+* &lt;*轉換*>[!UICONTROL (sd)]： （選擇性）只包含在轉換路徑中只追蹤單一裝置的轉換。 在報表中，「[!UICONTROL (sd)]」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(sd)」)。
 
-* &lt;*轉換*>[!UICONTROL (xd)]： （選擇性）只包含在轉換路徑中追蹤了超過一部裝置的轉換。 在報表中，「[!UICONTROL (xd)]」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(xd)」)。
+* &lt;*轉換*>[!UICONTROL (xd)]： （選擇性）只包含在轉換路徑中追蹤多個裝置的轉換。 在報表中，「[!UICONTROL (xd)]」會附加至轉換路徑中的轉換量度名稱、規則型別和轉換型別(例如「Responses(le)(tl)(xd)」)。
 
 #### 如何解譯[!UICONTROL Conversion]報表
 

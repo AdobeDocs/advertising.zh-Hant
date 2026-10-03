@@ -3,21 +3,26 @@ title: 字彙表
 description: 請參閱重要辭彙的定義。
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # 字彙表 {#glossary}
 
 ## A-B {#a-b}
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **每次贏取成本：** (CPA)廣告成本除以轉換次數。 也稱為單筆交易成本(CPT)或單筆訂單成本(CPO)。
 
-**每次點按成本：** (CPC) 1)廣告成本除以廣告點按總數。 例如，如果您對廣告曝光次數花費100美元，且廣告產生10次點按，則每次點按成本為100美元/10=10美元。 2)一種定價模型，廣告商會針對每次廣告點按而收取費用。
+**每次點按成本：** (CPC) 1)廣告成本除以廣告點按總數。 例如，如果您花100個USD用於廣告印象，而廣告產生10次點按，則每次點按成本為100 USD/10=10 USD每次點按。 2)一種定價模型，廣告商會針對每次廣告點按而收取費用。
 
 **每筆訂單成本：** (CPO)廣告成本除以訂單數。 也稱為單筆採購成本(CPA)或單筆交易成本(CPT)。
 
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
-**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
+**半衰期：**&#x200B;將數量減少至其初始值一半所需的時間。 對於每個投資組合，您可以指定半衰期，以指出資料與成本模型和收入模型相關的時間長度。
 請參閱「成本模型半衰期」和「收入模型半衰期」。
 
 ## I-J {#i-j}

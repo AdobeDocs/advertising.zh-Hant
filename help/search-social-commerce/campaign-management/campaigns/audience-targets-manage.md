@@ -1,20 +1,23 @@
 ---
 title: 管理行銷活動和廣告群組的對象目標
-description: 瞭解如何設定和管理 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 行銷活動和廣告群組的對象目標。
+description: 瞭解如何設定和管理[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動和廣告群組的對象目標。
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動和廣告群組的對象目標
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
@@ -65,7 +68,7 @@ ht-degree: 0%
 
    * *0%：*&#x200B;不調整此對象廣告的競標。
 
-   * /[*從–90%到900%*/]的其他值：增加或減少此對象廣告的競標。 例如，如果關鍵字層級的競標是1美元，而特定對象目標的競標調整是50%，則該對象的競標會增加到1.50美元。
+   * /[*從–90%到900%*/]的其他值：增加或減少此對象廣告的競標。 例如，如果關鍵字層級的競標是1 USD，而特定對象目標的競標調整是50%，則該對象的競標會增加到1.50 USD。
 
 ## 編輯對象目標的競標修飾詞
 
@@ -83,27 +86,27 @@ ht-degree: 0%
 
    * 若要編輯其他目標的競標修飾詞，請執行下列步驟：
 
-      1. 選取每個要編輯的目標旁的核取方塊。
+     1. 選取每個要編輯的目標旁的核取方塊。
 
-         如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+        如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-      1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
+     1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
 
-      1. 編輯&#x200B;**[!UICONTROL Bid Modifier]**&#x200B;及/或&#x200B;**[!UICONTROL Status]**&#x200B;欄位。
+     1. 編輯&#x200B;**[!UICONTROL Bid Modifier]**&#x200B;及/或&#x200B;**[!UICONTROL Status]**&#x200B;欄位。
 
-         對於[!UICONTROL Bid Modifier]欄位，您可以選擇將現有值變更為指定的值，或者以指定的百分比或貨幣金額來增加或減少金額，並設定限制。
+        對於[!UICONTROL Bid Modifier]欄位，您可以選擇將現有值變更為指定的值，或者以指定的百分比或貨幣金額來增加或減少金額，並設定限制。
 
-         對於設定值，值可以包括：
+        對於設定值，值可以包括：
 
-         * *0%：*&#x200B;不調整此對象廣告的競標。
+        * *0%：*&#x200B;不調整此對象廣告的競標。
 
-         * /[*從–90%到900%*/]的其他值：增加或減少此對象廣告的競標。 例如，如果關鍵字層級的競標是1美元，而特定對象目標的競標調整是50%，則該對象的競標會增加到1.50美元。
+        * /[*從–90%到900%*/]的其他值：增加或減少此對象廣告的競標。 例如，如果關鍵字層級的競標是1 USD，而特定對象目標的競標調整是50%，則該對象的競標會增加到1.50 USD。
 
-         若為多個目標，您的變更會套用至所有選取的目標。
+        若為多個目標，您的變更會套用至所有選取的目標。
 
-      1. （選擇性）按一下&#x200B;**[!UICONTROL Additional Details]**，並選擇性地輸入專案名稱和描述。
+     1. （選擇性）按一下&#x200B;**[!UICONTROL Additional Details]**，並選擇性地輸入專案名稱和描述。
 
-      1. 按一下&#x200B;**[!UICONTROL Post]**。
+     1. 按一下&#x200B;**[!UICONTROL Post]**。
 
 ## 變更對象目標的狀態
 

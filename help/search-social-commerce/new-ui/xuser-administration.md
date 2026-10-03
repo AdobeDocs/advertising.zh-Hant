@@ -3,21 +3,26 @@ title: （新UI）使用者管理
 description: 瞭解如何管理使用者存取許可權。
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # （新UI）搜尋、社交和商務的使用者管理
 
 某些使用者可以使用[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)管理新搜尋、社交和Commerce使用者介面的存取權，這是管理所有Adobe權益和使用者管理的中心位置。 使用者分為一般使用者或管理員。 如果您是管理員，Adobe帳戶團隊會通知您。 如果您是管理員，請參閱下列章節，以識別管理使用者的許可權和工作流程。
@@ -44,49 +49,49 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
 * **[!UICONTROL Basic Optimization]：**&#x200B;此設定檔提供下列功能：
 
-   * [!UICONTROL Objectives]：完整存取權
+  * [!UICONTROL Objectives]：完整存取權
 
-   * [!UICONTROL Simulations]：完整存取權
+  * [!UICONTROL Simulations]：完整存取權
 
-   * [!UICONTROL Portfolio Groups]：完整存取權
+  * [!UICONTROL Portfolio Groups]：完整存取權
 
-   * [!UICONTROL Portfolios]：建立/編輯[!UICONTROL Objectives]、[!UICONTROL Campaigns]和支出[!UICONTROL Management]投資組合設定的存取權；其餘投資組合設定的唯讀存取權。
+  * [!UICONTROL Portfolios]：建立/編輯[!UICONTROL Objectives]、[!UICONTROL Campaigns]和支出[!UICONTROL Management]投資組合設定的存取權；其餘投資組合設定的唯讀存取權。
 
-   * [!UICONTROL Campaigns]：對行銷活動設定的唯讀存取權（無可用的建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
+  * [!UICONTROL Campaigns]：對行銷活動設定的唯讀存取權（無可用的建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
 
-   * [!UICONTROL Ad Groups]：對廣告群組設定的唯讀存取權（無可用的建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
+  * [!UICONTROL Ad Groups]：對廣告群組設定的唯讀存取權（無可用的建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
 
   對於仍在學習使用「搜尋」、「社交」和「Commerce」的使用者，建議使用此存取層級。
 
 * **[!UICONTROL Expert Optimization]：**&#x200B;此設定檔提供下列功能：
 
-   * [!UICONTROL Objectives]：完整存取權
+  * [!UICONTROL Objectives]：完整存取權
 
-   * [!UICONTROL Simulations]：完整存取權
+  * [!UICONTROL Simulations]：完整存取權
 
-   * [!UICONTROL Portfolio Groups]：完整存取權
+  * [!UICONTROL Portfolio Groups]：完整存取權
 
-   * [!UICONTROL Portfolios]：完整存取權
+  * [!UICONTROL Portfolios]：完整存取權
 
-   * [!UICONTROL Campaigns]：對行銷活動清單的唯讀存取權（尚未提供行銷活動建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
+  * [!UICONTROL Campaigns]：對行銷活動清單的唯讀存取權（尚未提供行銷活動建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
 
-   * [!UICONTROL Ad Groups]：對廣告群組清單的唯讀存取權（尚未提供行銷活動建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
+  * [!UICONTROL Ad Groups]：對廣告群組清單的唯讀存取權（尚未提供行銷活動建立、編輯或刪除功能）；對限制和投資組合指派的完整存取權
 
   搜尋、社交和Commerce的專家使用者建議使用此存取層級。
 
 * **[!UICONTROL Read-Only]：**&#x200B;此設定檔提供下列功能：
 
-   * [!UICONTROL Objectives]：唯讀存取權
+  * [!UICONTROL Objectives]：唯讀存取權
 
-   * [!UICONTROL Simulations]：唯讀存取權
+  * [!UICONTROL Simulations]：唯讀存取權
 
-   * [!UICONTROL Portfolio Groups]：唯讀存取權
+  * [!UICONTROL Portfolio Groups]：唯讀存取權
 
-   * [!UICONTROL Portfolios]：唯讀存取權
+  * [!UICONTROL Portfolios]：唯讀存取權
 
-   * [!UICONTROL Campaigns]：唯讀存取權
+  * [!UICONTROL Campaigns]：唯讀存取權
 
-   * [!UICONTROL Ad Groups]：唯讀存取權
+  * [!UICONTROL Ad Groups]：唯讀存取權
 
 * **[!UICONTROL Admin]：**&#x200B;此設定檔授與所有可用功能的完整存取權，並允許使用者建立新的使用者端執行個體（與舊版廣告商帳戶相同，每個組織識別碼有一或多個執行個體）。 除非您具備適當的業務理由，否則請勿將此權利指派給任何人。
 

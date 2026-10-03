@@ -3,26 +3,37 @@ title: 關於深入分析
 description: 瞭解視覺效果的效能深入分析。
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # 關於深入分析
 
 透過視覺效果的高層級效能深入分析，為您提供有效最佳化行銷活動並發現提升效能的新機會所需的資訊。 您可以檢視指定廣告商的各個促銷活動的資料，或向下展開至較低層級。
@@ -43,7 +54,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Home]索引標籤
 
-[!UICONTROL Home]索引標籤會針對廣告商的所有行銷活動，提供關鍵標準、績效和可見度量度。 依預設，會顯示特定廣告商和自訂目標的跨位置資料。 您可以選擇設定篩選條件，以顯示不同廣告商、不同自訂目標或特定位置的資料。 <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. -->深入分析包括：
+[!UICONTROL Home]索引標籤會針對廣告商的所有行銷活動，提供關鍵標準、績效和可見度量度。 依預設，會顯示特定廣告商和自訂目標的跨位置資料。 您可以選擇設定篩選條件，以顯示不同廣告商、不同自訂目標或特定位置的資料。<!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> 這些見解包括：
 
 * **[!UICONTROL Trends]：**&#x200B;三個客戶指定量度（預設為[!UICONTROL Net Spend]、[!UICONTROL Impressions]和[!UICONTROL Net CPM]）的趨勢圖。
 
@@ -69,9 +80,9 @@ ht-degree: 0%
 
   影響的層級包括：
 
-   * **高影響：**&#x200B;請考慮增加預算。
-   * **中等影響**
-   * **有限影響：**&#x200B;需要注意
+  * **高影響：**&#x200B;請考慮增加預算。
+  * **中等影響**
+  * **有限影響：**&#x200B;需要注意
 
 ### [!UICONTROL Household Conversion]索引標籤
 
@@ -91,9 +102,9 @@ ht-degree: 0%
 
   影響的層級包括：
 
-   * **高影響：**&#x200B;請考慮增加預算。
-   * **中等影響**
-   * **有限影響：**&#x200B;需要注意
+  * **高影響：**&#x200B;請考慮增加預算。
+  * **中等影響**
+  * **有限影響：**&#x200B;需要注意
 
 ### [!UICONTROL Audience Analysis]索引標籤
 
@@ -109,15 +120,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Audience Funnel Analysis]：**&#x200B;每日時間序清單格，顯示套用所有目標定位和適用篩選器後，目標對象如何從可用的集區總計縮小為實際的曝光獲勝。 會顯示前一天的資料。 funnel包含下列量度，依序為從最廣泛到最窄：
 
-   * **[!UICONTROL Total Target Audience]：**&#x200B;彙總對象中的不重複使用者總數。
+  * **[!UICONTROL Total Target Audience]：**&#x200B;彙總對象中的不重複使用者總數。
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]：**&#x200B;在前24小時期間在競標資料流中處於作用中狀態的目標對象使用者人數。 此計數包括範圍內的每位使用者，無論他們是否收到刊登競標。 從[!UICONTROL Total Target Audience]減少到[!UICONTROL Reachable Audience]反映了報表期間在競標資料流中處於非作用中狀態的那部分對象，這並非競標效能的反映。
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]：**&#x200B;在前24小時期間在競標資料流中處於作用中狀態的目標對象使用者人數。 此計數包括範圍內的每位使用者，無論他們是否收到刊登競標。 從[!UICONTROL Total Target Audience]減少到[!UICONTROL Reachable Audience]反映了報表期間在競標資料流中處於非作用中狀態的那部分對象，這並非競標效能的反映。
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]：**&#x200B;套用地理、裝置型別、作業系統和瀏覽器篩選器後仍保留的可存取使用者子集。 如果此數字明顯低於[!UICONTROL Reachable Audience]，請考慮檢閱您的地理或裝置型別目標定位是否過於嚴格。
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]：**&#x200B;套用地理、裝置型別、作業系統和瀏覽器篩選器後仍保留的可存取使用者子集。 如果此數字明顯低於[!UICONTROL Reachable Audience]，請考慮檢閱您的地理或裝置型別目標定位是否過於嚴格。
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]：**&#x200B;位置已提交出價的合格機會數目。 此階段的銳減可能表示預算或步調限制限制了競標量。
 
-   * **[!UICONTROL Impression Wins]：**&#x200B;此位置贏得印象的機會數量。 如果成功率遠低於出價，則您的出價可能會低於目標存貨的現行市場價格。
+  * **[!UICONTROL Impression Wins]：**&#x200B;此位置贏得印象的機會數量。 如果成功率遠低於出價，則您的出價可能會低於目標存貨的現行市場價格。
 
 ## 檢視效能深入分析
 

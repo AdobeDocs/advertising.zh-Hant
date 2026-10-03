@@ -3,22 +3,26 @@ title: 連線電視觸及計畫的設定
 description: 請參閱連線電視觸及計畫的設定說明。
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-TQID: https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs
+TQID: 'https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # 連線電視觸及計畫的設定
 
 <!-- Move out of table for consistency at some point. -->
@@ -27,11 +31,11 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Name] | 用來識別計畫的名稱。 | 是 |
 | [!UICONTROL Advertiser] | 帳戶中為其建立計畫的特定廣告商。 | 是 |
-| [!UICONTROL Media Type] | 要納入計畫中的媒體型別。<br><br>目前只有[!UICONTROL Connected TV]可用。 | 是 |
+| [!UICONTROL Media Type] | 要包含在計畫中的媒體型別。<br><br>目前只有[!UICONTROL Connected TV]可用。 | 是 |
 | [!UICONTROL Date Range] | 計畫的開始和結束日期。<br><br>開始日期不能早於目前日期。 日期範圍不得超過90天。 | 是 |
-| [!UICONTROL Goal Type] | 要考慮用於計畫的目標型別（例如[!UICONTROL Budget]）。<br><br>目前只有[!UICONTROL Budget]可用。 | 是 |
+| [!UICONTROL Goal Type] | 計畫要考慮的目標型別（例如[!UICONTROL Budget]）。<br><br>目前只有[!UICONTROL Budget]可用。 | 是 |
 | [!UICONTROL Goal Value] | 預測的目標值。 如需更精確的預測結果，請使用大於5000 USD的值。 | 是 |
-| [!UICONTROL Max Bid] | 針對1000次曝光要支付的最大金額。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10美元的值。 | 是 |
+| [!UICONTROL Max Bid] | 針對1000次曝光要支付的最大金額。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10個USD的值。 | 是 |
 | [!UICONTROL Frequency Cap] | 不重複住戶應該收到廣告的次數。<br><br>當您實作計畫且必須建立多個刊登版位時，請在封裝層級（而非刊登版位層級）套用頻率上限設定，以確保正確傳遞。 | 是 |
 | [!UICONTROL Geo-Targeting] | 作為目標包含或排除的位置。 選項包括：<ul><li>國家、城市、州：按一下&#x200B;**[!UICONTROL Country/State/City]**&#x200B;標籤；選取區域是&#x200B;*國家*、*州*&#x200B;或&#x200B;*城市*；可選擇展開任何位置以檢視其子元件，然後按一下位置旁的&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li><li>美國的指定市場區域(DMA)：按一下&#x200B;**[!UICONTROL DMA]**&#x200B;標籤；可選擇展開任何狀態以檢視其DMA，然後按一下位置旁的&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li><li>郵遞區號：您可以：<ul><li>按一下「**[!UICONTROL Search postal code]**」標籤、選取國家、輸入完整的城市名稱或城市名稱內含的字母，然後按&#x200B;**[Enter]**&#x200B;鍵、按一下正確的城市名稱以檢視該城市的所有郵遞區號、按一下正確的郵遞區號，然後按一下&#x200B;**[!UICONTROL Include]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**。</li><li>按一下&#x200B;**[!UICONTROL Paste postal code]**&#x200B;標籤，選取國家，輸入或貼上逗號分隔值，然後按一下&#x200B;**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。</li></ul></li></ul> | 是 |
 | [!UICONTROL Inventory Targeting] | 要納入或排除作為目標的詳細目錄來源。 請至少選取一個摘要或來源。 | 是 |

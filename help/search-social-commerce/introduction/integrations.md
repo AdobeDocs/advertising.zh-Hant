@@ -3,24 +3,30 @@ title: 與Adobe CX Enterprise解決方案和服務整合
 description: 瞭解Search、Social和Commerce與Adobe CX Enterprise解決方案和服務的整合。
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
+TQID: 'https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: '619'
 ht-degree: 0%
-
 ---
-
 # 與Adobe CX Enterprise解決方案和服務整合
 
 Advertising Search、Social和Commerce已整合下列[!DNL Adobe]項產品。
@@ -35,17 +41,17 @@ Advertising Search、Social和Commerce已整合下列[!DNL Adobe]項產品。
 
 * Adobe Analytics — （選擇加入功能） Adobe Advertising和[!DNL Analytics]已透過下列方式整合：
 
-   * Adobe Advertising和[!DNL Analytics]可順暢地共用資料。 [!DNL Analytics]可以每天傳送網站互動和轉換資料至Search、Social和Commerce，以供其改善廣告和建立報表。 此外，Adobe Advertising亦可每天從您的廣告網路傳送廣告流量資料（包括曝光數、點按數和成本）至[!DNL Analytics]，以便該資料可在所有報告工具中使用。
+  * Adobe Advertising和[!DNL Analytics]可順暢地共用資料。 [!DNL Analytics]可以每天傳送網站互動和轉換資料至Search、Social和Commerce，以供其改善廣告和建立報表。 此外，Adobe Advertising亦可每天從您的廣告網路傳送廣告流量資料（包括曝光數、點按數和成本）至[!DNL Analytics]，以便該資料可在所有報告工具中使用。
 
-     如需每個廣告網路和廣告型別[!DNL Analytics]支援的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 如需資料交換的詳細資訊，另請參閱&quot;[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}的概觀&quot;。
+    如需每個廣告網路和廣告型別[!DNL Analytics]支援的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 如需資料交換的詳細資訊，另請參閱&quot;[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}的概觀&quot;。
 
-     若要交換資料，必須先設定Adobe Advertising和[!DNL Analytics]。 如需初始設定的詳細資訊，請聯絡您的Adobe客戶團隊。
+    若要交換資料，必須先設定Adobe Advertising和[!DNL Analytics]。 如需初始設定的詳細資訊，請聯絡您的Adobe客戶團隊。
 
-     >[!NOTE]
-     >
-     >依預設，[!DNL Analytics]量度不會顯示在「搜尋」、「社交」和「Commerce」畫面中。 在[!DNL Adobe]實作團隊已設定要傳遞至Adobe Advertising的選取標準或自訂事件後，您必須明確[讓量度可用於行銷活動管理檢視、投資組合及報告](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)。 您可以選擇變更顯示的量度名稱（不需要在[!DNL Analytics]中變更它們）。 您可以在UI中檢視量度，以及從[!UICONTROL Admin] > [!UICONTROL Conversions]重新命名量度。
+    >[!NOTE]
+    >
+    >依預設，[!DNL Analytics]量度不會顯示在「搜尋」、「社交」和「Commerce」畫面中。 在[!DNL Adobe]實作團隊已設定要傳遞至Adobe Advertising的選取標準或自訂事件後，您必須明確[讓量度可用於行銷活動管理檢視、投資組合及報告](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)。 您可以選擇變更顯示的量度名稱（不需要在[!DNL Analytics]中變更它們）。 您可以在UI中檢視量度，以及從[!UICONTROL Admin] > [!UICONTROL Conversions]重新命名量度。
 
-   * 具有[!DNL Analytics]但不具有Audience Manager的廣告商可以從與Adobe CX Enterprise共用的[!DNL Analytics]區段中[建立 [!DNL Google Ads] 客戶相符對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 廣告商必須實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)並在其網站上部署標籤，才符合資格。 然後，您可以在[!DNL Google Ads]行銷活動中使用對象作為行銷活動層級或廣告群組層級[目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除專案](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
+  * 具有[!DNL Analytics]但不具有Audience Manager的廣告商可以從與Adobe CX Enterprise共用的[!DNL Analytics]區段中[建立 [!DNL Google Ads] 客戶相符對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 廣告商必須實作[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)並在其網站上部署標籤，才符合資格。 然後，您可以在[!DNL Google Ads]行銷活動中使用對象作為行銷活動層級或廣告群組層級[目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除專案](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
 
 * Adobe Audience Manager區段 — （選擇加入功能）您可以從將「搜尋」、「社交」和「Commerce」當作目的地的Audience Manager區段[建立 [!DNL Google Ads] 客戶相符對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)。 這可能包括發佈至Adobe CX Enterprise的[!DNL Analytics]區段，以及使用Adobe CX Enterprise對象庫建立的區段。 然後，您可以在[!DNL Google Ads]行銷活動中使用對象作為行銷活動層級或廣告群組層級[目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)或[排除專案](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)。
 

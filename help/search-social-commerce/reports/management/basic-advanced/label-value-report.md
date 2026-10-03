@@ -3,20 +3,26 @@ title: '[!UICONTROL Label Value Report]'
 description: 瞭解[!UICONTROL Label Value Report]。
 exl-id: 6d279267-f7ee-475b-b4c3-72af6256330d
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0
+TQID: 'https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: '159'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Value Report]
 
 [!UICONTROL Label Value Report]包含成本、點選數和（選擇性）轉換資料，依據是跨產品組合、廣告網路、帳戶、行銷活動或廣告群組彙總的標籤分類值。 根據預設，對於在指定日期範圍內接收每個時間單位曝光次數的關鍵字、廣告和版位，資料的每個適用值會包含一列。 依預設，資料列會先依時間單位的開始日期遞增排序，然後依成本排序，再依標籤值排序。 您也可以檢視指定標籤值的每個圖元型別的編號。

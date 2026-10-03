@@ -3,25 +3,33 @@ title: 管理自訂報表
 description: 瞭解如何產生和管理跨體驗[!UICONTROL Custom Creative Report]。
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 您可以建立、複製、編輯、執行、下載和刪除自訂報告。
@@ -132,21 +140,21 @@ ht-degree: 0%
   >
   >您也可以[隨時從[!UICONTROL Reports]檢視](#report-run-now)執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期(09:00)執行報表。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期以09:00執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 
-   * **\[排程\]：**&#x200B;執行報告的頻率：
+  * **\[排程\]：**&#x200B;執行報告的頻率：
 
-      * *每日*，每N天執行一次報表。 例如，若要每兩週（14天）執行一次報表，請選取此選項並輸入&#x200B;**14**。
+    * *每日*，每N天執行一次報表。 例如，若要每兩週（14天）執行一次報表，請選取此選項並輸入&#x200B;**14**。
 
-      * *每週*，在一週中的指定日期執行報告。 例如，若要每週一和週五執行報表，請選取此選項，然後選取&#x200B;**週一**&#x200B;和&#x200B;**週五**&#x200B;旁的核取方塊。
+    * *每週*，在一週中的指定日期執行報告。 例如，若要每週一和週五執行報表，請選取此選項，然後選取&#x200B;**週一**&#x200B;和&#x200B;**週五**&#x200B;旁的核取方塊。
 
-      * *每月*，針對該月特定數值日（從1到30）執行報表。 例如，在每個月的第一天執行報告，選取此選項並輸入&#x200B;**1**。
+    * *每月*，針對該月特定數值日（從1到30）執行報表。 例如，在每個月的第一天執行報告，選取此選項並輸入&#x200B;**1**。
 
-   * **從**：報表可以執行的第一個日期。 根據指定的排程，第一個報表例項可能會發生在此日期之後。
+  * **從**：報表可以執行的第一個日期。 根據指定的排程，第一個報表例項可能會發生在此日期之後。
 
-   * **直到**：報告到期日，最多可隔四個行事曆月。 在報告到期之前，所有指定的電子郵件目的地都會在到期日七天零一天前收到電子郵件警示。 若要保留更長的報表，請變更此日期。
+  * **直到**：報告到期日，最多可隔四個行事曆月。 在報告到期之前，所有指定的電子郵件目的地都會在到期日七天零一天前收到電子郵件警示。 若要保留更長的報表，請變更此日期。
 
 ### [!UICONTROL Apply Filters]節
 
@@ -178,21 +186,21 @@ ht-degree: 0%
   >
   >轉換路徑包含廣告商曝光或點按回顧期間內的任何曝光次數和點按，這些設定在[!DNL Advertising Search, Social, & Commerce]。 在轉換歸因期間，點按次數會優先於曝光數。 根據歸因規則，轉換路徑中的任何點按都會獲得完整評價。 只有轉換路徑中未追蹤任何點按時，曝光次數才會獲得評分。
 
-   * *[!UICONTROL Last Event]：*&#x200B;轉換路徑中上次點按或曝光的屬性轉換。
+  * *[!UICONTROL Last Event]：*&#x200B;轉換路徑中上次點按或曝光的屬性轉換。
 
-   * *[!UICONTROL Weight Last More]：*&#x200B;屬性會轉換至轉換路徑中的所有事件，但會給予最後一個事件最大的權重，並依序給予前一個事件較小的權重。
+  * *[!UICONTROL Weight Last More]：*&#x200B;屬性會轉換至轉換路徑中的所有事件，但會給予最後一個事件最大的權重，並依序給予前一個事件較小的權重。
 
-   * *[!UICONTROL Even Distribution]：*&#x200B;屬性轉換與轉換路徑中的每個事件相同。
+  * *[!UICONTROL Even Distribution]：*&#x200B;屬性轉換與轉換路徑中的每個事件相同。
 
-   * *[!UICONTROL Weight First More]：*&#x200B;屬性轉換至轉換路徑中的所有事件，但給予第一個事件最大的權重，並連續給予下列事件較小的權重。
+  * *[!UICONTROL Weight First More]：*&#x200B;屬性轉換至轉換路徑中的所有事件，但給予第一個事件最大的權重，並連續給予下列事件較小的權重。
 
-   * *[!UICONTROL First Event]：*&#x200B;屬性轉換至轉換路徑中的第一次點按或印象。
+  * *[!UICONTROL First Event]：*&#x200B;屬性轉換至轉換路徑中的第一次點按或印象。
 
-   * *[!UICONTROL U-shaped]：*&#x200B;將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，而連續減少轉換路徑中間事件的權重。
+  * *[!UICONTROL U-shaped]：*&#x200B;將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，而連續減少轉換路徑中間事件的權重。
 
-   * *[!UICONTROL Display Only]：*&#x200B;轉換路徑中最後一次DSP點按或曝光的屬性轉換。 這包括視訊和連線電視廣告，並排除[!DNL Advertising Search, Social, & Commerce]廣告的點按次數。
+  * *[!UICONTROL Display Only]：*&#x200B;轉換路徑中最後一次DSP點按或曝光的屬性轉換。 這包括視訊和連線電視廣告，並排除[!DNL Advertising Search, Social, & Commerce]廣告的點按次數。
 
-   * *[!UICONTROL Social Only]：*&#x200B;已過時
+  * *[!UICONTROL Social Only]：*&#x200B;已過時
 
 另請參閱&quot;[如何計算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的歸因規則。&quot;
 
@@ -232,13 +240,13 @@ ht-degree: 0%
 
 * 若要建立新的目的地：
 
-   1. 按一下&#x200B;**新增目的地**。
+  1. 按一下&#x200B;**新增目的地**。
 
-   1. 輸入[報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}，然後按一下&#x200B;**儲存**。
+  1. 輸入[報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}，然後按一下&#x200B;**儲存**。
 
-   1. 返回報表設定，按一下&#x200B;**重新整理目的地名稱。**
+  1. 返回報表設定，按一下&#x200B;**重新整理目的地名稱。**
 
-      新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
+     新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
 
 
 <!--

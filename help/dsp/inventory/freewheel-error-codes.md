@@ -1,28 +1,35 @@
 ---
-title: ' [!DNL FreeWheel] 個廣告提交的錯誤碼'
-description: 參考向 [!DNL FreeWheel]提交廣告時傳回的錯誤碼。
+title: '[!DNL FreeWheel]個廣告提交的錯誤碼'
+description: 參考廣告提交至[!DNL FreeWheel]所傳回的錯誤碼。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # [!DNL FreeWheel]個廣告提交的錯誤碼
 
-失敗的廣告提交錯誤訊息可能來自Advertising DSP或[!DNL FreeWheel]。 在[!UICONTROL API Response]對話方塊[[!UICONTROL FreeWheel Status]的](freewheel-check-status.md)欄中尋找錯誤訊息。
+失敗的廣告提交錯誤訊息可能來自Advertising DSP或[!DNL FreeWheel]。 在[[!UICONTROL FreeWheel Status]對話方塊](freewheel-check-status.md)的[!UICONTROL API Response]欄中尋找錯誤訊息。
 
 ## Advertising DSP內部錯誤
 
@@ -46,7 +53,7 @@ ht-degree: 3%
 | 401 | 未獲授權 | 存取認證不正確、遺失或無效。 | 請聯絡您的Adobe客戶團隊。 |
 | 403 | 已禁止 | 伺服器理解要求但拒絕授權。 | 請聯絡您的Adobe客戶團隊。 |
 | 404 | 找不到 | 您要求的資源無法使用。 如果在PUT作業中找不到Creative ID，則會傳回404。 | 請聯絡您的Adobe客戶團隊。 |
-| 405 | 不允許的方法 | 使用資源不支援的請求方法提出資源請求（例如，在需要POST傳送資料的方法上使用GET，或在唯讀資源上使用PUT）。 | 請聯絡您的Adobe客戶團隊。 |
+| 405 | 不允許的方法 | 使用資源不支援的請求方法（例如，在需要POST傳送資料的方法上使用GET，或在唯讀資源上使用PUT）來提出資源請求。 | 請聯絡您的Adobe客戶團隊。 |
 | 408 | 請求逾時 | 處理此要求時發生逾時。 逾時通常是因為同時要求獨佔存取特定資源所導致。 | 當您收到此狀態時，請重新提交請求。 如果問題仍然存在，請聯絡您的Adobe客戶團隊。 |
 | 422 | 無法處理的實體 | 無效的資源。 當要求內文無效或建立/更新的資源無效時（例如，找不到交易ID時），就會發生此錯誤。 如需詳細資訊，請參閱[FreeWheel API 422錯誤](#freewheel-422-errors)。 | 請聯絡您的Adobe客戶團隊。 |
 | 500 | 內部伺服器錯誤 | API系統錯誤。 | 請聯絡您的Adobe客戶團隊。 |

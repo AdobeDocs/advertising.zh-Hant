@@ -1,25 +1,28 @@
 ---
-title: 將 [!DNL Google Ads] 共用圖說文字擴充功能與行銷活動或廣告群組建立關聯
-description: 瞭解如何將 [!DNL Google Ads] 共用圖說文字擴充功能指派給行銷活動或廣告群組。
+title: 將[!DNL Google Ads]共用圖說文字擴充功能與行銷活動或廣告群組建立關聯
+description: 瞭解如何將[!DNL Google Ads]共用圖說文字擴充功能指派給行銷活動或廣告群組。
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
+TQID: 'https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 將[!DNL Google Ads]共用圖說文字擴充功能與行銷活動或廣告群組建立關聯
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
 
-您可以在[已同步的 [!DNL Google Ads] 帳戶](/help/search-social-commerce/introduction/supported-inventory.md)內，建立並指派圖說文字延伸給搜尋網路上的任何[支援的 [!DNL Google Ads] 行銷活動或廣告群組](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)。
+您可以在[已同步的 [!DNL Google Ads] 帳戶](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)內，建立並指派圖說文字延伸給搜尋網路上的任何[支援的 [!DNL Google Ads] 行銷活動或廣告群組](/help/search-social-commerce/introduction/supported-inventory.md)。
 
 請為每個行銷活動或廣告群組至少指派兩個圖說文字，讓您的廣告符合與圖說文字一起出現的資格。
 

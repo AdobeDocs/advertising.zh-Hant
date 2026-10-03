@@ -3,26 +3,37 @@ title: Adobe Advertising與Adobe Customer Journey Analytics之間整合的概述
 description: 瞭解將Adobe Advertising與Adobe Customer Journey Analytics整合的選項。
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-TQID: https://experienceleague.adobe.com/nxn5AcKCc-xm-k5LXOcKIquNKyoXbt3soR5nhQR0w-E
+TQID: 'https://experienceleague.adobe.com/nxn5AcKCc-xm-k5LXOcKIquNKyoXbt3soR5nhQR0w-E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 498
+source-wordcount: '498'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising與Customer Journey Analytics之間整合的概觀
 
 <!-- title? If I change, change refs throughout -->
@@ -35,11 +46,11 @@ Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向�
 
   您仍可使用Adobe Experience Platform Web SDK (`alloy.js`)或Adobe Experience Cloud Identity Service (`visitorAPI.js`)追蹤點進事件。 使用Advertising DSP的廣告商仍會使用JavaScript程式碼片段來追蹤瀏覽事件。 Customer Journey Analytics中可用的資料包括：
 
-   * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
+  * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
 
-   * 由[!DNL Google Ads]和[!DNL Microsoft Advertising]在Customer Journey Analytics中追蹤的網站活動和轉換，每日更新
+  * 由[!DNL Google Ads]和[!DNL Microsoft Advertising]在Customer Journey Analytics中追蹤的網站活動和轉換，每日更新
 
-   * 來自Adobe Advertising中[!DNL Analytics]的歸因資料，可用於最佳化和報告
+  * 來自Adobe Advertising中[!DNL Analytics]的歸因資料，可用於最佳化和報告
 
   在此使用案例中，您仍應選擇性[收集AMO ID和EF ID的歷史資料，以用於Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)。
 
@@ -49,13 +60,13 @@ Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向�
 
 * 具有Customer Journey Analytics但不具有[!DNL Analytics for Advertising]的廣告商可以使用[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)，以原生方式在Adobe Advertising和Customer Journey Analytics之間交換資料。 您可以使用Cookie、雜湊IP和通用ID （[!DNL LiveRamp RampIDs]和ID5 ID）追蹤網站事件，並將網站事件歸因於付費媒體活動。 行銷活動、廣告群組、套件、位置和關鍵字層級提供下列資料：
 
-   * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
+  * 來自Customer Journey Analytics中Adobe Advertising的行銷活動績效資料
 
-     **注意：**&#x200B;來自[!DNL Apple]和[!DNL Tiktok]的資料無法使用。
+    **注意：**&#x200B;來自[!DNL Apple]和[!DNL Tiktok]的資料無法使用。
 
-   * 由Customer Journey Analytics中的[!DNL Google Ads]和[!DNL Microsoft Advertising]追蹤的網站活動和轉換
+  * 由Customer Journey Analytics中的[!DNL Google Ads]和[!DNL Microsoft Advertising]追蹤的網站活動和轉換
 
-   * Adobe Advertising中Customer Journey Analytics的歸因資料，可用於最佳化和報告
+  * Adobe Advertising中Customer Journey Analytics的歸因資料，可用於最佳化和報告
 
   在此使用案例中，使用Web SDK追蹤網站事件（使用Cookie、雜湊IP位址或通用ID），並將網站事件歸因於[!DNL Google Ads]、[!DNL Microsoft Advertising]、[!DNL Meta]和Adobe DSP中的付費媒體活動。 您也可以使用Adobe Experience Platform進行資料收集。
 

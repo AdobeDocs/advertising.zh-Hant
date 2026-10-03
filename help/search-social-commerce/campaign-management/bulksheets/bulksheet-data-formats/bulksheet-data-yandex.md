@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Yandex] 帳戶必要的大量表單資料'
-description: 參考 [!DNL Yandex] 帳戶大量表單中必要的標題欄位和資料欄位。
+title: '[!DNL Yandex]帳戶必要的大量表單資料'
+description: 參考[!DNL Yandex]帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/yargzmjV5ZvOef--zrF6oSNq-gVcu1z3UXSovFDcMwo
+TQID: 'https://experienceleague.adobe.com/yargzmjV5ZvOef--zrF6oSNq-gVcu1z3UXSovFDcMwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1940
+source-wordcount: '1927'
 ht-degree: 0%
-
 ---
-
 # 附錄 — [!DNL Yandex]帳戶需要的大量表單資料
 
 若要大量建立和更新[!DNL Yandex]行銷活動資料，您可以使用特別針對[!DNL Yandex]帳戶格式化的搜尋、社交和Commerce大量表單檔案。 您可以a) [以必要的檔案格式](../bulksheet-download.md)產生現有帳戶的批次工作表檔案，或b)手動建立這些檔案（如需支援之檔案格式的一般資訊，請參閱[支援的批次工作表檔案格式](bulksheet-file-formats.md)）。
@@ -38,31 +41,31 @@ ht-degree: 0%
 | [!UICONTROL Campaign Budget] | 必要： Create<br>選用：編輯或刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的期限支出限制，無論是否包含貨幣符號和標點符號。 |
 | [!UICONTROL Delivery Method] | 必要： Create<br>選用：編輯或刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 每天顯示行銷活動廣告的速度如何：<ul><li><i>[!UICONTROL Standard (Distributed)]</i> （新行銷活動的預設值）：將您的廣告印象分散在一天當中。</li><li><i>[!UICONTROL Accelerated]：</i>在達到預算之前，儘可能顯示您的廣告。 因此，您的廣告可能不會在當天稍後出現。</li></ul> |
 | [!UICONTROL Ad Group Name] | 不適用 | 必填 | 必填 | 必填 | 不適用 | 廣告群組。 |
-| [!UICONTROL Ad Title] | 不適用 | 不適用 | 不適用 | 必填 | 不適用 | 橫幅（廣告）的標題。 長度上限為33個字元，單一字元不能超過23個字元。<br><br><b>注意：</b>變更廣告復本會刪除現有廣告並建立新廣告。 |
-| [!UICONTROL Ad Description] | 不適用 | 不適用 | 不適用 | 必填 | 不適用 | 橫幅（廣告）的正文。 長度上限為75個字元，單一字元不得超過22個字元。<br><br><b>注意：</b>變更廣告復本會刪除現有廣告並建立新廣告。 |
-| [!UICONTROL Base URL] | 不適用 | 不適用 | 可選 | 必填 | 不適用 | 使用者按一下您的廣告時，系統會將使用者帶入的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 最大長度為1024個字元，包括通訊協定。關鍵字層級的<br><br>基本/最終URL會覆寫廣告層級及更高層級的URL。 |
+| [!UICONTROL Ad Title] | 不適用 | 不適用 | 不適用 | 必填 | 不適用 | 橫幅（廣告）的標題。 長度上限為33個字元，單一字元不能超過23個字元。<br><br><b>注意：</b>變更廣告復本將會刪除現有廣告並建立新的廣告。 |
+| [!UICONTROL Ad Description] | 不適用 | 不適用 | 不適用 | 必填 | 不適用 | 橫幅（廣告）的正文。 長度上限為75個字元，單一字元不可超過22個字元。<br><br><b>注意：</b>變更廣告復本將會刪除現有廣告並建立新的廣告。 |
+| [!UICONTROL Base URL] | 不適用 | 不適用 | 可選 | 必填 | 不適用 | 使用者按一下您的廣告時，系統會將使用者帶入的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 最大長度為1024個字元，包括通訊協定。<br><br>關鍵字層級的基底/最終URL會覆寫廣告層級及更高層級的URL。 |
 | [!UICONTROL Destination URL] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考；未張貼至廣告網路）對於具有目的地URL的帳戶，此值是將廣告連結至廣告商網站上的基礎URL/登陸頁面的URL （有時透過另一個網站來追蹤點選，然後將使用者重新導向到登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，此值會以您帳戶設定和促銷活動設定中的追蹤引數為基礎。 如果您附加廣告網路特定引數，這些引數可能會取代為搜尋、社交和Commerce的同等引數。 |
-| [!UICONTROL SiteLink Title] | 不適用 | 不適用 | 不適用 | 不適用 | 必填 | 網站連結文字。 若為新網站連結，請在網站連結列中包含行銷活動名稱。 對於廣告群組層級或廣告層級網站連結，請分別加入廣告群組名稱或廣告標題與文字。<br><br><b>注意：</b>您最多可以有四個網站連結。 |
+| [!UICONTROL SiteLink Title] | 不適用 | 不適用 | 不適用 | 不適用 | 必填 | 網站連結文字。 若為新網站連結，請在網站連結列中包含行銷活動名稱。 對於廣告群組層級或廣告層級的網站連結，也請分別包含廣告群組名稱或廣告標題與文字。<br><br><b>注意：</b>您最多可以有四個網站連結。 |
 | [!UICONTROL SiteLink Base URL] | 不適用 | 不適用 | 不適用 | 不適用 | 必填 | 網站連結的基本URL；它必須是橫幅的基本URL。 請參閱&quot;[!UICONTROL Base URL]&quot;。 |
 | [!UICONTROL SiteLink Destination URL] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | 網站連結的目的地URL；它必須是橫幅的目的地URL。 請參閱&quot;[!UICONTROL Destination URL]&quot;。 |
-| [!UICONTROL Keyword] | 選填/不適用 | 不適用 | 必填 | 不適用 | 不適用 | 片語（關鍵字字串）。 廣告必須至少包含一個片語。 每個關鍵字最多可以有七個單字，不包括停用詞。<br><br><b>附註：</b><ul><li>若要在行銷活動層級排除片語，請將[!UICONTROL Match Type]設為[!UICONTROL Negative]。</li><li>變更片語會刪除現有的片語並建立新的片語。</li><li>變更[!DNL Yandex]關鍵字短語或相符型別會刪除現有的關鍵字短語並建立新的關鍵字短語。</li></ul> |
+| [!UICONTROL Keyword] | 選填/不適用 | 不適用 | 必填 | 不適用 | 不適用 | 片語（關鍵字字串）。 廣告必須至少包含一個片語。 每個關鍵字最多可以有7個字詞，不包括停用詞。<br><br><b>備註：</b><ul><li>若要在行銷活動層級排除片語，請將[!UICONTROL Match Type]設為[!UICONTROL Negative]。</li><li>變更片語會刪除現有的片語並建立新的片語。</li><li>變更[!DNL Yandex]關鍵字短語或相符型別會刪除現有的關鍵字短語並建立新的關鍵字短語。</li></ul> |
 | [!UICONTROL Max CPC] | 不適用 | 必要： Create<br>選用：編輯或刪除 | 可選 | 不適用 | 不適用 | 最高每次點按成本(CPC)，這是搜尋網路上橫幅（廣告）點按的最高金額，無論是否有貨幣符號和標點符號。 您可以設定廣告群組和關鍵字的值。 新關鍵字的預設值繼承自廣告群組層級。 |
-| [!UICONTROL Match Type] | 選填/不適用 | 不適用 | 可選：建立<br>必要/可選：編輯或刪除 | 不適用 | 不適用 | 字詞的關鍵字比對選項： <i>[!UICONTROL Content]</i>或<i>[!UICONTROL Search]</i>。 使用&quot;[!UICONTROL Negative Keywords]&quot;欄定義負關鍵字。<br><br><b>注意：</b>變更[!DNL Yandex]關鍵字短語或相符型別會刪除現有的關鍵字短語並建立新短語。 |
+| [!UICONTROL Match Type] | 選填/不適用 | 不適用 | 可選：建立<br>必要/可選：編輯或刪除 | 不適用 | 不適用 | 字詞的關鍵字比對選項： <i>[!UICONTROL Content]</i>或<i>[!UICONTROL Search]</i>。 使用&quot;[!UICONTROL Negative Keywords]&quot;資料行定義負關鍵字。<br><br><b>注意：</b>變更[!DNL Yandex]關鍵字短語或相符型別會刪除現有的關鍵字短語並建立新的關鍵字短語。 |
 | [!UICONTROL Search Network Status] | 可選 | 不適用 | 不適用 | 不適用 | 不適用 | 是否要在搜尋網路上刊登廣告： <i>[!UICONTROL Yes]</i> （預設）或<i>[!UICONTROL No]</i>。 |
 | 內容網路狀態 | 可選 | 不適用 | 不適用 | 不適用 | 不適用 | 要在[!DNL Yandex]廣告（顯示）網路上刊登廣告： <i>[!UICONTROL Yes]</i> （預設）或<i>[!UICONTROL No]</i>。 |
 | [!UICONTROL Negative Keywords (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | 由廣告群組中的所有短語共用的負面關鍵字（短語），前面有減號（例如`-mykeyword`）。 如果負面關鍵字元合片語中的關鍵字，則負面關鍵字不會套用至片語。 |
 | [!UICONTROL Param1 (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | `{param1}`替代變數的值。 它最多可包含255個位元組。 若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Param2 (Yandex)] | 不適用 | 不適用 | 可選 | 不適用 | 不適用 | `{param2}`替代變數的值。 它最多可包含255個位元組。 若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
-| [!UICONTROL Campaign Status] | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新行銷活動的預設值為<i>[!UICONTROL active]</i>。<br><br><b>附註：</b><ul></li>如果行銷活動曾經處於作用中狀態，您無法將之刪除。 請改為封存。</li><li>在某些情況下，行銷活動可能會自動封存或移除。</li><li>您不能手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能變更這些狀態。</li></ul> |
-| [!UICONTROL Ad Group Status] | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 廣告群組的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新廣告群組的預設值為<i>[!UICONTROL active]</i>。<br><br><b>附註：</b><ul></li>如果廣告群組曾經是作用中，您無法將它刪除。 請改為封存。</li><li>您不能手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能變更這些狀態。</li></ul> |
+| [!UICONTROL Campaign Status] | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 不適用 | 行銷活動的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新行銷活動的預設值為<i>[!UICONTROL active]</i>.<br><br><b>附註：</b><ul></li>如果行銷活動曾經處於作用中狀態，您無法將之刪除。 請改為封存。</li><li>在某些情況下，行銷活動可能會自動封存或移除。</li><li>您不能手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能變更這些狀態。</li></ul> |
+| [!UICONTROL Ad Group Status] | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 不適用 | 廣告群組的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新廣告群組的預設值為<i>[!UICONTROL active]</i>.<br><br><b>附註：</b><ul></li>如果廣告群組曾經是作用中，您無法將它刪除。 請改為封存。</li><li>您不能手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也不能變更這些狀態。</li></ul> |
 | [!UICONTROL Ad Status] | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 橫幅（廣告）的顯示狀態： <i>[!UICONTROL active]</i>、<i>[!UICONTROL archived]</i>、<i>[!UICONTROL deleted]</i>、<i>[!UICONTROL disapproved]</i>、<i>[!UICONTROL pending]</i>或<i>[!UICONTROL stop]</i> （已暫停）。 新橫幅的預設值為<i>[!UICONTROL active]</i>。<br><br><b>注意：您無法手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
 | [!UICONTROL Keyword Status] | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 不適用 | 不適用 | 片語（關鍵字）的顯示狀態： <i>[!UICONTROL active]</i>。 新片段的預設值為<i>[!UICONTROL active]</i>。<br><br><b>注意：您無法手動將狀態設定為<i>[!UICONTROL disapproved]</i>或<i>[!UICONTROL pending]</i>，也無法變更這些狀態。 |
 | [!UICONTROL SiteLink Status] | 不適用 | 不適用 | 不適用 | 不適用 | 可選：建立或編輯<br>必要：刪除 | 網站連結的顯示狀態： <i>[!UICONTROL * Active]</i>或<i>[!UICONTROL *已暫停]</i>。 新網站連結的預設值為<i>[!UICONTROL * Active]</i>。 |
-| [!UICONTROL Campaign ID] | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 可選 | 可選 | 可識別現有行銷活動的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有當您變更促銷活動名稱時才需要，除非該列包含促銷活動的AMO ID。 |
-| [!UICONTROL Ad Group ID] | 不適用 | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 不適用 | 可識別現有廣告群組的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更廣告群組名稱時才需要，除非該列包含廣告群組的AMO ID。 |
-| [!UICONTROL Ad ID] | 不適用 | 不適用 | 不適用 | 不適用：建立<br>必要/選用：編輯或刪除 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更關鍵字名稱時才需要，除非該列包含a)足夠的屬性欄以識別關鍵字或b) AMO ID。 |
-| [!UICONTROL Keyword ID] | 不適用 | 不適用 | 不適用：建立<br>必要/選用：編輯<br>必要：刪除 | 不適用 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它的前面必須是單引號(&#39;)。[^1]只有在您變更關鍵字名稱時才需要，除非該列包含a)足夠的屬性欄以識別關鍵字或b) AMO ID。 |
-| [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （在產生的Bulksheets中）同步實體的[!DNL Adobe]產生的唯一識別碼。 若為回應式搜尋廣告，除非包含[!UICONTROL Ad ID]，否則編輯或刪除廣告需使用AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，除非您包含實體ID和父實體ID，否則必須使用AMO ID來編輯或刪除資料。<br><br>搜尋、社交和Commerce會使用值來決定要編輯的正確身分，但不會將識別碼張貼至廣告網路。 |
+| [!UICONTROL Campaign ID] | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 可選 | 可選 | 可識別現有行銷活動的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有當您變更促銷活動名稱時才需要，除非該列包含促銷活動的AMO ID。 |
+| [!UICONTROL Ad Group ID] | 不適用 | 不適用：建立<br>必要/選用：編輯<br>選用：刪除 | 可選 | 可選 | 不適用 | 可識別現有廣告群組的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更廣告群組名稱時才需要，除非該列包含廣告群組的AMO ID。 |
+| [!UICONTROL Ad ID] | 不適用 | 不適用 | 不適用 | 不適用：建立<br>必要/選用：編輯或刪除 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更關鍵字名稱時才需要，除非列包含a)足夠的屬性欄以識別關鍵字或b) AMO ID。 |
+| [!UICONTROL Keyword ID] | 不適用 | 不適用 | 不適用：建立<br>必要/選用：編輯<br>必要：刪除 | 不適用 | 不適用 | 可識別現有關鍵字的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更關鍵字名稱時才需要，除非列包含a)足夠的屬性欄以識別關鍵字或b) AMO ID。 |
+| [!UICONTROL AMO ID] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （在產生的Bulksheets中）同步實體的[!DNL Adobe]產生的唯一識別碼。 若為回應式搜尋廣告，除非包含[!UICONTROL Ad ID]，否則編輯或刪除廣告需使用AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，您必須有AMO ID才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>Search， Social， &amp; Commerce會使用值來決定要編輯的正確身分，但不會將ID張貼至廣告網路。 |
 | \[廣告商特定標籤分類\] | 可選 | 可選 | 可選 | 可選 | 不適用 | (以廣告商專屬的標籤分類命名，例如「顏色」（針對稱為「顏色」的標籤分類）與實體相關聯的指定分類值。 每個實體的每個分類只能包含一個值（例如促銷活動A的「顏色」標籤分類為「紅色」）。 最大長度為100個字元，此值可包含ASCII和非ASCII字元。<br><br>標籤分類及其標籤值會套用至所有子元件；稍後新增的新元件會自動與標籤建立關聯。 產品群組的標籤分類會套用至單位（最精細）層級。<br><br>分類名稱和分類值不區分大小寫。 |
 | [!UICONTROL Constraints] | 可選 | 可選 | 可選 | 不適用 | 不適用 | 指定給圖元的限制。 每個圖元只能指定一個限制。<br><br>限制由子實體繼承，因此除非您想要覆寫繼承的值，否則不需要為子實體輸入值。 |
 | [!UICONTROL EF Error Message] | 不適用 | 不適用 | 不適用 | 不適用 | 不適用 | （包含在產生的大量表單中以供參考）用來顯示來自搜尋、社交和Commerce的錯誤訊息的預留位置，這些錯誤訊息涉及列中的資料；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
@@ -75,5 +78,5 @@ ht-degree: 0%
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->* [的 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)點選追蹤格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

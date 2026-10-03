@@ -3,23 +3,26 @@ title: 影像轉換追蹤標籤的格式
 description: 參考影像轉換追蹤標籤的格式。
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+TQID: 'https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # 影像轉換追蹤標籤的格式
 
 >[!NOTE]
 >
->如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[上的](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)常見問題集。
+>如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[&#128279;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的常見問題集。
 
 * 具有HTTP的網站的不安全標籤：
 

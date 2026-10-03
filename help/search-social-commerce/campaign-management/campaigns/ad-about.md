@@ -3,20 +3,24 @@ title: 管理廣告
 description: 瞭解搜尋、社交和Commerce中的廣告，包括可用的廣告型別。
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 關於廣告
 
 僅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和現有[!DNL Baidu]帳戶*
@@ -31,9 +35,9 @@ ht-degree: 0%
 
 * 針對[!DNL Microsoft Audience Network]上[!DNL Microsoft Advertising]個行銷活動的跨裝置、原生&#x200B;**對象廣告**。 根據行銷活動設定，您有兩個對象廣告選項：
 
-   * 如果促銷活動連結至商家中心商店，則讓廣告網路使用商店的產品資訊，自動為促銷活動產生廣告摘要型廣告。 您不需要為行銷活動建立摘要型廣告，但您必須建立具有使用者定位的廣告群組。
+  * 如果促銷活動連結至商家中心商店，則讓廣告網路使用商店的產品資訊，自動為促銷活動產生廣告摘要型廣告。 您不需要為行銷活動建立摘要型廣告，但您必須建立具有使用者定位的廣告群組。
 
-   * 如果行銷活動未連結到商家中心帳戶，則使用回應式廣告格式建立影像型對象廣告，其中包含多個文字和影像資產。 廣告網路會使用最有效的廣告元素組合來組合廣告，並在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]之類的網站上顯示廣告。
+  * 如果行銷活動未連結到商家中心帳戶，則使用回應式廣告格式建立影像型對象廣告，其中包含多個文字和影像資產。 廣告網路會使用最有效的廣告元素組合來組合廣告，並在[!DNL MSN]、[!DNL Outlook.com]和[!DNL Microsoft Edge]之類的網站上顯示廣告。
 
 * 搜尋網路上有[!DNL Google Ads]個促銷活動的&#x200B;**僅限通話的廣告**。 僅限來電廣告是包含電話號碼的文字廣告。 您可以選擇使用[!DNL Google Ads]指派的轉接號碼進行進階通話報告。
 

@@ -3,30 +3,43 @@ title: 設定成效行銷活動的最佳實務
 description: 瞭解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的位置。
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # 設定成效行銷活動的最佳實務
 
 DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷活動的最佳實務：
@@ -55,10 +68,10 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 
 * 使用下列策略尋找可能轉換的新對象：
 
-   * 從資料管理平台(DMP) （例如Adobe Audience Manager）建立相似模型。
-   * 使用第三方資料的行為目標定位。
-   * 內容鎖定。
-   * 網站/類別目標定位。
+  * 從資料管理平台(DMP) （例如Adobe Audience Manager）建立相似模型。
+  * 使用第三方資料的行為目標定位。
+  * 內容鎖定。
+  * 網站/類別目標定位。
 
 * 使用執行網路(RON)鎖定目標：一定要包含執行網路放置而不使用對象鎖定目標，以及廣泛的詳細目錄鎖定目標。 這可讓[!DNL Adobe AI]支援的演演算法找出有價值的使用者，這些使用者可能擁有尚未分類到受眾的較新Cookie。
 
@@ -93,8 +106,8 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 * **最佳化目標：**&#x200B;根據封裝目標，使用兩個效能最佳化目標之一： *[!UICONTROL Highest Return on Ad Spend]*&#x200B;或&#x200B;*[!UICONTROL Lowest Cost per Acquisition]*。 這些目標會分別針對最高ROAS或最低CPA位置自動最佳化套件。
 
 * **自訂目標：**
-   * 如果新封裝與現有封裝具有相同的目標，您可以選擇連結現有封裝，讓演演算法可以使用現有的機器學習資料。
-   * 輸入適當的[!UICONTROL Target CPA]或[!UICONTROL Target ROAS]。
+  * 如果新封裝與現有封裝具有相同的目標，您可以選擇連結現有封裝，讓演演算法可以使用現有的機器學習資料。
+  * 輸入適當的[!UICONTROL Target CPA]或[!UICONTROL Target ROAS]。
 
 * **Flight Pacing和Intraday Pacing：**&#x200B;針對這兩種型別的步調，選取&#x200B;*[!UICONTROL Even]*，透過在每一天和整個飛行期間都統一步調，將您的效能目標最大化。
 
@@ -115,14 +128,14 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 您必須在套件層級設定CPA或ROAS最佳化（請參閱步驟3 — 建立套件），但您可以新增其他位置層級設定。
 
 * **最高出價：**
-   * 對於潛在客戶位置，請使用最低最高出價($5)。
-   * 若是重新定位版位，請使用最高出價($12)。
+  * 對於潛在客戶位置，請使用最低最高出價($5)。
+  * 若是重新定位版位，請使用最高出價($12)。
 
 * **競標前篩選條件：**&#x200B;最小化或最好避免設定嚴格的競標前篩選條件，以防止位置達到規模。 最佳作法包括下列各項：
 
-   * 每個位置使用一(1)個競標前篩選器。 使用多個競標前篩選器需要同時符合兩個條件，這會減少規模。
+  * 每個位置使用一(1)個競標前篩選器。 使用多個競標前篩選器需要同時符合兩個條件，這會減少規模。
 
-   * 若套用了其他鎖定目標（例如對象、地理和網站鎖定目標），請考慮設定較寬鬆的競標前篩選器。
+  * 若套用了其他鎖定目標（例如對象、地理和網站鎖定目標），請考慮設定較寬鬆的競標前篩選器。
 
 檢視何時在[位置層級競標前篩選器使用每個競標前篩選器的說明，以及如何使用它們](/help/dsp/optimization/optimization-pre-bid-filters.md)。
 
@@ -140,10 +153,10 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * 對於潛在位置，請將類似的對象類別和類似的對象大小分組到一個位置中。 然後，根據效能，執行下列任一項作業：
-      * 從現有版位中移除表現不佳的對象。
-      * 將表現最佳的對象移至另一個位置，以更能控制預算。
-   * 若要重新定位位置，您最好在每個位置包含一個對象區段，以輕鬆控制競標和預算。
+  * 對於潛在位置，請將類似的對象類別和類似的對象大小分組到一個位置中。 然後，根據效能，執行下列任一項作業：
+    * 從現有版位中移除表現不佳的對象。
+    * 將表現最佳的對象移至另一個位置，以更能控制預算。
+  * 若要重新定位位置，您最好在每個位置包含一個對象區段，以輕鬆控制競標和預算。
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ DSP可最佳化以效能為中心的行銷活動。 請參閱下列效能行銷�
 > 您可以在層級中建立您的對象，以避免重疊的對象，如此一來，您就可以視需求在位置中隱藏更高、包含性更強的層。
 
 * **[!UICONTROL Frequency Capping]:**
-   * 對於潛在位置，請使用嚴格的頻率上限（每天一次曝光）。
-   * 對於重新定位版位，請將主要版位上限設定為每天6-10次曝光次數，並將次要版位上限設定為每小時一次曝光次數。
+  * 對於潛在位置，請使用嚴格的頻率上限（每天一次曝光）。
+  * 對於重新定位版位，請將主要版位上限設定為每天6-10次曝光次數，並將次要版位上限設定為每小時一次曝光次數。
 
 * **[!UICONTROL Device Targeting]**:
-   * 包含[!UICONTROL Computer]、[!UICONTROL Mobile]和[!UICONTROL Tablet]。
-   * 由於定位和測量限制，請勿以[!UICONTROL Firefox]和[!UICONTROL Safari]為目標。 如需有關[!DNL Safari ITP]的[!DNL Adobe]支援的詳細資訊，請聯絡您的Adobe客戶團隊。
-   * 如果您鎖定行動網站流量，請停用除[!UICONTROL Chrome]和[!UICONTROL Edge]之外的所有行動瀏覽器。
+  * 包含[!UICONTROL Computer]、[!UICONTROL Mobile]和[!UICONTROL Tablet]。
+  * 由於定位和測量限制，請勿以[!UICONTROL Firefox]和[!UICONTROL Safari]為目標。 如需有關[!DNL Safari ITP]的[!DNL Adobe]支援的詳細資訊，請聯絡您的Adobe客戶團隊。
+  * 如果您鎖定行動網站流量，請停用除[!UICONTROL Chrome]和[!UICONTROL Edge]之外的所有行動瀏覽器。
 
 ### 品牌安全與媒體品質
 

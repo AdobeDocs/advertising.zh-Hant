@@ -3,20 +3,24 @@ title: 檢視[!UICONTROL Change History]報告
 description: 瞭解如何檢視廣告商帳戶的最近變更。
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM
+TQID: 'https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: '546'
 ht-degree: 0%
-
 ---
-
 # 檢視[!UICONTROL Change History]報告
 
 （新UI） [!UICONTROL History Logs]和（舊版UI） [!UICONTROL Change History]報告包含過去31天內對廣告商帳戶進行的變更記錄。 報表可包含對下列物件型別的變更：使用者（廣告商）、產品組合、行銷活動、廣告群組、廣告、關鍵字、位置及產品目標。 您可以依任何欄排序及篩選資料。
@@ -81,23 +85,23 @@ ht-degree: 0%
 
    * （若要依欄值篩選資料）請執行下列任一項作業：
 
-      * [使用&#x200B;**[!UICONTROL Add Filter]**&#x200B;連結](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用篩選器。
+     * [使用&#x200B;**[!UICONTROL Add Filter]**&#x200B;連結](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)套用篩選器。
 
-      * [從欄標題功能表套用篩選器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
+     * [從欄標題功能表套用篩選器](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)。
 
    * （若要變更報表的日期範圍），請執行下列動作：
 
-      1. 在資料表格上方，按一下目前的日期範圍。
+     1. 在資料表格上方，按一下目前的日期範圍。
 
-      1. 指定範圍：
+     1. 指定範圍：
 
-         * （針對預設範圍） — 從一般時間增量清單中選取。 預設值為&#x200B;*[!UICONTROL 2 Days Ago]*。
+        * （針對預設範圍） — 從一般時間增量清單中選取。 預設值為&#x200B;*[!UICONTROL 2 Days Ago]*。
 
-         * （針對特定範圍） — 選取&#x200B;**[!UICONTROL Custom Date Range]**，然後指定開始日期和結束日期。
+        * （針對特定範圍） — 選取&#x200B;**[!UICONTROL Custom Date Range]**，然後指定開始日期和結束日期。
 
-           以MM/DD/YYYY或MM-DD-YYYY格式輸入日期，或按一下每個欄位旁的![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆")以開啟行事曆並選取日期。 您只能包含前31天的資料。
+          以MM/DD/YYYY或MM-DD-YYYY格式輸入日期，或按一下每個欄位旁的![行事曆](/help/search-social-commerce/assets/calendar.png "行事曆")以開啟行事曆並選取日期。 您只能包含前31天的資料。
 
-      1. 按一下&#x200B;**[!UICONTROL Apply]**。
+     1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
 1. （選用）下載報表副本：
 

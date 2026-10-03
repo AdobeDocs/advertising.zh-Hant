@@ -2,13 +2,19 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: 瞭解預測準確度報表，包括資料欄。
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Forecast Accuracy Report]
 
 此報表會依日期顯示指定投資組合的成本和收入模型的準確度。 依預設，它包括每個產品組合的每日預測和實際收入、成本和點按次數，以及預測的準確性。 其中包括目前對應至產品組合之行銷活動的資料。

@@ -1,22 +1,26 @@
 ---
-title: 實作 [!DNL Microsoft Advertising] 購物行銷活動
-description: 瞭解設定 [!DNL Microsoft Advertising] 購物行銷活動的工作流程。
+title: 實施[!DNL Microsoft Advertising]購物行銷活動
+description: 瞭解設定[!DNL Microsoft Advertising]購物行銷活動的工作流程。
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # 實施[!DNL Microsoft Advertising]購物行銷活動
 
 購物行銷活動中的廣告會使用您現有[!DNL Microsoft Merchant Center]產品摘要中的產品相關資料（而非關鍵字），來決定顯示廣告的方式和位置。
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## 設定[!DNL Microsoft Advertising]購物行銷活動的步驟
 
-您可以使用[的](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)詳細目錄摘要範本[!DNL Microsoft Advertising]、使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或個別使用，來設定購物行銷活動。 下列指示包含建立個別實體的連結。
+您可以使用[!DNL Microsoft Advertising]的[詳細目錄摘要範本](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)、使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)或個別使用，來設定購物行銷活動。 下列指示包含建立個別實體的連結。
 
 1. 設定您的[!DNL Microsoft Merchant Center]帳戶，並填入產品資料。
 
@@ -69,5 +73,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 檢視使用[!DNL Microsoft Shopping]大量表單[和](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)詳細目錄摘要範本[管理](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)行銷活動和產品群組的必要欄位。
+>* 檢視使用[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)和[詳細目錄摘要範本](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)管理[!DNL Microsoft Shopping]行銷活動和產品群組的必要欄位。
 >* 如需[!DNL Microsoft Shopping]行銷活動的詳細資訊，請參閱[[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/50903)。

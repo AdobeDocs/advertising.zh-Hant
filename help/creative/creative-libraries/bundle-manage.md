@@ -3,20 +3,27 @@ title: 管理創意組合
 description: 瞭解如何管理和使用創意內容群組。
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # 管理創意組合
 
 <!--
@@ -75,9 +82,9 @@ ht-degree: 0%
 
    * 若要複製單一組合：
 
-      * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Duplicate]**。
+     * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Duplicate]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Duplicate]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Duplicate]**。
 
    * 若要複製一或多個束，請選取要複製的每個束的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ ht-degree: 0%
 
    * 若要分離單一創意內容：
 
-      * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Detach]**。
+     * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Detach]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Detach]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Detach]**。
 
    * 若要分離一或多個創意，請選取欲分離的每個創意的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Detach]**。
 
@@ -316,9 +323,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
    * 若要刪除單一組合：
 
-      * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
+     * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Delete]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Delete]**。
 
    * 若要刪除一個或多個束，請選取要刪除的每個束的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Delete].**
 

@@ -4,13 +4,17 @@ description: 瞭解如何使用AI輔助受眾代理在Adobe Advertising DSP中�
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # 使用產生AI建立可重複使用的對象
 
 *Beta功能*
@@ -89,11 +93,11 @@ ht-degree: 0%
 
 * 使用清楚的描述性語言來說明目標對象。
 
-   * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
+  * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
 
-   * 一般而言，提示不區分大小寫。
+  * 一般而言，提示不區分大小寫。
 
-   * 對象代理程式會辨識最常見的同義字。
+  * 對象代理程式會辨識最常見的同義字。
 
 * 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 您提供的詳細資料越多，取得符合您需求之結果的機會就越大。
 

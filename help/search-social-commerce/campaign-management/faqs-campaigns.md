@@ -3,22 +3,28 @@ title: 行銷活動的相關常見問題集
 description: 檢視有關行銷活動管理和行銷活動資料檢視的問答。
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1585
+source-wordcount: '1601'
 ht-degree: 0%
-
 ---
-
 # 關於行銷活動管理的常見問題集
 
 ## 一般資訊
@@ -30,9 +36,9 @@ ht-degree: 0%
 
 +++何時會從廣告網路更新點按資料？
 
-從搜尋引擎提取前一天點選資料的程式從廣告商時區的06:00開始。
+從搜尋引擎提取前一天點選資料的程式於廣告商時區的06:00開始。
 
-此外，在廣告商時區的搜尋網路上，當天的[!DNL Google Ads]行銷活動層級效能量度分別提取到08:00和16:00。
+此外，搜尋網路上當天的[!DNL Google Ads]行銷活動層級績效量度在廣告商時區的08:00和16:00提取。
 +++
 
 +++哪些動作會造成關鍵字和廣告遺失歷史記錄？
@@ -81,7 +87,7 @@ ht-degree: 0%
 
 +++（Google Ads行銷活動）我可以在產品組合中使用行銷活動的共用預算嗎？
 
-為了獲得最佳結果，如果[!DNL Google Ads]行銷活動位於設定為「[!DNL Google Ads]」的最佳化產品組合，請勿將其新增至[!UICONTROL Auto adjust campaign budget limits]共用預算。 若您這麼做，[!DNL Google Ads]會覆寫Search、Social和Commerce最佳化的行銷活動預算，這可能會造成競標效率低下。
+為了獲得最佳結果，如果[!DNL Google Ads]行銷活動位於設定為「[!UICONTROL Auto adjust campaign budget limits]」的最佳化產品組合，請勿將其新增至[!DNL Google Ads]共用預算。 若您這麼做，[!DNL Google Ads]會覆寫Search、Social和Commerce最佳化的行銷活動預算，這可能會造成競標效率低下。
 +++
 
 +++（[!DNL Google Ads]個行銷活動）我是否可將行動和非行動使用者傳送至不同的登陸頁面？
@@ -106,9 +112,9 @@ ht-degree: 0%
 
 +++（[!DNL Google Ads]個搜尋網路行銷活動）今日顯示哪些資料？
 
-在廣告商時區的搜尋網路上，當天的[!DNL Google Ads]行銷活動層級績效量度分別於08:00和16:00提取。
+在廣告商時區的08:00和16:00提取當天搜尋網路上的[!DNL Google Ads]行銷活動層級績效量度。
 
-在[!UICONTROL Campaigns] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns]檢視和[!UICONTROL Campaigns] > [!UICONTROL Optimization]檢視的[!UICONTROL Portfolios]索引標籤中，當您在[!UICONTROL Today]或包含當天的自訂日期範圍上報告時，資料包含最近同步處理的資料。
+在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視和[!UICONTROL Optimization] > [!UICONTROL Portfolios]檢視的[!UICONTROL Campaigns]索引標籤中，當您在[!UICONTROL Today]或包含當天的自訂日期範圍上報告時，資料包含最近同步處理的資料。
 
 >[!NOTE]
 >
@@ -128,9 +134,9 @@ ht-degree: 0%
 
 平行追蹤會直接將客戶從您的廣告傳送至最終URL，其中可能包含最終URL尾碼或「登陸頁面尾碼」的附加引數。 您的追蹤範本URL （以及點選測量的其他引數）會單獨在背景中載入，讓您的登入頁面載入更快。
 
-搜尋、社交和Commerce支援使用廣告網路的點選識別碼（`msclkid`為[!DNL Microsoft Advertising]；`gclid`為[!DNL Google Ads]）來平行追蹤搜尋和購物行銷活動。 使用[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] （在廣告網路中稱為「[!DNL final URL suffix]」），其會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)必要尾碼格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)必要尾碼格式。
+搜尋、社交和Commerce支援使用廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`；[!DNL Google Ads]為`gclid`）來平行追蹤搜尋和購物行銷活動。 使用[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)或[行銷活動層級](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] （在廣告網路中稱為「[!DNL final URL suffix]」），其會附加至登陸頁面URL，以追蹤來自支援平行追蹤之瀏覽器的子廣告點按。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
 
-當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在[!UICONTROL Landing Page Suffix]中使用的相同點按識別碼引數。 檢視[的 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)追蹤範本格式和[的 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)追蹤範本格式。
+當使用者在不支援平行追蹤的瀏覽器上檢視您的廣告時，廣告網路會改用循序追蹤：客戶會先傳送至您的追蹤範本URL，這樣可能會先將客戶重新導向至中繼追蹤伺服器，再將其重新導向至最終URL （可能在登入頁面尾碼中包含其他引數）。 廣告網路帳戶的所有追蹤範本都應包含您在[!UICONTROL Landing Page Suffix]中使用的相同點按識別碼引數。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[追蹤範本格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的追蹤範本格式。
 +++
 
 +++為什麼我的廣告的追蹤URL包含&quot;`&EV_HASH={<hash>}`&quot;？
@@ -160,7 +166,7 @@ ht-degree: 0%
 
 若要針對價格資料使用`{Param 1}`或`{Param 2}`變數，請將資料檔中的價格欄對應至適當摘要範本中的該變數，然後將變數納入您的廣告變數範本中。
 
-例如，如果該欄名為「Price」，則開啟建立廣告的摘要範本，按一下&#x200B;**[!UICONTROL Param 1]**&#x200B;旁的輸入欄位，然後按一下&#x200B;**[!UICONTROL Price]**&#x200B;清單中的[!UICONTROL Feeds/Available Columns]欄，該欄會插入`[Price]`作為[!UICONTROL Param 1]的值。 然後，在摘要範本底部的廣告變化範本中，插入`{param1:default text}`，其中「預設文字」為文字，在摘要檔案中的引數欄為廣告列空白時使用。
+例如，如果該欄名為「Price」，則開啟建立廣告的摘要範本，按一下&#x200B;**[!UICONTROL Param 1]**&#x200B;旁的輸入欄位，然後按一下[!UICONTROL Feeds/Available Columns]清單中的&#x200B;**[!UICONTROL Price]**&#x200B;欄，該欄會插入`[Price]`作為[!UICONTROL Param 1]的值。 然後，在摘要範本底部的廣告變化範本中，插入`{param1:default text}`，其中「預設文字」為文字，在摘要檔案中的引數欄為廣告列空白時使用。
 
 當您提交資料時，[!UICONTROL Param1]和[!UICONTROL Param2]欄的資料欄位最多可包含25個字元，包括數值資料、貨幣符號和貨幣代碼，以及下列非數值字元： `, . % + - /`
 +++

@@ -3,20 +3,26 @@ title: 動態廣告的工作流程
 description: 瞭解管理動態廣告的工作流程。
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # 動態廣告的工作流程
 
 *具有建立動態廣告許可權的使用者*
@@ -44,7 +50,7 @@ ht-degree: 0%
 
    1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
 
-   1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
+   1. 建立具有鎖定目標[&#128279;](/help/creative/experiences/experience-create-targeting.md)或的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
    1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
 
@@ -64,17 +70,17 @@ ht-degree: 0%
 
    * （適用於動態HTML5和影片廣告）建立廣告元素的目錄：
 
-      1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中加入影像或視訊名稱。 分別收集關聯的影像和視訊資產。
+     1. 以Microsoft Excel試算表(XLSX)格式建立摘要檔案，每個廣告變化一列。 在每一列中加入影像或視訊名稱。 分別收集關聯的影像和視訊資產。
 
-      1. [上傳摘要檔案和資產](/help/creative/feeds/asset-manage.md)。
+     1. [上傳摘要檔案和資產](/help/creative/feeds/asset-manage.md)。
 
-      1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。 您可以選擇下載通用摘要範本，並填入與任何促銷活動型別相關的欄位。
+     1. [建立摘要範本](/help/creative/feeds/feed-template-manage.md)以將摘要檔案（試算表）中的欄位對應到Advertising Creative後端中的欄位。 您可以選擇下載通用摘要範本，並填入與任何促銷活動型別相關的欄位。
 
-      1. [從指定的摘要檔案和指定的摘要範本建立目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然後[處理目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以檢視可從中建立的廣告變化。
+     1. [從指定的摘要檔案和指定的摘要範本建立目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-create)，然後[處理目錄](/help/creative/feeds/catalog-manage.md#feed-catalog-process)以檢視可從中建立的廣告變化。
 
-         您只能將每個摘要檔案用於一個目錄。
+        您只能將每個摘要檔案用於一個目錄。
 
-         您可以在[&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative]索引標籤上[!UICONTROL Feeds]追蹤目錄處理工作[!UICONTROL Job Status]的狀態。
+        您可以在[!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status]索引標籤上[追蹤目錄處理工作](/help/creative/feeds/job-status-track.md)的狀態。
 
 1. [為創意程式庫建立動態創意內容](/help/creative/creative-libraries/creative-add-dynamic.md)。 對於動態HTML5廣告，請使用指定的廣告範本和指定的目錄。
 
@@ -82,7 +88,7 @@ ht-degree: 0%
 
    1. [建立動態廣告組合](/help/creative/creative-libraries/bundle-manage.md)，您可以一次將全部附加到廣告體驗。
 
-   1. 建立具有鎖定目標[或](/help/creative/experiences/experience-create-targeting.md)的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
+   1. 建立具有鎖定目標[&#128279;](/help/creative/experiences/experience-create-targeting.md)或的動態廣告體驗[而不鎖定目標](/help/creative/experiences/experience-create-no-targeting.md)，並[將創意組合指派給體驗](/help/creative/experiences/experience-assign-creative-bundles.md)。
 
    1. [產生並實作廣告體驗標籤](/help/creative/experiences/experience-tag-export.md)，以便在您的DSP中將其當成廣告來執行。
 

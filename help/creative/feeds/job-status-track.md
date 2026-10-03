@@ -3,18 +3,24 @@ title: 追蹤目錄處理作業的狀態
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
 exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
-TQID: https://experienceleague.adobe.com/y7-rsER2V28nzSp-sOAEoO4o93zh-hYducIeghrADyE
+TQID: 'https://experienceleague.adobe.com/y7-rsER2V28nzSp-sOAEoO4o93zh-hYducIeghrADyE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # 追蹤目錄處理作業的狀態
 
 檢視目錄處理作業的狀態。 如果在處理期間發生任何錯誤，[!UICONTROL Failed Count]欄會指出有多少列發生問題。

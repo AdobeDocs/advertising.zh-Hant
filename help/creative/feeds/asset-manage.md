@@ -3,18 +3,24 @@ title: 管理資產檔案
 description: 瞭解如何上傳和管理廣告商的資產檔案。
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # 管理資產檔案
 
 * 動態HTML5廣告需要Microsoft Excel試算表(XLSX)格式的摘要檔案，以及在試算表中參考的實際影像資產。
@@ -35,29 +41,29 @@ ht-degree: 0%
 
 * 動態HTML5廣告：
 
-   * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`images/image_name` （例如`images/300x250_acme_logo.png`）在每一列中包含影像名稱。
+  * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`images/image_name` （例如`images/300x250_acme_logo.png`）在每一列中包含影像名稱。
 
-     廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
+    廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-   * GIF、JPEG、JPG或PNG格式的相關影像資產。 檔案大小上限為10 MB。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+  * GIF、JPEG、JPG或PNG格式的相關影像資產。 檔案大小上限為10 MB。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和影像檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 靜態HTML5廣告：
 
-   * GIF、JPG、JPEG或PNG格式中每個廣告一個影像資產。
+  * GIF、JPG、JPEG或PNG格式中每個廣告一個影像資產。
 
-     您可以在ZIP檔案中上傳單一影像或多個影像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    您可以在ZIP檔案中上傳單一影像或多個影像。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 動態視訊廣告：
 
-   * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`videos/image_name` （例如`videos/300x250_acme_logo.png`）在每一列中包含視訊名稱。 ZIP檔案大小上限為512 MB，最多可包含500列。
+  * CSV、TSV或Microsoft Excel試算表(XLSX)格式的摘要檔案，每個廣告變數有一個標題列和一個資料列。 使用格式`videos/image_name` （例如`videos/300x250_acme_logo.png`）在每一列中包含視訊名稱。 ZIP檔案大小上限為512 MB，最多可包含500列。
 
-     廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
+    廣告商特定欄位名稱必須對應到動態廣告摘要檔案的[可用欄位](/help/creative/appendix-available-feed-fields.md)。
 
-     對於所有具有動態視訊的帳戶，最佳實務是搭配使用[通用摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的復本，使用資產檔案[建立目錄](catalog-manage.md)，將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
+    對於所有具有動態視訊的帳戶，最佳實務是搭配使用[通用摘要範本[!UICONTROL Adobe Creative Template]](feed-template-manage.md)的復本，使用資產檔案[建立目錄](catalog-manage.md)，將資產檔案中的每個欄位對應到Advertising Creative後端的欄位。
 
-   * 以MP4、MOV或WEBM格式關聯的視訊資產。 支援的廣告範本包括開始卡、結束卡、頂端覆蓋、底部覆蓋或L形。 每個視訊的持續時間必須介於1至90秒之間。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
+  * 以MP4、MOV或WEBM格式關聯的視訊資產。 支援的廣告範本包括開始卡、結束卡、頂端覆蓋、底部覆蓋或L形。 每個視訊的持續時間必須介於1至90秒之間。 檢視[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
   您可以上傳單一XLSX檔案、單一影像檔案，或包含任何XLSX和視訊檔案組合的單一ZIP檔案。<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

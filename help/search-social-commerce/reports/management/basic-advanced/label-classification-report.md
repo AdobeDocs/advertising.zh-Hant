@@ -3,21 +3,28 @@ title: '[!UICONTROL Label Classification Report]'
 description: 瞭解[!UICONTROL Label Classification Report]。
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU
+TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '231'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Classification Report]
 
 [!UICONTROL Label Classification Report]包含成本、點選數和（選擇性）轉換資料，這些資料會依跨廣告網路、帳戶、促銷活動或廣告群組彙總的關鍵字層級或廣告層級標籤分類來分類。 根據預設，對於在指定日期範圍內每個時間單位收到曝光次數的關鍵字、廣告和位置，資料的每個適用關鍵字層級標籤分類會包含一列。 依預設，這些列會先依時間單位的開始日期升序，然後依標籤分類，再依標籤值升序。

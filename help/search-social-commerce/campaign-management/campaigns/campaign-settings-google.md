@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads]行銷活動設定'
-description: 參考 [!DNL Google Ads] 行銷活動的設定。
+description: 參考[!DNL Google Ads]行銷活動的設定。
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]行銷活動設定
 
 ## \[行銷活動建立畫面\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **附註：**
 
-   * 只有必要的設定可供使用。 如需選擇性設定，請登入[!DNL Google Ads]編輯器。
+  * 只有必要的設定可供使用。 如需選擇性設定，請登入[!DNL Google Ads]編輯器。
 
-   * 不支援[!DNL Google Merchant Center]產品摘要的連結。
+  * 不支援[!DNL Google Merchant Center]產品摘要的連結。
 
-   * 不支援列出群組。 若要管理和檢視清單群組的資料，請登入[!DNL Google Ads]編輯器。
+  * 不支援列出群組。 若要管理和檢視清單群組的資料，請登入[!DNL Google Ads]編輯器。
 
-   * 支援混合最佳化。 在行銷活動層級設定競標策略目標和行銷活動預算。
+  * 支援混合最佳化。 在行銷活動層級設定競標策略目標和行銷活動預算。
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]* （預設）： （不適用於最高成效行銷活動）使用每次點按成本(CPC)模型。 您可以選擇允許廣告網路變更行銷活動的競標：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用「[!UICONTROL Enhanced CPC]」選項相同，該選項已過時。 [!DNL Google Ads]已於2025年3月15日開始自動將現有[增強型CPC競標策略](https://support.google.com/google-ads/answer/2464964)變更為手動CPC。
+  * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：這與使用「[!UICONTROL Enhanced CPC]」選項相同，該選項已過時。 [!DNL Google Ads]已於2025年3月15日開始自動將現有[增強型CPC競標策略](https://support.google.com/google-ads/answer/2464964)變更為手動CPC。
 
 * *[!UICONTROL Maximize Clicks]：* （搜尋、顯示和購物行銷活動）廣告網路（而非Search、Social和Commerce）會最佳化競標，以將點按次數最大化。 選擇性地輸入&#x200B;**[!UICONTROL Max CPC]** （每次點按成本），以確保廣告網路不會為每次點按支付超過特定金額的金額。 **警告：**&#x200B;當您將此策略的行銷活動新增至產品組合時，出價是由點按權重驅動，而不是由產品組合目標驅動。
 
@@ -162,19 +168,19 @@ ht-degree: 0%
 
 * 若要鎖定或排除特定位置：
 
-   * （國家、州、大都市區域或城市）按一下&#x200B;**[!UICONTROL Location Target]** （![定位目標](/help/search-social-commerce/assets/location-target.png "定位目標")）並找出要包含和排除的位置：
+  * （國家、州、大都市區域或城市）按一下&#x200B;**[!UICONTROL Location Target]** （![定位目標](/help/search-social-commerce/assets/location-target.png "定位目標")）並找出要包含和排除的位置：
 
-      * 若要包含位置及其子位置，請按一下相鄰的圓圈，以顯示藍色核取記號（![包含](/help/search-social-commerce/assets/include.png "包含")）。
+    * 若要包含位置及其子位置，請按一下相鄰的圓圈，以顯示藍色核取記號（![包含](/help/search-social-commerce/assets/include.png "包含")）。
 
-      * 若要排除位置，請按兩下鄰接的圓圈，以顯示紅色核取記號（![排除](/help/search-social-commerce/assets/exclude.png "排除")）。
+    * 若要排除位置，請按兩下鄰接的圓圈，以顯示紅色核取記號（![排除](/help/search-social-commerce/assets/exclude.png "排除")）。
 
-      * 若要將位置展開至其子元件（例如美國的州、大都市區域或城市），請按一下位置名稱。
+    * 若要將位置展開至其子元件（例如美國的州、大都市區域或城市），請按一下位置名稱。
 
-      * 若要搜尋位置，請在輸入欄位中輸入或貼上位置的前三個字元。 在搜尋結果中，按一下要包含的位置旁的&#x200B;**[!UICONTROL Include]**&#x200B;或要排除的位置旁的&#x200B;**[!UICONTROL Exclude]**。
+    * 若要搜尋位置，請在輸入欄位中輸入或貼上位置的前三個字元。 在搜尋結果中，按一下要包含的位置旁的&#x200B;**[!UICONTROL Include]**&#x200B;或要排除的位置旁的&#x200B;**[!UICONTROL Exclude]**。
 
-   * （位址附近的位置；僅限包含的目標）按一下&#x200B;**[!UICONTROL Radius Target]** （![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標")），然後按一下&#x200B;**[!UICONTROL Address]**。 輸入位址及目標位址周圍半徑（以英里或公里為單位），然後按一下&#x200B;**[!UICONTROL Add]**。
+  * （位址附近的位置；僅限包含的目標）按一下&#x200B;**[!UICONTROL Radius Target]** （![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標")），然後按一下&#x200B;**[!UICONTROL Address]**。 輸入位址及目標位址周圍半徑（以英里或公里為單位），然後按一下&#x200B;**[!UICONTROL Add]**。
 
-   * （地理座標附近的位置；僅限包含的目標）按一下&#x200B;**[!UICONTROL Radius Target]** （![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標")），然後按一下&#x200B;**[!UICONTROL Coordinate]**。 輸入目標位置周圍的經緯度與半徑（以英里或公里為單位），然後按一下&#x200B;**[!UICONTROL Add]**。
+  * （地理座標附近的位置；僅限包含的目標）按一下&#x200B;**[!UICONTROL Radius Target]** （![Radius目標](/help/search-social-commerce/assets/radius-target.png "Radius目標")），然後按一下&#x200B;**[!UICONTROL Coordinate]**。 輸入目標位置周圍的經緯度與半徑（以英里或公里為單位），然後按一下&#x200B;**[!UICONTROL Add]**。
 
 * （若要為包含的目標地點新增競標調整）請輸入競標調整值：
 
@@ -186,9 +192,9 @@ ht-degree: 0%
 
 * 搜尋、社交和Commerce不提供下列位置目標的自動調整競標調整，因為[!DNL Google Ads]提供將瀏覽者位置對應至位置目標的資料存在限制：
 
-   * 半徑目標。
+  * 半徑目標。
 
-   * 某些位於州/省/地區/縣/州層級以下的位置，[!DNL Google Ads]不會傳送瀏覽者URL中的上層位置，包括機場和美國國會選區。
+  * 某些位於州/省/地區/縣/州層級以下的位置，[!DNL Google Ads]不會傳送瀏覽者URL中的上層位置，包括機場和美國國會選區。
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,21 +303,21 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+  1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
 
-   1. 對於每個影像：
+  1. 對於每個影像：
 
-      1. 選取外觀比例。
+     1. 選取外觀比例。
 
-      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+     1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+     1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-         系統會為每個選取的外觀比例建立一個資產。
+        系統會為每個選取的外觀比例建立一個資產。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+     1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
+  1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
 
 * 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
 
@@ -319,21 +325,21 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+  1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
 
-   1. 對於每個影像：
+  1. 對於每個影像：
 
-      1. 選取外觀比例。
+     1. 選取外觀比例。
 
-      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+     1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+     1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-         系統會為每個選取的外觀比例建立一個資產。
+        系統會為每個選取的外觀比例建立一個資產。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+     1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
+  1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
 
 * 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
 
@@ -341,9 +347,9 @@ ht-degree: 0%
 
 * 若要輸入URL：
 
-   1. 在[!UICONTROL Enter Video Url]標籤上，輸入URL。
+  1. 在[!UICONTROL Enter Video Url]標籤上，輸入URL。
 
-   1. （選擇性）若要新增其他URL，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入URL。
+  1. （選擇性）若要新增其他URL，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入URL。
 
 * 若要從您的[!UICONTROL Asset Library]選取視訊，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取視訊。
 
@@ -353,9 +359,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
@@ -363,9 +369,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
@@ -373,9 +379,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 

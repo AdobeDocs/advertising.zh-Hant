@@ -3,20 +3,24 @@ title: 安裝及解除安裝[!UICONTROL Notification Center]網頁應用程式
 description: 瞭解如何安裝及解除安裝[!UICONTROL Notification Center] Web應用程式。
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/a3oS8GVggOIOGoEIY37wTb1ZwwJRqW3S7wGSRLqbWoM
+TQID: 'https://experienceleague.adobe.com/a3oS8GVggOIOGoEIY37wTb1ZwwJRqW3S7wGSRLqbWoM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '301'
 ht-degree: 0%
-
 ---
-
 # 安裝及解除安裝[!UICONTROL Notification Center]網頁應用程式
 
 *Beta功能*
@@ -29,7 +33,7 @@ ht-degree: 0%
 
 您可以從瀏覽器的應用程式管理員停用或解除安裝應用程式。 如需有關管理Web應用程式的詳細資訊，請參閱瀏覽器的說明。
 
-## 安裝[!UICONTROL Notification Center]的[!DNL Google Chrome]網頁應用程式
+## 安裝[!DNL Google Chrome]的[!UICONTROL Notification Center]網頁應用程式
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
@@ -39,29 +43,29 @@ ht-degree: 0%
 
 1. 在安裝應用程式中？ 訊息，按一下&#x200B;**[!UICONTROL Install]**。
 
-## 安裝[!UICONTROL Notification Center]的[!DNL Microsoft Edge]網頁應用程式
+## 安裝[!DNL Microsoft Edge]的[!UICONTROL Notification Center]網頁應用程式
 
 * 從「搜尋」、「社交」和「Commerce」中：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
+  1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**。
 
-   1. 按一下右下角的![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式")。
+  1. 按一下右下角的![安裝通知中心Web應用程式](/help/search-social-commerce/assets/notifications-install-app.png "安裝通知中心Web應用程式")。
 
-   1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Add]**。
+  1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Add]**。
 
-   1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
 
 * 從[!DNL Edge]主功能表：
 
-   1. 在瀏覽器工具列中按一下&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
+  1. 在瀏覽器工具列中按一下&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**。
 
-   1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
+  1. 在[!UICONTROL Install Notification Center]應用程式訊息中，按一下&#x200B;**[!UICONTROL Install]**。
 
-## 解除安裝[!UICONTROL Notification Center]的[!DNL Google Chrome]網頁應用程式
+## 解除安裝[!DNL Google Chrome]的[!UICONTROL Notification Center]網頁應用程式
 
 * 在[!DNL Chrome]中，移至`chrome://apps`，用滑鼠右鍵按一下&#x200B;**[!UICONTROL notification-center]**，然後按一下&#x200B;**[!UICONTROL Remove from Chrome]**。
 
-## 解除安裝[!UICONTROL Notification Center]的[!DNL Microsoft Edge]網頁應用程式
+## 解除安裝[!DNL Microsoft Edge]的[!UICONTROL Notification Center]網頁應用程式
 
 1. 在[!DNL Edge]瀏覽器工具列中按一下&#x200B;**...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**。 或者，移至`edge://apps`。
 

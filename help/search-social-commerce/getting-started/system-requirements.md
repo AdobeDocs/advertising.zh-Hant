@@ -3,20 +3,24 @@ title: 系統需求
 description: 瞭解軟體和帳戶需求。
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc
+TQID: 'https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # 系統需求
 
 您需要下列軟體和帳戶資訊。
@@ -25,27 +29,27 @@ ht-degree: 0%
 
 * （新使用者介面）最新版本減去下列任一瀏覽器：
 
-   * 為獲得最佳體驗：
+  * 為獲得最佳體驗：
 
-      * [!DNL Google Chrome]
+    * [!DNL Google Chrome]
 
-      * [!DNL Microsoft Edge]
+    * [!DNL Microsoft Edge]
 
-   * [!DNL Apple Safari]
+  * [!DNL Apple Safari]
 
-   * [!DNL Mozilla Firefox]
+  * [!DNL Mozilla Firefox]
 
-   * [!DNL Opera]
+  * [!DNL Opera]
 
 * （舊版使用者介面）下列任一瀏覽器：
 
-   * [!DNL Apple Safari] （包括[!DNL Safari]的[!DNL iOS]） 10或以上
+  * [!DNL Apple Safari] （包括[!DNL iOS]的[!DNL Safari]） 10或以上
 
-   * [!DNL Google Chrome] 103或以上
+  * [!DNL Google Chrome] 103或以上
 
-   * [!DNL Microsoft Edge] 104以上
+  * [!DNL Microsoft Edge] 104以上
 
-   * [!DNL Mozilla Firefox] 102或以上；[!DNL Mozilla Firefox Extended Support Release] 91.11或以上
+  * [!DNL Mozilla Firefox] 102或以上；[!DNL Mozilla Firefox Extended Support Release] 91.11或以上
 
 * （若要檢視XLS格式的匯出檔案） [!DNL Microsoft Excel]建議
 

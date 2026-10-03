@@ -1,23 +1,28 @@
 ---
-title: 實作 [!DNL Naver] 僅限追蹤的帳戶
-description: 瞭解如何為您的 [!DNL Naver] 帳戶設定追蹤行銷活動，以便您可以追蹤、報告直接從廣告網路購買的廣告，並以視覺效果呈現其成效。
+title: 實作[!DNL Naver]只追蹤帳戶
+description: 瞭解如何為您的[!DNL Naver]帳戶設定追蹤行銷活動，以便您可以追蹤、報告直接從廣告網路購買的廣告，並以視覺效果呈現其成效。
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+TQID: 'https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '690'
 ht-degree: 0%
-
 ---
-
 # 實作[!DNL Naver]只追蹤帳戶
 
 僅&#x200B;*[!DNL Naver]個帳戶*
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 追蹤行銷活動會復寫您現有的行銷活動、廣告群組和關鍵字。 您在「搜尋」、「社交」和「Commerce」中建立帳戶結構，並將追蹤新增至廣告網路內的原始行銷活動後，就可以上傳關鍵字或廣告的每日網路流量量度。 然後搜尋、Social和Commerce可以將您的轉換歸因於廣告和關鍵字。
 
-您可以追蹤所有行銷活動以及任何個別行銷活動、廣告群組或關鍵字/廣告的績效量度。 您也可以在最基本、進階和協助報表中包含這些報表的相關資訊，以及其他廣告網路的資料。 不支援將量度匯出至Adobe Analytics，但搜尋、社交和Commerce可將您在 [!DNL Analytics][&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中追蹤的量度同步至搜尋、社交和Commerce。
+您可以追蹤所有行銷活動以及任何個別行銷活動、廣告群組或關鍵字/廣告的績效量度。 您也可以在最基本、進階和協助報表中包含這些報表的相關資訊，以及其他廣告網路的資料。 不支援將量度匯出至Adobe Analytics，但搜尋、社交和Commerce可將您在 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md)中追蹤的量度同步至搜尋、社交和Commerce。
 
 >[!NOTE]
 >
@@ -83,4 +88,4 @@ ht-degree: 0%
 >* [附錄 —  [!DNL Naver] 帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)的必要大量表單資料
 >* [上傳 [!DNL Naver] 僅限追蹤帳戶](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)的流量和轉換量度
 >* [僅追蹤帳戶 [!DNL Naver] 的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式

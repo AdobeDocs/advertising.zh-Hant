@@ -2,13 +2,19 @@
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: 瞭解[!UICONTROL Bing Ads Search Query Report]。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '178'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Bing Ads Search Query Report]
 
 僅&#x200B;*[!DNL Microsoft Advertising]個帳戶*
@@ -17,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->前一天的23:00 （晚上11:00）提取此報表的資料 每天。 例如，在6月18日的23:00，它會提取6月17日的資料。 如果您在6月19日的09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日的23:00資料。
+>資料提取時間為前一天的23:00 （晚上11:00） 每天。 例如6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00執行報表（在提取6月18日的資料之前），則報表會包含截至6月17日23:00的資料。
 
 ## 預設欄
 

@@ -3,18 +3,21 @@ title: 關於標籤分類
 description: 瞭解如何使用標籤分類將您的帳戶元件分組。
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
+TQID: 'https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '307'
 ht-degree: 0%
-
 ---
-
 # 關於標籤分類
 
 標籤分類可協助您將帳戶元件分組為有意義的集合。 例如，您可以建立名為「地理」的父標籤分類，並為分類內的每個地理區域（例如「英國」和「日本」）建立不同的標籤值，然後將標籤值指派給您的[競標單位](/help/search-social-commerce/glossary.md#a-b)或父促銷活動。 然後，您就可以在檢視和報表中加入任何標籤值，做為個別的欄，並按照不同的分類群組和值對報表進行子樞紐分析。
@@ -25,7 +28,7 @@ ht-degree: 0%
 
 ## 標籤值
 
-每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視[或](classification-values-assign-campaign-management.md)使用大量表單[，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組](classification-values-assign-bulksheets.md)。
+每個標籤分類最多可以有2000個值。 一旦您為分類建立特定標籤值，您就可以從行銷活動管理檢視[&#128279;](classification-values-assign-campaign-management.md)或[使用大量表單](classification-values-assign-bulksheets.md)，將其指派給行銷活動、廣告群組、關鍵字、廣告、位置及產品群組。
 
 每個符合資格的實體都可以有多個分類的標籤值，但每個分類只有一個標籤值。 標籤值由子實體繼承，但可以覆寫。 在最低層次指定的值一律會覆寫在父層次指定的值。
 

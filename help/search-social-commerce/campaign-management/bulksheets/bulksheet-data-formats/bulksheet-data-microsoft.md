@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising] 帳戶必要的大量表單資料'
-description: 參考 [!DNL Microsoft Advertising] 帳戶大量表單中必要的標題欄位和資料欄位。
+title: '[!DNL Microsoft Advertising]帳戶必要的大量表單資料'
+description: 參考[!DNL Microsoft Advertising]帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # 附錄 — [!DNL Microsoft Advertising]帳戶需要的大量表單資料
 
 若要大量建立和更新[!DNL Microsoft Advertising]行銷活動資料，您可以使用特別針對[!DNL Microsoft Advertising]帳戶格式化的搜尋、社交和Commerce大量表單檔案。 您可以a) [以必要的檔案格式](../bulksheet-download.md)產生現有帳戶的批次工作表檔案，或b)手動建立這些檔案（如需支援之檔案格式的一般資訊，請參閱[支援的批次工作表檔案格式](bulksheet-file-formats.md)）。
@@ -82,13 +86,13 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Start Date] | 可以在廣告商的時區中，以下列格式之一對廣告群組提出競標的第一個日期： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 若為新廣告群組，預設值為目前日期。 |
 | [!UICONTROL Ad Group End Date] | 可能為廣告群組下標的最後日期，在廣告商的時區及以下格式之一中： m/d/yyyy、m/d/yy、m-d-yyyy或m-d-yy。 新廣告群組的預設值為[blank] （即無結束日期）。 |
 | [!UICONTROL Tracking Template] | （選用）追蹤範本，可指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌在引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>若為Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加重新導向和追蹤程式碼。<br><br>對於協力廠商重新導向與追蹤，請輸入值。<br><br>如需表示追蹤範本中最終URL的引數清單，請參閱[!DNL Microsoft Advertising]檔案。<br><br> 若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
-| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Microsoft Advertising][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Microsoft Advertising]編輯器。 |
+| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Microsoft Advertising]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Microsoft Advertising]編輯器。 |
 | 搜尋網路狀態 | 是否要將廣告群組的廣告放置在「搜尋網路」的各種元素上：<ul><li><i>全部：</i>若要在所有Bing搜尋網路和聯合發行搜尋合作夥伴上刊登廣告。</li><li><i>OwnedAndOperatedOnly：</i>僅在Bing和Yahoo上刊登廣告！ 網站。</li><li><i>SyndicatedSearchOnly：</i>僅在Bing和Yahoo上刊登廣告！ 財團搜尋合作夥伴。</li><li><i>關閉：</i>只在「內容網路」（非「搜尋網路」）上刊登廣告。</li></ul> 若為新廣告群組，預設值為「開啟」。 |
 | [!UICONTROL Content Network Status] | 已棄用 |
 | [!UICONTROL Languages] | 廣告群組中廣告的目標語言： [!UICONTROL English]、[!UICONTROL French]、[!UICONTROL Finnish]、[!UICONTROL German]、[!UICONTROL Norwegian]、[!UICONTROL Spanish]或[!UICONTROL Swedish]。 新行銷活動的預設值為[!UICONTROL English]。<br><br>此設定會決定廣告可顯示的國家和地區。 請務必選擇與行銷活動位置目標相容的語言。 |
 | [!UICONTROL Budget Type] | 預算是<i>[!UICONTROL Daily]</i> （預設）還是<i>[!UICONTROL Monthly]</i>。<br><br>注意：如果您將行銷活動指派給最佳化的投資組合，此值會自動設定為[!UICONTROL Daily]。 |
 | [!UICONTROL Device] | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
-| [!UICONTROL Bid Adjustment] | 指定目標型別的競標調整。 例如，如果關鍵字層級的競標為1美元，而智慧型手機的競標調整為50%，則智慧型手機的競標為1.50美元。 依預設，所有目標都會以關鍵字層級的競標來競標。 有效百分比可包括：<ul><li>智慧型手機和平板電腦： -100 （不針對裝置型別競標）以及從–90到900</li><li>案頭：從0到900</li></ul> |
+| [!UICONTROL Bid Adjustment] | 指定目標型別的競標調整。 例如，如果關鍵字層級的競標為1 USD，而智慧型手機的競標調整為50%，則智慧型手機的競標為1.50 USD。 依預設，所有目標都會以關鍵字層級的競標來競標。 有效百分比可包括：<ul><li>智慧型手機和平板電腦： -100 （不針對裝置型別競標）以及從–90到900</li><li>案頭：從0到900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 您偏好顯示廣告或網站連結的裝置型別： <i>[!UICONTROL All]</i> （預設）或<i>[!UICONTROL Mobile]</i>。 指定「行動」時，網路會嘗試向行動裝置使用者（而非桌上型電腦或平板電腦使用者）顯示廣告或網站連結。 否則，網路會在任何裝置型別上顯示廣告或網站連結。 <b>注意：</b>網路不保證會在偏好的裝置型別上顯示廣告。 |
 | [!UICONTROL Param2] | 如果關鍵字的基礎URL或廣告的標題、說明或基礎URL包含`{Param2}`動態替代字串，則用作替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度限制（例如，標題1和標題2的合併長度上限為76個字元）。 若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Param3] | 如果關鍵字的基礎URL或廣告的標題、說明或基礎URL包含`{Param3}`動態替代字串，則用作替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度限制（例如，標題1和標題2的合併長度上限為76個字元）。 若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
@@ -475,5 +479,5 @@ ht-degree: 0%
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

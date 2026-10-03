@@ -3,22 +3,26 @@ title: 關於報表目的地
 description: 瞭解如何管理自訂報告的傳送位置。
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-TQID: https://experienceleague.adobe.com/l9Fbughu2gYhR6rZujlWI0NNXtvMXtk3flVcmYZTceQ
+TQID: 'https://experienceleague.adobe.com/l9Fbughu2gYhR6rZujlWI0NNXtvMXtk3flVcmYZTceQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 176
-ht-degree: 0%
-
+source-wordcount: '183'
+ht-degree: 3%
 ---
-
 # 關於報表目的地
 
 您可以建立和管理自訂報告的傳遞位置，稱為&#x200B;*[!DNL report destinations]*。 設定報表目的地後，您可以將每個自訂報表設定為傳送到單一目的地型別的一個或多個位置。 儲存報表後，您就無法變更目的地型別。

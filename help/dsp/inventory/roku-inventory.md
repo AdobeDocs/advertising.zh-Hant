@@ -1,36 +1,46 @@
 ---
-title: 使用 [!DNL Roku] 詳細目錄
-description: 瞭解DSP與 [!DNL Roku]的合作關係，包括詳細目錄選項、核准的第三方追蹤廠商，以及 [!DNL Roku]特定位置的最佳實務。
+title: 使用[!DNL Roku]詳細目錄
+description: 瞭解DSP與[!DNL Roku]的合作關係，包括詳細目錄選項、核准的第三方追蹤廠商，以及[!DNL Roku]特定位置的最佳實務。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+TQID: 'https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Roku]詳細目錄
 
 Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 ## 對象比對
 
-[!DNL Roku]與DSP合作關係將您的[!DNL DSP]個對象與[!DNL Roku]詳細目錄上1:1個確定性對象的[!DNL Roku] ID配對。
+[!DNL Roku]與DSP合作關係將您的[!DNL DSP]個對象與[!DNL Roku]詳細目錄上1:1確定性對象鎖定目標的[!DNL Roku] ID配對。
 
 ## [!DNL Roku]詳細目錄選項
 
@@ -48,9 +58,9 @@ Advertising DSP提供[!DNL Roku]上的廣告功能。
 
 * 您可以[在 [!DNL On Demand] 相簿](/help/dsp/inventory/on-demand-inventory-subscribe.md)中 [!DNL Roku] 訂閱以下詳細目錄，然後在[!DNL Roku]版位中鎖定任何已核准的交易：
 
-   * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生態系統中的詳細目錄。
+  * [!UICONTROL Roku Network - Audience]，適用於擁有優質內容合作夥伴（例如[!DNL The CW]、[!DNL ABC]和[!DNL ESPN]）的[!DNL Roku]生態系統中的詳細目錄。
 
-   * 針對[!DNL Roku]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!UICONTROL The Roku Channel - Audience]&quot;。
+  * 針對[!DNL Roku]所擁有且營運的(O&amp;O)應用程式內容的&quot;[!UICONTROL The Roku Channel - Audience]&quot;。
 
 ### 使用[!DNL Roku]自訂私人市場的優點
 

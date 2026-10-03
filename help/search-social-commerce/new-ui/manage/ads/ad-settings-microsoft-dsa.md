@@ -1,18 +1,21 @@
 ---
 title: '[!DNL Microsoft Advertising]延展的動態搜尋廣告設定'
-description: 參考 [!DNL Microsoft Advertising] 展開的動態搜尋廣告的設定。
+description: 參考[!DNL Microsoft Advertising]展開的動態搜尋廣告的設定。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 118
+source-wordcount: '119'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]延展的動態搜尋廣告設定
 
 延展的動態搜尋廣告(eDSA)僅適用於搜尋網路上行銷活動的動態廣告群組。 廣告網路會動態產生標題，並為動態搜尋廣告選擇登陸頁面，然後自動產生最終URL。

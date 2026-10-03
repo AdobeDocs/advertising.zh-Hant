@@ -3,25 +3,31 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
+TQID: 'https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 0%
-
 ---
-
 # 自訂報表設定
 
 **[!UICONTROL Name]：**&#x200B;報告名稱。 長度上限為180個字元。
@@ -56,21 +62,21 @@ ht-degree: 0%
   >
   >您也可以[隨時從[!UICONTROL Reports]檢視](report-run-now.md)執行自訂報告。
 
-* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期(09:00)執行報表。
+* *[!UICONTROL On]\&lt;Date\>：*&#x200B;在帳戶時區的指定完成日期以09:00執行報表。
 
 * *[!UICONTROL Recurring]：*&#x200B;在指定的時間期間根據排程執行報告。
 
-   * **\[排程\]：**&#x200B;執行報告的頻率：
+  * **\[排程\]：**&#x200B;執行報告的頻率：
 
-      * *每日*，每N天執行一次報表。 例如，若要每兩週（14天）執行一次報表，請選取此選項並輸入&#x200B;**14**。
+    * *每日*，每N天執行一次報表。 例如，若要每兩週（14天）執行一次報表，請選取此選項並輸入&#x200B;**14**。
 
-      * *每週*，在一週中的指定日期執行報告。 例如，若要每週一和週五執行報表，請選取此選項，然後選取&#x200B;**週一**&#x200B;和&#x200B;**週五**&#x200B;旁的核取方塊。
+    * *每週*，在一週中的指定日期執行報告。 例如，若要每週一和週五執行報表，請選取此選項，然後選取&#x200B;**週一**&#x200B;和&#x200B;**週五**&#x200B;旁的核取方塊。
 
-      * *每月*，針對該月特定數值日（從1到30）執行報表。 例如，在每個月的第一天執行報告，選取此選項並輸入&#x200B;**1**。
+    * *每月*，針對該月特定數值日（從1到30）執行報表。 例如，在每個月的第一天執行報告，選取此選項並輸入&#x200B;**1**。
 
-   * **從**：報表可以執行的第一個日期。 根據指定的排程，第一個報表例項可能會發生在此日期之後。
+  * **從**：報表可以執行的第一個日期。 根據指定的排程，第一個報表例項可能會發生在此日期之後。
 
-   * **直到**：報告到期日，最多可隔四個行事曆月。 在報告到期之前，所有指定的電子郵件目的地都會在到期日七天零一天前收到電子郵件警示。 若要保留更長的報表，請變更此日期。
+  * **直到**：報告到期日，最多可隔四個行事曆月。 在報告到期之前，所有指定的電子郵件目的地都會在到期日七天零一天前收到電子郵件警示。 若要保留更長的報表，請變更此日期。
 
 ## [!UICONTROL Apply Filters]節
 
@@ -132,9 +138,9 @@ ht-degree: 0%
 
 * **\[歸因型別\]：** （[!UICONTROL Household Conversion]個具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的報告）在報告中，如何歸因一系列導致轉換的事件中的轉換資料：
 
-   * *[!UICONTROL Unique]：* （預設值）計算維度值（例如裝置或位置）在轉換路徑上的次數。
+  * *[!UICONTROL Unique]：* （預設值）計算維度值（例如裝置或位置）在轉換路徑上的次數。
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根據維度值（例如裝置或位置）在轉換路徑上的發生頻率，分配每個轉換的評分。 例如，如果在轉換前共有10次曝光，其中8次在CTV上，2次在行動裝置上，則80%的評分(0.8)會給予予CTV熒幕，而0.2次給予行動裝置。
+  * *[!UICONTROL Multi-Touch Attribution (MTA)]：*&#x200B;根據維度值（例如裝置或位置）在轉換路徑上的發生頻率，分配每個轉換的評分。 例如，如果在轉換前共有10次曝光，其中8次在CTV上，2次在行動裝置上，則80%的評分(0.8)會給予予CTV熒幕，而0.2次給予行動裝置。
 
 * **\[規則型別\]：** （所有具有[!UICONTROL Conversion Metrics]或[!UICONTROL Custom Goals]欄的[!UICONTROL Custom]、[!UICONTROL Conversion]、[!UICONTROL Device]、[!UICONTROL Geo]、[!UICONTROL Segment]和[!UICONTROL Site]報告；僅具有Adobe Advertising轉換追蹤的廣告商）在報告中，如何在一連串導致轉換的事件中歸因轉換資料。 如果要比較規則之間的差異，您可以選擇多個規則。
 
@@ -142,21 +148,21 @@ ht-degree: 0%
   >
   >轉換路徑包含廣告商曝光或點按回顧期間內的任何曝光次數和點按，這些設定在[!DNL Advertising Search, Social, & Commerce]。 在轉換歸因期間，點按次數會優先於曝光數。 根據歸因規則，轉換路徑中的任何點按都會獲得完整評價。 只有轉換路徑中未追蹤任何點按時，曝光次數才會獲得評分。
 
-   * *[!UICONTROL Last Event]：*&#x200B;轉換路徑中上次點按或曝光的屬性轉換。
+  * *[!UICONTROL Last Event]：*&#x200B;轉換路徑中上次點按或曝光的屬性轉換。
 
-   * *[!UICONTROL Weight Last More]：*&#x200B;屬性會轉換至轉換路徑中的所有事件，但會給予最後一個事件最大的權重，並依序給予前一個事件較小的權重。
+  * *[!UICONTROL Weight Last More]：*&#x200B;屬性會轉換至轉換路徑中的所有事件，但會給予最後一個事件最大的權重，並依序給予前一個事件較小的權重。
 
-   * *[!UICONTROL Even Distribution]：*&#x200B;屬性轉換與轉換路徑中的每個事件相同。
+  * *[!UICONTROL Even Distribution]：*&#x200B;屬性轉換與轉換路徑中的每個事件相同。
 
-   * *[!UICONTROL Weight First More]：*&#x200B;屬性轉換至轉換路徑中的所有事件，但給予第一個事件最大的權重，並連續給予下列事件較小的權重。
+  * *[!UICONTROL Weight First More]：*&#x200B;屬性轉換至轉換路徑中的所有事件，但給予第一個事件最大的權重，並連續給予下列事件較小的權重。
 
-   * *[!UICONTROL First Event]：*&#x200B;屬性轉換至轉換路徑中的第一次點按或印象。
+  * *[!UICONTROL First Event]：*&#x200B;屬性轉換至轉換路徑中的第一次點按或印象。
 
-   * *[!UICONTROL U-shaped]：*&#x200B;將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，而連續減少轉換路徑中間事件的權重。
+  * *[!UICONTROL U-shaped]：*&#x200B;將轉換歸因於轉換路徑中的所有事件，但給予第一個和最後一個事件的權重最大，而連續減少轉換路徑中間事件的權重。
 
-   * *[!UICONTROL Display Only]：*&#x200B;轉換路徑中最後一次DSP點按或曝光的屬性轉換。 這包括視訊和連線電視廣告，並排除[!DNL Advertising Search, Social, & Commerce]廣告的點按次數。
+  * *[!UICONTROL Display Only]：*&#x200B;轉換路徑中最後一次DSP點按或曝光的屬性轉換。 這包括視訊和連線電視廣告，並排除[!DNL Advertising Search, Social, & Commerce]廣告的點按次數。
 
-   * *[!UICONTROL Social Only]：*&#x200B;已過時
+  * *[!UICONTROL Social Only]：*&#x200B;已過時
 
 另請參閱&quot;[如何計算Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)的歸因規則。&quot;
 
@@ -208,13 +214,13 @@ ht-degree: 0%
 
 * 若要建立新的目的地：
 
-   1. 按一下&#x200B;**新增目的地**。
+  1. 按一下&#x200B;**新增目的地**。
 
-   1. 輸入[報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)，然後按一下&#x200B;**儲存**。
+  1. 輸入[報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)，然後按一下&#x200B;**儲存**。
 
-   1. 返回報表設定，按一下&#x200B;**重新整理目的地名稱。**
+  1. 返回報表設定，按一下&#x200B;**重新整理目的地名稱。**
 
-      新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
+     新目的地現在可從現有目的地的清單中使用，並且您可以選擇將其新增到報表。
 
 >[!MORELIKETHIS]
 >

@@ -1,22 +1,26 @@
 ---
-title: 管理 [!DNL Google Ads] 動態搜尋目標
-description: 瞭解如何建立和管理 [!DNL Google Ads] 動態搜尋目標。
+title: 管理[!DNL Google Ads]動態搜尋目標
+description: 瞭解如何建立和管理[!DNL Google Ads]動態搜尋目標。
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Google Ads]動態搜尋目標
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
@@ -93,13 +97,13 @@ ht-degree: 0%
 
    * 若要刪除一或多個動態目標，請執行下列動作：
 
-      1. 選取要刪除的每個動態目標旁的核取方塊。
+     1. 選取要刪除的每個動態目標旁的核取方塊。
 
      如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-      1. 在工具列中按一下![更多](/help/search-social-commerce/assets/more.png "更多")並選取&#x200B;**[!UICONTROL Delete]**。
+     1. 在工具列中按一下![更多](/help/search-social-commerce/assets/more.png "更多")並選取&#x200B;**[!UICONTROL Delete]**。
 
-      1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 ## [!DNL Google Ads]動態搜尋目標設定 {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ ht-degree: 0%
 
 * *\[Specific Targets\]：*&#x200B;索引頁面的目標最多有三個條件。 選取此專案時，您必須指定資訊類別和特定值，以指定條件，針對此資訊類別和特定值來鎖定廣告（例如「URL包含shoes.example.com」）。 若要指定多個條件，請按一下&#x200B;**[!UICONTROL + And]**。 目標條件包括：
 
-   * *[!UICONTROL Category]：*&#x200B;顯示具有特定[!DNL Google Ads]內容類別之索引頁面的廣告。
+  * *[!UICONTROL Category]：*&#x200B;顯示具有特定[!DNL Google Ads]內容類別之索引頁面的廣告。
 
-   * *[!UICONTROL URL]：*&#x200B;顯示具有特定URL之索引頁面的廣告，其中值可能包含在URL內的任何位置。
+  * *[!UICONTROL URL]：*&#x200B;顯示具有特定URL之索引頁面的廣告，其中值可能包含在URL內的任何位置。
 
-   * *[!UICONTROL Page Title]：*&#x200B;若要顯示索引頁面的廣告，且該頁面標題中有特定文字。
+  * *[!UICONTROL Page Title]：*&#x200B;若要顯示索引頁面的廣告，且該頁面標題中有特定文字。
 
-   * *[!UICONTROL Page Content]：*&#x200B;顯示具有特定內容之索引頁面的廣告。
+  * *[!UICONTROL Page Content]：*&#x200B;顯示具有特定內容之索引頁面的廣告。
 
 **狀態：**&#x200B;目標設定的狀態：
 

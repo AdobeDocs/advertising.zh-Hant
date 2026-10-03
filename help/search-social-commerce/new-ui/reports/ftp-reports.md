@@ -2,13 +2,17 @@
 title: （新UI）以FTP存取報表
 description: 瞭解如何在唯讀FTP位置接收報表。
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # （新UI）以FTP存取報表
 
 您可以選擇在唯讀FTP位置接收報表，以便擷取其他自動化程式的檔案（例如，使用其他程式剖析資料）。 除了[!UICONTROL Search Engine Account Report]以外的所有基本報表和所有進階報表，都可以壓縮的TSV檔案（預設）或CSV檔案（副檔名為.ZIP）的形式傳送到FTP位置。 包含任何TSV或CSV檔案標頭，且無法隱藏。
@@ -35,11 +39,11 @@ ht-degree: 0%
 
    * （選用）三個系統日期中的任何一個，使用下列區分大小寫的語法，包括括弧：
 
-      * `[TODAY]` — 包含執行報告的日期、小時和分鐘。 由於其中包含確切時間，因此相同的範本一天可以執行多次，而不會覆寫先前的報表。
+     * `[TODAY]` — 包含執行報告的日期、小時和分鐘。 由於其中包含確切時間，因此相同的範本一天可以執行多次，而不會覆寫先前的報表。
 
-      * `[SDATE]` — 包含報表日期範圍的開始日期。
+     * `[SDATE]` — 包含報表日期範圍的開始日期。
 
-      * `[EDATE]` — 包含報表日期範圍的結束日期。
+     * `[EDATE]` — 包含報表日期範圍的結束日期。
 
    * （選擇性） `[CSV]` （大寫字母並括在方括弧中）可建立CSV格式的檔案，而非預設的TSV格式。
 

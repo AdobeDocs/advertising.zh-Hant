@@ -3,18 +3,24 @@ title: 管理您的創意程式庫
 description: 瞭解如何建立、重新命名和刪除您的創意程式庫。
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # 管理您的創意程式庫
 
 您可以為每個廣告商建立多個創意程式庫。 您稍後可以將[標準創意內容](creative-add-standard.md)、[動態創意內容](creative-add-dynamic.md)和[創意組合](bundle-manage.md)填入每個程式庫。
@@ -65,9 +71,9 @@ ht-degree: 0%
 
    * 若要刪除單一程式庫：
 
-      * 在卡片檢視中，按一下資料庫名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
+     * 在卡片檢視中，按一下資料庫名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Delete]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Delete]**。
 
    * 若要刪除一或多個程式庫，請選取要刪除之每個程式庫的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Delete]**。
 

@@ -3,24 +3,29 @@ title: 關於DSP [!UICONTROL Planner]工具
 description: 瞭解規劃工具，以根據指定的預算與目標定位條件，預測連線電視(CTV)刊登位置的獨特觸及率。
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-TQID: https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA
+TQID: 'https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 # 關於DSP [!UICONTROL Planner]工具
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 +++為什麼會看到「[!UICONTROL Unable to generate forecast]」？
 
-此錯誤最常見的原因之一是預算不足或最高競標。 為了獲得最佳結果，請使用至少5000美元的預算。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10美元的最高競標。
+此錯誤最常見的原因之一是預算不足或最高競標。 為達到最佳效果，USD的最低預算為5000個。 如果選取了[!UICONTROL Connected TV]媒體型別，請輸入至少10個USD的最高競標。
 
 此外，請確定包含的發行者或交易為作用中，且有最近的曝光活動。
 
@@ -80,7 +85,7 @@ ht-degree: 0%
 
 +++我可以儲存供需規劃員預測輸出嗎？
 
-可以，您可以按一下右上角的[!DNL Microsoft Excel] > **[!UICONTROL ...]**，將預測匯出至&#x200B;**[!UICONTROL Export]**&#x200B;試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
+可以，您可以按一下右上角的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Export]**，將預測匯出至[!DNL Microsoft Excel]試算表。 試算表使用兩個資料欄： [!UICONTROL Budget]和[!UICONTROL Reach]，擷取到達預算曲線中顯示的資訊。
 
 +++
 

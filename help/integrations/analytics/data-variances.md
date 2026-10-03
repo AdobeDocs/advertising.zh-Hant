@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Analytics] 和Adobe Advertising之間的預期資料差異'
-description: ' [!DNL Analytics] 和Adobe Advertising之間的預期資料差異'
+title: '[!DNL Analytics]和Adobe Advertising之間的預期資料差異'
+description: '[!DNL Analytics]和Adobe Advertising之間的預期資料差異'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]和Adobe Advertising之間的預期資料差異
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
@@ -53,7 +64,7 @@ ht-degree: 0%
 
 * **不同歸因模型造成的差異範例：**
 
-  假設使用者在轉換之前與三個不同的Adobe Advertising廣告互動，並將收入作為轉換型別。 如果Adobe Advertising報表使用均勻分佈模型來歸因，則會將收入平均歸因到所有廣告。 但是，如果[!DNL Analytics]使用上次接觸歸因模型，則會將收入歸因於最後一個廣告。 在以下範例中，Adobe Advertising會將擷取至這三個廣告的30美元收入中，平均10美元歸因於每個廣告，而[!DNL Analytics]會將所有30美元的收入歸因於使用者看到的最後一個廣告。 當您比較來自Adobe Advertising和[!DNL Analytics]的報表時，可以預期結果中歸因差異的影響。
+  假設使用者在轉換之前與三個不同的Adobe Advertising廣告互動，並將收入作為轉換型別。 如果Adobe Advertising報表使用均勻分佈模型來歸因，則會將收入平均歸因到所有廣告。 但是，如果[!DNL Analytics]使用上次接觸歸因模型，則會將收入歸因於最後一個廣告。 在以下範例中，Adobe Advertising會將擷取至這三個廣告的30個收入中，平均10個USD歸因於每個廣告，而[!DNL Analytics]會將所有30個USD收入歸因於使用者看到的最後一個廣告。 當您比較來自Adobe Advertising和[!DNL Analytics]的報表時，可以預期結果中歸因差異的影響。
 
   根據不同的歸因模型，![歸因於Adobe Advertising和[!DNL Analytics]的不同收入](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ ht-degree: 0%
 
 ![歸因於[!DNL Analytics]而非Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)的檢視轉換範例
 
-不一致的其他原因在於，在Adobe Advertising中，您可以指派自訂的&#x200B;*瀏覽權數*，此自訂權數與點選型轉換的歸因權數相關。 預設的檢視權重為40%，這表示檢視轉換會計為點按式轉換值的40%。 [!DNL Analytics]未提供此類顯示轉換的加權。 舉例來說，如果您使用預設的檢視權數，在[!DNL Analytics]中擷取的100美元收入訂單會在Adobe Advertising中折扣為40美元，差別為60美元。
+不一致的其他原因在於，在Adobe Advertising中，您可以指派自訂的&#x200B;*瀏覽權數*，此自訂權數與點選型轉換的歸因權數相關。 預設的檢視權重為40%，這表示檢視轉換會計為點按式轉換值的40%。 [!DNL Analytics]未提供此類顯示轉換的加權。 舉例來說，如果您使用預設的檢視權數，在[!DNL Analytics]中擷取的100個USD收入訂單會在Adobe Advertising中折扣為40個USD （相差60個USD）。
 
 比較Adobe Advertising與[!DNL Analytics]報表之間的檢視轉換時，請考量這些差異。
 
@@ -137,7 +148,7 @@ Adobe Advertising報表只會擷取透過Adobe Advertising販運的付費媒體�
 
 例如，付費搜尋和免費搜尋管道通常具有共生關係，每個管道互相協助。 [!DNL Marketing Channels]報告將某些轉換歸因於免費搜尋，而Adobe Advertising沒有這麼做，因為它不追蹤免費搜尋。
 
-也可以考慮檢視顯示廣告、點選付費搜尋廣告、點選電子郵件訊息內部，然後下單30美元的客戶。 即使Adobe Advertising和[!DNL Marketing Channels]都使用上次接觸歸因模型，轉換仍會分別以不同方式歸因於各個。 Adobe Advertising沒有[!UICONTROL Email]頻道的存取權，所以將計入轉換的付費搜尋。 但是，[!DNL Marketing Channels]可以存取所有三個管道，因此會將[!UICONTROL Email]的轉換歸功。
+再考慮檢視顯示廣告、點選付費搜尋廣告、點選電子郵件訊息內部，然後下達30個USD訂單的客戶。 即使Adobe Advertising和[!DNL Marketing Channels]都使用上次接觸歸因模型，轉換仍會分別以不同方式歸因於各個。 Adobe Advertising沒有[!UICONTROL Email]頻道的存取權，所以將計入轉換的付費搜尋。 但是，[!DNL Marketing Channels]可以存取所有三個管道，因此會將[!UICONTROL Email]的轉換歸功。
 
 ![Adobe Advertising與[!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)中不同的轉換歸因範例
 

@@ -3,24 +3,30 @@ title: 品牌安全與媒體品質
 description: 進一步瞭解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+TQID: 'https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 # 品牌安全與媒體品質
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
@@ -35,7 +41,7 @@ Advertising DSP提供一套品牌保護功能，以確保您的每個行銷活�
 
 ### 支援[!DNL Ads.txt]的詳細目錄驗證
 
-表示 [!DNL Authorized Digital Sellers][&#128279;](https://iabtechlab.com/ads-txt)的[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月啟動的方案，以便在公開市場上適當地呈現詳細目錄，藉此打擊非法的流量來源和網域詐騙。 參與的發行者與發行者公開宣告獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是在網域的最上層維護`ads.txt`頁面（例如`example.com/ads.txt`）。
+表示 [!DNL Authorized Digital Sellers]&#x200B;[&#128279;](https://iabtechlab.com/ads-txt)的[!DNL Ads.txt]是[!DNL Interactive Advertising Bureau] ([!DNL IAB])在2017年6月啟動的方案，以便在公開市場上適當地呈現詳細目錄，藉此打擊非法的流量來源和網域詐騙。 參與的發行者與發行者公開宣告獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是在網域的最上層維護`ads.txt`頁面（例如`example.com/ads.txt`）。
 
 DSP可透過讀取每個發行者的`ads.txt`檔案並讓您選擇只向已驗證的[!DNL ads.txt]個賣家購買來支援[!DNL ads.txt]。 例如，藉由比對我們看到存取`nytimes.com`到《紐約時報》的`ads.txt`檔案的賣家，我們可以識別哪些是合法賣家，哪些是非法賣家；如果位置設定為僅向經過驗證的賣家購買，我們會封鎖罪犯。<!-- can we actually mention NY Times? -->
 
@@ -63,19 +69,19 @@ DSP已建立強大的內部工具與系統，以便與業界領先廠商（例�
 
 * **對應：**&#x200B;我們的詳細目錄團隊會仔細檢閱每個網域，評估下列方面：
 
-   * 品牌安全
+  * 品牌安全
 
-   * 廣告型別驗證
+  * 廣告型別驗證
 
-   * 通用內容、重複網域和假廣告服務
+  * 通用內容、重複網域和假廣告服務
 
 * **分層：**&#x200B;我們全面檢查整個生態系統中的品牌存在感，以分類不同層級的存貨。 您可以[將您的位置](/help/dsp/campaign-management/placements/placement-settings.md)鎖定在這些層級，以獲得所需的觸及率：
 
-   * **[!UICONTROL T1]** — 品牌名稱、國際知名網站
+  * **[!UICONTROL T1]** — 品牌名稱、國際知名網站
 
-   * **[!UICONTROL T2]** — 美觀的網站，既具最新狀態，沒有使用者產生的內容，且通常缺乏全球知名度
+  * **[!UICONTROL T2]** — 美觀的網站，既具最新狀態，沒有使用者產生的內容，且通常缺乏全球知名度
 
-   * **[!UICONTROL T3]** — 使用者產生的內容和細分內容
+  * **[!UICONTROL T3]** — 使用者產生的內容和細分內容
 
 * **網站分類：**&#x200B;為確保內容目標定位和封鎖容易進行，我們會根據屬性的內容，以DSP定義的網站類別標籤每個屬性。 您可以根據版位目標，針對每個版位[&#128279;](/help/dsp/campaign-management/placements/placement-settings.md) 目標或排除這些網站類別。
 

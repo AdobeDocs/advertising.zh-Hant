@@ -3,18 +3,23 @@ title: 從[!UICONTROL Custom Columns]圖示編輯及排序資料行集
 description: 瞭解如何使用欄自訂器變更可見的欄。
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI
+TQID: 'https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # 從[!UICONTROL Custom Columns]圖示編輯及排序資料行集
 
 <!-- The same in new UI and legacy CM views except for icon -->
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以暫時變更檢視中的欄，而不需變更檢視中任何欄標題[的排序順序](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)。
+>您也可以暫時變更檢視中的欄，而不需變更檢視中任何欄標題[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)的排序順序。
 >
 >您可以編輯預設檢視或[建立自訂檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)，以儲存對特定廣告商所包含欄的變更。
 
@@ -43,7 +48,7 @@ ht-degree: 0%
 
    * （若要移除欄）在[!UICONTROL Selected Columns & Ordering]清單中，按一下欄名稱，然後將其拖曳至[!UICONTROL Available Columns]清單或按一下![移除](/help/search-social-commerce/assets/chevron-left.png "移除")將其移至該處。
 
-   * (若要在已新增收入欄且看不到時重新整理欄清單，請按一下&quot;![&quot;旁的](/help/search-social-commerce/assets/refresh.png "重新整理")重新整理[!UICONTROL Available Columns]。
+   * (若要在已新增收入欄且看不到時重新整理欄清單，請按一下&quot;[!UICONTROL Available Columns]&quot;旁的![重新整理](/help/search-social-commerce/assets/refresh.png "重新整理")。
 
 1. 指定排序選項：
 
@@ -51,8 +56,8 @@ ht-degree: 0%
 
    * （選擇性）指定所選欄值的排序順序：
 
-      * （新UI）選取&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
+     * （新UI）選取&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 
-      * （舊版UI）將滑桿移至&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
+     * （舊版UI）將滑桿移至&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**。
 
 1. 按一下&#x200B;**[!UICONTROL Apply]**。

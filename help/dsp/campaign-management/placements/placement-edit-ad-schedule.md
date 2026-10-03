@@ -3,22 +3,26 @@ title: 編輯刊登版位的廣告排程
 description: 瞭解如何變更附加至刊登版位的廣告之廣告排程。
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # 編輯刊登版位的廣告排程
 
 ## 編輯一或多個位置的廣告排程
@@ -45,9 +49,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Flight N Weight]** （例如[!UICONTROL Flight 1 Weight]）：如何旋轉航班的廣告。 輸入值：
 
-      * 若要平均旋轉航班的廣告，請輸入`[!UICONTROL Even]`。
+     * 若要平均旋轉航班的廣告，請輸入`[!UICONTROL Even]`。
 
-      * 若要不均勻旋轉投放的廣告，請輸入每個廣告旋轉的相對權重，以百分比表示（例如40%為`40`）。 航班的總重量必須等於100。
+     * 若要不均勻旋轉投放的廣告，請輸入每個廣告旋轉的相對權重，以百分比表示（例如40%為`40`）。 航班的總重量必須等於100。
 
 1. 上傳已編輯的廣告排程範本：
 
@@ -77,9 +81,9 @@ ht-degree: 0%
 
    * 若要從廣告中移除現有的航班，請按一下航班欄的廣告列中的&#x200B;**[!UICONTROL x]**。
 
-      * （如果有多個廣告有相同的投放位置）若要不平均旋轉廣告，請按一下投放位置資訊中的&#x200B;**[!UICONTROL Even Rotation]**，然後輸入每個廣告旋轉的相對權重，以百分比表示。
+     * （如果有多個廣告有相同的投放位置）若要不平均旋轉廣告，請按一下投放位置資訊中的&#x200B;**[!UICONTROL Even Rotation]**，然後輸入每個廣告旋轉的相對權重，以百分比表示。
 
-        總重量必須等於100。
+       總重量必須等於100。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Continue]**。
 

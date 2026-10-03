@@ -1,24 +1,30 @@
 ---
-title: ' [!DNL Google Ads]的點選追蹤格式'
-description: 瞭解 [!DNL Google Ads] 帳戶的點選追蹤格式。
+title: '[!DNL Google Ads]的點選追蹤格式'
+description: 瞭解[!DNL Google Ads]帳戶的點選追蹤格式。
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
+TQID: 'https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]的點選追蹤格式
 
 以下是Search、Social和Commerce所需的[!DNL Google Ads]基本追蹤範本和登入頁面尾碼（最終URL尾碼）格式。
@@ -39,7 +45,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* 追蹤範本中表示最終URL的[!DNL ValueTrack]引數必須是`{lpurl}`或`!{unescapedurl}`。
 >
@@ -65,7 +71,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* 追蹤範本中表示最終URL的[!DNL ValueTrack]引數必須是`{lpurl}`或`!{unescapedurl}`。
 >
@@ -75,19 +81,19 @@ ht-degree: 0%
 
 ## 登陸頁面尾碼（最終URL尾碼）格式
 
-使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`gclid`為[!DNL Google Ads]）：
+使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Google Ads]為`gclid`）：
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列其中一項：
 
-   * 使用最新[!DNL Google Ads]AMO ID格式[&#x200B; （從](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)開始）的`s_kwcid`帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
+  * 使用最新[AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items) （從`s_kwcid`開始）的[!DNL Google Ads]帳戶，支援最高成效行銷活動的行銷活動和廣告群組層級報告，以及草稿和實驗行銷活動：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視[使用的 [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID。
+    如果帳戶具有伺服器端AMO ID實作，且帳戶或行銷活動設定&quot;[!UICONTROL Auto Upload]&quot;已啟用，則會自動新增引數。 否則，您需要手動新增。 檢視 [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID。
 
-   * 所有其他[!DNL Google Ads]帳戶：
+  * 所有其他[!DNL Google Ads]帳戶：
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 當廣告商沒有Adobe Analytics整合時，尾碼必須包括下列專案：
 

@@ -2,13 +2,17 @@
 title: （新UI）管理自訂警報
 description: 瞭解如何建立、設定、暫停、啟用、刪除、檢視和匯出自訂警報和警報範本。
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # （新UI）管理自訂警報
 
 建立警報範本，以識別任何投資組合、行銷活動或廣告群組在指定期間符合特定條件（例如績效量度）的情況，然後產生警報。 警示功能適用於單一廣告商。 警示包含相關預設檢視中的所有欄。 例如，行銷活動層級警示包含預設[!UICONTROL Campaigns]檢視中的所有欄。

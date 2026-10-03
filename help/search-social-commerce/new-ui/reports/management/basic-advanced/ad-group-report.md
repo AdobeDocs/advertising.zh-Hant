@@ -2,13 +2,19 @@
 title: '[!UICONTROL Ad Group Report]'
 description: 瞭解[!UICONTROL Ad Group Report]。
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Ad Group Report]
 
 [!UICONTROL Ad Group Report]包含一或多個廣告群組的成本、點選和（選擇性）轉換資料。 依預設，資料在指定日期範圍內每個時間單位都包含每個適用廣告群組的一列，且這些列會先依廣告群組，然後依促銷活動以遞增順序排列。

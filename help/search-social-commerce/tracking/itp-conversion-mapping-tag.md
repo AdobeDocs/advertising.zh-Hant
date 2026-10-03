@@ -3,18 +3,21 @@ title: Adobe Advertising轉換對應標籤
 description: 瞭解適用於ITP 2.2的JavaScript型轉換對應標籤，其可讓Adobe Advertising追蹤發生於非登陸頁面上的轉換事件。
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising JavaScript轉換對應標籤
 
 *僅追蹤Adobe Advertising轉換的廣告商*
@@ -49,9 +52,9 @@ Adobe Advertising JavaScript型轉換對應標籤與Adobe Advertising JavaScript
 
   其中：
 
-   * 您以追蹤頁面轉換的組織ID取代值`{xxxxxx@AdobeOrg}`。 對所有轉換頁面使用相同的組織ID。
+  * 您以追蹤頁面轉換的組織ID取代值`{xxxxxx@AdobeOrg}`。 對所有轉換頁面使用相同的組織ID。
 
-   * 您會將`{AMO User ID}`取代為您的搜尋、社交和Commerce帳戶的不重複使用者識別碼。
+  * 您會將`{AMO User ID}`取代為您的搜尋、社交和Commerce帳戶的不重複使用者識別碼。
 
 * 如果您使用的標籤管理系統不支援將`imsorgid`變數新增至指令碼標籤，請改用下列程式碼：
 
@@ -67,22 +70,22 @@ Adobe Advertising JavaScript型轉換對應標籤與Adobe Advertising JavaScript
 
   其中，以您搜尋、社交和Commerce帳戶的不重複使用者ID取代`{AMO User ID}`。
 
-   * 如果您的組織使用多個組織ID：
+  * 如果您的組織使用多個組織ID：
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     其中：
+    其中：
 
-      * 您以追蹤頁面轉換的組織ID取代值`{xxxxxx@AdobeOrg}`。 對所有轉換頁面使用相同的組織ID。
+    * 您以追蹤頁面轉換的組織ID取代值`{xxxxxx@AdobeOrg}`。 對所有轉換頁面使用相同的組織ID。
 
-      * 您會將`{AMO User ID}`取代為您的搜尋、社交和Commerce帳戶的不重複使用者識別碼。
+    * 您會將`{AMO User ID}`取代為您的搜尋、社交和Commerce帳戶的不重複使用者識別碼。
 
 如果您不知道組織ID或搜尋、Social和Commerce使用者ID的值，請洽詢您的Adobe帳戶團隊。
 

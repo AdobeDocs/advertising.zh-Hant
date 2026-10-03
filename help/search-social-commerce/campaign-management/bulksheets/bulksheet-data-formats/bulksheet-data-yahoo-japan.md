@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL LY Ads] 帳戶的Bulksheet資料'
-description: 參考 [!DNL LY Ads] 帳戶之已下載大量表單中的標題欄位和資料欄位。
+title: '[!DNL LY Ads]帳戶的大量工作表資料'
+description: 參考[!DNL LY Ads]帳戶之已下載大量表單中的標題欄位和資料欄位。
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # 附錄 — [!DNL LY Ads]帳戶的Bulksheet資料
 
 您可以大量下載[!DNL LY Ads] （先前為[!DNL Yahoo! Japan]）帳戶的資料，但無法上傳或張貼大量工作表至廣告網路。
@@ -78,5 +82,5 @@ ht-degree: 0%
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

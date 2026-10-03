@@ -1,22 +1,29 @@
 ---
-title: 建立 [!DNL Google Ads]的轉換標籤
-description: 瞭解如何建立 [!DNL Google Ads] 轉換標籤。
+title: 建立[!DNL Google Ads]的轉換標籤
+description: 瞭解如何建立[!DNL Google Ads]轉換標籤。
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
+TQID: 'https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 # 建立[!DNL Google Ads]的轉換標籤
 
 您可以為要針對個別[!DNL Google Ads]帳戶追蹤，而不是在經理帳戶層級追蹤的新轉換建立轉換標籤。
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 1. 複製轉換標籤，並在您要追蹤轉換量度的網站上實作。
 
-   請參閱「[!DNL Google]2」的[!DNL Google Ads]說明中的「安裝[標籤」。 設定您的Google標籤](https://support.google.com/google-ads/answer/12215519)。」
+   請參閱「[2」的[!DNL Google Ads]說明中的「安裝[!DNL Google]標籤」。 設定您的Google標籤](https://support.google.com/google-ads/answer/12215519)。」
 
 1. 按一下&#x200B;**[!UICONTROL Done].**
 
@@ -49,7 +56,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select an Account]：**&#x200B;適用的[!DNL Google Ads]帳戶。
 
-**[!UICONTROL Type of Conversion]：**&#x200B;要追蹤的轉換型別： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用於不同的目的；請參閱「[為潛在客戶 [!DNL Google Ads] 的增強型轉換建立](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)轉換動作。」
+**[!UICONTROL Type of Conversion]：**&#x200B;要追蹤的轉換型別： *[!UICONTROL Click on a webpage element]*、*[!UICONTROL Calls to a phone number on your website]*&#x200B;或&#x200B;*[!UICONTROL Clicks to your number on your mobile website]*。 **注意：** *[!UICONTROL Import conversion]*&#x200B;用於不同的目的；請參閱「[為潛在客戶](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)的增強型轉換建立 [!DNL Google Ads] 轉換動作。」
 
 **[!UICONTROL Conversion Name]：**&#x200B;轉換量度的唯一名稱。
 

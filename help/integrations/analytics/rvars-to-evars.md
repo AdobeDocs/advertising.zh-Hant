@@ -3,23 +3,31 @@ title: 收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Ana
 description: 瞭解如何在Adobe Analytics中收集保留變數的歷史資料，以便將來在Adobe Customer Journey Analytics中使用
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-TQID: https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0
+TQID: 'https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # 收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics
 
 *僅使用[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的廣告商*
@@ -61,23 +69,23 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
    * 在[!UICONTROL Always Execute]區段中，新增兩個動作以建立新的eVar：
 
-      * 針對`AMO ID`：
+     * 針對`AMO ID`：
 
-         1. 選取&#x200B;**覆寫**&#x200B;的值。
-         1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
-         1. 選取&#x200B;**查詢字串引數**。
-         1. 輸入`s_kwcid`。
+       1. 選取&#x200B;**覆寫**&#x200B;的值。
+       1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
+       1. 選取&#x200B;**查詢字串引數**。
+       1. 輸入`s_kwcid`。
 
-        範例： `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
+       範例： `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
-      * 針對`EF ID`：
+     * 針對`EF ID`：
 
-         1. 選取&#x200B;**覆寫**&#x200B;的值。
-         1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
-         1. 選取&#x200B;**查詢字串引數**。
-         1. 輸入`ef_id`。
+       1. 選取&#x200B;**覆寫**&#x200B;的值。
+       1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
+       1. 選取&#x200B;**查詢字串引數**。
+       1. 輸入`ef_id`。
 
-        範例： `Overwrite the value of rVar11 with Query String Parameter ef_id`
+       範例： `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * 對於[!UICONTROL Reason for rule]，請使用描述性備註，例如「將透過Adobe Analytics Connector將AMO ID和EF ID傳輸至AEP」。
 

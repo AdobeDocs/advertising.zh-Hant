@@ -1,24 +1,28 @@
 ---
 title: 北美地區的[!DNL On Demand]高階庫存發佈者
-description: 檢視北美地區可用的 [!DNL On Demand] 進階庫存發佈程式。
+description: 檢視北美洲可用的[!DNL On Demand]高階庫存發佈程式。
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
-TQID: https://experienceleague.adobe.com/qmKaDBN2YyI8Teok0SIWPU0qNQOTlfr6FGfsAHQ2naE
+TQID: 'https://experienceleague.adobe.com/qmKaDBN2YyI8Teok0SIWPU0qNQOTlfr6FGfsAHQ2naE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 0%
-
+source-wordcount: '235'
+ht-degree: 8%
 ---
-
 # 北美地區的[!DNL On Demand]高階庫存發佈者
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
@@ -77,110 +81,110 @@ ht-degree: 0%
 | [!DNL Wayfair] | 加拿大 |
 | [!DNL Xumo] | 加拿大 |
 | [!DNL Yahoo] | 加拿大 |
-| [!DNL A+E Networks] | U.S. |
-| [!DNL ABC] | U.S. |
-| [!DNL Accuweather] | U.S. |
-| [!DNL AMC] | U.S. |
-| [!DNL AT&T TV Now] | U.S. |
-| [!DNL BBC] | U.S. |
-| [!DNL Billboard] | U.S. |
-| [!DNL Bloomberg] | U.S. |
-| [!DNL Broadcasters on Hulu] ([!DNL Discovery]， [!DNL NBC Universal]， [!DNL FOX]) | U.S. |
-| [!DNL Business Insider] | U.S. |
-| [!DNL Buzzfeed] | U.S. |
-| [!DNL CBS Interactive] | U.S. |
-| [!DNL CNN International] | U.S. |
-| [!DNL Comcast] | U.S. |
-| [!DNL Comedy Central] | U.S. |
-| [!DNL Complex Networks] | U.S. |
-| [!DNL Conde Nast] | U.S. |
-| [!DNL Crackle] | U.S. |
-| [!DNL Cumulus Media] | U.S. |
-| [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
-| [!DNL Discovery] | U.S. |
-| [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] （先前為[!DNL About.com]） | U.S. |
-| [!DNL EA] | U.S. |
-| [!DNL ebay] | U.S. |
-| [!DNL ESI Media] | U.S. |
-| [!DNL ESPN] | U.S. |
-| [!DNL ESPN Deportes] | U.S. |
-| [!DNL Evite] | U.S. |
-| [!DNL Expedia] | U.S. |
-| [!DNL Forbes] | U.S. |
-| [!DNL Fox] | U.S. |
-| [!DNL Fox Business] | U.S. |
-| [!DNL Fox Deportes] | U.S. |
-| [!DNL Fox Local TV Stations] | U.S. |
-| [!DNL Fox News] | U.S. |
-| [!DNL Fox Sports] | U.S. |
-| [!DNL Freeform] | U.S. |
-| [!DNL Fubo TV] | U.S. |
-| [!DNL Funimation] | U.S. |
-| [!DNL Fuse Media] | U.S. |
-| [!DNL FX] | U.S. |
-| [!DNL Gameloft] | U.S. |
-| [!DNL Gizmodo] | U.S. |
-| [!DNL Hallmark] | U.S. |
-| [!DNL Hearst] | U.S. |
-| [!DNL Hulu] | U.S. |
-| [!DNL iHeart] | U.S. |
-| [!DNL LA Times] | U.S. |
-| [!DNL Lifehacker] | U.S. |
-| [!DNL Meredith] | U.S. |
-| [!DNL MSN] | U.S. |
-| [!DNL National Geographic] | U.S. |
-| [!DNL NBCUniversal] | U.S. |
-| [!DNL New York Post] | U.S. |
-| [!DNL NFL] | U.S. |
-| [!DNL NHL] | U.S. |
-| [!DNL New York Times] | U.S. |
-| [!DNL OWN] | U.S. |
-| [!DNL Penske Media Corporation (PMC)] | U.S. |
-| [!DNL Philo] | U.S. |
-| [!DNL Pluto TV] | U.S. |
-| [!DNL Realtor] | U.S. |
-| [!DNL Redbox] | U.S. |
-| [!DNL Roku] | U.S. |
-| [!DNL Samsung TV Plus] | U.S. |
-| [!DNL Scripps Networks (Discovery)] | U.S. |
-| [!DNL Sinclair Broadcasting Group] | U.S. |
-| [!DNL Sling TV] | U.S. |
-| [!DNL Spotify] | U.S. |
-| [!DNL T Mobile] | U.S. |
-| [!DNL TargetSpot] | U.S. |
-| [!DNL The Business Journals] | U.S. |
-| [!DNL The CW] | U.S. |
-| [!DNL The Guardian] | U.S. |
-| [!DNL The Roku Channel] | U.S. |
-| [!DNL The Takeout] | U.S. |
-| [!DNL The Weather Channel] | U.S. |
-| [!DNL Time Inc] | U.S. |
-| [!DNL TripAdvisor] | U.S. |
-| [!DNL Tronc] | U.S. |
-| [!DNL Trusted Media Brands] | U.S. |
-| [!DNL tubi TV] | U.S. |
-| [!DNL Tunein] | U.S. |
-| [!DNL Turner] | U.S. |
-| [!DNL Twitch] | U.S. |
-| [!DNL U.S. News] | U.S. |
-| [!DNL Univision] | U.S. |
-| [!DNL USA Today] | U.S. |
-| [!DNL USA Today Sports] | U.S. |
-| [!DNL Verizon Media] | U.S. |
-| [!DNL Vevo] | U.S. |
-| [!DNL Viacom] | U.S. |
-| [!DNL Vice] | U.S. |
-| [!DNL VIZIO] | U.S. |
-| [!DNL Vox Media] | U.S. |
-| [!DNL Vudu] | U.S. |
-| [!DNL Wall Street Journal] | U.S. |
-| [!DNL Warner Brothers] | U.S. |
-| [!DNL Washington Post] | U.S. |
-| [!DNL Wayfair] | U.S. |
-| [!DNL WebMD] | U.S. |
-| [!DNL World Surf League] | U.S. |
-| [!DNL Yahoo] | U.S. |
+| [!DNL A+E Networks] | 美國 |
+| [!DNL ABC] | 美國 |
+| [!DNL Accuweather] | 美國 |
+| [!DNL AMC] | 美國 |
+| [!DNL AT&T TV Now] | 美國 |
+| [!DNL BBC] | 美國 |
+| [!DNL Billboard] | 美國 |
+| [!DNL Bloomberg] | 美國 |
+| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | 美國 |
+| [!DNL Business Insider] | 美國 |
+| [!DNL Buzzfeed] | 美國 |
+| [!DNL CBS Interactive] | 美國 |
+| [!DNL CNN International] | 美國 |
+| [!DNL Comcast] | 美國 |
+| [!DNL Comedy Central] | 美國 |
+| [!DNL Complex Networks] | 美國 |
+| [!DNL Conde Nast] | 美國 |
+| [!DNL Crackle] | 美國 |
+| [!DNL Cumulus Media] | 美國 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 美國 |
+| [!DNL Discovery] | 美國 |
+| [!DNL Disney Digital Network] | 美國 |
+| [!DNL Dotdash] （先前為[!DNL About.com]） | 美國 |
+| [!DNL EA] | 美國 |
+| [!DNL ebay] | 美國 |
+| [!DNL ESI Media] | 美國 |
+| [!DNL ESPN] | 美國 |
+| [!DNL ESPN Deportes] | 美國 |
+| [!DNL Evite] | 美國 |
+| [!DNL Expedia] | 美國 |
+| [!DNL Forbes] | 美國 |
+| [!DNL Fox] | 美國 |
+| [!DNL Fox Business] | 美國 |
+| [!DNL Fox Deportes] | 美國 |
+| [!DNL Fox Local TV Stations] | 美國 |
+| [!DNL Fox News] | 美國 |
+| [!DNL Fox Sports] | 美國 |
+| [!DNL Freeform] | 美國 |
+| [!DNL Fubo TV] | 美國 |
+| [!DNL Funimation] | 美國 |
+| [!DNL Fuse Media] | 美國 |
+| [!DNL FX] | 美國 |
+| [!DNL Gameloft] | 美國 |
+| [!DNL Gizmodo] | 美國 |
+| [!DNL Hallmark] | 美國 |
+| [!DNL Hearst] | 美國 |
+| [!DNL Hulu] | 美國 |
+| [!DNL iHeart] | 美國 |
+| [!DNL LA Times] | 美國 |
+| [!DNL Lifehacker] | 美國 |
+| [!DNL Meredith] | 美國 |
+| [!DNL MSN] | 美國 |
+| [!DNL National Geographic] | 美國 |
+| [!DNL NBCUniversal] | 美國 |
+| [!DNL New York Post] | 美國 |
+| [!DNL NFL] | 美國 |
+| [!DNL NHL] | 美國 |
+| [!DNL New York Times] | 美國 |
+| [!DNL OWN] | 美國 |
+| [!DNL Penske Media Corporation (PMC)] | 美國 |
+| [!DNL Philo] | 美國 |
+| [!DNL Pluto TV] | 美國 |
+| [!DNL Realtor] | 美國 |
+| [!DNL Redbox] | 美國 |
+| [!DNL Roku] | 美國 |
+| [!DNL Samsung TV Plus] | 美國 |
+| [!DNL Scripps Networks (Discovery)] | 美國 |
+| [!DNL Sinclair Broadcasting Group] | 美國 |
+| [!DNL Sling TV] | 美國 |
+| [!DNL Spotify] | 美國 |
+| [!DNL T Mobile] | 美國 |
+| [!DNL TargetSpot] | 美國 |
+| [!DNL The Business Journals] | 美國 |
+| [!DNL The CW] | 美國 |
+| [!DNL The Guardian] | 美國 |
+| [!DNL The Roku Channel] | 美國 |
+| [!DNL The Takeout] | 美國 |
+| [!DNL The Weather Channel] | 美國 |
+| [!DNL Time Inc] | 美國 |
+| [!DNL TripAdvisor] | 美國 |
+| [!DNL Tronc] | 美國 |
+| [!DNL Trusted Media Brands] | 美國 |
+| [!DNL tubi TV] | 美國 |
+| [!DNL Tunein] | 美國 |
+| [!DNL Turner] | 美國 |
+| [!DNL Twitch] | 美國 |
+| [!DNL U.S. News] | 美國 |
+| [!DNL Univision] | 美國 |
+| [!DNL USA Today] | 美國 |
+| [!DNL USA Today Sports] | 美國 |
+| [!DNL Verizon Media] | 美國 |
+| [!DNL Vevo] | 美國 |
+| [!DNL Viacom] | 美國 |
+| [!DNL Vice] | 美國 |
+| [!DNL VIZIO] | 美國 |
+| [!DNL Vox Media] | 美國 |
+| [!DNL Vudu] | 美國 |
+| [!DNL Wall Street Journal] | 美國 |
+| [!DNL Warner Brothers] | 美國 |
+| [!DNL Washington Post] | 美國 |
+| [!DNL Wayfair] | 美國 |
+| [!DNL WebMD] | 美國 |
+| [!DNL World Surf League] | 美國 |
+| [!DNL Yahoo] | 美國 |
 
 {style="table-layout:auto"}
 

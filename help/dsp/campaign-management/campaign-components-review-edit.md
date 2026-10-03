@@ -3,22 +3,26 @@ title: 使用Bulksheet檢閱和編輯行銷活動元件設定
 description: 瞭解如何使用試算表大量檢閱和編輯重要套件、位置和廣告設定。
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
+TQID: 'https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # 使用Bulksheet檢閱和編輯行銷活動元件設定
 
 您可以在XLSX （[!DNL Microsoft Excel]試算表）格式的單一行銷活動中下載套件、版位和廣告的設定，以檢閱和編輯設定。 根據預設，下載的檔案&#x200B;*大量表單*&#x200B;包含封裝設定、封裝航班資訊、位置設定和位置廣告排程的個別標籤。 您可以選擇排除某些行銷活動元件型別的設定。

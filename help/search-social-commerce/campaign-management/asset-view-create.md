@@ -1,25 +1,28 @@
 ---
 title: 從您的[!UICONTROL Asset Library]檢視及建立廣告資產
-description: 瞭解如何檢視和建立 [!DNL Google Ads] 和 [!DNL Microsoft Advertising] 帳戶層級資產庫的可重複使用影像、視訊和文字資產。
+description: 瞭解如何為您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產庫檢視及建立可重複使用的影像、視訊和文字資產。
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # 從您的[!UICONTROL Asset Library]檢視及建立廣告資產
 
 *僅適用於[!DNL Google Ads]與[!DNL Microsoft Advertising]帳戶*
 
-在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在您的[!DNL Google Ads]和[!DNL Google Ads]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Microsoft Advertising]使用）文字資產。 您也可以為廣告網路帳戶建立新資產，並將其上傳至廣告網路。
+在[!UICONTROL Campaigns] > [!UICONTROL Asset Library]中，您可以在您的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶層級資產資料庫中檢視所有可重複使用的影像、視訊和（僅限[!DNL Google Ads]使用）文字資產。 您也可以為廣告網路帳戶建立新資產，並將其上傳至廣告網路。
 
 您可以將任何資產用於發揮最大成效的行銷活動。
 
@@ -39,23 +42,23 @@ ht-degree: 0%
 
       * 針對影像資產：
 
-         1. 按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+        1. 按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
 
-            每個影像最大可達10 MB。 您一次最多可以上傳200 MB的影像。
+           每個影像最大可達10 MB。 您一次最多可以上傳200 MB的影像。
 
-         1. 對於每個影像：
+        1. 對於每個影像：
 
-            1. 按一下![裁切](/help/search-social-commerce/assets/crop.png "裁切")。
+           1. 按一下![裁切](/help/search-social-commerce/assets/crop.png "裁切")。
 
-            1. 選取外觀比例。
+           1. 選取外觀比例。
 
-            1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+           1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-            1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+           1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-               系統會為每個選取的外觀比例建立一個資產。
+              系統會為每個選取的外觀比例建立一個資產。
 
-            1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+           1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
       * 若為視訊資產，請輸入長度至少為10秒的[!DNL YouTube]視訊的URL。 若要新增其他視訊資產，請按一下[**+新增**]並輸入其他URL。
 

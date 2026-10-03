@@ -3,23 +3,35 @@ title: 關於您的創意程式庫
 description: 瞭解如何管理廣告體驗的創意內容。
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # 關於您的創意程式庫
 
 您的創意程式庫可讓您管理將在廣告體驗中使用的創意內容。 您可以建立多個程式庫，每個程式庫都包含一組創意和&#x200B;*創意組合*，這些創意組合是您可以以單一單位新增到體驗中的創意群組。
@@ -28,9 +40,9 @@ ht-degree: 0%
 
 * **個別創意：**&#x200B;您可以直接在廣告體驗中包含沒有定義使用者目標的個別創意。 您也可以使用您的創意內容來建立組合，這些組合可包含在鎖定的[廣告體驗](/help/creative/experiences/experience-about.md)中。
 
-   * **標準創意：**&#x200B;您可以上傳和管理[各種格式的創意](#creative-creative-formats)。 針對每個創意內容，指定您與創意內容建立關聯的每個廣告的預設語言，以及使用者按一下包含創意內容的廣告時開啟的預設登陸頁面。 您可以選擇指定標籤，以在[!DNL Creative]內的各種檢視中作為篩選器使用，並在包含使用[!UICONTROL Custom Creative Report]維度時作為[!UICONTROL Creative Label]中的欄值使用。
+  * **標準創意：**&#x200B;您可以上傳和管理[各種格式的創意](#creative-creative-formats)。 針對每個創意內容，指定您與創意內容建立關聯的每個廣告的預設語言，以及使用者按一下包含創意內容的廣告時開啟的預設登陸頁面。 您可以選擇指定標籤，以在[!DNL Creative]內的各種檢視中作為篩選器使用，並在包含使用[!UICONTROL Creative Label]維度時作為[!UICONTROL Custom Creative Report]中的欄值使用。
 
-   * **動態創意：**&#x200B;您可以將廣告範本中的動態變數對應到摘要檔案中的值，藉此建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
+  * **動態創意：**&#x200B;您可以將廣告範本中的動態變數對應到摘要檔案中的值，藉此建立動態產生的創意。 所有使用者都可以預覽、複製和刪除現有的動態廣告。
 
 * **創意組合：**&#x200B;將創意分組為組合，以搭配定義的使用者目標用於多個體驗。 您可以建立包含標準顯示廣告的&#x200B;*標準顯示組合*、包含標準視訊廣告的&#x200B;*標準視訊組合*、包含動態產生顯示廣告的&#x200B;*動態顯示組合*，以及包含動態產生視訊廣告的&#x200B;*動態視訊組合*。
 
@@ -61,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5創意
 
-* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
+* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
 
   匯入GenStudio體驗後，您可以編輯已匯入創意的中繼資料（名稱、語言、標籤），但無法編輯創意內容。 如果您在GenStudio中編輯GenStudio體驗，請在[!DNL Creative]中重新匯入體驗以使用最新版本。
 
@@ -87,7 +99,7 @@ ht-degree: 0%
 
 #### 視訊創意 {#creative-video-specs}
 
-您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[套用至任何視訊廣告體驗標籤。](/help/creative/experiences/experience-tag-video-transcoding.md)
+您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[&#128279;](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
 
 請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
@@ -95,7 +107,7 @@ ht-degree: 0%
 
 **檔案大小：**&#x200B;最大512 MB
 
-**視訊外觀比例：** 16:9， 4:3
+**視訊外觀比例：** 16:9、4:3
 
 **視訊解析度：** 640x360 (360p)、1280x720 (720p)、1920x1080 (1080p)
 
@@ -147,11 +159,11 @@ ht-degree: 0%
 
 * 對於每個創意內容庫：
 
-   * [編輯程式庫名稱](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [編輯程式庫名稱](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]檢視
 
@@ -179,7 +191,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[索引標籤](creative-delete.md)手動刪除[!UICONTROL Dynamic Ads]的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
+[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[!UICONTROL Dynamic Ads]索引標籤[手動刪除](creative-delete.md)的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
 
 每個創意的資料包括創意型別、創意大小、創意所屬的目錄數量和建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
 

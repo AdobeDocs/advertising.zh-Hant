@@ -3,18 +3,24 @@ title: 將動態創意內容新增至創意內容庫
 description: 瞭解如何將動態創意內容新增至創意內容庫。
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-TQID: https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws
+TQID: 'https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # 將動態創意內容新增至創意內容庫
 
 將動態創意內容新增至您的[創意程式庫](creative-library-manage.md)，以搭配動態[廣告體驗](/help/creative/experiences/experience-about.md)使用。 您可以從單一廣告範本建立單一靜態HTML5廣告或動態HTML5廣告。 對於動態HTML5廣告，請在從摘要檔案建立的指定目錄中使用資產。
@@ -52,17 +58,17 @@ ht-degree: 0%
 
    * 從創意內容庫：
 
-      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
-      1. 按一下程式庫名稱。
+     1. 按一下程式庫名稱。
 
-      1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**。
 
    * 從廣告範本：
 
-      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**。
 
-      1. 將游標停留在廣告範本列上，然後按一下&#x200B;**[!UICONTROL Create Dynamic Ad]**。
+     1. 將游標停留在廣告範本列上，然後按一下&#x200B;**[!UICONTROL Create Dynamic Ad]**。
 
 1. 指定[動態廣告設定](/help/creative/creative-libraries/creative-settings-dynamic.md)：
 
@@ -90,11 +96,11 @@ ht-degree: 0%
 
       * 變更內容：
 
-         * （僅顯示廣告）若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
+        * （僅顯示廣告）若要編輯表格中儲存格的值，請按一下儲存格內部並編輯值。 按一下儲存格外部或按&#x200B;**[!DNL Enter]**&#x200B;鍵以儲存變更。
 
-         * 若要將單一產品標示為預設<!--Explain what this means. -->，請將游標停留在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
+        * 若要將單一產品標示為預設<!--Explain what this means. -->，請將游標停留在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Set as Default]**。
 
-         * （當廣告包含多個選件時）若要將多個產品標示為預設值，請選取列（最多包含選件數）並按一下大量動作工具列中的&#x200B;**[!UICONTROL Set as Default]**。
+        * （當廣告包含多個選件時）若要將多個產品標示為預設值，請選取列（最多包含選件數）並按一下大量動作工具列中的&#x200B;**[!UICONTROL Set as Default]**。
 
       * 若要從目錄刪除產品，請將游標放在資料列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete Row]**。
 
@@ -104,11 +110,11 @@ ht-degree: 0%
 
    * 若要儲存廣告並將其新增至資料庫中的[創意組合](/help/creative/creative-libraries/bundle-manage.md)：
 
-      1. 按一下&#x200B;**[!UICONTROL Save and Attach to Bundle]**。
+     1. 按一下&#x200B;**[!UICONTROL Save and Attach to Bundle]**。
 
-      1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以儲存廣告。
+     1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以儲存廣告。
 
-      1. 選取組合，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
+     1. 選取組合，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundles]**。
 
    * 若要儲存廣告並結束設定，請按一下&#x200B;**[!UICONTROL Save]**，然後再按一下&#x200B;**[!UICONTROL Save]**。
 

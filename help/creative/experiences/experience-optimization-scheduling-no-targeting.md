@@ -3,22 +3,29 @@ title: 自訂體驗的創意最佳化和排程
 description: 瞭解如何在不鎖定目標的情況下為體驗設定最佳化和廣告排程。
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-TQID: https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw
+TQID: 'https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1191'
 ht-degree: 0%
-
 ---
-
 # 針對沒有決策樹定位的體驗自訂創意最佳化和排程
 
 *僅使用現有創意的體驗*
@@ -55,17 +62,17 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的目標，更頻繁地顯示最有效的廣告變體。
 
-      * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。
+     * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。
 
    * *[!UICONTROL Sequencing]：*&#x200B;以指定順序顯示關聯的創意組合（先提供組合1，再提供組合2，依此類推），以及每個組合順序中的指定曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以在組合1中顯示三(3)次曝光的任何廣告變體，然後在組合2中顯示一(1)次曝光的任何廣告變體，然後在組合3中顯示兩(2)次曝光的任何廣告變體，然後重新開始回圈。 或者，一旦顯示組合3中的廣告變體，您就可以繼續無限期地顯示組合3中的廣告變體，而不是建立回圈。 啟用排序時：
 
-      1. 將指派的組合拖放至所需的順序。
+     1. 將指派的組合拖放至所需的順序。
 
      依預設，指派的組合會依照其加入體驗的順序排序。
 
-      1. 輸入每個序列的曝光次數。
+     1. 輸入每個序列的曝光次數。
 
-      1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
+     1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -99,17 +106,17 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
-         * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+        * 針對&#x200B;**[!UICONTROL Optimization Goal]**，選取&#x200B;*[!UICONTROL Click Through Rate]*、（標準視訊廣告體驗） *[!UICONTROL Completion Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
       * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合（先提供組合1，再提供組合2，依此類推），並指定各組合順序的曝光總數。 提供的廣告大小由可用詳細目錄決定。 您可以將序列中的最後一個束配置為a\)無限顯示（預設值）或b\)回圈顯示到第一個束。 例如，您可以針對三(3)次曝光在組合1中顯示任何創意，然後針對一(1)次曝光在組合2中顯示任何創意，接著針對兩(2)次曝光在組合3中顯示任何創意，然後再次開始回圈。 或者，一旦「束3」中的創意顯示出來，您就可以繼續無限期地在「束3」中顯示這些創意，而不是建立一個回圈。 啟用排序時：
 
-         1. 將指派的組合拖放至所需的順序。
+        1. 將指派的組合拖放至所需的順序。
 
-            依預設，指派的組合會依照其加入體驗的順序排序。
+           依預設，指派的組合會依照其加入體驗的順序排序。
 
-         1. 輸入每個序列的曝光次數。
+        1. 輸入每個序列的曝光次數。
 
-         1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
+        1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
 
 1. 對於每個額外的排程：
 
@@ -125,17 +132,17 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]：*&#x200B;根據指定的最佳化目標以演演算法方式旋轉創意。
 
-         * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
+        * 針對&#x200B;**[!UICONTROL Optimization Goal]**，請選取&#x200B;*[!UICONTROL Click Through Rate]*&#x200B;或&#x200B;*[!UICONTROL Custom Objective]*。  如果您選取&#x200B;*[!UICONTROL Custom Objective]*，則請選取現有的[Advertising DSP自訂目標](/help/dsp/optimization/custom-goal.md)。<!-- Verify -->
 
       * *[!UICONTROL Sequencing]：*&#x200B;以指定的順序旋轉關聯的創意組合，每個組合順序具有指定的曝光總數。 啟用排序時：
 
-         1. 將指派的組合拖放至所需的順序。
+        1. 將指派的組合拖放至所需的順序。
 
-            依預設，指派的組合會依照其加入體驗的順序排序。
+           依預設，指派的組合會依照其加入體驗的順序排序。
 
-         1. 輸入每個序列的曝光次數。
+        1. 輸入每個序列的曝光次數。
 
-         1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
+        1. 對於最後一個序列，將是否變更為a\)無限期地顯示序列中的最後一個束(*[!UICONTROL Infinite]* （預設值）或b\)回圈到顯示最後一個束(*[!UICONTROL Keep in Loop]*)之後的第一個束。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

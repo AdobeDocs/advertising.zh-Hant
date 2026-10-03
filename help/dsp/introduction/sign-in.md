@@ -3,23 +3,28 @@ title: 登入DSP
 description: 瞭解如何登入DSP。
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
+TQID: 'https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # 登入Adobe Advertising DSP
 
 Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS使用Federated ID為所有支援IMS的[!DNL Adobe]產品提供單一登入(SSO)存取，包括Real-Time Customer Data Platform、Customer Journey Analytics、[!DNL Target]和[!DNL Analytics]。 隨著變更：
@@ -42,44 +47,44 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
    * 移至[advertising.adobe.com](https://advertising.adobe.com)。 在&quot;[!UICONTROL Sign in with the Adobe Experience Cloud account]&quot;下，按一下&#x200B;**[!UICONTROL Continue]**。
 
-   * Go to [experience.adobe.com](https://experience.adobe.com).
+   * 移至[experience.adobe.com](https://experience.adobe.com)。
 
-1. Enter your credentials:
+1. 輸入您的認證：
 
-   * If you already use an [!DNL Adobe] account, then sign in with your existing credentials.
+   * 如果您已經使用[!DNL Adobe]帳戶，請使用現有的認證登入。
 
-   * If you don&#39;t have an [!DNL Adobe] account, then look for an email inviting you to create an [!DNL Adobe] account. You&#39;ll receive one invitation for each of your DSP accounts. Follow the link in the email to set up your credentials. If you have multiple DSP accounts, follow the instructions to link them.
+   * 如果您沒有[!DNL Adobe]帳戶，請尋找電子郵件邀請您建立[!DNL Adobe]帳戶。 您將收到每個DSP帳戶的一個邀請。 請依照電子郵件中的連結來設定您的認證。 如果您有多個DSP帳戶，請依照指示連結它們。
 
-1. Choose your organization:
+1. 選擇您的組織：
 
-   * If prompted, select either **[!UICONTROL Personal Account]&quot; or &#x200B;** [!UICONTROL Company or School Account]**.
+   * 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**。
 
-   * If you have access to multiple IMS organizations, select the correct one.
+   * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 
 如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[CX Enterprise介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
 
 ### 疑難排解
 
-For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/tw/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+如需瞭解一般登入問題，另請參閱[解決Adobe帳戶登入問題](https://helpx.adobe.com/tw/manage-account/kb/account-password-sign-help.linkfree.html)。
 
-#### Are there any prerequisites to enable a new [!DNL Adobe] IMS login?
+#### 啟用新的[!DNL Adobe] IMS登入是否有任何先決條件？
 
-To add a new login account, share the email address with your Adobe Account Team. The team will add your address to the user list for the IMS organization to which DSP has been provisioned.
+若要新增登入帳戶，請與您的Adobe帳戶團隊共用電子郵件地址。 團隊會將您的地址新增至已布建DSP的IMS組織的使用者清單。
 
-In the meanwhile, the user can continue to use their legacy DSP credentials.
+同時，使用者可以繼續使用其舊的DSP憑證。
 
-#### After signing in using an Adobe IMS account, I&#39;m redirected back to the adobe.advertising.com login page.
+#### 使用Adobe IMS帳戶登入後，系統會將我重新導向回adobe.advertising.com登入頁面。
 
-Check with your IMS organization administrator that the email you are using was added to the IMS organization. If the administrator confirms that you are added to the IMS organization, then ask your Adobe Account Team to provision your account to use DSP.
+請洽詢您的IMS組織管理員，確認您使用的電子郵件已新增至IMS組織。 如果管理員確認您已新增至IMS組織，請要求您的Adobe帳戶團隊布建您的帳戶以使用DSP。
 
-In the meanwhile, you can continue to use your legacy DSP credentials.
+在此期間，您可以繼續使用舊版DSP憑證。
 
-#### I signed in using an incorrect email address, which signed me into [!DNL Adobe] but doesn&#39;t provide DSP access.
+#### 我使用不正確的電子郵件地址登入，該地址讓我登入[!DNL Adobe]，但不提供DSP存取權。
 
-1. Go to [experience.adobe.com](https://experience.adobe.com) and sign out.
+1. 移至[experience.adobe.com](https://experience.adobe.com)並登出。
 
-1. Go to [advertising.adobe.com](https://advertising.adobe.com) and sign in with the correct email ID.
+1. 移至[advertising.adobe.com](https://advertising.adobe.com)，並使用正確的電子郵件識別碼登入。
 
-#### My [!DNL Adobe] IMS account and DSP account are registered with different emails. How do I sign in using my [!DNL Adobe] IMS account?
+#### 我的[!DNL Adobe] IMS帳戶和DSP帳戶已註冊不同的電子郵件。 我該如何使用我的[!DNL Adobe] IMS帳戶登入？
 
 請您的Adobe帳戶團隊布建現有的[!DNL Adobe] IMS帳戶，以使用DSP。

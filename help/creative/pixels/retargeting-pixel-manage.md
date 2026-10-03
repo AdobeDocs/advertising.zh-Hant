@@ -3,27 +3,33 @@ title: 管理重新目標畫素
 description: 瞭解如何建立並實作重新定位畫素，以作為廣告體驗的目標。
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # 管理重新目標畫素
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 您可以建立重新定位畫素，以識別使用使用者Cookie或通用ID進入廣告商登陸頁面或轉換頁面的訪客。 畫素會追蹤訪客在頁面上執行的最新事件，並擷取頁面正在追蹤這些訪客的特定屬性。 建立畫素之後，產生畫素標籤以插入相關網頁，開始追蹤訪客。<!-- Note to self: surfer id=cookie or universal ID -->
 
-然後您可以使用畫素做為廣告體驗中任何創意的目標，以只向具有指定屬性的使用者顯示廣告，這些使用者先前造訪過與畫素關聯的網頁。 例如，如果網頁追蹤這些屬性值，您可以鎖定看過10號紅色鞋子的訪客。<!-- better example? Make sure they match attribute examples below -->體驗層級目標會與您的DSP鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。
+然後您可以使用畫素做為廣告體驗中任何創意的目標，以只向具有指定屬性的使用者顯示廣告，這些使用者先前造訪過與畫素關聯的網頁。 例如，如果網頁追蹤這些屬性值，您可以鎖定看過10號紅色鞋子的訪客。<!-- better example? Make sure they match attribute examples below --> 體驗層級目標會與DSP的鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。
 
 重新目標定位設定檔會儲存180天。
 
@@ -80,7 +86,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Copy to Clipboard]**&#x200B;將標籤複製到電腦的剪貼簿，您可以將文字貼到檔案中儲存。
 
-1. 在畫素標籤中，將「`<img src>`」替換為值，以指定`<script src>`和`Insert <attribute>`區段中每個屬性的值。 如果標籤擷取通用ID，請指定ID5合作夥伴ID。
+1. 在畫素標籤中，將「`Insert <attribute>`」替換為值，以指定`<img src>`和`<script src>`區段中每個屬性的值。 如果標籤擷取通用ID，請指定ID5合作夥伴ID。
 
    如果您手動新增其他屬性，請包含URL編碼。
 

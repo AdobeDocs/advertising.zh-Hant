@@ -2,13 +2,19 @@
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # 廣告商帳戶設定
 
 *不適用於唯讀使用者*
@@ -31,11 +37,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-使用其他Adobe CX Enterprise產品的廣告商，可以使用組織的CX Enterprise唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
+使用其他Adobe CX Enterprise產品的廣告商，可以使用組織在CX Enterprise中使用的唯一ID，在某些產品間共用資料。 您可以在[!UICONTROL Integrations]區段中設定特定的產品整合。
 
-**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他CX Enterprise產品，這些產品是透過具有多個廣告商的CX Enterprise帳戶所授權；選擇性）廣告商的CX Enterprise組織ID。
+**[!UICONTROL Account IMS org and ID]：** （廣告商具有其他CX Enterprise產品，這些產品是透過具有多個廣告商的CX Enterprise帳戶所授權；選用）廣告商的CX Enterprise組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise產品直接授權的廣告商；選擇性）廣告商的CX Enterprise組織ID。
+**[!UICONTROL Advertiser IMS org and ID]：** （具有其他CX Enterprise產品的直接授權的廣告商；選擇性）廣告商的CX Enterprise組織ID。
 
 ### [!UICONTROL Integrations]
 

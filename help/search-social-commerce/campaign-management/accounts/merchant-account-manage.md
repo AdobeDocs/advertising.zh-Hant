@@ -3,23 +3,26 @@ title: 管理商家帳戶
 description: 瞭解如何設定及管理商戶中心帳戶的帳戶詳細資料。
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+TQID: 'https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 789
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # 管理商家帳戶
 
 *僅限代理商帳戶管理員、Adobe帳戶管理員和系統管理員使用者角色*
 
-搜尋、社交和Commerce每天都可以下載並顯示廣告商的Google商家中心或Microsoft商家中心帳戶的產品資料。 此外，搜尋、Social和Commerce可以根據商家帳戶的內容自動建立廣告。若要直接在Search、Social和Commerce中處理產品資料，您必須建立包含帳戶存取認證且啟用&#x200B;*存取權的對應帳戶記錄*。
+搜尋、社交和Commerce每天都可以下載並顯示廣告商的Google商家中心或Microsoft商家中心帳戶的產品資料。 此外，搜尋、Social和Commerce可以根據商家帳戶的內容自動建立廣告。若要直接在Search、Social和Commerce中處理產品資料，您必須建立包含帳戶存取認證且啟用&#x200B;*存取權*&#x200B;的對應帳戶記錄。
 
 >[!NOTE]
 >
@@ -67,7 +70,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-   下次進行每日同步程式後，可在Search、Social和Commerce中取得帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
+   下次進行每日同步程式後，可在Search、Social和Commerce中使用帳戶中所有產品的屬性資料（大約使用者當地時區的06:00）。 然後，您可以使用產品資料，使用詳細目錄摘要來自動化廣告建立。
 
 ## 編輯商家帳戶詳細資料 {#edit-merchant-account}
 
@@ -89,7 +92,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->搜尋、Social和Commerce必須將新帳戶資料與商家網路上的資料同步。 這會在使用者當地時區的大約06:00每天自動發生一次。
+>搜尋、Social和Commerce必須將新帳戶資料與商家網路上的資料同步。 這會在使用者的當地時區中每天大約06:00自動發生一次。
 
 ## 停用對商家帳戶的存取權 {#disable-merchant-account}
 

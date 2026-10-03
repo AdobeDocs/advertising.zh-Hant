@@ -3,27 +3,35 @@ title: 支援啟用通用ID
 description: 瞭解匯入通用ID區段、建立自訂區段以追蹤通用ID以及將第一方區段中的其他使用者識別碼轉換為通用ID以進行無cookie定位的相關支援。
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # 支援啟用通用ID
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -34,7 +42,7 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 * DSP可以內嵌您客戶資料平台(CDP)內建的第一方區段，並將其轉換為[!DNL LiveRamp] [!DNL RampIDs]和[!DNL Unified ID 2.0 (UID2.0)] ID。 如需關於支援的客戶資料平台和使用者識別碼型別、每個支援的通用ID型別的可用功能及相關工作流程的詳細資訊，請參閱[關於第一方對象來源](/help/dsp/audiences/sources/source-about.md)。
 
-* 澳洲的廣告商可以使用[!UICONTROL AdFixus ID]對象來源匯入包含[!DNL AdFixus]通用ID的第一方區段。 DSP無法在[!DNL AdFixus] ID與其他通用ID型別之間轉換。 請參閱「從 [!DNL AdFixus] [&#128279;](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」。
+* 澳洲的廣告商可以使用[!UICONTROL AdFixus ID]對象來源匯入包含[!DNL AdFixus]通用ID的第一方區段。 DSP無法在[!DNL AdFixus] ID與其他通用ID型別之間轉換。 請參閱「從 [!DNL AdFixus]&#x200B;[&#128279;](/help/dsp/audiences/sources/source-adfixus.md)匯入第一方區段」。
 
 * 您可以建立自訂區段，以追蹤哪些使用者與ID5通用ID相關聯，且接觸到桌上型電腦和行動裝置上的廣告，以及造訪特定網頁。 ID5會使用機率模型來指派衍生自各種使用者訊號和瀏覽器訊號的ID。 如需指示，請參閱&quot;[建立及實作自訂區段](/help/dsp/audiences/custom-segment-create.md)&quot;。
 
@@ -94,19 +102,19 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 * 複製原始套件和刊登版位、根據測試大小調整預算、將對象變更為使用[!DNL RampID]型區段（適用於已驗證的使用者）或ID5型區段（適用於未驗證的使用者），以及驗證新套件和刊登版位是否花費其完整預算。
 
-   * 若要比較通用ID型區段的效能，與鎖定其他受眾識別碼（例如Cookie或行動廣告ID）之刊登版位的效能，請建立具有個別通用ID型刊登版位和舊版ID型刊登版位的行銷活動。
+  * 若要比較通用ID型區段的效能，與鎖定其他受眾識別碼（例如Cookie或行動廣告ID）之刊登版位的效能，請建立具有個別通用ID型刊登版位和舊版ID型刊登版位的行銷活動。
 
-     若要進行完整的重新鎖定目標測試，請同時鎖定已驗證使用者的RampID和未驗證使用者的ID5。
+    若要進行完整的重新鎖定目標測試，請同時鎖定已驗證使用者的RampID和未驗證使用者的ID5。
 
-     取得最佳效能不應是主要比較。 而是要判斷哪些ID的規模良好，這可能會在稍後通知您的最佳化和預算分配。 長期目標是要彌補在Cookie淘汰時遺失的曝光次數和網站流量。
+    取得最佳效能不應是主要比較。 而是要判斷哪些ID的規模良好，這可能會在稍後通知您的最佳化和預算分配。 長期目標是要彌補在Cookie淘汰時遺失的曝光次數和網站流量。
 
-   * 若要比較瀏覽器的總觸及率，請在相同位置鎖定通用ID型區段和舊有以ID型區段。 使用與上一個使用案例相同的行銷活動設定，除了您不需要分割行銷活動預算。
+  * 若要比較瀏覽器的總觸及率，請在相同位置鎖定通用ID型區段和舊有以ID型區段。 使用與上一個使用案例相同的行銷活動設定，除了您不需要分割行銷活動預算。
 
-     通用ID會獲得競標偏好設定，但舊有ID會在無法使用通用ID時收到競標。 請務必比較不同瀏覽器（包括Chrome、Safari和Mozilla）中的觸及率。
+    通用ID會獲得競標偏好設定，但舊有ID會在無法使用通用ID時收到競標。 請務必比較不同瀏覽器（包括Chrome、Safari和Mozilla）中的觸及率。
 
-     >[!NOTE]
-     >
-     >頻率上限適用於個別ID。 當使用者有多種ID型別時，您接觸該使用者的次數可能會超出您的預期。
+    >[!NOTE]
+    >
+    >頻率上限適用於個別ID。 當使用者有多種ID型別時，您接觸該使用者的次數可能會超出您的預期。
 
 * 請記住，已驗證身分的受眾區段的觸及率自然會小於Cookie型區段的觸及率，而使用其他鎖定目標選項會進一步減少您的觸及率。 謹慎使用精細鎖定目標，尤其是使用AND陳述式連結多個目標。
 
@@ -128,11 +136,11 @@ DSP支援以人物為基礎的通用ID，以用於DSP所支援數位格式的無
 
 * 已轉譯為[!DNL RampIDs]的雜湊電子郵件ID：
 
-   * 當多個設定檔使用相同的電子郵件ID時，DSP區段計數可能會低於客戶資料平台內的設定檔計數。 例如，在Adobe Photoshop中，您可以使用單一電子郵件ID建立公司帳戶和個人帳戶。 但如果兩個設定檔都屬於同一個使用者，則設定檔會對應至一個電子郵件ID，並對應至一個[!DNL RampID]。
+  * 當多個設定檔使用相同的電子郵件ID時，DSP區段計數可能會低於客戶資料平台內的設定檔計數。 例如，在Adobe Photoshop中，您可以使用單一電子郵件ID建立公司帳戶和個人帳戶。 但如果兩個設定檔都屬於同一個使用者，則設定檔會對應至一個電子郵件ID，並對應至一個[!DNL RampID]。
 
-   * [!DNL RampID]可以升級為新值。 如果[!DNL LiveRamp]無法辨識電子郵件ID或無法將其對應至其資料庫中的現有[!DNL RampID]，則會指派新的[!DNL RampID]給電子郵件ID。 未來當他們可以將電子郵件ID對應到另一個[!DNL RampID]或收集有關相同電子郵件ID的更多資訊時，他們就會將[!DNL RampID]升級為新值。 [!DNL LiveRamp]參考此動作為從「衍生」[!DNL RampID]升級至「維護」[!DNL RampID]。 不過，DSP無法在衍生與維護的[!DNL RampIDs]之間取得對應，因此無法從DSP區段中移除舊版的RampID。 在這種情況下，區段計數可以大於設定檔計數。
+  * [!DNL RampID]可以升級為新值。 如果[!DNL LiveRamp]無法辨識電子郵件ID或無法將其對應至其資料庫中的現有[!DNL RampID]，則會指派新的[!DNL RampID]給電子郵件ID。 未來當他們可以將電子郵件ID對應到另一個[!DNL RampID]或收集有關相同電子郵件ID的更多資訊時，他們就會將[!DNL RampID]升級為新值。 [!DNL LiveRamp]參考此動作為從「衍生」[!DNL RampID]升級至「維護」[!DNL RampID]。 不過，DSP無法在衍生與維護的[!DNL RampIDs]之間取得對應，因此無法從DSP區段中移除舊版的RampID。 在這種情況下，區段計數可以大於設定檔計數。
 
-     範例：使用者登入[!DNL Adobe]網站並造訪Photoshop頁面。 如果[!DNL LiveRamp]沒有任何關於電子郵件ID的現有資訊，則會指派衍生[!DNL RampID]，例如D123。 15天後，使用者造訪了相同頁面，但[!DNL LiveRamp]在這15天內升級了[!DNL RampID]，並將[!DNL RampID]重新指派為M123。 即使客戶資料平台的「Photoshop Enthusiast」區段只有使用者的一個電子郵件ID，DSP區段還是有兩個RampID：D123和M123。
+    範例：使用者登入[!DNL Adobe]網站並造訪Photoshop頁面。 如果[!DNL LiveRamp]沒有任何關於電子郵件ID的現有資訊，則會指派衍生[!DNL RampID]，例如D123。 15天後，使用者造訪了相同頁面，但[!DNL LiveRamp]在這15天內升級了[!DNL RampID]，並將[!DNL RampID]重新指派為M123。 即使客戶資料平台的「Photoshop Enthusiast」區段只有使用者的一個電子郵件ID，DSP區段還是有兩個RampID：D123和M123。
 
 ## 疑難排解
 

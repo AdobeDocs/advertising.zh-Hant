@@ -2,13 +2,21 @@
 title: 基本和進階報表設定
 description: 瞭解基本和進階報告的必要和選用設定。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3691'
 ht-degree: 0%
-
 ---
-
 # 基本和進階報表設定
 
 報表設定會依報表型別而異。 以下是所有可用的設定。
@@ -46,8 +54,8 @@ ht-degree: 0%
 |  | [!UICONTROL Discrete columns for click & view-through conversions] | （只有[!UICONTROL Conversion Attribution]設定為&quot;[!UICONTROL Clicks + View-throughs]&quot;的報告）針對您納入的每個轉換型別，包含三個個別的欄：1個各一個)點進轉換，加上&quot;[!UICONTROL (CT)]&quot;、2)檢視轉換，加上&quot;[!UICONTROL (VT)]&quot;、3)以及所有轉換，加上&quot;[!UICONTROL (CT+VT)]&quot;。 選擇此選項時，請從[!UICONTROL Filter & sort using]清單中選取要用於篩選和排序的三個資料欄之一： <i>[!UICONTROL click]</i> （預設值）、<i>[!UICONTROL view-through]</i>或<i>[!UICONTROL click + view-through]</i>。<br><br><b>注意：</b>搜尋促銷活動的轉換會顯示在點進的資料欄中，而非檢視轉換的資料欄。 |
 |  | [!UICONTROL Discrete columns for cross device conversions] | 已過時 |
 | [!UICONTROL Scheduling] | [!UICONTROL Frequency] | （只有在選取&#39;&#39;[!UICONTROL Save as template]&#39;&#39;選項時才能編輯；否則設為&#39;&#39;[!UICONTROL Now]&#39;&#39;）何時執行報告： <i>[!UICONTROL Now]</i> （執行報告一次；預設）、<i>[!UICONTROL Daily]</i>、<i>[!UICONTROL Weekly on] [週日]</i>，或<i>[!UICONTROL Every Month] [月]</i>。 針對<i>[!UICONTROL Now]</i>以外的所有時段，選取廣告商時區中的小時，從09:00 AM開始。 |
-|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Reports]的電子郵件通知在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的Registered Search、Social和Commerce使用者。 依預設，會選取使用者帳戶的名稱。 可選擇新增或移除有權存取廣告商資料的使用者。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
-|  | [!UICONTROL Email Notification Format] | <b>注意：</b>只有在[!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
+|  | [!UICONTROL Email Recipients] | <b>注意：</b>只有在[!UICONTROL Reports]的電子郵件通知在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用時，才會使用此設定。<br><br>當報告完成或因錯誤而取消時，要傳送通知的Registered Search、Social和Commerce使用者。 依預設，會選取使用者帳戶的名稱。 可選擇新增或移除有權存取廣告商資料的使用者。 如果報表被排程重複執行，則每次完成報表時都會傳送通知。 |
+|  | [!UICONTROL Email Notification Format] | <b>注意：</b>只有在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md)內啟用[!UICONTROL Reports]的電子郵件通知時，才會使用此設定。<br><br> （指定[!UICONTROL Email Recipients]時）要包含在任何指定地址的電子郵件通知中：<ul><li><i>[!UICONTROL Notification Only]</i> （預設值）：只傳送報告完成或失敗的通知，不帶附件。 通知包含所有報表格式的暫時下載連結。</li><li><i>[!UICONTROL XLS Attachment]：</i>若要在檔案小於約10 MB時包含XLS格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL TSV Attachment]：</i>若要在檔案小於約10 MB時包含TSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。</li><li><i>[!UICONTROL CSV Attachment]：</i>若要在檔案小於10 MB時加入CSV格式的已完成報表復本。 超過1 MB的檔案會經過壓縮。 |
 
 >[!MORELIKETHIS]
 >

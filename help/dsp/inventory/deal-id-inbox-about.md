@@ -1,28 +1,35 @@
 ---
 title: 關於[!UICONTROL Deal ID Inbox]
-description: 瞭解[!UICONTROL Deal ID Inbox]功能，此功能可讓您接受已在 [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (先前稱為 [!DNL AdX]), and [!DNL Magnite DV+]  （先前稱為 [!DNL Rubicon]）上與發佈者協商的私人交易。
+description: 瞭解[!UICONTROL Deal ID Inbox]功能，該功能可讓您接受已經與發佈者在[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）和[!DNL Magnite DV+] （先前稱為[!DNL Rubicon]）交涉的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-TQID: https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI
+TQID: 'https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # 關於[!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID Inbox]可讓您快速設定DSP透過供應端平台(SSP)從發佈者匯入的交易，因此您不必手動設定每個交易。 您可以接受已經與[!DNL FreeWheel]的[!DNL Google Authorized Buyers]、[!DNL AdX] （先前稱為[!DNL Magnite DV+]）和[!DNL Rubicon] （先前稱為[!UICONTROL Deal ID Inbox]）發行者交涉的已保證和未保證私人詳細目錄交易。
+Advertising DSP [!UICONTROL Deal ID Inbox]可讓您快速設定DSP透過供應端平台(SSP)從發佈者匯入的交易，因此您不必手動設定每個交易。 您可以接受已經與[!UICONTROL Deal ID Inbox]的[!DNL FreeWheel]、[!DNL Google Authorized Buyers] （先前稱為[!DNL AdX]）和[!DNL Magnite DV+] （先前稱為[!DNL Rubicon]）發行者交涉的已保證和未保證私人詳細目錄交易。
 
 >[!NOTE]
 >
@@ -46,7 +53,7 @@ DSP每天凌晨4:30 （東部標準時間）自動重新整理所有交易詳細
 
 >[!NOTE]
 >
->對於透過[!DNL Google Authorized Buyers]的程式化預留交易，您必須提供至少90%的預算，否則您的帳戶將無法存取[!DNL Google]中的[!UICONTROL Deal ID Inbox]交易。
+>對於透過[!DNL Google Authorized Buyers]的程式化預留交易，您必須提供至少90%的預算，否則您的帳戶將無法存取[!UICONTROL Deal ID Inbox]中的[!DNL Google]交易。
 
 ## 實作[!UICONTROL Deal ID Inbox]
 
@@ -60,9 +67,9 @@ DSP每天凌晨4:30 （東部標準時間）自動重新整理所有交易詳細
 
 * 在檢閱後&#x200B;**接受交易**，這些交易不再出現在[!UICONTROL Deal ID Inbox]中。 接受的交易列在[!UICONTROL Inventory] > [!UICONTROL Deals]中，並準備在廣告商的位置中鎖定目標。
 
-* **忽略不需要或未經請求的交易**。 已忽略的交易會移至[!UICONTROL Ignored Deals]內的[!UICONTROL Deal ID Inbox]索引標籤（作為封存）。 當您忽略交易時，DSP不會提醒SSP和發佈者。
+* **忽略不需要或未經請求的交易**。 已忽略的交易會移至[!UICONTROL Deal ID Inbox]內的[!UICONTROL Ignored Deals]索引標籤（作為封存）。 當您忽略交易時，DSP不會提醒SSP和發佈者。
 
-* 從&#x200B;**>** （不在[!UICONTROL Inventory]中）修改已接受交易的詳細資料[!UICONTROL Deals]。 [!UICONTROL Deal ID Inbox]同樣地，當發佈者傳送變更至交易時，廣告商有責任在[!UICONTROL Inventory] > [!UICONTROL Deals]中實作這些變更，因為[!UICONTROL Deal ID Inbox]在交易設定後不會同步處理來自SSP的變更。
+* 從[!UICONTROL Inventory] > [!UICONTROL Deals] （不在[!UICONTROL Deal ID Inbox]中）修改已接受交易的詳細資料&#x200B;**。**&#x200B;同樣地，當發佈者傳送變更至交易時，廣告商有責任在[!UICONTROL Inventory] > [!UICONTROL Deals]中實作這些變更，因為[!UICONTROL Deal ID Inbox]在交易設定後不會同步處理來自SSP的變更。
 
 ## 無法接受哪些型別的交易？
 
@@ -70,9 +77,9 @@ DSP每天凌晨4:30 （東部標準時間）自動重新整理所有交易詳細
 
 您無法接受下列交易型別：
 
-* [!DNL Google]個非美元交易。
+* [!DNL Google]個不在USD中的交易。
 
-* [!DNL Magnite DV+]個非美元交易
+* [!DNL Magnite DV+]個不在USD中的交易
 
 * [!DNL FreeWheel]個非您帳戶貨幣的交易。
 

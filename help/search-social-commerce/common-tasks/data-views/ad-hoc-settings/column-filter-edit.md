@@ -3,18 +3,23 @@ title: 編輯欄篩選器
 description: 瞭解如何編輯欄篩選器。
 exl-id: 68f816ea-cde2-4df0-b46c-f47fa20a2727
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/BeMoK7e--CoIqQDg364E9nnb28nGDYwP6YaKu3swzHY
+TQID: 'https://experienceleague.adobe.com/BeMoK7e--CoIqQDg364E9nnb28nGDYwP6YaKu3swzHY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '588'
 ht-degree: 0%
-
 ---
-
 # 編輯欄篩選器
 
 <!-- Doesn't include instructions for legacy Portfolios view; not available in Reports views -->
@@ -27,21 +32,21 @@ ht-degree: 0%
 
    * 若要新增篩選器，請按一下&#x200B;**[!UICONTROL ADD FILTER]**，然後執行下列動作：
 
-      1. （選擇性）若要依文字字串篩選欄名稱，請在&#x200B;**[!UICONTROL ADD FILTER]**&#x200B;輸入欄位中輸入搜尋字串。
+     1. （選擇性）若要依文字字串篩選欄名稱，請在&#x200B;**[!UICONTROL ADD FILTER]**&#x200B;輸入欄位中輸入搜尋字串。
 
-      1. 從欄功能表中選取欄名稱。
+     1. 從欄功能表中選取欄名稱。
 
-      1. 在欄上定義篩選器：
+     1. 在欄上定義篩選器：
 
-         * （沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。
+        * （沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。
 
-         * （具有輸入欄位的篩選器）從第二個功能表選取運運算元，然後輸入適用的值。
+        * （具有輸入欄位的篩選器）從第二個功能表選取運運算元，然後輸入適用的值。
 
-           例如，如果您已選取&quot;[!UICONTROL Clicks]&quot;欄，且只想傳回點按超過100次的列，則選取「*[!UICONTROL greater than]*」並在輸入欄位中輸入`100`。
+          例如，如果您已選取&quot;[!UICONTROL Clicks]&quot;欄，且只想傳回點按超過100次的列，則選取「*[!UICONTROL greater than]*」並在輸入欄位中輸入`100`。
 
-           根據資料型別，可用的運運算元可能包括&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;或&#x200B;*[!UICONTROL no date]。*
+          根據資料型別，可用的運運算元可能包括&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*、*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;或&#x200B;*[!UICONTROL no date]。*
 
-           **注意：**&#x200B;文字值不區分大小寫。 例如，如果您依名稱含有「貸款」的行銷活動進行篩選，結果會包含「消費者貸款」和「貸款申請」。
+          **注意：**&#x200B;文字值不區分大小寫。 例如，如果您依名稱含有「貸款」的行銷活動進行篩選，結果會包含「消費者貸款」和「貸款申請」。
 
    * 若要編輯現有篩選器，請按一下該篩選器，然後變更篩選器定義。
 
@@ -55,21 +60,21 @@ ht-degree: 0%
 
    * 若要新增篩選器，請按一下![新增篩選器](/help/search-social-commerce/assets/add.png "新增篩選器") **[!UICONTROL ADD FILTER]**，然後執行下列動作：
 
-      1. （選擇性）若要依文字字串篩選欄名稱，請在&#x200B;**[!UICONTROL ADD FILTER]**&#x200B;輸入欄位中輸入搜尋字串。
+     1. （選擇性）若要依文字字串篩選欄名稱，請在&#x200B;**[!UICONTROL ADD FILTER]**&#x200B;輸入欄位中輸入搜尋字串。
 
-      1. 從欄功能表中選取欄名稱。
+     1. 從欄功能表中選取欄名稱。
 
-      1. 在欄上定義篩選器：
+     1. 在欄上定義篩選器：
 
-         * （沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。
+        * （沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。
 
-         * （具有輸入欄位的篩選器）從第二個功能表選取運運算元，然後輸入適用的值。
+        * （具有輸入欄位的篩選器）從第二個功能表選取運運算元，然後輸入適用的值。
 
-           例如，如果您已選取&quot;[!UICONTROL Clicks]&quot;欄，且只想傳回點按超過100次的列，則選取「*[!UICONTROL greater than]*」並在輸入欄位中輸入`100`。
+          例如，如果您已選取&quot;[!UICONTROL Clicks]&quot;欄，且只想傳回點按超過100次的列，則選取「*[!UICONTROL greater than]*」並在輸入欄位中輸入`100`。
 
-           根據資料型別，可用的運運算元可能包括&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*&#x200B;或&#x200B;*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;或&#x200B;*[!UICONTROL no date]。*
+          根據資料型別，可用的運運算元可能包括&#x200B;*[!UICONTROL greater than]*、*[!UICONTROL less than]*、*[!UICONTROL equals]*、*[!UICONTROL contains]*、*[!UICONTROL doesn't contain]*、*[!UICONTROL starts with]*、*[!UICONTROL ends with]*、*[!UICONTROL no value]*&#x200B;或&#x200B;*[!UICONTROL has value]*、*[!UICONTROL before]*、*[!UICONTROL after]*&#x200B;或&#x200B;*[!UICONTROL no date]。*
 
-           **注意：**&#x200B;文字值不區分大小寫。 例如，如果您搜尋名稱中包含「loan」的行銷活動，結果會包含「Consumer Loans」和「loan applications」。
+          **注意：**&#x200B;文字值不區分大小寫。 例如，如果您搜尋名稱中包含「loan」的行銷活動，結果會包含「Consumer Loans」和「loan applications」。
 
    * 若要編輯現有篩選器，請按一下該篩選器，然後變更篩選器定義。
 

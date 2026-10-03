@@ -3,18 +3,21 @@ title: 使用大量表單指派分類值給帳戶元件
 description: 瞭解如何使用大量表單將分類值指派給帳戶元件。
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g
+TQID: 'https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # 使用大量表單指派分類值給帳戶元件
 
 您可以使用大量表單來將標籤分類與下列搜尋實體的值相關聯：行銷活動、廣告群組、關鍵字、廣告、位置、單位層級產品群組及動態搜尋目標。 每個標籤分類最多可以有2000個值。
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 1. [下載大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)，其中包含您要指派標籤分類值的實體：
 
-   * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Campaign]窗格中的[!UICONTROL Bulksheet Columns]清單。
+   * 在[!UICONTROL Rows and Columns]標籤上，展開[!UICONTROL Bulksheet Columns]窗格中的[!UICONTROL Campaign]清單。
 
    * 展開[!UICONTROL Label Classification]清單。
 

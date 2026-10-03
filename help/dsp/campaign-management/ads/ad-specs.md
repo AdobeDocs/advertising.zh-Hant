@@ -3,25 +3,31 @@ title: 廣告規格
 description: 參考一般和發佈者特有的廣告規格。
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # 支援的廣告型別規格
 
 ## 影片廣告（前段、CTV和通用視訊）
@@ -70,17 +76,17 @@ ht-degree: 0%
 
 * **探索：**&#x200B;檢視探索的[廣告規格](/help/dsp/assets/discovery-networks-ad-specs.pdf)。
 
-* **迪士尼(包括 Hulu)：**&#x200B;參閱迪士尼的[廣告規格](https://www.disneyadvertising.com/mediakit/#specifications)。
+* **Disney （包括Hulu）：**&#x200B;檢視Disney的[廣告規格](https://www.disneyadvertising.com/mediakit/#specifications)。
 
 * **HBO最大值：**&#x200B;檢視HBO最大值[廣告規格](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)。
 
 * **NBCUniversal：**
 
-   * [數位影片](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [數位影片](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [直播串流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [直播串流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **派拉蒙：**&#x200B;請參閱Paramount的[廣告規格](https://www.paramount.com/digital-ads)。
 
@@ -129,35 +135,35 @@ ht-degree: 0%
 #### 其他發行者需求
 
 * **[!DNL iHeartRadio]**
-   * 長度：5、15、30或60秒
-   * 檔案型別： MP3
-   * 檔案大小上限： 320 kbps
-   * 音量：44.1千赫
+  * 長度：5、15、30或60秒
+  * 檔案型別： MP3
+  * 檔案大小上限： 320 kbps
+  * 音量：44.1千赫
 
 * **[!DNL Pandora]**
-   * 長度：15或30秒
-   * 檔案型別： MP4 （應用程式內）、MP3 （案頭）
-   * 檔案大小上限： 2.2 MB
+  * 長度：15或30秒
+  * 檔案型別： MP4 （應用程式內）、MP3 （案頭）
+  * 檔案大小上限： 2.2 MB
 
 * **[!DNL SoundCloud]**
-   * 長度：6、15或30秒
-   * 檔案型別： MP3
-   * 檔案大小上限： 5 MB
+  * 長度：6、15或30秒
+  * 檔案型別： MP3
+  * 檔案大小上限： 5 MB
 
 * **[!DNL Spotify]**
-   * 長度：最多30秒
-   * 檔案型別： OGG
-   * 檔案大小上限： 500MB
-   * 磁碟區：RMS已標準化為–14；dBFS峰值已標準化為–0.2 dBFS
+  * 長度：最多30秒
+  * 檔案型別： OGG
+  * 檔案大小上限： 500MB
+  * 磁碟區：RMS已標準化為–14；dBFS峰值已標準化為–0.2 dBFS
 
 * **[!DNL TargetSpot]**
-   * 長度：15、30或60秒
-   * 檔案型別： MP3
+  * 長度：15、30或60秒
+  * 檔案型別： MP3
 
 * **[!DNL TuneIn]**
-   * 長度：10、15或30秒
-   * 檔案型別： MP3、OGG
-   * 音量：44.1千赫
+  * 長度：10、15或30秒
+  * 檔案型別： MP3、OGG
+  * 音量：44.1千赫
 
 ### 隨附橫幅廣告的需求（選填）
 
@@ -165,30 +171,30 @@ ht-degree: 0%
 
 #### 其他發行者需求
 
-* **[!DNL iHeartRadio]：**
-   * 檔案型別： JPEG、JPG、PNG、GIF、SWF、HTML
-   * 檔案大小上限： 2.2 MB
-   * 尺寸：300x250
+* **[!DNL iHeartRadio]:**
+  * 檔案型別： JPEG、JPG、PNG、GIF、SWF、HTML
+  * 檔案大小上限： 2.2 MB
+  * 尺寸：300x250
 
-* **[!DNL Pandora]：**
-   * 檔案型別： JPEG、GIF
-   * 檔案大小上限：大小： 100 KB
-   * 尺寸：300x250 （行動或桌上型電腦）或500x500 （桌上型電腦）
+* **[!DNL Pandora]:**
+  * 檔案型別： JPEG、GIF
+  * 檔案大小上限：大小： 100 KB
+  * 尺寸：300x250 （行動或桌上型電腦）或500x500 （桌上型電腦）
 
-* **[!DNL SoundCloud]：**
-   * 檔案型別：靜態JPG、PNG
-   * 檔案大小上限：低於400 KB
-   * 尺寸：1024x1024
+* **[!DNL SoundCloud]:**
+  * 檔案型別：靜態JPG、PNG
+  * 檔案大小上限：低於400 KB
+  * 尺寸：1024x1024
 
-* **[!DNL Spotify]：**
-   * 檔案型別：靜態JPG、PNG
-   * 檔案大小上限： 200 KB
-   * 尺寸：300x250
+* **[!DNL Spotify]:**
+  * 檔案型別：靜態JPG、PNG
+  * 檔案大小上限： 200 KB
+  * 尺寸：300x250
 
-* **[!DNL TuneIn]：**
-   * 檔案型別： JPEG、JPG、PNG、GIF、HTML
-   * 檔案大小上限： 2 MB
-   * 尺寸：300x250
+* **[!DNL TuneIn]:**
+  * 檔案型別： JPEG、JPG、PNG、GIF、HTML
+  * 檔案大小上限： 2 MB
+  * 尺寸：300x250
 
 ## 原生顯示廣告
 

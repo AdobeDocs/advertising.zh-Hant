@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Report]'
 description: 瞭解[!UICONTROL Keyword Report]。
 exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/uV4kYIaYKGGaZhq-MXTC-wejQuZfIk3S2EmaCmaMdSM
+TQID: 'https://experienceleague.adobe.com/uV4kYIaYKGGaZhq-MXTC-wejQuZfIk3S2EmaCmaMdSM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Keyword Report]
 
 [!UICONTROL Keyword Report]包含在一或多個廣告群組中接收曝光次數之關鍵字的成本、點選次數和（選擇性）轉換資料。 您可以選擇篩選資料，使其僅包含包含特定文字字串的關鍵字。 依預設，資料會針對每個適用的關鍵字包含一個資料列，以及比對型別組合，該組合會接收指定日期範圍內每個時間單位的曝光數。 資料列會先依時間單位的開始日期遞增排序，然後依預設會依成本遞增排序。

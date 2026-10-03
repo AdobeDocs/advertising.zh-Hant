@@ -4,21 +4,30 @@ description: 瞭解如何執行或重新執行投資組合的自訂模擬。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+TQID: 'https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # 執行或重新執行自訂模擬
 
 *Beta功能*
@@ -35,29 +44,29 @@ ht-degree: 0%
 
 * 從[!UICONTROL Simulations]檢視：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
+  1. 在主功能表中，按一下&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
-   1. 按一下資料表上方的&#x200B;**[!UICONTROL Run Simulation]**。
+  1. 按一下資料表上方的&#x200B;**[!UICONTROL Run Simulation]**。
 
-   1. 選取投資組合：
+  1. 選取投資組合：
 
-      1. 按一下&#x200B;**[!UICONTROL Select Portfolio]**。
+     1. 按一下&#x200B;**[!UICONTROL Select Portfolio]**。
 
-      1. 選取投資組合。
+     1. 選取投資組合。
 
-         若要搜尋包含特定文字字串的產品組合，請開始在搜尋欄位中輸入文字字串。 值不區分大小寫。
+        若要搜尋包含特定文字字串的產品組合，請開始在搜尋欄位中輸入文字字串。 值不區分大小寫。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+     1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
 * 從[!UICONTROL Portfolios]檢視：
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
+  1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-   1. 執行下列任一項作業：
+  1. 執行下列任一項作業：
 
-      * 將游標停留在投資組合列上。 在投資組合名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**」。
+     * 將游標停留在投資組合列上。 在投資組合名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**」。
 
-      * 選取投資組合旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Run Simulation]**。
+     * 選取投資組合旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Run Simulation]**。
 
 1. 指定[自訂模擬設定](#custom-simulation-settings)：
 

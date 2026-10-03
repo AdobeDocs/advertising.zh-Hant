@@ -3,20 +3,24 @@ title: 編輯您的通知設定
 description: 瞭解如何編輯通知的設定。
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
+TQID: 'https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # 編輯您的通知設定
 
 *Beta功能*
@@ -33,9 +37,9 @@ ht-degree: 0%
 
    * 若要訂閱或取消訂閱通知，請移動[!UICONTROL Subscribe]欄中的滑桿：
 
-      * 若要取消訂閱所有通知型別，請將滑桿向左移動（已停用）。
+     * 若要取消訂閱所有通知型別，請將滑桿向左移動（已停用）。
 
-      * 若要訂閱一或多個通知型別，請將滑桿移至右側（已啟用）。
+     * 若要訂閱一或多個通知型別，請將滑桿移至右側（已啟用）。
 
    * （啟用[!UICONTROL Subscribe]時）若要訂閱電子郵件通知，請選取&#x200B;**[!UICONTROL Email]**&#x200B;欄中的核取方塊。
 

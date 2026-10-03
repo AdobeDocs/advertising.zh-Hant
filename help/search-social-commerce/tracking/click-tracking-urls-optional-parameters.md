@@ -3,18 +3,21 @@ title: 點選追蹤URL的選用追蹤引數
 description: 瞭解選用的搜尋、社交和Commerce追蹤引數，以及可新增至點選追蹤URL的廣告網路特定追蹤引數。
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # 點選追蹤URL的選用追蹤引數
 
 僅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]和[!DNL Yandex]帳戶*
@@ -25,11 +28,11 @@ ht-degree: 0%
 
 * 您可以在帳戶/促銷活動的基礎URL中附加Adobe Advertising和廣告網路特定引數，以追蹤更多資料：
 
-   * Adobe Advertising引數是半靜態的。 Adobe Advertising將基礎URL上傳至廣告網路時，會插入資料值。 例如，當您將`campaign={ef_campaign}`附加至基底URL時，Adobe Advertising在上傳URL時會將`{ef_campaign}`取代為實際的促銷活動名稱（例如「回到校園促銷活動」）。
+  * Adobe Advertising引數是半靜態的。 Adobe Advertising將基礎URL上傳至廣告網路時，會插入資料值。 例如，當您將`campaign={ef_campaign}`附加至基底URL時，Adobe Advertising在上傳URL時會將`{ef_campaign}`取代為實際的促銷活動名稱（例如「回到校園促銷活動」）。
 
-     **注意：**&#x200B;一旦插入值，就會維持靜態。 如果您將關鍵字或廣告移至其他廣告群組，或將廣告群組移至其他促銷活動，則{ef_adgroup}或{ef_campaign}引數不會自動更新，因此您必須手動產生新的目的地URL或基本（最終） URL。
+    **注意：**&#x200B;一旦插入值，就會維持靜態。 如果您將關鍵字或廣告移至其他廣告群組，或將廣告群組移至其他促銷活動，則{ef_adgroup}或{ef_campaign}引數不會自動更新，因此您必須手動產生新的目的地URL或基本（最終） URL。
 
-   * 廣告網路專屬引數為動態引數，且搜尋引擎會在使用者點按廣告時插入資料值。 例如，當您將`{param1}`附加至基底URL時，一般使用者按一下廣告時，廣告網路會以實際{param1}值取代。
+  * 廣告網路專屬引數為動態引數，且搜尋引擎會在使用者點按廣告時插入資料值。 例如，當您將`{param1}`附加至基底URL時，一般使用者按一下廣告時，廣告網路會以實際{param1}值取代。
 
 >[!NOTE]
 >
@@ -38,8 +41,8 @@ ht-degree: 0%
 >* 在產生的目的地URL或基礎（最終） URL中，附加引數中的特殊字元會以下列方式取代：
 >  * `=`已由`%3D`取代
 >  * `?`已由`%26`取代
->  * 空白空間已由`%2B`取代
->  例如，當您在關鍵字的基本URL http://www.example.com中附加引數`campaign={ef_campaign}`時，該關鍵字的基本URL就會產生為`http://www.example.com/campaign%3D{ef_campaign}`。
+>  * 空白空間將替換為 `%2B`
+>  例如，當您將引數`campaign={ef_campaign}`附加至關鍵字的基本URL http://www.example.com時，該關鍵字的基本URL會產生為`http://www.example.com/campaign%3D{ef_campaign}`。
 
 ## 搜尋、社交和Commerce靜態追蹤引數
 
