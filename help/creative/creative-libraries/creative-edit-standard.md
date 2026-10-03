@@ -3,18 +3,24 @@ title: 在創意程式庫中編輯標準創意內容
 description: 瞭解如何變更創意程式庫中標準（非動態）創意內容的設定。
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-TQID: https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w
+TQID: 'https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 在創意程式庫中編輯標準創意內容
 
 您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容（只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方）。
@@ -35,9 +41,9 @@ ht-degree: 0%
 
    * 若要編輯單一創意：
 
-      * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+     * 在卡片檢視中，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-      * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Edit]**。
+     * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Edit]**。
 
    * 若要編輯一或多個創意，請選取您要編輯之每個創意的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 

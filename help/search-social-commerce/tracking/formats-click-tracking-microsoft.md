@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising]的點選追蹤格式'
-description: 瞭解 [!DNL Microsoft Advertising] 帳戶的點選追蹤格式。
+title: '[!DNL Microsoft Advertising]的點選追蹤格式'
+description: 瞭解[!DNL Microsoft Advertising]帳戶的點選追蹤格式。
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+TQID: 'https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]的點選追蹤格式
 
 以下是Search、Social和Commerce所需的[!DNL Microsoft Advertising]基本追蹤範本和登入頁面尾碼（最終URL尾碼）格式。
@@ -37,7 +41,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* `{TargetId}`代表a)關鍵字或b)觸發廣告的關鍵字和再行銷清單（對象）的識別碼（例如，關鍵字和再行銷清單皆為「kwd-123:aud-456」，或關鍵字僅限「kwd-123」）。
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* `{TargetId}`代表a)關鍵字或b)觸發廣告的關鍵字和再行銷清單（對象）的識別碼（例如，關鍵字和再行銷清單皆為「kwd-123:aud-456」，或關鍵字僅限「kwd-123」）。
 >
@@ -75,11 +79,11 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`是Adobe Advertising中廣告商唯一識別碼的變數。
 >
->* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`cq?`之後以`<advertiser_ID>`取代`c?`。
+>* 此格式表示促銷活動已啟用Token傳遞（預設）。 如果停用權杖傳遞，請在`<advertiser_ID>`之後以`c?`取代`cq?`。
 >
 >* `{TargetId}`代表a)關鍵字或b)觸發廣告的關鍵字和再行銷清單（對象）的識別碼（例如，關鍵字和再行銷清單皆為「kwd-123:aud-456」，或關鍵字僅限「kwd-123」）。
 >
->* （選擇性）您不必在帳戶、行銷活動、廣告群組或產品群組層級輸入追蹤範本，而是可以將追蹤URL新增至[!DNL Microsoft Merchant Center]帳戶內的產品資料。 若要這麼做，請在產品摘要的自訂欄「`link`bingads_redirect`mobile_link`」中，加入追蹤URL以及適當的「[」或「](https://help.bingads.microsoft.com/#apex/3/en/51084/0)」欄位中的值。 「`bingads_redirect`」欄位中的值會取代「`link`」和「`mobile_link`」欄位中的值。 使用此方法產生的URL不包含任何在「搜尋」、「社交」和「Commerce」帳戶或促銷活動設定中指定的追蹤引數。
+>* （選擇性）您不必在帳戶、行銷活動、廣告群組或產品群組層級輸入追蹤範本，而是可以將追蹤URL新增至[!DNL Microsoft Merchant Center]帳戶內的產品資料。 若要這麼做，請在產品摘要的自訂欄「[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)」中，加入追蹤URL以及適當的「`link`」或「`mobile_link`」欄位中的值。 「`bingads_redirect`」欄位中的值會取代「`link`」和「`mobile_link`」欄位中的值。 使用此方法產生的URL不包含任何在「搜尋」、「社交」和「Commerce」帳戶或促銷活動設定中指定的追蹤引數。
 
 ## 登陸頁面尾碼（最終URL尾碼）格式
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 ### 搜尋和受眾網路
 
-使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`msclkid`為[!DNL Microsoft Advertising]）：
+使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`）：
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列專案：
 
@@ -101,7 +105,7 @@ ht-degree: 0%
 
 ### 購物網路
 
-使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（`msclkid`為[!DNL Microsoft Advertising]）：
+使用Adobe Advertising轉換追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`）：
 
 * 當廣告商整合Adobe Analytics時，尾碼必須包括下列專案：
 
@@ -114,4 +118,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤服務的點選追蹤URL格式](formats-click-tracking-about.md)
->* [AMO ID格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

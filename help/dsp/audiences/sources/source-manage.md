@@ -3,24 +3,29 @@ title: 管理對象來源以啟用通用ID對象
 description: 瞭解如何建立及管理來源，以從您的客戶資料平台匯入對象，並將其轉換為包含通用ID的區段。
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+TQID: 'https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 管理對象來源以啟用通用ID對象
 
 在DSP中，為您客戶資料平台中要匯入或轉換為包含指定通用ID型別的區段的每個第一方對象建立來源。 您可以將區段匯入貴組織的DSP帳戶或廣告商帳戶。 將受眾轉換為通用ID時，會根據選取的通用ID型別套用費用。 建立來源後，需要執行其他步驟以從每個客戶資料平台串流來源對象。 請參閱程式結尾的註記以建立來源。
@@ -63,7 +68,7 @@ ht-degree: 0%
 >
 >在您建立客戶資料平台的來源後，必須完成其他步驟以匯入對象：
 >* 針對[!DNL ActionIQ]來源，請與您的Adobe帳戶團隊合作。
->* 若為其他來源型別，請參閱<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->適用於 [!DNL AdFixus][&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的工作流程。
+>* 若為其他來源型別，請參閱<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->適用於 [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的[工作流程。
 
 ## 變更對象來源的ID型別
 
@@ -80,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 變更為來源[&#128279;](#source-settings)選取的ID。
+1. 變更為來源](#source-settings)選取的[ID。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

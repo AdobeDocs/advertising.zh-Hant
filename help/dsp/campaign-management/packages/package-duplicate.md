@@ -3,24 +3,29 @@ title: 複製封裝
 description: 瞭解如何複製套件。
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # 複製封裝
 
 複製套件以建立具有類似設定的套件。 您可以：
@@ -69,10 +74,10 @@ ht-degree: 0%
 * （如果您未附加廣告）自訂廣告加權和排程
 * 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
 * （如果復製版位至其他行銷活動）：
-   * 地理目標
-   * 事件畫素
-   * 廣告
-   * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
+  * 地理目標
+  * 事件畫素
+  * 廣告
+  * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
 
 ## 設定新封裝的最佳實務
 
@@ -85,21 +90,21 @@ ht-degree: 0%
 
 * 請考量下列事項，並視需要編輯新封裝：
 
-   * 帳戶是否有足夠的資金來容納新的套件預算？
+  * 帳戶是否有足夠的資金來容納新的套件預算？
 
-   * 新套件是否需要與先前套件不同的預算？
+  * 新套件是否需要與先前套件不同的預算？
 
-   * 任何刊登版位是否需要最低預算？
+  * 任何刊登版位是否需要最低預算？
 
-   * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
+  * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
 
-   * 視需要附加事件畫素至版位和廣告。
+  * 視需要附加事件畫素至版位和廣告。
 
-   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段以進行位置。
+  * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段以進行位置。
 
-   * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
+  * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
 
-   * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
+  * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
 
 * 對於使用自訂最佳化目標的封裝，請使用每個封裝的[[!UICONTROL Linked Package for Optimization Learnings Carryover]設定](/help/dsp/campaign-management/packages/package-settings.md)，以使用先前行銷活動的歷史資料作為最佳化封裝的輸入。
 

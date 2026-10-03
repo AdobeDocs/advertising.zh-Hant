@@ -1,20 +1,23 @@
 ---
 title: 啟用其他清查同步處理
-description: 瞭解如何同步 [!DNL YouTube] 行銷活動和 [!DNL Google Ads] 及 [!DNL Microsoft Advertising] 智慧型購物行銷活動。
+description: 瞭解如何同步[!DNL YouTube]個行銷活動以及[!DNL Google Ads]和[!DNL Microsoft Advertising]智慧型購物行銷活動。
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU
+TQID: 'https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: '141'
 ht-degree: 4%
-
 ---
-
 # 啟用其他清查同步處理
 
 您可以啟用和停用[!DNL Google Ads] [!DNL YouTube]行銷活動以及[!DNL Google Ads]和[!DNL Microsoft Advertising]智慧型購物行銷活動的同步化，這些行銷活動的可用支援比其他行銷活動型別少。 如需這些行銷活動型別可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。

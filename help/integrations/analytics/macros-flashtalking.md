@@ -1,27 +1,35 @@
 ---
-title: 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤
-description: 瞭解為何以及如何將 [!DNL Analytics for Advertising] 巨集新增至您的 [!DNL Flashtalking] 廣告標籤
+title: 將[!DNL Analytics for Advertising]巨集附加至[!DNL Flashtalking]廣告標籤
+description: 瞭解為何以及如何將[!DNL Analytics for Advertising]巨集新增至您的[!DNL Flashtalking]廣告標籤
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-TQID: https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y
+TQID: 'https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # 將[!DNL Analytics for Advertising]巨集附加至[!DNL Flashtalking]廣告標籤
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
@@ -34,9 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶，並依照位於[!DNL Flashtalking]https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[的](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)支援檔案操作，以使用資料傳遞巨集來追蹤`s_kwcid`和`ef_id`追蹤引數。
+>如果您的組織與[!DNL Flashtalking]有直接的合作關係，則您不需要執行此程式。 請改為登入您的[!DNL Flashtalking]帳戶，並依照位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)的[!DNL Flashtalking]支援檔案操作，以使用資料傳遞巨集來追蹤`s_kwcid`和`ef_id`追蹤引數。
 
-針對下列型別的[!DNL Flashtalking]實作，[!DNL Analytics for Advertising]顯示廣告和視訊廣告使用巨集：
+針對下列型別的[!DNL Analytics for Advertising]實作，[!DNL Flashtalking]顯示廣告和視訊廣告使用巨集：
 
 * **在其網站上實作[!DNL Adobe] [!DNL Analytics for Advertising] JavaScript程式碼的廣告商**： JavaScript程式碼已記錄AMO ID (`s_kwcid`)和`ef_id`查詢字串引數。 不過，當不支援第三方Cookie時，使用巨集可延伸追蹤功能，加入點按式轉換。 最佳實務是將下列區段中的巨集新增至廣告標籤，以擷取未透過JavaScript程式碼擷取的其他點進資料。
 
@@ -58,9 +66,9 @@ ht-degree: 0%
 
 範例：
 
-`https://www.adobe.com/tw/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/tw/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 影片廣告標籤
 
@@ -74,9 +82,9 @@ ht-degree: 0%
 
 範例：
 
-`https://www.adobe.com/tw/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/tw/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

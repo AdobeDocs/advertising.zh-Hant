@@ -3,18 +3,23 @@ title: 產生點選追蹤URL
 description: 瞭解如何手動產生搜尋、社交和Commerce點選追蹤URL。
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
+TQID: 'https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 0%
-
 ---
-
 # 使用追蹤URL工具產生搜尋、社交和Commerce點選追蹤URL
 
 *僅追蹤Adobe Advertising轉換的廣告商*
@@ -39,47 +44,47 @@ ht-degree: 0%
 
       * 輸入完整路徑和檔案名稱，或按一下&#x200B;**[!UICONTROL Browse]**&#x200B;在您的裝置或網路上尋找檔案，以指定包含資訊的檔案。 檔案必須是以Tab分隔的文字檔案，每行有一個專案，格式如下：
 
-         * （創意內容，標準廣告） `**landing_page**`
+        * （創意內容，標準廣告） `**landing_page**`
 
-           其中`landing_page`為有效的登陸頁面URL或基底URL。
+          其中`landing_page`為有效的登陸頁面URL或基底URL。
 
-           範例： http://www.example.com/travel.html
+          範例： http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising]個網站連結） `sitelink <tab> ** <tab> landing_page`
+        * （[!DNL Microsoft Advertising]個網站連結） `sitelink <tab> ** <tab> landing_page`
 
-           其中`sitelink`是網站連結名稱，`landing_page`是有效的登陸頁面URL或基底URL。
+          其中`sitelink`是網站連結名稱，`landing_page`是有效的登陸頁面URL或基底URL。
 
-           範例： `Careers <tab> ** <tab> http://www.example.com/careers.html`
+          範例： `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-           檔案最多可包含10,000行。
+          檔案最多可包含10,000行。
 
-         * （[!DNL Google Merchant Center]產品群組和[!DNL Microsoft Advertising]產品廣告） `product name <tab> ** <tab> landing_page`
+        * （[!DNL Google Merchant Center]產品群組和[!DNL Microsoft Advertising]產品廣告） `product name <tab> ** <tab> landing_page`
 
-           其中`product name`是產品名稱，`landing_page`是有效的登陸頁面URL或基底URL。
+          其中`product name`是產品名稱，`landing_page`是有效的登陸頁面URL或基底URL。
 
-           範例： `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+          範例： `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-           檔案最多可包含10,000行。
+          檔案最多可包含10,000行。
 
       * 在輸入欄位中，以下列格式每行輸入一個專案：
 
-         * （創意內容，標準廣告） `landing_page`
+        * （創意內容，標準廣告） `landing_page`
 
-           其中`landing_page`為有效的登陸頁面URL或基底URL。
+          其中`landing_page`為有效的登陸頁面URL或基底URL。
 
-           範例： http://www.example.com/travel.html
+          範例： http://www.example.com/travel.html
 
-         * （[!DNL Microsoft Advertising]個網站連結） `sitelink**landing_page`
+        * （[!DNL Microsoft Advertising]個網站連結） `sitelink**landing_page`
 
-           其中`sitelink`是網站連結名稱，`landing_page`是有效的登陸頁面URL或基底URL。
+          其中`sitelink`是網站連結名稱，`landing_page`是有效的登陸頁面URL或基底URL。
 
-           範例： `Careers**http://www.example.com/careers.html`
+          範例： `Careers**http://www.example.com/careers.html`
 
-         * （[!DNL Google Merchant Center]產品群組和[!DNL Microsoft Advertising]產品廣告） `product name**landing_page`
+        * （[!DNL Google Merchant Center]產品群組和[!DNL Microsoft Advertising]產品廣告） `product name**landing_page`
 
-           其中`product name`是產品名稱，`landing_page`是有效的登陸頁面URL或基底URL。
+          其中`product name`是產品名稱，`landing_page`是有效的登陸頁面URL或基底URL。
 
-           範例： Acme PR208**http://www.example.com/travel.html
+          範例： Acme PR208**http://www.example.com/travel.html
 
    1. 按一下&#x200B;**[!UICONTROL Generate Tracking URLs]**。
 

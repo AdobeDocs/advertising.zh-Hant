@@ -1,27 +1,37 @@
 ---
-title: 使用Adobe Advertising ID建立 [!DNL Marketing Channels] 規則
-description: 瞭解如何使用Adobe Advertising ID來建立 [!DNL Analytics Marketing Channels]的處理規則。
+title: 使用Adobe Advertising ID建立[!DNL Marketing Channels]規則
+description: 瞭解如何使用Adobe Advertising ID來建立[!DNL Analytics Marketing Channels]的處理規則。
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+TQID: 'https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1510'
 ht-degree: 0%
-
 ---
-
 # 使用Adobe Advertising ID建立[!DNL Marketing Channels]處理規則
 
 *僅整合Adobe Advertising-Adobe Analytics的廣告商*
@@ -30,7 +40,7 @@ ht-degree: 0%
 
 ## 處理規則中的AMO ID
 
-AMO ID是主要追蹤程式碼，用於報告[!DNL Analytics]內的Adobe Advertising資料。 AMO ID是由Adobe管理的動態值串連，以在[!DNL Analytics]內提供精細報表。 它儲存在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)或rVar維度(AMO ID)中。 AMO ID可在[!DNL Analytics]中設定有兩種方式：
+AMO ID是主要追蹤程式碼，用於報告[!DNL Analytics]內的Adobe Advertising資料。 AMO ID是由Adobe管理的動態值串連，以在[!DNL Analytics]內提供精細報表。 它儲存在[!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或rVar維度(AMO ID)中。 AMO ID可在[!DNL Analytics]中設定有兩種方式：
 
 * 點進追蹤： Adobe Advertising會在連結中設定`s_kwcid`查詢字串引數，而當點進發生時，[!DNL Analytics]會從登陸頁面URL中挑選引數。
 
@@ -82,7 +92,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 
 >[!IMPORTANT]
 >
->請參閱「[規則 [!DNL Marketing Channels] 的](#rule-order)作業順序」，以取得有關處理規則順序的資訊。
+>請參閱「 [!DNL Marketing Channels] 規則](#rule-order)的[作業順序」，以取得有關處理規則順序的資訊。
 
 ![一組處理規則的範例](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -102,7 +112,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 
 ### 免費搜尋規則
 
-對於[!UICONTROL Natural Search]，請確定您的[[!UICONTROL Paid Search]偵測規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)包含`ef_id`和`s_kwcid`查詢字串引數。 （通常，當Advertising Search、Social和Commerce整合到[!DNL Analytics]中時會自動設定此專案，但如果[!DNL Analytics]管理員在設定整合後變更邏輯，請驗證。）
+對於[!UICONTROL Natural Search]，請確定您的[[!UICONTROL Paid Search]偵測規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)包含`ef_id`和`s_kwcid`查詢字串引數。 （通常，當Advertising Search、Social和Commerce整合到[!DNL Analytics]中時會自動設定此專案，但如果[!DNL Analytics]管理員在設定整合後變更邏輯，請驗證。）
 
 將規則設為「符合免費搜尋偵測規則」（通常是此管道的預設設定）。
 
@@ -136,7 +146,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 
 ### 顯示點進規則#2
 
-針對第二個顯示點進規則，設定&#x200B;**AMO ID開頭為&quot;AC！&quot;**。 此第二個規則是用來擷取直接從Adobe Advertising進入[!DNL Analytics]之顯示頻道的點選/成本/曝光資料。 此資料歸因於AMO ID，但不包含具有`ef_id`查詢字串的URL，因此這些點選不會與AMO EF ID （這是第一個「顯示ClickThrough」規則擷取的內容）連結。
+針對第二個顯示點進規則，設定&#x200B;**以「AC！」開頭的AMO ID**。 此第二個規則是用來擷取直接從Adobe Advertising進入[!DNL Analytics]之顯示頻道的點選/成本/曝光資料。 此資料歸因於AMO ID，但不包含具有`ef_id`查詢字串的URL，因此這些點選不會與AMO EF ID （這是第一個「顯示ClickThrough」規則擷取的內容）連結。
 
 ![第二個顯示點進規則範例](/help/integrations/assets/a4adc-mc-rule-display-ct2.png "第二個顯示點進規則範例")
 
@@ -148,7 +158,7 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 
 * 將&#x200B;**第一個** [!UICONTROL Display ClickThrough] *放在* [!UICONTROL Natural Referring Domains]和[!UICONTROL Natural Social]之前。
 
-* 當您使用[!UICONTROL CTV view-throughs]時，請將它放在&#x200B;**&#x200B;之前[!UICONTROL Display ViewThroughs]。 否則，CTV檢視將會擷取為Display ViewThroughs。
+* 當您使用[!UICONTROL CTV view-throughs]時，請將它放在&#x200B;*[!UICONTROL Display ViewThroughs]之前*。 否則，CTV檢視將會擷取為Display ViewThroughs。
 
 * 將[!UICONTROL Display ViewThroughs]個&#x200B;*放在*&#x200B;個其他管道之後，但放在[!UICONTROL Internal]和[!UICONTROL Direct]之前，因為在相同的登陸事件中可能會發生檢視和非[!DNL Advertising]點進。 例如，訪客可能會看到Adobe Advertising廣告、獲得印象，然後透過[!UICONTROL Natural Search]前往網站。
 
@@ -164,6 +174,6 @@ AMO EF ID (EF ID)是[!DNL Analytics for Advertising]整合中使用的第二個�
 >
 >* [基礎（共 [!DNL Analytics Marketing Channels]](mc-overview.md)個）
 >* [為什麼管道資料在Adobe Advertising和 [!DNL Marketing Channels]](mc-data-variances.md)之間會有所不同
->* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] &#x200B;](mc-ac-data.md)
->* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=zh-Hant)
+>* [搭配Adobe Advertising資料使用 [!DNL Analytics Marketing Channels] ](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] 進行Adobe Advertising報告](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [由 [!DNL Analytics]](/help/integrations/analytics/ids.md)使用的Adobe Advertising ID

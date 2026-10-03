@@ -3,20 +3,24 @@ title: 從投資組合中移除行銷活動
 description: 瞭解如何從產品組合移除行銷活動。
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4
+TQID: 'https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # 從投資組合中移除行銷活動
 
 當您從產品組合中移除行銷活動時，搜尋、社交和Commerce無法最佳化該行銷活動的出價、行銷活動預算和競標策略目標。
@@ -51,9 +55,9 @@ ht-degree: 0%
 
 1. 在左側功能表中按一下&#x200B;**[!UICONTROL Campaigns]**，然後移除行銷活動：
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。![
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。![
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

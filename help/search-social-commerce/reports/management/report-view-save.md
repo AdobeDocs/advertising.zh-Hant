@@ -3,20 +3,24 @@ title: 檢視或儲存報告
 description: 瞭解如何檢視產生的報告或將報告另存為檔案。
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+TQID: 'https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # 檢視或儲存報告
 
 您可以在網頁瀏覽器中檢視報表，或開啟報表資料或將報表資料儲存為[!DNL Microsoft Excel]活頁簿、定位字元分隔值(TSV)檔案、逗號分隔值(CSV)檔案或（某些報表型別）[!DNL Microsoft Excel]索引標籤式活頁簿。
@@ -33,13 +37,13 @@ ht-degree: 0%
 
    * （若要開啟或儲存檔案中的報表資料）在報表名稱旁的[!UICONTROL Export]欄中，按一下格式的名稱，然後依照瀏覽器的正常程式開啟或儲存檔案：
 
-      * **[!UICONTROL XLS]：**   針對具有單一工作表（XLSX格式）的[!DNL Excel]活頁簿。 此報表包括一個位於頂端且以引數標示的工作表，每個元件會有一列在元件資料可用時報告。 沒有資料的列會省略。
+     * **[!UICONTROL XLS]：**&#x200B;針對單一工作表（XLSX格式）的[!DNL Excel]活頁簿。 此報表包括一個位於頂端且以引數標示的工作表，每個元件會有一列在元件資料可用時報告。 沒有資料的列會省略。
 
-        基本報表包含每個數值欄的總數。
+       基本報表包含每個數值欄的總數。
 
-      * TSV檔案的&#x200B;**[!UICONTROL TSV]：**。 報表包括引數，以及報表中每個元件的資料列。
+     * TSV檔案的&#x200B;**[!UICONTROL TSV]：**。 報表包括引數，以及報表中每個元件的資料列。
 
-      * **[!UICONTROL CSV]：**   用於CSV檔案。 報表包括引數，以及報表中每個元件的資料列。
+     * **[!UICONTROL CSV]：**&#x200B;用於CSV檔案。 報表包括引數，以及報表中每個元件的資料列。
 
 >[!MORELIKETHIS]
 >

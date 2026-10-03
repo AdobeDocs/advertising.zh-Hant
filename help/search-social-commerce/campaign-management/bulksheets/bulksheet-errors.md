@@ -3,14 +3,17 @@ title: 大量表單錯誤
 description: 請參考每個大量表單錯誤的潛在原因。
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+TQID: 'https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 1%
@@ -57,7 +60,7 @@ ht-degree: 1%
 |  | [!UICONTROL Invalid row given] | 列包含的資訊不足，無法判斷實體型別。 編輯該列以包含實體型別的所有必填欄位。 |
 | 帳戶 | [!UICONTROL Provide Valid Account Details] | （多個帳戶的批次工作表）帳戶識別碼未包含在所有列中。 為每列輸入下列任一資料行組合的值： a) &quot;[!UICONTROL AMO ID]&quot;或b) &quot;[!UICONTROL Account Name]&quot;和&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜尋、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯行銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。 |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。[ |
 | 所有行銷活動元件 | [!UICONTROL Campaign creation failed] | 父級行銷活動未建立，因此未建立此實體。 請確定所有父系實體都包含所有必要欄位。 |
 | 廣告群組 | [!UICONTROL Campaign Row missing] | 指定的父級行銷活動不存在，因此未建立廣告群組。 在新列中建立父行銷活動。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 廣告群組可以包含關鍵字或版位，但不能同時包含兩者。 為關鍵字和版位建立個別的廣告群組。 |

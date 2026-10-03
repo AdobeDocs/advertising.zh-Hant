@@ -3,20 +3,24 @@ title: 使用EF ID摘要的轉換追蹤
 description: 瞭解如何使用EF ID摘要來追蹤轉換資料。
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+TQID: 'https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # 使用EF ID摘要的轉換追蹤
 
 在此方法中，每當使用者點按及廣告並到達登陸頁面時，Advertising Cloud就會收集`ef_id`值，且廣告商會儲存轉換資料的`ef_id`值，並將其傳送至資料摘要中。

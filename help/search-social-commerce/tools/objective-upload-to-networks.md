@@ -1,23 +1,28 @@
 ---
 title: 啟用上傳目標至廣告網路
-description: 瞭解如何將混合投資組合的目標上傳至 [!DNL Google Ads] 和 [!DNL Microsoft Advertising]。
+description: 瞭解如何將混合投資組合的目標上傳至[!DNL Google Ads]和[!DNL Microsoft Advertising]。
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 啟用上傳目標至廣告網路
 
 *僅具有[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的廣告商*
@@ -48,7 +53,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-1. （若您的轉換是在經理帳戶層級追蹤） [在](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin]為您的經理帳戶新增認證[!UICONTROL Manager Accounts]**。
+1. （若您的轉換是在經理帳戶層級追蹤） [在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;為您的經理帳戶新增認證](/help/search-social-commerce/admin/manager-accounts.md)。
 
 1. 確認每個名為`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`的目標在兩天內都出現在廣告網路上。
 
@@ -83,9 +88,9 @@ GGL_Lead不會包含在計算/上傳中，因為這是Google的廣告追蹤量�
 
 * ([!DNL Google Ads])檢查是否應將轉換上傳到帳戶或經理層級。 若應在管理員層級上傳：
 
-   * 檢查[!DNL Google Ads]管理員帳戶的認證是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;提供。 如有必要，[請為管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)新增認證。
+  * 檢查[!DNL Google Ads]管理員帳戶的認證是否在&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;提供。 如有必要，[請為管理員帳戶](/help/search-social-commerce/admin/manager-accounts.md)新增認證。
 
-   * 檢查廣告網路帳戶是否已包含相同的量度名稱。 如果有，則重新命名量度，以便建立正確的管理員層級屬性。
+  * 檢查廣告網路帳戶是否已包含相同的量度名稱。 如果有，則重新命名量度，以便建立正確的管理員層級屬性。
 
 * 檢查是否已選取產品組合的「混合」選項，以及目標是否具有有效的收入。
 

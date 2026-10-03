@@ -3,18 +3,21 @@ title: 檢視從摘要產生的資料
 description: 瞭解如何檢視從詳細目錄資料摘要產生的資料。
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
+TQID: 'https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # 檢視從摘要產生的資料
 
 *[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
@@ -27,32 +30,32 @@ ht-degree: 0%
 
   行銷活動階層檢視只會顯示摘要檔案產生的資料，不會顯示現有的帳戶元件。 元件及其所有子元件的資料發佈至廣告網路後，即不再列於行銷活動階層檢視中。
 
-   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
+  1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**，這會開啟至[!UICONTROL Templates]索引標籤。
 
-   1. （選用）若只要顯示針對特定範本建立的行銷活動元件：
+  1. （選用）若只要顯示針對特定範本建立的行銷活動元件：
 
-      1. 按一下範本名稱。
+     1. 按一下範本名稱。
 
-      1. 在左側導覽窗格的[!UICONTROL Accounts]功能表中，展開廣告網路節點和廣告網路帳戶節點，然後選取範本名稱旁的核取方塊。
+     1. 在左側導覽窗格的[!UICONTROL Accounts]功能表中，展開廣告網路節點和廣告網路帳戶節點，然後選取範本名稱旁的核取方塊。
 
-   1. 視您要檢視的元件而定，按一下「**[!UICONTROL Campaigns]**」、「**[!UICONTROL Ad Groups]**」、「**[!UICONTROL Keywords]**」或「**[!UICONTROL Ads]**」標籤。
+  1. 視您要檢視的元件而定，按一下「**[!UICONTROL Campaigns]**」、「**[!UICONTROL Ad Groups]**」、「**[!UICONTROL Keywords]**」或「**[!UICONTROL Ads]**」標籤。
 
-      >[!NOTE]
-      >
-      >* 除非您檢視特定範本的資料，[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤會列出所有範本和摘要檔案中建立的所有廣告群組、關鍵字和廣告。 用於[!DNL Google Ads]購物廣告的產品群組列在[!UICONTROL Keywords]索引標籤上。
-      >* 若只要檢視特定行銷活動的子元件，請先檢視[!UICONTROL Campaigns]標籤。 同樣地，若要只檢視特定廣告群組的子元件，請先檢視[!UICONTROL Ad Groups]標籤。
+     >[!NOTE]
+     >
+     >* 除非您檢視特定範本的資料，[!UICONTROL Ad Groups]、[!UICONTROL Keywords]和[!UICONTROL Ads]索引標籤會列出所有範本和摘要檔案中建立的所有廣告群組、關鍵字和廣告。 用於[!DNL Google Ads]購物廣告的產品群組列在[!UICONTROL Keywords]索引標籤上。
+     >* 若只要檢視特定行銷活動的子元件，請先檢視[!UICONTROL Campaigns]標籤。 同樣地，若要只檢視特定廣告群組的子元件，請先檢視[!UICONTROL Ad Groups]標籤。
 
-   1. （選擇性）若要檢視進一步資訊，請執行下列任一項作業：
+  1. （選擇性）若要檢視進一步資訊，請執行下列任一項作業：
 
-      * 若要檢視任何促銷活動、廣告群組、關鍵字或廣告的設定，請按一下名稱旁的[檢視/編輯設定圖示](/help/search-social-commerce/assets/settings.png "檢視/編輯設定圖示")。
+     * 若要檢視任何促銷活動、廣告群組、關鍵字或廣告的設定，請按一下名稱旁的[檢視/編輯設定圖示](/help/search-social-commerce/assets/settings.png "檢視/編輯設定圖示")。
 
-      * 若要檢視行銷活動或廣告群組的子元件，請執行以下操作：
+     * 若要檢視行銷活動或廣告群組的子元件，請執行以下操作：
 
-         * 若要列出行銷活動中的所有廣告群組，請按一下行銷活動名稱。
+       * 若要列出行銷活動中的所有廣告群組，請按一下行銷活動名稱。
 
-         * 若要列出廣告群組中的所有關鍵字或產品目標，請按一下廣告群組名稱。
+       * 若要列出廣告群組中的所有關鍵字或產品目標，請按一下廣告群組名稱。
 
-         * 若要列出廣告群組中的所有廣告，請按一下廣告群組名稱，然後按一下「[!UICONTROL Ads]」標籤。
+       * 若要列出廣告群組中的所有廣告，請按一下廣告群組名稱，然後按一下「[!UICONTROL Ads]」標籤。
 
 >[!MORELIKETHIS]
 >

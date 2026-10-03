@@ -1,23 +1,33 @@
 ---
-title: 對潛在客戶實作 [!DNL Google Ads] 增強型轉換
-description: 瞭解為潛在客戶設定 [!DNL Google Ads] 增強型轉換的工作流程。
+title: 對潛在客戶實作[!DNL Google Ads]增強型轉換
+description: 瞭解為潛在客戶設定[!DNL Google Ads]增強型轉換的工作流程。
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
+TQID: 'https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
+    internal-label: Personalization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '416'
 ht-degree: 0%
-
 ---
-
 # 對潛在客戶實作[!DNL Google Ads]增強型轉換
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
@@ -28,7 +38,7 @@ ht-degree: 0%
 
 * 檢視潛在客戶的現有增強型轉換。<!-- Where is this? -->
 
-  搜尋、社交和Commerce會在廣告商時區的每日05:00同步潛在客戶的現有增強型轉換。
+  搜尋、社交和Commerce會在廣告商的時區中，每日05:00同步潛在客戶的現有增強型轉換。
 
 * 為潛在客戶建立增強的轉換。
 
@@ -48,7 +58,7 @@ ht-degree: 0%
 
 1. 設定並實作標籤以追蹤轉換動作。
 
-   如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤[&#128279;](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的建立增強型轉換的標籤。
+   如需指示，請參閱[!DNL Google Ads]說明，為使用 [!DNL Google] 標籤](https://support.google.com/google-ads/answer/11021502)的銷售機會[或使用 [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292)的[建立增強型轉換的標籤。
 
 1. 為[搜尋、社交和Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)或[Google廣告](https://support.google.com/google-ads/answer/12216226)中的潛在客戶建立增強型轉換的轉換動作。
 

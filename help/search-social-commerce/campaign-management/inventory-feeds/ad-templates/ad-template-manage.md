@@ -3,18 +3,21 @@ title: 管理詳細目錄摘要的廣告範本
 description: 瞭解如何管理廣告範本，透過這些範本可處理您的詳細目錄資料，以管理帳戶結構並提供動態廣告。
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # 管理詳細目錄摘要的廣告範本
 
 *[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
@@ -41,9 +44,9 @@ ht-degree: 0%
 
    * 複製現有範本：
 
-      1. 選取要複製的範本旁的核取方塊。
+     1. 選取要複製的範本旁的核取方塊。
 
-      1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create/Clone]**，然後選取適用的廣告網路。
+     1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Create/Clone]**，然後選取適用的廣告網路。
 
    * （若要編輯現有的範本）在範本名稱旁，按一下![檢視/編輯設定](/help/search-social-commerce/assets/settings.png "檢視/編輯設定")。
 
@@ -76,43 +79,43 @@ ht-degree: 0%
 
       * 若要新增廣告變數，請執行以下操作：
 
-         1. 按一下&#x200B;**[!UICONTROL Add Ad Variation]**&#x200B;建立文字廣告、**[!UICONTROL Add ETA Variation]**&#x200B;建立展開/延伸的文字廣告，或&#x200B;**[!UICONTROL Add RSA Variation]**&#x200B;建立回應式文字廣告。
+        1. 按一下&#x200B;**[!UICONTROL Add Ad Variation]**&#x200B;建立文字廣告、**[!UICONTROL Add ETA Variation]**&#x200B;建立展開/延伸的文字廣告，或&#x200B;**[!UICONTROL Add RSA Variation]**&#x200B;建立回應式文字廣告。
 
-            指定廣告型別後，您只能使用範本建立該廣告型別。
+           指定廣告型別後，您只能使用範本建立該廣告型別。
 
-         1. 指定廣告設定。
+        1. 指定廣告設定。
 
-            如果是回應式搜尋廣告，您可以包含3-15個標題和2-4個說明。
+           如果是回應式搜尋廣告，您可以包含3-15個標題和2-4個說明。
 
-         1. （選擇性）若要以原始廣告復本欄位的文字預先填入所有替代廣告復本欄位，請選取&#x200B;**[!UICONTROL Prefill]**&#x200B;旁的核取方塊。
+        1. （選擇性）若要以原始廣告復本欄位的文字預先填入所有替代廣告復本欄位，請選取&#x200B;**[!UICONTROL Prefill]**&#x200B;旁的核取方塊。
 
-         1. （選擇性）若要新增另一組廣告復本至廣告，只要在傳播期間將任何動態引數取代為資料，原始廣告復本中的任何一行超過最大長度，即可使用此組廣告，請按一下&#x200B;**[!UICONTROL Add Alternate]**，然後新增替代值。
+        1. （選擇性）若要新增另一組廣告復本至廣告，只要在傳播期間將任何動態引數取代為資料，原始廣告復本中的任何一行超過最大長度，即可使用此組廣告，請按一下&#x200B;**[!UICONTROL Add Alternate]**，然後新增替代值。
 
-            >[!NOTE]
-            >
-            >* 如果選取了[!UICONTROL Prefill]選項，則替代欄位會預先填入原始欄位，您可以視需要編輯它們。
-            >* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
-            >* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
-            >* 您最多可以為每個廣告文案欄位指定四個替代專案。
+           >[!NOTE]
+           >
+           >* 如果選取了[!UICONTROL Prefill]選項，則替代欄位會預先填入原始欄位，您可以視需要編輯它們。
+           >* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
+           >* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
+           >* 您最多可以為每個廣告文案欄位指定四個替代專案。
 
-         * 若要編輯廣告變化，請執行下列動作：
+        * 若要編輯廣告變化，請執行下列動作：
 
-            1. 編輯廣告設定。
+          1. 編輯廣告設定。
 
-               如果是回應式搜尋廣告，您可以包含3-15個標題和2-4個說明。
+             如果是回應式搜尋廣告，您可以包含3-15個標題和2-4個說明。
 
-            1. （選擇性）若要以原始廣告復本欄位的文字預先填入所有替代廣告復本欄位，請選取&#x200B;**[!UICONTROL Prefill]**&#x200B;旁的核取方塊。
+          1. （選擇性）若要以原始廣告復本欄位的文字預先填入所有替代廣告復本欄位，請選取&#x200B;**[!UICONTROL Prefill]**&#x200B;旁的核取方塊。
 
-            1. （選擇性）若要新增另一組廣告復本至廣告，只要在傳播期間將任何動態引數取代為資料，原始廣告復本中的任何一行超過最大長度，即可使用此組廣告，請按一下&#x200B;**[!UICONTROL Add Alternate]**，然後新增替代值。
+          1. （選擇性）若要新增另一組廣告復本至廣告，只要在傳播期間將任何動態引數取代為資料，原始廣告復本中的任何一行超過最大長度，即可使用此組廣告，請按一下&#x200B;**[!UICONTROL Add Alternate]**，然後新增替代值。
 
-               >[!NOTE]
-               >
-               >* 如果選取了[!UICONTROL Prefill]選項，則替代欄位會預先填入原始欄位，您可以視需要編輯它們。
-               >* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
-               >* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
-               >* 您最多可以為每個廣告文案欄位指定四個替代專案。
+             >[!NOTE]
+             >
+             >* 如果選取了[!UICONTROL Prefill]選項，則替代欄位會預先填入原始欄位，您可以視需要編輯它們。
+             >* 只有超過最大長度的廣告文案欄位會取代為替代值。 例如，如果只有原始標題或標題太長，則產生的廣告變化會使用替代標題或標題以及原始說明。 因此，請確保替代廣告文案與原始廣告文案結合時有意義。
+             >* 如果原始廣告復本符合搜尋引擎的長度要求，則會捨棄替代廣告復本。
+             >* 您最多可以為每個廣告文案欄位指定四個替代專案。
 
-         * 若要移除廣告變化，請按一下廣告變化旁的&#x200B;**[!UICONTROL Remove ETA Variation]** （適用於擴充/延伸文字廣告）或&#x200B;**[!UICONTROL Remove RSA Variation]** （適用於回應式搜尋廣告），如適用。
+        * 若要移除廣告變化，請按一下廣告變化旁的&#x200B;**[!UICONTROL Remove ETA Variation]** （適用於擴充/延伸文字廣告）或&#x200B;**[!UICONTROL Remove RSA Variation]** （適用於回應式搜尋廣告），如適用。
 
    1. （僅限購物範本）按一下「**[!UICONTROL Product Groups]**」標籤，然後指定您要鎖定之產品群組的相關資訊。
 

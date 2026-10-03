@@ -3,22 +3,26 @@ title: 原生顯示廣告設定
 description: 請參閱原生顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+TQID: 'https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # 原生顯示廣告設定
 
 ## [!UICONTROL Ad Options]
@@ -41,13 +45,13 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]：**&#x200B;檢視者按一下廣告時所登陸的URL。
 
-**[!UICONTROL Final Landing Page]：**&#x200B;已插入包含必要[!UICONTROL Landing Page]Advertising DSP追蹤巨集[的](/help/dsp/campaign-management/macros.md) URL （如果適用）。
+**[!UICONTROL Final Landing Page]：**&#x200B;已插入包含必要[Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md)的[!UICONTROL Landing Page] URL （如果適用）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]：**&#x200B;廣告的廣告商。
 
 **[!UICONTROL Call to Action]：** （選用）觀看者看到此廣告時所要採取的步驟。
 
-**[!UICONTROL Advertiser Logo]：** （選用）要包含在廣告中的1:1比率標誌，以獲得更多品牌認可。 按一下&#x200B;**[!UICONTROL Browse]**，在您的裝置或網路上找到檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
+**[!UICONTROL Advertiser Logo]：** （選用）廣告要包含的1:1比率標誌，以獲得更多品牌認可。 按一下&#x200B;**[!UICONTROL Browse]**，在您的裝置或網路上找到檔案，然後按一下&#x200B;**[!UICONTROL Upload]**。
 
 ### [!UICONTROL Pixel]
 

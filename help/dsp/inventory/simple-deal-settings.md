@@ -3,20 +3,23 @@ title: '[!UICONTROL Simple Ad Serving]個交易設定'
 description: 瞭解[!UICONTROL Simple Ad Serving]個交易的可用設定。
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving]個交易設定
 
 ## 新[!UICONTROL Simple Ad Serving]筆交易
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | 引數 | 說明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 合約費率卡中所反映的每1000次曝光的成本(CPM)。 如需此值，請聯絡您的Adobe客戶團隊。 <br><br>同時指定交易的貨幣。 所有使用者都可以選取USD，或者，如果SSP支援其他貨幣，則選取DSP帳戶的貨幣。 |
+| **[!UICONTROL Media CPM]** | 合約費率卡中所反映的每1000次曝光的成本(CPM)。 如需此值，請聯絡您的Adobe客戶團隊。 <br><br>同時指定交易的貨幣。 所有使用者都可以選取USD，或是DSP帳戶的貨幣（如果SSP支援其他貨幣）。 |
 | **[!UICONTROL Third Party Billed Fees]** | （選用）要以不可開立帳單的成本追蹤的靜態第三方費用，以及交易的貨幣。<br><br>所有使用者都可以選取USD，或者，如果SSP支援其他貨幣，則選取DSP帳戶的貨幣。 **注意：**&#x200B;可記帳費用會反映在[!UICONTROL Net CPM]量度中。 |
 | **[!UICONTROL Third Party Fee Description]** | （選用）協力廠商費用的說明。 |
-| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 投放日期必須包含在行銷活動投放日期中。 廣告標籤只會在指定期間傳回回應。<br><br>最佳實務是建立獨立的、持續時間一年的簡單廣告服務行銷活動，並在其中建立追蹤畫素。 |
+| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 投放日期必須包含在行銷活動投放日期中。 廣告標籤只會在指定的航班期間傳回回應。<br><br> 最佳實務是建立獨立的、有一年持續時間的簡單廣告服務行銷活動，並在其中建立追蹤畫素。 |
 | **[!UICONTROL Impressions]** | （選用）您預計使用此交易執行的預估曝光次數。 此值僅用於追蹤目的，並用於標幟何時達到傳送目標；發佈者控制實際廣告傳送。 最佳作法是輸入大量曝光數，讓標籤在DSP中保持作用中，以便視需要更新或延伸。 |
 | **[!UICONTROL Deal Name]** | 交易名稱。 輸入名稱，或選取&#x200B;*[!UICONTROL Auto Generate Deal Name]*，讓DSP根據交易詳細資料產生名稱。<br><br>自動產生的名稱範例： `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | （唯讀）屬於交易的廣告。 若要編輯廣告，請按一下廣告名稱。 若要從交易移除廣告，請按一下廣告名稱旁的&#x200B;**[!UICONTROL X]**。 |

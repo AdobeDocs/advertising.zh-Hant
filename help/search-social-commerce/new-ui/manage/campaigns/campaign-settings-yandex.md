@@ -1,20 +1,24 @@
 ---
 title: '[!DNL Yandex]行銷活動設定'
-description: 參考 [!DNL Yandex] 行銷活動的設定。
+description: 參考[!DNL Yandex]行銷活動的設定。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: '253'
 ht-degree: 0%
-
 ---
-
 # [!DNL Yandex]行銷活動設定
 
 ## \[頁面頂端]
@@ -47,7 +51,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]索引標籤
 
-**[!UICONTROL Budget]：**&#x200B;預算，這是您希望每天（平均）或行銷活動存留期花費的金額，視帳戶的預算型別而定。 最低預算為6 300日元、10歐元或10美元。
+**[!UICONTROL Budget]：**&#x200B;預算，這是您希望每天（平均）或行銷活動存留期花費的金額，視帳戶的預算型別而定。 最低預算為PY6 300、EUR 10或USD 10。
 
 **附註：**
 

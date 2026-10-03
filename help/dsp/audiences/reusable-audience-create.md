@@ -3,22 +3,26 @@ title: 建立可重複使用的對象
 description: 瞭解如何建立可重複使用的受眾，其中包含受眾區段和其他儲存的受眾。 可選擇使用AI輔助受眾代理，透過在自然語言提示中描述您的目標受眾；代理會建議第三方區段並建置受眾運算式，以作為目標或排除專案。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # 建立可重複使用的對象
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ ht-degree: 0%
 
    * 若要使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]索引標籤](audience-settings.md)上可用的區段來手動建立區段邏輯，請執行下列動作。
 
-      * （選用）搜尋區段名稱、說明或路徑。
+     * （選用）搜尋區段名稱、說明或路徑。
 
-        搜尋結果包括以您使用的確切辭彙為基礎的區段。 當您輸入多個字詞時，必須找到區段的所有字詞。
+       搜尋結果包括以您使用的確切辭彙為基礎的區段。 當您輸入多個字詞時，必須找到區段的所有字詞。
 
-      * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
+     * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
 
-      * 若要將區段新增至現有區段群組：
+     * 若要將區段新增至現有區段群組：
 
-         1. 按一下右側面板中的區段群組。
+       1. 按一下右側面板中的區段群組。
 
-         1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+       1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-            *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在位置中，從「排除的對象」選單中選取該對象。
+          *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在位置中，從「排除的對象」選單中選取該對象。
 
-         1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
+       1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
 
-            區段群組會自動更新為新區段。
+          區段群組會自動更新為新區段。
 
-      * 若要新增區段群組：
+     * 若要新增區段群組：
 
-         1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
+       1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
 
-            1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+          1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
 
-            1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
+          1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
 
-            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+          1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
    * 若要使用現有對象中的區段邏輯：
 
-      1. 透過下列任何方式，從現有對象複製區段邏輯：
+     1. 透過下列任何方式，從現有對象複製區段邏輯：
 
-         * 在「所有對象」檢視中，將游標停留在對象列上，然後按一下「**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**」。
+        * 在「所有對象」檢視中，將游標停留在對象列上，然後按一下「**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**」。
 
-         * 在現有對象的設定中，按一下區段邏輯面板頂端的&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
+        * 在現有對象的設定中，按一下區段邏輯面板頂端的&#x200B;**[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**。
 
-         * 在文字編輯器中，使用英數字元區段ID和[布林值語法](audience-segment-logic-syntax.md)手動建立區段邏輯，並將其複製到剪貼簿。
+        * 在文字編輯器中，使用英數字元區段ID和[布林值語法](audience-segment-logic-syntax.md)手動建立區段邏輯，並將其複製到剪貼簿。
 
-      1. 按一下&#x200B;**[!UICONTROL paste in an audience rule to begin building]**，將現有的區段邏輯貼到輸入欄位中，然後按一下&#x200B;**[!UICONTROL Apply]**。
+     1. 按一下&#x200B;**[!UICONTROL paste in an audience rule to begin building]**，將現有的區段邏輯貼到輸入欄位中，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-         >[!NOTE]
-         >
-         >如果對象已包含任何區段邏輯，則貼入新區段邏輯會覆寫現有邏輯。
+        >[!NOTE]
+        >
+        >如果對象已包含任何區段邏輯，則貼入新區段邏輯會覆寫現有邏輯。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -161,11 +165,11 @@ ht-degree: 0%
 
 * 使用清楚的描述性語言來說明目標對象。
 
-   * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
+  * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
 
-   * 一般而言，提示不區分大小寫。
+  * 一般而言，提示不區分大小寫。
 
-   * 對象代理程式會辨識最常見的同義字。
+  * 對象代理程式會辨識最常見的同義字。
 
 * 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 您提供的詳細資料越多，取得符合您需求之結果的機會就越大。
 

@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Google Ads] 帳戶必要的大量表單資料'
-description: 參考 [!DNL Google Ads] 帳戶大量表單中必要的標題欄位和資料欄位。
+title: '[!DNL Google Ads]帳戶必要的大量表單資料'
+description: 參考[!DNL Google Ads]帳戶大量表單中必要的標題欄位和資料欄位。
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # 附錄 — [!DNL Google Ads]帳戶需要的大量表單資料
 
 若要大量建立和更新[!DNL Google Ads]行銷活動資料，您可以使用特別針對[!DNL Google Ads]帳戶格式化的搜尋、社交和Commerce大量表單檔案。 您可以a) [以必要的檔案格式](../bulksheet-download.md)產生現有帳戶的批次工作表檔案，或b)手動建立這些檔案（如需支援之檔案格式的一般資訊，請參閱[支援的批次工作表檔案格式](bulksheet-file-formats.md)）。
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | （當您包含位置時） [位置型別](https://developers.google.com/google-ads/api/data/geotargets)。 |
 | [!UICONTROL Device] | 在行銷活動或廣告群組層級進行競標調整的裝置型別： <i>[!UICONTROL smartphone]</i>、<i>[!UICONTROL tablet]</i>或<i>[!UICONTROL desktop]</i>。 |
 | [!UICONTROL Bid Adjustment] | <p>（當您包含[!UICONTROL Location]、[!UICONTROL Device]或[!UICONTROL RLSA]目標時）是否調整特定位置、特定裝置型別或特定對象目標中廣告的競標：</p><ul><li><p>若要使用關鍵字層級的競標（0%差異），請輸入0。 若為新目標，您也可以將此專案留空。</p></li><li><p>若要對此目標使用不同的競標，請輸入增加或減少競標的百分比。</p></li><ul><li><p>對於位置和RLSA目標，有效百分比包括從–90到900。</p></li><li><p>針對裝置競標調整，有效百分比包括：</p></li><ul><li><p>（行銷活動）–100 （不對裝置型別上的廣告投標）或從–90到900。</p></li><li><p>（廣告群組） -100適用於智慧型手機和平板電腦（不得競標裝置型別），以及從–90到900適用於所有裝置型別。</p></li></ul></ul><li><p>（現有行銷活動和廣告群組）若要使用現有競標調整，請將此項留空。</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | （包含在產生的大量表單中以供參考） Adobe建議用於行銷活動層級位置目標或RLSA的唯讀競標調整。 只有當行銷活動位於其目標使用加權轉換量度（而非[!UICONTROL Maximize Clicks]目標）的投資組合中，且行銷活動包含至少兩個位置目標或過去90天內具有至少五次點按或成本為5美元的RLSA時，才會計算此值。</p><p>如果您想要手動編輯位置目標或RLSA以使用建議值，請在建立位置目標或RLSA後至少等待兩週，以允許足夠的資料收集，並且不要每週變更值超過一次。 |
+| [!UICONTROL Adobe Rec Bid Adjustment] | （包含在產生的大量表單中以供參考） Adobe建議用於行銷活動層級位置目標或RLSA的唯讀競標調整。 只有當行銷活動位於目標為使用加權轉換量度（而非[!UICONTROL Maximize Clicks]目標）的投資組合中，且行銷活動包含至少兩個位置目標或過去90天內具有至少五次點按或5次USD成本的RLSA時，才會計算此值。</p><p>如果您想要手動編輯位置目標或RLSA以使用建議值，請在建立位置目標或RLSA後至少等待兩週，以允許足夠的資料收集，並且不要每週變更值超過一次。 |
 | [!UICONTROL Device Targets] | <p>（僅限舊版行銷活動型別）廣告可能會顯示的裝置： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Computers]</i>、<i>[!UICONTROL Smartphones]</i>或<i>[!UICONTROL Tablets]</i>。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | （僅限舊版促銷活動型別；適用於裝置目標包含「智慧型手機」或「平板電腦」時）可顯示廣告的作業系統： <i>[!UICONTROL All]</i>、<i>[!UICONTROL Android]</i>、<i>[!UICONTROL iOS]</i>或<i>[!UICONTROL Palm]</i>。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（僅限舊版促銷活動型別；適用於[!UICONTROL Device Targets]包含&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Smartphones]&quot;）智慧型手機可能連線的行動電信業者： <i>[!UICONTROL All]</i>，或使用[!DNL Google Ads]</a>的<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">可用電信業者和代碼清單，以&lt;c<i>電信業者代碼</i>>、&lt;<i>國家/地區代碼</i>> （例如T-Mobile，US）表示的一或多個電信業者。 以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
@@ -109,7 +114,7 @@ Add in when released:
 | [!UICONTROL Start Date] | <p>（僅限增強型網站連結）可在廣告商的時區及下列格式之一中，對網站連結發出競標的第一天： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新增強型網站連結的預設值為當天。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL End Date] | <p>（僅限增強型網站連結）可在廣告商的時區中，以下列其中一種格式對網站連結發出競標的最後日期： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 預設值為無（無結束日期）。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （僅限現有應用程式安裝廣告）</p><p>（選用）防止[!DNL Google Ads]向平板電腦使用者顯示廣告。 值可以包含<i>是</i>和<i>否</i>。 |
-| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
+| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
 | [!UICONTROL Tracking Template] | 追蹤範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌於[!DNL ValueTrack]引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>若為Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤代碼。<br><br>對於協力廠商重新導向與追蹤，請輸入值。 如需表示追蹤範本中最終URL的[!DNL ValueTrack]引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2375447)中「可用的[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高級別的URL。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您已附加搜尋引擎特定引數，這些引數可能會取代為「搜尋」、「社交」和「Commerce」的同等引數。<br><br>對於具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
@@ -263,7 +268,7 @@ Add in when released:
 
 ### 已展開的動態搜尋廣告
 
-此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hant)&quot;。
+此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -288,7 +293,7 @@ Add in when released:
 
 ### 產品清單/購物廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -493,5 +498,5 @@ Add in when released:
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)

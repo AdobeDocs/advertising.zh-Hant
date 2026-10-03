@@ -1,22 +1,26 @@
 ---
-title: 產生 [!DNL Advertising Insight]
-description: 瞭解如何建立 [!DNL Advertising Insight]。
+title: 產生[!DNL Advertising Insight]
+description: 瞭解如何建立[!DNL Advertising Insight]。
 exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-TQID: https://experienceleague.adobe.com/meXmiqRiNyUxVnnMdl8S-GfHk0xWWu-62tU0W5Ogtd8
+TQID: 'https://experienceleague.adobe.com/meXmiqRiNyUxVnnMdl8S-GfHk0xWWu-62tU0W5Ogtd8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bc8b5578-58f6-5342-a640-fce94e5ff4a7
+    internal-label: Search Advertising Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '337'
 ht-degree: 0%
-
 ---
-
 # 產生[!DNL Advertising Insight]
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**。
@@ -49,7 +53,7 @@ ht-degree: 0%
 
          所有檔案都必須是CSV、TSV、TXT或ZIP （壓縮的CSV、TSV或TXT）格式。
 
-   5. （[!UICONTROL Location Target Performance]僅限insight；選用）若要每日彙總資料，而非作為摘要，請選取&#x200B;**[!UICONTROL Time Aggregation]**&#x200B;的&#x200B;*[!UICONTROL Daily]*。
+   5. （[!UICONTROL Location Target Performance]僅限insight；選用）若要每日彙總資料，而非作為摘要，請選取&#x200B;*[!UICONTROL Daily]*&#x200B;的&#x200B;**[!UICONTROL Time Aggregation]**。
 
    6. （[!UICONTROL Normalized Sim (Combined)]僅限insight）執行下列動作：
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 
 4. 按一下&#x200B;**[!UICONTROL Generate Insight]**。
 
-   當工作完成或失敗時，您會根據[為](/help/search-social-commerce/notifications/notification-edit.md)設定的通知設定[!UICONTROL Advertising Insights]接收通知。
+   當工作完成或失敗時，您會根據[為[!UICONTROL Advertising Insights]設定的通知設定](/help/search-social-commerce/notifications/notification-edit.md)接收通知。
 
 >[!MORELIKETHIS]
 >

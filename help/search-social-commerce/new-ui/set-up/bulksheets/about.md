@@ -4,20 +4,25 @@ description: 瞭解廣告網路、大量表單工作流程可用的大量表單�
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # （新UI）關於使用大量表單管理行銷活動資料
 
 大量表單是包含特定格式之行銷活動資料的檔案，可用來快速建立或修改行銷活動和廣告群組結構資料及文字廣告。 您可以針對一或多個帳戶、特定行銷活動和廣告群組，或甚至特定文字廣告、版位和產品群組，產生（下載）大量表單。 您可以使用大量表單來管理大型資料集或進行小型變更。 每個廣告網路都需要不同的資訊欄。
@@ -84,9 +89,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新UI）下載/建立Bulksheet檔案](download.md)
+>* [ （新UI）下載/建立Bulksheet檔案](download.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
->* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)
 >* [（新UI）刪除已上傳的大量工作表和錯誤檔案](delete.md)
 >* [（新UI）停止進行中的大量表單工作](stop-job.md)

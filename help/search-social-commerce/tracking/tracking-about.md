@@ -3,22 +3,28 @@ title: 關於搜尋、社交和Commerce的追蹤
 description: 瞭解搜尋、社交和Commerce的追蹤選項。
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # 關於搜尋、社交和Commerce的追蹤
 
 若要追蹤廣告成效，搜尋、Social和Commerce需要廣告的曝光數、點選數、成本和轉換（交易）資料。 搜尋、Social和Commerce會使用這些資料來建立所需的資料預測模型，以便最佳化您的廣告組合。
@@ -39,7 +45,7 @@ ht-degree: 0%
 
 * 在所有其他情況下，廣告網路會直接將點按傳送至Adobe Advertising畫素伺服器。 畫素伺服器會將Cookie放在使用者的電腦上（如果沒有），然後將使用者重新導向至您網站上的相關URL。 一般使用者的整體體驗，與沒有重新導向時相同。
 
-Cookie在[!DNL Adobe]網域(`everesttech.net`)中設定為第一方Cookie。 重新導向後，使用者位在廣告商的網域上，接著系統會將此Cookie視為第三方Cookie。 如需Adobe Advertising Cookie的詳細資訊，請參閱&quot;[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant)&quot;。
+Cookie在[!DNL Adobe]網域(`everesttech.net`)中設定為第一方Cookie。 重新導向後，使用者位在廣告商的網域上，接著系統會將此Cookie視為第三方Cookie。 如需Adobe Advertising Cookie的詳細資訊，請參閱&quot;[Adobe Advertising Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;。
 
 ## 轉換資料
 

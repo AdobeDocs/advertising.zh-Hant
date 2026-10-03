@@ -2,13 +2,19 @@
 title: （新UI）產生並實作Adobe Advertising轉換追蹤標籤
 description: 瞭解如何建立Adobe Advertising轉換標籤來追蹤您的轉換事件。
 feature: Search Tools, Search Tracking
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
-
 ---
-
 # （新UI）產生並實作Adobe Advertising轉換追蹤標籤
 
 *僅追蹤Adobe Advertising轉換的廣告商*
@@ -71,13 +77,13 @@ ht-degree: 0%
 
 您可以使用Adobe Experience Platform中的標籤來設定「搜尋」、「社交」和「Commerce」的轉換追蹤。 Adobe CX Enterprise客戶可使用標籤內含的增值功能。
 
-從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
+從Experience Platform使用者介面或Experience Platform資料收集使用者介面設定搜尋、社交和Commerce的轉換追蹤標籤時，需要執行下列工作。 如需設定標籤的完整資訊與指示，請參閱Experience Platform標籤指南，從&quot;[標籤總覽](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot;和&quot;[快速入門手冊](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;開始。
 
 >[!PREREQUISITES]
 >
 >若要安裝必要的標籤擴充功能，請要求您的組織管理員存取使用者介面中的資料收集功能，包括`manage_properties`許可權。
 
-1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)：
+1. 從[資料彙集UI](https://experience.adobe.com/#/data-collection/)，安裝Adobe Advertising [擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)：
 
    1. 從適用的屬性中，開啟擴充功能目錄並選取&#x200B;**Adobe Advertising**。
 
@@ -125,7 +131,7 @@ ht-degree: 0%
 
          **轉換屬性名稱：**&#x200B;轉換屬性的名稱（例如，`form_completes`）。
 
-         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)。
+         **值：**&#x200B;轉換屬性的數值（例如`1`以追蹤form_completes），或選擇現有的[資料元素](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)。
 
       1. 按一下&#x200B;**保留變更**。
 

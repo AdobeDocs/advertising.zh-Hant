@@ -1,25 +1,32 @@
 ---
-title: 在 [!DNL FreeWheel]中設定PG交易的概觀
-description: 瞭解在 [!DNL FreeWheel]上執行發行者程式化保證交易的廣告的必要條件和額外步驟。
+title: 在[!DNL FreeWheel]中設定PG交易的概觀
+description: 瞭解在[!DNL FreeWheel]上執行與發佈者的程式化保證交易的廣告所需的先決條件和額外步驟。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-TQID: https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM
+TQID: 'https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL FreeWheel]中設定程式化預留交易的概觀
 
 在[!DNL FreeWheel]上設定與發行者的程式化預留交易需要額外的許可權和步驟。
@@ -38,7 +45,7 @@ ht-degree: 0%
 
    對於某些英國發行者，您的廣告必須包含[!DNL Clearcast]時鐘編號。
 
-1. [接受您已於](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)使用交易識別碼收件匣與發行者交涉的交易ID[!DNL FreeWheel]。
+1. [接受您已於[!DNL FreeWheel]使用交易識別碼收件匣與發行者交涉的交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)。
 
    接受交易後，請依照提示操作1)選取要用於交易的廣告，2)建立程式化預留預設位置以提供廣告。
 
@@ -53,4 +60,4 @@ ht-degree: 0%
 >* [在[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)中接受交易
 >* [將程式化保證交易的廣告提交至 [!DNL FreeWheel]](freewheel-submit.md)
 >* [檢查 [!DNL FreeWheel] PG交易的廣告狀態](freewheel-check-status.md)
->* [&#x200B; [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)
+>* [ [!DNL FreeWheel] 廣告提交的錯誤碼](freewheel-error-codes.md)

@@ -1,23 +1,30 @@
 ---
 title: '[!DNL Microsoft Advertising]行銷活動設定'
-description: 參考 [!DNL Microsoft Advertising] 行銷活動的設定。
+description: 參考[!DNL Microsoft Advertising]行銷活動的設定。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2256'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]行銷活動設定
 
 ## \[頁面頂端]
@@ -239,7 +246,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 >
 >如果行銷活動是混合專案組合的一部分，最佳實務是使用符合專案組合目標中的轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
 >
-> 不過，對於混合產品組合中您[將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)的行銷活動，請在廣告網路的編輯器內（而非此處）執行下列動作： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為行銷活動的轉換目標，以及b)新增任何包含由[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤追蹤的轉換的行銷活動目標，因為廣告網路追蹤的量度未上傳至具有目標的廣告網路。
+> 不過，對於混合產品組合中您[將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)的行銷活動，請在廣告網路的編輯器中（而非此處）執行下列動作： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為行銷活動的轉換目標，以及b)新增任何包含由[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤追蹤的轉換的行銷活動目標，因為廣告網路追蹤的量度未上傳至具有目標的廣告網路。
 
 ### [!UICONTROL Asset Groups] （每個資產群組）
 

@@ -3,13 +3,19 @@ title: （新UI）檢視產品組合的變更記錄
 description: 瞭解如何檢視投資組合的變更記錄。
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 # （新UI）檢視產品組合的變更記錄
 
 *Beta功能*
@@ -77,7 +83,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [建立投資組合](portfolio-create.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
 >* [關於投資組合](portfolio-about.md)

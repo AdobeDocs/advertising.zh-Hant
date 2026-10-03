@@ -4,22 +4,32 @@ description: 瞭解產品組合模擬。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-TQID: https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # 關於模擬
 
 *Beta功能*
@@ -75,7 +85,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 下載的自訂模擬
 
-每個下載的自訂模擬都包含一個活頁簿。 每個活頁簿都包含一個工作表，供模擬的每個指定實體層級（產品組合、行銷活動、廣告群組、競標單位）使用（當該層級有資料可用時）。 當您指定裝置層級資料時，每個工作表都會包含[!UICONTROL Device]欄。 每個工作表都包含一列，內含每個適用實體的資料，以及20個步驟中每個步驟的裝置型別（例如每個促銷活動各一列）（若為報表指定此列）。 每列中的資料包含目標中所包含的根據對應目標的預測邊際成本對收入、成本、點選、加權收入（目標值）、裝置型別和轉換量度。 產品組合層次工作表也包含步驟層次的目標，而實體層次工作表則包含廣告網路、帳戶、促銷活動及（若適用）廣告群組。   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+每個下載的自訂模擬都包含一個活頁簿。 每個活頁簿都包含一個工作表，供模擬的每個指定實體層級（產品組合、行銷活動、廣告群組、競標單位）使用（當該層級有資料可用時）。 當您指定裝置層級資料時，每個工作表都會包含[!UICONTROL Device]欄。 每個工作表都包含一列，內含每個適用實體的資料，以及20個步驟中每個步驟的裝置型別（例如每個促銷活動各一列）（若為報表指定此列）。 每列中的資料包含目標中所包含的根據對應目標的預測邊際成本對收入、成本、點選、加權收入（目標值）、裝置型別和轉換量度。 產品組合層次工作表也包含步驟層次的目標，而實體層次工作表則包含廣告網路、帳戶、促銷活動及（若適用）廣告群組。  <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
 
 #### 熒幕上的自訂模擬詳細資料
 
@@ -125,7 +135,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 * 在您啟動產品組合以透過對應的產品組合設定來預估可預期的效能之前，請至少使用兩週的資料。 如果模擬結果顯示效能低於您根據所包含行銷活動的歷史資料所預期的效能，請在啟動產品組合之前調查並解決問題。
 
-* 在投資組合發生任何重大變更後（例如新增行銷活動或變更目標）。 如果您變更投資組合的模型開始日期、轉換量度的權重，或目標的點按值，則等到隔天17:00 PST之後再執行模擬（當有更新的成本和收入模型可用時）。
+* 在投資組合發生任何重大變更後（例如新增行銷活動或變更目標）。 如果您變更投資組合的模型開始日期、轉換量度的權重，或目標的點按值，則等到第二天17:00 PST之後再執行模擬，此時有更新的成本和收入模型可用。
 
 * 定期監視轉換量度層級的效能趨勢。
 

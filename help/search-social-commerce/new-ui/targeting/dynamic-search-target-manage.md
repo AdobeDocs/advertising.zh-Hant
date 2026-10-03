@@ -10,13 +10,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -220,7 +222,7 @@ You can also delete any dynamic target.
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -255,4 +257,4 @@ You can also delete any dynamic target.
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新UI）管理標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+>* [ （新UI）管理標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

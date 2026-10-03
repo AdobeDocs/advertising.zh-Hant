@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising]行銷活動設定'
-description: 參考 [!DNL Microsoft Advertising] 行銷活動的設定。
+description: 參考[!DNL Microsoft Advertising]行銷活動的設定。
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]行銷活動設定
 
 ## \[行銷活動建立畫面\]
@@ -83,7 +90,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*： （品牌的購物行銷活動； [!DNL Microsoft Store Ads]個行銷活動；其他行銷活動型別已棄用）使用每次點按成本(CPC)模型。 對於某些廣告型別，您可以選擇允許廣告網路變更行銷活動的競標：
 
-   * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：此選項與使用&quot;[!UICONTROL Enhanced CPC]&quot;選項相同。
+  * **[!UICONTROL Enable Enhanced CPC]** （預設為停用）：此選項與使用&quot;[!UICONTROL Enhanced CPC]&quot;選項相同。
 
 * *[!UICONTROL Manual CPA]：* （[!DNL Microsoft Store Ads]個行銷活動）使用每次贏取成本(CPA)模型。
 
@@ -224,21 +231,21 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+  1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
 
-   1. 對於每個影像：
+  1. 對於每個影像：
 
-      1. 選取外觀比例。
+     1. 選取外觀比例。
 
-      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+     1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+     1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-         系統會為每個選取的外觀比例建立一個資產。
+        系統會為每個選取的外觀比例建立一個資產。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+     1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
+  1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
 
 * 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
 
@@ -246,21 +253,21 @@ ht-degree: 0%
 
 * 若要上傳影像：
 
-   1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
+  1. 在[!UICONTROL Upload from Device]標籤上，按一下&#x200B;**[!UICONTROL +]**&#x200B;並從您的裝置或網路選取影像。
 
-   1. 對於每個影像：
+  1. 對於每個影像：
 
-      1. 選取外觀比例。
+     1. 選取外觀比例。
 
-      1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
+     1. 視需要拖曳並放置裁切方塊以選取影像的可檢視部分，並視需要調整影像的可檢視部分大小。
 
-      1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
+     1. （選擇性）選取其他外觀比例，並視需要為每個選取的外觀比例重新定位和調整影像大小。
 
-         系統會為每個選取的外觀比例建立一個資產。
+        系統會為每個選取的外觀比例建立一個資產。
 
-      1. 按一下&#x200B;**[!UICONTROL Proceed]**。
+     1. 按一下&#x200B;**[!UICONTROL Proceed]**。
 
-   1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
+  1. 當您完成指定影像時，請按一下&#x200B;**[!UICONTROL Upload]**。
 
 * 若要從您的[!UICONTROL Asset Library]選取影像，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取影像。
 
@@ -268,9 +275,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
@@ -278,9 +285,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
@@ -288,9 +295,9 @@ ht-degree: 0%
 
 * 若要輸入文字，請執行下列動作：
 
-   1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
+  1. 在[!UICONTROL Enter Text]索引標籤上，輸入文字。
 
-   1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
+  1. （選擇性）若要新增其他文字字串，請按一下&#x200B;**[!UICONTROL + Add]**&#x200B;並輸入字串。
 
 * 若要從您的[!UICONTROL Asset Library]中選取資產，請按一下&#x200B;**[!UICONTROL Asset Library]**&#x200B;並選取資產。
 
@@ -317,7 +324,7 @@ ht-degree: 0%
 >
 >如果行銷活動是混合專案組合的一部分，最佳實務是使用符合專案組合目標中的轉換目標的行銷活動層級目標；包含其他轉換目標可能會影響專案組合績效。
 >
-> 不過，對於混合產品組合中您[將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)的行銷活動，請在廣告網路的編輯器內（而非此處）執行下列動作： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為行銷活動的轉換目標，以及b)新增任何包含由[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤追蹤的轉換的行銷活動目標，因為廣告網路追蹤的量度未上傳至具有目標的廣告網路。
+> 不過，對於混合產品組合中您[將目標上傳至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)的行銷活動，請在廣告網路的編輯器中（而非此處）執行下列動作： a)新增上傳的搜尋、社交和Commerce產品組合目標量度（以「O_ACS_OBJ」開頭）作為行銷活動的轉換目標，以及b)新增任何包含由[!DNL Microsoft Advertising]通用事件追蹤(UET)標籤追蹤的轉換的行銷活動目標，因為廣告網路追蹤的量度未上傳至具有目標的廣告網路。
 
 >[!MORELIKETHIS]
 >

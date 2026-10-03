@@ -1,61 +1,69 @@
 ---
-title: About Adobe Advertising Search, Social, & Commerce
-description: Learn about Search, Social, & Commerce.
+title: 關於Adobe Advertising Search、Social和Commerce
+description: 瞭解搜尋、社交和Commerce。
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+TQID: 'https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
+# 關於Adobe Advertising Search、Social和Commerce
 
-# About Adobe Advertising Search, Social, &amp; Commerce
+[!DNL Adobe]是客戶體驗解決方案的市場和技術領導者。 Adobe Advertising可簡化跨管道廣告行銷活動的傳送，以便透過任何畫面以任何格式管理品牌和績效行銷活動。 Adobe Advertising包含三個子解決方案：用於搜尋、購物、社交、對象網路和效能最大化管道的Advertising搜尋、社交和Commerce；用於顯示管道的Advertising DSP (Demand Side Platform)；以及用於建立顯示廣告的一般使用者體驗的Advertising Creative。
 
-[!DNL Adobe] is the market and technology leader in customer experience solutions. Adobe Advertising simplifies the delivery of advertising campaigns cross-channel for brand and performance campaign management across any screen, in any format. Adobe Advertising consists of three sub-solutions: Advertising Search, Social, &amp; Commerce for search, shopping, social, audience network, and performance max channels; Advertising DSP (Demand Side Platform) for display channels; and Advertising Creative for creating end-user experiences for your display ads.
+Advertising Search、Social和Commerce是Adobe Advertising的一部分，結合約類最佳的產品組合型廣告管理、智慧型行銷活動預測和針對性廣告傳送，以提供資料最佳化的廣告。
 
-As part of Adobe Advertising, Advertising Search, Social, &amp; Commerce combines best-of-breed portfolio-based ad management with intelligent campaign forecasting and targeted ad delivery for data-optimized advertising.
+## 適用於廣告最佳化的AI驅動技術
 
-## AI-driven technology for ad optimization
+搜尋、Social和Commerce可在廣告商的業務目標、量度、預算和其他業務限制範圍內，自動化並最佳化跨廣告網路廣告行銷活動的競標和預算管理。 它會追蹤每個廣告商關鍵字和廣告的點按次數、成本和轉換記錄，以及有關每個行銷管道上競標情況的資訊。 使用產品組合理論方法，最佳化功能會比較整個行銷活動產品組合中預算的所有可能配置，以判斷將產生最高可能廣告支出回報的競標和行銷活動預算，並據此執行競標、預算和競標策略目標。 最佳化功能會持續監控廣告商的關鍵字和廣告，並隨著市場變化而動態調整競標、預算和目標。
 
-Search, Social, &amp; Commerce automates and optimizes bid and budget management for ad campaigns across ad networks within the boundaries of an advertiser&#39;s business objectives, metrics, budget, and other business constraints. It tracks the click, cost, and conversion history for each of an advertiser&#39;s keywords and ads, as well as information about the bid landscape on each marketing channel. Using a portfolio theory approach, the optimization capability compares all possible allocations of your budget across an entire portfolio of campaigns to determine the bids and campaign budgets that will yield the highest possible return on ad spend, and it executes the bids, budgets, and bid strategy targets accordingly. The optimization capability constantly monitors an advertiser&#39;s keywords and ads, dynamically adjusting bids, budgets, and targets as the marketplace changes.
+提供多種型別的最佳化功能，可讓Search、Social和Commerce以及廣告網路對競標最佳化有不同程度的控制。 根據最佳化型別，您可以使用Adobe Advertising、Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]或其他第一方企業摘要所追蹤的轉換，將產品組合最佳化。
 
-Multiple types of optimization are available, allowing Search, Social, &amp; Commerce and the ad network varying degrees of control over bid optimization. Depending on the optimization type, you can optimize your portfolios using conversions tracked by Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], or other first-party enterprise feeds.
+視您的角色而定，您可以檢視產品組合績效模擬（使用預測模型來識別最佳支出點）和詳細的預測準確度報表。 所有使用者都可以使用「支出建議工具」，識別跨產品組合的最佳預算分配。
 
-Depending on your role, you may be able to view portfolio performance simulations, which use predictive modeling to identify your optimal spend point, and detailed forecast accuracy reports. All users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios.
+如需詳細資訊，請參閱「最佳化指南」中的「產品組合」一章，此指南可在「搜尋」、「社交」和「Commerce」中使用。
 
-For more information, see the Portfolios chapter in the Optimization Guide, which is available within Search, Social, &amp; Commerce.
+## 廣告管理介面
 
-## The advertising management interface
+搜尋、Social和Commerce可在您的廣告網路中提供完整的促銷活動管理、最佳化、追蹤和報表功能。 在廣告管理檢視中，您可以：
 
-Search, Social, &amp; Commerce provides comprehensive campaign management, optimization, tracking, and reporting across your ad networks. In the ad management views, you can:
+* **行銷活動管理：**&#x200B;針對支援的廣告網路同步處理您的廣告帳戶，然後使用大量表單手動設定和管理許多行銷活動型別，並自動使用詳細目錄資料摘要。
 
-* **Campaign management:**  Sync your ad accounts for supported ad networks, and then set up and manage many campaign types manually, using bulksheets, and automatically using inventory data feeds.
+* **最佳化：**&#x200B;將您的行銷活動和廣告集分組到不同型別的產品組合以進行最佳化。 使用產品組合模擬來預測支出策略和其他產品組合設定變更的影響。
 
-* **Optimization:** Group your campaigns and ad sets into different types of portfolios for optimization. Use portfolio simulations to predict the impact of changes to the spending strategy and other portfolio settings.
-
-* **Campaign tracking:** Set up access to other ad campaigns for which you want to only track and report. This may include uploading campaign data and metrics.
+* **行銷活動追蹤：**&#x200B;設定您只想追蹤和報告之其他廣告行銷活動的存取權。 這可能包括上傳行銷活動資料和量度。
 
 * **報告：**&#x200B;透過效能資料檢視和詳細的、可自訂的報告，監控及分析您的產品組合和您正在追蹤的任何其他行銷活動的效能。 您可以在資料檢視和報告中包含來自Adobe Analytics、[!DNL Google Ads]、[!DNL Google Analytics]和其他第一方企業摘要的轉換量度。
 
-   * 設定各種效能資料檢視，以最佳方式檢視您認為重要的效能資料。
+  * 設定各種效能資料檢視，以最佳方式檢視您認為重要的效能資料。
 
-   * 使用報表範本和試算表摘要來自動化報表製作。
+  * 使用報表範本和試算表摘要來自動化報表製作。
 
-   * 針對產品組合，規範性深入分析還提供可用於改善效能的視覺化可操作資料。
+  * 針對產品組合，規範性深入分析還提供可用於改善效能的視覺化可操作資料。
 
 如需支援不同廣告網路和廣告型別的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
 

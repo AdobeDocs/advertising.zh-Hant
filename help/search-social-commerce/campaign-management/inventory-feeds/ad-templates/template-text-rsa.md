@@ -3,21 +3,26 @@ title: 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 description: 參考詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定。
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # 詳細目錄摘要的文字廣告和回應式搜尋廣告範本設定
 
 *[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
@@ -77,11 +82,11 @@ ht-degree: 0%
 
 * 若要內嵌最終URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+  * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799/2)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
 
-   * （僅限[!DNL LY Ads]）使用引數`!{unescapedurl}`來指示登陸頁面URL。
+  * （僅限[!DNL LY Ads]）使用引數`!{unescapedurl}`來指示登陸頁面URL。
 
-   * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數，以&amp;分隔，例如`{lpurl}?matchtype={matchtype}&device={device}`。
+  * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數，以&amp;分隔，例如`{lpurl}?matchtype={matchtype}&device={device}`。
 
 * 對於協力廠商重新導向和追蹤，請輸入值。
 
@@ -179,17 +184,17 @@ ht-degree: 0%
 
 * 針對[!DNL Google Ads]、[!DNL LY Ads]和[!DNL Microsoft Advertising]範本：
 
-   * 對於動態引數： Broad Match = `[keyword]`，[!UICONTROL Keyword]欄中第一個字詞的Broad Match Modifier （例如+blue suede shoes） = `+[keyword]`，Keyword欄中每個字詞的Broad Match Modifier （例如+blue +suede +shoes） = `+[keyword]+`，Phrase Match = `"[keyword]"`，Exact Match = `[[keyword]]`
+  * 對於動態引數： Broad Match = `[keyword]`，[!UICONTROL Keyword]欄中第一個字詞的Broad Match Modifier （例如+blue suede shoes） = `+[keyword]`，Keyword欄中每個字詞的Broad Match Modifier （例如+blue +suede +shoes） = `+[keyword]+`，Phrase Match = `"[keyword]"`，Exact Match = `[[keyword]]`
 
-   * 針對靜態關鍵字：廣泛比對= `keyword`、廣泛比對修飾詞= `+keyword`，或片語比對= `"keyword"`
+  * 針對靜態關鍵字：廣泛比對= `keyword`、廣泛比對修飾詞= `+keyword`，或片語比對= `"keyword"`
 
-     您無法在此輸入具有完全相符和標準相符語法的靜態關鍵字，因為它們被括弧(`[]`)括住，就像動態引數一樣。
+    您無法在此輸入具有完全相符和標準相符語法的靜態關鍵字，因為它們被括弧(`[]`)括住，就像動態引數一樣。
 
 * 針對[!DNL Yandex]範本：
 
-   * 針對動態引數：插入資料行名稱，例如`[keyword]`。 若要指出相符型別，請使用[[!DNL Yandex]特定語法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 **注意：**&#x200B;對於廣泛比對辭彙，請使用下列語法： Broad Match Modifier for the first term in the Keyword column （例如+blue suede shoes） = `+[keyword]`， Broad Match Modifier for each term in the Keyword column （例如+blue +suede +shoes） = `+[keyword]+`
+  * 針對動態引數：插入資料行名稱，例如`[keyword]`。 若要指出相符型別，請使用[[!DNL Yandex]特定語法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 **注意：**&#x200B;對於廣泛比對辭彙，請使用下列語法： Broad Match Modifier for the first term in the Keyword column （例如+blue suede shoes） = `+[keyword]`， Broad Match Modifier for each term in the Keyword column （例如+blue +suede +shoes） = `+[keyword]+`
 
-   * 對於靜態關鍵字：僅支援搜尋關鍵字。 使用關鍵字的[[!DNL Yandex]特定語法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 不支援括弧(`[]`)表示字元順序。
+  * 對於靜態關鍵字：僅支援搜尋關鍵字。 使用關鍵字的[[!DNL Yandex]特定語法](https://yandex.com/support/direct/keywords/symbols-and-operators.html)。 不支援括弧(`[]`)表示字元順序。
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ ht-degree: 0%
 
 * 若要指出登入頁面URL：
 
-   * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
+  * （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]）如需表示追蹤範本中最終URL的引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的（[!DNL Microsoft Advertising]僅限） [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）「追蹤範本」引數。
 
-   * （僅限[!DNL LY Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
+  * （僅限[!DNL LY Ads]）使用引數`!{lpurl}`來指示登陸頁面URL。
 
 **[!UICONTROL Param 1]**， **[!UICONTROL Param 2]\[[!DNL Google Ads]範本\]：** （僅限[!DNL Google Ads]範本）指定檔案中代表[!DNL Google Ads] `{param1}`或`{param2}`變數的資料行，您可以將其包含在範本中建立之任何廣告的廣告復本或顯示URL中。 若要插入動態引數，請在輸入欄位中按一下，然後按一下欄清單中的欄名稱。 當摘要檔案透過範本傳播時，欄名稱會以實際資料取代。
 
@@ -237,19 +242,19 @@ ht-degree: 0%
 
 * （當您未使用&quot;[!UICONTROL Apply to Existing Keywords: Min]&quot;引數時）：
 
-   * 值前面或後面可附加貨幣符號或代碼。 例如，2.000,00英鎊和2000GBP有效。
+  * 值前面或後面可附加貨幣符號或代碼。 例如，2.000,00英鎊和2000GBP有效。
 
-   * 該值可以包括逗號(，)或句點(.) 做為分隔符號，並加上選用的句號(.) 或逗號(，)表示分數值。 例如，1,000.00和2.000,10有效。
+  * 該值可以包括逗號(，)或句點(.) 做為分隔符號，並加上選用的句號(.) 或逗號(，)表示分數值。 例如，1,000.00和2.000,10有效。
 
-   * 值可以在前面加上百分比符號(%)、加號(+)或減號(-)。 例如，20%、208+和–42.32有效。
+  * 值可以在前面加上百分比符號(%)、加號(+)或減號(-)。 例如，20%、208+和–42.32有效。
 
-   * 兩個數字可以用正斜線內嵌。 例如，4/1和0.95/0.45有效。
+  * 兩個數字可以用正斜線內嵌。 例如，4/1和0.95/0.45有效。
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising]範本\]：** （僅限[!DNL Microsoft Advertising]個範本）標題、文字、顯示URL或最終URL包含`{Param2}`個動態替代字串時，要作為廣告替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
 **[!UICONTROL Param 3]：** （僅限[!DNL Microsoft Advertising]個範本）標題、文字、顯示URL或最終URL包含`{Param3}`動態替代字串時，要做為廣告替代值的字串。 長度上限為70個字元，但請注意，您使用廣告元素的最大長度（例如，廣告標題最多可包含25個字元）。
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]：**&#x200B;具有指定符合型別或廣告型別的每個關鍵字的初始競標。
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ ht-degree: 0%
 
    * 針對要指派給元件的每個標籤分類和值，請執行以下操作：
 
-      1. 按一下&#x200B;**[!UICONTROL Add Label Classification]**。
+     1. 按一下&#x200B;**[!UICONTROL Add Label Classification]**。
 
-      1. 選取現有的標籤分類，然後選取現有值或輸入新值。
+     1. 選取現有的標籤分類，然後選取現有值或輸入新值。
 
-         每個值的長度上限為100個字元，可包含ASCII和非ASCII字元。
+        每個值的長度上限為100個字元，可包含ASCII和非ASCII字元。
 
-         若要插入欄名稱做為標籤分類值的動態引數，請按一下輸入欄位（第二個欄位），然後按一下欄清單中的欄名稱。
+        若要插入欄名稱做為標籤分類值的動態引數，請按一下輸入欄位（第二個欄位），然後按一下欄清單中的欄名稱。
 
-         每個行銷活動元件的每個分類只能包含一個值。 例如，行銷活動可以有Color=Red但不可以有Color=Red和Color=Blue。
+        每個行銷活動元件的每個分類只能包含一個值。 例如，行銷活動可以有Color=Red但不可以有Color=Red和Color=Blue。
 
-         * 若要變更現有的標籤分類值，請選取或輸入新值。
+        * 若要變更現有的標籤分類值，請選取或輸入新值。
 
-         * 若要移除現有的標籤分類值，請按一下值旁的&#x200B;**[!UICONTROL X]**。
+        * 若要移除現有的標籤分類值，請按一下值旁的&#x200B;**[!UICONTROL X]**。
 
 ## [!UICONTROL Feed Filters]
 

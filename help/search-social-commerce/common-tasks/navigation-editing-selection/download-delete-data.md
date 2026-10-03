@@ -3,18 +3,21 @@ title: 從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔
 description: 瞭解如何刪除您已下載行銷活動管理檢視的報告或大量表單檔案。
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/BHELz3pVJw9al4r-lWc4Mlm5BwlBG6J8hAXZhSoOvtk
+TQID: 'https://experienceleague.adobe.com/BHELz3pVJw9al4r-lWc4Mlm5BwlBG6J8hAXZhSoOvtk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 148
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # （舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報表或Bulksheet檔案
 
 *舊版使用者介面*
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（新UI）從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
 >* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 >* [（新UI）從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

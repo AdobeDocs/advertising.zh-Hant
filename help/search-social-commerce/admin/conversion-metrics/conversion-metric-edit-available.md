@@ -3,18 +3,24 @@ title: 變更管理檢視和報告中的可用轉換量度
 description: 瞭解如何在管理檢視和報告中使用轉換量度。
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # 變更管理檢視和報告中的可用轉換量度
 
 當Adobe Advertising追蹤廣告商的[轉換](/help/search-social-commerce/glossary.md#c-d)量度時，它最初會從產品組合目標、報告和管理檢視中排除。 若要顯示轉換量度，您必須明確使其可用，然後選擇性變更預設顯示名稱（即顯示的名稱）。 唯一的例外是[!DNL Google Ads]、[!DNL Google Analytics]和[!DNL Microsoft Advertising]通用事件追蹤標籤所追蹤的轉換會自動提供並顯示。
@@ -31,7 +37,7 @@ ht-degree: 0%
 
    * 若要搜尋特定的量度名稱或顯示名稱，請按一下![搜尋](/help/search-social-commerce/assets/search.png "搜尋")，在輸入欄位中輸入字詞或字串，然後按&#x200B;**[!DNL Enter]**&#x200B;鍵。
 
-     您可以搜尋出現在片語中任何位置的字串（例如第一個字母或最後三個字母），而且搜尋字詞不會區分大小寫[&#128279;](/help/search-social-commerce/glossary.md#c-d)。
+     您可以搜尋出現在片語中任何位置的字串（例如第一個字母或最後三個字母），而且搜尋字詞不會區分大小寫[](/help/search-social-commerce/glossary.md#c-d)。
 
    * 若要依據轉換量度在管理檢視和報告中的可用性來搜尋轉換量度，請按一下![篩選器](/help/search-social-commerce/assets/filter.png "篩選器")，然後選取篩選器&#x200B;**[!UICONTROL Show in UI and Reports]**。 然後選取&#x200B;**[!UICONTROL Show]** （以檢視可包含在報告和管理檢視中的轉換量度）或&#x200B;**[!UICONTROL Hide]** （以檢視報告和管理檢視中不可用的轉換量度）。
 
@@ -41,13 +47,13 @@ ht-degree: 0%
 
    * 若要顯示或隱藏多個量度，請執行下列動作：
 
-      1. 選取每個轉換量度旁的核取方塊。
+     1. 選取每個轉換量度旁的核取方塊。
 
-         如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+        如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
 
-      1. 在資料表上方的工具列中，按一下![顯示](/help/search-social-commerce/assets/show.png "顯示")以顯示度量，或按一下![隱藏](/help/search-social-commerce/assets/hide.png "隱藏")隱藏度量。
+     1. 在資料表上方的工具列中，按一下![顯示](/help/search-social-commerce/assets/show.png "顯示")以顯示度量，或按一下![隱藏](/help/search-social-commerce/assets/hide.png "隱藏")隱藏度量。
 
-      1. （若要隱藏量度）在確認訊息中，按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以隱藏量度，包括從包含量度的任何衍生量度中移除量度。
+     1. （若要隱藏量度）在確認訊息中，按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以隱藏量度，包括從包含量度的任何衍生量度中移除量度。
 
 1. （選擇性） [針對任何轉換量度，變更顯示在欄標題](conversion-metric-edit-display-name.md)中的名稱。
 

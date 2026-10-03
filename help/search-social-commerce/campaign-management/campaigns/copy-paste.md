@@ -3,18 +3,21 @@ title: 使用複製並貼上大量建立和編輯行銷活動資料
 description: 瞭解如何使用複製並貼上功能大量管理行銷活動資料。
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # 使用複製並貼上大量建立和編輯行銷活動資料
 
 僅&#x200B;*[!DNL Google Ads]、[!DNL LY Ads]、[!DNL Microsoft Advertising]、[!DNL Yandex]和現有[!DNL Baidu]帳戶*
@@ -47,9 +50,9 @@ ht-degree: 0%
 
    * 貼上的資料必須包含標題列和必要的行銷活動物件值；請參閱[百度](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)、[Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)、[LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)、[Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)、[Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)、[Yahoo！的必要大量表單欄 顯示網路](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)和[Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)。 欄順序並不重要。
 
-      * 對於要編輯的現有物件，您必須包含所有相關的ID欄、實體名稱以及要編輯的屬性。 請勿編輯物件的數值ID。
+     * 對於要編輯的現有物件，您必須包含所有相關的ID欄、實體名稱以及要編輯的屬性。 請勿編輯物件的數值ID。
 
-      * 對於新的促銷活動物件，請包括所有相關的實體名稱和屬性，但不包括物件ID （自動產生）。 例如，如果您建立新廣告，請將[!UICONTROL Ad ID]欄位留空。 當您張貼物件時，廣告網路會自動建立ID。
+     * 對於新的促銷活動物件，請包括所有相關的實體名稱和屬性，但不包括物件ID （自動產生）。 例如，如果您建立新廣告，請將[!UICONTROL Ad ID]欄位留空。 當您張貼物件時，廣告網路會自動建立ID。
 
    * 任何非必要欄中的值可能為Null （空白），但每一列必須具有相同數目的定位字元分隔值。
 
@@ -73,7 +76,7 @@ ht-degree: 0%
 
 1. （選擇性）輸入其他詳細資料：
 
-   * （如果&#x200B;**[!UICONTROL Additional Details]**&#x200B;已壓縮）按一下[開啟] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/chevron-up.png " [開啟] ")以展開詳細資料。
+   * （如果&#x200B;**[!UICONTROL Additional Details]**&#x200B;已壓縮）按一下[開啟] ![ ](/help/search-social-commerce/assets/chevron-up.png " [開啟] ")以展開詳細資料。
 
    * 輸入選用的&#x200B;**[!UICONTROL Job Name]**&#x200B;和/或選用的&#x200B;**[!UICONTROL Job Description]**。
 

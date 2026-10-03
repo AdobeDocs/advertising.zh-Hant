@@ -3,21 +3,26 @@ title: 取得協助
 description: 瞭解如何檢視線上說明和社群資源，以及如何取得技術支援。
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+TQID: 'https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 # 取得協助
 
 您可以從使用者介面中的任何頁面開啟線上說明。 如果線上說明未回答您的問題，請連絡我們。
@@ -30,21 +35,21 @@ ht-degree: 0%
 
 * 若要開啟說明如何使用所有功能的完整說明集，請按一下任何頁面頂端的下列連結：
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交及Commerce說明**。
+  * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交及Commerce說明**。
 
-   * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和Commerce最佳化指南**。
+  * ![說明](/help/search-social-commerce/assets/help-main-menu.png "說明") > **搜尋、社交和Commerce最佳化指南**。
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=zh-Hant).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 連絡人[!DNL Adobe]
 
 若為產品或帳戶問題，請執行下列動作：
 
-* （具有自助服務合約的廣告商）在[https://experienceleague.adobe.com/home?lang=zh-Hant#support](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)為您的組織開立票證。
+* （具有自助服務合約的廣告商）在[https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)為您的組織開立票證。
 
   針對產品，選取&quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;。
 

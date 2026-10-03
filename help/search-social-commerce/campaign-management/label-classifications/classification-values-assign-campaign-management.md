@@ -3,14 +3,17 @@ title: 從行銷活動管理檢視將分類值指派給帳戶元件
 description: 瞭解如何將分類值指派給帳戶元件。
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
+TQID: 'https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -45,7 +48,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -97,7 +100,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/select.png " [儲存] ")，立即儲存分類。
+      * 若要建立分類，請按一下[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/select.png " [儲存] ")，立即儲存分類。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 

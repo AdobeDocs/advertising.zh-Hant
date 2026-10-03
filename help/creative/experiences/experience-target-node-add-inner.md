@@ -3,20 +3,26 @@ title: 在體驗中的節點之間新增目標節點
 description: 瞭解如何在廣告體驗中的目標節點之間新增目標節點。
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-TQID: https://experienceleague.adobe.com/lPQtymUs3okctV2t6ZEE2rMG-F-BA2tJZO1GuceTxtY
+TQID: 'https://experienceleague.adobe.com/lPQtymUs3okctV2t6ZEE2rMG-F-BA2tJZO1GuceTxtY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '960'
 ht-degree: 0%
-
 ---
-
 # 在體驗中的節點之間新增目標節點
 
 *僅使用決策樹定位的體驗*
@@ -37,83 +43,83 @@ ht-degree: 0%
 
    * 如果同層級節點尚不存在，請執行下列動作：
 
-      1. 選取目標型別，然後按一下&#x200B;**[!UICONTROL Apply]**：
+     1. 選取目標型別，然後按一下&#x200B;**[!UICONTROL Apply]**：
 
-         * 針對對象目標，選取&#x200B;**[!UICONTROL Audience]**。
+        * 針對對象目標，選取&#x200B;**[!UICONTROL Audience]**。
 
-         * 若為地理目標，請選取單一地理類別（例如[!UICONTROL Geo: Country]）。
+        * 若為地理目標，請選取單一地理類別（例如[!UICONTROL Geo: Country]）。
 
-         * 針對資料傳遞目標，選取&#x200B;**[!UICONTROL Data Pass]**。
+        * 針對資料傳遞目標，選取&#x200B;**[!UICONTROL Data Pass]**。
 
-         * 若要重新定位畫素目標，請選取**[!UICONTROL RT Pixel]。
+        * 若要重新定位畫素目標，請選取**[!UICONTROL RT Pixel]。
 
-         * 針對裝置目標，選取單一目標類別（**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]**&#x200B;或&#x200B;**[!UICONTROL Device: Browser]**）。
+        * 針對裝置目標，選取單一目標類別（**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]**&#x200B;或&#x200B;**[!UICONTROL Device: Browser]**）。
 
    * 如果同層級節點已經存在，請執行下列動作：
 
-      * 針對對象目標，請執行以下作業：
+     * 針對對象目標，請執行以下作業：
 
-         1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，然後執行下列動作：
+       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，然後執行下列動作：
 
-            * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
+          * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
 
-            * 若要將區段新增至現有區段群組：
+          * 若要將區段新增至現有區段群組：
 
-               1. 按一下右側面板中的區段群組。
+            1. 按一下右側面板中的區段群組。
 
-               1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-                  *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在您將它新增至DSP中的位置時，排除該對象。
+               *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在您將它新增至DSP中的位置時，排除該對象。
 
-               1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
+            1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
 
-                  區段群組會自動更新為新區段。
+               區段群組會自動更新為新區段。
 
-            * 若要新增區段群組：
+          * 若要新增區段群組：
 
-               1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
+            1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
 
-               1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+            1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
 
-               1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
+            1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
 
-               1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
 
-         1. 按一下&#x200B;**[!UICONTROL Create]**。
+       1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-         1. 按一下&#x200B;**[!UICONTROL Apply]**。
+       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
-      * 針對地理目標，請執行下列動作：
+     * 針對地理目標，請執行下列動作：
 
-         1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Geo Targeting]選項，指定一或多個地理目標，然後按一下&#x200B;**[!UICONTROL Save]**。
+       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Geo Targeting]選項，指定一或多個地理目標，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-            郵遞區號目標具有大量編輯選項。 若要貼上多個郵遞區號，請按一下「**[!UICONTROL Paste postal codes]**」標籤、選取國家、貼上或輸入郵遞區號（以逗號分隔或分行），然後按一下「**[!UICONTROL Include All]**」。 若要移除包含的郵遞區號目標，請將游標停留在目標上，然後按一下![移除](/help/creative/assets/delete.png "移除") **[!UICONTROL Remove]**。
+          郵遞區號目標具有大量編輯選項。 若要貼上多個郵遞區號，請按一下「**[!UICONTROL Paste postal codes]**」標籤、選取國家、貼上或輸入郵遞區號（以逗號分隔或分行），然後按一下「**[!UICONTROL Include All]**」。 若要移除包含的郵遞區號目標，請將游標停留在目標上，然後按一下![移除](/help/creative/assets/delete.png "移除") **[!UICONTROL Remove]**。
 
-         1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
+       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
+          此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
-         1. 按一下&#x200B;**[!UICONTROL Apply]**。
+       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
-      * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
+     * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-        已在&#x200B;**[!UICONTROL Data Pass]**&#x200B;體驗設定[!UICONTROL Advanced]的[區段的](experience-settings-targeting.md)欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
+       已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
 
-      * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
+     * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-        重新目標畫素的屬性是在[重新目標畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
+       重新目標畫素的屬性是在[重新目標畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
 
-      * 針對裝置目標，請執行下列動作：
+     * 針對裝置目標，請執行下列動作：
 
-         1. 選取目標。
+       1. 選取目標。
 
-         1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
+       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-            此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
+          此功能會為每個指定的地理目標建立個別的目標節點（具有個別的創意組合）。 如果您不分割目標，則使用者必須屬於所有指定的位置（[!DNL Boolean] `AND`陳述式）。
 
-         1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
+       1. （選擇性）若要在指定多個地理目標時建立多個目標節點，請選取&#x200B;**[!UICONTROL Split targets to create nodes]**。
 
-         1. 按一下&#x200B;**[!UICONTROL Apply]**。
+       1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
 1. （選用）為使用者定義的分支指定自訂分支名稱。
 
@@ -133,17 +139,17 @@ ht-degree: 0%
 
    * （選用）若要儲存體驗：
 
-      1. 按一下&#x200B;**[!UICONTROL Save]**，然後再按&#x200B;**[!UICONTROL OK]**。
+     1. 按一下&#x200B;**[!UICONTROL Save]**，然後再按&#x200B;**[!UICONTROL OK]**。
 
-      1. （如果最底層的每個節點不包含至少一個創意內容）：執行下列任一項作業：
+     1. （如果最底層的每個節點不包含至少一個創意內容）：執行下列任一項作業：
 
-         * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
+        * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
 
-           您無法為草稿體驗建立廣告標籤。
+          您無法為草稿體驗建立廣告標籤。
 
-         * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
+        * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
 
-         * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
+        * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
 
 >[!MORELIKETHIS]
 >

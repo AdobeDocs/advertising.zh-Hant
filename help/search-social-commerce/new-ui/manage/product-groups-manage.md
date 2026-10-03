@@ -8,13 +8,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 2%
@@ -26,7 +28,7 @@ ht-degree: 2%
 
 您可以在[!UICONTROL Manage] > [!UICONTROL Product Groups]檢視中建立及管理產品群組。
 
-您可以在[&#x200B; [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)中檢視產品群組的相關資料。
+您可以在[ [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)中檢視產品群組的相關資料。
 
 ## 什麼是產品群組？
 
@@ -115,7 +117,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更[&#x200B; Google Ads產品群組設定](#google-ads-product-group-settings)或[&#x200B; Microsoft Advertising產品群組設定](#microsoft-advertising-product-group-settings)。
+1. 如有必要，請按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更[ Google Ads產品群組設定](#google-ads-product-group-settings)或[ Microsoft Advertising產品群組設定](#microsoft-advertising-product-group-settings)。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -225,7 +227,7 @@ ht-degree: 2%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 

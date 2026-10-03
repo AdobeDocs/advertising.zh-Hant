@@ -1,23 +1,28 @@
 ---
 title: 詳細目錄摘要的[!DNL Microsoft Ads]購物廣告範本設定
-description: 請參考詳細目錄摘要之 [!DNL Microsoft Ads] 購物廣告範本的設定。
+description: 請參考詳細目錄摘要的[!DNL Microsoft Ads]購物廣告範本設定。
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # 詳細目錄摘要的[!DNL Microsoft Ads]購物廣告範本設定
 
 使用購物廣告範本來設定購物廣告。
@@ -68,9 +73,9 @@ ht-degree: 0%
 
 * 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），請執行下列任一項作業：
 
-   * （建議）針對Microsoft購物行銷活動使用[追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
+  * （建議）針對Microsoft購物行銷活動使用[追蹤範本格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
-   * 如果您改為使用[!DNL bingads_redirect]欄（使用[正確格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）在摘要中包含每個產品的值，請輸入引數`{lpurl}`。 您可以選擇將第三方重新導向與追蹤新增至`{lpurl}`引數。
+  * 如果您改為使用[!DNL bingads_redirect]欄（使用[正確格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)）在摘要中包含每個產品的值，請輸入引數`{lpurl}`。 您可以選擇將第三方重新導向與追蹤新增至`{lpurl}`引數。
 
 * 對於協力廠商重新導向和追蹤，請輸入值。
 
@@ -80,7 +85,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其產品用於行銷活動的商家帳戶的客戶識別碼。
 
-**[!UICONTROL Sales Country]：**&#x200B;促銷活動產品銷售的國家/地區。 因為產品是相關聯的
+**[!UICONTROL Sales Country]：**促銷活動產品銷售的國家/地區。 因為產品是相關聯的
 若使用目標國家/地區，此設定會決定促銷活動中要公告哪些產品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -105,7 +110,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]：**&#x200B;當多個行銷活動廣告
+**[!UICONTROL Campaign Priority]：**當多個行銷活動廣告
 相同的產品： *[!UICONTROL Low]* （新行銷活動的預設值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 當同一個產品包含在多個行銷活動中時，廣告網路會使用
 行銷活動優先順序會先決定哪個行銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 

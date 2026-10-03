@@ -3,18 +3,21 @@ title: 管理行銷活動
 description: 瞭解如何建立和管理廣告行銷活動。
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
+TQID: 'https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # 管理行銷活動
 
 行銷活動是廣告網路帳戶的主要元件。 對於大多數行銷活動型別，它是由一組廣告群組或廣告集所組成。 行銷活動設定包含行銷活動預算引數、廣告目標，以及行銷活動中所有廣告的選用追蹤引數。 行銷活動層級追蹤引數會覆寫帳戶層級引數，但本身可能在較低層級覆寫。
@@ -98,11 +101,11 @@ ht-degree: 0%
 
 1. 在工具列中按一下狀態按鈕：
 
-   * 若要啟動列，請按一下[啟動] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+   * 若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
 
    * 若要暫停資料列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
 
-   * 若要刪除列，請按一下[其他] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+   * 若要刪除列，請按一下[其他] ![ ](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
 
 >[!MORELIKETHIS]
 >

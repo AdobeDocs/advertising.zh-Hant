@@ -3,10 +3,13 @@ title: 管理廣告網路帳戶
 description: 瞭解如何設定及管理廣告網路帳戶的帳戶詳細資料。
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
+TQID: 'https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%
@@ -191,7 +194,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
 >[!NOTE]
 >
@@ -265,7 +268,7 @@ ht-degree: 0%
 
 * **S_kwcid格式：** (現有[!DNL Google Ads]帳戶是使用Adobe Advertising-Adobe Analytics整合，且尚未移轉AMO ID (s_kwcid)的廣告商)
 
-此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
+此帳戶使用舊版的AMO ID追蹤程式碼格式，可讓Adobe Advertising與Adobe Analytics共用帳戶的相關資料。 [最新格式](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)包含行銷活動ID和廣告群組ID的引數，這些引數對於在Analytics中[!DNL Google Ads]最高成效行銷活動以及草稿和實驗行銷活動的行銷活動和廣告群組層級進行準確報告是必要的：
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

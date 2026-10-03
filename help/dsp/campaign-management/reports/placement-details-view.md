@@ -3,25 +3,31 @@ title: 檢視刊登位置的網站、廣告、頻率和詳細庫存資訊
 description: 瞭解如何檢視刊登版位的目標網站、廣告、頻率和詳細目錄資料。
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # 檢視刊登位置的網站、廣告、頻率和詳細庫存資訊
 
 對於每個位置，您可以[開啟（詳細資料檢視[!UICONTROL Inspector]）](placement-details-view.md)，其中列出位置中的所有目標網站、廣告和交易。 其中也包含投放位置的頻率資料。 您可以選擇從任何索引標籤匯出資料。
@@ -39,10 +45,10 @@ ht-degree: 0%
   [!UICONTROL Ads]索引標籤包含搜尋和篩選功能、主要頁面上可用的相同標準和自訂欄檢視選項，以及每一列中的快速動作按鈕，例如[!UICONTROL View Ad Approvals]。
 
 * **[!UICONTROL Frequency]：**&#x200B;位置之每個廣告頻率層級的資料，包括：
-   * 廣告頻率層級（例如「1」，適用於使用者看過一次廣告的所有例項）
-   * 以指定頻率層級接收曝光的裝置/瀏覽器或人員預估不重複數量（視促銷活動指定的[!UICONTROL Cross Device Level]而定）
-   * 指定頻率層級的預估曝光次數
-   * 指定頻率等級的預估平均頻率。 此值等於（預估曝光次數）/（預估不重複值）。
+  * 廣告頻率層級（例如「1」，適用於使用者看過一次廣告的所有例項）
+  * 以指定頻率層級接收曝光的裝置/瀏覽器或人員預估不重複數量（視促銷活動指定的[!UICONTROL Cross Device Level]而定）
+  * 指定頻率層級的預估曝光次數
+  * 指定頻率等級的預估平均頻率。 此值等於（預估曝光次數）/（預估不重複值）。
 
 * **[!UICONTROL Inventory]：**&#x200B;此位置所鎖定之所有交易的資訊。
 
@@ -54,21 +60,21 @@ ht-degree: 0%
 
    * 檢視上層行銷活動內的所有版位：
 
-      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-      1. 按一下行銷活動的名稱。
+     1. 按一下行銷活動的名稱。
 
-      1. 按一下「**[!UICONTROL Placements]**」標籤。
+     1. 按一下「**[!UICONTROL Placements]**」標籤。
 
    * 檢視上層封裝內的所有版位：
 
-      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Campaigns]**。
 
-      1. 按一下行銷活動的名稱。
+     1. 按一下行銷活動的名稱。
 
-      1. 按一下「**[!UICONTROL Packages]**」標籤。
+     1. 按一下「**[!UICONTROL Packages]**」標籤。
 
-      1. 按一下父套件的名稱。
+     1. 按一下父套件的名稱。
 
 1. 將游標停留在位置列上，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**。
 
@@ -92,7 +98,7 @@ ht-degree: 0%
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | 發佈者尚未開始傳送競標要求。 | 請連絡發佈商以啟動交易。 |
 | | 交易設定不正確，例如輸入不正確的外部交易ID。 | 確認交易詳細資料並編輯交易。 |
-| [!UICONTROL Auctions but no Bids] | 位置鎖定目標不符合交易的傳入競標要求。 <br><br>例如，位置可能以不符合交易條件的地理位置為目標。 | 視需要編輯位置目標，以避免目標錯配。 |
+| [!UICONTROL Auctions but no Bids] | 位置鎖定目標不符合交易的傳入競標要求。<br><br> 例如，刊登版位可能會將目標定位為不符合交易資格的地理位置。 | 視需要編輯位置目標，以避免目標錯配。 |
 | | 投放位置沒有有效的廣告，且該廣告具有交易所需的媒體型別。 | 建立並附加具有正確媒體型別的廣告至投放位置。 |
 | | 位置沒有足夠的預算。 | 增加版位預算以允許對傳入的請求投標。 |
 | | 刊登投放日期與交易的曝光傳送日期不重疊。 | 視需要編輯位置的投放日期。 |

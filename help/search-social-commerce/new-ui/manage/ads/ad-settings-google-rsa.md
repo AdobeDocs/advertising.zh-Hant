@@ -1,20 +1,24 @@
 ---
 title: '[!DNL Google Ads]個回應式搜尋廣告設定'
-description: 參考 [!DNL Google Ads] 回應式搜尋廣告的設定。
+description: 參考[!DNL Google Ads]個回應式搜尋廣告的設定。
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]個回應式搜尋廣告設定
 
 [!DNL Google Ads]會動態組合[回應式搜尋廣告](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA)，最多有三個標題和兩個說明。
@@ -23,7 +27,7 @@ ht-degree: 0%
 >
 >每個廣告群組最多可包含三個啟用的回應式搜尋廣告。
 
-請參閱[!DNL Google Ads]說明，瞭解每個帳戶[&#128279;](https://support.google.com/google-ads/answer/6372658?hl=en)的廣告限制。
+請參閱[!DNL Google Ads]說明，瞭解每個帳戶](https://support.google.com/google-ads/answer/6372658?hl=en)的[廣告限制。
 
 ## [!UICONTROL Basic Settings]
 

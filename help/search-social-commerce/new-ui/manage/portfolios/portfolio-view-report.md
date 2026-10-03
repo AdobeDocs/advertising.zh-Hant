@@ -4,21 +4,28 @@ description: 瞭解如何在[!UICONTROL Portfolios]檢視中產生、下載及�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 22d2de2a-c9c5-4654-b512-b7276e8f2435
-TQID: https://experienceleague.adobe.com/dBUptGp2TRzcoS3zHka5Ha8lJ2ruWxyHTBDPLsBVbxg
+TQID: 'https://experienceleague.adobe.com/dBUptGp2TRzcoS3zHka5Ha8lJ2ruWxyHTBDPLsBVbxg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # （新UI）從[!UICONTROL Portfolios]檢視管理資料檢視報告
 
 *Beta功能*
@@ -73,5 +80,5 @@ ht-degree: 0%
 >
 >* [關於投資組合](portfolio-about.md)
 >* [（新使用者介面）檢視投資組合效能詳細資料](portfolio-details.md)
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

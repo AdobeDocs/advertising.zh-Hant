@@ -3,22 +3,26 @@ title: 復製版位
 description: 瞭解如何複製一或多個刊登版位。
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # 復製版位
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ ht-degree: 0%
 
    * 若要複製多個版位：
 
-      1. 選取每個要複製的位置旁的核取方塊。
+     1. 選取每個要複製的位置旁的核取方塊。
 
-      1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Duplicate]**。
+     1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 指定新的位置設定：
 
@@ -74,10 +78,10 @@ ht-degree: 0%
 * （如果您未附加廣告）自訂廣告加權和排程
 * 程式化預留(PG)交易的預設刊登版位和[!UICONTROL Simple Ad Serving]交易的刊登版位
 * （如果復製版位至其他行銷活動）：
-   * 地理目標
-   * 事件畫素
-   * 廣告
-   * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
+  * 地理目標
+  * 事件畫素
+  * 廣告
+  * 位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段（覆寫廣告商層級區段）
 
 ## 設定新刊登版位的最佳實務
 
@@ -90,19 +94,19 @@ ht-degree: 0%
 
 * 考量下列事項，並視需要編輯新位置：
 
-   * 帳戶是否有足夠的資金來因應新的職位安排預算？
+  * 帳戶是否有足夠的資金來因應新的職位安排預算？
 
-   * 新刊登版位是否需要與舊刊登版位不同的預算？ 需要最低預算嗎？
+  * 新刊登版位是否需要與舊刊登版位不同的預算？ 需要最低預算嗎？
 
-   * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
+  * 上傳創意，包括任何必要的自訂廣告權重和排程，並將其附加至版位。
 
-   * 視需要附加事件畫素至版位和廣告。
+  * 視需要附加事件畫素至版位和廣告。
 
-   * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段至位置。
+  * 視需要納入地理目標和位置層級[!DNL DoubleVerify Authentic Brand Suitability]區段至位置。
 
-   * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
+  * 針對程式化預留交易，請使用新交易ID並建立預設刊登版位。
 
-   * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
+  * 視需要建立[!UICONTROL Simple Ad Serving]個交易的新版位。
 
 >[!MORELIKETHIS]
 >

@@ -3,20 +3,24 @@ title: 關於網站連結擴充功能
 description: 瞭解網站連結擴充功能。
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+TQID: 'https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # 關於網站連結擴充功能
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks]和[!UICONTROL Associations]檢視
 
-[!UICONTROL Extensions] > [!UICONTROL Sitelinks]中的[!UICONTROL Campaigns] > [!UICONTROL Campaigns]資料庫會列出您所有的帳戶層級網站連結，而且您可以在此建立和管理您的共用網站連結。 請參閱廣告網路說明，以取得每個[[!DNL Google Ads] 帳戶](https://support.google.com/google-ads/answer/6372658)和每個[[!DNL Microsoft Advertising] 帳戶](https://help.ads.microsoft.com/#apex/3/en/52001)的廣告擴充功能數目上限。 資料庫中的網站連結不會與廣告搭配使用，直到您將它們指派給帳戶實體為止。
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]中的[!UICONTROL Extensions] > [!UICONTROL Sitelinks]資料庫會列出您所有的帳戶層級網站連結，而且您可以在此建立和管理您的共用網站連結。 請參閱廣告網路說明，以取得每個[[!DNL Google Ads] 帳戶](https://support.google.com/google-ads/answer/6372658)和每個[[!DNL Microsoft Advertising] 帳戶](https://help.ads.microsoft.com/#apex/3/en/52001)的廣告擴充功能數目上限。 資料庫中的網站連結不會與廣告搭配使用，直到您將它們指派給帳戶實體為止。
 
 從[!UICONTROL Extensions] > [!UICONTROL Associations]檢視中，您可以將任何網站連結儘可能指派給帳戶層級（[!DNL Google Ads]僅限）、行銷活動層級或廣告群組層級（[!DNL Google Ads]僅限）的所有廣告。
 

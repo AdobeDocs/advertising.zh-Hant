@@ -3,22 +3,26 @@ title: 附加及移除刊登版位的廣告
 description: 瞭解如何將廣告附加至刊登版位，以及從刊登版位移除廣告。
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # 附加及移除刊登版位的廣告
 
 您可以附加及移除刊登版位的廣告。
@@ -59,27 +63,27 @@ ht-degree: 0%
 
    * 若要建立新位置並附加廣告：
 
-      1. 按一下&#x200B;**[!UICONTROL Create a New Placement]**。
+     1. 按一下&#x200B;**[!UICONTROL Create a New Placement]**。
 
-      1. 輸入[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下&#x200B;**[!UICONTROL Create Placement]**。
+     1. 輸入[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)，然後按一下&#x200B;**[!UICONTROL Create Placement]**。
 
-         位置型別由廣告型別決定。
+        位置型別由廣告型別決定。
 
-      1. 按一下&#x200B;**[!UICONTROL Attach ad]**。
+     1. 按一下&#x200B;**[!UICONTROL Attach ad]**。
 
-      1. 選取每個廣告旁的核取方塊，以附加至位置。
+     1. 選取每個廣告旁的核取方塊，以附加至位置。
 
-      1. 按一下&#x200B;**[!UICONTROL Attach Selected Ads]**。
+     1. 按一下&#x200B;**[!UICONTROL Attach Selected Ads]**。
 
    * 若要將廣告附加至現有位置：
 
-      1. 按一下&#x200B;**[!UICONTROL Select a Placement].**
+     1. 按一下&#x200B;**[!UICONTROL Select a Placement].**
 
-      1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL Select].**
+     1. 在位置名稱旁，按一下&#x200B;**[!UICONTROL Select].**
 
-      1. （選擇性）對於每個其他位置，按一下&#x200B;**[!UICONTROL Attach To Another Placement]**，然後重複之前的步驟。
+     1. （選擇性）對於每個其他位置，按一下&#x200B;**[!UICONTROL Attach To Another Placement]**，然後重複之前的步驟。
 
-      1. 按一下&#x200B;**[!UICONTROL I'm done for now]**。
+     1. 按一下&#x200B;**[!UICONTROL I'm done for now]**。
 
 ## 從[!UICONTROL Placements]檢視中移除刊登版位的廣告 {#remove-ads-placement}
 

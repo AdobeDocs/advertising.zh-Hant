@@ -3,25 +3,31 @@ title: 行銷活動管理檢視中的效能報表型別
 description: 瞭解行銷活動管理檢視中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-TQID: https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0
+TQID: 'https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # 行銷活動管理檢視中的效能報表型別
 
 行銷活動管理檢視包含完整的報告資料。 可用的報表可協助您識別執行良好的套件和位置，以及需要您注意的套件和位置。 快速動作按鈕也讓您提高生產力。
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 對於每個行銷活動，您可以[使用三個量度（可在每個實體檢視中使用）自訂時間序列趨勢圖](campaign-data-views-manage.md#data-visualizations-manage)。 促銷活動的所有趨勢圖表都會保留相同的量度。
 
-如需詳細資訊，請參閱跨促銷活動量度[的](#chart-view)「圖表檢視」區段。
+如需詳細資訊，請參閱跨促銷活動量度](#chart-view)的[「圖表檢視」區段。
 
 ### 表格檢視
 

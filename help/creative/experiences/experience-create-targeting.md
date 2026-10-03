@@ -3,22 +3,29 @@ title: 建立決策樹定位的體驗
 description: 瞭解如何使用決策樹建立目標式廣告體驗。
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '629'
 ht-degree: 0%
-
 ---
-
 # 建立決策樹定位的體驗
 
 使用決策樹建立目標式廣告體驗。 每個體驗都會使用來自單一創意資料庫的廣告。
@@ -50,23 +57,23 @@ ht-degree: 0%
 
       * 目標：
 
-         * [新增目標節點至最終層級](experience-target-node-add-final.md)。
+        * [新增目標節點至最終層級](experience-target-node-add-final.md)。
 
-         * [在節點之間插入目標節點](experience-target-node-add-inner.md)。
+        * [在節點之間插入目標節點](experience-target-node-add-inner.md)。
 
-         * [在節點](experience-target-node-add-sibling.md)之間新增同層級目標節點。
+        * [在節點](experience-target-node-add-sibling.md)之間新增同層級目標節點。
 
-         * [將子節點和創意內容複製到相同層級的另一個節點](experience-target-node-copy.md)。
+        * [將子節點和創意內容複製到相同層級的另一個節點](experience-target-node-copy.md)。
 
       * Creative套件組合：
 
-         * [指派和取消指派創意內容給最終節點](experience-assign-creative-bundles.md)。
+        * [指派和取消指派創意內容給最終節點](experience-assign-creative-bundles.md)。
 
-           如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
+          如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
 
-         * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+        * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
 
-         * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
+        * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
 
 1. （可選）在決策樹和一般設定之間切換：
 
@@ -80,17 +87,17 @@ ht-degree: 0%
 
    * （如果最底層的每個節點不包含至少一個創意搭售方案），請執行下列任一項作業：
 
-      * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
+     * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
 
-        您無法為[草稿](experience-about.md#experience-statuses)體驗建立廣告標籤。
+       您無法為[草稿](experience-about.md#experience-statuses)體驗建立廣告標籤。
 
-      * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
+     * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
 
-      * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
+     * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
 
 當體驗上線時，[!DNL Creative]會自動為每個適用的創意大小或視訊持續時間建立一個廣告標籤。 然後，您可以[匯出廣告標籤，並在DSP](/help/creative/experiences/experience-tag-export.md)中實作該標籤。
 
-對於視訊廣告體驗，視訊創意內容會由Adobe Advertising DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇將其他DSP[的轉碼](experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
+對於視訊廣告體驗，視訊創意內容會由Adobe Advertising DSP自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇將其他DSP](experience-tag-video-transcoding.md)的轉碼[套用至任何視訊廣告體驗標籤。
 
 >[!MORELIKETHIS]
 >

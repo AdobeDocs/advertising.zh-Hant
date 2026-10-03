@@ -3,27 +3,31 @@ title: 管理位置的競標乘數
 description: 瞭解如何建立和編輯位置目標的競標倍數。
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # 管理位置的競標乘數
 
 您可以針對[個合格目標型別](#bid-multiplier-by-target)的現有位置目標，建立和管理競標乘數，將演演算法計算的競標乘以增減競標。 您可以手動編輯一個位置的競標乘數值，或上傳包含一個或多個位置值的試算表。
 
-依預設，目標的競標乘數為1.00，這表示不會針對該目標調整競標。 值的範圍介於0.10到10.00之間。例如，0.5的競標倍數會將6美元的競標降低為3美元(0.5 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標乘數都會相乘。 例如，如果加州的競標倍數為2，而舊金山的競標倍數為3，則舊金山廣告的最終競標倍數為6。
+依預設，目標的競標乘數為1.00，這表示不會針對該目標調整競標。 值的範圍介於0.10到10.00之間。 例如，競標乘數為0.5會將USD 6的競標降低為USD 3 (0.5 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標乘數都會相乘。 例如，如果加州的競標倍數為2，而舊金山的競標倍數為3，則舊金山廣告的最終競標倍數為6。
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ ht-degree: 1%
 
    * 若要上傳具有競標倍增值的CSV檔案來覆寫所有現有值：
 
-      1. 按一下右上角的&#x200B;**[!UICONTROL CSV File Edit]**。
+     1. 按一下右上角的&#x200B;**[!UICONTROL CSV File Edit]**。
 
-      1. a)按一下&#x200B;**[!UICONTROL Download Template]**&#x200B;並編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
+     1. a)按一下&#x200B;**[!UICONTROL Download Template]**&#x200B;並編輯檔案，或b)編輯先前下載的範本。 將已編輯的檔案儲存至您的裝置或網路。
 
-         下載的試算表包含每個目標型別（例如國家/地區、來源及網站類別）的試算表。 僅包含值&lt; 1.0或> 1.0的現有競標乘數。
+        下載的試算表包含每個目標型別（例如國家/地區、來源及網站類別）的試算表。 僅包含值&lt; 1.0或> 1.0的現有競標乘數。
 
-         * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
+        * 若要為現有目標新增競標乘數，請使用使用者介面中顯示的相同語法和對應的競標乘數值來輸入目標。
 
-         * 若要移除競標修飾元，請將競標乘數值設為1.0，或刪除該列的所有資訊。
+        * 若要移除競標修飾元，請將競標乘數值設為1.0，或刪除該列的所有資訊。
 
-         ![競標乘數試算表檔案中的範例列](/help/dsp/assets/bid-multiplier-spreadsheet.png "競標乘數試算表檔案中的範例列")
+        ![競標乘數試算表檔案中的範例列](/help/dsp/assets/bid-multiplier-spreadsheet.png "競標乘數試算表檔案中的範例列")
 
-      1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;移至[!UICONTROL Upload File]區段，然後a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，從您的裝置或網路中選取檔案。
+     1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;移至[!UICONTROL Upload File]區段，然後a)將編輯的檔案拖放至方塊中，或b)按一下方塊內部，從您的裝置或網路中選取檔案。
 
-      1. 驗證[!UICONTROL Review & Submit]區段中上傳的資料，然後按一下&#x200B;**[!UICONTROL Save]**。
+     1. 驗證[!UICONTROL Review & Submit]區段中上傳的資料，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 上傳一或多個位置的競標乘數
 

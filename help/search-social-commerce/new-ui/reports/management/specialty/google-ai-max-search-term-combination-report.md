@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: 瞭解[!UICONTROL Google AI Max Search Term Combination Report]。
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ ht-degree: 0%
 
   使用此工作表來分析每個查詢產生的廣告元素的意圖和效能，以便您可以建立健全的負面關鍵字清單。
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1]工作表：依每個搜尋字詞和相符型別的轉換動作，追蹤[!DNL Google Ads]轉換資料。 每一列包含轉換動作、轉換次數、轉換值，以及在報表設定中指定的任何其他選擇性[!DNL Google Ads]追蹤轉換量度。 依預設，資料會針對指定資料範圍內的每個搜尋字詞和轉換動作組合包含一列。 這些列的順序與第一頁上的列相同。
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1]工作表：依每個搜尋字詞和相符型別的轉換動作，追蹤[!DNL Google Ads]轉換資料。 每一列包含轉換動作、轉換次數、轉換值，以及在報表設定中指定的任何其他選擇性[!DNL Google Ads]追蹤轉換量度。 依預設，資料會針對指定資料範圍內的每個搜尋字詞和轉換動作組合包含一列。 這些列的順序與第一頁上的列相同。
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

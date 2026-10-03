@@ -2,13 +2,21 @@
 title: 基本和進階報表的報表欄
 description: 瞭解基本和進階報告的可用資料欄。
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # 基本和進階報表的報表欄
 
 | 欄 | 說明 |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | 產品群組的狀態。 |
 | [!UICONTROL Product Groupings] | 父級產品群組。 |
 | [!UICONTROL Product ID] | （[!UICONTROL Keyword Report]； [!DNL Google Ads]產品清單廣告）與廣告一起顯示的產品識別碼。<br><br><b>注意：</b>只有當產品清單包含追蹤引數`ev_plx=<GMC product ID>`時，才會擷取此識別碼，您必須在[!DNL Google Merchant Center]內新增該引數。 |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])轉換量度的收入（例如1代表一個註冊，12代表一個12美元的訂單）。 如果多個競標單位具有相同的交易ID，則追蹤ID的收入會根據指定點按日期的點按次數（當點按資料可用時）分割。 |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report])轉換量度的收入（例如1代表一個註冊，12代表12 USD訂單）。 如果多個競標單位具有相同的交易ID，則追蹤ID的收入會根據指定點按日期的點按次數（當點按資料可用時）分割。 |
 | [!UICONTROL Reach] | （僅限[!DNL Meta]個行銷活動）至少看過一次您廣告的人數。 注意： [!DNL Meta]會每天對使用者設定檔的觸及範圍進行重複資料刪除，因此[!DNL Meta]和搜尋、社交及Commerce所報告的數字可能會有所不同。 |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report]， [!UICONTROL Keyword Report])曝光數或點按數源自的區域或美國/加拿大州。 這是根據使用者的IP位址所決定。 |
 | [!UICONTROL SE Creative ID] | 由網路指派的廣告ID。 |
@@ -186,7 +194,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (budget)] | （僅限[!DNL Google Ads]）由於每日或每月預算太低，未顯示廣告的時間百分比。 此量度僅在行銷活動層級提供。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost IS (rank)] | （僅限[!DNL Google Ads]）由於廣告排名不佳而未顯示廣告的時間百分比。 超過90%的百分比會顯示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search lost top IS (budget)] | （[!DNL Google Ads]和[!DNL Microsoft Advertising]）您的廣告未顯示在自然搜尋結果上方的時間百分比，因為您的每日或每月預算太低。 針對[!DNL Google Ads]行銷活動，超過90%的百分比會指示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
-| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[!DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
+| [!UICONTROL Search lost top IS (rank)] | （[!DNL Google Ads]和[！DNL [!DNL Microsoft Advertising]]）由於廣告排名不佳，您的廣告未顯示在有機搜尋結果上方的時間百分比。 對於Google廣告行銷活動，超過90%的百分比會表示為&quot;`>90%`&quot;或&quot;`0.9001`&quot;。 |
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report])使用者查詢的搜尋字詞。 |
 | [!UICONTROL SETrackingOnly] | 您正在追蹤帳戶但未出價： <i>[!UICONTROL TRUE]</i>或<i>[!UICONTROL FALSE]</i>。 |
 | [!UICONTROL Site] | （網域反向連結報表和[!UICONTROL Keyword Report]；網站目標位置）產生點按的網站。 |

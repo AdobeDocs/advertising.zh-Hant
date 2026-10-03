@@ -3,26 +3,33 @@ title: Campaign設定
 description: 請參閱可用行銷活動設定的說明。
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # Campaign設定
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]：** （僅具有利潤管理的行銷活動）如何計算代理費，代理費是行銷活動毛預算中預扣且未納入淨支出的部分：
 
-   * *[!UICONTROL Margin % of Total Budget]：* （預設）以總支出百分比計算的費用。 指定[!UICONTROL Agency Fee Type] （固定或複合）以及[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
+  * *[!UICONTROL Margin % of Total Budget]：* （預設）以總支出百分比計算的費用。 指定[!UICONTROL Agency Fee Type] （固定或複合）以及[!UICONTROL Margin %]或[!UICONTROL Composite Margin %]。
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;計算費用為媒體成本、資料和其他成本的指定百分比，和/或[!DNL Adobe]技術費用。 指定[!UICONTROL Markup %]並選取要套用標示的元件。
+  * *[!UICONTROL Apply Markup % on top of individual cost components]：*&#x200B;計算費用為媒體成本、資料和其他成本的指定百分比，和/或[!DNL Adobe]技術費用。 指定[!UICONTROL Markup %]並選取要套用標示的元件。
 
 * **[!UICONTROL Agency Fee Type]：** （使用[!UICONTROL Margin % of Total Budget]的行銷活動）代理費型別。
 
-   * *[!UICONTROL Fixed]：* （預設值）允許DSP保留總支出的固定百分比作為代理費。 指定[!UICONTROL Margin %]。
+  * *[!UICONTROL Fixed]：* （預設值）允許DSP保留總支出的固定百分比作為代理費。 指定[!UICONTROL Margin %]。
 
-   * *[!UICONTROL Composite]：*&#x200B;允許DSP保留總支出的百分比，以說明代理費和[!DNL Adobe]技術費。 指定[!UICONTROL Composite Margin %]。
+  * *[!UICONTROL Composite]：*&#x200B;允許DSP保留總支出的百分比，以說明代理費和[!DNL Adobe]技術費。 指定[!UICONTROL Composite Margin %]。
 
 * **[!UICONTROL Margin %]：** （使用[!UICONTROL Margin % of Total Budget]加上固定利潤的行銷活動）要扣留作為代理費用的總支出的百分比。 毛利值的任何變更只會套用至未來總支出，而不會套用至行銷活動的歷史總支出。 在套用毛利之前，[!UICONTROL Estimated Tax Withholding]值會從總支出中排除。 請參閱下列範例，這些範例假設行銷活動不會支出過少或超支。
 
-   * 範例1：假設[!UICONTROL Gross Budget]是`100 USD`，而[!UICONTROL Margin %]在整個航班中是`5%`。 行銷活動結束後，代理費會計算為`5 USD` （即`5% of 100 USD`），而淨支出為`95 USD` （即`campaign budget [100 USD] - agency fees [5 USD]`）。
+  * 範例1：假設[!UICONTROL Gross Budget]是`100 USD`，而[!UICONTROL Margin %]在整個航班中是`5%`。 行銷活動結束後，代理費會計算為`5 USD` （即`5% of 100 USD`），而淨支出為`95 USD` （即`campaign budget [100 USD] - agency fees [5 USD]`）。
 
-   * 毛利變更的範例2：針對相同行銷活動，假設[!UICONTROL Margin %]在總支出為`5%`時從`10%`變更為`40 USD`。 在變更前的期間，代理費計算為`2 USD` （即`5% of 40 USD`）；在變更後的期間，代理費計算為`6 USD` （即`10% of 60 USD`）。 總代理費用計算為`8 USD` （即`2 USD + 6 USD`），而淨支出為`92 USD` （即`campaign budget [100 USD] - total agency fees [8 USD]`）。
+  * 毛利變更的範例2：針對相同行銷活動，假設[!UICONTROL Margin %]在總支出為`40 USD`時從`5%`變更為`10%`。 在變更前的期間，代理費計算為`2 USD` （即`5% of 40 USD`）；在變更後的期間，代理費計算為`6 USD` （即`10% of 60 USD`）。 總代理費用計算為`8 USD` （即`2 USD + 6 USD`），而淨支出為`92 USD` （即`campaign budget [100 USD] - total agency fees [8 USD]`）。
 
-   * 含代扣稅款的範例3：假設[!UICONTROL Gross Budget]為`100 USD`，促銷活動小眾測試專案結尾的[!UICONTROL Estimated Tax Withholding]為`10 USD`，且整個測試專案的[!UICONTROL Margin %]為`5%`。 行銷活動結束後，代理費會計算為`4.5 USD` （即`5% of (campaign budget [100 USD] - tax withholding [USD 10])`），而淨支出為`85.5 USD` （即`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）。
+  * 含代扣稅款的範例3：假設[!UICONTROL Gross Budget]為`100 USD`，促銷活動小眾測試專案結尾的[!UICONTROL Estimated Tax Withholding]為`10 USD`，且整個測試專案的[!UICONTROL Margin %]為`5%`。 行銷活動結束後，代理費會計算為`4.5 USD` （即`5% of (campaign budget [100 USD] - tax withholding [USD 10])`），而淨支出為`85.5 USD` （即`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`）。
 
 * **[!UICONTROL Composite Margin %]：** （使用[!UICONTROL Margin % of Total Budget]與複合利潤的行銷活動）要扣留為[!DNL Adobe]技術費用和代理費的總支出的百分比。 代理費用的計算方式為從綜合利潤金額中扣除Adobe技術費用。 對複合毛利值所做的任何變更，只會套用至未來總支出，而不會套用至促銷活動的歷史總支出。 在套用複合利潤之前，[!UICONTROL Estimated Tax Withholding]值會從總支出中排除。
 
@@ -73,7 +80,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Select cost components on which markup will be applied]：** （使用[!UICONTROL Apply Markup % on top of individual cost components]的行銷活動）套用[!UICONTROL Markup %]的成本元件。 選取所有適用的元件： *[!UICONTROL Media cost]*、*[!UICONTROL Data and Other costs]*&#x200B;和/或&#x200B;*[!UICONTROL Adobe tech fees]*。 元件選取的任何變更只會套用至未來成本，而不會套用至行銷活動的歷史成本。
 
-  例如，「[!UICONTROL Markup %]」和「`10%`」的[!UICONTROL Media cost]為[!UICONTROL Data and Other costs]。 如果在行銷活動小眾測試版中的任何時間點，媒體成本為`20 USD`，資料和其他成本為`5 USD`，且[!DNL Adobe]技術費用為`2 USD`，則代理費計算為`2.50 USD` (即`10% of (20 USD + 5 USD)`，而總支出為`29.50 USD` （即`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）。
+  例如，「[!UICONTROL Media cost]」和「[!UICONTROL Data and Other costs]」的[!UICONTROL Markup %]為`10%`。 如果在行銷活動小眾測試版中的任何時間點，媒體成本為`20 USD`，資料和其他成本為`5 USD`，且[!DNL Adobe]技術費用為`2 USD`，則代理費計算為`2.50 USD` (即`10% of (20 USD + 5 USD)`，而總支出為`29.50 USD` （即`media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`）。
 
 **[!UICONTROL Gross Budget]：** （僅具有利潤管理的行銷活動）套用指定邊際調整前的行銷活動預算總額。
 
@@ -157,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]：**&#x200B;啟用位置層級[!UICONTROL Attention Score]量度的追蹤（各曝光的[!DNL Adelaide] &quot;[!DNL Attention Units]&quot;加權平均數）。 除了[!DNL Roku]個連線電視、僅限VPAID的影片前段和非播客的音訊之外，所有版位型別都能使用量度。 DSP會自動將JavaScript標籤附加到所有關聯的創作者，[!DNL Adelaide]會追蹤曝光資料並每天傳送給DSP。 您可以使用日期，以手動方式，將您的支出最佳化為具有較高關注度的刊登策略。
 
-[!UICONTROL Attention Score]欄位可在報告的[!UICONTROL Metrics]區段中；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中；以及在[!UICONTROL Sites]位置詳細資料檢視[!UICONTROL Ads]的[!UICONTROL Inventory]、[和](/help/dsp/campaign-management/reports/placement-details-view.md)索引標籤中。
+[!UICONTROL Attention Score]欄位可在報告的[!UICONTROL Metrics]區段中；在[!UICONTROL Campaigns]、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中；以及在[位置詳細資料檢視](/help/dsp/campaign-management/reports/placement-details-view.md)的[!UICONTROL Sites]、[!UICONTROL Ads]和[!UICONTROL Inventory]索引標籤中。
 
 使用[!DNL Adelaide]區段進行測量，將會針對含有[!DNL Adelaide]測量標籤的廣告所傳遞的每個曝光產生CPM費用。 此費用與[位置層級關注目標定位](/help/dsp/campaign-management/placements/placement-settings.md)的費用不同。
 

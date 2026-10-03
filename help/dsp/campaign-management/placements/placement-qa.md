@@ -3,22 +3,26 @@ title: 使用大量表單檢閱和編輯位置設定
 description: 瞭解如何使用試算表大量檢閱和編輯關鍵位置設定。
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-TQID: https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs
+TQID: 'https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 0%
-
 ---
-
 # 使用大量表單檢閱和編輯位置設定
 
 您可以以XLSX （[!DNL Microsoft Excel]試算表）格式下載一或多個刊登版位，或行銷活動中的所有刊登版位的設定，以供檢閱。 使用此功能可快速檢閱下列詳細資訊：

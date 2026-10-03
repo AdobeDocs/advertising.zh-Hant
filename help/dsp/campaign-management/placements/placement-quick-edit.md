@@ -3,13 +3,17 @@ title: 快速編輯金鑰位置設定
 description: 瞭解如何快速變更關鍵位置設定。
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '132'
 ht-degree: 0%
-
 ---
-
 # 快速編輯金鑰位置設定
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -38,4 +42,4 @@ ht-degree: 0%
 >* [停用或啟用位置](placement-pause-activate.md)
 >* [檢視位置的變更記錄](placement-change-log.md)
 >* [位置設定](placement-settings.md)
->* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=zh-Hant)
+>* [影片：如何使用大量編輯工具來編輯版位](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

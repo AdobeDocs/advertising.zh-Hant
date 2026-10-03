@@ -3,13 +3,17 @@ title: 附加和移除廣告中的畫素
 description: 瞭解如何從廣告中附加及移除第三方追蹤畫素。
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 # 附加和移除廣告中的畫素
 
 您可以附加協力廠商追蹤畫素，並將其從廣告中分離。
@@ -66,7 +70,7 @@ ht-degree: 0%
 
    1. 按一下右下角的&#x200B;**[!UICONTROL Attach]**。
 
-1. （選擇性）若要返回行銷活動詳細檢視，請按一下![返回資料夾](/help/dsp/assets/breadcrumb-return.png "返回資料夾")左邊的資料夾[!UICONTROL Ad Tools]並選取行銷活動名稱。
+1. （選擇性）若要返回行銷活動詳細檢視，請按一下![返回資料夾](/help/dsp/assets/breadcrumb-return.png "返回資料夾[!UICONTROL Ad Tools]左邊的資料夾")並選取行銷活動名稱。
 
 ## 將第三方追蹤畫素與位置中的廣告分離 {#detach-pixels-ads}
 
@@ -90,7 +94,7 @@ ht-degree: 0%
 
    1. 按一下右下角的&#x200B;**[!UICONTROL Detach]**。
 
-1. （選擇性）若要返回行銷活動詳細檢視，請按一下![返回資料夾](/help/dsp/assets/breadcrumb-return.png "返回資料夾")左邊的資料夾[!UICONTROL Ad Tools]並選取行銷活動名稱。
+1. （選擇性）若要返回行銷活動詳細檢視，請按一下![返回資料夾](/help/dsp/assets/breadcrumb-return.png "返回資料夾[!UICONTROL Ad Tools]左邊的資料夾")並選取行銷活動名稱。
 
 ## 檢視附加至廣告的畫素 {#view-pixels-ads}
 

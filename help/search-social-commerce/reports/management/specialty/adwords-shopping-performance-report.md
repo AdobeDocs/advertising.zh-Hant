@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: 瞭解[!UICONTROL AdWords Shopping Performance Report]。
 exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk
+TQID: 'https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Shopping Performance Report]
 
 僅&#x200B;*[!DNL Google Ads]個帳戶*
@@ -28,7 +34,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 如果產品包含[!UICONTROL Product Category]欄，且產品出現在多個類別中，則該產品會出現在多個列中，並且轉換計數會在每個適用的列中重複。 由於轉換資料總計不準確，因此請僅依類別排序資料，以大致瞭解依類別劃分的轉換趨勢。
->* 此報告的資料會在前一天的23:00 （晚上11:00）提取。 例如，在6月18日的23:00，它會提取6月17日的資料。 如果您在6月19日的09:00 （在提取6月18日的資料之前）執行報表，則報表會包含截至6月17日的23:00資料。
+>* 資料提取時間為前一天的23:00 （晚上11:00） 每天。 例如6月18日23:00，系統會提取6月17日的資料。 如果您在6月19日09:00執行報表（在提取6月18日的資料之前），則報表會包含截至6月17日23:00的資料。
 
 ## 預設欄
 

@@ -3,33 +3,49 @@ title: 檢視警報
 description: 瞭解如何檢視行銷活動和行銷活動元件的警示和建議解決方案。 使用警示來疑難排解行銷活動的問題。
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-TQID: https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc
+TQID: 'https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # 檢視警報
 
 DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題。 對於每個問題，DSP都會建立具有時間戳記的警報，以及解決此問題的建議動作。 警報的原因包括設定問題（例如，當投放位置沒有附加廣告或交易設定錯誤時）、廣告拒絕和行銷活動健康問題（例如廣告傳送或效能不佳）。 促銷活動、套件、位置、廣告和交易層級提供警報。
 
 警報可在下列位置使用：
 
-* 在[!UICONTROL Pulse Panel]、[!UICONTROL Campaigns]和封裝詳細資料、[!UICONTROL Packages]和[!UICONTROL Placements]檢視中的[!UICONTROL Ads]圖示表示該檢視中的專案是否有任何警示可供使用。 當圖示有藍色圓點（![警示可用時的Pulse面板圖示](/help/dsp/assets/alerts-panel.png "警示可用時的Pulse面板圖示")）時，警示可用。 若沒有可見點(![無可用警報時的Pulse Panel圖示](/help/dsp/assets/alerts-panel-empty.png "無可用警報時的Pulse Panel圖示"))，則無可用警示。
+* 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和封裝詳細資料、[!UICONTROL Placements]和[!UICONTROL Ads]檢視中的[!UICONTROL Pulse Panel]圖示表示該檢視中的專案是否有任何警示可供使用。 當圖示有藍色圓點（![警示可用時的Pulse面板圖示](/help/dsp/assets/alerts-panel.png "警示可用時的Pulse面板圖示")）時，警示可用。 若沒有可見點(![無可用警報時的Pulse Panel圖示](/help/dsp/assets/alerts-panel-empty.png "無可用警報時的Pulse Panel圖示"))，則無可用警示。
 
 * 相同檢視中的資料表包含&quot;[!UICONTROL Alerts]&quot;欄，指出專案（或其元件）何時發生問題。 警示指標包括「嚴重」（![嚴重](/help/dsp/assets/indicator-critical.png "嚴重")）、「警告」(![警告](/help/dsp/assets/indicator-warning.png "警告"))和「資訊」（![資訊](/help/dsp/assets/indicator-information.png "資訊")）。
 
@@ -51,11 +67,11 @@ DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題�
 
    * （針對特定套件、位置或廣告的所有警示）執行下列動作：
 
-      1. 按一下行銷活動名稱。
+     1. 按一下行銷活動名稱。
 
-      1. 在子功能表中，按一下「**[!UICONTROL Packages]**」、「**[!UICONTROL Placements]**」或「**[!UICONTROL Ads]**」以開啟相關的行銷活動元件檢視。
+     1. 在子功能表中，按一下「**[!UICONTROL Packages]**」、「**[!UICONTROL Placements]**」或「**[!UICONTROL Ads]**」以開啟相關的行銷活動元件檢視。
 
-      1. 按一下封裝、位置或廣告列的警示指示器，然後按一下&#x200B;**[!UICONTROL View in Pulse Panel]**。
+     1. 按一下封裝、位置或廣告列的警示指示器，然後按一下&#x200B;**[!UICONTROL View in Pulse Panel]**。
 
    所有與行銷活動及其元件相關聯的警報（包括目標交易）都會列在清單中。 依照預設，嚴重警示會先列出。
 
@@ -63,13 +79,13 @@ DSP可協助您識別任何行銷活動或行銷活動元件何時發生問題�
 
 1. （選擇性）若要根據第一個偵測日期將警報分組，或依警報狀態、元件狀態、元件型別或特定促銷活動名稱來篩選警報，請按一下面板右上角的![篩選按鈕](/help/dsp/assets/filter.png)、選取篩選選項，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-1. 若要檢視特定警示型別的所有受影響行銷活動元件清單，請按一下警示名稱，例如&quot;[!UICONTROL Package: No Active Placement (*N*)]&quot;。 若要檢視每個受影響元件的詳細資料，包括建議的動作，請按一下[!UICONTROL EXPAND ALL]或按一下元件名稱。 若要開啟任何受影響元件的相關行銷活動管理檢視，以便進行建議的變更，請將游標停留在元件名稱上，然後按一下[執行]以檢視![[執行]以檢視](/help/dsp/assets/go-to-view.png "。")
+1. 若要檢視特定警示型別的所有受影響行銷活動元件清單，請按一下警示名稱，例如&quot;[!UICONTROL Package: No Active Placement (*N*)]&quot;。 若要檢視每個受影響元件的詳細資料，包括建議的動作，請按一下[!UICONTROL EXPAND ALL]或按一下元件名稱。 若要開啟任何受影響元件的相關行銷活動管理檢視，以便進行建議的變更，請將游標停留在元件名稱上，然後按一下[執行]以檢視](/help/dsp/assets/go-to-view.png "[執行]以檢視")。![
 
 1. （選擇性）若要忽略（隱藏）警示，請將游標停留在元件名稱上，然後按一下![忽略](/help/dsp/assets/alert-ignore.png "忽略")，然後按一下&#x200B;**[!UICONTROL Ignore alert till next check]**、**[!UICONTROL Ignore alert for 3 days]**&#x200B;或&#x200B;**[!UICONTROL Ignore indefinitely]**。
 
 在略過警示以復原動作後，您還有幾秒鐘的時間。 選項訊息關閉後，您就無法取消動作。
 
-1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ![&#x200B; [取消忽略] &#x200B;](/help/dsp/assets/alert-un-ignore.png "。")
+1. （選擇性）若要擷取忽略的警示，請篩選警示以顯示[!UICONTROL Alert Status]的&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Ignored]&quot;。 若要取消忽略警示，請將游標停留在元件名稱上，然後按一下[取消忽略] ](/help/dsp/assets/alert-un-ignore.png " [取消忽略] ")。![
 
 ## 關閉[!UICONTROL Pulse Panel]
 

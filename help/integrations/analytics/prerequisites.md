@@ -1,30 +1,43 @@
 ---
-title: 實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊
-description: 實作 [!DNL Analytics for Advertising]的先決條件和關鍵資訊
+title: 實作[!DNL Analytics for Advertising]的先決條件和關鍵資訊
+description: 實作[!DNL Analytics for Advertising]的先決條件和關鍵資訊
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
+TQID: 'https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Data integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 0%
-
 ---
-
 # 實作[!DNL Analytics for Advertising]的先決條件和關鍵資訊
 
 *使用Advertising Creative、Advertising DSP和Advertising Search、Social和Commerce的廣告商*
@@ -56,7 +69,7 @@ ht-degree: 0%
 * 用於付費媒體活動報告的[!DNL Analytics]報告套裝ID，以及用於饋送網站活動以在Adobe Advertising中最佳化和報告
 * 公司的CX Enterprise組織ID （組織ID）。
 
-您可以在Adobe Experience Platform Debugger[&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)的摘要標籤上找到這兩個ID。
+您可以在Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)的[摘要標籤上找到這兩個ID。
 
 ![Experience Platform Debugger摘要畫面](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -83,7 +96,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要針對不同的時間範圍分段資料，您可以在Analysis Workspace中[設定具有不同回顧視窗的自訂區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
+>若要針對不同的時間範圍分段資料，您可以在Analysis Workspace中[設定具有不同回顧視窗的自訂區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
 
 ## 支援的廣告環境
 
@@ -126,7 +139,7 @@ ht-degree: 0%
 
 為了進行精確的資料整合，[!DNL Analytics for Advertising]活動用來傳遞內容或記錄目標量度的所有Adobe Advertising呼叫必須具有共用相同補充ID的對應[!DNL Analytics]點選。
 
-當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)中，您可以在Adobe Advertising標籤中看到此ID為`sdid`引數。
+當您在[!DNL Analytics]中進行疑難排解時，請務必確認[!DNL Analytics]點選有補充ID存在。 在[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)中，您可以在Adobe Advertising標籤中看到此ID為`sdid`引數。
 
 >[!NOTE]
 >

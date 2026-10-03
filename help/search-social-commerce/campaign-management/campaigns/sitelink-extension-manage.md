@@ -3,27 +3,31 @@ title: 管理共用的網站連結
 description: 瞭解如何建立及管理共用網站連結擴充功能。
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # 管理共用的網站連結
 
 僅&#x200B;*[!DNL Google Ads]和[!DNL Microsoft Advertising]*
 
-從[!DNL Google Ads] > [!DNL Microsoft Advertising]資料庫為所有同步的[!UICONTROL Extensions]或[!UICONTROL Sitelinks]帳戶建立和管理帳戶層級的共用網站連結。
+從[!UICONTROL Extensions] > [!UICONTROL Sitelinks]資料庫為所有同步的[!DNL Google Ads]或[!DNL Microsoft Advertising]帳戶建立和管理帳戶層級的共用網站連結。
 
 ## 建立共用的網站連結
 
@@ -81,9 +85,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 1]，[!UICONTROL Description Line 2]：**&#x200B;搜尋引擎可能顯示在連結文字下的額外文字。 若要包含說明，請在兩個說明欄位中輸入值。 每個說明欄位最多可包含35個單位元組或17個雙位元組字元。
 
-**[!UICONTROL Start Date]：** （僅具有現有舊版網站連結或沒有網站連結的行銷活動；選擇性）網站連結可能在行銷活動中與廣告一起顯示的第一個日期。 新網站連結的預設值為當天。 若要指定未來的開始日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下   並選取日期。
+**[!UICONTROL Start Date]：** （僅具有現有舊版網站連結或沒有網站連結的行銷活動；選擇性）網站連結可能在行銷活動中與廣告一起顯示的第一個日期。 新網站連結的預設值為當天。 若要指定未來的開始日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下並選取日期。
 
-**[!UICONTROL End Date]：** （選用）網站連結在行銷活動中可能連同廣告一起顯示的最後日期。 依預設，網站連結可能會無限期地顯示。 若要指定結束日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下   並選取日期。
+**[!UICONTROL End Date]：** （選用）網站連結在行銷活動中可能連同廣告一起顯示的最後日期。 依預設，網站連結可能會無限期地顯示。 若要指定結束日期，請以YYYY/MM/DD或M/D/YYYY格式輸入日期，或按一下並選取日期。
 
 **[!UICONTROL Mobile Preference]：** （選擇性）允許網路嘗試向行動裝置使用者（而非桌上型電腦或平板電腦使用者）顯示廣告延伸。 預設不會啟用選項，且廣告擴充功能會出現在任何裝置型別上。
 
@@ -107,7 +111,7 @@ ht-degree: 0%
 
 * 針對Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;自動上傳&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動為其自己的點選追蹤程式碼加上前置詞。
 
-* 如需支援的內嵌最終URL的引數，請參閱[!DNL Microsoft Advertising]檔案[[!DNL Microsoft Advertising] 中「可用的](https://help.ads.microsoft.com/#apex/3/en/56799)引數」一節中的([!DNL Google Ads]) [!DNL ValueTrack]檔案[[!DNL Google Ads] 或（](https://support.google.com/google-ads/answer/6305348)僅限）追蹤範本引數。
+* 如需支援的內嵌最終URL的引數，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/6305348)中「可用的[!DNL ValueTrack]引數」一節中的([!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] 檔案](https://help.ads.microsoft.com/#apex/3/en/56799)或（[!DNL Google Ads]僅限）追蹤範本引數。
 
 * 您可以選擇加入URL引數以及針對促銷活動定義的任何自訂引數，以&amp;分隔，例如`{lpurl}?matchtype={matchtype}&device={device}`。
 

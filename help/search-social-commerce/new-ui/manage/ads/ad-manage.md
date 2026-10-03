@@ -8,13 +8,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -127,7 +129,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
+1. <!-- Add link to where to generate this once available to users-->（促銷活動中的購物廣告具有Adobe Advertising轉換追蹤；選用）若要追蹤廣告上的點按，請手動將追蹤URL新增至帳戶、促銷活動或產品群組設定。
 
 ## 重新命名廣告 {#ad-rename}
 

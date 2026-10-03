@@ -3,20 +3,24 @@ title: 管理詳細目錄資料摘要檔案
 description: 瞭解如何進行設定，以控制摘要資料的處理方式。
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # 管理詳細目錄資料摘要檔案
 
 *[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * 若要以有限的手動檢閱或編輯達到可重複的流程，請依照下列方式設定摘要檔案及其帳戶結構資料：
 
-   * 包含足夠資料的欄和列，以建立帳戶結構或對映至現有的帳戶結構。 理想情況下，請使用與產品分類法密切相關的現有帳戶結構，且摘要資料可輕鬆對應至該結構。
+  * 包含足夠資料的欄和列，以建立帳戶結構或對映至現有的帳戶結構。 理想情況下，請使用與產品分類法密切相關的現有帳戶結構，且摘要資料可輕鬆對應至該結構。
 
-   * 包括短到可在廣告復本中使用的說明。
+  * 包括短到可在廣告復本中使用的說明。
 
-   * 跨產品列使用一致的資料模式和命名慣例。
+  * 跨產品列使用一致的資料模式和命名慣例。
 
-   * 移除所有前面空格和結尾空格。
+  * 移除所有前面空格和結尾空格。
 
-   * 移除任何亂碼字元。
+  * 移除任何亂碼字元。
 
 ## 檢視或下載摘要檔案
 

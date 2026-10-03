@@ -1,27 +1,31 @@
 ---
-title: 從Adobe Campaign電子郵件清單建立 [!DNL Google Ads] 客戶比對對象
-description: 瞭解如何從現有的Adobe Campaign電子郵件清單建立 [!DNL Google Ads] 客戶比對對象。
+title: 從Adobe Campaign電子郵件清單建立[!DNL Google Ads]個客戶比對對象
+description: 瞭解如何從現有的Adobe Campaign電子郵件清單建立[!DNL Google Ads]客戶比對對象。
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # 從Adobe Campaign電子郵件清單建立[!DNL Google Ads]個客戶比對對象
 
 *[!DNL Google Ads]個帳戶僅符合客戶相符資格*
 
-您可以在[!DNL Google Ads]中設定帳戶連結和工作流程，以從Adobe Campaign內的電子郵件清單建立[!DNL Campaign]客戶比對對象。
+您可以在[!DNL Campaign]中設定帳戶連結和工作流程，以從Adobe Campaign內的電子郵件清單建立[!DNL Google Ads]客戶比對對象。
 
 若要這麼做，您需要存取您的[!DNL Campaign]執行個體以及包含所需工作流程的XML檔案，您的Adobe帳戶團隊會將這些檔案提供給您。 指示可能會因不同版本的[!DNL Campaign]而有所不同。 如有必要，您的Adobe帳戶團隊可以協助您在[!DNL Campaign]中設定工作流程。
 
@@ -29,7 +33,7 @@ ht-degree: 0%
 
 1. 在[!DNL Campaign]中，設定將電子郵件清單傳送至Advertising Search、Social和Commerce：
 
-   1. 建立[外部帳戶](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=zh-Hant)以連結您的搜尋、社交和Commerce提供的SFTP帳戶：
+   1. 建立[外部帳戶](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)以連結您的搜尋、社交和Commerce提供的SFTP帳戶：
 
       1. 從左側功能表，前往&#x200B;**\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**。
 
@@ -99,11 +103,11 @@ ht-degree: 0%
 
          * （選擇性）在&#x200B;**[!UICONTROL Schedule]**&#x200B;索引標籤上，指定不同的檔案傳輸排程。
 
-           依預設，工作流程會在00:00 （午夜）執行，以確保處理所有記錄。 若要將延遲降至最低，請將工作流程排程為不晚於18:00執行。
+           根據預設，工作流程會在00:00 （午夜）執行，以確保處理所有記錄。 若要將延遲降至最低，請將工作流程排程在18:00之前執行。
 
          * 按一下&#x200B;**[!UICONTROL Ok]**。
 
-搜尋、Social和Commerce每隔30分鐘檢查一次目錄（在廣告商的時區中為NN:30和NN:59），並將找到的任何檔案移至另一個位置，然後於22:00 （晚上10點）自動從資料建立對象並推送至Google。 搜尋、Social和Commerce會繼續每隔30分鐘檢查電子郵件清單的更新（新增和減少），並相應地於每日22[!DNL Google Ads]更新:00上的對象。
+搜尋、Social和Commerce每隔30分鐘檢查一次目錄（廣告商時區的NN：30和NN：59），並將找到的任何檔案移至另一個位置，然後於22:00 （下午10），自動從資料建立對象並推送至Google。 搜尋、Social和Commerce會繼續每隔30分鐘檢查電子郵件清單的更新（新增和減少），並在每日22:00相應地更新[!DNL Google Ads]上的對象。
 
 >[!NOTE]
 >

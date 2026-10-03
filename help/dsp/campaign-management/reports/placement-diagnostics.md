@@ -3,22 +3,26 @@ title: 檢視位置[!UICONTROL Diagnostics]報告
 description: 瞭解如何診斷版位設定和步調的問題。
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # 檢視位置[!UICONTROL Diagnostics]報告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ ht-degree: 0%
 
    * 若要檢視變更記錄：
 
-      1. 按一下&#x200B;**[!UICONTROL Change Log]**。
+     1. 按一下&#x200B;**[!UICONTROL Change Log]**。
 
-      1. （可選）篩選報表結果：
+     1. （可選）篩選報表結果：
 
-         * 在日期功能表中，將報告期間從預設的「最近14天」變更為另一個期間（*[!UICONTROL Last 30 days]、* *[!UICONTROL Last 60 days]、* *[!UICONTROL Last 90 days]、*&#x200B;或&#x200B;*[!UICONTROL Last 1 year]*）。
+        * 在日期功能表中，將報告期間從預設的「最近14天」變更為另一個期間（*[!UICONTROL Last 30 days]、* *[!UICONTROL Last 60 days]、* *[!UICONTROL Last 90 days]、*&#x200B;或&#x200B;*[!UICONTROL Last 1 year]*）。
 
-         * 在左側功能表中，依特定使用者名稱篩選報表。
+        * 在左側功能表中，依特定使用者名稱篩選報表。
 
-         * 在右側功能表中，依特定位置設定篩選報表。
+        * 在右側功能表中，依特定位置設定篩選報表。
 
    * 若要檢視廣告核准的狀態：
 
-      1. 按一下右上角的&#x200B;**[!UICONTROL Ad Approvals]**。
+     1. 按一下右上角的&#x200B;**[!UICONTROL Ad Approvals]**。
 
-      1. （選擇性）若要暫停或啟用廣告，請按一下「廣告」欄中的狀態引數（![狀態引數](/help/dsp/assets/status-switch.png)）。
+     1. （選擇性）若要暫停或啟用廣告，請按一下「廣告」欄中的狀態引數（![狀態引數](/help/dsp/assets/status-switch.png)）。
 
-      1. （選擇性）若要開啟廣告的設定，請按一下廣告旁的&#x200B;**[!UICONTROL View Ad]**。
+     1. （選擇性）若要開啟廣告的設定，請按一下廣告旁的&#x200B;**[!UICONTROL View Ad]**。
 
    * 若要瞭解DSP為何沒有針對此位置競標：
 
-      1. 按一下右上角的&#x200B;**[!UICONTROL Non Bids]**。
+     1. 按一下右上角的&#x200B;**[!UICONTROL Non Bids]**。
 
-      1. （選用）若要依特定私人交易目標篩選位置，請選取交易。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. （選用）若要依特定私人交易目標篩選位置，請選取交易。<!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. （可選）若要變更日期範圍，請按一下日期欄位，然後選取不同的日期或日期範圍。
+     1. （可選）若要變更日期範圍，請按一下日期欄位，然後選取不同的日期或日期範圍。
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

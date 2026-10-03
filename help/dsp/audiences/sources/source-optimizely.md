@@ -1,27 +1,33 @@
 ---
-title: 將使用者ID從 [!DNL Optimizely] 轉換為通用ID
-description: 瞭解如何讓DSP擷取您的 [!DNL Optimizely] 第一方區段。
+title: 將使用者ID從[!DNL Optimizely]轉換為通用ID
+description: 瞭解如何讓DSP擷取您的[!DNL Optimizely]第一方區段。
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-TQID: https://experienceleague.adobe.com/lT5w6rvO5OmO5l-6rnSsVn6liPnbZxTFrvU4umR4aHQ
+TQID: 'https://experienceleague.adobe.com/lT5w6rvO5OmO5l-6rnSsVn6liPnbZxTFrvU4umR4aHQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 # 將使用者ID從[!DNL Optimizely]轉換為通用ID
 
 使用DSP與[!DNL Optimizely]客戶資料平台的整合，將您組織的第一方雜湊電子郵件地址轉換為通用ID以用於目標定位廣告。
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 若要將電子郵件地址轉換為[!DNL RampIDs]或[!DNL ID5] ID，您必須執行下列動作：
 
-1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)的所有必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
+1. （如果您尚未這麼做）完成實作 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)的所有[必要條件，並確認已在您的追蹤URL中填入[AMO ID和EF ID](/help/integrations/analytics/ids.md)。
 
 1. 向通用ID合作夥伴註冊，並在您的網頁上部署通用ID專用程式碼，以符合從桌上型電腦和行動瀏覽器（而非行動應用程式）上的ID到瀏覽次數的轉換：
 

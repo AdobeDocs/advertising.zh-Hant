@@ -3,18 +3,21 @@ title: 關於使用庫存摘要自動化廣告管理
 description: 瞭解進階行銷活動管理，其可讓您根據產品或服務詳細目錄的相關資料，自動管理帳戶結構並提供動態廣告。
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+TQID: 'https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '846'
 ht-degree: 0%
-
 ---
-
 # 關於使用庫存摘要自動化廣告管理
 
 *[!DNL Google Ads]、[!DNL LY Ads] （僅刪除動作）、[!DNL Microsoft Advertising]及僅[!DNL Yandex]帳戶*
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 | 範本的[!UICONTROL Ad Variation]區段 | 搜尋、社交和Commerce中的修飾元 | 摘要內容 | 產生的廣告 |
 |----|----|----|----|
-| 標題：購買高階\{<i>產品類別</i>\} &lt;<i>便宜清單</i>>。<br><br>說明1： \{<i>產品名稱</i>\}的庫存量龐大。<br><br>說明2：折扣百分比</i>\&rbrace;% \&lbrace;<i>提供。 | 修飾元群組&quot;CoeableList&quot;的值：<br><br>&quot;for coeable&quot;<br><br>&quot;at discount&quot; | 產品類別、產品名稱、折扣百分比<br>電子產品、iPod、10<br><br>服飾、襯衫、15<br><br><b>注意：</b>您可以使用逗號或索引標籤來分隔值。 | <u>以低廉價格購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>以折扣價購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>廉價購買高檔服裝。</u><br>大量的T恤。 可享受15%的折扣。<br><br><u>購買高檔服裝可享有折扣。</u><br>大量的T恤。 可享受15%的折扣。 |
+| 標題：購買高階\{<i>產品類別</i>\} &lt;<i>便宜清單</i>>。<br><br>說明1： \{<i>產品名稱</i>\}的庫存量龐大。<br><br>說明2：折扣百分比</i>\}% \{<i>提供。 | 修飾元群組&quot;CoeableList&quot;的值：<br><br>&quot;for coeable&quot;<br><br>&quot;at discount&quot; | 產品類別、產品名稱、折扣百分比<br>電子產品、iPod、10<br><br>服飾、襯衫、15<br><br><b>注意：</b>您可以使用逗號或索引標籤來分隔值。 | <u>以低廉價格購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>以折扣價購買高階電子產品。</u><br>大量平板電腦庫存。 可享受10%的折扣。<br><br><u>廉價購買高檔服裝。</u><br>大量的T恤。 可享受15%的折扣。<br><br><u>購買高檔服裝可享有折扣。</u><br>大量的T恤。 可享受15%的折扣。 |
 
 廣告產生後，您可以選擇檢閱廣告，然後張貼至廣告網路。
 

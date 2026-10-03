@@ -3,22 +3,30 @@ title: Adobe Advertising通用ID需求原則
 description: 請參閱通用ID的使用原則。
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-TQID: https://experienceleague.adobe.com/vDksSc1PHzUM0ZkdqbG2Gq3s5-QjY8Q3LQ1tdD8mP64
+TQID: 'https://experienceleague.adobe.com/vDksSc1PHzUM0ZkdqbG2Gq3s5-QjY8Q3LQ1tdD8mP64'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '707'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising通用ID需求原則
 
 上次更新日期： 2024年2月29日
@@ -47,7 +55,7 @@ ht-degree: 0%
 
 ### UID2禁止的國家/地區
 
-您透過服務選擇使用UID2 Universal ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A[所列](#prohibited-countries-uid2)UID2 Provisibled Country之居民有關。
+您透過服務選擇使用UID2 Universal ID，即表示您同意確保透過隨選服務傳輸、儲存、顯示、散佈或提供您用於UID2 Universal ID的所有使用者端資料，均不會與任何居住於本文附件A](#prohibited-countries-uid2)所列[UID2 Provisibled Country之居民有關。
 
 ## 無區別
 

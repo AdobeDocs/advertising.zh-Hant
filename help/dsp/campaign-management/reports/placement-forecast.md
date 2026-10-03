@@ -3,22 +3,26 @@ title: 檢視刊登版位預測報告
 description: 檢視針對某個投放位置的特定鎖定目標策略所預測的曝光數、花費和最佳最高出價。
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 檢視刊登版位預測報告
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -34,13 +38,13 @@ ht-degree: 0%
 
 預測包含下列資訊：
 
-* **[!UICONTROL Summary]：**
+* **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]：**&#x200B;目標設定可預期達到的每千次曝光的估計成本(eCPM)。
+  * **[!UICONTROL Estimated CPM]：**&#x200B;目標設定可預期達到的每千次曝光的估計成本(eCPM)。
 
-   * **[!UICONTROL Budget]：**&#x200B;目標設定的預估預算。
+  * **[!UICONTROL Budget]：**&#x200B;目標設定的預估預算。
 
-   * **[!UICONTROL Impression]：**&#x200B;目標設定的預估曝光次數。
+  * **[!UICONTROL Impression]：**&#x200B;目標設定的預估曝光次數。
 
 * **[!UICONTROL Budget Yield Curve]：**&#x200B;如果所有其他目標設定相同，則位置可在不同預算層級傳遞的估計曝光次數。
 
@@ -66,13 +70,13 @@ ht-degree: 0%
 
 * 歷史資料：如果有足夠的歷史資料，就可以使用位置預測。 以下是歷史資料可能不足時的範例：
 
-   * 此位置會定位行銷活動的新區域。
+  * 此位置會定位行銷活動的新區域。
 
-   * 此位置會鎖定行銷活動的新詳細目錄交易。
+  * 此位置會鎖定行銷活動的新詳細目錄交易。
 
-   * 此版位使用新的行銷活動廣告型別。
+  * 此版位使用新的行銷活動廣告型別。
 
-     刊登版位通常是供應端平台所定義的多個廣告範本集合。 因此，即使位置已存在很長時間，如果基礎廣告範本是新的，則預測工具無法建立預測。
+    刊登版位通常是供應端平台所定義的多個廣告範本集合。 因此，即使位置已存在很長時間，如果基礎廣告範本是新的，則預測工具無法建立預測。
 
 ## 開啟刊登版位預測報表
 

@@ -3,23 +3,30 @@ title: 關於本指南
 description: 瞭解本指南各章包含的內容。
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/NzrUmJ8fa753H4VM1QwDx-QWuYQpKMRUfYP7vJIyZPI
+TQID: 'https://experienceleague.adobe.com/NzrUmJ8fa753H4VM1QwDx-QWuYQpKMRUfYP7vJIyZPI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 關於本指南
 
 有關特定工作群組的資訊和其他資訊可在以下說明章節中取得：
@@ -38,7 +45,7 @@ ht-degree: 0%
 
 * 「見解和報表」說明如何產生廣告見解、產生詳細報表和自動化報表製作、建立與監視警報、檢視廣告商帳戶變更的記錄，以及檢視和套用廣告網路產生的帳戶建議。
 
-* 「工具」說明如何變更您的密碼、使用工具產生點選追蹤和轉換追蹤標籤、將您的轉換量度上傳到[!DNL Google Ads]，並將您的產品組合目標上傳到廣告網路以進行混合最佳化、上傳量度以追蹤行銷活動，以及在[!DNL Google Ads]帳戶中復寫您的[!DNL Microsoft Advertising]行銷活動。
+* 「工具」說明如何變更您的密碼、使用工具產生點選追蹤和轉換追蹤標籤、將您的轉換量度上傳到[!DNL Google Ads]，並將您的產品組合目標上傳到廣告網路以進行混合最佳化、上傳量度以追蹤行銷活動，以及在[!DNL Microsoft Advertising]帳戶中復寫您的[!DNL Google Ads]行銷活動。
 
 * 「管理」說明如何管理廣告商資料，包括收集的轉換量度以及從產品組合預測排除的任何日期；從[!DNL Google Analytics]帳戶同步處理您的轉換量度；設定各種廣告商層級設定；以及（某些角色）管理使用者、機構和廣告商帳戶。
 

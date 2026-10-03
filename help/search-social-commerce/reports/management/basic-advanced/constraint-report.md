@@ -3,20 +3,26 @@ title: '[!UICONTROL Constraint Report]'
 description: 瞭解[!UICONTROL Constraint Report]。
 exl-id: f7d56520-1683-4e79-9d57-84bc4d6f8760
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/hoPnWEw5QVwmVkB7drUkJnzIoln1VKOxY7RLI541zlI
+TQID: 'https://experienceleague.adobe.com/hoPnWEw5QVwmVkB7drUkJnzIoln1VKOxY7RLI541zlI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Constraint Report]
 
 [!UICONTROL Constraint Report]包含使用標籤分類架構、跨產品組合、廣告網路、帳戶、行銷活動或廣告群組彙總之限制的成本、點選及（選擇性）轉換資料。 依預設，資料會針對指定日期範圍內每個時間單位的每個適用限制包含一個資料列。 依預設，資料列會先依限制以遞增順序排列，然後依時間單位的開始日期遞增。

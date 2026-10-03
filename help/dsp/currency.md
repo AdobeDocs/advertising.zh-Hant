@@ -3,33 +3,42 @@ title: 支援的貨幣
 description: 檢視支援的貨幣清單。
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-TQID: https://experienceleague.adobe.com/pR-LgFKGXB2YG6K4BT74qetnbUaJLXLcQ3lSRv4uQhM
+TQID: 'https://experienceleague.adobe.com/pR-LgFKGXB2YG6K4BT74qetnbUaJLXLcQ3lSRv4uQhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 128
+source-wordcount: '145'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising支援的貨幣
 
 Adobe Advertising支援下列貨幣。
 
 >[!NOTE]
 >
->Adobe Analytics支援[更多貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=zh-Hant)。
+>Adobe Analytics支援[更多貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)。
 
 ## DSP和Creative
 
@@ -53,7 +62,7 @@ Adobe Advertising支援下列貨幣。
 | SGD | 新加坡元 |
 | THB | 泰銖 |
 | 試用 | 土耳其里拉 |
-| 美元 | 美元 |
+| USD | 美元 |
 
 >[!NOTE]
 >
@@ -61,5 +70,5 @@ Adobe Advertising支援下列貨幣。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-受支援的搜尋引擎支援的所有貨幣。 這與[&#x200B; [!DNL Google Ads]所支援的](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)相同。
+受支援的搜尋引擎支援的所有貨幣。 這與 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)所支援的[相同。
 

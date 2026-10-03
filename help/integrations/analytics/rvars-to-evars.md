@@ -3,30 +3,38 @@ title: 收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Ana
 description: 瞭解如何在Adobe Analytics中收集保留變數的歷史資料，以便將來在Adobe Customer Journey Analytics中使用
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-TQID: https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0
+TQID: 'https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # 收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics
 
 *僅使用[!DNL Analytics for Advertising]和Adobe Customer Journey Analytics的廣告商*
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-如果您使用保留的變數來擷取[AMO ID和EF ID](ids.md)，以進行[!DNL Analytics for Advertising]整合，則只要儘快將您針對AMO ID和EF ID的保留變數複製到[standard [!DNL eVars]](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/evar)，即可準備資料以進行Adobe Advertising與[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview) （Adobe的下一代[!DNL analytics]解決方案）的整合。 如此一來，當您完成工作時，便可立即收集AMO ID與EF ID的歷史資料。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。
+如果您使用保留的變數來擷取[AMO ID和EF ID](ids.md)，以進行[!DNL Analytics for Advertising]整合，則只要儘快將您針對AMO ID和EF ID的保留變數複製到[standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)，即可準備資料以進行Adobe Advertising與[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) （Adobe的下一代[!DNL analytics]解決方案）的整合。 如此一來，當您完成工作時，便可立即收集AMO ID與EF ID的歷史資料。 如果您使用保留的變數且需要完成此工作，Adobe客戶團隊會通知您。
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -42,7 +50,7 @@ Customer Journey Analytics可讓您將資料從Adobe Experience Platform同步�
 
 Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics的解決方案。 解決方案發行後，Adobe Advertising會開始傳送您AMO ID和EF ID的資料，以用於Customer Journey Analytics，但發行日期前的歷史資料將不存在。
 
-不過，您可以透過建立簡單的[[!DNL Analytics] 處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)，將您的AMO ID和EF ID立即複製到[!DNL eVars]，更早開始收集您AMO ID和EF ID的資料。 建立處理規則後，AMO ID和EF ID追蹤新事件時就會開始累積資料。 解決方案可用後，歷史資料即可在Customer Journey Analytics中使用。
+不過，您可以透過建立簡單的[[!DNL Analytics] 處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)，將您的AMO ID和EF ID立即複製到[!DNL eVars]，更早開始收集您AMO ID和EF ID的資料。 建立處理規則後，AMO ID和EF ID追蹤新事件時就會開始累積資料。 解決方案可用後，歷史資料即可在Customer Journey Analytics中使用。
 
 >[!NOTE]
 >
@@ -53,7 +61,7 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
 此步驟是手動的，且必須針對您預計未來要與Adobe Advertising整合之每個追蹤AMO ID和EF ID <!-- [!DNL rVars] -->的報表套裝完成。
 
-1. [使用下列設定建立處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
+1. [使用下列設定建立處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules)：
 
    * 選取您要將AMO ID和EF ID <!-- [!DNL rVar] -->資料移轉至Experience Platform以供Customer Journey Analytics使用的報表套裝。
 
@@ -61,23 +69,23 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
    * 在[!UICONTROL Always Execute]區段中，新增兩個動作以建立新的eVar：
 
-      * 針對`AMO ID`：
+     * 針對`AMO ID`：
 
-         1. 選取&#x200B;**覆寫**&#x200B;的值。
-         1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
-         1. 選取&#x200B;**查詢字串引數**。
-         1. 輸入`s_kwcid`。
+       1. 選取&#x200B;**覆寫**&#x200B;的值。
+       1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
+       1. 選取&#x200B;**查詢字串引數**。
+       1. 輸入`s_kwcid`。
 
-        範例： `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
+       範例： `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
-      * 針對`EF ID`：
+     * 針對`EF ID`：
 
-         1. 選取&#x200B;**覆寫**&#x200B;的值。
-         1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
-         1. 選取&#x200B;**查詢字串引數**。
-         1. 輸入`ef_id`。
+       1. 選取&#x200B;**覆寫**&#x200B;的值。
+       1. 選取&#x200B;*\&lt;新的/未使用的eVar\>*。
+       1. 選取&#x200B;**查詢字串引數**。
+       1. 輸入`ef_id`。
 
-        範例： `Overwrite the value of rVar11 with Query String Parameter ef_id`
+       範例： `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * 對於[!UICONTROL Reason for rule]，請使用描述性備註，例如「將透過Adobe Analytics Connector將AMO ID和EF ID傳輸至AEP」。
 
@@ -87,7 +95,7 @@ Adobe Advertising正在建置自動將資料傳送至Customer Journey Analytics�
 
    例如，如果新eVar `eVar142`對應至`amo.s_kwcid(Context Data)`，則`eVar142`和`AMO ID`的資料應該相同。
 
-如需有關如何套用處理規則的詳細資訊，請參閱[處理規則的運作方式](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
+如需有關如何套用處理規則的詳細資訊，請參閱[處理規則的運作方式](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)。
 
 >[!MORELIKETHIS]
 >

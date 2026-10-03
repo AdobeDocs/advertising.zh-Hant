@@ -3,14 +3,17 @@ title: 復寫[!DNL Microsoft Advertising]中的[!DNL Google Ads]個行銷活動
 description: 瞭解如何將[!DNL Google Ads]帳戶中同步的行銷活動直接匯出至同步的[!DNL Microsoft Advertising]帳戶。
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
+TQID: 'https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -41,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]&#x200B;[&#128279;](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
+>如果您想要復寫購物摘要型顯示行銷活動，請先在 [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870)中復寫您的 [!DNL Google Merchant Center] 產品選件。 [復寫行銷活動時，在匯入選項中選取[!DNL Microsoft Merchant Center]存放區，以將存放區連結至您的摘要式對象行銷活動。
 
 檢視[從 [!DNL Google Ads] 行銷活動](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500)匯入的專案。
 

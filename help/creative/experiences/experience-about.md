@@ -3,25 +3,33 @@ title: 關於Advertising Creative中的體驗
 description: 瞭解如何設定個人化廣告體驗，並根據效能最佳化廣告元素。
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # 關於Advertising Creative 2.0中的體驗
 
 每個廣告體驗可包含一種廣告型別（標準顯示、標準視訊、動態顯示或動態視訊）。 [!DNL Advertising Creative 2.0]在單一創意資料庫中為廣告提供兩種不同的廣告體驗結構。
@@ -32,15 +40,15 @@ ht-degree: 0%
 
   目標定位選項包括：
 
-   * 您從Adobe Audience Manager、Adobe Analytics和Advertising DSP匯入的對象區段；為帳戶匯入的任何其他第一方區段；您從Advertising DSP匯入的自訂區段；Advertising DSP提供的第三方區段；以及任何內建在對象庫中的現有Advertising DSP對象
+  * 您從Adobe Audience Manager、Adobe Analytics和Advertising DSP匯入的對象區段；為帳戶匯入的任何其他第一方區段；您從Advertising DSP匯入的自訂區段；Advertising DSP提供的第三方區段；以及任何內建在對象庫中的現有Advertising DSP對象
 
-   * 特定地理位置，包括國家、州、美國境內的DMA、城市和郵遞區號
+  * 特定地理位置，包括國家、州、美國境內的DMA、城市和郵遞區號
 
-   * 從DSP、發佈者或合作夥伴（例如SKU=01234567890123或Cart=empty）傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
+  * 從DSP、發佈者或合作夥伴（例如SKU=01234567890123或Cart=empty）傳遞特定索引鍵值配對（資料傳遞目標）的檢視器
 
-   * [!DNL Creative]正在重新定位畫素和指定的屬性值
+  * [!DNL Creative]正在重新定位畫素和指定的屬性值
 
-   * 特定裝置型別、作業系統和瀏覽器
+  * 特定裝置型別、作業系統和瀏覽器
 
   在決策樹中建立目標對象分支後，您可以透過將創意套件組合指派給分支，將目標對象與潛在創意配對。 對於每個體驗，您可以自訂創意組合的最佳化和排程，並變更每個組合中個別創意的預設登陸頁面和追蹤URL<!-- later: and any flexible attributes -->。
 
@@ -79,11 +87,11 @@ ht-degree: 0%
 
 下列為可用的效能資料：
 
-* 當您在「[!UICONTROL Metrics] > [!UICONTROL Creative]」檢視中啟用「[!UICONTROL Experiences]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
+* 當您在「[!UICONTROL Creative] > [!UICONTROL Experiences]」檢視中啟用「[!UICONTROL Metrics]」選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。
 
   ![量度選項](/help/creative/assets/metrics-option.png "量度選項")
 
-* 您可以從[檢視](experience-performance-details.md)檢視任何體驗[!UICONTROL Experiences]的詳細效能資料。
+* 您可以從[!UICONTROL Experiences]檢視[檢視任何體驗](experience-performance-details.md)的詳細效能資料。
 
 * 若要監視所有體驗的效能，請建立[自訂創意報告](/help/creative/reports/report-manage.md)。
 
@@ -108,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences]檢視
 
-[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Metrics]檢視中啟用[!UICONTROL Experiences]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的體驗中的創意。
+[!UICONTROL Experiences]檢視會顯示您所有鎖定目標和非鎖定目標的體驗。 您可以檢視指派的創意或創意組合的體驗名稱、狀態、開始和結束日期、數量和維度，以及體驗是否包含動態廣告。 當您在[!UICONTROL Experiences]檢視中啟用[!UICONTROL Metrics]選項時，每個體驗卡片或資料列都會指出所收到體驗的曝光次數與點按次數。 當您處於卡片模式時，可以使用&lt;和>按鈕捲動包含多個創意的體驗中的創意。
 
 您可以建立並管理您的體驗、建立及重新命名廣告體驗標籤，以及匯出JavaScript和iframe格式的標籤，以在DSP上實作。 使用Advertising DSP的廣告商可選擇將廣告標籤直接上傳至Advertising DSP行銷活動。
 

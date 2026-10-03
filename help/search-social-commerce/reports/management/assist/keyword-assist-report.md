@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 瞭解[!UICONTROL Keyword Assist Report]。
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '784'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Keyword Assist Report]
 
 *廣告商具有搜尋、社交及Commerce點選追蹤，以及來自Adobe Advertising、Adobe Analytics （具有[!DNL Analytics]整合）的轉換追蹤，或僅在摘要中使用權杖(`ef_id`)提供*
@@ -40,14 +46,14 @@ ht-degree: 0%
 
 | 欄 | 預設？ | 說明 |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword]至[!UICONTROL 5th Keyword] | 預設 | 在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內，轉換路徑中最早出現的五個付費搜尋關鍵字或位置點按。<br><br><b>注意：</b>如果報表包含啟用內容的搜尋行銷活動的版位（不包含關鍵字），則這些欄會顯示適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 |
+| [!UICONTROL 1st Keyword]至[!UICONTROL 5th Keyword] | 預設 | 在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內，轉換路徑中發生的最早五個付費搜尋關鍵字或位置點按。<br><br><b>注意：</b>如果報表包含啟用內容的搜尋促銷活動（不包含關鍵字）中的位置，則這些欄會顯示適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 |
 | [!UICONTROL Path Size] | 預設 | 在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內發生的轉換路徑中的關鍵字和/或位置數量。 |
 | [!UICONTROL First Keyword] | 預設 | 轉換路徑中的第一個關鍵字或位置。 |
 | [!UICONTROL Last Keyword] | 預設 | 導致轉換的最後一個關鍵字或位置（即使最後一個關鍵字超出指定的路徑大小）。 |
 | \[廣告商專屬的自訂（衍生）量度\] | 自訂 | 您建立的自訂量度值（從現有量度計算）。 |
 | \[廣告商專用轉換量度\] | 自訂 | 指定的轉換量度或網站參與量度的轉換次數。 |
 | [!UICONTROL % of Total] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在每個包含的轉換量度的報表輸出中）歸因於關鍵字和/或位置模式的跨產品組合整體轉換百分比。 |
-| [!UICONTROL 6th Keyword]至[!UICONTROL 10th Keyword] | 自訂 | 在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內，轉換路徑中的第六到第十個付費搜尋關鍵字或位置點按。<br><br><b>注意：</b>如果報表包含啟用內容的搜尋行銷活動的版位（不包含關鍵字），則這些欄會顯示適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 |
+| [!UICONTROL 6th Keyword]至[!UICONTROL 10th Keyword] | 自訂 | 在廣告商的[點按回顧期間](/help/search-social-commerce/glossary.md#c-d)和[曝光回顧期間](/help/search-social-commerce/glossary.md#i-j)內，轉換路徑中的第六到第十個付費搜尋關鍵字或位置點按。<br><br><b>注意：</b>如果報表包含啟用內容的搜尋促銷活動（不包含關鍵字）中的位置，則這些欄會顯示適用的廣告群組名稱，例如「（廣告群組內容）您的廣告群組名稱」。 |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在每個轉換量度的報表輸出中）從第一個事件（位於第一個關鍵字或位置）到轉換的平均延遲（以天為單位）。 |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[轉換量度\] | 自動 | （無法用於報表設定，但會自動包含在報表輸出中）從上一個事件（在最後一個關鍵字或位置）到轉換的平均延遲天數（以天為單位）。 |
 | [!UICONTROL Path Frequency] | 自訂 | 此列的路徑在轉換前發生的次數。 |
