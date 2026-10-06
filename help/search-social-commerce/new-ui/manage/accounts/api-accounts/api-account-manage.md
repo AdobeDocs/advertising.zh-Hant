@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Account]**。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >若要編輯廣告網路上的實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 以下列任一方式選取該帳戶：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （如果您為同一瀏覽器應用程式中的相同廣告網路登入其他帳戶），請登出廣告商帳戶以外的任何帳戶。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。 當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止該帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 >
 >如果您已整合「搜尋」、「社交」和「Commerce-Adobe Analytics」，並變更搜尋帳戶的名稱，請要求您的Adobe帳戶團隊更新對應。
 
-**[!DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
+**[！DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
 
 **[登入詳細資料]：** （僅限[!DNL Yandex]個帳戶）要使用的帳戶認證：
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 >* 如果您從[!UICONTROL Standard]切換至[!UICONTROL Token] （或反之），則必須重新產生帳戶的追蹤URL。
 >* 您可以在行銷活動層級覆寫帳戶層級設定。
 
-**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
+**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
 
 追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式將處理未來的變更。
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
 >[!NOTE]
 >
