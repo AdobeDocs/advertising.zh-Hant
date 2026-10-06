@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Account]**。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >若要編輯廣告網路上的實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 以下列任一方式選取該帳戶：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. （如果您為同一瀏覽器應用程式中的相同廣告網路登入其他帳戶），請登出廣告商帳戶以外的任何帳戶。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。 當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止該帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 

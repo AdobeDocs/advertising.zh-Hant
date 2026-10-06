@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 043cf0a3e82f64d3817f823fd4d66dbbe61245bb
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2855'
 ht-degree: 0%
 ---
 # 支援的詳細目錄
@@ -36,7 +36,7 @@ ht-degree: 0%
 | Source | 網路 | 行銷活動型別 | 廣告型別 | 同步和檢視 | 建立/編輯 | 曲目[^1] | 最佳化[^2] | 報告 | Adobe Analytics支援[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu]： *僅支援Search、Social和Commerce中的現有帳戶* | 搜尋網路 | 手動 | 文字廣告 | 透過API自動同步 | 使用[行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)和[大量表單](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)建立/編輯 | 是 | 僅限使用手動CPC競標策略的行銷活動 | 廣告層級資料 | [!DNL Analytics]資料至搜尋、社交和Commerce<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料 |
-| [!DNL ChatGPT Ads] | ChatGPT | ChatGPT | ChatGPT廣告（試驗功能） | 透過API自動同步 | 使用[行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)建立/編輯 | — | — | 行銷活動管理檢視中的廣告層級資料（曝光數、點按數和成本） | — |
+| [!DNL ChatGPT Ads] | ChatGPT | 標準 | 聊天卡 | 透過API自動同步 | 使用[行銷活動管理檢視](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)建立/編輯 | — | — | 行銷活動管理檢視中的廣告層級資料（曝光數、點按數和成本） | — |
 | [!DNL Google Ads] | 所有[!DNL Google]摘要 | Demand gen | Demand Gen輪播廣告（多重影像廣告）<br><br>Demand Gen影像廣告<br><br>Demand Gen產品廣告<br><br>Demand Gen視訊廣告 | 透過API自動同步 | 無建立/編輯選項 | 是 | 僅限輪播和影像廣告；僅限混合產品組合<br><br>在行銷活動層級設定競標和競標策略目標，連同行銷活動預算（如適用於最佳化型別）。 | 廣告層級資料 | 使用升級的AMO ID追蹤代碼[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items) [^4]<br><br>從搜尋、社交和Commerce到[!DNL Analytics]的廣告層級資料到Search、Social和Commerce  |
 | [!DNL Google Ads] | 所有網路 | 最高標準效能 | 所有廣告型別 | 透過API自動同步 | 在[!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>的促銷活動設定中建立/編輯促銷活動，並上傳廣告資產。只有必要的設定可供使用。 如需選用設定和清單群組，請登入[!DNL [!DNL Google Ads] Ads]編輯器。 | 是 | 在混合產品組合中，只有<br><br>在行銷活動層級設定競標策略目標以及行銷活動預算。 | 清單群組的行銷活動層級資料<br><br>資料無法使用，且廣告網路未提供廣告層級資料。 | [!DNL Analytics]資料至Search、Social和Commerce<br><br>促銷活動層級資料，從Search、Social和Commerce至Analytics。 需要升級的[AMO ID追蹤代碼](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items)。 |
 | [!DNL Google Ads] | 搜尋、[!DNL Google Play]、[!DNL YouTube]、[!DNL Discover on Google Search]和[!DNL Google Display Network] | 應用程式促銷活動、參與的應用程式促銷活動，以及預先註冊的應用程式促銷活動 | 應用程式廣告、應用程式參與廣告和應用程式預先註冊廣告 | 透過API自動同步 | — | 是，當您手動將點選追蹤標籤新增至廣告網路內的追蹤範本時 | — | 廣告層級資料 | 從[!DNL Analytics]到Search、Social和Commerce<br><br>的廣告層級標準量度的廣告層級資料（但不是應用程式安裝廣告的Google廣告追蹤轉換），可從Search、Social和Commerce到Analytics。 |
