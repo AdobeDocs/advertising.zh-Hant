@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1721'
 ht-degree: 0%
 ---
 # 管理廣告群組
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Ad Group]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
    * 選取廣告群組旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
+1. 編輯[百度](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)、[ChatGPT廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)廣告群組設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -115,7 +115,9 @@ ht-degree: 0%
 
 您可以暫停支援廣告網路上的任何作用中廣告群組，以停用其競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
-您也可以刪除任何作用中或暫停的廣告群組。 已刪除的廣告群組會從廣告網路中刪除。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
+您可以暫停支援廣告網路上的任何作用中廣告群組，以停用其競標。 您稍後可以透過將狀態變回作用中來繼續競標。
+
+您也可以刪除（在[!DNL ChatGPT Ads Manager]內稱為「封存」）任何作用中或暫停的廣告群組。 已刪除或封存的廣告群組會從廣告網路刪除或封存。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
 
 ### 啟動或暫停廣告群組
 
@@ -129,7 +131,7 @@ ht-degree: 0%
 
    * 若要暫停使用中的廣告群組，請選取&#x200B;**[!UICONTROL Paused]**。
 
-### 刪除廣告群組
+### 刪除或封存廣告群組
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ad Groups]**。
 
@@ -140,6 +142,8 @@ ht-degree: 0%
    * 將游標停留在廣告群組列上，然後按一下[!UICONTROL Status]欄旁的![編輯](/help/search-social-commerce/assets/edit.png "編輯")。 選取&#x200B;**[!UICONTROL Deleted]**。
 
 ## 管理廣告群組的競標限制指派 {#ad-group-constraints}
+
+*不適用於[!DNL ChatGPT Ads]*
 
 每個圖元只能有一個限制。 限制由子實體繼承，因此除非您想要覆寫繼承的值，否則不需要為子實體指派限制。
 

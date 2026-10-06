@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # 管理廣告
@@ -66,6 +66,8 @@ ht-degree: 0%
   >[!NOTE]
   >
   >您目前無法建立或編輯僅限來電的廣告。 您可以檢視、變更狀態，或刪除現有的僅限通話廣告。
+
+* **在[!DNL ChatGPT Ads]行銷活動中廣告群組的對話式廣告**。 交談式廣告會出現在AI聊天轉換旁邊。
 
 * **已針對搜尋促銷活動中的[!DNL Google Ads]和[!DNL Microsoft Advertising]動態搜尋廣告群組，展開動態搜尋廣告** （現在在廣告網路上僅稱為「動態搜尋廣告」）。 動態搜尋廣告會使用您網站的內容（而非關鍵字）來決定何時顯示您的廣告。 廣告網路會動態產生標題、選擇登陸頁面URL和顯示URL，並自動產生最終URL。
 
@@ -117,7 +119,7 @@ ht-degree: 0%
 
    如需可用廣告型別的詳細資訊，請參閱[可用的廣告型別](#ad-types)。
 
-1. 指定[Baidu文字廣告](ad-settings-baidu-text.md)、[Google Ads擴充動態搜尋廣告](ad-settings-google-dsa.md) （在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising擴充動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定的其餘設定。
+1. 指定[Baidu文字廣告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 廣告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google廣告擴充動態搜尋廣告](ad-settings-google-dsa.md) （在Google廣告中稱為「動態搜尋廣告」）、[Google廣告回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising擴充動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式（受眾）廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字ad](ad-settings-yandex-text.md)設定。
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ ht-degree: 0%
 
 1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[Baidu文字廣告](ad-settings-baidu-text.md)、[Google Ads延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字廣告](ad-settings-yandex-text.md)設定的其餘設定。
+1. 編輯[Baidu文字廣告](ad-settings-baidu-text.md)、[[!DNL ChatGPT Ads] 廣告](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)、[Google Ads延展型動態搜尋廣告](ad-settings-google-dsa.md) （現在在Google Ads中稱為「動態搜尋廣告」）、[Google Ads回應式搜尋廣告](ad-settings-google-rsa.md)、[Microsoft Advertising延展型動態搜尋廣告](ad-settings-microsoft-dsa.md)、[Microsoft Advertising多媒體廣告](ad-settings-microsoft-multimedia.md)、[Microsoft Advertising產品廣告](ad-settings-microsoft-product.md)、[Microsoft回應式廣告](ad-settings-microsoft-responsive.md)、[Advertising回應式搜尋廣告](ad-settings-microsoft-rsa.md)或[Yandex文字ad](ad-settings-yandex-text.md)設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -171,7 +173,7 @@ ht-degree: 0%
 
 您可以暫停支援廣告網路上的任何作用中廣告，以停用其競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
-您也可以刪除任何作用中或暫停的廣告。 刪除的廣告會從廣告網路中刪除。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
+您也可以刪除（在[!DNL ChatGPT Ads Manager]中稱為「封存」）任何作用中或暫停的廣告。 已刪除或封存的廣告會從廣告網路刪除或封存。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
 
 ### 啟動或暫停廣告
 
@@ -185,7 +187,7 @@ ht-degree: 0%
 
    * 若要暫停作用中的廣告，請按一下&#x200B;**[!UICONTROL Pause]**。
 
-### 刪除廣告
+### 刪除或封存廣告
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Ads]**。
 

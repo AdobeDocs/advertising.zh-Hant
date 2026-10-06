@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # 管理行銷活動
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Campaign]**。
 
-1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
+1. 指定[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)、[ChatGPT廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)、[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)、[Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    * 選取行銷活動旁的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 編輯[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)，[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)，[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)，<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
+1. 編輯[百度](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)，[ChatGPT廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)，[Google廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)，[LY廣告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)，<!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)或[Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)行銷活動設定。
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 您可以暫停支援廣告網路上的任何作用中行銷活動，以停用其上的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
 
-您也可以刪除任何作用中或暫停的行銷活動。 已刪除的行銷活動會從廣告網路中刪除。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
+您也可以刪除（在[!DNL ChatGPT Ads Manager]中稱為「封存」）任何作用中或暫停的行銷活動。 已刪除或封存的行銷活動會從廣告網路刪除或封存。 當您將其納入資料篩選器時，仍可顯示這些值，但您無法加以變更。
 
 ### 啟動或暫停行銷活動
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
    * 若要暫停作用中的行銷活動，請選取&#x200B;**[!UICONTROL Paused]**。
 
-### 刪除行銷活動
+### 刪除或封存行銷活動
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
 
@@ -210,6 +210,8 @@ ht-degree: 0%
 
 ## 管理行銷活動的競標限制指派 {#campaign-constraints}
 
+*不適用於[!DNL ChatGPT Ads]*
+
 每個圖元只能有一個限制。 限制由子實體繼承，因此除非您想要覆寫繼承的值，否則不需要為子實體指派限制。
 
 取消指定限制會移除與帳號元件及其所有子元件的關聯，且這些元件無法再使用該限制的報表資料。 取消指定限制並不會刪除限制或帳戶元件本身。
@@ -279,6 +281,8 @@ ht-degree: 0%
 1. 在確認對話方塊中，選取&#x200B;**[!UICONTROL Yes, Unassign]**。
 
 ## 管理行銷活動的目標限制指派 {#campaign-target-constraints}
+
+*不適用於[!DNL ChatGPT Ads]*
 
 ### 從新[!UICONTROL Campaigns]檢視指派目標限制給選取的行銷活動
 

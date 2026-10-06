@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # （新UI）透過API連線管理廣告網路帳戶
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Beta功能*
-
-<!-- Move out info about Naver into a separate page -->
-
 以下是使用廣告網路的API來管理搜尋、社交和Commerce同步的廣告網路帳戶指示。
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ ht-degree: 0%
 >
 >若要在廣告網路上建立實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Account]**。
 
 1. 按一下廣告網路的名稱，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-1. （除[!DNL Yandex]以外的所有廣告網路）使用廣告商的認證登入廣告網路。 選取「此帳戶的帳戶追蹤」選項。 然後，按一下右上角的&#x200B;**[!UICONTROL Next]**。
+1. （除[!DNL ChatGPT Ads]和[!DNL Yandex]以外的所有廣告網路）使用廣告商的認證登入廣告網路。 選取「此帳戶的帳戶追蹤」選項。 然後，按一下右上角的&#x200B;**[!UICONTROL Next]**。
 
 1. 在每個可用的索引標籤上指定[帳戶設定](#account-settings-api)。
 
@@ -58,7 +53,7 @@ ht-degree: 0%
 >
 >若要編輯廣告網路上的實際帳戶，請前往廣告網路的網站。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 以下列任一方式選取該帳戶：
 
@@ -76,11 +71,13 @@ ht-degree: 0%
 
 ## 重新驗證廣告網路帳戶 {#reauthenticate}
 
+*不適用於[!DNL ChatGPT Ads]帳戶*
+
 若要重新整理廣告網路連線或更新帳戶的許可權，請重新驗證帳戶。
 
 1. （如果您為同一瀏覽器應用程式中的相同廣告網路登入其他帳戶），請登出廣告商帳戶以外的任何帳戶。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ ht-degree: 0%
 
 當您啟用廣告網路帳戶時，搜尋、社交和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。 當您停用廣告網路帳戶時，搜尋、社交和Commerce會停止該帳戶上的所有活動。 系統會儲存帳戶作用中時收集的資料，但行銷活動管理檢視和報告不會包含帳戶停用期間的資料。 您稍後可以重新啟用帳戶，以繼續使用該帳戶的活動。
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**。
 
 1. 執行下列任一項作業：
 
@@ -141,7 +138,7 @@ ht-degree: 0%
 
 **[!DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
 
-**[登入詳細資料]：** （僅限Yandex帳戶）要使用的帳戶認證：
+**[登入詳細資料]：** （僅限[!DNL Yandex]個帳戶）要使用的帳戶認證：
 
 * **[!UICONTROL Login]：**&#x200B;啟用帳戶API存取權的登入名稱或ID。
 
@@ -154,12 +151,6 @@ ht-degree: 0%
 * **[!UICONTROL Purse Campaign ID]：** （僅停用[!DNL Yandex]個共用帳戶設定的帳戶；選擇性）促銷活動的數值ID，用於支付帳戶中所有廣告促銷活動。
 
 * **[!UICONTROL Finance Token]：** （[!DNL Yandex]個共用帳戶設定的帳戶僅停用；選擇性）用於財務相關API呼叫的開發人員權杖，例如，根據組合最佳化的需要，在廣告商的促銷活動之間重新配置錢包中的金額。
-
-**[!UICONTROL Network Account ID]：** (除[!DNL Yandex]以外的所有廣告網路廣告網路所指派的帳戶ID。
-
->[!NOTE]
->
->這裡不支援廣告網路管理員帳戶。 若要識別[!DNL Microsoft Advertising]的管理員帳戶，請分別使用主要帳戶ID或MCC帳戶欄位。 若要[設定 [!DNL Google Ads] 管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)的認證，請移至[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]。
 
 **[!UICONTROL Currency]：** （唯讀）帳戶所用貨幣的縮寫。 儲存記錄後，此值會自動以廣告網路上的帳戶所設定的貨幣填入。
 
@@ -251,5 +242,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於廣告網路帳戶](../ad-network-account-about.md)
->* [管理商家中心帳戶](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [管理商家中心帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [更新 [!DNL Google Ads] 帳戶的s_kwcid追蹤代碼](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
