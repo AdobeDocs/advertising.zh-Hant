@@ -157,6 +157,6 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
 ## 完整的使用者管理指南和其他連結
 
-* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/tw/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 * Admin Console： [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
