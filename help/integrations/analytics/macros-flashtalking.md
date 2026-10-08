@@ -66,9 +66,9 @@ ht-degree: 0%
 
 範例：
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/tw/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/tw/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 影片廣告標籤
 
@@ -82,9 +82,9 @@ ht-degree: 0%
 
 範例：
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/tw/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/tw/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
