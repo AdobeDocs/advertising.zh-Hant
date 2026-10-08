@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads]行銷活動設定
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]：**&#x200B;指定行銷活動型別的預算。
 
-**[!UICONTROL Conversion events]：** （選用）要與行銷活動建立關聯的任何現有轉換事件。 **注意：** Search、Social和Commerce中不提供[!DNL OpenAI]追蹤轉換的效能資料。 在[!DNL ChatGPT Ads Manager]內監視您的[!DNL OpenAI]追蹤的轉換。
+**[!UICONTROL Conversion events]：** （選擇性）在[!DNL ChatGPT Ads]內設定要與行銷活動建立關聯的任何現有轉換事件。 **注意：** Search、Social和Commerce中不提供[!DNL OpenAI]追蹤轉換的效能資料。 在[!DNL ChatGPT Ads Manager]內監視您的[!DNL OpenAI]追蹤的轉換。
 
 <!-- **[!UICONTROL Start Date]:** -->
 
