@@ -8,31 +8,43 @@ exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: DSP Planner
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: DSP Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
+    internal-label: Privacy
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: 7727
+source-wordcount: '7729'
 ht-degree: 0%
-
 ---
-
-# 新增功能
+# DSP的新增功能
 
 下列是新的或最近變更的功能。
 
@@ -81,7 +93,7 @@ ht-degree: 0%
 | 2025年5月5日 | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | DSP現在與Amazon Publisher Services (APS)建立策略合作關係，讓DSP使用者可直接存取APS Unified Ad Marketplace中的網站，包括Fire TV、Twitch、IMDb、Goodreads和6pm。 針對非程式化預留私人交易，可在公共詳細目錄、隨選詳細目錄和私人詳細目錄中存取。 支援的廣告型別包括顯示器、線上視訊和連線電視。<br><br>除歐盟、巴西和日本以外，所有區域都提供Access，但Twitch目前只在澳洲和紐西蘭處於試驗模式。 | — |
 | 2025年4月25日 | [!UICONTROL Placements]，品牌安全與媒體品質 | DSP現在針對標準連線電視位置提供[!DNL DoubleVerify]出價前詐騙封鎖支援。 新刊登版位會自動繼承廣告商層級的詐騙封鎖設定。 若要排除繼承的設定，請手動將其移除。<br><br>未來版本將提供對通用視訊版位的支援。 | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)。 |
 | 2025年4月24日 | 效能[!UICONTROL Insights] | （Beta功能）透過視覺效果提供高階效能深入分析，為您提供有效最佳化行銷活動並發現提升效能新機會所需的資訊。 您可以檢視各行銷活動的資料或向下鑽研至較低層級。 | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
-| 2025年3月26日 | 登入 | DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]，從CX Enterprise登入頁面或舊版DSP登入頁面登入[!DNL Adobe]產品。 您目前的DSP憑證將會保留90天的有效狀態，以便您為變更做好準備。 | 請參閱[登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>如需有關CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱[CX Enterprise介面和管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。 |
+| 2025年3月26日 | 登入 | DSP正轉換至Adobe Identity Management服務(IMS)以進行登入驗證。 IMS提供支援IMS的所有[!DNL Adobe]產品（包括Real-Time Customer Data Platform、Customer Journey Analytics、Target和Analytics）的單一登入(SSO)存取權。 您現在可以使用一個[!DNL Adobe ID]從CX Enterprise登入頁面或舊版DSP登入頁面登入[!DNL Adobe]個產品。 您目前的DSP憑證將會保留90天的有效狀態，以便您為變更做好準備。 | 請參閱[登入Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)。<br><br>如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱[CX Enterprise介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。 |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 現在提供下列大量編輯功能：<ul><li>您可以直接編輯並重新上傳包含行銷活動套件、版位和廣告設定的行銷活動層級試算表。 之前，您必須下載範本檔案並手動輸入變更以上傳。</li><li>在整個[!UICONTROL Campaigns]檢視中，這些檔案現在稱為「*bulksheets*」，而不是「QA工作表」，而且您選取「[!UICONTROL Download Bulksheet]」和「[!UICONTROL Upload Bulksheet]」的選項。</li><li>大部分的版位設定現在都可在大量表單中使用。</li></ul> | 請參閱[使用Bulksheets檢閱和編輯行銷活動元件設定](/help/dsp/campaign-management/campaign-components-review-edit.md)。<br><br>另請參閱[使用Bulksheets檢閱和編輯套件設定](/help/dsp/campaign-management/packages/package-qa.md)和[使用Bulksheets檢閱和編輯位置設定](/help/dsp/campaign-management/placements/placement-qa.md)。 |
 | 2025年3月10日發行 | 隱私權 | 透過[!DNL Adobe's]與數位Advertising聯盟(DAA)的合作關係，您的一般使用者現在可以選擇退出所有仰賴「Adobe Marketing Cloud - Advertising服務」（Adobe CX Enterprise的舊稱，亦先前稱為Adobe Experience Cloud，包括DSP + Audience Manager Cookie）之雜湊電子郵件地址的行為鎖定目標。 之前，DSP僅支援以Cookie為基礎的選擇退出。<br><br>當一般使用者選擇退出行為鎖定目標時，DSP會擷取一般使用者的Cookie、行動ID或雜湊電子郵件地址（DSP可能會將其與[!DNL Unified ID 2.0 (UID2.0)] ID或[!DNL LiveRamp] [!DNL RampID]相關聯）。 接著，只要一般使用者保留其選擇退出Cookie （有效期5年），DSP就會排除該一般使用者廣告曝光數的行為鎖定目標。<br><br>您的一般使用者可以： a\)從[https://optout.aboutads.info](https://optout.aboutads.info)選擇退出其瀏覽器上的廣告，或b\)選擇退出其瀏覽器、應用程式上的廣告，或使用[https://youradchoices.com/control](https://youradchoices.com/control)的Token識別碼。<br><br>廣告商不需要任何工作。 | 請參閱&quot;[Adobe隱私權政策](https://www.adobe.com/privacy/policy.html)&quot;。 |
 |  | 對象目標定位 | DSP已改善將連線電視ID和行動廣告ID對應至對應的雜湊IP位址和Cookie ID，以針對各種數位接觸點提供更具影響力的效能鎖定目標。 | — |
@@ -111,13 +123,13 @@ ht-degree: 0%
 | 2024年5月2日 | 廣告，畫素 | 您可以從[!UICONTROL Ad Tools]檢視下載行銷活動中所有廣告的廣告設定和位置關聯，格式為XLSX （Excel試算表），以供檢閱。 | 請參閱[使用大量表單](/help/dsp/campaign-management/ads/ad-qa.md)來檢閱和編輯廣告詳細資料。 |
 | |  | [!UICONTROL Ad Tools]檢視> [!UICONTROL Attach Pixels]索引標籤會顯示附加至廣告的協力廠商追蹤畫素，並提供新的工作流程以將畫素附加至一或多個廣告，以及將現有畫素分離。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。 |
 |  | 版位，對象 | 您現在可以透過大量編輯工具或版位編輯器，從版位中排除個別受眾區段或無法重複使用的受眾。 | 請參閱&quot;[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md)&quot;和&quot;[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)&quot;。 |
-| 2024年4月18日 | 版位 | 您現在可以針對位置的指定目標型別，建立和管理競標修飾元，將競標乘以增減競標。 預設競標修飾詞是1.00，這表示沒有增加或減少；值的範圍可以是0.10到10.00。 例如，競標修飾元0.50會將6美元的競標降低為3美元(0.50 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。 | 請參閱&quot;[管理位置](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)的競標乘數。&quot; |
+| 2024年4月18日 | 版位 | 您現在可以針對位置的指定目標型別，建立和管理競標修飾元，將競標乘以增減競標。 預設競標修飾詞是1.00，這表示沒有增加或減少；值的範圍可以是0.10到10.00。 例如，競標修飾元0.50會將USD 6的競標減少為USD 3 (0.50 x 6)。 當拍賣符合多個競標修飾詞的資格時，所有適用的競標修飾詞都會相乘。 競標修飾詞絕不會將競標提高到超過最高競標。 | 請參閱&quot;[管理位置](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)的競標乘數。&quot; |
 | 2024年4月3日 | 詳細目錄合作夥伴 | [!DNL Google Authorized Buyers]的Adobe Advertising歐盟座位已與現有的APAC座位合併。 | 請參閱「[SSP夥伴](/help/dsp/inventory/ssp-partners.md)」。 |
 |   | 最佳化 | 套件、位置和相關表格中的新`CPA` （每次贏取成本）和`ROAS` （廣告支出回報率）量度，可提供包含相關目標的套件和位置更精確的效能追蹤。 新的CPA量度只會考量計算每次收購成本的最終轉換事件（例如註冊），較之舊版自訂目標量度（其計算中也包含funnel上游事件，例如頁面造訪和購物車新增），此量度可提供更準確的實際CPA狀況。 同樣地，新的ROAS量度只會考慮最終收入事件（例如購買和購買值），這比追蹤效能的舊版自訂目標量度更可靠。<br><br>現在，當您設定具有CPA或ROAS型最佳化目標的套件時，必須指定最終轉換或收入事件，以及包含轉換或收入事件的自訂目標；自訂目標可選擇性地包含要除了CPA或ROAS量度之外用於套件最佳化的其他加權funnel上層事件（例如頁面造訪和購物車新增）。<br><br>此外，為了簡單起見，將效能為重點的最佳化目標合併在一起：<ul><li>新的&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;目標會以達成任一舊版情境的選項取代舊版&quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;和[!UICONTROL Highest ROAS (click focused) - Custom Goal]&quot;。</li><li>新的&quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;目標會以達成任一舊版情境的選項取代舊版&quot;[!UICONTROL Lowest CPA - Custom Goal]&quot;和[!UICONTROL Lowest CPA (click focused) - Custom Goal]&quot;。</li></ul>您使用舊版目標的現有套件已透過相關設定自動移轉至新目標，且您不需要手動更新任何專案。 | 請參閱&quot;[最佳化目標以及如何加以使用](/help/dsp/optimization/optimization-goals.md)&quot;、&quot;[封裝設定](/help/dsp/campaign-management/packages/package-settings.md)&quot;以及&quot;[設定效能行銷活動的最佳實務](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;。 |
 | 2024年3月20日 | 位置非競標原因 | 自助式客戶現在可以使用所有可操作的不可競標原因(NBR)，這些是有助於疑難排解支出不足問題的關鍵資料點。 以前，自助使用者只能存取部分的NBR，並且必須依賴帳戶管理員或交易分析師（他們具有管理員存取權）來協助疑難排解。 | 請參閱[位置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)的[!UICONTROL Non Bids]區段。 |
 | 2024年3月20日 | 計畫者 | 新的規劃工具不再處於Beta模式。 | 請參閱&quot;[關於DSP [!UICONTROL Planner]工具](/help/dsp/planner/planner-about.md)&quot;。 |
 | 2024年2月21日 | [!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]、[!UICONTROL Ads]和[!UICONTROL Deals]的[!UICONTROL Alerts] | 在[!UICONTROL Campaigns]、[!UICONTROL Packages]和封裝詳細資料、[!UICONTROL Placements]和[!UICONTROL Ads]檢視中，[!UICONTROL Pulse Panel]圖示表示檢視中的專案是否有任何警示可供使用。 您可以開啟面板以檢視每個警報，並選擇開啟適用的檢視（例如，[!UICONTROL Placements]檢視及列出的適用位置），這樣您就可以視需要編輯設定以解決問題。 您也可以選擇解除任何警報。<br><br>此外，[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]和[!UICONTROL Ads]檢視中包含&quot;[!UICONTROL Alerts]&quot;欄，指出專案或其任何元件何時發生問題。<br><br>促銷活動、套件、刊登、廣告和交易層級均提供警示。 | 請參閱&quot;[檢視警示](/help/dsp/campaign-management/reports/campaign-alerts.md)&quot;。 |
-|  | [!UICONTROL Placements] | 新的刊登版位設定可讓您指定a)最低刊登版位預算，以在有足夠預算可用時覆寫套件層級預算分配，以及b)覆寫競標價演演算法，以至少對交易的固定與底價投標：<ul><li>在屬於套裝軟體的刊登版位設定中，您現在可以指定最小預算為套裝軟體預算的百分比。 若要使用此功能，請選取&quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; （先前稱為&quot;[!UICONTROL Set a fixed budget cap]&quot;）的位置資金選項。 您仍然可以輸入[!UICONTROL Maximum Budget] USD （就像您之前針對預算上限所輸入的），也可以輸入[!UICONTROL Minimum Budget]作為套件預算的百分比。 對於現有位置，會使用新欄位名稱保留現有設定。</li><li>在[!UICONTROL Inventory Targeting]設定中，[!UICONTROL On Demand]詳細目錄和私人詳細目錄的新選項可讓您「[!UICONTROL Ensure Fixed or Floor Price for the bid]」。</li></ul> | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
+|  | [!UICONTROL Placements] | 新的刊登版位設定可讓您指定a)最低刊登版位預算，以在有足夠預算可用時覆寫套件層級預算分配，以及b)覆寫競標價演演算法，以至少對交易的固定與底價投標：<ul><li>在屬於套裝軟體的刊登版位設定中，您現在可以指定最小預算為套裝軟體預算的百分比。 若要使用此功能，請選取&quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; （先前稱為&quot;[!UICONTROL Set a fixed budget cap]&quot;）的位置資金選項。 您仍然可以在USD中輸入[!UICONTROL Maximum Budget] （就像您之前針對預算上限所輸入的那樣），也可以輸入[!UICONTROL Minimum Budget]作為套件預算的百分比。 對於現有位置，會使用新欄位名稱保留現有設定。</li><li>在[!UICONTROL Inventory Targeting]設定中，[!UICONTROL On Demand]詳細目錄和私人詳細目錄的新選項可讓您「[!UICONTROL Ensure Fixed or Floor Price for the bid]」。</li></ul> | 請參閱[位置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 |
 | 2024年2月7日 | [!UICONTROL Placements]和[!UICONTROL Ads] | [!UICONTROL Ads Tool]現在有套件篩選器。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。 |
 | 2024年1月24日 | [!UICONTROL Placements]和[!UICONTROL Ads] | 已重新設計將廣告附加至刊登版位的工作流程。 | 請參閱&quot;[將廣告附加至刊登版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;。 |
 | 2024年1月10日 | [!UICONTROL Placements] | 您現在可以使用試算表，快速自訂多個位置的廣告排程：<ul><li>您可以下載刊登版位的廣告排程範本。 您可以視需要在下載的檔案中編輯投放日期和廣告輪換。</li><li>然後，您可以上傳已編輯的廣告排程範本。</li></ul> | 請參閱&quot;[編輯刊登版位](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)的廣告排程&quot;。 |
