@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Advertising Search、Social和Commerce已整合下列[!DNL Adobe]項產品。
 
-* [來自Adobe Experience Platform的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) — 您可以使用適用於Adobe Experience Platform的[Adobe Advertising Cloud擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)來[為您的廣告登陸頁面建立Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)以及協力廠商追蹤標籤。 如果您的組織沒有Experience Platform帳戶，您仍可以直接在Adobe CX Enterprise客戶免費取得的Adobe Experience Platform資料彙集](https://experience.adobe.com/#/data-collection/)的[使用者介面中安裝此擴充功能。
+* [來自Adobe Experience Platform的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) — 您可以使用適用於Adobe Experience Platform的[Adobe Advertising Cloud擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud)來[為您的廣告登陸頁面建立Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)以及協力廠商追蹤標籤。 如果您的組織沒有Experience Platform帳戶，您仍可以直接在Adobe CX Enterprise客戶免費取得的Adobe Experience Platform資料彙集[&#128279;](https://experience.adobe.com/#/data-collection/)的使用者介面中安裝此擴充功能。
 
   若要安裝必要的擴充功能，請聯絡您的組織管理員，以取得在UI中資料收集功能的存取權，並要求他們授與您許可權`manage_properties`。
 
@@ -43,7 +43,7 @@ Advertising Search、Social和Commerce已整合下列[!DNL Adobe]項產品。
 
   * Adobe Advertising和[!DNL Analytics]可順暢地共用資料。 [!DNL Analytics]可以每天傳送網站互動和轉換資料至Search、Social和Commerce，以供其改善廣告和建立報表。 此外，Adobe Advertising亦可每天從您的廣告網路傳送廣告流量資料（包括曝光數、點按數和成本）至[!DNL Analytics]，以便該資料可在所有報告工具中使用。
 
-    如需每個廣告網路和廣告型別[!DNL Analytics]支援的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 如需資料交換的詳細資訊，另請參閱&quot;[ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}的概觀&quot;。
+    如需每個廣告網路和廣告型別[!DNL Analytics]支援的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。 如需資料交換的詳細資訊，另請參閱&quot;[&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}的概觀&quot;。
 
     若要交換資料，必須先設定Adobe Advertising和[!DNL Analytics]。 如需初始設定的詳細資訊，請聯絡您的Adobe客戶團隊。
 

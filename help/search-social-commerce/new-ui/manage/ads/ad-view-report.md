@@ -73,5 +73,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ （新UI）關於[!UICONTROL Ads view]](ad-view-about.md)
+>* [&#x200B; （新UI）關於[!UICONTROL Ads view]](ad-view-about.md)
 >* [（新UI）變更廣告](ad-change-status.md)的狀態

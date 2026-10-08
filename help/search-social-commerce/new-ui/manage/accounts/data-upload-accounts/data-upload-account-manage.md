@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需有關使用廣告網路的API管理廣告網路帳戶（搜尋、社交和Commerce同步）的帳戶詳細資訊的指示，請改為參閱「透過API連線管理廣告網路帳戶](../api-accounts/api-account-manage.md)」。[
+>如需有關使用廣告網路的API管理廣告網路帳戶（搜尋、社交和Commerce同步）的帳戶詳細資訊的指示，請改為參閱「透過API連線管理廣告網路帳戶[&#128279;](../api-accounts/api-account-manage.md)」。
 
 ## 建立帳戶詳細資料 {#create-account}
 

@@ -72,11 +72,11 @@ EF ID是不重複Token，Adobe Advertising會使用它，將活動與個別瀏�
 
 針對[!DNL Analytics]，EF ID儲存在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或[!DNL rVar] （保留的[!DNL eVar]）維度(Adobe Advertising EF ID)中。
 
-對於Customer Journey Analytics，EF ID儲存在`conversionDetails`物件的`trackingIdentities`屬性中，該物件是[ [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+對於Customer Journey Analytics，EF ID儲存在`conversionDetails`物件的`trackingIdentities`屬性中，該物件是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 ### EF ID格式 {#ef-id-formats}
 
-請參閱「Adobe Analytics元件指南」中EF ID維度專案](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)的[格式。
+請參閱「Adobe Analytics元件指南」中EF ID維度專案[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)的格式。
 
 >[!NOTE]
 >
@@ -182,4 +182,4 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* [ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
+>* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異

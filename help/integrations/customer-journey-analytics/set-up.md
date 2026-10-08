@@ -156,7 +156,7 @@ ht-degree: 1%
 
 1. 透過[檢查您三個資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets) （您的網站事件資料集、Adobe Advertising分類資料集和Adobe Advertising摘要量度資料集）中每個資料集的活動來驗證資料傳送。
 
-   您應該會看到每日批次擷取的資料集活動。 如果事件資料集在24小時後顯示零筆記錄，請在Adobe標籤](#tags-websdk)中重新檢查您的[資料流](#dataset-datastream)和[Web SDK擴充功能組態。
+   您應該會看到每日批次擷取的資料集活動。 如果事件資料集在24小時後顯示零筆記錄，請在Adobe標籤[&#128279;](#tags-websdk)中重新檢查您的[資料流](#dataset-datastream)和Web SDK擴充功能組態。
 
 1. 請要求Adobe Experience Platform管理員[將標籤發佈至您的即時生產環境](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
 

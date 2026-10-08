@@ -57,7 +57,7 @@ Adobe Advertising DSP正轉換至Adobe Identity Management服務(IMS)以進行�
 
 1. 選擇您的組織：
 
-   * 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**。
+   * 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**。
 
    * 如果您擁有多個IMS組織的存取權，請選取正確的IMS組織。
 

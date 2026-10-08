@@ -25,7 +25,7 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告，最佳化出價、行銷活動預算和競標策略目標。 您可以在建立投資組合時，或透過編輯投資組合的設定，從[!UICONTROL Campaigns]檢視將行銷活動指派給投資組合。
 
-並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[最佳化支援。
+並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的最佳化支援。
 
 >[!NOTE]
 >
@@ -111,9 +111,9 @@ ht-degree: 0%
 
    * 若要在[!UICONTROL Available Campaigns]區段中新增個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Assigned Campaigns]清單或按一下![將行銷活動指派給投資組合](/help/search-social-commerce/assets/arrow-assign.png "將行銷活動指派給投資組合")。
 
-   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。![
+   * 若要移除所有指派的行銷活動，請按一下[從產品組合移除所有行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove-all.png "從產品組合移除所有行銷活動")。
 
-   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。![
+   * 若要移除個別行銷活動，請按一下行銷活動，然後將行銷活動拖曳至[!UICONTROL Available Campaigns]清單中，或按一下[從投資組合移除行銷活動]![&#128279;](/help/search-social-commerce/assets/arrow-remove.png "[從投資組合移除行銷活動]")。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
