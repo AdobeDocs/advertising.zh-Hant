@@ -115,7 +115,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]：**&#x200B;指出欄位是唯一ID （索引鍵）。 每個摘要範本至少必須有一個欄位是唯一的。 若要選取此選項，請按一下按鈕將其向右移動。<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]：** Advertising Creative後端[&#128279;](/help/creative/appendix-available-feed-fields.md)上對應到摘要檔案中所指定[!UICONTROL Field Name]的欄位。
+**[!UICONTROL Backend Field]：** Advertising Creative後端](/help/creative/appendix-available-feed-fields.md)上對應到摘要檔案中所指定[!UICONTROL Field Name]的[欄位。
 
 >[!MORELIKETHIS]
 >

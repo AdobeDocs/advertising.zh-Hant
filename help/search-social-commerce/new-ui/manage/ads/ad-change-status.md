@@ -53,5 +53,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新UI）關於[!UICONTROL Ads]檢視](ad-view-about.md)
+>* [ （新UI）關於[!UICONTROL Ads]檢視](ad-view-about.md)
 >* [（新UI）從[!UICONTROL Ads]檢視管理資料檢視報告](ad-view-report.md)

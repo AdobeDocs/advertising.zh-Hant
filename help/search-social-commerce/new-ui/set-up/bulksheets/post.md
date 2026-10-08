@@ -43,7 +43,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 
    相同的設定會套用至您張貼的所有檔案。
 
-工作開始時，[!UICONTROL Bulksheets]檢視中會更新資料列的狀態和排程的張貼日期。 在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md)中啟用Bulksheets的電子郵件通知時，便會在張貼檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果無法張貼任何資料，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
+工作開始時，[!UICONTROL Bulksheets]檢視中會更新資料列的狀態和排程的張貼日期。 在[!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md)中[啟用Bulksheets的電子郵件通知時，便會在張貼檔案時傳送內含檔案連結的電子郵件通知。 根據編譯的資料量，電子郵件通知可能需要幾分鐘或更長時間。 如果無法張貼任何資料，則會在[!UICONTROL Bulksheets]檢視中列出錯誤檔案，並傳送包含錯誤檔案連結的電子郵件通知。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Bulksheet檔案和錯誤檔案會在上傳或產生30天後自動刪除。
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
->* [&#x200B; （新UI）下載/建立Bulksheet檔案](download.md)
+>* [ （新UI）下載/建立Bulksheet檔案](download.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)
 >* [（新UI）刪除已上傳的大量工作表和錯誤檔案](delete.md)

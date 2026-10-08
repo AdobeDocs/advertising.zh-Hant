@@ -56,7 +56,7 @@ ht-degree: 0%
 
    您可以展開標籤列來檢視包含的創意。
 
-   對於視訊廣告體驗，視訊創意內容會使用Adobe Advertising DSP編碼自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇為其他DSP[&#128279;](experience-tag-video-transcoding.md)套用轉碼。
+   對於視訊廣告體驗，視訊創意內容會使用Adobe Advertising DSP編碼自動轉碼為VAST 2.0標籤，以便您預覽。 您可以選擇為其他DSP](experience-tag-video-transcoding.md)套用[轉碼。
 
 >[!MORELIKETHIS]
 >

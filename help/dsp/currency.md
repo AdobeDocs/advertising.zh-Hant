@@ -38,7 +38,7 @@ Adobe Advertising支援下列貨幣。
 
 >[!NOTE]
 >
->Adobe Analytics支援[更多貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=zh-Hant)。
+>Adobe Analytics支援[更多貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)。
 
 ## DSP和Creative
 
@@ -70,5 +70,5 @@ Adobe Advertising支援下列貨幣。
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-受支援的搜尋引擎支援的所有貨幣。 這與 [!DNL Google Ads]&#x200B;[&#128279;](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)所支援的相同。
+受支援的搜尋引擎支援的所有貨幣。 這與 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)所支援的[相同。
 

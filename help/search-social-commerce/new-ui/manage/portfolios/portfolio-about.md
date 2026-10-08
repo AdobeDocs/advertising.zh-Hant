@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]檢視
 
-[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合。
+[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合[。
 
 在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。 您也可以開啟產品組合詳細資訊，包括產品組合績效和準確性，以及產品組合中每個行銷活動、廣告群組和關鍵字的績效資料。
 

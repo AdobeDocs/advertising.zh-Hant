@@ -89,9 +89,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; （新UI）下載/建立Bulksheet檔案](download.md)
+>* [ （新UI）下載/建立Bulksheet檔案](download.md)
 >* [（新使用者介面）上傳大量表單或已修正的錯誤檔案](upload.md)
->* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)
 >* [（新UI）刪除已上傳的大量工作表和錯誤檔案](delete.md)
 >* [（新UI）停止進行中的大量表單工作](stop-job.md)

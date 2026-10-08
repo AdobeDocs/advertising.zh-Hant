@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >在您建立客戶資料平台的來源後，必須完成其他步驟以匯入對象：
 >* 針對[!DNL ActionIQ]來源，請與您的Adobe帳戶團隊合作。
->* 若為其他來源型別，請參閱<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->適用於 [!DNL AdFixus]&#x200B;[&#128279;](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的工作流程。
+>* 若為其他來源型別，請參閱<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->適用於 [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)的[工作流程、 [!DNL Amperity]](source-amperity.md)的[工作流程、 [!DNL Optimizely]](source-optimizely.md)的[工作流程以及 [!DNL Tealium]](source-tealium.md)的[工作流程。
 
 ## 變更對象來源的ID型別
 
@@ -85,7 +85,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 將游標停留在來源資料列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 變更為來源[&#128279;](#source-settings)選取的ID。
+1. 變更為來源](#source-settings)選取的[ID。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

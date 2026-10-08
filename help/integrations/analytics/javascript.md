@@ -36,7 +36,7 @@ ht-degree: 0%
 
 若為Advertising DSP，[!DNL Analytics for Advertising]整合會追蹤瀏覽和點進網站互動。 點進造訪會由您網頁上的標準Adobe Analytics程式碼追蹤；[!DNL Analytics]程式碼會擷取登陸頁面URL中的AMO ID和EF ID引數，並在其各自的保留[!DNL eVars]中追蹤。 您可以在網頁中部署JavaScript程式碼片段，以追蹤瀏覽次數。
 
-在造訪網站的第一個頁面檢視上，Adobe Advertising JavaScript程式碼會檢查訪客是否先前檢視或點選過廣告。 如果使用者先前曾透過點進進入網站，或尚未看到廣告，則會忽略該訪客。 如果訪客在Adobe Advertising中設定的[點按回顧期間](/help/integrations/analytics/prerequisites.md#lookback-a4adc)看到廣告且未透過點進進入網站，則Adobe Advertising JavaScript程式碼a)會使用[Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)產生補充ID (`SDID`)，或b)會使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID`方法產生`[!DNL StitchID]`。 其中一個ID可用來將Adobe Advertising中的資料拼接至訪客的Adobe Analytics點選。 接著Adobe Analytics會查詢Adobe Advertising以取得與廣告曝光度相關聯的AMO ID和EF ID。 AMO ID和EF ID會填入各自的[!DNL eVars]中。 這些值會在指定的期間（預設為60天）內持續存在。
+在造訪網站的第一個頁面檢視上，Adobe Advertising JavaScript程式碼會檢查訪客是否先前檢視或點選過廣告。 如果使用者先前曾透過點進進入網站，或尚未看到廣告，則會忽略該訪客。 如果訪客在Adobe Advertising中設定的[點按回顧期間](/help/integrations/analytics/prerequisites.md#lookback-a4adc)看到廣告且未透過點進進入網站，則Adobe Advertising JavaScript程式碼a)會使用[Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)產生補充ID (`SDID`)，或b)會使用Adobe Experience Platform [!DNL Web SDK] `generateRandomID`方法產生`[!DNL StitchID]`。 其中一個ID可用來將Adobe Advertising中的資料拼接至訪客的Adobe Analytics點選。 接著Adobe Analytics會查詢Adobe Advertising以取得與廣告曝光度相關聯的AMO ID和EF ID。 AMO ID和EF ID會填入各自的[!DNL eVars]中。 這些值會在指定的期間（預設為60天）內持續存在。
 
 [!DNL Analytics]會使用EF ID做為索引鍵，每小時將網站流量量度（例如頁面檢視、造訪和逗留時間）和任何[!DNL Analytics]個自訂或標準事件傳送至Adobe Advertising。 接著這[!DNL Analytics]個量度會透過Adobe Advertising歸因系統執行，以將轉換連結至點按和曝光歷程記錄。
 
@@ -154,7 +154,7 @@ JavaScript資料庫由兩行組成，允許[!DNL Analytics]和Adobe Advertising�
 
 #### 如何使用[!DNL Adobe Experience Platform Debugger]確認代碼
 
-1. 在您的首頁上開啟[該 [!DNL Adobe Experience Platform Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=zh-Hant)。
+1. 在您的首頁上開啟[該 [!DNL Adobe Experience Platform Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)。
 1. 前往[!UICONTROL Network]標籤。
 1. 在[!UICONTROL Solutions Filter]工具列中按一下[!UICONTROL Adobe Advertising]和[!UICONTROL Analytics]。
 1. 在[!UICONTROL Request URL - Hostname]引數列中，找出`lasteventf-tm.everesttech.net`。

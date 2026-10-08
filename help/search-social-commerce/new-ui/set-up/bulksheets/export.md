@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於使用大量表單管理行銷活動資料](about.md)
->* [&#x200B; （新UI）下載/建立Bulksheet檔案](download.md)
+>* [ （新UI）下載/建立Bulksheet檔案](download.md)
 >* [（新UI）驗證Bulksheet檔案中的登入頁面](validate-landing-pages.md)
->* [&#x200B; （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
+>* [ （新UI）張貼大量表單或已修正的錯誤檔案](post.md)
 >* [（新UI）設定FTP帳戶以上傳大量表單](ftp-account.md)

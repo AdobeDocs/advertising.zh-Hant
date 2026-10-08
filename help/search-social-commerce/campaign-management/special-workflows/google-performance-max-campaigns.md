@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在[!DNL Google Ads]個最高成效行銷活動中，您未設定廣告群組、廣告或關鍵字。 反之，在行銷活動設定中，您需指定一或多個資產群組，包括標題、說明、以及上傳的影像、標誌和[!DNL YouTube videos]。 [!DNL Google Ads]會自動結合資產，以根據頻道（例如[!DNL YouTube]、[!DNL Gmail]或[!DNL Search]）提供廣告。
 
-您可以在[!DNL Campaigns]檢視中檢視現有的最高成效行銷活動，以表格和趨勢圖表格式呈現成效資料；較低層級不會提供資料。 行銷活動層級的成效資料也可在報告和Adobe Analytics中使用（適用於具有[Analytics整合](/help/integrations/analytics/overview.md)的廣告商）。 若要在[!DNL Analytics]中檢視最高成效行銷活動的績效資料，行銷活動必須使用[升級的AMO ID追蹤代碼](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#dimension-items) （追蹤行銷活動ID和廣告群組ID）。
+您可以在[!DNL Campaigns]檢視中檢視現有的最高成效行銷活動，以表格和趨勢圖表格式呈現成效資料；較低層級不會提供資料。 行銷活動層級的成效資料也可在報告和Adobe Analytics中使用（適用於具有[Analytics整合](/help/integrations/analytics/overview.md)的廣告商）。 若要在[!DNL Analytics]中檢視最高成效行銷活動的績效資料，行銷活動必須使用[升級的AMO ID追蹤代碼](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) （追蹤行銷活動ID和廣告群組ID）。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    1. 指定第一個資產群組的設定，並上傳資產群組的影像、標誌和選用影片。
 
-      請參閱資產群組設定[&#128279;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)的說明，瞭解需求和規格。
+      請參閱資產群組設定](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)的[說明，瞭解需求和規格。
 
    1. 視需要新增其他資產群組。
 

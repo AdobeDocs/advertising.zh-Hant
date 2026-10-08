@@ -71,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]：** （使用者端摘要檔案的範本為選用）行銷活動層級追蹤範本，可指定所有離登陸網域重新導向與追蹤引數，並將最終URL內嵌在引數中。 此值會覆寫帳戶層級設定，但更精細層級的追蹤範本（以關鍵字為最精細）會覆寫此值。
 
-若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請對 [!DNL Google Ads] 購物促銷活動[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)使用追蹤範本格式。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
+若為套用促銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;的Adobe Advertising轉換追蹤，請對 [!DNL Google Ads] 購物促銷活動](/help/search-social-commerce/tracking/formats-click-tracking-google.md)使用[追蹤範本格式。 如果整個帳戶都專用於購物廣告，您可以改為在帳戶層級定義追蹤範本。
 
 對於協力廠商重新導向和追蹤，請輸入值。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]：**&#x200B;其產品用於行銷活動的商家帳戶的客戶識別碼。
 
-**[!UICONTROL Sales Country]：**&#x200B;促銷活動產品銷售的國家/地區。 因為產品是相關聯的
+**[!UICONTROL Sales Country]：**促銷活動產品銷售的國家/地區。 因為產品是相關聯的
 若使用目標國家/地區，此設定會決定促銷活動中要公告哪些產品。
 
 <!-- **[!UICONTROL Stock Level]:** -->
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]：**&#x200B;要放置廣告的網路。 已選取&#x200B;*[!UICONTROL Search]*。 若要在[!DNL Google Ads]搜尋合作夥伴的清單中包含競標，請選取&#x200B;**[!UICONTROL Search partners]**&#x200B;旁的核取方塊。
 
-**[!UICONTROL Campaign Priority]：**&#x200B;當多個行銷活動廣告
+**[!UICONTROL Campaign Priority]：**當多個行銷活動廣告
 相同的產品： *[!UICONTROL Low]* （新行銷活動的預設值）、*[!UICONTROL Medium]*&#x200B;或&#x200B;*[!UICONTROL High]*。 當同一個產品包含在多個行銷活動中時，廣告網路會使用
 行銷活動優先順序會先決定哪個行銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。
 
