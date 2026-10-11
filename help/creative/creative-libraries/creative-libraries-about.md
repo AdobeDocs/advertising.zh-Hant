@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # 關於您的創意程式庫
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5創意
 
-* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
+* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)中的[顯示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
 
   匯入GenStudio體驗後，您可以編輯已匯入創意的中繼資料（名稱、語言、標籤），但無法編輯創意內容。 如果您在GenStudio中編輯GenStudio體驗，請在[!DNL Creative]中重新匯入體驗以使用最新版本。
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 #### 視訊創意 {#creative-video-specs}
 
-您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[&#128279;](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
+您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。[
 
-請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
+請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
 **檔案型別：** .mov、.mp4、.webm
 
@@ -155,63 +155,55 @@ ht-degree: 0%
 
 #### 可用動作
 
-* [建立新程式庫](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [建立新程式庫](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * 對於每個創意內容庫：
 
-  * [編輯程式庫名稱](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [重新命名資料庫](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]檢視
 
-#### [!UICONTROL Standard Ads]
+[!UICONTROL Creatives]檢視顯示：
 
-[!UICONTROL Standard Ads]索引標籤會顯示您已建立的所有標準創意。 每個創意的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
+* 您已建立的所有標準創意。
 
-##### 可用動作
+  每個標準創意內容的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
 
-* [將標準創意內容新增至程式庫](creative-add-standard.md)
+* 除了您[手動刪除](creative-delete.md)的任何動態創意之外，所有為您的創意目錄以動態方式建立的動態創意內容。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
 
-* [編輯標準創意](creative-edit-standard.md)
+  每個動態創意內容的資料包括創意型別、創意大小、創意所屬的目錄數量以及建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
 
-* [預覽標準創意](creative-preview.md)
+  >[!NOTE]
+  >
+  >每次處理目錄時，都會重新整理該目錄現有動態創意的資料。<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>在舊版UI中，[!UICONTROL Creative Libraries] > [!UICONTROL Creatives]已組織為單獨的[!UICONTROL Standard Ads]和[!UICONTROL Dynamic Ads]標籤。
+
+#### 可用動作
+
+* 將[標準創意內容](creative-add-standard.md)和[動態創意內容](creative-add-dynamic.md)新增至程式庫
+
+* 編輯[標準創意](creative-edit-standard.md)和[動態創意](creative-edit-dynamic.md)
+
+* 預覽[標準創意](creative-preview.md)和[動態創意](creative-preview.md)
 
 * [將標準創意加入標準顯示組合，並從標準顯示組合中移除標準創意](creative-attach-detach-bundles.md)
 
 * [將視訊創意內容新增至標準視訊組合，並從標準視訊組合中移除視訊創意內容](creative-attach-detach-bundles.md)
 
-* [複製標準創意](creative-duplicate.md)
+* [將動態創意新增至動態顯示組合，並從動態顯示組合中移除動態創意](creative-attach-detach-bundles.md)
+
+* 複製[標準創意](creative-duplicate.md)和[動態創意](creative-duplicate.md)
 
 * [下載標準創意內容](creative-download.md)
 
-* [刪除標準創意](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[!UICONTROL Dynamic Ads]索引標籤[手動刪除](creative-delete.md)的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
-
-每個創意的資料包括創意型別、創意大小、創意所屬的目錄數量和建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
-
->[!NOTE]
->
->每次處理目錄時，都會重新整理該目錄現有動態創意的資料。<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### 可用動作
-
-* [將動態創意內容新增至程式庫](creative-add-dynamic.md)
-
-* [編輯動態創意](creative-edit-dynamic.md)
-
-* [預覽動態創意內容](creative-preview.md)
-
-* [將動態創意新增至動態顯示組合，並從動態顯示組合中移除動態創意](creative-attach-detach-bundles.md)
-
-* [複製動態創意](creative-duplicate.md)
-
-* [刪除動態創意](creative-delete.md)
+* 刪除[標準創意](creative-delete.md)和[動態創意](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ ht-degree: 0%
 
 * 列出及預覽組合中的創意
 
-* 編輯套件組合名稱
+* 重新命名套件組合
 
 * 將標準顯示創意加入標準顯示組合，並從標準顯示組合中移除標準顯示創意
 

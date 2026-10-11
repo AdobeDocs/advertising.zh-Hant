@@ -18,14 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '452'
 ht-degree: 2%
 ---
 # 動態創意設定
 
 <!-- add a description -->
+
+下列設定適用於使用舊版UI建立的動態廣告。 如果您使用新的UI或[!DNL Creative Studio]建立動態廣告，請參閱「在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理動態創意」中的設定。[
 
 ## 動態廣告設定<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 

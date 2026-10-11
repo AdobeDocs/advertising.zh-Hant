@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 將動態創意內容新增至創意內容庫
@@ -54,11 +54,33 @@ ht-degree: 0%
 
 ## 使用動態HTML5廣告範本新增動態創意內容
 
+## 從新的UI
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**。
+
+1. 從「在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理動態創意」中的[步驟2開始，在[!DNL Creative Studio]中指定動態廣告設定。
+
+## 從舊版UI
+
 1. 執行下列任一項作業：
 
    * 從創意內容庫：
 
      1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+     1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
      1. 按一下程式庫名稱。
 

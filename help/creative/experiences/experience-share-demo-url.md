@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
-1. 在預覽的右上角，按一下![共用](/help/creative/assets/share.png "共用")。
+1. 在預覽的右上角，按一下![共用](/help/creative/assets/share-legacy.png "共用")。
 
 1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # 管理創意組合
@@ -44,21 +44,69 @@ ht-degree: 0%
 
 您可以將創意內容附加至多個組合。
 
+## 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 執行下列任一項作業：
+
+   * 從&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤，按一下右上角的&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Bundle]**。
+
+   * 按一下「**[!UICONTROL Bundles]**」標籤。 按一下右上角的&#x200B;**[!UICONTROL Create bundle]**。
+
+1. 輸入唯一的&#x200B;**[!UICONTROL Bundle Name]**，然後選取&#x200B;**[!UICONTROL Bundle type]：** *標準顯示* （適用於標準顯示創意）、*動態顯示* （適用於動態顯示創意）、*標準視訊* （適用於標準視訊創意）或&#x200B;*Dynamic Video* （適用於動態視訊創意）。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
 1. 按一下程式庫名稱。
 
 1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**。
+1. 按一下右上角的&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Bundle]**。
 
-1. 輸入唯一的&#x200B;**[!UICONTROL Bundle Name]**&#x200B;和&#x200B;**[!UICONTROL Bundle Type]：** *標準顯示* （適用於標準顯示創意）、*動態顯示* （適用於動態顯示創意）、*標準視訊* （適用於標準視訊創意）或&#x200B;*Dynamic Video* （適用於動態視訊創意）。
+1. 輸入唯一的&#x200B;**[!UICONTROL Bundle Name]**，然後選取&#x200B;**[!UICONTROL Bundle Type]：** *標準顯示* （適用於標準顯示創意）、*動態顯示* （適用於動態顯示創意）、*標準視訊* （適用於標準視訊創意）或&#x200B;*Dynamic Video* （適用於動態視訊創意）。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
 ## 列出套件組合中的創意內容
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 按一下束的名稱以檢視束中的所有創意。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -69,6 +117,32 @@ ht-degree: 0%
 1. 按一下束卡或列以檢視束中的所有創意。
 
 ## 複製組合
+
+新組合命名為`<original name> (copy) # 1` （或序列中的下一個編號）。 例如，如果您製作「測試組合」的兩個重複專案，則這些重複專案會命名為「測試組合（副本） # 1」和「測試組合（副本） # 2」。
+
+### 從新的UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 選取要複製的組合：
+
+   * 若要複製單一組合，請按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Duplicate]**。
+
+   * 若要複製一或多個束，請選取要刪除的每個束的核取方塊。 在大量動作工具列中按一下![複製](/help/creative/assets/duplicate.png "複製") (**[!UICONTROL Duplicate]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+### 從舊版UI
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
@@ -90,13 +164,39 @@ ht-degree: 0%
 
      若要選取所有列，請選取左上方的全域核取方塊。
 
-   新組合命名為`<original name> (copy) # 1` （或序列中的下一個編號）。 例如，如果您製作「測試組合」的兩個重複專案，則這些重複專案會命名為「測試組合（副本） # 1」和「測試組合（副本） # 2」。
-
-## 編輯套件組合名稱
+## 重新命名套件組合
 
 對套件名稱的變更會傳播到所有關聯的體驗。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 在套件名稱旁邊，按一下&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->
+
+1. 編輯&#x200B;**[!UICONTROL Bundle Name]**。
+
+   [!UICONTROL Bundle Name]必須是唯一的。
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
 1. 按一下程式庫名稱。
 
@@ -112,7 +212,7 @@ ht-degree: 0%
 
    [!UICONTROL Bundle Name]必須是唯一的。
 
-1. 按一下&#x200B;**[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+1. 按一下&#x200B;**[!UICONTROL Update]**。
 
 ## 將創意內容附加至組合
 
@@ -124,7 +224,29 @@ ht-degree: 0%
 
 ### 從組合清單將創意附加至組合
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 在套件名稱旁邊，按一下&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Attach creatives]**。
+
+1. 在右側面板中，選取每個要附加至組合包的創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -142,11 +264,33 @@ ht-degree: 0%
 
 1. （選擇性）按一下![卡片檢視](/help/creative/assets/card-view-button.png "卡片檢視")以開啟卡片檢視，或按一下![表格/清單檢視](/help/creative/assets/table-view-button.png "表格檢視")返回表格檢視，在預設表格檢視與可用套裝的卡片檢視之間切換。
 
-1. 在右方框架中，選取每個要附加至搭售方案之創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
+1. 在右側面板中，選取每個要附加至組合包的創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach Creative to Bundle]**。
 
 ### 從套裝的創意清單將創意內容附加至套裝
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 按一下束的名稱以檢視束中的所有創意。
+
+1. 在右側面板中，選取每個要附加至組合包的創意內容旁的核取方塊，然後按一下&#x200B;**[!UICONTROL Attach]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -168,7 +312,35 @@ ht-degree: 0%
 
 將創意內容從套件中分離，並不會將創意內容從創意內容庫中的「創意內容」索引標籤中刪除。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 按一下束的名稱以檢視束中的所有創意。
+
+1. 選取要分離的組合：
+
+   * 若要分離單一組合，請按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Detach]**。
+
+   * 若要分離一或多個束，請選取欲分離的每個束的核取方塊。 在大量動作工具列中按一下![分離](/help/creative/assets/detach.png "分離") (**[!UICONTROL Detach]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -194,7 +366,45 @@ ht-degree: 0%
 
 您可以在檢視者看到創意時加以預覽，包括超連結。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 按一下束的名稱以檢視束中的所有創意。
+
+1. 在套件名稱旁邊，按一下&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
+
+   對於HTML5和彈性的HTML5創意內容，您可以在「圖層」、「詳細資訊」和「屬性」標籤之間移動，以取得更多詳細資訊。
+
+1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （選擇性；可用時）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+1. （選用；可用時）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
+
+   1. 按一下預覽右上角的![共用](/help/creative/assets/share.png "共用")。
+
+   1. 在[!UICONTROL Share demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -226,13 +436,47 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 在套件名稱旁邊，按一下&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
+
+1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （選擇性；可用時）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+1. （選用；可用時）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
+
+   1. 按一下預覽右上角的![共用](/help/creative/assets/share.png "共用")。
+
+   1. 在[!UICONTROL Share demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
 1. 按一下程式庫名稱。
 
 1. 按一下「**[!UICONTROL Bundles]**」標籤。
 
 1. 選取束：
 
-   * 在卡片檢視中，按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
+   * 在卡片檢視中，按一下&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
 
    * 在表格檢視中，將游標停留在資料列上並按一下&#x200B;**[!UICONTROL Preview]**。
 
@@ -248,7 +492,7 @@ ht-degree: 0%
 
 1. （選用）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
 
-   1. 按一下預覽右上角的![共用](/help/creative/assets/share.png "共用")。
+   1. 按一下預覽右上角的![共用](/help/creative/assets/share-legacy.png "共用")。
 
    1. 在[!UICONTROL Share Demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 檢視套件的變更記錄
 
+*在新的UI中無法使用*
+
+### 從舊版UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
@@ -311,7 +561,35 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 您可以刪除未指派給[即時](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)體驗的組合。 如果將組合指派給即時體驗，請在繼續之前[從決策樹](/help/creative/experiences/experience-target-node-delete.md)移除該組合以供該體驗使用。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 按一下「**[!UICONTROL Bundles]**」標籤。
+
+1. 選取要刪除的組合：
+
+   * 若要刪除單一組合，請按一下組合名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
+
+   * 若要刪除一個或多個束，請選取要刪除的每個束的核取方塊。 在大量動作工具列中按一下![刪除](/help/creative/assets/delete.png "刪除") (**[!UICONTROL Delete]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete].**
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 

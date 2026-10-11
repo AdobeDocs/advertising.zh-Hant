@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # 預覽創意
 
 您可以在檢視者看到創意時加以預覽，包括超連結。
 
+## 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Preview]**。
+
+   對於HTML5和彈性的HTML5創意內容，您可以在「圖層」、「詳細資訊」和「屬性」標籤之間移動，以取得更多詳細資訊。
+
+1. （選用）若要開啟創意的登陸頁面，請按一下創意內容。
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. （選擇性；可用時）若要下載創意，請按一下![下載](/help/creative/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+1. （選用；可用時）若要共用示範URL，讓未登入[!DNL Creative]的其他人可以預覽創意內容：
+
+   1. 按一下預覽右上角的![共用](/help/creative/assets/share.png "共用")。
+
+   1. 在[!UICONTROL Share demo URL]對話方塊中，按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將URL複製到剪貼簿，以便與其他人共用。
+
+## 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 

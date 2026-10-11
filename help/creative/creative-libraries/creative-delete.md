@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # 從創意資源庫刪除創意內容
@@ -37,7 +37,31 @@ ht-degree: 0%
 >
 >如果您刪除動態創意內容，並使用與建立原始創意內容相同的資料為目錄產生新廣告，則該創意內容會新增回目錄。
 
+## 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 執行下列任一項作業：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤上，選取要刪除的創意：
+
+   * 若要刪除單一創意，請按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Delete]**。
+
+   * 若要刪除一或多個創意，請選取您要刪除之每個創意的核取方塊。 在大量動作工具列中按一下![刪除](/help/creative/assets/delete.png "刪除") (**[!UICONTROL Delete]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete].**
+
+## 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 
