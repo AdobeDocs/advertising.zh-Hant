@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**。
 
-1. 從「在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理動態創意」中的[步驟2開始，在[!DNL Creative Studio]中指定動態廣告設定。
+1. 從「在[!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)中管理動態創意」中的步驟2開始，在[!DNL Creative Studio]中指定動態廣告設定。
 
 ## 從舊版UI
 
