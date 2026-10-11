@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # 關於您的創意程式庫
@@ -155,63 +155,55 @@ ht-degree: 0%
 
 #### 可用動作
 
-* [建立新程式庫](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [建立新程式庫](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * 對於每個創意內容庫：
 
-  * [編輯程式庫名稱](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [重新命名資料庫](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [開啟程式庫以檢視指派給程式庫的創意和組合](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [刪除程式庫](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]檢視
 
-#### [!UICONTROL Standard Ads]
+[!UICONTROL Creatives]檢視顯示：
 
-[!UICONTROL Standard Ads]索引標籤會顯示您已建立的所有標準創意。 每個創意的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
+* 您已建立的所有標準創意。
 
-##### 可用動作
+  每個標準創意內容的資料包括創意大小、創意型別和建立日期。 表格模式也包含預設語言和預設登陸頁面的欄。
 
-* [將標準創意內容新增至程式庫](creative-add-standard.md)
+* 除了您[手動刪除](creative-delete.md)的任何動態創意之外，所有為您的創意目錄以動態方式建立的動態創意內容。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
 
-* [編輯標準創意](creative-edit-standard.md)
+  每個動態創意內容的資料包括創意型別、創意大小、創意所屬的目錄數量以及建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
 
-* [預覽標準創意](creative-preview.md)
+  >[!NOTE]
+  >
+  >每次處理目錄時，都會重新整理該目錄現有動態創意的資料。<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>在舊版UI中，[!UICONTROL Creative Libraries] > [!UICONTROL Creatives]已組織為單獨的[!UICONTROL Standard Ads]和[!UICONTROL Dynamic Ads]標籤。
+
+#### 可用動作
+
+* 將[標準創意內容](creative-add-standard.md)和[動態創意內容](creative-add-dynamic.md)新增至程式庫
+
+* 編輯[標準創意](creative-edit-standard.md)和[動態創意](creative-edit-dynamic.md)
+
+* 預覽[標準創意](creative-preview.md)和[動態創意](creative-preview.md)
 
 * [將標準創意加入標準顯示組合，並從標準顯示組合中移除標準創意](creative-attach-detach-bundles.md)
 
 * [將視訊創意內容新增至標準視訊組合，並從標準視訊組合中移除視訊創意內容](creative-attach-detach-bundles.md)
 
-* [複製標準創意](creative-duplicate.md)
+* [將動態創意新增至動態顯示組合，並從動態顯示組合中移除動態創意](creative-attach-detach-bundles.md)
+
+* 複製[標準創意](creative-duplicate.md)和[動態創意](creative-duplicate.md)
 
 * [下載標準創意內容](creative-download.md)
 
-* [刪除標準創意](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-[!UICONTROL Dynamic Ads]索引標籤會顯示為您的創意目錄動態建立的所有動態創意，但您從[!UICONTROL Dynamic Ads]索引標籤[手動刪除](creative-delete.md)的任何動態創意除外。 如果您[手動複製](creative-duplicate.md)任何動態創意<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->，則該目錄的創意清單也包含重複的創意。
-
-每個創意的資料包括創意型別、創意大小、創意所屬的目錄數量和建立日期。 表格模式也包含產生創意和選件計數的廣告範本欄。
-
->[!NOTE]
->
->每次處理目錄時，都會重新整理該目錄現有動態創意的資料。<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### 可用動作
-
-* [將動態創意內容新增至程式庫](creative-add-dynamic.md)
-
-* [編輯動態創意](creative-edit-dynamic.md)
-
-* [預覽動態創意內容](creative-preview.md)
-
-* [將動態創意新增至動態顯示組合，並從動態顯示組合中移除動態創意](creative-attach-detach-bundles.md)
-
-* [複製動態創意](creative-duplicate.md)
-
-* [刪除動態創意](creative-delete.md)
+* 刪除[標準創意](creative-delete.md)和[動態創意](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ ht-degree: 0%
 
 * 列出及預覽組合中的創意
 
-* 編輯套件組合名稱
+* 重新命名套件組合
 
 * 將標準顯示創意加入標準顯示組合，並從標準顯示組合中移除標準顯示創意
 

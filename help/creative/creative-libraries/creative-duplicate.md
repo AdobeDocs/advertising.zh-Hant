@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # 複製創意
 
 複製創意素材，將具有相同設定的新創意素材新增至相同元件庫。 您稍後可重新命名新創意，並視需要編輯創意設定。
 
+新創意命名為`<original name> (copy) # 1` （或序列中的下一個編號）。 例如，如果您製作「測試影像」的兩個復本，則復本會命名為「測試影像（復本） # 1」和「測試影像（復本） # 2」。
+
 >[!NOTE]
 >
 >當您複製動態創意時，複製的創意會新增到與原始創意相同的目錄中。
 
+## 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 執行下列任一項作業：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤上，選取創意：
+
+   * 若要複製單一創意，請按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Duplicate]**。
+
+   * 若要複製一或多個創意，請選取您要複製之每個創意的核取方塊。 在大量動作工具列中按一下![複製](/help/creative/assets/duplicate.png "複製") (**[!UICONTROL Duplicate]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+## 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 
@@ -46,8 +70,6 @@ ht-degree: 0%
    * 若要複製一或多個創意，請選取您要複製之每個創意的核取方塊。 在大量動作工具列中按一下&#x200B;**[!UICONTROL Duplicate]**。
 
      若要選取所有列，請選取左上方的全域核取方塊。
-
-   新創意命名為`<original name> (copy) # 1` （或序列中的下一個編號）。 例如，如果您製作「測試影像」的兩個復本，則復本會命名為「測試影像（復本） # 1」和「測試影像（復本） # 2」。
 
 <!--
  Add to TOC later when this feature is available to users:

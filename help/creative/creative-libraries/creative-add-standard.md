@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1538'
 ht-degree: 0%
 ---
 # 將標準創意內容新增至創意內容庫
@@ -133,7 +133,67 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >您也可以[新增彈性的HTML5創意](#flexible-creative-add)，這些創意是HTML5創意，具有作為標準HTML標籤的所有屬性，您可以直接在[!DNL Creative]中編輯。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**。
+
+1. 指定創意：
+
+   * 針對本機影像或HTML5資產，請執行下列其中一項作業：
+
+     * 將裝置或網路上的檔案拖放至方塊中。
+
+     * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+
+   * 針對連線至您DSP帳戶[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager資料庫中已核准的影像，請執行下列動作：
+
+     1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
+
+     1. （如果您尚未登入您的Experience Manager帳戶）請登入您的Experience Manager帳戶。
+
+     1. 在您的[!UICONTROL Assets]或[!UICONTROL Collections]檢視中尋找並選取檔案，然後按一下右上角的&#x200B;**[!UICONTROL Select]**。
+
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+
+   * 針對GenStudio體驗，請執行以下作業：
+
+     1. 按一下&#x200B;**[!UICONTROL GenStudio Library]**。
+
+     1. （如果您尚未登入您的GenStudio帳戶）請登入您的GenStudio帳戶。
+
+        預設會顯示您的顯示廣告體驗。 視需要選擇性依行銷活動或其他屬性篩選您的體驗。
+
+     1. 找到並選取顯示廣告體驗，然後按一下右上角的&#x200B;**[!UICONTROL Select]**。
+
+     所選體驗中的每個創意變體都會匯入為單獨的HTML5創意內容。
+
+1. 新增或移除創意：
+
+   * 若要新增影像，請按一下左上方的![新增](/help/creative/assets/create.png "新增")，在您的裝置或網路上找到檔案。
+
+   * 若要移除影像，請取消選取影像旁邊的核取方塊。
+
+1. 指定[HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)或[影像創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)。
+
+   依預設，會選取您剛才上傳的所有創意內容或GenStudio體驗，而您指定的任何設定會套用至所有已選取的專案。 任何只有一個值的設定會套用至所有選取的專案。 若要輸入特定創意內容或GenStudio體驗的設定，請取消選取每個不適用的創意內容或體驗。
+
+1. 按一下&#x200B;**[!UICONTROL Save Creative]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 
@@ -185,7 +245,33 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 [!DNL Creative]支援大多數協力廠商廣告伺服器上託管的創意內容的JavaScript追蹤標籤。
 
+### 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**。
+
+1. 在[協力廠商創意設定](#creative-settings-third-party)中指定創意的JavaScript標籤和其他設定。
+
+   您可以將任何[可用的巨集](/help/creative/creative-macros.md)複製並貼到JavaScript標籤中。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
 1. 按一下程式庫名稱。
 
@@ -195,13 +281,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    您可以將任何[可用的巨集](/help/creative/creative-macros.md)複製並貼到JavaScript標籤中。
 
-1. 按一下&#x200B;**[!UICONTROL Create]**
+1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-## 將視訊創意內容新增至創意內容庫
+## 將視訊創意內容上傳至創意內容庫
 
 檢視[視訊創意規格](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs)和[支援的創意大小](/help/creative/creative-libraries/creative-sizes.md)。
 
+### 從新的UI
+
+您可以一次上傳一個視訊。
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**。
+
+1. 以下列其中一種方式指定視訊檔案：
+
+   * 將裝置或網路上的檔案拖放至方塊中。
+
+   * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+
+1. 指定[視訊創作設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)。
+
+1. 按一下&#x200B;**[!UICONTROL Save Creative]**。
+
+### 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 

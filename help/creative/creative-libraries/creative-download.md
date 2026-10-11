@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # 下載創意
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 根據瀏覽器的正常程式，將所有選取的創意內容下載到ZIP格式的檔案中。
 
+## 從新的UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 執行下列任一項作業：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤上，選取創意：
+
+   * 若要下載單一創意，請按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Download]**。
+
+   * 若要下載一或多個創意內容，請選取您要下載之每個創意內容的核取方塊。 在大量動作工具列中按一下![下載](/help/creative/assets/download.png "下載") (**[!UICONTROL Download]**)。
+
+     若要選取所有列，請選取左上方的全域核取方塊。
+
+## 從舊版UI
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 

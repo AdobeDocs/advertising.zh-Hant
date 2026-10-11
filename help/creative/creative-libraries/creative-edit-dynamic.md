@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 在創意內容庫中編輯動態創意內容
 
+## 從新的UI
+
+1. 開啟創意設定：
+
+   * 從創意內容庫：
+
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+     1. 以下列其中一種方式開啟程式庫：
+
+        * 按一下程式庫名稱。
+
+        * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+
+   * 從[!UICONTROL Creative Studio]：
+
+     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]>[!UICONTROL Creative Studio]**。
+
+     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤上，將游標停留在創意卡片上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**。
+
+        全熒幕編輯器隨即開啟，左側顯示廣告預覽，右側顯示設定面板。
+
+1. 使用&#x200B;**[!UICONTROL Details]**&#x200B;和&#x200B;**[!UICONTROL Attribute Mapping]**&#x200B;索引標籤編輯創意設定：
+
+   **[!UICONTROL Details]**&#x200B;標籤：
+
+   * **[!UICONTROL Advertiser]**、**[!UICONTROL Ad Library]**&#x200B;和&#x200B;**[!UICONTROL Ad template]**&#x200B;為唯讀。
+   * **[!UICONTROL Dynamic creative name]：**&#x200B;創意內容的顯示名稱。
+   * **[!UICONTROL Number of cards]：**&#x200B;每個廣告組合中包含的目錄選件數目(1-50)。
+   * （選擇性）在&#x200B;**[!UICONTROL Catalogs]**&#x200B;下，更新目錄選擇：
+     * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;篩選可用的目錄。 若要選擇下載範本檔案，請按一下&#x200B;**[!UICONTROL Download feed template]**。
+     * 從清單中搜尋並選取目錄，或透過將新目錄檔案拖曳至上傳區域或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;以上傳新目錄檔案（支援的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一個檔案）。 上傳的目錄在晶片清單中標示為&#x200B;**（已上傳）**。
+
+     所有目錄都必須屬於相同的目錄範本系列。
+
+   **[!UICONTROL Attribute Mapping]**&#x200B;標籤：
+
+   * 在&#x200B;**[!UICONTROL Targeting]**&#x200B;底下，選取至少一個資料來源： **[!UICONTROL Profile data]**、**[!UICONTROL Geographic data]**、**[!UICONTROL Data pass]**&#x200B;或&#x200B;**[!UICONTROL Audience Segment]**。
+   * 在&#x200B;**[!UICONTROL Attribute Mapping]**&#x200B;底下，更新每個範本圖層名稱到對應目錄欄標籤的對應。
+
+1. 按一下&#x200B;**[!UICONTROL Update Creative]**。
+
+## 從舊版UI
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. 按一下程式庫名稱。
 

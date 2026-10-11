@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # 在創意程式庫中編輯標準創意內容
 
-您可以編輯每種標準創意內容型別的部分設定。 您只能編輯相同創意型別的多個創意內容（只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方）。
+您可以編輯每種標準創意內容型別的部分設定。
 
 針對彈性的HTML5和靜態的HTML5創意內容，您可以上傳具有不同版面但屬性名稱集相同的新範本檔案。 對於簡單的HTML5創意內容，您可以上傳具有新屬性或影像的新範本，以編輯任何屬性或新增影像。 在所有情況下，範本都必須是ZIP格式的本機檔案，而且最大為2 MB。
 
 當您編輯包含在套裝中的創意時，您的變更會自動套用至包含該套裝的所有體驗，除了在體驗層級指定的任何自訂登陸頁面和追蹤URL仍適用於附加至該體驗的套裝。
 
+## 從新的UI
+
+您可以編輯單一創意。
+
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+
+1. 以下列其中一種方式開啟程式庫：
+
+   * 按一下程式庫名稱。
+
+   * 在程式庫名稱旁，按一下「**[!UICONTROL ...]** > **[!UICONTROL Open]**」。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+
+1. 編輯[影像創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)、[HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5)、[彈性HTML5創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)或[協力廠商創意設定](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)。
+
+1. 按一下&#x200B;**[!UICONTROL Update Creative]**。
+
+## 從舊版UI
+
+您只能編輯相同創意型別的多個創意內容（只有一個登陸頁面的簡單HTML5、具有多個登陸頁面的靜態HTML5、彈性的HTML5、影像或第三方）。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+
+1. 按一下&#x200B;**[!UICONTROL Switch to classic UI]**。
 
 1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
 
