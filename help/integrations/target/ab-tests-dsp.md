@@ -57,7 +57,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 * [!DNL Target]
 
-* 用於Advertising](/help/integrations/analytics/overview.md)整合的[[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
+* 用於Advertising[&#128279;](/help/integrations/analytics/overview.md)整合的[!DNL Analytics] <!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] 用於 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合
 
@@ -77,7 +77,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
 在[!DNL Flashtalking]或Google Campaign Manager 360中，手動更新每個廣告的點進URL，以包含擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics和共用放置索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
 
-* 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤](/help/integrations/analytics/macros-flashtalking.md)。 [**注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據[!DNL Flashtalking]支援檔案（位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）中的`s_kwcid`與`ef_id`追蹤引數，則不需要執行此程式。
+* 將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Flashtalking] 新增標籤[&#128279;](/help/integrations/analytics/macros-flashtalking.md)。 **注意：**&#x200B;如果您的組織與[!DNL Flashtalking]有直接的合作關係，而且您根據[!DNL Flashtalking]支援檔案（位於[https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)）中的`s_kwcid`與`ef_id`追蹤引數，則不需要執行此程式。
 
 * [將 [!DNL Analytics for Advertising] 巨集附加至 [!DNL Google Campaign Manager 360] 新增標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
@@ -103,7 +103,7 @@ Adobe Advertising和Adobe Target可讓行銷人員更輕鬆地透過付費媒體
 
    1. 確認區段資料可供使用：
 
-      1. [搜尋[索引鍵值配對](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的訊號](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)，以決定區段使用者在哪個層級分組。
+      1. [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)搜尋[索引鍵值配對](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)的訊號，以決定區段使用者在哪個層級分組。
 
          使用具有對應至您新增至Audience Manager曝光事件畫素之巨集值的[支援索引鍵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)。
 

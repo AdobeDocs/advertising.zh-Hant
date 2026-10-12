@@ -50,7 +50,7 @@ ht-degree: 0%
 
 * （使用Advertising DSP的廣告商）新增其他曝光區段，以獲得整體歷程管理見解。
 
-  Advertising DSP可透過Adobe Experience Platform或Audience Manager曝光追蹤畫素的實作，將曝光資料當作可操作的訊號傳送至Audience Manager。 將相同的資料轉送至[!DNL Analytics]可啟用進階資料分析。 如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。[
+  Advertising DSP可透過Adobe Experience Platform或Audience Manager曝光追蹤畫素的實作，將曝光資料當作可操作的訊號傳送至Audience Manager。 將相同的資料轉送至[!DNL Analytics]可啟用進階資料分析。 如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。
 
 如需[!DNL Audience Analytics]的詳細資訊，包括其必要條件和工作流程，請參閱&quot;[Audience Analytics概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;。
 
