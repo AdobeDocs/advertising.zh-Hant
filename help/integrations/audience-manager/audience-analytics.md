@@ -1,31 +1,39 @@
 ---
-title: '適用於Adobe Advertising客戶的[!DNL Adobe] [!DNL Audience Analytics] '
-description: 瞭解如何將 [!DNL Adobe] [!DNL Audience Analytics]用於廣告使用案例
+title: 適用於Adobe Advertising客戶的[!DNL Adobe] [!DNL Audience Analytics]
+description: 瞭解如何將[!DNL Adobe] [!DNL Audience Analytics]用於廣告使用案例
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-TQID: https://experienceleague.adobe.com/XFaacUNElL25w5SMS5fzWkfRwnXr2WxhsBLe3sTccg4
+TQID: 'https://experienceleague.adobe.com/XFaacUNElL25w5SMS5fzWkfRwnXr2WxhsBLe3sTccg4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
   - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '505'
 ht-degree: 0%
-
 ---
-
 # 適用於Adobe Advertising客戶的[!DNL Adobe] [!DNL Audience Analytics]
 
 [[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant)是Adobe Audience Manager與Adobe Analytics之間的整合，可讓Audience Manager客戶將區段傳送至[!DNL Analytics]，以豐富網站活動的相關深入分析。
@@ -42,7 +50,7 @@ ht-degree: 0%
 
 * （使用Advertising DSP的廣告商）新增其他曝光區段，以獲得整體歷程管理見解。
 
-  Advertising DSP可透過Adobe Experience Platform或Audience Manager曝光追蹤畫素的實作，將曝光資料當作可操作的訊號傳送至Audience Manager。 將相同的資料轉送至[!DNL Analytics]可啟用進階資料分析。 如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager[的總覽」。](/help/integrations/audience-manager/media-data-integration/overview.md)
+  Advertising DSP可透過Adobe Experience Platform或Audience Manager曝光追蹤畫素的實作，將曝光資料當作可操作的訊號傳送至Audience Manager。 將相同的資料轉送至[!DNL Analytics]可啟用進階資料分析。 如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。
 
 如需[!DNL Audience Analytics]的詳細資訊，包括其必要條件和工作流程，請參閱&quot;[Audience Analytics概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant)&quot;。
 
@@ -73,7 +81,7 @@ ht-degree: 0%
 使用協力廠商Audience Manager區段，以更全面分析使用者如何與您的網站互動。 您可以使用資訊，根據第三方區段的設定檔與媒體行銷活動網站的關鍵績效指標互動的方式，決定要為其啟用媒體的新第三方對象。
 
 >[!TIP]
-> 在整個`Audiences ID`中使用Audience Manager `Audiences Name`和[!DNL Analytics]維度，就像[!DNL Analytics]收集的任何其他維度一樣。
+> 在整個[!DNL Analytics]中使用Audience Manager `Audiences ID`和`Audiences Name`維度，就像[!DNL Analytics]收集的任何其他維度一樣。
 
 以下是您可以在[!DNL Analysis Workspace]中建立的報表範例。
 
