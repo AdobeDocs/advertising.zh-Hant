@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->另請參閱從&quot;[[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;、&quot;[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot;和&quot;[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;下載新使用者介面中的資料的相關說明。
+>另請參閱從&quot;[[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;、&quot;[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot;和&quot;[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;下載新使用者介面中的資料的相關說明。
 
 1. （可選）選取要包含在檔案中的個別列。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 按一下工具列右側的![報告下載](/help/search-social-commerce/assets/download.png "報告下載")。
 
-1. 按一下[建立] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
+1. 按一下[建立] ![ ](/help/search-social-commerce/assets/add.png " [建立] ") **[!UICONTROL Create]**，可選擇新增檔案名稱，然後按一下[建立] **[!UICONTROL Report]**&#x200B;或[建立] **[!UICONTROL Bulksheet]**。
 
 1. （選擇性）報告工作完成後，按一下![報告下載](/help/search-social-commerce/assets/download.png "報告下載")以檢視[!UICONTROL Available Reports]面板，然後下載或刪除報告：
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [（新UI）從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [（新UI）從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
