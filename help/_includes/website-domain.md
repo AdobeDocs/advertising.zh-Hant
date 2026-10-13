@@ -3,11 +3,10 @@ source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
-
 ---
 # GGL和MS搜尋促銷活動設定中的「網站網域」欄位
 
-**[!UICONTROL Website Domain]：** （僅限搜尋網路；僅適用於擴充的動態搜尋廣告）廣告網路應用來鎖定動態搜尋廣告之內容的網站根網域(例如example.com)或子網域(例如shoes.example.com)。
+**[!UICONTROL Website Domain]：** （僅限搜尋網路；僅適用於擴充的動態搜尋廣告）廣告網路應用來鎖定動態搜尋廣告之內容的網站根網域（例如example.com）或子網域（例如shoes.example.com）。
 
 **附註：**
 
