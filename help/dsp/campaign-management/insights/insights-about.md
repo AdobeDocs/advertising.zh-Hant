@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # 關於深入分析
@@ -129,6 +129,56 @@ ht-degree: 0%
   **[!UICONTROL Devices/Ad Opportunities Bid On]：**&#x200B;位置已提交出價的合格機會數目。 此階段的銳減可能表示預算或步調限制限制了競標量。
 
   * **[!UICONTROL Impression Wins]：**&#x200B;此位置贏得印象的機會數量。 如果成功率遠低於出價，則您的出價可能會低於目標存貨的現行市場價格。
+
+### [!UICONTROL Delivery Composition]索引標籤
+
+*僅適用於[!DNL Analytics for Advertising]的廣告商*
+
+[!UICONTROL Delivery Composition]索引標籤會說明DSP使用者模型如何根據使用者轉換的可能性進行競標。  這些見解會使用您的Adobe Analytics有機轉換器資料，這些資料符合程式化競標串流中的使用者（在程式化廣告商機中觀察到的使用者族群）。  使用這些見解來檢閱正在提供的版位。
+
+依預設，會顯示特定廣告商和特定位置的資料。 包括報表日期範圍、上次更新資料的日期以及下次更新報表的日期。 您可以選擇設定篩選器以顯示不同廣告商的資料，或選取不同的位置。
+
+這些見解包括：
+
+* **[!UICONTROL Placement Summary]：** （封裝中的位置）表示關聯的封裝和封裝目標。
+
+* **[!UICONTROL Propensity Breakdown]：**&#x200B;根據轉換者相符的使用者預計的轉換可能性，將符合轉換者的使用者分隔為[!UICONTROL High Propensity]、[!UICONTROL Medium Propensity]和[!UICONTROL Low Propensity]階層。 對於每個群組，資料包含[!UICONTROL Avg Bid]、[!UICONTROL Conversion Rate]、[!UICONTROL Share of Conversions]和[!UICONTROL Conversion Rate Lift] （相對於參考基準線的群組轉換率）。 此資料指出模型如何針對其預測的使用者更容易轉換發出更多競標。  **注意：**&#x200B;資料是以觀察到的效能為基礎，而非證明模型導致轉換遞增增加。
+
+* **[!UICONTROL Bid Multiplier Graph]：**&#x200B;表示20個對象值區中每一個的競標乘數，依使用者預測的轉換可能性比例縮放支出。 貯體20包含最高傾向的使用者並接收最高的乘數。 高、Medium和低是這些貯體的簡化分組，而不是固定受眾百分比。
+
+  乘數為1.0x時，不會對基礎競標進行調整。 1.0x以上的乘數會產生較高的出價，1.0x以下的乘數會產生較低的出價。
+
+### [!UICONTROL Organic Seed Profile]索引標籤
+
+*僅適用於[!DNL Analytics for Advertising]的廣告商*
+
+[!UICONTROL Organic Seed Profile]索引標籤使用對象智慧顯示與您的轉換器關聯的興趣、時間、位置和裝置。 這些見解會使用您的Adobe Analytics有機轉換器資料，這些資料符合程式化競標串流中的使用者。 由於這些見解使用現有的轉換工具資料，而非行銷活動傳遞，因此當有合適的種子資料可用時，可支援在DSP花費前進行規劃。 使用這些見解來計畫封裝或位置的啟動，或通知您的下一個行銷活動。
+
+依預設，會顯示特定廣告商和特定套件或位置的資料。 包括報表日期範圍、上次更新資料的日期以及下次更新報表的日期。 您可以選擇設定篩選器以顯示不同廣告商的資料，或選取不同的套件或位置。
+
+這些見解包括：
+
+* **[!UICONTROL Affinity Insights]：**&#x200B;顯示從轉換者的媒體消費衍生的興趣和行為特徵，依轉換率相對於整體母體的提升度排名。 **注意：**&#x200B;特徵描述的是媒體使用行為，而非經過驗證的人口統計屬性。 由於使用者可以有多個特徵，因此所有特徵百分比可能不會總計為100%。
+
+* **[!UICONTROL Temporal Insights]：**&#x200B;顯示依&#x200B;*周中的某天*&#x200B;或&#x200B;*天中的某小時*&#x200B;彙總的轉換工具活動，以便您識別此廣告商對象何時最活躍。
+
+* **[!UICONTROL Geographic Insights]：**&#x200B;顯示依&#x200B;*國家/地區*&#x200B;或&#x200B;*地區*&#x200B;彙總的轉換工具活動，以轉換率相對於整體母體的提升度加權。  **注意：**&#x200B;僅考慮與您的業務及行銷活動相關的位置。
+
+* **[!UICONTROL Device Insights]：**&#x200B;顯示依裝置型別混合彙總的轉換器活動，以轉換率相對於整體母體的提升度加權。 **注意：**&#x200B;在行銷活動內容中解譯裝置模式。 例如，CTV和非CTV行銷活動可以有不同的裝置模式。
+
+每個[!UICONTROL Organic Seed Profile] insight都包含下列資料行：
+
+**[!UICONTROL Bid-stream Users]：**&#x200B;競標資料流中屬於群組的使用者。
+
+**[!UICONTROL Converters]：**&#x200B;屬於群組的轉換者。
+
+**[!UICONTROL Precision]：**&#x200B;群組中轉換的使用者百分比。 **注意：**&#x200B;小的非零速率可以顯示的精確度舍入為0.0%。 值為0並不一定表示沒有轉換器；請檢查[!UICONTROL Converters]計數。
+
+**[!UICONTROL Recall]：**&#x200B;屬於群組的所有轉換者的百分比。 **注意：**&#x200B;群組可以有較高的轉換提升度，但只佔轉換器的小部分。
+
+**[!UICONTROL Bid-stream %]：**&#x200B;屬於群組的競標串流使用者百分比。
+
+**[!UICONTROL Conv. Rate Lift]：**&#x200B;群組相對於參考基準線的轉換率。 1.00x表示與基準線相同的速率； 1.50x表示增加50%； 0.50x表示減少50%。 **注意：**&#x200B;提升度無法保證未來的效能。
 
 ## 檢視效能深入分析
 
