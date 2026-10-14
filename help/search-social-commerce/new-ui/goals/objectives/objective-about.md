@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # （新UI）關於目標
@@ -82,7 +82,21 @@ ht-degree: 0%
 
 ## 上傳目標至廣告網路的選項
 
-您可以選擇將帳戶產品組合的目標[上傳至 [!DNL Google Ads] 和/或 [!DNL Microsoft Advertising] 作為轉換](/help/search-social-commerce/tools/objective-upload-to-networks.md)，以便將其用於行銷活動或廣告群組最佳化。 啟用選項後，Search、Social和Commerce會每天將EF ID （按一下ID）層級的加權收入資料傳遞至廣告網路。 它會忽略任何廣告網路追蹤量度。
+您可以選擇將帳戶產品組合的目標[上傳至 [!DNL Google Ads] 和/或 [!DNL Microsoft Advertising] 作為轉換](objective-upload-to-networks.md)，以便將其用於行銷活動或廣告群組最佳化。 啟用選項後，Search、Social和Commerce會每天將EF ID （按一下ID）層級的加權收入資料傳遞至廣告網路。 它會忽略任何廣告網路追蹤量度。
+
+## 可用動作
+
+* [建立目標](objective-create.md)
+
+* [編輯目標](objective-edit.md)
+
+* [將權重建議套用至目標](objective-apply-weight-recommendations.md)
+
+* [將目標組態匯出至 [!DNL Microsoft Excel] 工作表](objective-export.md)
+
+* [下載目標的效能資料](objective-download-performance-data.md)
+
+* [刪除目標](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ ht-degree: 0%
 >* [刪除目標](objective-delete.md)
 >* [將加權建議套用至目標](objective-apply-weight-recommendations.md)
 >* [目標設定](objective-settings.md)
+>* [匯出目標組態](objective-export.md)
 >* [下載目標的效能資料](objective-download-performance-data.md)

@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # 管理行銷活動
@@ -47,17 +47,19 @@ ht-degree: 0%
 
 * [編輯行銷活動設定](#campaign-edit)
 
-* [從列變更行銷活動的狀態或刪除行銷活動](#campaign-status)
+* [從列變更行銷活動的狀態](#campaign-status)
 
 * [將行銷活動指派至產品組合，並從產品組合中移除行銷活動](#campaign-portfolio)
-
-* [在[!UICONTROL Campaigns]檢視中檢視效能圖表](#campaign-performance-graph)
 
 * [為行銷活動指派競標限制，並從行銷活動中取消指派限制](#campaign-constraints)
 
 * [將目標限制指派給行銷活動，並從行銷活動取消指派目標限制](#campaign-target-constraints)
 
 * [將標籤分類指派給促銷活動，並從促銷活動中移除標籤分類](#campaign-classifications)
+
+* [在[!UICONTROL Campaigns]檢視中檢視效能圖表](#campaign-performance-graph)
+
+* [檢視行銷活動預算歷史記錄](#campaign-budget-history)
 
 * [從[!UICONTROL Campaigns]檢視管理資料檢視報告](#campaign-reports)
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 將行銷活動指派給最佳化的產品組合，可讓Search、Social和Commerce針對行銷活動中的關鍵字和廣告，最佳化出價、行銷活動預算和競標策略目標。 您可以在建立投資組合時，或透過編輯投資組合的設定，從[!UICONTROL Campaigns]檢視將行銷活動指派給投資組合。
 
-並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的最佳化支援。
+並非所有行銷活動型別和廣告網路都符合最佳化條件；請參閱您可以包含在產品組合中的[支援行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)清單。 此外，請確認每個行銷活動競標策略](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)的[最佳化支援。
 
 >[!NOTE]
 >
@@ -332,7 +334,7 @@ ht-degree: 0%
 
       * 若要使用現有的分類，請按一下分類名稱將其展開。
 
-      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
+      * 若要建立分類，請按一下欄標題中的[!UICONTROL +]。 在輸入欄位中輸入分類名稱，然後按一下[儲存] ![ ](/help/search-social-commerce/assets/save-checkmark.png " [儲存] ")，立即儲存分類。 若要使用新分類，請按一下分類名稱將其展開。
 
         名稱必須包含[ASCII字元32-126](https://www.asciitable.com/)，最大長度為27個單位元組字元。
 
@@ -377,6 +379,14 @@ ht-degree: 0%
 ### 隱藏可見的效能圖表
 
 * 在資料表的上方，按一下![圖表](/help/search-social-commerce/assets/charts.png "圖表")。
+
+## 檢視行銷活動預算歷史記錄 {#campaign-budget-history}
+
+預算歷史記錄會列出行銷活動預算的每項變更，包括變更的來源。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 將游標停留在行銷活動名稱上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Budget Change History]**。
 
 ## 從[!UICONTROL Campaigns]檢視管理資料檢視報告 {#campaign-reports}
 
@@ -446,7 +456,7 @@ ht-degree: 0%
 >* [管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)的限制指派
 >* [管理位置的限制指派](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（舊版UI）從[!UICONTROL Downloads]功能表刪除效能資料報告或大量表單檔案](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)

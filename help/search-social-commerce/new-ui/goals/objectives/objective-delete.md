@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # （新UI）刪除目標
@@ -34,7 +34,11 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 選取目標旁的核取方塊。 在資料表上方的工具列中，按一下![刪除](/help/search-social-commerce/assets/delete-new.png "刪除") **[!UICONTROL Delete]**。
+1. 執行下列任一項作業：
+
+   * 針對單一目標，將游標停留在目標名稱上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
+
+   * 針對一或多個目標，選取要刪除之每個目標旁的核取方塊。 在大量動作工具列中按一下![刪除](/help/search-social-commerce/assets/delete-new.png "刪除") **[!UICONTROL Delete]**。
 
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
 
@@ -45,3 +49,4 @@ ht-degree: 0%
 >* [編輯目標](objective-edit.md)
 >* [將加權建議套用至目標](objective-apply-weight-recommendations.md)
 >* [目標設定](objective-settings.md)
+>* [匯出目標組態](objective-export.md)

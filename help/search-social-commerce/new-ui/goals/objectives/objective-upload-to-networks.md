@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # （新UI）啟用上傳目標至廣告網路
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]** > **[!UICONTROL Objectives]**。
 
-1. 在工具列中按一下&#x200B;**[!UICONTROL Upload Objective]**。
+1. 在工具列中按一下&#x200B;**[!UICONTROL Objective Upload]**。
 
 1. 在[!UICONTROL Objective Upload Setup]對話方塊中，將&#x200B;**[!UICONTROL Enable Objective Upload]**&#x200B;切換設定為&#x200B;**[!UICONTROL On]**。
 
@@ -94,6 +94,7 @@ GGL_Lead不包含在計算/上傳中，因為它是[!DNL Google Ads]追蹤的量
 >[!MORELIKETHIS]
 >
 >* [關於目標](objective-about.md)
+>* [匯出目標組態](objective-export.md)
 >* [管理廣告商的轉換量度](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [管理 [!DNL Google Ads] 管理員帳戶的認證](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
