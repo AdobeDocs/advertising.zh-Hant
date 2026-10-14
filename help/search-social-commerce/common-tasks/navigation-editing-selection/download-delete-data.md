@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->*刪除Bulksheet檔案會將其從[!UICONTROL Downloads]清單中移除，也會從[!UICONTROL Bulksheets]檢視中移除。
->* 另請參閱從&quot;[[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;、&quot;[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot;和&quot;[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;下載新使用者介面中的資料的相關說明。
+>* 刪除Bulksheet檔案會將其從[!UICONTROL Downloads]清單中移除，也會從[!UICONTROL Bulksheets]檢視中移除。
+>* 另請參閱從&quot;[[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;、&quot;[[!UICONTROL Campaigns]檢視](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot;和&quot;[[!UICONTROL Ad Groups]檢視](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;下載新使用者介面中的資料的相關說明。
 
 1. 在主功能表中，按一下「[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]」，然後開啟任何實體檢視。
 
@@ -39,5 +39,5 @@ ht-degree: 0%
 >
 >* [&#x200B; （舊版UI）從行銷活動管理檢視下載資料](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [（新UI）從[!UICONTROL Portfolios]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [（新UI）從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [（新UI）從[!UICONTROL Ad Groups]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

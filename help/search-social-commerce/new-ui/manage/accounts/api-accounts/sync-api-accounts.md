@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 這項工作可能需要一小時或更久的時間才能完成。
 
-## 從[!UICONTROL Campaigns]檢視同步促銷活動。
+## 從[!UICONTROL Campaigns]檢視同步促銷活動
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**。
 

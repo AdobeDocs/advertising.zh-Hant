@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '177'
 ht-degree: 0%
 ---
 # （新UI）關於[!UICONTROL Campaigns]檢視
@@ -44,17 +44,24 @@ ht-degree: 0%
 * [View a performance graph across all campaigns in the view](campaign-view-performance-graph.md)
 -->
 
-* 從列重新命名行銷活動。
 
-* 從列中刪除或變更行銷活動的狀態。
+<!--
 
-* [將行銷活動指派給現有或新的產品組合](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)，以及[從產品組合取消指派行銷活動](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+Links to unused (separate) pages:
 
-* [為行銷活動指派限制，並從行銷活動取消指派限制](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+* Rename a campaign from within the row.
 
-* [指派標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)給行銷活動
+* Delete or change the status of a campaign from within the row.
 
-* [從[!UICONTROL Campaigns]檢視管理資料檢視報告](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+
+* [Assign constraints to campaigns, and unassign constraints from campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
+
+* [Assign label classifications](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) to campaigns
+
+* [Manage data view reports from the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
+
+-->
 
 >[!MORELIKETHIS]
 >

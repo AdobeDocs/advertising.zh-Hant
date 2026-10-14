@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # 管理行銷活動
@@ -60,6 +60,8 @@ ht-degree: 0%
 * [將標籤分類指派給促銷活動，並從促銷活動中移除標籤分類](#campaign-classifications)
 
 * [從[!UICONTROL Campaigns]檢視管理資料檢視報告](#campaign-reports)
+
+* [將行銷活動資料與廣告網路同步](#campaign-sync)
 
 ## 建立行銷活動 {#campaign-create}
 
@@ -425,6 +427,18 @@ ht-degree: 0%
 1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
 
 1. 在[!UICONTROL Grid Reports]對話方塊的[!UICONTROL Recently Generated]清單中，按一下檔案名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+
+## 將行銷活動資料與廣告網路同步 {#campaign-sync}
+
+您也可以[同步帳戶](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)內所有行銷活動的資料。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**。
+
+1. 選取要同步之每個行銷活動名稱旁的核取方塊。
+
+1. 在大量動作工具列中，按一下&#x200B;**[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**。
+
+這項工作可能需要一小時或更久的時間才能完成。
 
 >[!MORELIKETHIS]
 >
