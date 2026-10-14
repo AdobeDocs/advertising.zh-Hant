@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # （新UI）管理通知
@@ -119,7 +119,6 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## 可用動作
 
 * [檢視您的通知](#notification-view)
@@ -218,7 +217,11 @@ In Campaign Management:
 
 1. [開啟通知面板或通知中心](#notification-view)。
 
-1. 將游標停留在警示名稱上，然後按一下![標籤為已讀或未讀](/help/search-social-commerce/assets/notifications-read-unread.png "標籤為已讀或未讀")。
+1. 執行下列任一項作業：
+
+   * 針對單一通知，將游標停留在警示名稱上，然後按一下![標籤為已讀取或未讀取](/help/search-social-commerce/assets/notifications-read-unread.png "標籤為已讀取或未讀取")。
+
+   * 若要將所有通知標示為已讀取，請按一下&#x200B;**[!UICONTROL Mark all as read]**。
 
 ## 刪除通知 {#notification-delete}
 

@@ -1,5 +1,5 @@
 ---
-title: （新UI）檢視檢視產品組合績效詳細資料
+title: （新UI）檢視產品組合績效詳細資料
 description: 瞭解如何檢視產品組合績效詳細資料，包括產品組合層級和每個指派行銷活動的實際和預測量度。
 feature: Search Portfolios, Search Optimization
 hide: true
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # （新UI）檢視產品組合績效詳細資料
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 使用中投資組合的模型準確性資料，顯示模型與預測的偏差程度。 此報表顯示整體每日或滾動七天成本準確度、點按準確度及目標值準確度。
 
-  您可以按一下日期（預設）或按交易日期來檢視資料。   您也可以趨勢圖（預設）或表格形式來檢視資料。
+  您可以按一下日期（預設）或按交易日期來檢視資料。 您也可以趨勢圖（預設）或表格形式來檢視資料。
 
 * 目標支出與作用中投資組合的實際支出。 您也可以選擇納入投資組合的行銷活動預算總計。
 
@@ -48,11 +48,23 @@ ht-degree: 0%
 
   您可以選擇開啟投資組合設定進行編輯。
 
+* 產品組合中的促銷活動、廣告群組和關鍵字清單。 對於個別關鍵字，您可以檢視競標單位詳細資訊，包括預測、歷史資訊和階層資訊。
+
+  [!UICONTROL Bid Unit Details]檢視包含所選競標單位的下列預測、歷史資訊和階層資訊：
+
+  * [!UICONTROL Forecast]索引標籤：競標單位在不同競標價格的目前預計點按數、成本、每次點按成本、位置及收入。 會顯示所有裝置和每個裝置型別（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **注意：**&#x200B;當可用的裝置特定資料不足以建立模型並設定該裝置型別的調整時，沒有可用於該裝置型別的預測資料。 **注意：**&#x200B;若要檢視在特定日期範圍內收到點按之投資組合中每個競標單位的成本準確度或收入準確度，請分別檢視投資組合的成本準確度詳細資料或收入準確度詳細資料。
+
+  * [!UICONTROL History]索引標籤：過去36天中的所有競標，包括每個競標的下列資料：日期和時間、曝光數、點按數、總成本、平均CPC、平均位置以及按點按日期顯示的加權收入。 會顯示所有裝置和每種裝置型別（行動裝置、電腦和平板電腦）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Detail]標籤：相符型別（若適用）和父廣告群組、行銷活動、廣告網路帳戶及競標單位所屬的投資組合。
+
 ## 開啟投資組合的效能詳細資料
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 按一下投資組合名稱。
+1. 將游標停留在投資組合名稱上，然後按一下（/help/search-social-commerce/assets/portfolio-overview.png「Portfolio概觀」）。
 
 1. （選擇性）從&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;功能表，變更每列資料包含的時間單位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
 
@@ -114,13 +126,17 @@ ht-degree: 0%
 
 * 若要檢視產品組合內行銷活動中的所有廣告群組，請按一下「**[!UICONTROL Campaigns]**」標籤，然後按一下行銷活動名稱。
 
-## 列出投資組合中的關鍵字
+## 列出和檢視投資組合中關鍵字的相關詳細資訊
 
-每個關鍵字的詳細資訊包括競標單位ID、比對型別、實際和預測成本、點按次數和目標值，以及成本、點按次數和目標值差異。
+每個關鍵字的詳細資訊包括競標單位ID、比對型別、實際和預測成本、點按次數和目標值，以及成本、點按次數和目標值差異。 您可以檢視個別關鍵字的競標單位詳細資訊。
 
-* 若要檢視投資組合中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤。
+1. 列出關鍵字：
 
-* 若要檢視產品組合內廣告群組中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Ad Groups]**&#x200B;標籤，然後按一下廣告群組名稱。
+   * 若要檢視投資組合中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤。
+
+   * 若要檢視產品組合內廣告群組中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Ad Groups]**&#x200B;標籤，然後按一下廣告群組名稱。
+
+1. （選擇性）若要檢視特定競標單位的詳細資料，請按一下&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;欄中的值。 如需詳細資訊，請按一下[!UICONTROL Bid Unit Details]中的任何標籤。
 
 ## 檢視和編輯投資組合設定
 

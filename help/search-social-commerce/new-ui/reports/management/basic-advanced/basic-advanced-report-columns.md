@@ -12,9 +12,9 @@ feature_v2:
     internal-label: Search Basic Reports
   - id: c51771d4-46e9-5151-913c-59d4e047a4f1
     internal-label: Search Advanced Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '3993'
 ht-degree: 0%
 ---
 # 基本和進階報表的報表欄
@@ -57,7 +57,6 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | 資產型別： *[!UICONTROL Image]*、*[!UICONTROL Text]* （例如標題或說明）或&#x200B;*[!UICONTROL Video]*。 |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL Asset Report])資產的演演算法產生效能標籤： *[!UICONTROL Best]*、*[!UICONTROL Good]*、*[!UICONTROL Low]*&#x200B;或&#x200B;*[!UICONTROL Learning]*。 |
 | [!UICONTROL Average CPC] | 每次點按的平均成本。 |
-| [!UICONTROL Avg Position] | 指定日期範圍內的廣告平均位置。<br><br>對於[!DNL Google Ads]和[!DNL LY Ads]行銷活動，此資料僅在2019年9月之前可用。 對於[!DNL Microsoft Advertising]，此資料僅在2021年1月22日之前可用。 |
 | [!UICONTROL Base URL] | 關鍵字的基本URL，包括為促銷活動或帳戶設定的任何附加引數。 其中不包含任何搜尋、社交和Commerce重新導向與追蹤程式碼。 |
 | [!UICONTROL Bid Strategy] | （大多數廣告網路）對於行銷活動或行銷活動元件，這是行銷活動的競標策略。 對於連結至經理帳戶的廣告網路帳戶，這是跨帳戶競標策略。 可用的值會依廣告網路而異。 |
 | [!UICONTROL Business Name] | （[!DNL Microsoft Advertising]個回應式廣告）企業名稱。 |
@@ -103,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Currency] | 適用的貨幣型別（例如「USD」或「GBP」）。<br><br><b>注意：</b>如果報表包含不同貨幣的帳戶資料，則任何「[!UICONTROL Total]」貨幣值只是欄中所有數字的總和，無論貨幣為何。 |
 | [!UICONTROL Current Bid] | 目標的目前出價。 |
 | [!UICONTROL Current First Page Bid] | （僅限[!DNL Google Ads]個行銷活動）當[!DNL Google]搜尋查詢符合關鍵字時，目前要放在搜尋結果第一頁上的廣告所需的預估每次點按成本(CPC)競標。<br><br>對於單一關鍵字和相符型別組合，此值是該組合目前所需的第一個頁面競標。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是目前所有執行個體中所需的最低第一頁競標。 |
-| [!UICONTROL Current Quality Score] | （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動）廣告網路所指定的關鍵字或競標單位的目前品質分數。 其範圍從1 （低）到10 （完美）。 對於單一關鍵字和相符型別組合，此值是該組合的目前分數。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是所有執行個體中目前的最大分數。<br><br>廣告網路會使用品質分數來決定出價與廣告位置。 它是根據許多因素計算的，包括關鍵字與其相關廣告、使用者的搜尋查詢及登入頁面品質的相關性。 對於[!DNL Google Ads]中的關鍵字，也會考量關鍵字的點進率，對於[!DNL Microsoft Advertising]中的關鍵字，也會考量登入頁面所提供的使用者體驗。 |
+| [!UICONTROL Current Quality Score] | （僅限[!DNL Google Ads]和[!DNL Microsoft Advertising]行銷活動）廣告網路所指定的關鍵字或競標單位的目前品質分數。 其範圍從1 （低）到10 （完美）。 對於單一關鍵字和相符型別組合，此值是該組合的目前分數。 當在多個行銷活動中使用相同的關鍵字和相符型別組合時，此值是所有執行個體中目前的最大分數。<br><br>廣告網路會使用品質分數來決定競標價格和（適用時）廣告位置。 它是根據許多因素計算的，包括關鍵字與其相關廣告、使用者的搜尋查詢及登入頁面品質的相關性。 對於[!DNL Google Ads]中的關鍵字，也會考量關鍵字的點進率，對於[!DNL Microsoft Advertising]中的關鍵字，也會考量登入頁面所提供的使用者體驗。 |
 | [!UICONTROL Custom Bid Level] | （只針對顯示網路的Google行銷活動）投出競價的層級為：<i>[!UICONTROL Ad Group]</i>、<i>[!UICONTROL Age]</i>、<i>[!UICONTROL Gender]</i>、<i>[!UICONTROL Interest and List]</i>、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i>、<i>[!UICONTROL Vertical]</i>、<i>[!UICONTROL None]</i>或<i>[!UICONTROL Unknown]</i>。 |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 廣告內文。 不同的創意型別有不同數量的必要和選用說明行。 若要在[!DNL Microsoft Advertising]個回應式廣告或多媒體廣告中檢視[!UICONTROL Description3]和[!UICONTROL Description4]欄，請在報表設定中加入&quot;[!UICONTROL Descriptions]&quot;欄。 |
 | [!UICONTROL Descriptions] | （[!DNL Microsoft Advertising]個回應式及多媒體廣告）為每個廣告的說明列（&quot;[!UICONTROL Description1]&quot;到&quot;[!UICONTROL Description4]&quot;）新增一欄。 包含此欄時，您不需要包含其他[!UICONTROL Description]欄。 |

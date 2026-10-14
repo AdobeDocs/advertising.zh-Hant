@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # （新UI）管理自訂警報
 
-建立警報範本，以識別任何投資組合、行銷活動或廣告群組在指定期間符合特定條件（例如績效量度）的情況，然後產生警報。 警示功能適用於單一廣告商。 警示包含相關預設檢視中的所有欄。 例如，行銷活動層級警示包含預設[!UICONTROL Campaigns]檢視中的所有欄。
+建立警報範本，以識別任何投資組合、帳戶、行銷活動、廣告群組、廣告、關鍵字或產品群組在指定期間符合特定條件（例如績效量度）的情況，然後產生警報。 警示功能適用於單一廣告商。 警示包含相關預設檢視中的所有欄。 例如，行銷活動層級警示包含預設[!UICONTROL Campaigns]檢視中的所有欄。
 
 您可以從[!UICONTROL Custom Alerts]面板的[!UICONTROL Alert Templates]標籤或任何頁面頂端建立警報範本。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    * 在任何頁面的右上方，按一下![自訂警報](/help/search-social-commerce/assets/custom-alert.png "自訂警報") > **[!UICONTROL Create Custom Alert]**。
 
-   在任何頁面的右上方，按一下![自訂警報](/help/search-social-commerce/assets/custom-alert.png "自訂警報") > **[!UICONTROL View Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]索引標籤。 按一下&#x200B;**[!UICONTROL Create Alert]**。
+   * 在任何頁面的右上方，按一下![自訂警報](/help/search-social-commerce/assets/custom-alert.png "自訂警報") > **[!UICONTROL View Custom Alerts]**，這會開啟至[!UICONTROL Alert Templates]索引標籤。 按一下&#x200B;**[!UICONTROL Create Alert]**。
 
 1. 在&#x200B;**[!UICONTROL Entity]**、**[!UICONTROL Date Range]**、**[!UICONTROL Filters]**&#x200B;和&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;索引標籤上指定[警示設定](#alert-template-settings)。
 

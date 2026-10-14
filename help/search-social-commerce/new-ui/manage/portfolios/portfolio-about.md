@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # （新UI）關於投資組合
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。 您也可以開啟產品組合詳細資訊，包括產品組合績效和準確性，以及產品組合中每個行銷活動、廣告群組和關鍵字的績效資料。
 
-您可以直接在投資組合列中編輯某些設定，包括投資組合狀態。
+您可以直接在投資組合列中編輯某些設定，包括投資組合狀態。 當產品組合或其關聯的行銷活動和子行銷活動實體設定了任何影響支出的限制（包括網路、行銷活動預算、目標、CPC限制或競標單位限制）時，請按一下[!UICONTROL Constraints]欄中的[!UICONTROL Yes]檢視所有限制的清單，包括限制層級和型別。
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 可用動作

@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 將[!DNL AdFixus]區段匯入至DSP後，您就可以將位置鎖定在[!DNL AdFixus] ID和來自[!DNL AdFixus]的特定第一方區段。 您也可以將[!DNL AdFixus]區段新增至可重複使用的對象。 任何區段的詳細資料都包含適用的[!DNL AdFixus] ID計數。
 
-您可以在自訂報表中檢視具有[!DNL AdFixus] ID之使用者的曝光數、點選數、頻率和其他量度。 具有[!DNL Analytics for Advertising]的廣告商也可以從Adobe Analytics檢視[!DNL AdFixus] ID的瀏覽資料，以及來自DSP中Adobe Analytics的資料。
+您可以在自訂報表中檢視具有[!DNL AdFixus] ID之使用者的曝光數、點選數、頻率和其他量度。 具有[!DNL Analytics for Advertising]的廣告商也可以在DSP中看到Adobe Analytics中[!DNL AdFixus] ID的瀏覽資料，以及來自Adobe Analytics的資料。
 
 1. 使用[!DNL AdFixus]將您組織的第一方資料轉換為具有[!DNL AdFixus] ID的區段。
 

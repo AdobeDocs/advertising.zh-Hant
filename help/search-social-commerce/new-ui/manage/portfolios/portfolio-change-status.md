@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # （新UI）變更投資組合的狀態
@@ -26,7 +26,11 @@ ht-degree: 0%
 
 投資組合狀態的所有變更都會記錄到投資組合的變更歷史記錄中。
 
-## 最佳化、啟用或停用投資組合
+>[!NOTE]
+>
+>您可以使用[投資組合大量表單](portfolio-bulksheets.md)來變更多個投資組合的狀態。
+
+## 從[!UICONTROL Portfolios]檢視最佳化、啟用或停用投資組合
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
@@ -49,7 +53,7 @@ ht-degree: 0%
      >* 搜尋、Social和Commerce開始最佳化產品組合後，請讓它管理所有未來的行銷活動預算和（適用時）競標變更（適用時）。 搜尋、社交和Commerce將會覆寫您在廣告網路內所做的任何變更。
      >* 您可以建立並張貼行銷活動大量表單，暫時對產品組合中任何最佳化的CPC行銷活動設定手動競標。 因公佈資料而導致的任何競標變更都適用於一天。 之後，搜尋、Social和Commerce會根據自身的最佳化策略繼續設定競標。
 
-## 刪除非作用中的投資組合
+## 從[!UICONTROL Portfolios]檢視中刪除非作用中的投資組合
 
 您只能刪除非作用中的投資組合。 如果投資組合已最佳化或啟用，您必須先將其狀態變更為非啟用，才能選擇刪除投資組合。
 

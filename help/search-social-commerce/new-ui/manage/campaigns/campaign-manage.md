@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # 管理行銷活動
@@ -47,17 +47,19 @@ ht-degree: 0%
 
 * [編輯行銷活動設定](#campaign-edit)
 
-* [從列變更行銷活動的狀態或刪除行銷活動](#campaign-status)
+* [從列變更行銷活動的狀態](#campaign-status)
 
 * [將行銷活動指派至產品組合，並從產品組合中移除行銷活動](#campaign-portfolio)
-
-* [在[!UICONTROL Campaigns]檢視中檢視效能圖表](#campaign-performance-graph)
 
 * [為行銷活動指派競標限制，並從行銷活動中取消指派限制](#campaign-constraints)
 
 * [將目標限制指派給行銷活動，並從行銷活動取消指派目標限制](#campaign-target-constraints)
 
 * [將標籤分類指派給促銷活動，並從促銷活動中移除標籤分類](#campaign-classifications)
+
+* [在[!UICONTROL Campaigns]檢視中檢視效能圖表](#campaign-performance-graph)
+
+* [檢視行銷活動預算歷史記錄](#campaign-budget-history)
 
 * [從[!UICONTROL Campaigns]檢視管理資料檢視報告](#campaign-reports)
 
@@ -377,6 +379,14 @@ ht-degree: 0%
 ### 隱藏可見的效能圖表
 
 * 在資料表的上方，按一下![圖表](/help/search-social-commerce/assets/charts.png "圖表")。
+
+## 檢視行銷活動預算歷史記錄 {#campaign-budget-history}
+
+預算歷史記錄會列出行銷活動預算的每項變更，包括變更的來源。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Campaigns]**。
+
+1. 將游標停留在行銷活動名稱上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Budget Change History]**。
 
 ## 從[!UICONTROL Campaigns]檢視管理資料檢視報告 {#campaign-reports}
 
