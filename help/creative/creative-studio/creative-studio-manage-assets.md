@@ -3,20 +3,19 @@ title: 在Creative Studio中管理資產
 description: 瞭解如何在Adobe Advertising Creative的Creative Studio Assets標籤中上傳、瀏覽及管理資產。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # 管理[!UICONTROL Creative Studio]中的資產
-
-*Beta功能*
 
 上傳要在廣告範本中參照的影像、影片、音訊和字型資產，並在廣告產生工作階段中附加至AI代理程式聊天訊息。
 

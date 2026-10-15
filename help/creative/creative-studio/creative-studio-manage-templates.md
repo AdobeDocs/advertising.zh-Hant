@@ -3,20 +3,19 @@ title: 在Creative Studio中管理廣告範本
 description: 瞭解如何在Adobe Advertising Creative的「Creative Studio範本」索引標籤中建立、匯入、整理及管理廣告範本。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理廣告範本
-
-*Beta功能*
 
 建立、匯入和管理顯示和視訊廣告範本，以用於廣告產生工作階段。
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 建立：
 
-* [匯入HTML5廣告範本](#templates-import)
-
 * [手動建立廣告範本](#template-create)
+
+* [匯入HTML5廣告範本](#templates-import)
 
 對現有範本的動作：
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## 手動建立廣告範本 {#template-create}
+
+使用範本編輯器建立空白顯示區或視訊範本。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative Studio].**
+
+1. 按一下「**[!UICONTROL Templates]**」標籤。
+
+1. 在&#x200B;**[!UICONTROL Create New Ad Template]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Create]**，然後選取&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**。
+
+1. （顯示廣告）選取廣告範本大小，然後按一下&#x200B;**[!UICONTROL Continue]**。
+
+1. 使用範本編輯器](#template-controls)中的[控制項來設定範本設定。
+
+1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+1. 儲存範本：
+
+   1. 執行下列任一項作業：
+
+      * 按一下&#x200B;**[!UICONTROL Save]**。
+
+      * 若要將範本儲存為草稿，請按一下「**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**」。
+
+   1. 輸入&#x200B;**[!UICONTROL Template name]**、選取&#x200B;**[!UICONTROL Advertiser]**、選擇性地選取現有標籤或新增標籤至範本，然後按一下&#x200B;**[!UICONTROL Save]**。
+
 ## 匯入HTML5廣告範本 {#templates-import}
 
 上傳一或多個預先建立的HTML5範本（這些範本會封裝為ZIP檔案）。 匯入時會驗證範本；如果HTML超過200,000個字元、CSS超過60,000個字元、範本包含超過5,000個DOM元素，或範本包含不支援的指令碼標籤，則匯入會失敗。
@@ -129,34 +156,6 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 >
 >如果匯入失敗，請簡化範本或聯絡您的Adobe客戶團隊。
 
-## 手動建立廣告範本 {#template-create}
-
-使用範本編輯器建立空白顯示區或視訊範本。
-
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative Studio].**
-
-1. 按一下「**[!UICONTROL Templates]**」標籤。
-
-1. 在&#x200B;**[!UICONTROL Create New Ad Template]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Create]**，然後選取&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**。
-
-1. （顯示廣告）選取廣告範本大小，然後按一下&#x200B;**[!UICONTROL Continue]**。
-
-1. 使用範本編輯器[&#128279;](#template-controls)中的控制項來設定範本設定。
-
-1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
-
-   檔案會依照瀏覽器的正常程式下載。
-
-1. 儲存範本：
-
-   1. 執行下列任一項作業：
-
-      * 按一下&#x200B;**[!UICONTROL Save]**。
-
-      * 若要將範本儲存為草稿，請按一下「**[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**」。
-
-   1. 輸入&#x200B;**[!UICONTROL Template name]**、選取&#x200B;**[!UICONTROL Advertiser]**、選擇性地選取現有標籤或新增標籤至範本，然後按一下&#x200B;**[!UICONTROL Save]**。
-
 ## 編輯廣告範本 {#template-edit}
 
 *僅顯示廣告範本。*
@@ -171,7 +170,7 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 1. 將游標停留在範本卡片或表格列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在範本編輯器[&#128279;](#template-controls)中使用控制項來編輯範本配置或元素。
+1. 在範本編輯器](#template-controls)中使用[控制項來編輯範本配置或元素。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -434,7 +433,7 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 
    [!UICONTROL Ad Variations Generator]會開啟，並預先載入範本。
 
-1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告[&#128279;](creative-studio-manage-standard-ads.md)」。
+1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)」。[
 
 ## 新增或移除廣告範本的標籤 {#template-labels}
 
