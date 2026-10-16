@@ -4,20 +4,19 @@ description: 瞭解如何在Creative Studio創意內容庫中建立、編輯、�
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1182'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理標準廣告
-
-*Beta功能*
 
 [!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤是從範本產生的標準顯示廣告資料庫。 從這裡，您可以使用[!UICONTROL Ad Variations Generator]建立廣告、編輯已儲存的廣告、從現有廣告產生新的變化、檢視變更記錄、複製、下載和刪除。
 

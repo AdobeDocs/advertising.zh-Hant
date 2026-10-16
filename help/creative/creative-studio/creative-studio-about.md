@@ -3,20 +3,19 @@ title: 關於Advertising Creative中的Creative Studio
 description: 瞭解如何使用Creative Studio在Adobe Advertising Creative中建置AI輔助廣告內容。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '812'
 ht-degree: 0%
-
 ---
-
 # 關於[!DNL Advertising Creative]中的[!UICONTROL Creative Studio]
-
-*Beta功能*
 
 [!UICONTROL Creative Studio]是AI輔助環境，您可以在單一工作階段中跨多種格式建置、調整大小和調整顯示廣告。 您透過自然語言聊天介面與AI互動，以產生和修改廣告內容 — 內容欄位不需要手動設計工作。
 

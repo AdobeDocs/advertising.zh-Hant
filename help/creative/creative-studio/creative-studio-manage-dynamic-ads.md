@@ -3,20 +3,19 @@ title: 在Creative Studio中管理動態創意內容
 description: 瞭解如何在Adobe Advertising Creative Studio中建置、編輯、複製和刪除目錄驅動的動態創意內容。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL Creative Studio]中管理動態創意內容
-
-*Beta功能*
 
 [!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤會依程式庫列出您的動態創意。 您可以在此處建立新的目錄驅動動態創意、編輯現有創意的詳細資訊和屬性對應、檢視變更記錄、複製創意以及刪除創意。
 
@@ -96,26 +95,26 @@ ht-degree: 0%
 
       * 若要編輯廣告組合：
 
-         1. 將游標停留在目錄列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
+        1. 將游標停留在目錄列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-         1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;對話方塊中，更新欄位值。
+        1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;對話方塊中，更新欄位值。
 
-         1. 按一下&#x200B;**[!UICONTROL Save]**。
+        1. 按一下&#x200B;**[!UICONTROL Save]**。
 
         畫布會重新整理以反映更新的值。
 
       * 使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板來分析和篩選目錄組合。 在&#x200B;**[!UICONTROL Ask anything]**&#x200B;欄位中輸入您的要求，或按一下其中一個建議的提示：
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         AI代理程式可以：
 
-         * 篩選畫布以顯示符合特定對象區段、地理、語言、類別或其他目錄欄位的廣告。
-         * 檢查品質問題，例如，字元限制溢位、內容溢位或出血、影像連結損毀，以及免責宣告可見度。
-         * 比較A/B測試分析的廣告組合
-         * 將廣告組織成群組，以便並排檢閱。
+        * 篩選畫布以顯示符合特定對象區段、地理、語言、類別或其他目錄欄位的廣告。
+        * 檢查品質問題，例如，字元限制溢位、內容溢位或出血、影像連結損毀，以及免責宣告可見度。
+        * 比較A/B測試分析的廣告組合
+        * 將廣告組織成群組，以便並排檢閱。
 
         AI代理程式無法修改目錄來源的內容。 若要變更廣告內容，請更新來源目錄。
 
@@ -139,8 +138,8 @@ ht-degree: 0%
    * **[!UICONTROL Dynamic creative name]：**&#x200B;創意內容的顯示名稱。
    * **[!UICONTROL Number of cards]：**&#x200B;每個廣告組合中包含的目錄選件數目(1-50)。
    * （選擇性）在&#x200B;**[!UICONTROL Catalogs]**&#x200B;下，更新目錄選擇：
-      * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;篩選可用的目錄。 若要選擇下載範本檔案，請按一下&#x200B;**[!UICONTROL Download feed template]**。
-      * 從清單中搜尋並選取目錄，或透過將新目錄檔案拖曳至上傳區域或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;以上傳新目錄檔案（支援的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一個檔案）。 上傳的目錄在晶片清單中標示為&#x200B;**（已上傳）**。
+     * 使用&#x200B;**[!UICONTROL Catalog template]**&#x200B;篩選可用的目錄。 若要選擇下載範本檔案，請按一下&#x200B;**[!UICONTROL Download feed template]**。
+     * 從清單中搜尋並選取目錄，或透過將新目錄檔案拖曳至上傳區域或按一下&#x200B;**[!UICONTROL Browse Files]**&#x200B;以上傳新目錄檔案（支援的格式：JPG、PNG、JPEG、XLS、XLSX、CSV、TSV、ZIP、MP4；最大25 MB；一次一個檔案）。 上傳的目錄在晶片清單中標示為&#x200B;**（已上傳）**。
 
      所有目錄都必須屬於相同的目錄範本系列。
 
