@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1923'
 ht-degree: 0%
 ---
 # [!DNL Creative] 2.0的新增功能
@@ -35,6 +35,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月15日 | [!DNL Creative Studio] | （Beta功能）您現在可以在[!UICONTROL Creative Studio]中產生Use AI，以將現有的靜態顯示廣告影像轉換為可編輯的顯示廣告範本。 | 請參閱[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)中管理廣告範本。 |
 | 2026年7月1日 | [!DNL Creative Studio], [!DNL Brands] | 下列為Beta版功能：<ul><li>**[!UICONTROL Creative Studio]**&#x200B;使用創作AI來協助在單一工作階段中跨多種格式建置、調整大小和調整顯示廣告。 使用自然語言聊天介面來產生和修改廣告內容 — 內容欄位不需要手動設計工作。</li><li>建立並管理可反映您品牌視覺化與訊息識別的&#x200B;**[!UICONTROL brand profiles]** — 包括您的標誌、調色盤、語音准則、影像標準及特定頻道的複製准則。 當您在[!UICONTROL Creative Studio]中建立廣告時，AI代理程式會使用品牌設定檔資訊，以基礎特定品牌中的內容產生。</li></ul> | 請參閱&quot;[關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot;和&quot;[管理品牌設定檔](/help/creative/brands/brand-manage.md)&quot;。 |
 | 2026年6月3日 | [!DNL Adobe Analytics for Advertising] | 具有Advertising Creative和[!DNL Adobe Analytics for Advertising]的廣告商現在可以在Adobe Analytics中檢視變體和分支層級資料。 無論使用哪種DSP從您的[!DNL Creative]體驗中執行廣告，都會顯示資料。 如果您從Advertising DSP刊登版位執行廣告，則也會看到行銷活動和刊登版位層級的資料，以及與成本相關的量度。<br><br>不需要其他設定。 | 檢視[!DNL Analytics]中顯示的Advertising Creative [流量量度](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/amo-metrics)和[分類](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-id#classifications)。 |
 | 2025年2月25日 | [!DNL experiences]的Creative最佳化和排程 | 改善專案包括：<ul><li>對於決策樹目標定位的體驗，您現在可以在相同畫面中的個別索引標籤上指派創意套件組合併設定創意最佳化和排程。</li><li>廣告排程現在包含開始時間和結束時間。 預設情況下，排程從凌晨12:00開始，到晚上11:59結束。</li><li>[!UICONTROL Weighted]旋轉選項包含按鈕（![套用相等權重](/help/creative/assets/apply-equal-weight.png "套用相等權重")），以將相等權重套用至所有指定的組合。</li></ul> | 檢視具有鎖定目標[&#128279;](/help/creative/experiences/experience-optimization-scheduling-targeting.md)的[體驗與沒有鎖定目標](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)的體驗的說明。 |
