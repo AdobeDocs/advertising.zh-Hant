@@ -229,7 +229,7 @@ Add when prompt-based generation is available:
 
 1. （顯示廣告）選取廣告範本大小，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用範本編輯器](#template-controls)中的[控制項來設定範本設定。
+1. 使用範本編輯器[&#128279;](#template-controls)中的控制項來設定範本設定。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -291,7 +291,7 @@ Add when prompt-based generation is available:
 
 1. 將游標停留在範本卡片或表格列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在範本編輯器](#template-controls)中使用[控制項來編輯範本配置或元素。
+1. 在範本編輯器[&#128279;](#template-controls)中使用控制項來編輯範本配置或元素。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -323,7 +323,7 @@ I don't see this anywhere:
 
    [!UICONTROL Ad Variations Generator]會開啟，並預先載入範本。
 
-1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)」。[
+1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告[&#128279;](creative-studio-manage-standard-ads.md)」。
 
 ## 新增或移除廣告範本的標籤 {#template-labels}
 
@@ -383,7 +383,7 @@ I don't see this anywhere:
 
 1. 執行下列任一項作業：
 
-   * 若要將範本新增為我的最愛，請按一下[我的最愛] ](/help/creative/assets/favorite-null.png " [我的最愛] ")。![
+   * 若要將範本新增為我的最愛，請按一下[我的最愛] ![&#128279;](/help/creative/assets/favorite-null.png " [我的最愛] ")。
 
    * 若要移除範本作為我的最愛，請按一下[我的最愛] ![](/help/creative/assets/favorite.png "[我的最愛] ")。
 
