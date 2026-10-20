@@ -45,7 +45,7 @@ Adobe CX Enterprise代表客戶擔任資料處理者的角色，依指示接收�
 
 本檔案說明[!DNL Advertising Search, Social, & Commerce]、Advertising Creative、Advertising DSP (Demand Side Platform)和[!DNL Advertising DCO]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支援資料主體的GDPR資料存取和刪除許可權。
 
-如需有關GDPR對您業務之意義的詳細資訊，請參閱[GDPR與您的業務](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+如需有關GDPR對您業務之意義的詳細資訊，請參閱[GDPR與您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
 ## Adobe Advertising支援的資料請求型別
 
@@ -71,7 +71,7 @@ Adobe Experience Platform讓企業能夠完成下列工作：
 
    >[!NOTE]
    >
-   >刪除個人資料與選擇退出不同，後者會停止以對象區段鎖定一般使用者。 但是，當資料主體要求從[!DNL Creative]、[!DNL DSP]或[!DNL DCO]刪除個人資料時，資料庫也會傳送要求給Adobe Advertising，以選擇退出資料主體進行區段鎖定目標。 對於具有[!DNL Search, Social, & Commerce]的廣告商，建議您提供資料主體一個[https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)的連結，說明如何選擇退出對象區段鎖定目標。
+   >刪除個人資料與選擇退出不同，後者會停止以對象區段鎖定一般使用者。 但是，當資料主體要求從[!DNL Creative]、[!DNL DSP]或[!DNL DCO]刪除個人資料時，資料庫也會傳送要求給Adobe Advertising，以選擇退出資料主體進行區段鎖定目標。 對於具有[!DNL Search, Social, & Commerce]的廣告商，建議您提供資料主體一個[https://www.adobe.com/tw/privacy/opt-out.html](https://www.adobe.com/tw/privacy/opt-out.html)的連結，說明如何選擇退出對象區段鎖定目標。
 
 1. 識別您的CX Enterprise組織ID，並確定其已連結至您的Adobe Advertising帳戶。
 

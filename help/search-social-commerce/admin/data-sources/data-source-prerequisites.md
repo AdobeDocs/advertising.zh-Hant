@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 先決條件1：在所有適用廣告帳戶的登陸頁面URL中實作搜尋、社交和Commerce權杖（「ef_id」查詢字串引數）
 
-在相關行銷活動的每個付費搜尋點選上，必須產生唯一的`ef_id`，並以查詢字串形式附加至登陸頁面URL，例如`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`，其中`&ef_id=abcde:123456789:s`為附加符號、`ef_id`鍵和`ef_id`值。 若要包含ef_id，相關廣告網路帳戶和行銷活動必須具有[!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot;和[!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;。
+在相關行銷活動的每個付費搜尋點選上，必須產生唯一的`ef_id`，並以查詢字串形式附加至登陸頁面URL，例如`https://www.adobe.com/tw?someParam=123&ef_id=abcde:123456789:s`，其中`&ef_id=abcde:123456789:s`為附加符號、`ef_id`鍵和`ef_id`值。 若要包含ef_id，相關廣告網路帳戶和行銷活動必須具有[!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot;和[!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;。
 
 若為現有帳戶和促銷活動，則可能已實施ef_id。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    >
    >ef_id應僅在登陸頁面URL中。
 
-   例如，如果登陸頁面URL為`https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`，則[!DNL Google Analytics]中ef_id維度的值為`abcde:123456789:s`。
+   例如，如果登陸頁面URL為`https://www.adobe.com/tw?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`，則[!DNL Google Analytics]中ef_id維度的值為`abcde:123456789:s`。
 
    >[!NOTE]
    >
