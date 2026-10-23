@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
-
 ---
 # 文字廣告範本 — 僅行銷活動地圖
 
