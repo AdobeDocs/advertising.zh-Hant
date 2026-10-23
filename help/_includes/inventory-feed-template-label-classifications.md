@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
 # 文字廣告範本 — 標籤分類
 
@@ -17,15 +16,15 @@ ht-degree: 0%
 
    * 針對要指派給元件的每個標籤分類和值，請執行以下操作：
 
-      1. 按一下&#x200B;**[!UICONTROL Add Label Classification]**。
+     1. 按一下&#x200B;**[!UICONTROL Add Label Classification]**。
 
-      1. 選取現有的標籤分類，然後選取現有值或輸入新值。
+     1. 選取現有的標籤分類，然後選取現有值或輸入新值。
 
-         每個值的長度上限為100個字元，可包含ASCII和非ASCII字元。
+        每個值的長度上限為100個字元，可包含ASCII和非ASCII字元。
 
-         若要插入欄名稱做為標籤分類值的動態引數，請按一下輸入欄位（第二個欄位），然後按一下欄清單中的欄名稱。
+        若要插入欄名稱做為標籤分類值的動態引數，請按一下輸入欄位（第二個欄位），然後按一下欄清單中的欄名稱。
 
-         每個行銷活動元件的每個分類只能包含一個值。 例如，行銷活動可以有Color=Red但不可以有Color=Red和Color=Blue。
+        每個行銷活動元件的每個分類只能包含一個值。 例如，行銷活動可以有Color=Red但不可以有Color=Red和Color=Blue。
 
    * 若要變更現有的標籤分類值，請選取或輸入新值。
 
