@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Adobe Advertising DSP中的AI輔助功能
 
 DSP提供使用自然語言提示的AI輔助代理，以幫助您處理多項工作：
 
-* 使用AI輔助聊天介面，在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中[搜尋概念性和操作方法內容](/help/dsp/agent-chat.md)。
+* [搜尋概念和操作說明內容](/help/dsp/agent-chat.md)
 
-* [使用產生式AI輔助對象代理程式來產生新的可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)，您可將其用作位置的目標或排除專案。
+* Unified AI助理：
+
+  * [為您的行銷活動、行銷活動元件、Advertising Creative體驗、廣告商和廣告目標建立報告](/help/dsp/ai-assistant/insights-agent.md)。
+
+  * [疑難排解套件和位置的效能和傳遞問題](/help/dsp/ai-assistant/troubleshooting-agent.md)。
+
+  * 在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商） [Advertising Creative指南](/help/creative/home.md)中[搜尋產品檔案](/help/dsp/ai-assistant/documentation-search.md)。
+
+* [在[!UICONTROL Audiences] > [!UICONTROL All Audiences]中使用產生式AI輔助對象代理程式來產生新的可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)，您可以將其用作位置的目標或排除專案。
