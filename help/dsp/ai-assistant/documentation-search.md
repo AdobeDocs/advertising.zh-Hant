@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # 使用AI助理搜尋產品檔案
 
 *僅支援英文*
 
-使用適用於DSP的AI Assistant，使用聊天介面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商）[Advertising Creative指南](/help/creative/home.md)中搜尋概念和操作說明內容。 答案僅以[Experience League](https://experienceleague.adobe.com/zh-hant/docs/advertising)中針對這些產品所記載的內容為基礎。
+使用適用於DSP的AI Assistant，使用聊天介面在[Advertising DSP指南](/help/dsp/home.md)和（使用Advertising Creative的廣告商）[Advertising Creative指南](/help/creative/home.md)中搜尋概念和操作說明內容。 答案僅以[Experience League](https://experienceleague.adobe.com/en/docs/advertising)中針對這些產品所記載的內容為基礎。
 
-回應包括引文以及其他查詢和後續問題，以幫助您縮小查詢範圍並尋找更多資訊。
+您可以詢問有關行銷活動管理、最佳化、對象管理、交易、報告和其他產品功能的問題。 回應包括引文以及其他查詢和後續問題，以幫助您縮小查詢範圍並尋找更多資訊。
 
 ![查詢和回應的範例](/help/dsp/assets/agent-chat-response.png "查詢和回應的範例")
 
@@ -34,8 +34,6 @@ ht-degree: 0%
 >AI產生的回應可能不準確或誤導。 一律先驗證回應和來源，再將其用於影響成本或投入的決策。
 
 ## 範例查詢
-
-您可以詢問有關行銷活動管理、最佳化、對象管理、交易、報告和其他產品功能的問題。 以下是範例：
 
 * 如何將廣告附加至投放位置？
 
