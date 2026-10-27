@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]廣告群組設定
@@ -100,6 +100,16 @@ ht-degree: 0%
 **[!UICONTROL AI Search Term Matching]：** （僅啟用[!DNL AI Max]的行銷活動）是否要使用AI導向、無關鍵字的搜尋字詞比對來增強觸及範圍和最佳化。<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]：** （僅啟用[!DNL AI Max]的行銷活動）要設為目標（但不排除）之地理意圖的特定位置；使用者也必須符合行銷活動的地理目標定位。 依預設，系統會將位在所有地理位置、經常在所有地理位置或對所有地理位置感興趣的使用者設為目標。 若要縮小目標範圍，請選取每個目標位置。
+
+**[!UICONTROL URL inclusions]：** （已啟用[!DNL AI Max]和[!UICONTROL Text customization]的行銷活動） URL以包含在最終URL擴充產生的登入頁面。 若要新增URL，請在輸入欄位中輸入URL或URL片段，然後按一下&#x200B;**+**。
+
+>[!NOTE]
+>
+>* 當行銷活動層級[!UICONTROL Final URL expansion]設定為&#x200B;*已啟用*&#x200B;時，[!DNL Google Ads]會使用指定的URL和其他Google選取的URL作為廣告群組的動態登陸頁面。
+>* 當行銷活動層級[!UICONTROL Final URL expansion]設定為&#x200B;*已停用*&#x200B;時，[!DNL Google Ads]只會使用指定的URL作為廣告群組的動態登陸頁面。
+>* （具有釘選資產的回應式搜尋廣告）當此設定指定URL包含，當最終URL路由傳送到釘選副本不符合使用者意圖的登陸頁面時，[!DNL Google Ads]不會使用釘選資產。 若要一律使用釘選資產，請勿指定URL包含專案並停用行銷活動層級[!UICONTROL Final URL expansion]設定。
+
+**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）可能符合品牌相關查詢的帳戶品牌。 選取每個要包含的品牌清單旁的核取方塊。 此設定會覆寫行銷活動層級設定。
 
 ## [!UICONTROL URL Options]索引標籤
 
