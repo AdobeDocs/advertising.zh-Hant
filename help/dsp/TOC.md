@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -25,7 +25,12 @@ ht-degree: 3%
   + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
   + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
   + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ [使用AI輔助聊天搜尋產品檔案](/help/dsp/agent-chat.md)
++ Advertising DSP中的AI助理 {#ai-assistant}
+  + [關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [使用AI助理建立報告](/help/dsp/ai-assistant/insights-agent.md)
+  + [使用AI助理疑難排解效能和傳送問題](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [使用AI助理搜尋產品檔案](/help/dsp/ai-assistant/documentation-search.md)
+  + [使用先前的AI助理交談](/help/dsp/ai-assistant/previous-conversations.md)
 + 行銷活動管理 {#campaign-management}
   + [Advertising DSP中的行銷活動管理概觀](/help/dsp/campaign-management/campaign-management-overview.md)
   + 行銷活動 {#campaigns}

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8a8985dd3088be745752489b2101bd80000d4a00
+source-git-commit: b749a2b5285a9bf0ad1bcef28843bb48b9689cac
 workflow-type: tm+mt
-source-wordcount: '7840'
+source-wordcount: '7920'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年10月26日 | DSP中的[!DNL AI Assistant] | 使用DSP中的AI助理執行下列任一項作業：<ul><li>（Beta功能）取得行銷活動量度和完整報表，無需手動建立報表</li>（Beta功能）診斷即時套件和位置的效能和傳送問題<li><li>搜尋產品檔案以取得使用DSP和[!UICONTROL Creative]的說明。 此專案已經可用。</li></ul> | 請參閱&quot;[關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;以及[使用AI助理建立報告](/help/dsp/ai-assistant/insights-agent.md)和[使用AI助理疑難排解效能和傳遞問題](/help/dsp/ai-assistant/troubleshooting-agent.md)的說明 |
 | 2026年10月15日 | [!DNL Creative] | （Beta功能）您現在可以在[!UICONTROL Creative Studio]中產生Use AI，以將現有的靜態顯示廣告影像轉換為可編輯的顯示廣告範本。 | 請參閱[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}中管理廣告範本。 |
 | 10月8日 | [!UICONTROL Insights] | （僅限具有[!DNL Analytics for Advertising]的廣告商）提供兩種根據您Adobe Analytics轉換資料中的受眾智慧建立的新深入分析：<ul><li>[!UICONTROL Delivery Composition]會說明DSP使用者模型如何在不同轉換可能性的使用者之間進行競標。 使用此insight檢閱正在提供的位置。</li><li>[!UICONTROL Organic Seed Profile]會顯示與您的轉換器相關的興趣、時間、位置和裝置。 使用此insight可計畫套件或位置的啟動，或通知您的下一個行銷活動。</li></ul> | 請參閱&quot;[關於深入分析](/help/dsp/campaign-management/insights/insights-about.md)&quot;。 |
 | 2026年8月14日 | [!UICONTROL Reports] | 新的[!UICONTROL DSP Self-Attributed Conversions]報表顯示Advertising DSP對轉換的貢獻 — 包括DSP在其中扮演了角色但在稍後接觸的客戶歷程，例如Adobe Advertising搜尋點選，在其他報表中收到最後點按的評分。 此功能對同時使用Advertising DSP和Advertising Search、Social和Commerce的廣告商最有用。 | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[關於自訂報告的常見問題集](/help/dsp/reports/faq-reports.md)&quot;。 |

@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]行銷活動設定
@@ -239,13 +239,21 @@ ht-degree: 0%
 
 * **[!UICONTROL Final URL expansion]：**&#x200B;是否讓[!DNL Google Ads]根據搜尋意圖，將流量路由至網站上最相關的登陸頁面。 此設定僅在啟用&#x200B;**[!UICONTROL Text customization]**&#x200B;時可用。
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >（具有釘選資產的回應式搜尋廣告）啟用此設定時，當最終URL路由傳送到釘選副本不符合使用者意圖的登陸頁面時，[!DNL Google Ads]不會使用釘選資產。 若要一律使用釘選資產，請停用[!UICONTROL Final URL expansion]並且不要指定廣告群組層級[!UICONTROL URL inclusions]。
 
 **[!UICONTROL Bundling required]：** （僅啟用[!UICONTROL AI Max]功能的現有行銷活動；唯讀）是否必須啟用[!UICONTROL AI Max]才能遵循或修改行銷活動的文字自訂和品牌清單控制項： *[!UICONTROL Required]*、*[!UICONTROL Not required]*&#x200B;或&#x200B;*[!UICONTROL Unspecified]*。
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]：** （僅啟用[!UICONTROL AI Max]功能的現有行銷活動；唯讀）當任何行銷活動的廣告群組包含[!UICONTROL Locations of Interest]個目標時，會指出要鎖定的使用者興趣型別： *[!UICONTROL Search Interest]* （對指定位置感興趣的使用者）、*[!UICONTROL Presence]* （對指定位置感興趣或經常感興趣的使用者）或&#x200B;*[!UICONTROL Presence or Interest]* （對指定位置感興趣、經常感興趣的使用者）。
+
+**[!UICONTROL URL exclusions]：** （已啟用[!DNL AI Max]、[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]的行銷活動） URL要排除為最終URL展開所產生之登入頁面。 您可以選擇在廣告群組層級新增URL *包含* （非排除）。 若要新增URL，請在輸入欄位中輸入URL或URL片段，然後按一下&#x200B;**+**。
+
+**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）可能符合品牌相關查詢的帳戶的品牌清單。 選取每個要包含的品牌清單旁的核取方塊。 您可以在廣告群組層級覆寫此設定。
+
+**[!UICONTROL Brand exclusions]：** （啟用[!DNL AI Max]的行銷活動）與品牌相關查詢可能不符的帳戶的品牌清單。 選取每個要排除的品牌清單旁的核取方塊。
 
 ## [!UICONTROL Additional Campaign Information]索引標籤
 
