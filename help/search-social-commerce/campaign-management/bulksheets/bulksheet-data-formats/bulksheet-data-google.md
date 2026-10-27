@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # 附錄 — [!DNL Google Ads]帳戶需要的大量表單資料
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | <p>（僅限增強型網站連結）可在廣告商的時區及下列格式之一中，對網站連結發出競標的第一天： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新增強型網站連結的預設值為當天。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL End Date] | <p>（僅限增強型網站連結）可在廣告商的時區中，以下列其中一種格式對網站連結發出競標的最後日期： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 預設值為無（無結束日期）。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （僅限現有應用程式安裝廣告）</p><p>（選用）防止[!DNL Google Ads]向平板電腦使用者顯示廣告。 值可以包含<i>是</i>和<i>否</i>。 |
-| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
+| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
 | [!UICONTROL Tracking Template] | 追蹤範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌於[!DNL ValueTrack]引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>若為Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤代碼。<br><br>對於協力廠商重新導向與追蹤，請輸入值。 如需表示追蹤範本中最終URL的[!DNL ValueTrack]引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2375447)中「可用的[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高級別的URL。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您已附加搜尋引擎特定引數，這些引數可能會取代為「搜尋」、「社交」和「Commerce」的同等引數。<br><br>對於具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
@@ -146,11 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 可識別現有產品群組的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有當您變更或刪除產品群組時才需要，除非該列包含a)足夠的屬性欄以識別產品群組或b) &quot;[!UICONTROL AMO ID]&quot;。 |
 | [!UICONTROL Sitelink ID] | 可識別現有網站連結的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄以識別網站連結或b) &quot;[!UICONTROL AMO ID]&quot;。 不過，如果您不包含[!UICONTROL Sitelink ID]或[!UICONTROL AMO ID]，而且屬性資料行符合多個網站連結，則只有其中一個網站連結的狀態會變更。</p><p><b>注意：</b>如果您編輯現有網站連結的Status以外的Sitelink屬性資料行，而且您既不包含[!UICONTROL Sitelink ID]也不包含[!UICONTROL AMO ID]，則會建立新的Sitelink，且不會變更現有的網站連結。 |
 | [!UICONTROL RLSA Target ID] | 可識別現有行銷活動或廣告群組層級RLSA目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除目標或排除專案時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
-| [!UICONTROL Device Target ID] | <p>可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。</p> |
-| [!UICONTROL Campaign Excluded URL ID] | 促銷活動之排除URL運算式的ID。 |
-| [!UICONTROL Ad Group Included URL ID] | 廣告群組包含的URL運算式的ID。 |
-| [!UICONTROL Campaign Brand Criterion ID] | 行銷活動品牌清單條件的ID。 |
-| [!UICONTROL Ad Group Brand Criterion ID] | 廣告群組品牌清單條件的ID。 |
+| [!UICONTROL Device Target ID] | 可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
+| [!UICONTROL Campaign Excluded URL ID] | 識別促銷活動之排除URL的唯一ID。 只有在變更或刪除URL排除清單時才需要。 |
+| [!UICONTROL Ad Group Included URL ID] | 可識別廣告群組所包含URL的唯一ID。 只有在變更或刪除URL包含清單時才需要。 |
+| [!UICONTROL Campaign Brand Criterion ID] | （唯讀）可識別每個行銷活動品牌清單之條件的唯一ID。 [!DNL Google Ads]會在您新增品牌清單包含或排除專案後建立此ID。 請勿輸入或編輯值。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | （唯讀）可識別每個廣告群組品牌清單條件的唯一ID。 [!DNL Google Ads]會在您新增品牌清單包含或排除專案後建立此ID。 請勿輸入或編輯值。 |
 | [!UICONTROL AMO ID] | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，您必須有AMO ID才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>Search， Social， &amp; Commerce會使用值來決定要編輯的正確身分，但不會將ID張貼至廣告網路。 |
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
@@ -290,7 +290,7 @@ ht-degree: 0%
 
 ### 已展開的動態搜尋廣告
 
-此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hant)&quot;。
+此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -315,7 +315,7 @@ ht-degree: 0%
 
 ### 產品清單/購物廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -520,5 +520,5 @@ ht-degree: 0%
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)
