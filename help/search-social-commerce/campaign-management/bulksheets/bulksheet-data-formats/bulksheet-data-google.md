@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # 附錄 — [!DNL Google Ads]帳戶需要的大量表單資料
@@ -44,20 +44,6 @@ ht-degree: 0%
 >* 對於未在下方指定的欄位，會使用廣告網路的預設值。
 >* 如需[!UICONTROL Download Bulksheet]對話方塊中可用大量表單列的清單，請參閱[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)。
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | 欄位 | 說明 |
 | ---- | ---- |
 | [!UICONTROL Platform] | （包含在產生的Bulksheet中以供參考）廣告平台。 除非每一列包含實體的&quot;[!UICONTROL AMO ID]&quot;，否則為必要。 |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | （僅針對顯示網路的行銷活動）競標方式：由<i>[!UICONTROL Ad Group]</i> （預設）、<i>[!UICONTROL Keyword]</i>、<i>[!UICONTROL Placement]</i> （網站）或<i>[!UICONTROL None]</i> （重設現有值）。 其他維度（<i>年齡</i>、<i>性別</i>、<i>興趣和清單</i>、<i>主題</i>和<i>垂直</i>）可從[!DNL Google Ads]介面取得。 如果您已使用[!DNL Google Ads]介面設定其他維度的競標，則會顯示該值，但您無法在這裡選取或輸入這些維度。</p><p><b>附註：</b></p><ul><li><p>當您依據關鍵字競標時，請在關鍵字層級建立追蹤範本。 同樣地，當您依版位競標時，請在版位層級建立追蹤範本。 針對所有其他維度，在廣告層級建立追蹤範本。</p></li><li><p>如果您以不支援的維度（年齡、性別、興趣和清單或主題）競標，搜尋、社交和Commerce不會最佳化維度的競標，而所有歸因都會套用至廣告群組。</p></li><li><p>搜尋網路上的廣告一律會使用關鍵字競標。</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>（僅限購物行銷活動）當多個行銷活動廣告相同產品時，使用行銷活動的優先順序： <i>[!UICONTROL Low]</i> （新行銷活動的預設值）、<i>[!UICONTROL Medium]</i>或<i>[!UICONTROL High]</i>。</p><p>當同一個產品包含在多個促銷活動中時，廣告網路會先使用促銷活動優先順序來判斷哪個促銷活動（及相關競標）適用於廣告拍賣。 當所有行銷活動具有相同的優先順序時，則適用最高競價的行銷活動。 |
 | [!UICONTROL Has EU Political Ads] | (適用於以歐盟(EU)受眾為目標的行銷活動)行銷活動是否根據歐盟法規2024/90提供的廣告需求，包含政治廣告： <i>[!UICONTROL Yes]</i>或<i>[!UICONTROL No]</i>。 |
+| [!UICONTROL AI Max Enabled] | 是否針對行銷活動啟用[[!UICONTROL AI Max]功能](https://support.google.com/google-ads/answer/15910366)： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
+| [!UICONTROL AI Max Asset Automation] | 已啟用[!UICONTROL AI Max]行銷活動的「文字自動化」設定是否已啟用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Merchant ID] | （僅限於連結至商家摘要的購物行銷活動和對象行銷活動）其產品用於行銷活動的商家帳戶的客戶ID。 |
 | [!UICONTROL Sales Country] | （僅限購物行銷活動；現有行銷活動為唯讀）行銷活動產品銷售的國家/地區。 由於產品與目標國家/地區相關聯，此設定會決定行銷活動中要廣告的產品。 |
 | [!UICONTROL Product Scope Filter] | （僅使用[!DNL Google Ads]購物網路的行銷活動）您[!DNL Google Merchant Center]帳戶中可為其建立購物廣告的行銷活動。 您可以使用格式dimension=attribute，輸入最多七種產品維度和屬性組合，以篩選產品。 使用「>>」分隔符號分隔多個篩選器。 如需可用產品維度的清單，請參閱&quot;[購物行銷活動產品篩選器](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;。</p><p>範例：「CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies」</p><p>若要刪除現有值，請使用值<code>[delete]</code> （包括括弧）。</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>（僅限舊版促銷活動型別；適用於[!UICONTROL Device Targets]包含&quot;[!UICONTROL All]&quot;或&quot;[!UICONTROL Smartphones]&quot;）智慧型手機可能連線的行動電信業者： <i>[!UICONTROL All]</i>，或使用[!DNL Google Ads]</a>的<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">可用電信業者和代碼清單，以&lt;c<i>電信業者代碼</i>>、&lt;<i>國家/地區代碼</i>> （例如T-Mobile，US）表示的一或多個電信業者。 以分號分隔多個電信業者（例如T-Mobile、US；T-Mobile、GB）。 若為新行銷活動，預設值為<i>[!UICONTROL All]</i>。</p> |
 | [!UICONTROL Ad Group Name] | <p>可識別廣告群組的唯一名稱。 長度上限為255個字元；不會儲存結尾的空白字元（例如，「廣告群組1」會儲存為「廣告群組1」）。 此欄位不適用於行銷活動層級的網站連結或行銷活動層級的裝置目標。</p> |
 | [!UICONTROL Ad Group Type] | <p>廣告群組型別： <i>[!UICONTROL Demand Gen]</i> （僅供需求一般行銷活動使用）、<i>[!UICONTROL Display]</i> （供顯示行銷活動使用）、<i>[!UICONTROL Search Dynamic]</i> （供展開的動態搜尋廣告使用）、<i>[!UICONTROL Search Standard]</i> （供搜尋廣告使用）、<i>[!UICONTROL Shopping Product]</i> （供購物產品廣告使用）、<i>[!UICONTROL Shopping Showcase]</i> （不支援建立和編輯）或<i>[!UICONTROL Unknown]</i>。</p> |
+| [!UICONTROL AI Max Search Term Matching] | 已啟用[!UICONTROL AI Max]行銷活動中的廣告群組&quot;[!UICONTROL AI Max Search Term Matching]&quot;設定是否已啟用： *[!UICONTROL true]*、*[!UICONTROL false]*&#x200B;或null。 |
 | [!UICONTROL Max CPC] | <p>（僅適用於CPC行銷活動）最高每次點按成本(CPC)，這是廣告網路上的廣告點按最高金額，無論是否包含貨幣符號和標點符號。 您可以設定廣告群組和關鍵字、產品群組及動態搜尋目標的值。 新關鍵字的預設值繼承自廣告群組層級。 對於產品群組，您可以設定最低產品群組層的值；新層的預設值繼承自父層。</p><p>對於最佳化產品組合中的現有產品群組和動態搜尋目標，更新僅在一天內有效，並在下一個最佳化週期中被覆寫。</p> |
 | [!UICONTROL Max Content CPC] | <p>（僅限CPC行銷活動）最高內容每次點按成本(CPC)，這是顯示網路網站中，無論是否包含貨幣符號和標點符號，針對廣告點按而支付的最高金額。 您可以設定和編輯行銷活動中非位置鎖定目標的廣告群組層級的值。</p> |
 | [!UICONTROL Audience Target Method] | <p>（僅搜尋網路上的行銷活動，以及顯示網路上的現有唯讀[!DNL Gmail]行銷活動）是否：</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>：只對與目標對象相關聯且滿足廣告群組之任何其他目標的使用者顯示廣告。</p></li><li><p><i>[!UICONTROL Bid Only]</i>：若要顯示廣告，即使是未與目標對象相關聯的使用者，只要他們符合其他廣告群組層級目標即可。</p><p>不過，您可以為特定對象設定較高的競標，以增加向這些對象顯示廣告的機會。</p></li></ul> |
 | [!UICONTROL Keyword] | 關鍵字字串。 長度上限為80個字元，不超過10個單字，而且只能包含字母、數字和下列特殊字元：空格`# $ & _ - " [ ] ' + . / :`</p><p><b>附註：</b></p><ul><li><p>若要在廣告群組或行銷活動層級排除關鍵字，請將[!UICONTROL Match Type]設為<i>[!UICONTROL Negative]</i>。 如果列包含廣告群組名稱，則會為廣告群組排除關鍵字。 如果列不包含廣告群組名稱，則會在整個行銷活動中排除關鍵字。</p></li><li><p>變更[!DNL Google Ads]關鍵字或比對型別會刪除現有關鍵字並建立新關鍵字。</p></li></ul> |
 | [!UICONTROL Placement] | （僅使用內容比對的行銷活動）顯示網路中可顯示您廣告的版位。 指定下列其中一項：</p><ul><li><p>網站：輸入有效的URL。 它可以是頂層網域、第一層子網域或具有單一目錄名稱的網域。 URL不能包含問號(？)。 範例：<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>特定頁面上的廣告位置：使用格式`<URL> >> <location,sublocation>` （例如`finance.google.com >> Company pages,Top right`）。</p></li><li><p>主題類別：使用語法`<category::<category> > <subcategory>`等（例如`category::Industries > Energy & Utilities > Oil & Gas`）。</p></li></ul><p><b>注意：</b>若要在廣告群組或行銷活動層級排除版位，請將[!UICONTROL Match Type]設為<i>[!UICONTROL Negative]</i>。 如果列包含廣告群組名稱，則會針對廣告群組排除該位置。 如果列不包含廣告群組名稱，則會為整個行銷活動排除該位置。</p> |
 | [!UICONTROL Auto Target Expression] | <p>（當促銷活動設定為&quot;[!UICONTROL Use my website contents to target my ads]&quot;未啟用時為必要；否則為選用）廣告群組的動態搜尋目標。</p><p>對於所有目標，請使用星號(*)。</p><p>若要鎖定最多三個動態搜尋條件，請使用格式`<category>=<target>`，其中`<category>`可以包含下列任何類別。 使用&quot;\[blank space\]和\[blank space\]&quot;為個別類別加入多個目標，並使用&quot;[空白空間]和[空白空間]&quot;加入多個類別。</p><ul><li><p><i>[!UICONTROL Category]</i>：針對具有特定[!DNL Google Ads]內容類別的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL URL]</i>：針對具有特定URL的索引頁面，顯示展開的動態搜尋廣告，其中值可能包含在URL內的任何位置。</p></li><li><p><i>[!UICONTROL Page Title]</i>：針對在頁面標題中有特定文字的索引頁面，顯示展開的動態搜尋廣告。</p></li><li><p><i>[!UICONTROL Page Content]</i>：針對具有特定內容的索引頁面，顯示展開的動態搜尋廣告。</p></li></ul><p>範例： url=shoes.example.com和page title=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | 要從促銷活動的最終URL展開產生的登入頁面中排除的URL。 您可以選擇在廣告群組層級新增URL包含專案（非排除專案）。 範例：「URL包含`https://www.example.com`。」 |
+| [!UICONTROL Ad Group Included URL] | 要包含在從廣告群組的最終URL展開產生的登陸頁面中的URL。  範例：「URL包含`https://www.example.com`。」 |
+| [!UICONTROL Campaign Brand List] | 品牌相關查詢可能符合或必須排除於促銷活動之帳戶的品牌清單。 使用[!UICONTROL Campaign Brand List Type]欄位指定行為。 |
+| [!UICONTROL Campaign Brand List ID] | 行銷活動層級包含或排除的品牌清單的ID。 |
+| [!UICONTROL Campaign Brand List Type] | 為與品牌相關的查詢可能相符或必須從與品牌相關的查詢中排除的帳戶所指定的品牌清單： *包含*&#x200B;或&#x200B;*排除*。 |
+| [!UICONTROL Ad Group Brand List] | 品牌相關查詢可能符合廣告群組的帳戶品牌。 |
+| [!UICONTROL Ad Group Brand List ID] | 廣告群組層級包含的品牌清單的ID。 |
 | [!UICONTROL Parent Product Groupings] | 任何父級產品群組的階層。<br><br>範例： `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>產品群組（例如「brand=acme」或「所有產品」）。</p><p><b>附註：</b></p><ul><li><p>當指定的產品群組不存在於[!UICONTROL Parent Product Groupings]階層中時，Search、Social和Commerce會建立階層中所需的任何部分。</p></li><li><p>當您在[!DNL Google Ads]購物行銷活動中以預設競標設為廣告群組預設競標建立廣告群組時，搜尋、Social和Commerce會自動建立「[!UICONTROL All Products]」群組。 搜尋、Social和Commerce會在產品群組階層的每個層級，自動建立具有廣告群組預設競標的&quot;[!UICONTROL Everything Else]&quot;群組。 您仍然可以明確建立這些預設群組，並排除它們或變更其競標。</p></li><li><p>每個廣告群組最多可包含八層產品群組，包括&quot;[!UICONTROL All Products]&quot;和七個其他階層。</p></li></ul> |
 | [!UICONTROL Partition Type] | 產品群組的資料分割型別： <i>細分</i> （當它有子產品群組時）或<i>單位</i> （當它沒有子產品群組時）。 |
@@ -114,7 +110,7 @@ Add in when released:
 | [!UICONTROL Start Date] | <p>（僅限增強型網站連結）可在廣告商的時區及下列格式之一中，對網站連結發出競標的第一天： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 新增強型網站連結的預設值為當天。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL End Date] | <p>（僅限增強型網站連結）可在廣告商的時區中，以下列其中一種格式對網站連結發出競標的最後日期： <i>m/d/yyyy</i>、<i>m/d/yy</i>、<i>m-d-yyyy</i>或<i>m-d-yy</i>。 預設值為無（無結束日期）。</p><p><b>注意：</b>新的增強型網站連結只能在具有現有增強型網站連結或沒有網站連結的行銷活動中建立。</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | （僅限現有應用程式安裝廣告）</p><p>（選用）防止[!DNL Google Ads]向平板電腦使用者顯示廣告。 值可以包含<i>是</i>和<i>否</i>。 |
-| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
+| [!UICONTROL Landing Page Suffix] | 要附加至最終URL結尾以追蹤資訊的任何引數。 範例： `param2=value1&param3=value2`<br><br>請參閱 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[點選追蹤格式。<br><br>較低層級的最終URL尾碼會覆寫帳戶層級的尾碼。 為方便維護，除非需要對個別帳戶元件進行不同追蹤，否則請僅使用帳戶層級的尾碼。 若要在廣告群組層級或更低層級設定尾碼，請使用[!DNL Google Ads]編輯器。 |
 | [!UICONTROL Tracking Template] | 追蹤範本會指定所有離登陸網域重新導向和追蹤引數，並將最終URL內嵌於[!DNL ValueTrack]引數中。 最精細的層級追蹤範本（以關鍵字為最精細）會覆寫所有較高層級的值。<br><br>若為Adobe Advertising轉換追蹤（在行銷活動設定包含&quot;[!UICONTROL EF Redirect]&quot;和&quot;[!UICONTROL Auto Upload]&quot;時套用），搜尋、社交和Commerce會在您儲存記錄時自動附加自己的重新導向和追蹤代碼。<br><br>對於協力廠商重新導向與追蹤，請輸入值。 如需表示追蹤範本中最終URL的[!DNL ValueTrack]引數清單，請參閱[[!DNL Google Ads] 檔案](https://support.google.com/google-ads/answer/2375447)中「可用的[!DNL ValueTrack]引數」一節中的「僅限追蹤範本」引數。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Base URL/Final URL] | 搜尋引擎使用者按一下您的廣告時，系統會將他們帶往的登陸頁面URL，包括針對促銷活動或帳戶設定的任何附加引數。 關鍵字層級的基礎/最終URL會覆寫廣告層級和更高級別的URL。<br><br>若要刪除現有值，請使用值`[delete]` （包括括弧）。 |
 | [!UICONTROL Destination URL] | （包含在產生的大量表單中以供參考；未張貼至搜尋引擎）對於具有目的地URL的帳戶，此URL會將廣告連結至廣告商網站上的基礎URL/登陸頁面（有時透過另一個網站來追蹤點選，然後將使用者重新導向登陸頁面）。 其中包含為「搜尋」、「社交」和「Commerce」行銷活動或帳戶設定的任何附加引數。 如果您產生追蹤URL，這會根據您的帳戶設定和促銷活動設定中的追蹤引數。 如果您已附加搜尋引擎特定引數，這些引數可能會取代為「搜尋」、「社交」和「Commerce」的同等引數。<br><br>對於具有最終URL的帳戶，此欄會顯示與「基本URL/最終URL」欄相同的值。 |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | 產品群組的顯示狀態： <i>[!UICONTROL Active]</i> <span>或</span> <i>[!UICONTROL Deleted]</i> （僅限現有產品群組）。 新產品群組的預設值為<i>[!UICONTROL Active]</i>。 若要刪除使用中的產品群組，請輸入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Sitelink Status] | 網站連結的顯示狀態： <i>作用中或已刪除</i> （僅限現有的網站連結）。 新網站連結的預設值為<i>[!UICONTROL Active]</i>。 若要刪除作用中的網站連結，請輸入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Location Status] | 位置目標的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i> （僅限現有位置）。 新位置的預設值為[!UICONTROL Active]。 若要刪除使用中的位置，請輸入值<i>[!UICONTROL Deleted]</i>。 |
+| [!UICONTROL Campaign Excluded URL Status] | 行銷活動的已排除URL狀態： *作用中*&#x200B;或`null`。 |
+| [!UICONTROL Ad Group Included URL Status] | 促銷活動包含的URL狀態： *作用中*&#x200B;或`null`。 |
+| [!UICONTROL Campaign Brand List Status] | 促銷活動之包含或排除的品牌清單的狀態： *作用中*&#x200B;或`null`。 |
+| [!UICONTROL Ad Group Brand List Status] | 廣告群組包含品牌清單的狀態： *使用中*&#x200B;或`null`。 |
 | [!UICONTROL RLSA Target Status] | 行銷活動或廣告群組層級RLSA目標或排除專案的狀態： <i>[!UICONTROL Active]</i>或[!UICONTROL Deleted]</i> （僅限現有目標）。 新目標或排除專案的預設值為<i>[!UICONTROL Active]</i>。 若要刪除作用中的目標或排除專案，請輸入值<i>[!UICONTROL Deleted]</i>。 |
 | [!UICONTROL Device Target Status] | <p>行銷活動或廣告群組層級裝置目標的狀態： <i>[!UICONTROL Active]</i>或<i>[!UICONTROL Deleted]</i>。 對於新的行銷活動和廣告群組，預設值為<i>[!UICONTROL Active]</i>。</p> |
 | \[廣告商特定標籤分類\] | (以廣告商專屬的標籤分類命名，例如「顏色」（針對稱為「顏色」的標籤分類）與實體相關聯的指定分類值。 每個實體的每個分類只能包含一個值（例如促銷活動A的「顏色」標籤分類為「紅色」）。 最大長度為100個字元，此值可包含ASCII和非ASCII字元。<br><br>標籤分類及其標籤值會套用至所有子元件；稍後新增的新元件會自動與標籤建立關聯。 產品群組的標籤分類會套用至單位（最精細）層級。<br><br>分類名稱和分類值都不區分大小寫。 |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | 可識別現有網站連結的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄以識別網站連結或b) &quot;[!UICONTROL AMO ID]&quot;。 不過，如果您不包含[!UICONTROL Sitelink ID]或[!UICONTROL AMO ID]，而且屬性資料行符合多個網站連結，則只有其中一個網站連結的狀態會變更。</p><p><b>注意：</b>如果您編輯現有網站連結的Status以外的Sitelink屬性資料行，而且您既不包含[!UICONTROL Sitelink ID]也不包含[!UICONTROL AMO ID]，則會建立新的Sitelink，且不會變更現有的網站連結。 |
 | [!UICONTROL RLSA Target ID] | 可識別現有行銷活動或廣告群組層級RLSA目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除目標或排除專案時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
 | [!UICONTROL Device Target ID] | <p>可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。</p> |
+| [!UICONTROL Campaign Excluded URL ID] | 促銷活動之排除URL運算式的ID。 |
+| [!UICONTROL Ad Group Included URL ID] | 廣告群組包含的URL運算式的ID。 |
+| [!UICONTROL Campaign Brand Criterion ID] | 行銷活動品牌清單條件的ID。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 廣告群組品牌清單條件的ID。 |
 | [!UICONTROL AMO ID] | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，您必須有AMO ID才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>Search， Social， &amp; Commerce會使用值來決定要編輯的正確身分，但不會將ID張貼至廣告網路。 |
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |
@@ -172,24 +176,34 @@ Add in when released:
 | [!UICONTROL Acct Name] | 除非每一列包含實體的&quot;[!UICONTROL AMO ID]&quot;，否則為必要。 |
 | [!UICONTROL Campaign Name] | 必填 |
 | [!UICONTROL Campaign Budget] | 建立行銷活動所需。 |
+| [!UICONTROL Campaign Status] | 僅刪除行銷活動時才需要。 |
 | [!UICONTROL Delivery Method] | 建立行銷活動所需。 |
-| [!UICONTROL Channel Type] | 建立行銷活動所需。 |
+| [!UICONTROL Device Targets] | 可選 |
+| [!UICONTROL Device OS Targets (Google Adwords)] | 可選 |
+| [!UICONTROL Languages] | 可選 |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | 可選 |
 | [!UICONTROL Networks] | 建立行銷活動所需。 |
-| [!UICONTROL DSA Domain Name] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
-| [!UICONTROL DSA Domain Language] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
+| [!UICONTROL Tracking Template] | 可選 |
+| [!UICONTROL Channel Type] | 建立行銷活動所需。 |
 | [!UICONTROL Campaign Priority] | 建立購物行銷活動所需。 |
 | [!UICONTROL Has EU Political Ads] | 建立行銷活動所需。 |
 | [!UICONTROL Merchant ID] | 建立購物行銷活動所需。 |
 | [!UICONTROL Sales Country] | 建立購物行銷活動所需。 |
-| [!UICONTROL Product Scope Filter] | （購物行銷活動）選填 |
-| [!UICONTROL Languages] | 可選 |
-| [!UICONTROL Device Targets] | 可選 |
-| [!UICONTROL Device Targets (Google Adwords)] | 可選 |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | 可選 |
 | [!UICONTROL Audience Target Method] | 不適用 |
+| [!UICONTROL Product Scope Filter] | （購物行銷活動）選填 |
+| [!UICONTROL DSA Domain Name] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
+| [!UICONTROL DSA Domain Language] | 在搜尋網路上建立具有動態搜尋廣告的行銷活動所需。 |
 | [!UICONTROL Landing Page Suffix] | 可選 |
-| [!UICONTROL Tracking Template] | 可選 |
-| [!UICONTROL Campaign Status] | 僅刪除行銷活動時才需要。 |
+| [!UICONTROL AI Max Enabled] | 可選 |
+| [!UICONTROL AI Max Asset Automation] | 可選 |
+| [!UICONTROL Campaign Brand Criterion ID] | 可選 |
+| [!UICONTROL Campaign Brand List] | 可選 |
+| [!UICONTROL Campaign Brand List ID] | 可選 |
+| [!UICONTROL Campaign Brand List Status] | 可選 |
+| [!UICONTROL Campaign Brand List Type] | 可選 |
+| [!UICONTROL Included URL] | 可選 |
+| [!UICONTROL Included URL ID] | 可選 |
+| [!UICONTROL Included URL Status] | 可選 |
 | \[廣告商特定標籤分類\] | 可選 |
 | [!UICONTROL Constraints] | 可選 |
 | [!UICONTROL Campaign ID] | 只有在您變更行銷活動名稱時才需要，除非該列包含行銷活動的&quot;[!UICONTROL AMO ID]&quot;。 |
@@ -203,15 +217,23 @@ Add in when released:
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 除非每一列包含實體的&quot;[!UICONTROL AMO ID]&quot;，否則為必要。 |
 | [!UICONTROL Campaign Name] | 必填 |
-| [!UICONTROL Networks] | 不適用 |
-| [!UICONTROL GDN Custom Bid Level] | 可選 |
 | [!UICONTROL Ad Group Name] | 必填 |
 | [!UICONTROL Ad Group Type] | 建立廣告群組所需。 |
+| [!UICONTROL GDN Custom Bid Level] | 可選 |
+| [!UICONTROL Networks] | 不適用 |
+| [!UICONTROL Ad Group Status] | 僅刪除廣告群組時需要。 |
 | [!UICONTROL Max CPC] | 可選 |
 | [!UICONTROL Max Content CPC] | 可選 |
-| [!UICONTROL Audience Target Method] | 必填 |
 | [!UICONTROL Tracking Template] | 可選 |
-| [!UICONTROL Ad Group Status] | 僅刪除廣告群組時需要。 |
+| [!UICONTROL Audience Target Method] | 必填 |
+| [!UICONTROL AI Max Search Term Matching] | 可選 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 可選 |
+| [!UICONTROL Ad Group Brand List] | 可選 |
+| [!UICONTROL Ad Group Brand List ID] | 可選 |
+| [!UICONTROL Ad Group Brand List Status] | 可選 |
+| [!UICONTROL Ad Group Included URL] | 可選 |
+| [!UICONTROL Ad Group Included URL ID] | 可選 |
+| [!UICONTROL Ad Group Included URL Status] | 可選 |
 | \[廣告商特定標籤分類\] | 可選 |
 | [!UICONTROL Constraints] | 可選 |
 | [!UICONTROL Ad Group ID] | 只有在您變更廣告群組名稱時才需要，除非該列包含廣告群組的&quot;[!UICONTROL AMO ID]&quot;。 |
@@ -268,7 +290,7 @@ Add in when released:
 
 ### 已展開的動態搜尋廣告
 
-此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=zh-Hant)&quot;。
+此廣告型別現在在[!DNL Google Ads]中稱為「動態搜尋廣告」。 如需建立動態搜尋廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 動態搜尋廣告](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -293,7 +315,7 @@ Add in when released:
 
 ### 產品清單/購物廣告欄位
 
-如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=zh-Hant)&quot;。
+如需建立購物廣告的詳細資訊，請參閱&quot;[實作 [!DNL Google Ads] 購物行銷活動](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;。
 
 對於此廣告型別，請使用[!UICONTROL Download Bulksheet]對話方塊中的&quot;[!UICONTROL Creative (except RSA)]&quot;列。
 
@@ -498,5 +520,5 @@ Add in when released:
 >* [您可以在大量表單中執行的作業](bulksheet-operations.md)
 >* [支援的Bulksheet檔案格式](bulksheet-file-formats.md)
 >* [下載/建立Bulksheet檔案](../bulksheet-download.md)
->*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的點選追蹤格式
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)的[點選追蹤格式
 >* [上傳大量表單檔案或已修正的錯誤檔案](../bulksheet-upload.md)
