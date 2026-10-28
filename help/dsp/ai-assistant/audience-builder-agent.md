@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # 使用AI助理產生可重複使用的對象
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *僅支援英文*
 
-使用AI Assistant的對象產生器代理程式產生可重複使用的對象，即對象區段群組（包含任何您可用的第一方和第三方區段），甚至是其他儲存的對象。 您稍後可以使用對象作為多個位置的目標或排除專案。
+使用AI助理的對象產生器代理程式來產生[可重複使用的對象](/help/dsp/audiences/audience-about.md)。 可重複使用的受眾可包含任何您可用的第一方和第三方區段，甚至包括其他儲存的受眾。
 
 >[!IMPORTANT]
 >

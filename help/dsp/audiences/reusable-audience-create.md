@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # 建立可重複使用的對象
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以儲存和管理可重複使用的受眾，即受眾區段群組（包括任何您可用的第一方和第三方區段），甚至是其他儲存的受眾。 您可以使用對象作為多個位置的目標或排除專案。
+您可以儲存和管理可重複使用的對象，這些對象是您可以當作多個位置的目標或排除對象的對象區段群組。 可重複使用的受眾可包含任何您可用的第一方和第三方區段，甚至包括其他儲存的受眾。
 
 在統一的[AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)或[!UICONTROL Audiences] > [!UICONTROL All Audiences]檢視中使用AI輔助對象代理程式建立對象，或手動建立對象。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
       * 若要將所包含對象區段的區段ID複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy rule]**。
 
-      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![&#x200B; &#x200B;](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3&rbrace;]。**[!UICONTROL Apply]**
+      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![ ](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3}]。**[!UICONTROL Apply]**
 
 1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Save Audience]**&#x200B;以建立指定的對象。
 
