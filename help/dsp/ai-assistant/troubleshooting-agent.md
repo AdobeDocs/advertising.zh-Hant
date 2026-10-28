@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
 # 使用AI助理疑難排解效能和傳送問題
 
+
 *Beta功能*
 
-AI Assistant的疑難排解代理程式可以識別限制即時套件和位置效能的因素，並提供解決問題的建議。 疑難排解代理程式可協助診斷下列型別的效能和傳送問題：
+AI Assistant的疑難排解代理程式會識別限制即時套件和位置效能的因素，並根據歷史資料提供逐步指示和建議，以解決問題。 疑難排解代理程式可協助診斷下列型別的效能和傳送問題：
 
 * （僅限刊登版位）支出問題，包括超支、支出過少及無法支出。 代理程式會評估診斷過程中相關的步調、競標、目標定位和預算上限因素。
 
@@ -32,7 +33,7 @@ AI Assistant的疑難排解代理程式可以識別限制即時套件和位置�
 
 每個交談都涵蓋單一套件或位置的單一診斷。 代理程式傳送結果後，即會開始新的交談，詢問不同的問題或不同的封裝或位置。
 
-代理程式無法變更設定，也無法建立或編輯行銷活動或行銷活動元件。 它也無法診斷暫停、完成、封存或排程封裝或放置的問題。
+代理程式無法變更設定；建立或編輯行銷活動或行銷活動元件；或診斷暫停、完成、封存或排程封裝或位置的問題。
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ AI Assistant的疑難排解代理程式可以識別限制即時套件和位置�
 >
 >若要詢問其他問題，或關於其他封裝或位置，[開始新的交談](#conversation-new)。
 
-## 從[!UICONTROL Placements]或[!UICONTROL Placements]檢視提交查詢
+## 從[!UICONTROL Packages]或[!UICONTROL Placements]檢視提交查詢
 
 您可以在一則訊息中詢問多個問題，但一次只能詢問一則訊息。 請等待回應，然後再傳送其他回應。
 
@@ -130,7 +131,7 @@ AI Assistant的疑難排解代理程式可以識別限制即時套件和位置�
 
 ## 開始新交談 {#conversation-new}
 
-每個交談或查詢對話串會分別儲存，以便您區分先前的交談。
+每個交談（或查詢對話串）會分別儲存，以便您區分先前的交談。
 
 1. 在[聊天箱](#ai-assistant-open)頂端按一下![開始新交談](/help/dsp/assets/new-selection.png "開始新交談")。
 
