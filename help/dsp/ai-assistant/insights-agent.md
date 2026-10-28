@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # 使用AI助理建立報告
 
 *Beta功能*
+
+*僅支援英文*
 
 使用AI Assistant的見解代理程式來取得行銷活動、行銷活動元件、Advertising Creative體驗、廣告商和廣告目標的量度和完整報告，而不需手動建立報告。 您可以提出有關特定量度的簡單問題，例如行銷活動的支出或CPA，或針對特定維度（例如單一行銷活動或對象）或跨維度（針對每個行銷活動和廣告商的劃分）要求更複雜的報表。 您可以將結果下載為CSV檔案。
 

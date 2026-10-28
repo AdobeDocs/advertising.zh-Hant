@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -22,11 +22,12 @@ ht-degree: 3%
     + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
   + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
   + [支援的貨幣](/help/dsp/currency.md)
-  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
-  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
+  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Advertising DSP中的AI助理 {#ai-assistant}
   + [關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [使用AI助理產生可重複使用的對象](/help/dsp/ai-assistant/audience-builder-agent.md)
   + [使用AI助理建立報告](/help/dsp/ai-assistant/insights-agent.md)
   + [使用AI助理疑難排解效能和傳送問題](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [使用AI助理搜尋產品檔案](/help/dsp/ai-assistant/documentation-search.md)
@@ -80,7 +81,7 @@ ht-degree: 3%
     + [使用大量表單檢閱和編輯廣告詳細資料](/help/dsp/campaign-management/ads/ad-qa.md)
     + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
     + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)
+    + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -239,9 +240,9 @@ ht-degree: 3%
   + 通知 {#notifications}
     + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
     + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterprise的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [Adobe CX Enterprise的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
