@@ -1,6 +1,6 @@
 ---
 title: 建立可重複使用的對象
-description: 瞭解如何建立可重複使用的受眾，其中包含受眾區段和其他儲存的受眾。 可選擇使用AI輔助受眾代理，透過在自然語言提示中描述您的目標受眾；代理會建議第三方區段並建置受眾運算式，以作為目標或排除專案。
+description: 瞭解如何建立可重複使用的對象，以作為放置目標或排除專案。 在Adobe Advertising DSP中手動建立可重複使用的受眾，或在AI Assistant中使用產生式AI或「所有受眾」檢視。
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # 建立可重複使用的對象
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以儲存和管理可重複使用的對象，這些對象是對象區段群組，甚至是其他儲存的對象，您可將其用作多個位置的目標或排除專案。 手動建立受眾，或使用AI輔助受眾代理程式，根據您所述的需求，使用所有您可用的第一方和第三方區段來產生新的可重複使用受眾。
+您可以儲存和管理可重複使用的受眾，即受眾區段群組（包括任何您可用的第一方和第三方區段），甚至是其他儲存的受眾。 您可以使用對象作為多個位置的目標或排除專案。
+
+在統一的[AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)或[!UICONTROL Audiences] > [!UICONTROL All Audiences]檢視中使用AI輔助對象代理程式建立對象，或手動建立對象。
 
 >[!NOTE]
 >
 >（DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商）未附加至使用中、已排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
-## 手動建立可重複使用的對象
+## 使用具有AI助理的產生AI建立可重複使用的對象
+
+*Beta功能*
+
+*僅支援英文*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>此功能目前處於Beta版模式，可能會有變動。 在儲存對象並將其用於您的位置之前，請確定產生的對象運算式代表您想要的對象。
+
+1. 開啟AI小幫手：
+
+   * 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。 按一下資料表上方的&#x200B;**[!UICONTROL Create]>[!UICONTROL Create with AI]**。
+
+   * 按一下任何頁面右上角的![代理聊天](/help/dsp/assets/agent-chat.png "代理聊天")。
+
+1. 定義對象：
+
+   1. 建立初始提示，以下列其中一種方式定義您的對象：
+
+      * 輸入您自己的目標對象簡介，或您想加入和排除的一些對象特性。
+
+      * 若要檢視目標受眾簡報的範例，並選擇性地複製簡報以供使用：
+
+        1. 按一下&#x200B;**[!UICONTROL Build]**&#x200B;以展開區段。
+
+        1. （選用）若要將範例對象簡介的文字複製到提示方塊中：
+
+           1. 按一下範例。
+
+           1. （選用）編輯文字以符合您的需求。
+
+      請參閱[撰寫提示的基本知識](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
+
+   1. 若要送出提示，請按一下![送出提示](/help/dsp/assets/submit-prompt.png "送出提示")。
+
+      您可以在一個提示中詢問多個問題，但一次只能詢問一個提示。 請等候回應，然後才能傳送另一個提示。
+
+      該側會開啟一個面板，其對象定義位於[!UICONTROL Step 1: Audience Definition]索引標籤中。 定義包含所有已定義的對象篩選器、最佳化准則，以及任何要排除的第一方區段。
+
+      AI Assistant會在適用時，建議使用其他對象篩選器，協助您建立更有效的對象簡介。 您可以接受或拒絕建議。
+
+   1. （選擇性）若要排除任何第一方區段，請提示AI助理執行此動作，或在&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;區段中按一下![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取您要排除給對象的任何區段，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+   1. （選用）視需要提交其他提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+
+1. 當對象定義符合您的條件時，請指定要包含的區段：
+
+   1. 提示AI助理搜尋相符區段。 您可以說「確定」、「執行」、「繼續」、「搜尋」或任何相關的字詞或片語。
+
+      [!UICONTROL Step 2: Audience Segments]索引標籤會顯示建議的對象名稱、對象人數和分佈、布林值對象運算式，以及依特性分組的已包含對象區段清單。
+
+   1. （選擇性）在底部的[!UICONTROL Audience segments]區段中，執行下列任一項作業：
+
+      * 若要展開每個對象區段群組，請按一下計數旁的&#x200B;**[!UICONTROL >]**。
+
+      * 若要將所包含對象區段的區段ID複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy rule]**。
+
+      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![&#x200B; &#x200B;](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3&rbrace;]。**[!UICONTROL Apply]**
+
+1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Save Audience]**&#x200B;以建立指定的對象。
+
+   >[!NOTE]
+   >
+   >若要稍後編輯對象，請[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+## 從[!UICONTROL Audiences] > [!UICONTROL All audiences]檢視，使用產生AI建立可重複使用的對象
+
+*Beta功能*
+
+*僅支援英文*
+
+>[!NOTE]
+>
+>此功能目前處於Beta版模式，可能會有變動。 在儲存對象並將其用於您的位置之前，請確定產生的對象運算式代表您想要的對象。
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
 
 1. 按一下資料表上方的&#x200B;**[!UICONTROL Create]**。
+
+1. 在[!UICONTROL New Audience]設定中：
+
+   1. 輸入唯一的&#x200B;**[!UICONTROL Audience Name]**。
+
+   1. （選用）取消選取&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;的選項。
+
+      當您共用對象時，該對象會成為帳戶中所有廣告商的目標或排除專案。 不過，受眾中的個別區段僅供共用區段的使用者使用。 例如，如果您將包含Adobe Analytics區段的對象與未對應至相同[!DNL Analytics]帳戶的廣告商共用，則不會在該廣告商的對象中預覽該區段。 在對象中只會預覽該廣告商可用的區段。
+
+   1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+1. 建立對象：
+
+   1. 輸入一或多個提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+
+      如需詳細資訊，請參閱[撰寫提示](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
+
+      在適用時，代理程式會建議使用其他區段篩選器，協助您建立更有效的對象簡報。 您可以接受或拒絕建議。
+
+      當受眾代理程式找到相關區段時，會根據您的條件建立布林值受眾運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。 您可以選擇忽略請求，然後繼續指定其他對象條件。
+
+   1. 當受眾代理程式呈現的受眾運算式足以描述您的受眾時，請告訴受眾代理程式繼續組裝受眾。
+
+      您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 若要檢視建議用於某個特徵的個別區段的詳細資訊，請展開該特徵。
+
+   1. （如有必要）指定其他條件。 當受眾代理程式呈現符合您所有條件的受眾運算式時，請告訴受眾代理程式繼續組裝受眾。
+
+      若要集合對象，請輸入「繼續」、「確定」、「是」或其他類似字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 若要檢視建議用於某個特徵的個別區段的詳細資訊，請展開任何特徵。
+
+1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Create]**&#x200B;以建立指定的對象。
+
+   >[!NOTE]
+   >
+   >若要稍後編輯對象，請[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+## 手動建立可重複使用的對象
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
+
+1. 按一下資料表上方的&#x200B;**[!UICONTROL Create]>[!UICONTROL Create manually]**。
 
 1. 在[!UICONTROL New Audience]設定中：
 
@@ -59,7 +179,7 @@ ht-degree: 0%
    >
    >當您建置對象時，右側面板中會更新詳細的[對象人數資料](audience-about.md)
 
-   * 若要使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]索引標籤](audience-settings.md)上可用的區段來手動建立區段邏輯，請執行下列動作。
+   * 若要使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]索引標籤](audience-settings.md)上可用的區段，手動建立區段邏輯，請執行下列動作。
 
      * （選用）搜尋區段名稱、說明或路徑。
 
@@ -107,71 +227,21 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-## 使用產生AI建立可重複使用的對象
-
-*Beta功能*
-
-*僅支援英文*
-
->[!NOTE]
->
->此功能目前處於Beta版模式，可能會有變動。 在建立對象並將其用於您的位置之前，請確定產生的對象運算式代表您想要的對象。
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**。
-
-1. 按一下資料表上方的&#x200B;**[!UICONTROL Create]**。
-
-1. 在[!UICONTROL New Audience]設定中：
-
-   1. 輸入唯一的&#x200B;**[!UICONTROL Audience Name]**。
-
-   1. （選用）取消選取&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;的選項。
-
-      當您共用對象時，該對象會成為帳戶中所有廣告商的目標或排除專案。 不過，受眾中的個別區段僅供共用區段的使用者使用。 例如，如果您將包含Adobe Analytics區段的對象與未對應至相同[!DNL Analytics]帳戶的廣告商共用，則不會在該廣告商的對象中預覽該區段。 在對象中只會預覽該廣告商可用的區段。
-
-   1. 按一下&#x200B;**[!UICONTROL Save]**。
-
-1. 建立對象：
-
-   1. 輸入一或多個提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
-
-      如需詳細資訊，請參閱[撰寫提示](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
-
-      在適用時，代理程式會建議使用其他區段篩選器，協助您建立更有效的對象簡報。 您可以接受或拒絕建議。
-
-      當受眾代理程式找到相關的區段時，會根據您的條件建立布林值受眾運算式。 在尋找相符區段以組合受眾之前，也會要求您核准。 您可以選擇忽略請求，然後繼續指定其他對象條件。
-
-   1. 當受眾代理程式呈現的受眾運算式足以描述您的受眾時，請告訴受眾代理程式繼續組裝受眾。
-
-      您可以輸入「繼續」、「確定」、「確定」、「是」或其他類似的字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 展開任何特徵可檢視針對該特徵建議的個別區段的相關詳細資訊。
-
-   1. （如有必要）指定其他條件。 當受眾代理程式呈現符合您所有條件的受眾運算式時，請告訴受眾代理程式繼續組裝受眾。
-
-      若要集合對象，請輸入「繼續」、「確定」、「是」或其他類似字詞。 代理程式會列出每個特徵的所有建議區段（例如「Parents」）。 展開任何特徵可檢視針對該特徵建議的個別區段的相關詳細資訊。
-
-1. 當您對集合的對象感到滿意時，請按一下「**[!UICONTROL Create]**」以建立指定的對象。
-
-   >[!NOTE]
-   >
-   >您之後無法再使用對象代理程式來編輯對象。 請改用[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
-
 ### 寫入提示的基本知識 {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### 提示應包含哪些內容？
+#### 編寫對象提示的准則
 
 * 使用清楚的描述性語言來說明目標對象。
 
-  * 您可以輸入完整的句子或只輸入一串特性。 除非為清楚起見，否則不需要標點符號。
+  * 您可以輸入完整的句子或特徵字串。 除非為清楚起見，否則不需要標點符號。
 
   * 一般而言，提示不區分大小寫。
 
   * 對象代理程式會辨識最常見的同義字。
 
-* 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 您提供的詳細資料越多，取得符合您需求之結果的機會就越大。
+* 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 提供更多詳細資訊，有助於取得符合您需求的結果。
 
 * 識別要包含或排除的位置、裝置型別和資料提供者。
 
@@ -179,7 +249,7 @@ ht-degree: 0%
 
 * 瞭解透過實驗進行提示。
 
-  如果您的提示不清楚，受眾代理只會要求另一個提示，以便您可以再試一次。
+  如果您的提示不清楚，對象代理會要求另一個提示，以便您重試。
 
   對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域之外的[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
 
@@ -243,7 +313,7 @@ Verify what info is carried over from session to session and what starts from sc
 
 * **人口統計**
 
-  包括年齡範圍、性別、婚姻狀況、家庭組成（家庭人數、子女人數、多代家庭）等屬性。
+  包括年齡範圍、性別認同、婚姻狀況、家庭組成（家庭規模、子女的存在、多代家庭）等屬性。
 
 * **社會經濟指標**
 

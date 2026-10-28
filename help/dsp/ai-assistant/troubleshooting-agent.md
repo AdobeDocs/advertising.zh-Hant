@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # 使用AI助理疑難排解效能和傳送問題
 
-
 *Beta功能*
+
+*僅支援英文*
 
 AI Assistant的疑難排解代理程式會識別限制即時套件和位置效能的因素，並根據歷史資料提供逐步指示和建議，以解決問題。 疑難排解代理程式可協助診斷下列型別的效能和傳送問題：
 

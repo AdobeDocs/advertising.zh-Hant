@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 3%
   + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Advertising DSP中的AI助理 {#ai-assistant}
   + [關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [使用AI助理產生可重複使用的對象](/help/dsp/ai-assistant/audience-builder-agent.md)
   + [使用AI助理建立報告](/help/dsp/ai-assistant/insights-agent.md)
   + [使用AI助理疑難排解效能和傳送問題](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [使用AI助理搜尋產品檔案](/help/dsp/ai-assistant/documentation-search.md)
