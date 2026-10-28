@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # 建立可重複使用的對象
@@ -42,6 +42,8 @@ ht-degree: 0%
 *Beta功能*
 
 *僅支援英文*
+
+為AI助理提供對象簡介，或說明您要在自然語言提示中包含或排除的對象特性。 在對象定義中，您可以調整最佳化條件、要包含的ID型別，以及要排除的第一方區段。 AI助理一旦將相符的受眾區段清單組合在一起，您就可以先調整區段清單，然後再儲存受眾。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ ht-degree: 0%
 
       您可以在一個提示中詢問多個問題，但一次只能詢問一個提示。 請等候回應，然後才能傳送另一個提示。
 
-      該側會開啟一個面板，其對象定義位於[!UICONTROL Step 1: Audience Definition]索引標籤中。 定義包含所有已定義的對象篩選器、最佳化准則，以及任何要排除的第一方區段。
+      該側會開啟一個面板，其對象定義位於[!UICONTROL Step 1: Audience Definition]索引標籤中。 定義包含所有已定義的對象篩選器、最佳化條件（包括裝置ID型別和要納入的通用ID型別），以及要排除的任何第一方區段。 如果您未指定限制，則區段會以針對最高容量進行最佳化為基礎，包括所有裝置型別ID和通用ID，以及所有第一方受眾。
 
       AI Assistant會在適用時，建議使用其他對象篩選器，協助您建立更有效的對象簡介。 您可以接受或拒絕建議。
 
-   1. （選擇性）若要排除任何第一方區段，請提示AI助理執行此動作，或在&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;區段中按一下![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取您要排除給對象的任何區段，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   1. （選用）調整對象定義：
 
-   1. （選用）視需要提交其他提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+      * 若要將&#x200B;*[!UICONTROL Highest volume]*&#x200B;到&#x200B;*[!UICONTROL Lowest cost]*&#x200B;之間的最佳化條件變更，請提示AI助理執行此動作，或按一下&#x200B;**[!UICONTROL Criteria]**&#x200B;旁的![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取條件，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 若要在包含所有ID型別（包含所有裝置型別ID型別和通用ID）和僅特定ID型別之間變更，請提示AI助理執行此動作，或按一下&#x200B;**[!UICONTROL ID type]**&#x200B;旁的![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取要包含的ID型別，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 若要排除您的任何第一方區段，請提示AI助理執行此動作，或在&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;區段中按一下![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取您要為對象排除的任何區段，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 視需要提交其他提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
 1. 當對象定義符合您的條件時，請指定要包含的區段：
 
@@ -97,7 +105,7 @@ ht-degree: 0%
 
       * 若要將所包含對象區段的區段ID複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy rule]**。
 
-      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![&#x200B; &#x200B;](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3&rbrace;]。**[!UICONTROL Apply]**
+      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![ ](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3}]。**[!UICONTROL Apply]**
 
 1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Save Audience]**&#x200B;以建立指定的對象。
 
@@ -110,6 +118,8 @@ ht-degree: 0%
 *Beta功能*
 
 *僅支援英文*
+
+向對象代理提供對象簡短或自然語言提示，說明您要包含和排除的對象特性。
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ ht-degree: 0%
    >[!NOTE]
    >
    >若要稍後編輯對象，請[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+### 撰寫提示並回應對象代理程式 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 編寫對象提示的准則
+
+* 使用清楚的描述性語言來說明目標對象。
+
+  * 您可以輸入完整的句子或特徵字串。 除非為清楚起見，否則不需要標點符號。
+
+  * 一般而言，提示不區分大小寫。
+
+  * 對象代理程式會辨識最常見的同義字。
+
+* 具體說明：
+
+  * 提供您要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 提供更多詳細資訊，有助於取得符合您需求的結果。
+
+  * 識別要包含或排除的位置、裝置型別和資料提供者。
+
+  在儲存對象之前，您一律可以編輯對象篩選器、最佳化條件、要排除的第一方區段和最終區段清單。 證明完整細節以開始縮短流程。
+
+* 在儲存對象之前，會反複提供詳細資訊，以調整您的條件和產生的對象運算式。
+
+* 對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域以外的[!UICONTROL Save Audience]或[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
+
+請參閱[建立對象簡介的最佳實務](#audience-brief-best-practices)，以取得最佳化對象提示的進一步方法。
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 提示限制
+
+* 現有對象的參考。
+
+* 英文以外的其他語言文字。
+
+#### 如何回應對象代理程式
+
+當對象代理程式需要您的回應時，您可以使用請求中的關鍵字或使用常見同義字進行回覆。
+
+##### 確認是否繼續
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+您的肯定回覆： 「繼續」、「確定」、「確定」、「是」或其他類似字詞
+
+您也可以忽略請求，改為繼續指定其他對象條件。
+
+##### 從建議的選項中選擇
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
+
+您也可以忽略請求，改為繼續指定其他對象條件。
 
 ### 建立對象簡介的最佳實務 {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ ht-degree: 0%
 以下範例是促銷活動的強大對象簡報，以提高知名度並試用優質餐具訂閱服務：
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### 撰寫提示並回應對象代理程式 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 編寫對象提示的准則
-
-* 使用清楚的描述性語言來說明目標對象。
-
-  * 您可以輸入完整的句子或特徵字串。 除非為清楚起見，否則不需要標點符號。
-
-  * 一般而言，提示不區分大小寫。
-
-  * 對象代理程式會辨識最常見的同義字。
-
-* 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 提供更多詳細資訊，有助於取得符合您需求的結果。
-
-* 識別要包含或排除的位置、裝置型別和資料提供者。
-
-* 在儲存對象之前，會反複提供詳細資訊，以調整您的條件和產生的對象運算式。
-
-* 瞭解透過實驗進行提示。
-
-  如果您的提示不清楚，對象代理會要求另一個提示，以便您重試。
-
-  對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域之外的[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
-
-請參閱[建立對象簡介的最佳實務](#audience-brief-best-practices)，以取得最佳化對象提示的進一步方法。
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 提示限制
-
-* 現有對象的參考。
-
-* 英文以外的其他語言文字。
-
-#### 如何回應對象代理程式
-
-當對象代理程式需要您的回應時，您可以使用請求中的關鍵字或使用常見同義字進行回覆。
-
-##### 確認是否繼續
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-您的肯定回覆： 「繼續」、「確定」、「確定」、「是」或其他類似字詞
-
-您也可以忽略請求，改為繼續指定其他對象條件。
-
-##### 從建議的選項中選擇
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
-
-您也可以忽略請求，改為繼續指定其他對象條件。
 
 ## 手動建立可重複使用的對象
 
