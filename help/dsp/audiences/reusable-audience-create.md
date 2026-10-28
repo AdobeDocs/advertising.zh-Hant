@@ -105,7 +105,7 @@ ht-degree: 0%
 
       * 若要將所包含對象區段的區段ID複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy rule]**。
 
-      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![ ](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3}]。**[!UICONTROL Apply]**
+      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![&#x200B; &#x200B;](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3&rbrace;]。**[!UICONTROL Apply]**
 
 1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Save Audience]**&#x200B;以建立指定的對象。
 
