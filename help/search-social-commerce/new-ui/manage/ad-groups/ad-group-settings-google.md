@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]廣告群組設定
@@ -109,7 +109,7 @@ ht-degree: 0%
 >* 當行銷活動層級[!UICONTROL Final URL expansion]設定為&#x200B;*已停用*&#x200B;時，[!DNL Google Ads]只會使用指定的URL作為廣告群組的動態登陸頁面。
 >* （具有釘選資產的回應式搜尋廣告）當此設定指定URL包含，當最終URL路由傳送到釘選副本不符合使用者意圖的登陸頁面時，[!DNL Google Ads]不會使用釘選資產。 若要一律使用釘選資產，請勿指定URL包含專案並停用行銷活動層級[!UICONTROL Final URL expansion]設定。
 
-**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）可能符合品牌相關查詢的帳戶品牌。 選取每個要包含的品牌清單旁的核取方塊。 此設定會覆寫行銷活動層級設定。
+**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）包含品牌相關查詢可能符合的品牌的品牌清單。 從[!DNL Google Ads]編輯器中為該帳戶設定的所有品牌清單清單清單中，選取要包含的每個品牌清單旁邊的核取方塊。 此設定會覆寫行銷活動層級設定。
 
 ## [!UICONTROL URL Options]索引標籤
 

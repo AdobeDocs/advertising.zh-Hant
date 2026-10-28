@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # 附錄 — [!DNL Google Ads]帳戶需要的大量表單資料
@@ -146,11 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 可識別現有產品群組的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有當您變更或刪除產品群組時才需要，除非該列包含a)足夠的屬性欄以識別產品群組或b) &quot;[!UICONTROL AMO ID]&quot;。 |
 | [!UICONTROL Sitelink ID] | 可識別現有網站連結的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除網站連結時才需要，除非該列包含a)足夠的屬性欄以識別網站連結或b) &quot;[!UICONTROL AMO ID]&quot;。 不過，如果您不包含[!UICONTROL Sitelink ID]或[!UICONTROL AMO ID]，而且屬性資料行符合多個網站連結，則只有其中一個網站連結的狀態會變更。</p><p><b>注意：</b>如果您編輯現有網站連結的Status以外的Sitelink屬性資料行，而且您既不包含[!UICONTROL Sitelink ID]也不包含[!UICONTROL AMO ID]，則會建立新的Sitelink，且不會變更現有的網站連結。 |
 | [!UICONTROL RLSA Target ID] | 可識別現有行銷活動或廣告群組層級RLSA目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須加上單引號(&#39;)。[^1]只有當您變更或刪除目標或排除專案時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
-| [!UICONTROL Device Target ID] | <p>可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。</p> |
-| [!UICONTROL Campaign Excluded URL ID] | 促銷活動之排除URL運算式的ID。 |
-| [!UICONTROL Ad Group Included URL ID] | 廣告群組包含的URL運算式的ID。 |
-| [!UICONTROL Campaign Brand Criterion ID] | 行銷活動品牌清單條件的ID。 |
-| [!UICONTROL Ad Group Brand Criterion ID] | 廣告群組品牌清單條件的ID。 |
+| [!UICONTROL Device Target ID] | 可識別現有行銷活動層級或廣告群組層級裝置目標或排除的唯一ID。 在CSV和TSV檔案中，它前面必須是單引號(&#39;)。[^1]只有在您變更或刪除目標時才需要，除非資料列包含目標的&quot;[!UICONTROL AMO ID]&quot;。 |
+| [!UICONTROL Campaign Excluded URL ID] | 識別促銷活動之排除URL的唯一ID。 只有在變更或刪除URL排除清單時才需要。 |
+| [!UICONTROL Ad Group Included URL ID] | 可識別廣告群組所包含URL的唯一ID。 只有在變更或刪除URL包含清單時才需要。 |
+| [!UICONTROL Campaign Brand Criterion ID] | （唯讀）可識別每個行銷活動品牌清單之條件的唯一ID。 [!DNL Google Ads]會在您新增品牌清單包含或排除專案後建立此ID。 請勿輸入或編輯值。 |
+| [!UICONTROL Ad Group Brand Criterion ID] | （唯讀）可識別每個廣告群組品牌清單條件的唯一ID。 [!DNL Google Ads]會在您新增品牌清單包含或排除專案後建立此ID。 請勿輸入或編輯值。 |
 | [!UICONTROL AMO ID] | （在產生的Bulksheets中）同步實體的Adobe產生的唯一識別碼。 對於回應式搜尋廣告，除非您包含廣告ID，否則編輯或刪除廣告時需要AMO ID。 若要編輯具有AMO ID之所有其他實體型別的資料，您必須有AMO ID才能編輯或刪除資料，除非您包含實體ID和父實體ID。<br><br>Search， Social， &amp; Commerce會使用值來決定要編輯的正確身分，但不會將ID張貼至廣告網路。 |
 | [!UICONTROL EF Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL EF Errors]個檔案中。 此值未發佈到廣告網路。 |
 | [!UICONTROL SE Error Message] | （包含在產生的大量表單中以供參考）顯示來自廣告網路的錯誤訊息的預留位置，這些訊息與資料列中的資料有關；錯誤訊息包含在[!UICONTROL SE Errors]個檔案中。 此值未發佈到廣告網路。 |

@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 0%
 ---
 # 關於Advertising DSP中的AI助理
@@ -36,7 +36,7 @@ DSP中的AI Assistant是對話式介面，可讓您從單一聊天方塊執行DS
 
 | 功能 | 說明 | 回應 |
 | --- | --- | --- |
-| [疑難排解](troubleshooting-agent.md) | （Beta功能）診斷即時套件和位置的效能和傳送問題。 | 回應包括限制效能的因素，並提供解決問題的建議。 |
+| [疑難排解](troubleshooting-agent.md) | （Beta功能）診斷即時套件和位置的效能和傳送問題。 | 回應包括限制效能的因素，並提供解決問題的逐步指示和建議。 |
 | [深入分析](insights-agent.md) | （Beta功能）取得行銷活動量度和完整報表，無需手動建立報表。 您可以將結果下載為CSV檔案。 | 會顯示報告的前幾列，其中包含預覽完整報告以及以[!DNL Microsoft Excel]逗號分隔值檔案(.csv)下載報告的連結。 |
 | [產品檔案搜尋](documentation-search.md) | 在[Advertising DSP指南](/help/dsp/home.md)中搜尋概念及作法內容，若為使用Advertising Creative的廣告商，則搜尋[Advertising Creative指南](/help/creative/home.md)。 | 回應包含內嵌引文和底部的可展開[!UICONTROL Documentation Sources]清單。 按一下任何引文或來源清單，開啟相關頁面。<br><br>回應可能也會包含後續問題與建議，以協助您調整查詢，並尋找更多資訊。 |
 

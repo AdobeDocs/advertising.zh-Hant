@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]行銷活動設定
@@ -251,9 +251,9 @@ ht-degree: 0%
 
 **[!UICONTROL URL exclusions]：** （已啟用[!DNL AI Max]、[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]的行銷活動） URL要排除為最終URL展開所產生之登入頁面。 您可以選擇在廣告群組層級新增URL *包含* （非排除）。 若要新增URL，請在輸入欄位中輸入URL或URL片段，然後按一下&#x200B;**+**。
 
-**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）可能符合品牌相關查詢的帳戶的品牌清單。 選取每個要包含的品牌清單旁的核取方塊。 您可以在廣告群組層級覆寫此設定。
+**[!UICONTROL Brand inclusions]：** （啟用[!DNL AI Max]的行銷活動）包含品牌相關查詢可能符合的品牌的品牌清單。 從[!DNL Google Ads]編輯器中為該帳戶設定的所有品牌清單清單清單中，選取要包含的每個品牌清單旁邊的核取方塊。 您可以在廣告群組層級覆寫此設定。
 
-**[!UICONTROL Brand exclusions]：** （啟用[!DNL AI Max]的行銷活動）與品牌相關查詢可能不符的帳戶的品牌清單。 選取每個要排除的品牌清單旁的核取方塊。
+**[!UICONTROL Brand exclusions]：** （啟用[!DNL AI Max]的行銷活動）包含品牌相關查詢可能不符合的品牌的品牌清單。 從[!DNL Google Ads]編輯器中為該帳戶設定的所有品牌清單清單清單中，選取每個要排除的品牌清單旁邊的核取方塊。
 
 ## [!UICONTROL Additional Campaign Information]索引標籤
 
