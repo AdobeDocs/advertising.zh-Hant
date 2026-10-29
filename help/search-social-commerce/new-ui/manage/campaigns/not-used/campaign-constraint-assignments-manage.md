@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b2f949c9590a2cefa9da8a46967747c52131854b
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -104,6 +104,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [&#x200B; （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [&#x200B; （新UI）管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)的限制指派
->* [&#x200B; （新UI）管理位置](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)的限制指派
+>* [ （新UI）管理廣告群組的限制指派](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [ （新UI）管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)的限制指派
+>* [ （新UI）管理位置](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)的限制指派
