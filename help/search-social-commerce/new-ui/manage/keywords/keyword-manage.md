@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # 管理關鍵字
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**&#x200B;並變更實體和/或關鍵字設定。
+1. 檢閱設定。 若要變更任何設定，請按一下適用區段中的![編輯](/help/search-social-commerce/assets/edit-new.png "編輯") **[!UICONTROL Edit]**，然後變更設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯]。![](/help/search-social-commerce/assets/edit-new.png "[編輯]。")**[!UICONTROL Edit]**，然後變更關鍵字設定。
+1. 檢閱設定。 若要變更任何設定，請按一下適用區段中的![編輯](/help/search-social-commerce/assets/edit-new.png "編輯") **[!UICONTROL Edit]**，然後變更設定。
 
 1. 按一下&#x200B;**[!UICONTROL Update]**。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更實體和/或負面的關鍵字。
+1. 檢閱設定。 若要變更任何設定，請按一下適用區段中的![編輯](/help/search-social-commerce/assets/edit-new.png "編輯") **[!UICONTROL Edit]**，然後變更設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 

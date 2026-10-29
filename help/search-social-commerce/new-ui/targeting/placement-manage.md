@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # 管理版位
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**&#x200B;並變更實體和/或位置設定。
+1. 檢閱設定。 若要變更任何設定，請按一下適用區段中的![編輯](/help/search-social-commerce/assets/edit-new.png "編輯") **[!UICONTROL Edit]**，然後變更設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更實體和/或負面的網站URL。
+1. 檢閱設定。 若要變更任何設定，請按一下適用區段中的![編輯](/help/search-social-commerce/assets/edit-new.png "編輯") **[!UICONTROL Edit]**，然後變更設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
