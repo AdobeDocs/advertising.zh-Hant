@@ -3,10 +3,13 @@ title: Creative Studio中的C2PA中繼資料
 description: 瞭解C2PA中繼資料如何自動附加至在Creative Studio中使用產生AI產生或編輯的內容。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
 source-wordcount: 432

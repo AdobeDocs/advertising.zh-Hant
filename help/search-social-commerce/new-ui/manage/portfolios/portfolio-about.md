@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # （新UI）關於投資組合
@@ -75,12 +75,7 @@ ht-degree: 0%
 
 [!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合。
 
-在資料表格上方，您可以開啟效能圖表，其中最多包含三個合計檢視表內指定日期範圍內所有投資組合的量度。 您也可以開啟產品組合詳細資訊，包括產品組合績效和準確性，以及產品組合中每個行銷活動、廣告群組和關鍵字的績效資料。
-
-您可以直接在投資組合列中編輯某些設定，包括投資組合狀態。 當產品組合或其關聯的行銷活動和子行銷活動實體設定了任何影響支出的限制（包括網路、行銷活動預算、目標、CPC限制或競標單位限制）時，請按一下[!UICONTROL Constraints]欄中的[!UICONTROL Yes]檢視所有限制的清單，包括限制層級和型別。
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### 可用動作
+### 可用動作 {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ ht-degree: 0%
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [建立投資組合](portfolio-create.md)
 
 * [複製投資組合](portfolio-duplicate.md)
 
-* [編輯投資組合設定](portfolio-edit.md)
+* 編輯設定：
 
-* [使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
+  * [重新命名投資組合](portfolio-rename.md)
+
+  * [編輯完整的投資組合設定](portfolio-edit.md)
+
+  * 直接在投資組合列中編輯一些設定，包括投資組合狀態。
+
+  * [使用大量工作表檔案大量編輯投資組合設定](portfolio-bulksheets.md)
+
+* 深入研究產品組合中包含的廣告網路、帳戶、行銷活動、廣告群組和廣告，並選擇性地深入研究所包含行銷活動的關鍵字。 若要開始，請按一下投資組合名稱。 資訊會先由已篩選的[!UICONTROL Networks]檢視中的廣告網路列出。 按一下廣告網路以檢視已篩選[!UICONTROL Accounts]檢視中包含的帳戶，按一下帳戶以檢視已篩選[!UICONTROL Campaigns]檢視中的行銷活動，以此類推。
+
+  若要從篩選的[!UICONTROL Campaigns]檢視開啟[!UICONTROL Keywords]檢視中的關鍵字清單，請按一下[!UICONTROL Keywords]欄中的值。
+
+* 開啟投資組合的所有限制清單，包括限制層次和型別。 若要檢視限制清單，請按一下[!UICONTROL Constraints]欄中的[!UICONTROL Yes]。 當產品組合或其關聯的行銷活動和子行銷活動實體設定了影響支出的任何限制（包括網路、行銷活動預算、目標、CPC限制或競標單位限制）時，此選項可供使用。
 
 * [檢視檢視中所有產品組合的效能圖表](portfolio-view-performance-graph.md)
 
 * [檢視投資組合績效詳細資料](portfolio-details.md)
 
-* [在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+* [檢視投資組合的變更記錄](portfolio-view-change-history.md)
+
+* [下載[!UICONTROL Portfolios]檢視中的資料](portfolio-view-report.md)
+
+* [將投資組合新增至投資組合群組並管理投資組合群組](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >

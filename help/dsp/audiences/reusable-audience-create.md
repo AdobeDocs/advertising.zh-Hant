@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # 建立可重複使用的對象
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以儲存和管理可重複使用的受眾，即受眾區段群組（包括任何您可用的第一方和第三方區段），甚至是其他儲存的受眾。 您可以使用對象作為多個位置的目標或排除專案。
+您可以儲存和管理可重複使用的對象，這些對象是您可以當作多個位置的目標或排除對象的對象區段群組。 可重複使用的受眾可包含任何您可用的第一方和第三方區段，甚至包括其他儲存的受眾。
 
 在統一的[AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)或[!UICONTROL Audiences] > [!UICONTROL All Audiences]檢視中使用AI輔助對象代理程式建立對象，或手動建立對象。
 
@@ -35,11 +35,15 @@ ht-degree: 0%
 >
 >（DSP將其雜湊電子郵件ID轉換為LiveRamp RampID區段的廣告商）未附加至使用中、已排程或暫停位置的第一方RampID區段會暫停。 該區段在區段清單中記錄為「自動暫停」。
 
-## 使用具有AI助理的產生AI建立可重複使用的對象
+## 使用產生AI產生可重複使用的對象
+
+### 使用AI助理建立可重複使用的對象
 
 *Beta功能*
 
 *僅支援英文*
+
+為AI助理提供對象簡介，或說明您要在自然語言提示中包含或排除的對象特性。 在對象定義中，您可以調整最佳化條件、要包含的ID型別，以及要排除的第一方區段。 AI助理一旦將相符的受眾區段清單組合在一起，您就可以先調整區段清單，然後再儲存受眾。
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -69,19 +73,25 @@ ht-degree: 0%
 
            1. （選用）編輯文字以符合您的需求。
 
-      請參閱[撰寫提示的基本知識](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
+      請參閱&quot;[撰寫提示並回應對象代理程式](#writing-prompts)&quot;和&quot;[建立對象簡介的最佳實務](#audience-brief-best-practices)&quot;。
 
    1. 若要送出提示，請按一下![送出提示](/help/dsp/assets/submit-prompt.png "送出提示")。
 
       您可以在一個提示中詢問多個問題，但一次只能詢問一個提示。 請等候回應，然後才能傳送另一個提示。
 
-      該側會開啟一個面板，其對象定義位於[!UICONTROL Step 1: Audience Definition]索引標籤中。 定義包含所有已定義的對象篩選器、最佳化准則，以及任何要排除的第一方區段。
+      該側會開啟一個面板，其對象定義位於[!UICONTROL Step 1: Audience Definition]索引標籤中。 定義包含所有已定義的對象篩選器、最佳化條件（包括裝置ID型別和要納入的通用ID型別），以及要排除的任何第一方區段。 如果您未指定限制，則區段會以針對最高容量進行最佳化為基礎，包括所有裝置型別ID和通用ID，以及所有第一方受眾。
 
       AI Assistant會在適用時，建議使用其他對象篩選器，協助您建立更有效的對象簡介。 您可以接受或拒絕建議。
 
-   1. （選擇性）若要排除任何第一方區段，請提示AI助理執行此動作，或在&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;區段中按一下![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取您要排除給對象的任何區段，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   1. （選用）調整對象定義：
 
-   1. （選用）視需要提交其他提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
+      * 若要將&#x200B;*[!UICONTROL Highest volume]*&#x200B;到&#x200B;*[!UICONTROL Lowest cost]*&#x200B;之間的最佳化條件變更，請提示AI助理執行此動作，或按一下&#x200B;**[!UICONTROL Criteria]**&#x200B;旁的![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取條件，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 若要在包含所有ID型別（包含所有裝置型別ID型別和通用ID）和僅特定ID型別之間變更，請提示AI助理執行此動作，或按一下&#x200B;**[!UICONTROL ID type]**&#x200B;旁的![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取要包含的ID型別，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 若要排除您的任何第一方區段，請提示AI助理執行此動作，或在&#x200B;**[!UICONTROL First-party segments to exclude]**&#x200B;區段中按一下![編輯](/help/dsp/assets/edit-ai.png "編輯")，選取您要為對象排除的任何區段，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+      * 視需要提交其他提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
 1. 當對象定義符合您的條件時，請指定要包含的區段：
 
@@ -103,11 +113,13 @@ ht-degree: 0%
    >
    >若要稍後編輯對象，請[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
 
-## 從[!UICONTROL Audiences] > [!UICONTROL All audiences]檢視，使用產生AI建立可重複使用的對象
+### 從[!UICONTROL Audiences] > [!UICONTROL All audiences]檢視使用對象代理程式建立可重複使用的對象
 
 *Beta功能*
 
 *僅支援英文*
+
+向對象代理提供對象簡短或自然語言提示，說明您要包含和排除的對象特性。
 
 >[!NOTE]
 >
@@ -133,7 +145,7 @@ ht-degree: 0%
 
    1. 輸入一或多個提示，說明您要包含和排除的對象特性。 若要提交每個提示，請按一下![提交提示](/help/dsp/assets/submit-prompt.png "提交提示")。
 
-      如需詳細資訊，請參閱[撰寫提示](#writing-prompts)和[建立對象簡介的最佳實務](#audience-brief-best-practices)。
+      如需詳細資訊，請參閱&quot;[撰寫提示並回應對象代理程式](#writing-prompts)&quot;以及&quot;[建立對象簡介的最佳實務](#audience-brief-best-practices)&quot;。
 
       在適用時，代理程式會建議使用其他區段篩選器，協助您建立更有效的對象簡報。 您可以接受或拒絕建議。
 
@@ -152,6 +164,128 @@ ht-degree: 0%
    >[!NOTE]
    >
    >若要稍後編輯對象，請[手動編輯對象運算式](/help/dsp/audiences/reusable-audience-edit.md)。
+
+### 撰寫提示並回應對象代理程式 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 編寫對象提示的准則
+
+* 使用清楚的描述性語言來說明目標對象。
+
+  * 您可以輸入完整的句子或特徵字串。 除非為清楚起見，否則不需要標點符號。
+
+  * 一般而言，提示不區分大小寫。
+
+  * 對象代理程式會辨識最常見的同義字。
+
+* 具體說明：
+
+  * 提供您要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 提供更多詳細資訊，有助於取得符合您需求的結果。
+
+  * 識別要包含或排除的位置、裝置型別和資料提供者。
+
+  在儲存對象之前，您一律可以編輯對象篩選器、最佳化條件、要排除的第一方區段和最終區段清單。 證明完整細節以開始縮短流程。
+
+* 在儲存對象之前，會反複提供詳細資訊，以調整您的條件和產生的對象運算式。
+
+* 對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域以外的[!UICONTROL Save Audience]或[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
+
+請參閱[建立對象簡介的最佳實務](#audience-brief-best-practices)，以取得最佳化對象提示的進一步方法。
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 提示限制
+
+* 現有對象的參考。
+
+* 英文以外的其他語言文字。
+
+#### 如何回應對象代理程式
+
+當對象代理程式需要您的回應時，您可以使用請求中的關鍵字或使用常見同義字進行回覆。
+
+##### 確認是否繼續
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+您的肯定回覆： 「繼續」、「確定」、「確定」、「是」或其他類似字詞
+
+您也可以忽略請求，改為繼續指定其他對象條件。
+
+##### 從建議的選項中選擇
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
+
+您也可以忽略請求，改為繼續指定其他對象條件。
+
+### 建立對象簡介的最佳實務 {#audience-brief-best-practices}
+
+對象摘要是定義行銷活動目標對象的策略性寫入。 精心設計的摘要可協助DSP受眾代理程式識別最相關的區段，以組合您的目標受眾。
+
+#### 有效受眾簡報的元件
+
+在您的簡介中儘可能加入以下清單中的對象屬性型別。 指定有關要排除的屬性的特定資訊。
+
+<!--
+ What about these:
+
+* Device specifications
+* Presence in audiences from specific third-party data providers
+* Presence of a universal ID
+* Target cost per thousand (CPM) impressions or a total target cost
+
+-->
+
+* **人口統計**
+
+  包括年齡範圍、性別認同、婚姻狀況、家庭組成（家庭規模、子女的存在、多代家庭）等屬性。
+
+* **社會經濟指標**
+
+  透過家庭收入(HHI)等級、教育程度、職業/職稱、就業狀況以及房屋擁有狀況來建立財務能力。
+
+* **地理引數**
+
+  定義包括國家/地區、區域（歐洲、中東和非洲、亞太及北美）、人口密度（城市/郊區/農村）的位置範圍。
+
+* **興趣和喜好程度**
+
+  識別嗜好（運動、藝術、戶外活動）、媒體消費模式、品牌喜好和生活方式活動（旅遊、餐飲、娛樂）等激情和偏好設定。
+
+* **心理圖形**
+
+  擷取心態和價值，包括抱負（追求地位、自我改善）、核心價值（可持續性、創新、傳統）、性格特徵（冒險者、早期採用者）和購買動機。
+
+* **行為訊號**
+
+  可觀察的動作包括購買行為（購物頻率、管道偏好設定、品牌忠誠度）、線上行為（網站造訪、內容參與、社群媒體活動）和離線行為（商店造訪、事件出席、會籍）。
+
+* **市場內意圖**
+
+  透過正在研究的產品/服務類別、購買時間表（即時、近期、長期）以及觸發購買決策的相關生命週期事件，識別購買整備程度。
+
+* **生命階段**
+
+  目前階段的瞭解包括事業階段（學生、入門級、職業生涯中期、主管、已退休）、家庭階段（新婚、新父母、空巢家庭）和主要的人生轉變。
+
+#### 適用於潛在客戶行銷活動的結構良好的對象簡介範例
+
+以下範例是促銷活動的強大對象簡報，以提高知名度並試用優質餐具訂閱服務：
+
+`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 ## 手動建立可重複使用的對象
 
@@ -226,128 +360,6 @@ ht-degree: 0%
         >如果對象已包含任何區段邏輯，則貼入新區段邏輯會覆寫現有邏輯。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
-
-### 寫入提示的基本知識 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 編寫對象提示的准則
-
-* 使用清楚的描述性語言來說明目標對象。
-
-  * 您可以輸入完整的句子或特徵字串。 除非為清楚起見，否則不需要標點符號。
-
-  * 一般而言，提示不區分大小寫。
-
-  * 對象代理程式會辨識最常見的同義字。
-
-* 提供您想要包含的所有對象特性，以及您明確想要排除的任何特性的詳細資訊。 提供更多詳細資訊，有助於取得符合您需求的結果。
-
-* 識別要包含或排除的位置、裝置型別和資料提供者。
-
-* 在儲存對象之前，會反複提供詳細資訊，以調整您的條件和產生的對象運算式。
-
-* 瞭解透過實驗進行提示。
-
-  如果您的提示不清楚，對象代理會要求另一個提示，以便您重試。
-
-  對象代理程式不會自動將產生的對象運算式儲存為對象。 您只能按一下提示區域之外的[!UICONTROL Create]按鈕來儲存對象，這樣您就可以復原不想保留的任何變更。
-
-請參閱[建立對象簡介的最佳實務](#audience-brief-best-practices)，以取得最佳化對象提示的進一步方法。
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 您無法在提示中包含哪些內容？
-
-* 現有對象運算式的參考。
-
-* 英文以外的其他語言文字。
-
-#### 對象代理程式回應範例及回覆方式
-
-當對象代理程式需要您的回應時，您可以使用請求中的關鍵字或使用常見同義字進行回覆。
-
-#### Audience Agent詢問您問題
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-您的肯定回覆： 「繼續」、「確定」、「確定」、「是」或其他類似字詞
-
-您也可以忽略請求，改為繼續指定其他對象條件。
-
-##### 受眾代理程式會要求您從多個選項中選擇
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-您的回覆： `1`、`proceed`、`2`、`maximum reach`等。
-
-您也可以忽略請求，改為繼續指定其他對象條件。
-
-### 建立對象簡介的最佳實務 {#audience-brief-best-practices}
-
-對象摘要是定義行銷活動目標對象的策略性寫入。 精心設計的摘要可協助DSP受眾代理程式識別最相關的區段，以組合您的目標受眾。
-
-#### 有效受眾簡介的重要元件
-
-在您的簡介中儘可能加入以下清單中的對象屬性型別。 指定有關要排除的屬性的特定資訊。
-
-<!--
- What about these:
-
-* Device specifications
-* Presence in audiences from specific third-party data providers
-* Presence of a universal ID
-* Target cost per thousand (CPM) impressions or a total target cost
-
--->
-
-* **人口統計**
-
-  包括年齡範圍、性別認同、婚姻狀況、家庭組成（家庭規模、子女的存在、多代家庭）等屬性。
-
-* **社會經濟指標**
-
-  透過家庭收入(HHI)等級、教育程度、職業/職稱、就業狀況以及房屋擁有狀況來建立財務能力。
-
-* **地理引數**
-
-  定義包括國家/地區、區域（歐洲、中東和非洲、亞太及北美）、人口密度（城市/郊區/農村）的位置範圍。
-
-* **興趣和喜好程度**
-
-  識別嗜好（運動、藝術、戶外活動）、媒體消費模式、品牌喜好和生活方式活動（旅遊、餐飲、娛樂）等激情和偏好設定。
-
-* **心理圖形**
-
-  擷取心態和價值，包括抱負（追求地位、自我改善）、核心價值（可持續性、創新、傳統）、性格特徵（冒險者、早期採用者）和購買動機。
-
-* **行為訊號**
-
-  可觀察的動作包括購買行為（購物頻率、管道偏好設定、品牌忠誠度）、線上行為（網站造訪、內容參與、社群媒體活動）和離線行為（商店造訪、事件出席、會籍）。
-
-* **市場內意圖**
-
-  透過正在研究的產品/服務類別、購買時間表（即時、近期、長期）以及觸發購買決策的相關生命週期事件，識別購買整備程度。
-
-* **生命階段**
-
-  目前階段的瞭解包括事業階段（學生、入門級、職業生涯中期、主管、已退休）、家庭階段（新婚、新父母、空巢家庭）和主要的人生轉變。
-
-#### 適用於潛在客戶行銷活動的結構良好的對象簡介範例
-
-以下範例是促銷活動的強大對象簡報，以提高知名度並試用優質餐具訂閱服務：
-
-`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >

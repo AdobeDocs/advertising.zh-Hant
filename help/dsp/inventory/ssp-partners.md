@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # SSP合作夥伴
@@ -40,7 +40,7 @@ ht-degree: 3%
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG支援 | 全域 | USD，歐元，英鎊 | 音訊桌上型電腦與行動裝置 |
 | [!DNL Cadent] | [!DNL Cadent] （先前為[!DNL EMX Digital]） | Adobe Advertising | — | US/CA | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul]或Adobe Advertising | — | 美國+ EMEA | USD，歐元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
-| [!DNL Equativ] | [!DNL Equativ] （先前為[!DNL Smart AdServer]） | [!DNL TubeMogul]或Adobe Advertising | — | EMEA | USD，歐元 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦和行動裝置 |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | USD | 顯示桌上型電腦和行動裝置<br><br>原生顯示器<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul]或Adobe Advertising | PG支援 | 全域 | USD、歐元、澳元、英鎊 | 視訊案頭、行動裝置和CTV |
 | [!DNL Google Authorized Buyers] （先前為[!DNL Google AdX]） | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC和EU - 89185975 | PG支援 | 全域 | USD， BRL | 音訊桌上型電腦和行動裝置<br><br>顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和電視 |
 | [!DNL GumGum] |  | Adobe Advertising | — | 全域 | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦和行動裝置 |
@@ -51,7 +51,6 @@ ht-degree: 3%
 | [!DNL Nexxen] | [!DNL Nexxen] （先前為[!DNL Unruly]） | Adobe Advertising | — | 美國+ EMEA | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul]或Adobe Advertising | PG支援 | 全域 | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul]或Adobe Advertising | — | 全域 | USD | 顯示桌上型電腦和行動裝置<br><br>原生顯示器<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | 所有貨幣 | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | 視訊桌上型電腦與行動裝置 |
 | [!DNL Teads] |  | [!DNL TubeMogul]或Adobe Advertising | — | 輸出視訊=全域<br>顯示= NA + EMEA | USD | 顯示桌上型電腦和行動裝置<br><br>視訊桌上型電腦、行動裝置和CTV |

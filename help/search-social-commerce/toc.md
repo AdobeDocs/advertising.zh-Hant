@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2409'
 ht-degree: 2%
 ---
 # Advertising Search, Social, &amp; Commerce 指南 {#search-social-commerce}
@@ -132,8 +132,13 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising]個回應式搜尋廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex]文字廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
     + 關鍵字 {#keywords}
-      + [關於[!UICONTROL Keywords]檢視](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
-      + [管理關鍵字的限制指派](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+      + [管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md)
+      + 依廣告網路區分的關鍵字設定 {#keyword-settings-by-network}
+        + [[!DNL Baidu]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-baidu.md)
+        + [[!DNL Google Ads]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-google.md)
+        + [[!DNL LY Ads]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-microsoft.md)
+        + [[!DNL Yandex]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [管理購物產品群組](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 報表 {#reports}
     + 排程報告 {#scheduled}
@@ -250,9 +255,7 @@ ht-degree: 2%
     + [管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + 目標定位 {#targeting}
     + [管理 [!DNL Google Ads] 動態搜尋目標](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
-    + 版位 {#placements}
-      + [關於[!UICONTROL Placements]檢視](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
-      + [管理位置的限制指派](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+    + [管理版位](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + 資料庫 {#library}
     + [檢視和建立創意資產](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [管理自訂警報](/help/search-social-commerce/new-ui/alerts-manage.md)
@@ -377,9 +380,9 @@ ht-degree: 2%
           + [從Adobe Campaign電子郵件清單建立 [!DNL Google Ads] 客戶比對對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
           + [使用客戶資料清單管理客戶比對受眾](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
           + [管理動態再行銷對象](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
-          + 對象目標和排除專案 {#audience-targets}
-            + [管理行銷活動和廣告群組的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-            + [管理行銷活動和廣告群組的對象排除](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+        + 對象目標和排除專案 {#audience-targets}
+          + [管理行銷活動和廣告群組的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+          + [管理行銷活動和廣告群組的對象排除](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + 廣告擴充功能 {#ad-extensions}
         + [!DNL Google Ads]圖說文字延伸 {#callouts}
           + [關於 [!DNL Google Ads] 圖說文字延伸](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)

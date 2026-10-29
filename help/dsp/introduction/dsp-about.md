@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 ---
 # 關於Adobe Advertising DSP
@@ -43,7 +43,7 @@ Adobe Advertising DSP (DSP)透過進階的第一方資料細分和啟動功能�
 
 * [**具有[!DNL Roku]**](/help/dsp/inventory/roku-inventory.md)的Premiere連線電視體驗： [!DNL Roku]與DSP具有獨特的合作關係，可讓您在[!DNL Roku]詳細目錄中啟用您的第一方和第三方資料，以有效率地大規模觸及大熒幕上的對象。 透過利用唯一一個能夠與[!DNL Roku] ID同步的平台，行銷人員就可以利用精確度和精確度的確定性1:1目標定位，以及存取[!DNL Roku]詳細目錄和獨特的測量深入分析。
 
-* [**AI輔助功能**](/help/dsp/introduction/features/ai-agents.md)： DSP提供AI輔助代理程式，協助您建立可重複使用的對象，並尋找產品使用指示和最佳實務。
+* [**AI輔助功能**](/help/dsp/introduction/features/ai-agents.md)： DSP提供AI輔助代理程式，包括統一的AI助理，協助您建立可重複使用的對象、產生報表、疑難排解效能，以及尋找產品使用指示和最佳實務。
 
 >[!MORELIKETHIS]
 >
