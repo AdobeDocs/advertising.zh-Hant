@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**&#x200B;並變更實體和/或關鍵字設定。
+1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**&#x200B;並變更實體和/或關鍵字設定。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Review and Save]**。
 
-1. 如有必要，請按一下[編輯] ![ ](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更實體和/或負面的關鍵字。
+1. 如有必要，請按一下[編輯] ![&#x200B; &#x200B;](/help/search-social-commerce/assets/edit-new.png " [編輯] ") **[!UICONTROL Edit]**，然後變更實體和/或負面的關鍵字。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 

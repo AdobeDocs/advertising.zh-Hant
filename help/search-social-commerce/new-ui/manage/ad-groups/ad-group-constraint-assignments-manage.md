@@ -97,6 +97,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [ （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
->* [ （新UI）管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)的限制指派
->* [ （新UI）管理位置](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)的限制指派
+>* [&#x200B; （新UI）管理行銷活動的限制指派](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
+>* [&#x200B; （新UI）管理關鍵字](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)的限制指派
+>* [&#x200B; （新UI）管理位置](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)的限制指派
