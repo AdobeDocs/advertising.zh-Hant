@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 2%
@@ -27,10 +27,10 @@ ht-degree: 2%
   + [支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)
   + 與Adobe CX Enterprise整合 {#integrations}
     + [與Adobe CX Enterprise解決方案和服務整合](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant){target="_blank"}
-    + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=zh-Hant){target="_blank"}
-  + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-  + [原則和指導方針（連結）](https://experienceleague.adobe.com/zh-hant/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] （連結）](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+    + [與Adobe Audience Manager整合（連結）](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+  + [支援消費者隱私權（連結）](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [原則和指導方針（連結）](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 快速入門 {#getting-started}
   + [實施概述](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [系統需求](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -208,8 +208,8 @@ ht-degree: 2%
           + [模型精度報表設定](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
       + [管理報表範本](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
       + [以FTP存取報表](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-      + [歸因規則的計算方式](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-      + [自訂報表常見問題集](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [歸因規則的計算方式](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+      + [自訂報表常見問題集](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [管理試算表報表摘要](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [檢視變更記錄檔](/help/search-social-commerce/new-ui/reports/history-logs.md)
   + 計畫 {#plan}
@@ -269,21 +269,21 @@ ht-degree: 2%
     + 點選追蹤URL的元件 {#click-tracking-components}
       + 點選追蹤URL的標準格式 {#click-tracking-formats}
         + [關於點選追蹤URL格式](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-        + [&#x200B; [!DNL Baidu]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
-        + [&#x200B; [!DNL Google Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
-        + [&#x200B; [!DNL LY Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
-        + [&#x200B; [!DNL Microsoft Advertising]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
-        + [&#x200B; [!DNL Naver]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-        + [&#x200B; [!DNL Yahoo DSP]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-        + [&#x200B; [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
+        + [ [!DNL Baidu]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
+        + [ [!DNL Google Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+        + [ [!DNL LY Ads]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
+        + [ [!DNL Microsoft Advertising]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
+        + [ [!DNL Naver]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+        + [ [!DNL Yahoo DSP]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+        + [ [!DNL Yandex]的點選追蹤格式](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [點選追蹤URL的選用追蹤引數](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=zh-Hant){target="_blank"}
+    + [Adobe Advertising Cookie （連結）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
     + [AMO ID (s_kwcid)追蹤引數](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + 轉換追蹤 {#conversion-tracking}
     + [轉換追蹤選項](/help/search-social-commerce/tracking/conversion-tracking-about.md)
     + Adobe Advertising轉換追蹤 {#advertising-conversion-tracking}
       + [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-      + [產生和實作Adobe Advertising轉換標籤](https://experienceleague.adobe.com/zh-hant/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+      + [產生和實作Adobe Advertising轉換標籤](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
       + [JavaScript轉換追蹤標籤第3版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
       + [JavaScript轉換追蹤標籤第2版的格式](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
       + [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -380,9 +380,9 @@ ht-degree: 2%
           + [從Adobe Campaign電子郵件清單建立 [!DNL Google Ads] 客戶比對對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
           + [使用客戶資料清單管理客戶比對受眾](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
           + [管理動態再行銷對象](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
-          + 對象目標和排除專案 {#audience-targets}
-            + [管理行銷活動和廣告群組的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-            + [管理行銷活動和廣告群組的對象排除](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+        + 對象目標和排除專案 {#audience-targets}
+          + [管理行銷活動和廣告群組的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+          + [管理行銷活動和廣告群組的對象排除](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + 廣告擴充功能 {#ad-extensions}
         + [!DNL Google Ads]圖說文字延伸 {#callouts}
           + [關於 [!DNL Google Ads] 圖說文字延伸](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
@@ -407,13 +407,13 @@ ht-degree: 2%
       + 大量表單中的必要/包含資料{#bulksheet-data-formats}
         + [支援的大量表單檔案格式](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
         + [可在大量表單中執行的作業](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-        + [&#x200B; [!DNL Baidu] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-        + [&#x200B; [!DNL Google Ads] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-        + [&#x200B; [!DNL LY Ads] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-        + [&#x200B; [!DNL Microsoft Advertising] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-        + [&#x200B; [!DNL Naver] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-        + [&#x200B; [!DNL Yahoo DSP] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-        + [&#x200B; [!DNL Yandex] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+        + [ [!DNL Baidu] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+        + [ [!DNL Google Ads] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+        + [ [!DNL LY Ads] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+        + [ [!DNL Microsoft Advertising] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+        + [ [!DNL Naver] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+        + [ [!DNL Yahoo DSP] 帳戶的Bulksheet資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+        + [ [!DNL Yandex] 帳戶必要的大量表單資料](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
     + 使用詳細目錄摘要自動化行銷活動資料 {#inventory-feeds}
       + [關於使用庫存摘要自動化廣告管理](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
       + [清查摘要何時建立或刪除帳戶元件？](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
@@ -591,7 +591,7 @@ ht-degree: 2%
     + [啟用上傳目標至廣告網路](/help/search-social-commerce/tools/objective-upload-to-networks.md)
   + 正在上傳[!DNL Naver]個僅限追蹤帳戶的量度 {#generic-tracking}
     + [上傳 [!DNL Naver] 僅限追蹤帳戶的流量和轉換量度](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-    + [&#x200B; [!DNL Naver] 僅追蹤帳戶的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+    + [ [!DNL Naver] 僅追蹤帳戶的量度資料需求](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
   + [啟用其他清查同步處理](/help/search-social-commerce/tools/sync-inventory.md)
   + [復寫 [!DNL Microsoft Advertising]中的 [!DNL Google Ads] 個行銷活動](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 管理 {#admin}
