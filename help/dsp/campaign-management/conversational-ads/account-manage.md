@@ -27,7 +27,7 @@ ht-degree: 0%
 
 下列專案決定此功能的適用性：
 
-* **現有[!DNL Search, Social, & Commerce]客戶：**&#x200B;如果您的廣告商已使用[!DNL Search, Social, & Commerce]，請在「搜尋」、「社交」和「Commerce」](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)中[建立及管理其 [!DNL ChatGPT Ads] 行銷活動，而非DSP。
+* **現有[!DNL Search, Social, & Commerce]客戶：**&#x200B;如果您的廣告商已使用[!DNL Search, Social, & Commerce]，請在「搜尋」、「社交」和「Commerce」[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)中建立及管理其 [!DNL ChatGPT Ads] 行銷活動，而非DSP。
 
 * **受限產業：**&#x200B;受限類別（例如金融或醫療保健）中的廣告商無法建立對話式廣告帳戶或行銷活動。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 帳單
 
-您使用DSP帳戶的計費貨幣和計費時區（不論 [!DNL ChatGPT Ads] 帳戶](#account-settings)使用的[貨幣和時區為何），在月底您的其他發票上已針對[!DNL ChatGPT Ads]使用情況計費。 如有計費問題，請聯絡您的Adobe客戶團隊。
+您使用DSP帳戶的計費貨幣和計費時區（不論 [!DNL ChatGPT Ads] 帳戶[&#128279;](#account-settings)使用的貨幣和時區為何），在月底您的其他發票上已針對[!DNL ChatGPT Ads]使用情況計費。 如有計費問題，請聯絡您的Adobe客戶團隊。
 
 ## [!UICONTROL Conversational Ads Beta] > [!UICONTROL Accounts]檢視 {#accounts-view}
 
