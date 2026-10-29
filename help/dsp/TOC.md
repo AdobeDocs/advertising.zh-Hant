@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告多媒體廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 0c921637cc45ba017c04daac2a19f3aea3d56759
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
     + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
   + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
   + [支援的貨幣](/help/dsp/currency.md)
-  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
-  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant)
+  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Advertising DSP中的AI助理 {#ai-assistant}
   + [關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)
@@ -81,7 +81,7 @@ ht-degree: 3%
     + [使用大量表單檢閱和編輯廣告詳細資料](/help/dsp/campaign-management/ads/ad-qa.md)
     + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
     + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=zh-Hant)
+    + [附加及移除刊登版位的廣告](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [列出與廣告相關的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [檢視廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [暫停或啟用廣告](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -111,7 +111,7 @@ ht-degree: 3%
   + [通用視訊常見問題集](/help/dsp/campaign-management/faq-universal-video.md)
 + 對話式廣告(Beta) {#conversational-ads}
   + [管理 [!DNL ChatGPT] 對話式廣告帳戶](/help/dsp/campaign-management/conversational-ads/account-manage.md)
-  + [管理 [!DNL ChatGPT] 對話式廣告行銷活動](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
+  + [管理 [!DNL ChatGPT] 對話式廣告行銷活動、廣告群組和廣告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + 最佳化 {#optimization}
   + [Advertising DSP如何最佳化您的行銷活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [最佳化目標及使用方式](/help/dsp/optimization/optimization-goals.md)
@@ -243,9 +243,9 @@ ht-degree: 3%
   + 通知 {#notifications}
     + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
     + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterprise的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=zh-Hant)
++ [Adobe CX Enterprise的整合](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [取得協助](/help/dsp/get-help.md)
-+ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
++ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
