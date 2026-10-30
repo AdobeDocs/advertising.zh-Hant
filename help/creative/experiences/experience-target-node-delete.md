@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # 刪除體驗中的目標節點或創意葉節點
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 您可以刪除目標節點，包括所有子目標以及指派給它們的創意組合。 您也可以刪除創意葉節點。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI導向編輯器(Beta) {#ai-editor}
+
+當您[建立](experience-create-targeting.md#ai-editor)或[編輯](experience-edit-targeting.md#ai-editor)體驗時，請使用畫布控制項：
+
+1. 在刪除節點之前，請檢查該節點及其子目標和創意。
+
+1. 將游標停留在目標節點或創意葉節點上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
+
+   節點會從工作樹狀結構中移除，而不需個別的&#x200B;**[!UICONTROL Delete Node]**&#x200B;確認。
+
+1. 檢閱剩餘的分支，然後[儲存體驗](#save)。
+
+## 使用手動編輯器 {#manual-editor}
+
+[在執行這些步驟之前，請先開啟手動編輯器](experience-edit-targeting.md#experience-open)。
 
 1. 將游標停留在目標節點或創意葉節點上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Delete]**。
 
 1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete Node]**。
 
-1. （選用）若要儲存體驗：
+## 儲存體驗 {#save}
 
-   1. 按一下&#x200B;**[!UICONTROL Save]**，然後再按&#x200B;**[!UICONTROL OK]**。
+以下步驟適用於兩個編輯器。
 
-   1. （如果最底層的每個節點不包含至少一個創意內容）：執行下列任一項作業：
-
-      * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
-
-        您無法為草稿體驗建立廣告標籤。
-
-      * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
-
-      * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

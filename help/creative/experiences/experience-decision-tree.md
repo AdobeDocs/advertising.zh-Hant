@@ -1,6 +1,6 @@
 ---
 title: 決策樹配置
-description: 瞭解使用目標定位的體驗的決策樹配置。
+description: 瞭解使用定位的體驗的AI驅動和手動決策樹編輯器。
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # [!DNL Creative]個體驗的決策樹配置
 
 當您為體驗啟用「[!UICONTROL Targeting]」選項時，您會使用決策樹設定體驗。
 
-最初，每個決策樹都是以根層級「全部」開始。 您可以新增一或多個目標節點，然後將創意套件組合指派至決策樹每個分支中的最終節點。 依照預設，決策樹會垂直顯示，但您可以選擇改為水準檢視決策樹。
+最初，每個決策樹都是以根層級「全部」開始。 您可以新增一或多個目標節點，然後將創意套件組合指派至決策樹每個分支中的最終節點。
+
+## AI導向編輯器(Beta) {#ai-editor}
+
+當您建立或編輯具有鎖定目標的體驗時，AI導向的編輯器預設會開啟。 它結合了與AI代理的對話以及互動式決策樹畫布。
+
+* 描述您要在對話中進行的目標定位結構或變更，並在儲存前檢閱產生的樹狀結構。
+
+* 直接編輯畫布以新增目標層級和節點、指派組合，以及設定創意最佳化和追蹤URL。 您不需要切換到手動編輯器即可使用這些控制項。
+
+* 檢視標題中的體驗名稱、狀態和廣告商，並在您說明變更時使用節點ID （可用時）來識別目標節點。
+
+* 使用&#x200B;**[!UICONTROL Zoom in]**、**[!UICONTROL Zoom out]**&#x200B;和&#x200B;**[!UICONTROL Change orientation]**&#x200B;調整檢視。 **[!UICONTROL Reset tree]**&#x200B;在確認後清除樹狀結構；它不只是重設縮放。
+
+當助理處理變更時，畫布及其&#x200B;**[!UICONTROL Save]**&#x200B;按鈕會暫時停用。 請等待處理完成，然後再進行其他畫布變更。
+
+## 手動編輯器 {#manual-editor}
+
+若要從AI驅動編輯器開啟現有的手動編輯器，請按一下&#x200B;**[!UICONTROL Manual Decision Tree]**。 您也可以在[!UICONTROL Experiences]檢視中，從體驗的動作中選取&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**。 請參閱[切換編輯器或編輯體驗設定](experience-edit-targeting.md#switch-editors)。
+
+在手動編輯器中，預設會垂直顯示樹狀結構。 您可以變更為水準檢視，並使用滑桿調整縮放。 您的檢視設定會儲存到您登出為止。
+
+下列範例顯示手動編輯器：
 
 ![沒有目標的垂直決策樹範例](/help/creative/assets/experience-decision-tree-no-targets.png "沒有目標的垂直決策樹範例")
 
 ![沒有目標的水準決策樹範例](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "沒有目標的水準決策樹範例")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>在離開AI驅動編輯器之前，儲存您要保留的任何變更。 按一下&#x200B;**[!UICONTROL Manual Decision Tree]**、**[!UICONTROL Experience Form]**&#x200B;或&#x200B;**[!UICONTROL Cancel]**&#x200B;開啟確認對話方塊。 按一下「**[!UICONTROL Yes]**」會捨棄未儲存的樹狀結構變更；按一下「**[!UICONTROL No]**」會讓您留在編輯器中。
 
 ## 辭彙
 
@@ -54,6 +72,8 @@ ht-degree: 0%
 每個決策樹最多可以有五個層次的目標。 體驗層級目標會與DSP的鎖定目標選項一起套用；階層鎖定目標行為可能會因DSP而異。 請確定您的廣告體驗包含與您將要實作它的行銷活動相容的目標定位。
 
 每個目標層級可包含多個分支，每個分支有一或多個具有相同目標型別的節點（受眾區段、地理位置型別、指定資料傳遞索引鍵的值、指定重新定位畫素的屬性或裝置類別）。 您可以在已為其指定預設影像創意或視訊創意的每個廣告大小中，將創意組合指派給最低層級的目標節點。
+
+<!-- Add a screen shot of the AI editor -->下列範例顯示手動編輯器中的目標：
 
 ![含有目標的決策樹範例](/help/creative/assets/experience-decision-tree.png "含有目標的決策樹範例")
 

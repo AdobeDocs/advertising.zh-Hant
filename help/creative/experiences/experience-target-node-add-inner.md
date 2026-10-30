@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 # 在體驗中的節點之間新增目標節點
@@ -35,7 +35,41 @@ ht-degree: 0%
 >
 >若要將目標節點新增至決策樹的最低層級，請參閱&quot;[將目標節點新增至體驗中的最終層級](experience-target-node-add-final.md)&quot;。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI導向編輯器(Beta) {#ai-editor}
+
+當您[建立](experience-create-targeting.md#ai-editor)或[編輯](experience-edit-targeting.md#ai-editor)體驗時，您可以要求AI代理程式插入目標層級。 識別插入位置以及要保留的現有分支和創意，並檢閱結果。 若要直接在畫布中插入層級：
+
+1. 在您要插入層級的界限上，按一下&#x200B;**[!UICONTROL Add targeting level]**。
+
+   在水準檢視中，此控制項是具有相同標籤的圖示。
+
+1. 在&#x200B;**[!UICONTROL New targeting level]**&#x200B;中，選取目標類別，然後按一下&#x200B;**[!UICONTROL Add targeting level]**。
+
+   * 針對對象目標，選取&#x200B;**[!UICONTROL Audience]**。
+
+   * 若為地理目標，請選取單一地理類別（例如&#x200B;**[!UICONTROL Geo: Country]**）。
+
+   * 針對資料傳遞目標，選取&#x200B;**[!UICONTROL Data Pass]**。
+
+   * 若要重新定位畫素目標，請選取&#x200B;**[!UICONTROL RT Pixel]**。
+
+   * 針對裝置目標，選取單一目標類別（**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]**&#x200B;或&#x200B;**[!UICONTROL Device: Browser]**）。
+
+   插入層級不會提示輸入目標值。 新層級最初使用「全部」並保留現有的子目標和創意。
+
+1. （選擇性）若要在新層級定義特定目標，請[新增同層級目標節點](experience-target-node-add-sibling.md#ai-editor)。 否則，請保留新的「全部」節點，而不新增特定目標。
+
+1. （選擇性）若要重新命名使用者定義的目標節點，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Name]**，輸入&#x200B;**[!UICONTROL Node Name]**，然後按一下&#x200B;**[!UICONTROL Save]**。
+
+   您無法重新命名「全部」或「其他所有人」節點。
+
+1. 檢閱保留的分支，並將[創意組合](experience-assign-creative-bundles.md#ai-editor)指派給任何新的最終節點。
+
+1. [儲存體驗](#save)。
+
+## 使用手動編輯器 {#manual-editor}
+
+[在執行這些步驟之前，請先開啟手動編輯器](experience-edit-targeting.md#experience-open)。
 
 1. 在您要插入目標的節點底下，按一下[新增]。![](/help/creative/assets/add.png "")，然後選取&#x200B;**[!UICONTROL Insert New Target]**。
 
@@ -47,19 +81,21 @@ ht-degree: 0%
 
         * 針對對象目標，選取&#x200B;**[!UICONTROL Audience]**。
 
-        * 若為地理目標，請選取單一地理類別（例如[!UICONTROL Geo: Country]）。
+        * 若為地理目標，請選取單一地理類別（例如&#x200B;**[!UICONTROL Geo: Country]**）。
 
         * 針對資料傳遞目標，選取&#x200B;**[!UICONTROL Data Pass]**。
 
-        * 若要重新定位畫素目標，請選取**[!UICONTROL RT Pixel]。
+        * 若要重新定位畫素目標，請選取&#x200B;**[!UICONTROL RT Pixel]**。
 
         * 針對裝置目標，選取單一目標類別（**[!UICONTROL Device: Type]**、**[!UICONTROL Device: OS]**&#x200B;或&#x200B;**[!UICONTROL Device: Browser]**）。
 
    * 如果同層級節點已經存在，請執行下列動作：
 
-     * 針對對象目標，請執行以下作業：
+     * 若為對象目標：
 
-       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;開啟您的[!UICONTROL Audience Targeting]選項，然後執行下列動作：
+       1. 按一下&#x200B;**[!UICONTROL Click to Browse]**&#x200B;以開啟&#x200B;**[!UICONTROL Audience Targeting]**&#x200B;選項。
+
+       1. 設定對象區段和群組：
 
           * 若要新增第一個區段，請在左側面板中找出該區段，然後選取區段名稱旁的核取方塊。
 
@@ -67,11 +103,13 @@ ht-degree: 0%
 
             1. 按一下右側面板中的區段群組。
 
-            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+            1. （選用）視需要將群組邏輯變更為&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
 
-               *[!UICONTROL Exclude All]*&#x200B;不適用於第一個區段群組。 若對象僅包含排除專案，請將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在您將它新增至DSP中的位置時，排除該對象。
+               **[!UICONTROL Include Any]**&#x200B;至少符合一個選取區段中的使用者；**[!UICONTROL Include All]**&#x200B;需要所有選取區段中的成員資格。
 
-            1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
+               **[!UICONTROL Exclude All]**&#x200B;不適用於第一個區段群組。 針對僅包含排除專案的對象，請使用&#x200B;**[!UICONTROL Include Any]**&#x200B;建立對象，然後在您將對象新增至DSP中的位置時，排除該對象。
+
+            1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。 對每個其他區段重複此步驟。
 
                區段群組會自動更新為新區段。
 
@@ -79,11 +117,13 @@ ht-degree: 0%
 
             1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
 
-            1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+            1. （選用）視需要將上一個群組與新群組之間的邏輯變更為&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**。
+
+               **[!UICONTROL And]**&#x200B;要求使用者符合兩個群組的條件；**[!UICONTROL Or]**&#x200B;要求他們至少符合一個群組的條件。
 
             1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
 
-            1. （選用）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+            1. （選用）視需要將群組邏輯變更為&#x200B;**[!UICONTROL Include Any]**、**[!UICONTROL Include All]**&#x200B;或&#x200B;**[!UICONTROL Exclude All]**。
 
        1. 按一下&#x200B;**[!UICONTROL Create]**。
 
@@ -103,11 +143,11 @@ ht-degree: 0%
 
      * 針對資料傳遞目標，可選擇自訂資料傳遞金鑰，輸入單一資料傳遞值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-       已在[體驗設定](experience-settings-targeting.md)的[!UICONTROL Advanced]區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定機碼值組的機碼預設值。 您可以選擇自訂金鑰。
+       預設資料傳遞金鑰是在[一般體驗設定](experience-settings-targeting.md)的&#x200B;**[!UICONTROL Advanced]**&#x200B;區段的&#x200B;**[!UICONTROL Data Pass]**&#x200B;欄位中設定。 視需要自訂目標的金鑰。
 
      * 對於重定目標畫素目標，請選取要使用的單一重定目標畫素，以及顯示創意所需的任何畫素屬性值，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-       重新目標畫素的屬性是在[重新目標畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
+       可用的屬性是在[重新定位畫素設定](/help/creative/pixels/retargeting-pixel-manage.md)中設定。
 
      * 針對裝置目標，請執行下列動作：
 
@@ -131,25 +171,15 @@ ht-degree: 0%
 
    1. 輸入&#x200B;**[!UICONTROL Node Name]**，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-1. 執行下列任一項作業：
+1. （選用） [將創意組合](experience-assign-creative-bundles.md#manual-editor)指派給新目標節點和「其他一切」節點。
 
-   * （選擇性） [將創意內容](experience-assign-creative-bundles.md)指派給新的目標節點和「其他一切」節點。
+1. （選擇性） [新增指定目標型別的同層級目標節點](experience-target-node-add-sibling.md#manual-editor)。
 
-   * （選擇性） [新增指定目標型別的同層級目標節點](experience-target-node-add-sibling.md)。
+## 儲存體驗 {#save}
 
-   * （選用）若要儲存體驗：
+以下步驟適用於兩個編輯器。
 
-     1. 按一下&#x200B;**[!UICONTROL Save]**，然後再按&#x200B;**[!UICONTROL OK]**。
-
-     1. （如果最底層的每個節點不包含至少一個創意內容）：執行下列任一項作業：
-
-        * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
-
-          您無法為草稿體驗建立廣告標籤。
-
-        * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
-
-        * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
