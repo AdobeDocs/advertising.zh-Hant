@@ -1,6 +1,6 @@
 ---
 title: 編輯具有決策樹定位的體驗
-description: 瞭解如何使用決策樹編輯目標廣告體驗的設定。
+description: 瞭解如何使用AI驅動或手動決策樹編輯器編輯目標廣告體驗。
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
 TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
@@ -19,12 +19,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '655'
 ht-degree: 0%
 ---
 # 編輯具有決策樹定位的體驗
+
+AI導向編輯器(Beta)依預設會針對具有鎖定目標的體驗開啟。 您可以使用AI代理程式、直接編輯畫布或開啟現有的手動編輯器。
+
+## 開啟體驗 {#experience-open}
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Experiences]**。
 
@@ -32,73 +36,93 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+   * 若要開啟AI驅動編輯器：
 
-   * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+     * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-   決策樹依預設會開啟。
+     * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. （可選）視需要在決策樹和一般設定之間切換：
+   * 若要開啟手動編輯器：
 
-   * 若要從決策樹開啟一般設定，請按一下右上角的&#x200B;**[!UICONTROL Experience Form]**。
+     * 在卡片檢視中，按一下體驗名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**。
 
-   * 若要從一般設定開啟決策樹，請按一下右上角的&#x200B;**[!UICONTROL Decision Tree]**。
+     * 在表格檢視中，將游標停留在資料列上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Create Decision Tree Manually (Legacy)]**。
 
-1. （可選）若要編輯決策樹，請執行下列任一項作業：
+     * 在AI驅動編輯器中，
 
-   * （[正在處理](experience-about.md#experience-statuses)個體驗）執行下列其中一項作業：
+## 使用AI導向編輯器編輯(Beta) {#ai-editor}
 
-     * 若要捨棄即時體驗中現有的未張貼變更，請按一下&#x200B;**[!UICONTROL Discard and start again]**。
+1. [開啟體驗](#experience-open)。
 
-     * 若要保留現有的未張貼變更，請按一下&#x200B;**[!UICONTROL Continue editing draft]**。
+1. 說明您想在交談中進行的目標定位變更。 透過其目標識別受影響的分支，或當顯示在畫布上時，透過其節點ID識別受影響的分支。
 
-     * 若要編輯體驗詳細資料，請按一下&#x200B;**[!UICONTROL Edit Experience Details]**。
+1. 檢閱更新的樹狀結構，並說明任何進一步的變更。 在與畫布互動之前，請等候助理完成處理。
 
-   * （選擇性）變更決策樹的檢視設定。
+1. （選用）直接在畫布中進行變更：
 
-     您的設定會儲存到您登出為止。
+   * [新增最終層級目標](experience-target-node-add-final.md#ai-editor)、[插入目標層級](experience-target-node-add-inner.md#ai-editor)或[新增同層級目標](experience-target-node-add-sibling.md#ai-editor)。
 
-   * 移動滑桿來放大或縮小。
+   * 按一下目標旁的&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit]**，變更值，然後按一下&#x200B;**[!UICONTROL Edit Node]**&#x200B;以編輯目標的條件。
 
-   * 按一下![以垂直樹狀結構檢視](/help/creative/assets/tree-vertical.png "以垂直樹狀結構檢視")或![以水準樹狀檢視](/help/creative/assets/tree-horizontal.png "以水準樹狀檢視")，在檢視垂直清單和水準清單之間切換。
+   * [複製子節點和創意](experience-target-node-copy.md#ai-editor)或[刪除節點](experience-target-node-delete.md#ai-editor)。
 
-   * （可選）透過下列任何方式變更廣告目標和對應的創意內容：
+   * [指派或取消指派創意組合](experience-assign-creative-bundles.md#ai-editor)。
 
-     * 目標：
+   * [自訂創意最佳化和排程](experience-optimization-scheduling-targeting.md)或[追蹤URL](experience-tracking-urls-targeting.md#ai-editor)。
 
-       *[將目標節點新增到體驗中的最終層級](experience-target-node-add-final.md)。
+1. [儲存體驗](#save)。
 
-       * [在節點之間插入目標節點](experience-target-node-add-inner.md)。
+## 使用手動編輯器編輯 {#manual-editor}
 
-       * [在節點](experience-target-node-add-sibling.md)之間新增同層級目標節點。
+1. [開啟體驗](#experience-open)。
 
-       * [將子節點和創意內容複製到相同層級的另一個節點](experience-target-node-copy.md)。
+1. （狀態為`[processing](experience-about.md#experience-statuses)`的體驗）如果系統提示您存在未張貼的草稿，請執行下列其中一個動作：
 
-     * Creative套件組合：
+   * 按一下&#x200B;**[!UICONTROL Continue editing draft]**&#x200B;以檢閱並繼續編輯草稿。
 
-       * [指派和取消指派創意內容給最終節點](experience-assign-creative-bundles.md)。
+   * 按一下&#x200B;**[!UICONTROL Discard and start again]**&#x200B;以捨棄草稿並從即時版本開始。
 
-         如果您未將至少一個束指派給每個最終節點，則可在儲存體驗時，選擇對每個未指派的節點使用預設的創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
+   * 按一下&#x200B;**[!UICONTROL Cancel this edit]**&#x200B;停止編輯。
 
-       * [自訂指派組合中創意的追蹤URL](experience-tracking-urls-targeting.md)。
+1. （選擇性）調整縮放滑桿，或按一下![以垂直樹狀結構檢視](/help/creative/assets/tree-vertical.png "以垂直樹狀結構檢視")或![以水準樹狀檢視](/help/creative/assets/tree-horizontal.png "以水準樹狀檢視")以變更方向。
 
-       * [針對指派的組合自訂創意最佳化與排程](experience-optimization-scheduling-targeting.md)。
+   您的檢視設定會儲存到您登出為止。
 
-1. （選擇性）編輯[一般體驗設定](experience-settings-targeting.md)。
+1. 視需要變更目標和創意：
 
-1. 按一下&#x200B;**[!UICONTROL Save]**，然後執行下列動作。
+   * [新增最終層級目標](experience-target-node-add-final.md#manual-editor)、[在節點之間插入目標](experience-target-node-add-inner.md#manual-editor)，或[新增同層級目標](experience-target-node-add-sibling.md#manual-editor)。
 
-   * （如果最底層的每個節點至少包含一個創意組合）按一下&#x200B;**[!UICONTROL OK]**。
+   * [複製子節點和創意](experience-target-node-copy.md#manual-editor)或[刪除節點](experience-target-node-delete.md#manual-editor)。
 
-   * （如果最底層的每個節點不包含至少一個創意搭售方案），請執行下列任一項作業：
+   * [指派或取消指派創意組合](experience-assign-creative-bundles.md#manual-editor)。
 
-     * 若要儲存不含所有必要創意套裝的體驗，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
+   * [自訂創意最佳化和排程](experience-optimization-scheduling-targeting.md)或[追蹤URL](experience-tracking-urls-targeting.md#manual-editor)。
 
-       您無法為[草稿](experience-about.md#experience-statuses)體驗建立廣告標籤。
+1. [儲存體驗](#save)。
 
-     * 若要將預設創意內容指派給尚未指派創意套裝的每個目標，請按一下「**[!UICONTROL Assign Default Creatives]**」。 檢閱已指派預設創意的更新樹狀結構後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
+## 切換編輯器或編輯體驗設定 {#switch-editors}
 
-     * 若要繼續編輯決策樹，請按一下&#x200B;**[!UICONTROL Continue Edit]**。
+>[!IMPORTANT]
+>
+>在離開AI驅動編輯器之前，請儲存您要保留的任何樹狀結構變更。 切換到手動編輯器或體驗表單不會傳輸未儲存的變更。
+
+* **手動編輯器的AI驅動編輯器：**&#x200B;按一下&#x200B;**[!UICONTROL Manual Decision Tree]**。 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以捨棄未儲存的變更並開啟手動編輯器，或按一下&#x200B;**[!UICONTROL No]**&#x200B;以保留。
+
+* **AI驅動編輯器的一般設定：**&#x200B;按一下&#x200B;**[!UICONTROL Experience Form]**，然後按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以捨棄未儲存的樹狀結構變更並開啟表單。 編輯[一般體驗設定](experience-settings-targeting.md)，然後按一下&#x200B;**[!UICONTROL Save]**。
+
+* **手動編輯一般設定：**&#x200B;儲存您要保留的任何樹狀結構變更，然後按一下&#x200B;**[!UICONTROL Experience Form]**。 編輯[一般體驗設定](experience-settings-targeting.md)，然後按一下&#x200B;**[!UICONTROL Save]**。
+
+* **AI驅動編輯器的一般設定：**&#x200B;按一下&#x200B;**[!UICONTROL Decision Tree]**。 儲存目標體驗一般設定的變更也會開啟AI導向的編輯器。
+
+* **手動編輯器為AI驅動編輯器：**&#x200B;儲存您的樹狀結構變更，返回[!UICONTROL Experiences]檢視，然後選取&#x200B;**[!UICONTROL Edit]**&#x200B;進行體驗。
+
+若要離開AI驅動編輯器而不開啟另一個編輯器，請按一下&#x200B;**[!UICONTROL Cancel]**。 按一下&#x200B;**[!UICONTROL Yes]**&#x200B;以捨棄未儲存的樹狀結構變更，或按一下&#x200B;**[!UICONTROL No]**&#x200B;以繼續編輯。
+
+## 儲存體驗 {#save}
+
+以下步驟適用於兩個編輯器。
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

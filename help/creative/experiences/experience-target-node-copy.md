@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # 將子節點複製到相同層級的另一個目標節點
@@ -29,22 +29,37 @@ ht-degree: 0%
 
 此功能不會影響為父節點指定的目標，只會影響子節點。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI導向編輯器(Beta) {#ai-editor}
+
+當您[建立](experience-create-targeting.md#ai-editor)或[編輯](experience-edit-targeting.md#ai-editor)體驗時，請使用畫布控制項：
+
+1. 在您要複製其子系的上層節點上，按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Copy Children]**。
+
+1. 在相同層級的目的地節點上，按一下&#x200B;**[!UICONTROL ...]**，然後選擇下列其中一項：
+
+   * 若要在不移除現有子項的情況下新增複製的子專案標和創意，請按一下&#x200B;**[!UICONTROL Add]**。
+
+   * 若要以複製的子項取代現有的子專案標和創意，請按一下&#x200B;**[!UICONTROL Replace]**。
+
+   當樹狀結構不支援動作時，就會停用動作。 在繼續之前，請檢閱任何警告。
+
+1. 檢閱目的地分支，然後[儲存體驗](#save)。
+
+## 使用手動編輯器 {#manual-editor}
+
+[在執行這些步驟之前，請先開啟手動編輯器](experience-edit-targeting.md#experience-open)。
 
 1. 按一下您要複製其子系的父節點，按一下[新增] ![](/help/creative/assets/add.png "")，然後a\)選取&#x200B;**[!UICONTROL Copy Children ctrl+c]**&#x200B;或b\)在鍵盤上輸入&#x200B;**[!UICONTROL Ctrl+C]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-C]** ([!DNL Apple Macintosh])。
 
 1. 執行下列任一項作業：
 
-   * 若要取代節點的所有子項節點和創意，請按一下您要將複製資訊貼到其中的節點，按一下&#x200B;**...**，然後a\)選取&#x200B;**[!UICONTROL Replace ctrl+shift+v]**&#x200B;或b\)在鍵盤上輸入&#x200B;**[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh])。
+   * 若要取代節點的所有子項節點和創意，請按一下您要將複製資訊貼到其中的節點，按一下&#x200B;**[!UICONTROL ...]**，然後a\)選取&#x200B;**[!UICONTROL Replace ctrl+shift+v]**&#x200B;或b\)在鍵盤上輸入&#x200B;**[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows])或&#x200B;**[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh])。
 
-   * （具有多個子目標的節點，沒有「全部」節點，僅沒有創意）若要將所有子節點和創意新增至節點，而不刪除現有的節點，請按一下您要貼上複製資訊的節點，按一下&#x200B;**...**，然後a\)選取&#x200B;**[!UICONTROL Add ctrl+v]** **或b\)，在鍵盤上輸入&#x200B;**&#x200B;[!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows])或&#x200B;**&#x200B;[!UICONTROL Command-V]** ([!DNL Apple Macintosh])。
+   * （具有多個子目標的節點，沒有「全部」節點，僅沒有創意）若要將所有子節點和創意新增至節點，而不刪除現有的節點，請按一下您要貼上複製資訊的節點，按一下「**[!UICONTROL ...]**」，然後a\)選取「**[!UICONTROL Add ctrl+v]**」或b\)，在鍵盤上輸入「**[!UICONTROL Ctrl+V]**」([!DNL Microsoft Windows])或「**[!UICONTROL Command-V]**」([!DNL Apple Macintosh])。
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## 儲存體驗 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+以下步驟適用於兩個編輯器。
 
 {{$include /help/_includes/experience-save.md}}
 

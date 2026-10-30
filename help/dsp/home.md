@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4b3b47621930d9f560e9967285d7400ef305e017
+source-git-commit: d3c51a9af27cafb0b257beab61eb2f4611a32c6e
 workflow-type: tm+mt
-source-wordcount: '8099'
+source-wordcount: '8197'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -51,6 +51,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年10月29日 | [!DNL ChatGPT Ads] | 透過Adobe DSP與[!DNL OpenAI Ads]的整合，您現在可以執行[!DNL ChatGPT Ads]個聊天卡廣告，這些廣告會顯示在[!DNL ChatGPT]個交談中。 針對此功能，DSP會建立廣告帳戶，並代表您的組織購買媒體。 使用此功能來測試AI媒體，而不與[!DNL ChatGPT Ads]建立直接關係，這可能需要最低的花費承諾。<br><br> 由於[!DNL ChatGPT Ads]行銷活動的結構與DSP行銷活動不同，您將從主功能表中的個別選項管理行銷活動並檢視績效資料： [!DNL Conversational Ads]。 行銷活動、廣告群組和廣告層級的效能資料包含[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]和[!UICONTROL Avg CPM]。<br><br> 若要使用此功能，請聯絡您的Adobe客戶團隊以開始入門流程。 | 如需詳細資訊，包括資格，請參閱檔案以管理[[!DNL ChatGPT Ads] 帳戶](/help/dsp/campaign-management/conversational-ads/account-manage.md)以及對應的[行銷活動、廣告群組及廣告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)。 |
+| 2026年10月28日 | AI導向的決策樹編輯器 | （Beta功能）具有Advertising Creative的廣告商現在可以使用AI導向的編輯器，透過決策樹目標定位來建立和編輯體驗。 說明在自然語言對話中您想要的目標定位結構或變更，並檢閱產生的決策樹。 您也可以直接編輯畫布以管理目標節點、指派創意組合，以及設定創意最佳化、排程和追蹤URL。 AI驅動編輯器依預設會開啟；手動編輯器仍然可用。 | 請參閱&quot;[決策樹配置](/help/creative/experiences/experience-decision-tree.md)&quot;、&quot;[建立具有鎖定目標的體驗](/help/creative/experiences/experience-create-targeting.md)&quot;以及&quot;[編輯具有鎖定目標的體驗](/help/creative/experiences/experience-edit-targeting.md)&quot;。 |
 | 2026年10月28日 | DSP中的[!DNL AI Assistant]，可重複使用[!UICONTROL Audiences] | 您現在可以使用[!DNL AI Assistant]從所有可用的第一方和第三方區段產生可重複使用的對象。 [!UICONTROL Audiences] > [!UICONTROL All Audiences]仍提供對象代理程式，您也可手動建立對象。 | 請參閱&quot;[關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;、&quot;[使用AI助理產生可重複使用的對象](/help/dsp/ai-assistant/audience-builder-agent.md)&quot;和&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
 | 2026年10月26日 | DSP中的[!DNL AI Assistant] | 使用DSP中的AI助理執行下列任一項作業：<ul><li>（Beta功能）取得行銷活動量度和完整報表，無需手動建立報表</li>（Beta功能）診斷即時套件和位置的效能和傳送問題<li><li>搜尋產品檔案以取得使用DSP和[!UICONTROL Creative]的說明。 此專案已經可用。</li></ul> | 請參閱&quot;[關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;以及使用AI助理[建立報告](/help/dsp/ai-assistant/insights-agent.md)和[疑難排解效能和傳遞問題](/help/dsp/ai-assistant/troubleshooting-agent.md)的說明。 |
 | 2026年10月15日 | [!DNL Creative] | （Beta功能）您現在可以在[!UICONTROL Creative Studio]中產生Use AI，以將現有的靜態顯示廣告影像轉換為可編輯的顯示廣告範本。 | 請參閱[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}中管理廣告範本。 |

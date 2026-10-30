@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # 關於Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 規則型和非目標型體驗
 
-* **鎖定目標、規則型體驗：**&#x200B;使用規則型決策樹模型建置劇本 — 展開根據您對對象瞭解的資訊即時自訂的編排廣告字串。 例如，故事可以根據客戶行為、地理位置、人口統計、重新定位、客戶歷程中的位置等而變更。
+* **鎖定目標、規則型體驗：**&#x200B;使用規則型決策樹模型建置劇本 — 展開根據您對對象瞭解的資訊即時自訂的編排廣告字串。 例如，故事可以根據客戶行為、地理位置、人口統計、重新定位、客戶歷程中的位置等而變更。 使用[AI驅動編輯器(Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor)、對話式協助和直接畫布控制項，或使用手動編輯器來建置及編輯決策樹。
 
 * **非目標體驗：**&#x200B;排程並最佳化廣告元素，不會縮小對象範圍。
 

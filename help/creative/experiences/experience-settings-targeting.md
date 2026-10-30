@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # 目標廣告體驗設定
+
+這些一般設定會由AI導向的決策樹編輯器(Beta)和手動編輯器共用。
+
+若為現有體驗，請按一下決策樹中的&#x200B;**[!UICONTROL Experience Form]**。 先儲存您要保留的任何樹狀結構變更。 離開AI驅動編輯器需要確認並捨棄未儲存的樹狀結構變更。 請參閱[切換編輯器或編輯體驗設定](experience-edit-targeting.md#switch-editors)。
 
 ## [!UICONTROL Experience basics]節
 

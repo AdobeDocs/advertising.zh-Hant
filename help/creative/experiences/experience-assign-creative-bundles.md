@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # 指派和取消指派創意套件組合至體驗中的最終節點
@@ -36,7 +36,31 @@ ht-degree: 0%
 >
 >如果您未指派至少一個創意組合至每個最終節點，則可在您[儲存體驗](experience-create-targeting.md)時，選擇使用每個未指派節點的預設創意。 若要發佈體驗，您必須指派組合或針對每個最終節點使用預設創意。
 
-<!-- 1. [ways to get to the decision tree] -->
+## 使用AI導向編輯器(Beta) {#ai-editor}
+
+當您[建立](experience-create-targeting.md#ai-editor)或[編輯](experience-edit-targeting.md#ai-editor)體驗時，請使用畫布控制項：
+
+1. 執行下列任一項作業：
+
+   * 若要取得不含組合的最終節點，請按一下&#x200B;**[!UICONTROL Assign Bundles]**。
+
+   * 針對具有現有套裝的節點，在其創意分葉節點上按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**。
+
+1. 在&#x200B;**[!UICONTROL Assign Bundles]**&#x200B;標籤上，選取要指派的每個組合旁的核取方塊，並取消選取要取消指派的每個組合旁的核取方塊。
+
+   只會列出體驗（標準或動態）的相關型別組合。
+
+1. （選擇性）開啟&#x200B;**[!UICONTROL Creative optimisation]**&#x200B;標籤以[自訂循環與排程](experience-optimization-scheduling-targeting.md)。
+
+1. 在對話方塊中按一下&#x200B;**[!UICONTROL Save]**&#x200B;以更新工作樹狀結構。
+
+1. （選用） [自訂追蹤URL](experience-tracking-urls-targeting.md#ai-editor)。
+
+1. 從樹狀結構標頭[儲存體驗](#save)以保留您的變更。
+
+## 使用手動編輯器 {#manual-editor}
+
+[在執行這些步驟之前，請先開啟手動編輯器](experience-edit-targeting.md#experience-open)。
 
 1. 執行下列任一項作業：
 
@@ -54,12 +78,9 @@ ht-degree: 0%
 
 1. （選擇性） [自訂指派的組合中創作的追蹤URL](experience-tracking-urls-targeting.md)。
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## 儲存體驗 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+以下步驟適用於兩個編輯器。 單獨儲存組合對話方塊不會儲存或發佈體驗。
 
 {{$include /help/_includes/experience-save.md}}
 

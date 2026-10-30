@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # 關於Advertising Creative 2.0中的體驗
@@ -51,6 +51,8 @@ ht-degree: 0%
   * 特定裝置型別、作業系統和瀏覽器
 
   在決策樹中建立目標對象分支後，您可以透過將創意套件組合指派給分支，將目標對象與潛在創意配對。 對於每個體驗，您可以自訂創意組合的最佳化和排程，並變更每個組合中個別創意的預設登陸頁面和追蹤URL<!-- later: and any flexible attributes -->。
+
+  預設的AI驅動決策樹編輯器(Beta)可讓您說明要對AI代理程式進行的樹狀結構或變更、檢閱結果，以及直接編輯互動式畫布。 您也可以使用現有的手動編輯器。 兩個編輯器都會設定相同型別的鎖定目標體驗。 請參閱[決策樹配置](experience-decision-tree.md)和[編輯決策樹鎖定目標的體驗](experience-edit-targeting.md)。
 
 * **沒有決策樹定位的體驗：** [!DNL Creative]會最佳化廣告體驗的廣告元素，而不會縮小對象範圍。 您可以為每個體驗指定開始和結束日期以及某些預設設定，但大部分工作流程並非直接在體驗內。 不要將創意內容直接加入體驗，請使用[!UICONTROL Tag Manager]為體驗的每個廣告大小建立廣告標籤，然後新增創意內容、設定創意最佳化和排程，以及自訂登入頁面和追蹤URL<!-- later: and any flexible attributes -->。
 
