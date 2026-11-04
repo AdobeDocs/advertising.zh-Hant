@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative 指南
-source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '440'
 ht-degree: 4%
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 4%
   + [關於Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [自訂您的資料檢視](/help/creative/introduction/customize-data-views.md)
   + [動態廣告的工作流程](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
-  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=zh-Hant){target="_blank"}
+  + [支援消費者隱私權](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [原則和指導方針](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [關於Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
   + [[!UICONTROL Creative Studio]中的C2PA中繼資料](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -34,6 +34,7 @@ ht-degree: 4%
     + 標準創意 {#standard-creatives}
       + [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md)
       + [編輯標準創意內容](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [產生彈性HTML5創意專案的變體](/help/creative/creative-libraries/creative-generate-variations.md)
       + [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
       + [HTML5創意規格](/help/creative/creative-libraries/html5-creative-specification.md)
     + 動態創意 {#dynamic-creatives}
@@ -101,4 +102,4 @@ ht-degree: 4%
 + [重新定位畫素](/help/creative/pixels/retargeting-pixel-manage.md)
 + [可用於追蹤URL的巨集](/help/creative/creative-macros.md)
 + [取得協助](/help/creative/get-help.md)
-+ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target="_blank"}
++ [Adobe CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
