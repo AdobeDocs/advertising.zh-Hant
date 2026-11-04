@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a90376f4a049a35b62d8d426416f511181a67e05
+source-git-commit: 21ad74d7f83d59809940af318ce8de758a023619
 workflow-type: tm+mt
-source-wordcount: '5606'
+source-wordcount: '5711'
 ht-degree: 1%
 ---
 # 搜尋、社交和Commerce的新增功能
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年11月4日 | [!UICONTROL Portfolios]，最佳化 | （具有行銷活動層級或廣告群組層級最佳化之產品組合中的[!DNL Google Ads]個行銷活動的選擇加入功能）搜尋、社交和Commerce現在可以包含來自[!DNL Google Ads]個行銷活動預算建議的訊號（包括建議的預算金額和預計的轉換提升），以告知其自身的預算引導決定。 當您啟用此功能且[!DNL Google Ads]建議使用高於先前配置之最佳化功能的預算時，最佳化功能會保留先前的預算或增加預算，但不會減少預算。 產品組合中其他行銷活動的預算通常會重新平衡。<br><br>若要選擇加入此功能，請連絡您的Adobe客戶團隊。 | — |
 | 2026年10月26日 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （[!DNL Google Ads]個啟用[!DNL AI Max]的行銷活動）您現在可以在新的搜尋、社交和Commerce使用者介面中設定下列設定：<ul><li>行銷活動層級：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;和&#x200B;**[!UICONTROL Brand exclusions]：**&#x200B;指定可在品牌相關查詢中比對的帳戶品牌清單。</li><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要排除為最終URL展開所產生之登入頁面的URL。 啟用[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]時，可使用此設定。</li></ul></li><li>廣告群組層級：<ul><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要排除為最終URL展開所產生之登入頁面的URL。 此設定適用於已啟用[!UICONTROL Text customization]的行銷活動。</li></ul></li></ul>這些設定也提供大量表單支援。 | 請參閱「[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」和「[帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必要大量表單資料。」 [!DNL Google Ads]  |
 | 2026年10月5日 | [!UICONTROL Campaigns], [!UICONTROL Reports] | （Beta功能）擁有[!DNL OpenAI ChatGPT Ads]廣告帳戶的廣告商現在可以在新的搜尋、社交和Commerce使用者介面中管理並報告其促銷活動。 [!DNL Chat card]廣告是來自[!DNL OpenAI]的試驗功能，是影像型贊助位置，出現在AI聊天轉換旁邊，可以鎖定聊天轉換的內容和意圖、使用者位置和語言。 詳細目錄為私人且由發佈者管理，無法出價。 [!DNL ChatGPT]個廣告可在除了中國以外的大多數主要市場取得。 禁止健康服務或金融服務的廣告。<br><br>支援可用於建立和管理帳戶、行銷活動、廣告群組和廣告；以及在行銷活動管理檢視中檢視績效資料（曝光數、點按數和成本，但不包括[!DNL ChatGPT Ads]追蹤的轉換）。 [!DNL Adobe]或協力廠商追蹤、第一方對象目標定位、排程報告、Adobe Analytics或Adobe Customer Journey Analytics中的報告、最佳化或使用大量表單的行銷活動管理不提供支援。<br><br>將於今年稍後在Advertising DSP中提供[!DNL ChatGPT Ads]的支援。 如果您的組織同時使用Search、Social和Commerce以及DSP，則只能透過Search、Social和Commerce購買詳細目錄，在這裡，您可以連同其他廣告網路的資料一起檢視效能資料。<br><br>若要使用此功能，請聯絡您的Adobe客戶團隊以取得費率資訊，並開始入門流程。 | 檢視[[!DNL ChatGPT Ads] 帳戶設定](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)、[行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)、[廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)和[廣告設定](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)。<br><br>另請參閱有關[ChatGPT廣告](https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics)和[!DNL OpenAI]的詳細資訊[廣告原則](https://openai.com/policies/ad-policies)。 |
 | 2026年9月30日 | 新使用者介面 | 新使用者介面的主功能表已根據使用者意見重新組織。 登入時，您將會看到新功能表的逐步解說。 | — |
