@@ -1,6 +1,6 @@
 ---
 title: 在Creative Studio中管理動態創意內容
-description: 瞭解如何在Adobe Advertising Creative Studio中建置、編輯、複製和刪除目錄驅動的動態創意內容。
+description: 瞭解如何在Adobe Advertising Creative Studio中建置、品質檢查、編輯、複製和刪除目錄驅動的動態創意內容。
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -10,20 +10,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 在[!UICONTROL Creative Studio]中管理動態創意內容
 
-[!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤會依程式庫列出您的動態創意。 您可以在此處建立新的目錄驅動動態創意、編輯現有創意的詳細資訊和屬性對應、檢視變更記錄、複製創意以及刪除創意。
+[!UICONTROL Creative Studio]中的&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤會依程式庫列出您的動態創意。 您可以在此處建立新的目錄驅動動態創意、使用AI檢查創意品質、編輯現有創意的詳細資訊和屬性對應、檢視變更記錄、複製創意以及刪除創意。
 
 ## 建立動態創意 {#build-dynamic-creative}
 
 使用此工作流程來建立目錄驅動的動態創意。 四步驟引導式精靈會逐步引導您選取範本、連線目錄以及將目錄欄位對應至範本元素。 安裝之後，[!UICONTROL AI Assistant]可協助您預覽和品質檢查從目錄資料產生的每個廣告組合。
 
-動態創意內容與標準廣告有一個關鍵差異：AI代理程式無法修改目錄來源內容。 它可以篩選、分析和標幟問題，但若要變更廣告內容，您必須更新來源目錄。
+動態創意內容與標準廣告有一個關鍵差異：AI代理程式無法修改目錄來源內容。 它可以篩選、分析和標幟問題，但若要變更廣告內容，您必須從QA畫面或來源目錄中手動更新目錄值。
 
 ### 先決條件
 
@@ -83,44 +83,9 @@ ht-degree: 0%
 
 1. 選擇要&#x200B;*[!UICONTROL Save Dynamic Creative & Skip QA]*&#x200B;還是&#x200B;*[!UICONTROL Continue to QA]*。
 
-   如果您繼續QA，畫布會顯示從目錄產生的所有廣告組合，顯示為列並在範本中呈現每個目錄專案的預覽。
+   如果您繼續QA，**[!UICONTROL Dynamic Creative QA]**&#x200B;畫面會以預覽畫布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板開啟。
 
-1. 如果您繼續QA：
-
-   1. 執行下列任一項作業：
-
-      * 使用&#x200B;**[!UICONTROL Zoom in]**&#x200B;和&#x200B;**[!UICONTROL Zoom out]**&#x200B;控制項來調整畫布檢視。
-
-      * 使用分頁控制項(**X-Y / Z**)來分頁目錄列。
-
-      * 若要編輯廣告組合：
-
-        1. 將游標停留在目錄列上，然後按一下&#x200B;**[!UICONTROL Edit]**。
-
-        1. 在&#x200B;**[!UICONTROL Edit Row]**&#x200B;對話方塊中，更新欄位值。
-
-        1. 按一下&#x200B;**[!UICONTROL Save]**。
-
-        畫布會重新整理以反映更新的值。
-
-      * 使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板來分析和篩選目錄組合。 在&#x200B;**[!UICONTROL Ask anything]**&#x200B;欄位中輸入您的要求，或按一下其中一個建議的提示：
-
-        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
-
-        AI代理程式可以：
-
-        * 篩選畫布以顯示符合特定對象區段、地理、語言、類別或其他目錄欄位的廣告。
-        * 檢查品質問題，例如，字元限制溢位、內容溢位或出血、影像連結損毀，以及免責宣告可見度。
-        * 比較A/B測試分析的廣告組合
-        * 將廣告組織成群組，以便並排檢閱。
-
-        AI代理程式無法修改目錄來源的內容。 若要變更廣告內容，請更新來源目錄。
-
-   1. 在標題中儲存&#x200B;**[!UICONTROL Save Dynamic Creative]**。
-
-   1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Create]**。
+1. 如果您繼續進行QA，請依照&quot;[品質檢查](#qa-dynamic-creative)&quot;中的程式來[分析和篩選廣告](#analyze-ads)、[檢閱預覽和警示](#review-previews)，並選擇性[修正目錄值](#correct-catalog-values)。 完成後，[儲存動態創意](#save-or-exit)。
 
 ## 編輯動態創意 {#edit-dynamic-creative}
 
@@ -150,13 +115,99 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Update Creative]**。
 
-## 重新開啟動態創意內容的QA助理 {#qa-dynamic-creative}
+## 對動態創意內容進行品質檢查 {#qa-dynamic-creative}
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative Studio]**。
+使用QA小幫手對照動態創意內容的範本分析目錄列、預覽產生的廣告，並識別潛在的內容問題。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;來篩選及分組廣告、檢閱目錄警示，以及手動修正目錄值後再發佈變更。
 
-1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;索引標籤上，將游標停留在創意卡片上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+>[!NOTE]
+>
+>您可以檢查來自[!UICONTROL Creative Studio]或[!UICONTROL Creative Libraries]的動態創意內容。 雖然功能表標籤不同，但兩個進入點會開啟功能相同的相同&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;畫面。 分析取決於所選的創意、目錄和請求。 如需其他進入點，請參閱&quot;[品質檢查Creative Libraries](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)的動態創意內容&quot;。
 
-   QA畫面隨即開啟。 請參閱&quot;[步驟5：使用AI](#qa)預覽和QA&quot;，以取得可用的畫布控制項和AI助理功能。
+QA助理可用於動態顯示創意，而非標準創意或動態視訊創意。
+
+### 開啟QA助理 {#open-qa-agent}
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
+
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，在[!UICONTROL Generate or Build Creatives]區段下方的創意程式庫中找出動態創意。
+
+1. 將游標停留在創意卡片上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+
+   **[!UICONTROL Dynamic Creative QA]**&#x200B;畫面會以預覽畫布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板開啟。
+
+1. 如果創意內容使用多個目錄，請從標題中的&#x200B;**[!UICONTROL Catalog]**&#x200B;選取要檢閱的目錄。
+
+   助理會分析選取的目錄。 當創意僅使用一個目錄時，目錄選擇器會停用。
+
+### 使用AI分析和篩選廣告 {#analyze-ads}
+
+1. 在&#x200B;**[!UICONTROL AI Assistant]**&#x200B;面板中，在&#x200B;**[!UICONTROL Ask anything]**&#x200B;中輸入請求並按&#x200B;**[!UICONTROL Enter]**，或按一下其中一個建議的提示：
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   助理會在聊天面板中回應，並將相符的目錄列顯示為畫布上的廣告預覽。 在您提交請求之前，畫布會提示您要求助理分析目錄。
+
+1. 透過後續追蹤要求繼續精簡檢視。 助理可以協助您：
+
+   * 依對象區段、語言、地理或郵遞區號篩選廣告。
+   * 使用您指定的臨界值檢查字元長度。
+   * 檢查摘要錯誤、缺少內容以及可疑內容。
+   * 檢閱翻譯狀態。
+   * 比較A/B測試變體。
+   * 將廣告分組以供審閱，例如依產品或問題分組。
+
+   驗證助理的回應並在儲存變更前檢查預覽。
+
+### 檢閱預覽和警示 {#review-previews}
+
+* 使用畫布工具列可以：
+
+  * 調整縮放。
+  * 在&#x200B;**[!UICONTROL Thumbnail view]**&#x200B;和&#x200B;**[!UICONTROL Actual size]**&#x200B;之間切換。
+  * 按一下&#x200B;**[!UICONTROL Replay animations]**&#x200B;以重播預覽。
+  * 選取每頁的列數、選取頁碼，或使用&#x200B;**[!UICONTROL Previous page]**&#x200B;和&#x200B;**[!UICONTROL Next page]**。
+
+* 當助理群組結果時，按一下連結即可檢視群組中的所有創意內容。 使用&#x200B;**[!UICONTROL Back to groups]**&#x200B;返回群組結果，或使用&#x200B;**[!UICONTROL Catalog Rows]**&#x200B;離開群組檢視。
+
+* 預覽顯示&#x200B;**[!UICONTROL Issues detected]**&#x200B;時，將游標停留在指標上可檢視問題詳細資訊。
+
+* 當目錄警示可用時，按一下&#x200B;**[!UICONTROL View Alerts]**。 **[!UICONTROL Alerts]**&#x200B;對話方塊列出每個問題的目錄、列號、欄和錯誤訊息。 按一下&#x200B;**[!UICONTROL Close]**&#x200B;以返回畫布。
+
+### 正確的目錄值 {#correct-catalog-values}
+
+您無需離開QA畫面，即可手動編輯廣告預覽的目錄值。
+
+1. 在您要修正的預覽上，按一下&#x200B;**[!UICONTROL Edit]**。
+
+1. 在編輯對話方塊中，選取要在&#x200B;**[!UICONTROL Catalog columns to edit]**&#x200B;下變更的欄。 若要尋找欄，請使用&#x200B;**[!UICONTROL Search columns]**。
+
+1. 在&#x200B;**[!UICONTROL Columns content]**&#x200B;底下，更新選取的欄位值。
+
+1. 按一下&#x200B;**[!UICONTROL Update]**。
+
+   預覽會重新整理以反映更新的值。 除非您儲存動態創意，否則目錄變更不會發佈。
+
+>[!IMPORTANT]
+>
+>這些編輯會更新目錄資料，而不僅僅是廣告預覽。 請先檢閱值，然後再發佈。
+
+### 儲存變更或退出 {#save-or-exit}
+
+* 若要儲存動態創意內容並發佈任何目錄編輯：
+
+  1. 按一下標頭中的&#x200B;**[!UICONTROL Save Dynamic Creative]**。
+
+  1. 確認儲存：
+
+     * 對於新創意，在&#x200B;**[!UICONTROL Create Dynamic Creative]**&#x200B;確認對話方塊中，按一下&#x200B;**[!UICONTROL Create]**。
+     * 針對現有的創意，在&#x200B;**[!UICONTROL Update Dynamic Creative]**&#x200B;確認對話方塊中，按一下&#x200B;**[!UICONTROL Update]**。
+
+     您返回[!UICONTROL Creative Studio]。
+
+* 若要離開而不發佈擱置的目錄編輯，請按一下頁面標頭中的&#x200B;**[!UICONTROL Cancel]**。
 
 ## 檢視動態創意內容的變更記錄 {#view-change-log}
 
@@ -187,4 +238,3 @@ ht-degree: 0%
 >* [關於Advertising Creative中的Creative Studio](creative-studio-about.md)
 >* [在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)
 >* [在Creative Studio中管理範本](creative-studio-manage-templates.md)
-

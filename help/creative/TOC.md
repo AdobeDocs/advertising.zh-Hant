@@ -3,13 +3,11 @@ role: User
 user-guide-title: Advertising Creative 指南
 user-guide-description: 了解使用 Advertising Creative 所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: Creative 指南
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 
 # Advertising Creative 2.0指南 {#creative}
 
@@ -36,11 +34,12 @@ ht-degree: 4%
     + 標準創意 {#standard-creatives}
       + [將標準創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-standard.md)
       + [編輯標準創意內容](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [產生彈性HTML5創意專案的變體](/help/creative/creative-libraries/creative-generate-variations.md)
       + [標準創意設定](/help/creative/creative-libraries/creative-settings-standard.md)
       + [HTML5創意規格](/help/creative/creative-libraries/html5-creative-specification.md)
     + 動態創意 {#dynamic-creatives}
       + [將動態創意內容新增至創意內容庫](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [編輯動態創意內容](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [編輯和品質檢查動態創意](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [動態創意設定](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [預覽創意](/help/creative/creative-libraries/creative-preview.md)
     + [將創意內容附加至組合](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
