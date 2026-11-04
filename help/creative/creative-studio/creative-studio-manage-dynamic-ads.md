@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 在[!UICONTROL Creative Studio]中管理動態創意內容
@@ -117,33 +117,21 @@ ht-degree: 0%
 
 ## 對動態創意內容進行品質檢查 {#qa-dynamic-creative}
 
-使用QA代理程式，對照動態創意內容的範本分析目錄列、預覽產生的廣告，並識別潛在的內容問題。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;來篩選及分組廣告、檢閱目錄警示，以及手動修正目錄值後再發佈變更。
-
-代理程式會從[!UICONTROL Creative Libraries]或[!UICONTROL Creative Studio]開啟&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;畫面。 雖然功能表標籤不同，但兩個進入點提供相同的QA功能。 分析取決於所選的創意、目錄和請求。
+使用QA小幫手對照動態創意內容的範本分析目錄列、預覽產生的廣告，並識別潛在的內容問題。 您可以使用&#x200B;**[!UICONTROL AI Assistant]**&#x200B;來篩選及分組廣告、檢閱目錄警示，以及手動修正目錄值後再發佈變更。
 
 >[!NOTE]
 >
->QA代理程式適用於動態顯示創意，而非標準創意或動態視訊創意。 在[!UICONTROL Creative Libraries]中，動作僅適用於以動態範本為基礎的動態創意內容。
+>您可以檢查來自[!UICONTROL Creative Studio]或[!UICONTROL Creative Libraries]的動態創意內容。 雖然功能表標籤不同，但兩個進入點會開啟功能相同的相同&#x200B;**[!UICONTROL Dynamic Creative QA]**&#x200B;畫面。 分析取決於所選的創意、目錄和請求。 如需其他進入點，請參閱&quot;[品質檢查Creative Libraries](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)的動態創意內容&quot;。
 
-### 開啟QA代理 {#open-qa-agent}
+QA助理可用於動態顯示創意，而非標準創意或動態視訊創意。
 
-1. 透過下列任一種方式開啟已儲存的動態創意內容，以供QA使用：
+### 開啟QA助理 {#open-qa-agent}
 
-   * **來自[!UICONTROL Creative Libraries]：**
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
 
-     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，在[!UICONTROL Generate or Build Creatives]區段下方的創意程式庫中找出動態創意。
 
-     1. 按一下程式庫名稱以開啟程式庫。
-
-     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下動態創意名稱旁的&#x200B;**[!UICONTROL ...]**，然後按一下&#x200B;**[!UICONTROL QA Agent]**。
-
-   * **來自[!UICONTROL Creative Studio]：**
-
-     1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**。
-
-     1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，在[!UICONTROL Generate or Build Creatives]區段下方的創意程式庫中找出動態創意。
-
-     1. 將游標停留在創意卡片上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
+1. 將游標停留在創意卡片上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**。
 
    **[!UICONTROL Dynamic Creative QA]**&#x200B;畫面會以預覽畫布和&#x200B;**[!UICONTROL AI Assistant]**&#x200B;聊天面板開啟。
 
@@ -217,7 +205,7 @@ ht-degree: 0%
      * 對於新創意，在&#x200B;**[!UICONTROL Create Dynamic Creative]**&#x200B;確認對話方塊中，按一下&#x200B;**[!UICONTROL Create]**。
      * 針對現有的創意，在&#x200B;**[!UICONTROL Update Dynamic Creative]**&#x200B;確認對話方塊中，按一下&#x200B;**[!UICONTROL Update]**。
 
-     您會根據開啟QA畫面的位置，返回創意程式庫或[!UICONTROL Creative Studio]。
+     您返回[!UICONTROL Creative Studio]。
 
 * 若要離開而不發佈擱置的目錄編輯，請按一下頁面標頭中的&#x200B;**[!UICONTROL Cancel]**。
 
