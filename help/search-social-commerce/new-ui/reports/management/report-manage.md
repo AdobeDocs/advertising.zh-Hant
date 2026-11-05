@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 績效報表可讓您在任意精細的層級追蹤和管理產品組合、廣告網路和廣告網路帳戶實體的績效。 大部分報表可完整顯示每個行銷管道中的廣告對整體轉換率的貢獻度。
 
-每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-about.md)中管理通知。
+每次執行報表時，報表的資料都會動態編譯。 您可以選擇從現有報表產生新報表。 可用的報告引數會因報告型別而異。 對於大多數報表，您可以選擇預覽前50行，而不是產生整個報表。 當您產生報告時，您可以在報告完成時傳送包含一或多個電子郵件地址下載連結的通知，收件者可以在[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)中[管理通知。
 
 所有已完成的報告都可在[!UICONTROL Reports]檢視的[!UICONTROL Latest Reports]區段中取得，您可以在瀏覽器視窗中以表格格式檢視它們，或開啟或以檔案形式下載它們。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 排程自訂報表以以下列其中一種或兩種方式自動產生：
 
-* 使用[報告範本](/help/search-social-commerce/reports/automation/templates/template-about.md)每天或在一週或一個月中的特定日自動產生報告。
+* 使用[報告範本](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)每天或在一週或一個月中的特定日自動產生報告。
 
   您可以選擇設定使用範本之基本與進階報告的[FTP傳遞](/help/search-social-commerce/new-ui/reports/ftp-reports.md)。
 
@@ -73,8 +73,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 效能監視 | <ul><li>[該[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[該[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[該[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[該[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[該[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[該[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 效能疑難排解與趨勢分析 | <ul><li>[該[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[該[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[該[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[該[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[該[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md)和[該[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>使用&quot;[!UICONTROL Compare with]&quot;功能比較兩個時間範圍的任何基本報表</li></ul> |
-| 識別業務成長機會 | <ul><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [&#x200B; [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [&#x200B; [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)的廣告商） Adobe Analytics Analysis Workspace中的自訂報告</li></ul> |
-| Analytics | <ul><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [&#x200B; [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)的廣告商） Adobe Analytics Analysis Workspace中的自訂報告</li></ul> |
+| 識別業務成長機會 | <ul><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [ [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [ [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的廣告商） Adobe Analytics Analysis Workspace中的自訂報告</li></ul> |
+| Analytics | <ul><li>（僅具有Adobe Advertising轉換追蹤的廣告商） [ [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>（具有[Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)的廣告商） Adobe Analytics Analysis Workspace中的自訂報告</li></ul> |
 
 ## 產生報表
 
