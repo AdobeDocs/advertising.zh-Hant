@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 **[!UICONTROL Audience Signal]：** （選用） [!DNL Microsoft Advertising]個對象，以作為行銷活動的對象訊號。 [!DNL Microsoft Advertising]機器學習模型會使用受眾來尋找類似的網頁瀏覽者來鎖定目標，也可能會向未指定為訊號的受眾顯示廣告，以協助您達成效能目標。 選擇最可能轉換的對象。
 
 >[!NOTE]
->對象訊號與[廣告群組層級對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)不同。
+>對象訊號與[廣告群組層級對象目標](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)不同。
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

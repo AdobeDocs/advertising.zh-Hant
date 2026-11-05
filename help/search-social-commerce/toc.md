@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Advertising Search, Social, &amp; Commerce 指南 {#search-social-commerce}
@@ -254,10 +254,18 @@ ht-degree: 2%
     + [管理 [!DNL Google Ads] 轉換值規則](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [管理搜尋競標單位的限制](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + 目標定位 {#targeting}
+    + 對象 {#audiences-new-ui}
+      + [管理對象](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [管理行銷活動和廣告群組的對象目標](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [管理行銷活動和廣告群組的對象排除](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [管理 [!DNL Google Ads] 動態搜尋目標](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [管理版位](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + 資料庫 {#library}
     + [檢視和建立創意資產](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + 擴充功能 {#extensions-new-ui}
+      + [管理共用網站連結擴充功能](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [管理 [!DNL Google Ads] 共用圖說文字延伸](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [管理廣告擴充功能關聯](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [管理自訂警報](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [管理通知](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [使用者管理](/help/search-social-commerce/new-ui/user-administration.md)

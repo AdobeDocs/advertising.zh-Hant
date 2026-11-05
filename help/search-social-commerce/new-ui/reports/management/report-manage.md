@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 排程自訂報表以以下列其中一種或兩種方式自動產生：
 
-* 使用[報告範本](/help/search-social-commerce/reports/automation/templates/template-about.md)每天或在一週或一個月中的特定日自動產生報告。
+* 使用[報告範本](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)每天或在一週或一個月中的特定日自動產生報告。
 
   您可以選擇設定使用範本之基本與進階報告的[FTP傳遞](/help/search-social-commerce/new-ui/reports/ftp-reports.md)。
 
