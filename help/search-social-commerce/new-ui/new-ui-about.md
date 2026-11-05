@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 0c824f0b29ca5134c83a8d8d7107bd223fc3428f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 ---
 # 關於新的使用者介面
 
-您現在可以從新的使用者介面(UI)管理您的目標、模擬和產品組合，以及執行大多數其他關鍵工作。 新的搜尋、社交和Commerce UI會在`https://experience.adobe.com`網域內的新URL中執行。
+您現在可以從新的使用者介面(UI)執行大多數任務。 新的搜尋、社交和Commerce UI會在`https://experience.adobe.com`網域內的新URL中執行。
 
-一段時間後，剩餘的功能將新增到新UI。 同時，您可以從新UI的主功能表開啟舊版UI中的大部分功能。 您也可以輕鬆地在新版UI和舊版UI之間切換。
+一段時間後，最後幾個剩餘的功能將新增到新UI。 同時，您可以從新UI的主功能表開啟舊版UI中的功能。 您也可以輕鬆地在新版UI和舊版UI之間切換。
 
 如需有關如何組織新UI的詳細資訊，請參閱[使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)。
 
