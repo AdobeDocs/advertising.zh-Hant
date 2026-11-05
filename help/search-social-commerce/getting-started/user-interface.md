@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # 使用者介面的組織方式
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Targeting]**&#x200B;子功能表：
 
-  * **[!UICONTROL Audiences]**：開啟新檢視，顯示廣告商的所有現有對象、所有對象目標和所有對象排除。 若要管理您的對象，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Audiences]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+  * **[!UICONTROL Audiences]**：開啟新的檢視，以管理廣告商的對象、所有對象目標和所有對象排除。
 
-  * **[!UICONTROL Auto Targets]**&#x200B;開啟新檢視以列出和管理廣告商的自動目標。
+  * **[!UICONTROL Auto Targets]**&#x200B;開啟新檢視，其中顯示廣告商的所有現有自動目標。 若要管理您的自動目標，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
   * **[!UICONTROL Placements]**&#x200B;開啟新檢視，以列出和管理廣告商的刊登版位和負面的刊登版位。
 

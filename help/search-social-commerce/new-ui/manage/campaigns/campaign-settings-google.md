@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '3244'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 >[!NOTE]
 >
->對象訊號與[行銷活動層級和廣告群組層級的對象目標](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)不同。
+>對象訊號與[行銷活動層級和廣告群組層級的對象目標](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)不同。
 
 **[!UICONTROL Primary Status]：** （最高成效行銷活動中現有資產群組的唯讀欄位）為何資產群組會或不會以完整容量提供服務。 它會考慮資產群組狀態以及其他訊號，例如原則和品質核准。 值可能包括&#x200B;*合格，* *有限，* *不適用，* *已暫停，* *擱置中，* *已移除，* *未知，*&#x200B;或未指定&#x200B;*未指定。*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
