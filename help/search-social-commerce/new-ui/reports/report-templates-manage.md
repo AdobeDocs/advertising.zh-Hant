@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 
-您也可以在從[最新報告]索引標籤](/help/search-social-commerce/new-ui/reports/management/report-manage.md)建立報告時[儲存範本，方法是在提交報告設定之前啟用&#x200B;**[!UICONTROL Save as Template]**。
+您也可以在從[最新報告]索引標籤[&#128279;](/help/search-social-commerce/new-ui/reports/management/report-manage.md)建立報告時儲存範本，方法是在提交報告設定之前啟用&#x200B;**[!UICONTROL Save as Template]**。
 
 ## 檢視報表範本的設定 {#template-view}
 
