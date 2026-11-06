@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # 管理詳細目錄摘要的廣告範本
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您可以將每個範本與一個摘要檔案、[!DNL Google Merchant Center]帳戶或[!DNL Microsoft Merchant Center]帳戶建立關聯，也可以將多個範本與同一個摘要檔案或帳戶建立關聯。 廣告範本可包含變數，這些變數會由上傳檔案或帳戶中的實際資料欄取代。 在大多數情況下，變數也可以包含您在Search、Social和Commerce中設定的[修飾元群組](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)，以便為資料檔案中的每個適用列建立多個廣告、關鍵字、促銷活動或廣告群組。 範本選項可讓您為廣告建立新的帳戶結構（行銷活動、廣告群組、關鍵字），或將廣告對應至現有的帳戶結構。
 
-除了從頭開始建立新範本之外，您也可以複製現有範本並編輯現有範本，選擇建立新範本。
+除了使用新設定建立範本外，您還可以複製現有範本並編輯現有範本，選擇建立新範本。
 
 建立範本並將其與資料摘要檔案或商家中心帳戶建立關聯後，您就可以透過範本傳播檔案中的資料，以建立行銷活動資料和帳戶結構，選擇性地建立Bulksheet檔案以供稽核或立即張貼至廣告網路。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 若要從頭開始建立範本，請按一下資料表格上方工具列中的&#x200B;**[!UICONTROL Create/Clone]**，然後選取適用的廣告網路。
+   * 若要使用新設定建立範本，請按一下資料表格上方工具列中的&#x200B;**[!UICONTROL Create/Clone]**，然後選取適用的廣告網路。
 
    * 複製現有範本：
 

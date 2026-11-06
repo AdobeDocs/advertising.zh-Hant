@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
       + [重新命名投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [變更投資組合的狀態](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Portfolio設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [從[!UICONTROL Portfolios]檢視執行自訂模擬](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [從[!UICONTROL Portfolios]檢視執行並下載模擬](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [在[!UICONTROL Portfolios]檢視中檢視效能圖表](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [檢視投資組合績效詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [檢視投資組合的變更記錄](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)

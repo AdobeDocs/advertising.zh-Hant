@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # 建立報表範本
 
-您可以為任何型別的效能報表儲存多個報表範本。 您可以從頭開始建立範本，或以現有範本為基礎。 您一次最多可以維護100個範本。
+您可以為任何型別的效能報表儲存多個報表範本。 您可以使用新設定建立範本，或將其建立在現有範本上。 您一次最多可以維護100個範本。
 
-* 若要從頭開始建立範本，請執行下列任一項作業：
+* 若要使用新設定建立範本，請執行下列任一項作業：
 
   * 從「[!UICONTROL Reports]」標籤，建立報告，並選取報告名稱旁&#x200B;**[!UICONTROL Save as template]**&#x200B;旁的核取方塊。
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1241'
 ht-degree: 0%
 ---
 # 關於模擬
@@ -49,11 +49,13 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ### 每週自動模擬
 
-每週都會使用目前的產品組合設定自動執行模擬報告。 每週自動模擬僅適用於投資組合為[最佳化或作用中](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)的期間。
+搜尋、Social和Commerce每週都會使用目前的產品組合設定自動執行模擬報表。 每週自動模擬僅適用於投資組合為[最佳化或作用中](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)的期間。
+
+您可以從[!UICONTROL Portfolios]檢視[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下載所選執行日期最多100個投資組合的每週模擬，或從[!UICONTROL Simulations]檢視](simulation-download.md)中下載個別模擬。
 
 #### 每週下載的模擬
 
-每個下載的每週模擬都包含一個活頁簿。 每個活頁簿包含20個步驟層級中每個步驟層的目標，以及目標中包含的預計成本、點按次數、加權收入（目標值）和轉換量度（根據對應目標）。 對於前20個資料列，未套用限制；對於其餘資料列，已套用限制。
+您可以將每週的模擬下載為個別活頁簿，或將它們合併到一個活頁簿中。 每個模擬的報表包含20個步驟層次中每個層次的目標，以及目標中的預計成本、點選次數、加權收入（目標值）和轉換量度（根據對應目標）。 模擬會計算前20個沒有限制的資料列，以及剩餘的具有限制的資料列。
 
 #### 熒幕上每週模擬詳細資料
 
@@ -61,19 +63,19 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ##### 圖表檢視
 
-圖形檢視會針對20個支出層級中的每一個顯示支出目標的預期目標值或其他指定量度([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)。 目標中點已識別，您可以選擇變更目標中點，以使用該值檢視預測資料。 將游標放在圖形中的任何點上，即可檢視該點的資料。
+圖形檢視會針對20個支出層級中的每一個顯示支出目標的預期目標值或其他指定量度([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)。 圖表會識別目標中點，您可以選擇變更目標中點，以檢視使用該值的預測資料。 將游標放在圖形中的任何點上，即可檢視該點的資料。
 
-您可以檢視已套用限制和未套用限制的資料、已套用限制和未套用限制的資料。 當您檢視考慮限制的資料時，套用的限制會在圖形上方識別。
+您可以檢視具有限制、無限制或兩者兼有的資料。 當您檢視含有限制的資料時，檢視會識別圖形上方的那些限制。
 
 ##### 表格檢視
 
-表格檢視會顯示20個支出層次中每個層次的目標支出。 它也會包含每個支出層次之投資組合目標中的對應估計成本、目標值的邊際成本、點按數、目標值和轉換量度。 目標中點已識別，您可以選擇變更目標中點，以使用該值檢視預測資料。
+表格檢視會顯示20個支出層次中每個層次的目標支出。 它也會包含每個支出層次之投資組合目標中的對應估計成本、目標值的邊際成本、點按數、目標值和轉換量度。 此表格會識別目標中點，您可以選擇變更目標中點，以檢視使用該值的預測資料。
 
-您可以檢視已套用限制和未套用限制的資料、已套用限制和未套用限制的資料。 當您檢視考慮限制的資料時，套用的限制會在圖形上方識別。
+您可以檢視具有限制、無限制或兩者兼有的資料。 當您檢視含有限制的資料時，檢視會識別圖形上方的那些限制。
 
 ##### 模擬設定
 
-模擬設定在圖形或表格下方顯示為唯讀。
+檢視會在圖形或表格下方顯示唯讀的模擬設定。
 
 ##### Portfolio設定
 
@@ -85,7 +87,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 下載的自訂模擬
 
-每個下載的自訂模擬都包含一個活頁簿。 每個活頁簿都包含一個工作表，供模擬的每個指定實體層級（產品組合、行銷活動、廣告群組、競標單位）使用（當該層級有資料可用時）。 當您指定裝置層級資料時，每個工作表都會包含[!UICONTROL Device]欄。 每個工作表都包含一列，內含每個適用實體的資料，以及20個步驟中每個步驟的裝置型別（例如每個促銷活動各一列）（若為報表指定此列）。 每列中的資料包含目標中所包含的根據對應目標的預測邊際成本對收入、成本、點選、加權收入（目標值）、裝置型別和轉換量度。 產品組合層次工作表也包含步驟層次的目標，而實體層次工作表則包含廣告網路、帳戶、促銷活動及（若適用）廣告群組。  <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+您可以將自訂模擬下載為個別活頁簿，或將它們合併到一個活頁簿中。 每個模擬的報表都包含您指定之每個實體層次（產品組合、行銷活動、廣告群組、競標單位）的一個工作表（當該層次有資料可用時）。 當您指定裝置層級資料時，每個工作表都會包含[!UICONTROL Device]欄。 每個工作表都包含每個適用實體的一列，當您請求裝置層級資料時，每個步驟都會包含裝置型別（例如，每個行銷活動各一列）。 每一列的資料包括目標中的預計邊際成本對收入、成本、點按數、加權收入（目標值）、裝置型別和轉換量度（根據對應目標）。 產品組合層次工作表也包含步驟層次的目標，而實體層次工作表則包含廣告網路、帳戶、促銷活動及（若適用）廣告群組。  <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
 
 #### 熒幕上的自訂模擬詳細資料
 
@@ -93,19 +95,19 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 #### 圖表檢視
 
-圖形檢視會顯示模擬的指定花費層次（步驟）數目之花費目標的預期目標值或其他指定量度([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)。 目標中點已識別。 將游標放在圖形中的任何點上，即可檢視該點的資料。
+圖形檢視會顯示模擬的指定花費層次（步驟）數目之花費目標的預期目標值或其他指定量度([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)。 圖表可識別目標中點。 將游標放在圖形中的任何點上，即可檢視該點的資料。
 
-當建立考慮限制的模擬時，套用的限制會在圖形上方識別。
+當模擬計入限制時，檢視表會識別圖形上方的那些限制。
 
 ##### 表格檢視
 
-表格檢視表會顯示每個指定數目的模擬花費層次（步驟）的目標支出。 它也會針對每個支出層級，顯示產品組合目標中的對應估計成本、目標值的邊際成本、點按數、目標值和轉換量度。 目標中點已識別。
+表格檢視表會顯示每個指定數目的模擬花費層次（步驟）的目標支出。 它也會針對每個支出層級，顯示產品組合目標中的對應估計成本、目標值的邊際成本、點按數、目標值和轉換量度。 此表格可識別目標中點。
 
-當建立考慮限制的模擬時，套用的限制會在圖形上方識別。
+當模擬計入限制時，檢視表會識別圖形上方的那些限制。
 
 ##### 模擬設定
 
-模擬設定在圖形或表格下方顯示為唯讀。
+檢視會在圖形或表格下方顯示唯讀的模擬設定。
 
 ##### Portfolio設定
 
@@ -115,17 +117,19 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 [!UICONTROL Simulations]檢視會列出每週模擬和自訂模擬。 管理員和其他使用者型別<!-- Verify which -->可以看到其他使用者建立的自訂模擬。 所有其他使用者只能看到他們建立的自訂模擬。
 
-資料表包含每個模擬的進度；每一列填入的[!UICONTROL Target Midpoint]欄；以及成本/曝光數/點選數/目標值預測、實際值和準確度的欄。 您可以選擇新增其他自訂欄（包括提升度量度，例如實際目標值除以成本）。
+資料表格會顯示每個模擬的進度；每一列的[!UICONTROL Target Midpoint]；以及成本/曝光數/點選/目標值預測、實際值和準確度的欄。 您可以選擇新增其他自訂欄（包括提升度量度，例如實際目標值除以成本）。
 
 ### 可用動作 {#simulations-actions}
 
 * [自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含其他量度，包括預估曝光數；實際成本、點按次數、曝光數和目標值；成本對目標的值；成本準確度、點按準確度、目標值準確度；以及預測與實際目標值與成本對目標值之間的差異（差異）。 您也可以包含大部分模擬設定和模擬型別（[!UICONTROL Custom]或[!UICONTROL Weekly]）的欄。
 
-* [產生或重新執行單一投資組合的自訂模擬](simulation-create.md)。 您可以建立新的模擬，或是重新產生清單中現有的模擬。
+* [使用投資組合目前的設定作為預設值，為單一投資組合產生自訂模擬](simulation-create.md#simulation-create)。
+
+* [使用現有的設定重新執行最多10個模擬](simulation-create.md#rerun-a-simulation-with-the-existing-settings)。 搜尋、Social和Commerce會略過狀態為[!UICONTROL Queued]或[!UICONTROL In Progress]的模擬。
 
 * [在熒幕上檢視每週或自訂的模擬](simulation-view.md)。
 
-* [每週下載和自訂模擬](simulation-download.md)，以ZIP檔案下載[!DNL Microsoft Excel]活頁簿。
+* [每週下載最多10個自訂模擬](simulation-download.md)，作為單一[!DNL Microsoft Excel]活頁簿或ZIP檔案中的個別活頁簿。
 
 * 使用[!UICONTROL Spend Planner]按鈕，開啟舊版支出建議工具，協助您識別產品組合間的最佳支出分配。
 

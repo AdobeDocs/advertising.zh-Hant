@@ -1,6 +1,6 @@
 ---
 title: （新增UI）建立目標
-description: 瞭解如何建立目標。
+description: 瞭解如何建立目標或複製現有目標。
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '319'
 ht-degree: 0%
 ---
 # （新增UI）建立目標
@@ -41,6 +41,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >當您[建立投資組合](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)或稍後[修改投資組合設定](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)時，您可以將目標與投資組合建立關聯。 您可以對多個產品組合使用相同目標。
+
+## 建立目標
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
@@ -55,6 +57,32 @@ ht-degree: 0%
 1. 在設定底部，按一下&#x200B;**[!UICONTROL Save]**。
 
 與Advertising DSP套件搭配使用時，以&quot;`ADSP_`&quot; （不區分大小寫）為前置詞的目標可在2天內用作DSP中的自訂目標。
+
+## 複製目標 {#objective-duplicate}
+
+複製目標以建立具有相同設定的新目標。 您可以選擇變更新目標的預設名稱，並視需要編輯目標設定。 原始目標不會變更。
+
+複製目標需要[!UICONTROL Edit Objectives]許可權。 無法複製預設[!UICONTROL Maximize Clicks]目標。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
+
+1. 執行下列任一項作業：
+
+   * 將游標停留在目標列上並按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Duplicate]**。
+
+   * 選取目標旁的核取方塊。 在大量動作工具列中按一下![複製](/help/search-social-commerce/assets/duplicate.png "複製") **[!UICONTROL Duplicate]**。
+
+     選取多個目標時，[!UICONTROL Duplicate]無法使用。
+
+1. 編輯目標設定。
+
+   依預設，新的目標名稱為`<original objective name>_Copy`，例如&quot;Revenue_Copy&quot;。 如果原始名稱的結尾已經是`_Copy`，則新名稱會包含計數器，例如&quot;Revenue_Copy(1)&quot;。 如果建議的名稱已存在，請輸入唯一的&#x200B;**[!UICONTROL Name]**。
+
+   如需指示，請參閱使用者介面中的說明或最佳化指南中的說明（可從搜尋、社交和Commerce中取得）。
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+   如果顯示警告對話方塊，請檢閱警告並按一下&#x200B;**[!UICONTROL Save]**&#x200B;以繼續。
 
 >[!MORELIKETHIS]
 >
