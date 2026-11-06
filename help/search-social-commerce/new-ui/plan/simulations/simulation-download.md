@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您也可以在熒幕](simulation-view.md)上[檢視模擬結果。
+>* 您也可以在熒幕[&#128279;](simulation-view.md)上檢視模擬結果。
 >* 您可以[自訂[!UICONTROL Simulations]檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含許多其他量度和大部分模擬設定的欄。 請參閱「[關於模擬](simulation-about.md#simulations-actions)」中的「可用動作」一節，以取得您可以包含之欄的詳細資訊。
 >* 您也可以[從[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)下載最多100個投資組合的每週模擬。
 

@@ -51,7 +51,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 搜尋、Social和Commerce每週都會使用目前的產品組合設定自動執行模擬報表。 每週自動模擬僅適用於投資組合為[最佳化或作用中](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)的期間。
 
-您可以從[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下載所選執行日期最多100個投資組合的每週模擬，或從[!UICONTROL Simulations]檢視](simulation-download.md)中[下載個別模擬。
+您可以從[!UICONTROL Portfolios]檢視[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)中[下載所選執行日期最多100個投資組合的每週模擬，或從[!UICONTROL Simulations]檢視](simulation-download.md)中下載個別模擬。
 
 #### 每週下載的模擬
 
