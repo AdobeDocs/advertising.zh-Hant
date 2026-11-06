@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: af1f0e268241a9ab903a09250ca087e636892375
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1223'
 ht-degree: 0%
 ---
 # （新UI）管理自訂警報
@@ -131,8 +131,9 @@ ht-degree: 0%
 |--- |--- |--- |
 |  | [!UICONTROL Name] | 警示名稱。 它必須至少包含五個字元。 |
 | [!UICONTROL Date Range] | [!UICONTROL Select Entity] | 要評估的實體型別： <i>[!UICONTROL Portfolio]</i>、<i>[!UICONTROL Campaign]</i>或<i>[!UICONTROL Ad Group]</i>。 |
-| [!UICONTROL Date Range] | [!UICONTROL Period] | 要評估警示條件的日期範圍。 量度會在日期範圍內以彙總方式評估。 選項範圍從&#x200B;*[!UICONTROL Yesterday]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。 |
-| [!UICONTROL Filters] | \[定義的篩選器\] | 在[!UICONTROL Scheduling and Delivery]標籤上指定的時間觸發警示的條件。 可用的欄會因圖元型別而異。 所有篩選器都使用布林函式AND連結，這表示必須符合所有指定的條件。<ul><li><p>若要新增篩選器，請執行下列動作：<p><ol><li><p>（選擇性）若要依文字字串篩選欄名稱，請在[!UICONTROL ADD FILTER]輸入欄位中輸入搜尋字串。</p></li><li><p>在欄清單中，選取欄名稱。</p></li><li><p>在欄上定義篩選器：</p></li><ul><li><p>（沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。</p></li><li><p>（具有輸入欄位的所有其他篩選器）從第二個功能表選取運運算元，然後輸入適用的值。</p><p>例如，如果您已選取「點按」欄，且只想傳回點按超過100次的列，則選取「大於」並在輸入欄位中輸入100。</p><p>根據資料型別，可用的運運算元可能包括<i>大於</i>、<i>小於</i>、<i>等於</i>、<i>包含</i>、<i>不包含</i>、<i>開頭為</i>、<i>結尾為</i>、<i>無值</i>、<i>具有值</i>、<i>在</i>之前、<i>在</i>之後，或<i>無日期</i>。</p><p>**注意：**&#x200B;文字值不區分大小寫。 例如，如果您依名稱含有「貸款」的行銷活動進行篩選，結果可能包含「消費者貸款」和「貸款申請」。</p></li></ol><li><p>若要移除篩選器，請按一下篩選器定義旁的![刪除](/help/search-social-commerce/assets/delete.png "刪除")。</p></li></ul> |
+| [!UICONTROL Date Range] | [!UICONTROL Period] | 要評估警示條件的日期範圍。 量度會在日期範圍內以彙總方式評估。 選項範圍從&#x200B;*[!UICONTROL Yesterday]*&#x200B;到&#x200B;*[!UICONTROL Last 180 Days]*。<br><br>對於使用[!UICONTROL increases by]或[!UICONTROL decreases by]的篩選器，Search、Social和Commerce會自動選取前一個比較期間。 例如，它會比較[!UICONTROL Last 7 Days]與[!UICONTROL Previous 7 Days]。 [!UICONTROL Filters]索引標籤上的[!UICONTROL Comparing:]文字會識別兩個句號。 |
+| [!UICONTROL Filters] | \[定義的篩選器\] | 在[!UICONTROL Scheduling and Delivery]標籤上指定的時間觸發警示的條件。 可用的欄會因圖元型別而異。 所有篩選器都使用布林函式AND連結，這表示必須符合所有指定的條件。<ul><li><p>若要新增篩選器，請執行下列動作：<p><ol><li><p>（選擇性）若要依文字字串篩選欄名稱，請在[!UICONTROL ADD FILTER]輸入欄位中輸入搜尋字串。</p></li><li><p>在欄清單中，選取欄名稱。</p></li><li><p>在欄上定義篩選器：</p></li><ul><li><p>（沒有輸入欄位的篩選器）按一下第二個功能表旁的![向下箭頭](/help/search-social-commerce/assets/arrow-down-expand.png "向下箭頭")，然後選取要包含的每個值旁的核取方塊。</p></li><li><p>（具有輸入欄位的所有其他篩選器）從第二個功能表選取運運算元，然後輸入適用的值。</p><p>例如，如果您已選取「點按」欄，且只想傳回點按超過100次的列，則選取「大於」並在輸入欄位中輸入100。</p><p>根據資料型別，可用的運運算元可能包括<i>大於</i>、<i>小於</i>、<i>等於</i>、<i>包含</i>、<i>不包含</i>、<i>開頭為</i>、<i>結尾為</i>、<i>無值</i>、<i>具有值</i>、<i>在</i>之前、<i>在</i>之後，或<i>無日期</i>。</p><p>若為支援的數值量度，您也可以選取[!UICONTROL increases by]或[!UICONTROL decreases by]來比較不同日期範圍的績效。 這些運運算元不適用於[!UICONTROL Budget]之類的屬性。 輸入正數金額，以識別至少該金額的增加或減少，然後選取下面描述的[!UICONTROL Date comparison format]。</p><p>**注意：**&#x200B;文字值不區分大小寫。 例如，如果您依名稱含有「貸款」的行銷活動進行篩選，結果可能包含「消費者貸款」和「貸款申請」。</p></li></ol><li><p>若要移除篩選器，請按一下篩選器定義旁的![刪除](/help/search-social-commerce/assets/delete.png "刪除")。</p></li></ul> |
+| [!UICONTROL Filters] | [!UICONTROL Date comparison format] | （當至少一個篩選器使用[!UICONTROL increases by]或[!UICONTROL decreases by]時）如何表示所選期間與比較期間之間的變更：<ul><li><i>[!UICONTROL Variance(#)]</i> （預設值）：將變更表示為數值。 比較篩選值會顯示#個字尾。</li><li><i>[!UICONTROL Percentage(%)]</i>：以百分比表示變更。 比較篩選值會顯示%尾碼。</li></ul>選取的格式會套用至使用警示中日期比較的所有量度。 它不會影響其他篩選器。 變更格式不會轉換您輸入的值；請視需要複查並調整比較篩選值。 |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Trigger this Alert] \[when\] | 警報檢查指定條件篩選器的頻率，並在符合所有條件時傳送電子郵件通知：<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*星期*> &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*第NN*>天&lt;*NN*> `[AM\|PM]`]</p></li></ul>**注意：**&#x200B;此值不會影響評估期間。 |
 |  | [!UICONTROL Email Recipients] | （只有警報範本的建立者可編輯；其他所有人只能唯讀）觸發警報時，要傳送通知的已註冊搜尋、社交和Commerce使用者。 依預設，會選取使用者帳戶的名稱。 可選擇新增或移除有權存取廣告商資料的使用者。<br><br>當警示包含最多1000筆記錄時，會將CSV版本的警示附加至電子郵件訊息。 |
 
