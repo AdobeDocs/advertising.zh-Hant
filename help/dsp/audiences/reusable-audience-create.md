@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
       * 若要將所包含對象區段的區段ID複製到剪貼簿，請按一下&#x200B;**[!UICONTROL Copy rule]**。
 
-      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![&#x200B; &#x200B;](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3&rbrace;]。**[!UICONTROL Apply]**
+      * 若要從對象移除區段，請提示AI助理執行此動作，或按一下[編輯] ![ ](/help/dsp/assets/edit-ai.png " [編輯] ")，取消選取您要從對象移除的任何區段，然後按一下[3}]。**[!UICONTROL Apply]**
 
 1. 當您對集合的對象感到滿意時，請按一下&#x200B;**[!UICONTROL Save Audience]**&#x200B;以建立指定的對象。
 
@@ -198,7 +198,7 @@ Consider starting by asking for what you should include.
 
 you can give thumbs up or down to [what exactly?].
 
-Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what is reset for each new session.
 
 -->
 

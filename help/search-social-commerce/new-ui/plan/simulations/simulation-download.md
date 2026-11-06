@@ -1,6 +1,6 @@
 ---
 title: 下載模擬
-description: 瞭解如何下載試算表檔案中的模擬。
+description: 瞭解如何將模擬下載為個別或組合的試算表檔案。
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '242'
 ht-degree: 0%
 ---
 # 下載模擬
@@ -40,20 +40,31 @@ ht-degree: 0%
 
 *Beta功能*
 
-您可以一次將多次模擬的資料下載到ZIP格式的檔案中。 此檔案包含每個選取模擬的一個[!DNL Microsoft Excel]活頁簿（XLSX檔案）。
+您可以從[!UICONTROL Simulations]檢視下載每週最多10個或一次自訂的模擬。 已將單一模擬下載為[!DNL Microsoft Excel]活頁簿（XLSX檔案）。 對於多個模擬，您可以下載一個合併活頁簿或ZIP檔案，其中包含每個模擬的個別活頁簿。
+
+下載模擬需要以[!UICONTROL View Simulation]許可權存取[!UICONTROL Simulations]檢視。
 
 >[!NOTE]
 >
->* 您也可以在熒幕[&#128279;](simulation-view.md)上檢視模擬結果。
+>* 您也可以在熒幕](simulation-view.md)上[檢視模擬結果。
 >* 您可以[自訂[!UICONTROL Simulations]檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)以包含許多其他量度和大部分模擬設定的欄。 請參閱「[關於模擬](simulation-about.md#simulations-actions)」中的「可用動作」一節，以取得您可以包含之欄的詳細資訊。
+>* 您也可以[從[!UICONTROL Portfolios]檢視](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations)下載最多100個投資組合的每週模擬。
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Plan]>[!UICONTROL Simulations]**。
 
-1. 選取您要下載之模擬旁的核取方塊。
+1. 選取您要下載最多10個模擬旁的核取方塊。
 
-1. 在資料表上方的工具列中，按一下![下載](/help/search-social-commerce/assets/download.png "下載") **[!UICONTROL Simulation Report]**。
+   僅選取狀態為[!UICONTROL Successful]的模擬。 如果任何選取的模擬狀態為[!UICONTROL Failed]、[!UICONTROL Queued]或[!UICONTROL In Progress]，則不會開始下載。 請先清除這些選取專案再下載。
 
-   檔案會依照瀏覽器的正常程式下載。 解壓縮ZIP檔案以檢視模擬。
+1. 在資料表上方的工具列中，按一下&#x200B;**[!UICONTROL Download Simulation]**。
+
+1. （選取多個模擬時）選取下載選項：
+
+   * **[!UICONTROL Download as Single File]**：下載一個活頁簿，其中包含所有選取的模擬。
+
+   * **[!UICONTROL Download as Multiple Files]**：下載包含每個選取之模擬個別活頁簿的ZIP檔案。
+
+檔案會依照瀏覽器的正常程式下載。 如果您下載ZIP檔案，請解壓縮檔案以檢視活頁簿。
 
 >[!MORELIKETHIS]
 >

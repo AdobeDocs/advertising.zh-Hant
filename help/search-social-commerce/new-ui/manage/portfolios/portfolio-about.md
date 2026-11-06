@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 0%
 ---
 # （新UI）關於投資組合
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios]檢視
 
-[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合。
+[!UICONTROL Portfolios]檢視會列出篩選檢視中的所有現有投資組合，其中包含可自訂的效能資料。 您可以[自訂檢視表](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)中的欄，並從工具列](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)或[欄標題](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)篩選資料以包含特定投資組合[。
 
 ### 可用動作 {#available-actions}
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 * [檢視檢視中所有產品組合的效能圖表](portfolio-view-performance-graph.md)
 
 * [檢視投資組合績效詳細資料](portfolio-details.md)
+
+* [執行自訂模擬或下載每週模擬](portfolio-create-simulation.md)
 
 * [檢視投資組合的變更記錄](portfolio-view-change-history.md)
 

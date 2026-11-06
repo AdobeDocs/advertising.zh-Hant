@@ -4,15 +4,15 @@ description: 建立位置範本
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '69'
 ht-degree: 0%
 ---
 
 # 建立位置範本
 
-您可以從頭開始或從現有範本建立位置範本。
+您可以使用新設定來建立位置範本，或使用現有範本作為基礎。
 
 ## 建立位置範本xxx
 
