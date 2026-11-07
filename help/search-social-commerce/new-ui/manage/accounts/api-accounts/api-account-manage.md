@@ -9,19 +9,64 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b568da9300e9adb8d189811c3c8b52516dfcef6f
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '3141'
 ht-degree: 0%
 ---
 # （新UI）透過API連線管理廣告網路帳戶
 
-<!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-以下是使用廣告網路的API來管理搜尋、社交和Commerce同步的廣告網路帳戶指示。
+這些指示說明如何透過API管理搜尋、社交和Commerce同步的廣告網路帳戶，包括驗證、連線重新整理和狀態檢查。
 
-<!-- Move out info about Naver into a separate page -->
+若要建立、編輯或重新驗證帳戶，您必須擁有編輯帳戶的許可權。
 
 如需每個廣告網路可用功能的詳細資訊，請參閱[支援的詳細目錄](/help/search-social-commerce/introduction/supported-inventory.md)。
+
+## 關於[!UICONTROL Accounts]檢視 {#account-view-about}
+
+[!UICONTROL Manage] > [!UICONTROL Accounts]檢視會在篩選的檢視中，列出所選廣告商帳戶的所有廣告網路帳戶。 按一下帳戶名稱以開啟為該帳戶篩選的[!UICONTROL Campaigns]檢視。
+
+### 帳戶驗證和存取狀態 {#authentication-status}
+
+驗證和存取詳細資訊會依廣告網路和帳戶可用的資訊而有所不同。 已啟用或已成功驗證的帳戶仍可能缺少許可權。
+
+以下欄顯示帳戶狀態、驗證和存取詳細資訊：
+
+* **[!UICONTROL Status]：**&#x200B;帳戶的作業狀態（不同於其驗證和許可權）。 啟用的帳戶可與廣告網路同步資料，並使用支援的帳戶管理和最佳化功能。 停用的帳戶會停止Search、Social和Commerce中的活動。 帳戶狀態顯示為&#x200B;**[!UICONTROL Enabled]**&#x200B;使用綠色指示器，**[!UICONTROL Disabled]**&#x200B;使用紅色指示器，而&#x200B;**[!UICONTROL Pending]**&#x200B;使用琥珀色指示器。 您可以從檢視或帳戶設定[啟用或停用帳戶](#enable-disable-account)。
+
+* **[!UICONTROL Authenticated]：**&#x200B;帳戶是否已驗證：
+
+  * **[!UICONTROL Yes]：**&#x200B;帳戶已驗證。
+
+  * **[!UICONTROL No]：**&#x200B;帳戶未驗證。 當驗證錯誤可用時，將游標停留在紅色警告圖示上以檢視錯誤。
+
+  * **[!UICONTROL Not Applicable]：**&#x200B;驗證不適用，因為您為帳戶上傳資料，而不是透過API連線。
+
+  * **[!UICONTROL Expiring in N days]**、**[!UICONTROL Expiring today]**&#x200B;或&#x200B;**[!UICONTROL Expired]：**&#x200B;當到期資訊可用，且權杖在14天或更短時間內到期或已經到期時，權杖到期警告會取代&#x200B;**[!UICONTROL Yes]**。 按一下警告圖示以檢視帳戶的存取詳細資料，並[重新驗證](#reauthenticate)。
+
+* **[!UICONTROL Manager Account for Cross-Account Conversions]：** （僅限[!DNL Google Ads]個帳戶）用於跨帳戶轉換上傳的相關管理員帳戶識別碼。 當管理員帳戶出現錯誤時，ID旁邊會出現警告圖示。 若要檢視錯誤，請將游標停留在圖示上。 管理員帳戶的認證與廣告網路帳戶的認證不同。 若要新增或重新整理管理員帳戶認證，請使用&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**。 請參閱[管理管理員帳戶](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)。
+
+* **[!UICONTROL Access Level]：**&#x200B;報告的帳戶存取層級，例如&#x200B;**[!UICONTROL Full]**、**[!UICONTROL Limited]**&#x200B;或&#x200B;**[!UICONTROL None]**，或是在沒有可用的存取層級值時&#x200B;**[!UICONTROL Not Applicable]**。
+
+  當缺少許可權時，按一下警告圖示以檢視帳戶的存取詳細資訊。 **[!UICONTROL Access]**&#x200B;區段會將許可權列為&#x200B;**[!UICONTROL Granted]**&#x200B;或&#x200B;**[!UICONTROL Missing]**。 當影響詳細資料可供使用時，**[!UICONTROL Not working]**&#x200B;區段會列出受影響的功能。 若要[重新驗證](#reauthenticate)並更新許可權，請按一下&#x200B;**[!UICONTROL Update Access]**。
+
+### 可用動作
+
+可用的動作取決於您的許可權和帳戶型別。
+
+* [建立廣告網路帳戶詳細資料](#create-account)
+
+* [編輯廣告網路帳戶詳細資料](#edit-account)
+
+* [重新驗證廣告網路帳戶](#reauthenticate)
+
+* [啟用或停用廣告網路帳戶](#enable-disable-account)
+
+* [將帳戶資料與廣告網路同步](sync-api-accounts.md)
+
+* [在[!UICONTROL Accounts]檢視中檢視效能圖表](#account-performance-graph)
+
+* [從[!UICONTROL Accounts]檢視管理資料檢視報告](#account-reports)
 
 ## 建立廣告網路帳戶詳細資料 {#create-account}
 
@@ -35,11 +80,17 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Account]**。
 
-1. 按一下廣告網路的名稱，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 按一下廣告網路的名稱，以開啟帳戶設定。
 
-1. （除[!DNL ChatGPT Ads]和[!DNL Yandex]以外的所有廣告網路）使用廣告商的認證登入廣告網路。 選取「此帳戶的帳戶追蹤」選項。 然後，按一下右上角的&#x200B;**[!UICONTROL Next]**。
+1. （除[!DNL ChatGPT Ads]和[!DNL Yandex]以外的所有廣告網路）在&#x200B;**[!UICONTROL Authenticate]**&#x200B;標籤上，使用廣告商的認證在快顯視窗中完成登入，並授與要求的帳戶存取權。
 
-1. 在每個可用的索引標籤上指定[帳戶設定](#account-settings-api)。
+   設定畫面會自動更新，驗證成功時顯示&#x200B;**[!UICONTROL Authentication Successful]**。 如果您需要重新開啟登入視窗，請按一下&#x200B;**[!UICONTROL Open login again]**。 如果您的瀏覽器封鎖視窗，請編輯您的瀏覽器設定以允許網站的快顯視窗。
+
+   針對[!DNL Meta Ads]，警告會識別任何遺失的許可權及其影響。 成功的驗證不一定表示已授與所有要求的許可權。
+
+   按一下&#x200B;**[!UICONTROL Next]**&#x200B;以繼續。
+
+1. 在每個可用的索引標籤上指定[帳戶設定](#account-settings-api)。 對於在快顯視窗中驗證的帳戶，請在&#x200B;**[!UICONTROL Select Accounts]**&#x200B;索引標籤上選取要從&#x200B;**[!UICONTROL Linked Ad Accounts]**&#x200B;同步處理的帳戶。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -47,7 +98,7 @@ ht-degree: 0%
 
 ## 編輯廣告網路帳戶詳細資料 {#edit-account}
 
-若要重新驗證帳戶設定以重新整理連線或更新許可權、啟用或停用帳戶上的活動、變更帳戶上的預設追蹤引數，或變更[!DNL Analytics]報表套裝以用於追蹤和報告，然後編輯帳戶詳細資料。
+若要啟用或停用帳戶上的活動、變更帳戶上的預設追蹤引數，或變更要用於追蹤和報表的[!DNL Analytics]報表套裝，請編輯帳戶詳細資料。 若要重新整理連線或更新許可權，您可以從帳戶設定或[!UICONTROL Accounts]檢視[重新驗證帳戶](#reauthenticate)。
 
 >[!NOTE]
 >
@@ -71,7 +122,7 @@ ht-degree: 0%
 
 ## 重新驗證廣告網路帳戶 {#reauthenticate}
 
-*不適用於[!DNL ChatGPT Ads]帳戶*
+*針對使用彈出式驗證的帳戶；不適用於[!DNL ChatGPT Ads]或[!DNL Yandex]帳戶*
 
 若要重新整理廣告網路連線或更新帳戶的許可權，請重新驗證帳戶。
 
@@ -79,17 +130,21 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
 
-<!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
+1. 以下列其中一種方式開啟驗證：
 
-1. 以下列任一方式選取該帳戶：
+   * （當帳戶的&#x200B;**[!UICONTROL Authenticated]**&#x200B;值為&#x200B;**[!UICONTROL No]**&#x200B;時）將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Re authenticate]** （可用時）。
 
-   * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
+   * （當顯示權杖到期警告時）按一下&#x200B;**[!UICONTROL Authenticated]**&#x200B;欄中的警告圖示，然後按一下&#x200B;**[!UICONTROL Reauthenticate]**。
 
-   * 將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。
+   * （當缺少許可權時）按一下&#x200B;**[!UICONTROL Access Level]**&#x200B;欄中的警告圖示，然後按一下&#x200B;**[!UICONTROL Update Access]**。
 
-1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Re authenticate]**&#x200B;並使用廣告商的認證登入廣告網路。
+   * （從帳戶設定中）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**，或將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。 在&#x200B;**[!UICONTROL Account Details]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Account Authentication]**&#x200B;中，按一下&#x200B;**[!UICONTROL Re authenticate]**。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 使用廣告商的憑證在快顯視窗中完成登入，並授予要求的帳戶存取許可權。
+
+   當重新驗證成功時，會自動儲存新的存取權杖。 如果您也變更其他帳戶設定，請按一下&#x200B;**[!UICONTROL Save]**&#x200B;以儲存這些變更。
+
+   針對[!DNL Meta Ads]，資訊訊息會識別在成功重新驗證後仍然遺失的任何許可權。 若要識別受影響的功能，請檢閱[存取詳細資料](#authentication-status)。
 
 ## 啟用或停用廣告網路帳戶 {#enable-disable-account}
 
@@ -101,9 +156,9 @@ ht-degree: 0%
 
    * （從[!UICONTROL Accounts]檢視）：
 
-     * （若要啟用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Activate]**。
+     * （若要啟用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Enable]**。
 
-     * （若要停用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Pause]**。
+     * （若要停用帳戶）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Disable]**。
 
    * （從帳戶設定）：
 
@@ -113,20 +168,83 @@ ht-degree: 0%
 
         * 選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**。
 
-     1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，關閉&#x200B;**[!UICONTROL Account enabled]**。
+     1. 在&#x200B;**[!UICONTROL Account Details]**&#x200B;標籤上，開啟&#x200B;**[!UICONTROL Account Enabled]**&#x200B;以啟用帳戶，或關閉它以停用帳戶。
 
      1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+## 在[!UICONTROL Accounts]檢視中檢視效能圖表 {#account-performance-graph}
+
+針對指定的日期範圍和貨幣，開啟並設定效能圖表，該圖表最多可包含三個在篩選檢視中跨帳戶總計的測量結果。
+
+### 檢視效能圖表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+
+1. 指定日期範圍，並為您要檢視其效能的帳戶套用任何篩選器。
+
+1. 在資料表的上方，按一下![圖表](/help/search-social-commerce/assets/charts.png "圖表")。
+
+1. （選用）使用&#x200B;**[!UICONTROL Currency]**&#x200B;和&#x200B;**[!UICONTROL Metrics]**&#x200B;來指定貨幣，以及最多三個要包含在圖表中的量度。
+
+### 隱藏可見的效能圖表
+
+* 在資料表的上方，按一下![圖表](/help/search-social-commerce/assets/charts.png "圖表")。
+
+## 從[!UICONTROL Accounts]檢視管理資料檢視報告 {#account-reports}
+
+在[!UICONTROL Accounts]檢視中產生包含一或多個帳戶資料列的報表，然後以Microsoft Excel工作表檔案（XLSX格式）格式下載報表。 報表包含檢視中指定日期範圍的可見欄。
+
+您可以刪除無法產生的已完成報表和報表。
+
+### 產生含有已篩選資料列的報表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+
+1. 指定日期範圍，並為您要下載的資料套用任何篩選器。
+
+1. 指定要下載其資料的帳戶：
+
+   * 若要下載特定帳戶的資料，請選取帳戶旁的核取方塊。
+
+   * 若要下載篩選檢視中所有帳戶的資料，請清除所有核取方塊。
+
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]對話方塊中，保留預設值&#x200B;**[!UICONTROL Report Name]**&#x200B;或輸入其他名稱，然後按一下&#x200B;**[!UICONTROL Generate]**。
+
+   報告已新增至&#x200B;**[!UICONTROL Recently Generated]**&#x200B;清單。
+
+1. （選擇性）若要在檔案完成後下載檔案，請按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+### 下載完成的報表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]對話方塊的&#x200B;**[!UICONTROL Recently Generated]**&#x200B;清單中，按一下檔案名稱旁的![下載](/help/search-social-commerce/assets/download.png "下載")。
+
+   檔案會依照瀏覽器的正常程式下載。
+
+### 刪除報告
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**。
+
+1. 在資料表上方的工具列中，按一下![下載報表](/help/search-social-commerce/assets/download.png "下載報表") **[!UICONTROL Reports]**。
+
+1. 在[!UICONTROL Grid Reports]對話方塊的&#x200B;**[!UICONTROL Recently Generated]**&#x200B;清單中，按一下已完成報告或無法產生之報告名稱旁的![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+
+1. 確認刪除。
 
 ## 廣告網路帳戶設定 {#account-settings-api}
 
 帳戶設定會依廣告網路而有所不同。 您可能無法看見下列所有設定。
 
-<!--
- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+### [!UICONTROL Authenticate]索引標籤
 
-### Authenticate tab
-
--->
+（在您建立使用快顯視窗驗證的帳戶時可見）使用廣告商的憑證連線至廣告網路。 索引標籤會顯示連線狀態，並包含重新開啟登入快顯視窗的&#x200B;**[!UICONTROL Open login again]**。
 
 ### [!UICONTROL Select Accounts]/[!UICONTROL Account Details]索引標籤
 
@@ -136,7 +254,7 @@ ht-degree: 0%
 >
 >如果您已整合「搜尋」、「社交」和「Commerce-Adobe Analytics」，並變更搜尋帳戶的名稱，請要求您的Adobe帳戶團隊更新對應。
 
-**[!DNL [廣告網路]帳戶]：** （建立帳戶時可見）要同步的廣告網路帳戶。
+**[!UICONTROL Linked Ad Accounts]：** （在您建立使用快顯視窗驗證的帳戶時可見）要同步處理的廣告網路帳戶。 從連結至您網路登入的廣告帳戶中選擇。
 
 **[登入詳細資料]：** （僅限[!DNL Yandex]個帳戶）要使用的帳戶認證：
 
@@ -150,7 +268,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Purse Campaign ID]：** （僅停用[!DNL Yandex]個共用帳戶設定的帳戶；選擇性）促銷活動的數值ID，用於支付帳戶中所有廣告促銷活動。
 
-* **[!UICONTROL Finance Token]：** （[!DNL Yandex]個共用帳戶設定的帳戶僅停用；選擇性）用於財務相關API呼叫的開發人員權杖，例如，根據組合最佳化的需要，在廣告商的促銷活動之間重新配置錢包中的金額。
+* **[!UICONTROL Finance Token]：** （[!DNL Yandex]個共用帳戶設定的帳戶僅停用；選用）財務相關API呼叫的開發人員權杖，例如在廣告商行銷活動之間重新分配金額，以最佳化組合。
 
 **[!UICONTROL Currency]：** （唯讀）帳戶所用貨幣的縮寫。 儲存記錄後，此值會自動以廣告網路上的帳戶所設定的貨幣填入。
 
@@ -160,11 +278,13 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]：**&#x200B;搜尋、Social和Commerce會與帳戶同步行銷活動資料（若有支援），並針對產品組合中的行銷活動推送自動競標和/或行銷活動預算。
 
+**[!UICONTROL Account Authentication]> [!UICONTROL Re authenticate]：** （在您編輯使用快顯視窗驗證的帳戶時可見）重新整理連線或更新帳戶許可權。 當重新驗證成功時，會自動儲存新的存取權杖。
+
 ## [!UICONTROL Setup Tracking]索引標籤
 
 <!-- This should be the name of the whole left side of options -- they're all enabled/disabled depending on whether you enable our tracking -->
 
-**[!UICONTROL Search, Social, & Commerce Tracking]：**&#x200B;是否使用Adobe Advertising轉換追蹤服務來啟用追蹤。 此方法會產生唯一的點選追蹤ID，並將使用者重新導向至Adobe Advertising伺服器以供追蹤，然後再傳送至使用者端的登陸頁面。 此方法有預設的追蹤選項，您可以選擇性地加以自訂，您也可以指定要附加至每個URL的引數。
+**[!UICONTROL Search, Social, & Commerce Tracking]：**&#x200B;是否要使用Adobe Advertising轉換追蹤服務來啟用追蹤。 此方法會產生唯一的點選追蹤ID，並將使用者重新導向至Adobe Advertising伺服器以供追蹤，然後再傳送至使用者端的登陸頁面。 此方法有預設的追蹤選項，您可以選擇性地加以自訂，您也可以指定要附加至每個URL的引數。
 
 若要啟用此功能，請開啟&#x200B;**[啟用追蹤]**。
 
@@ -186,11 +306,11 @@ ht-degree: 0%
 
 **[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
 
-追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式將處理未來的變更。
+追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式會處理日後的變更。
 
 **[!UICONTROL URL Encoding]：** （啟用搜尋、社交和Commerce追蹤時；帳戶僅具有目的地URL）編碼一般使用者瀏覽器位址列中的基底URL （例如`%3D`而非`=`）：
 
-**[!UICONTROL Tracking Level]：** （當搜尋、社交和Commerce追蹤已啟用時；可在帳戶和促銷活動層級使用；不適用於已啟用平行追蹤的廣告網路）應透過新增重新導向（如適用）並將引數附加至相關URL來追蹤點選和收入的層級：
+**[!UICONTROL Tracking Level]：** （當搜尋、社交和Commerce追蹤已啟用時；可在帳戶和促銷活動層級使用；不適用於已啟用平行追蹤的廣告網路）將重新導向及附加引數新增至相關URL，以追蹤點按次數和收入的層級：
 
 * *[!UICONTROL Keyword]：*&#x200B;只追蹤關鍵字層級的資料。 [!DNL Yandex]無法使用。
 
@@ -225,7 +345,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 對於[!DNL Google Ads]，請避免使用巨集，這些巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊應與客戶支援或實作團隊合作，以新增巨集。
+>* 對於[!DNL Google Ads]，請避免使用巨集，這些巨集不會取代來自啟用平行追蹤之來源的點按。 如果廣告商必須使用巨集，Adobe帳戶團隊會與客戶支援或實作團隊合作來新增巨集。
 >* 最精細層級的追蹤範本會覆寫所有較高層級的值。 例如，如果帳戶設定和關鍵字設定都包含值，則會套用關鍵字值。
 >* 如果您在廣告、網站連結或關鍵字層級更新追蹤範本，則會重新提交相關廣告以供檢閱。 您可以在帳戶、行銷活動或廣告群組層級更新追蹤範本，無需重新提交廣告進行核准。
 
