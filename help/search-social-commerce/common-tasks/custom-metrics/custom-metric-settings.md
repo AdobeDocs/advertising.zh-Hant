@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 57855d5898f2f30e9dc52994ab78564b5263e191
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # 自訂量度設定
@@ -29,8 +29,10 @@ ht-degree: 0%
 | 引數/區段 | 說明 |
 |----|----|
 | 自訂量度名稱 | 測量結果的名稱，會顯示為資料欄名稱。 <b>提示：</b>請使用有意義的量度名稱，但請考量名稱較長會讓欄位更寬。 |
-| 插入量度 | 用於計算新量度的數學公式(例如[成本]/[註冊]：<ul><li>若要從流量和收入量度清單插入量度，請將游標放在您要插入量度的位置，然後從清單中選取量度，或手動輸入量度並將其括在方括弧中（例如`[CPC]`）。</li><li>若要插入運運算元，請將游標置於要插入運運算元的位置，然後按一下按鈕或手動輸入符號。 可用的數學運運算元： `+ - * / ( ) ()`</li></ul><b>注意：</b>複雜的自訂量度需要更長的時間才能計算，而包含這些量度的報表和檢視（尤其是當它們包含用於點進和檢視轉換的個別欄時）需要更長的時間才能產生。 |
 | 格式 | 如何呈現此量度的資料： *[!UICONTROL Currency]* （貨幣值）、*[!UICONTROL Number to 2 Decimal Points]*、*[!UICONTROL Number to 3 Decimal Points]*、*[!UICONTROL Number w/out Decimal Points]*&#x200B;或&#x200B;*[!UICONTROL Percentage]* （具有兩個小數點的百分比）。<br><br><b>注意：</b>如果您建立格式為[!UICONTROL Number w/out Decimal Points] （將資料顯示為整數）的衍生量度，並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 因此，即使總計正確，個別資料欄位也可能不正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要避免此問題，請使用量度格式[!UICONTROL Number to 2 Decimal Points]。 |
+| 插入量度 | 用於計算新量度的數學公式(例如[成本]/[註冊]：<ul><li>若要從流量和收入量度清單插入量度，請將游標放在您要插入量度的位置，然後從清單中選取量度，或手動輸入量度並將其括在方括弧中（例如`[CPC]`）。 |
+| \[Operator\] | 可用的數學運運算元： `+ - x / ( )`<br><br>若要在公式輸入欄位中插入運運算元，請將游標置於要插入運運算元的位置，然後按一下按鈕或手動輸入符號。 |
+| \[量度的公式輸入欄位\] | 用來根據一或多個現有屬性或標準量度（例如`[Cost]/[Registrations]`）計算新量度的數學公式。 它可以包含任何量度和運運算元的組合。<br><br><b>注意：</b>複雜的自訂量度需要更長的時間才能計算，而且包含這些量度的報表和檢視需要更長的時間才能產生，尤其是當它們包含用於點進和檢視轉換的個別欄時。 |
 
 ## 報告和報告範本以及舊版[!UICONTROL Portfolios]檢視中的自訂量度設定
 
@@ -39,8 +41,8 @@ ht-degree: 0%
 | 自訂量度名稱 | 測量結果的名稱，會顯示為資料欄名稱。 <b>提示：</b>請使用有意義的量度名稱，但請考量名稱較長會讓欄位更寬。 |
 | 格式 | 如何呈現此量度的資料： *[!UICONTROL Currency]* （貨幣值）、*[!UICONTROL Number to 2 Decimal Points]*、*[!UICONTROL Number to 3 Decimal Points]*、*[!UICONTROL Number w/out Decimal Points]*&#x200B;或&#x200B;*[!UICONTROL Percentage]* （具有兩個小數點的百分比）。<br><br><b>注意：</b>如果您建立格式為[!UICONTROL Number w/out Decimal Points] （將資料顯示為整數）的衍生量度，並將其納入使用加權轉換歸因規則（[!UICONTROL Weight First Event More]、[!UICONTROL Weight Last Event More]或[!UICONTROL Even Distribution]）的檢視或報表中，則輸出會以整數顯示，而非小數。 因此，即使總計正確，個別資料欄位也可能不正確。 例如，如果順序平均分配給三個事件，則一個順序（而不是0.33順序）會歸因於三個事件的每一個。 若要避免此問題，請使用量度格式[!UICONTROL Number to 2 Decimal Points]。 |
 | 插入量度 | 現有量度的清單，您可從中建立公式。<br><br>若要在公式輸入欄位中插入量度，請將游標放在您要插入量度的位置，然後從清單中選取量度，或手動輸入該量度並將其括在方括弧中（例如，`[CPC]`）。 |
-| 插入運運算元 | 可用的數學運運算元： `+ - x / ( )`<br><br>若要在公式輸入欄位中插入運運算元，請將游標置於要插入運運算元的位置，然後按一下按鈕或手動輸入符號。 |
-| [量度]的公式輸入欄位 | 用來根據一或多個現有屬性或標準量度（例如`[Cost]/[Registrations]`）計算新量度的數學公式。 它可以包含任何量度和運運算元的組合。<br><br><b>注意：</b>複雜的自訂量度需要更長的時間才能計算，而且包含這些量度的報表和檢視需要更長的時間才能產生，尤其是當它們包含用於點進和檢視轉換的個別欄時。 |
+| 運算子 | 可用的數學運運算元： `+ - x / ( )`<br><br>若要在公式輸入欄位中插入運運算元，請將游標置於要插入運運算元的位置，然後按一下按鈕或手動輸入符號。 |
+| \[量度的公式輸入欄位\] | 用來根據一或多個現有屬性或標準量度（例如`[Cost]/[Registrations]`）計算新量度的數學公式。 它可以包含任何量度和運運算元的組合。<br><br><b>注意：</b>複雜的自訂量度需要更長的時間才能計算，而且包含這些量度的報表和檢視需要更長的時間才能產生，尤其是當它們包含用於點進和檢視轉換的個別欄時。 |
 
 >[!MORELIKETHIS]
 >

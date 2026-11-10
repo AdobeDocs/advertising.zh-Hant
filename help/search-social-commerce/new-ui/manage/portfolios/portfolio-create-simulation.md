@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # 從[!UICONTROL Portfolios]檢視執行並下載模擬
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * 選取投資組合旁的核取方塊。 在大量動作工具列中，按一下&#x200B;**[!UICONTROL More]>[!UICONTROL Run Simulation]**。
 
-1. 指定[自訂模擬設定](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings)：
+1. 指定[自訂模擬設定](#custom-simulation-settings)：
 
    1. 在&#x200B;**[!UICONTROL Basic Settings]**&#x200B;索引標籤上，輸入唯一的&#x200B;**[!UICONTROL Simulation Name]**&#x200B;並根據需要變更基本引數。
 
@@ -75,6 +75,10 @@ ht-degree: 0%
    檔案會依照瀏覽器的正常程式下載。 完成訊息會指出包含的投資組合數量。
 
 若要下載自訂模擬或選取個別的每週模擬，請使用[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)。
+
+## 自訂模擬設定 {#custom-simulation-settings}
+
+如需自訂模擬設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
 >[!MORELIKETHIS]
 >
