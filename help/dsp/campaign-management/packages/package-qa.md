@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '721'
 ht-degree: 0%
 ---
 # 使用Bulksheets檢閱及編輯套件設定
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * 變更選取欄位、儲存檔案，然後將編輯的Bulksheet檔案上傳回DSP。
 
-* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets[&#128279;](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯行銷活動元件設定」。
+* 若要變更行銷活動中的其他套件、版位或廣告，請下載行銷活動的大量表單。 將更新的設定輸入或貼上檔案中，然後上傳檔案以進行變更。 如需指示，請參閱「使用Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)檢閱和編輯行銷活動元件設定」。[
 
 可編輯欄位包含大部分通常可編輯的設定。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    * 在通知訊息中，按一下&#x200B;**[!UICONTROL Download].**
 
-   * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
+   * 在頂端功能表列的右側，按一下![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
      檔案已儲存至瀏覽器的[下載]資料夾。<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    * 在通知訊息中，按一下&#x200B;**[!UICONTROL Download].**
 
-   * 在頂端功能表列的右側，按一下![工作](/help/dsp/assets/downloads.png)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
+   * 在頂端功能表列的右側，按一下![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。 按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
      檔案會儲存至瀏覽器的「下載」資料夾。 如需所包含欄的清單，請參閱&quot;[在已下載/已上傳大量表單中的位置欄](#qa-sheet-columns)&quot;。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**[!UICONTROL Upload]**。
 
-1. （選擇性）若要確認已處理更新，請按一下頂端功能表列右側的![工作](/help/dsp/assets/downloads.png)。
+1. （選擇性）若要確認已處理更新，請按一下頂端功能表列右側的![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。
 
 當任何設定更新失敗時，您可以下載帶有顏色編碼的批次工作表錯誤檔案，以顯示哪些設定（列）已儲存且失敗，以及每次失敗的原因。 然後，您可以在相同檔案中解決問題，並再次上傳它以處理更正的資訊。
 

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # 管理URL
@@ -73,7 +73,7 @@ ht-degree: 0%
 
      1. 若要檢視工作狀態（包括新增的URL數目和失敗值的數目）：
 
-        1. 按一下頂端功能表列右邊的![工作](/help/dsp/assets/downloads.png)。
+        1. 按一下頂端功能表列右邊的![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。
 
         1. （如果未新增任何列）若要下載含有失敗值的錯誤檔案，請按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
      1. 若要檢視工作狀態（包括新增的URL數目和失敗值的數目）：
 
-        1. 按一下頂端功能表列右邊的![工作](/help/dsp/assets/downloads.png)。
+        1. 按一下頂端功能表列右邊的![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。
 
         1. （如果未新增任何列）若要下載含有失敗值的錯誤檔案，請按一下工作旁的&#x200B;**[!UICONTROL Download]**。
 
