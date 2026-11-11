@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動[所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]：** （僅限週期性報表）報表的一或多個執行個體可供下載，且已排程多個報表執行個體。
 
-* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體無法取得報表列，請按一下[!UICONTROL Download]旁的向下箭頭](/help/dsp/assets/chevron-down.png "向下箭頭")。 ![失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
+* **[!UICONTROL Failed]：**&#x200B;報告作業失敗。 若要瞭解為何個別報表執行個體無法取得報表列，請按一下[!UICONTROL Download]旁的向下箭頭![&#128279;](/help/dsp/assets/chevron-down.png "向下箭頭")。 失敗的報表工作會以錯誤圖示(![錯誤指標](/help/dsp/assets/indicator-critical.png "錯誤指標"))表示。 將游標放在錯誤圖示上，即可取得錯誤說明。
 
 * **[!UICONTROL Completed]：**&#x200B;對於非週期性報表，報表已完成。 對於週期性報表，所有報表例項都會完成。 您可以下載過去四個月內完成的所有報表。
 
