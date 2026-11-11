@@ -77,7 +77,7 @@ ht-degree: 0%
 
 檔案會依照瀏覽器的正常程式下載。
 
-您也可以從投資組合的效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)開啟[競標單位詳細資料。 如需對話方塊中其他索引標籤的詳細資訊，請參閱[檢視投資組合效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)。
+您也可以從投資組合的效能詳細資料[&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)開啟競標單位詳細資料。 如需對話方塊中其他索引標籤的詳細資訊，請參閱[檢視投資組合效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)。
 
 ## 建立關鍵字 {#keyword-create}
 
