@@ -1,6 +1,6 @@
 ---
-title: （新UI）使用者管理
-description: 瞭解如何管理使用者存取許可權。
+title: （新UI）搜尋、社交和Commerce的使用者管理
+description: 瞭解如何使用Adobe Admin Console管理Adobe Advertising搜尋、社交和Commerce使用者存取權、管理員角色、產品設定檔和功能許可權。
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,14 +18,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
-# （新UI）搜尋、社交和商務的使用者管理
+# （新UI）搜尋、社交和Commerce的使用者管理
 
-某些使用者可以使用[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)管理新搜尋、社交和Commerce使用者介面的存取權，這是管理所有Adobe權益和使用者管理的中心位置。 使用者分為一般使用者或管理員。 如果您是管理員，Adobe帳戶團隊會通知您。 如果您是管理員，請參閱下列章節，以識別管理使用者的許可權和工作流程。
+某些使用者可以使用[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)管理新搜尋、社交和Commerce使用者介面的存取權，這是管理所有Adobe權益和使用者管理的中心位置。 使用者分為一般使用者或管理員。 如果您是管理員，Adobe帳戶團隊會通知您。 如果您是管理員，請參閱下列章節，以識別管理使用者的許可權和工作流程。
 
 ## 管理員型別
 
@@ -45,7 +45,7 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 
 產品設定檔與角色類似，可讓使用者有權使用特定產品的特定服務。
 
-搜尋、社交和商務的新使用者介面具有以下預設產品設定檔，這些設定檔提供不同的功能和服務子集。 您無法編輯預設產品設定檔的產品許可權，或刪除預設產品設定檔。 不過，產品管理員、產品設定檔管理員和系統管理員可視需求使用不同可用許可權子集來建立和管理其他產品設定檔。
+搜尋、社交和Commerce的新使用者介面具有下列預設產品設定檔，可提供不同的功能和服務子集。 您無法編輯預設產品設定檔的產品許可權，或刪除預設產品設定檔。 不過，產品管理員、產品設定檔管理員和系統管理員可視需求使用不同可用許可權子集來建立和管理其他產品設定檔。
 
 * **[!UICONTROL Basic Optimization]：**&#x200B;適用於需要基本設定存取權的標準投資組合管理與規劃功能的使用者。
 
@@ -60,6 +60,8 @@ Admin Console提供多種型別的管理員。 搜尋、社交和Commerce需要�
 <!-- These don't correspond exactly to the GUI menu -->
 
 核取記號(✓)表示該許可權包含在產品設定檔中。
+
+檢視和編輯許可權是分開的。 檢視功能本身的許可權不允許使用者建立、編輯或刪除其資料。 自訂產品設定檔可提供與預設產品設定檔不同的許可權組合。
 
 **Portfolio管理**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | 檢視MCC帳戶 | ✓ | ✓ | ✓ | ✓ |
 | 編輯MCC帳戶 | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## 管理員的任務
 
-### 登入Adobe Admin Console並開啟它以進行「搜尋」、「社交」和「Commerce」
+### 登入Adobe Admin Console並開啟它以進行「搜尋」、「社交」和「Commerce」 {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-   1. 選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. 選取&#x200B;**[!UICONTROL Personal Account]**&#x200B;或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. 選取適用的CX Enterprise組織。
 
@@ -167,9 +192,9 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. [登入Adobe Admin Console並開啟它以搜尋、社交和Commerce](#open-admin-console)。
 
-1. （選擇性） [新增其他系統管理員](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)作為備份。
+1. （選擇性） [新增其他系統管理員](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)作為備份。
 
-1. 由[新增產品管理員](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)委派產品和使用者管理。
+1. 由[新增產品管理員](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)委派產品和使用者管理。
 
 ### 產品管理員的工作流程
 
@@ -177,9 +202,9 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. [登入Adobe Admin Console並開啟它以搜尋、社交和Commerce](#open-admin-console)。
 
-1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)或[&#128279;](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+1. 視需要大量建立一般使用者[個別](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)或[](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
-1. （選擇性）為執行個體建立[使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)，並將使用者指派給每個使用者群組。
+1. （選擇性）為執行個體建立[使用者群組](https://helpx.adobe.com/enterprise/using/user-groups.html)，並將使用者指派給每個使用者群組。
 
    如果執行個體有許多使用者，請建立使用者群組，以確保根據使用者的專業知識層級為其指派正確的設定檔。 （請參閱步驟4，將使用者群組指派至產品設定檔。） 您可以根據業務範圍、使用者存取需求、使用者僱用日期或其他條件來建立使用者群組。
 
@@ -187,7 +212,7 @@ Noone has permissions as of 6/1; spelling [sic]:
    >
    >使用者群組名稱應清楚傳達使用者群組應獲指派的許可權。 例如，如果您想要建立具有「唯讀」許可權的使用者群組，請在使用者群組名稱中加入「唯讀」，例如「Acme_Uk_ReadOnly」或「Acme_ReadOnly」。
 
-1. （選擇性） [使用定義的許可權集建立自訂產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
+1. （選擇性） [使用定義的許可權集建立自訂產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
    除了現有的四個預設產品設定檔之外，還新增了自訂設定檔。
 
@@ -195,10 +220,10 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    **警告：**&#x200B;產品許可權非常精細。 設定自訂產品設定檔時請務必小心，否則可能會忽略要包含的功能。
 
-1. [手動或大量指派每個使用者或使用者群組至相關的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
+1. [手動或大量指派每個使用者或使用者群組至相關的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
 ## 完整的使用者管理指南和其他連結
 
-* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/tw/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+* 如需使用Adobe Admin Console進行使用者管理的詳細資訊，請參閱《[Adobe企業與團隊管理指南](https://helpx.adobe.com/enterprise/admin-guide.html)》，包括[Admin Console概觀](https://helpx.adobe.com/enterprise/using/admin-console.html)。
 
 * Admin Console： [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
