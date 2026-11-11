@@ -1,6 +1,6 @@
 ---
 title: （新UI）檢視產品組合績效詳細資料
-description: 瞭解如何檢視產品組合績效詳細資料，包括產品組合層級和每個指派行銷活動的實際和預測量度。
+description: 瞭解如何在Adobe Advertising Search、Social和Commerce中檢視產品組合績效、關鍵字競標單元詳細資訊、預測和競標歷史記錄，以及匯出競標單元歷史記錄。
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # （新UI）檢視產品組合績效詳細資料
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   * [!UICONTROL History]索引標籤：過去36天中的所有競標，包括每個競標的下列資料：日期和時間、曝光數、點按數、總成本、平均CPC、平均位置以及按點按日期顯示的加權收入。 會顯示所有裝置和每種裝置型別（行動裝置、電腦和平板電腦）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * [!UICONTROL Detail]標籤：相符型別（若適用）和父廣告群組、行銷活動、廣告網路帳戶及競標單位所屬的投資組合。
+  * [!UICONTROL Details]標籤：關鍵字、比對型別（若適用），以及父廣告群組、行銷活動、廣告網路帳戶和競標單位所屬的投資組合。
 
 ## 開啟投資組合的效能詳細資料
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * 若要檢視產品組合內行銷活動中的所有廣告群組，請按一下「**[!UICONTROL Campaigns]**」標籤，然後按一下行銷活動名稱。
 
-## 列出和檢視投資組合中關鍵字的相關詳細資訊
+## 列出和檢視投資組合中關鍵字的相關詳細資訊 {#bid-unit-details}
 
 每個關鍵字的詳細資訊包括競標單位ID、比對型別、實際和預測成本、點按次數和目標值，以及成本、點按次數和目標值差異。 您可以檢視個別關鍵字的競標單位詳細資訊。
 
@@ -137,6 +137,20 @@ ht-degree: 0%
    * 若要檢視產品組合內廣告群組中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Ad Groups]**&#x200B;標籤，然後按一下廣告群組名稱。
 
 1. （選擇性）若要檢視特定競標單位的詳細資料，請按一下&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;欄中的值。 如需詳細資訊，請按一下[!UICONTROL Bid Unit Details]中的任何標籤。
+
+### 檢視和下載個別競標單位的歷史記錄 {#bid-unit-history}
+
+1. [開啟競標單位詳細資料](#bid-unit-details)。
+
+1. 按一下「**[!UICONTROL History]**」標籤。
+
+1. （選擇性）從表格上方的裝置選單中，選取要檢視其歷程記錄的裝置型別。 依預設，會顯示所有裝置的資料。
+
+1. （選擇性）當歷程記錄資料可用時，按一下&#x200B;**[!UICONTROL Export as csv]**&#x200B;下載顯示的歷程記錄。
+
+檔案會依照瀏覽器的正常程式下載。
+
+若要檢視整個產品組合的競標歷程記錄並變更其日期範圍，請參閱[檢視產品組合的競標變更歷程記錄](portfolio-view-change-history.md#portfolio-bid-change-history)。
 
 ## 檢視和編輯投資組合設定
 
