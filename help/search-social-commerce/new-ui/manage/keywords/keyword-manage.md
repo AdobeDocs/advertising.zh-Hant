@@ -1,6 +1,6 @@
 ---
 title: 管理關鍵字
-description: 瞭解如何建立及管理可競標和負面的關鍵字，以及將限制指派給關鍵字。
+description: 瞭解如何在Adobe Advertising Search、Social和Commerce中管理可競標和負面的關鍵字、指派限制以及檢視和下載關鍵字競標單位歷史記錄。
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 管理關鍵字
@@ -53,11 +53,31 @@ ht-degree: 0%
 
 * [變更關鍵字和負關鍵字的狀態或將其刪除](#keyword-status)
 
+* [檢視和下載競標單位歷史記錄](#bid-unit-history)
+
 * [將選取列中的所有資料複製到剪貼簿](#copy-to-clipboard)
 
 * [將限制指派給關鍵字，並從關鍵字取消指派限制](#keyword-constraints)
 
 * [指派標籤分類](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)給關鍵字
+
+## 檢視和下載競標單位歷史記錄 {#bid-unit-history}
+
+當關鍵字資料表中有[!UICONTROL Bid Unit ID]欄時，您可以直接從ID開啟競標單位的歷程記錄。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Keywords]**。
+
+1. 在&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤上，按一下關鍵字&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;欄中的值。
+
+1. 在[!UICONTROL Bid Unit Details]對話方塊中，按一下&#x200B;**[!UICONTROL History]**&#x200B;索引標籤。
+
+1. （選擇性）從表格上方的裝置選單中，選取要檢視其歷程記錄的裝置型別。 依預設，會顯示所有裝置的資料。
+
+1. （選擇性）當歷程記錄資料可用時，按一下&#x200B;**[!UICONTROL Export as csv]**&#x200B;下載顯示的歷程記錄。
+
+檔案會依照瀏覽器的正常程式下載。
+
+您也可以從投資組合的效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details)開啟[競標單位詳細資料。 如需對話方塊中其他索引標籤的詳細資訊，請參閱[檢視投資組合效能詳細資料](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)。
 
 ## 建立關鍵字 {#keyword-create}
 

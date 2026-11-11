@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # 關於自訂報表
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在相關的行銷活動管理檢視[&#128279;](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動所有層級的隨選資料（行銷活動、套件、位置或廣告）。
+>您也可以在相關的行銷活動管理檢視](/help/dsp/campaign-management/reports/campaign-reports-about.md)中，檢視行銷活動[所有層級的隨選資料（行銷活動、套件、位置或廣告）。
 
 ## 可用的報表型別
 
@@ -120,11 +120,10 @@ ht-degree: 0%
 
     會顯示每個路徑長度（最多10個）的資料；路徑長度超過10個的資料會分組在一起。
 
-  * **[!UICONTROL Segment]：**&#x200B;使用此預先填入的範本，依區段檢視關鍵量度。
+  * **[!UICONTROL Segment]：**&#x200B;使用此預先填入的範本，依目標對象區段評估效能。 報表包含區段名稱、說明、索引鍵，以及區段提供者名稱。 您可以包含轉換量度和自訂目標資料，但不能包含頻率或任何家庭層級的量度。
 
     >[!NOTE]
-    >
-    >* 此報表旨在顯示不同目標區段的表現。 它使用區段會籍資料。 當向屬於兩個或多個目標區段的人或裝置提供曝光時，此報表會為每個區段包含一個列。 因此，此報表中的總計可能與實際傳送不符。
+    >* 符合多個區段的曝光會歸屬於所有相符的區段，每個區段一列。 同樣地，曝光的所有標準、支出和績效量度都會歸屬於所有相符區段。 因此，合併區段列的量度加總可能會超過行銷活動總計。
     >* 區段的轉換量度和自訂目標資料在2019年8月2日後可供使用。 自2018年6月1日開始，可使用區段的所有其他資料。
 
   * **[!UICONTROL Site]：**&#x200B;依預設，包含標準量度、媒體淨支出總計，以及依網站區分的可計費淨支出總計。

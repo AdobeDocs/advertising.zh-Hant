@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 與可計費區段相關的說明。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 與計費區段相關聯的唯一關鍵值。 |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 可計費區段的名稱。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | 與區段關聯的說明，由資料提供者提供。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | 與區段相關聯的唯一關鍵值。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | 區段名稱。 |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | 與區段相關聯的資料提供者名稱。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | 與區段關聯的說明，由資料提供者提供。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | 與區段相關聯的唯一關鍵值。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | 區段名稱。 |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | 與區段相關聯的資料提供者名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP中網站或應用程式的唯一識別碼。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 網站的名稱。 |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 廣告是否顯示在&#x200B;*[!UICONTROL sites]*&#x200B;或&#x200B;*[!UICONTROL Apps]*&#x200B;上。 |
@@ -149,7 +149,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | 將裝置圖表用於以人物為基礎的跨裝置鎖定目標所獲得的曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | 僅依報告的維度觸及家庭的頻率，包括維度最多三個值的交集。 例如，如果您使用[!UICONTROL Placement]維度，則可檢視個別版位所達到的頻率、任意兩個版位組合所達到的頻率，以及任意三個版位組合所達到的頻率。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的<code>&lbrack;IP位址 — 由任何其他維度觸及的[IP位址]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度]觸及的<code>[IP位址 — 由任何其他維度觸及的[IP位址]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為<code>[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 總支出除以已達的遞增家庭。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 總支出除以達到的不重複家庭。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 每個家庭的曝光頻率。 |
-| [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度&rbrack;觸及的[IP位址 — 任何其他維度]觸及的&lbrack;IP位址。 |
+| [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 僅由報告維度觸及的家庭數目，計算為僅由報告維度]觸及的[IP位址 — 任何其他維度]觸及的[IP位址。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 只透過報告維度觸及的家庭百分比，計算方式為[維度觸及的IP位址百分比] - [任何其他維度觸及的IP位址百分比]。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Impressions] | 提供的廣告曝光總數。 |
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 為了可檢視度而提供的曝光總數。 |
