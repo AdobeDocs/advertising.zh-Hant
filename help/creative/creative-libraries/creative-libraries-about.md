@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # 關於您的創意程式庫
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5創意
 
-* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)中的[顯示廣告體驗](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
+* **GenStudio體驗：**&#x200B;您可以從[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)中的[顯示廣告體驗](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)匯入所有廣告變體，作為個別HTML5創意。 外部連結會轉換為本機參照。 HTML內容最高可達20 MB，個別影像最高可達50 MB。
 
   匯入GenStudio體驗後，您可以編輯已匯入創意的中繼資料（名稱、語言、標籤），但無法編輯創意內容。 如果您在GenStudio中編輯GenStudio體驗，請在[!DNL Creative]中重新匯入體驗以使用最新版本。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 #### 協力廠商創意人員
 
-輸入協力廠商廣告伺服器上託管創意內容的JavaScript追蹤標籤。 指令碼會依廣告伺服器而有所不同；範例如下：
+[透過在新UI中上傳流量工作表或在舊版UI中輸入JavaScript標籤，新增託管於外部廣告伺服器的協力廠商顯示創意](creative-add-standard.md#creative-add-third-party)。 大量上傳接受Excel、CSV和TSV檔案。 指令碼會依廣告伺服器而有所不同；範例如下：
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 #### 視訊創意 {#creative-video-specs}
 
-您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼[&#128279;](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。
+您可以從您的裝置或網路上傳適用於Web、行動或連線電視的第一方視訊創意。 每個視訊廣告體驗都需要預設的視訊創意，才能用於指派給體驗的每個創意持續時間。 DSP會自動將所有視訊創意轉碼為VAST 2.0標籤，以便您預覽。 在[!UICONTROL Tag Manager]中，您可以選擇將DSP專屬的轉碼](/help/creative/experiences/experience-tag-video-transcoding.md)套用至任何視訊廣告體驗標籤。[
 
-請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/zh-hant/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
+請參閱下列視訊創作需求。 **注意：**&#x200B;如果您要將視訊體驗上傳至Advertising DSP，請同時參閱DSP對高畫質視訊Assets的[需求](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)，此需求可能會比較受限。
 
 **檔案型別：** .mov、.mp4、.webm
 

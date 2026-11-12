@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # 將標準創意內容新增至創意內容庫
@@ -155,7 +155,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
 
-   * 針對連線至您DSP帳戶[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager資料庫中已核准的影像，請執行下列動作：
+   * 針對連線至您DSP帳戶](/help/creative/creative-libraries/aem-assets-configure.md)的[Experience Manager資料庫中已核准的影像，請執行下列動作：
 
      1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
 
@@ -207,7 +207,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * 按一下&#x200B;**[!UICONTROL Select a file]**&#x200B;在您的裝置或網路上尋找檔案。
 
-   * 針對連線至您DSP帳戶[&#128279;](/help/creative/creative-libraries/aem-assets-configure.md)的Experience Manager資料庫中已核准的影像，請執行下列動作：
+   * 針對連線至您DSP帳戶](/help/creative/creative-libraries/aem-assets-configure.md)的[Experience Manager資料庫中已核准的影像，請執行下列動作：
 
      1. 按一下&#x200B;**[!UICONTROL AEM Asset Library]**。
 
@@ -243,13 +243,30 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 ## 將協力廠商創意內容新增至創意內容庫 {#creative-add-third-party}
 
-[!DNL Creative]支援大多數協力廠商廣告伺服器上託管的創意內容的JavaScript追蹤標籤。
+[!DNL Creative]支援在協力廠商廣告伺服器上託管的顯示創意內容之廣告標籤。 在新的UI中，您可以從流量工作表匯入一或多個創意內容。 舊版UI支援為單一創意內容輸入標籤。
 
 ### 從新的UI
 
-1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
+#### 準備您的流量表 {#third-party-sheet-requirements}
 
-1. （選擇性） [自訂檢視](/help/creative/introduction/customize-data-views.md)以包含特定資料庫。
+* 使用不超過10 MB的Excel （`.xlsx`或`.xls`）、CSV或TSV檔案，創意內容不超過500個。
+
+* 若是Excel檔案，請將創意內容放在第一個工作表上。 僅匯入第一個工作表。 不支援受密碼保護的檔案。
+
+* 使用[!DNL Flashtalking]或[!DNL Google Campaign Manager 360]匯出，或準備一般工作表。 工作表必須符合您上傳時選取的廣告伺服器配置。
+
+* 加入每個創意的創意名稱、大小和廣告標籤。 名稱最多可包含255個字元。 在單一大小欄（例如`300x250`）中或在廠商匯出的個別寬度和高度欄中指定尺寸。 使用[支援的創意大小](creative-sizes.md)。
+
+* 對於一般工作表，請使用資料行標題`Creative Name`、`Size`和`Ad Tag`。 您可以從上傳對話方塊下載CSV範本。 以您自己的創意資料取代其範例列。
+
+>[!IMPORTANT]
+>
+>* 大量上傳僅支援顯示標籤。 不支援視訊和VAST標籤。
+>* 大量上傳會將廣告標籤儲存為已提供；在匯入期間不會插入追蹤巨集或重寫追蹤URL。 上傳工作表之前，請在您的標籤中加入任何必要的[追蹤巨集](/help/creative/creative-macros.md)。
+
+#### 上傳並檢閱創意 {#third-party-bulk-upload}
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**。
 
 1. 以下列其中一種方式開啟程式庫：
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 在&#x200B;**[!UICONTROL Creatives]**&#x200B;標籤上，按一下&#x200B;**[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**。
 
-1. 在[協力廠商創意設定](#creative-settings-third-party)中指定創意的JavaScript標籤和其他設定。
+   **[!UICONTROL Bulk upload third-party tags]**&#x200B;對話方塊開啟。
 
-   您可以將任何[可用的巨集](/help/creative/creative-macros.md)複製並貼到JavaScript標籤中。
+1. 選取與您的工作表相符的&#x200B;**[!UICONTROL Ad server]**：
 
-1. 按一下&#x200B;**[!UICONTROL Create]**。
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   您必須先選取廣告伺服器，才能上傳檔案。 選取的廣告伺服器會套用至工作表中的每個創意；不會從個別標籤偵測到它。
+
+1. （選擇性）若要準備一般工作表，請按一下&#x200B;**[!UICONTROL Download CSV template]**，以您自己的創意內容取代範例資料，然後儲存檔案。
+
+1. 以下列任一方式指定頁面：
+
+   * 將檔案拖放至上傳方塊中。
+
+   * 按一下&#x200B;**[!UICONTROL select a file]**&#x200B;在您的裝置或網路上尋找檔案。
+
+   工作表會上傳並加以分析。 如果版面配置不符合選取的廣告伺服器，請修正工作表或選取相符的廣告伺服器，然後再次上傳檔案。
+
+1. 在&#x200B;**[!UICONTROL Review third-party creatives]**&#x200B;中，檢閱每一列的&#x200B;**[!UICONTROL Creative name]**、**[!UICONTROL Size]**、**[!UICONTROL Type]**、**[!UICONTROL Language]**&#x200B;和&#x200B;**[!UICONTROL Status]**。
+
+   * 如果工作表包含多個標籤格式，請選取要匯入之標籤欄的標籤。 選取的格式會套用至所有列，而該欄中沒有標籤的列不會顯示。 變更索引標籤會將選取範圍重設為該格式的所有可匯入列。
+
+   * 依預設，會選取所有可匯入列。 取消選取您不想匯入的任何創意旁的核取方塊。
+
+   * （選用）變更個別創意內容的&#x200B;**[!UICONTROL Language]**。 預設為英文。
+
+   * 無法選取或匯入狀態為&#x200B;**[!UICONTROL Error]**&#x200B;的資料列。 您可以匯入有效的資料列，或按一下&#x200B;**[!UICONTROL Cancel]**，更正來源工作表，然後再次上傳。 修正缺少的名稱、維度或標籤，並移除視訊標籤或任何標籤為不受支援的字元。
+
+1. 按一下&#x200B;**[!UICONTROL 匯入 <N> 創意內容&#x200B;]**，其中`<N>`是選取的創意內容數目。 若為單一創意，請按一下&#x200B;**[!UICONTROL Import 1 creative]**。
+
+   對話方塊關閉，並通知確認匯入已開始。 處理完成後，創意內容會出現在程式庫中。
+
+若要追蹤匯入，請按一下頂端功能表列右側的![工作管理員](/help/creative/assets/job-manager.png "工作管理員") (**[!UICONTROL Job Manager]**)。 如果任何資料列在處理期間失敗，請按一下匯入工作的&#x200B;**[!UICONTROL Download failed rows]**，更正下載的工作表，然後再次上傳。
 
 ### 從舊版UI
 
