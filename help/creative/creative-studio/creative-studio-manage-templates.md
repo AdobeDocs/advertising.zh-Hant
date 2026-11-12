@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # 在[!UICONTROL Creative Studio]中管理廣告範本
@@ -39,7 +39,9 @@ Probably not necessary:
 
 建立：
 
-* [使用AI產生廣告範本](#template-generate)
+* [使用AI從文字提示產生廣告範本](#template-generate-from-text)
+
+* [使用AI從影像產生廣告範本](#template-generate-from-image)
 
 * [手動建立廣告範本](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## 使用AI產生廣告範本 {#template-generate}
 
-*Beta功能*
+在[!UICONTROL Creative Studio]中使用AI，從文字提示或現有的靜態顯示廣告影像產生可編輯的顯示廣告範本。
 
-在[!UICONTROL Creative Studio]中使用AI將現有的靜態顯示廣告影像轉換為可編輯的顯示廣告範本。 三步驟精靈可協助您產生及檢閱範本、使用自然語言請求變更，以及開啟範本編輯器以手動變更並儲存範本。
+### 從文字提示產生廣告範本 {#template-generate-from-text}
 
-### 先決條件
+說明您要建立的範本（可選擇選取品牌設定檔和影像），並檢閱多個產生的範本。 您不需要現有的影像廣告。
 
-您需要Creative資料庫中的靜態影像廣告。 此工作流程會從您的程式庫選取廣告；但不會直接在產生對話方塊中上傳新影像。
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative Studio]**。
 
-<!--
+1. 按一下「**[!UICONTROL Templates]**」標籤。
 
-Publish this when prompt-based generation becomes available:
+1. （可選）從頁面頂端的廣告商清單中選取一個廣告商，以檢視該廣告商的品牌設定檔。
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. 在&#x200B;**[!UICONTROL Use AI to Generate a New Display Ad Template]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Generate]**。
 
--->
+1. 在&#x200B;**[!UICONTROL Generate New Ad Template]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL Generate from Prompt]**&#x200B;標籤（如果尚未選取）。
 
-### 步驟1：產生並檢閱範本
+1. 選取&#x200B;**[!UICONTROL Template size]**。
+
+   預設值為300x250畫素。 在目前工作階段中開始產生後，您無法變更大小。
+
+1. （選用）從&#x200B;**[!UICONTROL Brand]**&#x200B;清單中選取品牌設定檔，以提供品牌內容以供產生。
+
+1. （可選）若要在產生的範本中包含影像：
+
+   1. 按一下&#x200B;**[!UICONTROL Add image]**。
+
+   1. 在&#x200B;**[!UICONTROL Select from Asset Library]**&#x200B;檢視中，選取現有影像或按一下&#x200B;**[!UICONTROL Browse files]**&#x200B;以上傳一個影像。
+
+      支援的上傳格式為PNG、JPEG、GIF和TIFF。 您可以一次附加一個影像。
+
+   1. 按一下&#x200B;**[!UICONTROL Add to chat]**。
+
+1. 在&#x200B;**[!UICONTROL Generation prompt]**&#x200B;欄位中，說明您要建立的範本。 包括版面、標題、call to action和視覺樣式等詳細資訊。
+
+   例如，輸入`Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`。
+
+1. 按一下&#x200B;**[!UICONTROL Generate]**&#x200B;並等待範本預覽。
+
+   每個請求最多會產生四個範本。 選擇範本之前，請先檢閱文字、影像和版面配置。
+
+1. （選擇性）若要檢視更多選項，請按一下&#x200B;**[!UICONTROL Generate more results]**。 您也可以修訂提示並按一下&#x200B;**[!UICONTROL Generate]**。
+
+   結果會在對話方塊中累積，每個工作階段最多產生20個範本。
+
+1. 將游標停留在您要使用的範本上，然後按一下&#x200B;**[!UICONTROL Open in Editor]**。
+
+   顯示範本編輯器會在新的瀏覽器標籤中開啟，而產生的結果會保留在原始標籤中。
+
+1. 檢閱產生的元素，並使用[範本編輯器控制項](#template-controls)進行其餘任何變更。
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。
+
+1. 在&#x200B;**[!UICONTROL Save As New Template]**&#x200B;對話方塊中，輸入&#x200B;**[!UICONTROL Template name]**、選取&#x200B;**[!UICONTROL Advertiser]**、選擇加入標籤，然後按一下&#x200B;**[!UICONTROL Save]**。
+
+   範本會儲存為新復本，而編輯器索引標籤會返回&#x200B;**[!UICONTROL Templates]**&#x200B;檢視。 然後，您可以使用儲存的範本來[產生廣告變化](#ad-variations-generate)。
+
+>[!NOTE]
+>
+> 一旦產生開始，您就無法在同一個對話方塊中的文字和影像產生之間切換。 若要以不同大小或產生方法重新開始，請按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;並重新開啟對話方塊。 請先儲存任何要保留在編輯器中的範本。
+
+### 從影像產生廣告範本 {#template-generate-from-image}
+
+將現有的靜態顯示廣告影像轉換為可編輯的顯示廣告範本、使用自然語言要求變更，並開啟範本編輯器以手動變更並儲存範本。
+
+#### 先決條件
+
+此功能需在Creative資料庫中使用靜態影像廣告。 此工作流程會從您的程式庫選取廣告；但不會直接在產生對話方塊中上傳新影像。
+
+#### 步驟1：產生並檢閱範本
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Creative Studio]**。
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. 在&#x200B;**[!UICONTROL Use AI to Generate a New Display Ad Template]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Generate]**。
 
-1. 在&#x200B;**[!UICONTROL Generate New Ad Template]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL Generate from Existing Standard Ad Image]** （如果尚未選取）。
+1. 在&#x200B;**[!UICONTROL Generate New Ad Template]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL Generate from Existing Standard Ad Image]**&#x200B;索引標籤。
 
 1. 從&#x200B;**[!UICONTROL Ad Library]**&#x200B;清單中選取包含影像廣告的資料庫。
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    使用選取的廣告寬度和高度，產生程式會自動開始。
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [檢閱並調整產生的範本](#template-review)。
 
-### 步驟2：檢閱並調整範本 {#template-review}
+#### 步驟2：檢閱並調整範本 {#template-review}
 
 1. 等待產生完成，然後檢閱範本預覽和&#x200B;**[!UICONTROL Layers]**&#x200B;面板（如果可用）。
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    產生的範本會在顯示範本編輯器中開啟。
 
-### 步驟3：編輯並儲存範本 {#template-save}
+#### 步驟3：編輯並儲存範本 {#template-save}
 
 >[!TIP]
 >
@@ -206,16 +232,11 @@ Switch to this when prompt-based generation becomes available:
 
 | 問題 | 該做什麼 |
 | --- | --- |
+| 以文字為基礎的產生失敗，或請求遭到拒絕 | 檢閱顯示的訊息，視需要修改提示，然後按一下&#x200B;**[!UICONTROL Generate]**&#x200B;再試一次。 |
+| 工作階段已產生20個範本 | 儲存您要保留在編輯器中的任何範本，按一下&#x200B;**[!UICONTROL Cancel]**，然後重新開啟產生對話方塊以啟動新的工作階段。 |
+| 編輯器不會從文字產生的結果開啟 | 允許網站出現快顯視窗，然後再次按一下&#x200B;**[!UICONTROL Open in Editor]**。 |
 | 從影像產生時，不會列出任何程式庫或影像廣告 | 檢查選取的廣告商和&#x200B;**[!UICONTROL Ad Library]**。 如果媒體櫃沒有標準廣告影像，請選取包含現有靜態影像廣告的其他媒體櫃。 |
 | 以影像為基礎的產生失敗，或無法轉換影像 | 檢閱顯示的訊息，按一下&#x200B;**[!UICONTROL Back to library]**，然後選取影像廣告再試一次。 |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## 手動建立廣告範本 {#template-create}
 
@@ -229,7 +250,7 @@ Add when prompt-based generation is available:
 
 1. （顯示廣告）選取廣告範本大小，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 使用範本編輯器[&#128279;](#template-controls)中的控制項來設定範本設定。
+1. 使用範本編輯器](#template-controls)中的[控制項來設定範本設定。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -291,7 +312,7 @@ Add when prompt-based generation is available:
 
 1. 將游標停留在範本卡片或表格列上，然後按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Edit Template]**。
 
-1. 在範本編輯器[&#128279;](#template-controls)中使用控制項來編輯範本配置或元素。
+1. 在範本編輯器](#template-controls)中使用[控制項來編輯範本配置或元素。
 
 1. （選擇性）若要下載已定義的範本復本，請按一下&#x200B;**[!UICONTROL ...]** > **[!UICONTROL Download]**。
 
@@ -323,7 +344,7 @@ I don't see this anywhere:
 
    [!UICONTROL Ad Variations Generator]會開啟，並預先載入範本。
 
-1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告[&#128279;](creative-studio-manage-standard-ads.md)」。
+1. 使用AI聊天介面來產生和調整廣告內容。 如需完整工作流程，請參閱「在Creative Studio中管理標準廣告](creative-studio-manage-standard-ads.md)」。[
 
 ## 新增或移除廣告範本的標籤 {#template-labels}
 
@@ -383,7 +404,7 @@ I don't see this anywhere:
 
 1. 執行下列任一項作業：
 
-   * 若要將範本新增為我的最愛，請按一下[我的最愛] ![&#128279;](/help/creative/assets/favorite-null.png " [我的最愛] ")。
+   * 若要將範本新增為我的最愛，請按一下[我的最愛] ](/help/creative/assets/favorite-null.png " [我的最愛] ")。![
 
    * 若要移除範本作為我的最愛，請按一下[我的最愛] ![](/help/creative/assets/favorite.png "[我的最愛] ")。
 
