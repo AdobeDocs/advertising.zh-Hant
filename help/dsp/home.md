@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
+source-git-commit: 44bb4cdb1d132bbc25e39f8b63efea3a507dff40
 workflow-type: tm+mt
-source-wordcount: '8313'
+source-wordcount: '8406'
 ht-degree: 0%
 ---
 # DSP的新增功能
@@ -51,6 +51,8 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2026年11月11日 | [!UICONTROL Reports] | （10月發行）下列報表提供區段資料的變更：<ul><li>**[!UICONTROL Segment]報告：**&#x200B;現有報告中的「[!UICONTROL Segment Membership] *」欄現在稱為「[!UICONTROL Segment] *」。<br><br>使用此報告依對象區段評估效能。 如果曝光符合多個區段，曝光及其所有標準、支出和績效量度都會歸因於每個相符區段。 合併區段列的量度可能會高於行銷活動總計。</li><li>**[!UICONTROL Billing]報表：**&#x200B;包含已歸因的區段資料，以評估各個受眾區段的支出。 每次曝光都會歸因於單一區段，因此支出會加總到您的實際總數。 可用的報告欄包括[!UICONTROL Attributed Segment Name]、[!UICONTROL Attributed Segment Key]、[!UICONTROL Attributed Segment Description]和[!UICONTROL Attributed Segment Provider Name]。 這些資料行先前名為&quot;[!UICONTROL Billable Segment] *&quot;。</li></ul> | 請參閱&quot;[關於自訂報告](/help/dsp/reports/report-about.md)&quot;和&quot;[可用的報告欄](/help/dsp/reports/report-columns.md)&quot;。 |
+| 2026年11月6日 | [!DNL Creative] >新[!DNL Creative Library]使用者介面 | 您現在可以使用流量表，為託管於協力廠商廣告伺服器上的一或多個創意專案匯入廣告標籤。 舊版使用者介面仍支援為單一協力廠商創意內容輸入廣告標籤。 | 請參閱&quot;[關於您的創意程式庫](/help/creative/creative-libraries/creative-libraries-about.md)&quot;和&quot;[將標準創意新增至創意程式庫](/help/creative/creative-libraries/creative-add-standard.md)&quot;。 |
+| 2026年11月4日 | [!DNL Creative] > [!DNL Creative Studio] | （已不屬於Beta版）使用AI從現有的靜態顯示廣告影像或文字提示產生顯示廣告範本。 | 請參閱[在[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)中管理廣告範本。 |
 | 2026年10月29日 | [!DNL ChatGPT Ads] | 透過Adobe DSP與[!DNL OpenAI Ads]的整合，您現在可以執行[!DNL ChatGPT Ads]個聊天卡廣告，這些廣告會顯示在[!DNL ChatGPT]個交談中。 針對此功能，DSP會建立廣告帳戶，並代表您的組織購買媒體。 使用此功能來測試AI媒體，而不與[!DNL ChatGPT Ads]建立直接關係，這可能需要最低的花費承諾。<br><br> 由於[!DNL ChatGPT Ads]行銷活動的結構與DSP行銷活動不同，您將從主功能表中的個別選項管理行銷活動並檢視績效資料： [!DNL Conversational Ads]。 行銷活動、廣告群組和廣告層級的效能資料包含[!UICONTROL Impressions]、[!UICONTROL Clicks]、[!UICONTROL Spend]、[!UICONTROL CTR]、[!UICONTROL Avg CPC]和[!UICONTROL Avg CPM]。<br><br> 若要使用此功能，請聯絡您的Adobe客戶團隊以開始入門流程。 | 如需詳細資訊，包括資格，請參閱檔案以管理[[!DNL ChatGPT Ads] 帳戶](/help/dsp/campaign-management/conversational-ads/account-manage.md)以及對應的[行銷活動、廣告群組及廣告](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)。 |
 | 2026年10月28日 | AI導向的決策樹編輯器 | （Beta功能）具有Advertising Creative的廣告商現在可以使用AI導向的編輯器，透過決策樹目標定位來建立和編輯體驗。 說明在自然語言對話中您想要的目標定位結構或變更，並檢閱產生的決策樹。 您也可以直接編輯畫布以管理目標節點、指派創意組合，以及設定創意最佳化、排程和追蹤URL。 AI驅動編輯器依預設會開啟；手動編輯器仍然可用。 | 請參閱&quot;[決策樹配置](/help/creative/experiences/experience-decision-tree.md)&quot;、&quot;[建立具有鎖定目標的體驗](/help/creative/experiences/experience-create-targeting.md)&quot;以及&quot;[編輯具有鎖定目標的體驗](/help/creative/experiences/experience-edit-targeting.md)&quot;。 |
 | 2026年10月28日 | DSP中的[!DNL AI Assistant]，可重複使用[!UICONTROL Audiences] | 您現在可以使用[!DNL AI Assistant]從所有可用的第一方和第三方區段產生可重複使用的對象。 [!UICONTROL Audiences] > [!UICONTROL All Audiences]仍提供對象代理程式，您也可手動建立對象。 | 請參閱&quot;[關於Advertising DSP中的AI助理](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;、&quot;[使用AI助理產生可重複使用的對象](/help/dsp/ai-assistant/audience-builder-agent.md)&quot;和&quot;[建立可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md)&quot;。 |
