@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # 關於[!DNL Advertising Creative]中的[!UICONTROL Creative Studio]
@@ -31,21 +31,31 @@ ht-degree: 0%
 
 ## 主要功能
 
-* **AI內容產生：**&#x200B;使用&#x200B;**[!UICONTROL Ad Variations Generator]**&#x200B;透過自然語言聊天介面產生廣告概念和變體。 AI助理可以產生標題、副標題、CTA、正文和背景影像變化，並可在相同工作階段中建立新的大小範本。 每個工作階段最多可啟用10個概念。
+* **建立和管理廣告範本：**
 
-* **顯示廣告和視訊廣告支援：**&#x200B;建立和管理顯示廣告範本和視訊廣告範本。 建立範本時，請選擇&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;以符合您的行銷活動格式。
+  * **使用AI從文字產生：** [從文字提示產生顯示廣告範本](creative-studio-manage-templates.md#template-generate-from-text)，可選擇包括品牌設定檔和影像。 檢閱多個結果，然後在編輯器中開啟範本以自訂並儲存新復本。
 
-* **HTML5範本上傳：**&#x200B;將現有的HTML5廣告範本上傳為ZIP檔，以匯入範本。 **[!UICONTROL Import Templates]**&#x200B;對話方塊可讓您在匯入之前指派廣告商和範本名稱。
+  * **使用AI從影像產生：** [將現有的靜態顯示廣告影像轉換為可編輯的範本](creative-studio-manage-templates.md#template-generate-from-image)。 從Creative資料庫中選取影像廣告、檢閱產生的範本，並使用自然語言請求變更。 開啟範本編輯器以進行手動變更並儲存範本。
 
-* **多重大小支援：**&#x200B;只要一步即可將廣告大小調整為IAB標準維度。 AI會自動調整每個格式的內容放置和大小，而畫布控制項（放大/縮小、適合熒幕、重播動畫）可協助您檢視每個大小。
+  * **建立顯示廣告和視訊廣告範本：**&#x200B;建立和管理顯示廣告範本和視訊廣告範本。 建立範本時，請選擇&#x200B;**[!UICONTROL Display Ad Template]**&#x200B;或&#x200B;**[!UICONTROL Video Ad Template]**&#x200B;以符合您的行銷活動格式。
 
-* **品牌一致輸出：**&#x200B;套用您的[品牌設定檔](/help/creative/brands/brand-manage.md)時，AI會使用您品牌的圖志、調色盤、語音准則、影像標準和頻道准則，讓產生的內容保持在品牌上。
+  * **匯入HTML5範本：**&#x200B;將現有的HTML5廣告範本上傳為ZIP檔，以匯入範本。 **[!UICONTROL Import Templates]**&#x200B;對話方塊可讓您在匯入之前指派廣告商和範本名稱。
 
-* **資產庫存取：**&#x200B;從資產庫中選取，在內容產生期間保持視覺內容可用，將影像和其他資產直接附加到AI聊天訊息。
+  * **組織範本：**&#x200B;將範本標示為我的最愛、套用標籤，以及依狀態、格式或來源篩選，讓範本資料庫保持井然有序。
 
-* **摘要整合：**&#x200B;對於動態廣告行銷活動，請連線產品或內容目錄以大規模產生廣告，然後使用AI代理程式來篩選、預覽和品質檢查目錄產生的廣告組合。
+* **建立廣告：**
 
-* **範本組織：**&#x200B;將範本標示為我的最愛、套用標籤，以及依狀態、格式或來源篩選，讓您的範本資料庫保持井然有序。
+  * **使用AI產生標準廣告內容：**&#x200B;使用&#x200B;**[!UICONTROL Ad Variations Generator]**&#x200B;透過自然語言聊天介面產生廣告概念和變化。 AI助理可以產生標題、副標題、CTA、正文和背景影像變化，並可在相同工作階段中建立新的大小範本。 每個工作階段最多可啟用10個概念。
+
+  * **使用摘要建置動態創意：**&#x200B;對於動態廣告行銷活動，請連線產品或內容目錄以大規模產生廣告，然後使用AI代理程式來篩選、預覽和品質檢查目錄產生的廣告組合。
+
+* **自訂廣告內容和格式：**
+
+  * **套用品牌准則：**&#x200B;套用您的[品牌設定檔](/help/creative/brands/brand-manage.md)時，AI會使用您品牌的圖志、調色盤、語音准則、影像標準和頻道准則，讓產生的內容保持在品牌上。
+
+  * **附加資料庫資產：**&#x200B;從您的資產資料庫中選取，在內容產生期間保持可用的視覺內容，將影像和其他資產直接附加到AI聊天訊息。
+
+  * **調整廣告大小：**&#x200B;在單一步驟中根據IAB標準維度調整廣告大小。 AI會自動調整每個格式的內容放置和大小，而畫布控制項（放大/縮小、適合熒幕、重播動畫）可協助您檢視每個大小。
 
 ## 廣告建立工作流程
 
@@ -55,6 +65,8 @@ ht-degree: 0%
 | --- | --- |
 | [從範本產生標準廣告](creative-studio-manage-standard-ads.md) | 選取顯示或視訊範本，並使用[!UICONTROL Ad Variations Generator]建立AI產生的內容變化。 當範本已存在且您想要AI輔助產生內容時為最佳狀態。 |
 | [管理動態創意內容](creative-studio-manage-dynamic-ads.md) | 將產品或內容目錄連線到範本，將目錄欄位對應到範本元素，然後使用AI代理程式來預覽和QA所有產生的廣告組合。 最適合目錄導向的大型行銷活動。 |
+| [從文字產生範本](creative-studio-manage-templates.md#template-generate-from-text) | 說明顯示廣告範本，可選擇選取品牌設定檔和影像，然後從AI產生的結果中選擇。 最適合您要不含現有廣告設計的新範本。 |
+| [從影像產生範本](creative-studio-manage-templates.md#template-generate-from-image) | （Beta功能）將來自Creative資料庫的現有靜態顯示廣告影像轉換為可編輯的範本、使用自然語言請求變更，以及編輯並儲存範本。 當您想要使用現有的影像廣告作為起始設計時的最佳作法。 |
 | 建立新範本 | 從空白畫布開始，建立顯示區或視訊範本。 當沒有符合您需求的現有範本時為最佳選擇。 |
 | 上傳HTML5範本 | 匯入一或多個ZIP檔案封裝的HTML5廣告範本。 當您有在[!DNL Advertising Creative]之外建置的生產就緒HTML5創意時，這是最佳選擇。 |
 
