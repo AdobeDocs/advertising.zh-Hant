@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # 位置設定
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*： DSP至少會針對目標私人和[!DNL On-Demand]個交易出價固定/底價，即使演演算法運算出的出價較低。 這可能會影響效能。
 
-**[!UICONTROL Placement Pre-bid Filters]：**&#x200B;最多必須達到五個KPI臨界值（例如最低可檢視度量度或點進率），才能進行競標。 您可以將競標前篩選器作為最佳化策略，但瞭解每個規則可能會限制此位置競標的機會。 若要新增或編輯篩選器：
+**[!UICONTROL Placement Pre-bid Filters]：**&#x200B;最多必須達到五個KPI臨界值（例如最低可檢視度量度或點進率），才能進行競標。 您可以使用競標前篩選器作為最佳化策略，但瞭解每個規則會限制此位置競標的機會。 若要新增或編輯篩選器：
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 執行下列任一項作業：
@@ -155,7 +155,7 @@ ht-degree: 0%
   >
   >此選項可能對效能造成負面影響。 只有在您完全排定傳送的優先順序，且花費在效能最佳化上時，才使用它。
 
-**[!UICONTROL Placement Pre-bid Filters]：** （選擇性）最多必須符合五個篩選器，才能進行競標。 您可以使用競標前篩選器作為最佳化策略，但請記住，每個規則可能會限制此位置競標的機會。 若要新增或編輯篩選器：
+**[!UICONTROL Placement Pre-bid Filters]：** （選擇性）最多必須符合五個篩選器，才能進行競標。 您可以使用競標前篩選器作為最佳化策略，但請記住，每個規則會限制此位置競標的機會。 若要新增或編輯篩選器：
 
 1. 按一下![編輯](/help/dsp/assets/edit.png)。
 1. 執行下列任一項作業：
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]：**&#x200B;要納入或排除作為目標的詳細目錄來源。 對於大多數版位型態，預設會包含所有存貨型態及每種型態的所有來源。 對於[!DNL Roku]個位置，您必須指定詳細目錄型別和來源。 您可以從下列存貨型態中選擇：
+**[!UICONTROL Inventory Sources]：**&#x200B;要納入或排除作為目標的詳細目錄來源。 對於大多數版位型別，DSP預設會包含所有存貨型別，以及每種型別的所有來源。 對於[!DNL Roku]個位置，您必須指定詳細目錄型別和來源。 您可以從下列存貨型態中選擇：
 
 * [!UICONTROL Public]： （除Roku以外的所有版位型別）DSP可存取的所有未結Exchange詳細目錄。 您可以包含和排除公開詳細目錄。
 
@@ -247,15 +247,49 @@ ht-degree: 0%
 >
 >如果您已訂閱[!UICONTROL On Demand]詳細目錄，但找不到要鎖定的發行者或交易，請檢查交易的狀態。 如需有關狀態的詳細資訊，請參閱[關於 [!DNL On Demand] 進階詳細目錄](/help/dsp/inventory/on-demand-inventory-about.md)。
 
-**[!UICONTROL Video targeting]：**&#x200B;依詳細目錄屬性的目標（但不排除）詳細目錄。 當您針對相同視訊屬性鎖定多個值時，可以鎖定任何選取的屬性（例如\[播放器大小=大或播放器大小= HD\]）。 當您鎖定多個屬性時，每個指定的屬性都必須存在（例如，\[Duration = 30-60分鐘]和\[Player size = large OR Player size = HD\]）。
+**[!UICONTROL Video targeting]：**&#x200B;依視訊屬性分類的目標（但不排除）詳細目錄。 當您針對相同視訊屬性鎖定多個值時，詳細目錄可比對任何選取的值（例如，[!UICONTROL Large]或[!UICONTROL HD]的播放器大小）。 當您鎖定多個屬性時，詳細目錄必須符合每個指定的屬性（例如，播放器大小為[!UICONTROL Large]或[!UICONTROL HD]且不可略過的詳細目錄）。
 
-* **[!UICONTROL Player size]：**&#x200B;依播放器大小區分的目標（但不排除）詳細目錄。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有大小。 若要縮小目標範圍，請選取特定目標大小和/或&#x200B;*未知*。
+* **[!UICONTROL Player size]：**&#x200B;根據競標要求中提供的播放器寬度目標（但不排除）詳細目錄。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有大小。 若要縮小目標範圍，請選取特定目標大小和/或[!UICONTROL Unknown]。
 
-* **[!UICONTROL Playback mode]：**&#x200B;目標（但不排除）清查（依播放起始方式）。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有模式。 若要縮小目標範圍，請選取特定的目標模式和/或&#x200B;*未知*。
+  * **[!UICONTROL Small]：** 1-299畫素寬。
+  * **[!UICONTROL Large]：** 300-719畫素寬。
+  * **[!UICONTROL HD]：** 720-10000畫素寬。
+  * **[!UICONTROL Unknown]：**&#x200B;播放器寬度遺失或不是正值。
 
-* **[!UICONTROL Skippability]：**&#x200B;目標（但不排除）清查（根據它是否可跳過）。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有選項。 若要縮小目標範圍，請選取特定目標和/或&#x200B;*未知*。
+* **[!UICONTROL Playback mode]：**&#x200B;目標（但不排除）詳細目錄，依播放的起始或繼續方式而定。 此設定適用於適用於案頭和行動環境的影片前置位置、行動標準前置位置和通用視訊位置。 依預設，會鎖定所有模式。 若要縮小目標範圍，請選取特定的目標模式和/或[!UICONTROL Unknown]。
 
-**[!UICONTROL Position targeting]：**&#x200B;依廣告位置的目標（但不排除）詳細目錄。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有位置。 若要縮小目標範圍，請選取特定目標位置和/或&#x200B;*未知*。
+  支援的模式包括依預設開啟或關閉聲音的自動播放、按一下或滑鼠懸停時所起始的播放、依預設當播放器進入檢視且開啟或關閉聲音時所起始的播放，以及連續播放。 如果競標要求包含多種播放方法，DSP會使用列出的第一個方法。
+
+* **[!UICONTROL Skippability]：**&#x200B;目標（但不排除）清查（根據它是否可跳過）。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有選項。 若要縮小目標範圍，請選取可略過或不可略過的詳細目錄和/或[!UICONTROL Unknown]。 當競標要求未提供有效的可略過值時，DSP會將可略過性分類為[!UICONTROL Unknown]。
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+**[!UICONTROL Position targeting]：**&#x200B;依視訊廣告位置屬性的目標（但不排除）詳細目錄。 此設定適用於所有VAST/VPAID版位，包括前段、行動標準前段、連線電視及通用視訊版位。 依預設，會鎖定所有位置。 若要縮小目標範圍，請在&#x200B;**[!UICONTROL Video Ad Position]**&#x200B;中選取特定位置。
+
+DSP使用供應端平台(SSP) （包括[!DNL Magnite]）提供的OpenRTB 2.6視訊位置訊號來分類廣告位置。 可用的選項視位置型別而定。
+
+| 廣告位置 | 說明 |
+| --- | --- |
+| Instream前段、中段和後段 | 在檢視器要求的視訊內容之前、期間或之後的廣告。 在OpenRTB 2.6下，Instream清查要求在播放器啟動時播放音效，或明確表示檢視者打算觀看影片。 |
+| [!UICONTROL Accompanying Content] | 視訊播放器中的廣告會伴隨文字或其他內容。 播放器會在進入檢視時開始播放，且隨著檢視器捲動，可能會變得粘性或浮動。 |
+| [!UICONTROL Interstitial] | 影片廣告沒有隨附的影片內容，這些影片內容佔據大部分的檢視畫面，並且在播放期間無法捲動到檢視畫面之外。 |
+| [!UICONTROL No Content/Standalone] | 沒有串流視訊內容的視訊廣告，例如摘要中的廣告或粘性或浮動播放器。 |
+| [!UICONTROL Pause] | 當檢視器暫停串流視訊內容時顯示的廣告。 |
+| [!UICONTROL Screensaver] | 作業系統或應用程式啟動熒幕保護程式時顯示的廣告。 |
+| [!UICONTROL Overlay] | 在傳統廣告插播以外的視訊內容上顯示的廣告。 |
+| [!UICONTROL Squeezeback] | 廣告會與視訊內容一起顯示，並調整大小以騰出空間給廣告，而不是被廣告涵蓋。 |
+| [!UICONTROL In-scene] | 廣告已整合至視訊場景本身，而不是顯示在單獨的廣告插播或內容上。 |
+| [!UICONTROL Unknown] | DSP無法從提供的訊號判斷支援的視訊廣告位置的詳細目錄。 |
+
+當您選取多個職位時，詳細目錄可比對任何選取的職位。 選取特定職位可減少合格存貨。 如果您也想要目標清查，但DSP無法判斷其位置，請包含&#x200B;**[!UICONTROL Unknown]**。 若要避免依廣告位置限制存貨，請將此設定保留為預設值。
+
+DSP會根據競標要求隨附的開始 — 延遲訊號，決定串流前段、中段和後段。 如果該訊號遺失或無效，DSP會將串流位置分類為&#x200B;**[!UICONTROL Unknown]**。
+
+當提供有效的OpenRTB 2.6位置時，DSP會優先使用它，而非舊版的OpenRTB 2.5位置。 如果OpenRTB 2.6位置遺失或無效，在提供有效的啟動延遲訊號時，DSP仍可辨識舊版安裝清單。 其他舊職位會分類為&#x200B;**[!UICONTROL Unknown]**，而非轉換為新類別。
+
+>[!NOTE]
+>
+>OpenRTB 2.6職位類別不是舊類別的一對一替代品。 例如，先前描述為instream的詳細目錄現在可能會歸類為隨附內容。 如果合格的詳細目錄變更是由SSP採用較新的訊號，請洽詢Adobe客戶團隊的位置目標。
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 
