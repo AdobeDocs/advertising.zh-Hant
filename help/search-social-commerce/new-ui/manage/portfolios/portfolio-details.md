@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ ht-degree: 0%
 
   您可以選擇開啟投資組合設定進行編輯。
 
-* 產品組合中的促銷活動、廣告群組和關鍵字清單。 對於個別關鍵字，您可以檢視競標單位詳細資訊，包括預測、歷史資訊和階層資訊。
+* 產品組合中的促銷活動、廣告群組和關鍵字清單。
 
-  [!UICONTROL Bid Unit Details]檢視包含所選競標單位的下列預測、歷史資訊和階層資訊：
+  對於個別關鍵字，您可以檢視競標單位詳細資訊，包括預測、歷史資訊和階層資訊。 [!UICONTROL Bid Unit Details]檢視包含所選競標單位的下列預測、歷史資訊和階層資訊：
 
   * [!UICONTROL Forecast]索引標籤：競標單位在不同競標價格的目前預計點按數、成本、每次點按成本、位置及收入。 會顯示所有裝置和每個裝置型別（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 
@@ -183,5 +183,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於投資組合](portfolio-about.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)

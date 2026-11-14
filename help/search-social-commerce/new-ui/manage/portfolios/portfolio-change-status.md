@@ -1,6 +1,6 @@
 ---
 title: （新UI）變更投資組合的狀態
-description: 瞭解如何在不開啟投資組合設定的情況下變更投資組合的狀態或刪除非作用中的投資組合。
+description: 瞭解如何變更投資組合的狀態，或刪除一或多個非作用中投資組合而不開啟投資組合設定。
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # （新UI）變更投資組合的狀態
 
 *Beta功能*
 
-您可以快速變更[投資組合的狀態](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses)，而無需開啟完整的投資組合設定。
+您可以快速變更[投資組合的狀態](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status)，而無需開啟完整的投資組合設定。
 
 若要停止收集相關行銷活動的成本/點選/曝光資料和收入資料，請刪除投資組合。 刪除產品組合後，將無法在「搜尋」、「社交」和「Commerce」中使用。
 
@@ -40,9 +40,15 @@ ht-degree: 0%
 
    * 若要啟用非使用中或最佳化的投資組合，請選取&#x200B;**[!UICONTROL Active]**。
 
-   * 若要停用使用中的投資組合，請選取&#x200B;**[!UICONTROL Inactive]**。
+   * 若要停用作用中或最佳化的投資組合，請選取&#x200B;**[!UICONTROL Inactive]**。
 
-   * 若要最佳化（啟動）使用中的投資組合，請選取&#x200B;**[!UICONTROL Optimized]**。
+   * 若要最佳化（啟動）使用中的產品組合：
+
+     1. 選取&#x200B;**[!UICONTROL Optimized]**。
+
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Update]**。
+
+     1. 如果出現其他確認訊息，請按照提示套用變更。
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ ht-degree: 0%
      >* 搜尋、Social和Commerce開始最佳化產品組合後，請讓它管理所有未來的行銷活動預算和（適用時）競標變更（適用時）。 搜尋、社交和Commerce將會覆寫您在廣告網路內所做的任何變更。
      >* 您可以建立並張貼行銷活動大量表單，暫時對產品組合中任何最佳化的CPC行銷活動設定手動競標。 因公佈資料而導致的任何競標變更都適用於一天。 之後，搜尋、Social和Commerce會根據自身的最佳化策略繼續設定競標。
 
-## 從[!UICONTROL Portfolios]檢視中刪除非作用中的投資組合
+## 從[!UICONTROL Portfolios]檢視中刪除一或多個非作用中的投資組合
 
 您只能刪除非作用中的投資組合。 如果投資組合已最佳化或啟用，您必須先將其狀態變更為非啟用，才能選擇刪除投資組合。
 
@@ -61,14 +67,22 @@ ht-degree: 0%
 
 1. 執行下列任一項作業：
 
-   * 將游標停留在投資組合列上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
+   * 若要刪除單一非作用中投資組合：
 
-   * 選取投資組合旁的核取方塊。 在大量動作工具列中按一下![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+     1. 將游標停留在投資組合列上，然後按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Delete]**。
 
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+
+   * 若要刪除一或多個非作用中投資組合：
+
+     1. 選取要刪除的每個非使用中投資組合旁的核取方塊。
+
+     1. 在大量動作工具列中按一下![刪除](/help/search-social-commerce/assets/delete-new.png "刪除")。
+
+     1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
 
 >[!MORELIKETHIS]
 >
 >* [建立投資組合](portfolio-create.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
 >* [關於投資組合](portfolio-about.md)

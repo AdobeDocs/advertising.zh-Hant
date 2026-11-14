@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # （新UI）匯出目標設定
@@ -34,9 +34,17 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Goals]>[!UICONTROL Objectives]**。
 
-1. 選取要匯出的每個目標旁的核取方塊。
+1. 執行下列任一項作業：
 
-1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Export Objectives]**。
+   * 若要匯出單一目標，請執行下列動作：
+
+     1. 將游標停留在目標列上並按一下&#x200B;**[!UICONTROL ...]>[!UICONTROL Export Objective]**。
+
+   * 若要匯出一或多個目標，請執行下列動作：
+
+     1. 選取要匯出的每個目標旁的核取方塊。
+
+     1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Export Objectives]**。
 
 >[!MORELIKETHIS]
 >
