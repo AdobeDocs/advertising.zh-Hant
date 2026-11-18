@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 檢視其他廣告商的資料
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## （新UI）檢視其他廣告商的資料
 
-* 在資料表格上方的工具列中，選取廣告商。
+1. 如果左側導覽面板已摺疊，請按一下![摺疊/展開](/help/search-social-commerce/assets/collapse-expand.png "摺疊/展開")以展開它。
 
-  ![工具列中的廣告商選擇器](/help/search-social-commerce/assets/advertiser-selector.png "工具列中的廣告商選擇器")
+1. 在左側導覽面板中的搜尋欄位上方，開啟廣告商清單並選取廣告商。
+
+   您可以搜尋清單以尋找廣告商。 此清單會顯示目前選取的廣告商。
+
+   ![主功能表上方的廣告商選擇器](/help/search-social-commerce/assets/advertiser-selector.png "主功能表上方的廣告商選擇器")
+
+>[!NOTE]
+>
+>廣告商交換在某些詳細資料檢視中停用，包括產品組合詳細資料和模擬詳細資訊。 返回對應的清單檢視以選取其他廣告商。
 
 ## （舊版UI）檢視其他廣告商的資料
 

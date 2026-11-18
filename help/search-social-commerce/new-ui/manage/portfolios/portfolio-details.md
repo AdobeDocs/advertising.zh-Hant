@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
+source-git-commit: 6b779d2f91a140cd69ed4a25ac97d376dd1ed48d
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1555'
 ht-degree: 0%
 ---
 # （新UI）檢視產品組合績效詳細資料
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 使用中投資組合的模型準確性資料，顯示模型與預測的偏差程度。 此報表顯示整體每日或滾動七天成本準確度、點按準確度及目標值準確度。
 
-  您可以按一下日期（預設）或按交易日期來檢視資料。 您也可以趨勢圖（預設）或表格形式來檢視資料。
+  您可以趨勢圖（預設）或表格形式來檢視資料。
 
 * 目標支出與作用中投資組合的實際支出。 您也可以選擇納入投資組合的行銷活動預算總計。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
   您可以選擇開啟投資組合設定進行編輯。
 
-* 產品組合中的促銷活動、廣告群組和關鍵字清單。
+* 產品組合中的廣告網路、帳戶、行銷活動、廣告群組及關鍵字清單，以及效能資料。
 
   對於個別關鍵字，您可以檢視競標單位詳細資訊，包括預測、歷史資訊和階層資訊。 [!UICONTROL Bid Unit Details]檢視包含所選競標單位的下列預測、歷史資訊和階層資訊：
 
@@ -64,11 +64,19 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
 
-1. 將游標停留在投資組合名稱上，然後按一下（/help/search-social-commerce/assets/portfolio-overview.png「Portfolio概觀」）。
+1. 將游標停留在投資組合名稱上，然後按一下![Portfolio概述](/help/search-social-commerce/assets/portfolio-overview.png "Portfolio概述")。
+
+1. （選擇性）若要變更產品組合詳細資料的日期範圍，請按一下右上方的日期範圍、指定日期範圍，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
 1. （選擇性）從&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;功能表，變更每列資料包含的時間單位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
 
-1. （選擇性）若要變更產品組合詳細資料的日期範圍，請按一下右上方的日期範圍、指定日期範圍，然後按一下&#x200B;**[!UICONTROL Apply]**。
+   可用的選項視選取的日期範圍而定。 如果目前彙總不適用於新的日期範圍，則會自動選取另一個可用的彙總。
+
+1. （選擇性）從頁首的&#x200B;**[!UICONTROL Conversion Based On]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL Click Date]**&#x200B;或&#x200B;**[!UICONTROL Transaction Date]**。
+
+   此設定適用於產品組合報表和元件清單中的轉換資料。
+
+若要檢視其他產品組合的詳細資訊，請使用產品組合名稱旁的產品組合選擇器。
 
 ## 自訂[!UICONTROL Portfolio Overview]索引標籤
 
@@ -86,15 +94,19 @@ ht-degree: 0%
 
     * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
+    * （在圖表檢視中）若要縮放，請選取圖表上的區域。
+
+    * （顯示產品組合設定 — 變更標籤時）若要檢視產品組合標籤日期的變更記錄，請按一下圖表上的標籤。 如需歷程記錄的詳細資訊，請參閱[檢視產品組合的變更歷程記錄](portfolio-view-change-history.md#portfolio-change-history)。
+
 * （選用）若要自訂[!UICONTROL Model accuracy]趨勢圖，請執行下列任一項作業：
 
   * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
 
-  * 依&#x200B;*[!UICONTROL Click Date]*&#x200B;與&#x200B;*[!UICONTROL Transaction Date]*&#x200B;切換檢視資料。
-
   * 在檢視&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的相關資料之間切換。
 
     [!UICONTROL 7 Day Rolling Accuracy]是前七天預測的平均準確度，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日期間的平均準確度。
+
+    [!UICONTROL 7 Day Rolling Accuracy]僅在[!UICONTROL Data Aggregation]設定為[!UICONTROL Daily]時可用。
 
   * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
@@ -108,19 +120,50 @@ ht-degree: 0%
 
   * 將報告的量度變更為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
 
+  * 當資料可用於多個網路時，請從量度功能表旁的功能表中選取網路。
+
   * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
 
-1. 按一下&#x200B;**[!UICONTROL Download report]**。
+  * 若要縮放，請在圖形上選取一個區域。
+
+## 自訂產品組合元件的清單
+
+[!UICONTROL Networks]、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]標籤包含下列控制項：
+
+* 若要依名稱搜尋，請在表格上方的搜尋欄位中輸入文字，並提交搜尋。
+
+* 若要[篩選資料](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)，請按一下![篩選](/help/search-social-commerce/assets/filter-new.png "篩選")。 您可以使用表格上方的篩選控制項，編輯或移除套用的篩選器。
+
+* 若要在下一個標籤中檢視網路、帳戶、行銷活動或廣告群組的元件，請按一下其名稱。 選取的父項會顯示在表格上方的階層連結中，而適用的篩選器會在您向下鑽研時結轉。 當您切換標籤時，父項選取範圍可能會繼續限制清單。
+
+  若要移除向下展開選取專案（例如網路或帳戶名稱），請按一下表格上方階層連結中元件名稱旁的&#x200B;**[!UICONTROL X]**。 較高層級的父項選取範圍仍可保持有效。 若要返回投資組合中的所有元件，請移除其餘的父項選取範圍以及任何其他篩選器。
+
+* 若要重新整理資料，請按一下![重新整理](/help/search-social-commerce/assets/refresh-new.png "重新整理")。
+
+* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]標籤）若要變更顯示的欄或排序順序，請按一下![自訂欄](/help/search-social-commerce/assets/custom-columns-new.png "自訂欄")和[編輯欄集和排序選項](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)。
+
+
+## 列出產品組合中的廣告網路
+
+* 按一下「**[!UICONTROL Networks]**」標籤。
+
+## 列出投資組合中的帳戶
+
+* 若要檢視投資組合中的所有帳戶，請按一下&#x200B;**[!UICONTROL Accounts]**&#x200B;標籤。
+
+* 若要檢視投資組合中特定網路的帳戶，請按一下&#x200B;**[!UICONTROL Networks]**&#x200B;標籤，然後按一下網路名稱。
 
 ## 列出產品組合中的行銷活動
 
 有關每個行銷活動的詳細資訊包括競標策略；實際和預測成本、點按次數和目標值；以及成本、點按次數和目標值準確性。
 
-* 按一下「**[!UICONTROL Campaigns]**」標籤。
+* 若要檢視產品組合中的所有行銷活動，請按一下「**[!UICONTROL Campaigns]**」標籤。
+
+* 若要檢視產品組合中特定帳戶的促銷活動，請按一下&#x200B;**[!UICONTROL Accounts]**&#x200B;標籤，然後按一下帳戶名稱。
 
 ## 列出投資組合中的廣告群組
 
-有關每個廣告群組的詳細資訊包括成本、點按次數和目標值。
+有關每個廣告群組的詳細資訊包括網路、預設競標、成本、點按數、CPC、曝光數、目標值，以及產品組合目標中所使用的轉換量度。
 
 * 若要檢視投資組合中的所有廣告群組，請按一下「**[!UICONTROL Ad Groups]**」標籤。
 
@@ -160,28 +203,32 @@ ht-degree: 0%
 
 如需產品組合設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
 
-## 下載投資組合效能報表和投資組合元件清單
+## 下載產品組合效能報表和產品組合元件清單
 
-* 若要下載所有報表：
+* 若要下載效能報表和元件清單：
 
   1. 在工具列中按一下&#x200B;**[!UICONTROL Download report]**。
 
   1. 選取每個效能報表旁的核取方塊，並選取要納入的組合元件型別。
 
-     對於某些效能報表，您可以選擇將資料下載為圖表或表格。
+     可用的投資組合元件為&#x200B;*[!UICONTROL Campaigns table]*、*[!UICONTROL Ad groups table]*&#x200B;和&#x200B;*[!UICONTROL Keywords table]*。 [!UICONTROL Networks]和[!UICONTROL Accounts]資料表未包含在此下載中。
+
+     針對包含兩個選項的效能報表，請選取&#x200B;**[!UICONTROL As chart]**、**[!UICONTROL As table]**&#x200B;或兩者。 [!UICONTROL Network accuracy chart]報告僅可作為圖表使用。
 
   1. 按一下&#x200B;**[!UICONTROL Download report]**。
 
-* 若要下載包含特定資料型別的[!DNL model accuracy]報表：
+* 若要下載包含特定資料型別的[!UICONTROL Model accuracy]報表：
 
-  1. 在報表的工具列中，按一下&#x200B;**[!UICONTROL Download report]**。
+  1. 在[!UICONTROL Model accuracy]的工具列中按一下&#x200B;**[!UICONTROL Download report]**。
 
-  1. 選取要包含的每種資料型別旁的核取方塊，以及如何劃分資料（依競標單位及/或按一下磁碟區）。
+  1. Select **[!UICONTROL Cost Accuracy]**、**[!UICONTROL Objective Value Accuracy]**&#x200B;或兩者。
+
+  1. 針對每個選取的資料型別，選取&#x200B;**[!UICONTROL By Bid Unit]**、**[!UICONTROL By Click Volume]**&#x200B;或兩者。
 
   1. 按一下&#x200B;**[!UICONTROL Download report]**。
 
 >[!MORELIKETHIS]
 >
 >* [（新UI）關於投資組合](portfolio-about.md)
->* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
->* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
+>* [ （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [ （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)

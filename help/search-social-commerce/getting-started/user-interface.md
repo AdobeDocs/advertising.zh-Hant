@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # 使用者介面的組織方式
@@ -40,6 +40,10 @@ ht-degree: 0%
 新的使用者介面在左側有一個新的主功能表，該功能表會按工作階段組織任務。
 
 ### 主要功能表選項
+
+* （適用時）展開左側導覽面板中搜尋欄位上方的可選取您所管理廣告商清單。
+
+* 主要功能表選項的搜尋欄位。
 
 * **[!UICONTROL Dashboard]**&#x200B;子功能表：
 
@@ -131,6 +135,12 @@ Tools > Admin > Data Source Setup
 
 * 在左邊的主功能表上方，按一下![摺疊/展開](/help/search-social-commerce/assets/collapse-expand.png "摺疊/展開")。
 
+### 檢視其他廣告商的資料
+
+* 展開已收合的左側導覽面板。 在搜尋欄位上方，開啟廣告商清單並選取廣告商。
+
+  如需詳細資訊和限制，請參閱[檢視其他廣告商的資料](/help/search-social-commerce/common-tasks/change-advertiser.md)。
+
 ### 搜尋主要功能表選項
 
 使用主功能表上方的搜尋欄位來尋找特定功能表選項，例如「產品組合」或「報表」。
@@ -153,9 +163,7 @@ Tools > Admin > Data Source Setup
 
 **注意：**&#x200B;某些畫面有其他選項。
 
-* （適用時）您所管理的廣告商可選清單。
-
-* 目前檢視的可設定日期範圍
+* 目前檢視的可設定日期範圍。 若支援日期比較，日期範圍控制項也可讓您比較兩個期間，並選擇以百分比或數值差異顯示變更。 請參閱&quot;[依日期範圍](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)篩選資料&quot;。
 
 * ![切換到舊的UI](/help/search-social-commerce/assets/switch-to-old-ui.png "切換到舊的UI")在新標籤或視窗中開啟舊版使用者介面。
 

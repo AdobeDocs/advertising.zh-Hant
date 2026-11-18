@@ -9,12 +9,30 @@ product_v2:
 feature_v2:
   - id: bcc57258-3285-5d02-a731-d86f57a58c47
     internal-label: Search Common Tasks
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '210'
 ht-degree: 0%
 ---
 # 使用行事曆指定日期
+
+## （新UI） Select日期範圍
+
+1. 在資料表格的右上角，按一下日期範圍控制項及行事曆圖示。
+
+1. 從&#x200B;**[!UICONTROL Period]**&#x200B;功能表，指定日期範圍：
+
+   * 若要使用預設範圍，請從第一個行事曆上方的選單中選取選項，例如&#x200B;**[!UICONTROL Yesterday]**&#x200B;或&#x200B;**[!UICONTROL Last 7 Days]**。
+
+   * 若要使用自訂範圍，請選取&#x200B;**[!UICONTROL Custom Date Range]**&#x200B;並在行事曆中選取開始和結束日期。 使用日曆箭頭在月份之間導覽。
+
+1. 按一下&#x200B;**[!UICONTROL Apply]**。
+
+若要比較兩個期間的資料，請參閱&quot;[依日期範圍](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)篩選資料&quot;。
+
+## Select作為個別日期
+
+對個別日期行事曆欄位（包括舊版使用者介面中的欄位）使用以下程式。
 
 1. 按一下![行事曆按鈕](/help/search-social-commerce/assets/calendar-date-range.png "行事曆按鈕")以開啟行事曆。
 
