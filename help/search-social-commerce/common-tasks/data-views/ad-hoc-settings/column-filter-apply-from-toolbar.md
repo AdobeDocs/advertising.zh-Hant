@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # 從工具列套用資料篩選
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## （新UI）從管理檢視的工具列套用資料篩選器
 
-1. 在工具列中，在格線搜尋之前，按一下僅限圖示的![篩選器](/help/search-social-commerce/assets/filter-new.png "篩選器")控制項。
+1. 在工具列中，在搜尋欄位前按一下僅圖示的![篩選器](/help/search-social-commerce/assets/filter-new.png "篩選器")控制項。
 
 1. 在篩選設定中，執行下列任一項作業：
 
