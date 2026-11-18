@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Advertising Search, Social, &amp; Commerce 指南 {#search-social-commerce}
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [管理預設和自訂檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + 臨機操作檢視設定 {#ad-hoc-settings}
       + [從欄標題功能表編輯欄集合](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [從[!UICONTROL Custom Columns]圖示編輯及排序資料行集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [從[!UICONTROL Custom Columns]控制項編輯及排序資料行集](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [鎖定和解鎖行銷活動檢視中的欄設定](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [重新排序欄](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [依日期範圍篩選資料](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex]關鍵字設定](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [管理購物產品群組](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 報表 {#reports}
+    + [Advertising深入分析](/help/search-social-commerce/new-ui/reports/insights.md)
     + 排程報告 {#scheduled}
       + [關於排程報告](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [報告的初始設定任務](/help/search-social-commerce/new-ui/reports/initial-setup.md)

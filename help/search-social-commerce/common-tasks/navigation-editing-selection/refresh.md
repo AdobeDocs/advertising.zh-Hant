@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # 重新整理管理檢視中的資料
 
-* （新UI）在資料表上方的工具列中，按一下![重新整理](/help/search-social-commerce/assets/refresh-new.png)。
+* （新UI）在適用的管理檢視中，按一下頁面標題旁邊的![重新整理](/help/search-social-commerce/assets/refresh-new.png "重新整理")控制項。
 
 * （舊版UI）在資料表底部，按一下![重新整理](/help/search-social-commerce/assets/refresh.png)。

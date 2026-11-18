@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # 搜尋、社交和Commerce的新增功能
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 日期 | 功能 | 說明 | 以取得詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026年11月16日 | 新增UI | 舊版UI的大部分功能現在都可在新UI中使用。 | 請參閱&quot;[使用者介面的組織方式](/help/search-social-commerce/getting-started/user-interface.md)&quot;。 |
 | 2026年11月4日 | [!UICONTROL Portfolios]，最佳化 | （具有行銷活動層級或廣告群組層級最佳化之產品組合中的[!DNL Google Ads]個行銷活動的選擇加入功能）搜尋、社交和Commerce現在可以包含來自[!DNL Google Ads]個行銷活動預算建議的訊號（包括建議的預算金額和預計的轉換提升），以告知其自身的預算引導決定。 若要選擇加入此功能，請聯絡您的Adobe客戶團隊。 | — |
 | | [!UICONTROL Accounts] | 對於廣告網路API帳戶，您現在可以識別缺少的驗證許可權、檢視權杖到期警告，以及在[!UICONTROL Accounts]檢視中取得復原步驟的相關資訊。 | 請參閱&quot;[帳戶驗證與存取狀態](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)&quot;。 |
 | 2026年10月26日 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | （[!DNL Google Ads]個啟用[!DNL AI Max]的行銷活動）您現在可以在新的搜尋、社交和Commerce使用者介面中設定下列設定：<ul><li>行銷活動層級：<ul><li>**[!UICONTROL Brand inclusions]**&#x200B;和&#x200B;**[!UICONTROL Brand exclusions]：**&#x200B;指定可在品牌相關查詢中比對的帳戶品牌清單。</li><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要排除為最終URL展開所產生之登入頁面的URL。 啟用[!UICONTROL Text customization]和[!UICONTROL Final URL expansion]時，可使用此設定。</li></ul></li><li>廣告群組層級：<ul><li>**[!UICONTROL URL inclusions]：**&#x200B;指定要排除為最終URL展開所產生之登入頁面的URL。 此設定適用於已啟用[!UICONTROL Text customization]的行銷活動。</li></ul></li></ul>這些設定也提供大量表單支援。 | 請參閱「[[!DNL Google Ads] 行銷活動設定](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)」、「[[!DNL Google Ads] 廣告群組設定](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)」和「[帳戶](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)的必要大量表單資料。」 [!DNL Google Ads]  |
