@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
+source-git-commit: 6aa2e40903fd8652c0ac744e3cd4f68c5e74fd48
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '296'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads]行銷活動設定
@@ -39,7 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Status]：**&#x200B;行銷活動的顯示狀態： *作用中*&#x200B;或&#x200B;*已暫停*。 新廣告行銷活動的預設值為&#x200B;*作用中*。
 
-**[!UICONTROL Objective]：**&#x200B;行銷活動目標： *達到*&#x200B;或&#x200B;*點按*。
+**[!UICONTROL Objective]：**&#x200B;行銷活動目標： *[!UICONTROL Reach]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Conversions]*。 目標決定可用的[廣告群組競標選項](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)：點選支援目標CPC競標，轉換支援目標CPA競標。 Target CPC和Target CPA競標不適用於觸及行銷活動。
+
+**[!UICONTROL Billing event]：** （目標為[!UICONTROL Conversions]的新行銷活動）是否根據點按或曝光數收費。 預設為點選次數。 目標會決定促銷活動的最佳化用途；帳單事件會決定您的收費方式。 儲存行銷活動後，您無法變更計費事件。
 
 **[!UICONTROL Location Targets]：**&#x200B;支援的使用者地理位置，可做為目標納入。 依預設，會鎖定所有支援的位置。 您可以縮小目標以包含（但不排除）任何位置組合中的使用者。
 

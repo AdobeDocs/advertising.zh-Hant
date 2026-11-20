@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # 鎖定和解鎖行銷活動檢視中的欄設定
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-鎖定欄「鎖定」該欄及其左側的所有其他欄到一個靜態窗格中，而右側的所有欄則鎖定到另一個窗格中，您可以通過該窗格水準捲動。
+鎖定欄「鎖定」該欄及其左側的所有其他欄到一個靜態窗格中，而右側的所有欄則鎖定到另一個窗格中，您可以通過該窗格水準捲動。 在新的UI中，您可以拖曳欄標題之間的邊界來調整符合條件的鎖定欄的大小，而不先解除鎖定。
 
 鎖定只有在您離開實體檢視時才有作用。 您無法將其儲存至預設或自訂檢視。
 
