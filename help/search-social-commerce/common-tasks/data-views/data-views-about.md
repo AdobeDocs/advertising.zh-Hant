@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 關於自訂行銷活動管理檢視中的資料
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 * 控制是否要在任何頁面底部顯示25列、50列、100列、（僅舊版使用者介面） 200列或（僅舊版使用者介面） [!UICONTROL Continuous Scroll]。
 
-
 ## （新UI）資料表格控制項 {#data-table-tools-new-ui}
 
 使用資料表格上方的工具列來管理資料並變更其顯示方式。 可用的工具取決於檢視和您的許可權。
@@ -64,3 +63,15 @@ ht-degree: 0%
 * 使用工具列或&#x200B;**[!UICONTROL Actions]**&#x200B;功能表中的&#x200B;**[!UICONTROL Charts]**&#x200B;顯示或隱藏圖表。
 
   圖表顯示時，會選取工具列按鈕。 在[!UICONTROL Actions]中，切換會指出是否顯示圖表。 再按一下控制項以隱藏圖表。
+
+## （新UI）欄寬和表格值 {#column-widths-values-new-ui}
+
+在Campaign資料表中：
+
+* 拖曳欄標題之間的邊界，調整欄大小。 您也可以調整合格[鎖定的資料行](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)的大小，而不先解除鎖定。 最小寬度有助於讓值始終可讀。 有些圖示和動作欄的寬度固定，且無法調整大小。
+
+* 將游標放在截斷的實體名稱上可檢視完整名稱。
+
+* 若要開啟名稱為連結之實體的詳細資料，請按&#x200B;**Tab**，直到名稱反白顯示，然後按&#x200B;**Enter**。
+
+* 短破折號(-)表示遺失、NULL或不適用的值。 零和false值仍會保持可見。
