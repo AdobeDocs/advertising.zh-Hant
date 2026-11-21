@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *僅適用於舊版關鍵字層級產品組合中CPC行銷活動的競標單位*
 
-競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
+競標單位限制是限制所有[競標單位](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=zh-Hant)的最佳化競標，以及與限制關聯的成本和收入模型的規則。
 
 ## 關於限制
 
