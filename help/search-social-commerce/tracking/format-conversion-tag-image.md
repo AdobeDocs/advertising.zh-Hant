@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤[&#128279;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的常見問題集。
+>如需關於何時使用影像標籤與JavaScript標籤的詳細資訊，請參閱追蹤標籤](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)上的[常見問題集。
 
 * 具有HTTP的網站的不安全標籤：
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* 有關轉換和頁面檢視追蹤標籤的[常見問題集](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript轉換追蹤標籤2](format-conversion-tag-jsv2.md)版的格式
 >* [JavaScript轉換追蹤標籤格式3](format-conversion-tag-jsv3.md)

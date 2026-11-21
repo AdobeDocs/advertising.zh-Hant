@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: 瞭解[!UICONTROL Campaign Assist Report]。
-exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,13 +10,7 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -59,7 +51,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[轉換量度\] | 自動 | （無法用於報告設定，但會自動包含在報告輸出中）從上次事件（在最後一次行銷活動中）到轉換的平均延遲天數。 |
 | [!UICONTROL EF Campaign ID] | 自訂 | 搜尋、Social和Commerce指派給行銷活動的數值ID。 |
 | [!UICONTROL EF Portfolio Group ID] | 自訂 | 投資組合所屬投資組合群組的數值ID。 |
-| [!UICONTROL EF Search Engine ID] | 自訂 | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo DSP]的<i>[!UICONTROL 86]</i>、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （原來為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
+| [!UICONTROL EF Search Engine ID] | 自訂 | 搜尋、Social和Commerce指派給廣告網路的數值ID： [!DNL Google Ads]的<i>[!UICONTROL 3]</i>、[!DNL Microsoft Advertising]的<i>[!UICONTROL 10]</i>、[!DNL Meta]的<i>[!UICONTROL 45]</i>、[!DNL Yahoo DSP]的<i>[!UICONTROL 86]</i> （先前為[!DNL Yahoo! Display Network]）、[!DNL Naver]的<i>[!UICONTROL 87]</i>、[!DNL Baidu]的<i>[!UICONTROL 88]</i>、[!DNL Yandex]的<i>[!UICONTROL 90]</i>、[!DNL LY Ads]的<i>[!UICONTROL 94]</i> （先前為[!DNL Yahoo! Japan Ads]）、[!DNL Yahoo Native]的<i>[!UICONTROL 105]</i> （已棄用），或[!DNL Pinterest]的<i>[!UICONTROL 106]</i> （已棄用）。 |
 | [!UICONTROL Portfolio ID] | 自訂 | 數值投資組合ID。 |
 | [!UICONTROL User SE Account ID] | 自訂 | Search、Social和Commerce指派給廣告網路的數值ID。 |
 
@@ -69,4 +61,4 @@ ht-degree: 1%
 >* [該[!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [該[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [協助報告設定](assist-report-settings.md)
->* [產生協助報告](assist-report-generate.md)
+>* [管理排程報告](/help/search-social-commerce/reports/management/report-manage.md)

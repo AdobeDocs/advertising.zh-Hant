@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising與Adobe Audience Manager整合
 
 您可以透過下列方式整合Adobe Advertising與Audience Manager。
@@ -46,7 +44,7 @@ ht-degree: 0%
 
 *只選擇加入[!DNL Advertising Search, Social, & Commerce]的廣告商*
 
-在[!DNL Search, Social, & Commerce]內，您可以使用現有的Audience Manager區段（將[!UICONTROL Adobe Media Optimizer (HTTP)]和[!UICONTROL Adobe Media Optimizer Batch Destination]作為目的地），從使用者ID建立[!DNL Google Ads]個客戶比對對象。 （[!DNL Media Optimizer]是[!DNL Search, Social, & Commerce]的舊名稱。） 這包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)的客戶比對對象。&quot;
+在[!DNL Search, Social, & Commerce]內，您可以使用現有的Audience Manager區段（將[!UICONTROL Adobe Media Optimizer (HTTP)]和[!UICONTROL Adobe Media Optimizer Batch Destination]作為目的地），從使用者ID建立[!DNL Google Ads]個客戶比對對象。 （[!DNL Media Optimizer]是[!DNL Search, Social, & Commerce]的舊名稱。） 這包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)的客戶比對對象。&quot;
 
 [來自使用者ID的客戶相符對象](https://support.google.com/google-ads/answer/9199250)的工作方式與網站標籤型對象類似，但會將非PII ID指派給不重複對象成員，以區別於標準客戶相符和網站標籤型對象的好處。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需如何在Audience Manager和Adobe CX Enterprise [!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)&quot;。
+>如需如何在Audience Manager和Adobe CX Enterprise [!DNL Audience Library]介面中建立對象，以及不同對象型別的常見使用案例的詳細資訊，請參閱&quot;[對象建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;。
 
 ## 將DSP媒體曝光資料傳送至Audience Manager
 
@@ -74,10 +72,10 @@ ht-degree: 0%
 
 具有Adobe Audience Manager的DSP客戶可以使用對Audience Manager的畫素呼叫，從廣告促銷活動擷取資料。 然後您可以使用行銷活動資料來建立規則型特徵，這些特徵可用來定義新區段，以啟用各種DSP使用案例，例如更進階分段、頻率管理、行銷分析和報表深入分析。
 
-如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。
+如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。[
 
 ## 透過Audience Analytics取得更豐富的網站活動深入分析
 
-擁有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
+擁有[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)的Adobe Advertising客戶可以傳送Adobe Advertising追蹤資料和Audience Manager區段至[!DNL Analytics]，以取得有關網站活動的豐富見解。
 
 如需詳細資訊，請參閱「[[!DNL Adobe Audience Analytics] Adobe Advertising客戶](/help/integrations/audience-manager/audience-analytics.md)」。

@@ -1,0 +1,214 @@
+---
+title: （新UI）管理試算表報表摘要
+description: 瞭解如何建立、設定、重新整理、檢視和刪除以自訂格式試算表提供每日效能資料的試算表報表摘要。
+feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '1632'
+ht-degree: 0%
+---
+# （新UI）管理試算表報表摘要
+
+*僅適用基本報告和模型準確度報告*
+
+<!-- Update link to notifications once available -->
+
+試算表摘要以[!DNL Microsoft Excel] XLSX的自訂試算表格式提供所有基本報表和模型正確性報表的每日效能資料。 您可以使用從一般報表範本建立的特殊格式化[!DNL Excel]試算表範本，來設定試算表摘要。 每天，試算表都會在指定的時間自動以每天彙總的新原始資料重新整理。 原始資料會填入您已包含在試算表範本中的任何欄和圖表。 試算表摘要檔案可用後，或檔案產生失敗時，試算表摘要設定中指定的每個電子郵件收件者會根據使用者為報表](/help/search-social-commerce/legacy-ui/notifications/notification-about.md)設定的[通知設定，收到通知。
+
+您可以將摘要設定為最多重新整理過去90天的資料，而所有先前的現有資料都會保留，繼續累積。
+
+[!UICONTROL Reports] > [!UICONTROL Spreadsheet Feeds]檢視會列出您已建立的所有試算表摘要。 您可以從此檢視建立、編輯、手動重新整理或刪除試算表摘要、檢視相關報表範本的設定，以及複製選取的列資料。
+
+## 可用動作
+
+* [建立試算表報表摘要的 [!DNL Excel] 範本](#spreadsheet-feed-create-excel-template)
+
+* [建立試算表報表摘要](#spreadsheet-feed-create)
+
+* [編輯試算表報表摘要設定](#spreadsheet-feed-edit)
+
+* [檢視關聯報表範本的設定](#spreadsheet-feed-view-template)
+
+* [檢視或儲存試算表報表摘要檔案](#spreadsheet-feed-view-or-save)
+
+* [手動重新整理試算表報表摘要](#spreadsheet-feed-refresh)
+
+* [刪除試算表報表摘要](#spreadsheet-feed-delete)
+
+* [將選取列中的所有資料複製到剪貼簿](#copy-to-clipboard)
+
+## 為試算表報表摘要建立[!DNL Excel]範本 {#spreadsheet-feed-create-excel-template}
+
+若要建立試算表摘要，您必須先使用一般[報表範本](report-templates-manage.md)建立特別格式化的[!DNL Microsoft Excel]試算表範本。 您可以選擇自訂[!DNL Excel]試算表以包含其他欄和圖表。
+
+1. 在&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;中，使用「[!UICONTROL Daily]」的[!UICONTROL Date Aggregation]單位以及您想要的所有其他資料引數產生所需的報表型別，並將報表儲存為範本。
+
+   >[!NOTE]
+   >
+   > * 您可以建立[!UICONTROL Portfolio]、[!UICONTROL Search Engine]、[!UICONTROL Search Engine Account]、[!UICONTROL Campaign]、[!UICONTROL Ad Group]、[!UICONTROL Ad Variation]、[!UICONTROL Keyword]和[!UICONTROL Forecast Accuracy]報表的試算表摘要。 如果您使用[!UICONTROL Ad Group Report]，請限制包含的廣告群組數目，以更快獲得結果。
+   > * 未使用範本中定義的[!UICONTROL Date Range]單位。 您稍後設定試算表摘要時，會定義重新整理資料的日期。
+
+1. 產生報表之後，請移至&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**，並將報表輸出的TSV或XLS版本匯出至檔案。
+
+1. 在[!DNL Excel]中，建立報告的自訂範本：
+
+   1. 在[!DNL Excel]中開啟報告檔案。
+
+   1. 準備活頁簿：
+
+      1. 刪除顯示報表引數的前幾列。 若為XLS檔案，請一併刪除&quot;[!UICONTROL Total]&quot;列。 您可以選擇刪除某些資料列，但保留a)具有原始順序中所有欄的資料標題列，以及b)至少一個資料列。 請勿手動新增任何資料。
+
+         >[!NOTE]
+         >
+         > 最後一欄必須包含非零的值。
+
+      1. 依開始日期遞增順序排序資料（從最舊到最近）。
+
+      1. 將工作表標簽名稱從&quot;[!UICONTROL Sheet1]&quot;變更為&quot;[!UICONTROL RAW]&quot;。
+
+         此特定索引標簽名稱可讓資料重新整理。
+
+      1. （選用）視需要在報表範本的欄右側新增自訂欄。
+
+   1. （選擇性）在個別的工作表上建立樞紐分析表。 完成後，在樞紐分析表的任何儲存格中按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Pivot Table Options]**，按一下&#x200B;**[!UICONTROL Data]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL Refresh data when opening the file]**。
+
+   1. 將檔案儲存為.XLSX格式的[!DNL Excel]試算表。
+
+## 建立試算表報表摘要 {#spreadsheet-feed-create}
+
+1. [建立 [!DNL Excel] 範本以填入報表資料](#spreadsheet-feed-create-excel-template)。
+
+1. 建立試算表摘要：
+
+   1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+   1. 按一下右上角的&#x200B;**[!UICONTROL Create Spreadsheet]**。
+
+   1. 在&#x200B;**[!UICONTROL Create Spreadsheet Feed]**&#x200B;對話方塊中，指定[試算表摘要設定](#spreadsheet-feed-settings)。
+
+   1. 按一下&#x200B;**[!UICONTROL Submit]**。
+
+   1. （選擇性）一旦摘要的[!UICONTROL Update Status]為&#x200B;*[!UICONTROL Finished]*，請按一下摘要旁的&#x200B;**[!UICONTROL XLSX]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
+
+      >[!NOTE]
+      >
+      >如果之後刪除與摘要相關聯的報告範本，則也會刪除摘要。
+
+      試算表摘要每天會在設定的[!UICONTROL Schedule Time]自動重新整理。 在摘要的[!UICONTROL Email Recipients]設定中指定的位址會在重新整理試算表時接收通知。
+
+## 編輯試算表報表摘要設定 {#spreadsheet-feed-edit}
+
+>[!NOTE]
+>
+> 如果您編輯報表範本中的欄，或使用新的或更新後的報表範本，則必須相應地更新[!DNL Excel]範本並再次上傳。
+
+1. （選用）若要更新用於試算表摘要的報表範本或[!DNL Excel]範本：
+
+   * （選擇性）若要針對摘要使用不同或更新後的報表範本，請[為報表範本](#spreadsheet-feed-create-excel-template)建立新的 [!DNL Excel] 範本。
+
+     您將選取報表範本，並在後續步驟中上傳新的[!DNL Excel]檔案。
+
+   * （選擇性）若要僅新增自訂欄至[!DNL Excel]範本，請在報表範本的欄右側插入欄，然後將檔案儲存為.XLSX格式的[!DNL Excel]試算表。 您需要在下一個步驟中上傳新的[!DNL Excel]檔案。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 變更試算表摘要設定：
+
+   1. 選取試算表摘要名稱旁的核取方塊。
+
+   1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Edit]**。
+
+   1. 在&#x200B;**[!UICONTROL Edit Spreadsheet Feed]**&#x200B;對話方塊中，變更[試算表摘要設定](#spreadsheet-feed-settings)。
+
+   1. 按一下&#x200B;**[!UICONTROL Submit]**。
+
+   1. （選擇性）一旦摘要的[!UICONTROL Update Status]為&#x200B;*[!UICONTROL Finished]*，請按一下摘要旁的&#x200B;**[!UICONTROL XLSX]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
+
+   >[!NOTE]
+   >
+   > 如果之後刪除與摘要相關聯的報告範本，則也會刪除摘要。
+
+   試算表摘要每天會在廣告商時區的已設定[!UICONTROL Schedule Time]自動重新整理。 在摘要的[!UICONTROL Email Recipients]設定中指定的位址會在重新整理試算表時接收通知。
+
+## 試算表報表摘要設定 {#spreadsheet-feed-settings}
+
+| 欄位 | 說明 |
+|---|---|
+| [!UICONTROL Feed Name] | 試算表摘要的名稱，最多120個字元。 |
+| [!UICONTROL Report Template] | 指定所需報表資料的報表範本；選取用來建立[!DNL Excel]範本的報表範本。 所有基本報告範本都會列出。<br><br><b>注意：</b>如果您變更報告使用的報告範本，或更新範本中的欄，則必須建立並上傳新的[!DNL Excel]範本。 |
+| [!UICONTROL Excel Template] | 您以.XLSX格式建立的特殊格式化[!DNL Excel]範本，套用至報表範本中指定的資料。 按一下<b>[!UICONTROL Choose file]</b>以找出要上傳的檔案。 |
+| [!UICONTROL Back Fill From] | [!UICONTROL RAW]標籤上現有資料重新整理的開始日期，以過去的天數表示。 輸入1到90之間大於[!UICONTROL Back Fill Until]的值；預設為七(7)天。<br><br>例如，如果值為7，而今天是3月7日，則會重新整理[!UICONTROL RAW]標籤上從3月1日開始的現有資料（直到[!UICONTROL Back Fill Until]引數指定的結束日期）。 3月1日之前日期的現有資料列不會刪除，但不會重新整理。 |
+| [!UICONTROL Back Fill Until] | 重新整理[!UICONTROL RAW]標籤上現有資料的結束日期，以過去的天數表示。 輸入小於[!UICONTROL Back Fill From]的值（從1到90）。 預設值為一(1)天。<br><br>例如，如果此值為1，而今天是3月7日，則[!UICONTROL RAW]標籤上的現有資料會重新整理到3月6日（並且從[!UICONTROL Back Fill From]引數指定的開始日期開始）。 如果此值為1，[!UICONTROL Back Fill From]引數為7，而今天是3月7日，則[!UICONTROL RAW]標籤上的現有資料會從3月1日重新整理到3月6日。 在這兩個範例中，不會刪除3月6日之後的現有資料列，但不會重新整理。 |
+| [!UICONTROL Email Recipients] | 每次重新整理試算表摘要時，傳送通知的電子郵件地址。 依預設，會輸入您使用者帳戶的地址。 若要指定多個地址，請用逗號、空格或新行加以區隔。 |
+| [!UICONTROL Schedule Time] | 在廣告商的時區中，試算表摘要每天重新整理的時間。 從可用選項中選取時間。 新試算表摘要的預設值為10:00。 |
+| [!UICONTROL Email Notification] | 要包含在傳送至指定地址的電子郵件通知中的內容：<ul><li><i>[!UICONTROL Attach Feed (Max 10MB)]</i>  — 以XLSX格式傳送已完成報表的復本。 如果檔案大於10 MB，則通知不包含附件。</li><li><i>[!UICONTROL Notification Only]</i> （預設值） — 只傳送報告完成或失敗的通知，並附報告連結。</li></ul> |
+
+## 檢視關聯報表範本的設定 {#spreadsheet-feed-view-template}
+
+「**[!UICONTROL Template Settings]**」齒輪圖示會開啟與摘要相關聯之報表範本的重複專案。 開啟復本不會儲存新範本或變更摘要的相關範本。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 按一下關聯報表範本名稱旁的&#x200B;**[!UICONTROL Template Settings]**&#x200B;齒輪圖示。
+
+1. 檢閱報表設定。
+
+1. 完成後，請按一下「**[!UICONTROL Cancel]**」。 如果系統提示您放棄安裝，請按一下&#x200B;**[!UICONTROL Discard]**。
+
+若要變更原始報表範本，請依照[報表範本編輯程式](report-templates-manage.md#template-edit)操作。 若要針對摘要使用不同的範本，請[編輯試算表摘要設定](#spreadsheet-feed-edit)並選取範本。
+
+## 檢視或儲存試算表報表摘要檔案 {#spreadsheet-feed-view-or-save}
+
+您可以檢視任何產生的試算表摘要，或將其儲存至檔案。 試算表摘要檔案為[!DNL Microsoft Excel] XLSX格式。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 按一下摘要旁的&#x200B;**[!UICONTROL XLSX]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
+
+## 手動重新整理試算表報表摘要 {#spreadsheet-feed-refresh}
+
+>[!NOTE]
+>
+>試算表摘要每天會在廣告商時區的已設定[!UICONTROL Schedule Time]自動重新整理。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 選取您要重新整理的每個摘要旁的核取方塊。
+
+1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Run Spreadsheet]**。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+
+1. （選擇性）一旦摘要的[!UICONTROL Update Status]為&#x200B;*[!UICONTROL Finished]*，請按一下摘要旁的&#x200B;**[!UICONTROL XLSX]**，然後依照瀏覽器的正常程式開啟或儲存檔案。
+
+## 刪除試算表報表摘要 {#spreadsheet-feed-delete}
+
+>[!NOTE]
+>
+>如果刪除與摘要相關的報表範本，則會自動刪除摘要。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 選取要刪除的每個摘要旁的核取方塊。
+
+1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Delete]**。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。
+
+## 將選取列中的所有資料複製到剪貼簿 {#copy-to-clipboard}
+
+根據已套用的篩選條件和在檢視中可見的欄，複製所選列中的可見資訊。 資訊會儲存為定位點分隔值(TSV)。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**。
+
+1. 選取要複製其資料的每一列旁的核取方塊。
+
+1. 在大量動作工具列中按一下&#x200B;**[!UICONTROL Copy]**。
+
+1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Confirm]**。

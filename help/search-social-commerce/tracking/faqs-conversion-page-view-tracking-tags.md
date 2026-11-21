@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 所有新實作都使用JavaScript版本3。
->* 具有ECID的JavaScript標籤使用[Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)以及舊有的ef_id和gsurferid來測量轉換。 此最新標籤會建立[第一方CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=zh-Hant)，並提供與其他CX Enterprise產品更緊密整合的功能。
+>* 具有ECID的JavaScript標籤使用[Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)以及舊有的ef_id和gsurferid來測量轉換。 此最新標籤會建立[第一方CX Enterprise s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，並提供與其他CX Enterprise產品更緊密整合的功能。
 >* 只有在廣告商的網頁上已實作標籤時，才使用JavaScript第2版標籤。
 >* 最佳實務是使用JavaScript標籤，而非影像標籤，除非網站設有禁止使用這些標籤的原則。
 >* 廣告商若想要鎖定在Adobe CX Enterprise中建立、在Adobe Audience Manager中建立或從Audience Manager或Adobe Analytics發佈至Adobe CX Enterprise的受眾，則需要JavaScript標籤。
@@ -48,7 +48,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [關於Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [產生Adobe Advertising轉換標籤](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [JavaScript轉換追蹤標籤格式3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [JavaScript轉換追蹤標籤2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

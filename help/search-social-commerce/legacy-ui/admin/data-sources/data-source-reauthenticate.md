@@ -1,0 +1,69 @@
+---
+title: 重新驗證[!DNL Google Analytics]資料來源
+description: 瞭解如何在變更相關密碼或憑證過期時，重新驗證[!DNL Google Analytics]資料來源。
+role: User, Admin
+exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
+feature: Search Admin, Search Data Sources
+TQID: 'https://experienceleague.adobe.com/1xjaqEk70Yr2rAcR95CteZ46OTG--xSao09B3CdCvCo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 0%
+---
+# 重新驗證[!DNL Google Analytics]資料來源
+
+*僅限代理管理員、代理帳戶管理員、Adobe帳戶管理員和管理員*
+
+如果您變更用於資料來源的電子郵件帳戶密碼，或帳戶的[!DNL OAuth]憑證過期，則會關閉與電子郵件帳戶的所有開啟連線，您必須重新驗證以繼續同步資料。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**。
+
+1. 選取您要重新驗證的資料來源旁的核取方塊。
+
+1. 在資料表上方的工具列中，按一下![編輯](/help/search-social-commerce/assets/edit.png "編輯")。
+
+1. 編輯[資料來源設定](data-source-settings.md)：
+
+   1. 在[!UICONTROL Connect to Google Analytics]區段中，執行下列動作。
+
+      1. （如有必要）輸入新的電子郵件地址，以使用此資料來源的資料進行存取。 電子郵件地址必須註冊到[!DNL Google]帳戶，並且擁有[!DNL Google Analytics]帳戶的「讀取和分析」許可權。 請參閱 [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587)中指派使用者許可權的[指示。
+
+         >[!TIP]
+         >
+         >若要確定搜尋、社交和Commerce中只有特定的[!DNL Google Analytics]屬性和檢視可用，請使用只能存取這些屬性和檢視的電子郵件地址登入。
+
+   1. 選取核取方塊以授權搜尋、社交和Commerce存取帳戶的量度。
+
+   1. 按一下&#x200B;**[!UICONTROL Re-Authenticate]**。
+
+1. 按一下&#x200B;**[!UICONTROL Post]**。
+
+>[!MORELIKETHIS]
+>
+>* [關於同步 [!DNL Google Analytics] 轉換量度](data-source-about.md)
+>* [設定a [!DNL Google Analytics] 資料來源的先決條件](data-source-prerequisites.md)
+>* [將 [!DNL Google Analytics] 檢視設定為資料來源](data-source-configure.md)
+>* [編輯 [!DNL Google Analytics] 資料來源](data-source-edit.md)
+>* [暫停同步處理資料來源](data-source-pause.md)
+>* [[!DNL Google Analytics] 資料來源設定](data-source-settings.md)
+>* [附錄 — 可用 [!DNL Google Analytics] 量度](data-source-ga-metrics.md)

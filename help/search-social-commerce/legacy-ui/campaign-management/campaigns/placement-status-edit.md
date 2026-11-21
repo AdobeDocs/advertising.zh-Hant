@@ -1,0 +1,47 @@
+---
+title: 變更刊登版位和負面刊登版位的狀態
+description: 瞭解如何變更[!DNL Google Ads]的刊登版位和負面刊登版位狀態。
+exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
+---
+# 變更[!DNL Google Ads]版位和負版位的狀態
+
+您可以暫停作用中、可競標的位置，以停用該位置的競標。 您稍後可以透過將狀態變回作用中來繼續競標。
+
+您也可以刪除作用中或暫停的位置或負面位置。 刪除的版位/負面版位會從廣告網路中刪除。 它們仍可見，但您無法加以變更。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**。 在子功能表中，按一下&#x200B;**[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**。
+
+1. （選用）篩選清單以包含特定版位或負面版位。
+
+1. Select會勾選您要變更其狀態之每個可競標位置或負面位置旁的核取方塊。
+
+   如需選取多個列的秘訣，請參閱[選取多個列](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)。
+
+1. 在工具列中按一下狀態按鈕：
+
+   * （僅限可出價的版位）若要啟動列，請按一下[啟動] ![ ](/help/search-social-commerce/assets/activate.png " [啟動] ")。
+
+   * （僅限可出價位置）若要暫停列，請按一下![暫停](/help/search-social-commerce/assets/pause.png "暫停")。
+
+   * 若要刪除列，請按一下[其他] ![ ](/help/search-social-commerce/assets/more.png " ")，然後選取&#x200B;**[!UICONTROL Delete]**。 在確認訊息中，按一下&#x200B;**[!UICONTROL Delete]**。
+
+>[!MORELIKETHIS]
+>
+>* [關於位置](placement-about.md)
+>* [管理可競標位置](placement-manage.md)
+>* [建立負面的版位](placement-negative-create.md)

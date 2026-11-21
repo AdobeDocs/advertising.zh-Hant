@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 您目前的Search、Social和Commerce憑證將會在短時間內保持作用中，以便您為變更做好準備。
 
-如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[CX Enterprise介面與管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)&quot;。
+如需CX Enterprise介面的詳細資訊，包括管理您的使用者設定檔，請參閱&quot;[CX Enterprise介面與管理](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;。
 
 ## 從舊版搜尋、社交和Commerce登入頁面登入
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    新使用者介面預設會開啟。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 輸入您的[!DNL Adobe] ID，然後按一下&#x200B;**[!UICONTROL Continue]**..
 
-1. 如果出現提示，請選取&#x200B;**[!UICONTROL Personal Account]」或&#x200B;**&#x200B;[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. 如果出現提示，請選取**[!UICONTROL Personal Account]」或&#x200B;**[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. 在首頁的[!UICONTROL Quick Access]區段中，按一下&#x200B;**[!UICONTROL Advertising Search, Social, & Commerce]**。
 
@@ -79,5 +79,5 @@ ht-degree: 0%
 >
 >* [在新舊使用者介面之間切換](ui-switch.md)
 >* [登出](sign-out.md)
->* [變更您的密碼](/help/search-social-commerce/tools/password-change.md)
+>* [變更您的密碼](/help/search-social-commerce/legacy-ui/tools/password-change.md)
 >* [使用者介面的組織方式](user-interface.md)

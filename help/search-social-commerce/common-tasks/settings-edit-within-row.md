@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    * （清單中的選項）從清單中選取新選項。
 
-   * （任意格式值）變更值，然後按一下[套用]。**&#x200B;**
+   * （任意格式值）變更值，然後按一下[套用]。****
 
 
 ## （舊版UI）編輯列中的設定
@@ -49,4 +49,4 @@ ht-degree: 0%
 
    >[!MORELIKETHIS]
    >
-   >* [使用複製並貼上大量建立和編輯行銷活動資料](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [使用複製並貼上大量建立和編輯行銷活動資料](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/copy-paste.md)

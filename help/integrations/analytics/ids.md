@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -70,13 +70,13 @@ Adobe Advertising會使用下列條件來區分網站的點進或檢視專案：
 
 EF ID是不重複Token，Adobe Advertising會使用它，將活動與個別瀏覽器或裝置層級的線上點選或廣告曝光建立關聯。 EF ID主要當作金鑰，用於將[!DNL Analytics]資料和Customer Journey Analytics資料傳送至Adobe Advertising，以在Adobe Advertising內最佳化報表和競標。
 
-針對[!DNL Analytics]，EF ID儲存在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)或[!DNL rVar] （保留的[!DNL eVar]）維度(Adobe Advertising EF ID)中。
+針對[!DNL Analytics]，EF ID儲存在[an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)或[!DNL rVar] （保留的[!DNL eVar]）維度(Adobe Advertising EF ID)中。
 
-對於Customer Journey Analytics，EF ID儲存在`conversionDetails`物件的`trackingIdentities`屬性中，該物件是[&#x200B; [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
+對於Customer Journey Analytics，EF ID儲存在`conversionDetails`物件的`trackingIdentities`屬性中，該物件是[ [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)的一部分。
 
 ### EF ID格式 {#ef-id-formats}
 
-請參閱「Adobe Analytics元件指南」中EF ID維度專案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/amo-ef-id#dimension-items)的格式。
+請參閱「Adobe Analytics元件指南」中EF ID維度專案](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)的[格式。
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 
     * 針對已啟用[!UICONTROL Auto Upload]設定的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶（帳戶或促銷活動），當一般使用者按一下包含Adobe Advertising畫素的廣告時，畫素伺服器會自動將s_kwcid引數附加至您的登陸頁面尾碼。
 
-    * 針對其他廣告網路，或停用[!UICONTROL Auto Upload]設定的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶，手動將引數新增至您的[帳戶層級附加引數](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，以便將其附加至您的基礎URL。
+    * 針對其他廣告網路，或停用[!UICONTROL Auto Upload]設定的[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶，手動將引數新增至您的[帳戶層級附加引數](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}，以便將其附加至您的基礎URL。
 
 * 未實作伺服器端插入功能時：
 
@@ -163,9 +163,9 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 
   * 搜尋、社交和Commerce客戶：
 
-    * 針對（[!DNL Google Ads]和[!DNL Microsoft Advertising]）廣告，手動將AMO ID引數新增至您的登入頁面尾碼，最好在[帳戶層級](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，除非個別帳戶元件需要不同的追蹤。
+    * 針對（[!DNL Google Ads]和[!DNL Microsoft Advertising]）廣告，手動將AMO ID引數新增至您的登入頁面尾碼，最好在[帳戶層級](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}，除非個別帳戶元件需要不同的追蹤。
 
-    * 針對所有其他廣告網路上的廣告，手動將AMO ID引數新增至您的[帳戶層級附加引數](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}，這會將其附加至您的基本URL。
+    * 針對所有其他廣告網路上的廣告，手動將AMO ID引數新增至您的[帳戶層級附加引數](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}，這會將其附加至您的基本URL。
 
 若要實施伺服器端插入功能，或決定最適合您企業的選項，請洽詢您的Adobe帳戶團隊。
 
@@ -177,9 +177,9 @@ EF ID在Analysis Workspace中需遵守500,000的唯一識別碼限制。 一旦�
 
 ## 關於[!DNL Analytics]分類
 
-在[!DNL Analytics]中，[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)是指定追蹤代碼（例如帳戶、促銷活動或廣告）的中繼資料。 Adobe Advertising會使用分類來分類原始Adobe Advertising資料，以便在您產生報表時，可以不同方式（例如依廣告型別或促銷活動）顯示資料。 在[!DNL Analytics]中以Adobe Advertising報告為基礎的分類，可與AMO量度（例如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）搭配使用，也可與自訂和標準站上事件（例如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）搭配使用。
+在[!DNL Analytics]中，[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)是指定追蹤代碼（例如帳戶、促銷活動或廣告）的中繼資料。 Adobe Advertising會使用分類來分類原始Adobe Advertising資料，以便在您產生報表時，可以不同方式（例如依廣告型別或促銷活動）顯示資料。 在[!DNL Analytics]中以Adobe Advertising報告為基礎的分類，可與AMO量度（例如[!UICONTROL Adobe Advertising Cost]、[!UICONTROL Adobe Advertising Impressions]和[!UICONTROL AMO Clicks]）搭配使用，也可與自訂和標準站上事件（例如[!UICONTROL Visits]、[!UICONTROL Leads]、[!UICONTROL Orders]和[!UICONTROL Revenue]）搭配使用。
 
 >[!MORELIKETHIS]
 >
 >* [總覽 [!DNL Analytics for Advertising]](overview.md)
->* [&#x200B; [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異
+>* [ [!DNL Analytics] 與Adobe Advertising](data-variances.md)之間的預期資料差異

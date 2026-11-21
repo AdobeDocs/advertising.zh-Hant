@@ -1,0 +1,132 @@
+---
+title: '[!DNL Google Ads]轉換資料'
+description: 瞭解搜尋、社交和Commerce中可用的[!DNL Google Ads]追蹤轉換資料型別。
+exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
+feature: Search Campaign Management, Conversions
+TQID: 'https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 0%
+---
+# 搜尋、社交和Commerce中的[!DNL Google Ads]轉換資料
+
+搜尋、Social和Commerce會自動將[!DNL Google Ads]搜尋和購物網路上的所有行銷活動的[!DNL Google Ads]追蹤轉換資料同步至Search、Social和Commerce，以利製作報表和進行最佳化。
+
+所有量度都會自動用於行銷活動管理檢視和基本報表，也可用於最佳化的產品組合目標。
+
+## 可用的轉換資料
+
+搜尋、Social和Commerce同步已啟用「[!DNL Include in 'Conversions']」選項的轉換資料，提取過去35天的資料，然後每天以09:00-10:00在廣告商時區提取資料的變更。 歷史資料可能會每天變更，因為每次點按都會追蹤新的轉換。
+
+使用[!DNL Google Ads]中設定的轉換名稱，在Search、Social和Commerce中可自動使用每個[[!DNL Google Ads]追蹤的轉換](https://support.google.com/google-ads/answer/4677036) （您在[!DNL Google Ads]中設定）最多三個量度。 每次轉換的量度包括：
+
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
+* `GGL*` — （當您追蹤時）關鍵字的轉換值，以「GGL」首碼開頭（例如GGL Purchase）。
+
+* `GGL_CT*` — 轉換次數（計數），以「GGL_CT」首碼開頭（例如GGL_CT_Purchase）。
+
+* `GGL_XD_CT*` — （當可用於轉換型別時，當您追蹤時）由Google測量的跨裝置轉換次數（計數），以「GGL_XD_CT_」首碼（例如GGL_XD_CT_Purchase）開頭。
+
+[!DNL Google Ads]會依[競標單位](/help/search-social-commerce/glossary.md#a-b)、裝置和點選日期（非轉換日期）來記錄每次轉換。 歸因是以[!DNL Google Ads]中每個量度的預設歸因設定為基礎；Adobe Advertising歸因未計入中，因為無法使用點選事件層級的資料。
+
+>[!NOTE]
+>
+>* 如果您有多個帳戶具有相同的轉換名稱，您可能會在Adobe Advertising中看到重複的轉換名稱。 如果發生這種狀況，請在[!UICONTROL Goals] > [!UICONTROL Conversions]中變更其中一個重複量度的顯示名稱](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric)。 [當兩個不同的量度具有相同的名稱時，報表並不準確。
+>* 競標單位層級的資料與相同層級[!DNL Google Ads]中的資料相符。 但是，[!DNL Google Ads]自己的較高層級轉換資料可能包含未歸因至子競標單位的額外轉換。 搜尋、Social和Commerce中的資料一律會從競標單位層級彙總，因此（舉例來說）行銷活動層級報表的總數可能與Google Ads中的行銷活動層級報表不同。
+>* 資料差異通常在早上同步後小於當天晚些時候，此時尚未同步其他轉換。 我們建議在早上驗證資料。
+>* 轉換資料不適用於[!DNL Google Display Network]、[!DNL Gmail]、[!DNL Mobile App]和[!DNL YouTube]廣告。 當您比較[!DNL Google Ads]中的資料與「搜尋」、「社交」和「Commerce」中的資料時，請篩除這些型別的廣告。
+>* [!DNL Google Ads]轉換的資料在對象或地理位置層級無法使用，因此不會用於自動最佳化RLSA和位置競標調整。
+
+## 如何將[!DNL Google Ads]中的轉換資料與「搜尋」、「社交」和「Commerce」中的資料進行比較
+
+如果您將「搜尋」、「社交」和「Commerce」中的資料與[!DNL Google Ads]中的資料進行比較，請使用檢視或報表選項來檢視根據點選日期（而非交易日期）的轉換。
+
+使用下列報表設定驗證可比較的資料。
+
+### 要在[!DNL Google Ads]中使用的報表設定
+
+依日期產生所選轉換動作的報表，並包含所有廣告狀態的資料。
+
+<!-- 
+
+1. In the main toolbar, select **[!DNL Reports] > [!DNL Report]**.
+
+1. Select **[!DNL + Custom] > [!DNL Table]**.
+
+1. From the left pane, specify the rows and columns in the report:
+   
+   1. Search for the **[!DNL Day]** field and it drag to the [!DNL Row] section.
+
+   1. Search for the **[!DNL All conv].** field and it drag to the [!DNL Column] section.
+
+   1. Search for the **[!DNL Conversion action]** field and it drag to the [!DNL Column] section.
+
+1. In the report settings toolbar, select **[!DNL Filter] > [!DNL Ad status]**, and then select all boxes.
+
+1. In the report settings toolbar, select **[!DNL Download] > [!DNL Excel .csv]**.
+
+-->
+
+### 用於搜尋、社交和Commerce的報告設定
+
+在「搜尋」、「社交」和「Commerce」中，使用檢視或報表選項，根據點按日期（而非交易日期）檢視轉換。
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Reports]>[!UICONTROL Reports]**。
+
+1. 按一下&#x200B;**[!UICONTROL Create Report]**，按一下左側面板中的&#x200B;**[!UICONTROL Basic Reports]**，然後選取&#x200B;**[!UICONTROL Search Engine Account Report]**。 按一下&#x200B;**[!UICONTROL Proceed]**。
+
+1. 在[!UICONTROL Create Report]視窗中，開啟&#x200B;**[!UICONTROL Basic Settings]**&#x200B;標籤並指定下列[報告設定](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)：
+
+   1. 將&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;設為&#x200B;**[!UICONTROL Daily]**。
+
+   1. 將&#x200B;**[!UICONTROL Conversions Based on]**&#x200B;設為&#x200B;**[!UICONTROL Click date]**。
+
+   1. 指定您用於[!DNL Google Ads]報表的相同日期範圍。
+
+   1. 將&#x200B;**[!UICONTROL Search/Content]**&#x200B;設為&#x200B;**[!UICONTROL Search Only]**。
+
+   1. 如果顯示&#x200B;**[!UICONTROL Filter By]**，請選取&#x200B;**[!UICONTROL Search engine]**。
+
+   1. 在&#x200B;**[!UICONTROL Search Engine Hierarchy]**&#x200B;中，展開[!DNL Google Ads]並選取您要比較之帳戶旁的核取方塊。 按一下&#x200B;**[!UICONTROL Add selected items]**&#x200B;將帳戶移至&#x200B;**[!UICONTROL Selected Filters]**。
+
+1. 開啟&#x200B;**[!UICONTROL Columns]**&#x200B;標籤，然後新增您要比較的[!DNL Google Ads]個量度（以「GGL」開頭）。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**。
+
+>[!MORELIKETHIS]
+>
+>* [設定廣告網路帳戶與行銷活動](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
+>* [關於管理行銷活動和產品組合](/help/search-social-commerce/manage/manage-about.md)
+>* [檢視為廣告商追蹤的轉換量度](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser)
+>* [上傳離線轉換資料以進行增強型轉換](/help/search-social-commerce/goals/conversions/conversions-upload-offline-enhanced-conversions.md)

@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    * （選擇性）若要變更報告的轉換，請按一下![設定](/help/creative/assets/settings.png)，然後在&#x200B;**[!UICONTROL Conversions]**&#x200B;功能表中選取轉換名稱。 目前，唯一可用的量度是「全選」，以包含所有轉換量度。
 
-     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 當廣告商具有[an [!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)時，清單可包含從Adobe Analytics同步的轉換和網站參與量度。 [!DNL Analytics]個計算量度和進階計算量度無法使用。 如需將收集的轉換納入報表的相關資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;。
+     可用的轉換欄包括Advertising Search、Social和Commerce中可用的轉換，無論您是否為Search、Social和Commerce客戶。 當廣告商具有[an [!DNL Adobe Analytics for Advertising] 整合](/help/integrations/analytics/overview.md)時，清單可包含從Adobe Analytics同步的轉換和網站參與量度。 [!DNL Analytics]個計算量度和進階計算量度無法使用。 如需將收集的轉換納入報表的相關資訊，請參閱搜尋、社交和Commerce指南主題&quot;[關於管理廣告商的轉換量度](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)&quot;。
 
 1. （在[!UICONTROL Overview]索引標籤上）：
 

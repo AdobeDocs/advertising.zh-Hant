@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 您可以檢視前13個月的資料，但任何現有的自訂檢視最多只能包含前180天的資料。
->* 若要檢視先前的資料，請移至[[!UICONTROL Reports]檢視](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)並執行基本報表。
+>* 若要檢視先前的資料，請移至[[!UICONTROL Reports]檢視](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)並執行基本報表。
 >* 您也可以儲存[預設檢視或自訂檢視](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)的日期範圍。
 
 ## （舊版UI）變更行銷活動檢視中的全域日期篩選器
