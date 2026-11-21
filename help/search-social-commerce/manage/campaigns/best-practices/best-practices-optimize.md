@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 測試登入頁面的影響
 
-若要檢視變更登入頁面（在其他專案不變時）的影響，請執行[ [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，其中包含每個廣告的顯示URL和基本/最終URL或目的地URL。
+若要檢視變更登入頁面（在其他專案不變時）的影響，請執行[&#x200B; [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)，其中包含每個廣告的顯示URL和基本/最終URL或目的地URL。
 
 >[!MORELIKETHIS]
 >

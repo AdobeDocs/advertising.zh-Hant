@@ -72,7 +72,7 @@ ht-degree: 0%
 
 具有Adobe Audience Manager的DSP客戶可以使用對Audience Manager的畫素呼叫，從廣告促銷活動擷取資料。 然後您可以使用行銷活動資料來建立規則型特徵，這些特徵可用來定義新區段，以啟用各種DSP使用案例，例如更進階分段、頻率管理、行銷分析和報表深入分析。
 
-如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。[
+如需詳細資訊，請參閱「將DSP媒體曝光資料傳送至Adobe Audience Manager[&#128279;](/help/integrations/audience-manager/media-data-integration/overview.md)的總覽」。
 
 ## 透過Audience Analytics取得更豐富的網站活動深入分析
 

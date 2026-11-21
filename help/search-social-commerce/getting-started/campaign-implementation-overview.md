@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Adobe]和您的代理商會與您合作，以連線您的廣告網路帳戶、準備行銷活動、設定追蹤及驗證績效資料。 如果您希望Search、Social和Commerce最佳化合格的行銷活動，工作流程也包含產品組合設定。
 
-此檢查清單提供更廣泛的[實作工作流程](implemention-overview.md)的帳戶和行銷活動詳細資料。 您可以執行的工作取決於您的許可權以及每個廣告網路和行銷活動型別](/help/search-social-commerce/introduction/supported-inventory.md)支援的[功能。
+此檢查清單提供更廣泛的[實作工作流程](implemention-overview.md)的帳戶和行銷活動詳細資料。 您可以執行的工作取決於您的許可權以及每個廣告網路和行銷活動型別[&#128279;](/help/search-social-commerce/introduction/supported-inventory.md)支援的功能。
 
 ## 設定工作流程
 

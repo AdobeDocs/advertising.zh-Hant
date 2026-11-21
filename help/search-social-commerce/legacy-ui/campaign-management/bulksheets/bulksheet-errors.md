@@ -60,7 +60,7 @@ ht-degree: 1%
 |  | [!UICONTROL Invalid row given] | 列包含的資訊不足，無法判斷實體型別。 編輯該列以包含實體型別的所有必填欄位。 |
 | 帳戶 | [!UICONTROL Provide Valid Account Details] | （多個帳戶的批次工作表）帳戶識別碼未包含在所有列中。 為每列輸入下列任一資料行組合的值： a) &quot;[!UICONTROL AMO ID]&quot;或b) &quot;[!UICONTROL Account Name]&quot;和&quot;[!UICONTROL Platform]&quot;。 |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 搜尋、Social和Commerce無法存取廣告網路帳戶，因此您無法建立或編輯行銷活動資料。 請確定搜尋帳戶的認證正確且帳戶已啟用。 |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。[ |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | （購物行銷活動） &quot;[!UICONTROL Sales Country]&quot;欄位中的值無效。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](https://support.google.com/merchants/answer/160637#countrytable)的有效國家[和 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083)的有效國家/地區清單。 |
 | 所有行銷活動元件 | [!UICONTROL Campaign creation failed] | 父級行銷活動未建立，因此未建立此實體。 請確定所有父系實體都包含所有必要欄位。 |
 | 廣告群組 | [!UICONTROL Campaign Row missing] | 指定的父級行銷活動不存在，因此未建立廣告群組。 在新列中建立父行銷活動。 |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 廣告群組可以包含關鍵字或版位，但不能同時包含兩者。 為關鍵字和版位建立個別的廣告群組。 |

@@ -160,7 +160,7 @@ Adobe Advertising報表只會擷取透過Adobe Advertising販運的付費媒體�
 
 以下是建立[!DNL Paid Search Detection]規則集的介面：
 
-![ [!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)中付費搜尋偵測規則集的範例
+![&#x200B; [!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)中付費搜尋偵測規則集的範例
 
 產生的[!DNL Paid Search Detection]報告包括[!UICONTROL Paid Search Engine]、[!UICONTROL Paid Search Keywords]、[!UICONTROL Natural Search Engine]和[!UICONTROL Natural Search Keywords]報告。
 
@@ -304,7 +304,7 @@ Adobe Advertising為Analytics提供[廣告專用流量量度，以及來自 [!DN
 
 由於您無法將[!UICONTROL AMO Clicks]與網站上的維度搭配使用，因此您可能想要找到等同於點按的維度。 您可能會以造訪次數來替代，但這並非最佳選項，因為每位訪客可能會有多次造訪。 (請參閱&quot;[點按與造訪之間的差異](#clicks-vs-visits)&quot;。 我們建議改用[!UICONTROL AMO ID Instances]，這是擷取AMO ID的次數。 雖然[!UICONTROL AMO ID Instances]與[!UICONTROL AMO Clicks]不完全相符，但這是測量網站點按流量的最佳選項。 如需詳細資訊，請參閱[針對 [!DNL Analytics for Advertising]](#data-validation)的點進資料驗證。
 
-不支援的維度](/help/integrations/assets/a4adc-amo-id-instances.png)的![範例[!UICONTROL AMO ID Instances]而非[!UICONTROL Adobe Advertising Clicks]
+不支援的維度![&#128279;](/help/integrations/assets/a4adc-amo-id-instances.png)的範例[!UICONTROL AMO ID Instances]而非[!UICONTROL Adobe Advertising Clicks]
 
 >[!MORELIKETHIS]
 >

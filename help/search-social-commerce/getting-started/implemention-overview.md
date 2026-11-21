@@ -83,13 +83,13 @@ ht-degree: 0%
 
    1. （具有[!DNL Google Analytics]的廣告商）同步[!DNL Google Analytics]帳戶、屬性和檢視組合的轉換量度，以進行最佳化和報告。
 
-      此設定使用舊版使用者介面。 請參閱「[關於同步 [!DNL Google Analytics] 轉換量度](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)」，並在必要時切換至舊版介面](ui-switch.md)。[
+      此設定使用舊版使用者介面。 請參閱「[關於同步 [!DNL Google Analytics] 轉換量度](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)」，並在必要時切換至舊版介面[&#128279;](ui-switch.md)。
 
 1. （選用）設定和啟動產品組合：
 
    1. 在[!UICONTROL Goals] > [!UICONTROL Conversions]中，[檢閱轉換量度，並將必要的量度設定為可見](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)。 在[!UICONTROL Goals] > [!UICONTROL Objectives]中，[建立或選取最佳化目標](/help/search-social-commerce/goals/objectives/objective-about.md)。
 
-   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[使用適當的[合格行銷活動](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)，建立已設定成符合您目標與業務目標的產品組合](/help/search-social-commerce/manage/portfolios/portfolio-create.md)。 [啟動投資組合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集資料並建立資料模型。 接下來，實作團隊會收集並驗證點按和收入資料至少14天，並驗證產品組合設定。
+   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[&#128279;](/help/search-social-commerce/manage/portfolios/portfolio-create.md)使用適當的[合格行銷活動](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)，建立已設定成符合您目標與業務目標的產品組合。 [啟動投資組合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集資料並建立資料模型。 接下來，實作團隊會收集並驗證點按和收入資料至少14天，並驗證產品組合設定。
 
       >[!NOTE]
       >
