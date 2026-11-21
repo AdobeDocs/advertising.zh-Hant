@@ -1,0 +1,61 @@
+---
+title: '[!UICONTROL MSA Network Performance Report]'
+description: 瞭解[!UICONTROL MSA Network Performance Report]。
+feature: Search Reports, Search Specialty Reports
+exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
+TQID: 'https://experienceleague.adobe.com/PXMA1k9x0zeHYSoMXfTgrWK9RxaCMDowsnqqr3CQIno'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
+---
+# [!UICONTROL MSA Network Performance Report]
+
+僅&#x200B;*[!DNL Microsoft Advertising]個帳戶*
+
+此報表顯示指定[!DNL Microsoft Advertising]帳戶之廣告分佈（搜尋或對象）的行銷活動層級績效（成本、點按數、曝光次數和[!DNL Microsoft Advertising]追蹤的收入）。
+
+當您執行只有量度欄且沒有維度的報表時，產生的報表會包含兩個重複的列：一個含有彙總資料，另一個含有所有量度。
+
+您可以檢視過去180天的資料。 搜尋、Social和Commerce會即時從[!DNL Microsoft Advertising]提取資料，並且可能需要幾分鐘才能產生具有較大資料量的報表。
+
+>[!NOTE]
+>
+>當報告包含大量資料時，報告可能會失敗。 如果發生此情況，請以較小的時間間隔執行報表。
+
+## 預設欄
+
+如需所有預設和自訂欄的說明，請參閱[專業報告的報告欄](specialty-report-columns.md)。
+
+* [!UICONTROL SE Account Name]
+* [!UICONTROL Campaign Name]
+* [!UICONTROL Impressions]
+* [!UICONTROL Clicks]
+* [!UICONTROL Cost]
+* [!UICONTROL Conversions]
+* [!UICONTROL Network]
+* [!UICONTROL Revenue]
+* [!UICONTROL Goal]
+* [!UICONTROL Goal Type]
+* [!UICONTROL Ad Distribution]
+
+>[!MORELIKETHIS]
+>
+>* [關於專業報告](specialty-report-about.md)
+>* [產生專業報告](specialty-report-generate.md)
+>* [專業報告設定](specialty-report-settings.md)
+>* [專業報告的報告欄](specialty-report-columns.md)

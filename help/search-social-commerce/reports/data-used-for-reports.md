@@ -1,31 +1,38 @@
 ---
-title: 用於報表的資料
+title: （新UI）用於報表的資料
 description: 瞭解資料檢視和自訂報告中可用的不同型別資料。
-exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '643'
 ht-degree: 6%
 ---
-# 用於報表的資料
+# （新UI）用於報表的資料
 
 搜尋、社交和Commerce包含一組以點選和轉換資料為基礎的完整效能報表。 您可以從[!UICONTROL Portfolios]和[!UICONTROL Campaigns]檢視，以及透過產生各種基本和進階報告來檢視產品組合或廣告帳戶的各種元件的基本效能資料。
 
-使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及行銷管道單一[轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)的轉換分佈。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
+使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及行銷管道單一[轉換量度](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)的轉換分佈。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
 
 大多數報告都可以自訂，以僅顯示您想要檢視的資訊。 下列標準量度可用於大多數報表，並在廣告層級進行計算：
 
@@ -45,7 +52,7 @@ ht-degree: 6%
 
 * **轉換量度：**&#x200B;每個廣告商的轉換量度或追蹤至轉換量度的交易資料的總轉換次數。 這可能包括轉換和網站參與量度，但不會包括從Adobe Analytics同步的計算量度和進階計算量度。
 
-  這也可能包含已為廣告商帳戶同步的[[!DNL Google Ads]個追蹤的轉換](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)和[[!DNL Google Analytics]個追蹤的轉換](/help/search-social-commerce/admin/data-sources/data-source-about.md)。
+  這也可能包含已為廣告商帳戶同步的[[!DNL Google Ads]個追蹤的轉換](/help/search-social-commerce/tracking/google-conversion-data.md)和[[!DNL Google Analytics]個追蹤的轉換](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)。
 
 * **自訂量度：**&#x200B;您自己的量度，這是您根據現有量度（例如每筆訂單的成本）建立公式而衍生的。
 
@@ -57,20 +64,20 @@ ht-degree: 6%
 
 | 報表群組 | 報告 | 資料可用的日期 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 前36個月。 |
-| | 所有其他[!UICONTROL Basic Reports] | 前36個月。 |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 自2021年5月15日起。<br><br><b>例外狀況：</b>顯著度量資料自2022年9月8日起可用。 |
+| | 所有其他[!UICONTROL Basic Reports] | 前36個月。<br><br><b>例外狀況：</b> Prominence量度資料自2022年9月8日起可用。 |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 前45天。 |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 前兩(2)個月加上本月。 |
 | [!UICONTROL Assist Reports] | 全部 | 前18個月。 |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 上一年。 |
-| | [!UICONTROL Google Asset Group Performance Report] | 前36個月。 |
+| | [!UICONTROL Google Asset Group Performance Report] | 無限制 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 過去180天。 |
-| | [!UICONTROL RSA Assets Report] | 前36個月。 |
+| | [!UICONTROL RSA Assets Report] | 自2022年8月10日起。 |
 | | 所有其他[!UICONTROL Specialty Reports] | 前兩(2)個月。 |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 前18個月。 |
 | [!UICONTROL Change History Report] | — | 前31天。 |
 
 >[!MORELIKETHIS]
 >
->* [關於報告](/help/search-social-commerce/reports/report-about.md)
->* [報告的初始設定工作](/help/search-social-commerce/reports/initial-setup.md)
+>* [關於報告](report-about.md)
+>* [報告的初始設定工作](initial-setup.md)

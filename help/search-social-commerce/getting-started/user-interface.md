@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 每個頁面都包含主功能表和其他工作與資訊型功能表。
 
-您的[產品設定檔](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)會決定可用的選項，包括每個檢視中可用的功能。
+您的[產品設定檔](/help/search-social-commerce/user-administration.md#default-product-profiles)會決定可用的選項，包括每個檢視中可用的功能。
 
 ## 主功能表
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]**&#x200B;子功能表：
 
-  * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]開啟舊版[!UICONTROL Spend Recommendation]工具。
+  * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]開啟舊版[!UICONTROL Spend Recommendation]工具。
 
   * **[!UICONTROL Spend Planner]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]檢視。
 

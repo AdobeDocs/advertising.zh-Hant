@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **Adobe Analytics轉換：**&#x200B;廣告商對所有轉換都使用Adobe Analytics追蹤。 此選項需要Adobe Advertising-Adobe Analytics整合。 如需詳細資訊，請參閱&quot;[Adobe Analytics轉換追蹤](conversion-tracking-analytics.md)&quot;。
 
-* **[!DNL Google Analytics]轉換：**&#x200B;廣告商使用[!DNL Google Analytics]標籤來追蹤所有轉換。 如需自動同步之轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)」。
+* **[!DNL Google Analytics]轉換：**&#x200B;廣告商使用[!DNL Google Analytics]標籤來追蹤所有轉換。 如需自動同步之轉換的詳細資訊，請參閱「搜尋、社交和Commerce中的[[!DNL Google Ads] 轉換資料](google-conversion-data.md)」。
 
 * **追蹤廣告商的轉換：** （僅限Search、Social和Commerce使用者端）廣告商提供Search、Social和Commerce摘要檔案，其中包含任何線上和離線轉換資料的組合。 請參閱[使用EF ID摘要](feed-efid.md)的轉換追蹤[使用交易ID摘要](feed-transaction-id.md)的轉換追蹤。
 

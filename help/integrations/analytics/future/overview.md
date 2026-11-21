@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfd751d4-ee56-4323-8fd1-dc174b031709
     internal-label: Analytics integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 <!-- Verify all -->
 
-在[!DNL Search, Social, & Commerce]內，您可以使用現有的[!DNL Analytics]區段，從使用者ID建立[!DNL Google Ads]個Google客戶比對對象。 這包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)的客戶比對對象。&quot;
+在[!DNL Search, Social, & Commerce]內，您可以使用現有的[!DNL Analytics]區段，從使用者ID建立[!DNL Google Ads]個Google客戶比對對象。 這包括發佈至Adobe CX Enterprise的Adobe Analytics區段，以及使用Adobe CX Enterprise [!DNL Audience Library]建立的區段。 如需詳細資訊，請參閱&quot;[建立 [!DNL Google Ads] 來自 [!DNL Adobe] 對象](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)的客戶比對對象。&quot;
 
 [來自使用者ID的客戶相符對象](https://support.google.com/google-ads/answer/9199250)的工作方式與網站標籤型對象類似，但會將非PII ID指派給不重複對象成員，以區別於標準客戶相符和網站標籤型對象的好處。
 

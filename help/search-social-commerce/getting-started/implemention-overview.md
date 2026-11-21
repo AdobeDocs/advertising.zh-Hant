@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '886'
 ht-degree: 0%
 ---
 # 實施搜尋、社交和Commerce概觀
@@ -53,25 +53,27 @@ ht-degree: 0%
 
    1. （如有必要）為廣告商建立使用者帳戶，以檢視和管理其行銷活動資料並產生報表。
 
-   如需設定帳戶的詳細資訊，請參閱「管理員」的說明章節。
+   與您的管理員合作，使用Adobe Admin Console和適當的產品設定檔來設定存取權。 請參閱[搜尋、社交和Commerce的使用者管理](/help/search-social-commerce/user-administration.md)。
 
 1. 同步處理或建立每個廣告網路帳戶的行銷活動：
 
-   * 與帳戶同步處理，方法是透過a)在「搜尋」、「社交」和「Commerce」中建立包含帳戶存取認證和追蹤選項的對應帳戶記錄，以及b)將帳戶狀態設定為「已啟用」。
+   * 針對API連線的帳戶，[在[!UICONTROL Manage] > [!UICONTROL Accounts]中建立帳戶詳細資料](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#create-account)、完成網路特定驗證、設定追蹤選項，以及啟用帳戶。
+
+   * 對於沒有API支援的帳戶，請依照適用的[資料上傳](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md)或[僅限追蹤的帳戶](/help/search-social-commerce/manage/accounts/template-account-manage.md)工作流程進行。 這些帳戶不會與廣告網路同步，或支援組合最佳化。
 
    * 如果帳戶尚未包含行銷活動資料，請從Search、Social和Commerce內或廣告網路內新增行銷活動、廣告群組、關鍵字、廣告和版位。
 
-     如需設定搜尋促銷活動的詳細資訊，請參閱「促銷活動管理」的說明章節。
+     如需詳細的設定檢查清單，請參閱&quot;[設定廣告網路帳戶與行銷活動](campaign-implementation-overview.md)&quot;。 對於支援的行銷活動型別，請使用[!UICONTROL Manage] > [!UICONTROL Campaigns]來[建立和管理行銷活動](/help/search-social-commerce/manage/campaigns/campaign-manage.md)。
 
 1. 設定您希望Adobe Advertising追蹤轉換之所有廣告的追蹤：
 
-   1. （如有必要）透過產生及上傳點選追蹤URL來設定廣告的點選追蹤，以及選擇性地設定關鍵字、[!DNL Google Ads]位置和[!DNL Google Ads]副檔名的點選追蹤。
+   1. （如有必要） [透過產生及上傳點選追蹤URL，為廣告、關鍵字、[!DNL Google Ads]位置及[!DNL Google Ads]副檔名設定點選追蹤](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)。
 
       使用Adobe Advertising畫素式轉換追蹤服務的廣告商點選追蹤URL包含重新導向至[!DNL Adobe]伺服器。
 
-   1. 設定轉換追蹤。 根據實作，這可能需要將轉換追蹤標籤新增到適當的網頁，和/或為您使用自己的方法收集的轉換資料設定每日摘要拖放功能。
+   1. [設定轉換追蹤](/help/search-social-commerce/tracking/conversion-tracking-about.md)。 根據實作，這可能需要將轉換追蹤標籤新增到適當的網頁，和/或為您使用自己的方法收集的轉換資料設定每日摘要拖放功能。 您可以從[!UICONTROL Goals] > [!UICONTROL Conversions] [產生Adobe Advertising轉換追蹤標籤](/help/search-social-commerce/goals/conversions/conversion-tag-generate.md)。
 
-      如需設定追蹤的詳細資訊，請參閱「追蹤」上的說明章節。
+      如需詳細資訊，請參閱[關於搜尋、社交和Commerce的追蹤](/help/search-social-commerce/tracking/tracking-about.md)。
 
 1. 設定與其他產品的整合：
 
@@ -81,27 +83,29 @@ ht-degree: 0%
 
    1. （具有[!DNL Google Analytics]的廣告商）同步[!DNL Google Analytics]帳戶、屬性和檢視組合的轉換量度，以進行最佳化和報告。
 
-      請參閱說明子章節「管理員」>「[設定資料來源](/help/search-social-commerce/admin/data-sources/data-source-about.md)」。
+      此設定使用舊版使用者介面。 請參閱「[關於同步 [!DNL Google Analytics] 轉換量度](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)」，並在必要時切換至舊版介面[&#128279;](ui-switch.md)。
 
-1. 設定和啟動產品組合：
+1. （選用）設定和啟動產品組合：
 
-   1. 透過適當的行銷活動，設定已設定成符合您目標與業務目標的產品組合。 接下來，實作團隊會收集並驗證點按和收入資料至少14天，並驗證產品組合設定。
+   1. 在[!UICONTROL Goals] > [!UICONTROL Conversions]中，[檢閱轉換量度，並將必要的量度設定為可見](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)。 在[!UICONTROL Goals] > [!UICONTROL Objectives]中，[建立或選取最佳化目標](/help/search-social-commerce/goals/objectives/objective-about.md)。
+
+   1. 在[!UICONTROL Manage] > [!UICONTROL Portfolios]中，[&#128279;](/help/search-social-commerce/manage/portfolios/portfolio-create.md)使用適當的[合格行銷活動](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)，建立已設定成符合您目標與業務目標的產品組合。 [啟動投資組合](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)以收集資料並建立資料模型。 接下來，實作團隊會收集並驗證點按和收入資料至少14天，並驗證產品組合設定。
 
       >[!NOTE]
       >
       >搜尋、Social和Commerce仍會追蹤和報告未指派給產品組合的促銷活動的資料，但不會為他們提供最佳化。
 
-   1. 在有足夠的資料可用來建立基準後，團隊就可以啟動產品組合 — 讓Search、Social和Commerce根據最佳化型別最佳化產品組合的競標和/或預算。
+   1. 在足夠的資料可用來建立基準後，團隊可以[將產品組合狀態變更為最佳化](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md) — 讓Search、Social和Commerce根據產品組合型別和行銷活動競標策略，將產品組合的競標、預算和/或競標策略目標最佳化。
 
-   如需設定和啟動產品組合的詳細資訊，請參閱「最佳化」的說明，此說明可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
+   如需最佳化支援和產品組合狀態，請參閱&quot;[關於產品組合](/help/search-social-commerce/manage/portfolios/portfolio-about.md)&quot;。
 
 1. 監控您的產品組合績效：
 
-   1. 產生廣告深入分析，這些是有關您最佳化和作用中產品組合的視覺化、可操作的資料。
+   1. 使用[!UICONTROL Dashboard] > [!UICONTROL Overview]來[檢閱投資組合趨勢](/help/search-social-commerce/dashboard/dashboard-overview.md)，並[檢視投資組合績效詳細資料](/help/search-social-commerce/manage/portfolios/portfolio-details.md)以調查結果和模型準確性。
 
-   1. 設定並可能會自動化自訂報表以進行效能監視。
+   1. [設定自訂警報](/help/search-social-commerce/common-tasks/alerts-manage.md)和[產生自訂報告](/help/search-social-commerce/reports/management/report-manage.md)以進行效能監視。 必要時，使用[報告範本](/help/search-social-commerce/reports/report-templates-manage.md)和[試算表摘要](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md)自動報告。
 
-   如需有關執行廣告深入分析和設定報表的詳細資訊，請參閱「深入分析和報表」的說明章節。
+   如需詳細資訊，請參閱&quot;[監視行銷活動和產品組合績效](/help/search-social-commerce/manage/manage-about.md#monitor-performance)&quot;。
 
 1. （選擇性）設定您的[效能資料檢視](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)，以顯示您要檢視的資料。
 
@@ -125,4 +129,4 @@ ht-degree: 0%
 
   * 新增投資組合。
 
-如需有關監控產品組合和調整產品組合策略的指示，請參閱說明子章節「最佳化」>「管理產品組合」>「監控和管理效能」，可從Search、Social和Commerce中任何頁面右上角的[!UICONTROL Help]功能表（![說明功能表](/help/search-social-commerce/assets/help-main-menu.png "說明功能表")）取得。
+如需監視行銷活動和產品組合以及調整其設定的指示，請參閱&quot;[關於管理行銷活動和產品組合](/help/search-social-commerce/manage/manage-about.md)&quot;和&quot;[編輯產品組合詳細資料](/help/search-social-commerce/manage/portfolios/portfolio-edit.md)&quot;。

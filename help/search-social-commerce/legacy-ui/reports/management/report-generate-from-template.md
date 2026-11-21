@@ -1,0 +1,42 @@
+---
+title: 從範本產生報表
+description: 瞭解如何使用報告範本建立報告。
+exl-id: cb918323-cb7e-407c-bfa3-ec3d8753ecbb
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/F91fEGnD63e3UpQHE52ruYZYJSE-HXUAIdgrlQTrNIo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 0%
+---
+# 從範本產生報表
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+
+1. 按一下「**[!UICONTROL Templates]**」標籤。
+
+1. 按一下範本名稱。
+
+1. 編輯報告設定（如有必要）。
+
+1. 按一下&#x200B;**[!UICONTROL Create]**。
+
+>[!MORELIKETHIS]
+>
+>* [關於報告](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [基本和進階報表設定](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [模型正確性報表設定](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [專業報告設定](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-settings.md)
+>* [刪除報告](/help/search-social-commerce/legacy-ui/reports/management/report-delete.md)

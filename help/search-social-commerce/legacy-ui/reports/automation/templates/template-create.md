@@ -1,0 +1,59 @@
+---
+title: 建立報表範本
+description: 瞭解如何建立可重複使用的報表範本。
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/XWTeVJ0GpRkW6JdwUriUoL3EU8GdHcZdjPFeDvGYg80'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
+---
+# 建立報表範本
+
+您可以為任何型別的效能報表儲存多個報表範本。 您可以使用新設定建立範本，或將其建立在現有範本上。 您一次最多可以維護100個範本。
+
+* 若要使用新設定建立範本，請執行下列任一項作業：
+
+  * 從「[!UICONTROL Reports]」標籤，建立報告，並選取報告名稱旁&#x200B;**[!UICONTROL Save as template]**&#x200B;旁的核取方塊。
+
+  * 從[!UICONTROL Templates]索引標籤：
+
+    * 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+
+    * 按一下「**[!UICONTROL Templates]**」標籤。
+
+    * 按一下&#x200B;**[!UICONTROL Create Template]**&#x200B;並選取報表類別。
+
+    * 指定報表設定。
+
+      已自動選取&quot;[!UICONTROL Save as Template]&quot;設定。
+
+* 若要根據現有範本建立範本：
+
+  1. 在主功能表中，按一下&#x200B;**[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**。
+
+  1. 按一下「**[!UICONTROL Templates]**」標籤。
+
+  1. 按一下範本名稱，然後視需要編輯報表設定。
+
+  1. 選取「**[!UICONTROL Save as template]**」旁的核取方塊（位於報表名稱旁），輸入新的報表名稱，然後按一下「**[!UICONTROL Update Template]**」。
+
+>[!MORELIKETHIS]
+>
+>* [關於報告範本](template-about.md)
+>* [編輯報表範本](template-edit.md)
+>* [檢視報表範本](template-view.md)
+>* [刪除報表範本](template-delete.md)

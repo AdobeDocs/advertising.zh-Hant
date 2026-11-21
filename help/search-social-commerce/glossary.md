@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **轉換追蹤：**&#x200B;轉換追蹤使用Cookie來追蹤a)廣告商在廣告網路上的廣告點選次數，以及b)廣告商網站上產生的交易。
 
-**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
+**成本準確度：** （具有產品組合的廣告商）產品組合的實際支出除以預測支出。 [模型正確性報表](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的成本模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
 
 **成本模型：** （具有產品組合的廣告商）使用歷史資料和數學預測技術預測成本數量、贏得每個位置或位置所需的出價以及每個出價單位的CPC （搜尋）或CPM （顯示）的搜尋、社交和Commerce技術。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 **投資報酬率：** (ROI)收入減去成本。
 
-**收入準確度：** （具有產品組合的廣告商）產品組合的實際收入除以預測收入。 [模型正確性報表](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的收入模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
+**收入準確度：** （具有產品組合的廣告商）產品組合的實際收入除以預測收入。 [模型正確性報表](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)指出用於最佳化的收入模型正確性，且[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)包含更多詳細資料，以及改善模型正確性的建議。
 
 **收入模型：** （具有產品組合的廣告商）搜尋、社交和Commerce技術，此技術會根據點按資料（搜尋和社交）或曝光資料（顯示）以及廣告商的轉換資料，預測每個競標單位的轉換率和預估回報。
 

@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 搜尋、社交和Commerce包含一組以點選和轉換資料為基礎的完整效能報表。 您可以從[!UICONTROL Portfolios]和[!UICONTROL Campaigns]檢視，以及透過產生各種基本和進階報告來檢視產品組合或廣告帳戶的各種元件的基本效能資料。
 
-使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及行銷管道單一[轉換量度](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)的轉換分佈。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
+使用Adobe Advertising轉換追蹤服務的廣告商也可以識別反向連結網站的地理位置或網域名稱的點按次數、每個管道中的廣告及導致轉換的各種事件對整體轉換率的貢獻，以及行銷管道單一[轉換量度](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)的轉換分佈。 可用的報告因使用者帳戶型別而異。 Adobe帳戶團隊有權存取所有報表。
 
 大多數報告都可以自訂，以僅顯示您想要檢視的資訊。 下列標準量度可用於大多數報表，並在廣告層級進行計算：
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 * **轉換量度：**&#x200B;每個廣告商的轉換量度或追蹤至轉換量度的交易資料的總轉換次數。 這可能包括轉換和網站參與量度，但不會包括從Adobe Analytics同步的計算量度和進階計算量度。
 
-  這也可能包含已為廣告商帳戶同步的[[!DNL Google Ads]個追蹤的轉換](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)和[[!DNL Google Analytics]個追蹤的轉換](/help/search-social-commerce/admin/data-sources/data-source-about.md)。
+  這也可能包含已為廣告商帳戶同步的[[!DNL Google Ads]個追蹤的轉換](/help/search-social-commerce/tracking/google-conversion-data.md)和[[!DNL Google Analytics]個追蹤的轉換](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)。
 
 * **自訂量度：**&#x200B;您自己的量度，這是您根據現有量度（例如每筆訂單的成本）建立公式而衍生的。
 
@@ -79,5 +79,5 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [關於報告](/help/search-social-commerce/reports/report-about.md)
->* [報告的初始設定工作](/help/search-social-commerce/reports/initial-setup.md)
+>* [關於報告](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [報告的初始設定工作](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

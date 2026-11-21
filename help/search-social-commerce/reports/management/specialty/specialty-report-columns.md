@@ -1,9 +1,7 @@
 ---
 title: 專業報告的報告欄
 description: 瞭解專業報告的可用資料欄。
-exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3223'
 ht-degree: 1%
 ---
 # 專業報告的報告欄
@@ -88,6 +76,7 @@ ht-degree: 1%
 | [!UICONTROL Content IS% (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）您在顯示/對象網路上收到的廣告曝光數除以您符合資格可收到的預估曝光數。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | （[!DNL Google Ads]僅限； [!UICONTROL Campaign Daily Impression Share Report]）由於您的每日或每月預算太低，您在顯示/對象網路上的廣告未收到的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | （僅限[!DNL Google Ads]； [!UICONTROL Campaign Daily Impression Share Report]）由於廣告排名不佳，您在顯示/對象網路上的廣告未顯示的預估曝光百分比。 低於10%的百分比會顯示為&quot;`<10%`&quot;，高於90%的百分比會顯示為&quot;`>90%`&quot;。 |
+| [!UICONTROL Conversion Actions] | （[!UICONTROL Google AI Max Search Term Combination]個報告）導致轉換的轉換動作。 |
 | [!UICONTROL Conversion Rate] | 轉換次數除以點按總數。 |
 | [!UICONTROL Conversion Type] | 在廣告商網站上追蹤的使用者定義轉換型別。 |
 | [!UICONTROL Conversions] | （[!UICONTROL Google AI Max Search Term Combination]、[!UICONTROL Google Asset Group Performance]和[!UICONTROL MSA Ad Extension]個報告）指定期間的轉換總數。 對於[!UICONTROL MSA Ad Extension]報表，這是導致銷售或其他成功度量的點按次數。 在[!UICONTROL Google AI Max Search Term Combination]報表中，這是啟用「包含在轉換中」的轉換動作轉換總數 |
@@ -126,7 +115,7 @@ ht-degree: 1%
 | [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report])所有跨網域重新導向後，行動裝置的最終URL清單。 如果促銷活動已啟用URL擴增，URL可能會擴增。 |
 | [!UICONTROL Goal] | （[!UICONTROL MSA Ad ExtensionReport]個報告，[!UICONTROL MSA Network Performance Report]）轉換目標的名稱。 |
 | [!UICONTROL Goal Type] | （[!UICONTROL MSA Ad Extension]個報告，[!UICONTROL MSA Network Performance Report]）轉換目標的型別。 |
-| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [該 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)所追蹤的線上轉換次數。 |
+| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [該 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/tracking/google-conversion-data.md)所追蹤的線上轉換次數。 |
 | [!UICONTROL Google Converted Clicks] | （[!UICONTROL AdWords Conversion Report]；2016年淘汰）導致一或多個轉換的點按次數。 |
 | [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report])廣告的第一個標題。 |
 | [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report])廣告的第二個標題。 |
@@ -215,6 +204,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [關於專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [產生專業報告](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [專業報告設定](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [關於專業報告](specialty-report-about.md)
+>* [管理排程報告](/help/search-social-commerce/reports/management/report-manage.md)
+>* [專業報告設定](specialty-report-settings.md)

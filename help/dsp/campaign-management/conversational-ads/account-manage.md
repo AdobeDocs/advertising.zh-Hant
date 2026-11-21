@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 下列專案決定此功能的適用性：
 
-* **現有[!DNL Search, Social, & Commerce]客戶：**&#x200B;如果您的廣告商已使用[!DNL Search, Social, & Commerce]，請在「搜尋」、「社交」和「Commerce」[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)中建立及管理其 [!DNL ChatGPT Ads] 行銷活動，而非DSP。
+* **現有[!DNL Search, Social, & Commerce]客戶：**&#x200B;如果您的廣告商已使用[!DNL Search, Social, & Commerce]，請在「搜尋」、「社交」和「Commerce」[&#128279;](/help/search-social-commerce/manage/campaigns/campaign-manage.md)中建立及管理其 [!DNL ChatGPT Ads] 行銷活動，而非DSP。
 
 * **受限產業：**&#x200B;受限類別（例如金融或醫療保健）中的廣告商無法建立對話式廣告帳戶或行銷活動。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 若要上傳圖示，請按一下&#x200B;**[!UICONTROL Upload favicon]**，然後在您的裝置或網路上尋找並選取檔案。
 
-**[!UICONTROL I agree to the Terms and Conditions]：**&#x200B;表示您同意所有法律條款的核取方塊。 選取核取方塊以建立帳戶或更新帳戶設定。
+**[!UICONTROL I agree to the Terms and Conditions]：**&#x200B;表示您同意所有法律條款的核取方塊。 Select此核取方塊可建立帳戶或更新帳戶設定。
 
 >[!MORELIKETHIS]
 >

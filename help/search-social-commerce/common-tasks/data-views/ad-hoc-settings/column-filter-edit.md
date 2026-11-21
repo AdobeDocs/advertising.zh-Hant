@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '577'
 ht-degree: 0%
 ---
 # 編輯欄篩選器
@@ -108,4 +108,4 @@ ht-degree: 0%
 >
 >* [從欄標題功能表套用資料篩選](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [從工具列套用資料篩選](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [移除欄篩選器]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [移除欄篩選器](column-filter-remove.md)

@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising會使用Adobe Advertising轉換追蹤標籤，追蹤在轉換事件發生時（例如「成功」頁面），插入在開啟的網頁中，因廣告點按而導致的轉換。 標籤包含內嵌資訊，可連同使用者的Adobe Advertising Cookie傳送交易資料至追蹤伺服器，交易會從該伺服器計入適當的廣告點選數或曝光數（根據廣告商的轉換歸因設定）。
 
-您可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤。
+您可以在Search、Social和Commerce中[產生轉換追蹤標籤](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)，或是使用Adobe Experience Platform （先前稱為Adobe Experience Platform Launch）中的標籤。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Adobe Advertising會使用Adobe Advertising轉換追蹤標籤，追蹤在轉換�
 >[!MORELIKETHIS]
 >
 >* [轉換追蹤選項](conversion-tracking-about.md)
->* [產生並實作Adobe Advertising轉換標籤](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [產生並實作Adobe Advertising轉換標籤](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [JavaScript轉換追蹤標籤格式3](format-conversion-tag-jsv3.md)
 >* [JavaScript轉換追蹤標籤2](format-conversion-tag-jsv2.md)版的格式
 >* [影像轉換追蹤標籤的格式](format-conversion-tag-image.md)

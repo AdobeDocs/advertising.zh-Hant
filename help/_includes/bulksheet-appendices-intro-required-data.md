@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -13,4 +13,4 @@ ht-degree: 0%
 >* 所有文字欄中的值都區分大小寫。
 >* 當您建立新記錄並且不包含所有必要資料欄位的值時，這些欄位中的某些會被指派指定的預設值。
 >* 對於未在下方指定的欄位，會使用廣告網路的預設值。
->* 如需[!UICONTROL Download Bulksheet]對話方塊中可用大量表單列的清單，請參閱[依廣告網路大量表單列](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)。
+>* 如需[!UICONTROL Download Bulksheet]對話方塊中可用大量表單列的清單，請參閱[依廣告網路大量表單列](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)。

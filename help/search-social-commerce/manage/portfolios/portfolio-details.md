@@ -1,0 +1,233 @@
+---
+title: （新UI）檢視產品組合績效詳細資料
+description: 瞭解如何在Adobe Advertising Search、Social和Commerce中檢視產品組合績效、關鍵字競標單元詳細資訊、預測和競標歷史記錄，以及匯出競標單元歷史記錄。
+feature: Search Portfolios, Search Optimization
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+TQID: 'https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '1555'
+ht-degree: 0%
+---
+# （新UI）檢視產品組合績效詳細資料
+
+*Beta功能*
+
+<!-- Verify all, including why (if) the first report is for active and optimized portfolios(?), and why the other reports are for active portfolios, not optimized ones -->
+
+產品組合詳細資料檢視包含有關產品組合的下列資訊：
+
+* 最多三個效能量度的實際和預測值。 報表包含投資組合的量度值總計以及依日期的量度劃分。<!-- Not for active portfolios only?  -->
+
+* 使用中投資組合的模型準確性資料，顯示模型與預測的偏差程度。 此報表顯示整體每日或滾動七天成本準確度、點按準確度及目標值準確度。
+
+  您可以趨勢圖（預設）或表格形式來檢視資料。
+
+* 目標支出與作用中投資組合的實際支出。 您也可以選擇納入投資組合的行銷活動預算總計。
+
+* 廣告網路對使用中投資組合的成本、點選或[目標值](/help/search-social-commerce/glossary.md#o-p)預測的準確度。<!-- Verify -->
+
+* 投資組合設定。
+
+  您可以選擇開啟投資組合設定進行編輯。
+
+* 產品組合中的廣告網路、帳戶、行銷活動、廣告群組及關鍵字清單，以及效能資料。
+
+  對於個別關鍵字，您可以檢視競標單位詳細資訊，包括預測、歷史資訊和階層資訊。 [!UICONTROL Bid Unit Details]檢視包含所選競標單位的下列預測、歷史資訊和階層資訊：
+
+  * [!UICONTROL Forecast]索引標籤：競標單位在不同競標價格的目前預計點按數、成本、每次點按成本、位置及收入。 會顯示所有裝置和每個裝置型別（[!UICONTROL Mobile]、[!UICONTROL Computer]和[!UICONTROL Tablet]）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **注意：**&#x200B;當可用的裝置特定資料不足以建立模型並設定該裝置型別的調整時，沒有可用於該裝置型別的預測資料。 **注意：**&#x200B;若要檢視在特定日期範圍內收到點按之投資組合中每個競標單位的成本準確度或收入準確度，請分別檢視投資組合的成本準確度詳細資料或收入準確度詳細資料。
+
+  * [!UICONTROL History]索引標籤：過去36天中的所有競標，包括每個競標的下列資料：日期和時間、曝光數、點按數、總成本、平均CPC、平均位置以及按點按日期顯示的加權收入。 會顯示所有裝置和每種裝置型別（行動裝置、電腦和平板電腦）的資料。<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Details]標籤：關鍵字、比對型別（若適用），以及父廣告群組、行銷活動、廣告網路帳戶和競標單位所屬的投資組合。
+
+## 開啟投資組合的效能詳細資料
+
+1. 在主功能表中，按一下&#x200B;**[!UICONTROL Manage]>[!UICONTROL Portfolios]**。
+
+1. 將游標停留在投資組合名稱上，然後按一下![Portfolio概述](/help/search-social-commerce/assets/portfolio-overview.png "Portfolio概述")。
+
+1. （選擇性）若要變更產品組合詳細資料的日期範圍，請按一下右上方的日期範圍、指定日期範圍，然後按一下&#x200B;**[!UICONTROL Apply]**。
+
+1. （選擇性）從&#x200B;**[!UICONTROL Data Aggregation]**&#x200B;功能表，變更每列資料包含的時間單位： *[!UICONTROL Daily]、* *[!UICONTROL Weekly]、*&#x200B;或&#x200B;*[!UICONTROL Monthly]。*
+
+   可用的選項視選取的日期範圍而定。 如果目前彙總不適用於新的日期範圍，則會自動選取另一個可用的彙總。
+
+1. （選擇性）從頁首的&#x200B;**[!UICONTROL Conversion Based On]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL Click Date]**&#x200B;或&#x200B;**[!UICONTROL Transaction Date]**。
+
+   此設定適用於產品組合報表和元件清單中的轉換資料。
+
+若要檢視其他產品組合的詳細資訊，請使用產品組合名稱旁的產品組合選擇器。
+
+## 自訂[!UICONTROL Portfolio Overview]索引標籤
+
+* （選用）若要自訂[!UICONTROL Portfolio Performance]報表，請執行下列任一項作業：
+
+  * 若要變更用於總計度量和詳細度量的效能度量，請按一下&#x200B;**[!UICONTROL Metrics]**&#x200B;並選取最多三個度量。
+
+    預設量度為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;和&#x200B;*[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+
+  * 如需詳細量度：
+
+    * 將開關移動到&#x200B;**[!UICONTROL Display predictions]**&#x200B;旁以顯示或隱藏預測的量度值。
+
+    * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
+
+    * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
+
+    * （在圖表檢視中）若要縮放，請選取圖表上的區域。
+
+    * （顯示產品組合設定 — 變更標籤時）若要檢視產品組合標籤日期的變更記錄，請按一下圖表上的標籤。 如需歷程記錄的詳細資訊，請參閱[檢視產品組合的變更歷程記錄](portfolio-view-change-history.md#portfolio-change-history)。
+
+* （選用）若要自訂[!UICONTROL Model accuracy]趨勢圖，請執行下列任一項作業：
+
+  * 在圖表檢視（![圖表檢視](/help/search-social-commerce/assets/chart-view.png "圖表檢視")）和表格檢視(![表格檢視](/help/search-social-commerce/assets/table-view.png "表格檢視"))之間切換。
+
+  * 在檢視&#x200B;*[!UICONTROL Daily Accuracy]*&#x200B;和&#x200B;*[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;的相關資料之間切換。
+
+    [!UICONTROL 7 Day Rolling Accuracy]是前七天預測的平均準確度，以百分比表示。 例如，2025年5月8日的值是2025年5月1日至5月7日期間的平均準確度。
+
+    [!UICONTROL 7 Day Rolling Accuracy]僅在[!UICONTROL Data Aggregation]設定為[!UICONTROL Daily]時可用。
+
+  * （在圖表檢視中）若要檢視圖表上任何點的資料，請將游標停留在該點上。
+
+* （選用）若要自訂[!UICONTROL Target vs actual spend]趨勢圖，請執行下列任一項作業：
+
+  * 將開關移至&#x200B;**[!UICONTROL Display budget]**&#x200B;旁以顯示或隱藏每個日期的行銷活動總預算。
+
+  * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
+
+* （選用）若要自訂[!UICONTROL Network Accuracy]趨勢圖，請執行下列任一項作業：
+
+  * 將報告的量度變更為&#x200B;*[!UICONTROL Cost]*、*[!UICONTROL Clicks]*&#x200B;或&#x200B;*[!UICONTROL Objective Value]*。
+
+  * 當資料可用於多個網路時，請從量度功能表旁的功能表中選取網路。
+
+  * 若要檢視圖表上任何點的資料，請將游標停留在該點上。
+
+  * 若要縮放，請在圖形上選取一個區域。
+
+## 自訂產品組合元件的清單
+
+[!UICONTROL Networks]、[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]標籤包含下列控制項：
+
+* 若要依名稱搜尋，請在表格上方的搜尋欄位中輸入文字，並提交搜尋。
+
+* 若要[篩選資料](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)，請按一下![篩選](/help/search-social-commerce/assets/filter-new.png "篩選")。 您可以使用表格上方的篩選控制項，編輯或移除套用的篩選器。
+
+* 若要在下一個標籤中檢視網路、帳戶、行銷活動或廣告群組的元件，請按一下其名稱。 選取的父項會顯示在表格上方的階層連結中，而適用的篩選器會在您向下鑽研時結轉。 當您切換標籤時，父項選取範圍可能會繼續限制清單。
+
+  若要移除向下展開選取專案（例如網路或帳戶名稱），請按一下表格上方階層連結中元件名稱旁的&#x200B;**[!UICONTROL X]**。 較高層級的父項選取範圍仍可保持有效。 若要返回投資組合中的所有元件，請移除其餘的父項選取範圍以及任何其他篩選器。
+
+* 若要重新整理資料，請按一下![重新整理](/help/search-social-commerce/assets/refresh-new.png "重新整理")。
+
+* （[!UICONTROL Accounts]、[!UICONTROL Campaigns]、[!UICONTROL Ad Groups]和[!UICONTROL Keywords]標籤）若要變更顯示的欄或排序順序，請按一下![自訂欄](/help/search-social-commerce/assets/custom-columns-new.png "自訂欄")和[編輯欄集和排序選項](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)。
+
+
+## 列出產品組合中的廣告網路
+
+* 按一下「**[!UICONTROL Networks]**」標籤。
+
+## 列出投資組合中的帳戶
+
+* 若要檢視投資組合中的所有帳戶，請按一下&#x200B;**[!UICONTROL Accounts]**&#x200B;標籤。
+
+* 若要檢視投資組合中特定網路的帳戶，請按一下&#x200B;**[!UICONTROL Networks]**&#x200B;標籤，然後按一下網路名稱。
+
+## 列出產品組合中的行銷活動
+
+有關每個行銷活動的詳細資訊包括競標策略；實際和預測成本、點按次數和目標值；以及成本、點按次數和目標值準確性。
+
+* 若要檢視產品組合中的所有行銷活動，請按一下「**[!UICONTROL Campaigns]**」標籤。
+
+* 若要檢視產品組合中特定帳戶的促銷活動，請按一下&#x200B;**[!UICONTROL Accounts]**&#x200B;標籤，然後按一下帳戶名稱。
+
+## 列出投資組合中的廣告群組
+
+有關每個廣告群組的詳細資訊包括網路、預設競標、成本、點按數、CPC、曝光數、目標值，以及產品組合目標中所使用的轉換量度。
+
+* 若要檢視投資組合中的所有廣告群組，請按一下「**[!UICONTROL Ad Groups]**」標籤。
+
+* 若要檢視產品組合內行銷活動中的所有廣告群組，請按一下「**[!UICONTROL Campaigns]**」標籤，然後按一下行銷活動名稱。
+
+## 列出和檢視投資組合中關鍵字的相關詳細資訊 {#bid-unit-details}
+
+每個關鍵字的詳細資訊包括競標單位ID、比對型別、實際和預測成本、點按次數和目標值，以及成本、點按次數和目標值差異。 您可以檢視個別關鍵字的競標單位詳細資訊。
+
+1. 列出關鍵字：
+
+   * 若要檢視投資組合中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Keywords]**&#x200B;索引標籤。
+
+   * 若要檢視產品組合內廣告群組中的所有關鍵字，請按一下&#x200B;**[!UICONTROL Ad Groups]**&#x200B;標籤，然後按一下廣告群組名稱。
+
+1. （選擇性）若要檢視特定競標單位的詳細資料，請按一下&#x200B;**[!UICONTROL Bid Unit ID]**&#x200B;欄中的值。 如需詳細資訊，請按一下[!UICONTROL Bid Unit Details]中的任何標籤。
+
+### 檢視和下載個別競標單位的歷史記錄 {#bid-unit-history}
+
+1. [開啟競標單位詳細資料](#bid-unit-details)。
+
+1. 按一下「**[!UICONTROL History]**」標籤。
+
+1. （選擇性）從表格上方的裝置選單中，選取要檢視其歷程記錄的裝置型別。 依預設，會顯示所有裝置的資料。
+
+1. （選擇性）當歷程記錄資料可用時，按一下&#x200B;**[!UICONTROL Export as csv]**&#x200B;下載顯示的歷程記錄。
+
+檔案會依照瀏覽器的正常程式下載。
+
+若要檢視整個產品組合的競標歷程記錄並變更其日期範圍，請參閱[檢視產品組合的競標變更歷程記錄](portfolio-view-change-history.md#portfolio-bid-change-history)。
+
+## 檢視和編輯投資組合設定
+
+* 若要檢視或隱藏投資組合設定，請按一下&#x200B;**[!UICONTROL Portfolio Settings]**。
+
+  * 若要編輯可見的投資組合設定，請按一下設定區段旁的![編輯](/help/search-social-commerce/assets/edit.png "編輯")，然後[編輯投資組合設定](portfolio-edit.md)。
+
+如需產品組合設定的詳細資訊，請參閱最佳化指南，此指南可在Search、Social和Commerce中取得。
+
+## 下載產品組合效能報表和產品組合元件清單
+
+* 若要下載效能報表和元件清單：
+
+  1. 在工具列中按一下&#x200B;**[!UICONTROL Download report]**。
+
+  1. Select每個效能報表旁的核取方塊，以及要包含的組合元件型別。
+
+     可用的投資組合元件為&#x200B;*[!UICONTROL Campaigns table]*、*[!UICONTROL Ad groups table]*&#x200B;和&#x200B;*[!UICONTROL Keywords table]*。 [!UICONTROL Networks]和[!UICONTROL Accounts]資料表未包含在此下載中。
+
+     針對包含兩個選項的效能報表，請選取&#x200B;**[!UICONTROL As chart]**、**[!UICONTROL As table]**&#x200B;或兩者。 [!UICONTROL Network accuracy chart]報告僅可作為圖表使用。
+
+  1. 按一下&#x200B;**[!UICONTROL Download report]**。
+
+* 若要下載包含特定資料型別的[!UICONTROL Model accuracy]報表：
+
+  1. 在[!UICONTROL Model accuracy]的工具列中按一下&#x200B;**[!UICONTROL Download report]**。
+
+  1. Select **[!UICONTROL Cost Accuracy]**、**[!UICONTROL Objective Value Accuracy]**&#x200B;或兩者。
+
+  1. 針對每個選取的資料型別，選取&#x200B;**[!UICONTROL By Bid Unit]**、**[!UICONTROL By Click Volume]**&#x200B;或兩者。
+
+  1. 按一下&#x200B;**[!UICONTROL Download report]**。
+
+>[!MORELIKETHIS]
+>
+>* [（新UI）關於投資組合](portfolio-about.md)
+>* [&#x200B; （新使用者介面）編輯投資組合](portfolio-edit.md)
+>* [&#x200B; （新UI）在[!UICONTROL Portfolios]檢視中下載資料](portfolio-view-report.md)
