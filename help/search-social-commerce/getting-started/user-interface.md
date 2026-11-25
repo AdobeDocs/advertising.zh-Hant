@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # 使用者介面的組織方式
@@ -47,77 +47,77 @@ ht-degree: 0%
 
 * **[!UICONTROL Dashboard]**&#x200B;子功能表：
 
-  * **[!UICONTROL Overview]**&#x200B;開啟可設定的[!UICONTROL Dashboard]檢視，其中包含您所有投資組合的效能視覺效果。
+  * **[!UICONTROL Overview]**&#x200B;將您所有產品組合、產品組合群組或最佳化目標的效能視覺化。
 
-  * **[!UICONTROL Recommendations]**：開啟來自[!DNL Google Ads]和[!DNL Microsoft Advertising]的發行者建議以及來自[!DNL Microsoft Advertising.]的發行者深入分析的唯讀檢視。若要檢視和回應您的建議和深入分析，請使用舊版[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+  * **[!UICONTROL Recommendations]**：列出您來自[!DNL Google Ads]和[!DNL Microsoft Advertising]的發佈者建議，以及來自[!DNL Microsoft Advertising.]的發佈者深入分析您可以選擇套用建議。
 
 * **[!UICONTROL Manage]**&#x200B;子功能表：
 
-  * **[!UICONTROL Portfolios]：**&#x200B;開啟新的[!UICONTROL Portfolios]檢視，其中列出廣告商的所有產品組合。 您可以從此檢視管理您的投資組合。 您可以開啟指派的限制清單，並檢視任何投資組合的績效和組成詳細資訊。
+  * **[!UICONTROL Portfolios]：**&#x200B;列出並管理廣告商的所有產品組合。 您可以開啟指派的限制清單，並檢視任何投資組合的績效和組成詳細資訊。
 
     產品組合設定包含可指派目標和行銷活動、管理支出、管理限制和控制最佳化的標籤。 只有具有「專家最佳化」設定檔或更高版本的使用者才能編輯[!UICONTROL Control Optimization]標籤上的設定。
 
-  * **[!UICONTROL Accounts]**：開啟新的[!UICONTROL Accounts]檢視。 您可以管理透過API連線同步的廣告網路帳戶，或透過資料上傳進行設定。 您也可以管理現有的[!UICONTROL Naver]帳戶。
+  * **[!UICONTROL Networks]**： （唯讀）檢視透過API連線同步或透過資料上傳設定的每個廣告網路與貨幣組合的成本、點按數、每次點按成本(CPC)、曝光數和目標值。
 
-  * **[!UICONTROL Campaigns]：**&#x200B;開啟新的[!UICONTROL Campaigns]檢視，其中顯示廣告商的所有行銷活動。 您可以管理行銷活動、將行銷活動指派給產品組合，以及管理選定行銷活動的限制指派。 您也可以下載資料表格內容的報表。 此外，您可以在[!DNL Microsoft Advertising]、<!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->中復寫[!DNL Google Ads]個行銷活動
+  * **[!UICONTROL Accounts]**：列出並管理透過API連線同步的廣告網路帳戶，或透過資料上傳進行設定的廣告網路帳戶。 您也可以管理現有的[!UICONTROL Naver]帳戶。
 
-  * **[!UICONTROL Ad Groups]：**&#x200B;開啟新的[!UICONTROL Ad Groups]檢視，其中顯示廣告商的所有廣告群組。 您可以管理已選取廣告群組的廣告群組和限制指派。 您也可以下載資料表格內容的報表。
+  * **[!UICONTROL Campaigns]：**&#x200B;列出並管理廣告商的所有行銷活動。 您可以將行銷活動指派給產品組合，並管理選定行銷活動的標籤和限制指派。 此外，您可以在[!DNL Microsoft Advertising]中復寫[!DNL Google Ads]個行銷活動。
 
-  * **[!UICONTROL Ads]**&#x200B;開啟新的[!UICONTROL Ads]檢視，其中顯示廣告商的所有廣告。 您可以管理選定廣告的廣告和限制指派。
+  * **[!UICONTROL Ad Groups]：**&#x200B;列出並管理廣告商的所有廣告群組。 您可以管理所選廣告群組的標籤和限制指派。
 
-  * **[!UICONTROL Keywords]**&#x200B;開啟新的[!UICONTROL Keywords]檢視，其中顯示廣告商的現有關鍵字和負關鍵字。 您可以管理所選關鍵字的限制指定。
+  * **[!UICONTROL Ads]**&#x200B;列出並管理廣告商的所有廣告。 您可以管理所選廣告的標籤和限制指派。
 
-    若要建立、編輯和刪除關鍵字和負關鍵字，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Campaigns]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+  * **[!UICONTROL Keywords]**&#x200B;列出並管理廣告商的現有關鍵字與負面關鍵字。 您可以管理所選關鍵字的標籤和限制指定。
 
-  * **[!UICONTROL Product Groups]**&#x200B;開啟新的[!UICONTROL Keywords]檢視，其中顯示您現有的購物產品群組。 您可以管理您的產品群組，包括限制和標籤指派。
+  * **[!UICONTROL Product Groups]**&#x200B;列出並管理您現有的購物產品群組。 您可以管理所選產品群組的標籤和限制指派。
 
 * **[!UICONTROL Reports]**&#x200B;子功能表：
 
-  * **[!UICONTROL Insights]**：退出新網站並開啟舊版[!UICONTROL Insights & Reports] > [!UICONTROL Insights]檢視。
+  * **[!UICONTROL Insights]**：產生可操作的視覺資料，協助您評估產品組合績效、找出最佳化問題，以及比較轉換資料。
 
-  * **[!UICONTROL Reports]**：開啟新的[!UICONTROL Reports]檢視，讓您產生和管理排程報告。
+  * **[!UICONTROL Reports]**：產生並管理自訂報告和報告範本。
 
-  * **[!UICONTROL Spreadsheet Feeds]**：開啟新的[!UICONTROL Spreadsheets Feeds]檢視，您可從中設定每日更新的報告摘要。
+  * **[!UICONTROL Spreadsheet Feeds]**：檢視並設定要每日更新的報告摘要。
 
-  * **[!UICONTROL History Logs]**：開啟新的[!UICONTROL History Logs]檢視，其中包含有關廣告商帳戶最近變更的詳細資料。
+  * **[!UICONTROL History Logs]**：檢視最近對廣告商帳戶的變更。
 
 * **[!UICONTROL Plan]**&#x200B;子功能表：
 
-  * **[!UICONTROL Simulations]**&#x200B;開啟新的[[!UICONTROL Simulations]檢視](/help/search-social-commerce/plan/simulations/simulation-about.md)，您可以從中檢視所有使用者建立的自訂模擬，以及自動產生的每週模擬；產生新的自訂模擬；以及重新執行現有的模擬。 [!UICONTROL Spend Planner]按鈕會在[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]開啟舊版[!UICONTROL Spend Recommendation]工具。
+  * **[!UICONTROL Simulations]**&#x200B;列出所有使用者建立的自訂模擬，以及自動產生的每週模擬、產生新的自訂模擬，並重新執行現有的模擬。
 
-  * **[!UICONTROL Spend Planner]**&#x200B;退出新網站並開啟舊版[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]檢視。
+  * **[!UICONTROL Spend Planner]**&#x200B;產生並套用產品組合預算建議，以在您的產品組合中取得最佳的支出分配。
 
 * **[!UICONTROL Set Up]**&#x200B;子功能表：
 
-  * **[!UICONTROL Bulksheets]**：開啟新的[!UICONTROL Bulksheets]檢視。
+  * **[!UICONTROL Bulksheets]**：將包含行銷活動資料的Bulksheet檔案下載並上傳至您的廣告網路。
 
-  * **[!UICONTROL Label Classification]**&#x200B;開啟新檢視，以管理分類，並將分類值指派/取消指派至新UI中可用的任何適用帳戶元件。
+  * **[!UICONTROL Label Classification]**&#x200B;列出和管理分類，包括指派/取消指派行銷活動和行銷活動元件的分類值。
 
-  * **[!UICONTROL Manager Accounts]**：開啟新檢視，以列出和管理您廣告網路上的管理員帳戶。
+  * **[!UICONTROL Manager Accounts]**：列出並管理您廣告網路上的管理員帳戶。
 
 * **[!UICONTROL Goals]**&#x200B;子功能表：
 
-  * **[!UICONTROL Objectives]**&#x200B;開啟新檢視，您可以從中檢視所有現有目標，以及建立、編輯和刪除目標。
+  * **[!UICONTROL Objectives]**&#x200B;列出和管理最佳化目標。
 
-  * **[!UICONTROL Conversions]**&#x200B;開啟新檢視，您可以從中檢視廣告商的轉換量度，並自訂可用於管理檢視和報告量度。
+  * **[!UICONTROL Conversions]**&#x200B;列出廣告商的追蹤轉換量度，並自訂可用於管理檢視和報告量度。
 
-  * **[!UICONTROL Conversion Value Rules]**&#x200B;開啟新檢視，以列出及管理[!DNL Google Ads]帳戶的行銷活動層級和帳戶層級的轉換值規則。
+  * **[!UICONTROL Conversion Value Rules]**&#x200B;列出並管理[!DNL Google Ads]帳戶的行銷活動層級與帳戶層級轉換值規則。
 
-  * **[!UICONTROL Constraints]**&#x200B;開啟新檢視以列出和管理競標限制。
+  * **[!UICONTROL Constraints]**&#x200B;列出及管理競標限制。
 
 * **[!UICONTROL Targeting]**&#x200B;子功能表：
 
-  * **[!UICONTROL Audiences]**：開啟新的檢視，以管理廣告商的對象、所有對象目標和所有對象排除。
+  * **[!UICONTROL Audiences]**：列出和管理對象、對象目標和對象排除。
 
-  * **[!UICONTROL Auto Targets]**&#x200B;開啟新檢視，其中顯示廣告商的所有現有自動目標。 若要管理您的自動目標，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Auto Targets]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
+  * **[!UICONTROL Auto Targets]**&#x200B;列出和管理自動目標。 您可以管理所選自動目標的標籤和限制指定。
 
-  * **[!UICONTROL Placements]**&#x200B;開啟新檢視，以列出和管理廣告商的刊登版位和負面的刊登版位。
+  * **[!UICONTROL Placements]**&#x200B;列出並管理您的刊登版位和負面的刊登版位。 您可以管理所選位置的標籤和限制指定。
 
 * **[!UICONTROL Library]**&#x200B;子功能表：
 
-  * **[!UICONTROL Assets]**&#x200B;開啟新檢視，以列出和管理您的創意資產。
+  * **[!UICONTROL Assets]**&#x200B;列出並管理您的創意資產。
 
-  * **[!UICONTROL Extensions]**&#x200B;開啟含有索引標籤的新檢視，以列出和管理您的圖說文字副檔名、網站連結副檔名，以及您的廣告副檔名與帳戶實體之間的關聯。
+  * **[!UICONTROL Extensions]**&#x200B;列出並管理您的圖說文字副檔名、網站連結副檔名，以及廣告副檔名與帳戶實體之間的關聯。
 
   * **[!UICONTROL Products]**&#x200B;開啟您現有商家中心帳戶與產品的唯讀檢視。 若要新增商家中心帳戶，請使用舊版[!UICONTROL Campaigns] > [!UICONTROL Products]檢視。 按一下[[!UICONTROL Switch to Old UI]按鈕](/help/search-social-commerce/getting-started/ui-switch.md)以返回舊版使用者介面。
 
