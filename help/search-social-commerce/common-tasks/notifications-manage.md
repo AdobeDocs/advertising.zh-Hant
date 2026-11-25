@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1760'
 ht-degree: 0%
 ---
 # （新UI）管理通知
@@ -32,6 +32,10 @@ ht-degree: 0%
   啟用推播通知時，會根據瀏覽器的通知慣例顯示。
 
 您可以檢視通知、將通知標示為已讀取或未讀取，以及刪除通知。
+
+>[!NOTE]
+>
+>當[!DNL Meta Ads]帳戶的驗證Token接近到期日且自動Token延伸失敗時，也會傳送電子郵件通知。 這些通知不使用下述通知設定。 如需詳細資訊，請參閱[Meta權杖延伸與到期通知](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#meta-token-expiration)。
 
 ## 通知型別
 
