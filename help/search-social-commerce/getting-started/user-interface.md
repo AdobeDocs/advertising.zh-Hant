@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -179,11 +179,11 @@ Tools > Admin > Data Source Setup
 
 每個頁面的頂端都包含主功能表和其他工作與資訊型功能表。
 
-## 主功能表
+### 主功能表
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — 在Search、Social和Commerce中管理您的廣告網路帳戶，包括Search、Social和Commerce正在追蹤但不競標帳戶。
 
-## [!UICONTROL Search]個功能表
+### [!UICONTROL Search]個功能表
 
 [!UICONTROL Search]選項包含下列子功能表。 您的角色會決定您可用的選項：
 
@@ -199,7 +199,7 @@ Tools > Admin > Data Source Setup
 
 * **[!UICONTROL Admin]** — [!UICONTROL Admin]功能表包含變更資料表格和報表中廣告商轉換量度顯示名稱的選項、設定要與Adobe Audience Manager帳戶同步的設定，以及同步特定[!DNL Google Analytics]帳戶、屬性和檢視組合的轉換量度的選項。 根據您的角色，它可能允許您管理廣告商帳戶、代理帳戶、使用者角色和使用者帳戶。
 
-## 右邊的其他工作與資訊功能表
+### 右邊的其他工作與資訊功能表
 
 * （適用時）您所管理的廣告商可選清單。
 

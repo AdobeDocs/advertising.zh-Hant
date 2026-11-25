@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # （新UI）透過API連線管理廣告網路帳戶
@@ -67,6 +67,22 @@ ht-degree: 0%
 * [在[!UICONTROL Accounts]檢視中檢視效能圖表](#account-performance-graph)
 
 * [從[!UICONTROL Accounts]檢視管理資料檢視報告](#account-reports)
+
+## [!DNL Meta Ads]權杖延伸與到期通知 {#meta-token-expiration}
+
+對於[!DNL Meta Ads]帳戶，搜尋、社交和Commerce會自動嘗試在到期前14天延長驗證Token。 如果擴充功能成功，則不會傳送任何警報，且不需要使用者採取任何動作。
+
+如果擴充功能失敗，[!UICONTROL Accounts]檢視會顯示權杖到期警告，且[!UICONTROL Notification Center]會在到期前7、5、2和1天，將電子郵件通知傳送給有權存取該帳戶的所有使用者。
+
+每封電子郵件都包含：
+
+* 帳戶名稱和權杖到期前的天數。
+
+* 已驗證的使用者名稱和電子郵件地址，讓收件者知道哪些人需要採取行動。
+
+* [的直接連結重新驗證帳戶](#reauthenticate)。
+
+* 權杖過期時將停止運作的功能。
 
 ## 建立廣告網路帳戶詳細資料 {#create-account}
 
@@ -138,7 +154,7 @@ ht-degree: 0%
 
    * （當缺少許可權時）按一下&#x200B;**[!UICONTROL Access Level]**&#x200B;欄中的警告圖示，然後按一下&#x200B;**[!UICONTROL Update Access]**。
 
-   * （從帳戶設定）Select帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**，或將游標停留在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。 在&#x200B;**[!UICONTROL Account Details]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Account Authentication]**&#x200B;中，按一下&#x200B;**[!UICONTROL Re authenticate]**。
+   * （從帳戶設定中）選取帳戶名稱旁的核取方塊，然後按一下大量動作工具列中的&#x200B;**[!UICONTROL Edit]**，或將游標放在帳戶名稱上，按一下&#x200B;**...**，然後按一下&#x200B;**[!UICONTROL Edit]**。 在&#x200B;**[!UICONTROL Account Details]**&#x200B;索引標籤的&#x200B;**[!UICONTROL Account Authentication]**&#x200B;中，按一下&#x200B;**[!UICONTROL Re authenticate]**。
 
 1. 使用廣告商的憑證在快顯視窗中完成登入，並授予要求的帳戶存取許可權。
 
@@ -304,7 +320,7 @@ ht-degree: 0%
 >* 如果您從[!UICONTROL Standard]切換至[!UICONTROL Token] （或反之），則必須重新產生帳戶的追蹤URL。
 >* 您可以在行銷活動層級覆寫帳戶層級設定。
 
-**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=zh-Hant)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
+**[!UICONTROL Auto Update]：** （啟用搜尋、社交和Commerce追蹤時）將追蹤URL標準化，以便跨瀏覽器和伺服器相容。 搜尋、Social和Commerce會在下次同步期間自動將以下內容上傳到廣告網路：(a)追蹤範本的搜尋、Social和Commerce追蹤引數，以及附加至最終URL的相同引數，或(b)內嵌搜尋、Social和Commerce追蹤程式碼的新目的地URL。 對於具有[Adobe Advertising-Adobe Analytics整合](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)和伺服器端AMO ID (s_kwcid)設定的廣告商，上傳也包含您[!DNL Google Ads]和[!DNL Microsoft Advertising]帳戶的[AMO ID引數](/help/integrations/analytics/ids.md#amo-id)。 預設帳戶層級設定繼承自廣告商的追蹤設定。 您可以在行銷活動層級覆寫帳戶層級設定。
 
 追蹤URL只會每天針對不同步的實體更新（亦即已新增的新實體和屬性已變更的現有實體）。 因此，如果您將現有廣告商/帳戶/促銷活動的此設定從「停用」變更為「啟用」，則不會為已同步的現有實體更新追蹤URL。 若要將追蹤新增至現有非同步實體的URL，請連絡您的Adobe客戶團隊，申請一次性手動同步程式。 自動上傳程式會處理日後的變更。
 
@@ -322,7 +338,7 @@ ht-degree: 0%
 
 範例： `param1=value1&param2=value2`
 
-使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的必要尾碼格式。
+使用Adobe Advertising點選追蹤的帳戶必須在尾碼中包含廣告網路的點選識別碼（[!DNL Microsoft Advertising]為`msclkid`； Google為`gclid`）。 具有Adobe Analytics整合的帳戶必須使用AMO ID引數（以`s_kwcid`開頭）。 如果帳戶具有伺服器端AMO ID實作，則當使用者按一下廣告時，引數會自動新增；否則，您必須在此處手動新增。 檢視 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)的[必要尾碼格式和 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)的[必要尾碼格式。
 
 >[!NOTE]
 >
