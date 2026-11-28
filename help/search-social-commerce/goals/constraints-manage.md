@@ -71,7 +71,7 @@ ht-degree: 0%
 
 除了開啟[[!UICONTROL Constraints]檢視](#constraints-view)之外，您還可以透過下列方式檢視限制的相關資訊：
 
-* 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html)的標籤值。
+* 您所有的限制都是名為「[!UICONTROL Constraints]」的單一[標籤分類](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html?lang=zh-Hant)的標籤值。
 
   * &quot;[!UICONTROL Constraints]&quot;包含在預設和自訂檢視設定以及排程報告的&quot;[!UICONTROL Classifications]&quot;清單中。 您可以在想要檢視指定給相關圖元的限制的位置新增欄。
 
